@@ -16,6 +16,7 @@ os.environ.setdefault('ANONYMIZED_TELEMETRY', 'false')
 os.environ.setdefault('BROWSER_USE_CLOUD_SYNC', 'false')
 
 from browser_use import Agent, Browser, ChatOpenAI
+from human_interaction import HumanInteraction, HumanInputCancelled, read_terminal
 
 TASK = (
     '打开 https://books.toscrape.com/ ，通过页面上的 Travel 分类链接进入分类。'
@@ -85,14 +86,21 @@ async def main(args):
             result = {'mode': 'browser-smoke', 'success': success,
                       'url': 'https://books.toscrape.com/', 'title': title}
         else:
+            human = HumanInteraction()
             agent = Agent(
-                task=args.task, llm=llm, browser=browser,
+                task=args.task, llm=llm, browser=browser, tools=human.tools,
+                extend_system_message=(
+                    "缺少用户才能提供的信息时必须调用 ask_human，不要猜测。"
+                    "遇到登录、验证码、密码输入或用户要求亲自操作时，调用 handoff_browser。"
+                    "不要通过 ask_human 索要密码或验证码。人工确认后重新观察页面并验证操作结果。"
+                    "人工交互动作单独执行；信息已知时可直接填表，无需遇到每个输入框都询问。"
+                ),
                 use_vision=False, use_judge=False,
                 max_failures=3, max_actions_per_step=2,
                 llm_timeout=90, step_timeout=150,
                 file_system_path=str(run_dir / 'agent-files'),
             )
-            history = await agent.run(max_steps=args.max_steps)
+            history = await agent.run(max_steps=args.max_steps, on_step_end=human.on_step_end)
             history.save_to_file(run_dir / 'history.json')
             success = history.is_successful() is True
             result = {'mode': 'agent', 'success': success,
@@ -102,7 +110,15 @@ async def main(args):
         (run_dir / 'result.json').write_text(json.dumps(result, ensure_ascii=False, indent=2))
         print(json.dumps(result, ensure_ascii=False, indent=2), flush=True)
         if not args.no_wait:
-            await asyncio.to_thread(input, '\n浏览器保留展示；回到终端按 Enter 关闭。')
+            try:
+                await read_terminal('\n浏览器保留展示；回到终端按 Enter 关闭。')
+            except HumanInputCancelled as exc:
+                print(f'{exc} 已完成的任务结果保留。', flush=True)
+    except HumanInputCancelled as exc:
+        success = False
+        result = {'mode': 'agent', 'success': False, 'cancelled': True, 'reason': str(exc)}
+        (run_dir / 'result.json').write_text(json.dumps(result, ensure_ascii=False, indent=2))
+        print(str(exc), flush=True)
     finally:
         await browser.kill()
     return 0 if success else 1
