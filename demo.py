@@ -16,7 +16,7 @@ os.environ.setdefault('ANONYMIZED_TELEMETRY', 'false')
 os.environ.setdefault('BROWSER_USE_CLOUD_SYNC', 'false')
 
 from browser_use import Agent, Browser, ChatOpenAI
-from human_interaction import HumanInteraction, HumanInputCancelled, read_terminal
+from human_interaction import HumanInteraction, HumanInputCancelled, wait_for_browser
 
 TASK = (
     '打开 https://books.toscrape.com/ ，通过页面上的 Travel 分类链接进入分类。'
@@ -90,9 +90,9 @@ async def main(args):
             agent = Agent(
                 task=args.task, llm=llm, browser=browser, tools=human.tools,
                 extend_system_message=(
-                    "缺少用户才能提供的信息时必须调用 ask_human，不要猜测。"
+                    "缺少用户才能提供的信息时调用 handoff_browser，让用户直接在网页填写或选择，不要猜测。"
                     "遇到登录、验证码、密码输入或用户要求亲自操作时，调用 handoff_browser。"
-                    "不要通过 ask_human 索要密码或验证码。人工确认后重新观察页面并验证操作结果。"
+                    "用户通过页面浮层点击继续后，重新观察页面并验证操作结果。"
                     "人工交互动作单独执行；信息已知时可直接填表，无需遇到每个输入框都询问。"
                 ),
                 use_vision=False, use_judge=False,
@@ -111,7 +111,7 @@ async def main(args):
         print(json.dumps(result, ensure_ascii=False, indent=2), flush=True)
         if not args.no_wait:
             try:
-                await read_terminal('\n浏览器保留展示；回到终端按 Enter 关闭。')
+                await wait_for_browser(browser, str(result.get('result') or '演示已结束，请查看当前页面。'), finished=True)
             except HumanInputCancelled as exc:
                 print(f'{exc} 已完成的任务结果保留。', flush=True)
     except HumanInputCancelled as exc:
