@@ -40,9 +40,12 @@ def make_llm():
     if not key or not model:
         raise ValueError('请在 .env 配置 AT_SETTINGS_PATH，或 OPENAI_API_KEY / MODEL。')
     print(f'模型：{model}', flush=True)
+    deepseek_model = 'deepseek' in model.lower()
     return ChatOpenAI(
         model=model, api_key=key, base_url=base_url,
         temperature=0.2, frequency_penalty=None, reasoning_effort=None,
+        add_schema_to_system_prompt=deepseek_model,
+        dont_force_structured_output=deepseek_model,
         timeout=60, max_retries=1,
     )
 
@@ -90,7 +93,8 @@ async def main(args):
             agent = Agent(
                 task=args.task, llm=llm, browser=browser, tools=human.tools,
                 extend_system_message=(
-                    "缺少用户才能提供的信息时调用 handoff_browser，让用户直接在网页填写或选择，不要猜测。"
+                    "缺少用户才能提供的信息时调用 handoff_browser，并使用 instructions 字段说明用户要做什么，"
+                    "让用户直接在网页填写或选择，不要猜测。"
                     "遇到登录、验证码、密码输入或用户要求亲自操作时，调用 handoff_browser。"
                     "用户通过页面浮层点击继续后，重新观察页面并验证操作结果。"
                     "人工交互动作单独执行；信息已知时可直接填表，无需遇到每个输入框都询问。"
@@ -107,7 +111,9 @@ async def main(args):
                       'task': args.task, 'result': history.final_result(),
                       'steps': len(history.history), 'errors': history.errors()}
         await browser.take_screenshot(path=str(run_dir / 'final.png'), full_page=False)
-        (run_dir / 'result.json').write_text(json.dumps(result, ensure_ascii=False, indent=2))
+        (run_dir / 'result.json').write_text(
+            json.dumps(result, ensure_ascii=False, indent=2), encoding='utf-8'
+        )
         print(json.dumps(result, ensure_ascii=False, indent=2), flush=True)
         if not args.no_wait:
             try:

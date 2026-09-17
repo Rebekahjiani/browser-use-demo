@@ -52,6 +52,16 @@ class HumanTests(unittest.IsolatedAsyncioTestCase):
         ready.set()
         await task
 
+    async def test_handoff_accepts_model_parameter_aliases(self):
+        human = HumanInteraction(waiter=AsyncMock())
+        for payload, expected in (
+            ({'message': '请完成登录'}, '请完成登录'),
+            ({'text': '请完成验证'}, '请完成验证'),
+            ({}, '请直接在当前网页完成登录或安全验证，不要代填输入框；完成后点击继续执行。'),
+        ):
+            await human.tools.registry.execute_action('handoff_browser', payload)
+            self.assertEqual(human.pending, expected)
+
     async def test_cancel_does_not_claim_success(self):
         human = HumanInteraction(waiter=AsyncMock(side_effect=HumanInputCancelled('cancel')))
         result = await human.tools.registry.execute_action('handoff_browser', {'instructions': '登录'})

@@ -1,30 +1,83 @@
-# browser-use 有头浏览器演示
+# browser-use 自动操作浏览器演示
 
 部署与验证日期：2026-09-14。本机 macOS / Apple Silicon，Python 3.12.12，browser-use 0.13.10，调用本机 Google Chrome。
 
 ## 安装与启动
 
-需要安装 uv、Python 3.12 和 Google Chrome。首次克隆后在终端运行：
+### 1. 准备环境
 
-```bash
+需要 Python 3.12 + Google Chrome。Windows 下推荐直接使用 venv，不依赖 uv。
+
+```powershell
 git clone https://github.com/Rebekahjiani/browser-use-demo.git
 cd browser-use-demo
-uv venv --python 3.12 .venv
-uv pip install --python .venv/bin/python -r requirements.txt
-cp .env.example .env
+py -3.12 -m venv .venv
+.\.venv\Scripts\python.exe -m pip install --upgrade pip
+.\.venv\Scripts\python.exe -m pip install -r requirements.txt
+Copy-Item .env.example .env
 ```
 
-编辑 `.env`，选择现有 ArtifactTrace 配置文件，或填写自己的 OpenAI 兼容服务配置。配置完成后启动：
+### 2. 配置环境变量
 
-```bash
-./start.sh
+优先推荐使用 `.env` 中的 OpenAI 兼容配置，便于与其他项目集成：
+
+```dotenv
+OPENAI_API_KEY=your-api-key
+OPENAI_BASE_URL=https://your-gateway/v1
+MODEL=your-model-id
+BROWSER_EXECUTABLE_PATH=C:/Program Files/Google/Chrome/Application/chrome.exe
+ANONYMIZED_TELEMETRY=false
+BROWSER_USE_CLOUD_SYNC=false
 ```
 
-已安装好的本机副本可直接运行 `./start.sh`，无需重复复制 `.env`。
+如果你已经有 ArtifactTrace 的配置文件，也可以改为：
 
-无需激活虚拟环境。脚本自动使用本目录 `.venv` 中的 Python。
+```dotenv
+AT_SETTINGS_PATH=C:/path/to/settings.json
+```
+
+`AT_SETTINGS_PATH` 会优先覆盖直接的 `OPENAI_API_KEY` / `MODEL`，所以如果你要直接在其他项目中复用这个 demo，建议把真实 API Key 写进 `.env`，并保持 `AT_SETTINGS_PATH` 为空或注释掉。
+
+### 3. 启动演示
+
+Windows PowerShell：
+
+```powershell
+cd C:\Users\bulin\browser-use-demo
+.\.venv\Scripts\python.exe demo.py
+```
+
+或直接跑 smoke 测试，验证浏览器可用：
+
+```powershell
+cd C:\Users\bulin\browser-use-demo
+.\.venv\Scripts\python.exe demo.py --smoke --no-wait
+```
+
+自定义任务：
+
+```powershell
+.\.venv\Scripts\python.exe demo.py --task "打开 https://books.toscrape.com/，先进入 Travel 分类，再比较书价并给出最便宜书名。" --max-steps 15
+```
 
 你会看到一个独立演示用 Chrome 窗口，agent 在窗口中打开 Books to Scrape，点击 Travel 分类，比较书价，打开最低价书籍并返回中文结果。终端显示每步动作。任务结束后窗口保留，点击页面右下角的“关闭演示”结束；Ctrl+C 也可中断。请串行运行演示，避免多个进程争用同一演示 profile。
+
+### 4. 作为其他项目的集成配置
+
+这个 demo 最适合以“单独的 Python 运行环境 + `.env` 配置文件”的方式复用。其他项目可以直接复制 `.env` 模板，写好自己的 `OPENAI_API_KEY`、`OPENAI_BASE_URL` 和 `MODEL`，再通过子进程调用：
+
+```python
+import subprocess
+
+subprocess.run([
+    "C:/Users/bulin/browser-use-demo/.venv/Scripts/python.exe",
+    "C:/Users/bulin/browser-use-demo/demo.py",
+    "--task",
+    "打开 https://books.toscrape.com/ 并给出最便宜图书信息",
+], check=True)
+```
+
+这样不会把真实凭据硬编码进业务代码，后续只需要更新 `.env` 即可。
 
 这是由模型实际决定操作的 agent 演示，脚本没有写死分类链接、商品链接和答案。默认任务只是自然语言目标；更换模型或网络状态可能改变步骤数和耗时。
 

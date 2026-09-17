@@ -5,7 +5,7 @@ import uuid
 
 from browser_use import ActionResult, Tools
 
-PANEL_SCRIPT = Path(__file__).with_name('handoff_panel.js').read_text()
+PANEL_SCRIPT = Path(__file__).with_name('handoff_panel.js').read_text(encoding='utf-8')
 
 
 class HumanInputCancelled(Exception):
@@ -46,13 +46,17 @@ class HumanInteraction:
         self.tools = Tools()
 
         @self.tools.action(
-            'Pause and hand the visible browser to the user. Explain what the user should '
-            'fill in, select or complete on the website. The user clicks Continue in an '
-            'on-page panel when ready. Use for missing information, login and manual steps.',
+            'Pause and hand the visible browser to the user. Use this for login, verification, '
+            'or any manual step. Pass the explanation in instructions. The aliases message and '
+            'text are also accepted for compatibility; do not fill the page yourself.',
             terminates_sequence=True,
         )
-        async def handoff_browser(instructions: str) -> ActionResult:
-            self.pending = instructions
+        async def handoff_browser(
+            instructions: str = '', message: str = '', text: str = ''
+        ) -> ActionResult:
+            self.pending = instructions or message or text or (
+                '请直接在当前网页完成登录或安全验证，不要代填输入框；完成后点击继续执行。'
+            )
             return ActionResult(extracted_content='Waiting for the user to operate the browser.')
 
     async def on_step_end(self, agent):

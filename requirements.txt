@@ -1,2 +1,7 @@
+# browser-use demo runtime
 browser-use==0.13.10
 python-dotenv==1.2.2
+
+# 如果你要把这个 demo 集成到别的 Python 项目中，推荐保留这两个依赖：
+# - browser-use: 负责浏览器自动化与 Agent 回调
+# - python-dotenv: 让 .env 配置文件在本地运行时生效
