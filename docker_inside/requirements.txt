@@ -1,0 +1,3 @@
+browser-use==0.13.10
+# Used only by the optional local manual_login.py helper.
+python-dotenv==1.2.2

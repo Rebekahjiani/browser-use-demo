@@ -20,7 +20,8 @@ async def wait_for_browser(browser, instructions, finished=False):
             page = await browser.get_current_page()
             if page is None:
                 raise HumanInputCancelled('演示浏览器已关闭。')
-            response = await page.evaluate(PANEL_SCRIPT, token, instructions, finished)
+            panel_script = f'(...args) => ({PANEL_SCRIPT})(...args)'
+            response = await page.evaluate(panel_script, token, instructions, finished)
             failures = 0
         except HumanInputCancelled:
             raise

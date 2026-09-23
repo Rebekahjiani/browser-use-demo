@@ -7,3 +7,14 @@ __pycache__/
 .DS_Store
 .env.*
 !.env.example
+
+# Local browser sessions and generated release/test archives.
+chrome-profiles/
+.browser-profile-docker/
+verification-login-prompt/
+zip-review/
+*-release-*.zip
+*-test-*.zip
+*-login-*.zip
+browser-use-demo-release.zip
+*.zip
