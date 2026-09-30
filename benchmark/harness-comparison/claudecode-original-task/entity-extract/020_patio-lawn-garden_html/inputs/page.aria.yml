@@ -1,0 +1,554 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e5]:
+      - list [ref=e6]:
+        - listitem [ref=e7]:
+          - link "My Account" [ref=e8] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/customer/account/
+        - listitem [ref=e9]:
+          - link "My Wish List" [ref=e10] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/wishlist/
+        - listitem [ref=e11]:
+          - link "Sign In" [ref=e12] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/customer/account/login/
+        - listitem [ref=e13]:
+          - link "Compare Products 4 items" [ref=e14] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/catalog/product_compare/index/uenc/aHR0cDovLzEyNy4wLjAuMTo3NzcwL2N1c3RvbWVyL3NlY3Rpb24vbG9hZC8_c2VjdGlvbnM9Y29tcGFyZS1wcm9kdWN0cyUyQ21lc3NhZ2VzJmZvcmNlX25ld19zZWN0aW9uX3RpbWVzdGFtcD1mYWxzZSZfPTE3OTA1NjM2NzEwODM~/
+        - listitem [ref=e15]: Welcome to One Stop Market
+        - listitem [ref=e16]:
+          - link "Create an Account" [ref=e17] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/customer/account/create/
+      - link "Skip to Content" [ref=e18] [cursor=pointer]:
+        - /url: "#contentarea"
+    - generic [ref=e19]:
+      - text: 
+      - link "store logo" [ref=e20] [cursor=pointer]:
+        - /url: http://127.0.0.1:7770/
+        - img "one_stop_market_logo" [ref=e21]
+      - generic [ref=e22]:
+        - link " My Cart 3 3 items" [ref=e23] [cursor=pointer]:
+          - /url: http://127.0.0.1:7770/checkout/cart/
+          - text: 
+          - generic [ref=e24]: My Cart
+          - generic [ref=e25]:
+            - generic [ref=e26]: "3"
+            - generic [ref=e27]: 3 items
+        - text: " : :   :   :  "
+      - generic [ref=e30]:
+        - generic [ref=e31]:
+          - generic [ref=e32]:
+            - text: 
+            - generic [ref=e33]: Search
+          - generic [ref=e34]:
+            - combobox " Search" [ref=e35]
+            - link "Advanced Search" [ref=e37] [cursor=pointer]:
+              - /url: http://127.0.0.1:7770/catalogsearch/advanced/
+        - generic:
+          - button "Search" [disabled]:
+            - text: 
+            - generic: Search
+  - tablist [ref=e39]:
+    - tabpanel [ref=e40]:
+      - navigation [ref=e41]:
+        - menu [ref=e42]:
+          - listitem [ref=e43]:
+            - menuitem " Beauty & Personal Care" [ref=e44] [cursor=pointer]:
+              - generic [ref=e45]: 
+              - text: Beauty & Personal Care
+            - text:          
+          - listitem [ref=e46]:
+            - menuitem " Sports & Outdoors" [ref=e47] [cursor=pointer]:
+              - generic [ref=e48]: 
+              - text: Sports & Outdoors
+            - text:   
+          - listitem [ref=e49]:
+            - menuitem " Clothing, Shoes & Jewelry" [ref=e50] [cursor=pointer]:
+              - generic [ref=e51]: 
+              - text: Clothing, Shoes & Jewelry
+            - text:    
+          - listitem [ref=e52]:
+            - menuitem " Home & Kitchen" [ref=e53] [cursor=pointer]:
+              - generic [ref=e54]: 
+              - text: Home & Kitchen
+            - text:       
+          - listitem [ref=e55]:
+            - menuitem " Office Products" [ref=e56] [cursor=pointer]:
+              - generic [ref=e57]: 
+              - text: Office Products
+            - text:   
+          - listitem [ref=e58]:
+            - menuitem " Tools & Home Improvement" [ref=e59] [cursor=pointer]:
+              - generic [ref=e60]: 
+              - text: Tools & Home Improvement
+            - text: 
+          - listitem [ref=e61]:
+            - menuitem " Health & Household" [ref=e62] [cursor=pointer]:
+              - generic [ref=e63]: 
+              - text: Health & Household
+            - text:  
+          - listitem [ref=e64]:
+            - menuitem " Patio, Lawn & Garden" [ref=e65] [cursor=pointer]:
+              - generic [ref=e66]: 
+              - text: Patio, Lawn & Garden
+            - text: 
+          - listitem [ref=e67]:
+            - menuitem " Electronics" [ref=e68] [cursor=pointer]:
+              - generic [ref=e69]: 
+              - text: Electronics
+            - text:            
+          - listitem [ref=e70]:
+            - menuitem " Cell Phones & Accessories" [ref=e71] [cursor=pointer]:
+              - generic [ref=e72]: 
+              - text: Cell Phones & Accessories
+            - text:  
+          - listitem [ref=e73]:
+            - menuitem " Video Games" [ref=e74] [cursor=pointer]:
+              - generic [ref=e75]: 
+              - text: Video Games
+            - text:    
+          - listitem [ref=e76]:
+            - menuitem " Grocery & Gourmet Food" [ref=e77] [cursor=pointer]:
+              - generic [ref=e78]: 
+              - text: Grocery & Gourmet Food
+            - text:             
+  - list [ref=e80]:
+    - listitem [ref=e81]:
+      - link "Home" [ref=e82] [cursor=pointer]:
+        - /url: http://127.0.0.1:7770/
+      - text: 
+    - listitem [ref=e83]:
+      - strong [ref=e84]: Patio, Lawn & Garden
+  - main [ref=e85]:
+    - heading "Patio, Lawn & Garden Items 1-12 of 320" [level=1] [ref=e87]: Patio, Lawn & Garden
+    - generic [ref=e88]:
+      - generic [ref=e89]:
+        - generic [ref=e90]:
+          - generic [ref=e91]:
+            - strong [ref=e92]: View as
+            - strong [ref=e93]:
+              - text: 
+              - generic [ref=e94]: Grid
+            - link "View as  List" [ref=e95] [cursor=pointer]:
+              - /url: "#"
+              - text: 
+              - generic [ref=e96]: List
+          - paragraph [ref=e97]: Items 1-12 of 320
+          - generic [ref=e98]:
+            - text: Sort By
+            - combobox "Sort By" [ref=e99]:
+              - option "Position" [selected]
+              - option "Product Name"
+              - option "Price"
+            - link " Set Descending Direction" [ref=e100] [cursor=pointer]:
+              - /url: "#"
+              - text: 
+              - generic [ref=e101]: Set Descending Direction
+        - list [ref=e103]:
+          - listitem [ref=e104]:
+            - generic [ref=e105]:
+              - link "Image" [ref=e106] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/outdoor-patio-folding-side-table-square-metal-end-table-portable-small-bistro-coffee-table-green.html
+                - img "Image" [ref=e109]
+              - generic [ref=e110]:
+                - strong [ref=e111]:
+                  - link "Outdoor Patio Folding Side Table Square Metal End Table, Portable Small Bistro Coffee Table, Green" [ref=e112] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/outdoor-patio-folding-side-table-square-metal-end-table-portable-small-bistro-coffee-table-green.html
+                - generic [ref=e113]:
+                  - generic [ref=e114]:
+                    - generic [ref=e115]: "Rating:"
+                    - generic "82%" [ref=e116]:
+                      - text: 
+                      - generic [ref=e117]:
+                        - text: 
+                        - generic [ref=e118]: 82%
+                  - link "12 Reviews" [ref=e120] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/outdoor-patio-folding-side-table-square-metal-end-table-portable-small-bistro-coffee-table-green.html#reviews
+                - generic [ref=e123]: $49.99
+                - generic [ref=e125]:
+                  - button "Add to Cart" [ref=e128] [cursor=pointer]
+                  - generic [ref=e129]:
+                    - button "Add to Wish List" [ref=e130] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e131]: Add to Wish List
+                    - button "Add to Compare" [ref=e132] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e133]: Add to Compare
+          - listitem [ref=e134]:
+            - generic [ref=e135]:
+              - link "Image" [ref=e136] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/shop-succulents-assorted-collection-of-live-air-plants-hand-selected-variety-pack-of-air-succulents-collection-of-6.html
+                - img "Image" [ref=e139]
+              - generic [ref=e140]:
+                - strong [ref=e141]:
+                  - link "Shop Succulents | Assorted Collection of Live Air Plants, Hand Selected Variety Pack of Air Succulents | Collection of 6" [ref=e142] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/shop-succulents-assorted-collection-of-live-air-plants-hand-selected-variety-pack-of-air-succulents-collection-of-6.html
+                - generic [ref=e145]: $21.96
+                - generic [ref=e147]:
+                  - button "Add to Cart" [ref=e150] [cursor=pointer]
+                  - generic [ref=e151]:
+                    - button "Add to Wish List" [ref=e152] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e153]: Add to Wish List
+                    - button "Add to Compare" [ref=e154] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e155]: Add to Compare
+          - listitem [ref=e156]:
+            - generic [ref=e157]:
+              - link "Image" [ref=e158] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/enevotx-front-door-side-window-covering-alligator-and-cactus-decor-for-front-door-durable-fabric-decor-for-door-multi-size-door-protector-for-bedroom-home-kitchen-party-decoration.html
+                - img "Image" [ref=e161]
+              - generic [ref=e162]:
+                - strong [ref=e163]:
+                  - link "ENEVOTX Front Door Side Window Covering Alligator and Cactus Decor for Front Door Durable Fabric Decor for Door Multi Size Door Protector for Bedroom Home Kitchen Party Decoration" [ref=e164] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/enevotx-front-door-side-window-covering-alligator-and-cactus-decor-for-front-door-durable-fabric-decor-for-door-multi-size-door-protector-for-bedroom-home-kitchen-party-decoration.html
+                - generic [ref=e167]: $38.00
+                - generic [ref=e169]:
+                  - button "Add to Cart" [ref=e172] [cursor=pointer]
+                  - generic [ref=e173]:
+                    - button "Add to Wish List" [ref=e174] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e175]: Add to Wish List
+                    - button "Add to Compare" [ref=e176] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e177]: Add to Compare
+          - listitem [ref=e178]:
+            - generic [ref=e179]:
+              - link "Image" [ref=e180] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/sunsitt-3-piece-wicker-outdoor-bistro-table-set-patio-furniture-set-outdoor-storage-table-and-chairs-with-beige-cushion-brown-rattan.html
+                - img "Image" [ref=e183]
+              - generic [ref=e184]:
+                - strong [ref=e185]:
+                  - link "SUNSITT 3-Piece Wicker Outdoor Bistro Table Set Patio Furniture Set Outdoor Storage Table and Chairs with Beige Cushion, Brown Rattan" [ref=e186] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/sunsitt-3-piece-wicker-outdoor-bistro-table-set-patio-furniture-set-outdoor-storage-table-and-chairs-with-beige-cushion-brown-rattan.html
+                - generic [ref=e189]: $219.99
+                - generic [ref=e191]:
+                  - button "Add to Cart" [ref=e194] [cursor=pointer]
+                  - generic [ref=e195]:
+                    - button "Add to Wish List" [ref=e196] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e197]: Add to Wish List
+                    - button "Add to Compare" [ref=e198] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e199]: Add to Compare
+          - listitem [ref=e200]:
+            - generic [ref=e201]:
+              - link "Image" [ref=e202] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/compare-n-save-concentrate-indoor-and-outdoor-insect-control-16-ounce.html
+                - img "Image" [ref=e205]
+              - generic [ref=e206]:
+                - strong [ref=e207]:
+                  - link "Compare-N-Save Concentrate Indoor and Outdoor Insect Control, 16-Ounce" [ref=e208] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/compare-n-save-concentrate-indoor-and-outdoor-insect-control-16-ounce.html
+                - generic [ref=e211]: $19.95
+                - generic [ref=e213]:
+                  - button "Add to Cart" [ref=e216] [cursor=pointer]
+                  - generic [ref=e217]:
+                    - button "Add to Wish List" [ref=e218] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e219]: Add to Wish List
+                    - button "Add to Compare" [ref=e220] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e221]: Add to Compare
+          - listitem [ref=e222]:
+            - generic [ref=e223]:
+              - link "Image" [ref=e224] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/drill-till-3-tools-in-1-the-smartest-gardening-tool-for-weeding-tilling-and-bulb-planting-includes-hole-digger-weeder-tiller-2-rods-for-use-with-cordless-drill-screwdriver-not-included.html
+                - img "Image" [ref=e227]
+              - generic [ref=e228]:
+                - strong [ref=e229]:
+                  - link "Drill Till, 3 Tools in 1, The Smartest Gardening Tool for Weeding,Tilling and Bulb Planting|Includes Hole Digger, Weeder, Tiller &2 Rods|for Use with Cordless Drill/Screwdriver(not Included)" [ref=e230] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/drill-till-3-tools-in-1-the-smartest-gardening-tool-for-weeding-tilling-and-bulb-planting-includes-hole-digger-weeder-tiller-2-rods-for-use-with-cordless-drill-screwdriver-not-included.html
+                - generic [ref=e233]: $29.95
+                - generic [ref=e235]:
+                  - button "Add to Cart" [ref=e238] [cursor=pointer]
+                  - generic [ref=e239]:
+                    - button "Add to Wish List" [ref=e240] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e241]: Add to Wish List
+                    - button "Add to Compare" [ref=e242] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e243]: Add to Compare
+          - listitem [ref=e244]:
+            - generic [ref=e245]:
+              - link "Image" [ref=e246] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/sunset-jade-plant-crassula-easy-to-grow-house-plant-4-pot.html
+                - img "Image" [ref=e249]
+              - generic [ref=e250]:
+                - strong [ref=e251]:
+                  - link "Sunset Jade Plant - Crassula - Easy to Grow House Plant - 4\" Pot" [ref=e252] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/sunset-jade-plant-crassula-easy-to-grow-house-plant-4-pot.html
+                - generic [ref=e255]: $12.50
+                - generic [ref=e257]:
+                  - button "Add to Cart" [ref=e260] [cursor=pointer]
+                  - generic [ref=e261]:
+                    - button "Add to Wish List" [ref=e262] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e263]: Add to Wish List
+                    - button "Add to Compare" [ref=e264] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e265]: Add to Compare
+          - listitem [ref=e266]:
+            - generic [ref=e267]:
+              - link "Image" [ref=e268] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/synthetic-rattan-woven-material-plastic-rattan-furniture-for-weaving-and-repairing-tables-and-chairs-storage-basket-ect-500-g.html
+                - img "Image" [ref=e271]
+              - generic [ref=e272]:
+                - strong [ref=e273]:
+                  - link "Synthetic Rattan Woven Material, Plastic Rattan Furniture for Weaving and Repairing Tables and Chairs, Storage Basket, Ect (500 G)" [ref=e274] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/synthetic-rattan-woven-material-plastic-rattan-furniture-for-weaving-and-repairing-tables-and-chairs-storage-basket-ect-500-g.html
+                - generic [ref=e277]: $17.99
+                - generic [ref=e279]:
+                  - button "Add to Cart" [ref=e282] [cursor=pointer]
+                  - generic [ref=e283]:
+                    - button "Add to Wish List" [ref=e284] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e285]: Add to Wish List
+                    - button "Add to Compare" [ref=e286] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e287]: Add to Compare
+          - listitem [ref=e288]:
+            - generic [ref=e289]:
+              - link "Image" [ref=e290] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/mmqq-beige-bar-chairs-outdoor-patio-wicker-rattan-barstools-chair-with-footrest-back-counter-height-kitchen-stools-with-black-metal-leg-for-kitchen-pub-cafe.html
+                - img "Image" [ref=e293]
+              - generic [ref=e294]:
+                - strong [ref=e295]:
+                  - link "MMQQ Beige Bar Chairs Outdoor Patio Wicker Rattan Barstools Chair with Footrest & Back, Counter Height Kitchen Stools with Black Metal Leg, for Kitchen/Pub/Café" [ref=e296] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/mmqq-beige-bar-chairs-outdoor-patio-wicker-rattan-barstools-chair-with-footrest-back-counter-height-kitchen-stools-with-black-metal-leg-for-kitchen-pub-cafe.html
+                - generic [ref=e299]: $207.75
+                - generic [ref=e301]:
+                  - button "Add to Cart" [ref=e304] [cursor=pointer]
+                  - generic [ref=e305]:
+                    - button "Add to Wish List" [ref=e306] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e307]: Add to Wish List
+                    - button "Add to Compare" [ref=e308] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e309]: Add to Compare
+          - listitem [ref=e310]:
+            - generic [ref=e311]:
+              - link "Image" [ref=e312] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/airmax-pond-dye-4x-concentrated-liquid-pond-colorant-shades-and-protects-your-pond-treats-up-to-1-acre-nature-s-blue.html
+                - img "Image" [ref=e315]
+              - generic [ref=e316]:
+                - strong [ref=e317]:
+                  - link "Airmax Pond Dye 4X Concentrated Liquid Pond Colorant – Shades and Protects Your Pond, Treats up to 1 Acre – Nature’s Blue" [ref=e318] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/airmax-pond-dye-4x-concentrated-liquid-pond-colorant-shades-and-protects-your-pond-treats-up-to-1-acre-nature-s-blue.html
+                - generic [ref=e321]: $24.99
+                - generic [ref=e323]:
+                  - button "Add to Cart" [ref=e326] [cursor=pointer]
+                  - generic [ref=e327]:
+                    - button "Add to Wish List" [ref=e328] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e329]: Add to Wish List
+                    - button "Add to Compare" [ref=e330] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e331]: Add to Compare
+          - listitem [ref=e332]:
+            - generic [ref=e333]:
+              - link "Image" [ref=e334] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/down-to-earth-organic-all-purpose-fertilizer-mix-4-6-2-25-lb.html
+                - img "Image" [ref=e337]
+              - generic [ref=e338]:
+                - strong [ref=e339]:
+                  - link "Down To Earth Organic All Purpose Fertilizer Mix 4-6-2, 25 lb" [ref=e340] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/down-to-earth-organic-all-purpose-fertilizer-mix-4-6-2-25-lb.html
+                - generic [ref=e343]: $54.97
+                - generic [ref=e345]:
+                  - button "Add to Cart" [ref=e348] [cursor=pointer]
+                  - generic [ref=e349]:
+                    - button "Add to Wish List" [ref=e350] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e351]: Add to Wish List
+                    - button "Add to Compare" [ref=e352] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e353]: Add to Compare
+          - listitem [ref=e354]:
+            - generic [ref=e355]:
+              - link "Image" [ref=e356] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/american-plant-exchange-windmill-cold-hardy-palm-tree-live-plant-4-pot-indoor-outdoor-use.html
+                - img "Image" [ref=e359]
+              - generic [ref=e360]:
+                - strong [ref=e361]:
+                  - link "American Plant Exchange Windmill Cold Hardy Palm Tree Live Plant, 4\" Pot, Indoor Outdoor Use" [ref=e362] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/american-plant-exchange-windmill-cold-hardy-palm-tree-live-plant-4-pot-indoor-outdoor-use.html
+                - generic [ref=e365]: $21.96
+                - generic [ref=e367]:
+                  - button "Add to Cart" [ref=e370] [cursor=pointer]
+                  - generic [ref=e371]:
+                    - button "Add to Wish List" [ref=e372] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e373]: Add to Wish List
+                    - button "Add to Compare" [ref=e374] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e375]: Add to Compare
+        - generic [ref=e376]:
+          - generic [ref=e377]:
+            - strong [ref=e378]: Page
+            - list "Page" [ref=e379]:
+              - listitem [ref=e380]:
+                - strong [ref=e381]:
+                  - generic [ref=e382]: You're currently reading page
+                  - text: "1"
+              - listitem [ref=e383]:
+                - link "Page 2" [ref=e384] [cursor=pointer]:
+                  - /url: http://127.0.0.1:7770/patio-lawn-garden.html?p=2
+                  - generic [ref=e385]: Page
+                  - text: "2"
+              - listitem [ref=e386]:
+                - link "Page 3" [ref=e387] [cursor=pointer]:
+                  - /url: http://127.0.0.1:7770/patio-lawn-garden.html?p=3
+                  - generic [ref=e388]: Page
+                  - text: "3"
+              - listitem [ref=e389]:
+                - link "Page 4" [ref=e390] [cursor=pointer]:
+                  - /url: http://127.0.0.1:7770/patio-lawn-garden.html?p=4
+                  - generic [ref=e391]: Page
+                  - text: "4"
+              - listitem [ref=e392]:
+                - link "Page 5" [ref=e393] [cursor=pointer]:
+                  - /url: http://127.0.0.1:7770/patio-lawn-garden.html?p=5
+                  - generic [ref=e394]: Page
+                  - text: "5"
+              - listitem [ref=e395]:
+                - link " Page Next" [ref=e396] [cursor=pointer]:
+                  - /url: http://127.0.0.1:7770/patio-lawn-garden.html?p=2
+                  - text: 
+                  - generic [ref=e397]: Page
+                  - generic [ref=e398]: Next
+          - generic [ref=e399]:
+            - generic [ref=e400]: Show
+            - combobox "Show" [ref=e402]:
+              - option "12" [selected]
+              - option "24"
+              - option "36"
+            - text: per page
+      - generic [ref=e404]:
+        - strong [ref=e406]: Shop By
+        - generic [ref=e407]:
+          - heading "Shopping Options" [level=2] [ref=e408]
+          - generic [ref=e409]:
+            - heading "Category" [level=3] [ref=e410]
+            - definition [ref=e411]:
+              - list [ref=e412]:
+                - listitem [ref=e413]:
+                  - link "Gardening & Lawn Care( 168 item )" [ref=e414] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/patio-lawn-garden.html?cat=44
+                    - text: Gardening & Lawn Care
+                    - generic [ref=e415]:
+                      - text: ( 168
+                      - generic [ref=e416]: item
+                      - text: )
+                - listitem [ref=e417]:
+                  - link "Patio Furniture & Accessories( 92 item )" [ref=e418] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/patio-lawn-garden.html?cat=50
+                    - text: Patio Furniture & Accessories
+                    - generic [ref=e419]:
+                      - text: ( 92
+                      - generic [ref=e420]: item
+                      - text: )
+            - heading "Price" [level=3] [ref=e421]
+            - definition [ref=e422]:
+              - list [ref=e423]:
+                - listitem [ref=e424]:
+                  - link "$0.00 - $999.99( 311 item )" [ref=e425] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/patio-lawn-garden.html?price=0-1000
+                    - text: $0.00 - $999.99
+                    - generic [ref=e426]:
+                      - text: ( 311
+                      - generic [ref=e427]: item
+                      - text: )
+                - listitem [ref=e428]:
+                  - link "$1,000.00 - $1,999.99( 8 item )" [ref=e429] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/patio-lawn-garden.html?price=1000-2000
+                    - text: $1,000.00 - $1,999.99
+                    - generic [ref=e430]:
+                      - text: ( 8
+                      - generic [ref=e431]: item
+                      - text: )
+                - listitem [ref=e432]:
+                  - link "$3,000.00 and above( 1 item )" [ref=e433] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/patio-lawn-garden.html?price=3000-4000
+                    - text: $3,000.00 and above
+                    - generic [ref=e434]:
+                      - text: ( 1
+                      - generic [ref=e435]: item
+                      - text: )
+      - generic [ref=e436]:
+        - generic [ref=e437]:
+          - generic [ref=e438]:
+            - heading "Compare Products" [level=2] [ref=e439]
+            - text: 4 items
+          - generic "Compare Products" [ref=e440]:
+            - list [ref=e441]:
+              - listitem [ref=e442]:
+                - strong [ref=e443]:
+                  - link "Reef Men's Twinpin Prints Sandals" [ref=e444] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/reef-men-s-twinpin-prints-sandals.html
+                - link " Remove This Item" [ref=e445] [cursor=pointer]:
+                  - /url: "#"
+                  - text: 
+                  - generic [ref=e446]: Remove This Item
+              - listitem [ref=e447]:
+                - strong [ref=e448]:
+                  - link "Multi Accessory Hub Adapter By JOBY – Get The Right Set Up For Your Vision By Attaching All The GoPro Accessories You Need In One Central Spot" [ref=e449] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/multi-accessory-hub-adapter-by-joby-get-the-right-set-up-for-your-vision-by-attaching-all-the-gopro-accessories-you-need-in-one-central-spot.html
+                - link " Remove This Item" [ref=e450] [cursor=pointer]:
+                  - /url: "#"
+                  - text: 
+                  - generic [ref=e451]: Remove This Item
+              - listitem [ref=e452]:
+                - strong [ref=e453]:
+                  - link "linxiaojix Waterproof Shell for Osmo Pocket, Camera Case Camera Cover Diving Cover for Osmo Pocket, 60M Waterproof for Travel Trip" [ref=e454] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/linxiaojix-waterproof-shell-for-osmo-pocket-camera-case-camera-cover-diving-cover-for-osmo-pocket-60m-waterproof-for-travel-trip.html
+                - link " Remove This Item" [ref=e455] [cursor=pointer]:
+                  - /url: "#"
+                  - text: 
+                  - generic [ref=e456]: Remove This Item
+              - listitem [ref=e457]:
+                - strong [ref=e458]:
+                  - 'link "Q Mixers Premium Ginger Ale: Real Ingredients & Less Sweet, 6.7 Fl Oz (24 Bottles)" [ref=e459] [cursor=pointer]':
+                    - /url: http://127.0.0.1:7770/q-mixers-premium-ginger-ale-real-ingredients-less-sweet-6-7-fl-oz-24-bottles.html
+                - link " Remove This Item" [ref=e460] [cursor=pointer]:
+                  - /url: "#"
+                  - text: 
+                  - generic [ref=e461]: Remove This Item
+            - generic [ref=e462]:
+              - link "Compare" [ref=e464] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/catalog/product_compare/index/uenc/aHR0cDovLzEyNy4wLjAuMTo3NzcwL2N1c3RvbWVyL3NlY3Rpb24vbG9hZC8_c2VjdGlvbnM9Y29tcGFyZS1wcm9kdWN0cyUyQ21lc3NhZ2VzJmZvcmNlX25ld19zZWN0aW9uX3RpbWVzdGFtcD1mYWxzZSZfPTE3OTA1NjM2NzEwODM~/
+              - link "Clear All" [ref=e466] [cursor=pointer]:
+                - /url: "#"
+        - generic [ref=e467]:
+          - heading "My Wish List" [level=2] [ref=e469]
+          - generic [ref=e471]: You have no items in your wish list.
+  - contentinfo [ref=e472]:
+    - generic [ref=e473]:
+      - generic [ref=e476]:
+        - generic [ref=e478]:
+          - text: 
+          - generic [ref=e479]:
+            - generic [ref=e480]: "Sign Up for Our Newsletter:"
+            - textbox "Sign Up for Our Newsletter:" [ref=e481]:
+              - /placeholder: Enter your email address
+        - button "Subscribe" [ref=e483] [cursor=pointer]
+      - list [ref=e484]:
+        - listitem [ref=e485]:
+          - link "Privacy and Cookie Policy" [ref=e486] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/privacy-policy-cookie-restriction-mode/
+        - listitem [ref=e487]:
+          - link "Search Terms" [ref=e488] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/search/term/popular/
+        - listitem [ref=e489]:
+          - link "Advanced Search" [ref=e490] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/catalogsearch/advanced/
+        - listitem [ref=e491]:
+          - link "Orders and Returns" [ref=e492] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/sales/guest/form/
+        - listitem [ref=e493]:
+          - link "Contact Us" [ref=e494] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/contact/
+      - generic [ref=e495]: Copyright © 2013-present Magento, Inc. All rights reserved.
+      - generic [ref=e496]:
+        - text: Help Us Keep Magento Healthy
+        - link "Report All Bugs" [ref=e497] [cursor=pointer]:
+          - /url: http://www.magentocommerce.com/bug-tracking

@@ -1,0 +1,4349 @@
+{
+  "pending_count": 653,
+  "exact_unique_urls": 653,
+  "candidate_groups": {
+    "account": 3,
+    "other_unverified": 24,
+    "cart_or_checkout": 5,
+    "html_product_or_category_unverified": 613,
+    "home_or_home_parameters": 1,
+    "compare": 7
+  },
+  "origins": {
+    "127.0.0.1:7770": 653
+  },
+  "with_query": 184,
+  "nodes": [
+    {
+      "url": "http://127.0.0.1:7770/customer/account/",
+      "candidate": "account",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/wishlist/",
+      "candidate": "other_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/customer/account/create/",
+      "candidate": "account",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/checkout/cart/",
+      "candidate": "cart_or_checkout",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/toothbrushes-accessories.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/dental-floss-picks.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/orthodontic-supplies.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/children-s-dental-care.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/oral-pain-relief.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/toothpaste.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/teeth-whitening.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/breath-fresheners.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/denture-care.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/tongue-cleaners.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/mouthwash.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/beauty-personal-care/skin-care.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/beauty-personal-care/skin-care/sunscreens-tanning-products.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/beauty-personal-care/skin-care/face.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/beauty-personal-care/skin-care/lip-care.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/beauty-personal-care/skin-care/maternity.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/beauty-personal-care/skin-care/eyes.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/beauty-personal-care/skin-care/sets-kits.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/beauty-personal-care/skin-care/body.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/beauty-personal-care/makeup.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/beauty-personal-care/makeup/body.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/beauty-personal-care/makeup/eyes.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/beauty-personal-care/makeup/lips.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/beauty-personal-care/makeup/makeup-palettes.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/beauty-personal-care/makeup/face.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/beauty-personal-care/makeup/makeup-sets.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/beauty-personal-care/makeup/makeup-remover.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/beauty-personal-care/foot-hand-nail-care.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/beauty-personal-care/foot-hand-nail-care/tools-accessories.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/beauty-personal-care/foot-hand-nail-care/nail-art-polish.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/beauty-personal-care/foot-hand-nail-care/foot-hand-care.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/beauty-personal-care/hair-care.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/beauty-personal-care/hair-care/hair-loss-products.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/beauty-personal-care/hair-care/hair-masks.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/beauty-personal-care/hair-care/hair-cutting-tools.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/beauty-personal-care/hair-care/hair-coloring-products.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/beauty-personal-care/hair-care/hair-treatment-oils.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/beauty-personal-care/hair-care/hair-extensions-wigs-accessories.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/beauty-personal-care/hair-care/shampoo-conditioner.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/beauty-personal-care/hair-care/styling-products.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/beauty-personal-care/hair-care/styling-tools-appliances.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/beauty-personal-care/hair-care/hair-accessories.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/beauty-personal-care/tools-accessories.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/beauty-personal-care/tools-accessories/bags-cases.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/beauty-personal-care/tools-accessories/makeup-brushes-tools.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/beauty-personal-care/tools-accessories/refillable-containers.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/beauty-personal-care/tools-accessories/mirrors.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/beauty-personal-care/tools-accessories/skin-care-tools.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/beauty-personal-care/tools-accessories/cotton-balls-swabs.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/beauty-personal-care/fragrance.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/beauty-personal-care/fragrance/women-s.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/beauty-personal-care/fragrance/men-s.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/beauty-personal-care/personal-care.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/beauty-personal-care/personal-care/bath-bathing-accessories.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/beauty-personal-care/personal-care/deodorants-antiperspirants.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/beauty-personal-care/personal-care/piercing-tattoo-supplies.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/beauty-personal-care/shave-hair-removal.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/beauty-personal-care/shave-hair-removal/men-s.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/beauty-personal-care/shave-hair-removal/women-s.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/beauty-personal-care/salon-spa-equipment.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/beauty-personal-care/salon-spa-equipment/spa-storage-systems.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/beauty-personal-care/salon-spa-equipment/spa-beds-tables.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/beauty-personal-care/salon-spa-equipment/professional-massage-equipment.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/sports-outdoors/hunting-fishing.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/sports-outdoors/hunting-fishing/shooting.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/sports-outdoors/exercise-fitness.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/sports-outdoors/fan-shop.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/sports-outdoors/fan-shop/clothing.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/sports-outdoors/fan-shop/footwear.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/sports-outdoors/sports-outdoor-recreation-accessories.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/sports-outdoors/sports-outdoor-recreation-accessories/ball-storage.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/sports-outdoors/sports.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/clothing-shoes-jewelry/men.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/clothing-shoes-jewelry/men/clothing.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/clothing-shoes-jewelry/men/shoes.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/clothing-shoes-jewelry/men/uniforms-work-safety.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/clothing-shoes-jewelry/women.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/clothing-shoes-jewelry/women/clothing.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/clothing-shoes-jewelry/women/shoes.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/clothing-shoes-jewelry/women/accessories.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/clothing-shoes-jewelry/women/uniforms-work-safety.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/clothing-shoes-jewelry/novelty-more.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/clothing-shoes-jewelry/novelty-more/clothing.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/clothing-shoes-jewelry/sport-specific-clothing.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/clothing-shoes-jewelry/sport-specific-clothing/competitive-swimwear.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/home-kitchen/furniture.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/home-kitchen/furniture/living-room-furniture.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/home-kitchen/furniture/accent-furniture.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/home-kitchen/furniture/home-office-furniture.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/home-kitchen/furniture/kitchen-furniture.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/home-kitchen/furniture/game-recreation-room-furniture.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/home-kitchen/furniture/bedroom-furniture.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/home-kitchen/furniture/entryway-furniture.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/home-kitchen/furniture/dining-room-furniture.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/home-kitchen/furniture/kids-furniture.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/home-kitchen/bedding.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/home-kitchen/bedding/kids-bedding.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/home-kitchen/bedding/blankets-throws.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/home-kitchen/bedding/decorative-pillows-inserts-covers.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/home-kitchen/storage-organization.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/home-kitchen/storage-organization/baskets-bins-containers.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/home-kitchen/storage-organization/home-storage-hooks.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/home-kitchen/storage-organization/racks-shelves-drawers.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/home-kitchen/storage-organization/clothing-closet-storage.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/home-kitchen/home-decor-products.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/home-kitchen/home-decor-products/home-decor-accents.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/home-kitchen/home-decor-products/window-treatments.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/home-kitchen/home-decor-products/artificial-plants-flowers.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/home-kitchen/home-decor-products/candles-holders.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/home-kitchen/home-decor-products/mirrors.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/home-kitchen/home-decor-products/rugs-pads-protectors.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/home-kitchen/home-decor-products/slipcovers.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/home-kitchen/kitchen-dining.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/home-kitchen/kitchen-dining/dining-entertaining.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/home-kitchen/kitchen-dining/storage-organization.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/home-kitchen/kitchen-dining/kitchen-table-linens.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/home-kitchen/heating-cooling-air-quality.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/home-kitchen/wall-art.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/home-kitchen/wall-art/posters-prints.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/home-kitchen/bath.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/home-kitchen/bath/bathroom-accessories.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/office-products.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/office-products/office-electronics.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/office-products/office-electronics/printers-accessories.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/office-products/office-school-supplies.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/office-products/office-school-supplies/desk-accessories-workspace-organizers.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/office-products/office-furniture-lighting.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/office-products/office-furniture-lighting/chairs-sofas.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/office-products/office-furniture-lighting/cabinets-racks-shelves.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/tools-home-improvement.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/tools-home-improvement/lighting-ceiling-fans.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/tools-home-improvement/lighting-ceiling-fans/lamps-shades.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/tools-home-improvement/lighting-ceiling-fans/wall-lights.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/tools-home-improvement/lighting-ceiling-fans/ceiling-lights.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/health-household/household-supplies.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/health-household/household-supplies/household-batteries.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/health-household/health-care.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/health-household/diet-sports-nutrition.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/health-household/diet-sports-nutrition/nutrition-bars-drinks.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/patio-lawn-garden/gardening-lawn-care.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/patio-lawn-garden/gardening-lawn-care/plants-seeds-bulbs.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/patio-lawn-garden/gardening-lawn-care/pots-planters-container-accessories.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/patio-lawn-garden/patio-furniture-accessories.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/electronics/home-audio.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/electronics/home-audio/home-audio-accessories.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/electronics/home-audio/speakers.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/electronics/home-audio/compact-radios-stereos.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/electronics/home-audio/home-theater.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/electronics/home-audio/turntables-accessories.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/electronics/video-projectors.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/electronics/accessories-supplies.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/electronics/accessories-supplies/audio-video-accessories.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/electronics/accessories-supplies/power-strips-surge-protectors.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/electronics/accessories-supplies/telephone-accessories.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/electronics/television-video.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/electronics/television-video/projection-screens.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/electronics/television-video/televisions.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/electronics/television-video/dvd-players-recorders.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/electronics/television-video/streaming-media-players.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/electronics/television-video/home-theater-systems.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/electronics/television-video/television-accessories.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/electronics/camera-photo.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/electronics/camera-photo/tripods-monopods.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/electronics/camera-photo/lighting-studio.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/electronics/camera-photo/bags-cases.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/electronics/camera-photo/binoculars-scopes.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/electronics/camera-photo/video-surveillance.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/electronics/camera-photo/accessories.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/electronics/camera-photo/digital-cameras.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/electronics/camera-photo/underwater-photography.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/electronics/camera-photo/film-photography.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/electronics/camera-photo/flashes.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/electronics/camera-photo/lenses.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/electronics/camera-photo/video.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/electronics/computers-accessories.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/electronics/computers-accessories/computer-accessories-peripherals.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/electronics/computers-accessories/networking-products.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/electronics/computers-accessories/tablet-accessories.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/electronics/computers-accessories/computers-tablets.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/electronics/computers-accessories/data-storage.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/electronics/computers-accessories/laptop-accessories.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/electronics/computers-accessories/computer-components.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/electronics/headphones.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/electronics/headphones/over-ear-headphones.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/electronics/headphones/earbud-headphones.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/electronics/headphones/on-ear-headphones.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/electronics/portable-audio-video.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/electronics/portable-audio-video/boomboxes.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/electronics/portable-audio-video/portable-speakers-docks.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/electronics/portable-audio-video/radios.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/electronics/portable-audio-video/mp3-mp4-player-accessories.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/electronics/security-surveillance.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/electronics/security-surveillance/accessories.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/electronics/security-surveillance/surveillance-video-equipment.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/electronics/power-accessories.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/electronics/power-accessories/ac-adapters.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/electronics/car-vehicle-electronics.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/electronics/car-vehicle-electronics/car-electronics.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/electronics/car-vehicle-electronics/vehicle-electronics-accessories.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/electronics/wearable-technology.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/electronics/wearable-technology/smartwatches.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/electronics/gps-finders-accessories.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/electronics/gps-finders-accessories/gps-system-accessories.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/cell-phones-accessories/accessories.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/cell-phones-accessories/accessories/chargers-power-adapters.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/cell-phones-accessories/accessories/maintenance-upkeep-repairs.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/cell-phones-accessories/accessories/single-ear-bluetooth-headsets.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/cell-phones-accessories/accessories/smartwatch-accessories.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/cell-phones-accessories/accessories/virtual-reality-vr-headsets.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/cell-phones-accessories/accessories/stands.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/cell-phones-accessories/accessories/automobile-accessories.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/cell-phones-accessories/accessories/photo-video-accessories.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/cell-phones-accessories/accessories/signal-boosters.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/cell-phones-accessories/cases-holsters-sleeves.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/cell-phones-accessories/cases-holsters-sleeves/basic-cases.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/cell-phones-accessories/cases-holsters-sleeves/flip-cases.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/cell-phones-accessories/cell-phones.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/video-games/xbox-one.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/video-games/xbox-one/accessories.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/video-games/pc.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/video-games/pc/accessories.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/video-games/pc/virtual-reality.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/video-games/legacy-systems.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/video-games/legacy-systems/xbox-systems.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/video-games/legacy-systems/playstation-systems.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/video-games/legacy-systems/nintendo-systems.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/video-games/playstation-4.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/video-games/playstation-4/accessories.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/video-games/nintendo-switch.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/grocery-gourmet-food.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/grocery-gourmet-food/food-beverage-gifts.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/grocery-gourmet-food/food-beverage-gifts/bakery-dessert-gifts.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/grocery-gourmet-food/food-beverage-gifts/snack-gifts.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/grocery-gourmet-food/food-beverage-gifts/coffee-tea-gifts.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/grocery-gourmet-food/food-beverage-gifts/fruit-nut-gifts.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/grocery-gourmet-food/food-beverage-gifts/herb-spice-seasoning-gifts.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/grocery-gourmet-food/food-beverage-gifts/assortments-variety-gifts.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/grocery-gourmet-food/food-beverage-gifts/meat-seafood-gifts.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/grocery-gourmet-food/food-beverage-gifts/cheese-charcuterie-gifts.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/grocery-gourmet-food/breads-bakery.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/grocery-gourmet-food/breads-bakery/cookies.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/grocery-gourmet-food/breads-bakery/breads.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/grocery-gourmet-food/breads-bakery/cakes.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/grocery-gourmet-food/breads-bakery/pastries-bakery.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/grocery-gourmet-food/pantry-staples.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/grocery-gourmet-food/pantry-staples/herbs-spices-seasonings.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/grocery-gourmet-food/pantry-staples/cooking-baking.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/grocery-gourmet-food/pantry-staples/olives-pickles-relishes.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/grocery-gourmet-food/pantry-staples/canned-jarred-packaged-foods.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/grocery-gourmet-food/pantry-staples/sauces-gravies-marinades.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/grocery-gourmet-food/pantry-staples/pasta-noodles.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/grocery-gourmet-food/pantry-staples/soups-stocks-broths.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/grocery-gourmet-food/pantry-staples/dried-grains-rice.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/grocery-gourmet-food/pantry-staples/jams-jellies-sweet-spreads.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/grocery-gourmet-food/pantry-staples/condiments-salad-dressings.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/grocery-gourmet-food/pantry-staples/nut-seed-butters.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/grocery-gourmet-food/snacks-sweets.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/grocery-gourmet-food/snacks-sweets/snack-foods.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/grocery-gourmet-food/snacks-sweets/chocolate.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/grocery-gourmet-food/snacks-sweets/candy-chocolate.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/grocery-gourmet-food/dairy-cheese-eggs.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/grocery-gourmet-food/dairy-cheese-eggs/cheese.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/grocery-gourmet-food/dairy-cheese-eggs/yogurt.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/grocery-gourmet-food/dairy-cheese-eggs/cheese-assortments-samplers.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/grocery-gourmet-food/dairy-cheese-eggs/non-dairy-milks.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/grocery-gourmet-food/dairy-cheese-eggs/milk-cream.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/grocery-gourmet-food/breakfast-foods.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/grocery-gourmet-food/breakfast-foods/cereals.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/grocery-gourmet-food/breakfast-foods/breakfast-cereal-bars.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/grocery-gourmet-food/beverages.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/grocery-gourmet-food/beverages/bottled-beverages-water-drink-mixes.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/grocery-gourmet-food/beverages/coffee-tea-cocoa.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/grocery-gourmet-food/produce.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/grocery-gourmet-food/produce/dried-fruits-vegetables.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/grocery-gourmet-food/alcoholic-beverages.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/grocery-gourmet-food/alcoholic-beverages/wine.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/grocery-gourmet-food/deli-prepared-foods.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/grocery-gourmet-food/deli-prepared-foods/deli-meats-cheeses.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/grocery-gourmet-food/frozen.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/grocery-gourmet-food/frozen/meals-entrees.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/grocery-gourmet-food/frozen/meats.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/grocery-gourmet-food/frozen/ice-cream-novelties.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/grocery-gourmet-food/frozen/appetizers-snacks.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/grocery-gourmet-food/frozen/seafood.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/grocery-gourmet-food/home-brewing-winemaking.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/grocery-gourmet-food/home-brewing-winemaking/winemaking-ingredients.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/grocery-gourmet-food/meat-seafood.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/grocery-gourmet-food/meat-seafood/beef.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/grocery-gourmet-food/meat-seafood/seafood.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/grocery-gourmet-food/fresh-meal-kits.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/grocery-gourmet-food/meat-substitutes.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/pre-baked-gingerbread-house-kit-value-pack-17-oz-pack-of-2-total-34-oz.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/v8-energy-healthy-energy-drink-steady-energy-from-black-and-green-tea-pomegranate-blueberry-8-ounce-can-pack-of-24.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/elmwood-inn-fine-teas-orange-vanilla-caffeine-free-fruit-infusion-16-ounce-pouch.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/belle-of-the-ball-princess-sprinkle-mix-wedding-colorful-sprinkles-cake-cupcake-cookie-sprinkles-ice-cream-candy-sprinkles-yellow-gold-red-royal-red-rose-icing-flowers-decorating-sprinkles-8oz.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/so-delicious-dairy-free-cocowhip-light-vegan-non-gmo-project-verified-9-oz-tub.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/cheongeun-sweet-potato-starch-powder-500g-2ea-sweet-potato-55-corn-45.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/stove-top-turkey-stuffing-mix-12-oz-boxes-pack-of-2.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/tony-chachere-s-more-spice-creole-seasoning-14-oz.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/lobster-cobbler-pot-pie-gourmet-frozen-seafood-appetizers-set-of-8-trays.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/crunchy-rice-rollers-gluten-free-vegan-3-5-oz-individual-packs-4-packs-of-8-rollers.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/?pbaocw=2",
+      "candidate": "home_or_home_parameters",
+      "query_keys": [
+        "pbaocw"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/privacy-policy-cookie-restriction-mode/",
+      "candidate": "other_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/search/term/popular/",
+      "candidate": "other_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/sales/guest/form/",
+      "candidate": "other_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/catalog/product_compare/index/uenc/aHR0cDovLzEyNy4wLjAuMTo3NzcwL2N1c3RvbWVyL3NlY3Rpb24vbG9hZC8_c2VjdGlvbnM9Y29tcGFyZS1wcm9kdWN0cyUyQ21lc3NhZ2VzJmZvcmNlX25ld19zZWN0aW9uX3RpbWVzdGFtcD1mYWxzZSZfPTE3ODk5NzIxOTkzNDU~/",
+      "candidate": "compare",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/customer/account/forgotpassword/",
+      "candidate": "account",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/dilwe1-12-phone-screen-magnifier-hd-mobile-phone-magnifier-projector-screen-foldable-phone-stand-with-screen-amplifier-for-movies-videos.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/ntg-1st-generation-designed-for-samsung-s21-case-not-for-s21-plus-s21-ultra-heavy-duty-tough-rugged-lightweight-slim-shockproof-protective-case-for-samsung-galaxy-s21-6-2-inch-orange.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/2-2-pack-ywxtw-galaxy-s21-privacy-screen-protector-support-fingerprint-unlock-7h-hardness-and-camera-lens-tempered-glass-protector-for-samsung-galaxy-s21-6-2-inch-anti-spy-easy-install-frame.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/for-huawei-supercharge-power-adapter-4-5v-5a-quick-fast-charger-with-super-charging-usb-type-c-cable-super-charger-for-huawei-p20-pro-p10-plus-mate-9-mt9-mate-10-pro-honor-super-charger.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/comfortable-bluetooth-headset-ux-m97-wireless-headset-with-microphone-wireless-cell-phone-headset-with-noise-isolation-mic-charging-base-mute-function-for-long-conversations-with-charging-dock.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/iphone-13-pro-max-case-neon-turtle-iphone-13-pro-max-cases-tempered-glass-back-soft-silicone-tpu-shock-protective-case-for-apple-iphone-13-pro-max.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/car-phone-holder-mount-360-degree-rotation-dashboard-cell-phone-holder-for-car-clip-mount-stand-suitable-for-4-to-7-inch-smartphones-black.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/usb-charger-anker-elite-dual-port-24w-wall-charger-powerport-2-with-poweriq-and-foldable-plug-for-iphone-11-xs-xs-max-xr-x-8-7-6-plus-ipad-pro-air-2-mini-3-mini-4-samsung-s4-s5-and-more.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/2-3-pack-uniqueme-compatible-with-samsung-galaxy-s22-plus-s22-plus-5g-screen-protector-2-pack-tempered-glass-and-3-pack-camera-lens-protector-bubble-free-9h-hardness-hd-easy-installation-frame.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/landi-v101-bluetooth-headset-bluetooth-earpiece-headphones-for-cell-phones-noise-cancelling-wireless-earpieces-w-mic-for-business-driving-office-compatible-with-iphone-samsung-android-red.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/3d-virtual-reality-glasses-vr-3d-glasses-for-mobile-phones-movies-and-games-blu-ray-version-vr-goggles-for-ios-android-a.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/vchiming-wireless-car-charger-mount-15w-fast-charging-auto-clamping-car-phone-charger-windshield-dash-air-vent-phone-holder-compatible-with-iphone-samsung-galaxy-lg-and-other-qi-enabled-devices-gray.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/cell-phones-accessories.html?p=3",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "p"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/cell-phones-accessories.html?p=4",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "p"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/cell-phones-accessories.html?p=5",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "p"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/cell-phones-accessories.html?cat=57",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "cat"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/cell-phones-accessories.html?cat=66",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "cat"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/cell-phones-accessories.html?cat=70",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "cat"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/cell-phones-accessories.html?price=0-1000",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "price"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/cell-phones-accessories.html?price=1000-2000",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "price"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/dkrgvny-lace-spcling-lingerie-womens-sexy-hollow-out-underwear-bodysuit-one-piece-snap-crotch-clubwear-teddy-bodysuit.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/surethik-15g-hair-thickening-fiber-black-and-holding-spray-3oz-bundle.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/bedside-table-lamp-ezvalo-led-night-light-with-wireless-charger-portable-bluetooth-speaker-cell-phone-holder-4-in-1-dimmable-music-nightstand-lamps-for-bedrooms-valentines-day-gifts-for-women.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/elastic-ligature-threader-orthodontic-elastic-instruments-ortho-twirl-on-new-by-g-s-online-store.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/viagdo-artificial-areca-palm-tree-4ft-tall-fake-palm-tree-decor-with-12-trunks-faux-tropical-palm-silk-plant-feaux-dypsis-lutescens-plants-in-pot-for-modern-home-office-floor-corner-decor-indoor.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/eluze-4-light-bathroom-vanity-light-black-vintage-bathroom-lighting-with-clear-glass-shades-wall-sconce-lighting-fixtures-for-bathroom-kitchen-hallway.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/indoor-pet-camera-hd-1080p-no-wifi-security-camera-with-night-vision-no-built-in-baterry.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/petansy-3-packs-aloe-vera-lipstick-lips-moisturizer-long-lasting-nutritious-lip-balm-magic-temperature-color-change-lip-gloss-set-a.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/shop-succulents-assorted-collection-of-live-air-plants-hand-selected-variety-pack-of-air-succulents-collection-of-6.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/fullmosa-compatible-with-apple-watch-band-44mm-with-bumper-case-rugged-iwatch-band-with-screen-protector-only-for-apple-watch-series-6-5-4-se-orange.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/spigen-neoflex-galaxy-note-9-screen-protector-case-friendly-for-samsung-galaxy-note-9-2018-release-2-pack.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/lockable-iphone-13-pro-max-case-with-lock-strong-magnetic-adsorption-lens-protector-360-full-body-aluminum-frame-double-sided-tempered-glass-cover-iphone13promax-light-blue.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/baige-replacement-repair-front-outer-glass-lens-cover-screen-for-samsung-galaxy-a20-2019-sm-a205u-a30s-m10s-6-4-parts-tape-tool-no-lcd-touch-digitizer.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/hatalkin-bands-compatible-for-samsung-galaxy-watch-4-band-40mm-44mm-classic-42mm-46mm-women-men-silicone-20mm-strap-replacement-of-samsung-watch-4-40mm-44mm-42mm-46mm-bands-3-pack.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/ailun-screen-protector-compatible-for-iphone-11-pro-max-6-5-inch-2019-2018-release-tempered-glass-and-ailun-lens-screen-protector-compatible-for-iphone-11-pro-max.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/shacoryze-front-and-back-screen-protector-for-iphone-13-pro-tempered-glass-haptic-touch-front-and-rear-temper-glass-film-premium-hd-clarity-anti-fingerprint-scratch-for-13-pro-6-1-inch.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/magic-array-wireless-charger-10w-ultra-thin-qi-fast-wireless-charging-pad-compatible-with-iphone-x-xs-max-8-8-plus-galaxy-note-9-s9-s10-s9-plus-note-8-s8-edge-more-adapter-not-included-brown.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/45w-super-fast-charger-type-c-samsung-fast-charger-for-samsung-galaxy-s22-ultra-s22-s22-s21-ultra-s21-plus-s21-s20-s20-ultra-note-20-s10-usb-c-fast-charging-wall-charger-with-6-6ft-usb-c-c-cable-cord.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/fastuu-action-camera-multifunction-rechargable-automatic-photography-camcorder-portable-for-outdoor-photography-underwater-photography.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/usb-c-wall-charger-2-pack-25w-type-c-super-fast-charger-and-2-pack-6ft-usb-c-to-usb-c-charging-cable-for-samsung-galaxy-s21-s21-s21-ultra-s20-s20-s20-ultra-note-20-note-20-ultra-note-10-note-10.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/review/product/listAjax/id/37409/?p=2",
+      "candidate": "other_unverified",
+      "query_keys": [
+        "p"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/navitech-black-hard-carry-bag-case-cover-with-shoulder-strap-compatible-with-the-vr-virtual-reality-3d-headsets-including-the-crypto-vr-150-virtual-reality-headset-3d-glasses.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/rockville-ch103sp-chuchero-car-audio-enclosure-for-2-10-mids-2-3-tweeter.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/150ft-quad-shield-solid-copper-3ghz-rg-6-coaxial-cable-75-ohm-directv-satellite-tv-or-broadband-internet-anti-corrosion-brass-connector-rg6-fittings-assembled-in-usa-by-phat-satellite-intl.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/intel-nuc-kit-nuc6i7kyk-mini-pc-no-power-cord.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/cg7060-apollo-transparency-film-letter-8-50quot-x-11quot-50-box-transparent.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/sceptre-e195bd-srr-19-inch-720p-led-tv-true-black-2017.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/sandisk-cruzer-glide-32gb-5-pack-usb-2-0-flash-drive-sdcz60-032g-pen-drive-bundle-with-2-everything-but-stromboli-lanyards.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/replacement-battery-for-garmin-montana-600-600t-650-650t-600t-camo-680-680t-fit-part-no-361-00053-00-010-11599-00-2200mah.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/electronics.html?p=2",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "p"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/electronics.html?p=3",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "p"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/electronics.html?p=4",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "p"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/electronics.html?p=5",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "p"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/electronics.html?cat=51",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "cat"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/electronics.html?cat=52",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "cat"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/electronics.html?cat=53",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "cat"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/electronics.html?cat=54",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "cat"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/electronics.html?cat=55",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "cat"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/electronics.html?cat=56",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "cat"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/electronics.html?cat=60",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "cat"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/electronics.html?cat=62",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "cat"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/electronics.html?cat=63",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "cat"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/electronics.html?cat=64",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "cat"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/electronics.html?cat=65",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "cat"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/electronics.html?cat=68",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "cat"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/electronics.html?cat=69",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "cat"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/electronics.html?price=0-10000",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "price"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/electronics.html?price=10000-20000",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "price"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/electronics.html?price=20000-30000",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "price"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/checkout/cart/configure/id/579/product_id/37272/",
+      "candidate": "cart_or_checkout",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/catalog/product_compare/index/uenc/aHR0cDovLzEyNy4wLjAuMTo3NzcwL2N1c3RvbWVyL3NlY3Rpb24vbG9hZC8_c2VjdGlvbnM9Y29tcGFyZS1wcm9kdWN0cyUyQ21lc3NhZ2VzJmZvcmNlX25ld19zZWN0aW9uX3RpbWVzdGFtcD1mYWxzZSZfPTE3OTA1NjMzMDM5MTk~/",
+      "candidate": "compare",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/catalog/product_compare/",
+      "candidate": "compare",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/catalog/product_compare/index/uenc/aHR0cDovLzEyNy4wLjAuMTo3NzcwL2N1c3RvbWVyL3NlY3Rpb24vbG9hZC8_c2VjdGlvbnM9Y29tcGFyZS1wcm9kdWN0cyUyQ21lc3NhZ2VzJmZvcmNlX25ld19zZWN0aW9uX3RpbWVzdGFtcD1mYWxzZSZfPTE3OTA1NjMzMTA1MDM~/",
+      "candidate": "compare",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/checkout/cart/configure/id/580/product_id/37288/",
+      "candidate": "cart_or_checkout",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/magic-home-nightstands-bedroom-with-drawers-faux-marble-nightstands-side-tables-with-pu-leather-and-titanium-legs-beside-end-table-for-living-room-bedroom-office-beige.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/bonzy-home-glossy-led-tv-stand-black-tv-stand-with-led-rgb-lights-wood-media-storage-console-for-65-inch-tv-flat-screen-tv-cabinet-gaming-consoles-in-lounge-room-living-room-and-bedroom-black.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/pemberly-row-70-farmhouse-barn-door-rustic-wood-tv-stand-console-with-storage-in-rustic-gray-wash.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/bakers-rack-microwave-stand-3-tier-kitchen-storage-cart-with-10-hooks-dark-brown-top-white-metal-frame.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/uxzdx-cujux-crafts-globe-for-home-living-room-tv-cabinet-wine-office-desktop-furnishing-art-piece-for-gifts-party-entrance-art-gallery.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/wood-storage-bench-homes-collection-w-2-drawers-wicker-storage-bench-entryway-bench-with-removable-basket-cushion-fully-assembled-shoe-bench-for-hallway-entryway-living-room-espresso.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/coffee-table-set-3-pieces-nesting-end-table-set-set-of-3-modern-accent-furniture-unique-design-coffee-table-leisure-table-minimalist-side-table-for-living-room-brown-and-black.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/pemberly-row-contemporary-solid-pine-wood-5-drawer-chest-bedroom-dresser-in-natural.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/bookshelf-bookcase-storage-rack-standing-shelf-industrial-stable-bookcase-with-iron-tube-frame-for-home-living-room-bedroom-office-by-tribesigns.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/music-note-flannel-fleece-blanket-ultra-soft-white-black-print-cozy-plush-throw-blanket-lightweight-warm-blankets-and-throws-decorative-for-couch-bed-living-room-office-gift-for-adults-80x60-inch.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/4d-concepts-forester-cabinet-31-5x13-78x29-92-multi-textered-gray-w-distressed-wood.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/3ft-dracaena-artificial-plant-real-touch.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/home-kitchen.html?p=2",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "p"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/home-kitchen.html?p=3",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "p"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/home-kitchen.html?p=4",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "p"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/home-kitchen.html?p=5",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "p"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/home-kitchen.html?cat=35",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "cat"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/home-kitchen.html?cat=36",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "cat"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/home-kitchen.html?cat=38",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "cat"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/home-kitchen.html?cat=39",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "cat"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/home-kitchen.html?cat=43",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "cat"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/home-kitchen.html?cat=45",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "cat"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/home-kitchen.html?cat=48",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "cat"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/home-kitchen.html?price=0-10000",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "price"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/home-kitchen.html?price=10000-20000",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "price"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/home-kitchen.html?price=20000-30000",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "price"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/checkout/cart/configure/id/581/product_id/34046/",
+      "candidate": "cart_or_checkout",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/upholstered-wooden-platform-bed-frame-with-classic-style-headboard-bed-frame-mattress-foundation-wood-slat-support.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/iwell-2-piece-kitchen-storage-cabinet-bundle-baker-s-rack-with-1-storage-cabinet-and-8-hooks-microwave-oven-stand-with-storage-shelf-bookshelf-for-living-room-bathroom-cabinet.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/fxjpqjd-wooden-console-table-narrow-side-table-versatile-hallway-sofa-table-with-4-drawer-and-2-open-shelves-writing-desk-for-lving-room-and-corridor-sturdy-and-easy-assembly.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/home-kitchen.html?cat=34&p=2",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "cat",
+        "p"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/home-kitchen.html?cat=34&p=3",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "cat",
+        "p"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/home-kitchen.html?cat=34&p=4",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "cat",
+        "p"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/home-kitchen.html?cat=34&p=5",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "cat",
+        "p"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/home-kitchen.html?cat=154",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "cat"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/home-kitchen.html?cat=157",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "cat"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/home-kitchen.html?cat=161",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "cat"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/home-kitchen.html?cat=164",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "cat"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/home-kitchen.html?cat=166",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "cat"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/home-kitchen.html?cat=167",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "cat"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/home-kitchen.html?cat=172",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "cat"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/home-kitchen.html?cat=178",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "cat"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/home-kitchen.html?cat=185",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "cat"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/home-kitchen.html?cat=34&price=0-10000",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "cat",
+        "price"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/home-kitchen.html?cat=34&price=10000-20000",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "cat",
+        "price"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/home-kitchen.html?cat=34&price=20000-30000",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "cat",
+        "price"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/home-kitchen.html?cat=34&p=2&product_list_mode=list",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "cat",
+        "p",
+        "product_list_mode"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/home-kitchen.html?cat=34&p=3&product_list_mode=list",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "cat",
+        "p",
+        "product_list_mode"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/home-kitchen.html?cat=34&p=4&product_list_mode=list",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "cat",
+        "p",
+        "product_list_mode"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/home-kitchen.html?cat=34&p=5&product_list_mode=list",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "cat",
+        "p",
+        "product_list_mode"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/home-kitchen.html?product_list_mode=list",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "product_list_mode"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/home-kitchen.html?cat=154&product_list_mode=list",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "cat",
+        "product_list_mode"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/home-kitchen.html?cat=157&product_list_mode=list",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "cat",
+        "product_list_mode"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/home-kitchen.html?cat=161&product_list_mode=list",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "cat",
+        "product_list_mode"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/home-kitchen.html?cat=164&product_list_mode=list",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "cat",
+        "product_list_mode"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/home-kitchen.html?cat=166&product_list_mode=list",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "cat",
+        "product_list_mode"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/home-kitchen.html?cat=167&product_list_mode=list",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "cat",
+        "product_list_mode"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/home-kitchen.html?cat=172&product_list_mode=list",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "cat",
+        "product_list_mode"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/home-kitchen.html?cat=178&product_list_mode=list",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "cat",
+        "product_list_mode"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/home-kitchen.html?cat=185&product_list_mode=list",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "cat",
+        "product_list_mode"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/home-kitchen.html?cat=34&price=0-10000&product_list_mode=list",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "cat",
+        "price",
+        "product_list_mode"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/home-kitchen.html?cat=34&price=10000-20000&product_list_mode=list",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "cat",
+        "price",
+        "product_list_mode"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/home-kitchen.html?cat=34&price=20000-30000&product_list_mode=list",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "cat",
+        "price",
+        "product_list_mode"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/celeste-nintendo-animal-crossing-happy-home-designer-amiibo-card-305.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/peipu-joystick-for-mobile-phone-gaming-controller-gift-mobile-phone-game-joystick-game-control-2packs.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/magnetic-metal-stainless-steel-d-pads-kits-directional-pad-replacement-parts-for-xbox-one-elite-controller-elite-series-2-xbox-one-xbox-one-s-x-controller.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/skinit-decal-gaming-skin-for-ps4-console-officially-licensed-disney-mickey-mouse-design.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/wireless-game-controller-with-4-paddles-game-controller-joystick-compatible-with-playstation-4-pro-slim-dual-vibration-strike-pack-six-axis-gyro-sensor-1000mah-battery-touch-pad-audio-jack-golden.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/armor3-soundtac-universal-gaming-headset-black-for-xbox-series-x-xbox-series-s-nintendo-switch-lite-ps4-ps5-xbox-one-wii-u-pc-mac-nintendo-switch.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/games-tech-5-x-replacement-mini-usb-charging-charger-connector-port-socket-jack-for-ps3-playstation-3-controller.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/logitech-g433-7-1-wired-gaming-headset-with-dts-headphone-x-7-1-surround-for-pc-ps4-ps4-pro-xbox-one-xbox-one-s-nintendo-switch-fire-red.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/miadore-classic-n64-controller-joystick-remote-for-n64-video-game-system-n64-console-jungle-green.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/skinit-decal-gaming-skin-compatible-with-ps4-controller-officially-licensed-nfl-los-angeles-rams-zone-block-design.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/skinit-decal-gaming-skin-compatible-with-xbox-one-s-controller-officially-licensed-nfl-dallas-cowboys-blue-blast-design.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/video-games.html?p=2",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "p"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/video-games.html?p=3",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "p"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/video-games.html?p=4",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "p"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/video-games.html?p=5",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "p"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/video-games.html?cat=58",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "cat"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/video-games.html?cat=59",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "cat"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/video-games.html?cat=61",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "cat"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/video-games.html?cat=67",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "cat"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/video-games.html?cat=71",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "cat"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/video-games.html?price=0-1000",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "price"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/video-games.html?price=1000-2000",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "price"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/outdoor-patio-folding-side-table-square-metal-end-table-portable-small-bistro-coffee-table-green.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/sunsitt-3-piece-wicker-outdoor-bistro-table-set-patio-furniture-set-outdoor-storage-table-and-chairs-with-beige-cushion-brown-rattan.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/compare-n-save-concentrate-indoor-and-outdoor-insect-control-16-ounce.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/drill-till-3-tools-in-1-the-smartest-gardening-tool-for-weeding-tilling-and-bulb-planting-includes-hole-digger-weeder-tiller-2-rods-for-use-with-cordless-drill-screwdriver-not-included.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/sunset-jade-plant-crassula-easy-to-grow-house-plant-4-pot.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/synthetic-rattan-woven-material-plastic-rattan-furniture-for-weaving-and-repairing-tables-and-chairs-storage-basket-ect-500-g.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/mmqq-beige-bar-chairs-outdoor-patio-wicker-rattan-barstools-chair-with-footrest-back-counter-height-kitchen-stools-with-black-metal-leg-for-kitchen-pub-cafe.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/airmax-pond-dye-4x-concentrated-liquid-pond-colorant-shades-and-protects-your-pond-treats-up-to-1-acre-nature-s-blue.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/down-to-earth-organic-all-purpose-fertilizer-mix-4-6-2-25-lb.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/american-plant-exchange-windmill-cold-hardy-palm-tree-live-plant-4-pot-indoor-outdoor-use.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/patio-lawn-garden.html?p=2",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "p"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/patio-lawn-garden.html?p=3",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "p"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/patio-lawn-garden.html?p=4",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "p"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/patio-lawn-garden.html?p=5",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "p"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/patio-lawn-garden.html?cat=44",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "cat"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/patio-lawn-garden.html?cat=50",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "cat"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/patio-lawn-garden.html?price=0-1000",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "price"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/patio-lawn-garden.html?price=1000-2000",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "price"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/patio-lawn-garden.html?price=3000-4000",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "price"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/loopacell-ag13-lr44-l1154-357-76a-a76-button-cell-battery-10-pack.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/manitoba-harvest-hemp-seed-oil-12g-of-omegas-3-6-per-serving-non-gmo-vegan-gluten-free-12-fl-oz.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/12v-100ah-battery-for-solar-wind-deep-cycle-vrla-12v-24v-48v.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/lr1130-ag10-battery-1-5v-long-lasting-alkaline-button-cell-batteries-20-batteries-5-year-warranty.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/energizer-max-c-batteries-premium-alkaline-c-cell-batteries-8-battery-count.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/cgid-ct84-computer-glasses-readers-reading-video-gaming-glasses-of-anti-blue-light-eye-strain-and-uv-light-vintage-rectangle-black-brown-frame-transparnet-lens.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/highly-scented-aromatherapy-jar-candles-white-sage-small-6-oz-2-pack.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/thinkthin-high-protein-super-variety-pack-2-1-ounce-pack-of-10.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/wolfberry-eye-cream-5-oz-by-young-living-essential-oils.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/whey-protein-powder-six-star-whey-protein-plus-whey-protein-isolate-peptides-lean-protein-powder-for-muscle-gain-muscle-builder-for-men-women-vanilla-2-lbs-package-may-vary.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/pibbs-flat-iron-holder-table-mount-model-1512.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/sony-364-sr621sw-1-55v-silver-oxide-0-hg-mercury-free-watch-battery-5-batteries.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/health-household.html?p=2",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "p"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/health-household.html?p=3",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "p"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/health-household.html?p=4",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "p"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/health-household.html?p=5",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "p"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/health-household.html?cat=42",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "cat"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/health-household.html?cat=47",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "cat"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/health-household.html?cat=49",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "cat"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/health-household.html?price=100-200",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "price"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/health-household.html?price=200-300",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "price"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/health-household.html?price=900-1000",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "price"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/strip-of-8-energizer-a76-lr44-a76bp-sr44-l1154-1-5v-alkaline-batteries.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/health-household.html?p=2&price=0-100",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "p",
+        "price"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/health-household.html?p=3&price=0-100",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "p",
+        "price"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/health-household.html?p=4&price=0-100",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "p",
+        "price"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/health-household.html?p=5&price=0-100",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "p",
+        "price"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/health-household.html?cat=42&price=0-100",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "cat",
+        "price"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/health-household.html?cat=47&price=0-100",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "cat",
+        "price"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/health-household.html?cat=49&price=0-100",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "cat",
+        "price"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/health-household.html?price=0-10%2C0-100",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "price"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/health-household.html?price=20-30%2C0-100",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "price"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/health-household.html?price=30-40%2C0-100",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "price"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/health-household.html?price=40-50%2C0-100",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "price"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/health-household.html?price=50-60%2C0-100",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "price"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/health-household.html?price=60-70%2C0-100",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "price"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/health-household.html?price=70-80%2C0-100",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "price"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/health-household.html?price=80-90%2C0-100",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "price"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/health-household.html?price=90-100%2C0-100",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "price"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/chipmonk-keto-cookie-bites-keto-snacks-with-zero-or-low-carb-gluten-free-keto-cookies-nutritious-high-fat-protein-low-sugar-dessert-snack-foods-for-ketogenic-diet-or-diabetics-macro-nutrition-1-pouch-8-bites.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/plasticplace-custom-fit-trash-bags-simplehuman-x-code-k-compatible-50-count-white-drawstring-garbage-liners-10-gallon-38-liter-24-4-x-28.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/frontal-mirror-adjustable-forehead-viewfinder-ear-nose-throat-checking-tool.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/baby-orajel-tooth-gum-cleanser-fruity-fun-0-7-oz.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/dragons-blood-7-day-soy-spell-candle-for-love-power-protection-purification-hoodoo-wiccan-pagan-magick.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/mrs-meyers-clean-day-scented-soy-tin-candle-12-hour-burn-time-made-with-soy-wax-and-essential-oils-rose-2-9-oz.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/solgar-lutein-40-mg-30-softgels-supports-eye-health-helps-filter-out-blue-light-contains-floraglo-lutein-gluten-free-dairy-free-30-servings.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/usmytha-100pcs-lot-magic-melamine-cleaning-sponge-multi-functional-foam-eraser-pads-10x6x2cm.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/health-household.html?p=2&price=10-20%2C0-100",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "p",
+        "price"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/health-household.html?p=3&price=10-20%2C0-100",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "p",
+        "price"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/health-household.html?p=4&price=10-20%2C0-100",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "p",
+        "price"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/health-household.html?p=5&price=10-20%2C0-100",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "p",
+        "price"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/health-household.html?cat=42&price=10-20%2C0-100",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "cat",
+        "price"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/health-household.html?cat=47&price=10-20%2C0-100",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "cat",
+        "price"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/health-household.html?cat=49&price=10-20%2C0-100",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "cat",
+        "price"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/dp/B071D87WPV/ref=emc_b_5_i",
+      "candidate": "other_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/dp/B0043CHWHA/ref=emc_b_5_i",
+      "candidate": "other_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/dp/B0057UUB0W/ref=emc_b_5_i",
+      "candidate": "other_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/dp/B004U429AQ/ref=emc_b_5_t",
+      "candidate": "other_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/dp/B071D87WPV/ref=emc_b_5_t",
+      "candidate": "other_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/dp/B0043CHWHA/ref=emc_b_5_t",
+      "candidate": "other_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/dp/B0057UUB0W/ref=emc_b_5_t",
+      "candidate": "other_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/catalog/product_compare/index/uenc/aHR0cDovLzEyNy4wLjAuMTo3NzcwL2N1c3RvbWVyL3NlY3Rpb24vbG9hZC8_c2VjdGlvbnM9Y29tcGFyZS1wcm9kdWN0cyUyQ21lc3NhZ2VzJmZvcmNlX25ld19zZWN0aW9uX3RpbWVzdGFtcD1mYWxzZSZfPTE3OTA1NjM0NzA5NzY~/",
+      "candidate": "compare",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/bushnell-743333-boresighter-with-case-arbors-black.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/noldares-womens-pumps-heels-closed-toe-bohemian-block-heel-buckle-strap-sandals-fashion-party-single-pumps-sandals.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/noldares-long-sleeve-polo-shirts-for-men-vintage-printed-button-lapel-t-shirts-classic-fit-cotton-linen-polo-shirts.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/maryia-men-3d-creative-printed-graphic-t-shirts-casual-short-sleeve-crewneck-muscle-tees-personality-realistic-suit.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/noldares-golf-shirts-for-men-slim-fit-vintage-printed-button-lapel-long-sleeve-t-shirts-classic-fit-golf-polo-shirts.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/body-glide-original-anti-chafe-balm.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/bhndoing-diy-night-vision-scope-for-riflescopes-fcc-certified-digital-night-vision-scope-hunting-with-ir-flashlight-scope-camera-and-5-screen-day-night.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/noldares-high-heels-for-women-dressy-summer-dressy-peep-toe-thin-stiletto-pumps-ankle-strap-wedding-party-heel-sandals.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/spypoint-link-evo-cellular-trail-camera-4g-lte-12mp-hd-video-high-power-leds-infrared-boost-tech-0-3s-trigger-speed-80-detect-90-flash-easy-setup-1-link-evo.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/orion-40908-grandview-vari-angle-zoom-spottingx-40mm-slate.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/mens-cotton-dress-shirts-short-sleeve-button-down-summer-casual-roll-up-beach-hawaiian-hipster-tops-classic-poplin-shirt.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/sports-outdoors.html?p=2",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "p"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/sports-outdoors.html?p=3",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "p"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/sports-outdoors.html?p=4",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "p"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/sports-outdoors.html?p=5",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "p"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/sports-outdoors.html?cat=25",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "cat"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/sports-outdoors.html?cat=29",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "cat"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/sports-outdoors.html?cat=30",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "cat"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/sports-outdoors.html?cat=32",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "cat"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/sports-outdoors.html?cat=33",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "cat"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/sports-outdoors.html?price=0-1000",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "price"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/sports-outdoors.html?price=1000-2000",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "price"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/sports-outdoors.html?price=2000-3000",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "price"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/sports-outdoors.html?price=3000-4000",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "price"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/sports-outdoors.html?price=5000-6000",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "price"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/sports-outdoors.html?price=6000-7000",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "price"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/sports-outdoors.html?price=7000-8000",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "price"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/tweezers-for-succulents-duo.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/jsy-foldable-bath-body-brush-portable-massager-brush-with-long-handle-for-wet-dry-brush-bath-body-brushes-color-green.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/body-exfoliating-washcloth-mitt-soft-dual-sided-wet-dry-face-body-exfoliator-body-scrubber-exfoliating-cloth-pad.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/lip-balm-containers-refillable-transparent-cosmetic-containers-empty-with-lids-for-earrings-for-travel-use-for-cosmetics.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/vesunny-tape-in-hair-extensions-ombre-blonde-silky-straight-tape-on-hair-extensions-brown-to-blonde-ombre-double-sided-tape-in-human-hair-extensions-platinum-blonde-ombre-16inch-20pcs-50g.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/mineralogie-all-natural-lip-gloss-ruby-rose.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/srurllug-tabletop-vanity-mirror-brightness-adjustable-portable-mirrors-for-travel-with-3-color-lighting-modes-and-usb-rechargeable-makeup-mirror-smart-touch-control-360-rotation-white.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/soft-clean-between-interdental-floss-brushes-random-color-oral-care-tool-20-pcs-2-pack-elastic-massage-gums-toothpick-2-box.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/xzp-4-pack-larger-thicker-rapid-hair-wrap-towels-drying-women-long-thick-curly-hair-magic-instant-dry-hair-towel-caps-anti-frizz-fast-drying-microfiber-turban-wet-hair-wrap-towels-quick-drying.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/the-super-dentists-electric-toothbrush-electric-toothbrush-with-rotating-head-for-children-tweens-teens-dr-haveonesupersmile.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/beauty-personal-care.html?p=2",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "p"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/beauty-personal-care.html?p=3",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "p"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/beauty-personal-care.html?p=4",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "p"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/beauty-personal-care.html?p=5",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "p"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/beauty-personal-care.html?cat=15",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "cat"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/beauty-personal-care.html?cat=16",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "cat"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/beauty-personal-care.html?cat=17",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "cat"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/beauty-personal-care.html?cat=18",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "cat"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/beauty-personal-care.html?cat=19",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "cat"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/beauty-personal-care.html?cat=20",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "cat"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/beauty-personal-care.html?cat=21",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "cat"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/beauty-personal-care.html?cat=22",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "cat"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/beauty-personal-care.html?cat=23",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "cat"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/beauty-personal-care.html?cat=24",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "cat"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/beauty-personal-care.html?price=0-1000",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "price"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/beauty-personal-care.html?price=1000-2000",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "price"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/beauty-personal-care.html?price=2000-3000",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "price"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/beauty-personal-care.html?price=3000-4000",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "price"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/beauty-personal-care.html?price=4000-5000",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "price"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/beauty-personal-care.html?price=9000-10000",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "price"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/dp/B072N5FNZX/ref=emc_b_5_i",
+      "candidate": "other_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/dp/B07ZHXFN79/ref=emc_b_5_i",
+      "candidate": "other_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/dp/B071KC3846/ref=emc_b_5_i",
+      "candidate": "other_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/dp/B07ZHXRQDH/ref=emc_b_5_i",
+      "candidate": "other_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/dp/B072R4B8B5/ref=emc_b_5_i",
+      "candidate": "other_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/dp/B071GR36Z4/ref=emc_b_5_i",
+      "candidate": "other_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/dp/B072N5FNZX/ref=emc_b_5_t",
+      "candidate": "other_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/dp/B07ZHXFN79/ref=emc_b_5_t",
+      "candidate": "other_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/dp/B071KC3846/ref=emc_b_5_t",
+      "candidate": "other_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/dp/B07ZHXRQDH/ref=emc_b_5_t",
+      "candidate": "other_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/dp/B072R4B8B5/ref=emc_b_5_t",
+      "candidate": "other_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/dp/B071GR36Z4/ref=emc_b_5_t",
+      "candidate": "other_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/catalog/product_compare/index/uenc/aHR0cDovLzEyNy4wLjAuMTo3NzcwL2N1c3RvbWVyL3NlY3Rpb24vbG9hZC8_c2VjdGlvbnM9Y29tcGFyZS1wcm9kdWN0cyUyQ21lc3NhZ2VzJmZvcmNlX25ld19zZWN0aW9uX3RpbWVzdGFtcD1mYWxzZSZfPTE3OTA1NjM2NTI3NzI~/",
+      "candidate": "compare",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/christmas-elf-tshirt-i-m-the-sporty-elf-matching-xmas-gift-tank-top.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/juggalo-gathering-whoop-whoop-hatchetman-clown-t-shirt-tank-top.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/gillberry-men-s-joggers-sweatpants-with-pockets-mens-comfort-trousers-straight-leg-solid-color-business-golf-pants.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/fulkan-womens-plus-size-stretch-jeggings-with-pockets-high-wasit-pull-on-stretchy-slim-fit-skinny-jeans-pencil-denim-pants.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/reef-men-s-twinpin-prints-sandals.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/funny-ugly-christmas-sweater-shirt-women-boobs-for-santa-tank-top.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/wzqwzj-summer-beach-swimming-upstream-shoes-snorkeling-shoes-tide-shoes-elastic-skin-waterproof-non-slip-diving-shoes-men-and-women-yoga-socks-shoes-outdoor-beach-shoes.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/nike-victori-one-slide-mens-style-dd9559-300.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/need-more-space-for-basketball-shirt-basketball-lover-hooper-gift-basketball-t-shirt-sweater-hoodie-for-men-women-kids.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/famulily-womens-oversized-sweater-batwing-sleeve-cowl-neck-pullover-knit-ribbed-hem-pathwork-tops.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/official-bts-jimin-95-kpop-bangtan-boys-merchandise-bts15-raglan-baseball-tee.html",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/clothing-shoes-jewelry.html?p=2",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "p"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/clothing-shoes-jewelry.html?p=3",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "p"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/clothing-shoes-jewelry.html?p=4",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "p"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/clothing-shoes-jewelry.html?p=5",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "p"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/clothing-shoes-jewelry.html?cat=26",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "cat"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/clothing-shoes-jewelry.html?cat=27",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "cat"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/clothing-shoes-jewelry.html?cat=28",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "cat"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/clothing-shoes-jewelry.html?cat=31",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "cat"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/clothing-shoes-jewelry.html?price=0-100",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "price"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/clothing-shoes-jewelry.html?price=100-200",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "price"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/clothing-shoes-jewelry.html?price=200-300",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "price"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/clothing-shoes-jewelry.html?price=300-400",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "price"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/clothing-shoes-jewelry.html?price=400-500",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "price"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/clothing-shoes-jewelry.html?price=500-600",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "price"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/clothing-shoes-jewelry.html?price=600-700",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "price"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/clothing-shoes-jewelry.html?price=700-800",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "price"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/clothing-shoes-jewelry.html?price=800-900",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "price"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/clothing-shoes-jewelry.html?price=900-1000",
+      "candidate": "html_product_or_category_unverified",
+      "query_keys": [
+        "price"
+      ],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/catalog/product_compare/index/uenc/aHR0cDovLzEyNy4wLjAuMTo3NzcwL2N1c3RvbWVyL3NlY3Rpb24vbG9hZC8_c2VjdGlvbnM9Y29tcGFyZS1wcm9kdWN0cyUyQ21lc3NhZ2VzJmZvcmNlX25ld19zZWN0aW9uX3RpbWVzdGFtcD1mYWxzZSZfPTE3OTA1NjM2NzEwODM~/",
+      "candidate": "compare",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    },
+    {
+      "url": "http://127.0.0.1:7770/checkout/cart/configure/id/582/product_id/34149/",
+      "candidate": "cart_or_checkout",
+      "query_keys": [],
+      "origin": "127.0.0.1:7770"
+    }
+  ],
+  "limitation": "Discovered links only. No endpoint was visited by this audit. Candidate path classification is not verified page coverage."
+}

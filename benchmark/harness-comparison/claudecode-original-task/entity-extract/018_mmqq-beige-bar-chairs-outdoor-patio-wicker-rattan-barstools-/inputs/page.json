@@ -1,0 +1,35 @@
+{
+  "url": "http://127.0.0.1:7770/mmqq-beige-bar-chairs-outdoor-patio-wicker-rattan-barstools-chair-with-footrest-back-counter-height-kitchen-stools-with-black-metal-leg-for-kitchen-pub-cafe.html",
+  "title": "MMQQ Beige Bar Chairs Outdoor Patio Wicker Rattan Barstools Chair with Footrest & Back, Counter Height Kitchen Stools with Black Metal Leg, for Kitchen/Pub/Café",
+  "route": "/mmqq-beige-bar-chairs-outdoor-patio-wicker-rattan-barstools-chair-with-footrest-back-counter-height-kitchen-stools-with-black-metal-leg-for-kitchen-pub-cafe.html",
+  "captured_from": "drive",
+  "sources": {
+    "aria_source": "..\\drive\\screenshots\\050_mmqq-beige-bar-chairs-outdoor-patio-wicker-rattan-barstools-\\aria.yml",
+    "catalog": "<runDir>/evidence_catalog.json",
+    "evidence_ids": [
+      "trace:api_candidate:line26121",
+      "trace:api_candidate:line26132",
+      "trace:api_candidate:line26133",
+      "trace:api_candidate:line26134",
+      "trace:api_candidate:line26192",
+      "trace:api_candidate:line26267",
+      "trace:api_candidate:line26273",
+      "trace:api_candidate:line26274",
+      "trace:api_candidate:line26315",
+      "trace:api_candidate:line26330",
+      "trace:api_candidate:line26332",
+      "trace:api_candidate:line26333",
+      "trace:api_candidate:line26335",
+      "trace:api_candidate:line26336",
+      "trace:api_candidate:line26337",
+      "trace:api_candidate:line26338",
+      "trace:api_candidate:line26343",
+      "trace:api_candidate:line26345",
+      "trace:api_candidate:line26346",
+      "trace:api_candidate:line26347",
+      "trace:api_candidate:line26600",
+      "trace:api_candidate:line26601"
+    ]
+  },
+  "tree_format": "aria_yml"
+}

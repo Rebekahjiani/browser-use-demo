@@ -1,0 +1,738 @@
+[
+  {
+    "ref": "U00000",
+    "text": "RootWebArea: Shopping Cart"
+  },
+  {
+    "ref": "U00001",
+    "text": "link: Skip to Content"
+  },
+  {
+    "ref": "U00002",
+    "text": "StaticText: Skip to Content"
+  },
+  {
+    "ref": "U00003",
+    "text": "link: store logo"
+  },
+  {
+    "ref": "U00004",
+    "text": "heading: Shopping Cart"
+  },
+  {
+    "ref": "U00005",
+    "text": "table: Shopping Cart Items"
+  },
+  {
+    "ref": "U00006",
+    "text": "StaticText: Copyright © 2013-present Magento, Inc. All rights reserved."
+  },
+  {
+    "ref": "U00007",
+    "text": "StaticText: Help Us Keep Magento Healthy"
+  },
+  {
+    "ref": "U00008",
+    "text": "StaticText:"
+  },
+  {
+    "ref": "U00009",
+    "text": "link: Report All Bugs"
+  },
+  {
+    "ref": "U00010",
+    "text": "link: My Account"
+  },
+  {
+    "ref": "U00011",
+    "text": "link: My Wish List"
+  },
+  {
+    "ref": "U00012",
+    "text": "link: Sign In"
+  },
+  {
+    "ref": "U00013",
+    "text": "link: Create an Account"
+  },
+  {
+    "ref": "U00014",
+    "text": "image: one_stop_market_logo"
+  },
+  {
+    "ref": "U00015",
+    "text": "link:  My Cart"
+  },
+  {
+    "ref": "U00016",
+    "text": "StaticText: Shopping Cart"
+  },
+  {
+    "ref": "U00017",
+    "text": "StaticText: Summary"
+  },
+  {
+    "ref": "U00018",
+    "text": "link:  Continue Shopping"
+  },
+  {
+    "ref": "U00019",
+    "text": "button:  Update Shopping Cart"
+  },
+  {
+    "ref": "U00020",
+    "text": "button: Subscribe"
+  },
+  {
+    "ref": "U00021",
+    "text": "link: Privacy and Cookie Policy"
+  },
+  {
+    "ref": "U00022",
+    "text": "link: Search Terms"
+  },
+  {
+    "ref": "U00023",
+    "text": "link: Advanced Search"
+  },
+  {
+    "ref": "U00024",
+    "text": "link: Orders and Returns"
+  },
+  {
+    "ref": "U00025",
+    "text": "link: Contact Us"
+  },
+  {
+    "ref": "U00026",
+    "text": "StaticText: Report All Bugs"
+  },
+  {
+    "ref": "U00027",
+    "text": "StaticText: My Account"
+  },
+  {
+    "ref": "U00028",
+    "text": "StaticText: My Wish List"
+  },
+  {
+    "ref": "U00029",
+    "text": "StaticText: Sign In"
+  },
+  {
+    "ref": "U00030",
+    "text": "StaticText: Create an Account"
+  },
+  {
+    "ref": "U00031",
+    "text": "StaticText: My Cart"
+  },
+  {
+    "ref": "U00032",
+    "text": "link: Beauty & Personal Care"
+  },
+  {
+    "ref": "U00033",
+    "text": "link: Sports & Outdoors"
+  },
+  {
+    "ref": "U00034",
+    "text": "link: Clothing, Shoes & Jewelry"
+  },
+  {
+    "ref": "U00035",
+    "text": "link: Home & Kitchen"
+  },
+  {
+    "ref": "U00036",
+    "text": "link: Office Products"
+  },
+  {
+    "ref": "U00037",
+    "text": "link: Tools & Home Improvement"
+  },
+  {
+    "ref": "U00038",
+    "text": "link: Health & Household"
+  },
+  {
+    "ref": "U00039",
+    "text": "link: Patio, Lawn & Garden"
+  },
+  {
+    "ref": "U00040",
+    "text": "link: Electronics"
+  },
+  {
+    "ref": "U00041",
+    "text": "link: Cell Phones & Accessories"
+  },
+  {
+    "ref": "U00042",
+    "text": "link: Video Games"
+  },
+  {
+    "ref": "U00043",
+    "text": "link: Grocery & Gourmet Food"
+  },
+  {
+    "ref": "U00044",
+    "text": "heading: Estimate Shipping and Tax"
+  },
+  {
+    "ref": "U00045",
+    "text": "heading: Apply Discount Code"
+  },
+  {
+    "ref": "U00046",
+    "text": "button: Proceed to Checkout"
+  },
+  {
+    "ref": "U00047",
+    "text": "link: Check Out with Multiple Addresses"
+  },
+  {
+    "ref": "U00048",
+    "text": "StaticText: Shopping Cart Items"
+  },
+  {
+    "ref": "U00049",
+    "text": "StaticText: Continue Shopping"
+  },
+  {
+    "ref": "U00050",
+    "text": "StaticText: Update Shopping Cart"
+  },
+  {
+    "ref": "U00051",
+    "text": "StaticText: "
+  },
+  {
+    "ref": "U00052",
+    "text": "StaticText: Sign Up for Our Newsletter:"
+  },
+  {
+    "ref": "U00053",
+    "text": "textbox: Sign Up for Our Newsletter:"
+  },
+  {
+    "ref": "U00054",
+    "text": "StaticText: Subscribe"
+  },
+  {
+    "ref": "U00055",
+    "text": "StaticText: Privacy and Cookie Policy"
+  },
+  {
+    "ref": "U00056",
+    "text": "StaticText: Search Terms"
+  },
+  {
+    "ref": "U00057",
+    "text": "StaticText: Advanced Search"
+  },
+  {
+    "ref": "U00058",
+    "text": "StaticText: Orders and Returns"
+  },
+  {
+    "ref": "U00059",
+    "text": "StaticText: Contact Us"
+  },
+  {
+    "ref": "U00060",
+    "text": "StaticText: "
+  },
+  {
+    "ref": "U00061",
+    "text": "InlineTextBox: "
+  },
+  {
+    "ref": "U00062",
+    "text": "InlineTextBox: My Cart"
+  },
+  {
+    "ref": "U00063",
+    "text": "StaticText: Search"
+  },
+  {
+    "ref": "U00064",
+    "text": "combobox:  Search"
+  },
+  {
+    "ref": "U00065",
+    "text": "button: Search"
+  },
+  {
+    "ref": "U00066",
+    "text": "StaticText: Beauty & Personal Care"
+  },
+  {
+    "ref": "U00067",
+    "text": "StaticText: Sports & Outdoors"
+  },
+  {
+    "ref": "U00068",
+    "text": "StaticText: Clothing, Shoes & Jewelry"
+  },
+  {
+    "ref": "U00069",
+    "text": "StaticText: Home & Kitchen"
+  },
+  {
+    "ref": "U00070",
+    "text": "StaticText: Office Products"
+  },
+  {
+    "ref": "U00071",
+    "text": "StaticText: Tools & Home Improvement"
+  },
+  {
+    "ref": "U00072",
+    "text": "StaticText: Health & Household"
+  },
+  {
+    "ref": "U00073",
+    "text": "StaticText: Patio, Lawn & Garden"
+  },
+  {
+    "ref": "U00074",
+    "text": "StaticText: Electronics"
+  },
+  {
+    "ref": "U00075",
+    "text": "StaticText: Cell Phones & Accessories"
+  },
+  {
+    "ref": "U00076",
+    "text": "StaticText: Video Games"
+  },
+  {
+    "ref": "U00077",
+    "text": "StaticText: Grocery & Gourmet Food"
+  },
+  {
+    "ref": "U00078",
+    "text": "StaticText: Estimate Shipping and Tax"
+  },
+  {
+    "ref": "U00079",
+    "text": "StaticText: "
+  },
+  {
+    "ref": "U00080",
+    "text": "StaticText: Apply Discount Code"
+  },
+  {
+    "ref": "U00081",
+    "text": "StaticText: "
+  },
+  {
+    "ref": "U00082",
+    "text": "StaticText: Proceed to Checkout"
+  },
+  {
+    "ref": "U00083",
+    "text": "StaticText: Check Out with Multiple Addresses"
+  },
+  {
+    "ref": "U00084",
+    "text": "columnheader: Item"
+  },
+  {
+    "ref": "U00085",
+    "text": "columnheader: Price"
+  },
+  {
+    "ref": "U00086",
+    "text": "columnheader: Qty"
+  },
+  {
+    "ref": "U00087",
+    "text": "columnheader: Subtotal"
+  },
+  {
+    "ref": "U00088",
+    "text": "cell: ZOSI H.265+ PoE Home Security Camera System Outdoor Indoor,8-Channel 5MP PoE NVR Recorder,4pcs Wired 2MP 1080p Surveillance Bullet PoE IP Cameras, No Hard Drive (Renewed) ZOSI H.265+ PoE Home Security Camera System Outdoor Indoor,8-Channel 5MP PoE NVR Recorder,4pcs Wired 2MP 1080p Surveillance Bullet PoE IP Cameras, No Hard Drive (Renewed)"
+  },
+  {
+    "ref": "U00089",
+    "text": "cell: $169.99"
+  },
+  {
+    "ref": "U00090",
+    "text": "cell: Qty 1"
+  },
+  {
+    "ref": "U00091",
+    "text": "cell: $169.99"
+  },
+  {
+    "ref": "U00092",
+    "text": "cell: Edit Remove item"
+  },
+  {
+    "ref": "U00093",
+    "text": "cell: Replacement Battery for Garmin Montana 600 600T 650 650T 600t Camo 680 680T,fit Part No 361-00053-00 010-11599-00, 2200mAh Replacement Battery for Garmin Montana 600 600T 650 650T 600t Camo 680 680T,fit Part No 361-00053-00 010-11599-00, 2200mAh"
+  },
+  {
+    "ref": "U00094",
+    "text": "cell: $25.99"
+  },
+  {
+    "ref": "U00095",
+    "text": "cell: Qty 1"
+  },
+  {
+    "ref": "U00096",
+    "text": "cell: $25.99"
+  },
+  {
+    "ref": "U00097",
+    "text": "cell: Edit Remove item"
+  },
+  {
+    "ref": "U00098",
+    "text": "cell: Bookshelf Bookcase Storage Rack Standing Shelf Industrial Stable Bookcase with Iron Tube Frame for Home, Living Room, Bedroom, Office by Tribesigns Bookshelf Bookcase Storage Rack Standing Shelf Industrial Stable Bookcase with Iron Tube Frame for Home, Living Room, Bedroom, Office by Tribesigns"
+  },
+  {
+    "ref": "U00099",
+    "text": "cell: $42.99"
+  },
+  {
+    "ref": "U00100",
+    "text": "cell: Qty 1"
+  },
+  {
+    "ref": "U00101",
+    "text": "cell: $42.99"
+  },
+  {
+    "ref": "U00102",
+    "text": "cell: Edit Remove item"
+  },
+  {
+    "ref": "U00103",
+    "text": "cell: Shop Succulents | Assorted Collection of Live Air Plants, Hand Selected Variety Pack of Air Succulents | Collection of 6 Shop Succulents | Assorted Collection of Live Air Plants, Hand Selected Variety Pack of Air Succulents | Collection of 6"
+  },
+  {
+    "ref": "U00104",
+    "text": "cell: $21.96"
+  },
+  {
+    "ref": "U00105",
+    "text": "cell: Qty 1"
+  },
+  {
+    "ref": "U00106",
+    "text": "cell: $21.96"
+  },
+  {
+    "ref": "U00107",
+    "text": "cell: Edit Remove item"
+  },
+  {
+    "ref": "U00108",
+    "text": "StaticText: "
+  },
+  {
+    "ref": "U00109",
+    "text": "InlineTextBox: "
+  },
+  {
+    "ref": "U00110",
+    "text": "InlineTextBox: Continue Shopping"
+  },
+  {
+    "ref": "U00111",
+    "text": "StaticText: "
+  },
+  {
+    "ref": "U00112",
+    "text": "InlineTextBox: "
+  },
+  {
+    "ref": "U00113",
+    "text": "InlineTextBox: Update Shopping Cart"
+  },
+  {
+    "ref": "U00114",
+    "text": "InlineTextBox: "
+  },
+  {
+    "ref": "U00115",
+    "text": "StaticText: "
+  },
+  {
+    "ref": "U00116",
+    "text": "InlineTextBox: "
+  },
+  {
+    "ref": "U00117",
+    "text": "InlineTextBox: Search"
+  },
+  {
+    "ref": "U00118",
+    "text": "link: Advanced Search"
+  },
+  {
+    "ref": "U00119",
+    "text": "StaticText: Search"
+  },
+  {
+    "ref": "U00120",
+    "text": "StaticText: Item"
+  },
+  {
+    "ref": "U00121",
+    "text": "StaticText: Price"
+  },
+  {
+    "ref": "U00122",
+    "text": "StaticText: Qty"
+  },
+  {
+    "ref": "U00123",
+    "text": "StaticText: Subtotal"
+  },
+  {
+    "ref": "U00124",
+    "text": "link: ZOSI H.265+ PoE Home Security Camera System Outdoor Indoor,8-Channel 5MP PoE NVR Recorder,4pcs Wired 2MP 1080p Surveillance Bullet PoE IP Cameras, No Hard Drive (Renewed)"
+  },
+  {
+    "ref": "U00125",
+    "text": "StaticText: $169.99"
+  },
+  {
+    "ref": "U00126",
+    "text": "StaticText: $169.99"
+  },
+  {
+    "ref": "U00127",
+    "text": "link: Edit"
+  },
+  {
+    "ref": "U00128",
+    "text": "link: Remove item"
+  },
+  {
+    "ref": "U00129",
+    "text": "link: Replacement Battery for Garmin Montana 600 600T 650 650T 600t Camo 680 680T,fit Part No 361-00053-00 010-11599-00, 2200mAh"
+  },
+  {
+    "ref": "U00130",
+    "text": "StaticText: $25.99"
+  },
+  {
+    "ref": "U00131",
+    "text": "StaticText: $25.99"
+  },
+  {
+    "ref": "U00132",
+    "text": "link: Edit"
+  },
+  {
+    "ref": "U00133",
+    "text": "link: Remove item"
+  },
+  {
+    "ref": "U00134",
+    "text": "link: Bookshelf Bookcase Storage Rack Standing Shelf Industrial Stable Bookcase with Iron Tube Frame for Home, Living Room, Bedroom, Office by Tribesigns"
+  },
+  {
+    "ref": "U00135",
+    "text": "StaticText: $42.99"
+  },
+  {
+    "ref": "U00136",
+    "text": "StaticText: $42.99"
+  },
+  {
+    "ref": "U00137",
+    "text": "link: Edit"
+  },
+  {
+    "ref": "U00138",
+    "text": "link: Remove item"
+  },
+  {
+    "ref": "U00139",
+    "text": "link: Shop Succulents | Assorted Collection of Live Air Plants, Hand Selected Variety Pack of Air Succulents | Collection of 6"
+  },
+  {
+    "ref": "U00140",
+    "text": "StaticText: $21.96"
+  },
+  {
+    "ref": "U00141",
+    "text": "StaticText: $21.96"
+  },
+  {
+    "ref": "U00142",
+    "text": "link: Edit"
+  },
+  {
+    "ref": "U00143",
+    "text": "link: Remove item"
+  },
+  {
+    "ref": "U00144",
+    "text": "InlineTextBox: "
+  },
+  {
+    "ref": "U00145",
+    "text": "InlineTextBox: "
+  },
+  {
+    "ref": "U00146",
+    "text": "InlineTextBox: "
+  },
+  {
+    "ref": "U00147",
+    "text": "StaticText: Advanced Search"
+  },
+  {
+    "ref": "U00148",
+    "text": "StaticText: "
+  },
+  {
+    "ref": "U00149",
+    "text": "InlineTextBox: "
+  },
+  {
+    "ref": "U00150",
+    "text": "InlineTextBox: Search"
+  },
+  {
+    "ref": "U00151",
+    "text": "image: ZOSI H.265+ PoE Home Security Camera System Outdoor Indoor,8-Channel 5MP PoE NVR Recorder,4pcs Wired 2MP 1080p Surveillance Bullet PoE IP Cameras, No Hard Drive (Renewed)"
+  },
+  {
+    "ref": "U00152",
+    "text": "StaticText: Edit"
+  },
+  {
+    "ref": "U00153",
+    "text": "StaticText: Remove item"
+  },
+  {
+    "ref": "U00154",
+    "text": "image: Replacement Battery for Garmin Montana 600 600T 650 650T 600t Camo 680 680T,fit Part No 361-00053-00 010-11599-00, 2200mAh"
+  },
+  {
+    "ref": "U00155",
+    "text": "StaticText: Edit"
+  },
+  {
+    "ref": "U00156",
+    "text": "StaticText: Remove item"
+  },
+  {
+    "ref": "U00157",
+    "text": "image: Bookshelf Bookcase Storage Rack Standing Shelf Industrial Stable Bookcase with Iron Tube Frame for Home, Living Room, Bedroom, Office by Tribesigns"
+  },
+  {
+    "ref": "U00158",
+    "text": "StaticText: Edit"
+  },
+  {
+    "ref": "U00159",
+    "text": "StaticText: Remove item"
+  },
+  {
+    "ref": "U00160",
+    "text": "image: Shop Succulents | Assorted Collection of Live Air Plants, Hand Selected Variety Pack of Air Succulents | Collection of 6"
+  },
+  {
+    "ref": "U00161",
+    "text": "StaticText: Edit"
+  },
+  {
+    "ref": "U00162",
+    "text": "StaticText: Remove item"
+  },
+  {
+    "ref": "U00163",
+    "text": "InlineTextBox: "
+  },
+  {
+    "ref": "U00164",
+    "text": "link: ZOSI H.265+ PoE Home Security Camera System Outdoor Indoor,8-Channel 5MP PoE NVR Recorder,4pcs Wired 2MP 1080p Surveillance Bullet PoE IP Cameras, No Hard Drive (Renewed)"
+  },
+  {
+    "ref": "U00165",
+    "text": "StaticText: Qty"
+  },
+  {
+    "ref": "U00166",
+    "text": "spinbutton: Qty"
+  },
+  {
+    "ref": "U00167",
+    "text": "link: Replacement Battery for Garmin Montana 600 600T 650 650T 600t Camo 680 680T,fit Part No 361-00053-00 010-11599-00, 2200mAh"
+  },
+  {
+    "ref": "U00168",
+    "text": "StaticText: Qty"
+  },
+  {
+    "ref": "U00169",
+    "text": "spinbutton: Qty"
+  },
+  {
+    "ref": "U00170",
+    "text": "link: Bookshelf Bookcase Storage Rack Standing Shelf Industrial Stable Bookcase with Iron Tube Frame for Home, Living Room, Bedroom, Office by Tribesigns"
+  },
+  {
+    "ref": "U00171",
+    "text": "StaticText: Qty"
+  },
+  {
+    "ref": "U00172",
+    "text": "spinbutton: Qty"
+  },
+  {
+    "ref": "U00173",
+    "text": "link: Shop Succulents | Assorted Collection of Live Air Plants, Hand Selected Variety Pack of Air Succulents | Collection of 6"
+  },
+  {
+    "ref": "U00174",
+    "text": "StaticText: Qty"
+  },
+  {
+    "ref": "U00175",
+    "text": "spinbutton: Qty"
+  },
+  {
+    "ref": "U00176",
+    "text": "StaticText: ZOSI H.265+ PoE Home Security Camera System Outdoor Indoor,8-Channel 5MP PoE NVR Recorder,4pcs Wired 2MP 1080p Surveillance Bullet PoE IP Cameras, No Hard Drive (Renewed)"
+  },
+  {
+    "ref": "U00177",
+    "text": "StaticText: Replacement Battery for Garmin Montana 600 600T 650 650T 600t Camo 680 680T,fit Part No 361-00053-00 010-11599-00, 2200mAh"
+  },
+  {
+    "ref": "U00178",
+    "text": "StaticText: Bookshelf Bookcase Storage Rack Standing Shelf Industrial Stable Bookcase with Iron Tube Frame for Home, Living Room, Bedroom, Office by Tribesigns"
+  },
+  {
+    "ref": "U00179",
+    "text": "StaticText: Shop Succulents | Assorted Collection of Live Air Plants, Hand Selected Variety Pack of Air Succulents | Collection of 6"
+  },
+  {
+    "ref": "U00180",
+    "text": "StaticText: 1"
+  },
+  {
+    "ref": "U00181",
+    "text": "StaticText: 1"
+  },
+  {
+    "ref": "U00182",
+    "text": "StaticText: 1"
+  },
+  {
+    "ref": "U00183",
+    "text": "StaticText: 1"
+  }
+]

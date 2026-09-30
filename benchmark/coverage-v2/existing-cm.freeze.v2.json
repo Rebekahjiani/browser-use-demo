@@ -1,0 +1,37 @@
+{
+  "frozen_at": "2026-09-29T08:09:20.830369+00:00",
+  "files": [
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\coverage-v2\\score_existing_cm_v2.py",
+      "sha256": "872277570bc1e046d6111587130813d0833a34bccc81f22f37adbdba0e9c3348"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\coverage-v2\\score_existing_cm.py",
+      "sha256": "09726a98bb15613b7febf1440ef0b4c38ad52a4858436fd1c1fd214f3d714df8"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\coverage-v2\\test_existing_cm_v2.py",
+      "sha256": "a5be08b21f4eac837aa99569851a5fac202a7863cf1ddda1fd8db481f658552f"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\coverage-v2\\common-readonly.v2.json",
+      "sha256": "6ef74775a9441a1e15dad9866b54f5dcb5c039ded266e1cc68534dc844e31e1e"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\coverage-v2\\common-readonly-coverage.v2.json",
+      "sha256": "cb39c3c01b7e865ccc303cf0de950bef3117215b3097f574896c782fd223734f"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\coverage-v2\\common-readonly.freeze.v2.json",
+      "sha256": "773e8dc42a8b66079ef320c289dcc3ac9cdca599ef22520e302f3994f4982e83"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\reports\\drive-context-model.json",
+      "sha256": "2e76088d8a6f261f2e96a84a02c9b3dbe65dce69013a80196863d2e757483cc4"
+    },
+    {
+      "file": "C:\\Users\\bulin\\appweave\\outputs\\02-context-model\\browser-use-contextmodel\\context-model.json",
+      "sha256": "9f9d4e00aac708ee1ba80a4f45a69eea3550302e6396801243ad9066436d7399"
+    }
+  ]
+}

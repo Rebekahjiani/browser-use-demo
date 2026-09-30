@@ -1,0 +1,866 @@
+[
+  {
+    "ref": "U00000",
+    "text": "- generic [ref=e2]:"
+  },
+  {
+    "ref": "U00001",
+    "text": "- banner [ref=e3]:"
+  },
+  {
+    "ref": "U00002",
+    "text": "- generic [ref=e5]:"
+  },
+  {
+    "ref": "U00003",
+    "text": "- list [ref=e6]:"
+  },
+  {
+    "ref": "U00004",
+    "text": "- listitem [ref=e7]:"
+  },
+  {
+    "ref": "U00005",
+    "text": "- link \"My Account\" [ref=e8] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00006",
+    "text": "- /url: http://127.0.0.1:7770/customer/account/"
+  },
+  {
+    "ref": "U00007",
+    "text": "- listitem [ref=e9]:"
+  },
+  {
+    "ref": "U00008",
+    "text": "- link \"My Wish List\" [ref=e10] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00009",
+    "text": "- /url: http://127.0.0.1:7770/wishlist/"
+  },
+  {
+    "ref": "U00010",
+    "text": "- listitem [ref=e11]:"
+  },
+  {
+    "ref": "U00011",
+    "text": "- link \"Sign In\" [ref=e12] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00012",
+    "text": "- /url: http://127.0.0.1:7770/customer/account/login/"
+  },
+  {
+    "ref": "U00013",
+    "text": "- listitem [ref=e13]:"
+  },
+  {
+    "ref": "U00014",
+    "text": "- link \"Compare Products 3 items\" [ref=e14] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00015",
+    "text": "- /url: http://127.0.0.1:7770/catalog/product_compare/index/uenc/aHR0cDovLzEyNy4wLjAuMTo3NzcwL2N1c3RvbWVyL3NlY3Rpb24vbG9hZC8_c2VjdGlvbnM9Y29tcGFyZS1wcm9kdWN0cyUyQ21lc3NhZ2VzJmZvcmNlX25ld19zZWN0aW9uX3RpbWVzdGFtcD1mYWxzZSZfPTE3OTA1NjM0NzA5NzY~/"
+  },
+  {
+    "ref": "U00016",
+    "text": "- listitem [ref=e15]: Welcome to One Stop Market"
+  },
+  {
+    "ref": "U00017",
+    "text": "- listitem [ref=e16]:"
+  },
+  {
+    "ref": "U00018",
+    "text": "- link \"Create an Account\" [ref=e17] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00019",
+    "text": "- /url: http://127.0.0.1:7770/customer/account/create/"
+  },
+  {
+    "ref": "U00020",
+    "text": "- link \"Skip to Content\" [ref=e18] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00021",
+    "text": "- /url: \"#contentarea\""
+  },
+  {
+    "ref": "U00022",
+    "text": "- generic [ref=e19]:"
+  },
+  {
+    "ref": "U00023",
+    "text": "- text: "
+  },
+  {
+    "ref": "U00024",
+    "text": "- link \"store logo\" [ref=e20] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00025",
+    "text": "- /url: http://127.0.0.1:7770/"
+  },
+  {
+    "ref": "U00026",
+    "text": "- img \"one_stop_market_logo\" [ref=e21]"
+  },
+  {
+    "ref": "U00027",
+    "text": "- generic [ref=e22]:"
+  },
+  {
+    "ref": "U00028",
+    "text": "- link \" My Cart 3 3 items\" [ref=e23] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00029",
+    "text": "- /url: http://127.0.0.1:7770/checkout/cart/"
+  },
+  {
+    "ref": "U00030",
+    "text": "- text: "
+  },
+  {
+    "ref": "U00031",
+    "text": "- generic [ref=e24]: My Cart"
+  },
+  {
+    "ref": "U00032",
+    "text": "- generic [ref=e25]:"
+  },
+  {
+    "ref": "U00033",
+    "text": "- generic [ref=e26]: \"3\""
+  },
+  {
+    "ref": "U00034",
+    "text": "- generic [ref=e27]: 3 items"
+  },
+  {
+    "ref": "U00035",
+    "text": "- text: \" : :   :   :  \""
+  },
+  {
+    "ref": "U00036",
+    "text": "- generic [ref=e30]:"
+  },
+  {
+    "ref": "U00037",
+    "text": "- generic [ref=e31]:"
+  },
+  {
+    "ref": "U00038",
+    "text": "- generic [ref=e32]:"
+  },
+  {
+    "ref": "U00039",
+    "text": "- text: "
+  },
+  {
+    "ref": "U00040",
+    "text": "- generic [ref=e33]: Search"
+  },
+  {
+    "ref": "U00041",
+    "text": "- generic [ref=e34]:"
+  },
+  {
+    "ref": "U00042",
+    "text": "- combobox \" Search\" [ref=e35]"
+  },
+  {
+    "ref": "U00043",
+    "text": "- link \"Advanced Search\" [ref=e37] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00044",
+    "text": "- /url: http://127.0.0.1:7770/catalogsearch/advanced/"
+  },
+  {
+    "ref": "U00045",
+    "text": "- generic:"
+  },
+  {
+    "ref": "U00046",
+    "text": "- button \"Search\" [disabled]:"
+  },
+  {
+    "ref": "U00047",
+    "text": "- text: "
+  },
+  {
+    "ref": "U00048",
+    "text": "- generic: Search"
+  },
+  {
+    "ref": "U00049",
+    "text": "- tablist [ref=e39]:"
+  },
+  {
+    "ref": "U00050",
+    "text": "- tabpanel [ref=e40]:"
+  },
+  {
+    "ref": "U00051",
+    "text": "- navigation [ref=e41]:"
+  },
+  {
+    "ref": "U00052",
+    "text": "- menu [ref=e42]:"
+  },
+  {
+    "ref": "U00053",
+    "text": "- listitem [ref=e43]:"
+  },
+  {
+    "ref": "U00054",
+    "text": "- menuitem \" Beauty & Personal Care\" [ref=e44] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00055",
+    "text": "- generic [ref=e45]: "
+  },
+  {
+    "ref": "U00056",
+    "text": "- text: Beauty & Personal Care"
+  },
+  {
+    "ref": "U00057",
+    "text": "- text:          "
+  },
+  {
+    "ref": "U00058",
+    "text": "- listitem [ref=e46]:"
+  },
+  {
+    "ref": "U00059",
+    "text": "- menuitem \" Sports & Outdoors\" [ref=e47] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00060",
+    "text": "- generic [ref=e48]: "
+  },
+  {
+    "ref": "U00061",
+    "text": "- text: Sports & Outdoors"
+  },
+  {
+    "ref": "U00062",
+    "text": "- text:   "
+  },
+  {
+    "ref": "U00063",
+    "text": "- listitem [ref=e49]:"
+  },
+  {
+    "ref": "U00064",
+    "text": "- menuitem \" Clothing, Shoes & Jewelry\" [ref=e50] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00065",
+    "text": "- generic [ref=e51]: "
+  },
+  {
+    "ref": "U00066",
+    "text": "- text: Clothing, Shoes & Jewelry"
+  },
+  {
+    "ref": "U00067",
+    "text": "- text:    "
+  },
+  {
+    "ref": "U00068",
+    "text": "- listitem [ref=e52]:"
+  },
+  {
+    "ref": "U00069",
+    "text": "- menuitem \" Home & Kitchen\" [ref=e53] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00070",
+    "text": "- generic [ref=e54]: "
+  },
+  {
+    "ref": "U00071",
+    "text": "- text: Home & Kitchen"
+  },
+  {
+    "ref": "U00072",
+    "text": "- text:       "
+  },
+  {
+    "ref": "U00073",
+    "text": "- listitem [ref=e55]:"
+  },
+  {
+    "ref": "U00074",
+    "text": "- menuitem \" Office Products\" [ref=e56] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00075",
+    "text": "- generic [ref=e57]: "
+  },
+  {
+    "ref": "U00076",
+    "text": "- text: Office Products"
+  },
+  {
+    "ref": "U00077",
+    "text": "- text:   "
+  },
+  {
+    "ref": "U00078",
+    "text": "- listitem [ref=e58]:"
+  },
+  {
+    "ref": "U00079",
+    "text": "- menuitem \" Tools & Home Improvement\" [ref=e59] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00080",
+    "text": "- generic [ref=e60]: "
+  },
+  {
+    "ref": "U00081",
+    "text": "- text: Tools & Home Improvement"
+  },
+  {
+    "ref": "U00082",
+    "text": "- text: "
+  },
+  {
+    "ref": "U00083",
+    "text": "- listitem [ref=e61]:"
+  },
+  {
+    "ref": "U00084",
+    "text": "- menuitem \" Health & Household\" [ref=e62] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00085",
+    "text": "- generic [ref=e63]: "
+  },
+  {
+    "ref": "U00086",
+    "text": "- text: Health & Household"
+  },
+  {
+    "ref": "U00087",
+    "text": "- text:  "
+  },
+  {
+    "ref": "U00088",
+    "text": "- listitem [ref=e64]:"
+  },
+  {
+    "ref": "U00089",
+    "text": "- menuitem \" Patio, Lawn & Garden\" [ref=e65] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00090",
+    "text": "- generic [ref=e66]: "
+  },
+  {
+    "ref": "U00091",
+    "text": "- text: Patio, Lawn & Garden"
+  },
+  {
+    "ref": "U00092",
+    "text": "- text: "
+  },
+  {
+    "ref": "U00093",
+    "text": "- listitem [ref=e67]:"
+  },
+  {
+    "ref": "U00094",
+    "text": "- menuitem \" Electronics\" [ref=e68] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00095",
+    "text": "- generic [ref=e69]: "
+  },
+  {
+    "ref": "U00096",
+    "text": "- text: Electronics"
+  },
+  {
+    "ref": "U00097",
+    "text": "- text:            "
+  },
+  {
+    "ref": "U00098",
+    "text": "- listitem [ref=e70]:"
+  },
+  {
+    "ref": "U00099",
+    "text": "- menuitem \" Cell Phones & Accessories\" [ref=e71] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00100",
+    "text": "- generic [ref=e72]: "
+  },
+  {
+    "ref": "U00101",
+    "text": "- text: Cell Phones & Accessories"
+  },
+  {
+    "ref": "U00102",
+    "text": "- text:  "
+  },
+  {
+    "ref": "U00103",
+    "text": "- listitem [ref=e73]:"
+  },
+  {
+    "ref": "U00104",
+    "text": "- menuitem \" Video Games\" [ref=e74] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00105",
+    "text": "- generic [ref=e75]: "
+  },
+  {
+    "ref": "U00106",
+    "text": "- text: Video Games"
+  },
+  {
+    "ref": "U00107",
+    "text": "- text:    "
+  },
+  {
+    "ref": "U00108",
+    "text": "- listitem [ref=e76]:"
+  },
+  {
+    "ref": "U00109",
+    "text": "- menuitem \" Grocery & Gourmet Food\" [ref=e77] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00110",
+    "text": "- generic [ref=e78]: "
+  },
+  {
+    "ref": "U00111",
+    "text": "- text: Grocery & Gourmet Food"
+  },
+  {
+    "ref": "U00112",
+    "text": "- text:             "
+  },
+  {
+    "ref": "U00113",
+    "text": "- list [ref=e80]:"
+  },
+  {
+    "ref": "U00114",
+    "text": "- listitem [ref=e81]:"
+  },
+  {
+    "ref": "U00115",
+    "text": "- link \"Home\" [ref=e82] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00116",
+    "text": "- /url: http://127.0.0.1:7770/"
+  },
+  {
+    "ref": "U00117",
+    "text": "- text: "
+  },
+  {
+    "ref": "U00118",
+    "text": "- listitem [ref=e83]:"
+  },
+  {
+    "ref": "U00119",
+    "text": "- strong [ref=e84]: Briess DME - Pilsen Light - 1 lb Bag"
+  },
+  {
+    "ref": "U00120",
+    "text": "- main [ref=e85]:"
+  },
+  {
+    "ref": "U00121",
+    "text": "- heading \"Briess DME - Pilsen Light - 1 lb Bag\" [level=1] [ref=e87]"
+  },
+  {
+    "ref": "U00122",
+    "text": "- generic [ref=e89]:"
+  },
+  {
+    "ref": "U00123",
+    "text": "- generic [ref=e90]:"
+  },
+  {
+    "ref": "U00124",
+    "text": "- generic [ref=e91]:"
+  },
+  {
+    "ref": "U00125",
+    "text": "- generic [ref=e92]:"
+  },
+  {
+    "ref": "U00126",
+    "text": "- generic \"Availability\" [ref=e93]: In stock"
+  },
+  {
+    "ref": "U00127",
+    "text": "- generic [ref=e94]:"
+  },
+  {
+    "ref": "U00128",
+    "text": "- strong [ref=e95]: SKU"
+  },
+  {
+    "ref": "U00129",
+    "text": "- generic [ref=e96]: B074DBMG66"
+  },
+  {
+    "ref": "U00130",
+    "text": "- link \"Be the first to review this product\" [ref=e99] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00131",
+    "text": "- /url: http://127.0.0.1:7770/briess-dme-pilsen-light-1-lb-bag.html#review-form"
+  },
+  {
+    "ref": "U00132",
+    "text": "- generic [ref=e102]: $12.99"
+  },
+  {
+    "ref": "U00133",
+    "text": "- generic [ref=e106]:"
+  },
+  {
+    "ref": "U00134",
+    "text": "- generic [ref=e107]:"
+  },
+  {
+    "ref": "U00135",
+    "text": "- generic [ref=e108]: Qty"
+  },
+  {
+    "ref": "U00136",
+    "text": "- spinbutton \"Qty\" [ref=e110]: \"1\""
+  },
+  {
+    "ref": "U00137",
+    "text": "- button \"Add to Cart\" [ref=e112] [cursor=pointer]"
+  },
+  {
+    "ref": "U00138",
+    "text": "- generic [ref=e114]:"
+  },
+  {
+    "ref": "U00139",
+    "text": "- link \"Add to Wish List\" [ref=e115] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00140",
+    "text": "- /url: \"#\""
+  },
+  {
+    "ref": "U00141",
+    "text": "- link \"Add to Compare\" [ref=e116] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00142",
+    "text": "- /url: \"#\""
+  },
+  {
+    "ref": "U00143",
+    "text": "- generic [ref=e117]:"
+  },
+  {
+    "ref": "U00144",
+    "text": "- link \"Skip to the end of the images gallery\" [ref=e118] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00145",
+    "text": "- /url: \"#gallery-next-area\""
+  },
+  {
+    "ref": "U00146",
+    "text": "- img \"Image\" [ref=e125]"
+  },
+  {
+    "ref": "U00147",
+    "text": "- link \"Skip to the beginning of the images gallery\" [ref=e126] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00148",
+    "text": "- /url: \"#gallery-prev-area\""
+  },
+  {
+    "ref": "U00149",
+    "text": "- tablist [ref=e128]:"
+  },
+  {
+    "ref": "U00150",
+    "text": "- tab \"Details\" [expanded] [ref=e129]:"
+  },
+  {
+    "ref": "U00151",
+    "text": "- link \"Details\" [ref=e130] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00152",
+    "text": "- /url: \"#description\""
+  },
+  {
+    "ref": "U00153",
+    "text": "- tabpanel \"Details\" [ref=e131]:"
+  },
+  {
+    "ref": "U00154",
+    "text": "- generic [ref=e134]:"
+  },
+  {
+    "ref": "U00155",
+    "text": "- heading \"Product Quick Look\" [level=2] [ref=e135]"
+  },
+  {
+    "ref": "U00156",
+    "text": "- generic [ref=e136]:"
+  },
+  {
+    "ref": "U00157",
+    "text": "- list [ref=e138]:"
+  },
+  {
+    "ref": "U00158",
+    "text": "- listitem [ref=e139]: 1 lb Pilsner dried malt extract. Made in United States. Manufactured by Homebrewers Outpost. Homebrewers Outpost brand products."
+  },
+  {
+    "ref": "U00159",
+    "text": "- listitem [ref=e140]: Dried malt extract"
+  },
+  {
+    "ref": "U00160",
+    "text": "- listitem [ref=e141]: 1 lb bag"
+  },
+  {
+    "ref": "U00161",
+    "text": "- listitem [ref=e142]: 1.043 sg ppg"
+  },
+  {
+    "ref": "U00162",
+    "text": "- listitem [ref=e143]: Briess Malting"
+  },
+  {
+    "ref": "U00163",
+    "text": "- listitem [ref=e144]: For Homebrewing"
+  },
+  {
+    "ref": "U00164",
+    "text": "- table [ref=e146]:"
+  },
+  {
+    "ref": "U00165",
+    "text": "- rowgroup [ref=e147]:"
+  },
+  {
+    "ref": "U00166",
+    "text": "- row \"Package Dimensions 8.15 x 6.22 x 1.81 inches\" [ref=e148]:"
+  },
+  {
+    "ref": "U00167",
+    "text": "- rowheader \"Package Dimensions\" [ref=e149]"
+  },
+  {
+    "ref": "U00168",
+    "text": "- cell \"8.15 x 6.22 x 1.81 inches\" [ref=e150]"
+  },
+  {
+    "ref": "U00169",
+    "text": "- row \"Item Weight 1 pounds\" [ref=e151]:"
+  },
+  {
+    "ref": "U00170",
+    "text": "- rowheader \"Item Weight\" [ref=e152]"
+  },
+  {
+    "ref": "U00171",
+    "text": "- cell \"1 pounds\" [ref=e153]"
+  },
+  {
+    "ref": "U00172",
+    "text": "- row \"Manufacturer Homebrewers Outpost\" [ref=e154]:"
+  },
+  {
+    "ref": "U00173",
+    "text": "- rowheader \"Manufacturer\" [ref=e155]"
+  },
+  {
+    "ref": "U00174",
+    "text": "- cell \"Homebrewers Outpost\" [ref=e156]"
+  },
+  {
+    "ref": "U00175",
+    "text": "- row \"Item model number DME15X\" [ref=e157]:"
+  },
+  {
+    "ref": "U00176",
+    "text": "- rowheader \"Item model number\" [ref=e158]"
+  },
+  {
+    "ref": "U00177",
+    "text": "- cell \"DME15X\" [ref=e159]"
+  },
+  {
+    "ref": "U00178",
+    "text": "- row \"Date First Available July 29, 2017\" [ref=e160]:"
+  },
+  {
+    "ref": "U00179",
+    "text": "- rowheader \"Date First Available\" [ref=e161]"
+  },
+  {
+    "ref": "U00180",
+    "text": "- cell \"July 29, 2017\" [ref=e162]"
+  },
+  {
+    "ref": "U00181",
+    "text": "- tab \"Reviews\" [ref=e163]:"
+  },
+  {
+    "ref": "U00182",
+    "text": "- link \"Reviews\" [ref=e164] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00183",
+    "text": "- /url: \"#reviews\""
+  },
+  {
+    "ref": "U00184",
+    "text": "- text: \"*       * * *\""
+  },
+  {
+    "ref": "U00185",
+    "text": "- contentinfo [ref=e165]:"
+  },
+  {
+    "ref": "U00186",
+    "text": "- generic [ref=e166]:"
+  },
+  {
+    "ref": "U00187",
+    "text": "- generic [ref=e169]:"
+  },
+  {
+    "ref": "U00188",
+    "text": "- generic [ref=e171]:"
+  },
+  {
+    "ref": "U00189",
+    "text": "- text: "
+  },
+  {
+    "ref": "U00190",
+    "text": "- generic [ref=e172]:"
+  },
+  {
+    "ref": "U00191",
+    "text": "- generic [ref=e173]: \"Sign Up for Our Newsletter:\""
+  },
+  {
+    "ref": "U00192",
+    "text": "- textbox \"Sign Up for Our Newsletter:\" [ref=e174]:"
+  },
+  {
+    "ref": "U00193",
+    "text": "- /placeholder: Enter your email address"
+  },
+  {
+    "ref": "U00194",
+    "text": "- button \"Subscribe\" [ref=e176] [cursor=pointer]"
+  },
+  {
+    "ref": "U00195",
+    "text": "- list [ref=e177]:"
+  },
+  {
+    "ref": "U00196",
+    "text": "- listitem [ref=e178]:"
+  },
+  {
+    "ref": "U00197",
+    "text": "- link \"Privacy and Cookie Policy\" [ref=e179] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00198",
+    "text": "- /url: http://127.0.0.1:7770/privacy-policy-cookie-restriction-mode/"
+  },
+  {
+    "ref": "U00199",
+    "text": "- listitem [ref=e180]:"
+  },
+  {
+    "ref": "U00200",
+    "text": "- link \"Search Terms\" [ref=e181] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00201",
+    "text": "- /url: http://127.0.0.1:7770/search/term/popular/"
+  },
+  {
+    "ref": "U00202",
+    "text": "- listitem [ref=e182]:"
+  },
+  {
+    "ref": "U00203",
+    "text": "- link \"Advanced Search\" [ref=e183] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00204",
+    "text": "- /url: http://127.0.0.1:7770/catalogsearch/advanced/"
+  },
+  {
+    "ref": "U00205",
+    "text": "- listitem [ref=e184]:"
+  },
+  {
+    "ref": "U00206",
+    "text": "- link \"Orders and Returns\" [ref=e185] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00207",
+    "text": "- /url: http://127.0.0.1:7770/sales/guest/form/"
+  },
+  {
+    "ref": "U00208",
+    "text": "- listitem [ref=e186]:"
+  },
+  {
+    "ref": "U00209",
+    "text": "- link \"Contact Us\" [ref=e187] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00210",
+    "text": "- /url: http://127.0.0.1:7770/contact/"
+  },
+  {
+    "ref": "U00211",
+    "text": "- generic [ref=e188]: Copyright © 2013-present Magento, Inc. All rights reserved."
+  },
+  {
+    "ref": "U00212",
+    "text": "- generic [ref=e189]:"
+  },
+  {
+    "ref": "U00213",
+    "text": "- text: Help Us Keep Magento Healthy"
+  },
+  {
+    "ref": "U00214",
+    "text": "- link \"Report All Bugs\" [ref=e190] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00215",
+    "text": "- /url: http://www.magentocommerce.com/bug-tracking"
+  }
+]

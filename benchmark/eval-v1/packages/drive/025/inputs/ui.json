@@ -1,0 +1,1050 @@
+[
+  {
+    "ref": "U00000",
+    "text": "- generic [ref=e1]:"
+  },
+  {
+    "ref": "U00001",
+    "text": "- generic [ref=e2]:"
+  },
+  {
+    "ref": "U00002",
+    "text": "- banner [ref=e3]:"
+  },
+  {
+    "ref": "U00003",
+    "text": "- generic [ref=e5]:"
+  },
+  {
+    "ref": "U00004",
+    "text": "- list [ref=e6]:"
+  },
+  {
+    "ref": "U00005",
+    "text": "- listitem [ref=e7]:"
+  },
+  {
+    "ref": "U00006",
+    "text": "- link \"My Account\" [ref=e8] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00007",
+    "text": "- /url: http://127.0.0.1:7770/customer/account/"
+  },
+  {
+    "ref": "U00008",
+    "text": "- listitem [ref=e9]:"
+  },
+  {
+    "ref": "U00009",
+    "text": "- link \"My Wish List\" [ref=e10] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00010",
+    "text": "- /url: http://127.0.0.1:7770/wishlist/"
+  },
+  {
+    "ref": "U00011",
+    "text": "- listitem [ref=e11]:"
+  },
+  {
+    "ref": "U00012",
+    "text": "- link \"Sign In\" [ref=e12] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00013",
+    "text": "- /url: http://127.0.0.1:7770/customer/account/login/"
+  },
+  {
+    "ref": "U00014",
+    "text": "- listitem [ref=e13]:"
+  },
+  {
+    "ref": "U00015",
+    "text": "- link \"Compare Products 4 items\" [ref=e14] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00016",
+    "text": "- /url: http://127.0.0.1:7770/catalog/product_compare/index/uenc/aHR0cDovLzEyNy4wLjAuMTo3NzcwL2N1c3RvbWVyL3NlY3Rpb24vbG9hZC8_c2VjdGlvbnM9Y29tcGFyZS1wcm9kdWN0cyUyQ21lc3NhZ2VzJmZvcmNlX25ld19zZWN0aW9uX3RpbWVzdGFtcD1mYWxzZSZfPTE3OTA1NjM2NzEwODM~/"
+  },
+  {
+    "ref": "U00017",
+    "text": "- listitem [ref=e15]: Welcome to One Stop Market"
+  },
+  {
+    "ref": "U00018",
+    "text": "- listitem [ref=e16]:"
+  },
+  {
+    "ref": "U00019",
+    "text": "- link \"Create an Account\" [ref=e17] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00020",
+    "text": "- /url: http://127.0.0.1:7770/customer/account/create/"
+  },
+  {
+    "ref": "U00021",
+    "text": "- link \"Skip to Content\" [ref=e18] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00022",
+    "text": "- /url: \"#contentarea\""
+  },
+  {
+    "ref": "U00023",
+    "text": "- generic [ref=e19]:"
+  },
+  {
+    "ref": "U00024",
+    "text": "- text: "
+  },
+  {
+    "ref": "U00025",
+    "text": "- link \"store logo\" [ref=e20] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00026",
+    "text": "- /url: http://127.0.0.1:7770/"
+  },
+  {
+    "ref": "U00027",
+    "text": "- img \"one_stop_market_logo\" [ref=e21]"
+  },
+  {
+    "ref": "U00028",
+    "text": "- generic [ref=e22]:"
+  },
+  {
+    "ref": "U00029",
+    "text": "- link \" My Cart 3 3 items\" [ref=e23] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00030",
+    "text": "- /url: http://127.0.0.1:7770/checkout/cart/"
+  },
+  {
+    "ref": "U00031",
+    "text": "- text: "
+  },
+  {
+    "ref": "U00032",
+    "text": "- generic [ref=e24]: My Cart"
+  },
+  {
+    "ref": "U00033",
+    "text": "- generic [ref=e25]:"
+  },
+  {
+    "ref": "U00034",
+    "text": "- generic [ref=e26]: \"3\""
+  },
+  {
+    "ref": "U00035",
+    "text": "- generic [ref=e27]: 3 items"
+  },
+  {
+    "ref": "U00036",
+    "text": "- text: \" : :   :   :  \""
+  },
+  {
+    "ref": "U00037",
+    "text": "- generic [ref=e30]:"
+  },
+  {
+    "ref": "U00038",
+    "text": "- generic [ref=e31]:"
+  },
+  {
+    "ref": "U00039",
+    "text": "- generic [ref=e32]:"
+  },
+  {
+    "ref": "U00040",
+    "text": "- text: "
+  },
+  {
+    "ref": "U00041",
+    "text": "- generic [ref=e33]: Search"
+  },
+  {
+    "ref": "U00042",
+    "text": "- generic [ref=e34]:"
+  },
+  {
+    "ref": "U00043",
+    "text": "- combobox \" Search\" [ref=e35]"
+  },
+  {
+    "ref": "U00044",
+    "text": "- link \"Advanced Search\" [ref=e37] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00045",
+    "text": "- /url: http://127.0.0.1:7770/catalogsearch/advanced/"
+  },
+  {
+    "ref": "U00046",
+    "text": "- generic:"
+  },
+  {
+    "ref": "U00047",
+    "text": "- button \"Search\" [disabled]:"
+  },
+  {
+    "ref": "U00048",
+    "text": "- text: "
+  },
+  {
+    "ref": "U00049",
+    "text": "- generic: Search"
+  },
+  {
+    "ref": "U00050",
+    "text": "- tablist [ref=e39]:"
+  },
+  {
+    "ref": "U00051",
+    "text": "- tabpanel [ref=e40]:"
+  },
+  {
+    "ref": "U00052",
+    "text": "- navigation [ref=e41]:"
+  },
+  {
+    "ref": "U00053",
+    "text": "- menu [ref=e42]:"
+  },
+  {
+    "ref": "U00054",
+    "text": "- listitem [ref=e43]:"
+  },
+  {
+    "ref": "U00055",
+    "text": "- menuitem \" Beauty & Personal Care\" [ref=e44] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00056",
+    "text": "- generic [ref=e45]: "
+  },
+  {
+    "ref": "U00057",
+    "text": "- text: Beauty & Personal Care"
+  },
+  {
+    "ref": "U00058",
+    "text": "- text:          "
+  },
+  {
+    "ref": "U00059",
+    "text": "- listitem [ref=e46]:"
+  },
+  {
+    "ref": "U00060",
+    "text": "- menuitem \" Sports & Outdoors\" [ref=e47] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00061",
+    "text": "- generic [ref=e48]: "
+  },
+  {
+    "ref": "U00062",
+    "text": "- text: Sports & Outdoors"
+  },
+  {
+    "ref": "U00063",
+    "text": "- text:   "
+  },
+  {
+    "ref": "U00064",
+    "text": "- listitem [ref=e49]:"
+  },
+  {
+    "ref": "U00065",
+    "text": "- menuitem \" Clothing, Shoes & Jewelry\" [ref=e50] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00066",
+    "text": "- generic [ref=e51]: "
+  },
+  {
+    "ref": "U00067",
+    "text": "- text: Clothing, Shoes & Jewelry"
+  },
+  {
+    "ref": "U00068",
+    "text": "- text:    "
+  },
+  {
+    "ref": "U00069",
+    "text": "- listitem [ref=e52]:"
+  },
+  {
+    "ref": "U00070",
+    "text": "- menuitem \" Home & Kitchen\" [ref=e53] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00071",
+    "text": "- generic [ref=e54]: "
+  },
+  {
+    "ref": "U00072",
+    "text": "- text: Home & Kitchen"
+  },
+  {
+    "ref": "U00073",
+    "text": "- text:       "
+  },
+  {
+    "ref": "U00074",
+    "text": "- listitem [ref=e55]:"
+  },
+  {
+    "ref": "U00075",
+    "text": "- menuitem \" Office Products\" [ref=e56] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00076",
+    "text": "- generic [ref=e57]: "
+  },
+  {
+    "ref": "U00077",
+    "text": "- text: Office Products"
+  },
+  {
+    "ref": "U00078",
+    "text": "- text:   "
+  },
+  {
+    "ref": "U00079",
+    "text": "- listitem [ref=e58]:"
+  },
+  {
+    "ref": "U00080",
+    "text": "- menuitem \" Tools & Home Improvement\" [ref=e59] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00081",
+    "text": "- generic [ref=e60]: "
+  },
+  {
+    "ref": "U00082",
+    "text": "- text: Tools & Home Improvement"
+  },
+  {
+    "ref": "U00083",
+    "text": "- text: "
+  },
+  {
+    "ref": "U00084",
+    "text": "- listitem [ref=e61]:"
+  },
+  {
+    "ref": "U00085",
+    "text": "- menuitem \" Health & Household\" [ref=e62] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00086",
+    "text": "- generic [ref=e63]: "
+  },
+  {
+    "ref": "U00087",
+    "text": "- text: Health & Household"
+  },
+  {
+    "ref": "U00088",
+    "text": "- text:  "
+  },
+  {
+    "ref": "U00089",
+    "text": "- listitem [ref=e64]:"
+  },
+  {
+    "ref": "U00090",
+    "text": "- menuitem \" Patio, Lawn & Garden\" [ref=e65] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00091",
+    "text": "- generic [ref=e66]: "
+  },
+  {
+    "ref": "U00092",
+    "text": "- text: Patio, Lawn & Garden"
+  },
+  {
+    "ref": "U00093",
+    "text": "- text: "
+  },
+  {
+    "ref": "U00094",
+    "text": "- listitem [ref=e67]:"
+  },
+  {
+    "ref": "U00095",
+    "text": "- menuitem \" Electronics\" [ref=e68] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00096",
+    "text": "- generic [ref=e69]: "
+  },
+  {
+    "ref": "U00097",
+    "text": "- text: Electronics"
+  },
+  {
+    "ref": "U00098",
+    "text": "- text:            "
+  },
+  {
+    "ref": "U00099",
+    "text": "- listitem [ref=e70]:"
+  },
+  {
+    "ref": "U00100",
+    "text": "- menuitem \" Cell Phones & Accessories\" [ref=e71] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00101",
+    "text": "- generic [ref=e72]: "
+  },
+  {
+    "ref": "U00102",
+    "text": "- text: Cell Phones & Accessories"
+  },
+  {
+    "ref": "U00103",
+    "text": "- text:  "
+  },
+  {
+    "ref": "U00104",
+    "text": "- listitem [ref=e73]:"
+  },
+  {
+    "ref": "U00105",
+    "text": "- menuitem \" Video Games\" [ref=e74] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00106",
+    "text": "- generic [ref=e75]: "
+  },
+  {
+    "ref": "U00107",
+    "text": "- text: Video Games"
+  },
+  {
+    "ref": "U00108",
+    "text": "- text:    "
+  },
+  {
+    "ref": "U00109",
+    "text": "- listitem [ref=e76]:"
+  },
+  {
+    "ref": "U00110",
+    "text": "- menuitem \" Grocery & Gourmet Food\" [ref=e77] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00111",
+    "text": "- generic [ref=e78]: "
+  },
+  {
+    "ref": "U00112",
+    "text": "- text: Grocery & Gourmet Food"
+  },
+  {
+    "ref": "U00113",
+    "text": "- text:             "
+  },
+  {
+    "ref": "U00114",
+    "text": "- list [ref=e80]:"
+  },
+  {
+    "ref": "U00115",
+    "text": "- listitem [ref=e81]:"
+  },
+  {
+    "ref": "U00116",
+    "text": "- link \"Home\" [ref=e82] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00117",
+    "text": "- /url: http://127.0.0.1:7770/"
+  },
+  {
+    "ref": "U00118",
+    "text": "- text: "
+  },
+  {
+    "ref": "U00119",
+    "text": "- listitem [ref=e83]:"
+  },
+  {
+    "ref": "U00120",
+    "text": "- strong [ref=e84]: ZOSI H.265+ PoE Home Security Camera System Outdoor Indoor,8-Channel 5MP PoE NVR Recorder,4pcs Wired 2MP 1080p Surveillance Bullet PoE IP Cameras, No Hard Drive (Renewed)"
+  },
+  {
+    "ref": "U00121",
+    "text": "- main [ref=e85]:"
+  },
+  {
+    "ref": "U00122",
+    "text": "- heading \"ZOSI H.265+ PoE Home Security Camera System Outdoor Indoor,8-Channel 5MP PoE NVR Recorder,4pcs Wired 2MP 1080p Surveillance Bullet PoE IP Cameras, No Hard Drive (Renewed)\" [level=1] [ref=e87]"
+  },
+  {
+    "ref": "U00123",
+    "text": "- generic [ref=e89]:"
+  },
+  {
+    "ref": "U00124",
+    "text": "- generic [ref=e90]:"
+  },
+  {
+    "ref": "U00125",
+    "text": "- generic [ref=e91]:"
+  },
+  {
+    "ref": "U00126",
+    "text": "- generic [ref=e92]:"
+  },
+  {
+    "ref": "U00127",
+    "text": "- generic \"Availability\" [ref=e93]: In stock"
+  },
+  {
+    "ref": "U00128",
+    "text": "- generic [ref=e94]:"
+  },
+  {
+    "ref": "U00129",
+    "text": "- strong [ref=e95]: SKU"
+  },
+  {
+    "ref": "U00130",
+    "text": "- generic [ref=e96]: B07V4D5CTJ"
+  },
+  {
+    "ref": "U00131",
+    "text": "- link \"Be the first to review this product\" [ref=e99] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00132",
+    "text": "- /url: http://127.0.0.1:7770/zosi-h-265-poe-home-security-camera-system-outdoor-indoor-8-channel-5mp-poe-nvr-recorder-4pcs-wired-2mp-1080p-surveillance-bullet-poe-ip-cameras-no-hard-drive-renewed.html#review-form"
+  },
+  {
+    "ref": "U00133",
+    "text": "- generic [ref=e102]: $169.99"
+  },
+  {
+    "ref": "U00134",
+    "text": "- generic [ref=e106]:"
+  },
+  {
+    "ref": "U00135",
+    "text": "- generic [ref=e107]:"
+  },
+  {
+    "ref": "U00136",
+    "text": "- generic [ref=e108]: Qty"
+  },
+  {
+    "ref": "U00137",
+    "text": "- spinbutton \"Qty\" [ref=e110]: \"1\""
+  },
+  {
+    "ref": "U00138",
+    "text": "- button \"Add to Cart\" [ref=e112] [cursor=pointer]"
+  },
+  {
+    "ref": "U00139",
+    "text": "- generic [ref=e114]:"
+  },
+  {
+    "ref": "U00140",
+    "text": "- link \"Add to Wish List\" [ref=e115] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00141",
+    "text": "- /url: \"#\""
+  },
+  {
+    "ref": "U00142",
+    "text": "- link \"Add to Compare\" [ref=e116] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00143",
+    "text": "- /url: \"#\""
+  },
+  {
+    "ref": "U00144",
+    "text": "- generic:"
+  },
+  {
+    "ref": "U00145",
+    "text": "- link \"Skip to the end of the images gallery\" [ref=e118] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00146",
+    "text": "- /url: \"#gallery-next-area\""
+  },
+  {
+    "ref": "U00147",
+    "text": "- link \"Skip to the beginning of the images gallery\" [ref=e140] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00148",
+    "text": "- /url: \"#gallery-prev-area\""
+  },
+  {
+    "ref": "U00149",
+    "text": "- tablist [ref=e142]:"
+  },
+  {
+    "ref": "U00150",
+    "text": "- tab \"Details\" [expanded] [ref=e143]:"
+  },
+  {
+    "ref": "U00151",
+    "text": "- link \"Details\" [ref=e144] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00152",
+    "text": "- /url: \"#description\""
+  },
+  {
+    "ref": "U00153",
+    "text": "- tabpanel \"Details\" [ref=e145]:"
+  },
+  {
+    "ref": "U00154",
+    "text": "- generic [ref=e147]:"
+  },
+  {
+    "ref": "U00155",
+    "text": "- generic [ref=e149]:"
+  },
+  {
+    "ref": "U00156",
+    "text": "- separator [ref=e150]"
+  },
+  {
+    "ref": "U00157",
+    "text": "- heading \"Product Description\" [level=2] [ref=e151]"
+  },
+  {
+    "ref": "U00158",
+    "text": "- generic [ref=e152]:"
+  },
+  {
+    "ref": "U00159",
+    "text": "- img \"8EN-2612W4S-00-01\" [ref=e155]"
+  },
+  {
+    "ref": "U00160",
+    "text": "- img \"8EN-2612W4S-00-02\" [ref=e158]"
+  },
+  {
+    "ref": "U00161",
+    "text": "- img \"8EN-2612W4S-00-03\" [ref=e161]"
+  },
+  {
+    "ref": "U00162",
+    "text": "- img \"8EN-2612W4S-00-04\" [ref=e164]"
+  },
+  {
+    "ref": "U00163",
+    "text": "- table [ref=e170]:"
+  },
+  {
+    "ref": "U00164",
+    "text": "- rowgroup [ref=e171]:"
+  },
+  {
+    "ref": "U00165",
+    "text": "- row \"8EN-2612W4S-00-05 8EN-2612W4S-00-06 8EN-2612W4S-00-07\" [ref=e172]:"
+  },
+  {
+    "ref": "U00166",
+    "text": "- columnheader \"8EN-2612W4S-00-05\" [ref=e173]:"
+  },
+  {
+    "ref": "U00167",
+    "text": "- paragraph [ref=e175]:"
+  },
+  {
+    "ref": "U00168",
+    "text": "- img \"8EN-2612W4S-00-05\" [ref=e176]"
+  },
+  {
+    "ref": "U00169",
+    "text": "- columnheader \"8EN-2612W4S-00-06\" [ref=e177]:"
+  },
+  {
+    "ref": "U00170",
+    "text": "- paragraph [ref=e179]:"
+  },
+  {
+    "ref": "U00171",
+    "text": "- img \"8EN-2612W4S-00-06\" [ref=e180]"
+  },
+  {
+    "ref": "U00172",
+    "text": "- columnheader \"8EN-2612W4S-00-07\" [ref=e181]:"
+  },
+  {
+    "ref": "U00173",
+    "text": "- paragraph [ref=e183]:"
+  },
+  {
+    "ref": "U00174",
+    "text": "- img \"8EN-2612W4S-00-07\" [ref=e184]"
+  },
+  {
+    "ref": "U00175",
+    "text": "- row [ref=e185]:"
+  },
+  {
+    "ref": "U00176",
+    "text": "- 'cell \"Local View & Remote View Local Viewing: No Network needed, just connect the system to a monitor via HDMI / VGA port and enjoy multiple-cam views on one screen. Remote Viewing: Connect the internet to the DVR . Download the ZOSI Smart app on your smartphone, Or download the AVSS PC client on PC. With remote app, you can view feeds live, receive push notifications and watch any previously recorded footage. You’ll never miss any moment, no matter where you are.\" [ref=e186]':"
+  },
+  {
+    "ref": "U00177",
+    "text": "- generic [ref=e187]:"
+  },
+  {
+    "ref": "U00178",
+    "text": "- heading \"Local View & Remote View\" [level=4] [ref=e188]"
+  },
+  {
+    "ref": "U00179",
+    "text": "- paragraph [ref=e189]: \"Local Viewing: No Network needed, just connect the system to a monitor via HDMI / VGA port and enjoy multiple-cam views on one screen.\""
+  },
+  {
+    "ref": "U00180",
+    "text": "- paragraph [ref=e190]: \"Remote Viewing: Connect the internet to the DVR . Download the ZOSI Smart app on your smartphone, Or download the AVSS PC client on PC.\""
+  },
+  {
+    "ref": "U00181",
+    "text": "- paragraph [ref=e191]: With remote app, you can view feeds live, receive push notifications and watch any previously recorded footage. You’ll never miss any moment, no matter where you are."
+  },
+  {
+    "ref": "U00182",
+    "text": "- cell \"H.265+ Compression Technology H.265+ technology saves about 60% to 90% storage space compared with H.265 standard without any loss of image quality. How does H.265+ dominate? At the same bandwidth, H.265+ deliver sharper and smoother video streaming, without buffering and latency. Significantly reduce video size and save storage space. Relieve network loading pressure, a stable security system is always ensured.\" [ref=e192]:"
+  },
+  {
+    "ref": "U00183",
+    "text": "- generic [ref=e193]:"
+  },
+  {
+    "ref": "U00184",
+    "text": "- heading \"H.265+ Compression Technology\" [level=4] [ref=e194]"
+  },
+  {
+    "ref": "U00185",
+    "text": "- paragraph [ref=e195]: H.265+ technology saves about 60% to 90% storage space compared with H.265 standard without any loss of image quality."
+  },
+  {
+    "ref": "U00186",
+    "text": "- paragraph [ref=e196]: How does H.265+ dominate? At the same bandwidth, H.265+ deliver sharper and smoother video streaming, without buffering and latency."
+  },
+  {
+    "ref": "U00187",
+    "text": "- paragraph"
+  },
+  {
+    "ref": "U00188",
+    "text": "- list [ref=e197]:"
+  },
+  {
+    "ref": "U00189",
+    "text": "- listitem [ref=e198]: Significantly reduce video size and save storage space."
+  },
+  {
+    "ref": "U00190",
+    "text": "- listitem [ref=e199]: Relieve network loading pressure, a stable security system is always ensured."
+  },
+  {
+    "ref": "U00191",
+    "text": "- paragraph"
+  },
+  {
+    "ref": "U00192",
+    "text": "- 'cell \"Optional Recording Mode Continuous Record: Your DVR will continuously record regardless of what is Happening. Schedule Record: The schedule is presented as a 24-hour 7 days a week grid and is color coded to represent the event type. Motion Detection Record: Your DVR will only record when motion is detected. It could help to record more time. Recycle Record: This option allows your DVR to overwrite the oldest video files on the hard drive.\" [ref=e200]':"
+  },
+  {
+    "ref": "U00193",
+    "text": "- generic [ref=e201]:"
+  },
+  {
+    "ref": "U00194",
+    "text": "- heading \"Optional Recording Mode\" [level=4] [ref=e202]"
+  },
+  {
+    "ref": "U00195",
+    "text": "- paragraph [ref=e203]: \"Continuous Record: Your DVR will continuously record regardless of what is Happening.\""
+  },
+  {
+    "ref": "U00196",
+    "text": "- paragraph [ref=e204]: \"Schedule Record: The schedule is presented as a 24-hour 7 days a week grid and is color coded to represent the event type.\""
+  },
+  {
+    "ref": "U00197",
+    "text": "- paragraph [ref=e205]: \"Motion Detection Record: Your DVR will only record when motion is detected. It could help to record more time.\""
+  },
+  {
+    "ref": "U00198",
+    "text": "- paragraph [ref=e206]: \"Recycle Record: This option allows your DVR to overwrite the oldest video files on the hard drive.\""
+  },
+  {
+    "ref": "U00199",
+    "text": "- img \"8EN-2612W4S-00-08\" [ref=e209]"
+  },
+  {
+    "ref": "U00200",
+    "text": "- img \"8EN-2612W4S-00-09\" [ref=e212]"
+  },
+  {
+    "ref": "U00201",
+    "text": "- generic [ref=e213]:"
+  },
+  {
+    "ref": "U00202",
+    "text": "- heading \"Product Quick Look\" [level=2] [ref=e214]"
+  },
+  {
+    "ref": "U00203",
+    "text": "- generic [ref=e215]:"
+  },
+  {
+    "ref": "U00204",
+    "text": "- list [ref=e217]:"
+  },
+  {
+    "ref": "U00205",
+    "text": "- listitem [ref=e218]: This Certified Refurbished product is tested and certified to look and work like new. The refurbishing process includes functionality testing, basic cleaning, inspection, and repackaging. The product ships with all relevant accessories, a minimum 90-day warranty, and may arrive in a generic box. Only select sellers who maintain a high-performance bar may offer Certified Refurbished products on Amazon.com."
+  },
+  {
+    "ref": "U00206",
+    "text": "- listitem [ref=e219]: 【Plug & Play Simplify PoE installation】 power over Ethernet means the IP cameras connect to the NVR with a single cable that transmits both data and power, no need to connect power cable, lower risk of electric leakage and easy to set up. This literally simplified the installation and reduced costs."
+  },
+  {
+    "ref": "U00207",
+    "text": "- listitem [ref=e220]: 【Stable & Lossless Video Quality】Unlike CCTV DVR system, videos from the IP camera system will not be degraded or destroyed by cables. The digital signal will keep real 2mp high definition image via 300ft CAT6 ethernet cables. You will have no worry about the coaxial cable quality for DVR and analog cameras that will affect much on its image, even within 100ft."
+  },
+  {
+    "ref": "U00208",
+    "text": "- listitem [ref=e221]: 【5MP NVR & Expandable PoE Security camera system】-This is 8Channel 5MP NVR Recorder, It provides you the flexibility to extend additional cameras. You can add more 4pcs 1080P or 5MP Bullet or Dome PoE Cameras."
+  },
+  {
+    "ref": "U00209",
+    "text": "- listitem [ref=e222]: 【No Include Hard Drive】--This system does not come with hard drive. Assembling a 3.5 inch SATA 500GB to 2TB hard drive is necessary. DVR can be set to automatically overwrite the oldest internally stored footage or you can transfer those video files by USB to a memory stick or external hard drive."
+  },
+  {
+    "ref": "U00210",
+    "text": "- table [ref=e224]:"
+  },
+  {
+    "ref": "U00211",
+    "text": "- rowgroup [ref=e225]:"
+  },
+  {
+    "ref": "U00212",
+    "text": "- row \"Date First Available July 10, 2019\" [ref=e226]:"
+  },
+  {
+    "ref": "U00213",
+    "text": "- rowheader \"Date First Available\" [ref=e227]"
+  },
+  {
+    "ref": "U00214",
+    "text": "- cell \"July 10, 2019\" [ref=e228]"
+  },
+  {
+    "ref": "U00215",
+    "text": "- row \"Manufacturer ZOSI\" [ref=e229]:"
+  },
+  {
+    "ref": "U00216",
+    "text": "- rowheader \"Manufacturer\" [ref=e230]"
+  },
+  {
+    "ref": "U00217",
+    "text": "- cell \"ZOSI\" [ref=e231]"
+  },
+  {
+    "ref": "U00218",
+    "text": "- tab \"Reviews\" [ref=e232]:"
+  },
+  {
+    "ref": "U00219",
+    "text": "- link \"Reviews\" [ref=e233] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00220",
+    "text": "- /url: \"#reviews\""
+  },
+  {
+    "ref": "U00221",
+    "text": "- text: \"*       * * *\""
+  },
+  {
+    "ref": "U00222",
+    "text": "- contentinfo [ref=e234]:"
+  },
+  {
+    "ref": "U00223",
+    "text": "- generic [ref=e235]:"
+  },
+  {
+    "ref": "U00224",
+    "text": "- generic [ref=e238]:"
+  },
+  {
+    "ref": "U00225",
+    "text": "- generic [ref=e240]:"
+  },
+  {
+    "ref": "U00226",
+    "text": "- text: "
+  },
+  {
+    "ref": "U00227",
+    "text": "- generic [ref=e241]:"
+  },
+  {
+    "ref": "U00228",
+    "text": "- generic [ref=e242]: \"Sign Up for Our Newsletter:\""
+  },
+  {
+    "ref": "U00229",
+    "text": "- textbox \"Sign Up for Our Newsletter:\" [ref=e243]:"
+  },
+  {
+    "ref": "U00230",
+    "text": "- /placeholder: Enter your email address"
+  },
+  {
+    "ref": "U00231",
+    "text": "- button \"Subscribe\" [ref=e245] [cursor=pointer]"
+  },
+  {
+    "ref": "U00232",
+    "text": "- list [ref=e246]:"
+  },
+  {
+    "ref": "U00233",
+    "text": "- listitem [ref=e247]:"
+  },
+  {
+    "ref": "U00234",
+    "text": "- link \"Privacy and Cookie Policy\" [ref=e248] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00235",
+    "text": "- /url: http://127.0.0.1:7770/privacy-policy-cookie-restriction-mode/"
+  },
+  {
+    "ref": "U00236",
+    "text": "- listitem [ref=e249]:"
+  },
+  {
+    "ref": "U00237",
+    "text": "- link \"Search Terms\" [ref=e250] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00238",
+    "text": "- /url: http://127.0.0.1:7770/search/term/popular/"
+  },
+  {
+    "ref": "U00239",
+    "text": "- listitem [ref=e251]:"
+  },
+  {
+    "ref": "U00240",
+    "text": "- link \"Advanced Search\" [ref=e252] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00241",
+    "text": "- /url: http://127.0.0.1:7770/catalogsearch/advanced/"
+  },
+  {
+    "ref": "U00242",
+    "text": "- listitem [ref=e253]:"
+  },
+  {
+    "ref": "U00243",
+    "text": "- link \"Orders and Returns\" [ref=e254] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00244",
+    "text": "- /url: http://127.0.0.1:7770/sales/guest/form/"
+  },
+  {
+    "ref": "U00245",
+    "text": "- listitem [ref=e255]:"
+  },
+  {
+    "ref": "U00246",
+    "text": "- link \"Contact Us\" [ref=e256] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00247",
+    "text": "- /url: http://127.0.0.1:7770/contact/"
+  },
+  {
+    "ref": "U00248",
+    "text": "- generic [ref=e257]: Copyright © 2013-present Magento, Inc. All rights reserved."
+  },
+  {
+    "ref": "U00249",
+    "text": "- generic [ref=e258]:"
+  },
+  {
+    "ref": "U00250",
+    "text": "- text: Help Us Keep Magento Healthy"
+  },
+  {
+    "ref": "U00251",
+    "text": "- link \"Report All Bugs\" [ref=e259] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00252",
+    "text": "- /url: http://www.magentocommerce.com/bug-tracking"
+  },
+  {
+    "ref": "U00253",
+    "text": "- generic [ref=e121]:"
+  },
+  {
+    "ref": "U00254",
+    "text": "- generic [ref=e122]:"
+  },
+  {
+    "ref": "U00255",
+    "text": "- button \"Exit fullscreen\" [active] [ref=e299] [cursor=pointer]"
+  },
+  {
+    "ref": "U00256",
+    "text": "- img \"Image\" [ref=e300]"
+  },
+  {
+    "ref": "U00257",
+    "text": "- generic [ref=e132]:"
+  },
+  {
+    "ref": "U00258",
+    "text": "- button \"Image\" [ref=e134]:"
+  },
+  {
+    "ref": "U00259",
+    "text": "- img \"Image\" [ref=e136]"
+  },
+  {
+    "ref": "U00260",
+    "text": "- button \"Image\" [ref=e137]:"
+  },
+  {
+    "ref": "U00261",
+    "text": "- img \"Image\" [ref=e139]"
+  }
+]

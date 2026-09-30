@@ -1,0 +1,420 @@
+{
+  "created_at": "2026-09-29T17:01:38.9548032+08:00",
+  "source_root": "C:\\Users\\bulin\\appweave\\logs\\03-context-model\\260928-145535\\llm\\entity-extract",
+  "target_root": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\harness-comparison\\claudecode-original-task\\entity-extract",
+  "pages": 26,
+  "file_count": 81,
+  "files": [
+    {
+      "path": "TASK.md",
+      "sha256": "e487c923122308d07b9212a7f39010e77cfa8ac2f512f6bf4b759847e29e6a0e",
+      "bytes": 4827
+    },
+    {
+      "path": "INDEX.json",
+      "sha256": "e61120e8a6c4193116c6e875e48de9f8b35f713f622a2792eaf608966e3b4128",
+      "bytes": 8694
+    },
+    {
+      "path": "schema.json",
+      "sha256": "80aac2621e6ed115ef90e00c106e305ce0e23eb03ef4bca20eda57c10e935377",
+      "bytes": 3011
+    },
+    {
+      "path": "000_root\\inputs\\endpoints.jsonl",
+      "sha256": "6b24f6a7fea33ab6ddb2df7fb2a7c3505b7fd533f31aa62cbd1db48525f644e0",
+      "bytes": 5346
+    },
+    {
+      "path": "000_root\\inputs\\page.aria.yml",
+      "sha256": "35c403981dcc3e9ada02d562e0bcd6ac36a0ed0b7e997b5b5d9505d0fb178dcc",
+      "bytes": 28318
+    },
+    {
+      "path": "000_root\\inputs\\page.json",
+      "sha256": "8107355e17f002089103b81083def3e11b1e97bfd8bc551bdbad0a5af9e1fa52",
+      "bytes": 1194
+    },
+    {
+      "path": "001_beauty-personal-care_html\\inputs\\endpoints.jsonl",
+      "sha256": "232ce2c1057dea1dca1f310b07977770d06a55e8c5444a56b9d40ad972b16fab",
+      "bytes": 4017
+    },
+    {
+      "path": "001_beauty-personal-care_html\\inputs\\page.aria.yml",
+      "sha256": "a4108e139f1905a1720e1a1cf90cedb09ecaa5fbca51b049311a4516e9d1c67b",
+      "bytes": 36182
+    },
+    {
+      "path": "001_beauty-personal-care_html\\inputs\\page.json",
+      "sha256": "daeaa0bd667f2e71d080c2142eac433b680959d08cc28d180f6dbeb5f2bae688",
+      "bytes": 1042
+    },
+    {
+      "path": "002_belle-of-the-ball-princess-sprinkle-mix-wedding-colorful-spr\\inputs\\endpoints.jsonl",
+      "sha256": "9fad2871a6be21c74976e943a32614ddb450316c1dbb6c4a3e19c4131c771f91",
+      "bytes": 5067
+    },
+    {
+      "path": "002_belle-of-the-ball-princess-sprinkle-mix-wedding-colorful-spr\\inputs\\page.aria.yml",
+      "sha256": "1e078cc34a190cb18e89b75871fe49f3cf4545834d7b1bcaf5b490354ec1abf4",
+      "bytes": 18743
+    },
+    {
+      "path": "002_belle-of-the-ball-princess-sprinkle-mix-wedding-colorful-spr\\inputs\\page.json",
+      "sha256": "66afecf980d904d0061c60d1ef044427986e055c06ad55fbae360414d8e77794",
+      "bytes": 1747
+    },
+    {
+      "path": "003_briess-dme-pilsen-light-1-lb-bag_html\\inputs\\endpoints.jsonl",
+      "sha256": "48e5961fa6f4e411a5bdf2f6a97cad1bc497c141b1f1cc019e68dc15fb58b16c",
+      "bytes": 4888
+    },
+    {
+      "path": "003_briess-dme-pilsen-light-1-lb-bag_html\\inputs\\page.aria.yml",
+      "sha256": "bce58ed329ade1e36cd864fc2266327cd84a7fea6cf82e09613b88cf45e5d7ba",
+      "bytes": 10191
+    },
+    {
+      "path": "003_briess-dme-pilsen-light-1-lb-bag_html\\inputs\\page.json",
+      "sha256": "fed2bfd5627b6b27bca77bcc8e8ec664662fda4e56bc531f46b84685eb4624b4",
+      "bytes": 1248
+    },
+    {
+      "path": "004_catalogsearch_advanced\\inputs\\endpoints.jsonl",
+      "sha256": "1bc5a7fc5e3dffb33f52a041bd667f3874b643af6516f17b9daa520bb67b502d",
+      "bytes": 3959
+    },
+    {
+      "path": "004_catalogsearch_advanced\\inputs\\page.aria.yml",
+      "sha256": "7eb3b4a59750858c250d80fb643a6a9ff5c0f5bce50cc1349a9c6bdcc8d5033d",
+      "bytes": 7783
+    },
+    {
+      "path": "004_catalogsearch_advanced\\inputs\\page.json",
+      "sha256": "36a7ed0caca1413d0d71acb34736ffdddccb88175da1576ee69f73f462b3b792",
+      "bytes": 1026
+    },
+    {
+      "path": "005_cell-phones-accessories_html\\inputs\\endpoints.jsonl",
+      "sha256": "b764851106ee949f5a9411ee7e37d050ffdb0dca27729ba7936dee7a7c9a963e",
+      "bytes": 4574
+    },
+    {
+      "path": "005_cell-phones-accessories_html\\inputs\\page.aria.yml",
+      "sha256": "cf7e5787134ff0469cb5dbcf5a67aa99aa101bf628f2ffe7b27c6f7d42d0cfa3",
+      "bytes": 35079
+    },
+    {
+      "path": "005_cell-phones-accessories_html\\inputs\\page.json",
+      "sha256": "22a29ea237a5a560fec836d16891a9d58f94a38ba1934c29dc728a6e8bf2254e",
+      "bytes": 1158
+    },
+    {
+      "path": "006_clothing-shoes-jewelry_html\\inputs\\endpoints.jsonl",
+      "sha256": "c1db3bfdbe2bacb3a36cb68d99fa7b1b7deb77bed18a40f1628a2f222f1e3ce9",
+      "bytes": 4841
+    },
+    {
+      "path": "006_clothing-shoes-jewelry_html\\inputs\\page.aria.yml",
+      "sha256": "25b7016d4d0ac5927a8a836de4579472281ae827f9724f8d10b2dc20b94a83de",
+      "bytes": 34471
+    },
+    {
+      "path": "006_clothing-shoes-jewelry_html\\inputs\\page.json",
+      "sha256": "441f6dbbfcace4ea29f481fd60a520306e3714538b69029c0227ab3439993f7c",
+      "bytes": 1207
+    },
+    {
+      "path": "007_contact\\inputs\\endpoints.jsonl",
+      "sha256": "daf12b61df3ec40a839d6d5628a34e62cd4d49770195889cb8c17f330da768fe",
+      "bytes": 4107
+    },
+    {
+      "path": "007_contact\\inputs\\page.aria.yml",
+      "sha256": "3789225a0c3aa67b65be224891ec24cc78159be9bf5fec8f7e5d18dd0fb8ca4d",
+      "bytes": 13581
+    },
+    {
+      "path": "007_contact\\inputs\\page.json",
+      "sha256": "9f125d1a2e67e06f2df7f83192d7baeb11ed252fbda8c92f794e4755957f475a",
+      "bytes": 976
+    },
+    {
+      "path": "008_cooloo-cell-phone-stand-2-pack-mobile-phone-anti-skid-holder\\inputs\\endpoints.jsonl",
+      "sha256": "1bca1c3d9ba96c4c37a37fb049507347bc6bfded12f672bcf5c788539002ef55",
+      "bytes": 3818
+    },
+    {
+      "path": "008_cooloo-cell-phone-stand-2-pack-mobile-phone-anti-skid-holder\\inputs\\page.aria.yml",
+      "sha256": "1d1d60c0f976626fec4397317466cddc8d1f562f86fcf4696ec17b74ffc89e6b",
+      "bytes": 11494
+    },
+    {
+      "path": "008_cooloo-cell-phone-stand-2-pack-mobile-phone-anti-skid-holder\\inputs\\page.json",
+      "sha256": "ad34c8529b1831fbc9c7b4af2dd44b759df8f54af0d7168249c4af0b3a016fdf",
+      "bytes": 1511
+    },
+    {
+      "path": "009_customer_account_login\\inputs\\endpoints.jsonl",
+      "sha256": "aeb1d72565655da515aff1f046321d41a2f1c857609c3dd82e4a91948e204fd8",
+      "bytes": 6116
+    },
+    {
+      "path": "009_customer_account_login\\inputs\\page.aria.yml",
+      "sha256": "cfe6804f37904874aa96a44b206b829150acd393438ed300e9ce2e7cc8f8f3a9",
+      "bytes": 8070
+    },
+    {
+      "path": "009_customer_account_login\\inputs\\page.json",
+      "sha256": "74a558bd91524d26945e187c94abacbe759f5eb22687a8d71f735f1281f3f51a",
+      "bytes": 1529
+    },
+    {
+      "path": "010_dp_B004U429AQ_ref_emc_b_5_i\\inputs\\endpoints.jsonl",
+      "sha256": "a7b968c4c056be549b6533cda1848c50030fe0828a1c5b13c3db9b9d531d2741",
+      "bytes": 3800
+    },
+    {
+      "path": "010_dp_B004U429AQ_ref_emc_b_5_i\\inputs\\page.aria.yml",
+      "sha256": "530026a4ec223ef976a838d51a31e0bfc0c734877a2a7d2fde4e29a2819bab8b",
+      "bytes": 10209
+    },
+    {
+      "path": "010_dp_B004U429AQ_ref_emc_b_5_i\\inputs\\page.json",
+      "sha256": "d0266cc075e975d2ab8a1b3846c76fbc9f63be8fda66e872fe9fd6c4b6e9cbca",
+      "bytes": 1000
+    },
+    {
+      "path": "011_electronics_html\\inputs\\endpoints.jsonl",
+      "sha256": "29d37e9f600cdb081423141b41fa6cbeb8d79a92cbb926bd8a26ae25a5a42488",
+      "bytes": 5163
+    },
+    {
+      "path": "011_electronics_html\\inputs\\page.aria.yml",
+      "sha256": "ad4d58858efb776f79212227c5c092733c007a4d59b44bc8be691e7f28997373",
+      "bytes": 36038
+    },
+    {
+      "path": "011_electronics_html\\inputs\\page.json",
+      "sha256": "b78d101b703464accbeeecd5cc2dd6cb4f26b33627465aeeab1762b892fe7114",
+      "bytes": 1215
+    },
+    {
+      "path": "012_energizer-max-c-batteries-premium-alkaline-c-cell-batteries-\\inputs\\endpoints.jsonl",
+      "sha256": "0039bdf8c3a40527ec320eb169b74fbf44f144c0de70d85ee022186291532573",
+      "bytes": 5114
+    },
+    {
+      "path": "012_energizer-max-c-batteries-premium-alkaline-c-cell-batteries-\\inputs\\page.aria.yml",
+      "sha256": "665864e51b967ea7650711008fa4abb3f83fb20f42ca58ef7bb1f7275faffe49",
+      "bytes": 22222
+    },
+    {
+      "path": "012_energizer-max-c-batteries-premium-alkaline-c-cell-batteries-\\inputs\\page.json",
+      "sha256": "5d698c4ed5a5526db7356653a49dbb2a668da3a08422cec86482339f64369e47",
+      "bytes": 1438
+    },
+    {
+      "path": "013_enevotx-front-door-side-window-covering-alligator-and-cactus\\inputs\\endpoints.jsonl",
+      "sha256": "76b093a9a0489600ff8021fc21da2c6475dbccdb49c2e90b597976e5892cb9ce",
+      "bytes": 4887
+    },
+    {
+      "path": "013_enevotx-front-door-side-window-covering-alligator-and-cactus\\inputs\\page.aria.yml",
+      "sha256": "026cf435351c9976a44256088e769f3dd17ae029aa22f3ff7400ec063c2808d5",
+      "bytes": 12593
+    },
+    {
+      "path": "013_enevotx-front-door-side-window-covering-alligator-and-cactus\\inputs\\page.json",
+      "sha256": "2029fdd61aa29e9f2b780bae34f89370b35a8874b49f1cf4e4db1e8f8994cf6c",
+      "bytes": 1717
+    },
+    {
+      "path": "014_health-household_html\\inputs\\endpoints.jsonl",
+      "sha256": "b2a30656e53cde56c84c124ac957f1aa64fb6f13e079b6b1ec78e8d6be97732b",
+      "bytes": 4390
+    },
+    {
+      "path": "014_health-household_html\\inputs\\page.aria.yml",
+      "sha256": "4df281f2c6eb7226a6d696c02bd303003b84576b0a75abd087a2abecfaf99a58",
+      "bytes": 31205
+    },
+    {
+      "path": "014_health-household_html\\inputs\\page.json",
+      "sha256": "4fbb1a56dc9302370fe500d0ef7c53a82c6953a3adf87cc21b6704812f14a83c",
+      "bytes": 1104
+    },
+    {
+      "path": "015_hfhapw-onesie-pajamas-for-women-women-s-valentines-day-sexy-\\inputs\\endpoints.jsonl",
+      "sha256": "9f3f3cb4ec14759bca90029568ed60b7b5cf7e322937d39f81d3f803f04a58e5",
+      "bytes": 4882
+    },
+    {
+      "path": "015_hfhapw-onesie-pajamas-for-women-women-s-valentines-day-sexy-\\inputs\\page.aria.yml",
+      "sha256": "466985bf66a72f159ce3240f4d5c2ee89428349ef05121c318ee03cf342a8794",
+      "bytes": 16359
+    },
+    {
+      "path": "015_hfhapw-onesie-pajamas-for-women-women-s-valentines-day-sexy-\\inputs\\page.json",
+      "sha256": "5f419a1e07139ae8f8f64d4dac42cef5fc0f969f01263e2d4c3c963dcaefaa79",
+      "bytes": 1534
+    },
+    {
+      "path": "016_home-kitchen_html\\inputs\\endpoints.jsonl",
+      "sha256": "049e357d7ddde2026bb25df38c3f662b3ddd7626daea4fb0c7757a9bd1cf8bd4",
+      "bytes": 4918
+    },
+    {
+      "path": "016_home-kitchen_html\\inputs\\page.aria.yml",
+      "sha256": "3b5b58920dd6825c71388a0aae02acaa8fbd6e5169bf9f1d7e72fd235756a1df",
+      "bytes": 33742
+    },
+    {
+      "path": "016_home-kitchen_html\\inputs\\page.json",
+      "sha256": "970bbe300b5c98ca895376bc17223fddaeb3834389c7c098b261c983ead624a6",
+      "bytes": 1201
+    },
+    {
+      "path": "017_linxiaojix-waterproof-shell-for-osmo-pocket-camera-case-came\\inputs\\endpoints.jsonl",
+      "sha256": "02bc81dcf94304a76cf0398d170bc26490aae8f86eb4030a0ab9e1b21608d1b0",
+      "bytes": 4860
+    },
+    {
+      "path": "017_linxiaojix-waterproof-shell-for-osmo-pocket-camera-case-came\\inputs\\page.aria.yml",
+      "sha256": "4f76c803d5a1b4c729ed3bfe5be0d50d934080541d8840334ffbe909a0ed0f75",
+      "bytes": 12212
+    },
+    {
+      "path": "017_linxiaojix-waterproof-shell-for-osmo-pocket-camera-case-came\\inputs\\page.json",
+      "sha256": "2da90a047432de6e97ea78490c38e4a78d46930ab29135c5a9e4a224364e3301",
+      "bytes": 1536
+    },
+    {
+      "path": "018_mmqq-beige-bar-chairs-outdoor-patio-wicker-rattan-barstools-\\inputs\\endpoints.jsonl",
+      "sha256": "4706185a417d95aa7e17a131aed8f5cfb310614753bb981bd4074d0ad91368cf",
+      "bytes": 5033
+    },
+    {
+      "path": "018_mmqq-beige-bar-chairs-outdoor-patio-wicker-rattan-barstools-\\inputs\\page.aria.yml",
+      "sha256": "44d02938e8fbd064c49326464d6ac591846e64929ca69738c2d51166f3e86439",
+      "bytes": 12934
+    },
+    {
+      "path": "018_mmqq-beige-bar-chairs-outdoor-patio-wicker-rattan-barstools-\\inputs\\page.json",
+      "sha256": "ccde2567d2791d584d6a1890c497a04b773179506294e362a874b6b67f3de71e",
+      "bytes": 1683
+    },
+    {
+      "path": "019_multi-accessory-hub-adapter-by-joby-get-the-right-set-up-for\\inputs\\endpoints.jsonl",
+      "sha256": "fbdabe458723c970b93b579e98e3a2c7b416758202f6e0b2e0dbcc94b561363e",
+      "bytes": 4890
+    },
+    {
+      "path": "019_multi-accessory-hub-adapter-by-joby-get-the-right-set-up-for\\inputs\\page.aria.yml",
+      "sha256": "1d981cfcbd7f961915cf4f08d9d72d00a273b2a17902ec591873abd2c244c6a1",
+      "bytes": 13319
+    },
+    {
+      "path": "019_multi-accessory-hub-adapter-by-joby-get-the-right-set-up-for\\inputs\\page.json",
+      "sha256": "69c76e4e261226e536fa5f962ca28cbbda073d066673f0108ffce300ed392919",
+      "bytes": 1595
+    },
+    {
+      "path": "020_patio-lawn-garden_html\\inputs\\endpoints.jsonl",
+      "sha256": "ffdbc3c12d0580babd50b07cfec88b3ed5dddbedb112b3205f87d6f67a098ba3",
+      "bytes": 5756
+    },
+    {
+      "path": "020_patio-lawn-garden_html\\inputs\\page.aria.yml",
+      "sha256": "b3601a052e679975d48aaaa1d0f05ec5052fdef74c94099a5142e8c2c2492f87",
+      "bytes": 31372
+    },
+    {
+      "path": "020_patio-lawn-garden_html\\inputs\\page.json",
+      "sha256": "6ea74d8d79605c70b4771fd41047c4f4fd35c176005c94a4711a62ad32044602",
+      "bytes": 1302
+    },
+    {
+      "path": "021_psp-s110-battery-upgraded-ultra-high-capacity-3600mah-li-ion\\inputs\\endpoints.jsonl",
+      "sha256": "840a7d86a2b9b04b49b89648c158b0295c92356d7a47a1f6ec6985cd4968fd46",
+      "bytes": 4866
+    },
+    {
+      "path": "021_psp-s110-battery-upgraded-ultra-high-capacity-3600mah-li-ion\\inputs\\page.aria.yml",
+      "sha256": "575f3a2a0e31cb13a68318ea8deb5b17f9c4062df999776c33ccdb1ffdf476d8",
+      "bytes": 12999
+    },
+    {
+      "path": "021_psp-s110-battery-upgraded-ultra-high-capacity-3600mah-li-ion\\inputs\\page.json",
+      "sha256": "467a1420f555e1b7ecbc876cb5d28643a3dc5ac0b96059a59ab7b7c9a44aa338",
+      "bytes": 1643
+    },
+    {
+      "path": "022_q-mixers-premium-ginger-ale-real-ingredients-less-sweet-6-7-\\inputs\\endpoints.jsonl",
+      "sha256": "22311049a4a34d43a1131f04cc4d65a4718c5d3034b90c42f3870eae86bd88c3",
+      "bytes": 5515
+    },
+    {
+      "path": "022_q-mixers-premium-ginger-ale-real-ingredients-less-sweet-6-7-\\inputs\\page.aria.yml",
+      "sha256": "0c8159169c7d1481b0de51ee901bf2f147f3bd5a629e2487e8bbdc76ef04478d",
+      "bytes": 21138
+    },
+    {
+      "path": "022_q-mixers-premium-ginger-ale-real-ingredients-less-sweet-6-7-\\inputs\\page.json",
+      "sha256": "2815a432680c7dcf567160f5d0cb39f640703cb47cd0aa303d032831bf8a3ef5",
+      "bytes": 1522
+    },
+    {
+      "path": "023_sports-outdoors_html\\inputs\\endpoints.jsonl",
+      "sha256": "3e3489c7c541a2439acc7bfd15f3729d63137af18a0c09996e5695b9be95adac",
+      "bytes": 3959
+    },
+    {
+      "path": "023_sports-outdoors_html\\inputs\\page.aria.yml",
+      "sha256": "bb49023da2efcd216be0b807460ff5ab079c6f8f6c22beab2a6299464013be7e",
+      "bytes": 33367
+    },
+    {
+      "path": "023_sports-outdoors_html\\inputs\\page.json",
+      "sha256": "59eb9227a02f982cd3b76ba1f6e69fcd586df83557ef6d92033125820df22b1a",
+      "bytes": 1022
+    },
+    {
+      "path": "024_video-games_html\\inputs\\endpoints.jsonl",
+      "sha256": "98ad344eae1c030d85240e2c7032acd7d8e44bdd1433b735446d300d52cf7d9c",
+      "bytes": 4415
+    },
+    {
+      "path": "024_video-games_html\\inputs\\page.aria.yml",
+      "sha256": "4a462552975353153bd1544c1e6044dff036dd998fae93c78e02fc19db30f9ea",
+      "bytes": 34997
+    },
+    {
+      "path": "024_video-games_html\\inputs\\page.json",
+      "sha256": "0c7f9770c990d3a3d62568ce487b509658cb061a33addd88c53cedadc2e4b06b",
+      "bytes": 1081
+    },
+    {
+      "path": "025_zosi-h-265-poe-home-security-camera-system-outdoor-indoor-8-\\inputs\\endpoints.jsonl",
+      "sha256": "fadfb37c33d0fb8791d136fe49a3825ec6412757612791c576834b6d5fe5be5f",
+      "bytes": 4873
+    },
+    {
+      "path": "025_zosi-h-265-poe-home-security-camera-system-outdoor-indoor-8-\\inputs\\page.aria.yml",
+      "sha256": "c96ec7e12b48f9bcb8eecb6bac567311f630d1fab961c883fa5e1dbbdb0be46d",
+      "bytes": 17253
+    },
+    {
+      "path": "025_zosi-h-265-poe-home-security-camera-system-outdoor-indoor-8-\\inputs\\page.json",
+      "sha256": "ec97f74027f95ce6714eeae4a7ae4c08633f16badad9f693267e079145cf39e8",
+      "bytes": 1673
+    }
+  ],
+  "excluded": [
+    "*/output/",
+    "*/stage2/",
+    "historical Context Models",
+    "scoring answers"
+  ]
+}

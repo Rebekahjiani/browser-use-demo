@@ -1,0 +1,374 @@
+{
+  "freeze_sha256": "edb6115465c004dd76144d13600427be9215565d50f6017a7ee583c6814b2712",
+  "frozen_at": "2026-09-29T08:09:20.830369+00:00",
+  "scope": "Existing CM canonical fact recall; T occurrence is not validation of candidate citations. No precision or harness ranking.",
+  "results": {
+    "drive": {
+      "metrics": {
+        "entities": {
+          "G": 3,
+          "T": 3,
+          "C_in_G": 3,
+          "T_and_C": 3,
+          "T_missing_from_C": [],
+          "C_without_G": []
+        },
+        "attributes": {
+          "G": 32,
+          "T": 31,
+          "C_in_G": 29,
+          "T_and_C": 29,
+          "T_missing_from_C": [
+            "category.subcategories",
+            "product.short_description"
+          ],
+          "C_without_G": [
+            "cart.item_count"
+          ]
+        },
+        "operations": {
+          "G": 7,
+          "T": 7,
+          "C_in_G": 2,
+          "T_and_C": 2,
+          "T_missing_from_C": [
+            "cart.view",
+            "catalog.filter",
+            "catalog.paginate",
+            "catalog.sort",
+            "search.basic"
+          ],
+          "C_without_G": [
+            "product_navigation"
+          ]
+        },
+        "relations": {
+          "G": 1,
+          "T": 1,
+          "C_in_G": 0,
+          "T_and_C": 0,
+          "T_missing_from_C": [
+            "category_lists_product"
+          ],
+          "C_without_G": []
+        }
+      },
+      "canonical": {
+        "entities": [
+          "cart",
+          "category",
+          "product"
+        ],
+        "attributes": [
+          "cart.item_count",
+          "category.item_count",
+          "category.name",
+          "category.price_range",
+          "product.asin",
+          "product.availability",
+          "product.batteries",
+          "product.color",
+          "product.country_of_origin",
+          "product.date_first_available",
+          "product.department",
+          "product.description",
+          "product.dimensions",
+          "product.discontinued_status",
+          "product.domestic_shipping",
+          "product.image",
+          "product.international_shipping",
+          "product.item_weight",
+          "product.manufacturer",
+          "product.model_number",
+          "product.name",
+          "product.package_dimensions",
+          "product.price",
+          "product.quantity",
+          "product.rating",
+          "product.review_count",
+          "product.size",
+          "product.sku",
+          "product.style",
+          "product.upc"
+        ],
+        "operations": [
+          "cart.add",
+          "product_navigation",
+          "search.advanced"
+        ],
+        "relations": []
+      },
+      "unmapped_assertions": [
+        {
+          "entity": "商品比较清单",
+          "attribute": "itemCount"
+        },
+        {
+          "entity": "商品比较清单",
+          "attribute": "compareProducts"
+        },
+        {
+          "entity": "商品比较清单",
+          "attribute": "productName"
+        },
+        {
+          "entity": "商品比较清单",
+          "attribute": "product"
+        },
+        {
+          "entity": "商品比较清单",
+          "attribute": "messages"
+        },
+        {
+          "entity": "购物车",
+          "attribute": "subtotal"
+        },
+        {
+          "entity": "购物车",
+          "attribute": "cart"
+        },
+        {
+          "entity": "购物车",
+          "attribute": "messages"
+        },
+        {
+          "entity": "新闻订阅",
+          "attribute": "email"
+        },
+        {
+          "entity": "价格区间",
+          "attribute": "itemCount"
+        },
+        {
+          "entity": "心愿单",
+          "attribute": "itemCount"
+        },
+        {
+          "entity": "心愿单",
+          "attribute": "wishlist_items"
+        },
+        {
+          "entity": "商品评论",
+          "attribute": "ratingPercent"
+        },
+        {
+          "entity": "商品评论",
+          "attribute": "reviewCount"
+        },
+        {
+          "entity": "商品评论",
+          "attribute": "rating"
+        },
+        {
+          "entity": "商品评论",
+          "attribute": "review_status"
+        },
+        {
+          "entity": "高级搜索条件",
+          "attribute": "productName"
+        },
+        {
+          "entity": "高级搜索条件",
+          "attribute": "sku"
+        },
+        {
+          "entity": "高级搜索条件",
+          "attribute": "description"
+        },
+        {
+          "entity": "高级搜索条件",
+          "attribute": "shortDescription"
+        },
+        {
+          "entity": "高级搜索条件",
+          "attribute": "priceFrom"
+        },
+        {
+          "entity": "高级搜索条件",
+          "attribute": "priceTo"
+        },
+        {
+          "entity": "联系请求",
+          "attribute": "name"
+        },
+        {
+          "entity": "联系请求",
+          "attribute": "email"
+        },
+        {
+          "entity": "联系请求",
+          "attribute": "phone_number"
+        },
+        {
+          "entity": "联系请求",
+          "attribute": "message"
+        },
+        {
+          "entity": "客户账户",
+          "attribute": "email"
+        },
+        {
+          "entity": "客户账户",
+          "attribute": "password"
+        },
+        {
+          "entity": "客户账户",
+          "attribute": "wishlist"
+        },
+        {
+          "entity": "客户账户",
+          "attribute": "messages"
+        },
+        {
+          "entity": "客户会话",
+          "attribute": "messages"
+        },
+        {
+          "operation": "产品-加入比较"
+        },
+        {
+          "operation": "产品-加入心愿单"
+        },
+        {
+          "operation": "商品比较清单-查询"
+        },
+        {
+          "operation": "新闻订阅-提交"
+        },
+        {
+          "operation": "商品比较清单-移除"
+        },
+        {
+          "operation": "商品比较清单-清空"
+        },
+        {
+          "operation": "产品-写评论"
+        },
+        {
+          "operation": "购物车-查询"
+        },
+        {
+          "operation": "联系请求-提交"
+        },
+        {
+          "operation": "新闻订阅-订阅"
+        },
+        {
+          "operation": "商品评论-查询"
+        },
+        {
+          "operation": "客户账户-登录提交"
+        },
+        {
+          "operation": "客户账户-会话加载"
+        },
+        {
+          "operation": "客户账户-注册"
+        },
+        {
+          "operation": "客户账户-忘记密码"
+        },
+        {
+          "operation": "商品比较清单-比较"
+        },
+        {
+          "operation": "商品比较清单-移除商品"
+        },
+        {
+          "operation": "购物车-会话加载"
+        },
+        {
+          "operation": "客户会话-加载"
+        },
+        {
+          "operation": "商品评论-写评论"
+        },
+        {
+          "operation": "商品比较清单-会话加载"
+        }
+      ]
+    },
+    "browser-use-20260929": {
+      "metrics": {
+        "entities": {
+          "G": 3,
+          "T": 3,
+          "C_in_G": 3,
+          "T_and_C": 3,
+          "T_missing_from_C": [],
+          "C_without_G": []
+        },
+        "attributes": {
+          "G": 32,
+          "T": 19,
+          "C_in_G": 16,
+          "T_and_C": 16,
+          "T_missing_from_C": [
+            "product.description",
+            "product.image",
+            "product.size"
+          ],
+          "C_without_G": []
+        },
+        "operations": {
+          "G": 7,
+          "T": 7,
+          "C_in_G": 6,
+          "T_and_C": 6,
+          "T_missing_from_C": [
+            "cart.add"
+          ],
+          "C_without_G": [
+            "product_navigation"
+          ]
+        },
+        "relations": {
+          "G": 1,
+          "T": 1,
+          "C_in_G": 0,
+          "T_and_C": 0,
+          "T_missing_from_C": [
+            "category_lists_product"
+          ],
+          "C_without_G": []
+        }
+      },
+      "canonical": {
+        "entities": [
+          "cart",
+          "category",
+          "product"
+        ],
+        "attributes": [
+          "cart.empty_state",
+          "category.item_count",
+          "category.name",
+          "category.price_range",
+          "category.subcategories",
+          "product.asin",
+          "product.availability",
+          "product.country_of_origin",
+          "product.manufacturer",
+          "product.name",
+          "product.price",
+          "product.quantity",
+          "product.rating",
+          "product.review_count",
+          "product.short_description",
+          "product.sku"
+        ],
+        "operations": [
+          "cart.view",
+          "catalog.filter",
+          "catalog.paginate",
+          "catalog.sort",
+          "product_navigation",
+          "search.advanced",
+          "search.basic"
+        ],
+        "relations": []
+      },
+      "unmapped_assertions": []
+    }
+  }
+}

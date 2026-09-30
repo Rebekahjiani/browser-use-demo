@@ -1,0 +1,34 @@
+{
+  "url": "http://127.0.0.1:7770/psp-s110-battery-upgraded-ultra-high-capacity-3600mah-li-ion-replacement-battery-for-sony-psp-1000-psp-110-console-not-compatible-with-psp-2000-or-3000-or-psp-slim.html",
+  "title": "PSP-S110 Battery,[Upgraded] Ultra High Capacity 3600mAh Li-ion Replacement Battery for Sony PSP 1000 PSP-110 Console (NOT Compatible with PSP-2000 or 3000 or PSP Slim)",
+  "route": "/psp-s110-battery-upgraded-ultra-high-capacity-3600mah-li-ion-replacement-battery-for-sony-psp-1000-psp-110-console-not-compatible-with-psp-2000-or-3000-or-psp-slim.html",
+  "captured_from": "drive",
+  "sources": {
+    "aria_source": "..\\drive\\screenshots\\018_psp-s110-battery-upgraded-ultra-high-capacity-3600mah-li-ion\\aria.yml",
+    "catalog": "<runDir>/evidence_catalog.json",
+    "evidence_ids": [
+      "trace:api_candidate:line7992",
+      "trace:api_candidate:line7993",
+      "trace:api_candidate:line7994",
+      "trace:api_candidate:line7995",
+      "trace:api_candidate:line8053",
+      "trace:api_candidate:line8116",
+      "trace:api_candidate:line8133",
+      "trace:api_candidate:line8135",
+      "trace:api_candidate:line8175",
+      "trace:api_candidate:line8192",
+      "trace:api_candidate:line8193",
+      "trace:api_candidate:line8194",
+      "trace:api_candidate:line8195",
+      "trace:api_candidate:line8196",
+      "trace:api_candidate:line8197",
+      "trace:api_candidate:line8198",
+      "trace:api_candidate:line8199",
+      "trace:api_candidate:line8200",
+      "trace:api_candidate:line8201",
+      "trace:api_candidate:line8202",
+      "trace:api_candidate:line8456"
+    ]
+  },
+  "tree_format": "aria_yml"
+}

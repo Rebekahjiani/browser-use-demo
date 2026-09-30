@@ -1,0 +1,632 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e5]:
+      - list [ref=e6]:
+        - listitem [ref=e7]:
+          - link "My Account" [ref=e8] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/customer/account/
+        - listitem [ref=e9]:
+          - link "My Wish List" [ref=e10] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/wishlist/
+        - listitem [ref=e11]:
+          - link "Sign In" [ref=e12] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/customer/account/login/
+        - listitem [ref=e13]:
+          - link "Compare Products 4 items" [ref=e14] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/catalog/product_compare/index/uenc/aHR0cDovLzEyNy4wLjAuMTo3NzcwL2N1c3RvbWVyL3NlY3Rpb24vbG9hZC8_c2VjdGlvbnM9Y29tcGFyZS1wcm9kdWN0cyUyQ21lc3NhZ2VzJmZvcmNlX25ld19zZWN0aW9uX3RpbWVzdGFtcD1mYWxzZSZfPTE3OTA1NjM2NzEwODM~/
+        - listitem [ref=e15]: Welcome to One Stop Market
+        - listitem [ref=e16]:
+          - link "Create an Account" [ref=e17] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/customer/account/create/
+      - link "Skip to Content" [ref=e18] [cursor=pointer]:
+        - /url: "#contentarea"
+    - generic [ref=e19]:
+      - text: 
+      - link "store logo" [ref=e20] [cursor=pointer]:
+        - /url: http://127.0.0.1:7770/
+        - img "one_stop_market_logo" [ref=e21]
+      - generic [ref=e22]:
+        - link " My Cart 3 3 items" [ref=e23] [cursor=pointer]:
+          - /url: http://127.0.0.1:7770/checkout/cart/
+          - text: 
+          - generic [ref=e24]: My Cart
+          - generic [ref=e25]:
+            - generic [ref=e26]: "3"
+            - generic [ref=e27]: 3 items
+        - text: " : :   :   :  "
+      - generic [ref=e30]:
+        - generic [ref=e31]:
+          - generic [ref=e32]:
+            - text: 
+            - generic [ref=e33]: Search
+          - generic [ref=e34]:
+            - combobox " Search" [ref=e35]
+            - link "Advanced Search" [ref=e37] [cursor=pointer]:
+              - /url: http://127.0.0.1:7770/catalogsearch/advanced/
+        - generic:
+          - button "Search" [disabled]:
+            - text: 
+            - generic: Search
+  - tablist [ref=e39]:
+    - tabpanel [ref=e40]:
+      - navigation [ref=e41]:
+        - menu [ref=e42]:
+          - listitem [ref=e43]:
+            - menuitem " Beauty & Personal Care" [ref=e44] [cursor=pointer]:
+              - generic [ref=e45]: 
+              - text: Beauty & Personal Care
+            - text:          
+          - listitem [ref=e46]:
+            - menuitem " Sports & Outdoors" [ref=e47] [cursor=pointer]:
+              - generic [ref=e48]: 
+              - text: Sports & Outdoors
+            - text:   
+          - listitem [ref=e49]:
+            - menuitem " Clothing, Shoes & Jewelry" [ref=e50] [cursor=pointer]:
+              - generic [ref=e51]: 
+              - text: Clothing, Shoes & Jewelry
+            - text:    
+          - listitem [ref=e52]:
+            - menuitem " Home & Kitchen" [ref=e53] [cursor=pointer]:
+              - generic [ref=e54]: 
+              - text: Home & Kitchen
+            - text:       
+          - listitem [ref=e55]:
+            - menuitem " Office Products" [ref=e56] [cursor=pointer]:
+              - generic [ref=e57]: 
+              - text: Office Products
+            - text:   
+          - listitem [ref=e58]:
+            - menuitem " Tools & Home Improvement" [ref=e59] [cursor=pointer]:
+              - generic [ref=e60]: 
+              - text: Tools & Home Improvement
+            - text: 
+          - listitem [ref=e61]:
+            - menuitem " Health & Household" [ref=e62] [cursor=pointer]:
+              - generic [ref=e63]: 
+              - text: Health & Household
+            - text:  
+          - listitem [ref=e64]:
+            - menuitem " Patio, Lawn & Garden" [ref=e65] [cursor=pointer]:
+              - generic [ref=e66]: 
+              - text: Patio, Lawn & Garden
+            - text: 
+          - listitem [ref=e67]:
+            - menuitem " Electronics" [ref=e68] [cursor=pointer]:
+              - generic [ref=e69]: 
+              - text: Electronics
+            - text:            
+          - listitem [ref=e70]:
+            - menuitem " Cell Phones & Accessories" [ref=e71] [cursor=pointer]:
+              - generic [ref=e72]: 
+              - text: Cell Phones & Accessories
+            - text:  
+          - listitem [ref=e73]:
+            - menuitem " Video Games" [ref=e74] [cursor=pointer]:
+              - generic [ref=e75]: 
+              - text: Video Games
+            - text:    
+          - listitem [ref=e76]:
+            - menuitem " Grocery & Gourmet Food" [ref=e77] [cursor=pointer]:
+              - generic [ref=e78]: 
+              - text: Grocery & Gourmet Food
+            - text:             
+  - list [ref=e80]:
+    - listitem [ref=e81]:
+      - link "Home" [ref=e82] [cursor=pointer]:
+        - /url: http://127.0.0.1:7770/
+      - text: 
+    - listitem [ref=e83]:
+      - strong [ref=e84]: Clothing, Shoes & Jewelry
+  - main [ref=e85]:
+    - heading "Clothing, Shoes & Jewelry Items 1-12 of 20923" [level=1] [ref=e87]: Clothing, Shoes & Jewelry
+    - alert [ref=e90]:
+      - generic [ref=e92]:
+        - text:  You added product Reef Men's Twinpin Prints Sandals to the
+        - link "comparison list" [ref=e93] [cursor=pointer]:
+          - /url: http://127.0.0.1:7770/catalog/product_compare/
+        - text: .
+    - generic [ref=e94]:
+      - generic [ref=e95]:
+        - generic [ref=e96]:
+          - generic [ref=e97]:
+            - strong [ref=e98]: View as
+            - strong [ref=e99]:
+              - text: 
+              - generic [ref=e100]: Grid
+            - link "View as  List" [ref=e101] [cursor=pointer]:
+              - /url: "#"
+              - text: 
+              - generic [ref=e102]: List
+          - paragraph [ref=e103]: Items 1-12 of 20923
+          - generic [ref=e104]:
+            - text: Sort By
+            - combobox "Sort By" [ref=e105]:
+              - option "Position" [selected]
+              - option "Product Name"
+              - option "Price"
+            - link " Set Descending Direction" [ref=e106] [cursor=pointer]:
+              - /url: "#"
+              - text: 
+              - generic [ref=e107]: Set Descending Direction
+        - list [ref=e109]:
+          - listitem [ref=e110]:
+            - generic [ref=e111]:
+              - link "Image" [ref=e112] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/hfhapw-onesie-pajamas-for-women-women-s-valentines-day-sexy-jumpsuit-v-neck-button-down-red-lip-printed-one-piece-pajamas.html
+                - img "Image" [ref=e115]
+              - generic [ref=e116]:
+                - strong [ref=e117]:
+                  - link "HFHAPW Onesie Pajamas for Women,Women's Valentines Day Sexy Jumpsuit V Neck Button Down Red Lip Printed One Piece Pajamas" [ref=e118] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/hfhapw-onesie-pajamas-for-women-women-s-valentines-day-sexy-jumpsuit-v-neck-button-down-red-lip-printed-one-piece-pajamas.html
+                - generic [ref=e121]: $0.88
+                - generic [ref=e123]:
+                  - button "Add to Cart" [ref=e126] [cursor=pointer]
+                  - generic [ref=e127]:
+                    - button "Add to Wish List" [ref=e128] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e129]: Add to Wish List
+                    - button "Add to Compare" [ref=e130] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e131]: Add to Compare
+          - listitem [ref=e132]:
+            - generic [ref=e133]:
+              - link "Image" [ref=e134] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/christmas-elf-tshirt-i-m-the-sporty-elf-matching-xmas-gift-tank-top.html
+                - img "Image" [ref=e137]
+              - generic [ref=e138]:
+                - strong [ref=e139]:
+                  - link "Christmas Elf Tshirt I'm The Sporty Elf Matching Xmas Gift Tank Top" [ref=e140] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/christmas-elf-tshirt-i-m-the-sporty-elf-matching-xmas-gift-tank-top.html
+                - generic [ref=e143]: $19.99
+                - generic [ref=e145]:
+                  - button "Add to Cart" [ref=e148] [cursor=pointer]
+                  - generic [ref=e149]:
+                    - button "Add to Wish List" [ref=e150] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e151]: Add to Wish List
+                    - button "Add to Compare" [ref=e152] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e153]: Add to Compare
+          - listitem [ref=e154]:
+            - generic [ref=e155]:
+              - link "Image" [ref=e156] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/juggalo-gathering-whoop-whoop-hatchetman-clown-t-shirt-tank-top.html
+                - img "Image" [ref=e159]
+              - generic [ref=e160]:
+                - strong [ref=e161]:
+                  - link "Juggalo Gathering Whoop Whoop, Hatchetman Clown T-Shirt Tank Top" [ref=e162] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/juggalo-gathering-whoop-whoop-hatchetman-clown-t-shirt-tank-top.html
+                - generic [ref=e163]:
+                  - generic [ref=e164]:
+                    - generic [ref=e165]: "Rating:"
+                    - generic "100%" [ref=e166]:
+                      - text: 
+                      - generic [ref=e167]:
+                        - text: 
+                        - generic [ref=e168]: 100%
+                  - link "1 Review" [ref=e170] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/juggalo-gathering-whoop-whoop-hatchetman-clown-t-shirt-tank-top.html#reviews
+                - generic [ref=e173]: $19.99
+                - generic [ref=e175]:
+                  - button "Add to Cart" [ref=e178] [cursor=pointer]
+                  - generic [ref=e179]:
+                    - button "Add to Wish List" [ref=e180] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e181]: Add to Wish List
+                    - button "Add to Compare" [ref=e182] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e183]: Add to Compare
+          - listitem [ref=e184]:
+            - generic [ref=e185]:
+              - link "Image" [ref=e186] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/gillberry-men-s-joggers-sweatpants-with-pockets-mens-comfort-trousers-straight-leg-solid-color-business-golf-pants.html
+                - img "Image" [ref=e189]
+              - generic [ref=e190]:
+                - strong [ref=e191]:
+                  - link "Gillberry Men's Joggers Sweatpants with Pockets Mens Comfort Trousers Straight Leg Solid Color Business Golf Pants" [ref=e192] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/gillberry-men-s-joggers-sweatpants-with-pockets-mens-comfort-trousers-straight-leg-solid-color-business-golf-pants.html
+                - generic [ref=e195]: $13.59
+                - generic [ref=e197]:
+                  - button "Add to Cart" [ref=e200] [cursor=pointer]
+                  - generic [ref=e201]:
+                    - button "Add to Wish List" [ref=e202] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e203]: Add to Wish List
+                    - button "Add to Compare" [ref=e204] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e205]: Add to Compare
+          - listitem [ref=e206]:
+            - generic [ref=e207]:
+              - link "Image" [ref=e208] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/fulkan-womens-plus-size-stretch-jeggings-with-pockets-high-wasit-pull-on-stretchy-slim-fit-skinny-jeans-pencil-denim-pants.html
+                - img "Image" [ref=e211]
+              - generic [ref=e212]:
+                - strong [ref=e213]:
+                  - link "FULKAN Womens Plus Size Stretch Jeggings with Pockets High Wasit Pull-On Stretchy Slim Fit Skinny Jeans Pencil Denim Pants" [ref=e214] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/fulkan-womens-plus-size-stretch-jeggings-with-pockets-high-wasit-pull-on-stretchy-slim-fit-skinny-jeans-pencil-denim-pants.html
+                - generic [ref=e217]: $14.91
+                - generic [ref=e219]:
+                  - button "Add to Cart" [ref=e222] [cursor=pointer]
+                  - generic [ref=e223]:
+                    - button "Add to Wish List" [ref=e224] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e225]: Add to Wish List
+                    - button "Add to Compare" [ref=e226] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e227]: Add to Compare
+          - listitem [ref=e228]:
+            - generic [ref=e229]:
+              - link "Image" [ref=e230] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/reef-men-s-twinpin-prints-sandals.html
+                - img "Image" [ref=e233]
+              - generic [ref=e234]:
+                - strong [ref=e235]:
+                  - link "Reef Men's Twinpin Prints Sandals" [ref=e236] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/reef-men-s-twinpin-prints-sandals.html
+                - generic [ref=e239]: $47.99
+                - generic [ref=e241]:
+                  - button "Add to Cart" [ref=e244] [cursor=pointer]
+                  - generic [ref=e245]:
+                    - button "Add to Wish List" [ref=e246] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e247]: Add to Wish List
+                    - button "Add to Compare" [ref=e248] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e249]: Add to Compare
+          - listitem [ref=e250]:
+            - generic [ref=e251]:
+              - link "Image" [ref=e252] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/funny-ugly-christmas-sweater-shirt-women-boobs-for-santa-tank-top.html
+                - img "Image" [ref=e255]
+              - generic [ref=e256]:
+                - strong [ref=e257]:
+                  - link "Funny Ugly Christmas Sweater Shirt Women Boobs for Santa Tank Top" [ref=e258] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/funny-ugly-christmas-sweater-shirt-women-boobs-for-santa-tank-top.html
+                - generic [ref=e261]: $19.99
+                - generic [ref=e263]:
+                  - button "Add to Cart" [ref=e266] [cursor=pointer]
+                  - generic [ref=e267]:
+                    - button "Add to Wish List" [ref=e268] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e269]: Add to Wish List
+                    - button "Add to Compare" [ref=e270] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e271]: Add to Compare
+          - listitem [ref=e272]:
+            - generic [ref=e273]:
+              - link "Image" [ref=e274] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/wzqwzj-summer-beach-swimming-upstream-shoes-snorkeling-shoes-tide-shoes-elastic-skin-waterproof-non-slip-diving-shoes-men-and-women-yoga-socks-shoes-outdoor-beach-shoes.html
+                - img "Image" [ref=e277]
+              - generic [ref=e278]:
+                - strong [ref=e279]:
+                  - link "Wzqwzj Summer Beach Swimming Upstream Shoes Snorkeling Shoes, Tide Shoes Elastic Skin Waterproof Non- Slip Diving Shoes Men and Women Yoga Socks Shoes Outdoor Beach Shoes" [ref=e280] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/wzqwzj-summer-beach-swimming-upstream-shoes-snorkeling-shoes-tide-shoes-elastic-skin-waterproof-non-slip-diving-shoes-men-and-women-yoga-socks-shoes-outdoor-beach-shoes.html
+                - generic [ref=e283]: $61.04
+                - generic [ref=e285]:
+                  - button "Add to Cart" [ref=e288] [cursor=pointer]
+                  - generic [ref=e289]:
+                    - button "Add to Wish List" [ref=e290] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e291]: Add to Wish List
+                    - button "Add to Compare" [ref=e292] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e293]: Add to Compare
+          - listitem [ref=e294]:
+            - generic [ref=e295]:
+              - link "Image" [ref=e296] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/nike-victori-one-slide-mens-style-dd9559-300.html
+                - img "Image" [ref=e299]
+              - generic [ref=e300]:
+                - strong [ref=e301]:
+                  - 'link "Nike Victori One Slide Mens Style : Dd9559-300" [ref=e302] [cursor=pointer]':
+                    - /url: http://127.0.0.1:7770/nike-victori-one-slide-mens-style-dd9559-300.html
+                - generic [ref=e305]: $61.00
+                - generic [ref=e307]:
+                  - button "Add to Cart" [ref=e310] [cursor=pointer]
+                  - generic [ref=e311]:
+                    - button "Add to Wish List" [ref=e312] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e313]: Add to Wish List
+                    - button "Add to Compare" [ref=e314] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e315]: Add to Compare
+          - listitem [ref=e316]:
+            - generic [ref=e317]:
+              - link "Image" [ref=e318] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/need-more-space-for-basketball-shirt-basketball-lover-hooper-gift-basketball-t-shirt-sweater-hoodie-for-men-women-kids.html
+                - img "Image" [ref=e321]
+              - generic [ref=e322]:
+                - strong [ref=e323]:
+                  - link "Need More Space for Basketball Shirt, Basketball Lover, Hooper Gift, Basketball, T-Shirt, Sweater, Hoodie for Men, Women, Kids" [ref=e324] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/need-more-space-for-basketball-shirt-basketball-lover-hooper-gift-basketball-t-shirt-sweater-hoodie-for-men-women-kids.html
+                - generic [ref=e327]: $18.99
+                - generic [ref=e329]:
+                  - button "Add to Cart" [ref=e332] [cursor=pointer]
+                  - generic [ref=e333]:
+                    - button "Add to Wish List" [ref=e334] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e335]: Add to Wish List
+                    - button "Add to Compare" [ref=e336] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e337]: Add to Compare
+          - listitem [ref=e338]:
+            - generic [ref=e339]:
+              - link "Image" [ref=e340] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/famulily-womens-oversized-sweater-batwing-sleeve-cowl-neck-pullover-knit-ribbed-hem-pathwork-tops.html
+                - img "Image" [ref=e343]
+              - generic [ref=e344]:
+                - strong [ref=e345]:
+                  - link "Famulily Womens Oversized Sweater Batwing Sleeve Cowl Neck Pullover Knit Ribbed Hem Pathwork Tops" [ref=e346] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/famulily-womens-oversized-sweater-batwing-sleeve-cowl-neck-pullover-knit-ribbed-hem-pathwork-tops.html
+                - generic [ref=e349]: $25.99
+                - generic [ref=e351]:
+                  - button "Add to Cart" [ref=e354] [cursor=pointer]
+                  - generic [ref=e355]:
+                    - button "Add to Wish List" [ref=e356] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e357]: Add to Wish List
+                    - button "Add to Compare" [ref=e358] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e359]: Add to Compare
+          - listitem [ref=e360]:
+            - generic [ref=e361]:
+              - link "Image" [ref=e362] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/official-bts-jimin-95-kpop-bangtan-boys-merchandise-bts15-raglan-baseball-tee.html
+                - img "Image" [ref=e365]
+              - generic [ref=e366]:
+                - strong [ref=e367]:
+                  - link "Official BTS Jimin 95 Kpop Bangtan Boys Merchandise BTS15 Raglan Baseball Tee" [ref=e368] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/official-bts-jimin-95-kpop-bangtan-boys-merchandise-bts15-raglan-baseball-tee.html
+                - generic [ref=e371]: $28.99
+                - generic [ref=e373]:
+                  - button "Add to Cart" [ref=e376] [cursor=pointer]
+                  - generic [ref=e377]:
+                    - button "Add to Wish List" [ref=e378] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e379]: Add to Wish List
+                    - button "Add to Compare" [ref=e380] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e381]: Add to Compare
+        - generic [ref=e382]:
+          - generic [ref=e383]:
+            - strong [ref=e384]: Page
+            - list "Page" [ref=e385]:
+              - listitem [ref=e386]:
+                - strong [ref=e387]:
+                  - generic [ref=e388]: You're currently reading page
+                  - text: "1"
+              - listitem [ref=e389]:
+                - link "Page 2" [ref=e390] [cursor=pointer]:
+                  - /url: http://127.0.0.1:7770/clothing-shoes-jewelry.html?p=2
+                  - generic [ref=e391]: Page
+                  - text: "2"
+              - listitem [ref=e392]:
+                - link "Page 3" [ref=e393] [cursor=pointer]:
+                  - /url: http://127.0.0.1:7770/clothing-shoes-jewelry.html?p=3
+                  - generic [ref=e394]: Page
+                  - text: "3"
+              - listitem [ref=e395]:
+                - link "Page 4" [ref=e396] [cursor=pointer]:
+                  - /url: http://127.0.0.1:7770/clothing-shoes-jewelry.html?p=4
+                  - generic [ref=e397]: Page
+                  - text: "4"
+              - listitem [ref=e398]:
+                - link "Page 5" [ref=e399] [cursor=pointer]:
+                  - /url: http://127.0.0.1:7770/clothing-shoes-jewelry.html?p=5
+                  - generic [ref=e400]: Page
+                  - text: "5"
+              - listitem [ref=e401]:
+                - link " Page Next" [ref=e402] [cursor=pointer]:
+                  - /url: http://127.0.0.1:7770/clothing-shoes-jewelry.html?p=2
+                  - text: 
+                  - generic [ref=e403]: Page
+                  - generic [ref=e404]: Next
+          - generic [ref=e405]:
+            - generic [ref=e406]: Show
+            - combobox "Show" [ref=e408]:
+              - option "12" [selected]
+              - option "24"
+              - option "36"
+            - text: per page
+      - generic [ref=e410]:
+        - strong [ref=e412]: Shop By
+        - generic [ref=e413]:
+          - heading "Shopping Options" [level=2] [ref=e414]
+          - generic [ref=e415]:
+            - heading "Category" [level=3] [ref=e416]
+            - definition [ref=e417]:
+              - list [ref=e418]:
+                - listitem [ref=e419]:
+                  - link "Men( 7648 item )" [ref=e420] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/clothing-shoes-jewelry.html?cat=26
+                    - text: Men
+                    - generic [ref=e421]:
+                      - text: ( 7648
+                      - generic [ref=e422]: item
+                      - text: )
+                - listitem [ref=e423]:
+                  - link "Women( 9769 item )" [ref=e424] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/clothing-shoes-jewelry.html?cat=27
+                    - text: Women
+                    - generic [ref=e425]:
+                      - text: ( 9769
+                      - generic [ref=e426]: item
+                      - text: )
+                - listitem [ref=e427]:
+                  - link "Novelty & More( 3143 item )" [ref=e428] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/clothing-shoes-jewelry.html?cat=28
+                    - text: Novelty & More
+                    - generic [ref=e429]:
+                      - text: ( 3143
+                      - generic [ref=e430]: item
+                      - text: )
+                - listitem [ref=e431]:
+                  - link "Sport Specific Clothing( 265 item )" [ref=e432] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/clothing-shoes-jewelry.html?cat=31
+                    - text: Sport Specific Clothing
+                    - generic [ref=e433]:
+                      - text: ( 265
+                      - generic [ref=e434]: item
+                      - text: )
+            - heading "Price" [level=3] [ref=e435]
+            - definition [ref=e436]:
+              - list [ref=e437]:
+                - listitem [ref=e438]:
+                  - link "$0.00 - $99.99( 19559 item )" [ref=e439] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/clothing-shoes-jewelry.html?price=0-100
+                    - text: $0.00 - $99.99
+                    - generic [ref=e440]:
+                      - text: ( 19559
+                      - generic [ref=e441]: item
+                      - text: )
+                - listitem [ref=e442]:
+                  - link "$100.00 - $199.99( 1080 item )" [ref=e443] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/clothing-shoes-jewelry.html?price=100-200
+                    - text: $100.00 - $199.99
+                    - generic [ref=e444]:
+                      - text: ( 1080
+                      - generic [ref=e445]: item
+                      - text: )
+                - listitem [ref=e446]:
+                  - link "$200.00 - $299.99( 183 item )" [ref=e447] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/clothing-shoes-jewelry.html?price=200-300
+                    - text: $200.00 - $299.99
+                    - generic [ref=e448]:
+                      - text: ( 183
+                      - generic [ref=e449]: item
+                      - text: )
+                - listitem [ref=e450]:
+                  - link "$300.00 - $399.99( 53 item )" [ref=e451] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/clothing-shoes-jewelry.html?price=300-400
+                    - text: $300.00 - $399.99
+                    - generic [ref=e452]:
+                      - text: ( 53
+                      - generic [ref=e453]: item
+                      - text: )
+                - listitem [ref=e454]:
+                  - link "$400.00 - $499.99( 26 item )" [ref=e455] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/clothing-shoes-jewelry.html?price=400-500
+                    - text: $400.00 - $499.99
+                    - generic [ref=e456]:
+                      - text: ( 26
+                      - generic [ref=e457]: item
+                      - text: )
+                - listitem [ref=e458]:
+                  - link "$500.00 - $599.99( 10 item )" [ref=e459] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/clothing-shoes-jewelry.html?price=500-600
+                    - text: $500.00 - $599.99
+                    - generic [ref=e460]:
+                      - text: ( 10
+                      - generic [ref=e461]: item
+                      - text: )
+                - listitem [ref=e462]:
+                  - link "$600.00 - $699.99( 5 item )" [ref=e463] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/clothing-shoes-jewelry.html?price=600-700
+                    - text: $600.00 - $699.99
+                    - generic [ref=e464]:
+                      - text: ( 5
+                      - generic [ref=e465]: item
+                      - text: )
+                - listitem [ref=e466]:
+                  - link "$700.00 - $799.99( 4 item )" [ref=e467] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/clothing-shoes-jewelry.html?price=700-800
+                    - text: $700.00 - $799.99
+                    - generic [ref=e468]:
+                      - text: ( 4
+                      - generic [ref=e469]: item
+                      - text: )
+                - listitem [ref=e470]:
+                  - link "$800.00 - $899.99( 2 item )" [ref=e471] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/clothing-shoes-jewelry.html?price=800-900
+                    - text: $800.00 - $899.99
+                    - generic [ref=e472]:
+                      - text: ( 2
+                      - generic [ref=e473]: item
+                      - text: )
+                - listitem [ref=e474]:
+                  - link "$900.00 and above( 1 item )" [ref=e475] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/clothing-shoes-jewelry.html?price=900-1000
+                    - text: $900.00 and above
+                    - generic [ref=e476]:
+                      - text: ( 1
+                      - generic [ref=e477]: item
+                      - text: )
+      - generic [ref=e478]:
+        - generic [ref=e479]:
+          - generic [ref=e480]:
+            - heading "Compare Products" [level=2] [ref=e481]
+            - text: 4 items
+          - generic "Compare Products" [ref=e482]:
+            - list [ref=e483]:
+              - listitem [ref=e484]:
+                - strong [ref=e485]:
+                  - link "Reef Men's Twinpin Prints Sandals" [ref=e486] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/reef-men-s-twinpin-prints-sandals.html
+                - link " Remove This Item" [ref=e487] [cursor=pointer]:
+                  - /url: "#"
+                  - text: 
+                  - generic [ref=e488]: Remove This Item
+              - listitem [ref=e489]:
+                - strong [ref=e490]:
+                  - link "Multi Accessory Hub Adapter By JOBY – Get The Right Set Up For Your Vision By Attaching All The GoPro Accessories You Need In One Central Spot" [ref=e491] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/multi-accessory-hub-adapter-by-joby-get-the-right-set-up-for-your-vision-by-attaching-all-the-gopro-accessories-you-need-in-one-central-spot.html
+                - link " Remove This Item" [ref=e492] [cursor=pointer]:
+                  - /url: "#"
+                  - text: 
+                  - generic [ref=e493]: Remove This Item
+              - listitem [ref=e494]:
+                - strong [ref=e495]:
+                  - link "linxiaojix Waterproof Shell for Osmo Pocket, Camera Case Camera Cover Diving Cover for Osmo Pocket, 60M Waterproof for Travel Trip" [ref=e496] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/linxiaojix-waterproof-shell-for-osmo-pocket-camera-case-camera-cover-diving-cover-for-osmo-pocket-60m-waterproof-for-travel-trip.html
+                - link " Remove This Item" [ref=e497] [cursor=pointer]:
+                  - /url: "#"
+                  - text: 
+                  - generic [ref=e498]: Remove This Item
+              - listitem [ref=e499]:
+                - strong [ref=e500]:
+                  - 'link "Q Mixers Premium Ginger Ale: Real Ingredients & Less Sweet, 6.7 Fl Oz (24 Bottles)" [ref=e501] [cursor=pointer]':
+                    - /url: http://127.0.0.1:7770/q-mixers-premium-ginger-ale-real-ingredients-less-sweet-6-7-fl-oz-24-bottles.html
+                - link " Remove This Item" [ref=e502] [cursor=pointer]:
+                  - /url: "#"
+                  - text: 
+                  - generic [ref=e503]: Remove This Item
+            - generic [ref=e504]:
+              - link "Compare" [ref=e506] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/catalog/product_compare/index/uenc/aHR0cDovLzEyNy4wLjAuMTo3NzcwL2N1c3RvbWVyL3NlY3Rpb24vbG9hZC8_c2VjdGlvbnM9Y29tcGFyZS1wcm9kdWN0cyUyQ21lc3NhZ2VzJmZvcmNlX25ld19zZWN0aW9uX3RpbWVzdGFtcD1mYWxzZSZfPTE3OTA1NjM2NzEwODM~/
+              - link "Clear All" [ref=e508] [cursor=pointer]:
+                - /url: "#"
+        - generic [ref=e509]:
+          - heading "My Wish List" [level=2] [ref=e511]
+          - generic [ref=e513]: You have no items in your wish list.
+  - contentinfo [ref=e514]:
+    - generic [ref=e515]:
+      - generic [ref=e518]:
+        - generic [ref=e520]:
+          - text: 
+          - generic [ref=e521]:
+            - generic [ref=e522]: "Sign Up for Our Newsletter:"
+            - textbox "Sign Up for Our Newsletter:" [ref=e523]:
+              - /placeholder: Enter your email address
+        - button "Subscribe" [ref=e525] [cursor=pointer]
+      - list [ref=e526]:
+        - listitem [ref=e527]:
+          - link "Privacy and Cookie Policy" [ref=e528] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/privacy-policy-cookie-restriction-mode/
+        - listitem [ref=e529]:
+          - link "Search Terms" [ref=e530] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/search/term/popular/
+        - listitem [ref=e531]:
+          - link "Advanced Search" [ref=e532] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/catalogsearch/advanced/
+        - listitem [ref=e533]:
+          - link "Orders and Returns" [ref=e534] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/sales/guest/form/
+        - listitem [ref=e535]:
+          - link "Contact Us" [ref=e536] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/contact/
+      - generic [ref=e537]: Copyright © 2013-present Magento, Inc. All rights reserved.
+      - generic [ref=e538]:
+        - text: Help Us Keep Magento Healthy
+        - link "Report All Bugs" [ref=e539] [cursor=pointer]:
+          - /url: http://www.magentocommerce.com/bug-tracking

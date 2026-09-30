@@ -1,0 +1,576 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e5]:
+      - list [ref=e6]:
+        - listitem [ref=e7]:
+          - link "My Account" [ref=e8] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/customer/account/
+        - listitem [ref=e9]:
+          - link "My Wish List" [ref=e10] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/wishlist/
+        - listitem [ref=e11]:
+          - link "Sign In" [ref=e12] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/customer/account/login/
+        - listitem [ref=e13]:
+          - link "Compare Products 3 items" [ref=e14] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/catalog/product_compare/index/uenc/aHR0cDovLzEyNy4wLjAuMTo3NzcwL2N1c3RvbWVyL3NlY3Rpb24vbG9hZC8_c2VjdGlvbnM9Y29tcGFyZS1wcm9kdWN0cyUyQ21lc3NhZ2VzJmZvcmNlX25ld19zZWN0aW9uX3RpbWVzdGFtcD1mYWxzZSZfPTE3OTA1NjM0NzA5NzY~/
+        - listitem [ref=e15]: Welcome to One Stop Market
+        - listitem [ref=e16]:
+          - link "Create an Account" [ref=e17] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/customer/account/create/
+      - link "Skip to Content" [ref=e18] [cursor=pointer]:
+        - /url: "#contentarea"
+    - generic [ref=e19]:
+      - text: 
+      - link "store logo" [ref=e20] [cursor=pointer]:
+        - /url: http://127.0.0.1:7770/
+        - img "one_stop_market_logo" [ref=e21]
+      - generic [ref=e22]:
+        - link " My Cart 3 3 items" [ref=e23] [cursor=pointer]:
+          - /url: http://127.0.0.1:7770/checkout/cart/
+          - text: 
+          - generic [ref=e24]: My Cart
+          - generic [ref=e25]:
+            - generic [ref=e26]: "3"
+            - generic [ref=e27]: 3 items
+        - text: " : :   :   :  "
+      - generic [ref=e30]:
+        - generic [ref=e31]:
+          - generic [ref=e32]:
+            - text: 
+            - generic [ref=e33]: Search
+          - generic [ref=e34]:
+            - combobox " Search" [ref=e35]
+            - link "Advanced Search" [ref=e37] [cursor=pointer]:
+              - /url: http://127.0.0.1:7770/catalogsearch/advanced/
+        - generic:
+          - button "Search" [disabled]:
+            - text: 
+            - generic: Search
+  - tablist [ref=e39]:
+    - tabpanel [ref=e40]:
+      - navigation [ref=e41]:
+        - menu [ref=e42]:
+          - listitem [ref=e43]:
+            - menuitem " Beauty & Personal Care" [ref=e44] [cursor=pointer]:
+              - generic [ref=e45]: 
+              - text: Beauty & Personal Care
+            - text:          
+          - listitem [ref=e46]:
+            - menuitem " Sports & Outdoors" [ref=e47] [cursor=pointer]:
+              - generic [ref=e48]: 
+              - text: Sports & Outdoors
+            - text:   
+          - listitem [ref=e49]:
+            - menuitem " Clothing, Shoes & Jewelry" [ref=e50] [cursor=pointer]:
+              - generic [ref=e51]: 
+              - text: Clothing, Shoes & Jewelry
+            - text:    
+          - listitem [ref=e52]:
+            - menuitem " Home & Kitchen" [ref=e53] [cursor=pointer]:
+              - generic [ref=e54]: 
+              - text: Home & Kitchen
+            - text:       
+          - listitem [ref=e55]:
+            - menuitem " Office Products" [ref=e56] [cursor=pointer]:
+              - generic [ref=e57]: 
+              - text: Office Products
+            - text:   
+          - listitem [ref=e58]:
+            - menuitem " Tools & Home Improvement" [ref=e59] [cursor=pointer]:
+              - generic [ref=e60]: 
+              - text: Tools & Home Improvement
+            - text: 
+          - listitem [ref=e61]:
+            - menuitem " Health & Household" [ref=e62] [cursor=pointer]:
+              - generic [ref=e63]: 
+              - text: Health & Household
+            - text:  
+          - listitem [ref=e64]:
+            - menuitem " Patio, Lawn & Garden" [ref=e65] [cursor=pointer]:
+              - generic [ref=e66]: 
+              - text: Patio, Lawn & Garden
+            - text: 
+          - listitem [ref=e67]:
+            - menuitem " Electronics" [ref=e68] [cursor=pointer]:
+              - generic [ref=e69]: 
+              - text: Electronics
+            - text:            
+          - listitem [ref=e70]:
+            - menuitem " Cell Phones & Accessories" [ref=e71] [cursor=pointer]:
+              - generic [ref=e72]: 
+              - text: Cell Phones & Accessories
+            - text:  
+          - listitem [ref=e73]:
+            - menuitem " Video Games" [ref=e74] [cursor=pointer]:
+              - generic [ref=e75]: 
+              - text: Video Games
+            - text:    
+          - listitem [ref=e76]:
+            - menuitem " Grocery & Gourmet Food" [ref=e77] [cursor=pointer]:
+              - generic [ref=e78]: 
+              - text: Grocery & Gourmet Food
+            - text:             
+  - list [ref=e80]:
+    - listitem [ref=e81]:
+      - link "Home" [ref=e82] [cursor=pointer]:
+        - /url: http://127.0.0.1:7770/
+      - text: 
+    - listitem [ref=e83]:
+      - strong [ref=e84]: Cell Phones & Accessories
+  - main [ref=e85]:
+    - heading "Cell Phones & Accessories Items 1-12 of 2449" [level=1] [ref=e87]: Cell Phones & Accessories
+    - generic [ref=e88]:
+      - generic [ref=e89]:
+        - generic [ref=e90]:
+          - generic [ref=e91]:
+            - strong [ref=e92]: View as
+            - strong [ref=e93]:
+              - text: 
+              - generic [ref=e94]: Grid
+            - link "View as  List" [ref=e95] [cursor=pointer]:
+              - /url: "#"
+              - text: 
+              - generic [ref=e96]: List
+          - paragraph [ref=e97]: Items 1-12 of 2449
+          - generic [ref=e98]:
+            - text: Sort By
+            - combobox "Sort By" [ref=e99]:
+              - option "Position" [selected]
+              - option "Product Name"
+              - option "Price"
+            - link " Set Descending Direction" [ref=e100] [cursor=pointer]:
+              - /url: "#"
+              - text: 
+              - generic [ref=e101]: Set Descending Direction
+        - list [ref=e103]:
+          - listitem [ref=e104]:
+            - generic [ref=e105]:
+              - link "Image" [ref=e106] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/dilwe1-12-phone-screen-magnifier-hd-mobile-phone-magnifier-projector-screen-foldable-phone-stand-with-screen-amplifier-for-movies-videos.html
+                - img "Image" [ref=e109]
+              - generic [ref=e110]:
+                - strong [ref=e111]:
+                  - link "Dilwe1 12'' Phone Screen Magnifier, HD Mobile Phone Magnifier Projector Screen, Foldable Phone Stand with Screen Amplifier for Movies Videos" [ref=e112] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/dilwe1-12-phone-screen-magnifier-hd-mobile-phone-magnifier-projector-screen-foldable-phone-stand-with-screen-amplifier-for-movies-videos.html
+                - generic [ref=e115]: $9.73
+                - generic [ref=e117]:
+                  - button "Add to Cart" [ref=e120] [cursor=pointer]
+                  - generic [ref=e121]:
+                    - button "Add to Wish List" [ref=e122] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e123]: Add to Wish List
+                    - button "Add to Compare" [ref=e124] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e125]: Add to Compare
+          - listitem [ref=e126]:
+            - generic [ref=e127]:
+              - link "Image" [ref=e128] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/ntg-1st-generation-designed-for-samsung-s21-case-not-for-s21-plus-s21-ultra-heavy-duty-tough-rugged-lightweight-slim-shockproof-protective-case-for-samsung-galaxy-s21-6-2-inch-orange.html
+                - img "Image" [ref=e131]
+              - generic [ref=e132]:
+                - strong [ref=e133]:
+                  - link "NTG [1st Generation] Designed for Samsung S21 Case (Not for S21 Plus&S21 Ultra), Heavy-Duty Tough Rugged Lightweight Slim Shockproof Protective Case for Samsung Galaxy S21 6.2 Inch,Orange" [ref=e134] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/ntg-1st-generation-designed-for-samsung-s21-case-not-for-s21-plus-s21-ultra-heavy-duty-tough-rugged-lightweight-slim-shockproof-protective-case-for-samsung-galaxy-s21-6-2-inch-orange.html
+                - generic [ref=e137]: $16.99
+                - generic [ref=e139]:
+                  - button "Add to Cart" [ref=e142] [cursor=pointer]
+                  - generic [ref=e143]:
+                    - button "Add to Wish List" [ref=e144] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e145]: Add to Wish List
+                    - button "Add to Compare" [ref=e146] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e147]: Add to Compare
+          - listitem [ref=e148]:
+            - generic [ref=e149]:
+              - link "Image" [ref=e150] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/2-2-pack-ywxtw-galaxy-s21-privacy-screen-protector-support-fingerprint-unlock-7h-hardness-and-camera-lens-tempered-glass-protector-for-samsung-galaxy-s21-6-2-inch-anti-spy-easy-install-frame.html
+                - img "Image" [ref=e153]
+              - generic [ref=e154]:
+                - strong [ref=e155]:
+                  - link "[2+2 Pack] YWXTW Galaxy S21 Privacy Screen Protector 【Support Fingerprint Unlock】【7H Hardness】and Camera Lens Tempered Glass Protector for Samsung Galaxy S21 6.2-Inch, Anti-Spy Easy Install Frame" [ref=e156] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/2-2-pack-ywxtw-galaxy-s21-privacy-screen-protector-support-fingerprint-unlock-7h-hardness-and-camera-lens-tempered-glass-protector-for-samsung-galaxy-s21-6-2-inch-anti-spy-easy-install-frame.html
+                - generic [ref=e157]:
+                  - generic [ref=e158]:
+                    - generic [ref=e159]: "Rating:"
+                    - generic "55%" [ref=e160]:
+                      - text: 
+                      - generic [ref=e161]:
+                        - text: 
+                        - generic [ref=e162]: 55%
+                  - link "11 Reviews" [ref=e164] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/2-2-pack-ywxtw-galaxy-s21-privacy-screen-protector-support-fingerprint-unlock-7h-hardness-and-camera-lens-tempered-glass-protector-for-samsung-galaxy-s21-6-2-inch-anti-spy-easy-install-frame.html#reviews
+                - generic [ref=e167]: $11.99
+                - generic [ref=e169]:
+                  - button "Add to Cart" [ref=e172] [cursor=pointer]
+                  - generic [ref=e173]:
+                    - button "Add to Wish List" [ref=e174] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e175]: Add to Wish List
+                    - button "Add to Compare" [ref=e176] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e177]: Add to Compare
+          - listitem [ref=e178]:
+            - generic [ref=e179]:
+              - link "Image" [ref=e180] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/for-huawei-supercharge-power-adapter-4-5v-5a-quick-fast-charger-with-super-charging-usb-type-c-cable-super-charger-for-huawei-p20-pro-p10-plus-mate-9-mt9-mate-10-pro-honor-super-charger.html
+                - img "Image" [ref=e183]
+              - generic [ref=e184]:
+                - strong [ref=e185]:
+                  - link "for Huawei Supercharge Power Adapter,4.5V 5A Quick Fast Charger with Super Charging USB Type C Cable Super Charger for Huawei P20 Pro, P10 Plus,Mate 9 MT9, Mate 10 Pro, Honor (Super Charger)" [ref=e186] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/for-huawei-supercharge-power-adapter-4-5v-5a-quick-fast-charger-with-super-charging-usb-type-c-cable-super-charger-for-huawei-p20-pro-p10-plus-mate-9-mt9-mate-10-pro-honor-super-charger.html
+                - generic [ref=e189]: $16.98
+                - generic [ref=e191]:
+                  - button "Add to Cart" [ref=e194] [cursor=pointer]
+                  - generic [ref=e195]:
+                    - button "Add to Wish List" [ref=e196] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e197]: Add to Wish List
+                    - button "Add to Compare" [ref=e198] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e199]: Add to Compare
+          - listitem [ref=e200]:
+            - generic [ref=e201]:
+              - link "Image" [ref=e202] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/comfortable-bluetooth-headset-ux-m97-wireless-headset-with-microphone-wireless-cell-phone-headset-with-noise-isolation-mic-charging-base-mute-function-for-long-conversations-with-charging-dock.html
+                - img "Image" [ref=e205]
+              - generic [ref=e206]:
+                - strong [ref=e207]:
+                  - link "Comfortable Bluetooth Headset, UX-M97 Wireless Headset with Microphone, Wireless Cell Phone Headset with Noise Isolation Mic Charging Base Mute Function for Long Conversations with Charging Dock" [ref=e208] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/comfortable-bluetooth-headset-ux-m97-wireless-headset-with-microphone-wireless-cell-phone-headset-with-noise-isolation-mic-charging-base-mute-function-for-long-conversations-with-charging-dock.html
+                - generic [ref=e211]: $41.95
+                - generic [ref=e213]:
+                  - button "Add to Cart" [ref=e216] [cursor=pointer]
+                  - generic [ref=e217]:
+                    - button "Add to Wish List" [ref=e218] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e219]: Add to Wish List
+                    - button "Add to Compare" [ref=e220] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e221]: Add to Compare
+          - listitem [ref=e222]:
+            - generic [ref=e223]:
+              - link "Image" [ref=e224] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/iphone-13-pro-max-case-neon-turtle-iphone-13-pro-max-cases-tempered-glass-back-soft-silicone-tpu-shock-protective-case-for-apple-iphone-13-pro-max.html
+                - img "Image" [ref=e227]
+              - generic [ref=e228]:
+                - strong [ref=e229]:
+                  - link "iPhone 13 Pro Max Case, Neon Turtle iPhone 13 Pro Max Cases, Tempered Glass Back+Soft Silicone TPU Shock Protective Case for Apple iPhone 13 Pro Max" [ref=e230] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/iphone-13-pro-max-case-neon-turtle-iphone-13-pro-max-cases-tempered-glass-back-soft-silicone-tpu-shock-protective-case-for-apple-iphone-13-pro-max.html
+                - generic [ref=e231]:
+                  - generic [ref=e232]:
+                    - generic [ref=e233]: "Rating:"
+                    - generic "92%" [ref=e234]:
+                      - text: 
+                      - generic [ref=e235]:
+                        - text: 
+                        - generic [ref=e236]: 92%
+                  - link "12 Reviews" [ref=e238] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/iphone-13-pro-max-case-neon-turtle-iphone-13-pro-max-cases-tempered-glass-back-soft-silicone-tpu-shock-protective-case-for-apple-iphone-13-pro-max.html#reviews
+                - generic [ref=e241]: $14.99
+                - generic [ref=e243]:
+                  - button "Add to Cart" [ref=e246] [cursor=pointer]
+                  - generic [ref=e247]:
+                    - button "Add to Wish List" [ref=e248] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e249]: Add to Wish List
+                    - button "Add to Compare" [ref=e250] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e251]: Add to Compare
+          - listitem [ref=e252]:
+            - generic [ref=e253]:
+              - link "Image" [ref=e254] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/car-phone-holder-mount-360-degree-rotation-dashboard-cell-phone-holder-for-car-clip-mount-stand-suitable-for-4-to-7-inch-smartphones-black.html
+                - img "Image" [ref=e257]
+              - generic [ref=e258]:
+                - strong [ref=e259]:
+                  - link "Car Phone Holder Mount 360 Degree Rotation Dashboard Cell Phone Holder for Car Clip Mount Stand Suitable for 4 to 7 inch Smartphones (Black)" [ref=e260] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/car-phone-holder-mount-360-degree-rotation-dashboard-cell-phone-holder-for-car-clip-mount-stand-suitable-for-4-to-7-inch-smartphones-black.html
+                - generic [ref=e263]: $12.73
+                - generic [ref=e265]:
+                  - button "Add to Cart" [ref=e268] [cursor=pointer]
+                  - generic [ref=e269]:
+                    - button "Add to Wish List" [ref=e270] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e271]: Add to Wish List
+                    - button "Add to Compare" [ref=e272] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e273]: Add to Compare
+          - listitem [ref=e274]:
+            - generic [ref=e275]:
+              - link "Image" [ref=e276] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/usb-charger-anker-elite-dual-port-24w-wall-charger-powerport-2-with-poweriq-and-foldable-plug-for-iphone-11-xs-xs-max-xr-x-8-7-6-plus-ipad-pro-air-2-mini-3-mini-4-samsung-s4-s5-and-more.html
+                - img "Image" [ref=e279]
+              - generic [ref=e280]:
+                - strong [ref=e281]:
+                  - link "USB Charger, Anker Elite Dual Port 24W Wall Charger, PowerPort 2 with PowerIQ and Foldable Plug, for iPhone 11/Xs/XS Max/XR/X/8/7/6/Plus, iPad Pro/Air 2/Mini 3/Mini 4, Samsung S4/S5, and More" [ref=e282] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/usb-charger-anker-elite-dual-port-24w-wall-charger-powerport-2-with-poweriq-and-foldable-plug-for-iphone-11-xs-xs-max-xr-x-8-7-6-plus-ipad-pro-air-2-mini-3-mini-4-samsung-s4-s5-and-more.html
+                - generic [ref=e283]:
+                  - generic [ref=e284]:
+                    - generic [ref=e285]: "Rating:"
+                    - generic "73%" [ref=e286]:
+                      - text: 
+                      - generic [ref=e287]:
+                        - text: 
+                        - generic [ref=e288]: 73%
+                  - link "3 Reviews" [ref=e290] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/usb-charger-anker-elite-dual-port-24w-wall-charger-powerport-2-with-poweriq-and-foldable-plug-for-iphone-11-xs-xs-max-xr-x-8-7-6-plus-ipad-pro-air-2-mini-3-mini-4-samsung-s4-s5-and-more.html#reviews
+                - generic [ref=e293]: $13.99
+                - generic [ref=e295]:
+                  - button "Add to Cart" [ref=e298] [cursor=pointer]
+                  - generic [ref=e299]:
+                    - button "Add to Wish List" [ref=e300] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e301]: Add to Wish List
+                    - button "Add to Compare" [ref=e302] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e303]: Add to Compare
+          - listitem [ref=e304]:
+            - generic [ref=e305]:
+              - link "Image" [ref=e306] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/2-3-pack-uniqueme-compatible-with-samsung-galaxy-s22-plus-s22-plus-5g-screen-protector-2-pack-tempered-glass-and-3-pack-camera-lens-protector-bubble-free-9h-hardness-hd-easy-installation-frame.html
+                - img "Image" [ref=e309]
+              - generic [ref=e310]:
+                - strong [ref=e311]:
+                  - link "[2+3 Pack] UniqueMe Compatible with Samsung Galaxy S22 Plus/S22+Plus 5G Screen Protector,2 Pack Tempered Glass and 3 Pack Camera Lens Protector,Bubble Free [9H Hardness] HD[Easy Installation Frame]" [ref=e312] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/2-3-pack-uniqueme-compatible-with-samsung-galaxy-s22-plus-s22-plus-5g-screen-protector-2-pack-tempered-glass-and-3-pack-camera-lens-protector-bubble-free-9h-hardness-hd-easy-installation-frame.html
+                - generic [ref=e313]:
+                  - generic [ref=e314]:
+                    - generic [ref=e315]: "Rating:"
+                    - generic "72%" [ref=e316]:
+                      - text: 
+                      - generic [ref=e317]:
+                        - text: 
+                        - generic [ref=e318]: 72%
+                  - link "12 Reviews" [ref=e320] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/2-3-pack-uniqueme-compatible-with-samsung-galaxy-s22-plus-s22-plus-5g-screen-protector-2-pack-tempered-glass-and-3-pack-camera-lens-protector-bubble-free-9h-hardness-hd-easy-installation-frame.html#reviews
+                - generic [ref=e323]: $11.99
+                - generic [ref=e325]:
+                  - button "Add to Cart" [ref=e328] [cursor=pointer]
+                  - generic [ref=e329]:
+                    - button "Add to Wish List" [ref=e330] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e331]: Add to Wish List
+                    - button "Add to Compare" [ref=e332] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e333]: Add to Compare
+          - listitem [ref=e334]:
+            - generic [ref=e335]:
+              - link "Image" [ref=e336] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/landi-v101-bluetooth-headset-bluetooth-earpiece-headphones-for-cell-phones-noise-cancelling-wireless-earpieces-w-mic-for-business-driving-office-compatible-with-iphone-samsung-android-red.html
+                - img "Image" [ref=e339]
+              - generic [ref=e340]:
+                - strong [ref=e341]:
+                  - link "Landi V101 Bluetooth Headset,Bluetooth Earpiece Headphones for Cell Phones, Noise Cancelling Wireless Earpieces w/Mic for Business/Driving/Office, Compatible with iPhone/Samsung/Android (RED)" [ref=e342] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/landi-v101-bluetooth-headset-bluetooth-earpiece-headphones-for-cell-phones-noise-cancelling-wireless-earpieces-w-mic-for-business-driving-office-compatible-with-iphone-samsung-android-red.html
+                - generic [ref=e345]: $9.90
+                - generic [ref=e347]:
+                  - button "Add to Cart" [ref=e350] [cursor=pointer]
+                  - generic [ref=e351]:
+                    - button "Add to Wish List" [ref=e352] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e353]: Add to Wish List
+                    - button "Add to Compare" [ref=e354] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e355]: Add to Compare
+          - listitem [ref=e356]:
+            - generic [ref=e357]:
+              - link "Image" [ref=e358] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/3d-virtual-reality-glasses-vr-3d-glasses-for-mobile-phones-movies-and-games-blu-ray-version-vr-goggles-for-ios-android-a.html
+                - img "Image" [ref=e361]
+              - generic [ref=e362]:
+                - strong [ref=e363]:
+                  - link "3D Virtual Reality Glasses VR 3D Glasses for Mobile Phones Movies and Games Blu-ray Version VR Goggles for iOS,Android (A)" [ref=e364] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/3d-virtual-reality-glasses-vr-3d-glasses-for-mobile-phones-movies-and-games-blu-ray-version-vr-goggles-for-ios-android-a.html
+                - generic [ref=e367]: $31.99
+                - generic [ref=e369]:
+                  - button "Add to Cart" [ref=e372] [cursor=pointer]
+                  - generic [ref=e373]:
+                    - button "Add to Wish List" [ref=e374] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e375]: Add to Wish List
+                    - button "Add to Compare" [ref=e376] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e377]: Add to Compare
+          - listitem [ref=e378]:
+            - generic [ref=e379]:
+              - link "Image" [ref=e380] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/vchiming-wireless-car-charger-mount-15w-fast-charging-auto-clamping-car-phone-charger-windshield-dash-air-vent-phone-holder-compatible-with-iphone-samsung-galaxy-lg-and-other-qi-enabled-devices-gray.html
+                - img "Image" [ref=e383]
+              - generic [ref=e384]:
+                - strong [ref=e385]:
+                  - link "Vchiming Wireless Car Charger Mount,15W Fast Charging Auto-Clamping Car Phone Charger,Windshield Dash Air Vent Phone Holder Compatible with iPhone Samsung Galaxy,LG and Other Qi-Enabled Devices, Gray" [ref=e386] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/vchiming-wireless-car-charger-mount-15w-fast-charging-auto-clamping-car-phone-charger-windshield-dash-air-vent-phone-holder-compatible-with-iphone-samsung-galaxy-lg-and-other-qi-enabled-devices-gray.html
+                - generic [ref=e389]: $14.99
+                - generic [ref=e391]:
+                  - button "Add to Cart" [ref=e394] [cursor=pointer]
+                  - generic [ref=e395]:
+                    - button "Add to Wish List" [ref=e396] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e397]: Add to Wish List
+                    - button "Add to Compare" [ref=e398] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e399]: Add to Compare
+        - generic [ref=e400]:
+          - generic [ref=e401]:
+            - strong [ref=e402]: Page
+            - list "Page" [ref=e403]:
+              - listitem [ref=e404]:
+                - strong [ref=e405]:
+                  - generic [ref=e406]: You're currently reading page
+                  - text: "1"
+              - listitem [ref=e407]:
+                - link "Page 2" [ref=e408] [cursor=pointer]:
+                  - /url: http://127.0.0.1:7770/cell-phones-accessories.html?p=2
+                  - generic [ref=e409]: Page
+                  - text: "2"
+              - listitem [ref=e410]:
+                - link "Page 3" [ref=e411] [cursor=pointer]:
+                  - /url: http://127.0.0.1:7770/cell-phones-accessories.html?p=3
+                  - generic [ref=e412]: Page
+                  - text: "3"
+              - listitem [ref=e413]:
+                - link "Page 4" [ref=e414] [cursor=pointer]:
+                  - /url: http://127.0.0.1:7770/cell-phones-accessories.html?p=4
+                  - generic [ref=e415]: Page
+                  - text: "4"
+              - listitem [ref=e416]:
+                - link "Page 5" [ref=e417] [cursor=pointer]:
+                  - /url: http://127.0.0.1:7770/cell-phones-accessories.html?p=5
+                  - generic [ref=e418]: Page
+                  - text: "5"
+              - listitem [ref=e419]:
+                - link " Page Next" [ref=e420] [cursor=pointer]:
+                  - /url: http://127.0.0.1:7770/cell-phones-accessories.html?p=2
+                  - text: 
+                  - generic [ref=e421]: Page
+                  - generic [ref=e422]: Next
+          - generic [ref=e423]:
+            - generic [ref=e424]: Show
+            - combobox "Show" [ref=e426]:
+              - option "12" [selected]
+              - option "24"
+              - option "36"
+            - text: per page
+      - generic [ref=e428]:
+        - strong [ref=e430]: Shop By
+        - generic [ref=e431]:
+          - heading "Shopping Options" [level=2] [ref=e432]
+          - generic [ref=e433]:
+            - heading "Category" [level=3] [ref=e434]
+            - definition [ref=e435]:
+              - list [ref=e436]:
+                - listitem [ref=e437]:
+                  - link "Accessories( 1924 item )" [ref=e438] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/cell-phones-accessories.html?cat=57
+                    - text: Accessories
+                    - generic [ref=e439]:
+                      - text: ( 1924
+                      - generic [ref=e440]: item
+                      - text: )
+                - listitem [ref=e441]:
+                  - link "Cases, Holsters & Sleeves( 457 item )" [ref=e442] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/cell-phones-accessories.html?cat=66
+                    - text: Cases, Holsters & Sleeves
+                    - generic [ref=e443]:
+                      - text: ( 457
+                      - generic [ref=e444]: item
+                      - text: )
+                - listitem [ref=e445]:
+                  - link "Cell Phones( 68 item )" [ref=e446] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/cell-phones-accessories.html?cat=70
+                    - text: Cell Phones
+                    - generic [ref=e447]:
+                      - text: ( 68
+                      - generic [ref=e448]: item
+                      - text: )
+            - heading "Price" [level=3] [ref=e449]
+            - definition [ref=e450]:
+              - list [ref=e451]:
+                - listitem [ref=e452]:
+                  - link "$0.00 - $999.99( 2446 item )" [ref=e453] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/cell-phones-accessories.html?price=0-1000
+                    - text: $0.00 - $999.99
+                    - generic [ref=e454]:
+                      - text: ( 2446
+                      - generic [ref=e455]: item
+                      - text: )
+                - listitem [ref=e456]:
+                  - link "$1,000.00 and above( 3 item )" [ref=e457] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/cell-phones-accessories.html?price=1000-2000
+                    - text: $1,000.00 and above
+                    - generic [ref=e458]:
+                      - text: ( 3
+                      - generic [ref=e459]: item
+                      - text: )
+      - generic [ref=e460]:
+        - generic [ref=e461]:
+          - generic [ref=e462]:
+            - heading "Compare Products" [level=2] [ref=e463]
+            - text: 3 items
+          - generic "Compare Products" [ref=e464]:
+            - list [ref=e465]:
+              - listitem [ref=e466]:
+                - strong [ref=e467]:
+                  - link "Multi Accessory Hub Adapter By JOBY – Get The Right Set Up For Your Vision By Attaching All The GoPro Accessories You Need In One Central Spot" [ref=e468] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/multi-accessory-hub-adapter-by-joby-get-the-right-set-up-for-your-vision-by-attaching-all-the-gopro-accessories-you-need-in-one-central-spot.html
+                - link " Remove This Item" [ref=e469] [cursor=pointer]:
+                  - /url: "#"
+                  - text: 
+                  - generic [ref=e470]: Remove This Item
+              - listitem [ref=e471]:
+                - strong [ref=e472]:
+                  - link "linxiaojix Waterproof Shell for Osmo Pocket, Camera Case Camera Cover Diving Cover for Osmo Pocket, 60M Waterproof for Travel Trip" [ref=e473] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/linxiaojix-waterproof-shell-for-osmo-pocket-camera-case-camera-cover-diving-cover-for-osmo-pocket-60m-waterproof-for-travel-trip.html
+                - link " Remove This Item" [ref=e474] [cursor=pointer]:
+                  - /url: "#"
+                  - text: 
+                  - generic [ref=e475]: Remove This Item
+              - listitem [ref=e476]:
+                - strong [ref=e477]:
+                  - 'link "Q Mixers Premium Ginger Ale: Real Ingredients & Less Sweet, 6.7 Fl Oz (24 Bottles)" [ref=e478] [cursor=pointer]':
+                    - /url: http://127.0.0.1:7770/q-mixers-premium-ginger-ale-real-ingredients-less-sweet-6-7-fl-oz-24-bottles.html
+                - link " Remove This Item" [ref=e479] [cursor=pointer]:
+                  - /url: "#"
+                  - text: 
+                  - generic [ref=e480]: Remove This Item
+            - generic [ref=e481]:
+              - link "Compare" [ref=e483] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/catalog/product_compare/index/uenc/aHR0cDovLzEyNy4wLjAuMTo3NzcwL2N1c3RvbWVyL3NlY3Rpb24vbG9hZC8_c2VjdGlvbnM9Y29tcGFyZS1wcm9kdWN0cyUyQ21lc3NhZ2VzJmZvcmNlX25ld19zZWN0aW9uX3RpbWVzdGFtcD1mYWxzZSZfPTE3OTA1NjM0NzA5NzY~/
+              - link "Clear All" [ref=e485] [cursor=pointer]:
+                - /url: "#"
+        - generic [ref=e486]:
+          - heading "My Wish List" [level=2] [ref=e488]
+          - generic [ref=e490]: You have no items in your wish list.
+  - contentinfo [ref=e491]:
+    - generic [ref=e492]:
+      - generic [ref=e495]:
+        - generic [ref=e497]:
+          - text: 
+          - generic [ref=e498]:
+            - generic [ref=e499]: "Sign Up for Our Newsletter:"
+            - textbox "Sign Up for Our Newsletter:" [ref=e500]:
+              - /placeholder: Enter your email address
+        - button "Subscribe" [ref=e502] [cursor=pointer]
+      - list [ref=e503]:
+        - listitem [ref=e504]:
+          - link "Privacy and Cookie Policy" [ref=e505] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/privacy-policy-cookie-restriction-mode/
+        - listitem [ref=e506]:
+          - link "Search Terms" [ref=e507] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/search/term/popular/
+        - listitem [ref=e508]:
+          - link "Advanced Search" [ref=e509] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/catalogsearch/advanced/
+        - listitem [ref=e510]:
+          - link "Orders and Returns" [ref=e511] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/sales/guest/form/
+        - listitem [ref=e512]:
+          - link "Contact Us" [ref=e513] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/contact/
+      - generic [ref=e514]: Copyright © 2013-present Magento, Inc. All rights reserved.
+      - generic [ref=e515]:
+        - text: Help Us Keep Magento Healthy
+        - link "Report All Bugs" [ref=e516] [cursor=pointer]:
+          - /url: http://www.magentocommerce.com/bug-tracking

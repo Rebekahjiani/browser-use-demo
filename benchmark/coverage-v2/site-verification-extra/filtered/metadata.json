@@ -1,0 +1,7 @@
+{
+  "url": "http://127.0.0.1:7770/grocery-gourmet-food.html?price=0-1000",
+  "title": "Grocery & Gourmet Food",
+  "captured_at": "2026-09-29T06:56:28.293Z",
+  "reason": "follow observed price facet link: $0.00 - $999.99\n                            17935item",
+  "session": "independent fresh guest; read only"
+}

@@ -1,0 +1,8 @@
+{
+  "url": "http://127.0.0.1:7770/catalogsearch/result/?q=bread",
+  "title": "Search results for: 'bread'",
+  "captured_at": "2026-09-29T06:54:32.732Z",
+  "reason": "read-only search query",
+  "independent_verification": true,
+  "session": "fresh guest; no existing user cookies"
+}

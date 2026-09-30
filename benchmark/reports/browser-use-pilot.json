@@ -1,0 +1,719 @@
+{
+  "strategy": "browser-use",
+  "rule_version": "pilot-v1",
+  "snapshots": 26,
+  "snapshot_urls": 5,
+  "page_types": {
+    "home": 4,
+    "category_list": 10,
+    "product_detail": 3,
+    "advanced_search": 3,
+    "cart": 6
+  },
+  "observed_ax_states": 13,
+  "business_states": null,
+  "repeat_visit_rate": null,
+  "snapshot_errors": [],
+  "pages": [
+    {
+      "directory": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260928-160723-422670\\snapshots\\00001",
+      "url": "http://127.0.0.1:7770/",
+      "type": "home",
+      "ax_sha256": "d98aa09d3334ebe466bf5e0eea7ce94927c1e244c3b789122f5c335886e7416e",
+      "observed_state_hash": "35e71135423baa7f8926c641df6e61b553d3f3a3f180a9a4d7c988e98a8ffdbc",
+      "files": {
+        "page.html": true,
+        "accessibility.json": true,
+        "screenshot.png": true
+      }
+    },
+    {
+      "directory": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260928-160723-422670\\snapshots\\00002",
+      "url": "http://127.0.0.1:7770/",
+      "type": "home",
+      "ax_sha256": "9aca6726cd6fdd6c4f3d53fb65061ef269da0b78236e3b3bd0cd00ec07be11e2",
+      "observed_state_hash": "d424d3e1a10cde83dae7dc37a8c1f607499e1eae53613a9f583d649e5c60a035",
+      "files": {
+        "page.html": true,
+        "accessibility.json": true,
+        "screenshot.png": true
+      }
+    },
+    {
+      "directory": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260928-160723-422670\\snapshots\\00003",
+      "url": "http://127.0.0.1:7770/",
+      "type": "home",
+      "ax_sha256": "9aca6726cd6fdd6c4f3d53fb65061ef269da0b78236e3b3bd0cd00ec07be11e2",
+      "observed_state_hash": "d424d3e1a10cde83dae7dc37a8c1f607499e1eae53613a9f583d649e5c60a035",
+      "files": {
+        "page.html": true,
+        "accessibility.json": true,
+        "screenshot.png": true
+      }
+    },
+    {
+      "directory": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260928-160723-422670\\snapshots\\00004",
+      "url": "http://127.0.0.1:7770/",
+      "type": "home",
+      "ax_sha256": "83c6c1d441a345e649f6ecb6935ba10c3d0de779b62b13cb065cd45145d97bd4",
+      "observed_state_hash": "d424d3e1a10cde83dae7dc37a8c1f607499e1eae53613a9f583d649e5c60a035",
+      "files": {
+        "page.html": true,
+        "accessibility.json": true,
+        "screenshot.png": true
+      }
+    },
+    {
+      "directory": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260928-160723-422670\\snapshots\\00005",
+      "url": "http://127.0.0.1:7770/beauty-personal-care.html",
+      "type": "category_list",
+      "ax_sha256": "9d167e084abd8462a304ef440ca4f9343898c4a3f4e25105d6184a031a070103",
+      "observed_state_hash": "ce296d0de0ce3fe8f83d91c64f88d3f2bbe405584528458557f0c7f4889b4d25",
+      "files": {
+        "page.html": true,
+        "accessibility.json": true,
+        "screenshot.png": true
+      }
+    },
+    {
+      "directory": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260928-160723-422670\\snapshots\\00006",
+      "url": "http://127.0.0.1:7770/beauty-personal-care.html",
+      "type": "category_list",
+      "ax_sha256": "027f1ed46c7af2785bc822db4a31d8ec3bd2fa229b3e123156ae09ef411f5f7b",
+      "observed_state_hash": "6bcb0482be1a3a90762693399ce9e3d98fdcce364861eea8bc08a8f60c705411",
+      "files": {
+        "page.html": true,
+        "accessibility.json": true,
+        "screenshot.png": true
+      }
+    },
+    {
+      "directory": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260928-160723-422670\\snapshots\\00007",
+      "url": "http://127.0.0.1:7770/beauty-personal-care.html",
+      "type": "category_list",
+      "ax_sha256": "027f1ed46c7af2785bc822db4a31d8ec3bd2fa229b3e123156ae09ef411f5f7b",
+      "observed_state_hash": "6bcb0482be1a3a90762693399ce9e3d98fdcce364861eea8bc08a8f60c705411",
+      "files": {
+        "page.html": true,
+        "accessibility.json": true,
+        "screenshot.png": true
+      }
+    },
+    {
+      "directory": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260928-160723-422670\\snapshots\\00008",
+      "url": "http://127.0.0.1:7770/beauty-personal-care.html",
+      "type": "category_list",
+      "ax_sha256": "027f1ed46c7af2785bc822db4a31d8ec3bd2fa229b3e123156ae09ef411f5f7b",
+      "observed_state_hash": "6bcb0482be1a3a90762693399ce9e3d98fdcce364861eea8bc08a8f60c705411",
+      "files": {
+        "page.html": true,
+        "accessibility.json": true,
+        "screenshot.png": true
+      }
+    },
+    {
+      "directory": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260928-160723-422670\\snapshots\\00009",
+      "url": "http://127.0.0.1:7770/beauty-personal-care.html",
+      "type": "category_list",
+      "ax_sha256": "027f1ed46c7af2785bc822db4a31d8ec3bd2fa229b3e123156ae09ef411f5f7b",
+      "observed_state_hash": "6bcb0482be1a3a90762693399ce9e3d98fdcce364861eea8bc08a8f60c705411",
+      "files": {
+        "page.html": true,
+        "accessibility.json": true,
+        "screenshot.png": true
+      }
+    },
+    {
+      "directory": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260928-160723-422670\\snapshots\\00010",
+      "url": "http://127.0.0.1:7770/beauty-personal-care.html",
+      "type": "category_list",
+      "ax_sha256": "27b53db0e980056b1bb15af0eb138bdcbdff7ccdc1f0d82a19a5a7a7241996af",
+      "observed_state_hash": "56bbdeb4a874a6bfbb1a6cd859aa757cba0aaa2ad2f6dee0f92d7f54040bd2b3",
+      "files": {
+        "page.html": true,
+        "accessibility.json": true,
+        "screenshot.png": true
+      }
+    },
+    {
+      "directory": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260928-160723-422670\\snapshots\\00011",
+      "url": "http://127.0.0.1:7770/beauty-personal-care.html",
+      "type": "category_list",
+      "ax_sha256": "27b53db0e980056b1bb15af0eb138bdcbdff7ccdc1f0d82a19a5a7a7241996af",
+      "observed_state_hash": "56bbdeb4a874a6bfbb1a6cd859aa757cba0aaa2ad2f6dee0f92d7f54040bd2b3",
+      "files": {
+        "page.html": true,
+        "accessibility.json": true,
+        "screenshot.png": true
+      }
+    },
+    {
+      "directory": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260928-160723-422670\\snapshots\\00012",
+      "url": "http://127.0.0.1:7770/beauty-personal-care.html",
+      "type": "category_list",
+      "ax_sha256": "27b53db0e980056b1bb15af0eb138bdcbdff7ccdc1f0d82a19a5a7a7241996af",
+      "observed_state_hash": "56bbdeb4a874a6bfbb1a6cd859aa757cba0aaa2ad2f6dee0f92d7f54040bd2b3",
+      "files": {
+        "page.html": true,
+        "accessibility.json": true,
+        "screenshot.png": true
+      }
+    },
+    {
+      "directory": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260928-160723-422670\\snapshots\\00013",
+      "url": "http://127.0.0.1:7770/beauty-personal-care.html",
+      "type": "category_list",
+      "ax_sha256": "27b53db0e980056b1bb15af0eb138bdcbdff7ccdc1f0d82a19a5a7a7241996af",
+      "observed_state_hash": "56bbdeb4a874a6bfbb1a6cd859aa757cba0aaa2ad2f6dee0f92d7f54040bd2b3",
+      "files": {
+        "page.html": true,
+        "accessibility.json": true,
+        "screenshot.png": true
+      }
+    },
+    {
+      "directory": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260928-160723-422670\\snapshots\\00014",
+      "url": "http://127.0.0.1:7770/beauty-personal-care.html",
+      "type": "category_list",
+      "ax_sha256": "27b53db0e980056b1bb15af0eb138bdcbdff7ccdc1f0d82a19a5a7a7241996af",
+      "observed_state_hash": "56bbdeb4a874a6bfbb1a6cd859aa757cba0aaa2ad2f6dee0f92d7f54040bd2b3",
+      "files": {
+        "page.html": true,
+        "accessibility.json": true,
+        "screenshot.png": true
+      }
+    },
+    {
+      "directory": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260928-160723-422670\\snapshots\\00015",
+      "url": "http://127.0.0.1:7770/surethik-15g-hair-thickening-fiber-black-and-holding-spray-3oz-bundle.html",
+      "type": "product_detail",
+      "ax_sha256": "7d9da9aadcd5ee9899f7f60fa8dfcf5965bacb680fcd50230a29816ff2d0ef4f",
+      "observed_state_hash": "7f0dea89120fe77be7c1029a7b89907a6327767d3dcbe7e057f7830e85a24e97",
+      "files": {
+        "page.html": true,
+        "accessibility.json": true,
+        "screenshot.png": true
+      }
+    },
+    {
+      "directory": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260928-160723-422670\\snapshots\\00016",
+      "url": "http://127.0.0.1:7770/surethik-15g-hair-thickening-fiber-black-and-holding-spray-3oz-bundle.html",
+      "type": "product_detail",
+      "ax_sha256": "deaf98748e9bbd3d92c8c9607c2f380c6a2dc33b83e28195a8153161e62c2806",
+      "observed_state_hash": "9cc65ba0a0a163468e5099cb7ff353d2961de3b4254b9a5dfa64ef5e58b12075",
+      "files": {
+        "page.html": true,
+        "accessibility.json": true,
+        "screenshot.png": true
+      }
+    },
+    {
+      "directory": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260928-160723-422670\\snapshots\\00017",
+      "url": "http://127.0.0.1:7770/surethik-15g-hair-thickening-fiber-black-and-holding-spray-3oz-bundle.html",
+      "type": "product_detail",
+      "ax_sha256": "24e0f83f1c552d5df26e2e720b6ae2d8463f5f965f0959cb328de51870229d7a",
+      "observed_state_hash": "c27e0867baee3421550cb88589e9d760d84db514475681d96084d49ef6577910",
+      "files": {
+        "page.html": true,
+        "accessibility.json": true,
+        "screenshot.png": true
+      }
+    },
+    {
+      "directory": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260928-160723-422670\\snapshots\\00018",
+      "url": "http://127.0.0.1:7770/catalogsearch/advanced/",
+      "type": "advanced_search",
+      "ax_sha256": "a955096af49cf71384d94f0c536fd0c9c86d37fd39918a84304819dd884c4cd5",
+      "observed_state_hash": "ca371d088115cd21b33d67ed2eaa85d48c6f0200f19b68a7c418d0b2b4692590",
+      "files": {
+        "page.html": true,
+        "accessibility.json": true,
+        "screenshot.png": true
+      }
+    },
+    {
+      "directory": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260928-160723-422670\\snapshots\\00019",
+      "url": "http://127.0.0.1:7770/catalogsearch/advanced/",
+      "type": "advanced_search",
+      "ax_sha256": "20cd569f3df5a802081b2e45f6ca33224fe446a8e203a200f108727923b75830",
+      "observed_state_hash": "9847261c4bae943334e540ba9aa5ee488b027919d80bffb4a7d0dfbd844ac6bd",
+      "files": {
+        "page.html": true,
+        "accessibility.json": true,
+        "screenshot.png": true
+      }
+    },
+    {
+      "directory": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260928-160723-422670\\snapshots\\00020",
+      "url": "http://127.0.0.1:7770/catalogsearch/advanced/",
+      "type": "advanced_search",
+      "ax_sha256": "20cd569f3df5a802081b2e45f6ca33224fe446a8e203a200f108727923b75830",
+      "observed_state_hash": "9847261c4bae943334e540ba9aa5ee488b027919d80bffb4a7d0dfbd844ac6bd",
+      "files": {
+        "page.html": true,
+        "accessibility.json": true,
+        "screenshot.png": true
+      }
+    },
+    {
+      "directory": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260928-160723-422670\\snapshots\\00021",
+      "url": "http://127.0.0.1:7770/checkout/cart/",
+      "type": "cart",
+      "ax_sha256": "4cd9e9784bf908bfb8c3add697eaace60175520e17a4bde218d2db247c8e6f8e",
+      "observed_state_hash": "ee69d3058228ba91b49673dd3cbd7945fc1b010ec1d3376f1ce8b5c2efd58ac2",
+      "files": {
+        "page.html": true,
+        "accessibility.json": true,
+        "screenshot.png": true
+      }
+    },
+    {
+      "directory": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260928-160723-422670\\snapshots\\00022",
+      "url": "http://127.0.0.1:7770/checkout/cart/",
+      "type": "cart",
+      "ax_sha256": "12fa3568bcd0a155645c49dec6cf5cfb7b286d39280fb92e995bc04f4529b6d5",
+      "observed_state_hash": "b3f7e38cf1cba0ac6d0396f229feab5dbf9456cc450c06adb3eb7189f979cde4",
+      "files": {
+        "page.html": true,
+        "accessibility.json": true,
+        "screenshot.png": true
+      }
+    },
+    {
+      "directory": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260928-160723-422670\\snapshots\\00023",
+      "url": "http://127.0.0.1:7770/checkout/cart/",
+      "type": "cart",
+      "ax_sha256": "12fa3568bcd0a155645c49dec6cf5cfb7b286d39280fb92e995bc04f4529b6d5",
+      "observed_state_hash": "b3f7e38cf1cba0ac6d0396f229feab5dbf9456cc450c06adb3eb7189f979cde4",
+      "files": {
+        "page.html": true,
+        "accessibility.json": true,
+        "screenshot.png": true
+      }
+    },
+    {
+      "directory": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260928-160723-422670\\snapshots\\00024",
+      "url": "http://127.0.0.1:7770/checkout/cart/",
+      "type": "cart",
+      "ax_sha256": "428933f8280ce4385a6501e343c56276371fbe6164b286e3020b4d0485067987",
+      "observed_state_hash": "adb7dacc6c22d1b58ed9ce0e8e49d5e78e53deb861bcc2dedaecd7a3cf4aeca5",
+      "files": {
+        "page.html": true,
+        "accessibility.json": true,
+        "screenshot.png": true
+      }
+    },
+    {
+      "directory": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260928-160723-422670\\snapshots\\00025",
+      "url": "http://127.0.0.1:7770/checkout/cart/",
+      "type": "cart",
+      "ax_sha256": "428933f8280ce4385a6501e343c56276371fbe6164b286e3020b4d0485067987",
+      "observed_state_hash": "adb7dacc6c22d1b58ed9ce0e8e49d5e78e53deb861bcc2dedaecd7a3cf4aeca5",
+      "files": {
+        "page.html": true,
+        "accessibility.json": true,
+        "screenshot.png": true
+      }
+    },
+    {
+      "directory": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260928-160723-422670\\snapshots\\00026",
+      "url": "http://127.0.0.1:7770/checkout/cart/",
+      "type": "cart",
+      "ax_sha256": "428933f8280ce4385a6501e343c56276371fbe6164b286e3020b4d0485067987",
+      "observed_state_hash": "adb7dacc6c22d1b58ed9ce0e8e49d5e78e53deb861bcc2dedaecd7a3cf4aeca5",
+      "files": {
+        "page.html": true,
+        "accessibility.json": true,
+        "screenshot.png": true
+      }
+    }
+  ],
+  "trace_segments": [
+    {
+      "path": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260928-160723-422670\\trace\\26_09_28_16_07_27-min\\trace.segment.000001.jsonl",
+      "parsed_lines": 1676,
+      "invalid_lines": 0
+    },
+    {
+      "path": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260928-160723-422670\\trace\\26_09_28_16_07_27-min\\trace.segment.000002.jsonl",
+      "parsed_lines": 774,
+      "invalid_lines": 0
+    },
+    {
+      "path": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260928-160723-422670\\trace\\26_09_28_16_07_27-min\\trace.segment.000003.jsonl",
+      "parsed_lines": 927,
+      "invalid_lines": 0
+    },
+    {
+      "path": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260928-160723-422670\\trace\\26_09_28_16_07_27-min\\trace.segment.000004.jsonl",
+      "parsed_lines": 372,
+      "invalid_lines": 0
+    },
+    {
+      "path": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260928-160723-422670\\trace\\26_09_28_16_07_27-min\\trace.segment.000005.jsonl",
+      "parsed_lines": 6,
+      "invalid_lines": 0
+    },
+    {
+      "path": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260928-160723-422670\\trace\\26_09_28_16_07_27-min\\trace.segment.000006.jsonl",
+      "parsed_lines": 5,
+      "invalid_lines": 0
+    },
+    {
+      "path": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260928-160723-422670\\trace\\26_09_28_16_07_27-min\\trace.segment.000007.jsonl",
+      "parsed_lines": 5,
+      "invalid_lines": 0
+    },
+    {
+      "path": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260928-160723-422670\\trace\\26_09_28_16_07_27-min\\trace.segment.000008.jsonl",
+      "parsed_lines": 683,
+      "invalid_lines": 0
+    },
+    {
+      "path": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260928-160723-422670\\trace\\26_09_28_16_07_27-min\\trace.segment.000009.jsonl",
+      "parsed_lines": 1413,
+      "invalid_lines": 0
+    },
+    {
+      "path": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260928-160723-422670\\trace\\26_09_28_16_07_27-min\\trace.segment.000010.jsonl",
+      "parsed_lines": 24,
+      "invalid_lines": 0
+    },
+    {
+      "path": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260928-160723-422670\\trace\\26_09_28_16_07_27-min\\trace.segment.000011.jsonl",
+      "parsed_lines": 1,
+      "invalid_lines": 0
+    },
+    {
+      "path": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260928-160723-422670\\trace\\26_09_28_16_07_27-min\\trace.segment.000012.jsonl",
+      "parsed_lines": 1,
+      "invalid_lines": 0
+    },
+    {
+      "path": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260928-160723-422670\\trace\\26_09_28_16_07_27-min\\trace.segment.000013.jsonl",
+      "parsed_lines": 5,
+      "invalid_lines": 0
+    },
+    {
+      "path": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260928-160723-422670\\trace\\26_09_28_16_07_27-min\\trace.segment.000014.jsonl",
+      "parsed_lines": 1,
+      "invalid_lines": 0
+    },
+    {
+      "path": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260928-160723-422670\\trace\\26_09_28_16_07_27-min\\trace.segment.000015.jsonl",
+      "parsed_lines": 5,
+      "invalid_lines": 0
+    },
+    {
+      "path": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260928-160723-422670\\trace\\26_09_28_16_07_27-min\\trace.segment.000016.jsonl",
+      "parsed_lines": 1,
+      "invalid_lines": 0
+    },
+    {
+      "path": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260928-160723-422670\\trace\\26_09_28_16_07_27-min\\trace.segment.000017.jsonl",
+      "parsed_lines": 18,
+      "invalid_lines": 0
+    },
+    {
+      "path": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260928-160723-422670\\trace\\26_09_28_16_07_27-min\\trace.segment.000018.jsonl",
+      "parsed_lines": 1,
+      "invalid_lines": 0
+    },
+    {
+      "path": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260928-160723-422670\\trace\\26_09_28_16_07_27-min\\trace.segment.000019.jsonl",
+      "parsed_lines": 1,
+      "invalid_lines": 0
+    },
+    {
+      "path": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260928-160723-422670\\trace\\26_09_28_16_07_27-min\\trace.segment.000020.jsonl",
+      "parsed_lines": 10,
+      "invalid_lines": 0
+    },
+    {
+      "path": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260928-160723-422670\\trace\\26_09_28_16_07_27-min\\trace.segment.000021.jsonl",
+      "parsed_lines": 5,
+      "invalid_lines": 0
+    },
+    {
+      "path": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260928-160723-422670\\trace\\26_09_28_16_07_27-min\\trace.segment.000022.jsonl",
+      "parsed_lines": 1,
+      "invalid_lines": 0
+    },
+    {
+      "path": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260928-160723-422670\\trace\\26_09_28_16_07_27-min\\trace.segment.000023.jsonl",
+      "parsed_lines": 12,
+      "invalid_lines": 0
+    },
+    {
+      "path": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260928-160723-422670\\trace\\26_09_28_16_07_27-min\\trace.segment.000024.jsonl",
+      "parsed_lines": 1,
+      "invalid_lines": 0
+    },
+    {
+      "path": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260928-160723-422670\\trace\\26_09_28_16_07_27-min\\trace.segment.000025.jsonl",
+      "parsed_lines": 5,
+      "invalid_lines": 0
+    },
+    {
+      "path": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260928-160723-422670\\trace\\26_09_28_16_07_27-min\\trace.segment.000026.jsonl",
+      "parsed_lines": 1,
+      "invalid_lines": 0
+    },
+    {
+      "path": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260928-160723-422670\\trace\\26_09_28_16_07_27-min\\trace.segment.000027.jsonl",
+      "parsed_lines": 5,
+      "invalid_lines": 0
+    },
+    {
+      "path": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260928-160723-422670\\trace\\26_09_28_16_07_27-min\\trace.segment.000028.jsonl",
+      "parsed_lines": 1009,
+      "invalid_lines": 0
+    },
+    {
+      "path": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260928-160723-422670\\trace\\26_09_28_16_07_27-min\\trace.segment.000029.jsonl",
+      "parsed_lines": 831,
+      "invalid_lines": 0
+    },
+    {
+      "path": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260928-160723-422670\\trace\\26_09_28_16_07_27-min\\trace.segment.000030.jsonl",
+      "parsed_lines": 148,
+      "invalid_lines": 0
+    },
+    {
+      "path": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260928-160723-422670\\trace\\26_09_28_16_07_27-min\\trace.segment.000031.jsonl",
+      "parsed_lines": 1096,
+      "invalid_lines": 0
+    },
+    {
+      "path": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260928-160723-422670\\trace\\26_09_28_16_07_27-min\\trace.segment.000032.jsonl",
+      "parsed_lines": 762,
+      "invalid_lines": 0
+    },
+    {
+      "path": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260928-160723-422670\\trace\\26_09_28_16_07_27-min\\trace.segment.000033.jsonl",
+      "parsed_lines": 294,
+      "invalid_lines": 0
+    },
+    {
+      "path": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260928-160723-422670\\trace\\26_09_28_16_07_27-min\\trace.segment.000034.jsonl",
+      "parsed_lines": 329,
+      "invalid_lines": 0
+    },
+    {
+      "path": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260928-160723-422670\\trace\\26_09_28_16_07_27-min\\trace.segment.000035.jsonl",
+      "parsed_lines": 47,
+      "invalid_lines": 0
+    },
+    {
+      "path": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260928-160723-422670\\trace\\26_09_28_16_07_27-min\\trace.segment.000036.jsonl",
+      "parsed_lines": 31,
+      "invalid_lines": 0
+    },
+    {
+      "path": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260928-160723-422670\\trace\\26_09_28_16_07_27-min\\trace.segment.000037.jsonl",
+      "parsed_lines": 214,
+      "invalid_lines": 0
+    },
+    {
+      "path": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260928-160723-422670\\trace\\26_09_28_16_07_27-min\\trace.segment.000038.jsonl",
+      "parsed_lines": 1,
+      "invalid_lines": 0
+    },
+    {
+      "path": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260928-160723-422670\\trace\\26_09_28_16_07_27-min\\trace.segment.000039.jsonl",
+      "parsed_lines": 5,
+      "invalid_lines": 0
+    },
+    {
+      "path": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260928-160723-422670\\trace\\26_09_28_16_07_27-min\\trace.segment.000040.jsonl",
+      "parsed_lines": 9,
+      "invalid_lines": 0
+    },
+    {
+      "path": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260928-160723-422670\\trace\\26_09_28_16_07_27-min\\trace.segment.000041.jsonl",
+      "parsed_lines": 340,
+      "invalid_lines": 0
+    },
+    {
+      "path": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260928-160723-422670\\trace\\26_09_28_16_07_27-min\\trace.segment.000042.jsonl",
+      "parsed_lines": 115,
+      "invalid_lines": 0
+    },
+    {
+      "path": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260928-160723-422670\\trace\\26_09_28_16_07_27-min\\trace.segment.000043.jsonl",
+      "parsed_lines": 675,
+      "invalid_lines": 0
+    },
+    {
+      "path": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260928-160723-422670\\trace\\26_09_28_16_07_27-min\\trace.segment.000044.jsonl",
+      "parsed_lines": 1386,
+      "invalid_lines": 0
+    },
+    {
+      "path": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260928-160723-422670\\trace\\26_09_28_16_07_27-min\\trace.segment.000045.jsonl",
+      "parsed_lines": 83,
+      "invalid_lines": 0
+    },
+    {
+      "path": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260928-160723-422670\\trace\\26_09_28_16_07_27-min\\trace.segment.000046.jsonl",
+      "parsed_lines": 21,
+      "invalid_lines": 0
+    },
+    {
+      "path": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260928-160723-422670\\trace\\26_09_28_16_07_27-min\\trace.segment.000047.jsonl",
+      "parsed_lines": 6,
+      "invalid_lines": 0
+    },
+    {
+      "path": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260928-160723-422670\\trace\\26_09_28_16_07_27-min\\trace.segment.000048.jsonl",
+      "parsed_lines": 1,
+      "invalid_lines": 0
+    },
+    {
+      "path": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260928-160723-422670\\trace\\26_09_28_16_07_27-min\\trace.segment.000049.jsonl",
+      "parsed_lines": 1,
+      "invalid_lines": 0
+    },
+    {
+      "path": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260928-160723-422670\\trace\\26_09_28_16_07_27-min\\trace.segment.000050.jsonl",
+      "parsed_lines": 1,
+      "invalid_lines": 0
+    },
+    {
+      "path": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260928-160723-422670\\trace\\26_09_28_16_07_27-min\\trace.segment.000051.jsonl",
+      "parsed_lines": 1,
+      "invalid_lines": 0
+    },
+    {
+      "path": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260928-160723-422670\\trace\\26_09_28_16_07_27-min\\trace.segment.000052.jsonl",
+      "parsed_lines": 5,
+      "invalid_lines": 0
+    },
+    {
+      "path": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260928-160723-422670\\trace\\26_09_28_16_07_27-min\\trace.segment.000053.jsonl",
+      "parsed_lines": 9,
+      "invalid_lines": 0
+    },
+    {
+      "path": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260928-160723-422670\\trace\\26_09_28_16_07_27-min\\trace.segment.000054.jsonl",
+      "parsed_lines": 1,
+      "invalid_lines": 0
+    },
+    {
+      "path": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260928-160723-422670\\trace\\26_09_28_16_07_27-min\\trace.segment.000055.jsonl",
+      "parsed_lines": 12,
+      "invalid_lines": 0
+    },
+    {
+      "path": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260928-160723-422670\\trace\\26_09_28_16_07_27-min\\trace.segment.000056.jsonl",
+      "parsed_lines": 5,
+      "invalid_lines": 0
+    },
+    {
+      "path": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260928-160723-422670\\trace\\26_09_28_16_07_27-min\\trace.segment.000057.jsonl",
+      "parsed_lines": 1,
+      "invalid_lines": 0
+    },
+    {
+      "path": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260928-160723-422670\\trace\\26_09_28_16_07_27-min\\trace.segment.000058.jsonl",
+      "parsed_lines": 1,
+      "invalid_lines": 0
+    },
+    {
+      "path": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260928-160723-422670\\trace\\26_09_28_16_07_27-min\\trace.segment.000059.jsonl",
+      "parsed_lines": 5,
+      "invalid_lines": 0
+    },
+    {
+      "path": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260928-160723-422670\\trace\\26_09_28_16_07_27-min\\trace.segment.000060.jsonl",
+      "parsed_lines": 1,
+      "invalid_lines": 0
+    },
+    {
+      "path": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260928-160723-422670\\trace\\26_09_28_16_07_27-min\\trace.segment.000061.jsonl",
+      "parsed_lines": 1,
+      "invalid_lines": 0
+    },
+    {
+      "path": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260928-160723-422670\\trace\\26_09_28_16_07_27-min\\trace.segment.000062.jsonl",
+      "parsed_lines": 5,
+      "invalid_lines": 0
+    }
+  ],
+  "trace_summaries": [
+    {
+      "path": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260928-160723-422670\\trace\\26_09_28_16_07_27-min\\trace.segments.summary.json",
+      "data": {
+        "totalSegments": 62,
+        "completedSegments": 62,
+        "failedSegments": 0,
+        "totalDurationMs": 897005,
+        "totalEventCount": 13411,
+        "avgSegmentDurationMs": 14467.822580645161,
+        "maxSegmentDurationMs": 15448,
+        "minSegmentDurationMs": 11302,
+        "avgEventCount": 216.30645161290323,
+        "maxEventCount": 1676,
+        "minEventCount": 1,
+        "maxSwitchGapMs": 2660,
+        "dataLossOccurred": true,
+        "startedAt": 1790582873599,
+        "stoppedAt": 1790583801508
+      }
+    }
+  ],
+  "limitations": [
+    "AX state hash includes data values; not independent business-state count",
+    "Snapshots are samples, not visit events; repeat visits unknown",
+    "Parseability does not prove temporal/network completeness"
+  ],
+  "native_result": {
+    "stop_reason": "agent_done",
+    "errors": [
+      "search_page: Invalid regex pattern: Invalid regular expression: /(?i)(stock|in stock|out of stock|availability|qty|quantity)/gi: Invalid group",
+      "LLM call timed out after 90 seconds. Keep your thinking and output short.",
+      "Model output was truncated at max_completion_tokens=4096; the structured output is incomplete. Increase max_completion_tokens or request shorter output.",
+      "1 validation error for AgentOutput\n  Invalid JSON: expected ident at line 1 column 2 [type=json_invalid, input_value='I\\'m currently on the Sh...n      }\\n    }\\n  ]\\n}', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid"
+    ],
+    "profile_ids": [
+      "2523ad4f-692b-4822-9526-5f854c408167"
+    ],
+    "steps": 25,
+    "tool_attempts": 21,
+    "pages_visited": 5,
+    "visited_urls": [
+      "http://127.0.0.1:7770/",
+      "http://127.0.0.1:7770/beauty-personal-care.html",
+      "http://127.0.0.1:7770/catalogsearch/advanced/",
+      "http://127.0.0.1:7770/checkout/cart/",
+      "http://127.0.0.1:7770/surethik-15g-hair-thickening-fiber-black-and-holding-spray-3oz-bundle.html"
+    ],
+    "elapsed_including_cleanup_s": 930.8129999999655,
+    "exploration_s": 927.4379999999655,
+    "capture_errors": 0,
+    "unattached_targets": [],
+    "trace_quality": [
+      {
+        "path": "trace\\26_09_28_16_07_27-min\\trace.segments.summary.json",
+        "totalSegments": 62,
+        "failedSegments": 0,
+        "maxSwitchGapMs": 2660,
+        "dataLossOccurred": true
+      }
+    ],
+    "evidence_needs_review": true,
+    "agent_claimed_success": true,
+    "finished_at": "2026-09-28T08:23:24.850669+00:00"
+  },
+  "tool_attempts_by_name": {
+    "write_file": 5,
+    "replace_file": 5,
+    "click": 3,
+    "scroll": 2,
+    "search_page": 3,
+    "evaluate": 1,
+    "read_file": 1,
+    "navigate": 1,
+    "done": 1
+  }
+}

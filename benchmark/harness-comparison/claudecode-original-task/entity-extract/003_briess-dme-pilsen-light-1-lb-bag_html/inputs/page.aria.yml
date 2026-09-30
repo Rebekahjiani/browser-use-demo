@@ -1,0 +1,216 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e5]:
+      - list [ref=e6]:
+        - listitem [ref=e7]:
+          - link "My Account" [ref=e8] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/customer/account/
+        - listitem [ref=e9]:
+          - link "My Wish List" [ref=e10] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/wishlist/
+        - listitem [ref=e11]:
+          - link "Sign In" [ref=e12] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/customer/account/login/
+        - listitem [ref=e13]:
+          - link "Compare Products 3 items" [ref=e14] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/catalog/product_compare/index/uenc/aHR0cDovLzEyNy4wLjAuMTo3NzcwL2N1c3RvbWVyL3NlY3Rpb24vbG9hZC8_c2VjdGlvbnM9Y29tcGFyZS1wcm9kdWN0cyUyQ21lc3NhZ2VzJmZvcmNlX25ld19zZWN0aW9uX3RpbWVzdGFtcD1mYWxzZSZfPTE3OTA1NjM0NzA5NzY~/
+        - listitem [ref=e15]: Welcome to One Stop Market
+        - listitem [ref=e16]:
+          - link "Create an Account" [ref=e17] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/customer/account/create/
+      - link "Skip to Content" [ref=e18] [cursor=pointer]:
+        - /url: "#contentarea"
+    - generic [ref=e19]:
+      - text: 
+      - link "store logo" [ref=e20] [cursor=pointer]:
+        - /url: http://127.0.0.1:7770/
+        - img "one_stop_market_logo" [ref=e21]
+      - generic [ref=e22]:
+        - link " My Cart 3 3 items" [ref=e23] [cursor=pointer]:
+          - /url: http://127.0.0.1:7770/checkout/cart/
+          - text: 
+          - generic [ref=e24]: My Cart
+          - generic [ref=e25]:
+            - generic [ref=e26]: "3"
+            - generic [ref=e27]: 3 items
+        - text: " : :   :   :  "
+      - generic [ref=e30]:
+        - generic [ref=e31]:
+          - generic [ref=e32]:
+            - text: 
+            - generic [ref=e33]: Search
+          - generic [ref=e34]:
+            - combobox " Search" [ref=e35]
+            - link "Advanced Search" [ref=e37] [cursor=pointer]:
+              - /url: http://127.0.0.1:7770/catalogsearch/advanced/
+        - generic:
+          - button "Search" [disabled]:
+            - text: 
+            - generic: Search
+  - tablist [ref=e39]:
+    - tabpanel [ref=e40]:
+      - navigation [ref=e41]:
+        - menu [ref=e42]:
+          - listitem [ref=e43]:
+            - menuitem " Beauty & Personal Care" [ref=e44] [cursor=pointer]:
+              - generic [ref=e45]: 
+              - text: Beauty & Personal Care
+            - text:          
+          - listitem [ref=e46]:
+            - menuitem " Sports & Outdoors" [ref=e47] [cursor=pointer]:
+              - generic [ref=e48]: 
+              - text: Sports & Outdoors
+            - text:   
+          - listitem [ref=e49]:
+            - menuitem " Clothing, Shoes & Jewelry" [ref=e50] [cursor=pointer]:
+              - generic [ref=e51]: 
+              - text: Clothing, Shoes & Jewelry
+            - text:    
+          - listitem [ref=e52]:
+            - menuitem " Home & Kitchen" [ref=e53] [cursor=pointer]:
+              - generic [ref=e54]: 
+              - text: Home & Kitchen
+            - text:       
+          - listitem [ref=e55]:
+            - menuitem " Office Products" [ref=e56] [cursor=pointer]:
+              - generic [ref=e57]: 
+              - text: Office Products
+            - text:   
+          - listitem [ref=e58]:
+            - menuitem " Tools & Home Improvement" [ref=e59] [cursor=pointer]:
+              - generic [ref=e60]: 
+              - text: Tools & Home Improvement
+            - text: 
+          - listitem [ref=e61]:
+            - menuitem " Health & Household" [ref=e62] [cursor=pointer]:
+              - generic [ref=e63]: 
+              - text: Health & Household
+            - text:  
+          - listitem [ref=e64]:
+            - menuitem " Patio, Lawn & Garden" [ref=e65] [cursor=pointer]:
+              - generic [ref=e66]: 
+              - text: Patio, Lawn & Garden
+            - text: 
+          - listitem [ref=e67]:
+            - menuitem " Electronics" [ref=e68] [cursor=pointer]:
+              - generic [ref=e69]: 
+              - text: Electronics
+            - text:            
+          - listitem [ref=e70]:
+            - menuitem " Cell Phones & Accessories" [ref=e71] [cursor=pointer]:
+              - generic [ref=e72]: 
+              - text: Cell Phones & Accessories
+            - text:  
+          - listitem [ref=e73]:
+            - menuitem " Video Games" [ref=e74] [cursor=pointer]:
+              - generic [ref=e75]: 
+              - text: Video Games
+            - text:    
+          - listitem [ref=e76]:
+            - menuitem " Grocery & Gourmet Food" [ref=e77] [cursor=pointer]:
+              - generic [ref=e78]: 
+              - text: Grocery & Gourmet Food
+            - text:             
+  - list [ref=e80]:
+    - listitem [ref=e81]:
+      - link "Home" [ref=e82] [cursor=pointer]:
+        - /url: http://127.0.0.1:7770/
+      - text: 
+    - listitem [ref=e83]:
+      - strong [ref=e84]: Briess DME - Pilsen Light - 1 lb Bag
+  - main [ref=e85]:
+    - heading "Briess DME - Pilsen Light - 1 lb Bag" [level=1] [ref=e87]
+    - generic [ref=e89]:
+      - generic [ref=e90]:
+        - generic [ref=e91]:
+          - generic [ref=e92]:
+            - generic "Availability" [ref=e93]: In stock
+            - generic [ref=e94]:
+              - strong [ref=e95]: SKU
+              - generic [ref=e96]: B074DBMG66
+          - link "Be the first to review this product" [ref=e99] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/briess-dme-pilsen-light-1-lb-bag.html#review-form
+          - generic [ref=e102]: $12.99
+        - generic [ref=e106]:
+          - generic [ref=e107]:
+            - generic [ref=e108]: Qty
+            - spinbutton "Qty" [ref=e110]: "1"
+          - button "Add to Cart" [ref=e112] [cursor=pointer]
+        - generic [ref=e114]:
+          - link "Add to Wish List" [ref=e115] [cursor=pointer]:
+            - /url: "#"
+          - link "Add to Compare" [ref=e116] [cursor=pointer]:
+            - /url: "#"
+      - generic [ref=e117]:
+        - link "Skip to the end of the images gallery" [ref=e118] [cursor=pointer]:
+          - /url: "#gallery-next-area"
+        - img "Image" [ref=e125]
+        - link "Skip to the beginning of the images gallery" [ref=e126] [cursor=pointer]:
+          - /url: "#gallery-prev-area"
+      - tablist [ref=e128]:
+        - tab "Details" [expanded] [ref=e129]:
+          - link "Details" [ref=e130] [cursor=pointer]:
+            - /url: "#description"
+        - tabpanel "Details" [ref=e131]:
+          - generic [ref=e134]:
+            - heading "Product Quick Look" [level=2] [ref=e135]
+            - generic [ref=e136]:
+              - list [ref=e138]:
+                - listitem [ref=e139]: 1 lb Pilsner dried malt extract. Made in United States. Manufactured by Homebrewers Outpost. Homebrewers Outpost brand products.
+                - listitem [ref=e140]: Dried malt extract
+                - listitem [ref=e141]: 1 lb bag
+                - listitem [ref=e142]: 1.043 sg ppg
+                - listitem [ref=e143]: Briess Malting
+                - listitem [ref=e144]: For Homebrewing
+              - table [ref=e146]:
+                - rowgroup [ref=e147]:
+                  - row "Package Dimensions 8.15 x 6.22 x 1.81 inches" [ref=e148]:
+                    - rowheader "Package Dimensions" [ref=e149]
+                    - cell "8.15 x 6.22 x 1.81 inches" [ref=e150]
+                  - row "Item Weight 1 pounds" [ref=e151]:
+                    - rowheader "Item Weight" [ref=e152]
+                    - cell "1 pounds" [ref=e153]
+                  - row "Manufacturer Homebrewers Outpost" [ref=e154]:
+                    - rowheader "Manufacturer" [ref=e155]
+                    - cell "Homebrewers Outpost" [ref=e156]
+                  - row "Item model number DME15X" [ref=e157]:
+                    - rowheader "Item model number" [ref=e158]
+                    - cell "DME15X" [ref=e159]
+                  - row "Date First Available July 29, 2017" [ref=e160]:
+                    - rowheader "Date First Available" [ref=e161]
+                    - cell "July 29, 2017" [ref=e162]
+        - tab "Reviews" [ref=e163]:
+          - link "Reviews" [ref=e164] [cursor=pointer]:
+            - /url: "#reviews"
+        - text: "*       * * *"
+  - contentinfo [ref=e165]:
+    - generic [ref=e166]:
+      - generic [ref=e169]:
+        - generic [ref=e171]:
+          - text: 
+          - generic [ref=e172]:
+            - generic [ref=e173]: "Sign Up for Our Newsletter:"
+            - textbox "Sign Up for Our Newsletter:" [ref=e174]:
+              - /placeholder: Enter your email address
+        - button "Subscribe" [ref=e176] [cursor=pointer]
+      - list [ref=e177]:
+        - listitem [ref=e178]:
+          - link "Privacy and Cookie Policy" [ref=e179] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/privacy-policy-cookie-restriction-mode/
+        - listitem [ref=e180]:
+          - link "Search Terms" [ref=e181] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/search/term/popular/
+        - listitem [ref=e182]:
+          - link "Advanced Search" [ref=e183] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/catalogsearch/advanced/
+        - listitem [ref=e184]:
+          - link "Orders and Returns" [ref=e185] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/sales/guest/form/
+        - listitem [ref=e186]:
+          - link "Contact Us" [ref=e187] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/contact/
+      - generic [ref=e188]: Copyright © 2013-present Magento, Inc. All rights reserved.
+      - generic [ref=e189]:
+        - text: Help Us Keep Magento Healthy
+        - link "Report All Bugs" [ref=e190] [cursor=pointer]:
+          - /url: http://www.magentocommerce.com/bug-tracking

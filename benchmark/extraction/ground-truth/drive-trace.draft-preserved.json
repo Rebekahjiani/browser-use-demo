@@ -1,0 +1,538 @@
+{
+  "meta": {
+    "id": "shopping-drive-trace-v1",
+    "trace": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min",
+    "annotation_scope": "Core catalog/search/cart concepts and fields actually supported by this trace. This is not a site-wide inventory.",
+    "annotation_basis": "Direct review of the frozen trace evidence package under benchmark/eval-v1/packages/drive; database mappings are context only and do not add facts.",
+    "cart_state": "The header shows a non-empty cart count (3/4 items across snapshots); this trace does not provide a full cart-page snapshot or cart-line evidence.",
+    "notes": [
+      "The price-range facet is normalized as a category attribute even if a candidate models it as a separate entity.",
+      "Out-of-scope concepts such as compare list, wishlist, reviews as a separate entity, newsletter, account, and contact form are not scored.",
+      "The answer was written after the candidate outputs existed; evidence was checked against raw trace packages. Treat this as a transparent, post-hoc trace-scoped annotation, not a blind annotation."
+    ]
+  },
+  "entities": [
+    {
+      "id": "product",
+      "name": "商品",
+      "aliases": [
+        "产品",
+        "Product"
+      ],
+      "evidence_refs": [
+        "benchmark/eval-v1/packages/drive/002/inputs/ui.json#heading product name",
+        "benchmark/eval-v1/packages/drive/003/inputs/ui.json#product detail"
+      ]
+    },
+    {
+      "id": "category",
+      "name": "商品分类",
+      "aliases": [
+        "分类",
+        "Category",
+        "价格区间",
+        "Price Range",
+        "价格筛选"
+      ],
+      "evidence_refs": [
+        "benchmark/eval-v1/packages/drive/001/inputs/ui.json#heading Category",
+        "benchmark/eval-v1/packages/drive/001/inputs/ui.json#heading Price"
+      ]
+    },
+    {
+      "id": "cart",
+      "name": "购物车",
+      "aliases": [
+        "Cart",
+        "My Cart",
+        "Shopping Cart"
+      ],
+      "evidence_refs": [
+        "benchmark/eval-v1/packages/drive/000/inputs/ui.json#link My Cart 3 items",
+        "benchmark/eval-v1/packages/drive/004/inputs/ui.json#link My Cart 4 items"
+      ]
+    }
+  ],
+  "attributes": [
+    {
+      "entity": "product",
+      "id": "name",
+      "aliases": [
+        "商品名称",
+        "product name",
+        "title"
+      ],
+      "evidence_refs": [
+        "benchmark/eval-v1/packages/drive/002/inputs/ui.json#heading product title"
+      ]
+    },
+    {
+      "entity": "product",
+      "id": "sku",
+      "aliases": [
+        "SKU",
+        "商品编号"
+      ],
+      "evidence_refs": [
+        "benchmark/eval-v1/packages/drive/002/inputs/ui.json#strong SKU"
+      ]
+    },
+    {
+      "entity": "product",
+      "id": "asin",
+      "aliases": [
+        "ASIN"
+      ],
+      "evidence_refs": [
+        "benchmark/eval-v1/packages/drive/002/inputs/ui.json#row ASIN"
+      ]
+    },
+    {
+      "entity": "product",
+      "id": "price",
+      "aliases": [
+        "价格",
+        "Product Price"
+      ],
+      "evidence_refs": [
+        "benchmark/eval-v1/packages/drive/002/inputs/ui.json#product price"
+      ]
+    },
+    {
+      "entity": "product",
+      "id": "rating",
+      "aliases": [
+        "Rating",
+        "评分"
+      ],
+      "evidence_refs": [
+        "benchmark/eval-v1/packages/drive/002/inputs/ui.json#generic Rating"
+      ]
+    },
+    {
+      "entity": "product",
+      "id": "review_count",
+      "aliases": [
+        "reviews",
+        "review count",
+        "评论数",
+        "评论数量"
+      ],
+      "evidence_refs": [
+        "benchmark/eval-v1/packages/drive/002/inputs/ui.json#link Reviews"
+      ]
+    },
+    {
+      "entity": "product",
+      "id": "availability",
+      "aliases": [
+        "stock status",
+        "库存状态",
+        "In stock"
+      ],
+      "evidence_refs": [
+        "benchmark/eval-v1/packages/drive/002/inputs/ui.json#generic Availability"
+      ]
+    },
+    {
+      "entity": "product",
+      "id": "image",
+      "aliases": [
+        "商品图片",
+        "product image"
+      ],
+      "evidence_refs": [
+        "benchmark/eval-v1/packages/drive/002/inputs/ui.json#img Image"
+      ]
+    },
+    {
+      "entity": "product",
+      "id": "size",
+      "aliases": [
+        "Size",
+        "规格"
+      ],
+      "evidence_refs": [
+        "benchmark/eval-v1/packages/drive/002/inputs/ui.json#generic Size"
+      ]
+    },
+    {
+      "entity": "product",
+      "id": "quantity",
+      "aliases": [
+        "qty",
+        "数量",
+        "购买数量"
+      ],
+      "evidence_refs": [
+        "benchmark/eval-v1/packages/drive/002/inputs/ui.json#spinbutton Qty"
+      ]
+    },
+    {
+      "entity": "product",
+      "id": "description",
+      "aliases": [
+        "Product Description",
+        "商品描述"
+      ],
+      "evidence_refs": [
+        "benchmark/eval-v1/packages/drive/002/inputs/ui.json#heading Product Description"
+      ]
+    },
+    {
+      "entity": "product",
+      "id": "dimensions",
+      "aliases": [
+        "product dimensions",
+        "商品尺寸"
+      ],
+      "evidence_refs": [
+        "benchmark/eval-v1/packages/drive/002/inputs/ui.json#row Product Dimensions"
+      ]
+    },
+    {
+      "entity": "product",
+      "id": "upc",
+      "aliases": [
+        "UPC"
+      ],
+      "evidence_refs": [
+        "benchmark/eval-v1/packages/drive/002/inputs/ui.json#row UPC"
+      ]
+    },
+    {
+      "entity": "product",
+      "id": "manufacturer",
+      "aliases": [
+        "Manufacturer",
+        "制造商"
+      ],
+      "evidence_refs": [
+        "benchmark/eval-v1/packages/drive/002/inputs/ui.json#row Manufacturer"
+      ]
+    },
+    {
+      "entity": "product",
+      "id": "country_of_origin",
+      "aliases": [
+        "Country of Origin",
+        "产地"
+      ],
+      "evidence_refs": [
+        "benchmark/eval-v1/packages/drive/002/inputs/ui.json#row Country of Origin"
+      ]
+    },
+    {
+      "entity": "product",
+      "id": "package_dimensions",
+      "aliases": [
+        "Package Dimensions"
+      ],
+      "evidence_refs": [
+        "benchmark/eval-v1/packages/drive/*/inputs/ui.json#Package Dimensions"
+      ]
+    },
+    {
+      "entity": "product",
+      "id": "item_weight",
+      "aliases": [
+        "Item Weight"
+      ],
+      "evidence_refs": [
+        "benchmark/eval-v1/packages/drive/*/inputs/ui.json#Item Weight"
+      ]
+    },
+    {
+      "entity": "product",
+      "id": "model_number",
+      "aliases": [
+        "Item model number",
+        "Model Number"
+      ],
+      "evidence_refs": [
+        "benchmark/eval-v1/packages/drive/*/inputs/ui.json#Item model number"
+      ]
+    },
+    {
+      "entity": "product",
+      "id": "date_first_available",
+      "aliases": [
+        "Date First Available"
+      ],
+      "evidence_refs": [
+        "benchmark/eval-v1/packages/drive/*/inputs/ui.json#Date First Available"
+      ]
+    },
+    {
+      "entity": "product",
+      "id": "color",
+      "aliases": [
+        "Color"
+      ],
+      "evidence_refs": [
+        "benchmark/eval-v1/packages/drive/*/inputs/ui.json#radio Color"
+      ]
+    },
+    {
+      "entity": "product",
+      "id": "style",
+      "aliases": [
+        "Style"
+      ],
+      "evidence_refs": [
+        "benchmark/eval-v1/packages/drive/*/inputs/ui.json#radio Style"
+      ]
+    },
+    {
+      "entity": "product",
+      "id": "batteries",
+      "aliases": [
+        "Batteries"
+      ],
+      "evidence_refs": [
+        "benchmark/eval-v1/packages/drive/*/inputs/ui.json#rowheader Batteries"
+      ]
+    },
+    {
+      "entity": "product",
+      "id": "discontinued_status",
+      "aliases": [
+        "Is Discontinued By Manufacturer"
+      ],
+      "evidence_refs": [
+        "benchmark/eval-v1/packages/drive/*/inputs/ui.json#rowheader Is Discontinued By Manufacturer"
+      ]
+    },
+    {
+      "entity": "product",
+      "id": "domestic_shipping",
+      "aliases": [
+        "Domestic Shipping"
+      ],
+      "evidence_refs": [
+        "benchmark/eval-v1/packages/drive/*/inputs/ui.json#rowheader Domestic Shipping"
+      ]
+    },
+    {
+      "entity": "product",
+      "id": "international_shipping",
+      "aliases": [
+        "International Shipping"
+      ],
+      "evidence_refs": [
+        "benchmark/eval-v1/packages/drive/*/inputs/ui.json#rowheader International Shipping"
+      ]
+    },
+    {
+      "entity": "product",
+      "id": "department",
+      "aliases": [
+        "Department"
+      ],
+      "evidence_refs": [
+        "benchmark/eval-v1/packages/drive/*/inputs/ui.json#rowheader Department"
+      ]
+    },
+    {
+      "entity": "category",
+      "id": "name",
+      "aliases": [
+        "分类名称",
+        "Category Name"
+      ],
+      "evidence_refs": [
+        "benchmark/eval-v1/packages/drive/001/inputs/ui.json#heading Beauty & Personal Care"
+      ]
+    },
+    {
+      "entity": "category",
+      "id": "item_count",
+      "aliases": [
+        "itemCount",
+        "items",
+        "product count",
+        "商品计数"
+      ],
+      "evidence_refs": [
+        "benchmark/eval-v1/packages/drive/001/inputs/ui.json#Items 1-12 of 21796"
+      ]
+    },
+    {
+      "entity": "category",
+      "id": "subcategories",
+      "aliases": [
+        "subcategory",
+        "subcategories",
+        "子分类",
+        "子类别"
+      ],
+      "evidence_refs": [
+        "benchmark/eval-v1/packages/drive/001/inputs/ui.json#Category facet links"
+      ]
+    },
+    {
+      "entity": "category",
+      "id": "price_range",
+      "aliases": [
+        "range",
+        "Price Range",
+        "Price facet",
+        "价格区间",
+        "Price"
+      ],
+      "evidence_refs": [
+        "benchmark/eval-v1/packages/drive/001/inputs/ui.json#Price facet links"
+      ]
+    },
+    {
+      "entity": "cart",
+      "id": "item_count",
+      "aliases": [
+        "itemCount",
+        "items",
+        "数量",
+        "购物车商品数量"
+      ],
+      "evidence_refs": [
+        "benchmark/eval-v1/packages/drive/000/inputs/ui.json#My Cart 3 items",
+        "benchmark/eval-v1/packages/drive/004/inputs/ui.json#My Cart 4 items"
+      ]
+    }
+  ],
+  "operations": [
+    {
+      "id": "product_navigation",
+      "name": "商品浏览/查看",
+      "aliases": [
+        "产品-查询",
+        "商品-查看",
+        "商品-查询/浏览列表",
+        "查看商品",
+        "浏览商品",
+        "查询商品"
+      ],
+      "entity": "product",
+      "visibility": "observed_navigation",
+      "executed": true,
+      "evidence_refs": [
+        "benchmark/eval-v1/packages/drive/000/inputs/ui.json#product cards",
+        "benchmark/eval-v1/packages/drive/002/inputs/page.json#product detail URL"
+      ]
+    },
+    {
+      "id": "search",
+      "name": "商品搜索",
+      "aliases": [
+        "高级搜索-提交",
+        "商品-搜索",
+        "搜索商品",
+        "Search"
+      ],
+      "entity": "product",
+      "visibility": "visible_control",
+      "executed": false,
+      "evidence_refs": [
+        "benchmark/eval-v1/packages/drive/004/inputs/ui.json#button Search",
+        "benchmark/eval-v1/packages/drive/004/inputs/ui.json#textbox Product Name SKU Price"
+      ]
+    },
+    {
+      "id": "filter",
+      "name": "商品筛选",
+      "aliases": [
+        "商品-筛选",
+        "产品-筛选",
+        "筛选商品",
+        "filter products"
+      ],
+      "entity": "product",
+      "visibility": "visible_control",
+      "executed": false,
+      "evidence_refs": [
+        "benchmark/eval-v1/packages/drive/001/inputs/ui.json#Category and Price facets"
+      ]
+    },
+    {
+      "id": "sort",
+      "name": "商品排序",
+      "aliases": [
+        "商品-排序",
+        "产品-排序",
+        "排序商品",
+        "sort products"
+      ],
+      "entity": "product",
+      "visibility": "visible_control",
+      "executed": false,
+      "evidence_refs": [
+        "benchmark/eval-v1/packages/drive/001/inputs/ui.json#Sort By"
+      ]
+    },
+    {
+      "id": "paginate",
+      "name": "商品分页浏览",
+      "aliases": [
+        "商品-分页浏览",
+        "产品-分页",
+        "分页浏览",
+        "next page"
+      ],
+      "entity": "product",
+      "visibility": "visible_control",
+      "executed": false,
+      "evidence_refs": [
+        "benchmark/eval-v1/packages/drive/001/inputs/ui.json#Page Next"
+      ]
+    },
+    {
+      "id": "add_to_cart",
+      "name": "商品加入购物车",
+      "aliases": [
+        "产品-加入购物车",
+        "商品-加入购物车",
+        "add to cart"
+      ],
+      "entity": "product",
+      "visibility": "visible_control",
+      "executed": false,
+      "evidence_refs": [
+        "benchmark/eval-v1/packages/drive/002/inputs/ui.json#button Add to Cart"
+      ]
+    },
+    {
+      "id": "cart_view",
+      "name": "购物车查看",
+      "aliases": [
+        "购物车-查询",
+        "购物车-查看",
+        "查看购物车",
+        "My Cart"
+      ],
+      "entity": "cart",
+      "visibility": "visible_control",
+      "executed": false,
+      "evidence_refs": [
+        "benchmark/eval-v1/packages/drive/000/inputs/ui.json#link My Cart"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "category_lists_product",
+      "source": "category",
+      "predicate": "lists",
+      "predicate_aliases": [
+        "contains",
+        "lists",
+        "has_product",
+        "商品列表包含",
+        "包含商品",
+        "分类包含商品"
+      ],
+      "target": "product",
+      "evidence_refs": [
+        "benchmark/eval-v1/packages/drive/001/inputs/ui.json#category heading and product cards"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,281 @@
+[
+  {
+    "id": "home",
+    "url": "http://127.0.0.1:7770/",
+    "title": "One Stop Market",
+    "captured_at": "2026-09-29T06:53:29.259Z",
+    "reason": "site entry",
+    "independent_verification": true,
+    "session": "fresh guest; no existing user cookies"
+  },
+  {
+    "id": "advanced",
+    "url": "http://127.0.0.1:7770/catalogsearch/advanced/",
+    "title": "Advanced Search",
+    "captured_at": "2026-09-29T06:53:30.771Z",
+    "reason": "known public search form",
+    "independent_verification": true,
+    "session": "fresh guest; no existing user cookies"
+  },
+  {
+    "id": "cart-empty",
+    "url": "http://127.0.0.1:7770/checkout/cart/",
+    "title": "Shopping Cart",
+    "captured_at": "2026-09-29T06:53:32.780Z",
+    "reason": "fresh guest empty cart",
+    "independent_verification": true,
+    "session": "fresh guest; no existing user cookies"
+  },
+  {
+    "id": "category-0",
+    "url": "http://127.0.0.1:7770/beauty-personal-care.html",
+    "title": "Beauty & Personal Care",
+    "captured_at": "2026-09-29T06:53:34.971Z",
+    "reason": "top navigation category Beauty & Personal Care",
+    "independent_verification": true,
+    "session": "fresh guest; no existing user cookies"
+  },
+  {
+    "id": "product-0",
+    "url": "http://127.0.0.1:7770/tweezers-for-succulents-duo.html",
+    "title": "Tweezers For Succulents Duo",
+    "captured_at": "2026-09-29T06:53:37.391Z",
+    "reason": "first product in independently visited category Beauty & Personal Care",
+    "independent_verification": true,
+    "session": "fresh guest; no existing user cookies"
+  },
+  {
+    "id": "category-page2",
+    "url": "http://127.0.0.1:7770/beauty-personal-care.html?p=2",
+    "title": "Beauty & Personal Care",
+    "captured_at": "2026-09-29T06:53:39.463Z",
+    "reason": "pagination GET",
+    "independent_verification": true,
+    "session": "fresh guest; no existing user cookies"
+  },
+  {
+    "id": "category-sort",
+    "url": "http://127.0.0.1:7770/beauty-personal-care.html?product_list_order=price",
+    "title": "Beauty & Personal Care",
+    "captured_at": "2026-09-29T06:53:42.075Z",
+    "reason": "sort GET",
+    "independent_verification": true,
+    "session": "fresh guest; no existing user cookies"
+  },
+  {
+    "id": "category-1",
+    "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care.html",
+    "title": "Oral Care - Beauty & Personal Care",
+    "captured_at": "2026-09-29T06:53:44.220Z",
+    "reason": "top navigation category Oral Care",
+    "independent_verification": true,
+    "session": "fresh guest; no existing user cookies"
+  },
+  {
+    "id": "product-1",
+    "url": "http://127.0.0.1:7770/soft-clean-between-interdental-floss-brushes-random-color-oral-care-tool-20-pcs-2-pack-elastic-massage-gums-toothpick-2-box.html",
+    "title": "Soft Clean Between Interdental Floss Brushes Random Color Oral Care Tool 20 PCS/ 2 Pack Elastic Massage Gums Toothpick (2 box)",
+    "captured_at": "2026-09-29T06:53:46.295Z",
+    "reason": "first product in independently visited category Oral Care",
+    "independent_verification": true,
+    "session": "fresh guest; no existing user cookies"
+  },
+  {
+    "id": "category-2",
+    "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/toothbrushes-accessories.html",
+    "title": "Toothbrushes & Accessories - Oral Care - Beauty & Personal Care",
+    "captured_at": "2026-09-29T06:53:48.523Z",
+    "reason": "top navigation category Toothbrushes & Accessories",
+    "independent_verification": true,
+    "session": "fresh guest; no existing user cookies"
+  },
+  {
+    "id": "product-2",
+    "url": "http://127.0.0.1:7770/electric-toothbrush-travel-case-fit-for-oral-b-pro-1000-2000-3000-3500-1500-7000-philips-sonicare-5100-6100-carrying-case-holder-container-for-electric-toothbrush-travel-accessories-silver.html",
+    "title": "Electric Toothbrush Travel Case Fit for Oral-b Pro 1000, 2000, 3000, 3500, 1500,7000/ Philips Sonicare 5100 6100, Carrying Case Holder Container for Electric Toothbrush, Travel Accessories–Silver",
+    "captured_at": "2026-09-29T06:53:50.859Z",
+    "reason": "first product in independently visited category Toothbrushes & Accessories",
+    "independent_verification": true,
+    "session": "fresh guest; no existing user cookies"
+  },
+  {
+    "id": "category-3",
+    "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/dental-floss-picks.html",
+    "title": "Dental Floss & Picks - Oral Care - Beauty & Personal Care",
+    "captured_at": "2026-09-29T06:53:53.056Z",
+    "reason": "top navigation category Dental Floss & Picks",
+    "independent_verification": true,
+    "session": "fresh guest; no existing user cookies"
+  },
+  {
+    "id": "product-3",
+    "url": "http://127.0.0.1:7770/soft-clean-between-interdental-floss-brushes-random-color-oral-care-tool-20-pcs-2-pack-elastic-massage-gums-toothpick-2-box.html",
+    "title": "Soft Clean Between Interdental Floss Brushes Random Color Oral Care Tool 20 PCS/ 2 Pack Elastic Massage Gums Toothpick (2 box)",
+    "captured_at": "2026-09-29T06:53:54.620Z",
+    "reason": "first product in independently visited category Dental Floss & Picks",
+    "independent_verification": true,
+    "session": "fresh guest; no existing user cookies"
+  },
+  {
+    "id": "category-4",
+    "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/orthodontic-supplies.html",
+    "title": "Orthodontic Supplies - Oral Care - Beauty & Personal Care",
+    "captured_at": "2026-09-29T06:53:56.807Z",
+    "reason": "top navigation category Orthodontic Supplies",
+    "independent_verification": true,
+    "session": "fresh guest; no existing user cookies"
+  },
+  {
+    "id": "product-4",
+    "url": "http://127.0.0.1:7770/elastic-ligature-threader-orthodontic-elastic-instruments-ortho-twirl-on-new-by-g-s-online-store.html",
+    "title": "Elastic Ligature Threader Orthodontic Elastic Instruments Ortho Twirl ON New by G.S Online Store",
+    "captured_at": "2026-09-29T06:53:58.835Z",
+    "reason": "first product in independently visited category Orthodontic Supplies",
+    "independent_verification": true,
+    "session": "fresh guest; no existing user cookies"
+  },
+  {
+    "id": "category-5",
+    "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/children-s-dental-care.html",
+    "title": "Children's Dental Care - Oral Care - Beauty & Personal Care",
+    "captured_at": "2026-09-29T06:54:00.949Z",
+    "reason": "top navigation category Children's Dental Care",
+    "independent_verification": true,
+    "session": "fresh guest; no existing user cookies"
+  },
+  {
+    "id": "product-5",
+    "url": "http://127.0.0.1:7770/the-super-dentists-electric-toothbrush-electric-toothbrush-with-rotating-head-for-children-tweens-teens-dr-haveonesupersmile.html",
+    "title": "The Super Dentists Electric Toothbrush, Electric Toothbrush with Rotating Head for Children, Tweens, & Teens (Dr. HaveOneSuperSmile)",
+    "captured_at": "2026-09-29T06:54:02.968Z",
+    "reason": "first product in independently visited category Children's Dental Care",
+    "independent_verification": true,
+    "session": "fresh guest; no existing user cookies"
+  },
+  {
+    "id": "category-6",
+    "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/oral-pain-relief.html",
+    "title": "Oral Pain Relief - Oral Care - Beauty & Personal Care",
+    "captured_at": "2026-09-29T06:54:05.346Z",
+    "reason": "top navigation category Oral Pain Relief",
+    "independent_verification": true,
+    "session": "fresh guest; no existing user cookies"
+  },
+  {
+    "id": "product-6",
+    "url": "http://127.0.0.1:7770/mouth-guard-moldable-nightguard-for-grinding-teeth-at-night-whitening-tray-4-pack-upgraded-night-guards-to-keep-calm-professional-comfortable-mouthguards-for-sleep-2-sizes.html",
+    "title": "Mouth Guard Moldable Nightguard for Grinding Teeth at Night, Whitening Tray, 4 Pack Upgraded Night Guards to Keep Calm, Professional Comfortable Mouthguards for Sleep, 2 Sizes",
+    "captured_at": "2026-09-29T06:54:07.538Z",
+    "reason": "first product in independently visited category Oral Pain Relief",
+    "independent_verification": true,
+    "session": "fresh guest; no existing user cookies"
+  },
+  {
+    "id": "category-7",
+    "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/toothpaste.html",
+    "title": "Toothpaste - Oral Care - Beauty & Personal Care",
+    "captured_at": "2026-09-29T06:54:09.652Z",
+    "reason": "top navigation category Toothpaste",
+    "independent_verification": true,
+    "session": "fresh guest; no existing user cookies"
+  },
+  {
+    "id": "product-7",
+    "url": "http://127.0.0.1:7770/rembrandt-intense-stain-whitening-toothpaste-with-fluoride3-oz-3-packs.html",
+    "title": "Rembrandt Intense Stain Whitening Toothpaste With Fluoride3 oz(3 Packs)",
+    "captured_at": "2026-09-29T06:54:11.668Z",
+    "reason": "first product in independently visited category Toothpaste",
+    "independent_verification": true,
+    "session": "fresh guest; no existing user cookies"
+  },
+  {
+    "id": "category-8",
+    "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/teeth-whitening.html",
+    "title": "Teeth Whitening - Oral Care - Beauty & Personal Care",
+    "captured_at": "2026-09-29T06:54:13.821Z",
+    "reason": "top navigation category Teeth Whitening",
+    "independent_verification": true,
+    "session": "fresh guest; no existing user cookies"
+  },
+  {
+    "id": "product-8",
+    "url": "http://127.0.0.1:7770/ixaer-dental-teeth-whitening-lamp-2-colors-mobile-blue-red-led-teeth-whitener-machine-36w-10-led-bleaching-cold-light-lamp-accelerator-light-oral-care-floor-standing.html",
+    "title": "ixaer Dental Teeth Whitening Lamp 2 Colors Mobile Blue Red LED Teeth Whitener Machine 36W 10 LED Bleaching Cold Light Lamp Accelerator Light Oral Care Floor Standing",
+    "captured_at": "2026-09-29T06:54:16.174Z",
+    "reason": "first product in independently visited category Teeth Whitening",
+    "independent_verification": true,
+    "session": "fresh guest; no existing user cookies"
+  },
+  {
+    "id": "category-9",
+    "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/breath-fresheners.html",
+    "title": "Breath Fresheners - Oral Care - Beauty & Personal Care",
+    "captured_at": "2026-09-29T06:54:18.373Z",
+    "reason": "top navigation category Breath Fresheners",
+    "independent_verification": true,
+    "session": "fresh guest; no existing user cookies"
+  },
+  {
+    "id": "product-9",
+    "url": "http://127.0.0.1:7770/disposable-colorful-m-a-s-k-for-boys-and-girls-soft-on-skin-children-s-size-kids-disposable-t40-50-pcs.html",
+    "title": "Disposable Colorful M.a.s-k for Boys and Girls-Soft on Skin, Children's Size Kids Disposable T40-50 PCS",
+    "captured_at": "2026-09-29T06:54:20.635Z",
+    "reason": "first product in independently visited category Breath Fresheners",
+    "independent_verification": true,
+    "session": "fresh guest; no existing user cookies"
+  },
+  {
+    "id": "category-10",
+    "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/denture-care.html",
+    "title": "Denture Care - Oral Care - Beauty & Personal Care",
+    "captured_at": "2026-09-29T06:54:22.778Z",
+    "reason": "top navigation category Denture Care",
+    "independent_verification": true,
+    "session": "fresh guest; no existing user cookies"
+  },
+  {
+    "id": "product-10",
+    "url": "http://127.0.0.1:7770/2-boxes-of-iodent-overnight-whitening-denture-cleanser-tablets-20-per-box-40-tablets-total.html",
+    "title": "2 - Boxes of Iodent Overnight Whitening Denture Cleanser Tablets 20 per box (40 tablets total)",
+    "captured_at": "2026-09-29T06:54:24.808Z",
+    "reason": "first product in independently visited category Denture Care",
+    "independent_verification": true,
+    "session": "fresh guest; no existing user cookies"
+  },
+  {
+    "id": "category-11",
+    "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/tongue-cleaners.html",
+    "title": "Tongue Cleaners - Oral Care - Beauty & Personal Care",
+    "captured_at": "2026-09-29T06:54:26.938Z",
+    "reason": "top navigation category Tongue Cleaners",
+    "independent_verification": true,
+    "session": "fresh guest; no existing user cookies"
+  },
+  {
+    "id": "product-11",
+    "url": "http://127.0.0.1:7770/healifty-2-sets-of-professional-tongue-cleaners-tongue-cleaning-tools-for-home.html",
+    "title": "Healifty 2 Sets of Professional Tongue Cleaners Tongue Cleaning Tools for Home",
+    "captured_at": "2026-09-29T06:54:29.051Z",
+    "reason": "first product in independently visited category Tongue Cleaners",
+    "independent_verification": true,
+    "session": "fresh guest; no existing user cookies"
+  },
+  {
+    "id": "search-results",
+    "url": "http://127.0.0.1:7770/catalogsearch/result/?q=bread",
+    "title": "Search results for: 'bread'",
+    "captured_at": "2026-09-29T06:54:32.732Z",
+    "reason": "read-only search query",
+    "independent_verification": true,
+    "session": "fresh guest; no existing user cookies"
+  },
+  {
+    "id": "search-empty",
+    "url": "http://127.0.0.1:7770/catalogsearch/result/?q=zzbenchmarknomatch20260929",
+    "title": "Search results for: 'zzbenchmarknomatch20260929'",
+    "captured_at": "2026-09-29T06:54:35.122Z",
+    "reason": "read-only no-match search query",
+    "independent_verification": true,
+    "session": "fresh guest; no existing user cookies"
+  }
+]

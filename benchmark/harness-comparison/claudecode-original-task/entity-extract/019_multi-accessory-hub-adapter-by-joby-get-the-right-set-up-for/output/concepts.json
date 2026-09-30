@@ -1,0 +1,121 @@
+{
+  "concepts": [
+    {
+      "canonical_name": "商品",
+      "concept_type": "business_entity",
+      "description": "Multi Accessory Hub Adapter By JOBY 商品详情页展示的商品，含 SKU、库存状态、评分、评论数、价格、数量及 Product Quick Look 信息。",
+      "aliases": [
+        "Product",
+        "product"
+      ],
+      "attributes": [
+        {
+          "name": "名称",
+          "note": "页面标题（heading）/商品名",
+          "source_refs": [
+            "page.aria.yml:heading:Multi Accessory Hub Adapter By JOBY"
+          ]
+        },
+        {
+          "name": "SKU",
+          "note": "SKU 标签（strong）",
+          "source_refs": [
+            "page.aria.yml:strong:SKU"
+          ]
+        },
+        {
+          "name": "Availability",
+          "note": "库存状态（Availability 标签）",
+          "source_refs": [
+            "page.aria.yml:generic:Availability"
+          ]
+        },
+        {
+          "name": "评分",
+          "note": "Rating: 标签",
+          "source_refs": [
+            "page.aria.yml:generic:Rating:"
+          ]
+        },
+        {
+          "name": "评论数",
+          "note": "12 Reviews 链接",
+          "source_refs": [
+            "page.aria.yml:link:12 Reviews"
+          ]
+        },
+        {
+          "name": "Price",
+          "note": "商品价格文本",
+          "source_refs": [
+            "page.aria.yml:generic:Price"
+          ]
+        },
+        {
+          "name": "Qty",
+          "note": "数量输入（spinbutton）",
+          "source_refs": [
+            "page.aria.yml:spinbutton:Qty"
+          ]
+        },
+        {
+          "name": "Product Dimensions",
+          "note": "Quick Look 表格行头",
+          "source_refs": [
+            "page.aria.yml:rowheader:Product Dimensions"
+          ]
+        },
+        {
+          "name": "Item Weight",
+          "note": "Quick Look 表格行头",
+          "source_refs": [
+            "page.aria.yml:rowheader:Item Weight"
+          ]
+        },
+        {
+          "name": "Item model number",
+          "note": "Quick Look 表格行头",
+          "source_refs": [
+            "page.aria.yml:rowheader:Item model number"
+          ]
+        },
+        {
+          "name": "Is Discontinued By Manufacturer",
+          "note": "Quick Look 表格行头",
+          "source_refs": [
+            "page.aria.yml:rowheader:Is Discontinued By Manufacturer"
+          ]
+        },
+        {
+          "name": "Date First Available",
+          "note": "Quick Look 表格行头",
+          "source_refs": [
+            "page.aria.yml:rowheader:Date First Available"
+          ]
+        },
+        {
+          "name": "Manufacturer",
+          "note": "Quick Look 表格行头",
+          "source_refs": [
+            "page.aria.yml:rowheader:Manufacturer"
+          ]
+        },
+        {
+          "name": "Country of Origin",
+          "note": "Quick Look 表格行头",
+          "source_refs": [
+            "page.aria.yml:rowheader:Country of Origin"
+          ]
+        }
+      ],
+      "evidence_refs": [],
+      "api_refs": [],
+      "page_refs": [
+        "019_multi-accessory-hub-adapter-by-joby-get-the-right-set-up-for"
+      ]
+    }
+  ],
+  "notes": [
+    "本页仅捕获到 /beauty-personal-care.html（E021，会话导航内容，非本页商品数据）与静态模板端点；商品实体纯树锚点，api_refs 留空（宁缺勿错）。"
+  ]
+}

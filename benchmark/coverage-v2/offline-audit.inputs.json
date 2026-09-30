@@ -1,0 +1,846 @@
+{
+  "created_at": "2026-09-29T06:49:43.639282+00:00",
+  "status": "audit_input_manifest_not_G_freeze",
+  "files": [
+    {
+      "file": "C:\\Users\\bulin\\.crabvisor_data\\sandboxes\\sb_d5c9d813\\workspace\\appweave\\eval\\ground-truth\\shopping.expected-cm.json",
+      "sha256": "3daa2e5d53f1debc412a9cca437bc0b48bfe4c995dad6aad9295dda5cda7228a",
+      "bytes": 154315,
+      "matched_previous_freeze": true
+    },
+    {
+      "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\26_09_28_10_50_16-trail.json",
+      "sha256": "669ca5dacdb29ed77474cb25aa682749832d7d896b4209fa3e9dcd6c1ae44826",
+      "bytes": 2165745,
+      "matched_previous_freeze": true
+    },
+    {
+      "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\000_root\\accessibility.json",
+      "sha256": "18e15edf31527c717602447b440dc4c077551e51332e45d1caad36571fd59903",
+      "bytes": 277299,
+      "matched_previous_freeze": true
+    },
+    {
+      "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\000_root\\page.html",
+      "sha256": "f8326852611fd4910dccca619fbb3ef00265e1eddb80a00be467c78b8bcd2e2e",
+      "bytes": 191250,
+      "matched_previous_freeze": true
+    },
+    {
+      "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\001_belle-of-the-ball-princess-sprinkle-mix-wedding-colorful-spr\\accessibility.json",
+      "sha256": "e3c4979c31654b4200fb41f13aec657d0ad23292d2cd2bd497078429bba43450",
+      "bytes": 267359,
+      "matched_previous_freeze": true
+    },
+    {
+      "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\001_belle-of-the-ball-princess-sprinkle-mix-wedding-colorful-spr\\page.html",
+      "sha256": "e2d66c1e9660d5b42375ac2a7dcd2ad39f9fd0d6bbe03360d6eb686fbd258208",
+      "bytes": 241524,
+      "matched_previous_freeze": true
+    },
+    {
+      "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\002_cell-phones-accessories_html\\accessibility.json",
+      "sha256": "4d161658fa22ecdf3365145ba4ed5efe15267bada609e75977a62f8033f42775",
+      "bytes": 409554,
+      "matched_previous_freeze": true
+    },
+    {
+      "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\002_cell-phones-accessories_html\\page.html",
+      "sha256": "90c4d8282e1d00ec95244d46291eff226045edaf86f25c6b24ce5855179089cd",
+      "bytes": 262922,
+      "matched_previous_freeze": true
+    },
+    {
+      "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\003_cell-phones-accessories_html\\accessibility.json",
+      "sha256": "f388ece003ce0afb98a76c6a75b1df09d01f1f278ee5de9b5b83cb8d3ca4eb69",
+      "bytes": 407993,
+      "matched_previous_freeze": true
+    },
+    {
+      "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\003_cell-phones-accessories_html\\page.html",
+      "sha256": "585efc7c305610d892ba43835902c2ae35636adb398b72b77aef8b3169597244",
+      "bytes": 262429,
+      "matched_previous_freeze": true
+    },
+    {
+      "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\004_cooloo-cell-phone-stand-2-pack-mobile-phone-anti-skid-holder\\accessibility.json",
+      "sha256": "9e6d6e927797a8520cbdbcd643f8489d5fbc8e175097ff450030a77cd8695103",
+      "bytes": 212877,
+      "matched_previous_freeze": true
+    },
+    {
+      "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\004_cooloo-cell-phone-stand-2-pack-mobile-phone-anti-skid-holder\\page.html",
+      "sha256": "f1db19dc82396ea626ff796655daa6d784e7b11f524805d83a194c279ad86749",
+      "bytes": 286435,
+      "matched_previous_freeze": true
+    },
+    {
+      "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\005_electronics_html\\accessibility.json",
+      "sha256": "4cdd7059206363c01f0b5dcfa1798b92f52f182cf3258bb2e0ca2e194ec38e6b",
+      "bytes": 444912,
+      "matched_previous_freeze": true
+    },
+    {
+      "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\005_electronics_html\\page.html",
+      "sha256": "c61a8b0958a15c38dd4f3fc07dee6448a3d6f9813b1f27905329f33fea350bf1",
+      "bytes": 261310,
+      "matched_previous_freeze": true
+    },
+    {
+      "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\006_electronics_html\\accessibility.json",
+      "sha256": "fbbf5d68fdff6b5a4152b4445cb2ff32de7b4fc62bf58af1c3424520ed92a645",
+      "bytes": 634366,
+      "matched_previous_freeze": true
+    },
+    {
+      "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\006_electronics_html\\page.html",
+      "sha256": "89cd2aeb0d403148d242051d7bb81b974478df6539583ee1905365eb789f016f",
+      "bytes": 270741,
+      "matched_previous_freeze": true
+    },
+    {
+      "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\007_electronics_html\\accessibility.json",
+      "sha256": "124b5190fb4d3d14f2e00068b1d0d75b83ee2d73682c0eb3057665a70d7c6476",
+      "bytes": 430375,
+      "matched_previous_freeze": true
+    },
+    {
+      "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\007_electronics_html\\page.html",
+      "sha256": "6855e84b160a4fe6d3f1b0a9b8553768df9183eaa1769ad7fc1fd8b2f8b9d612",
+      "bytes": 260964,
+      "matched_previous_freeze": true
+    },
+    {
+      "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\008_electronics_html\\accessibility.json",
+      "sha256": "59e5a54a0d897d1e9515098b4043795cf06e905e7cc9cd362bf78bd65b97496f",
+      "bytes": 434818,
+      "matched_previous_freeze": true
+    },
+    {
+      "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\008_electronics_html\\page.html",
+      "sha256": "ddc59313e771ec6389664585605400a1ee6c1bf332a317da4f1298e5ba53d056",
+      "bytes": 262176,
+      "matched_previous_freeze": true
+    },
+    {
+      "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\009_customer_account_login\\accessibility.json",
+      "sha256": "1a79b943ca37425c95377847887620210e083bfb30e61725c08d35fc148a0161",
+      "bytes": 158958,
+      "matched_previous_freeze": true
+    },
+    {
+      "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\009_customer_account_login\\page.html",
+      "sha256": "b43bbb253324b37266497659d8203e791e045846a87f14e1f0029795658de111",
+      "bytes": 180039,
+      "matched_previous_freeze": true
+    },
+    {
+      "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\010_electronics_html\\accessibility.json",
+      "sha256": "743c7c8cc296d4305a23c97af638dc34a16187c7526d830a29e9dad853c32dc8",
+      "bytes": 430760,
+      "matched_previous_freeze": true
+    },
+    {
+      "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\010_electronics_html\\page.html",
+      "sha256": "0768154333af63d913744ffbca3277b9d86a8b1abf98a7634dcdb3c964acf195",
+      "bytes": 261443,
+      "matched_previous_freeze": true
+    },
+    {
+      "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\011_customer_account_login\\accessibility.json",
+      "sha256": "0ec1c1b5fcd63593ac4f169432988d61aad182f8fbd60464b69652eed51e6af5",
+      "bytes": 169554,
+      "matched_previous_freeze": true
+    },
+    {
+      "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\011_customer_account_login\\page.html",
+      "sha256": "c7e59c4e1e1b982bca83d0fe4132d5dcc7cc89f351850e67fbc6caa60d3069b3",
+      "bytes": 185399,
+      "matched_previous_freeze": true
+    },
+    {
+      "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\012_customer_account_login\\accessibility.json",
+      "sha256": "35cc3bae38c5a8b800d4800f1a73277f100ee42f685494b92f3151073122acd2",
+      "bytes": 195994,
+      "matched_previous_freeze": true
+    },
+    {
+      "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\012_customer_account_login\\page.html",
+      "sha256": "032088e9c2ad6a6c5da05dd24d86df405ed58429128abcdaa1b03eede610bc17",
+      "bytes": 185395,
+      "matched_previous_freeze": true
+    },
+    {
+      "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\013_home-kitchen_html\\accessibility.json",
+      "sha256": "1f943bf958b6276eb3b5b1f1d30f16b314c44d5745654923cdcd0d5270b3bc03",
+      "bytes": 403342,
+      "matched_previous_freeze": true
+    },
+    {
+      "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\013_home-kitchen_html\\page.html",
+      "sha256": "26987e27b5bd9a049e010bb6eab2e077b815a8684810656defe9a6c158e56a90",
+      "bytes": 263574,
+      "matched_previous_freeze": true
+    },
+    {
+      "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\014_home-kitchen_html\\accessibility.json",
+      "sha256": "0cba7440ae0c61d8dd8d4a7118e3ca56139c5f5629dd48bfd13ff94b5e32de11",
+      "bytes": 423534,
+      "matched_previous_freeze": true
+    },
+    {
+      "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\014_home-kitchen_html\\page.html",
+      "sha256": "af3b73afbac813ce6ac246f76e3b6d7233f3a99b6beac6d7c4070d7762415c93",
+      "bytes": 270762,
+      "matched_previous_freeze": true
+    },
+    {
+      "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\015_home-kitchen_html\\accessibility.json",
+      "sha256": "942b69e78eedc5b3390d6c10b226b584e4e79507b3197b9cfb5f35e1a463d19b",
+      "bytes": 420516,
+      "matched_previous_freeze": true
+    },
+    {
+      "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\015_home-kitchen_html\\page.html",
+      "sha256": "8f953218e7a3e121dcd79225448640a6a09f3d2952d1da3d410cc0b6ce0a76e0",
+      "bytes": 267220,
+      "matched_previous_freeze": true
+    },
+    {
+      "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\016_linxiaojix-waterproof-shell-for-osmo-pocket-camera-case-came\\accessibility.json",
+      "sha256": "f4d3e41dc000e23f23980d9b817f948bdd53d7e32a1d19dbe0154686933e8fa3",
+      "bytes": 234367,
+      "matched_previous_freeze": true
+    },
+    {
+      "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\016_linxiaojix-waterproof-shell-for-osmo-pocket-camera-case-came\\page.html",
+      "sha256": "80a64cb41a27ffb969a6cdcae428799500c7e4ae0c8e73ba49dd13adc99e4450",
+      "bytes": 219600,
+      "matched_previous_freeze": true
+    },
+    {
+      "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\017_video-games_html\\accessibility.json",
+      "sha256": "18315696d8d8133b021e6610184ecc07c8b1862e40e4c4252fb23c0be2e7ab5c",
+      "bytes": 430687,
+      "matched_previous_freeze": true
+    },
+    {
+      "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\017_video-games_html\\page.html",
+      "sha256": "ccd99718113f77d5eb2739deceaa9fbbe76a2483a229c6673cfb16293445157b",
+      "bytes": 272695,
+      "matched_previous_freeze": true
+    },
+    {
+      "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\018_psp-s110-battery-upgraded-ultra-high-capacity-3600mah-li-ion\\accessibility.json",
+      "sha256": "541a2350de48c5ae76bcb766b39bc597d50ff233b21c733ecc73d125b436d691",
+      "bytes": 231125,
+      "matched_previous_freeze": true
+    },
+    {
+      "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\018_psp-s110-battery-upgraded-ultra-high-capacity-3600mah-li-ion\\page.html",
+      "sha256": "deb5eed4f5e7c75fdc1a9afa1a8e48abeeaa62f5011877bb2bcc40f12e3792a8",
+      "bytes": 218956,
+      "matched_previous_freeze": true
+    },
+    {
+      "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\019_patio-lawn-garden_html\\accessibility.json",
+      "sha256": "60ae3daa47bc3721ce00c590023da5a2accd4e9b0aa83aa8170d097dc1bdd8a8",
+      "bytes": 393507,
+      "matched_previous_freeze": true
+    },
+    {
+      "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\019_patio-lawn-garden_html\\page.html",
+      "sha256": "8a5be7b5a20838026cf3d71a96bda52f00a86fcfcb61ffc8ed6cad406ebdb0f3",
+      "bytes": 267336,
+      "matched_previous_freeze": true
+    },
+    {
+      "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\020_health-household_html\\accessibility.json",
+      "sha256": "6892deea92d7fd72687d6b2f1560ac34b292b8ec808ddd3a759fba3db1c76ef8",
+      "bytes": 411613,
+      "matched_previous_freeze": true
+    },
+    {
+      "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\020_health-household_html\\page.html",
+      "sha256": "f8b0068773e8673108930961788d510af4403931b74bc73d72a56caa98368ebf",
+      "bytes": 268832,
+      "matched_previous_freeze": true
+    },
+    {
+      "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\021_health-household_html\\accessibility.json",
+      "sha256": "2e61f26a4162a179eacf8e68c877eb0586a817f36127dd91010d1280e3ac808c",
+      "bytes": 446108,
+      "matched_previous_freeze": true
+    },
+    {
+      "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\021_health-household_html\\page.html",
+      "sha256": "4eb3ad730d4e93658be5de3de3dd70d37c1f1e4c557915668042983b0f95f3d8",
+      "bytes": 272757,
+      "matched_previous_freeze": true
+    },
+    {
+      "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\022_health-household_html\\accessibility.json",
+      "sha256": "fa0deff5e130d63a20e47f5baad65823b3710602cd13ca5aa274bfd44bf894ee",
+      "bytes": 412055,
+      "matched_previous_freeze": true
+    },
+    {
+      "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\022_health-household_html\\page.html",
+      "sha256": "470f6e916a09b8e7f308a66c654efa00d36197794ba16ab4dd53b27a5e3ea9da",
+      "bytes": 272392,
+      "matched_previous_freeze": true
+    },
+    {
+      "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\023_energizer-max-c-batteries-premium-alkaline-c-cell-batteries-\\accessibility.json",
+      "sha256": "dbb361ca3327472425a52a1acc3de198c7490d848e18f7e5f53bb615ab1b0df8",
+      "bytes": 343840,
+      "matched_previous_freeze": true
+    },
+    {
+      "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\023_energizer-max-c-batteries-premium-alkaline-c-cell-batteries-\\page.html",
+      "sha256": "57222dcca2a69643a096bcdaeda1262059833be2ef24434e124b4ff1d318efc1",
+      "bytes": 262341,
+      "matched_previous_freeze": true
+    },
+    {
+      "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\024_dp_B004U429AQ_ref_emc_b_5_i\\accessibility.json",
+      "sha256": "8e373c7bd4b115cc1079c33d2b67db6ddb539555b0eafef5ba328f270afd77e4",
+      "bytes": 186830,
+      "matched_previous_freeze": true
+    },
+    {
+      "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\024_dp_B004U429AQ_ref_emc_b_5_i\\page.html",
+      "sha256": "0d25a4665b3d9c0f6e1b7b411a2d8f4e6b80a194477996c80e261c95a3040cac",
+      "bytes": 192076,
+      "matched_previous_freeze": true
+    },
+    {
+      "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\025_root\\accessibility.json",
+      "sha256": "87a2b67e5f5cf2e4ca4435542d40b8ee02ce8f7033803a0bfd1b3b9b5c018ed2",
+      "bytes": 360579,
+      "matched_previous_freeze": true
+    },
+    {
+      "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\025_root\\page.html",
+      "sha256": "9f05f735271215683be71ee60a8e9e083d1926f1dc356cb7a2255ef79fc8194a",
+      "bytes": 271788,
+      "matched_previous_freeze": true
+    },
+    {
+      "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\026_root\\accessibility.json",
+      "sha256": "0088dc7e68f673ad00c275c52b09423cf69b387ba864737d3ca8e9a404293082",
+      "bytes": 365450,
+      "matched_previous_freeze": true
+    },
+    {
+      "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\026_root\\page.html",
+      "sha256": "eac3adf5f2ebb469569b73d941ee92c51be1d8624914be5469d18d00a512ae1d",
+      "bytes": 272477,
+      "matched_previous_freeze": true
+    },
+    {
+      "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\027_briess-dme-pilsen-light-1-lb-bag_html\\accessibility.json",
+      "sha256": "ecfc1f7009022169a7072ca212acb264741950f7657a20d57fa8327dbf5a9008",
+      "bytes": 222728,
+      "matched_previous_freeze": true
+    },
+    {
+      "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\027_briess-dme-pilsen-light-1-lb-bag_html\\page.html",
+      "sha256": "01d8778b322f56661a410495f1b5defc0263da85ef7207af4277c4577079b524",
+      "bytes": 213807,
+      "matched_previous_freeze": true
+    },
+    {
+      "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\028_video-games_html\\accessibility.json",
+      "sha256": "77a9317617e406a293a09517f5a819fa80b00a5224c1b50382717136408e616f",
+      "bytes": 439216,
+      "matched_previous_freeze": true
+    },
+    {
+      "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\028_video-games_html\\page.html",
+      "sha256": "eb73c2415fabbf0dc81c9c94a8598b6931936cc53685324ba2331648dc16b2d7",
+      "bytes": 273824,
+      "matched_previous_freeze": true
+    },
+    {
+      "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\029_cell-phones-accessories_html\\accessibility.json",
+      "sha256": "fe63b79b977c279aa3376dbd77ac2a4b6bd39130b018238ee1de9868d5cf1aea",
+      "bytes": 423402,
+      "matched_previous_freeze": true
+    },
+    {
+      "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\029_cell-phones-accessories_html\\page.html",
+      "sha256": "7bf3d9d517ab4f9c94f2f8726d61885773f618d3a8f681fd8e943fc6d0a682b6",
+      "bytes": 274711,
+      "matched_previous_freeze": true
+    },
+    {
+      "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\030_sports-outdoors_html\\accessibility.json",
+      "sha256": "7dfea73176fb2315f322e454db49c7e858b86df4d12c2779db009368bd9c1274",
+      "bytes": 431563,
+      "matched_previous_freeze": true
+    },
+    {
+      "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\030_sports-outdoors_html\\page.html",
+      "sha256": "81422f71d5d0f25aa9b64239ee2564cdeeec242fc716df9a144afa76932a6484",
+      "bytes": 270400,
+      "matched_previous_freeze": true
+    },
+    {
+      "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\031_patio-lawn-garden_html\\accessibility.json",
+      "sha256": "85f8f1ea269d756006b8066d246c68c24ed7a89b7350195cad540bd98699e0cd",
+      "bytes": 401684,
+      "matched_previous_freeze": true
+    },
+    {
+      "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\031_patio-lawn-garden_html\\page.html",
+      "sha256": "3a0346edba31db9c81f1a5a033ec8308ad0d5ba2a07833cad477d9ca70526914",
+      "bytes": 268465,
+      "matched_previous_freeze": true
+    },
+    {
+      "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\032_enevotx-front-door-side-window-covering-alligator-and-cactus\\accessibility.json",
+      "sha256": "2d561b1c381f73a792ed1d75e457fcdf5a69209a36708ac328a89e91fd5c5269",
+      "bytes": 243497,
+      "matched_previous_freeze": true
+    },
+    {
+      "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\032_enevotx-front-door-side-window-covering-alligator-and-cactus\\page.html",
+      "sha256": "72b70a8c2f33f27c90e9fcd1f916f07c7a09a6617016902163c9fc90faf6c71a",
+      "bytes": 223457,
+      "matched_previous_freeze": true
+    },
+    {
+      "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\033_multi-accessory-hub-adapter-by-joby-get-the-right-set-up-for\\accessibility.json",
+      "sha256": "fc043ac4f4ad9411a4b972e2531fcffe68e382457821d26501164096b7797416",
+      "bytes": 251136,
+      "matched_previous_freeze": true
+    },
+    {
+      "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\033_multi-accessory-hub-adapter-by-joby-get-the-right-set-up-for\\page.html",
+      "sha256": "0797564c1bf31490086a700dc6757a8352a11080c0109c2095f541bbe7a6a0e0",
+      "bytes": 219883,
+      "matched_previous_freeze": true
+    },
+    {
+      "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\034_beauty-personal-care_html\\accessibility.json",
+      "sha256": "0743de4cf1c23ef213d986d3703d66b15be72539364a8c04cd60d05c096c6c73",
+      "bytes": 454005,
+      "matched_previous_freeze": true
+    },
+    {
+      "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\034_beauty-personal-care_html\\page.html",
+      "sha256": "c15a10752dc862b7c7dfb7ee2f50fb9bfda89c717ce3efb3095d2697ab0e405d",
+      "bytes": 273422,
+      "matched_previous_freeze": true
+    },
+    {
+      "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\035_q-mixers-premium-ginger-ale-real-ingredients-less-sweet-6-7-\\accessibility.json",
+      "sha256": "6de73d5335715776e54b5551ea9ab65a4d38c274a0d67cac2a6c42934141ef80",
+      "bytes": 325741,
+      "matched_previous_freeze": true
+    },
+    {
+      "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\035_q-mixers-premium-ginger-ale-real-ingredients-less-sweet-6-7-\\page.html",
+      "sha256": "688067dfd7129413c3a702f4d0c347fad3f2beb855bb5d9b98dd781acb406053",
+      "bytes": 257469,
+      "matched_previous_freeze": true
+    },
+    {
+      "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\036_q-mixers-premium-ginger-ale-real-ingredients-less-sweet-6-7-\\accessibility.json",
+      "sha256": "c2817af2ac3815d7f5d676f78de3bff83fbf426711c9ba90df8503ea58b60a62",
+      "bytes": 327392,
+      "matched_previous_freeze": true
+    },
+    {
+      "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\036_q-mixers-premium-ginger-ale-real-ingredients-less-sweet-6-7-\\page.html",
+      "sha256": "91e00842b6576ae1b23b4be9db51134e9577c761dd3b36db7fe6b0098c3dea30",
+      "bytes": 257992,
+      "matched_previous_freeze": true
+    },
+    {
+      "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\037_clothing-shoes-jewelry_html\\accessibility.json",
+      "sha256": "60f2106d5219e4bea3f50952e3f07ad5291284945ae1ca1ac0ac7802334931d8",
+      "bytes": 440666,
+      "matched_previous_freeze": true
+    },
+    {
+      "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\037_clothing-shoes-jewelry_html\\page.html",
+      "sha256": "64b30788ead0e304a6b801a6ca0d0c4e61d11bcfe9a15454bcbcf5cd2a535d9c",
+      "bytes": 270874,
+      "matched_previous_freeze": true
+    },
+    {
+      "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\038_clothing-shoes-jewelry_html\\accessibility.json",
+      "sha256": "ac0f8e1db5293930f860a4857181dc86e990b6d133e6a569376170d0163c892c",
+      "bytes": 579125,
+      "matched_previous_freeze": true
+    },
+    {
+      "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\038_clothing-shoes-jewelry_html\\page.html",
+      "sha256": "8ba690389a7ee5bcc4b737e6c390998377a6834e80148a2c0470bda1841ecba5",
+      "bytes": 270903,
+      "matched_previous_freeze": true
+    },
+    {
+      "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\039_clothing-shoes-jewelry_html\\accessibility.json",
+      "sha256": "c1f536eeda625648a78685447a7b430f0cc0379218c021631ec84bb0de2dcf52",
+      "bytes": 448589,
+      "matched_previous_freeze": true
+    },
+    {
+      "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\039_clothing-shoes-jewelry_html\\page.html",
+      "sha256": "31f5623c23529e256330b9a70a833b697101e6909e584eff72e0a89706f4ae5d",
+      "bytes": 272541,
+      "matched_previous_freeze": true
+    },
+    {
+      "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\040_hfhapw-onesie-pajamas-for-women-women-s-valentines-day-sexy-\\accessibility.json",
+      "sha256": "962790b0c8f840e19a22419b023b6ab809da88866d40c09b05290ab65e6a2bc6",
+      "bytes": 269034,
+      "matched_previous_freeze": true
+    },
+    {
+      "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\040_hfhapw-onesie-pajamas-for-women-women-s-valentines-day-sexy-\\page.html",
+      "sha256": "561189b4bd7268353b5aa56515cea6b9eaec580a935e4196aee07a445d391e5a",
+      "bytes": 228853,
+      "matched_previous_freeze": true
+    },
+    {
+      "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\041_home-kitchen_html\\accessibility.json",
+      "sha256": "597d8867a5d8440904f282ac02249605dcb408adb64ad05df723a643c9d0ed14",
+      "bytes": 424752,
+      "matched_previous_freeze": true
+    },
+    {
+      "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\041_home-kitchen_html\\page.html",
+      "sha256": "fb23cc0c80e50b9bcad1ee4a30b1956fe695af6aa72f68984fbce64a2109a386",
+      "bytes": 271057,
+      "matched_previous_freeze": true
+    },
+    {
+      "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\042_customer_account_login\\accessibility.json",
+      "sha256": "32d81e19c910eca316735b6b47a0b23f939e04003e0fb38248bbc08ed308e89f",
+      "bytes": 187986,
+      "matched_previous_freeze": true
+    },
+    {
+      "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\042_customer_account_login\\page.html",
+      "sha256": "72eb3bced1db1f40bfb7738a54ee831ab3a9c5db2b8b66371a1d1f0d793e95a2",
+      "bytes": 190618,
+      "matched_previous_freeze": true
+    },
+    {
+      "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\043_contact\\accessibility.json",
+      "sha256": "a6c8e5f9572318e4ea09dc6e7d1391dbf914a58535add0aa24fac798ba378971",
+      "bytes": 173344,
+      "matched_previous_freeze": true
+    },
+    {
+      "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\043_contact\\page.html",
+      "sha256": "5cad901711154a023c087fa22fd78f1b27d5872efdfbcece77b0c7763115208f",
+      "bytes": 188438,
+      "matched_previous_freeze": true
+    },
+    {
+      "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\044_contact\\accessibility.json",
+      "sha256": "1797063cf914f67b7a1ffbdd581ccdb7f873e4964500392a5e4a6ef4f7697972",
+      "bytes": 241101,
+      "matched_previous_freeze": true
+    },
+    {
+      "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\044_contact\\page.html",
+      "sha256": "485a515a4076ec76c5fdbd37e09b3355cba863f286caca124f1d2050a99bc252",
+      "bytes": 188440,
+      "matched_previous_freeze": true
+    },
+    {
+      "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\045_zosi-h-265-poe-home-security-camera-system-outdoor-indoor-8-\\accessibility.json",
+      "sha256": "9f8bc8c2de38634f3748ef5111d60889a2c970ac301402f5a2c9f465fd7c84ff",
+      "bytes": 272813,
+      "matched_previous_freeze": true
+    },
+    {
+      "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\045_zosi-h-265-poe-home-security-camera-system-outdoor-indoor-8-\\page.html",
+      "sha256": "ba61b4e26d0b04e65888ed0a8ad8de3e07516101110b11a7579931fd67aac470",
+      "bytes": 251784,
+      "matched_previous_freeze": true
+    },
+    {
+      "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\046_zosi-h-265-poe-home-security-camera-system-outdoor-indoor-8-\\accessibility.json",
+      "sha256": "736b16a5f5fc03b096f58288a344c001ed8f8f8b1621b4f0e1c160110b4e05b1",
+      "bytes": 358225,
+      "matched_previous_freeze": true
+    },
+    {
+      "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\046_zosi-h-265-poe-home-security-camera-system-outdoor-indoor-8-\\page.html",
+      "sha256": "fbe2875912ec6902af42327714204f6e093db94252ebba041f33b43a558914af",
+      "bytes": 251847,
+      "matched_previous_freeze": true
+    },
+    {
+      "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\047_zosi-h-265-poe-home-security-camera-system-outdoor-indoor-8-\\accessibility.json",
+      "sha256": "620ca0f30965444eb372ea2888bbc8f9c5865bc22f2bd0b732c3244615d78ded",
+      "bytes": 319253,
+      "matched_previous_freeze": true
+    },
+    {
+      "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\047_zosi-h-265-poe-home-security-camera-system-outdoor-indoor-8-\\page.html",
+      "sha256": "831524aca0800d93b4363c8a002b071d346ae692b510fc3bbdc252b747a2327d",
+      "bytes": 252470,
+      "matched_previous_freeze": true
+    },
+    {
+      "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\048_patio-lawn-garden_html\\accessibility.json",
+      "sha256": "8fade14af2c377d44faa13aacfad2ba82a1dcdba9eedc4d8fc56122c62f2d81b",
+      "bytes": 405705,
+      "matched_previous_freeze": true
+    },
+    {
+      "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\048_patio-lawn-garden_html\\page.html",
+      "sha256": "ce691a13cb0f31e49b6dfe1b5ae1cb6eb8282fc96fb382e64594bab8a567d0b3",
+      "bytes": 269496,
+      "matched_previous_freeze": true
+    },
+    {
+      "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\049_mmqq-beige-bar-chairs-outdoor-patio-wicker-rattan-barstools-\\accessibility.json",
+      "sha256": "57881f19ff0d67458284c70644cca15a44505ff8dbb077ba7c0a8714eac2d177",
+      "bytes": 259401,
+      "matched_previous_freeze": true
+    },
+    {
+      "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\049_mmqq-beige-bar-chairs-outdoor-patio-wicker-rattan-barstools-\\page.html",
+      "sha256": "1025a6f7360f269d653ce8e4cd727b540b95728050f1ee4fb7c5843e7dd340b4",
+      "bytes": 230665,
+      "matched_previous_freeze": true
+    },
+    {
+      "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\050_mmqq-beige-bar-chairs-outdoor-patio-wicker-rattan-barstools-\\accessibility.json",
+      "sha256": "3182ee5804578e360436c123d67c7235a8e68ada6a5c23ca68999b2483d8ad6c",
+      "bytes": 299472,
+      "matched_previous_freeze": true
+    },
+    {
+      "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\050_mmqq-beige-bar-chairs-outdoor-patio-wicker-rattan-barstools-\\page.html",
+      "sha256": "1025a6f7360f269d653ce8e4cd727b540b95728050f1ee4fb7c5843e7dd340b4",
+      "bytes": 230665,
+      "matched_previous_freeze": true
+    },
+    {
+      "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\051_customer_account_login\\accessibility.json",
+      "sha256": "c6450377c16e545e72e6d39a13a638ef88a7f19b88a085f8eb5109ed48becc47",
+      "bytes": 185830,
+      "matched_previous_freeze": true
+    },
+    {
+      "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\051_customer_account_login\\page.html",
+      "sha256": "7efff44fd2ff5c86273f16506c0b817ebcb662dcf82ae0436db5ecde67f1965d",
+      "bytes": 195195,
+      "matched_previous_freeze": true
+    },
+    {
+      "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\052_catalogsearch_advanced\\accessibility.json",
+      "sha256": "718cf9662d99633178d052260123596e8403c9d9d1b9e531ba3e3a46410f2c09",
+      "bytes": 192630,
+      "matched_previous_freeze": true
+    },
+    {
+      "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\052_catalogsearch_advanced\\page.html",
+      "sha256": "4395a7f417a860d7b12fd0ebee767c7ddafe1990271fadee78a70cf58adfad47",
+      "bytes": 198122,
+      "matched_previous_freeze": true
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\coverage-v2\\audit_traces.py",
+      "sha256": "f245e3a18bb7efafa3babdbd85ae12c45630b10f38d1ac4af68c8bf361aeea9c",
+      "bytes": 9511,
+      "matched_previous_freeze": null
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\coverage-v2\\common-registry.draft.json",
+      "sha256": "5ef03203905f56aaaa4b593c60f1506a43027422604818d65291b0571a7e214e",
+      "bytes": 32944,
+      "matched_previous_freeze": null
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\coverage-v2\\db-candidate-review.json",
+      "sha256": "cd47ea7cf777ca312938749e64c12bfc728098049d741119bde6be0546cb069a",
+      "bytes": 75251,
+      "matched_previous_freeze": null
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260929-115141-231052\\observations.jsonl",
+      "sha256": "f4257e7c8c8489f9157beb59ade214956f34707990db306c25f881f2663e8c14",
+      "bytes": 3983,
+      "matched_previous_freeze": true
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260929-115141-231052\\snapshots\\00001\\accessibility.json",
+      "sha256": "24b32cddb1da641abb9c36863d0ef3fc29f3598a01231c4009dd342e49de5c3b",
+      "bytes": 882262,
+      "matched_previous_freeze": true
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260929-115141-231052\\snapshots\\00001\\page.html",
+      "sha256": "e838d4d5f88f4be2edaac8e17acdf7f86d6c5a8cb4c5fb48e2463db3a8545b81",
+      "bytes": 253053,
+      "matched_previous_freeze": true
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260929-115141-231052\\snapshots\\00002\\accessibility.json",
+      "sha256": "7777038e3904066a88a9d0d56c643bf39adfb63e7c250e631a01eb8fe6158976",
+      "bytes": 772861,
+      "matched_previous_freeze": true
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260929-115141-231052\\snapshots\\00002\\page.html",
+      "sha256": "f6a016bf2e4d26102085950dc4145f08cc9088eb7a99287a7d1d0965ad48a14c",
+      "bytes": 248513,
+      "matched_previous_freeze": true
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260929-115141-231052\\snapshots\\00003\\accessibility.json",
+      "sha256": "60280aeefa2291bb864fd70d5db571d9dc2938e95bb16a4d3d85da02757eca45",
+      "bytes": 774247,
+      "matched_previous_freeze": true
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260929-115141-231052\\snapshots\\00003\\page.html",
+      "sha256": "f6a016bf2e4d26102085950dc4145f08cc9088eb7a99287a7d1d0965ad48a14c",
+      "bytes": 248513,
+      "matched_previous_freeze": true
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260929-115141-231052\\snapshots\\00004\\accessibility.json",
+      "sha256": "02cab0e28c0d268ee14773530db7f0c95676e83660dece1092c55793dd517b0a",
+      "bytes": 989452,
+      "matched_previous_freeze": true
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260929-115141-231052\\snapshots\\00004\\page.html",
+      "sha256": "f6a016bf2e4d26102085950dc4145f08cc9088eb7a99287a7d1d0965ad48a14c",
+      "bytes": 248513,
+      "matched_previous_freeze": true
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260929-115141-231052\\snapshots\\00005\\accessibility.json",
+      "sha256": "b2ccc30814c8c0f6153a6592c5949e21ef11766c44e10a42d92dece6bda2b802",
+      "bytes": 383828,
+      "matched_previous_freeze": true
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260929-115141-231052\\snapshots\\00005\\page.html",
+      "sha256": "c8bcbde8a1d98090cbc914213472c628cf52eeed3f2057ae224628a13cf6aae7",
+      "bytes": 200362,
+      "matched_previous_freeze": true
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260929-115141-231052\\snapshots\\00006\\accessibility.json",
+      "sha256": "43c226a849cd5f03036997b3ce438262c6bccea0bb3c7978044c3b37e5c7210d",
+      "bytes": 434331,
+      "matched_previous_freeze": true
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260929-115141-231052\\snapshots\\00006\\page.html",
+      "sha256": "c8bcbde8a1d98090cbc914213472c628cf52eeed3f2057ae224628a13cf6aae7",
+      "bytes": 200362,
+      "matched_previous_freeze": true
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260929-115141-231052\\snapshots\\00007\\accessibility.json",
+      "sha256": "698aaea2f8ab9404af68a9b53396ad84daee51cdbd4e230f0eabe313a59cd82d",
+      "bytes": 284035,
+      "matched_previous_freeze": true
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260929-115141-231052\\snapshots\\00007\\page.html",
+      "sha256": "c43697059f3aa06a71a929f64b1d3c2616487018629f38559e2b6a0abdcbdcd7",
+      "bytes": 173672,
+      "matched_previous_freeze": true
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260929-115141-231052\\snapshots\\00008\\accessibility.json",
+      "sha256": "698aaea2f8ab9404af68a9b53396ad84daee51cdbd4e230f0eabe313a59cd82d",
+      "bytes": 284035,
+      "matched_previous_freeze": true
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260929-115141-231052\\snapshots\\00008\\page.html",
+      "sha256": "c43697059f3aa06a71a929f64b1d3c2616487018629f38559e2b6a0abdcbdcd7",
+      "bytes": 173672,
+      "matched_previous_freeze": true
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260929-115141-231052\\snapshots\\00009\\accessibility.json",
+      "sha256": "447b4d54191c6836892127d2e109edfee752eb6e9376f9fb816a62f4e8c82b1d",
+      "bytes": 321688,
+      "matched_previous_freeze": true
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260929-115141-231052\\snapshots\\00009\\page.html",
+      "sha256": "6a6bbe4e5fe8817501f8c7e2bd881010e0f6d49ae035beb2bf6928568b4f633d",
+      "bytes": 174903,
+      "matched_previous_freeze": true
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260929-115141-231052\\snapshots\\00010\\accessibility.json",
+      "sha256": "200c3d04e255d928288fc7b3ad70b88b481b19a80bfbdae55fb3aeb3b6cbcafa",
+      "bytes": 318251,
+      "matched_previous_freeze": true
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260929-115141-231052\\snapshots\\00010\\page.html",
+      "sha256": "27ce0a2380c5b17ea9951db46ceecbed9bfe9711f642a0d0c2cbfe1637a4af4b",
+      "bytes": 173672,
+      "matched_previous_freeze": true
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260929-115141-231052\\snapshots\\00011\\accessibility.json",
+      "sha256": "05685a37f94cde9659a31243fb99bb2afe002792ca1f5cddb665c19983639d8f",
+      "bytes": 228755,
+      "matched_previous_freeze": true
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260929-115141-231052\\snapshots\\00011\\page.html",
+      "sha256": "acd3851e8f5dbc5cf18f24096936fcd4491b51e91aa4441ca8995b1d99e45a75",
+      "bytes": 167356,
+      "matched_previous_freeze": true
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260929-115141-231052\\snapshots\\00012\\accessibility.json",
+      "sha256": "05685a37f94cde9659a31243fb99bb2afe002792ca1f5cddb665c19983639d8f",
+      "bytes": 228755,
+      "matched_previous_freeze": true
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260929-115141-231052\\snapshots\\00012\\page.html",
+      "sha256": "acd3851e8f5dbc5cf18f24096936fcd4491b51e91aa4441ca8995b1d99e45a75",
+      "bytes": 167356,
+      "matched_previous_freeze": true
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260929-115141-231052\\snapshots\\00013\\accessibility.json",
+      "sha256": "1f39377bfb7803f1b0109995388f1e10896d4866c632e23068da259079381157",
+      "bytes": 252204,
+      "matched_previous_freeze": true
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260929-115141-231052\\snapshots\\00013\\page.html",
+      "sha256": "acd3851e8f5dbc5cf18f24096936fcd4491b51e91aa4441ca8995b1d99e45a75",
+      "bytes": 167356,
+      "matched_previous_freeze": true
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260929-115141-231052\\snapshots\\00014\\accessibility.json",
+      "sha256": "1f39377bfb7803f1b0109995388f1e10896d4866c632e23068da259079381157",
+      "bytes": 252204,
+      "matched_previous_freeze": true
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260929-115141-231052\\snapshots\\00014\\page.html",
+      "sha256": "acd3851e8f5dbc5cf18f24096936fcd4491b51e91aa4441ca8995b1d99e45a75",
+      "bytes": 167356,
+      "matched_previous_freeze": true
+    }
+  ]
+}

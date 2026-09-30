@@ -1,0 +1,602 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e5]:
+      - list [ref=e6]:
+        - listitem [ref=e7]:
+          - link "My Account" [ref=e8] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/customer/account/
+        - listitem [ref=e9]:
+          - link "My Wish List" [ref=e10] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/wishlist/
+        - listitem [ref=e11]:
+          - link "Sign In" [ref=e12] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/customer/account/login/
+        - listitem [ref=e13]:
+          - link "Compare Products 3 items" [ref=e14] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/catalog/product_compare/index/uenc/aHR0cDovLzEyNy4wLjAuMTo3NzcwL2N1c3RvbWVyL3NlY3Rpb24vbG9hZC8_c2VjdGlvbnM9Y29tcGFyZS1wcm9kdWN0cyUyQ21lc3NhZ2VzJmZvcmNlX25ld19zZWN0aW9uX3RpbWVzdGFtcD1mYWxzZSZfPTE3OTA1NjM0NzA5NzY~/
+        - listitem [ref=e15]: Welcome to One Stop Market
+        - listitem [ref=e16]:
+          - link "Create an Account" [ref=e17] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/customer/account/create/
+      - link "Skip to Content" [ref=e18] [cursor=pointer]:
+        - /url: "#contentarea"
+    - generic [ref=e19]:
+      - text: 
+      - link "store logo" [ref=e20] [cursor=pointer]:
+        - /url: http://127.0.0.1:7770/
+        - img "one_stop_market_logo" [ref=e21]
+      - generic [ref=e22]:
+        - link " My Cart 3 3 items" [ref=e23] [cursor=pointer]:
+          - /url: http://127.0.0.1:7770/checkout/cart/
+          - text: 
+          - generic [ref=e24]: My Cart
+          - generic [ref=e25]:
+            - generic [ref=e26]: "3"
+            - generic [ref=e27]: 3 items
+        - text: " : :   :   :  "
+      - generic [ref=e30]:
+        - generic [ref=e31]:
+          - generic [ref=e32]:
+            - text: 
+            - generic [ref=e33]: Search
+          - generic [ref=e34]:
+            - combobox " Search" [ref=e35]
+            - link "Advanced Search" [ref=e37] [cursor=pointer]:
+              - /url: http://127.0.0.1:7770/catalogsearch/advanced/
+        - generic:
+          - button "Search" [disabled]:
+            - text: 
+            - generic: Search
+  - tablist [ref=e39]:
+    - tabpanel [ref=e40]:
+      - navigation [ref=e41]:
+        - menu [ref=e42]:
+          - listitem [ref=e43]:
+            - menuitem " Beauty & Personal Care" [ref=e44] [cursor=pointer]:
+              - generic [ref=e45]: 
+              - text: Beauty & Personal Care
+            - text:          
+          - listitem [ref=e46]:
+            - menuitem " Sports & Outdoors" [ref=e47] [cursor=pointer]:
+              - generic [ref=e48]: 
+              - text: Sports & Outdoors
+            - text:   
+          - listitem [ref=e49]:
+            - menuitem " Clothing, Shoes & Jewelry" [ref=e50] [cursor=pointer]:
+              - generic [ref=e51]: 
+              - text: Clothing, Shoes & Jewelry
+            - text:    
+          - listitem [ref=e52]:
+            - menuitem " Home & Kitchen" [ref=e53] [cursor=pointer]:
+              - generic [ref=e54]: 
+              - text: Home & Kitchen
+            - text:       
+          - listitem [ref=e55]:
+            - menuitem " Office Products" [ref=e56] [cursor=pointer]:
+              - generic [ref=e57]: 
+              - text: Office Products
+            - text:   
+          - listitem [ref=e58]:
+            - menuitem " Tools & Home Improvement" [ref=e59] [cursor=pointer]:
+              - generic [ref=e60]: 
+              - text: Tools & Home Improvement
+            - text: 
+          - listitem [ref=e61]:
+            - menuitem " Health & Household" [ref=e62] [cursor=pointer]:
+              - generic [ref=e63]: 
+              - text: Health & Household
+            - text:  
+          - listitem [ref=e64]:
+            - menuitem " Patio, Lawn & Garden" [ref=e65] [cursor=pointer]:
+              - generic [ref=e66]: 
+              - text: Patio, Lawn & Garden
+            - text: 
+          - listitem [ref=e67]:
+            - menuitem " Electronics" [ref=e68] [cursor=pointer]:
+              - generic [ref=e69]: 
+              - text: Electronics
+            - text:            
+          - listitem [ref=e70]:
+            - menuitem " Cell Phones & Accessories" [ref=e71] [cursor=pointer]:
+              - generic [ref=e72]: 
+              - text: Cell Phones & Accessories
+            - text:  
+          - listitem [ref=e73]:
+            - menuitem " Video Games" [ref=e74] [cursor=pointer]:
+              - generic [ref=e75]: 
+              - text: Video Games
+            - text:    
+          - listitem [ref=e76]:
+            - menuitem " Grocery & Gourmet Food" [ref=e77] [cursor=pointer]:
+              - generic [ref=e78]: 
+              - text: Grocery & Gourmet Food
+            - text:             
+  - list [ref=e80]:
+    - listitem [ref=e81]:
+      - link "Home" [ref=e82] [cursor=pointer]:
+        - /url: http://127.0.0.1:7770/
+      - text: 
+    - listitem [ref=e83]:
+      - strong [ref=e84]: Sports & Outdoors
+  - main [ref=e85]:
+    - heading "Sports & Outdoors Items 1-12 of 884" [level=1] [ref=e87]: Sports & Outdoors
+    - generic [ref=e88]:
+      - generic [ref=e89]:
+        - generic [ref=e90]:
+          - generic [ref=e91]:
+            - strong [ref=e92]: View as
+            - strong [ref=e93]:
+              - text: 
+              - generic [ref=e94]: Grid
+            - link "View as  List" [ref=e95] [cursor=pointer]:
+              - /url: "#"
+              - text: 
+              - generic [ref=e96]: List
+          - paragraph [ref=e97]: Items 1-12 of 884
+          - generic [ref=e98]:
+            - text: Sort By
+            - combobox "Sort By" [ref=e99]:
+              - option "Position" [selected]
+              - option "Product Name"
+              - option "Price"
+            - link " Set Descending Direction" [ref=e100] [cursor=pointer]:
+              - /url: "#"
+              - text: 
+              - generic [ref=e101]: Set Descending Direction
+        - list [ref=e103]:
+          - listitem [ref=e104]:
+            - generic [ref=e105]:
+              - link "Image" [ref=e106] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/bushnell-743333-boresighter-with-case-arbors-black.html
+                - img "Image" [ref=e109]
+              - generic [ref=e110]:
+                - strong [ref=e111]:
+                  - link "Bushnell 743333 Boresighter with Case & ARbors,Black" [ref=e112] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/bushnell-743333-boresighter-with-case-arbors-black.html
+                - generic [ref=e113]:
+                  - generic [ref=e114]:
+                    - generic [ref=e115]: "Rating:"
+                    - generic "68%" [ref=e116]:
+                      - text: 
+                      - generic [ref=e117]:
+                        - text: 
+                        - generic [ref=e118]: 68%
+                  - link "12 Reviews" [ref=e120] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/bushnell-743333-boresighter-with-case-arbors-black.html#reviews
+                - generic [ref=e123]: $97.99
+                - generic [ref=e125]:
+                  - button "Add to Cart" [ref=e128] [cursor=pointer]
+                  - generic [ref=e129]:
+                    - button "Add to Wish List" [ref=e130] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e131]: Add to Wish List
+                    - button "Add to Compare" [ref=e132] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e133]: Add to Compare
+          - listitem [ref=e134]:
+            - generic [ref=e135]:
+              - link "Image" [ref=e136] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/noldares-womens-pumps-heels-closed-toe-bohemian-block-heel-buckle-strap-sandals-fashion-party-single-pumps-sandals.html
+                - img "Image" [ref=e139]
+              - generic [ref=e140]:
+                - strong [ref=e141]:
+                  - link "NOLDARES Womens Pumps Heels Closed Toe Bohemian Block Heel Buckle Strap Sandals Fashion Party Single Pumps Sandals" [ref=e142] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/noldares-womens-pumps-heels-closed-toe-bohemian-block-heel-buckle-strap-sandals-fashion-party-single-pumps-sandals.html
+                - generic [ref=e145]: $17.89
+                - generic [ref=e147]:
+                  - button "Add to Cart" [ref=e150] [cursor=pointer]
+                  - generic [ref=e151]:
+                    - button "Add to Wish List" [ref=e152] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e153]: Add to Wish List
+                    - button "Add to Compare" [ref=e154] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e155]: Add to Compare
+          - listitem [ref=e156]:
+            - generic [ref=e157]:
+              - link "Image" [ref=e158] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/noldares-long-sleeve-polo-shirts-for-men-vintage-printed-button-lapel-t-shirts-classic-fit-cotton-linen-polo-shirts.html
+                - img "Image" [ref=e161]
+              - generic [ref=e162]:
+                - strong [ref=e163]:
+                  - link "NOLDARES Long Sleeve Polo Shirts for Men Vintage Printed Button Lapel T-Shirts Classic Fit Cotton Linen Polo Shirts" [ref=e164] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/noldares-long-sleeve-polo-shirts-for-men-vintage-printed-button-lapel-t-shirts-classic-fit-cotton-linen-polo-shirts.html
+                - generic [ref=e167]: $9.99
+                - generic [ref=e169]:
+                  - button "Add to Cart" [ref=e172] [cursor=pointer]
+                  - generic [ref=e173]:
+                    - button "Add to Wish List" [ref=e174] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e175]: Add to Wish List
+                    - button "Add to Compare" [ref=e176] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e177]: Add to Compare
+          - listitem [ref=e178]:
+            - generic [ref=e179]:
+              - link "Image" [ref=e180] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/maryia-men-3d-creative-printed-graphic-t-shirts-casual-short-sleeve-crewneck-muscle-tees-personality-realistic-suit.html
+                - img "Image" [ref=e183]
+              - generic [ref=e184]:
+                - strong [ref=e185]:
+                  - link "Maryia Men 3D Creative Printed Graphic T Shirts Casual Short Sleeve Crewneck Muscle Tees Personality Realistic Suit" [ref=e186] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/maryia-men-3d-creative-printed-graphic-t-shirts-casual-short-sleeve-crewneck-muscle-tees-personality-realistic-suit.html
+                - generic [ref=e189]: $17.99
+                - generic [ref=e191]:
+                  - button "Add to Cart" [ref=e194] [cursor=pointer]
+                  - generic [ref=e195]:
+                    - button "Add to Wish List" [ref=e196] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e197]: Add to Wish List
+                    - button "Add to Compare" [ref=e198] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e199]: Add to Compare
+          - listitem [ref=e200]:
+            - generic [ref=e201]:
+              - link "Image" [ref=e202] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/noldares-golf-shirts-for-men-slim-fit-vintage-printed-button-lapel-long-sleeve-t-shirts-classic-fit-golf-polo-shirts.html
+                - img "Image" [ref=e205]
+              - generic [ref=e206]:
+                - strong [ref=e207]:
+                  - link "NOLDARES Golf Shirts for Men Slim Fit Vintage Printed Button Lapel Long Sleeve T-Shirts Classic Fit Golf Polo Shirts" [ref=e208] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/noldares-golf-shirts-for-men-slim-fit-vintage-printed-button-lapel-long-sleeve-t-shirts-classic-fit-golf-polo-shirts.html
+                - generic [ref=e211]: $9.99
+                - generic [ref=e213]:
+                  - button "Add to Cart" [ref=e216] [cursor=pointer]
+                  - generic [ref=e217]:
+                    - button "Add to Wish List" [ref=e218] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e219]: Add to Wish List
+                    - button "Add to Compare" [ref=e220] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e221]: Add to Compare
+          - listitem [ref=e222]:
+            - generic [ref=e223]:
+              - link "Image" [ref=e224] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/body-glide-original-anti-chafe-balm.html
+                - img "Image" [ref=e227]
+              - generic [ref=e228]:
+                - strong [ref=e229]:
+                  - link "Body Glide Original Anti-Chafe Balm" [ref=e230] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/body-glide-original-anti-chafe-balm.html
+                - generic [ref=e233]: $29.98
+                - generic [ref=e235]:
+                  - button "Add to Cart" [ref=e238] [cursor=pointer]
+                  - generic [ref=e239]:
+                    - button "Add to Wish List" [ref=e240] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e241]: Add to Wish List
+                    - button "Add to Compare" [ref=e242] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e243]: Add to Compare
+          - listitem [ref=e244]:
+            - generic [ref=e245]:
+              - link "Image" [ref=e246] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/bhndoing-diy-night-vision-scope-for-riflescopes-fcc-certified-digital-night-vision-scope-hunting-with-ir-flashlight-scope-camera-and-5-screen-day-night.html
+                - img "Image" [ref=e249]
+              - generic [ref=e250]:
+                - strong [ref=e251]:
+                  - link "BHNDOING DIY Night Vision Scope for riflescopes, FCC Certified, Digital Night Vision Scope Hunting with IR Flashlight Scope Camera and 5’’ Screen Day & Night" [ref=e252] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/bhndoing-diy-night-vision-scope-for-riflescopes-fcc-certified-digital-night-vision-scope-hunting-with-ir-flashlight-scope-camera-and-5-screen-day-night.html
+                - generic [ref=e255]: $99.99
+                - generic [ref=e257]:
+                  - button "Add to Cart" [ref=e260] [cursor=pointer]
+                  - generic [ref=e261]:
+                    - button "Add to Wish List" [ref=e262] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e263]: Add to Wish List
+                    - button "Add to Compare" [ref=e264] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e265]: Add to Compare
+          - listitem [ref=e266]:
+            - generic [ref=e267]:
+              - link "Image" [ref=e268] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/noldares-high-heels-for-women-dressy-summer-dressy-peep-toe-thin-stiletto-pumps-ankle-strap-wedding-party-heel-sandals.html
+                - img "Image" [ref=e271]
+              - generic [ref=e272]:
+                - strong [ref=e273]:
+                  - link "NOLDARES High Heels for Women Dressy Summer Dressy Peep Toe Thin Stiletto Pumps Ankle Strap Wedding Party Heel Sandals" [ref=e274] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/noldares-high-heels-for-women-dressy-summer-dressy-peep-toe-thin-stiletto-pumps-ankle-strap-wedding-party-heel-sandals.html
+                - generic [ref=e277]: $14.39
+                - generic [ref=e279]:
+                  - button "Add to Cart" [ref=e282] [cursor=pointer]
+                  - generic [ref=e283]:
+                    - button "Add to Wish List" [ref=e284] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e285]: Add to Wish List
+                    - button "Add to Compare" [ref=e286] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e287]: Add to Compare
+          - listitem [ref=e288]:
+            - generic [ref=e289]:
+              - link "Image" [ref=e290] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/spypoint-link-evo-cellular-trail-camera-4g-lte-12mp-hd-video-high-power-leds-infrared-boost-tech-0-3s-trigger-speed-80-detect-90-flash-easy-setup-1-link-evo.html
+                - img "Image" [ref=e293]
+              - generic [ref=e294]:
+                - strong [ref=e295]:
+                  - link "SPYPOINT Link-EVO Cellular Trail Camera, 4G/LTE, 12MP HD Video, High Power LEDs&Infrared Boost Tech, 0.3s Trigger Speed, 80' Detect&90' Flash, Easy Setup ((1) LINK-EVO)" [ref=e296] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/spypoint-link-evo-cellular-trail-camera-4g-lte-12mp-hd-video-high-power-leds-infrared-boost-tech-0-3s-trigger-speed-80-detect-90-flash-easy-setup-1-link-evo.html
+                - generic [ref=e299]: $199.99
+                - generic [ref=e301]:
+                  - button "Add to Cart" [ref=e304] [cursor=pointer]
+                  - generic [ref=e305]:
+                    - button "Add to Wish List" [ref=e306] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e307]: Add to Wish List
+                    - button "Add to Compare" [ref=e308] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e309]: Add to Compare
+          - listitem [ref=e310]:
+            - generic [ref=e311]:
+              - link "Image" [ref=e312] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/orion-40908-grandview-vari-angle-zoom-spottingx-40mm-slate.html
+                - img "Image" [ref=e315]
+              - generic [ref=e316]:
+                - strong [ref=e317]:
+                  - link "Orion 40908 Grandview Vari-Angle Zoom Spottingx 40mm, Slate" [ref=e318] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/orion-40908-grandview-vari-angle-zoom-spottingx-40mm-slate.html
+                - generic [ref=e321]: $269.99
+                - generic [ref=e323]:
+                  - button "Add to Cart" [ref=e326] [cursor=pointer]
+                  - generic [ref=e327]:
+                    - button "Add to Wish List" [ref=e328] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e329]: Add to Wish List
+                    - button "Add to Compare" [ref=e330] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e331]: Add to Compare
+          - listitem [ref=e332]:
+            - generic [ref=e333]:
+              - link "Image" [ref=e334] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/dkrgvny-lace-spcling-lingerie-womens-sexy-hollow-out-underwear-bodysuit-one-piece-snap-crotch-clubwear-teddy-bodysuit.html
+                - img "Image" [ref=e337]
+              - generic [ref=e338]:
+                - strong [ref=e339]:
+                  - link "DkRgVNY Lace Spcling Lingerie Womens Sexy Hollow Out Underwear Bodysuit One Piece Snap Crotch Clubwear Teddy Bodysuit" [ref=e340] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/dkrgvny-lace-spcling-lingerie-womens-sexy-hollow-out-underwear-bodysuit-one-piece-snap-crotch-clubwear-teddy-bodysuit.html
+                - generic [ref=e343]: $11.09
+                - generic [ref=e345]:
+                  - button "Add to Cart" [ref=e348] [cursor=pointer]
+                  - generic [ref=e349]:
+                    - button "Add to Wish List" [ref=e350] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e351]: Add to Wish List
+                    - button "Add to Compare" [ref=e352] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e353]: Add to Compare
+          - listitem [ref=e354]:
+            - generic [ref=e355]:
+              - link "Image" [ref=e356] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/mens-cotton-dress-shirts-short-sleeve-button-down-summer-casual-roll-up-beach-hawaiian-hipster-tops-classic-poplin-shirt.html
+                - img "Image" [ref=e359]
+              - generic [ref=e360]:
+                - strong [ref=e361]:
+                  - link "Mens Cotton Dress Shirts Short Sleeve Button Down Summer Casual Roll Up Beach Hawaiian Hipster Tops Classic Poplin Shirt" [ref=e362] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/mens-cotton-dress-shirts-short-sleeve-button-down-summer-casual-roll-up-beach-hawaiian-hipster-tops-classic-poplin-shirt.html
+                - generic [ref=e365]: $12.99
+                - generic [ref=e367]:
+                  - button "Add to Cart" [ref=e370] [cursor=pointer]
+                  - generic [ref=e371]:
+                    - button "Add to Wish List" [ref=e372] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e373]: Add to Wish List
+                    - button "Add to Compare" [ref=e374] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e375]: Add to Compare
+        - generic [ref=e376]:
+          - generic [ref=e377]:
+            - strong [ref=e378]: Page
+            - list "Page" [ref=e379]:
+              - listitem [ref=e380]:
+                - strong [ref=e381]:
+                  - generic [ref=e382]: You're currently reading page
+                  - text: "1"
+              - listitem [ref=e383]:
+                - link "Page 2" [ref=e384] [cursor=pointer]:
+                  - /url: http://127.0.0.1:7770/sports-outdoors.html?p=2
+                  - generic [ref=e385]: Page
+                  - text: "2"
+              - listitem [ref=e386]:
+                - link "Page 3" [ref=e387] [cursor=pointer]:
+                  - /url: http://127.0.0.1:7770/sports-outdoors.html?p=3
+                  - generic [ref=e388]: Page
+                  - text: "3"
+              - listitem [ref=e389]:
+                - link "Page 4" [ref=e390] [cursor=pointer]:
+                  - /url: http://127.0.0.1:7770/sports-outdoors.html?p=4
+                  - generic [ref=e391]: Page
+                  - text: "4"
+              - listitem [ref=e392]:
+                - link "Page 5" [ref=e393] [cursor=pointer]:
+                  - /url: http://127.0.0.1:7770/sports-outdoors.html?p=5
+                  - generic [ref=e394]: Page
+                  - text: "5"
+              - listitem [ref=e395]:
+                - link " Page Next" [ref=e396] [cursor=pointer]:
+                  - /url: http://127.0.0.1:7770/sports-outdoors.html?p=2
+                  - text: 
+                  - generic [ref=e397]: Page
+                  - generic [ref=e398]: Next
+          - generic [ref=e399]:
+            - generic [ref=e400]: Show
+            - combobox "Show" [ref=e402]:
+              - option "12" [selected]
+              - option "24"
+              - option "36"
+            - text: per page
+      - generic [ref=e404]:
+        - strong [ref=e406]: Shop By
+        - generic [ref=e407]:
+          - heading "Shopping Options" [level=2] [ref=e408]
+          - generic [ref=e409]:
+            - heading "Category" [level=3] [ref=e410]
+            - definition [ref=e411]:
+              - list [ref=e412]:
+                - listitem [ref=e413]:
+                  - link "Hunting & Fishing( 158 item )" [ref=e414] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/sports-outdoors.html?cat=25
+                    - text: Hunting & Fishing
+                    - generic [ref=e415]:
+                      - text: ( 158
+                      - generic [ref=e416]: item
+                      - text: )
+                - listitem [ref=e417]:
+                  - link "Exercise & Fitness( 76 item )" [ref=e418] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/sports-outdoors.html?cat=29
+                    - text: Exercise & Fitness
+                    - generic [ref=e419]:
+                      - text: ( 76
+                      - generic [ref=e420]: item
+                      - text: )
+                - listitem [ref=e421]:
+                  - link "Fan Shop( 338 item )" [ref=e422] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/sports-outdoors.html?cat=30
+                    - text: Fan Shop
+                    - generic [ref=e423]:
+                      - text: ( 338
+                      - generic [ref=e424]: item
+                      - text: )
+                - listitem [ref=e425]:
+                  - link "Sports & Outdoor Recreation Accessories( 157 item )" [ref=e426] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/sports-outdoors.html?cat=32
+                    - text: Sports & Outdoor Recreation Accessories
+                    - generic [ref=e427]:
+                      - text: ( 157
+                      - generic [ref=e428]: item
+                      - text: )
+                - listitem [ref=e429]:
+                  - link "Sports( 75 item )" [ref=e430] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/sports-outdoors.html?cat=33
+                    - text: Sports
+                    - generic [ref=e431]:
+                      - text: ( 75
+                      - generic [ref=e432]: item
+                      - text: )
+            - heading "Price" [level=3] [ref=e433]
+            - definition [ref=e434]:
+              - list [ref=e435]:
+                - listitem [ref=e436]:
+                  - link "$0.00 - $999.99( 874 item )" [ref=e437] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/sports-outdoors.html?price=0-1000
+                    - text: $0.00 - $999.99
+                    - generic [ref=e438]:
+                      - text: ( 874
+                      - generic [ref=e439]: item
+                      - text: )
+                - listitem [ref=e440]:
+                  - link "$1,000.00 - $1,999.99( 2 item )" [ref=e441] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/sports-outdoors.html?price=1000-2000
+                    - text: $1,000.00 - $1,999.99
+                    - generic [ref=e442]:
+                      - text: ( 2
+                      - generic [ref=e443]: item
+                      - text: )
+                - listitem [ref=e444]:
+                  - link "$2,000.00 - $2,999.99( 2 item )" [ref=e445] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/sports-outdoors.html?price=2000-3000
+                    - text: $2,000.00 - $2,999.99
+                    - generic [ref=e446]:
+                      - text: ( 2
+                      - generic [ref=e447]: item
+                      - text: )
+                - listitem [ref=e448]:
+                  - link "$3,000.00 - $3,999.99( 2 item )" [ref=e449] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/sports-outdoors.html?price=3000-4000
+                    - text: $3,000.00 - $3,999.99
+                    - generic [ref=e450]:
+                      - text: ( 2
+                      - generic [ref=e451]: item
+                      - text: )
+                - listitem [ref=e452]:
+                  - link "$5,000.00 - $5,999.99( 1 item )" [ref=e453] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/sports-outdoors.html?price=5000-6000
+                    - text: $5,000.00 - $5,999.99
+                    - generic [ref=e454]:
+                      - text: ( 1
+                      - generic [ref=e455]: item
+                      - text: )
+                - listitem [ref=e456]:
+                  - link "$6,000.00 - $6,999.99( 1 item )" [ref=e457] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/sports-outdoors.html?price=6000-7000
+                    - text: $6,000.00 - $6,999.99
+                    - generic [ref=e458]:
+                      - text: ( 1
+                      - generic [ref=e459]: item
+                      - text: )
+                - listitem [ref=e460]:
+                  - link "$7,000.00 and above( 1 item )" [ref=e461] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/sports-outdoors.html?price=7000-8000
+                    - text: $7,000.00 and above
+                    - generic [ref=e462]:
+                      - text: ( 1
+                      - generic [ref=e463]: item
+                      - text: )
+      - generic [ref=e464]:
+        - generic [ref=e465]:
+          - generic [ref=e466]:
+            - heading "Compare Products" [level=2] [ref=e467]
+            - text: 3 items
+          - generic "Compare Products" [ref=e468]:
+            - list [ref=e469]:
+              - listitem [ref=e470]:
+                - strong [ref=e471]:
+                  - link "Multi Accessory Hub Adapter By JOBY – Get The Right Set Up For Your Vision By Attaching All The GoPro Accessories You Need In One Central Spot" [ref=e472] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/multi-accessory-hub-adapter-by-joby-get-the-right-set-up-for-your-vision-by-attaching-all-the-gopro-accessories-you-need-in-one-central-spot.html
+                - link " Remove This Item" [ref=e473] [cursor=pointer]:
+                  - /url: "#"
+                  - text: 
+                  - generic [ref=e474]: Remove This Item
+              - listitem [ref=e475]:
+                - strong [ref=e476]:
+                  - link "linxiaojix Waterproof Shell for Osmo Pocket, Camera Case Camera Cover Diving Cover for Osmo Pocket, 60M Waterproof for Travel Trip" [ref=e477] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/linxiaojix-waterproof-shell-for-osmo-pocket-camera-case-camera-cover-diving-cover-for-osmo-pocket-60m-waterproof-for-travel-trip.html
+                - link " Remove This Item" [ref=e478] [cursor=pointer]:
+                  - /url: "#"
+                  - text: 
+                  - generic [ref=e479]: Remove This Item
+              - listitem [ref=e480]:
+                - strong [ref=e481]:
+                  - 'link "Q Mixers Premium Ginger Ale: Real Ingredients & Less Sweet, 6.7 Fl Oz (24 Bottles)" [ref=e482] [cursor=pointer]':
+                    - /url: http://127.0.0.1:7770/q-mixers-premium-ginger-ale-real-ingredients-less-sweet-6-7-fl-oz-24-bottles.html
+                - link " Remove This Item" [ref=e483] [cursor=pointer]:
+                  - /url: "#"
+                  - text: 
+                  - generic [ref=e484]: Remove This Item
+            - generic [ref=e485]:
+              - link "Compare" [ref=e487] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/catalog/product_compare/index/uenc/aHR0cDovLzEyNy4wLjAuMTo3NzcwL2N1c3RvbWVyL3NlY3Rpb24vbG9hZC8_c2VjdGlvbnM9Y29tcGFyZS1wcm9kdWN0cyUyQ21lc3NhZ2VzJmZvcmNlX25ld19zZWN0aW9uX3RpbWVzdGFtcD1mYWxzZSZfPTE3OTA1NjM0NzA5NzY~/
+              - link "Clear All" [ref=e489] [cursor=pointer]:
+                - /url: "#"
+        - generic [ref=e490]:
+          - heading "My Wish List" [level=2] [ref=e492]
+          - generic [ref=e494]: You have no items in your wish list.
+  - contentinfo [ref=e495]:
+    - generic [ref=e496]:
+      - generic [ref=e499]:
+        - generic [ref=e501]:
+          - text: 
+          - generic [ref=e502]:
+            - generic [ref=e503]: "Sign Up for Our Newsletter:"
+            - textbox "Sign Up for Our Newsletter:" [ref=e504]:
+              - /placeholder: Enter your email address
+        - button "Subscribe" [ref=e506] [cursor=pointer]
+      - list [ref=e507]:
+        - listitem [ref=e508]:
+          - link "Privacy and Cookie Policy" [ref=e509] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/privacy-policy-cookie-restriction-mode/
+        - listitem [ref=e510]:
+          - link "Search Terms" [ref=e511] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/search/term/popular/
+        - listitem [ref=e512]:
+          - link "Advanced Search" [ref=e513] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/catalogsearch/advanced/
+        - listitem [ref=e514]:
+          - link "Orders and Returns" [ref=e515] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/sales/guest/form/
+        - listitem [ref=e516]:
+          - link "Contact Us" [ref=e517] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/contact/
+      - generic [ref=e518]: Copyright © 2013-present Magento, Inc. All rights reserved.
+      - generic [ref=e519]:
+        - text: Help Us Keep Magento Healthy
+        - link "Report All Bugs" [ref=e520] [cursor=pointer]:
+          - /url: http://www.magentocommerce.com/bug-tracking

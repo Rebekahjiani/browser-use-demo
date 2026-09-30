@@ -1,0 +1,34 @@
+{
+  "url": "http://127.0.0.1:7770/briess-dme-pilsen-light-1-lb-bag.html",
+  "title": "Briess DME - Pilsen Light - 1 lb Bag",
+  "route": "/briess-dme-pilsen-light-1-lb-bag.html",
+  "captured_from": "drive",
+  "sources": {
+    "aria_source": "..\\drive\\screenshots\\027_briess-dme-pilsen-light-1-lb-bag_html\\aria.yml",
+    "catalog": "<runDir>/evidence_catalog.json",
+    "evidence_ids": [
+      "trace:api_candidate:line12782",
+      "trace:api_candidate:line12786",
+      "trace:api_candidate:line12787",
+      "trace:api_candidate:line12788",
+      "trace:api_candidate:line12849",
+      "trace:api_candidate:line12916",
+      "trace:api_candidate:line12924",
+      "trace:api_candidate:line12954",
+      "trace:api_candidate:line12974",
+      "trace:api_candidate:line12981",
+      "trace:api_candidate:line12982",
+      "trace:api_candidate:line12983",
+      "trace:api_candidate:line12984",
+      "trace:api_candidate:line12985",
+      "trace:api_candidate:line12986",
+      "trace:api_candidate:line12987",
+      "trace:api_candidate:line12988",
+      "trace:api_candidate:line12989",
+      "trace:api_candidate:line12990",
+      "trace:api_candidate:line12991",
+      "trace:api_candidate:line13248"
+    ]
+  },
+  "tree_format": "aria_yml"
+}

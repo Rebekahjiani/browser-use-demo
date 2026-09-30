@@ -1,0 +1,30 @@
+{
+  "url": "http://127.0.0.1:7770/cooloo-cell-phone-stand-2-pack-mobile-phone-anti-skid-holder-cradle-dock-compatible-android-smartphone-phone-11-pro-xs-max-xr-x-8-7-6-6s-plus-5s-accessories-desk-black.html",
+  "title": "COOLOO Cell Phone Stand,【2 Pack】 Mobile Phone Anti-Skid Holder, Cradle, Dock Compatible Android Smartphone, Phone 11 Pro Xs Max Xr X 8 7 6 6s Plus 5s, Accessories Desk - Black",
+  "route": "/cooloo-cell-phone-stand-2-pack-mobile-phone-anti-skid-holder-cradle-dock-compatible-android-smartphone-phone-11-pro-xs-max-xr-x-8-7-6-6s-plus-5s-accessories-desk-black.html",
+  "captured_from": "drive",
+  "sources": {
+    "aria_source": "..\\drive\\screenshots\\004_cooloo-cell-phone-stand-2-pack-mobile-phone-anti-skid-holder\\aria.yml",
+    "catalog": "<runDir>/evidence_catalog.json",
+    "evidence_ids": [
+      "trace:api_candidate:line1800",
+      "trace:api_candidate:line1807",
+      "trace:api_candidate:line1808",
+      "trace:api_candidate:line1809",
+      "trace:api_candidate:line1870",
+      "trace:api_candidate:line1943",
+      "trace:api_candidate:line1944",
+      "trace:api_candidate:line1956",
+      "trace:api_candidate:line1989",
+      "trace:api_candidate:line2002",
+      "trace:api_candidate:line2007",
+      "trace:api_candidate:line2008",
+      "trace:api_candidate:line2009",
+      "trace:api_candidate:line2025",
+      "trace:api_candidate:line2026",
+      "trace:api_candidate:line2027",
+      "trace:api_candidate:line2265"
+    ]
+  },
+  "tree_format": "aria_yml"
+}

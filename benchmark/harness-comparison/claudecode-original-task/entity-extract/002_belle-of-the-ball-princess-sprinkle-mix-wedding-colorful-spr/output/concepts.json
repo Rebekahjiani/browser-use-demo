@@ -1,0 +1,130 @@
+{
+  "concepts": [
+    {
+      "canonical_name": "商品",
+      "concept_type": "business_entity",
+      "description": "Belle Of The Ball 公主糖粒商品详情页展示的商品，含 SKU、库存状态、评分、评论数、价格、数量、规格及 Product Quick Look 信息。",
+      "aliases": [
+        "Product",
+        "product"
+      ],
+      "attributes": [
+        {
+          "name": "名称",
+          "note": "页面标题（heading）/商品名",
+          "source_refs": [
+            "page.aria.yml:heading:Belle Of The Ball Princess Sprinkle Mix"
+          ]
+        },
+        {
+          "name": "SKU",
+          "note": "SKU 标签（strong）",
+          "source_refs": [
+            "page.aria.yml:strong:SKU"
+          ]
+        },
+        {
+          "name": "Availability",
+          "note": "库存状态（Availability 标签）",
+          "source_refs": [
+            "page.aria.yml:generic:Availability"
+          ]
+        },
+        {
+          "name": "评分",
+          "note": "Rating: 标签",
+          "source_refs": [
+            "page.aria.yml:generic:Rating:"
+          ]
+        },
+        {
+          "name": "评论数",
+          "note": "12 Reviews 链接",
+          "source_refs": [
+            "page.aria.yml:link:12 Reviews"
+          ]
+        },
+        {
+          "name": "Price",
+          "note": "商品价格文本",
+          "source_refs": [
+            "page.aria.yml:generic:Price"
+          ]
+        },
+        {
+          "name": "Qty",
+          "note": "数量输入（spinbutton）",
+          "source_refs": [
+            "page.aria.yml:spinbutton:Qty"
+          ]
+        },
+        {
+          "name": "规格",
+          "note": "Size * 单选：2/4/8 Ounce (Pack of 1)",
+          "source_refs": [
+            "page.aria.yml:radio:Size *"
+          ]
+        },
+        {
+          "name": "Product Dimensions",
+          "note": "Quick Look 表格行头",
+          "source_refs": [
+            "page.aria.yml:rowheader:Product Dimensions"
+          ]
+        },
+        {
+          "name": "UPC",
+          "note": "Quick Look 表格行头",
+          "source_refs": [
+            "page.aria.yml:rowheader:UPC"
+          ]
+        },
+        {
+          "name": "Manufacturer",
+          "note": "Quick Look 表格行头",
+          "source_refs": [
+            "page.aria.yml:rowheader:Manufacturer"
+          ]
+        },
+        {
+          "name": "ASIN",
+          "note": "Quick Look 表格行头",
+          "source_refs": [
+            "page.aria.yml:rowheader:ASIN"
+          ]
+        },
+        {
+          "name": "Country of Origin",
+          "note": "Quick Look 表格行头",
+          "source_refs": [
+            "page.aria.yml:rowheader:Country of Origin"
+          ]
+        }
+      ],
+      "evidence_refs": [
+        "E010"
+      ],
+      "api_refs": [
+        "E010"
+      ],
+      "page_refs": [
+        "002_belle-of-the-ball-princess-sprinkle-mix-wedding-colorful-spr"
+      ]
+    },
+    {
+      "canonical_name": "商品-查询",
+      "concept_type": "operation",
+      "description": "加载顾客会话数据（GET /customer/section/load/，返回 cart 区块），用于更新页面上的购物车/商品相关状态。",
+      "belongs_to_entity": "商品",
+      "evidence_refs": [
+        "E010"
+      ],
+      "api_refs": [
+        "E010"
+      ]
+    }
+  ],
+  "notes": [
+    "商品详情页自身的文档 GET 未出现在 endpoints.jsonl；E022（/cell-phones-accessories.html 类目 GET）为会话中的导航内容，非本页展示数据，未计入 api_refs；静态模板端点已排除。"
+  ]
+}

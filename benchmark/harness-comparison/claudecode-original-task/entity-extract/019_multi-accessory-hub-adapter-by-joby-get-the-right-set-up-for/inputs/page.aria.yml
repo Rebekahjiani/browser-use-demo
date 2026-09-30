@@ -1,0 +1,254 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e5]:
+      - list [ref=e6]:
+        - listitem [ref=e7]:
+          - link "My Account" [ref=e8] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/customer/account/
+        - listitem [ref=e9]:
+          - link "My Wish List" [ref=e10] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/wishlist/
+        - listitem [ref=e11]:
+          - link "Sign In" [ref=e12] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/customer/account/login/
+        - listitem [ref=e13]:
+          - link "Compare Products 3 items" [ref=e14] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/catalog/product_compare/index/uenc/aHR0cDovLzEyNy4wLjAuMTo3NzcwL2N1c3RvbWVyL3NlY3Rpb24vbG9hZC8_c2VjdGlvbnM9Y29tcGFyZS1wcm9kdWN0cyUyQ21lc3NhZ2VzJmZvcmNlX25ld19zZWN0aW9uX3RpbWVzdGFtcD1mYWxzZSZfPTE3OTA1NjM0NzA5NzY~/
+        - listitem [ref=e15]: Welcome to One Stop Market
+        - listitem [ref=e16]:
+          - link "Create an Account" [ref=e17] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/customer/account/create/
+      - link "Skip to Content" [ref=e18] [cursor=pointer]:
+        - /url: "#contentarea"
+    - generic [ref=e19]:
+      - text: 
+      - link "store logo" [ref=e20] [cursor=pointer]:
+        - /url: http://127.0.0.1:7770/
+        - img "one_stop_market_logo" [ref=e21]
+      - generic [ref=e22]:
+        - link " My Cart 3 3 items" [ref=e23] [cursor=pointer]:
+          - /url: http://127.0.0.1:7770/checkout/cart/
+          - text: 
+          - generic [ref=e24]: My Cart
+          - generic [ref=e25]:
+            - generic [ref=e26]: "3"
+            - generic [ref=e27]: 3 items
+        - text: " : :   :   :  "
+      - generic [ref=e30]:
+        - generic [ref=e31]:
+          - generic [ref=e32]:
+            - text: 
+            - generic [ref=e33]: Search
+          - generic [ref=e34]:
+            - combobox " Search" [ref=e35]
+            - link "Advanced Search" [ref=e37] [cursor=pointer]:
+              - /url: http://127.0.0.1:7770/catalogsearch/advanced/
+        - generic:
+          - button "Search" [disabled]:
+            - text: 
+            - generic: Search
+  - tablist [ref=e39]:
+    - tabpanel [ref=e40]:
+      - navigation [ref=e41]:
+        - menu [ref=e42]:
+          - listitem [ref=e43]:
+            - menuitem " Beauty & Personal Care" [ref=e44] [cursor=pointer]:
+              - generic [ref=e45]: 
+              - text: Beauty & Personal Care
+            - text:          
+          - listitem [ref=e46]:
+            - menuitem " Sports & Outdoors" [ref=e47] [cursor=pointer]:
+              - generic [ref=e48]: 
+              - text: Sports & Outdoors
+            - text:   
+          - listitem [ref=e49]:
+            - menuitem " Clothing, Shoes & Jewelry" [ref=e50] [cursor=pointer]:
+              - generic [ref=e51]: 
+              - text: Clothing, Shoes & Jewelry
+            - text:    
+          - listitem [ref=e52]:
+            - menuitem " Home & Kitchen" [ref=e53] [cursor=pointer]:
+              - generic [ref=e54]: 
+              - text: Home & Kitchen
+            - text:       
+          - listitem [ref=e55]:
+            - menuitem " Office Products" [ref=e56] [cursor=pointer]:
+              - generic [ref=e57]: 
+              - text: Office Products
+            - text:   
+          - listitem [ref=e58]:
+            - menuitem " Tools & Home Improvement" [ref=e59] [cursor=pointer]:
+              - generic [ref=e60]: 
+              - text: Tools & Home Improvement
+            - text: 
+          - listitem [ref=e61]:
+            - menuitem " Health & Household" [ref=e62] [cursor=pointer]:
+              - generic [ref=e63]: 
+              - text: Health & Household
+            - text:  
+          - listitem [ref=e64]:
+            - menuitem " Patio, Lawn & Garden" [ref=e65] [cursor=pointer]:
+              - generic [ref=e66]: 
+              - text: Patio, Lawn & Garden
+            - text: 
+          - listitem [ref=e67]:
+            - menuitem " Electronics" [ref=e68] [cursor=pointer]:
+              - generic [ref=e69]: 
+              - text: Electronics
+            - text:            
+          - listitem [ref=e70]:
+            - menuitem " Cell Phones & Accessories" [ref=e71] [cursor=pointer]:
+              - generic [ref=e72]: 
+              - text: Cell Phones & Accessories
+            - text:  
+          - listitem [ref=e73]:
+            - menuitem " Video Games" [ref=e74] [cursor=pointer]:
+              - generic [ref=e75]: 
+              - text: Video Games
+            - text:    
+          - listitem [ref=e76]:
+            - menuitem " Grocery & Gourmet Food" [ref=e77] [cursor=pointer]:
+              - generic [ref=e78]: 
+              - text: Grocery & Gourmet Food
+            - text:             
+  - list [ref=e80]:
+    - listitem [ref=e81]:
+      - link "Home" [ref=e82] [cursor=pointer]:
+        - /url: http://127.0.0.1:7770/
+      - text: 
+    - listitem [ref=e83]:
+      - link "Patio, Lawn & Garden" [ref=e84] [cursor=pointer]:
+        - /url: http://127.0.0.1:7770/patio-lawn-garden.html
+      - text: 
+    - listitem [ref=e85]:
+      - strong [ref=e86]: Multi Accessory Hub Adapter By JOBY – Get The Right Set Up For Your Vision By Attaching All The GoPro Accessories You Need In One Central Spot
+  - main [ref=e87]:
+    - heading "Multi Accessory Hub Adapter By JOBY – Get The Right Set Up For Your Vision By Attaching All The GoPro Accessories You Need In One Central Spot" [level=1] [ref=e89]
+    - generic [ref=e91]:
+      - generic [ref=e92]:
+        - generic [ref=e93]:
+          - generic [ref=e94]:
+            - generic "Availability" [ref=e95]: In stock
+            - generic [ref=e96]:
+              - strong [ref=e97]: SKU
+              - generic [ref=e98]: B00RZEYSE8
+          - generic [ref=e99]:
+            - generic [ref=e100]:
+              - generic [ref=e101]: "Rating:"
+              - generic "90%" [ref=e102]:
+                - text: 
+                - generic [ref=e103]:
+                  - text: 
+                  - generic [ref=e104]:
+                    - generic [ref=e105]: "90"
+                    - text: "% of"
+                    - generic [ref=e106]: "100"
+            - generic [ref=e107]:
+              - link "12 Reviews" [ref=e108] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/multi-accessory-hub-adapter-by-joby-get-the-right-set-up-for-your-vision-by-attaching-all-the-gopro-accessories-you-need-in-one-central-spot.html#reviews
+              - link "Add Your Review" [ref=e109] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/multi-accessory-hub-adapter-by-joby-get-the-right-set-up-for-your-vision-by-attaching-all-the-gopro-accessories-you-need-in-one-central-spot.html#review-form
+          - generic [ref=e112]: $14.95
+        - generic [ref=e116]:
+          - generic [ref=e117]:
+            - generic [ref=e118]: Qty
+            - spinbutton "Qty" [ref=e120]: "1"
+          - button "Add to Cart" [ref=e122] [cursor=pointer]
+        - generic [ref=e124]:
+          - link "Add to Wish List" [ref=e125] [cursor=pointer]:
+            - /url: "#"
+          - link "Add to Compare" [ref=e126] [cursor=pointer]:
+            - /url: "#"
+      - generic [ref=e127]:
+        - link "Skip to the end of the images gallery" [ref=e128] [cursor=pointer]:
+          - /url: "#gallery-next-area"
+        - generic [ref=e131]:
+          - generic [ref=e132]:
+            - button "Previous" [ref=e133] [cursor=pointer]
+            - generic [ref=e135]:
+              - img "Image" [ref=e137]
+              - img [ref=e139]
+            - button "Next"
+          - generic [ref=e141]:
+            - button "Previous"
+            - generic [ref=e142]:
+              - button "Image" [ref=e144]:
+                - img "Image" [ref=e146]
+              - button "Image" [ref=e147]:
+                - img "Image" [ref=e149]
+            - button "Next"
+        - link "Skip to the beginning of the images gallery" [ref=e150] [cursor=pointer]:
+          - /url: "#gallery-prev-area"
+      - tablist [ref=e152]:
+        - tab "Details" [expanded] [ref=e153]:
+          - link "Details" [ref=e154] [cursor=pointer]:
+            - /url: "#description"
+        - tabpanel "Details" [ref=e155]:
+          - generic [ref=e158]:
+            - heading "Product Quick Look" [level=2] [ref=e159]
+            - generic [ref=e160]:
+              - list [ref=e162]:
+                - listitem [ref=e163]: The Hub Adapter gives you the perfect solution for attaching multiple accessories for your GoPro or other action video cameras. Providing a central connection point for multiple ¼” - 20 male accessories such as Locking Arms, Gorilla Pod Arms, flashes and microphones. Attach the base to a tripod and then up to 4 mounting solutions to film with multiple cameras or added accessories, or remove the male screw and knob for access to 6 attachment points. The Hub Adapter gives you one durable, central hub to attach all the accessories you need for the perfect shot.
+                - listitem [ref=e164]: For GoPro/Action Video Cameras, Tripods and Camera Accessories
+                - listitem [ref=e165]: A durable, aluminum connection point for multiple ¼”-20 screw accessories such as the Locking Arm and GorillaPod Arm.
+                - listitem [ref=e166]: "Ribbed knob for easy tightening: when mounting to a female 1⁄4\"-20 accessory, such as the Action Clamp, you can twist the top knob to tighten in place."
+                - listitem [ref=e167]: "Four to Six 1⁄4\"-20 mounting sockets: top screw can be removed to provide 6 sockets. Mount any male 1⁄4\"-20 accessory such as a tripod, GorillaPod Arm, or Locking Arm."
+                - listitem [ref=e168]: CNC-machined, this hub adapter provides a strong, lightweight solution for mounting different accessories (flashes, microphones, etc.)
+              - table [ref=e170]:
+                - rowgroup [ref=e171]:
+                  - row "Product Dimensions 1.44 x 0.88 x 0.88 inches" [ref=e172]:
+                    - rowheader "Product Dimensions" [ref=e173]
+                    - cell "1.44 x 0.88 x 0.88 inches" [ref=e174]
+                  - row "Item Weight 0.353 ounces" [ref=e175]:
+                    - rowheader "Item Weight" [ref=e176]
+                    - cell "0.353 ounces" [ref=e177]
+                  - row "Item model number JB01346" [ref=e178]:
+                    - rowheader "Item model number" [ref=e179]
+                    - cell "JB01346" [ref=e180]
+                  - row "Is Discontinued By Manufacturer No" [ref=e181]:
+                    - rowheader "Is Discontinued By Manufacturer" [ref=e182]
+                    - cell "No" [ref=e183]
+                  - row "Date First Available February 19, 2015" [ref=e184]:
+                    - rowheader "Date First Available" [ref=e185]
+                    - cell "February 19, 2015" [ref=e186]
+                  - row "Manufacturer Joby, Inc" [ref=e187]:
+                    - rowheader "Manufacturer" [ref=e188]
+                    - cell "Joby, Inc" [ref=e189]
+                  - row "Country of Origin China" [ref=e190]:
+                    - rowheader "Country of Origin" [ref=e191]
+                    - cell "China" [ref=e192]
+        - tab "Reviews (12)" [ref=e193]:
+          - link "Reviews (12)" [ref=e194] [cursor=pointer]:
+            - /url: "#reviews"
+        - text: "*       * * *"
+  - contentinfo [ref=e195]:
+    - generic [ref=e196]:
+      - generic [ref=e199]:
+        - generic [ref=e201]:
+          - text: 
+          - generic [ref=e202]:
+            - generic [ref=e203]: "Sign Up for Our Newsletter:"
+            - textbox "Sign Up for Our Newsletter:" [ref=e204]:
+              - /placeholder: Enter your email address
+        - button "Subscribe" [ref=e206] [cursor=pointer]
+      - list [ref=e207]:
+        - listitem [ref=e208]:
+          - link "Privacy and Cookie Policy" [ref=e209] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/privacy-policy-cookie-restriction-mode/
+        - listitem [ref=e210]:
+          - link "Search Terms" [ref=e211] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/search/term/popular/
+        - listitem [ref=e212]:
+          - link "Advanced Search" [ref=e213] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/catalogsearch/advanced/
+        - listitem [ref=e214]:
+          - link "Orders and Returns" [ref=e215] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/sales/guest/form/
+        - listitem [ref=e216]:
+          - link "Contact Us" [ref=e217] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/contact/
+      - generic [ref=e218]: Copyright © 2013-present Magento, Inc. All rights reserved.
+      - generic [ref=e219]:
+        - text: Help Us Keep Magento Healthy
+        - link "Report All Bugs" [ref=e220] [cursor=pointer]:
+          - /url: http://www.magentocommerce.com/bug-tracking

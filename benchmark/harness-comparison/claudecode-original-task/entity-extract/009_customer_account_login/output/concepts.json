@@ -1,0 +1,47 @@
+{
+  "concepts": [
+    {
+      "canonical_name": "客户",
+      "concept_type": "business_entity",
+      "description": "Customer Login 页面登录表单对应的客户账户，含邮箱与密码。",
+      "aliases": [
+        "Customer",
+        "客户账户"
+      ],
+      "attributes": [
+        {
+          "name": "Email",
+          "note": "登录表单输入框 label",
+          "source_refs": [
+            "page.aria.yml:textbox:Email*"
+          ]
+        },
+        {
+          "name": "Password",
+          "note": "登录表单输入框 label",
+          "source_refs": [
+            "page.aria.yml:textbox:Password*"
+          ]
+        }
+      ],
+      "evidence_refs": [],
+      "api_refs": [],
+      "page_refs": [
+        "009_customer_account_login"
+      ]
+    },
+    {
+      "canonical_name": "客户-登录",
+      "concept_type": "operation",
+      "description": "填写邮箱密码后点击 Sign In 登录客户账户。本页仅树锚点（Sign In 按钮），无对应数据接口证据。",
+      "belongs_to_entity": "客户",
+      "evidence_refs": [
+        "page.aria.yml:button:Sign In"
+      ],
+      "api_refs": []
+    }
+  ],
+  "notes": [
+    "本页捕获到多个类目页 GET（video-games、cell-phones-accessories、sports-outdoors、patio-lawn-garden、electronics、home-kitchen、health-household）、会话端点（/customer/account/login/、/customer/account/ 302、/wishlist/ 302、/contact/、/catalogsearch/advanced/、/customer/section/load/）与静态模板端点；均非本页登录表单的数据来源，api_refs 留空（宁缺勿错）。"
+  ]
+}

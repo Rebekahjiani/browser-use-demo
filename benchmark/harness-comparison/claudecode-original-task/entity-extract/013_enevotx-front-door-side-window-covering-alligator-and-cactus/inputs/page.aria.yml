@@ -1,0 +1,238 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e5]:
+      - list [ref=e6]:
+        - listitem [ref=e7]:
+          - link "My Account" [ref=e8] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/customer/account/
+        - listitem [ref=e9]:
+          - link "My Wish List" [ref=e10] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/wishlist/
+        - listitem [ref=e11]:
+          - link "Sign In" [ref=e12] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/customer/account/login/
+        - listitem [ref=e13]:
+          - link "Compare Products 3 items" [ref=e14] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/catalog/product_compare/index/uenc/aHR0cDovLzEyNy4wLjAuMTo3NzcwL2N1c3RvbWVyL3NlY3Rpb24vbG9hZC8_c2VjdGlvbnM9Y29tcGFyZS1wcm9kdWN0cyUyQ21lc3NhZ2VzJmZvcmNlX25ld19zZWN0aW9uX3RpbWVzdGFtcD1mYWxzZSZfPTE3OTA1NjM0NzA5NzY~/
+        - listitem [ref=e15]: Welcome to One Stop Market
+        - listitem [ref=e16]:
+          - link "Create an Account" [ref=e17] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/customer/account/create/
+      - link "Skip to Content" [ref=e18] [cursor=pointer]:
+        - /url: "#contentarea"
+    - generic [ref=e19]:
+      - text: 
+      - link "store logo" [ref=e20] [cursor=pointer]:
+        - /url: http://127.0.0.1:7770/
+        - img "one_stop_market_logo" [ref=e21]
+      - generic [ref=e22]:
+        - link " My Cart 3 3 items" [ref=e23] [cursor=pointer]:
+          - /url: http://127.0.0.1:7770/checkout/cart/
+          - text: 
+          - generic [ref=e24]: My Cart
+          - generic [ref=e25]:
+            - generic [ref=e26]: "3"
+            - generic [ref=e27]: 3 items
+        - text: " : :   :   :  "
+      - generic [ref=e30]:
+        - generic [ref=e31]:
+          - generic [ref=e32]:
+            - text: 
+            - generic [ref=e33]: Search
+          - generic [ref=e34]:
+            - combobox " Search" [ref=e35]
+            - link "Advanced Search" [ref=e37] [cursor=pointer]:
+              - /url: http://127.0.0.1:7770/catalogsearch/advanced/
+        - generic:
+          - button "Search" [disabled]:
+            - text: 
+            - generic: Search
+  - tablist [ref=e39]:
+    - tabpanel [ref=e40]:
+      - navigation [ref=e41]:
+        - menu [ref=e42]:
+          - listitem [ref=e43]:
+            - menuitem " Beauty & Personal Care" [ref=e44] [cursor=pointer]:
+              - generic [ref=e45]: 
+              - text: Beauty & Personal Care
+            - text:          
+          - listitem [ref=e46]:
+            - menuitem " Sports & Outdoors" [ref=e47] [cursor=pointer]:
+              - generic [ref=e48]: 
+              - text: Sports & Outdoors
+            - text:   
+          - listitem [ref=e49]:
+            - menuitem " Clothing, Shoes & Jewelry" [ref=e50] [cursor=pointer]:
+              - generic [ref=e51]: 
+              - text: Clothing, Shoes & Jewelry
+            - text:    
+          - listitem [ref=e52]:
+            - menuitem " Home & Kitchen" [ref=e53] [cursor=pointer]:
+              - generic [ref=e54]: 
+              - text: Home & Kitchen
+            - text:       
+          - listitem [ref=e55]:
+            - menuitem " Office Products" [ref=e56] [cursor=pointer]:
+              - generic [ref=e57]: 
+              - text: Office Products
+            - text:   
+          - listitem [ref=e58]:
+            - menuitem " Tools & Home Improvement" [ref=e59] [cursor=pointer]:
+              - generic [ref=e60]: 
+              - text: Tools & Home Improvement
+            - text: 
+          - listitem [ref=e61]:
+            - menuitem " Health & Household" [ref=e62] [cursor=pointer]:
+              - generic [ref=e63]: 
+              - text: Health & Household
+            - text:  
+          - listitem [ref=e64]:
+            - menuitem " Patio, Lawn & Garden" [ref=e65] [cursor=pointer]:
+              - generic [ref=e66]: 
+              - text: Patio, Lawn & Garden
+            - text: 
+          - listitem [ref=e67]:
+            - menuitem " Electronics" [ref=e68] [cursor=pointer]:
+              - generic [ref=e69]: 
+              - text: Electronics
+            - text:            
+          - listitem [ref=e70]:
+            - menuitem " Cell Phones & Accessories" [ref=e71] [cursor=pointer]:
+              - generic [ref=e72]: 
+              - text: Cell Phones & Accessories
+            - text:  
+          - listitem [ref=e73]:
+            - menuitem " Video Games" [ref=e74] [cursor=pointer]:
+              - generic [ref=e75]: 
+              - text: Video Games
+            - text:    
+          - listitem [ref=e76]:
+            - menuitem " Grocery & Gourmet Food" [ref=e77] [cursor=pointer]:
+              - generic [ref=e78]: 
+              - text: Grocery & Gourmet Food
+            - text:             
+  - list [ref=e80]:
+    - listitem [ref=e81]:
+      - link "Home" [ref=e82] [cursor=pointer]:
+        - /url: http://127.0.0.1:7770/
+      - text: 
+    - listitem [ref=e83]:
+      - link "Patio, Lawn & Garden" [ref=e84] [cursor=pointer]:
+        - /url: http://127.0.0.1:7770/patio-lawn-garden.html
+      - text: 
+    - listitem [ref=e85]:
+      - strong [ref=e86]: ENEVOTX Front Door Side Window Covering Alligator and Cactus Decor for Front Door Durable Fabric Decor for Door Multi Size Door Protector for Bedroom Home Kitchen Party Decoration
+  - main [ref=e87]:
+    - heading "ENEVOTX Front Door Side Window Covering Alligator and Cactus Decor for Front Door Durable Fabric Decor for Door Multi Size Door Protector for Bedroom Home Kitchen Party Decoration" [level=1] [ref=e89]
+    - generic [ref=e91]:
+      - generic [ref=e92]:
+        - generic [ref=e93]:
+          - generic [ref=e94]:
+            - generic "Availability" [ref=e95]: In stock
+            - generic [ref=e96]:
+              - strong [ref=e97]: SKU
+              - generic [ref=e98]: B08L7LQDWF
+          - link "Be the first to review this product" [ref=e101] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/enevotx-front-door-side-window-covering-alligator-and-cactus-decor-for-front-door-durable-fabric-decor-for-door-multi-size-door-protector-for-bedroom-home-kitchen-party-decoration.html#review-form
+          - generic [ref=e104]: $38.00
+        - generic [ref=e106]:
+          - generic [ref=e109]:
+            - generic [ref=e110]: Size *
+            - generic [ref=e112]:
+              - generic [ref=e113]:
+                - radio "L:36x97inch" [ref=e114]
+                - generic [ref=e115]: L:36x97inch
+              - generic [ref=e116]:
+                - radio "M:36x79inch" [ref=e117]
+                - generic [ref=e118]: M:36x79inch
+              - generic [ref=e119]:
+                - radio "S:32x79inch" [ref=e120]
+                - generic [ref=e121]: S:32x79inch
+          - generic [ref=e124]:
+            - generic [ref=e125]:
+              - generic [ref=e126]: Qty
+              - spinbutton "Qty" [ref=e128]: "1"
+            - button "Add to Cart" [ref=e130] [cursor=pointer]
+        - generic [ref=e132]:
+          - link "Add to Wish List" [ref=e133] [cursor=pointer]:
+            - /url: "#"
+          - link "Add to Compare" [ref=e134] [cursor=pointer]:
+            - /url: "#"
+      - generic [ref=e135]:
+        - link "Skip to the end of the images gallery" [ref=e136] [cursor=pointer]:
+          - /url: "#gallery-next-area"
+        - generic [ref=e139]:
+          - generic [ref=e140]:
+            - button "Previous" [ref=e141] [cursor=pointer]
+            - generic [ref=e143]:
+              - img "Image" [ref=e145]
+              - img [ref=e147]
+            - button "Next"
+          - generic [ref=e149]:
+            - button "Previous"
+            - generic [ref=e150]:
+              - button "Image" [ref=e152]:
+                - img "Image" [ref=e154]
+              - button "Image" [ref=e155]:
+                - img "Image" [ref=e157]
+            - button "Next"
+        - link "Skip to the beginning of the images gallery" [ref=e158] [cursor=pointer]:
+          - /url: "#gallery-prev-area"
+      - tablist [ref=e160]:
+        - tab "Details" [expanded] [ref=e161]:
+          - link "Details" [ref=e162] [cursor=pointer]:
+            - /url: "#description"
+        - tabpanel "Details" [ref=e163]:
+          - generic [ref=e166]:
+            - heading "Product Quick Look" [level=2] [ref=e167]
+            - generic [ref=e168]:
+              - list [ref=e170]:
+                - listitem [ref=e171]: Door covers for themed parties and festivals.Essentials for Halloween party decoration.Essentials for large holiday parties.Provide door covers of various sizes and themes. Porch decorative door covers, very suitable for outdoor large-scale holiday gatherings!.These elements create a better atmosphere for holding festive party decorations. Hang on the front door decoration and spend a good time on happy festivals and large parties.
+                - listitem [ref=e172]: "◆Three Sizes to Choose: Small: 82cm x 200cm / 32 x 79 inches, Medium: 90cm x 200cm / 36 x 79 inches, Large: 91cm x 248cm / 36 x 97 inches. Please measure the size of the door before ordering, and then select the appropriate size."
+                - listitem [ref=e173]: "◆High-Quality Door Cover: The decorations door cover is made of lightweight fabric, it is weather-resistant and highly durable. It uses premium colorfast permanent dye to create colorful, vibrant designs artwork."
+                - listitem [ref=e174]: "◆Multi Functions: No tools required for installation and removal in just a few minutes, the front is flat and wrinkle free.Easy to find the door handle position.Most people use it for kitchen,living room, utility room, garage,stairwell."
+                - listitem [ref=e175]: "◆Easy to Clean: Hand wash or machine wash, dry in a cool place. Please use mild neutral detergent as detergent.Can be folded for multiple use. Don't iron. Keep away from flames."
+                - listitem [ref=e176]: "◆Warm Notice: The real color of the item may be slightly different from the pictures shown on website caused by many factors such as brightness of your monitor and light brightness."
+              - table [ref=e178]:
+                - rowgroup [ref=e179]:
+                  - row "Manufacturer ENEVOTX" [ref=e180]:
+                    - rowheader "Manufacturer" [ref=e181]
+                    - cell "ENEVOTX" [ref=e182]
+                  - row "Item model number Doorcover-264-20201015" [ref=e183]:
+                    - rowheader "Item model number" [ref=e184]
+                    - cell "Doorcover-264-20201015" [ref=e185]
+        - tab "Reviews" [ref=e186]:
+          - link "Reviews" [ref=e187] [cursor=pointer]:
+            - /url: "#reviews"
+        - text: "*       * * *"
+  - contentinfo [ref=e188]:
+    - generic [ref=e189]:
+      - generic [ref=e192]:
+        - generic [ref=e194]:
+          - text: 
+          - generic [ref=e195]:
+            - generic [ref=e196]: "Sign Up for Our Newsletter:"
+            - textbox "Sign Up for Our Newsletter:" [ref=e197]:
+              - /placeholder: Enter your email address
+        - button "Subscribe" [ref=e199] [cursor=pointer]
+      - list [ref=e200]:
+        - listitem [ref=e201]:
+          - link "Privacy and Cookie Policy" [ref=e202] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/privacy-policy-cookie-restriction-mode/
+        - listitem [ref=e203]:
+          - link "Search Terms" [ref=e204] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/search/term/popular/
+        - listitem [ref=e205]:
+          - link "Advanced Search" [ref=e206] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/catalogsearch/advanced/
+        - listitem [ref=e207]:
+          - link "Orders and Returns" [ref=e208] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/sales/guest/form/
+        - listitem [ref=e209]:
+          - link "Contact Us" [ref=e210] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/contact/
+      - generic [ref=e211]: Copyright © 2013-present Magento, Inc. All rights reserved.
+      - generic [ref=e212]:
+        - text: Help Us Keep Magento Healthy
+        - link "Report All Bugs" [ref=e213] [cursor=pointer]:
+          - /url: http://www.magentocommerce.com/bug-tracking

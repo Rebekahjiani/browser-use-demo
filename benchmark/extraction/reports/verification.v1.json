@@ -1,0 +1,24 @@
+{
+  "two_runs_equal_except_scored_at": true,
+  "tampered_input_rejected": true,
+  "self_checks_passed": 8,
+  "freeze_sha256": "3a28aac1ccbb882adb5f23481d94184e59ac978009993a5d9bcc9e52262b9590",
+  "reports": [
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\extraction\\reports\\existing-trace-scoped.v1.json",
+      "sha256": "8385df072c9b63bc71541a0fe26279f3d94e5fc35c64fef6e15e60cc1cccfff0"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\extraction\\reports\\existing-trace-scoped.v1.md",
+      "sha256": "f46200fcb4dc761a8904b712473fb4276ebc6e1ac1348a002c80af3f1fbc86c3"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\extraction\\reports\\existing-trace-scoped.v1.recomputed.json",
+      "sha256": "f0e05270abf1eca961fc6a7d41d1ba7f7a3a3807f2dc95bb43225e39feae7e44"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\extraction\\reports\\existing-trace-scoped.v1.recomputed.md",
+      "sha256": "446780d5538eaa99404cd4c5c30d990513dd0f323f9345b35429f870c8cadd51"
+    }
+  ]
+}

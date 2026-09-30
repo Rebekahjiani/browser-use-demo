@@ -1,0 +1,142 @@
+{
+  "concepts": [
+    {
+      "canonical_name": "商品",
+      "concept_type": "business_entity",
+      "description": "Energizer MAX C Batteries 碱性电池商品详情页展示的商品，含 SKU、库存状态、评分、评论数、价格、款式选项、数量、对比表及 Product Quick Look 信息。",
+      "aliases": [
+        "Product",
+        "product"
+      ],
+      "attributes": [
+        {
+          "name": "名称",
+          "note": "页面标题（heading）/商品名",
+          "source_refs": [
+            "page.aria.yml:heading:Energizer MAX C Batteries"
+          ]
+        },
+        {
+          "name": "SKU",
+          "note": "SKU 标签（strong）",
+          "source_refs": [
+            "page.aria.yml:strong:SKU"
+          ]
+        },
+        {
+          "name": "Availability",
+          "note": "库存状态（Availability 标签）",
+          "source_refs": [
+            "page.aria.yml:generic:Availability"
+          ]
+        },
+        {
+          "name": "评分",
+          "note": "Rating: 标签",
+          "source_refs": [
+            "page.aria.yml:generic:Rating:"
+          ]
+        },
+        {
+          "name": "评论数",
+          "note": "12 Reviews 链接",
+          "source_refs": [
+            "page.aria.yml:link:12 Reviews"
+          ]
+        },
+        {
+          "name": "Price",
+          "note": "商品价格文本",
+          "source_refs": [
+            "page.aria.yml:generic:Price"
+          ]
+        },
+        {
+          "name": "款式",
+          "note": "Style * 单选：C 2 Count/C 4 Count/C 8 Count/C, 4 Count/Combo Pack 12C+12D",
+          "source_refs": [
+            "page.aria.yml:radio:Style *"
+          ]
+        },
+        {
+          "name": "Qty",
+          "note": "数量输入（spinbutton）",
+          "source_refs": [
+            "page.aria.yml:spinbutton:Qty"
+          ]
+        },
+        {
+          "name": "对比特征-可用规格",
+          "note": "对比表行头（Comp Chart Feature: Available Sizes）",
+          "source_refs": [
+            "page.aria.yml:rowheader:Comp Chart Feature: Available Sizes"
+          ]
+        },
+        {
+          "name": "对比特征-成分",
+          "note": "对比表行头（Comp Chart Feature: Composition）",
+          "source_refs": [
+            "page.aria.yml:rowheader:Comp Chart Feature: Composition"
+          ]
+        },
+        {
+          "name": "Product Dimensions",
+          "note": "Quick Look 表格行头",
+          "source_refs": [
+            "page.aria.yml:rowheader:Product Dimensions"
+          ]
+        },
+        {
+          "name": "Item model number",
+          "note": "Quick Look 表格行头",
+          "source_refs": [
+            "page.aria.yml:rowheader:Item model number"
+          ]
+        },
+        {
+          "name": "Batteries",
+          "note": "Quick Look 表格行头",
+          "source_refs": [
+            "page.aria.yml:rowheader:Batteries"
+          ]
+        },
+        {
+          "name": "Date First Available",
+          "note": "Quick Look 表格行头",
+          "source_refs": [
+            "page.aria.yml:rowheader:Date First Available"
+          ]
+        },
+        {
+          "name": "Manufacturer",
+          "note": "Quick Look 表格行头",
+          "source_refs": [
+            "page.aria.yml:rowheader:Manufacturer"
+          ]
+        },
+        {
+          "name": "ASIN",
+          "note": "Quick Look 表格行头",
+          "source_refs": [
+            "page.aria.yml:rowheader:ASIN"
+          ]
+        },
+        {
+          "name": "Country of Origin",
+          "note": "Quick Look 表格行头",
+          "source_refs": [
+            "page.aria.yml:rowheader:Country of Origin"
+          ]
+        }
+      ],
+      "evidence_refs": [],
+      "api_refs": [],
+      "page_refs": [
+        "012_energizer-max-c-batteries-premium-alkaline-c-cell-batteries-"
+      ]
+    }
+  ],
+  "notes": [
+    "本页仅捕获到 /customer/section/load/（E010，仅 messages）与 404 的 /dp/...（E022），无商品数据接口；商品实体纯树锚点，api_refs 留空（宁缺勿错）。"
+  ]
+}

@@ -1,0 +1,2586 @@
+[
+  {
+    "ref": "U00000",
+    "text": "- generic [ref=e2]:"
+  },
+  {
+    "ref": "U00001",
+    "text": "- banner [ref=e3]:"
+  },
+  {
+    "ref": "U00002",
+    "text": "- generic [ref=e5]:"
+  },
+  {
+    "ref": "U00003",
+    "text": "- list [ref=e6]:"
+  },
+  {
+    "ref": "U00004",
+    "text": "- listitem [ref=e7]:"
+  },
+  {
+    "ref": "U00005",
+    "text": "- link \"My Account\" [ref=e8] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00006",
+    "text": "- /url: http://127.0.0.1:7770/customer/account/"
+  },
+  {
+    "ref": "U00007",
+    "text": "- listitem [ref=e9]:"
+  },
+  {
+    "ref": "U00008",
+    "text": "- link \"My Wish List\" [ref=e10] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00009",
+    "text": "- /url: http://127.0.0.1:7770/wishlist/"
+  },
+  {
+    "ref": "U00010",
+    "text": "- listitem [ref=e11]:"
+  },
+  {
+    "ref": "U00011",
+    "text": "- link \"Sign In\" [ref=e12] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00012",
+    "text": "- /url: http://127.0.0.1:7770/customer/account/login/"
+  },
+  {
+    "ref": "U00013",
+    "text": "- listitem [ref=e13]:"
+  },
+  {
+    "ref": "U00014",
+    "text": "- link \"Compare Products 2 items\" [ref=e14] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00015",
+    "text": "- /url: http://127.0.0.1:7770/catalog/product_compare/index/uenc/aHR0cDovLzEyNy4wLjAuMTo3NzcwL2N1c3RvbWVyL3NlY3Rpb24vbG9hZC8_c2VjdGlvbnM9Y29tcGFyZS1wcm9kdWN0cyUyQ21lc3NhZ2VzJmZvcmNlX25ld19zZWN0aW9uX3RpbWVzdGFtcD1mYWxzZSZfPTE3OTA1NjMzMTA1MDM~/"
+  },
+  {
+    "ref": "U00016",
+    "text": "- listitem [ref=e15]: Welcome to One Stop Market"
+  },
+  {
+    "ref": "U00017",
+    "text": "- listitem [ref=e16]:"
+  },
+  {
+    "ref": "U00018",
+    "text": "- link \"Create an Account\" [ref=e17] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00019",
+    "text": "- /url: http://127.0.0.1:7770/customer/account/create/"
+  },
+  {
+    "ref": "U00020",
+    "text": "- link \"Skip to Content\" [ref=e18] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00021",
+    "text": "- /url: \"#contentarea\""
+  },
+  {
+    "ref": "U00022",
+    "text": "- generic [ref=e19]:"
+  },
+  {
+    "ref": "U00023",
+    "text": "- text: "
+  },
+  {
+    "ref": "U00024",
+    "text": "- link \"store logo\" [ref=e20] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00025",
+    "text": "- /url: http://127.0.0.1:7770/"
+  },
+  {
+    "ref": "U00026",
+    "text": "- img \"one_stop_market_logo\" [ref=e21]"
+  },
+  {
+    "ref": "U00027",
+    "text": "- generic [ref=e22]:"
+  },
+  {
+    "ref": "U00028",
+    "text": "- link \" My Cart 1 1 items\" [ref=e23] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00029",
+    "text": "- /url: http://127.0.0.1:7770/checkout/cart/"
+  },
+  {
+    "ref": "U00030",
+    "text": "- text: "
+  },
+  {
+    "ref": "U00031",
+    "text": "- generic [ref=e24]: My Cart"
+  },
+  {
+    "ref": "U00032",
+    "text": "- generic [ref=e25]:"
+  },
+  {
+    "ref": "U00033",
+    "text": "- generic [ref=e26]: \"1\""
+  },
+  {
+    "ref": "U00034",
+    "text": "- generic [ref=e27]: 1 items"
+  },
+  {
+    "ref": "U00035",
+    "text": "- text: \" : :  \""
+  },
+  {
+    "ref": "U00036",
+    "text": "- generic [ref=e30]:"
+  },
+  {
+    "ref": "U00037",
+    "text": "- generic [ref=e31]:"
+  },
+  {
+    "ref": "U00038",
+    "text": "- generic [ref=e32]:"
+  },
+  {
+    "ref": "U00039",
+    "text": "- text: "
+  },
+  {
+    "ref": "U00040",
+    "text": "- generic [ref=e33]: Search"
+  },
+  {
+    "ref": "U00041",
+    "text": "- generic [ref=e34]:"
+  },
+  {
+    "ref": "U00042",
+    "text": "- combobox \" Search\" [ref=e35]"
+  },
+  {
+    "ref": "U00043",
+    "text": "- link \"Advanced Search\" [ref=e37] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00044",
+    "text": "- /url: http://127.0.0.1:7770/catalogsearch/advanced/"
+  },
+  {
+    "ref": "U00045",
+    "text": "- generic:"
+  },
+  {
+    "ref": "U00046",
+    "text": "- button \"Search\" [disabled]:"
+  },
+  {
+    "ref": "U00047",
+    "text": "- text: "
+  },
+  {
+    "ref": "U00048",
+    "text": "- generic: Search"
+  },
+  {
+    "ref": "U00049",
+    "text": "- tablist [ref=e39]:"
+  },
+  {
+    "ref": "U00050",
+    "text": "- tabpanel [ref=e40]:"
+  },
+  {
+    "ref": "U00051",
+    "text": "- navigation [ref=e41]:"
+  },
+  {
+    "ref": "U00052",
+    "text": "- menu [ref=e42]:"
+  },
+  {
+    "ref": "U00053",
+    "text": "- listitem [ref=e43]:"
+  },
+  {
+    "ref": "U00054",
+    "text": "- menuitem \" Beauty & Personal Care\" [ref=e44] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00055",
+    "text": "- generic [ref=e45]: "
+  },
+  {
+    "ref": "U00056",
+    "text": "- text: Beauty & Personal Care"
+  },
+  {
+    "ref": "U00057",
+    "text": "- text:          "
+  },
+  {
+    "ref": "U00058",
+    "text": "- listitem [ref=e46]:"
+  },
+  {
+    "ref": "U00059",
+    "text": "- menuitem \" Sports & Outdoors\" [ref=e47] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00060",
+    "text": "- generic [ref=e48]: "
+  },
+  {
+    "ref": "U00061",
+    "text": "- text: Sports & Outdoors"
+  },
+  {
+    "ref": "U00062",
+    "text": "- text:   "
+  },
+  {
+    "ref": "U00063",
+    "text": "- listitem [ref=e49]:"
+  },
+  {
+    "ref": "U00064",
+    "text": "- menuitem \" Clothing, Shoes & Jewelry\" [ref=e50] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00065",
+    "text": "- generic [ref=e51]: "
+  },
+  {
+    "ref": "U00066",
+    "text": "- text: Clothing, Shoes & Jewelry"
+  },
+  {
+    "ref": "U00067",
+    "text": "- text:    "
+  },
+  {
+    "ref": "U00068",
+    "text": "- listitem [ref=e52]:"
+  },
+  {
+    "ref": "U00069",
+    "text": "- menuitem \" Home & Kitchen\" [ref=e53] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00070",
+    "text": "- generic [ref=e54]: "
+  },
+  {
+    "ref": "U00071",
+    "text": "- text: Home & Kitchen"
+  },
+  {
+    "ref": "U00072",
+    "text": "- text:       "
+  },
+  {
+    "ref": "U00073",
+    "text": "- listitem [ref=e55]:"
+  },
+  {
+    "ref": "U00074",
+    "text": "- menuitem \" Office Products\" [ref=e56] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00075",
+    "text": "- generic [ref=e57]: "
+  },
+  {
+    "ref": "U00076",
+    "text": "- text: Office Products"
+  },
+  {
+    "ref": "U00077",
+    "text": "- text:   "
+  },
+  {
+    "ref": "U00078",
+    "text": "- listitem [ref=e58]:"
+  },
+  {
+    "ref": "U00079",
+    "text": "- menuitem \" Tools & Home Improvement\" [ref=e59] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00080",
+    "text": "- generic [ref=e60]: "
+  },
+  {
+    "ref": "U00081",
+    "text": "- text: Tools & Home Improvement"
+  },
+  {
+    "ref": "U00082",
+    "text": "- text: "
+  },
+  {
+    "ref": "U00083",
+    "text": "- listitem [ref=e61]:"
+  },
+  {
+    "ref": "U00084",
+    "text": "- menuitem \" Health & Household\" [ref=e62] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00085",
+    "text": "- generic [ref=e63]: "
+  },
+  {
+    "ref": "U00086",
+    "text": "- text: Health & Household"
+  },
+  {
+    "ref": "U00087",
+    "text": "- text:  "
+  },
+  {
+    "ref": "U00088",
+    "text": "- listitem [ref=e64]:"
+  },
+  {
+    "ref": "U00089",
+    "text": "- menuitem \" Patio, Lawn & Garden\" [ref=e65] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00090",
+    "text": "- generic [ref=e66]: "
+  },
+  {
+    "ref": "U00091",
+    "text": "- text: Patio, Lawn & Garden"
+  },
+  {
+    "ref": "U00092",
+    "text": "- text: "
+  },
+  {
+    "ref": "U00093",
+    "text": "- listitem [ref=e67]:"
+  },
+  {
+    "ref": "U00094",
+    "text": "- menuitem \" Electronics\" [ref=e68] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00095",
+    "text": "- generic [ref=e69]: "
+  },
+  {
+    "ref": "U00096",
+    "text": "- text: Electronics"
+  },
+  {
+    "ref": "U00097",
+    "text": "- text:            "
+  },
+  {
+    "ref": "U00098",
+    "text": "- listitem [ref=e70]:"
+  },
+  {
+    "ref": "U00099",
+    "text": "- menuitem \" Cell Phones & Accessories\" [ref=e71] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00100",
+    "text": "- generic [ref=e72]: "
+  },
+  {
+    "ref": "U00101",
+    "text": "- text: Cell Phones & Accessories"
+  },
+  {
+    "ref": "U00102",
+    "text": "- text:  "
+  },
+  {
+    "ref": "U00103",
+    "text": "- listitem [ref=e73]:"
+  },
+  {
+    "ref": "U00104",
+    "text": "- menuitem \" Video Games\" [ref=e74] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00105",
+    "text": "- generic [ref=e75]: "
+  },
+  {
+    "ref": "U00106",
+    "text": "- text: Video Games"
+  },
+  {
+    "ref": "U00107",
+    "text": "- text:    "
+  },
+  {
+    "ref": "U00108",
+    "text": "- listitem [ref=e76]:"
+  },
+  {
+    "ref": "U00109",
+    "text": "- menuitem \" Grocery & Gourmet Food\" [ref=e77] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00110",
+    "text": "- generic [ref=e78]: "
+  },
+  {
+    "ref": "U00111",
+    "text": "- text: Grocery & Gourmet Food"
+  },
+  {
+    "ref": "U00112",
+    "text": "- text:             "
+  },
+  {
+    "ref": "U00113",
+    "text": "- list [ref=e80]:"
+  },
+  {
+    "ref": "U00114",
+    "text": "- listitem [ref=e81]:"
+  },
+  {
+    "ref": "U00115",
+    "text": "- link \"Home\" [ref=e82] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00116",
+    "text": "- /url: http://127.0.0.1:7770/"
+  },
+  {
+    "ref": "U00117",
+    "text": "- text: "
+  },
+  {
+    "ref": "U00118",
+    "text": "- listitem [ref=e83]:"
+  },
+  {
+    "ref": "U00119",
+    "text": "- strong [ref=e84]: Electronics"
+  },
+  {
+    "ref": "U00120",
+    "text": "- main [ref=e85]:"
+  },
+  {
+    "ref": "U00121",
+    "text": "- heading \"Electronics Items 1-12 of 14539\" [level=1] [ref=e87]: Electronics"
+  },
+  {
+    "ref": "U00122",
+    "text": "- generic [ref=e88]:"
+  },
+  {
+    "ref": "U00123",
+    "text": "- generic [ref=e89]:"
+  },
+  {
+    "ref": "U00124",
+    "text": "- generic [ref=e90]:"
+  },
+  {
+    "ref": "U00125",
+    "text": "- generic [ref=e91]:"
+  },
+  {
+    "ref": "U00126",
+    "text": "- strong [ref=e92]: View as"
+  },
+  {
+    "ref": "U00127",
+    "text": "- strong [ref=e93]:"
+  },
+  {
+    "ref": "U00128",
+    "text": "- text: "
+  },
+  {
+    "ref": "U00129",
+    "text": "- generic [ref=e94]: Grid"
+  },
+  {
+    "ref": "U00130",
+    "text": "- link \"View as  List\" [ref=e95] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00131",
+    "text": "- /url: \"#\""
+  },
+  {
+    "ref": "U00132",
+    "text": "- text: "
+  },
+  {
+    "ref": "U00133",
+    "text": "- generic [ref=e96]: List"
+  },
+  {
+    "ref": "U00134",
+    "text": "- paragraph [ref=e97]: Items 1-12 of 14539"
+  },
+  {
+    "ref": "U00135",
+    "text": "- generic [ref=e98]:"
+  },
+  {
+    "ref": "U00136",
+    "text": "- text: Sort By"
+  },
+  {
+    "ref": "U00137",
+    "text": "- combobox \"Sort By\" [ref=e99]:"
+  },
+  {
+    "ref": "U00138",
+    "text": "- option \"Position\" [selected]"
+  },
+  {
+    "ref": "U00139",
+    "text": "- option \"Product Name\""
+  },
+  {
+    "ref": "U00140",
+    "text": "- option \"Price\""
+  },
+  {
+    "ref": "U00141",
+    "text": "- link \" Set Descending Direction\" [ref=e100] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00142",
+    "text": "- /url: \"#\""
+  },
+  {
+    "ref": "U00143",
+    "text": "- text: "
+  },
+  {
+    "ref": "U00144",
+    "text": "- generic [ref=e101]: Set Descending Direction"
+  },
+  {
+    "ref": "U00145",
+    "text": "- list [ref=e103]:"
+  },
+  {
+    "ref": "U00146",
+    "text": "- listitem [ref=e104]:"
+  },
+  {
+    "ref": "U00147",
+    "text": "- generic [ref=e105]:"
+  },
+  {
+    "ref": "U00148",
+    "text": "- link \"Image\" [ref=e106] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00149",
+    "text": "- /url: http://127.0.0.1:7770/navitech-black-hard-carry-bag-case-cover-with-shoulder-strap-compatible-with-the-vr-virtual-reality-3d-headsets-including-the-crypto-vr-150-virtual-reality-headset-3d-glasses.html"
+  },
+  {
+    "ref": "U00150",
+    "text": "- img \"Image\" [ref=e109]"
+  },
+  {
+    "ref": "U00151",
+    "text": "- generic [ref=e110]:"
+  },
+  {
+    "ref": "U00152",
+    "text": "- strong [ref=e111]:"
+  },
+  {
+    "ref": "U00153",
+    "text": "- link \"Navitech Black Hard Carry Bag/Case/Cover with Shoulder Strap Compatible with The VR/Virtual Reality 3D headsets Including The Crypto VR 150 Virtual Reality Headset 3D Glasses\" [ref=e112] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00154",
+    "text": "- /url: http://127.0.0.1:7770/navitech-black-hard-carry-bag-case-cover-with-shoulder-strap-compatible-with-the-vr-virtual-reality-3d-headsets-including-the-crypto-vr-150-virtual-reality-headset-3d-glasses.html"
+  },
+  {
+    "ref": "U00155",
+    "text": "- generic [ref=e115]: $24.99"
+  },
+  {
+    "ref": "U00156",
+    "text": "- generic [ref=e117]:"
+  },
+  {
+    "ref": "U00157",
+    "text": "- button \"Add to Cart\" [ref=e120] [cursor=pointer]"
+  },
+  {
+    "ref": "U00158",
+    "text": "- generic [ref=e121]:"
+  },
+  {
+    "ref": "U00159",
+    "text": "- button \"Add to Wish List\" [ref=e122] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00160",
+    "text": "- text: "
+  },
+  {
+    "ref": "U00161",
+    "text": "- generic [ref=e123]: Add to Wish List"
+  },
+  {
+    "ref": "U00162",
+    "text": "- button \"Add to Compare\" [ref=e124] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00163",
+    "text": "- text: "
+  },
+  {
+    "ref": "U00164",
+    "text": "- generic [ref=e125]: Add to Compare"
+  },
+  {
+    "ref": "U00165",
+    "text": "- listitem [ref=e126]:"
+  },
+  {
+    "ref": "U00166",
+    "text": "- generic [ref=e127]:"
+  },
+  {
+    "ref": "U00167",
+    "text": "- link \"Image\" [ref=e128] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00168",
+    "text": "- /url: http://127.0.0.1:7770/zosi-h-265-poe-home-security-camera-system-outdoor-indoor-8-channel-5mp-poe-nvr-recorder-4pcs-wired-2mp-1080p-surveillance-bullet-poe-ip-cameras-no-hard-drive-renewed.html"
+  },
+  {
+    "ref": "U00169",
+    "text": "- img \"Image\" [ref=e131]"
+  },
+  {
+    "ref": "U00170",
+    "text": "- generic [ref=e132]:"
+  },
+  {
+    "ref": "U00171",
+    "text": "- strong [ref=e133]:"
+  },
+  {
+    "ref": "U00172",
+    "text": "- link \"ZOSI H.265+ PoE Home Security Camera System Outdoor Indoor,8-Channel 5MP PoE NVR Recorder,4pcs Wired 2MP 1080p Surveillance Bullet PoE IP Cameras, No Hard Drive (Renewed)\" [ref=e134] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00173",
+    "text": "- /url: http://127.0.0.1:7770/zosi-h-265-poe-home-security-camera-system-outdoor-indoor-8-channel-5mp-poe-nvr-recorder-4pcs-wired-2mp-1080p-surveillance-bullet-poe-ip-cameras-no-hard-drive-renewed.html"
+  },
+  {
+    "ref": "U00174",
+    "text": "- generic [ref=e137]: $169.99"
+  },
+  {
+    "ref": "U00175",
+    "text": "- generic [ref=e139]:"
+  },
+  {
+    "ref": "U00176",
+    "text": "- button \"Add to Cart\" [ref=e142] [cursor=pointer]"
+  },
+  {
+    "ref": "U00177",
+    "text": "- generic [ref=e143]:"
+  },
+  {
+    "ref": "U00178",
+    "text": "- button \"Add to Wish List\" [ref=e144] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00179",
+    "text": "- text: "
+  },
+  {
+    "ref": "U00180",
+    "text": "- generic [ref=e145]: Add to Wish List"
+  },
+  {
+    "ref": "U00181",
+    "text": "- button \"Add to Compare\" [ref=e146] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00182",
+    "text": "- text: "
+  },
+  {
+    "ref": "U00183",
+    "text": "- generic [ref=e147]: Add to Compare"
+  },
+  {
+    "ref": "U00184",
+    "text": "- listitem [ref=e148]:"
+  },
+  {
+    "ref": "U00185",
+    "text": "- generic [ref=e149]:"
+  },
+  {
+    "ref": "U00186",
+    "text": "- link \"Image\" [ref=e150] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00187",
+    "text": "- /url: http://127.0.0.1:7770/indoor-pet-camera-hd-1080p-no-wifi-security-camera-with-night-vision-no-built-in-baterry.html"
+  },
+  {
+    "ref": "U00188",
+    "text": "- img \"Image\" [ref=e153]"
+  },
+  {
+    "ref": "U00189",
+    "text": "- generic [ref=e154]:"
+  },
+  {
+    "ref": "U00190",
+    "text": "- strong [ref=e155]:"
+  },
+  {
+    "ref": "U00191",
+    "text": "- link \"Indoor Pet Camera, HD 1080P No WiFi Security Camera with Night Vision-No Built-in Baterry\" [ref=e156] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00192",
+    "text": "- /url: http://127.0.0.1:7770/indoor-pet-camera-hd-1080p-no-wifi-security-camera-with-night-vision-no-built-in-baterry.html"
+  },
+  {
+    "ref": "U00193",
+    "text": "- generic [ref=e159]: $28.99"
+  },
+  {
+    "ref": "U00194",
+    "text": "- generic [ref=e161]:"
+  },
+  {
+    "ref": "U00195",
+    "text": "- button \"Add to Cart\" [ref=e164] [cursor=pointer]"
+  },
+  {
+    "ref": "U00196",
+    "text": "- generic [ref=e165]:"
+  },
+  {
+    "ref": "U00197",
+    "text": "- button \"Add to Wish List\" [ref=e166] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00198",
+    "text": "- text: "
+  },
+  {
+    "ref": "U00199",
+    "text": "- generic [ref=e167]: Add to Wish List"
+  },
+  {
+    "ref": "U00200",
+    "text": "- button \"Add to Compare\" [ref=e168] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00201",
+    "text": "- text: "
+  },
+  {
+    "ref": "U00202",
+    "text": "- generic [ref=e169]: Add to Compare"
+  },
+  {
+    "ref": "U00203",
+    "text": "- listitem [ref=e170]:"
+  },
+  {
+    "ref": "U00204",
+    "text": "- generic [ref=e171]:"
+  },
+  {
+    "ref": "U00205",
+    "text": "- link \"Image\" [ref=e172] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00206",
+    "text": "- /url: http://127.0.0.1:7770/rockville-ch103sp-chuchero-car-audio-enclosure-for-2-10-mids-2-3-tweeter.html"
+  },
+  {
+    "ref": "U00207",
+    "text": "- img \"Image\" [ref=e175]"
+  },
+  {
+    "ref": "U00208",
+    "text": "- generic [ref=e176]:"
+  },
+  {
+    "ref": "U00209",
+    "text": "- strong [ref=e177]:"
+  },
+  {
+    "ref": "U00210",
+    "text": "- link \"Rockville CH103SP Chuchero Car Audio Enclosure For (2) 10\\\" Mids + (2) 3\\\" Tweeter\" [ref=e178] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00211",
+    "text": "- /url: http://127.0.0.1:7770/rockville-ch103sp-chuchero-car-audio-enclosure-for-2-10-mids-2-3-tweeter.html"
+  },
+  {
+    "ref": "U00212",
+    "text": "- generic [ref=e181]: $56.68"
+  },
+  {
+    "ref": "U00213",
+    "text": "- generic [ref=e183]:"
+  },
+  {
+    "ref": "U00214",
+    "text": "- button \"Add to Cart\" [ref=e186] [cursor=pointer]"
+  },
+  {
+    "ref": "U00215",
+    "text": "- generic [ref=e187]:"
+  },
+  {
+    "ref": "U00216",
+    "text": "- button \"Add to Wish List\" [ref=e188] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00217",
+    "text": "- text: "
+  },
+  {
+    "ref": "U00218",
+    "text": "- generic [ref=e189]: Add to Wish List"
+  },
+  {
+    "ref": "U00219",
+    "text": "- button \"Add to Compare\" [ref=e190] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00220",
+    "text": "- text: "
+  },
+  {
+    "ref": "U00221",
+    "text": "- generic [ref=e191]: Add to Compare"
+  },
+  {
+    "ref": "U00222",
+    "text": "- listitem [ref=e192]:"
+  },
+  {
+    "ref": "U00223",
+    "text": "- generic [ref=e193]:"
+  },
+  {
+    "ref": "U00224",
+    "text": "- link \"Image\" [ref=e194] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00225",
+    "text": "- /url: http://127.0.0.1:7770/150ft-quad-shield-solid-copper-3ghz-rg-6-coaxial-cable-75-ohm-directv-satellite-tv-or-broadband-internet-anti-corrosion-brass-connector-rg6-fittings-assembled-in-usa-by-phat-satellite-intl.html"
+  },
+  {
+    "ref": "U00226",
+    "text": "- img \"Image\" [ref=e197]"
+  },
+  {
+    "ref": "U00227",
+    "text": "- generic [ref=e198]:"
+  },
+  {
+    "ref": "U00228",
+    "text": "- strong [ref=e199]:"
+  },
+  {
+    "ref": "U00229",
+    "text": "- link \"150ft Quad Shield Solid Copper 3GHZ RG-6 Coaxial Cable 75 Ohm (DIRECTV Satellite TV or Broadband Internet) Anti Corrosion Brass Connector RG6 Fittings Assembled in USA by PHAT SATELLITE INTL\" [ref=e200] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00230",
+    "text": "- /url: http://127.0.0.1:7770/150ft-quad-shield-solid-copper-3ghz-rg-6-coaxial-cable-75-ohm-directv-satellite-tv-or-broadband-internet-anti-corrosion-brass-connector-rg6-fittings-assembled-in-usa-by-phat-satellite-intl.html"
+  },
+  {
+    "ref": "U00231",
+    "text": "- generic [ref=e203]: $57.71"
+  },
+  {
+    "ref": "U00232",
+    "text": "- generic [ref=e205]:"
+  },
+  {
+    "ref": "U00233",
+    "text": "- button \"Add to Cart\" [ref=e208] [cursor=pointer]"
+  },
+  {
+    "ref": "U00234",
+    "text": "- generic [ref=e209]:"
+  },
+  {
+    "ref": "U00235",
+    "text": "- button \"Add to Wish List\" [ref=e210] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00236",
+    "text": "- text: "
+  },
+  {
+    "ref": "U00237",
+    "text": "- generic [ref=e211]: Add to Wish List"
+  },
+  {
+    "ref": "U00238",
+    "text": "- button \"Add to Compare\" [ref=e212] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00239",
+    "text": "- text: "
+  },
+  {
+    "ref": "U00240",
+    "text": "- generic [ref=e213]: Add to Compare"
+  },
+  {
+    "ref": "U00241",
+    "text": "- listitem [ref=e214]:"
+  },
+  {
+    "ref": "U00242",
+    "text": "- generic [ref=e215]:"
+  },
+  {
+    "ref": "U00243",
+    "text": "- link \"Image\" [ref=e216] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00244",
+    "text": "- /url: http://127.0.0.1:7770/multi-accessory-hub-adapter-by-joby-get-the-right-set-up-for-your-vision-by-attaching-all-the-gopro-accessories-you-need-in-one-central-spot.html"
+  },
+  {
+    "ref": "U00245",
+    "text": "- img \"Image\" [ref=e219]"
+  },
+  {
+    "ref": "U00246",
+    "text": "- generic [ref=e220]:"
+  },
+  {
+    "ref": "U00247",
+    "text": "- strong [ref=e221]:"
+  },
+  {
+    "ref": "U00248",
+    "text": "- link \"Multi Accessory Hub Adapter By JOBY – Get The Right Set Up For Your Vision By Attaching All The GoPro Accessories You Need In One Central Spot\" [ref=e222] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00249",
+    "text": "- /url: http://127.0.0.1:7770/multi-accessory-hub-adapter-by-joby-get-the-right-set-up-for-your-vision-by-attaching-all-the-gopro-accessories-you-need-in-one-central-spot.html"
+  },
+  {
+    "ref": "U00250",
+    "text": "- generic [ref=e223]:"
+  },
+  {
+    "ref": "U00251",
+    "text": "- generic [ref=e224]:"
+  },
+  {
+    "ref": "U00252",
+    "text": "- generic [ref=e225]: \"Rating:\""
+  },
+  {
+    "ref": "U00253",
+    "text": "- generic \"90%\" [ref=e226]:"
+  },
+  {
+    "ref": "U00254",
+    "text": "- text: "
+  },
+  {
+    "ref": "U00255",
+    "text": "- generic [ref=e227]:"
+  },
+  {
+    "ref": "U00256",
+    "text": "- text: "
+  },
+  {
+    "ref": "U00257",
+    "text": "- generic [ref=e228]: 90%"
+  },
+  {
+    "ref": "U00258",
+    "text": "- link \"12 Reviews\" [ref=e230] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00259",
+    "text": "- /url: http://127.0.0.1:7770/multi-accessory-hub-adapter-by-joby-get-the-right-set-up-for-your-vision-by-attaching-all-the-gopro-accessories-you-need-in-one-central-spot.html#reviews"
+  },
+  {
+    "ref": "U00260",
+    "text": "- generic [ref=e233]: $14.95"
+  },
+  {
+    "ref": "U00261",
+    "text": "- generic [ref=e235]:"
+  },
+  {
+    "ref": "U00262",
+    "text": "- button \"Add to Cart\" [ref=e238] [cursor=pointer]"
+  },
+  {
+    "ref": "U00263",
+    "text": "- generic [ref=e239]:"
+  },
+  {
+    "ref": "U00264",
+    "text": "- button \"Add to Wish List\" [ref=e240] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00265",
+    "text": "- text: "
+  },
+  {
+    "ref": "U00266",
+    "text": "- generic [ref=e241]: Add to Wish List"
+  },
+  {
+    "ref": "U00267",
+    "text": "- button \"Add to Compare\" [ref=e242] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00268",
+    "text": "- text: "
+  },
+  {
+    "ref": "U00269",
+    "text": "- generic [ref=e243]: Add to Compare"
+  },
+  {
+    "ref": "U00270",
+    "text": "- listitem [ref=e244]:"
+  },
+  {
+    "ref": "U00271",
+    "text": "- generic [ref=e245]:"
+  },
+  {
+    "ref": "U00272",
+    "text": "- link \"Image\" [ref=e246] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00273",
+    "text": "- /url: http://127.0.0.1:7770/intel-nuc-kit-nuc6i7kyk-mini-pc-no-power-cord.html"
+  },
+  {
+    "ref": "U00274",
+    "text": "- img \"Image\" [ref=e249]"
+  },
+  {
+    "ref": "U00275",
+    "text": "- generic [ref=e250]:"
+  },
+  {
+    "ref": "U00276",
+    "text": "- strong [ref=e251]:"
+  },
+  {
+    "ref": "U00277",
+    "text": "- link \"Intel NUC Kit NUC6i7KYK Mini PC-no Power Cord\" [ref=e252] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00278",
+    "text": "- /url: http://127.0.0.1:7770/intel-nuc-kit-nuc6i7kyk-mini-pc-no-power-cord.html"
+  },
+  {
+    "ref": "U00279",
+    "text": "- generic [ref=e255]: $599.99"
+  },
+  {
+    "ref": "U00280",
+    "text": "- generic [ref=e257]:"
+  },
+  {
+    "ref": "U00281",
+    "text": "- button \"Add to Cart\" [ref=e260] [cursor=pointer]"
+  },
+  {
+    "ref": "U00282",
+    "text": "- generic [ref=e261]:"
+  },
+  {
+    "ref": "U00283",
+    "text": "- button \"Add to Wish List\" [ref=e262] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00284",
+    "text": "- text: "
+  },
+  {
+    "ref": "U00285",
+    "text": "- generic [ref=e263]: Add to Wish List"
+  },
+  {
+    "ref": "U00286",
+    "text": "- button \"Add to Compare\" [ref=e264] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00287",
+    "text": "- text: "
+  },
+  {
+    "ref": "U00288",
+    "text": "- generic [ref=e265]: Add to Compare"
+  },
+  {
+    "ref": "U00289",
+    "text": "- listitem [ref=e266]:"
+  },
+  {
+    "ref": "U00290",
+    "text": "- generic [ref=e267]:"
+  },
+  {
+    "ref": "U00291",
+    "text": "- link \"Image\" [ref=e268] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00292",
+    "text": "- /url: http://127.0.0.1:7770/cg7060-apollo-transparency-film-letter-8-50quot-x-11quot-50-box-transparent.html"
+  },
+  {
+    "ref": "U00293",
+    "text": "- img \"Image\" [ref=e271]"
+  },
+  {
+    "ref": "U00294",
+    "text": "- generic [ref=e272]:"
+  },
+  {
+    "ref": "U00295",
+    "text": "- strong [ref=e273]:"
+  },
+  {
+    "ref": "U00296",
+    "text": "- link \"CG7060 Apollo Transparency Film - Letter - 8.50quot; x 11quot; - 50 / Box - Transparent\" [ref=e274] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00297",
+    "text": "- /url: http://127.0.0.1:7770/cg7060-apollo-transparency-film-letter-8-50quot-x-11quot-50-box-transparent.html"
+  },
+  {
+    "ref": "U00298",
+    "text": "- generic [ref=e277]: $42.65"
+  },
+  {
+    "ref": "U00299",
+    "text": "- generic [ref=e279]:"
+  },
+  {
+    "ref": "U00300",
+    "text": "- button \"Add to Cart\" [ref=e282] [cursor=pointer]"
+  },
+  {
+    "ref": "U00301",
+    "text": "- generic [ref=e283]:"
+  },
+  {
+    "ref": "U00302",
+    "text": "- button \"Add to Wish List\" [ref=e284] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00303",
+    "text": "- text: "
+  },
+  {
+    "ref": "U00304",
+    "text": "- generic [ref=e285]: Add to Wish List"
+  },
+  {
+    "ref": "U00305",
+    "text": "- button \"Add to Compare\" [ref=e286] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00306",
+    "text": "- text: "
+  },
+  {
+    "ref": "U00307",
+    "text": "- generic [ref=e287]: Add to Compare"
+  },
+  {
+    "ref": "U00308",
+    "text": "- listitem [ref=e288]:"
+  },
+  {
+    "ref": "U00309",
+    "text": "- generic [ref=e289]:"
+  },
+  {
+    "ref": "U00310",
+    "text": "- link \"Image\" [ref=e290] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00311",
+    "text": "- /url: http://127.0.0.1:7770/sceptre-e195bd-srr-19-inch-720p-led-tv-true-black-2017.html"
+  },
+  {
+    "ref": "U00312",
+    "text": "- img \"Image\" [ref=e293]"
+  },
+  {
+    "ref": "U00313",
+    "text": "- generic [ref=e294]:"
+  },
+  {
+    "ref": "U00314",
+    "text": "- strong [ref=e295]:"
+  },
+  {
+    "ref": "U00315",
+    "text": "- link \"Sceptre E195BD-SRR 19-Inch 720P LED TV, True Black (2017)\" [ref=e296] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00316",
+    "text": "- /url: http://127.0.0.1:7770/sceptre-e195bd-srr-19-inch-720p-led-tv-true-black-2017.html"
+  },
+  {
+    "ref": "U00317",
+    "text": "- generic [ref=e299]: $209.99"
+  },
+  {
+    "ref": "U00318",
+    "text": "- generic [ref=e301]:"
+  },
+  {
+    "ref": "U00319",
+    "text": "- button \"Add to Cart\" [ref=e304] [cursor=pointer]"
+  },
+  {
+    "ref": "U00320",
+    "text": "- generic [ref=e305]:"
+  },
+  {
+    "ref": "U00321",
+    "text": "- button \"Add to Wish List\" [ref=e306] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00322",
+    "text": "- text: "
+  },
+  {
+    "ref": "U00323",
+    "text": "- generic [ref=e307]: Add to Wish List"
+  },
+  {
+    "ref": "U00324",
+    "text": "- button \"Add to Compare\" [ref=e308] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00325",
+    "text": "- text: "
+  },
+  {
+    "ref": "U00326",
+    "text": "- generic [ref=e309]: Add to Compare"
+  },
+  {
+    "ref": "U00327",
+    "text": "- listitem [ref=e310]:"
+  },
+  {
+    "ref": "U00328",
+    "text": "- generic [ref=e311]:"
+  },
+  {
+    "ref": "U00329",
+    "text": "- link \"Image\" [ref=e312] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00330",
+    "text": "- /url: http://127.0.0.1:7770/sandisk-cruzer-glide-32gb-5-pack-usb-2-0-flash-drive-sdcz60-032g-pen-drive-bundle-with-2-everything-but-stromboli-lanyards.html"
+  },
+  {
+    "ref": "U00331",
+    "text": "- img \"Image\" [ref=e315]"
+  },
+  {
+    "ref": "U00332",
+    "text": "- generic [ref=e316]:"
+  },
+  {
+    "ref": "U00333",
+    "text": "- strong [ref=e317]:"
+  },
+  {
+    "ref": "U00334",
+    "text": "- link \"SanDisk Cruzer Glide 32GB (5 Pack) USB 2.0 Flash Drive (SDCZ60-032G) Pen Drive Bundle with (2) Everything But Stromboli Lanyards\" [ref=e318] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00335",
+    "text": "- /url: http://127.0.0.1:7770/sandisk-cruzer-glide-32gb-5-pack-usb-2-0-flash-drive-sdcz60-032g-pen-drive-bundle-with-2-everything-but-stromboli-lanyards.html"
+  },
+  {
+    "ref": "U00336",
+    "text": "- generic [ref=e319]:"
+  },
+  {
+    "ref": "U00337",
+    "text": "- generic [ref=e320]:"
+  },
+  {
+    "ref": "U00338",
+    "text": "- generic [ref=e321]: \"Rating:\""
+  },
+  {
+    "ref": "U00339",
+    "text": "- generic \"70%\" [ref=e322]:"
+  },
+  {
+    "ref": "U00340",
+    "text": "- text: "
+  },
+  {
+    "ref": "U00341",
+    "text": "- generic [ref=e323]:"
+  },
+  {
+    "ref": "U00342",
+    "text": "- text: "
+  },
+  {
+    "ref": "U00343",
+    "text": "- generic [ref=e324]: 70%"
+  },
+  {
+    "ref": "U00344",
+    "text": "- link \"12 Reviews\" [ref=e326] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00345",
+    "text": "- /url: http://127.0.0.1:7770/sandisk-cruzer-glide-32gb-5-pack-usb-2-0-flash-drive-sdcz60-032g-pen-drive-bundle-with-2-everything-but-stromboli-lanyards.html#reviews"
+  },
+  {
+    "ref": "U00346",
+    "text": "- generic [ref=e329]: $34.46"
+  },
+  {
+    "ref": "U00347",
+    "text": "- generic [ref=e331]:"
+  },
+  {
+    "ref": "U00348",
+    "text": "- button \"Add to Cart\" [ref=e334] [cursor=pointer]"
+  },
+  {
+    "ref": "U00349",
+    "text": "- generic [ref=e335]:"
+  },
+  {
+    "ref": "U00350",
+    "text": "- button \"Add to Wish List\" [ref=e336] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00351",
+    "text": "- text: "
+  },
+  {
+    "ref": "U00352",
+    "text": "- generic [ref=e337]: Add to Wish List"
+  },
+  {
+    "ref": "U00353",
+    "text": "- button \"Add to Compare\" [ref=e338] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00354",
+    "text": "- text: "
+  },
+  {
+    "ref": "U00355",
+    "text": "- generic [ref=e339]: Add to Compare"
+  },
+  {
+    "ref": "U00356",
+    "text": "- listitem [ref=e340]:"
+  },
+  {
+    "ref": "U00357",
+    "text": "- generic [ref=e341]:"
+  },
+  {
+    "ref": "U00358",
+    "text": "- link \"Image\" [ref=e342] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00359",
+    "text": "- /url: http://127.0.0.1:7770/linxiaojix-waterproof-shell-for-osmo-pocket-camera-case-camera-cover-diving-cover-for-osmo-pocket-60m-waterproof-for-travel-trip.html"
+  },
+  {
+    "ref": "U00360",
+    "text": "- img \"Image\" [ref=e345]"
+  },
+  {
+    "ref": "U00361",
+    "text": "- generic [ref=e346]:"
+  },
+  {
+    "ref": "U00362",
+    "text": "- strong [ref=e347]:"
+  },
+  {
+    "ref": "U00363",
+    "text": "- link \"linxiaojix Waterproof Shell for Osmo Pocket, Camera Case Camera Cover Diving Cover for Osmo Pocket, 60M Waterproof for Travel Trip\" [ref=e348] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00364",
+    "text": "- /url: http://127.0.0.1:7770/linxiaojix-waterproof-shell-for-osmo-pocket-camera-case-camera-cover-diving-cover-for-osmo-pocket-60m-waterproof-for-travel-trip.html"
+  },
+  {
+    "ref": "U00365",
+    "text": "- generic [ref=e351]: $17.76"
+  },
+  {
+    "ref": "U00366",
+    "text": "- generic [ref=e353]:"
+  },
+  {
+    "ref": "U00367",
+    "text": "- button \"Add to Cart\" [ref=e356] [cursor=pointer]"
+  },
+  {
+    "ref": "U00368",
+    "text": "- generic [ref=e357]:"
+  },
+  {
+    "ref": "U00369",
+    "text": "- button \"Add to Wish List\" [ref=e358] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00370",
+    "text": "- text: "
+  },
+  {
+    "ref": "U00371",
+    "text": "- generic [ref=e359]: Add to Wish List"
+  },
+  {
+    "ref": "U00372",
+    "text": "- button \"Add to Compare\" [ref=e360] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00373",
+    "text": "- text: "
+  },
+  {
+    "ref": "U00374",
+    "text": "- generic [ref=e361]: Add to Compare"
+  },
+  {
+    "ref": "U00375",
+    "text": "- listitem [ref=e362]:"
+  },
+  {
+    "ref": "U00376",
+    "text": "- generic [ref=e363]:"
+  },
+  {
+    "ref": "U00377",
+    "text": "- link \"Image\" [ref=e364] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00378",
+    "text": "- /url: http://127.0.0.1:7770/replacement-battery-for-garmin-montana-600-600t-650-650t-600t-camo-680-680t-fit-part-no-361-00053-00-010-11599-00-2200mah.html"
+  },
+  {
+    "ref": "U00379",
+    "text": "- img \"Image\" [ref=e367]"
+  },
+  {
+    "ref": "U00380",
+    "text": "- generic [ref=e368]:"
+  },
+  {
+    "ref": "U00381",
+    "text": "- strong [ref=e369]:"
+  },
+  {
+    "ref": "U00382",
+    "text": "- link \"Replacement Battery for Garmin Montana 600 600T 650 650T 600t Camo 680 680T,fit Part No 361-00053-00 010-11599-00, 2200mAh\" [ref=e370] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00383",
+    "text": "- /url: http://127.0.0.1:7770/replacement-battery-for-garmin-montana-600-600t-650-650t-600t-camo-680-680t-fit-part-no-361-00053-00-010-11599-00-2200mah.html"
+  },
+  {
+    "ref": "U00384",
+    "text": "- generic [ref=e371]:"
+  },
+  {
+    "ref": "U00385",
+    "text": "- generic [ref=e372]:"
+  },
+  {
+    "ref": "U00386",
+    "text": "- generic [ref=e373]: \"Rating:\""
+  },
+  {
+    "ref": "U00387",
+    "text": "- generic \"80%\" [ref=e374]:"
+  },
+  {
+    "ref": "U00388",
+    "text": "- text: "
+  },
+  {
+    "ref": "U00389",
+    "text": "- generic [ref=e375]:"
+  },
+  {
+    "ref": "U00390",
+    "text": "- text: "
+  },
+  {
+    "ref": "U00391",
+    "text": "- generic [ref=e376]: 80%"
+  },
+  {
+    "ref": "U00392",
+    "text": "- link \"3 Reviews\" [ref=e378] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00393",
+    "text": "- /url: http://127.0.0.1:7770/replacement-battery-for-garmin-montana-600-600t-650-650t-600t-camo-680-680t-fit-part-no-361-00053-00-010-11599-00-2200mah.html#reviews"
+  },
+  {
+    "ref": "U00394",
+    "text": "- generic [ref=e381]: $25.99"
+  },
+  {
+    "ref": "U00395",
+    "text": "- generic [ref=e383]:"
+  },
+  {
+    "ref": "U00396",
+    "text": "- button \"Add to Cart\" [ref=e386] [cursor=pointer]"
+  },
+  {
+    "ref": "U00397",
+    "text": "- generic [ref=e387]:"
+  },
+  {
+    "ref": "U00398",
+    "text": "- button \"Add to Wish List\" [ref=e388] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00399",
+    "text": "- text: "
+  },
+  {
+    "ref": "U00400",
+    "text": "- generic [ref=e389]: Add to Wish List"
+  },
+  {
+    "ref": "U00401",
+    "text": "- button \"Add to Compare\" [ref=e390] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00402",
+    "text": "- text: "
+  },
+  {
+    "ref": "U00403",
+    "text": "- generic [ref=e391]: Add to Compare"
+  },
+  {
+    "ref": "U00404",
+    "text": "- generic [ref=e392]:"
+  },
+  {
+    "ref": "U00405",
+    "text": "- generic [ref=e393]:"
+  },
+  {
+    "ref": "U00406",
+    "text": "- strong [ref=e394]: Page"
+  },
+  {
+    "ref": "U00407",
+    "text": "- list \"Page\" [ref=e395]:"
+  },
+  {
+    "ref": "U00408",
+    "text": "- listitem [ref=e396]:"
+  },
+  {
+    "ref": "U00409",
+    "text": "- strong [ref=e397]:"
+  },
+  {
+    "ref": "U00410",
+    "text": "- generic [ref=e398]: You're currently reading page"
+  },
+  {
+    "ref": "U00411",
+    "text": "- text: \"1\""
+  },
+  {
+    "ref": "U00412",
+    "text": "- listitem [ref=e399]:"
+  },
+  {
+    "ref": "U00413",
+    "text": "- link \"Page 2\" [ref=e400] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00414",
+    "text": "- /url: http://127.0.0.1:7770/electronics.html?p=2"
+  },
+  {
+    "ref": "U00415",
+    "text": "- generic [ref=e401]: Page"
+  },
+  {
+    "ref": "U00416",
+    "text": "- text: \"2\""
+  },
+  {
+    "ref": "U00417",
+    "text": "- listitem [ref=e402]:"
+  },
+  {
+    "ref": "U00418",
+    "text": "- link \"Page 3\" [ref=e403] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00419",
+    "text": "- /url: http://127.0.0.1:7770/electronics.html?p=3"
+  },
+  {
+    "ref": "U00420",
+    "text": "- generic [ref=e404]: Page"
+  },
+  {
+    "ref": "U00421",
+    "text": "- text: \"3\""
+  },
+  {
+    "ref": "U00422",
+    "text": "- listitem [ref=e405]:"
+  },
+  {
+    "ref": "U00423",
+    "text": "- link \"Page 4\" [ref=e406] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00424",
+    "text": "- /url: http://127.0.0.1:7770/electronics.html?p=4"
+  },
+  {
+    "ref": "U00425",
+    "text": "- generic [ref=e407]: Page"
+  },
+  {
+    "ref": "U00426",
+    "text": "- text: \"4\""
+  },
+  {
+    "ref": "U00427",
+    "text": "- listitem [ref=e408]:"
+  },
+  {
+    "ref": "U00428",
+    "text": "- link \"Page 5\" [ref=e409] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00429",
+    "text": "- /url: http://127.0.0.1:7770/electronics.html?p=5"
+  },
+  {
+    "ref": "U00430",
+    "text": "- generic [ref=e410]: Page"
+  },
+  {
+    "ref": "U00431",
+    "text": "- text: \"5\""
+  },
+  {
+    "ref": "U00432",
+    "text": "- listitem [ref=e411]:"
+  },
+  {
+    "ref": "U00433",
+    "text": "- link \" Page Next\" [ref=e412] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00434",
+    "text": "- /url: http://127.0.0.1:7770/electronics.html?p=2"
+  },
+  {
+    "ref": "U00435",
+    "text": "- text: "
+  },
+  {
+    "ref": "U00436",
+    "text": "- generic [ref=e413]: Page"
+  },
+  {
+    "ref": "U00437",
+    "text": "- generic [ref=e414]: Next"
+  },
+  {
+    "ref": "U00438",
+    "text": "- generic [ref=e415]:"
+  },
+  {
+    "ref": "U00439",
+    "text": "- generic [ref=e416]: Show"
+  },
+  {
+    "ref": "U00440",
+    "text": "- combobox \"Show\" [ref=e418]:"
+  },
+  {
+    "ref": "U00441",
+    "text": "- option \"12\" [selected]"
+  },
+  {
+    "ref": "U00442",
+    "text": "- option \"24\""
+  },
+  {
+    "ref": "U00443",
+    "text": "- option \"36\""
+  },
+  {
+    "ref": "U00444",
+    "text": "- text: per page"
+  },
+  {
+    "ref": "U00445",
+    "text": "- generic [ref=e420]:"
+  },
+  {
+    "ref": "U00446",
+    "text": "- strong [ref=e422]: Shop By"
+  },
+  {
+    "ref": "U00447",
+    "text": "- generic [ref=e423]:"
+  },
+  {
+    "ref": "U00448",
+    "text": "- heading \"Shopping Options\" [level=2] [ref=e424]"
+  },
+  {
+    "ref": "U00449",
+    "text": "- generic [ref=e425]:"
+  },
+  {
+    "ref": "U00450",
+    "text": "- heading \"Category\" [level=3] [ref=e426]"
+  },
+  {
+    "ref": "U00451",
+    "text": "- definition [ref=e427]:"
+  },
+  {
+    "ref": "U00452",
+    "text": "- list [ref=e428]:"
+  },
+  {
+    "ref": "U00453",
+    "text": "- listitem [ref=e429]:"
+  },
+  {
+    "ref": "U00454",
+    "text": "- link \"Home Audio( 1280 item )\" [ref=e430] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00455",
+    "text": "- /url: http://127.0.0.1:7770/electronics.html?cat=51"
+  },
+  {
+    "ref": "U00456",
+    "text": "- text: Home Audio"
+  },
+  {
+    "ref": "U00457",
+    "text": "- generic [ref=e431]:"
+  },
+  {
+    "ref": "U00458",
+    "text": "- text: ( 1280"
+  },
+  {
+    "ref": "U00459",
+    "text": "- generic [ref=e432]: item"
+  },
+  {
+    "ref": "U00460",
+    "text": "- text: )"
+  },
+  {
+    "ref": "U00461",
+    "text": "- listitem [ref=e433]:"
+  },
+  {
+    "ref": "U00462",
+    "text": "- link \"Video Projectors( 484 item )\" [ref=e434] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00463",
+    "text": "- /url: http://127.0.0.1:7770/electronics.html?cat=52"
+  },
+  {
+    "ref": "U00464",
+    "text": "- text: Video Projectors"
+  },
+  {
+    "ref": "U00465",
+    "text": "- generic [ref=e435]:"
+  },
+  {
+    "ref": "U00466",
+    "text": "- text: ( 484"
+  },
+  {
+    "ref": "U00467",
+    "text": "- generic [ref=e436]: item"
+  },
+  {
+    "ref": "U00468",
+    "text": "- text: )"
+  },
+  {
+    "ref": "U00469",
+    "text": "- listitem [ref=e437]:"
+  },
+  {
+    "ref": "U00470",
+    "text": "- link \"Accessories & Supplies( 2409 item )\" [ref=e438] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00471",
+    "text": "- /url: http://127.0.0.1:7770/electronics.html?cat=53"
+  },
+  {
+    "ref": "U00472",
+    "text": "- text: Accessories & Supplies"
+  },
+  {
+    "ref": "U00473",
+    "text": "- generic [ref=e439]:"
+  },
+  {
+    "ref": "U00474",
+    "text": "- text: ( 2409"
+  },
+  {
+    "ref": "U00475",
+    "text": "- generic [ref=e440]: item"
+  },
+  {
+    "ref": "U00476",
+    "text": "- text: )"
+  },
+  {
+    "ref": "U00477",
+    "text": "- listitem [ref=e441]:"
+  },
+  {
+    "ref": "U00478",
+    "text": "- link \"Television & Video( 1083 item )\" [ref=e442] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00479",
+    "text": "- /url: http://127.0.0.1:7770/electronics.html?cat=54"
+  },
+  {
+    "ref": "U00480",
+    "text": "- text: Television & Video"
+  },
+  {
+    "ref": "U00481",
+    "text": "- generic [ref=e443]:"
+  },
+  {
+    "ref": "U00482",
+    "text": "- text: ( 1083"
+  },
+  {
+    "ref": "U00483",
+    "text": "- generic [ref=e444]: item"
+  },
+  {
+    "ref": "U00484",
+    "text": "- text: )"
+  },
+  {
+    "ref": "U00485",
+    "text": "- listitem [ref=e445]:"
+  },
+  {
+    "ref": "U00486",
+    "text": "- link \"Camera & Photo( 3512 item )\" [ref=e446] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00487",
+    "text": "- /url: http://127.0.0.1:7770/electronics.html?cat=55"
+  },
+  {
+    "ref": "U00488",
+    "text": "- text: Camera & Photo"
+  },
+  {
+    "ref": "U00489",
+    "text": "- generic [ref=e447]:"
+  },
+  {
+    "ref": "U00490",
+    "text": "- text: ( 3512"
+  },
+  {
+    "ref": "U00491",
+    "text": "- generic [ref=e448]: item"
+  },
+  {
+    "ref": "U00492",
+    "text": "- text: )"
+  },
+  {
+    "ref": "U00493",
+    "text": "- listitem [ref=e449]:"
+  },
+  {
+    "ref": "U00494",
+    "text": "- link \"Computers & Accessories( 2929 item )\" [ref=e450] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00495",
+    "text": "- /url: http://127.0.0.1:7770/electronics.html?cat=56"
+  },
+  {
+    "ref": "U00496",
+    "text": "- text: Computers & Accessories"
+  },
+  {
+    "ref": "U00497",
+    "text": "- generic [ref=e451]:"
+  },
+  {
+    "ref": "U00498",
+    "text": "- text: ( 2929"
+  },
+  {
+    "ref": "U00499",
+    "text": "- generic [ref=e452]: item"
+  },
+  {
+    "ref": "U00500",
+    "text": "- text: )"
+  },
+  {
+    "ref": "U00501",
+    "text": "- listitem [ref=e453]:"
+  },
+  {
+    "ref": "U00502",
+    "text": "- link \"Headphones( 631 item )\" [ref=e454] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00503",
+    "text": "- /url: http://127.0.0.1:7770/electronics.html?cat=60"
+  },
+  {
+    "ref": "U00504",
+    "text": "- text: Headphones"
+  },
+  {
+    "ref": "U00505",
+    "text": "- generic [ref=e455]:"
+  },
+  {
+    "ref": "U00506",
+    "text": "- text: ( 631"
+  },
+  {
+    "ref": "U00507",
+    "text": "- generic [ref=e456]: item"
+  },
+  {
+    "ref": "U00508",
+    "text": "- text: )"
+  },
+  {
+    "ref": "U00509",
+    "text": "- listitem [ref=e457]:"
+  },
+  {
+    "ref": "U00510",
+    "text": "- link \"Portable Audio & Video( 824 item )\" [ref=e458] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00511",
+    "text": "- /url: http://127.0.0.1:7770/electronics.html?cat=62"
+  },
+  {
+    "ref": "U00512",
+    "text": "- text: Portable Audio & Video"
+  },
+  {
+    "ref": "U00513",
+    "text": "- generic [ref=e459]:"
+  },
+  {
+    "ref": "U00514",
+    "text": "- text: ( 824"
+  },
+  {
+    "ref": "U00515",
+    "text": "- generic [ref=e460]: item"
+  },
+  {
+    "ref": "U00516",
+    "text": "- text: )"
+  },
+  {
+    "ref": "U00517",
+    "text": "- listitem [ref=e461]:"
+  },
+  {
+    "ref": "U00518",
+    "text": "- link \"Security & Surveillance( 249 item )\" [ref=e462] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00519",
+    "text": "- /url: http://127.0.0.1:7770/electronics.html?cat=63"
+  },
+  {
+    "ref": "U00520",
+    "text": "- text: Security & Surveillance"
+  },
+  {
+    "ref": "U00521",
+    "text": "- generic [ref=e463]:"
+  },
+  {
+    "ref": "U00522",
+    "text": "- text: ( 249"
+  },
+  {
+    "ref": "U00523",
+    "text": "- generic [ref=e464]: item"
+  },
+  {
+    "ref": "U00524",
+    "text": "- text: )"
+  },
+  {
+    "ref": "U00525",
+    "text": "- listitem [ref=e465]:"
+  },
+  {
+    "ref": "U00526",
+    "text": "- link \"Power Accessories( 243 item )\" [ref=e466] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00527",
+    "text": "- /url: http://127.0.0.1:7770/electronics.html?cat=64"
+  },
+  {
+    "ref": "U00528",
+    "text": "- text: Power Accessories"
+  },
+  {
+    "ref": "U00529",
+    "text": "- generic [ref=e467]:"
+  },
+  {
+    "ref": "U00530",
+    "text": "- text: ( 243"
+  },
+  {
+    "ref": "U00531",
+    "text": "- generic [ref=e468]: item"
+  },
+  {
+    "ref": "U00532",
+    "text": "- text: )"
+  },
+  {
+    "ref": "U00533",
+    "text": "- listitem [ref=e469]:"
+  },
+  {
+    "ref": "U00534",
+    "text": "- link \"Car & Vehicle Electronics( 635 item )\" [ref=e470] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00535",
+    "text": "- /url: http://127.0.0.1:7770/electronics.html?cat=65"
+  },
+  {
+    "ref": "U00536",
+    "text": "- text: Car & Vehicle Electronics"
+  },
+  {
+    "ref": "U00537",
+    "text": "- generic [ref=e471]:"
+  },
+  {
+    "ref": "U00538",
+    "text": "- text: ( 635"
+  },
+  {
+    "ref": "U00539",
+    "text": "- generic [ref=e472]: item"
+  },
+  {
+    "ref": "U00540",
+    "text": "- text: )"
+  },
+  {
+    "ref": "U00541",
+    "text": "- listitem [ref=e473]:"
+  },
+  {
+    "ref": "U00542",
+    "text": "- link \"Wearable Technology( 120 item )\" [ref=e474] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00543",
+    "text": "- /url: http://127.0.0.1:7770/electronics.html?cat=68"
+  },
+  {
+    "ref": "U00544",
+    "text": "- text: Wearable Technology"
+  },
+  {
+    "ref": "U00545",
+    "text": "- generic [ref=e475]:"
+  },
+  {
+    "ref": "U00546",
+    "text": "- text: ( 120"
+  },
+  {
+    "ref": "U00547",
+    "text": "- generic [ref=e476]: item"
+  },
+  {
+    "ref": "U00548",
+    "text": "- text: )"
+  },
+  {
+    "ref": "U00549",
+    "text": "- listitem [ref=e477]:"
+  },
+  {
+    "ref": "U00550",
+    "text": "- link \"GPS, Finders & Accessories( 102 item )\" [ref=e478] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00551",
+    "text": "- /url: http://127.0.0.1:7770/electronics.html?cat=69"
+  },
+  {
+    "ref": "U00552",
+    "text": "- text: GPS, Finders & Accessories"
+  },
+  {
+    "ref": "U00553",
+    "text": "- generic [ref=e479]:"
+  },
+  {
+    "ref": "U00554",
+    "text": "- text: ( 102"
+  },
+  {
+    "ref": "U00555",
+    "text": "- generic [ref=e480]: item"
+  },
+  {
+    "ref": "U00556",
+    "text": "- text: )"
+  },
+  {
+    "ref": "U00557",
+    "text": "- heading \"Price\" [level=3] [ref=e481]"
+  },
+  {
+    "ref": "U00558",
+    "text": "- definition [ref=e482]:"
+  },
+  {
+    "ref": "U00559",
+    "text": "- list [ref=e483]:"
+  },
+  {
+    "ref": "U00560",
+    "text": "- listitem [ref=e484]:"
+  },
+  {
+    "ref": "U00561",
+    "text": "- link \"$0.00 - $9,999.99( 14528 item )\" [ref=e485] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00562",
+    "text": "- /url: http://127.0.0.1:7770/electronics.html?price=0-10000"
+  },
+  {
+    "ref": "U00563",
+    "text": "- text: $0.00 - $9,999.99"
+  },
+  {
+    "ref": "U00564",
+    "text": "- generic [ref=e486]:"
+  },
+  {
+    "ref": "U00565",
+    "text": "- text: ( 14528"
+  },
+  {
+    "ref": "U00566",
+    "text": "- generic [ref=e487]: item"
+  },
+  {
+    "ref": "U00567",
+    "text": "- text: )"
+  },
+  {
+    "ref": "U00568",
+    "text": "- listitem [ref=e488]:"
+  },
+  {
+    "ref": "U00569",
+    "text": "- link \"$10,000.00 - $19,999.99( 9 item )\" [ref=e489] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00570",
+    "text": "- /url: http://127.0.0.1:7770/electronics.html?price=10000-20000"
+  },
+  {
+    "ref": "U00571",
+    "text": "- text: $10,000.00 - $19,999.99"
+  },
+  {
+    "ref": "U00572",
+    "text": "- generic [ref=e490]:"
+  },
+  {
+    "ref": "U00573",
+    "text": "- text: ( 9"
+  },
+  {
+    "ref": "U00574",
+    "text": "- generic [ref=e491]: item"
+  },
+  {
+    "ref": "U00575",
+    "text": "- text: )"
+  },
+  {
+    "ref": "U00576",
+    "text": "- listitem [ref=e492]:"
+  },
+  {
+    "ref": "U00577",
+    "text": "- link \"$20,000.00 and above( 1 item )\" [ref=e493] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00578",
+    "text": "- /url: http://127.0.0.1:7770/electronics.html?price=20000-30000"
+  },
+  {
+    "ref": "U00579",
+    "text": "- text: $20,000.00 and above"
+  },
+  {
+    "ref": "U00580",
+    "text": "- generic [ref=e494]:"
+  },
+  {
+    "ref": "U00581",
+    "text": "- text: ( 1"
+  },
+  {
+    "ref": "U00582",
+    "text": "- generic [ref=e495]: item"
+  },
+  {
+    "ref": "U00583",
+    "text": "- text: )"
+  },
+  {
+    "ref": "U00584",
+    "text": "- generic [ref=e496]:"
+  },
+  {
+    "ref": "U00585",
+    "text": "- generic [ref=e497]:"
+  },
+  {
+    "ref": "U00586",
+    "text": "- generic [ref=e498]:"
+  },
+  {
+    "ref": "U00587",
+    "text": "- heading \"Compare Products\" [level=2] [ref=e499]"
+  },
+  {
+    "ref": "U00588",
+    "text": "- text: 2 items"
+  },
+  {
+    "ref": "U00589",
+    "text": "- generic \"Compare Products\" [ref=e500]:"
+  },
+  {
+    "ref": "U00590",
+    "text": "- list [ref=e501]:"
+  },
+  {
+    "ref": "U00591",
+    "text": "- listitem [ref=e502]:"
+  },
+  {
+    "ref": "U00592",
+    "text": "- strong [ref=e503]:"
+  },
+  {
+    "ref": "U00593",
+    "text": "- link \"Multi Accessory Hub Adapter By JOBY – Get The Right Set Up For Your Vision By Attaching All The GoPro Accessories You Need In One Central Spot\" [ref=e504] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00594",
+    "text": "- /url: http://127.0.0.1:7770/multi-accessory-hub-adapter-by-joby-get-the-right-set-up-for-your-vision-by-attaching-all-the-gopro-accessories-you-need-in-one-central-spot.html"
+  },
+  {
+    "ref": "U00595",
+    "text": "- link \" Remove This Item\" [ref=e505] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00596",
+    "text": "- /url: \"#\""
+  },
+  {
+    "ref": "U00597",
+    "text": "- text: "
+  },
+  {
+    "ref": "U00598",
+    "text": "- generic [ref=e506]: Remove This Item"
+  },
+  {
+    "ref": "U00599",
+    "text": "- listitem [ref=e507]:"
+  },
+  {
+    "ref": "U00600",
+    "text": "- strong [ref=e508]:"
+  },
+  {
+    "ref": "U00601",
+    "text": "- link \"linxiaojix Waterproof Shell for Osmo Pocket, Camera Case Camera Cover Diving Cover for Osmo Pocket, 60M Waterproof for Travel Trip\" [ref=e509] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00602",
+    "text": "- /url: http://127.0.0.1:7770/linxiaojix-waterproof-shell-for-osmo-pocket-camera-case-camera-cover-diving-cover-for-osmo-pocket-60m-waterproof-for-travel-trip.html"
+  },
+  {
+    "ref": "U00603",
+    "text": "- link \" Remove This Item\" [ref=e510] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00604",
+    "text": "- /url: \"#\""
+  },
+  {
+    "ref": "U00605",
+    "text": "- text: "
+  },
+  {
+    "ref": "U00606",
+    "text": "- generic [ref=e511]: Remove This Item"
+  },
+  {
+    "ref": "U00607",
+    "text": "- generic [ref=e512]:"
+  },
+  {
+    "ref": "U00608",
+    "text": "- link \"Compare\" [ref=e514] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00609",
+    "text": "- /url: http://127.0.0.1:7770/catalog/product_compare/index/uenc/aHR0cDovLzEyNy4wLjAuMTo3NzcwL2N1c3RvbWVyL3NlY3Rpb24vbG9hZC8_c2VjdGlvbnM9Y29tcGFyZS1wcm9kdWN0cyUyQ21lc3NhZ2VzJmZvcmNlX25ld19zZWN0aW9uX3RpbWVzdGFtcD1mYWxzZSZfPTE3OTA1NjMzMTA1MDM~/"
+  },
+  {
+    "ref": "U00610",
+    "text": "- link \"Clear All\" [ref=e516] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00611",
+    "text": "- /url: \"#\""
+  },
+  {
+    "ref": "U00612",
+    "text": "- generic [ref=e517]:"
+  },
+  {
+    "ref": "U00613",
+    "text": "- heading \"My Wish List\" [level=2] [ref=e519]"
+  },
+  {
+    "ref": "U00614",
+    "text": "- generic [ref=e521]: You have no items in your wish list."
+  },
+  {
+    "ref": "U00615",
+    "text": "- contentinfo [ref=e522]:"
+  },
+  {
+    "ref": "U00616",
+    "text": "- generic [ref=e523]:"
+  },
+  {
+    "ref": "U00617",
+    "text": "- generic [ref=e526]:"
+  },
+  {
+    "ref": "U00618",
+    "text": "- generic [ref=e528]:"
+  },
+  {
+    "ref": "U00619",
+    "text": "- text: "
+  },
+  {
+    "ref": "U00620",
+    "text": "- generic [ref=e529]:"
+  },
+  {
+    "ref": "U00621",
+    "text": "- generic [ref=e530]: \"Sign Up for Our Newsletter:\""
+  },
+  {
+    "ref": "U00622",
+    "text": "- textbox \"Sign Up for Our Newsletter:\" [ref=e531]:"
+  },
+  {
+    "ref": "U00623",
+    "text": "- /placeholder: Enter your email address"
+  },
+  {
+    "ref": "U00624",
+    "text": "- button \"Subscribe\" [ref=e533] [cursor=pointer]"
+  },
+  {
+    "ref": "U00625",
+    "text": "- list [ref=e534]:"
+  },
+  {
+    "ref": "U00626",
+    "text": "- listitem [ref=e535]:"
+  },
+  {
+    "ref": "U00627",
+    "text": "- link \"Privacy and Cookie Policy\" [ref=e536] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00628",
+    "text": "- /url: http://127.0.0.1:7770/privacy-policy-cookie-restriction-mode/"
+  },
+  {
+    "ref": "U00629",
+    "text": "- listitem [ref=e537]:"
+  },
+  {
+    "ref": "U00630",
+    "text": "- link \"Search Terms\" [ref=e538] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00631",
+    "text": "- /url: http://127.0.0.1:7770/search/term/popular/"
+  },
+  {
+    "ref": "U00632",
+    "text": "- listitem [ref=e539]:"
+  },
+  {
+    "ref": "U00633",
+    "text": "- link \"Advanced Search\" [ref=e540] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00634",
+    "text": "- /url: http://127.0.0.1:7770/catalogsearch/advanced/"
+  },
+  {
+    "ref": "U00635",
+    "text": "- listitem [ref=e541]:"
+  },
+  {
+    "ref": "U00636",
+    "text": "- link \"Orders and Returns\" [ref=e542] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00637",
+    "text": "- /url: http://127.0.0.1:7770/sales/guest/form/"
+  },
+  {
+    "ref": "U00638",
+    "text": "- listitem [ref=e543]:"
+  },
+  {
+    "ref": "U00639",
+    "text": "- link \"Contact Us\" [ref=e544] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00640",
+    "text": "- /url: http://127.0.0.1:7770/contact/"
+  },
+  {
+    "ref": "U00641",
+    "text": "- generic [ref=e545]: Copyright © 2013-present Magento, Inc. All rights reserved."
+  },
+  {
+    "ref": "U00642",
+    "text": "- generic [ref=e546]:"
+  },
+  {
+    "ref": "U00643",
+    "text": "- text: Help Us Keep Magento Healthy"
+  },
+  {
+    "ref": "U00644",
+    "text": "- link \"Report All Bugs\" [ref=e547] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00645",
+    "text": "- /url: http://www.magentocommerce.com/bug-tracking"
+  }
+]

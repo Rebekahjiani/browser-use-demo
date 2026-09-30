@@ -1,0 +1,93 @@
+{
+  "concepts": [
+    {
+      "canonical_name": "商品",
+      "concept_type": "business_entity",
+      "description": "Briess DME Pilsen Light 麦芽精商品详情页展示的商品，含 SKU、库存状态、价格、数量及 Product Quick Look 信息。本页无数据接口证据，实体仅凭页面树。",
+      "aliases": [
+        "Product",
+        "product"
+      ],
+      "attributes": [
+        {
+          "name": "名称",
+          "note": "页面标题（heading）/商品名",
+          "source_refs": [
+            "page.aria.yml:heading:Briess DME - Pilsen Light - 1 lb Bag"
+          ]
+        },
+        {
+          "name": "SKU",
+          "note": "SKU 标签（strong）",
+          "source_refs": [
+            "page.aria.yml:strong:SKU"
+          ]
+        },
+        {
+          "name": "Availability",
+          "note": "库存状态（Availability 标签）",
+          "source_refs": [
+            "page.aria.yml:generic:Availability"
+          ]
+        },
+        {
+          "name": "Price",
+          "note": "商品价格文本",
+          "source_refs": [
+            "page.aria.yml:generic:Price"
+          ]
+        },
+        {
+          "name": "Qty",
+          "note": "数量输入（spinbutton）",
+          "source_refs": [
+            "page.aria.yml:spinbutton:Qty"
+          ]
+        },
+        {
+          "name": "Package Dimensions",
+          "note": "Quick Look 表格行头",
+          "source_refs": [
+            "page.aria.yml:rowheader:Package Dimensions"
+          ]
+        },
+        {
+          "name": "Item Weight",
+          "note": "Quick Look 表格行头",
+          "source_refs": [
+            "page.aria.yml:rowheader:Item Weight"
+          ]
+        },
+        {
+          "name": "Manufacturer",
+          "note": "Quick Look 表格行头",
+          "source_refs": [
+            "page.aria.yml:rowheader:Manufacturer"
+          ]
+        },
+        {
+          "name": "Item model number",
+          "note": "Quick Look 表格行头",
+          "source_refs": [
+            "page.aria.yml:rowheader:Item model number"
+          ]
+        },
+        {
+          "name": "Date First Available",
+          "note": "Quick Look 表格行头",
+          "source_refs": [
+            "page.aria.yml:rowheader:Date First Available"
+          ]
+        }
+      ],
+      "evidence_refs": [],
+      "api_refs": [],
+      "page_refs": [
+        "003_briess-dme-pilsen-light-1-lb-bag_html"
+      ]
+    }
+  ],
+  "notes": [
+    "本页仅捕获到 /customer/account/login/（E021）与静态模板端点，无商品数据接口；纯树锚点展示，api_refs 留空（宁缺勿错）。"
+  ]
+}

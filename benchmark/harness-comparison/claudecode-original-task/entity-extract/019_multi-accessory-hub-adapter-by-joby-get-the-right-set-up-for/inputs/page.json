@@ -1,0 +1,34 @@
+{
+  "url": "http://127.0.0.1:7770/multi-accessory-hub-adapter-by-joby-get-the-right-set-up-for-your-vision-by-attaching-all-the-gopro-accessories-you-need-in-one-central-spot.html",
+  "title": "Multi Accessory Hub Adapter By JOBY – Get The Right Set Up For Your Vision By Attaching All The GoPro Accessories You Need In One Central Spot",
+  "route": "/multi-accessory-hub-adapter-by-joby-get-the-right-set-up-for-your-vision-by-attaching-all-the-gopro-accessories-you-need-in-one-central-spot.html",
+  "captured_from": "drive",
+  "sources": {
+    "aria_source": "..\\drive\\screenshots\\033_multi-accessory-hub-adapter-by-joby-get-the-right-set-up-for\\aria.yml",
+    "catalog": "<runDir>/evidence_catalog.json",
+    "evidence_ids": [
+      "trace:api_candidate:line18828",
+      "trace:api_candidate:line18829",
+      "trace:api_candidate:line18830",
+      "trace:api_candidate:line18831",
+      "trace:api_candidate:line18890",
+      "trace:api_candidate:line18949",
+      "trace:api_candidate:line19008",
+      "trace:api_candidate:line19010",
+      "trace:api_candidate:line19029",
+      "trace:api_candidate:line19031",
+      "trace:api_candidate:line19032",
+      "trace:api_candidate:line19033",
+      "trace:api_candidate:line19038",
+      "trace:api_candidate:line19039",
+      "trace:api_candidate:line19040",
+      "trace:api_candidate:line19041",
+      "trace:api_candidate:line19042",
+      "trace:api_candidate:line19043",
+      "trace:api_candidate:line19044",
+      "trace:api_candidate:line19045",
+      "trace:api_candidate:line19306"
+    ]
+  },
+  "tree_format": "aria_yml"
+}

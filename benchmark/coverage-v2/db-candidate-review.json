@@ -1,0 +1,2121 @@
+{
+  "db_reference": "C:\\Users\\bulin\\.crabvisor_data\\sandboxes\\sb_d5c9d813\\workspace\\appweave\\eval\\ground-truth\\shopping.expected-cm.json",
+  "rows": [
+    {
+      "entity": "catalog_product",
+      "field": "name",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [
+        "product.name"
+      ],
+      "disposition": "candidate_mapping_pending_UI",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "catalog_product",
+      "field": "sku",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [
+        "product.sku"
+      ],
+      "disposition": "candidate_mapping_pending_UI",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "catalog_product",
+      "field": "description",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [
+        "product.description"
+      ],
+      "disposition": "candidate_mapping_pending_UI",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "catalog_product",
+      "field": "short_description",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [
+        "product.short_description"
+      ],
+      "disposition": "candidate_mapping_pending_UI",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "catalog_product",
+      "field": "price",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [
+        "product.price"
+      ],
+      "disposition": "candidate_mapping_pending_UI",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "catalog_product",
+      "field": "special_price",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "catalog_product",
+      "field": "special_from_date",
+      "source_ui_derivable": false,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "catalog_product",
+      "field": "special_to_date",
+      "source_ui_derivable": false,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "catalog_product",
+      "field": "cost",
+      "source_ui_derivable": false,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "catalog_product",
+      "field": "weight",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "catalog_product",
+      "field": "manufacturer",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [
+        "product.manufacturer"
+      ],
+      "disposition": "candidate_mapping_pending_UI",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "catalog_product",
+      "field": "meta_title",
+      "source_ui_derivable": false,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "catalog_product",
+      "field": "meta_keyword",
+      "source_ui_derivable": false,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "catalog_product",
+      "field": "meta_description",
+      "source_ui_derivable": false,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "catalog_product",
+      "field": "image",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [
+        "product.image"
+      ],
+      "disposition": "candidate_mapping_pending_UI",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "catalog_product",
+      "field": "small_image",
+      "source_ui_derivable": false,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "catalog_product",
+      "field": "thumbnail",
+      "source_ui_derivable": false,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "catalog_product",
+      "field": "media_gallery",
+      "source_ui_derivable": false,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "catalog_product",
+      "field": "old_id",
+      "source_ui_derivable": false,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "catalog_product",
+      "field": "tier_price",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "catalog_product",
+      "field": "color",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [
+        "product.color"
+      ],
+      "disposition": "candidate_mapping_pending_UI",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "catalog_product",
+      "field": "news_from_date",
+      "source_ui_derivable": false,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "catalog_product",
+      "field": "news_to_date",
+      "source_ui_derivable": false,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "catalog_product",
+      "field": "gallery",
+      "source_ui_derivable": false,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "catalog_product",
+      "field": "status",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "catalog_product",
+      "field": "minimal_price",
+      "source_ui_derivable": false,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "catalog_product",
+      "field": "visibility",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "catalog_product",
+      "field": "custom_design",
+      "source_ui_derivable": false,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "catalog_product",
+      "field": "custom_design_from",
+      "source_ui_derivable": false,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "catalog_product",
+      "field": "custom_design_to",
+      "source_ui_derivable": false,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "catalog_product",
+      "field": "custom_layout_update",
+      "source_ui_derivable": false,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "catalog_product",
+      "field": "page_layout",
+      "source_ui_derivable": false,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "catalog_product",
+      "field": "category_ids",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "catalog_product",
+      "field": "options_container",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "catalog_product",
+      "field": "required_options",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "catalog_product",
+      "field": "has_options",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "catalog_product",
+      "field": "image_label",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "catalog_product",
+      "field": "small_image_label",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "catalog_product",
+      "field": "thumbnail_label",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "catalog_product",
+      "field": "created_at",
+      "source_ui_derivable": false,
+      "candidate_fact_ids": [],
+      "disposition": "excluded_from_proposed_core_vocabulary",
+      "reason": "base currency/internal identifier/time excluded by proposed scope, not declared universally invisible"
+    },
+    {
+      "entity": "catalog_product",
+      "field": "updated_at",
+      "source_ui_derivable": false,
+      "candidate_fact_ids": [],
+      "disposition": "excluded_from_proposed_core_vocabulary",
+      "reason": "base currency/internal identifier/time excluded by proposed scope, not declared universally invisible"
+    },
+    {
+      "entity": "catalog_product",
+      "field": "country_of_manufacture",
+      "source_ui_derivable": false,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "catalog_product",
+      "field": "quantity_and_stock_status",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "catalog_product",
+      "field": "custom_layout",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "catalog_product",
+      "field": "custom_layout_update_file",
+      "source_ui_derivable": false,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "catalog_product",
+      "field": "url_key",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "catalog_product",
+      "field": "url_path",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "catalog_product",
+      "field": "msrp",
+      "source_ui_derivable": false,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "catalog_product",
+      "field": "msrp_display_actual_price_type",
+      "source_ui_derivable": false,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "catalog_product",
+      "field": "links_purchased_separately",
+      "source_ui_derivable": false,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "catalog_product",
+      "field": "samples_title",
+      "source_ui_derivable": false,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "catalog_product",
+      "field": "links_title",
+      "source_ui_derivable": false,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "catalog_product",
+      "field": "links_exist",
+      "source_ui_derivable": false,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "catalog_product",
+      "field": "price_type",
+      "source_ui_derivable": false,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "catalog_product",
+      "field": "sku_type",
+      "source_ui_derivable": false,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "catalog_product",
+      "field": "weight_type",
+      "source_ui_derivable": false,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "catalog_product",
+      "field": "price_view",
+      "source_ui_derivable": false,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "catalog_product",
+      "field": "shipment_type",
+      "source_ui_derivable": false,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "catalog_product",
+      "field": "gift_message_available",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "catalog_product",
+      "field": "swatch_image",
+      "source_ui_derivable": false,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "catalog_product",
+      "field": "tax_class_id",
+      "source_ui_derivable": false,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "catalog_category",
+      "field": "name",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [
+        "category.name"
+      ],
+      "disposition": "candidate_mapping_pending_UI",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "catalog_category",
+      "field": "is_active",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "catalog_category",
+      "field": "description",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "catalog_category",
+      "field": "image",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "catalog_category",
+      "field": "meta_title",
+      "source_ui_derivable": false,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "catalog_category",
+      "field": "meta_keywords",
+      "source_ui_derivable": false,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "catalog_category",
+      "field": "meta_description",
+      "source_ui_derivable": false,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "catalog_category",
+      "field": "display_mode",
+      "source_ui_derivable": false,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "catalog_category",
+      "field": "landing_page",
+      "source_ui_derivable": false,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "catalog_category",
+      "field": "is_anchor",
+      "source_ui_derivable": false,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "catalog_category",
+      "field": "path",
+      "source_ui_derivable": false,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "catalog_category",
+      "field": "position",
+      "source_ui_derivable": false,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "catalog_category",
+      "field": "all_children",
+      "source_ui_derivable": false,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "catalog_category",
+      "field": "path_in_store",
+      "source_ui_derivable": false,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "catalog_category",
+      "field": "children",
+      "source_ui_derivable": false,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "catalog_category",
+      "field": "custom_design",
+      "source_ui_derivable": false,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "catalog_category",
+      "field": "custom_design_from",
+      "source_ui_derivable": false,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "catalog_category",
+      "field": "custom_design_to",
+      "source_ui_derivable": false,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "catalog_category",
+      "field": "page_layout",
+      "source_ui_derivable": false,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "catalog_category",
+      "field": "custom_layout_update",
+      "source_ui_derivable": false,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "catalog_category",
+      "field": "level",
+      "source_ui_derivable": false,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "catalog_category",
+      "field": "children_count",
+      "source_ui_derivable": false,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "catalog_category",
+      "field": "available_sort_by",
+      "source_ui_derivable": false,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "catalog_category",
+      "field": "default_sort_by",
+      "source_ui_derivable": false,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "catalog_category",
+      "field": "include_in_menu",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "catalog_category",
+      "field": "custom_use_parent_settings",
+      "source_ui_derivable": false,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "catalog_category",
+      "field": "custom_apply_to_products",
+      "source_ui_derivable": false,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "catalog_category",
+      "field": "filter_price_range",
+      "source_ui_derivable": false,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "catalog_category",
+      "field": "custom_layout_update_file",
+      "source_ui_derivable": false,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "catalog_category",
+      "field": "url_key",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "catalog_category",
+      "field": "url_path",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "quote",
+      "field": "entity_id",
+      "source_ui_derivable": false,
+      "candidate_fact_ids": [],
+      "disposition": "excluded_from_proposed_core_vocabulary",
+      "reason": "base currency/internal identifier/time excluded by proposed scope, not declared universally invisible"
+    },
+    {
+      "entity": "quote",
+      "field": "store_id",
+      "source_ui_derivable": false,
+      "candidate_fact_ids": [],
+      "disposition": "excluded_from_proposed_core_vocabulary",
+      "reason": "base currency/internal identifier/time excluded by proposed scope, not declared universally invisible"
+    },
+    {
+      "entity": "quote",
+      "field": "created_at",
+      "source_ui_derivable": false,
+      "candidate_fact_ids": [],
+      "disposition": "excluded_from_proposed_core_vocabulary",
+      "reason": "base currency/internal identifier/time excluded by proposed scope, not declared universally invisible"
+    },
+    {
+      "entity": "quote",
+      "field": "updated_at",
+      "source_ui_derivable": false,
+      "candidate_fact_ids": [],
+      "disposition": "excluded_from_proposed_core_vocabulary",
+      "reason": "base currency/internal identifier/time excluded by proposed scope, not declared universally invisible"
+    },
+    {
+      "entity": "quote",
+      "field": "converted_at",
+      "source_ui_derivable": false,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "quote",
+      "field": "is_active",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "quote",
+      "field": "is_virtual",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "quote",
+      "field": "is_multi_shipping",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "quote",
+      "field": "items_count",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "quote",
+      "field": "items_qty",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [
+        "cart.item_count"
+      ],
+      "disposition": "candidate_mapping_pending_UI",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "quote",
+      "field": "orig_order_id",
+      "source_ui_derivable": false,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "quote",
+      "field": "store_to_base_rate",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "quote",
+      "field": "store_to_quote_rate",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "quote",
+      "field": "base_currency_code",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "excluded_from_proposed_core_vocabulary",
+      "reason": "base currency/internal identifier/time excluded by proposed scope, not declared universally invisible"
+    },
+    {
+      "entity": "quote",
+      "field": "store_currency_code",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "quote",
+      "field": "quote_currency_code",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "quote",
+      "field": "grand_total",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [
+        "cart.grand_total"
+      ],
+      "disposition": "candidate_mapping_pending_UI",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "quote",
+      "field": "base_grand_total",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "excluded_from_proposed_core_vocabulary",
+      "reason": "base currency/internal identifier/time excluded by proposed scope, not declared universally invisible"
+    },
+    {
+      "entity": "quote",
+      "field": "checkout_method",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "quote",
+      "field": "customer_id",
+      "source_ui_derivable": false,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "quote",
+      "field": "customer_tax_class_id",
+      "source_ui_derivable": false,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "quote",
+      "field": "customer_group_id",
+      "source_ui_derivable": false,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "quote",
+      "field": "customer_email",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "quote",
+      "field": "customer_prefix",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "quote",
+      "field": "customer_firstname",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "quote",
+      "field": "customer_middlename",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "quote",
+      "field": "customer_lastname",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "quote",
+      "field": "customer_suffix",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "quote",
+      "field": "customer_dob",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "quote",
+      "field": "customer_note",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "quote",
+      "field": "customer_note_notify",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "quote",
+      "field": "customer_is_guest",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "quote",
+      "field": "remote_ip",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "quote",
+      "field": "applied_rule_ids",
+      "source_ui_derivable": false,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "quote",
+      "field": "reserved_order_id",
+      "source_ui_derivable": false,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "quote",
+      "field": "password_hash",
+      "source_ui_derivable": false,
+      "candidate_fact_ids": [],
+      "disposition": "excluded_from_proposed_core_vocabulary",
+      "reason": "base currency/internal identifier/time excluded by proposed scope, not declared universally invisible"
+    },
+    {
+      "entity": "quote",
+      "field": "coupon_code",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [
+        "cart.coupon_code"
+      ],
+      "disposition": "candidate_mapping_pending_UI",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "quote",
+      "field": "global_currency_code",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "quote",
+      "field": "base_to_global_rate",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "excluded_from_proposed_core_vocabulary",
+      "reason": "base currency/internal identifier/time excluded by proposed scope, not declared universally invisible"
+    },
+    {
+      "entity": "quote",
+      "field": "base_to_quote_rate",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "excluded_from_proposed_core_vocabulary",
+      "reason": "base currency/internal identifier/time excluded by proposed scope, not declared universally invisible"
+    },
+    {
+      "entity": "quote",
+      "field": "customer_taxvat",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "quote",
+      "field": "customer_gender",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "quote",
+      "field": "subtotal",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [
+        "cart.subtotal"
+      ],
+      "disposition": "candidate_mapping_pending_UI",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "quote",
+      "field": "base_subtotal",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "excluded_from_proposed_core_vocabulary",
+      "reason": "base currency/internal identifier/time excluded by proposed scope, not declared universally invisible"
+    },
+    {
+      "entity": "quote",
+      "field": "subtotal_with_discount",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "quote",
+      "field": "base_subtotal_with_discount",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "excluded_from_proposed_core_vocabulary",
+      "reason": "base currency/internal identifier/time excluded by proposed scope, not declared universally invisible"
+    },
+    {
+      "entity": "quote",
+      "field": "is_changed",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "quote",
+      "field": "trigger_recollect",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "quote",
+      "field": "ext_shipping_info",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "quote",
+      "field": "gift_message_id",
+      "source_ui_derivable": false,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "quote",
+      "field": "is_persistent",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "quote_item",
+      "field": "item_id",
+      "source_ui_derivable": false,
+      "candidate_fact_ids": [],
+      "disposition": "excluded_from_proposed_core_vocabulary",
+      "reason": "base currency/internal identifier/time excluded by proposed scope, not declared universally invisible"
+    },
+    {
+      "entity": "quote_item",
+      "field": "quote_id",
+      "source_ui_derivable": false,
+      "candidate_fact_ids": [],
+      "disposition": "excluded_from_proposed_core_vocabulary",
+      "reason": "base currency/internal identifier/time excluded by proposed scope, not declared universally invisible"
+    },
+    {
+      "entity": "quote_item",
+      "field": "created_at",
+      "source_ui_derivable": false,
+      "candidate_fact_ids": [],
+      "disposition": "excluded_from_proposed_core_vocabulary",
+      "reason": "base currency/internal identifier/time excluded by proposed scope, not declared universally invisible"
+    },
+    {
+      "entity": "quote_item",
+      "field": "updated_at",
+      "source_ui_derivable": false,
+      "candidate_fact_ids": [],
+      "disposition": "excluded_from_proposed_core_vocabulary",
+      "reason": "base currency/internal identifier/time excluded by proposed scope, not declared universally invisible"
+    },
+    {
+      "entity": "quote_item",
+      "field": "product_id",
+      "source_ui_derivable": false,
+      "candidate_fact_ids": [],
+      "disposition": "excluded_from_proposed_core_vocabulary",
+      "reason": "base currency/internal identifier/time excluded by proposed scope, not declared universally invisible"
+    },
+    {
+      "entity": "quote_item",
+      "field": "store_id",
+      "source_ui_derivable": false,
+      "candidate_fact_ids": [],
+      "disposition": "excluded_from_proposed_core_vocabulary",
+      "reason": "base currency/internal identifier/time excluded by proposed scope, not declared universally invisible"
+    },
+    {
+      "entity": "quote_item",
+      "field": "parent_item_id",
+      "source_ui_derivable": false,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "quote_item",
+      "field": "is_virtual",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "quote_item",
+      "field": "sku",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "quote_item",
+      "field": "name",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [
+        "cart_item.name"
+      ],
+      "disposition": "candidate_mapping_pending_UI",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "quote_item",
+      "field": "description",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "quote_item",
+      "field": "applied_rule_ids",
+      "source_ui_derivable": false,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "quote_item",
+      "field": "additional_data",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "quote_item",
+      "field": "is_qty_decimal",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "quote_item",
+      "field": "no_discount",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "quote_item",
+      "field": "weight",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "quote_item",
+      "field": "qty",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [
+        "cart_item.quantity"
+      ],
+      "disposition": "candidate_mapping_pending_UI",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "quote_item",
+      "field": "price",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [
+        "cart_item.price"
+      ],
+      "disposition": "candidate_mapping_pending_UI",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "quote_item",
+      "field": "base_price",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "excluded_from_proposed_core_vocabulary",
+      "reason": "base currency/internal identifier/time excluded by proposed scope, not declared universally invisible"
+    },
+    {
+      "entity": "quote_item",
+      "field": "custom_price",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "quote_item",
+      "field": "discount_percent",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "quote_item",
+      "field": "discount_amount",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "quote_item",
+      "field": "base_discount_amount",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "excluded_from_proposed_core_vocabulary",
+      "reason": "base currency/internal identifier/time excluded by proposed scope, not declared universally invisible"
+    },
+    {
+      "entity": "quote_item",
+      "field": "tax_percent",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "quote_item",
+      "field": "tax_amount",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "quote_item",
+      "field": "base_tax_amount",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "excluded_from_proposed_core_vocabulary",
+      "reason": "base currency/internal identifier/time excluded by proposed scope, not declared universally invisible"
+    },
+    {
+      "entity": "quote_item",
+      "field": "row_total",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [
+        "cart_item.row_total"
+      ],
+      "disposition": "candidate_mapping_pending_UI",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "quote_item",
+      "field": "base_row_total",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "excluded_from_proposed_core_vocabulary",
+      "reason": "base currency/internal identifier/time excluded by proposed scope, not declared universally invisible"
+    },
+    {
+      "entity": "quote_item",
+      "field": "row_total_with_discount",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "quote_item",
+      "field": "row_weight",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "quote_item",
+      "field": "product_type",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "quote_item",
+      "field": "base_tax_before_discount",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "excluded_from_proposed_core_vocabulary",
+      "reason": "base currency/internal identifier/time excluded by proposed scope, not declared universally invisible"
+    },
+    {
+      "entity": "quote_item",
+      "field": "tax_before_discount",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "quote_item",
+      "field": "original_custom_price",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "quote_item",
+      "field": "redirect_url",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "quote_item",
+      "field": "base_cost",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "excluded_from_proposed_core_vocabulary",
+      "reason": "base currency/internal identifier/time excluded by proposed scope, not declared universally invisible"
+    },
+    {
+      "entity": "quote_item",
+      "field": "price_incl_tax",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "quote_item",
+      "field": "base_price_incl_tax",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "excluded_from_proposed_core_vocabulary",
+      "reason": "base currency/internal identifier/time excluded by proposed scope, not declared universally invisible"
+    },
+    {
+      "entity": "quote_item",
+      "field": "row_total_incl_tax",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "quote_item",
+      "field": "base_row_total_incl_tax",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "excluded_from_proposed_core_vocabulary",
+      "reason": "base currency/internal identifier/time excluded by proposed scope, not declared universally invisible"
+    },
+    {
+      "entity": "quote_item",
+      "field": "discount_tax_compensation_amount",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "quote_item",
+      "field": "base_discount_tax_compensation_amount",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "excluded_from_proposed_core_vocabulary",
+      "reason": "base currency/internal identifier/time excluded by proposed scope, not declared universally invisible"
+    },
+    {
+      "entity": "quote_item",
+      "field": "gift_message_id",
+      "source_ui_derivable": false,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "quote_item",
+      "field": "free_shipping",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "quote_item",
+      "field": "weee_tax_applied",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "quote_item",
+      "field": "weee_tax_applied_amount",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "quote_item",
+      "field": "weee_tax_applied_row_amount",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "quote_item",
+      "field": "weee_tax_disposition",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "quote_item",
+      "field": "weee_tax_row_disposition",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "quote_item",
+      "field": "base_weee_tax_applied_amount",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "excluded_from_proposed_core_vocabulary",
+      "reason": "base currency/internal identifier/time excluded by proposed scope, not declared universally invisible"
+    },
+    {
+      "entity": "quote_item",
+      "field": "base_weee_tax_applied_row_amnt",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "excluded_from_proposed_core_vocabulary",
+      "reason": "base currency/internal identifier/time excluded by proposed scope, not declared universally invisible"
+    },
+    {
+      "entity": "quote_item",
+      "field": "base_weee_tax_disposition",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "excluded_from_proposed_core_vocabulary",
+      "reason": "base currency/internal identifier/time excluded by proposed scope, not declared universally invisible"
+    },
+    {
+      "entity": "quote_item",
+      "field": "base_weee_tax_row_disposition",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "excluded_from_proposed_core_vocabulary",
+      "reason": "base currency/internal identifier/time excluded by proposed scope, not declared universally invisible"
+    },
+    {
+      "entity": "quote_address",
+      "field": "address_id",
+      "source_ui_derivable": false,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "quote_address",
+      "field": "quote_id",
+      "source_ui_derivable": false,
+      "candidate_fact_ids": [],
+      "disposition": "excluded_from_proposed_core_vocabulary",
+      "reason": "base currency/internal identifier/time excluded by proposed scope, not declared universally invisible"
+    },
+    {
+      "entity": "quote_address",
+      "field": "created_at",
+      "source_ui_derivable": false,
+      "candidate_fact_ids": [],
+      "disposition": "excluded_from_proposed_core_vocabulary",
+      "reason": "base currency/internal identifier/time excluded by proposed scope, not declared universally invisible"
+    },
+    {
+      "entity": "quote_address",
+      "field": "updated_at",
+      "source_ui_derivable": false,
+      "candidate_fact_ids": [],
+      "disposition": "excluded_from_proposed_core_vocabulary",
+      "reason": "base currency/internal identifier/time excluded by proposed scope, not declared universally invisible"
+    },
+    {
+      "entity": "quote_address",
+      "field": "customer_id",
+      "source_ui_derivable": false,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "quote_address",
+      "field": "save_in_address_book",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "quote_address",
+      "field": "customer_address_id",
+      "source_ui_derivable": false,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "quote_address",
+      "field": "address_type",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "quote_address",
+      "field": "email",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "quote_address",
+      "field": "prefix",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "quote_address",
+      "field": "firstname",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "quote_address",
+      "field": "middlename",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "quote_address",
+      "field": "lastname",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "quote_address",
+      "field": "suffix",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "quote_address",
+      "field": "company",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "quote_address",
+      "field": "street",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "quote_address",
+      "field": "city",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "quote_address",
+      "field": "region",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "quote_address",
+      "field": "region_id",
+      "source_ui_derivable": false,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "quote_address",
+      "field": "postcode",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "quote_address",
+      "field": "country_id",
+      "source_ui_derivable": false,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "quote_address",
+      "field": "telephone",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "quote_address",
+      "field": "fax",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "quote_address",
+      "field": "same_as_billing",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "quote_address",
+      "field": "collect_shipping_rates",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "quote_address",
+      "field": "shipping_method",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "quote_address",
+      "field": "shipping_description",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "quote_address",
+      "field": "weight",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "quote_address",
+      "field": "subtotal",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "quote_address",
+      "field": "base_subtotal",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "excluded_from_proposed_core_vocabulary",
+      "reason": "base currency/internal identifier/time excluded by proposed scope, not declared universally invisible"
+    },
+    {
+      "entity": "quote_address",
+      "field": "subtotal_with_discount",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "quote_address",
+      "field": "base_subtotal_with_discount",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "excluded_from_proposed_core_vocabulary",
+      "reason": "base currency/internal identifier/time excluded by proposed scope, not declared universally invisible"
+    },
+    {
+      "entity": "quote_address",
+      "field": "tax_amount",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "quote_address",
+      "field": "base_tax_amount",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "excluded_from_proposed_core_vocabulary",
+      "reason": "base currency/internal identifier/time excluded by proposed scope, not declared universally invisible"
+    },
+    {
+      "entity": "quote_address",
+      "field": "shipping_amount",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [
+        "cart.shipping_amount"
+      ],
+      "disposition": "candidate_mapping_pending_UI",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "quote_address",
+      "field": "base_shipping_amount",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "excluded_from_proposed_core_vocabulary",
+      "reason": "base currency/internal identifier/time excluded by proposed scope, not declared universally invisible"
+    },
+    {
+      "entity": "quote_address",
+      "field": "shipping_tax_amount",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "quote_address",
+      "field": "base_shipping_tax_amount",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "excluded_from_proposed_core_vocabulary",
+      "reason": "base currency/internal identifier/time excluded by proposed scope, not declared universally invisible"
+    },
+    {
+      "entity": "quote_address",
+      "field": "discount_amount",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "quote_address",
+      "field": "base_discount_amount",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "excluded_from_proposed_core_vocabulary",
+      "reason": "base currency/internal identifier/time excluded by proposed scope, not declared universally invisible"
+    },
+    {
+      "entity": "quote_address",
+      "field": "grand_total",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "quote_address",
+      "field": "base_grand_total",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "excluded_from_proposed_core_vocabulary",
+      "reason": "base currency/internal identifier/time excluded by proposed scope, not declared universally invisible"
+    },
+    {
+      "entity": "quote_address",
+      "field": "customer_notes",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "quote_address",
+      "field": "applied_taxes",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "quote_address",
+      "field": "discount_description",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "quote_address",
+      "field": "shipping_discount_amount",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "quote_address",
+      "field": "base_shipping_discount_amount",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "excluded_from_proposed_core_vocabulary",
+      "reason": "base currency/internal identifier/time excluded by proposed scope, not declared universally invisible"
+    },
+    {
+      "entity": "quote_address",
+      "field": "subtotal_incl_tax",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "quote_address",
+      "field": "base_subtotal_total_incl_tax",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "excluded_from_proposed_core_vocabulary",
+      "reason": "base currency/internal identifier/time excluded by proposed scope, not declared universally invisible"
+    },
+    {
+      "entity": "quote_address",
+      "field": "discount_tax_compensation_amount",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "quote_address",
+      "field": "base_discount_tax_compensation_amount",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "excluded_from_proposed_core_vocabulary",
+      "reason": "base currency/internal identifier/time excluded by proposed scope, not declared universally invisible"
+    },
+    {
+      "entity": "quote_address",
+      "field": "shipping_discount_tax_compensation_amount",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "quote_address",
+      "field": "base_shipping_discount_tax_compensation_amnt",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "excluded_from_proposed_core_vocabulary",
+      "reason": "base currency/internal identifier/time excluded by proposed scope, not declared universally invisible"
+    },
+    {
+      "entity": "quote_address",
+      "field": "shipping_incl_tax",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "quote_address",
+      "field": "base_shipping_incl_tax",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "excluded_from_proposed_core_vocabulary",
+      "reason": "base currency/internal identifier/time excluded by proposed scope, not declared universally invisible"
+    },
+    {
+      "entity": "quote_address",
+      "field": "vat_id",
+      "source_ui_derivable": false,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "quote_address",
+      "field": "vat_is_valid",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "quote_address",
+      "field": "vat_request_id",
+      "source_ui_derivable": false,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "quote_address",
+      "field": "vat_request_date",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "quote_address",
+      "field": "vat_request_success",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "quote_address",
+      "field": "validated_country_code",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "quote_address",
+      "field": "validated_vat_number",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "quote_address",
+      "field": "gift_message_id",
+      "source_ui_derivable": false,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    },
+    {
+      "entity": "quote_address",
+      "field": "free_shipping",
+      "source_ui_derivable": true,
+      "candidate_fact_ids": [],
+      "disposition": "pending_independent_UI_review",
+      "reason": "Existing ui_derivable is not accepted as UI proof"
+    }
+  ]
+}

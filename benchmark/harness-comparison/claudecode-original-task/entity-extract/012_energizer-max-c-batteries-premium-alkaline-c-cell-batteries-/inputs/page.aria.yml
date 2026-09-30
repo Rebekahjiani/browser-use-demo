@@ -1,0 +1,378 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e5]:
+      - list [ref=e6]:
+        - listitem [ref=e7]:
+          - link "My Account" [ref=e8] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/customer/account/
+        - listitem [ref=e9]:
+          - link "My Wish List" [ref=e10] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/wishlist/
+        - listitem [ref=e11]:
+          - link "Sign In" [ref=e12] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/customer/account/login/
+        - listitem [ref=e13]:
+          - link "Compare Products 2 items" [ref=e14] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/catalog/product_compare/index/uenc/aHR0cDovLzEyNy4wLjAuMTo3NzcwL2N1c3RvbWVyL3NlY3Rpb24vbG9hZC8_c2VjdGlvbnM9Y29tcGFyZS1wcm9kdWN0cyUyQ21lc3NhZ2VzJmZvcmNlX25ld19zZWN0aW9uX3RpbWVzdGFtcD1mYWxzZSZfPTE3OTA1NjMzMTA1MDM~/
+        - listitem [ref=e15]: Welcome to One Stop Market
+        - listitem [ref=e16]:
+          - link "Create an Account" [ref=e17] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/customer/account/create/
+      - link "Skip to Content" [ref=e18] [cursor=pointer]:
+        - /url: "#contentarea"
+    - generic [ref=e19]:
+      - text: 
+      - link "store logo" [ref=e20] [cursor=pointer]:
+        - /url: http://127.0.0.1:7770/
+        - img "one_stop_market_logo" [ref=e21]
+      - generic [ref=e22]:
+        - link " My Cart 3 3 items" [ref=e23] [cursor=pointer]:
+          - /url: http://127.0.0.1:7770/checkout/cart/
+          - text: 
+          - generic [ref=e24]: My Cart
+          - generic [ref=e25]:
+            - generic [ref=e26]: "3"
+            - generic [ref=e27]: 3 items
+        - text: " : :   :   :  "
+      - generic [ref=e30]:
+        - generic [ref=e31]:
+          - generic [ref=e32]:
+            - text: 
+            - generic [ref=e33]: Search
+          - generic [ref=e34]:
+            - combobox " Search" [ref=e35]
+            - link "Advanced Search" [ref=e37] [cursor=pointer]:
+              - /url: http://127.0.0.1:7770/catalogsearch/advanced/
+        - generic:
+          - button "Search" [disabled]:
+            - text: 
+            - generic: Search
+  - tablist [ref=e39]:
+    - tabpanel [ref=e40]:
+      - navigation [ref=e41]:
+        - menu [ref=e42]:
+          - listitem [ref=e43]:
+            - menuitem " Beauty & Personal Care" [ref=e44] [cursor=pointer]:
+              - generic [ref=e45]: 
+              - text: Beauty & Personal Care
+            - text:          
+          - listitem [ref=e46]:
+            - menuitem " Sports & Outdoors" [ref=e47] [cursor=pointer]:
+              - generic [ref=e48]: 
+              - text: Sports & Outdoors
+            - text:   
+          - listitem [ref=e49]:
+            - menuitem " Clothing, Shoes & Jewelry" [ref=e50] [cursor=pointer]:
+              - generic [ref=e51]: 
+              - text: Clothing, Shoes & Jewelry
+            - text:    
+          - listitem [ref=e52]:
+            - menuitem " Home & Kitchen" [ref=e53] [cursor=pointer]:
+              - generic [ref=e54]: 
+              - text: Home & Kitchen
+            - text:       
+          - listitem [ref=e55]:
+            - menuitem " Office Products" [ref=e56] [cursor=pointer]:
+              - generic [ref=e57]: 
+              - text: Office Products
+            - text:   
+          - listitem [ref=e58]:
+            - menuitem " Tools & Home Improvement" [ref=e59] [cursor=pointer]:
+              - generic [ref=e60]: 
+              - text: Tools & Home Improvement
+            - text: 
+          - listitem [ref=e61]:
+            - menuitem " Health & Household" [ref=e62] [cursor=pointer]:
+              - generic [ref=e63]: 
+              - text: Health & Household
+            - text:  
+          - listitem [ref=e64]:
+            - menuitem " Patio, Lawn & Garden" [ref=e65] [cursor=pointer]:
+              - generic [ref=e66]: 
+              - text: Patio, Lawn & Garden
+            - text: 
+          - listitem [ref=e67]:
+            - menuitem " Electronics" [ref=e68] [cursor=pointer]:
+              - generic [ref=e69]: 
+              - text: Electronics
+            - text:            
+          - listitem [ref=e70]:
+            - menuitem " Cell Phones & Accessories" [ref=e71] [cursor=pointer]:
+              - generic [ref=e72]: 
+              - text: Cell Phones & Accessories
+            - text:  
+          - listitem [ref=e73]:
+            - menuitem " Video Games" [ref=e74] [cursor=pointer]:
+              - generic [ref=e75]: 
+              - text: Video Games
+            - text:    
+          - listitem [ref=e76]:
+            - menuitem " Grocery & Gourmet Food" [ref=e77] [cursor=pointer]:
+              - generic [ref=e78]: 
+              - text: Grocery & Gourmet Food
+            - text:             
+  - list [ref=e80]:
+    - listitem [ref=e81]:
+      - link "Home" [ref=e82] [cursor=pointer]:
+        - /url: http://127.0.0.1:7770/
+      - text: 
+    - listitem [ref=e83]:
+      - link "Health & Household" [ref=e84] [cursor=pointer]:
+        - /url: http://127.0.0.1:7770/health-household.html
+      - text: 
+    - listitem [ref=e85]:
+      - strong [ref=e86]: Energizer MAX C Batteries, Premium Alkaline C Cell Batteries (8 Battery Count)
+  - main [ref=e87]:
+    - heading "Energizer MAX C Batteries, Premium Alkaline C Cell Batteries (8 Battery Count)" [level=1] [ref=e89]
+    - alert [ref=e92]:
+      - generic [ref=e94]:  The product's required option(s) weren't entered. Make sure the options are entered and try again.
+    - generic [ref=e96]:
+      - generic [ref=e97]:
+        - generic [ref=e98]:
+          - generic [ref=e99]:
+            - generic "Availability" [ref=e100]: In stock
+            - generic [ref=e101]:
+              - strong [ref=e102]: SKU
+              - generic [ref=e103]: B0044DA3NS
+          - generic [ref=e104]:
+            - generic [ref=e105]:
+              - generic [ref=e106]: "Rating:"
+              - generic "40%" [ref=e107]:
+                - text: 
+                - generic [ref=e108]:
+                  - text: 
+                  - generic [ref=e109]:
+                    - generic [ref=e110]: "40"
+                    - text: "% of"
+                    - generic [ref=e111]: "100"
+            - generic [ref=e112]:
+              - link "12 Reviews" [ref=e113] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/energizer-max-c-batteries-premium-alkaline-c-cell-batteries-8-battery-count.html#reviews
+              - link "Add Your Review" [ref=e114] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/energizer-max-c-batteries-premium-alkaline-c-cell-batteries-8-battery-count.html#review-form
+          - generic [ref=e117]: $14.87
+        - generic [ref=e119]:
+          - generic [ref=e122]:
+            - generic [ref=e123]: Style *
+            - generic [ref=e125]:
+              - generic [ref=e126]:
+                - radio "C 2 Count" [ref=e127]
+                - generic [ref=e128]: C 2 Count
+              - generic [ref=e129]:
+                - radio "C 4 Count" [ref=e130]
+                - generic [ref=e131]: C 4 Count
+              - generic [ref=e132]:
+                - radio "C 8 Count" [ref=e133]
+                - generic [ref=e134]: C 8 Count
+              - generic [ref=e135]:
+                - radio "C, 4 Count" [ref=e136]
+                - generic [ref=e137]: C, 4 Count
+              - generic [ref=e138]:
+                - radio "Combo Pack, 12 C + 12 D" [ref=e139]
+                - generic [ref=e140]: Combo Pack, 12 C + 12 D
+          - generic [ref=e143]:
+            - generic [ref=e144]:
+              - generic [ref=e145]: Qty
+              - spinbutton "Qty" [ref=e147]: "1"
+            - button "Add to Cart" [ref=e149] [cursor=pointer]
+        - generic [ref=e151]:
+          - link "Add to Wish List" [ref=e152] [cursor=pointer]:
+            - /url: "#"
+          - link "Add to Compare" [ref=e153] [cursor=pointer]:
+            - /url: "#"
+      - generic [ref=e154]:
+        - link "Skip to the end of the images gallery" [ref=e155] [cursor=pointer]:
+          - /url: "#gallery-next-area"
+        - generic [ref=e158]:
+          - generic [ref=e159]:
+            - button "Previous" [ref=e160] [cursor=pointer]
+            - generic [ref=e162]:
+              - img "Image" [ref=e164]
+              - img [ref=e166]
+            - button "Next"
+          - generic [ref=e168]:
+            - button "Previous"
+            - generic [ref=e169]:
+              - button "Image" [ref=e171]:
+                - img "Image" [ref=e173]
+              - button "Image" [ref=e174]:
+                - img "Image" [ref=e176]
+            - button "Next"
+        - link "Skip to the beginning of the images gallery" [ref=e177] [cursor=pointer]:
+          - /url: "#gallery-prev-area"
+      - tablist [ref=e179]:
+        - tab "Details" [expanded] [ref=e180]:
+          - link "Details" [ref=e181] [cursor=pointer]:
+            - /url: "#description"
+        - tabpanel "Details" [ref=e182]:
+          - generic [ref=e184]:
+            - generic [ref=e186]:
+              - separator [ref=e187]
+              - heading "From the manufacturer" [level=2] [ref=e188]
+              - generic [ref=e189]:
+                - img "Image shows an electric razor, a toy robot, remote control, flashlight, and a smoke detector. Big or" [ref=e195]
+                - img "Closeup image of the pink Energizer Bunny wearing black sunglasses that say Energizer on them." [ref=e201]
+                - img "The Energizer Bunny is holding a large Energizer Max battery" [ref=e207]
+                - table [ref=e213]:
+                  - rowgroup [ref=e214]:
+                    - row "Energizer Ultimate Lithium batteries give you the ultimate power for your critical devices Get economical reusable power for your frequently used devices with Energizer Rechargeable batteries Energizer coin batteries give you big power for tiny devices" [ref=e215]:
+                      - columnheader "Energizer Ultimate Lithium batteries give you the ultimate power for your critical devices" [ref=e216]:
+                        - paragraph [ref=e218]:
+                          - img "Energizer Ultimate Lithium batteries give you the ultimate power for your critical devices" [ref=e219]
+                      - columnheader "Get economical reusable power for your frequently used devices with Energizer Rechargeable batteries" [ref=e220]:
+                        - paragraph [ref=e222]:
+                          - img "Get economical reusable power for your frequently used devices with Energizer Rechargeable batteries" [ref=e223]
+                      - columnheader "Energizer coin batteries give you big power for tiny devices" [ref=e224]:
+                        - paragraph [ref=e226]:
+                          - img "Energizer coin batteries give you big power for tiny devices" [ref=e227]
+                    - row [ref=e228]:
+                      - cell [ref=e229]
+                      - cell [ref=e230]
+                      - cell [ref=e231]
+                - table [ref=e236]:
+                  - rowgroup [ref=e237]:
+                    - row "unspecified unspecified unspecified unspecified" [ref=e238]:
+                      - columnheader [ref=e239]
+                      - columnheader "unspecified" [ref=e240]:
+                        - link "unspecified" [ref=e241] [cursor=pointer]:
+                          - /url: /dp/B004U429AQ/ref=emc_b_5_i
+                          - img "unspecified" [ref=e242]
+                      - columnheader "unspecified" [ref=e243]:
+                        - link "unspecified" [ref=e244] [cursor=pointer]:
+                          - /url: /dp/B071D87WPV/ref=emc_b_5_i
+                          - img "unspecified" [ref=e245]
+                      - columnheader "unspecified" [ref=e246]:
+                        - link "unspecified" [ref=e247] [cursor=pointer]:
+                          - /url: /dp/B0043CHWHA/ref=emc_b_5_i
+                          - img "unspecified" [ref=e248]
+                      - columnheader "unspecified" [ref=e249]:
+                        - link "unspecified" [ref=e250] [cursor=pointer]:
+                          - /url: /dp/B0057UUB0W/ref=emc_b_5_i
+                          - img "unspecified" [ref=e251]
+                    - row "Max Ultimate Lithium Watch Electronic Hearing Aid" [ref=e252]:
+                      - columnheader [ref=e253]
+                      - columnheader "Max" [ref=e254]:
+                        - link "Max" [ref=e255] [cursor=pointer]:
+                          - /url: /dp/B004U429AQ/ref=emc_b_5_t
+                      - columnheader "Ultimate Lithium" [ref=e256]:
+                        - link "Ultimate Lithium" [ref=e257] [cursor=pointer]:
+                          - /url: /dp/B071D87WPV/ref=emc_b_5_t
+                      - columnheader "Watch Electronic" [ref=e258]:
+                        - link "Watch Electronic" [ref=e259] [cursor=pointer]:
+                          - /url: /dp/B0043CHWHA/ref=emc_b_5_t
+                      - columnheader "Hearing Aid" [ref=e260]:
+                        - link "Hearing Aid" [ref=e261] [cursor=pointer]:
+                          - /url: /dp/B0057UUB0W/ref=emc_b_5_t
+                    - 'row "Comp Chart Feature: Available Sizes AA, AAA, C, D, 9V AA, AAA, 9V 2032, 2025, 2016, 2450, 2430, 1632, 1620, 1616, 1220, 1216, 1025 10, 13, 312, 675" [ref=e262]':
+                      - 'rowheader "Comp Chart Feature: Available Sizes" [ref=e263]'
+                      - cell "AA, AAA, C, D, 9V" [ref=e264]
+                      - cell "AA, AAA, 9V" [ref=e265]
+                      - cell "2032, 2025, 2016, 2450, 2430, 1632, 1620, 1616, 1220, 1216, 1025" [ref=e266]
+                      - cell "10, 13, 312, 675" [ref=e267]
+                    - 'row "Comp Chart Feature: Composition Alkaline Lithium Lithium Zinc Air" [ref=e268]':
+                      - 'rowheader "Comp Chart Feature: Composition" [ref=e269]'
+                      - cell "Alkaline" [ref=e270]
+                      - cell "Lithium" [ref=e271]
+                      - cell "Lithium" [ref=e272]
+                      - cell "Zinc Air" [ref=e273]
+                    - 'row "Comp Chart Feature: Made with Recycled Batteries" [ref=e274]':
+                      - 'rowheader "Comp Chart Feature: Made with Recycled Batteries" [ref=e275]'
+                      - cell [ref=e276]
+                      - cell [ref=e277]
+                      - cell [ref=e278]
+                      - cell [ref=e279]
+                    - 'row "Comp Chart Feature: Shelf Life AA, AAA, C, D—up to 10 years; 9V—up to 5 years AA, AAA—up to 20 years; 9V—up to 10 years Up to 8 years Up to 4 years" [ref=e280]':
+                      - 'rowheader "Comp Chart Feature: Shelf Life" [ref=e281]'
+                      - cell "AA, AAA, C, D—up to 10 years; 9V—up to 5 years" [ref=e282]
+                      - cell "AA, AAA—up to 20 years; 9V—up to 10 years" [ref=e283]
+                      - cell "Up to 8 years" [ref=e284]
+                      - cell "Up to 4 years" [ref=e285]
+                    - 'row "Comp Chart Feature: Best Uses Everyday low to mid-drain electronics High-tech and smart devices; suitable for use in extreme temperatures Reliable power for heart-rate monitors, glucose monitors, keyless entry, and more For many types of hearing aid devices including ITC, ITE, BTE, CIC, and Cochlear Implants." [ref=e286]':
+                      - 'rowheader "Comp Chart Feature: Best Uses" [ref=e287]'
+                      - cell "Everyday low to mid-drain electronics" [ref=e288]
+                      - cell "High-tech and smart devices; suitable for use in extreme temperatures" [ref=e289]
+                      - cell "Reliable power for heart-rate monitors, glucose monitors, keyless entry, and more" [ref=e290]
+                      - cell "For many types of hearing aid devices including ITC, ITE, BTE, CIC, and Cochlear Implants." [ref=e291]
+            - generic [ref=e292]:
+              - heading "Product Quick Look" [level=2] [ref=e293]
+              - generic [ref=e294]:
+                - list [ref=e296]:
+                  - listitem [ref=e297]: Long-lasting power and innovation is what the Energizer Max family is all about. Energizer C batteries hold power for up to 10 years while in storage, so you have power when you need it most. When it comes to toys, digital cameras, and other valuable devices, you can feel confident knowing you have the long-lasting power and protection you expect from Energizer. Even fully used AA and AAA sizes are designed to protect your devices from leakage - for up to 2 years.
+                  - listitem [ref=e298]: 8 pack of Energizer MAX C Batteries, Batteries C Size
+                  - listitem [ref=e299]: These alkaline C batteries provide long lasting power for your everyday devices
+                  - listitem [ref=e300]: The power you depend on for high-tech C battery flashlights, radios, toys and other high-drain devices
+                  - listitem [ref=e301]: Long lasting batteries hold power for up to 10 years in storage
+                  - listitem [ref=e302]: C Alkaline batteries that are made to last. Not to leak
+                - table [ref=e304]:
+                  - rowgroup [ref=e305]:
+                    - row "Is Discontinued By Manufacturer ‏ ‎ No" [ref=e306]:
+                      - rowheader "Is Discontinued By Manufacturer ‏" [ref=e307]
+                      - cell "‎ No" [ref=e308]
+                    - row "Product Dimensions ‏ ‎ 2 x 4.1 x 2 inches; 2.34 Ounces" [ref=e309]:
+                      - rowheader "Product Dimensions ‏" [ref=e310]
+                      - cell "‎ 2 x 4.1 x 2 inches; 2.34 Ounces" [ref=e311]
+                    - row "Item model number ‏ ‎ E93FP-8" [ref=e312]:
+                      - rowheader "Item model number ‏" [ref=e313]
+                      - cell "‎ E93FP-8" [ref=e314]
+                    - row "Batteries ‏ ‎ 1 C batteries required." [ref=e315]:
+                      - rowheader "Batteries ‏" [ref=e316]
+                      - cell "‎ 1 C batteries required." [ref=e317]
+                    - row "Date First Available ‏ ‎ December 4, 2006" [ref=e318]:
+                      - rowheader "Date First Available ‏" [ref=e319]
+                      - cell "‎ December 4, 2006" [ref=e320]
+                    - row "Manufacturer ‏ ‎ Energizer Batteries- Consumables" [ref=e321]:
+                      - rowheader "Manufacturer ‏" [ref=e322]
+                      - cell "‎ Energizer Batteries- Consumables" [ref=e323]
+                    - row "ASIN ‏ ‎ B0044DA3NS" [ref=e324]:
+                      - rowheader "ASIN ‏" [ref=e325]
+                      - cell "‎ B0044DA3NS" [ref=e326]
+                    - row "Country of Origin ‏ ‎ USA" [ref=e327]:
+                      - rowheader "Country of Origin ‏" [ref=e328]
+                      - cell "‎ USA" [ref=e329]
+                    - row "Domestic Shipping Currently, item can be shipped only within the U.S. and to APO/FPO addresses. For APO/FPO shipments, please check with the manufacturer regarding warranty and support issues." [ref=e330]:
+                      - rowheader "Domestic Shipping" [ref=e331]
+                      - cell "Currently, item can be shipped only within the U.S. and to APO/FPO addresses. For APO/FPO shipments, please check with the manufacturer regarding warranty and support issues." [ref=e332]
+                    - row "International Shipping This item can be shipped to select countries outside of the U.S.Learn More" [ref=e333]:
+                      - rowheader "International Shipping" [ref=e334]
+                      - cell "This item can be shipped to select countries outside of the U.S.Learn More" [ref=e335]
+                    - row "#5 in C Batteries" [ref=e336]:
+                      - columnheader "#5 in C Batteries" [ref=e337]
+                      - cell [ref=e338]
+                    - row "#507 in Sales & Deals" [ref=e339]:
+                      - columnheader "#507 in Sales & Deals" [ref=e340]
+                      - cell [ref=e341]
+        - tab "Reviews (12)" [ref=e342]:
+          - link "Reviews (12)" [ref=e343] [cursor=pointer]:
+            - /url: "#reviews"
+        - text: "*       * * *"
+  - contentinfo [ref=e344]:
+    - generic [ref=e345]:
+      - generic [ref=e348]:
+        - generic [ref=e350]:
+          - text: 
+          - generic [ref=e351]:
+            - generic [ref=e352]: "Sign Up for Our Newsletter:"
+            - textbox "Sign Up for Our Newsletter:" [ref=e353]:
+              - /placeholder: Enter your email address
+        - button "Subscribe" [ref=e355] [cursor=pointer]
+      - list [ref=e356]:
+        - listitem [ref=e357]:
+          - link "Privacy and Cookie Policy" [ref=e358] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/privacy-policy-cookie-restriction-mode/
+        - listitem [ref=e359]:
+          - link "Search Terms" [ref=e360] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/search/term/popular/
+        - listitem [ref=e361]:
+          - link "Advanced Search" [ref=e362] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/catalogsearch/advanced/
+        - listitem [ref=e363]:
+          - link "Orders and Returns" [ref=e364] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/sales/guest/form/
+        - listitem [ref=e365]:
+          - link "Contact Us" [ref=e366] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/contact/
+      - generic [ref=e367]: Copyright © 2013-present Magento, Inc. All rights reserved.
+      - generic [ref=e368]:
+        - text: Help Us Keep Magento Healthy
+        - link "Report All Bugs" [ref=e369] [cursor=pointer]:
+          - /url: http://www.magentocommerce.com/bug-tracking

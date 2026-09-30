@@ -1,0 +1,1 @@
+请读 C:\Users\bulin\browser-use-demo\benchmark\harness-comparison\claudecode-original-task\entity-extract/TASK.md，逐页目录读 inputs/ 素材，写 output/concepts.json（两类概念；entity 标 api_refs+page_refs，operation 标 api_refs 并用 belongs_to_entity 或"实体名-动词"关联实体）。全部页完成后告诉我。

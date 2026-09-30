@@ -1,0 +1,234 @@
+{
+  "title": "Existing Context Models against common read-only G/T",
+  "generated_at": "2026-09-29T07:58:37.878400+00:00",
+  "interpretation": "prompt-equivalent / trace-scoped diagnostic; not controlled A ranking",
+  "results": {
+    "drive": {
+      "metrics": {
+        "entities": {
+          "G": 3,
+          "T": 3,
+          "C": 3,
+          "T_and_C": 3,
+          "exploration_G_recall": 1.0,
+          "trace_extraction_recall": 1.0,
+          "end_to_end_G_recall": 1.0,
+          "G_missing_from_T": [],
+          "T_missing_from_C": [],
+          "C_without_G": []
+        },
+        "attributes": {
+          "G": 32,
+          "T": 31,
+          "C": 28,
+          "T_and_C": 28,
+          "exploration_G_recall": 0.96875,
+          "trace_extraction_recall": 0.9032258064516129,
+          "end_to_end_G_recall": 0.875,
+          "G_missing_from_T": [
+            "cart.empty_state"
+          ],
+          "T_missing_from_C": [
+            "category.price_range",
+            "category.subcategories",
+            "product.short_description"
+          ],
+          "C_without_G": [
+            "cart.item_count"
+          ]
+        },
+        "operations": {
+          "G": 7,
+          "T": 7,
+          "C": 1,
+          "T_and_C": 1,
+          "exploration_G_recall": 1.0,
+          "trace_extraction_recall": 0.14285714285714285,
+          "end_to_end_G_recall": 0.14285714285714285,
+          "G_missing_from_T": [],
+          "T_missing_from_C": [
+            "cart.view",
+            "catalog.filter",
+            "catalog.paginate",
+            "catalog.sort",
+            "search.advanced",
+            "search.basic"
+          ],
+          "C_without_G": [
+            "product_navigation"
+          ]
+        },
+        "relations": {
+          "G": 1,
+          "T": 1,
+          "C": 0,
+          "T_and_C": 0,
+          "exploration_G_recall": 1.0,
+          "trace_extraction_recall": 0.0,
+          "end_to_end_G_recall": 0.0,
+          "G_missing_from_T": [],
+          "T_missing_from_C": [
+            "category_lists_product"
+          ],
+          "C_without_G": []
+        }
+      },
+      "candidate_canonical": {
+        "entities": [
+          "cart",
+          "category",
+          "product"
+        ],
+        "attributes": [
+          "cart.item_count",
+          "category.item_count",
+          "category.name",
+          "product.asin",
+          "product.availability",
+          "product.batteries",
+          "product.color",
+          "product.country_of_origin",
+          "product.date_first_available",
+          "product.department",
+          "product.description",
+          "product.dimensions",
+          "product.discontinued_status",
+          "product.domestic_shipping",
+          "product.image",
+          "product.international_shipping",
+          "product.item_weight",
+          "product.manufacturer",
+          "product.model_number",
+          "product.name",
+          "product.package_dimensions",
+          "product.price",
+          "product.quantity",
+          "product.rating",
+          "product.review_count",
+          "product.size",
+          "product.sku",
+          "product.style",
+          "product.upc"
+        ],
+        "operations": [
+          "cart.add",
+          "product_navigation"
+        ],
+        "relations": []
+      },
+      "source": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\reports\\drive-context-model.json"
+    },
+    "browser-use-20260929": {
+      "metrics": {
+        "entities": {
+          "G": 3,
+          "T": 3,
+          "C": 3,
+          "T_and_C": 3,
+          "exploration_G_recall": 1.0,
+          "trace_extraction_recall": 1.0,
+          "end_to_end_G_recall": 1.0,
+          "G_missing_from_T": [],
+          "T_missing_from_C": [],
+          "C_without_G": []
+        },
+        "attributes": {
+          "G": 32,
+          "T": 19,
+          "C": 14,
+          "T_and_C": 14,
+          "exploration_G_recall": 0.59375,
+          "trace_extraction_recall": 0.7368421052631579,
+          "end_to_end_G_recall": 0.4375,
+          "G_missing_from_T": [
+            "product.batteries",
+            "product.color",
+            "product.date_first_available",
+            "product.department",
+            "product.dimensions",
+            "product.discontinued_status",
+            "product.domestic_shipping",
+            "product.international_shipping",
+            "product.item_weight",
+            "product.model_number",
+            "product.package_dimensions",
+            "product.style",
+            "product.upc"
+          ],
+          "T_missing_from_C": [
+            "category.price_range",
+            "product.description",
+            "product.image",
+            "product.quantity",
+            "product.size"
+          ],
+          "C_without_G": []
+        },
+        "operations": {
+          "G": 7,
+          "T": 7,
+          "C": 5,
+          "T_and_C": 5,
+          "exploration_G_recall": 1.0,
+          "trace_extraction_recall": 0.7142857142857143,
+          "end_to_end_G_recall": 0.7142857142857143,
+          "G_missing_from_T": [],
+          "T_missing_from_C": [
+            "cart.add",
+            "search.basic"
+          ],
+          "C_without_G": [
+            "product_navigation"
+          ]
+        },
+        "relations": {
+          "G": 1,
+          "T": 1,
+          "C": 0,
+          "T_and_C": 0,
+          "exploration_G_recall": 1.0,
+          "trace_extraction_recall": 0.0,
+          "end_to_end_G_recall": 0.0,
+          "G_missing_from_T": [],
+          "T_missing_from_C": [
+            "category_lists_product"
+          ],
+          "C_without_G": []
+        }
+      },
+      "candidate_canonical": {
+        "entities": [
+          "cart",
+          "category",
+          "product"
+        ],
+        "attributes": [
+          "cart.empty_state",
+          "category.item_count",
+          "category.name",
+          "category.subcategories",
+          "product.asin",
+          "product.availability",
+          "product.country_of_origin",
+          "product.manufacturer",
+          "product.name",
+          "product.price",
+          "product.rating",
+          "product.review_count",
+          "product.short_description",
+          "product.sku"
+        ],
+        "operations": [
+          "cart.view",
+          "catalog.filter",
+          "catalog.paginate",
+          "catalog.sort",
+          "product_navigation",
+          "search.advanced"
+        ],
+        "relations": []
+      },
+      "source": "C:\\Users\\bulin\\appweave\\outputs\\02-context-model\\browser-use-contextmodel\\context-model.json"
+    }
+  }
+}

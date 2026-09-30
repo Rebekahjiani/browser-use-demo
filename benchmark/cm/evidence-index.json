@@ -1,0 +1,118 @@
+{
+  "context_model": "shopping",
+  "trace_root": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260928-160723-422670",
+  "evidence_index": {
+    "entity_product": {
+      "snapshots": ["snapshots/00001", "snapshots/00005", "snapshots/00015"],
+      "page_refs": [
+        "snapshots/00001/page.html",
+        "snapshots/00001/accessibility.json",
+        "snapshots/00005/page.html",
+        "snapshots/00005/accessibility.json",
+        "snapshots/00015/page.html",
+        "snapshots/00015/accessibility.json"
+      ]
+    },
+    "entity_product_category": {
+      "snapshots": ["snapshots/00001", "snapshots/00005"],
+      "page_refs": [
+        "snapshots/00001/page.html",
+        "snapshots/00001/accessibility.json",
+        "snapshots/00005/page.html",
+        "snapshots/00005/accessibility.json"
+      ]
+    },
+    "entity_cart": {
+      "snapshots": ["snapshots/00021"],
+      "page_refs": [
+        "snapshots/00021/page.html",
+        "snapshots/00021/accessibility.json"
+      ],
+      "api_refs": [
+        "trace/26_09_28_16_07_27-min/EA89EE44_trace/network.jsonl",
+        "trace/26_09_28_16_07_27-min/EA89EE44_trace/rawbody/1790583535.868_1a8873b3.json"
+      ]
+    },
+    "entity_cart_item": {
+      "snapshots": ["snapshots/00021"],
+      "page_refs": [
+        "snapshots/00021/page.html",
+        "snapshots/00021/accessibility.json"
+      ],
+      "api_refs": [
+        "trace/26_09_28_16_07_27-min/EA89EE44_trace/rawbody/1790583535.868_1a8873b3.json"
+      ]
+    },
+    "op_product_view": {
+      "evidence_refs": [
+        "snapshots/00015/metadata.json",
+        "snapshots/00015/page.html",
+        "snapshots/00015/accessibility.json",
+        "snapshots/00016/metadata.json",
+        "snapshots/00017/metadata.json",
+        "actions.jsonl"
+      ]
+    },
+    "op_product_query": {
+      "evidence_refs": [
+        "snapshots/00001/page.html",
+        "snapshots/00001/accessibility.json",
+        "snapshots/00005/page.html",
+        "snapshots/00005/accessibility.json"
+      ]
+    },
+    "op_product_search": {
+      "evidence_refs": [
+        "snapshots/00001/page.html",
+        "snapshots/00001/accessibility.json",
+        "snapshots/00018/page.html",
+        "snapshots/00018/accessibility.json"
+      ]
+    },
+    "op_product_filter": {
+      "evidence_refs": [
+        "snapshots/00005/page.html",
+        "snapshots/00005/accessibility.json"
+      ]
+    },
+    "op_product_sort": {
+      "evidence_refs": [
+        "snapshots/00005/page.html",
+        "snapshots/00005/accessibility.json"
+      ]
+    },
+    "op_product_paginate": {
+      "evidence_refs": [
+        "snapshots/00005/page.html",
+        "snapshots/00005/accessibility.json"
+      ]
+    },
+    "op_cart_view": {
+      "evidence_refs": [
+        "snapshots/00021/page.html",
+        "snapshots/00021/accessibility.json",
+        "actions.jsonl"
+      ]
+    },
+    "op_cart_estimate_shipping": {
+      "evidence_refs": [
+        "snapshots/00021/page.html",
+        "trace/26_09_28_16_07_27-min/EA89EE44_trace/network.jsonl",
+        "trace/26_09_28_16_07_27-min/EA89EE44_trace/rawbody/1790583533.831_432b1979.json"
+      ],
+      "api_refs": [
+        "http://127.0.0.1:7770/rest/default/V1/guest-carts/F2OJhRqNdo2RX4MTswdYtlmZ0Exwg0Dz/estimate-shipping-methods"
+      ]
+    },
+    "op_cart_totals": {
+      "evidence_refs": [
+        "snapshots/00021/page.html",
+        "trace/26_09_28_16_07_27-min/EA89EE44_trace/network.jsonl",
+        "trace/26_09_28_16_07_27-min/EA89EE44_trace/rawbody/1790583535.868_1a8873b3.json"
+      ],
+      "api_refs": [
+        "http://127.0.0.1:7770/rest/default/V1/guest-carts/F2OJhRqNdo2RX4MTswdYtlmZ0Exwg0Dz/totals-information"
+      ]
+    }
+  }
+}

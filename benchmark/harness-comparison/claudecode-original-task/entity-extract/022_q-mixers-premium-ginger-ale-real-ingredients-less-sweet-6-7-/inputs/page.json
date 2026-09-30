@@ -1,0 +1,37 @@
+{
+  "url": "http://127.0.0.1:7770/q-mixers-premium-ginger-ale-real-ingredients-less-sweet-6-7-fl-oz-24-bottles.html",
+  "title": "Q Mixers Premium Ginger Ale: Real Ingredients & Less Sweet, 6.7 Fl Oz (24 Bottles)",
+  "route": "/q-mixers-premium-ginger-ale-real-ingredients-less-sweet-6-7-fl-oz-24-bottles.html",
+  "captured_from": "drive",
+  "sources": {
+    "aria_source": "..\\drive\\screenshots\\036_q-mixers-premium-ginger-ale-real-ingredients-less-sweet-6-7-\\aria.yml",
+    "catalog": "<runDir>/evidence_catalog.json",
+    "evidence_ids": [
+      "trace:api_candidate:line19858",
+      "trace:api_candidate:line19865",
+      "trace:api_candidate:line19866",
+      "trace:api_candidate:line19867",
+      "trace:api_candidate:line19925",
+      "trace:api_candidate:line19999",
+      "trace:api_candidate:line20000",
+      "trace:api_candidate:line20007",
+      "trace:api_candidate:line20048",
+      "trace:api_candidate:line20063",
+      "trace:api_candidate:line20064",
+      "trace:api_candidate:line20065",
+      "trace:api_candidate:line20066",
+      "trace:api_candidate:line20067",
+      "trace:api_candidate:line20068",
+      "trace:api_candidate:line20069",
+      "trace:api_candidate:line20070",
+      "trace:api_candidate:line20071",
+      "trace:api_candidate:line20072",
+      "trace:api_candidate:line20073",
+      "trace:api_candidate:line20322",
+      "trace:api_candidate:line20323",
+      "trace:api_candidate:line20586",
+      "trace:api_candidate:line20866"
+    ]
+  },
+  "tree_format": "aria_yml"
+}

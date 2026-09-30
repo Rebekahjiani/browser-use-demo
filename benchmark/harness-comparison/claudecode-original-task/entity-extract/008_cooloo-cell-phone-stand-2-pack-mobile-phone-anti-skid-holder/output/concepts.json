@@ -1,0 +1,127 @@
+{
+  "concepts": [
+    {
+      "canonical_name": "商品",
+      "concept_type": "business_entity",
+      "description": "Cooloo 手机支架商品详情页展示的商品，含 SKU、库存状态、评分、评论数、价格、颜色选项、数量及 Details 说明。",
+      "aliases": [
+        "Product",
+        "product"
+      ],
+      "attributes": [
+        {
+          "name": "名称",
+          "note": "页面标题（heading）/商品名",
+          "source_refs": [
+            "page.aria.yml:heading:Cooloo Cell Phone Stand 2 Pack"
+          ]
+        },
+        {
+          "name": "SKU",
+          "note": "SKU 标签（strong）",
+          "source_refs": [
+            "page.aria.yml:strong:SKU"
+          ]
+        },
+        {
+          "name": "Availability",
+          "note": "库存状态（Availability 标签）",
+          "source_refs": [
+            "page.aria.yml:generic:Availability"
+          ]
+        },
+        {
+          "name": "评分",
+          "note": "Rating: 标签",
+          "source_refs": [
+            "page.aria.yml:generic:Rating:"
+          ]
+        },
+        {
+          "name": "评论数",
+          "note": "12 Reviews 链接",
+          "source_refs": [
+            "page.aria.yml:link:12 Reviews"
+          ]
+        },
+        {
+          "name": "Price",
+          "note": "商品价格文本",
+          "source_refs": [
+            "page.aria.yml:generic:Price"
+          ]
+        },
+        {
+          "name": "颜色",
+          "note": "Color * 单选：A-Black/B-Silver/C-Red/D-Rose Gold/E-Gold",
+          "source_refs": [
+            "page.aria.yml:radio:Color *"
+          ]
+        },
+        {
+          "name": "Qty",
+          "note": "数量输入（spinbutton）",
+          "source_refs": [
+            "page.aria.yml:spinbutton:Qty"
+          ]
+        }
+      ],
+      "evidence_refs": [
+        "E010"
+      ],
+      "api_refs": [],
+      "page_refs": [
+        "008_cooloo-cell-phone-stand-2-pack-mobile-phone-anti-skid-holder"
+      ]
+    },
+    {
+      "canonical_name": "商品评价",
+      "concept_type": "business_entity",
+      "description": "商品详情页 Reviews 区块对应的商品评价，含评分与评论数，可通过 Review 接口按商品加载。",
+      "aliases": [
+        "Review",
+        "评价"
+      ],
+      "attributes": [
+        {
+          "name": "评分",
+          "note": "Rating: 标签",
+          "source_refs": [
+            "page.aria.yml:generic:Rating:"
+          ]
+        },
+        {
+          "name": "评论数",
+          "note": "12 Reviews 链接",
+          "source_refs": [
+            "page.aria.yml:link:12 Reviews"
+          ]
+        }
+      ],
+      "evidence_refs": [
+        "E010"
+      ],
+      "api_refs": [
+        "E010"
+      ],
+      "page_refs": [
+        "008_cooloo-cell-phone-stand-2-pack-mobile-phone-anti-skid-holder"
+      ]
+    },
+    {
+      "canonical_name": "商品评价-查询",
+      "concept_type": "operation",
+      "description": "加载指定商品的评价列表（GET /review/product/listAjax/id/37409/）。",
+      "belongs_to_entity": "商品评价",
+      "evidence_refs": [
+        "E010"
+      ],
+      "api_refs": [
+        "E010"
+      ]
+    }
+  ],
+  "notes": [
+    "本页商品实体的数据接口未出现在 endpoints.jsonl（仅静态模板与导航 GET），故商品 api_refs 留空；评价接口 E010 为商品评价的数据来源。"
+  ]
+}

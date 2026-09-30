@@ -1,0 +1,126 @@
+{
+  "adapter": "visible-AX-v1",
+  "run": "browser-use-20260929",
+  "pages": 14,
+  "original_root": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260929-115141-231052",
+  "input_files": [
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260929-115141-231052\\snapshots\\00001\\accessibility.json",
+      "sha256": "24b32cddb1da641abb9c36863d0ef3fc29f3598a01231c4009dd342e49de5c3b"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260929-115141-231052\\snapshots\\00001\\page.html",
+      "sha256": "e838d4d5f88f4be2edaac8e17acdf7f86d6c5a8cb4c5fb48e2463db3a8545b81"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260929-115141-231052\\snapshots\\00002\\accessibility.json",
+      "sha256": "7777038e3904066a88a9d0d56c643bf39adfb63e7c250e631a01eb8fe6158976"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260929-115141-231052\\snapshots\\00002\\page.html",
+      "sha256": "f6a016bf2e4d26102085950dc4145f08cc9088eb7a99287a7d1d0965ad48a14c"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260929-115141-231052\\snapshots\\00003\\accessibility.json",
+      "sha256": "60280aeefa2291bb864fd70d5db571d9dc2938e95bb16a4d3d85da02757eca45"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260929-115141-231052\\snapshots\\00003\\page.html",
+      "sha256": "f6a016bf2e4d26102085950dc4145f08cc9088eb7a99287a7d1d0965ad48a14c"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260929-115141-231052\\snapshots\\00004\\accessibility.json",
+      "sha256": "02cab0e28c0d268ee14773530db7f0c95676e83660dece1092c55793dd517b0a"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260929-115141-231052\\snapshots\\00004\\page.html",
+      "sha256": "f6a016bf2e4d26102085950dc4145f08cc9088eb7a99287a7d1d0965ad48a14c"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260929-115141-231052\\snapshots\\00005\\accessibility.json",
+      "sha256": "b2ccc30814c8c0f6153a6592c5949e21ef11766c44e10a42d92dece6bda2b802"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260929-115141-231052\\snapshots\\00005\\page.html",
+      "sha256": "c8bcbde8a1d98090cbc914213472c628cf52eeed3f2057ae224628a13cf6aae7"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260929-115141-231052\\snapshots\\00006\\accessibility.json",
+      "sha256": "43c226a849cd5f03036997b3ce438262c6bccea0bb3c7978044c3b37e5c7210d"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260929-115141-231052\\snapshots\\00006\\page.html",
+      "sha256": "c8bcbde8a1d98090cbc914213472c628cf52eeed3f2057ae224628a13cf6aae7"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260929-115141-231052\\snapshots\\00007\\accessibility.json",
+      "sha256": "698aaea2f8ab9404af68a9b53396ad84daee51cdbd4e230f0eabe313a59cd82d"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260929-115141-231052\\snapshots\\00007\\page.html",
+      "sha256": "c43697059f3aa06a71a929f64b1d3c2616487018629f38559e2b6a0abdcbdcd7"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260929-115141-231052\\snapshots\\00008\\accessibility.json",
+      "sha256": "698aaea2f8ab9404af68a9b53396ad84daee51cdbd4e230f0eabe313a59cd82d"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260929-115141-231052\\snapshots\\00008\\page.html",
+      "sha256": "c43697059f3aa06a71a929f64b1d3c2616487018629f38559e2b6a0abdcbdcd7"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260929-115141-231052\\snapshots\\00009\\accessibility.json",
+      "sha256": "447b4d54191c6836892127d2e109edfee752eb6e9376f9fb816a62f4e8c82b1d"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260929-115141-231052\\snapshots\\00009\\page.html",
+      "sha256": "6a6bbe4e5fe8817501f8c7e2bd881010e0f6d49ae035beb2bf6928568b4f633d"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260929-115141-231052\\snapshots\\00010\\accessibility.json",
+      "sha256": "200c3d04e255d928288fc7b3ad70b88b481b19a80bfbdae55fb3aeb3b6cbcafa"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260929-115141-231052\\snapshots\\00010\\page.html",
+      "sha256": "27ce0a2380c5b17ea9951db46ceecbed9bfe9711f642a0d0c2cbfe1637a4af4b"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260929-115141-231052\\snapshots\\00011\\accessibility.json",
+      "sha256": "05685a37f94cde9659a31243fb99bb2afe002792ca1f5cddb665c19983639d8f"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260929-115141-231052\\snapshots\\00011\\page.html",
+      "sha256": "acd3851e8f5dbc5cf18f24096936fcd4491b51e91aa4441ca8995b1d99e45a75"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260929-115141-231052\\snapshots\\00012\\accessibility.json",
+      "sha256": "05685a37f94cde9659a31243fb99bb2afe002792ca1f5cddb665c19983639d8f"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260929-115141-231052\\snapshots\\00012\\page.html",
+      "sha256": "acd3851e8f5dbc5cf18f24096936fcd4491b51e91aa4441ca8995b1d99e45a75"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260929-115141-231052\\snapshots\\00013\\accessibility.json",
+      "sha256": "1f39377bfb7803f1b0109995388f1e10896d4866c632e23068da259079381157"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260929-115141-231052\\snapshots\\00013\\page.html",
+      "sha256": "acd3851e8f5dbc5cf18f24096936fcd4491b51e91aa4441ca8995b1d99e45a75"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260929-115141-231052\\snapshots\\00014\\accessibility.json",
+      "sha256": "1f39377bfb7803f1b0109995388f1e10896d4866c632e23068da259079381157"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260929-115141-231052\\snapshots\\00014\\page.html",
+      "sha256": "acd3851e8f5dbc5cf18f24096936fcd4491b51e91aa4441ca8995b1d99e45a75"
+    }
+  ],
+  "exclusions": [
+    "ignored AX nodes",
+    "network not normalized in this draft input profile",
+    "screenshots not embedded; original references remain available"
+  ],
+  "status": "prepared_UI_only_profile_not_approved_as_fixed_Weave_pipeline"
+}

@@ -1,0 +1,129 @@
+{
+  "context_model": "shopping",
+  "trace_root": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260928-160723-422670",
+  "operations": [
+    {
+      "id": "op_product_view",
+      "name": "商品-查看",
+      "belongs_to_entity": "entity_product",
+      "description": "打开商品详情页查看商品信息（名称、SKU、价格、库存、Qty、Details/Reviews）。",
+      "executed": true,
+      "evidence_refs": [
+        "snapshots/00015/metadata.json",
+        "snapshots/00015/page.html",
+        "snapshots/00015/accessibility.json",
+        "snapshots/00016/metadata.json",
+        "snapshots/00017/metadata.json",
+        "actions.jsonl"
+      ],
+      "api_refs": []
+    },
+    {
+      "id": "op_product_query",
+      "name": "商品-查询/浏览列表",
+      "belongs_to_entity": "entity_product",
+      "description": "浏览商品列表（首页 24 条、分类页 21796 条中的分页视图）。",
+      "executed": true,
+      "evidence_refs": [
+        "snapshots/00001/page.html",
+        "snapshots/00001/accessibility.json",
+        "snapshots/00005/page.html",
+        "snapshots/00005/accessibility.json"
+      ],
+      "api_refs": []
+    },
+    {
+      "id": "op_product_search",
+      "name": "商品-搜索",
+      "belongs_to_entity": "entity_product",
+      "description": "搜索商品：首页搜索框与 Advanced Search 表单可见（表单未提交，无搜索结果页）。",
+      "executed": false,
+      "evidence_refs": [
+        "snapshots/00001/page.html",
+        "snapshots/00001/accessibility.json",
+        "snapshots/00018/page.html",
+        "snapshots/00018/accessibility.json"
+      ],
+      "api_refs": []
+    },
+    {
+      "id": "op_product_filter",
+      "name": "商品-筛选",
+      "belongs_to_entity": "entity_product",
+      "description": "分类页 Shop By 区提供 Category/Price 筛选控件（可见，未实际筛选）。",
+      "executed": false,
+      "evidence_refs": [
+        "snapshots/00005/page.html",
+        "snapshots/00005/accessibility.json"
+      ],
+      "api_refs": []
+    },
+    {
+      "id": "op_product_sort",
+      "name": "商品-排序",
+      "belongs_to_entity": "entity_product",
+      "description": "分类页 Sort By 下拉提供 Position/Product Name/Price 排序选项（可见，未实际排序）。",
+      "executed": false,
+      "evidence_refs": [
+        "snapshots/00005/page.html",
+        "snapshots/00005/accessibility.json"
+      ],
+      "api_refs": []
+    },
+    {
+      "id": "op_product_paginate",
+      "name": "商品-分页浏览",
+      "belongs_to_entity": "entity_product",
+      "description": "分类页分页控件（p=2..5）与每页数量 limiter 12/24/36（可见，未实际翻页）。",
+      "executed": false,
+      "evidence_refs": [
+        "snapshots/00005/page.html",
+        "snapshots/00005/accessibility.json"
+      ],
+      "api_refs": []
+    },
+    {
+      "id": "op_cart_view",
+      "name": "购物车-查看",
+      "belongs_to_entity": "entity_cart",
+      "description": "打开购物车页面查看条目与金额汇总（Item/Price/Qty/Subtotal、Summary 区）。",
+      "executed": true,
+      "evidence_refs": [
+        "snapshots/00021/page.html",
+        "snapshots/00021/accessibility.json",
+        "actions.jsonl"
+      ],
+      "api_refs": []
+    },
+    {
+      "id": "op_cart_estimate_shipping",
+      "name": "购物车-运费估算",
+      "belongs_to_entity": "entity_cart",
+      "description": "估算配送方式与运费；购物车页加载时自动 POST estimate-shipping-methods，返回 flatrate/Fixed、amount=20。",
+      "executed": true,
+      "evidence_refs": [
+        "snapshots/00021/page.html",
+        "trace/26_09_28_16_07_27-min/EA89EE44_trace/network.jsonl",
+        "trace/26_09_28_16_07_27-min/EA89EE44_trace/rawbody/1790583533.831_432b1979.json"
+      ],
+      "api_refs": [
+        "http://127.0.0.1:7770/rest/default/V1/guest-carts/F2OJhRqNdo2RX4MTswdYtlmZ0Exwg0Dz/estimate-shipping-methods"
+      ]
+    },
+    {
+      "id": "op_cart_totals",
+      "name": "购物车-金额合计",
+      "belongs_to_entity": "entity_cart",
+      "description": "计算购物车金额合计；购物车页加载时自动 POST totals-information，返回 grand_total/subtotal/shipping/tax 与 items。",
+      "executed": true,
+      "evidence_refs": [
+        "snapshots/00021/page.html",
+        "trace/26_09_28_16_07_27-min/EA89EE44_trace/network.jsonl",
+        "trace/26_09_28_16_07_27-min/EA89EE44_trace/rawbody/1790583535.868_1a8873b3.json"
+      ],
+      "api_refs": [
+        "http://127.0.0.1:7770/rest/default/V1/guest-carts/F2OJhRqNdo2RX4MTswdYtlmZ0Exwg0Dz/totals-information"
+      ]
+    }
+  ]
+}

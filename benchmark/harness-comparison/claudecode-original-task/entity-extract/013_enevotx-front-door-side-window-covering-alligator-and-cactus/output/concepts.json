@@ -1,0 +1,79 @@
+{
+  "concepts": [
+    {
+      "canonical_name": "商品",
+      "concept_type": "business_entity",
+      "description": "ENEVOTX 门帘商品详情页展示的商品，含 SKU、库存状态、尺寸选项、数量及 Product Quick Look 信息。",
+      "aliases": [
+        "Product",
+        "product"
+      ],
+      "attributes": [
+        {
+          "name": "名称",
+          "note": "页面标题（heading）/商品名",
+          "source_refs": [
+            "page.aria.yml:heading:ENEVOTX Front Door Side Window Covering"
+          ]
+        },
+        {
+          "name": "SKU",
+          "note": "SKU 标签（strong）",
+          "source_refs": [
+            "page.aria.yml:strong:SKU"
+          ]
+        },
+        {
+          "name": "Availability",
+          "note": "库存状态（Availability 标签）",
+          "source_refs": [
+            "page.aria.yml:generic:Availability"
+          ]
+        },
+        {
+          "name": "尺寸",
+          "note": "Size * 单选：L/M/S",
+          "source_refs": [
+            "page.aria.yml:radio:Size *"
+          ]
+        },
+        {
+          "name": "Price",
+          "note": "商品价格文本",
+          "source_refs": [
+            "page.aria.yml:generic:Price"
+          ]
+        },
+        {
+          "name": "Qty",
+          "note": "数量输入（spinbutton）",
+          "source_refs": [
+            "page.aria.yml:spinbutton:Qty"
+          ]
+        },
+        {
+          "name": "Manufacturer",
+          "note": "Quick Look 表格行头",
+          "source_refs": [
+            "page.aria.yml:rowheader:Manufacturer"
+          ]
+        },
+        {
+          "name": "Item model number",
+          "note": "Quick Look 表格行头",
+          "source_refs": [
+            "page.aria.yml:rowheader:Item model number"
+          ]
+        }
+      ],
+      "evidence_refs": [],
+      "api_refs": [],
+      "page_refs": [
+        "013_enevotx-front-door-side-window-covering-alligator-and-cactus"
+      ]
+    }
+  ],
+  "notes": [
+    "本页仅捕获到 /patio-lawn-garden.html（E021，会话导航内容，非本页商品数据）与静态模板端点；商品实体纯树锚点，api_refs 留空（宁缺勿错）。"
+  ]
+}

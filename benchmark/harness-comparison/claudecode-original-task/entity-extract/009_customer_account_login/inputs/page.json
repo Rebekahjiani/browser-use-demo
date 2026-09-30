@@ -1,0 +1,43 @@
+{
+  "url": "http://127.0.0.1:7770/customer/account/login",
+  "title": "Customer Login",
+  "route": "/customer/account/login",
+  "captured_from": "drive",
+  "sources": {
+    "aria_source": "..\\drive\\screenshots\\051_customer_account_login\\aria.yml",
+    "catalog": "<runDir>/evidence_catalog.json",
+    "evidence_ids": [
+      "trace:api_candidate:line13290",
+      "trace:api_candidate:line13299",
+      "trace:api_candidate:line13300",
+      "trace:api_candidate:line13301",
+      "trace:api_candidate:line13358",
+      "trace:api_candidate:line13409",
+      "trace:api_candidate:line13456",
+      "trace:api_candidate:line13457",
+      "trace:api_candidate:line13458",
+      "trace:api_candidate:line13459",
+      "trace:api_candidate:line13460",
+      "trace:api_candidate:line13461",
+      "trace:api_candidate:line13462",
+      "trace:api_candidate:line13463",
+      "trace:api_candidate:line13464",
+      "trace:api_candidate:line13465",
+      "trace:api_candidate:line13466",
+      "trace:api_candidate:line13686",
+      "trace:api_candidate:line14602",
+      "trace:api_candidate:line15040",
+      "trace:api_candidate:line15723",
+      "trace:api_candidate:line15958",
+      "trace:api_candidate:line16769",
+      "trace:api_candidate:line17312",
+      "trace:api_candidate:line23266",
+      "trace:api_candidate:line27040",
+      "trace:api_candidate:line27480",
+      "trace:api_candidate:line4149",
+      "trace:api_candidate:line5510",
+      "trace:api_candidate:line9374"
+    ]
+  },
+  "tree_format": "aria_yml"
+}

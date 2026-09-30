@@ -1,0 +1,318 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e5]:
+      - list [ref=e6]:
+        - listitem [ref=e7]:
+          - link "My Account" [ref=e8] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/customer/account/
+        - listitem [ref=e9]:
+          - link "My Wish List" [ref=e10] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/wishlist/
+        - listitem [ref=e11]:
+          - link "Sign In" [ref=e12] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/customer/account/login/
+        - listitem [ref=e13]:
+          - link "Compare Products 9 items" [ref=e14] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/catalog/product_compare/index/uenc/aHR0cDovLzEyNy4wLjAuMTo3NzcwL2N1c3RvbWVyL3NlY3Rpb24vbG9hZC8_c2VjdGlvbnM9Y29tcGFyZS1wcm9kdWN0cyUyQ21lc3NhZ2VzJmZvcmNlX25ld19zZWN0aW9uX3RpbWVzdGFtcD1mYWxzZSZfPTE3ODk5NzIxOTkzNDU~/
+        - listitem [ref=e15]: Welcome to One Stop Market
+        - listitem [ref=e16]:
+          - link "Create an Account" [ref=e17] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/customer/account/create/
+      - link "Skip to Content" [ref=e18] [cursor=pointer]:
+        - /url: "#contentarea"
+    - generic [ref=e19]:
+      - text: 
+      - link "store logo" [ref=e20] [cursor=pointer]:
+        - /url: http://127.0.0.1:7770/
+        - img "one_stop_market_logo" [ref=e21]
+      - generic [ref=e22]:
+        - link " My Cart" [ref=e23] [cursor=pointer]:
+          - /url: http://127.0.0.1:7770/checkout/cart/
+          - text: 
+          - generic [ref=e24]: My Cart
+        - text: 
+      - generic [ref=e27]:
+        - generic [ref=e28]:
+          - generic [ref=e29]:
+            - text: 
+            - generic [ref=e30]: Search
+          - generic [ref=e31]:
+            - combobox " Search" [ref=e32]
+            - link "Advanced Search" [ref=e34] [cursor=pointer]:
+              - /url: http://127.0.0.1:7770/catalogsearch/advanced/
+        - generic:
+          - button "Search" [disabled]:
+            - text: 
+            - generic: Search
+  - tablist [ref=e36]:
+    - tabpanel [ref=e37]:
+      - navigation [ref=e38]:
+        - menu [ref=e39]:
+          - listitem [ref=e40]:
+            - menuitem " Beauty & Personal Care" [ref=e41] [cursor=pointer]:
+              - generic [ref=e42]: 
+              - text: Beauty & Personal Care
+            - text:          
+          - listitem [ref=e43]:
+            - menuitem " Sports & Outdoors" [ref=e44] [cursor=pointer]:
+              - generic [ref=e45]: 
+              - text: Sports & Outdoors
+            - text:   
+          - listitem [ref=e46]:
+            - menuitem " Clothing, Shoes & Jewelry" [ref=e47] [cursor=pointer]:
+              - generic [ref=e48]: 
+              - text: Clothing, Shoes & Jewelry
+            - text:    
+          - listitem [ref=e49]:
+            - menuitem " Home & Kitchen" [ref=e50] [cursor=pointer]:
+              - generic [ref=e51]: 
+              - text: Home & Kitchen
+            - text:       
+          - listitem [ref=e52]:
+            - menuitem " Office Products" [ref=e53] [cursor=pointer]:
+              - generic [ref=e54]: 
+              - text: Office Products
+            - text:   
+          - listitem [ref=e55]:
+            - menuitem " Tools & Home Improvement" [ref=e56] [cursor=pointer]:
+              - generic [ref=e57]: 
+              - text: Tools & Home Improvement
+            - text: 
+          - listitem [ref=e58]:
+            - menuitem " Health & Household" [ref=e59] [cursor=pointer]:
+              - generic [ref=e60]: 
+              - text: Health & Household
+            - text:  
+          - listitem [ref=e61]:
+            - menuitem " Patio, Lawn & Garden" [ref=e62] [cursor=pointer]:
+              - generic [ref=e63]: 
+              - text: Patio, Lawn & Garden
+            - text: 
+          - listitem [ref=e64]:
+            - menuitem " Electronics" [ref=e65] [cursor=pointer]:
+              - generic [ref=e66]: 
+              - text: Electronics
+            - text:            
+          - listitem [ref=e67]:
+            - menuitem " Cell Phones & Accessories" [ref=e68] [cursor=pointer]:
+              - generic [ref=e69]: 
+              - text: Cell Phones & Accessories
+            - text:  
+          - listitem [ref=e70]:
+            - menuitem " Video Games" [ref=e71] [cursor=pointer]:
+              - generic [ref=e72]: 
+              - text: Video Games
+            - text:    
+          - listitem [ref=e73]:
+            - menuitem " Grocery & Gourmet Food" [ref=e74] [cursor=pointer]:
+              - generic [ref=e75]: 
+              - text: Grocery & Gourmet Food
+            - text:             
+  - list [ref=e77]:
+    - listitem [ref=e78]:
+      - link "Home" [ref=e79] [cursor=pointer]:
+        - /url: http://127.0.0.1:7770/
+      - text: 
+    - listitem [ref=e80]:
+      - strong [ref=e81]: Belle Of The Ball Princess Sprinkle Mix| Wedding Colorful Sprinkles| Cake Cupcake Cookie Sprinkles| Ice cream Candy Sprinkles| Yellow Gold Red Royal Red Rose Icing Flowers Decorating Sprinkles, 8OZ
+  - main [ref=e82]:
+    - heading "Belle Of The Ball Princess Sprinkle Mix| Wedding Colorful Sprinkles| Cake Cupcake Cookie Sprinkles| Ice cream Candy Sprinkles| Yellow Gold Red Royal Red Rose Icing Flowers Decorating Sprinkles, 8OZ" [level=1] [ref=e84]
+    - alert [ref=e87]:
+      - generic [ref=e89]:  The product's required option(s) weren't entered. Make sure the options are entered and try again.
+    - generic [ref=e91]:
+      - generic [ref=e92]:
+        - generic [ref=e93]:
+          - generic [ref=e94]:
+            - generic "Availability" [ref=e95]: In stock
+            - generic [ref=e96]:
+              - strong [ref=e97]: SKU
+              - generic [ref=e98]: B08743KW8M
+          - generic [ref=e99]:
+            - generic [ref=e100]:
+              - generic [ref=e101]: "Rating:"
+              - generic "63%" [ref=e102]:
+                - text: 
+                - generic [ref=e103]:
+                  - text: 
+                  - generic [ref=e104]:
+                    - generic [ref=e105]: "63"
+                    - text: "% of"
+                    - generic [ref=e106]: "100"
+            - generic [ref=e107]:
+              - link "12 Reviews" [ref=e108] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/belle-of-the-ball-princess-sprinkle-mix-wedding-colorful-sprinkles-cake-cupcake-cookie-sprinkles-ice-cream-candy-sprinkles-yellow-gold-red-royal-red-rose-icing-flowers-decorating-sprinkles-8oz.html#reviews
+              - link "Add Your Review" [ref=e109] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/belle-of-the-ball-princess-sprinkle-mix-wedding-colorful-sprinkles-cake-cupcake-cookie-sprinkles-ice-cream-candy-sprinkles-yellow-gold-red-royal-red-rose-icing-flowers-decorating-sprinkles-8oz.html#review-form
+          - generic [ref=e112]: $23.50
+        - generic [ref=e114]:
+          - generic [ref=e117]:
+            - generic [ref=e118]: Size *
+            - generic [ref=e120]:
+              - generic [ref=e121]:
+                - radio "2 Ounce (Pack of 1)" [ref=e122]
+                - generic [ref=e123]: 2 Ounce (Pack of 1)
+              - generic [ref=e124]:
+                - radio "4 Ounce (Pack of 1)" [ref=e125]
+                - generic [ref=e126]: 4 Ounce (Pack of 1)
+              - generic [ref=e127]:
+                - radio "8 Ounce (Pack of 1)" [ref=e128]
+                - generic [ref=e129]: 8 Ounce (Pack of 1)
+          - generic [ref=e132]:
+            - generic [ref=e133]:
+              - generic [ref=e134]: Qty
+              - spinbutton "Qty" [ref=e136]: "1"
+            - button "Add to Cart" [ref=e138] [cursor=pointer]
+        - generic [ref=e140]:
+          - link "Add to Wish List" [ref=e141] [cursor=pointer]:
+            - /url: "#"
+          - link "Add to Compare" [ref=e142] [cursor=pointer]:
+            - /url: "#"
+      - generic [ref=e143]:
+        - link "Skip to the end of the images gallery" [ref=e144] [cursor=pointer]:
+          - /url: "#gallery-next-area"
+        - generic [ref=e147]:
+          - generic [ref=e148]:
+            - button "Previous" [ref=e149] [cursor=pointer]
+            - generic [ref=e151]:
+              - img "Image" [ref=e153]
+              - img [ref=e155]
+            - button "Next"
+          - generic [ref=e157]:
+            - button "Previous"
+            - generic [ref=e158]:
+              - button "Image" [ref=e160]:
+                - img "Image" [ref=e162]
+              - button "Image" [ref=e163]:
+                - img "Image" [ref=e165]
+            - button "Next"
+        - link "Skip to the beginning of the images gallery" [ref=e166] [cursor=pointer]:
+          - /url: "#gallery-prev-area"
+      - tablist [ref=e168]:
+        - tab "Details" [expanded] [ref=e169]:
+          - link "Details" [ref=e170] [cursor=pointer]:
+            - /url: "#description"
+        - tabpanel "Details" [ref=e171]:
+          - generic [ref=e173]:
+            - generic [ref=e175]:
+              - separator [ref=e176]
+              - heading "Product Description" [level=2] [ref=e177]
+              - generic [ref=e178]:
+                - img "sprinkles, rose gold, bespoke, cake decorating" [ref=e181]
+                - img "sprinkles, gourmet, bespoke, cake decorating" [ref=e184]
+                - generic [ref=e187]:
+                  - generic:
+                    - generic:
+                      - generic [ref=e188]:
+                        - img "sprinkles" [ref=e190]
+                        - generic [ref=e191]:
+                          - heading "Sprinkle Pop Sprinkle Mix" [level=3] [ref=e192]
+                          - heading "Belle of the Ball Princess" [level=5] [ref=e193]
+                          - paragraph [ref=e194]: With MORE COLORS than anyone, Sprinkle Pop’s bespoke sprinkle mixes are sure to be the POP that your baked goods need to perfectly coordinate with any event.
+                          - paragraph [ref=e195]: Bell of the Ball Princess sprinkle mix is a mixture of warm yellows and golds, with a pop of red. Our royal icing roses ad the finishing touch!
+                          - paragraph [ref=e196]:
+                            - generic [ref=e197]: "* Please note that the royal icing rose pieces make up a small percentage of the sprinkle mix. As a point of reference, you may expect to see 6-8 pieces in a 4 oz bottle. A 2oz sample size bag may only have 2-4 pieces. Please select your size accordingly."
+                      - generic [ref=e199]:
+                        - heading "Features" [level=4] [ref=e200]
+                        - list [ref=e203]:
+                          - listitem [ref=e204]:
+                            - generic [ref=e205]: Available in 3 different sizes (2 oz, 4 oz, 8 oz)
+                          - listitem [ref=e206]:
+                            - generic [ref=e207]: Fresh for 18 months
+                          - listitem [ref=e208]:
+                            - generic [ref=e209]: Colorful blend of warm yellows and golds with a pop of red
+                - img "sprinkles, rose gold, cookies, cake, decorations" [ref=e212]
+                - generic [ref=e217]:
+                  - heading "Ingredients & Nutritional Information" [level=3] [ref=e218]
+                  - generic [ref=e219]:
+                    - img "sprinkle cookie" [ref=e221]
+                    - generic [ref=e223]:
+                      - heading "Nutritional Facts" [level=4] [ref=e224]
+                      - heading "Serving Size (2 tsp)" [level=5] [ref=e225]
+                      - list [ref=e227]:
+                        - listitem [ref=e228]:
+                          - generic [ref=e229]: "Calories: 34.5"
+                        - listitem [ref=e230]:
+                          - generic [ref=e231]: "Fat: 0.3"
+                        - listitem [ref=e232]:
+                          - generic [ref=e233]: "Sodium: 2.5"
+                        - listitem [ref=e234]:
+                          - generic [ref=e235]: "Carbohydrates: 7"
+                        - listitem [ref=e236]:
+                          - generic [ref=e237]: "Protein: 0.01"
+                      - heading "Allergens" [level=5] [ref=e238]
+                      - paragraph [ref=e239]: Contains SOY, MILK, and WHEAT
+                      - paragraph [ref=e240]: (This list is not intended to address all substances that may represent an allergen risk to certain individuals.)
+                      - paragraph [ref=e241]: This product is prepared and packaged using machines that may come into contact with WHEAT, EGGS, MILK, SOY, and TREE NUTS. Unintentional cross contamination can always be a possibility, however remote.
+                    - generic [ref=e242]:
+                      - heading "Ingredients" [level=4] [ref=e243]
+                      - paragraph [ref=e244]: Beeswax, calcium sulfate, carnauba wax, cocoa, confectioner's glaze, corn starch, corn syrup, dextrin, dextrose, egg whites (EGGS), glucose powder, glycerin, gum arabic, hpmc, hydrogenated palm kernel oil, lecithin (SOY), magnesium silicate, mica based pearlescent pigment
+                      - heading "Ingredients (cont.)" [level=5] [ref=e245]
+                      - paragraph [ref=e246]: natural and artificial flavors, palm kernel fat, potassium acid tartrate, reduced protein whey (MILK), salt, silicon dioxide, sugar, tapioca dextrin, tapioca starch, vanilla, blue 2 (E133), gold (e175), iron oxide (e172), red 3 (e127), red 40 (e129), titanium dioxide (e171), yellow 5 (e102), yellow 6 (e110), citric acid, and less than 1/10 of 1% sodium benzoate
+                - generic [ref=e249]:
+                  - paragraph [ref=e250]: "Warning: Our Metallic Sprinkle Mixes contain silver and/or gold dragee pieces which are sugar coated in a non-toxic silver & gold food color. These colors have been released for consumption in the EU & Canada, but have not yet been evaluated by the USA FDA. For this reason they are labeled \"For Decorative Use Only\""
+                  - paragraph [ref=e251]: Metallic dragees can be hard, please consume with caution
+                  - paragraph [ref=e252]: "*While we take great care in packaging our products, breakage does happen from time to time. Royal Icing pieces are very fragile."
+            - generic [ref=e253]:
+              - heading "Product Quick Look" [level=2] [ref=e254]
+              - generic [ref=e255]:
+                - list [ref=e257]:
+                  - listitem [ref=e258]: Bell Of The Ball Princess is a mixture of Yellow Gold Red and Royal red rose Icing for girls occasion
+                  - listitem [ref=e259]: Perfect Sprinkles for decorating party themed cakes, cupcakes, cookies, donuts, ice creams and more! Guaranteed for 18 months. Store in a cool, dark place [such as your pantry]
+                  - listitem [ref=e260]: Our Sprinkles make fun and wonderful decorations for edible baked treats, Ice cream and candy for baby showers, Gender reveal, birthdays, bridal showers, weddings, valentines, Easter, Independence day, halloween, Thanksgiving, Christmas Holiday occasion and all party events!
+                  - listitem [ref=e261]: May contain Wheat/Gluten, Eggs, and Dairy Products, Peanuts, Tree Nuts and Soy
+                  - listitem [ref=e262]: With MORE COLORS than anyone, Sprinkle Pop’s bespoke sprinkle mixes are sure to be the POP that your baked goods need to perfectly coordinate with any event
+                - table [ref=e264]:
+                  - rowgroup [ref=e265]:
+                    - row "Product Dimensions ‏ ‎ 6 x 2.5 x 2.5 inches; 8.2 Ounces" [ref=e266]:
+                      - rowheader "Product Dimensions ‏" [ref=e267]
+                      - cell "‎ 6 x 2.5 x 2.5 inches; 8.2 Ounces" [ref=e268]
+                    - row "UPC ‏ ‎ 691176015051" [ref=e269]:
+                      - rowheader "UPC ‏" [ref=e270]
+                      - cell "‎ 691176015051" [ref=e271]
+                    - row "Manufacturer ‏ ‎ SPRINKLE POP" [ref=e272]:
+                      - rowheader "Manufacturer ‏" [ref=e273]
+                      - cell "‎ SPRINKLE POP" [ref=e274]
+                    - row "ASIN ‏ ‎ B08743KW8M" [ref=e275]:
+                      - rowheader "ASIN ‏" [ref=e276]
+                      - cell "‎ B08743KW8M" [ref=e277]
+                    - row "Country of Origin ‏ ‎ USA" [ref=e278]:
+                      - rowheader "Country of Origin ‏" [ref=e279]
+                      - cell "‎ USA" [ref=e280]
+                    - row "#486 in Dessert Sprinkles" [ref=e281]:
+                      - columnheader "#486 in Dessert Sprinkles" [ref=e282]
+                      - cell [ref=e283]
+        - tab "Reviews (12)" [ref=e284]:
+          - link "Reviews (12)" [ref=e285] [cursor=pointer]:
+            - /url: "#reviews"
+        - text: "*       * * *"
+  - contentinfo [ref=e286]:
+    - generic [ref=e287]:
+      - generic [ref=e290]:
+        - generic [ref=e292]:
+          - text: 
+          - generic [ref=e293]:
+            - generic [ref=e294]: "Sign Up for Our Newsletter:"
+            - textbox "Sign Up for Our Newsletter:" [ref=e295]:
+              - /placeholder: Enter your email address
+        - button "Subscribe" [ref=e297] [cursor=pointer]
+      - list [ref=e298]:
+        - listitem [ref=e299]:
+          - link "Privacy and Cookie Policy" [ref=e300] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/privacy-policy-cookie-restriction-mode/
+        - listitem [ref=e301]:
+          - link "Search Terms" [ref=e302] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/search/term/popular/
+        - listitem [ref=e303]:
+          - link "Advanced Search" [ref=e304] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/catalogsearch/advanced/
+        - listitem [ref=e305]:
+          - link "Orders and Returns" [ref=e306] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/sales/guest/form/
+        - listitem [ref=e307]:
+          - link "Contact Us" [ref=e308] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/contact/
+      - generic [ref=e309]: Copyright © 2013-present Magento, Inc. All rights reserved.
+      - generic [ref=e310]:
+        - text: Help Us Keep Magento Healthy
+        - link "Report All Bugs" [ref=e311] [cursor=pointer]:
+          - /url: http://www.magentocommerce.com/bug-tracking

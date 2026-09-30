@@ -1,0 +1,1267 @@
+{
+  "meta": {
+    "collected_at": "2026-09-29T02:11:17.324Z",
+    "source_root": "C:\\Users\\bulin\\appweave\\logs\\03-context-model\\260928-145535\\llm\\entity-extract",
+    "files": 26,
+    "raw_business_entity": 86,
+    "merged_business_entity": 12,
+    "raw_operation": 137,
+    "merged_operation": 24,
+    "collapsed_duplicates": 187,
+    "invalid_skipped": 0,
+    "parse_failed": 0
+  },
+  "concepts": [
+    {
+      "canonical_name": "产品",
+      "concept_type": "business_entity",
+      "description": "商城首页商品展示区（Product Showcases）中展示的商品，包含名称、价格、评分、评论数与加入购物车/心愿单/比较等操作入口；商品详情页通过 GET 请求加载。",
+      "aliases": [
+        "Product",
+        "商品",
+        "Sprinkle Mix",
+        "Dried Malt Extract",
+        "COOLOO Cell Phone Stand",
+        "Electronics Items",
+        "Energizer MAX C Batteries",
+        "ENEVOTX Front Door Side Window Covering",
+        "Health & Household Items",
+        "HFHAPW Onesie Pajamas",
+        "Home & Kitchen Items",
+        "linxiaojix Waterproof Shell for Osmo Pocket",
+        "MMQQ Beige Bar Chairs",
+        "Multi Accessory Hub Adapter By JOBY",
+        "Patio, Lawn & Garden Items",
+        "PSP-S110 Battery",
+        "Q Mixers Premium Ginger Ale",
+        "Sports & Outdoors Items",
+        "Video Games Items",
+        "ZOSI PoE Security Camera System"
+      ],
+      "attributes": [
+        {
+          "name": "name",
+          "note": "商品名称（链接文本）",
+          "source_refs": [
+            "page.aria.yml:strong:link:商品标题"
+          ]
+        },
+        {
+          "name": "price",
+          "note": "商品价格（如 $19.99）",
+          "source_refs": [
+            "page.aria.yml:generic:价格"
+          ]
+        },
+        {
+          "name": "rating",
+          "note": "评分（Rating: 百分比）",
+          "source_refs": [
+            "page.aria.yml:generic:Rating:"
+          ]
+        },
+        {
+          "name": "reviews",
+          "note": "评论数（如 1 Review / 12 Reviews）",
+          "source_refs": [
+            "page.aria.yml:link:Reviews"
+          ]
+        },
+        {
+          "name": "image",
+          "note": "商品图片",
+          "source_refs": [
+            "page.aria.yml:img:Image"
+          ]
+        },
+        {
+          "name": "sku",
+          "note": "SKU（B08743KW8M）",
+          "source_refs": [
+            "page.aria.yml:strong:SKU"
+          ]
+        },
+        {
+          "name": "availability",
+          "note": "库存状态（In stock）",
+          "source_refs": [
+            "page.aria.yml:generic:Availability"
+          ]
+        },
+        {
+          "name": "size",
+          "note": "尺寸选项（2/4/8 Ounce Pack of 1）",
+          "source_refs": [
+            "page.aria.yml:radio:Size"
+          ]
+        },
+        {
+          "name": "qty",
+          "note": "购买数量（Qty spinbutton）",
+          "source_refs": [
+            "page.aria.yml:spinbutton:Qty"
+          ]
+        },
+        {
+          "name": "description",
+          "note": "Product Description 描述区块",
+          "source_refs": [
+            "page.aria.yml:heading:Product Description"
+          ]
+        },
+        {
+          "name": "dimensions",
+          "note": "Product Dimensions（Quick Look 表）",
+          "source_refs": [
+            "page.aria.yml:table:Product Dimensions"
+          ]
+        },
+        {
+          "name": "upc",
+          "note": "UPC（Quick Look 表）",
+          "source_refs": [
+            "page.aria.yml:table:UPC"
+          ]
+        },
+        {
+          "name": "manufacturer",
+          "note": "Manufacturer（Quick Look 表）",
+          "source_refs": [
+            "page.aria.yml:table:Manufacturer"
+          ]
+        },
+        {
+          "name": "asin",
+          "note": "ASIN（Quick Look 表）",
+          "source_refs": [
+            "page.aria.yml:table:ASIN"
+          ]
+        },
+        {
+          "name": "countryOfOrigin",
+          "note": "Country of Origin（Quick Look 表）",
+          "source_refs": [
+            "page.aria.yml:table:Country of Origin"
+          ]
+        },
+        {
+          "name": "packageDimensions",
+          "note": "Package Dimensions（Quick Look 表）",
+          "source_refs": [
+            "page.aria.yml:table:Package Dimensions"
+          ]
+        },
+        {
+          "name": "itemWeight",
+          "note": "Item Weight（Quick Look 表）",
+          "source_refs": [
+            "page.aria.yml:table:Item Weight"
+          ]
+        },
+        {
+          "name": "modelNumber",
+          "note": "Item model number（Quick Look 表）",
+          "source_refs": [
+            "page.aria.yml:table:Item model number"
+          ]
+        },
+        {
+          "name": "dateFirstAvailable",
+          "note": "Date First Available（Quick Look 表）",
+          "source_refs": [
+            "page.aria.yml:table:Date First Available"
+          ]
+        },
+        {
+          "name": "color",
+          "source_refs": [
+            "page.aria.yml:radio:A-Black（2 Pack）"
+          ]
+        },
+        {
+          "name": "style",
+          "source_refs": [
+            "page.aria.yml:radio:C 2 Count"
+          ]
+        },
+        {
+          "name": "item_model_number",
+          "source_refs": [
+            "page.aria.yml:rowheader:Item model number"
+          ]
+        },
+        {
+          "name": "product_dimensions",
+          "source_refs": [
+            "page.aria.yml:rowheader:Product Dimensions"
+          ]
+        },
+        {
+          "name": "batteries",
+          "source_refs": [
+            "page.aria.yml:rowheader:Batteries"
+          ]
+        },
+        {
+          "name": "is_discontinued_by_manufacturer",
+          "source_refs": [
+            "page.aria.yml:rowheader:Is Discontinued By Manufacturer"
+          ]
+        },
+        {
+          "name": "domestic_shipping",
+          "source_refs": [
+            "page.aria.yml:rowheader:Domestic Shipping"
+          ]
+        },
+        {
+          "name": "international_shipping",
+          "source_refs": [
+            "page.aria.yml:rowheader:International Shipping"
+          ]
+        },
+        {
+          "name": "department",
+          "source_refs": [
+            "page.aria.yml:rowheader:Department"
+          ]
+        },
+        {
+          "name": "review_count",
+          "source_refs": [
+            "page.aria.yml:link:12 Reviews"
+          ]
+        }
+      ],
+      "page_refs": [
+        "000_root",
+        "001_beauty-personal-care_html",
+        "002_belle-of-the-ball-princess-sprinkle-mix-wedding-colorful-spr",
+        "003_briess-dme-pilsen-light-1-lb-bag_html",
+        "005_cell-phones-accessories_html",
+        "006_clothing-shoes-jewelry_html",
+        "008_cooloo-cell-phone-stand-2-pack-mobile-phone-anti-skid-holder",
+        "011_electronics_html",
+        "012_energizer-max-c-batteries-premium-alkaline-c-cell-batteries-",
+        "013_enevotx-front-door-side-window-covering-alligator-and-cactus",
+        "014_health-household_html",
+        "015_hfhapw-onesie-pajamas-for-women-women-s-valentines-day-sexy-",
+        "016_home-kitchen_html",
+        "017_linxiaojix-waterproof-shell-for-osmo-pocket-camera-case-came",
+        "018_mmqq-beige-bar-chairs-outdoor-patio-wicker-rattan-barstools-",
+        "019_multi-accessory-hub-adapter-by-joby-get-the-right-set-up-for",
+        "020_patio-lawn-garden_html",
+        "021_psp-s110-battery-upgraded-ultra-high-capacity-3600mah-li-ion",
+        "022_q-mixers-premium-ginger-ale-real-ingredients-less-sweet-6-7-",
+        "023_sports-outdoors_html",
+        "024_video-games_html",
+        "025_zosi-h-265-poe-home-security-camera-system-outdoor-indoor-8-"
+      ],
+      "evidence_refs": [
+        "E019",
+        "E023",
+        "page.aria.yml:strong:link:商品标题",
+        "E017",
+        "page.aria.yml:heading:商品标题",
+        "page.aria.yml:strong:SKU",
+        "E006",
+        "E020",
+        "E021",
+        "page.aria.yml:heading:COOLOO Cell Phone Stand",
+        "page.aria.yml:heading:Electronics Items 1-12 of 14539",
+        "page.aria.yml:list:listitem",
+        "page.aria.yml:heading:Energizer MAX C Batteries",
+        "page.aria.yml:table:Product Quick Look",
+        "page.aria.yml:heading:ENEVOTX Front Door Side Window Covering",
+        "page.aria.yml:heading:Health & Household Items 1-12 of 537",
+        "page.aria.yml:heading:HFHAPW Onesie Pajamas",
+        "page.aria.yml:heading:Home & Kitchen Items 1-12 of 17241",
+        "page.aria.yml:heading:linxiaojix Waterproof Shell for Osmo Pocket",
+        "page.aria.yml:heading:MMQQ Beige Bar Chairs Outdoor Patio Wicker Rattan Barstools",
+        "page.aria.yml:heading:Multi Accessory Hub Adapter By JOBY",
+        "page.aria.yml:heading:Patio, Lawn & Garden Items 1-12 of 320",
+        "page.aria.yml:heading:PSP-S110 Battery",
+        "page.aria.yml:heading:Q Mixers Premium Ginger Ale",
+        "page.aria.yml:heading:Sports & Outdoors Items 1-12 of 884",
+        "page.aria.yml:heading:Video Games Items 1-12 of 932",
+        "page.aria.yml:heading:ZOSI H.265+ PoE Home Security Camera System"
+      ],
+      "api_refs": [
+        "E019",
+        "E023",
+        "E017",
+        "E006",
+        "E020",
+        "E021",
+        "E012",
+        "E022"
+      ]
+    },
+    {
+      "canonical_name": "商品比较清单",
+      "concept_type": "business_entity",
+      "description": "页头展示的 Compare Products（含商品数量 3 items）比较列表，通过 /customer/section/load/ 接口加载 compare-products 数据。",
+      "aliases": [
+        "Compare Products",
+        "比较清单"
+      ],
+      "attributes": [
+        {
+          "name": "itemCount",
+          "note": "比较商品数量（3 items）",
+          "source_refs": [
+            "page.aria.yml:link:Compare Products 3 items"
+          ]
+        },
+        {
+          "name": "compareProducts",
+          "note": "比较商品数据区（E018 返回 record_key）",
+          "source_refs": [
+            "E018"
+          ]
+        },
+        {
+          "name": "productName",
+          "note": "比较清单中的商品名称",
+          "source_refs": [
+            "page.aria.yml:strong:link:比较商品"
+          ]
+        },
+        {
+          "name": "product",
+          "source_refs": [
+            "page.aria.yml:link:Multi Accessory Hub Adapter By JOBY",
+            "page.aria.yml:link:linxiaojix Waterproof Shell for Osmo Pocket"
+          ]
+        },
+        {
+          "name": "messages",
+          "source_refs": [
+            "E023"
+          ]
+        }
+      ],
+      "page_refs": [
+        "000_root",
+        "001_beauty-personal-care_html",
+        "005_cell-phones-accessories_html",
+        "006_clothing-shoes-jewelry_html",
+        "010_dp_B004U429AQ_ref_emc_b_5_i",
+        "011_electronics_html",
+        "014_health-household_html",
+        "016_home-kitchen_html",
+        "020_patio-lawn-garden_html",
+        "022_q-mixers-premium-ginger-ale-real-ingredients-less-sweet-6-7-",
+        "023_sports-outdoors_html",
+        "024_video-games_html"
+      ],
+      "evidence_refs": [
+        "E018",
+        "page.aria.yml:link:Compare Products 3 items",
+        "page.aria.yml:heading:Compare Products",
+        "E020",
+        "page.aria.yml:alert:You added product",
+        "E021"
+      ],
+      "api_refs": [
+        "E018",
+        "E020",
+        "E023"
+      ]
+    },
+    {
+      "canonical_name": "购物车",
+      "concept_type": "business_entity",
+      "description": "页头迷你购物车（My Cart），显示当前商品数量（3 items），关联结账页 /checkout/cart/；迷你购物车模板由静态模板接口加载。",
+      "aliases": [
+        "My Cart",
+        "Cart"
+      ],
+      "attributes": [
+        {
+          "name": "itemCount",
+          "note": "购物车商品数量（3 items）",
+          "source_refs": [
+            "page.aria.yml:generic:My Cart"
+          ]
+        },
+        {
+          "name": "subtotal",
+          "note": "小计（minicart subtotal 模板）",
+          "source_refs": [
+            "E013"
+          ]
+        },
+        {
+          "name": "cart",
+          "note": "客户分区 cart 数据（E010 record_key）",
+          "source_refs": [
+            "E010"
+          ]
+        },
+        {
+          "name": "messages",
+          "source_refs": [
+            "E013"
+          ]
+        }
+      ],
+      "page_refs": [
+        "000_root",
+        "002_belle-of-the-ball-princess-sprinkle-mix-wedding-colorful-spr",
+        "011_electronics_html",
+        "016_home-kitchen_html",
+        "020_patio-lawn-garden_html",
+        "023_sports-outdoors_html",
+        "024_video-games_html"
+      ],
+      "evidence_refs": [
+        "page.aria.yml:link:My Cart",
+        "E010",
+        "page.aria.yml:link:My Cart 1 1 items",
+        "page.aria.yml:link:My Cart 3 3 items"
+      ],
+      "api_refs": [
+        "E010",
+        "E013",
+        "E021"
+      ]
+    },
+    {
+      "canonical_name": "新闻订阅",
+      "concept_type": "business_entity",
+      "description": "页脚新闻订阅表单（Sign Up for Our Newsletter），收集邮箱地址并提交订阅。",
+      "aliases": [
+        "Newsletter",
+        "订阅",
+        "Newsletter Subscription"
+      ],
+      "attributes": [
+        {
+          "name": "email",
+          "note": "订阅邮箱输入框（placeholder: Enter your email address）",
+          "source_refs": [
+            "page.aria.yml:textbox:Sign Up for Our Newsletter:"
+          ]
+        }
+      ],
+      "page_refs": [
+        "000_root",
+        "007_contact"
+      ],
+      "evidence_refs": [
+        "page.aria.yml:textbox:Sign Up for Our Newsletter:",
+        "page.aria.yml:generic:Sign Up for Our Newsletter:"
+      ]
+    },
+    {
+      "canonical_name": "商品分类",
+      "concept_type": "business_entity",
+      "description": "分类页侧栏 Shopping Options 中的商品分类（Category），如 Oral Care、Skin Care、Makeup 等，每类带商品数量并可链接筛选（?cat=）。",
+      "aliases": [
+        "Category",
+        "分类"
+      ],
+      "attributes": [
+        {
+          "name": "name",
+          "note": "分类名称（如 Oral Care）",
+          "source_refs": [
+            "page.aria.yml:link:Oral Care"
+          ]
+        },
+        {
+          "name": "itemCount",
+          "note": "分类下商品数量（如 3125 item）",
+          "source_refs": [
+            "page.aria.yml:link:Oral Care( 3125 item )"
+          ]
+        }
+      ],
+      "page_refs": [
+        "001_beauty-personal-care_html",
+        "005_cell-phones-accessories_html",
+        "006_clothing-shoes-jewelry_html",
+        "011_electronics_html",
+        "014_health-household_html",
+        "016_home-kitchen_html",
+        "020_patio-lawn-garden_html",
+        "023_sports-outdoors_html",
+        "024_video-games_html"
+      ],
+      "evidence_refs": [
+        "page.aria.yml:heading:Category"
+      ]
+    },
+    {
+      "canonical_name": "价格区间",
+      "concept_type": "business_entity",
+      "description": "分类页侧栏 Shopping Options 中的价格筛选区间（Price），如 $0.00 - $999.99，带商品数量并可链接筛选（?price=）。",
+      "aliases": [
+        "Price",
+        "价格筛选",
+        "Price Range"
+      ],
+      "attributes": [
+        {
+          "name": "range",
+          "note": "价格区间文本（如 $0.00 - $999.99）",
+          "source_refs": [
+            "page.aria.yml:link:$0.00 - $999.99"
+          ]
+        },
+        {
+          "name": "itemCount",
+          "note": "区间内商品数量（如 21743 item）",
+          "source_refs": [
+            "page.aria.yml:link:$0.00 - $999.99( 21743 item )"
+          ]
+        }
+      ],
+      "page_refs": [
+        "001_beauty-personal-care_html",
+        "005_cell-phones-accessories_html",
+        "006_clothing-shoes-jewelry_html",
+        "011_electronics_html",
+        "014_health-household_html",
+        "016_home-kitchen_html",
+        "020_patio-lawn-garden_html",
+        "023_sports-outdoors_html",
+        "024_video-games_html"
+      ],
+      "evidence_refs": [
+        "page.aria.yml:heading:Price"
+      ]
+    },
+    {
+      "canonical_name": "心愿单",
+      "concept_type": "business_entity",
+      "description": "侧栏 My Wish List 区块，当前提示 You have no items in your wish list。",
+      "aliases": [
+        "Wish List",
+        "心愿清单",
+        "My Wish List"
+      ],
+      "attributes": [
+        {
+          "name": "itemCount",
+          "note": "心愿单商品数量（当前为空）",
+          "source_refs": [
+            "page.aria.yml:heading:My Wish List"
+          ]
+        },
+        {
+          "name": "wishlist_items",
+          "source_refs": [
+            "page.aria.yml:generic:You have no items in your wish list."
+          ]
+        }
+      ],
+      "page_refs": [
+        "001_beauty-personal-care_html",
+        "005_cell-phones-accessories_html",
+        "006_clothing-shoes-jewelry_html",
+        "010_dp_B004U429AQ_ref_emc_b_5_i",
+        "011_electronics_html",
+        "014_health-household_html",
+        "016_home-kitchen_html",
+        "020_patio-lawn-garden_html",
+        "023_sports-outdoors_html",
+        "024_video-games_html"
+      ],
+      "evidence_refs": [
+        "page.aria.yml:heading:My Wish List",
+        "E018"
+      ],
+      "api_refs": [
+        "E018"
+      ]
+    },
+    {
+      "canonical_name": "商品评论",
+      "concept_type": "business_entity",
+      "description": "商品评价区块（Reviews 12），展示评分百分比与评论入口 Add Your Review。",
+      "aliases": [
+        "Reviews",
+        "评价",
+        "商品评价"
+      ],
+      "attributes": [
+        {
+          "name": "ratingPercent",
+          "note": "评分百分比（63% of 100）",
+          "source_refs": [
+            "page.aria.yml:generic:Rating:"
+          ]
+        },
+        {
+          "name": "reviewCount",
+          "note": "评论数量（12）",
+          "source_refs": [
+            "page.aria.yml:link:Reviews (12)"
+          ]
+        },
+        {
+          "name": "rating",
+          "source_refs": [
+            "page.aria.yml:generic:Rating:"
+          ]
+        },
+        {
+          "name": "review_status",
+          "source_refs": [
+            "page.aria.yml:link:Be the first to review this product"
+          ]
+        }
+      ],
+      "page_refs": [
+        "002_belle-of-the-ball-princess-sprinkle-mix-wedding-colorful-spr",
+        "008_cooloo-cell-phone-stand-2-pack-mobile-phone-anti-skid-holder",
+        "012_energizer-max-c-batteries-premium-alkaline-c-cell-batteries-",
+        "013_enevotx-front-door-side-window-covering-alligator-and-cactus",
+        "015_hfhapw-onesie-pajamas-for-women-women-s-valentines-day-sexy-",
+        "017_linxiaojix-waterproof-shell-for-osmo-pocket-camera-case-came",
+        "018_mmqq-beige-bar-chairs-outdoor-patio-wicker-rattan-barstools-",
+        "019_multi-accessory-hub-adapter-by-joby-get-the-right-set-up-for",
+        "021_psp-s110-battery-upgraded-ultra-high-capacity-3600mah-li-ion",
+        "022_q-mixers-premium-ginger-ale-real-ingredients-less-sweet-6-7-",
+        "025_zosi-h-265-poe-home-security-camera-system-outdoor-indoor-8-"
+      ],
+      "evidence_refs": [
+        "page.aria.yml:tab:Reviews (12)",
+        "page.aria.yml:link:Add Your Review",
+        "page.aria.yml:tab:Reviews",
+        "page.aria.yml:link:Be the first to review this product",
+        "page.aria.yml:link:12 Reviews"
+      ],
+      "api_refs": [
+        "E010"
+      ]
+    },
+    {
+      "canonical_name": "高级搜索条件",
+      "concept_type": "business_entity",
+      "description": "Catalog Advanced Search 页面提供的搜索条件集合，包含产品名称、SKU、描述、短描述、价格区间等输入项，可提交搜索请求。",
+      "aliases": [
+        "Advanced Search",
+        "搜索条件"
+      ],
+      "attributes": [
+        {
+          "name": "productName",
+          "note": "Product Name 文本框",
+          "source_refs": [
+            "page.aria.yml:textbox:Product Name"
+          ]
+        },
+        {
+          "name": "sku",
+          "note": "SKU 文本框",
+          "source_refs": [
+            "page.aria.yml:textbox:SKU"
+          ]
+        },
+        {
+          "name": "description",
+          "note": "Description 文本框",
+          "source_refs": [
+            "page.aria.yml:textbox:Description"
+          ]
+        },
+        {
+          "name": "shortDescription",
+          "note": "Short Description 文本框",
+          "source_refs": [
+            "page.aria.yml:textbox:Short Description"
+          ]
+        },
+        {
+          "name": "priceFrom",
+          "note": "Price 起始值文本框",
+          "source_refs": [
+            "page.aria.yml:textbox:Price"
+          ]
+        },
+        {
+          "name": "priceTo",
+          "note": "Price 结束值文本框（USD）",
+          "source_refs": [
+            "page.aria.yml:textbox:USD"
+          ]
+        }
+      ],
+      "page_refs": [
+        "004_catalogsearch_advanced"
+      ],
+      "evidence_refs": [
+        "page.aria.yml:group:Search Settings"
+      ]
+    },
+    {
+      "canonical_name": "联系请求",
+      "concept_type": "business_entity",
+      "description": "用户在 Contact Us 页通过 Write Us 表单提交的咨询/留言请求，包含姓名、邮箱、电话与留言内容。",
+      "aliases": [
+        "联系表单",
+        "Contact Request"
+      ],
+      "attributes": [
+        {
+          "name": "name",
+          "source_refs": [
+            "page.aria.yml:textbox:Name*"
+          ]
+        },
+        {
+          "name": "email",
+          "source_refs": [
+            "page.aria.yml:textbox:Email*"
+          ]
+        },
+        {
+          "name": "phone_number",
+          "source_refs": [
+            "page.aria.yml:textbox:Phone Number"
+          ]
+        },
+        {
+          "name": "message",
+          "source_refs": [
+            "page.aria.yml:textbox:What’s on your mind? *"
+          ]
+        }
+      ],
+      "page_refs": [
+        "007_contact"
+      ],
+      "evidence_refs": [
+        "page.aria.yml:group:Write Us",
+        "page.aria.yml:heading:Contact Us"
+      ]
+    },
+    {
+      "canonical_name": "客户账户",
+      "concept_type": "business_entity",
+      "description": "注册客户（Registered Customers）的账户信息，用于登录，包含邮箱与密码；登录后通过客户会话区块接口加载 wishlist/messages 等数据。",
+      "aliases": [
+        "Customer Account",
+        "客户"
+      ],
+      "attributes": [
+        {
+          "name": "email",
+          "source_refs": [
+            "page.aria.yml:textbox:Email*"
+          ]
+        },
+        {
+          "name": "password",
+          "source_refs": [
+            "page.aria.yml:textbox:Password* Password"
+          ]
+        },
+        {
+          "name": "wishlist",
+          "source_refs": [
+            "E021"
+          ]
+        },
+        {
+          "name": "messages",
+          "source_refs": [
+            "E021"
+          ]
+        }
+      ],
+      "page_refs": [
+        "009_customer_account_login"
+      ],
+      "evidence_refs": [
+        "page.aria.yml:heading:Registered Customers",
+        "page.aria.yml:textbox:Email*"
+      ],
+      "api_refs": [
+        "E021"
+      ]
+    },
+    {
+      "canonical_name": "客户会话",
+      "concept_type": "business_entity",
+      "description": "页面通过 customer/section/load 加载的客户会话区块（messages），用于刷新全局消息状态。",
+      "aliases": [
+        "客户会话区块",
+        "Customer Section"
+      ],
+      "attributes": [
+        {
+          "name": "messages",
+          "source_refs": [
+            "E010"
+          ]
+        }
+      ],
+      "page_refs": [
+        "012_energizer-max-c-batteries-premium-alkaline-c-cell-batteries-"
+      ],
+      "evidence_refs": [
+        "page.aria.yml:alert:The product's required option(s) weren't entered"
+      ],
+      "api_refs": [
+        "E010"
+      ]
+    },
+    {
+      "canonical_name": "产品-查询",
+      "concept_type": "operation",
+      "description": "加载/浏览产品数据：首页商品展示与商品详情页通过 GET 请求加载，客户分区加载接口返回比较商品与消息。",
+      "page_refs": [
+        "000_root",
+        "001_beauty-personal-care_html",
+        "002_belle-of-the-ball-princess-sprinkle-mix-wedding-colorful-spr",
+        "003_briess-dme-pilsen-light-1-lb-bag_html",
+        "005_cell-phones-accessories_html",
+        "006_clothing-shoes-jewelry_html",
+        "011_electronics_html",
+        "014_health-household_html",
+        "016_home-kitchen_html",
+        "020_patio-lawn-garden_html",
+        "022_q-mixers-premium-ginger-ale-real-ingredients-less-sweet-6-7-",
+        "023_sports-outdoors_html",
+        "024_video-games_html"
+      ],
+      "evidence_refs": [
+        "E018",
+        "E019",
+        "E023",
+        "E017",
+        "page.aria.yml:link:商品标题",
+        "page.aria.yml:heading:商品标题",
+        "E006",
+        "E020",
+        "E021",
+        "page.aria.yml:combobox:Sort By",
+        "page.aria.yml:link:Page 2",
+        "page.aria.yml:heading:Q Mixers Premium Ginger Ale"
+      ],
+      "api_refs": [
+        "E018",
+        "E019",
+        "E023",
+        "E017",
+        "E006",
+        "E020",
+        "E021",
+        "E012",
+        "E022"
+      ]
+    },
+    {
+      "canonical_name": "产品-加入比较",
+      "concept_type": "operation",
+      "description": "将商品加入比较列表，触发 POST /catalog/product_compare/add/。",
+      "page_refs": [
+        "000_root",
+        "001_beauty-personal-care_html",
+        "002_belle-of-the-ball-princess-sprinkle-mix-wedding-colorful-spr",
+        "003_briess-dme-pilsen-light-1-lb-bag_html",
+        "005_cell-phones-accessories_html",
+        "006_clothing-shoes-jewelry_html",
+        "008_cooloo-cell-phone-stand-2-pack-mobile-phone-anti-skid-holder",
+        "011_electronics_html",
+        "012_energizer-max-c-batteries-premium-alkaline-c-cell-batteries-",
+        "013_enevotx-front-door-side-window-covering-alligator-and-cactus",
+        "014_health-household_html",
+        "015_hfhapw-onesie-pajamas-for-women-women-s-valentines-day-sexy-",
+        "016_home-kitchen_html",
+        "017_linxiaojix-waterproof-shell-for-osmo-pocket-camera-case-came",
+        "018_mmqq-beige-bar-chairs-outdoor-patio-wicker-rattan-barstools-",
+        "019_multi-accessory-hub-adapter-by-joby-get-the-right-set-up-for",
+        "020_patio-lawn-garden_html",
+        "021_psp-s110-battery-upgraded-ultra-high-capacity-3600mah-li-ion",
+        "022_q-mixers-premium-ginger-ale-real-ingredients-less-sweet-6-7-",
+        "023_sports-outdoors_html",
+        "024_video-games_html",
+        "025_zosi-h-265-poe-home-security-camera-system-outdoor-indoor-8-"
+      ],
+      "evidence_refs": [
+        "E017",
+        "page.aria.yml:link:Add to Compare",
+        "page.aria.yml:button:Add to Compare",
+        "E018",
+        "page.aria.yml:alert:comparison list",
+        "page.aria.yml:alert:You added product"
+      ],
+      "api_refs": [
+        "E017",
+        "E018",
+        "E019",
+        "E021"
+      ]
+    },
+    {
+      "canonical_name": "产品-加入购物车",
+      "concept_type": "operation",
+      "description": "点击 Add to Cart 将商品加入购物车（页面树按钮）；对应商品页 POST 请求返回 302 重定向。",
+      "page_refs": [
+        "000_root",
+        "001_beauty-personal-care_html",
+        "002_belle-of-the-ball-princess-sprinkle-mix-wedding-colorful-spr",
+        "003_briess-dme-pilsen-light-1-lb-bag_html",
+        "005_cell-phones-accessories_html",
+        "006_clothing-shoes-jewelry_html",
+        "008_cooloo-cell-phone-stand-2-pack-mobile-phone-anti-skid-holder",
+        "011_electronics_html",
+        "012_energizer-max-c-batteries-premium-alkaline-c-cell-batteries-",
+        "013_enevotx-front-door-side-window-covering-alligator-and-cactus",
+        "014_health-household_html",
+        "015_hfhapw-onesie-pajamas-for-women-women-s-valentines-day-sexy-",
+        "016_home-kitchen_html",
+        "017_linxiaojix-waterproof-shell-for-osmo-pocket-camera-case-came",
+        "018_mmqq-beige-bar-chairs-outdoor-patio-wicker-rattan-barstools-",
+        "019_multi-accessory-hub-adapter-by-joby-get-the-right-set-up-for",
+        "020_patio-lawn-garden_html",
+        "021_psp-s110-battery-upgraded-ultra-high-capacity-3600mah-li-ion",
+        "022_q-mixers-premium-ginger-ale-real-ingredients-less-sweet-6-7-",
+        "023_sports-outdoors_html",
+        "024_video-games_html",
+        "025_zosi-h-265-poe-home-security-camera-system-outdoor-indoor-8-"
+      ],
+      "evidence_refs": [
+        "E022",
+        "page.aria.yml:button:Add to Cart",
+        "page.aria.yml:alert:required option(s)"
+      ],
+      "api_refs": [
+        "E022",
+        "E012",
+        "E023",
+        "E019"
+      ]
+    },
+    {
+      "canonical_name": "产品-加入心愿单",
+      "concept_type": "operation",
+      "description": "点击 Add to Wish List 将商品加入心愿单（页面树链接，url 为 #）；本页无直接提交接口证据。",
+      "page_refs": [
+        "000_root",
+        "001_beauty-personal-care_html",
+        "002_belle-of-the-ball-princess-sprinkle-mix-wedding-colorful-spr",
+        "003_briess-dme-pilsen-light-1-lb-bag_html",
+        "005_cell-phones-accessories_html",
+        "006_clothing-shoes-jewelry_html",
+        "008_cooloo-cell-phone-stand-2-pack-mobile-phone-anti-skid-holder",
+        "011_electronics_html",
+        "012_energizer-max-c-batteries-premium-alkaline-c-cell-batteries-",
+        "013_enevotx-front-door-side-window-covering-alligator-and-cactus",
+        "014_health-household_html",
+        "015_hfhapw-onesie-pajamas-for-women-women-s-valentines-day-sexy-",
+        "016_home-kitchen_html",
+        "017_linxiaojix-waterproof-shell-for-osmo-pocket-camera-case-came",
+        "018_mmqq-beige-bar-chairs-outdoor-patio-wicker-rattan-barstools-",
+        "019_multi-accessory-hub-adapter-by-joby-get-the-right-set-up-for",
+        "020_patio-lawn-garden_html",
+        "021_psp-s110-battery-upgraded-ultra-high-capacity-3600mah-li-ion",
+        "022_q-mixers-premium-ginger-ale-real-ingredients-less-sweet-6-7-",
+        "023_sports-outdoors_html",
+        "024_video-games_html",
+        "025_zosi-h-265-poe-home-security-camera-system-outdoor-indoor-8-"
+      ],
+      "evidence_refs": [
+        "page.aria.yml:link:Add to Wish List",
+        "page.aria.yml:button:Add to Wish List",
+        "E018"
+      ],
+      "api_refs": [
+        "E018",
+        "E021",
+        "E017",
+        "E023"
+      ]
+    },
+    {
+      "canonical_name": "商品比较清单-查询",
+      "concept_type": "operation",
+      "description": "通过 /customer/section/load/ 加载比较清单数据（compare-products 分区）。",
+      "page_refs": [
+        "000_root",
+        "006_clothing-shoes-jewelry_html"
+      ],
+      "evidence_refs": [
+        "E018",
+        "E020"
+      ],
+      "api_refs": [
+        "E018",
+        "E020"
+      ]
+    },
+    {
+      "canonical_name": "新闻订阅-提交",
+      "concept_type": "operation",
+      "description": "点击 Subscribe 按钮提交邮箱订阅（页面树按钮）；本页无订阅接口证据。",
+      "page_refs": [
+        "000_root"
+      ],
+      "evidence_refs": [
+        "page.aria.yml:button:Subscribe"
+      ]
+    },
+    {
+      "canonical_name": "商品比较清单-移除",
+      "concept_type": "operation",
+      "description": "从比较清单中移除单个商品（Remove This Item 链接）。",
+      "page_refs": [
+        "001_beauty-personal-care_html",
+        "005_cell-phones-accessories_html",
+        "006_clothing-shoes-jewelry_html"
+      ],
+      "evidence_refs": [
+        "page.aria.yml:link:Remove This Item"
+      ]
+    },
+    {
+      "canonical_name": "商品比较清单-清空",
+      "concept_type": "operation",
+      "description": "清空全部比较商品（Clear All 链接）。",
+      "page_refs": [
+        "001_beauty-personal-care_html",
+        "005_cell-phones-accessories_html",
+        "006_clothing-shoes-jewelry_html",
+        "010_dp_B004U429AQ_ref_emc_b_5_i",
+        "011_electronics_html",
+        "014_health-household_html",
+        "016_home-kitchen_html",
+        "020_patio-lawn-garden_html",
+        "023_sports-outdoors_html",
+        "024_video-games_html"
+      ],
+      "evidence_refs": [
+        "page.aria.yml:link:Clear All"
+      ]
+    },
+    {
+      "canonical_name": "产品-写评论",
+      "concept_type": "operation",
+      "description": "点击 Add Your Review 进入评论表单（#review-form 锚点）。",
+      "page_refs": [
+        "002_belle-of-the-ball-princess-sprinkle-mix-wedding-colorful-spr",
+        "003_briess-dme-pilsen-light-1-lb-bag_html",
+        "008_cooloo-cell-phone-stand-2-pack-mobile-phone-anti-skid-holder",
+        "012_energizer-max-c-batteries-premium-alkaline-c-cell-batteries-",
+        "013_enevotx-front-door-side-window-covering-alligator-and-cactus",
+        "015_hfhapw-onesie-pajamas-for-women-women-s-valentines-day-sexy-",
+        "017_linxiaojix-waterproof-shell-for-osmo-pocket-camera-case-came",
+        "018_mmqq-beige-bar-chairs-outdoor-patio-wicker-rattan-barstools-",
+        "021_psp-s110-battery-upgraded-ultra-high-capacity-3600mah-li-ion",
+        "025_zosi-h-265-poe-home-security-camera-system-outdoor-indoor-8-"
+      ],
+      "evidence_refs": [
+        "page.aria.yml:link:Add Your Review",
+        "page.aria.yml:link:Be the first to review this product"
+      ]
+    },
+    {
+      "canonical_name": "购物车-查询",
+      "concept_type": "operation",
+      "description": "通过 /customer/section/load/ 加载客户购物车分区数据。",
+      "page_refs": [
+        "002_belle-of-the-ball-princess-sprinkle-mix-wedding-colorful-spr"
+      ],
+      "evidence_refs": [
+        "E010"
+      ],
+      "api_refs": [
+        "E010"
+      ]
+    },
+    {
+      "canonical_name": "高级搜索-提交",
+      "concept_type": "operation",
+      "description": "填写搜索条件后点击 Search 按钮提交高级搜索；本页无提交端点证据（页面 GET 加载）。",
+      "page_refs": [
+        "004_catalogsearch_advanced"
+      ],
+      "evidence_refs": [
+        "page.aria.yml:button:Search"
+      ]
+    },
+    {
+      "canonical_name": "联系请求-提交",
+      "concept_type": "operation",
+      "description": "填写 Write Us 表单后点击 Submit 提交联系请求的动作。",
+      "page_refs": [
+        "007_contact"
+      ],
+      "evidence_refs": [
+        "page.aria.yml:button:Submit"
+      ]
+    },
+    {
+      "canonical_name": "新闻订阅-订阅",
+      "concept_type": "operation",
+      "description": "输入邮箱后点击 Subscribe 完成新闻订阅的动作。",
+      "page_refs": [
+        "007_contact"
+      ],
+      "evidence_refs": [
+        "page.aria.yml:button:Subscribe"
+      ]
+    },
+    {
+      "canonical_name": "商品评论-查询",
+      "concept_type": "operation",
+      "description": "通过评论列表接口加载商品评论（/review/product/listAjax/id/37409/）的动作。",
+      "page_refs": [
+        "008_cooloo-cell-phone-stand-2-pack-mobile-phone-anti-skid-holder",
+        "019_multi-accessory-hub-adapter-by-joby-get-the-right-set-up-for",
+        "022_q-mixers-premium-ginger-ale-real-ingredients-less-sweet-6-7-"
+      ],
+      "evidence_refs": [
+        "page.aria.yml:tab:Reviews (12)",
+        "page.aria.yml:link:12 Reviews"
+      ],
+      "api_refs": [
+        "E010"
+      ]
+    },
+    {
+      "canonical_name": "客户账户-登录提交",
+      "concept_type": "operation",
+      "description": "在 Registered Customers 表单中输入邮箱与密码并点击 Sign In 提交登录。",
+      "page_refs": [
+        "009_customer_account_login"
+      ],
+      "evidence_refs": [
+        "page.aria.yml:button:Sign In",
+        "page.aria.yml:heading:Registered Customers"
+      ]
+    },
+    {
+      "canonical_name": "客户账户-会话加载",
+      "concept_type": "operation",
+      "description": "通过 /customer/section/load/ 接口加载客户会话区块（wishlist、messages）的动作。",
+      "page_refs": [
+        "009_customer_account_login"
+      ],
+      "evidence_refs": [
+        "page.aria.yml:link:My Wish List"
+      ],
+      "api_refs": [
+        "E021"
+      ]
+    },
+    {
+      "canonical_name": "客户账户-注册",
+      "concept_type": "operation",
+      "description": "通过 Create an Account 链接跳转至客户注册页创建账户的动作。",
+      "page_refs": [
+        "009_customer_account_login"
+      ],
+      "evidence_refs": [
+        "page.aria.yml:link:Create an Account"
+      ]
+    },
+    {
+      "canonical_name": "客户账户-忘记密码",
+      "concept_type": "operation",
+      "description": "通过 Forgot Your Password? 链接跳转至找回密码页的动作。",
+      "page_refs": [
+        "009_customer_account_login"
+      ],
+      "evidence_refs": [
+        "page.aria.yml:link:Forgot Your Password?"
+      ]
+    },
+    {
+      "canonical_name": "商品比较清单-比较",
+      "concept_type": "operation",
+      "description": "点击 Compare 进入商品比较页对清单内商品进行比较。",
+      "page_refs": [
+        "010_dp_B004U429AQ_ref_emc_b_5_i",
+        "011_electronics_html",
+        "014_health-household_html",
+        "016_home-kitchen_html",
+        "020_patio-lawn-garden_html",
+        "023_sports-outdoors_html",
+        "024_video-games_html"
+      ],
+      "evidence_refs": [
+        "page.aria.yml:link:Compare"
+      ]
+    },
+    {
+      "canonical_name": "商品比较清单-移除商品",
+      "concept_type": "operation",
+      "description": "点击 Remove This Item 从比较清单中移除单个商品。",
+      "page_refs": [
+        "010_dp_B004U429AQ_ref_emc_b_5_i",
+        "011_electronics_html",
+        "014_health-household_html",
+        "016_home-kitchen_html",
+        "020_patio-lawn-garden_html",
+        "023_sports-outdoors_html",
+        "024_video-games_html"
+      ],
+      "evidence_refs": [
+        "page.aria.yml:link:Remove This Item"
+      ]
+    },
+    {
+      "canonical_name": "购物车-会话加载",
+      "concept_type": "operation",
+      "description": "加购后通过 /customer/section/load/ 加载购物车会话区块（cart、directory-data、messages）的动作。",
+      "page_refs": [
+        "011_electronics_html",
+        "016_home-kitchen_html",
+        "020_patio-lawn-garden_html"
+      ],
+      "evidence_refs": [
+        "page.aria.yml:link:My Cart"
+      ],
+      "api_refs": [
+        "E013",
+        "E021"
+      ]
+    },
+    {
+      "canonical_name": "客户会话-加载",
+      "concept_type": "operation",
+      "description": "通过 /customer/section/load/ 加载客户会话区块（messages）的动作。",
+      "page_refs": [
+        "012_energizer-max-c-batteries-premium-alkaline-c-cell-batteries-"
+      ],
+      "evidence_refs": [
+        "page.aria.yml:alert:The product's required option(s) weren't entered"
+      ],
+      "api_refs": [
+        "E010"
+      ]
+    },
+    {
+      "canonical_name": "商品评论-写评论",
+      "concept_type": "operation",
+      "description": "点击 Add Your Review 进入评论表单撰写评论的动作。",
+      "page_refs": [
+        "019_multi-accessory-hub-adapter-by-joby-get-the-right-set-up-for",
+        "022_q-mixers-premium-ginger-ale-real-ingredients-less-sweet-6-7-"
+      ],
+      "evidence_refs": [
+        "page.aria.yml:link:Add Your Review"
+      ]
+    },
+    {
+      "canonical_name": "商品比较清单-会话加载",
+      "concept_type": "operation",
+      "description": "加入比较后通过 /customer/section/load/ 加载比较清单会话区块（compare-products、messages）的动作。",
+      "page_refs": [
+        "022_q-mixers-premium-ginger-ale-real-ingredients-less-sweet-6-7-"
+      ],
+      "evidence_refs": [
+        "page.aria.yml:alert:You added product"
+      ],
+      "api_refs": [
+        "E023"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,262 @@
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e5]:
+        - list [ref=e6]:
+          - listitem [ref=e7]:
+            - link "My Account" [ref=e8] [cursor=pointer]:
+              - /url: http://127.0.0.1:7770/customer/account/
+          - listitem [ref=e9]:
+            - link "My Wish List" [ref=e10] [cursor=pointer]:
+              - /url: http://127.0.0.1:7770/wishlist/
+          - listitem [ref=e11]:
+            - link "Sign In" [ref=e12] [cursor=pointer]:
+              - /url: http://127.0.0.1:7770/customer/account/login/
+          - listitem [ref=e13]:
+            - link "Compare Products 4 items" [ref=e14] [cursor=pointer]:
+              - /url: http://127.0.0.1:7770/catalog/product_compare/index/uenc/aHR0cDovLzEyNy4wLjAuMTo3NzcwL2N1c3RvbWVyL3NlY3Rpb24vbG9hZC8_c2VjdGlvbnM9Y29tcGFyZS1wcm9kdWN0cyUyQ21lc3NhZ2VzJmZvcmNlX25ld19zZWN0aW9uX3RpbWVzdGFtcD1mYWxzZSZfPTE3OTA1NjM2NzEwODM~/
+          - listitem [ref=e15]: Welcome to One Stop Market
+          - listitem [ref=e16]:
+            - link "Create an Account" [ref=e17] [cursor=pointer]:
+              - /url: http://127.0.0.1:7770/customer/account/create/
+        - link "Skip to Content" [ref=e18] [cursor=pointer]:
+          - /url: "#contentarea"
+      - generic [ref=e19]:
+        - text: 
+        - link "store logo" [ref=e20] [cursor=pointer]:
+          - /url: http://127.0.0.1:7770/
+          - img "one_stop_market_logo" [ref=e21]
+        - generic [ref=e22]:
+          - link " My Cart 3 3 items" [ref=e23] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/checkout/cart/
+            - text: 
+            - generic [ref=e24]: My Cart
+            - generic [ref=e25]:
+              - generic [ref=e26]: "3"
+              - generic [ref=e27]: 3 items
+          - text: " : :   :   :  "
+        - generic [ref=e30]:
+          - generic [ref=e31]:
+            - generic [ref=e32]:
+              - text: 
+              - generic [ref=e33]: Search
+            - generic [ref=e34]:
+              - combobox " Search" [ref=e35]
+              - link "Advanced Search" [ref=e37] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/catalogsearch/advanced/
+          - generic:
+            - button "Search" [disabled]:
+              - text: 
+              - generic: Search
+    - tablist [ref=e39]:
+      - tabpanel [ref=e40]:
+        - navigation [ref=e41]:
+          - menu [ref=e42]:
+            - listitem [ref=e43]:
+              - menuitem " Beauty & Personal Care" [ref=e44] [cursor=pointer]:
+                - generic [ref=e45]: 
+                - text: Beauty & Personal Care
+              - text:          
+            - listitem [ref=e46]:
+              - menuitem " Sports & Outdoors" [ref=e47] [cursor=pointer]:
+                - generic [ref=e48]: 
+                - text: Sports & Outdoors
+              - text:   
+            - listitem [ref=e49]:
+              - menuitem " Clothing, Shoes & Jewelry" [ref=e50] [cursor=pointer]:
+                - generic [ref=e51]: 
+                - text: Clothing, Shoes & Jewelry
+              - text:    
+            - listitem [ref=e52]:
+              - menuitem " Home & Kitchen" [ref=e53] [cursor=pointer]:
+                - generic [ref=e54]: 
+                - text: Home & Kitchen
+              - text:       
+            - listitem [ref=e55]:
+              - menuitem " Office Products" [ref=e56] [cursor=pointer]:
+                - generic [ref=e57]: 
+                - text: Office Products
+              - text:   
+            - listitem [ref=e58]:
+              - menuitem " Tools & Home Improvement" [ref=e59] [cursor=pointer]:
+                - generic [ref=e60]: 
+                - text: Tools & Home Improvement
+              - text: 
+            - listitem [ref=e61]:
+              - menuitem " Health & Household" [ref=e62] [cursor=pointer]:
+                - generic [ref=e63]: 
+                - text: Health & Household
+              - text:  
+            - listitem [ref=e64]:
+              - menuitem " Patio, Lawn & Garden" [ref=e65] [cursor=pointer]:
+                - generic [ref=e66]: 
+                - text: Patio, Lawn & Garden
+              - text: 
+            - listitem [ref=e67]:
+              - menuitem " Electronics" [ref=e68] [cursor=pointer]:
+                - generic [ref=e69]: 
+                - text: Electronics
+              - text:            
+            - listitem [ref=e70]:
+              - menuitem " Cell Phones & Accessories" [ref=e71] [cursor=pointer]:
+                - generic [ref=e72]: 
+                - text: Cell Phones & Accessories
+              - text:  
+            - listitem [ref=e73]:
+              - menuitem " Video Games" [ref=e74] [cursor=pointer]:
+                - generic [ref=e75]: 
+                - text: Video Games
+              - text:    
+            - listitem [ref=e76]:
+              - menuitem " Grocery & Gourmet Food" [ref=e77] [cursor=pointer]:
+                - generic [ref=e78]: 
+                - text: Grocery & Gourmet Food
+              - text:             
+    - list [ref=e80]:
+      - listitem [ref=e81]:
+        - link "Home" [ref=e82] [cursor=pointer]:
+          - /url: http://127.0.0.1:7770/
+        - text: 
+      - listitem [ref=e83]:
+        - strong [ref=e84]: ZOSI H.265+ PoE Home Security Camera System Outdoor Indoor,8-Channel 5MP PoE NVR Recorder,4pcs Wired 2MP 1080p Surveillance Bullet PoE IP Cameras, No Hard Drive (Renewed)
+    - main [ref=e85]:
+      - heading "ZOSI H.265+ PoE Home Security Camera System Outdoor Indoor,8-Channel 5MP PoE NVR Recorder,4pcs Wired 2MP 1080p Surveillance Bullet PoE IP Cameras, No Hard Drive (Renewed)" [level=1] [ref=e87]
+      - generic [ref=e89]:
+        - generic [ref=e90]:
+          - generic [ref=e91]:
+            - generic [ref=e92]:
+              - generic "Availability" [ref=e93]: In stock
+              - generic [ref=e94]:
+                - strong [ref=e95]: SKU
+                - generic [ref=e96]: B07V4D5CTJ
+            - link "Be the first to review this product" [ref=e99] [cursor=pointer]:
+              - /url: http://127.0.0.1:7770/zosi-h-265-poe-home-security-camera-system-outdoor-indoor-8-channel-5mp-poe-nvr-recorder-4pcs-wired-2mp-1080p-surveillance-bullet-poe-ip-cameras-no-hard-drive-renewed.html#review-form
+            - generic [ref=e102]: $169.99
+          - generic [ref=e106]:
+            - generic [ref=e107]:
+              - generic [ref=e108]: Qty
+              - spinbutton "Qty" [ref=e110]: "1"
+            - button "Add to Cart" [ref=e112] [cursor=pointer]
+          - generic [ref=e114]:
+            - link "Add to Wish List" [ref=e115] [cursor=pointer]:
+              - /url: "#"
+            - link "Add to Compare" [ref=e116] [cursor=pointer]:
+              - /url: "#"
+        - generic:
+          - link "Skip to the end of the images gallery" [ref=e118] [cursor=pointer]:
+            - /url: "#gallery-next-area"
+          - link "Skip to the beginning of the images gallery" [ref=e140] [cursor=pointer]:
+            - /url: "#gallery-prev-area"
+        - tablist [ref=e142]:
+          - tab "Details" [expanded] [ref=e143]:
+            - link "Details" [ref=e144] [cursor=pointer]:
+              - /url: "#description"
+          - tabpanel "Details" [ref=e145]:
+            - generic [ref=e147]:
+              - generic [ref=e149]:
+                - separator [ref=e150]
+                - heading "Product Description" [level=2] [ref=e151]
+                - generic [ref=e152]:
+                  - img "8EN-2612W4S-00-01" [ref=e155]
+                  - img "8EN-2612W4S-00-02" [ref=e158]
+                  - img "8EN-2612W4S-00-03" [ref=e161]
+                  - img "8EN-2612W4S-00-04" [ref=e164]
+                  - table [ref=e170]:
+                    - rowgroup [ref=e171]:
+                      - row "8EN-2612W4S-00-05 8EN-2612W4S-00-06 8EN-2612W4S-00-07" [ref=e172]:
+                        - columnheader "8EN-2612W4S-00-05" [ref=e173]:
+                          - paragraph [ref=e175]:
+                            - img "8EN-2612W4S-00-05" [ref=e176]
+                        - columnheader "8EN-2612W4S-00-06" [ref=e177]:
+                          - paragraph [ref=e179]:
+                            - img "8EN-2612W4S-00-06" [ref=e180]
+                        - columnheader "8EN-2612W4S-00-07" [ref=e181]:
+                          - paragraph [ref=e183]:
+                            - img "8EN-2612W4S-00-07" [ref=e184]
+                      - row [ref=e185]:
+                        - 'cell "Local View & Remote View Local Viewing: No Network needed, just connect the system to a monitor via HDMI / VGA port and enjoy multiple-cam views on one screen. Remote Viewing: Connect the internet to the DVR . Download the ZOSI Smart app on your smartphone, Or download the AVSS PC client on PC. With remote app, you can view feeds live, receive push notifications and watch any previously recorded footage. You’ll never miss any moment, no matter where you are." [ref=e186]':
+                          - generic [ref=e187]:
+                            - heading "Local View & Remote View" [level=4] [ref=e188]
+                            - paragraph [ref=e189]: "Local Viewing: No Network needed, just connect the system to a monitor via HDMI / VGA port and enjoy multiple-cam views on one screen."
+                            - paragraph [ref=e190]: "Remote Viewing: Connect the internet to the DVR . Download the ZOSI Smart app on your smartphone, Or download the AVSS PC client on PC."
+                            - paragraph [ref=e191]: With remote app, you can view feeds live, receive push notifications and watch any previously recorded footage. You’ll never miss any moment, no matter where you are.
+                        - cell "H.265+ Compression Technology H.265+ technology saves about 60% to 90% storage space compared with H.265 standard without any loss of image quality. How does H.265+ dominate? At the same bandwidth, H.265+ deliver sharper and smoother video streaming, without buffering and latency. Significantly reduce video size and save storage space. Relieve network loading pressure, a stable security system is always ensured." [ref=e192]:
+                          - generic [ref=e193]:
+                            - heading "H.265+ Compression Technology" [level=4] [ref=e194]
+                            - paragraph [ref=e195]: H.265+ technology saves about 60% to 90% storage space compared with H.265 standard without any loss of image quality.
+                            - paragraph [ref=e196]: How does H.265+ dominate? At the same bandwidth, H.265+ deliver sharper and smoother video streaming, without buffering and latency.
+                            - paragraph
+                            - list [ref=e197]:
+                              - listitem [ref=e198]: Significantly reduce video size and save storage space.
+                              - listitem [ref=e199]: Relieve network loading pressure, a stable security system is always ensured.
+                            - paragraph
+                        - 'cell "Optional Recording Mode Continuous Record: Your DVR will continuously record regardless of what is Happening. Schedule Record: The schedule is presented as a 24-hour 7 days a week grid and is color coded to represent the event type. Motion Detection Record: Your DVR will only record when motion is detected. It could help to record more time. Recycle Record: This option allows your DVR to overwrite the oldest video files on the hard drive." [ref=e200]':
+                          - generic [ref=e201]:
+                            - heading "Optional Recording Mode" [level=4] [ref=e202]
+                            - paragraph [ref=e203]: "Continuous Record: Your DVR will continuously record regardless of what is Happening."
+                            - paragraph [ref=e204]: "Schedule Record: The schedule is presented as a 24-hour 7 days a week grid and is color coded to represent the event type."
+                            - paragraph [ref=e205]: "Motion Detection Record: Your DVR will only record when motion is detected. It could help to record more time."
+                            - paragraph [ref=e206]: "Recycle Record: This option allows your DVR to overwrite the oldest video files on the hard drive."
+                  - img "8EN-2612W4S-00-08" [ref=e209]
+                  - img "8EN-2612W4S-00-09" [ref=e212]
+              - generic [ref=e213]:
+                - heading "Product Quick Look" [level=2] [ref=e214]
+                - generic [ref=e215]:
+                  - list [ref=e217]:
+                    - listitem [ref=e218]: This Certified Refurbished product is tested and certified to look and work like new. The refurbishing process includes functionality testing, basic cleaning, inspection, and repackaging. The product ships with all relevant accessories, a minimum 90-day warranty, and may arrive in a generic box. Only select sellers who maintain a high-performance bar may offer Certified Refurbished products on Amazon.com.
+                    - listitem [ref=e219]: 【Plug & Play Simplify PoE installation】 power over Ethernet means the IP cameras connect to the NVR with a single cable that transmits both data and power, no need to connect power cable, lower risk of electric leakage and easy to set up. This literally simplified the installation and reduced costs.
+                    - listitem [ref=e220]: 【Stable & Lossless Video Quality】Unlike CCTV DVR system, videos from the IP camera system will not be degraded or destroyed by cables. The digital signal will keep real 2mp high definition image via 300ft CAT6 ethernet cables. You will have no worry about the coaxial cable quality for DVR and analog cameras that will affect much on its image, even within 100ft.
+                    - listitem [ref=e221]: 【5MP NVR & Expandable PoE Security camera system】-This is 8Channel 5MP NVR Recorder, It provides you the flexibility to extend additional cameras. You can add more 4pcs 1080P or 5MP Bullet or Dome PoE Cameras.
+                    - listitem [ref=e222]: 【No Include Hard Drive】--This system does not come with hard drive. Assembling a 3.5 inch SATA 500GB to 2TB hard drive is necessary. DVR can be set to automatically overwrite the oldest internally stored footage or you can transfer those video files by USB to a memory stick or external hard drive.
+                  - table [ref=e224]:
+                    - rowgroup [ref=e225]:
+                      - row "Date First Available July 10, 2019" [ref=e226]:
+                        - rowheader "Date First Available" [ref=e227]
+                        - cell "July 10, 2019" [ref=e228]
+                      - row "Manufacturer ZOSI" [ref=e229]:
+                        - rowheader "Manufacturer" [ref=e230]
+                        - cell "ZOSI" [ref=e231]
+          - tab "Reviews" [ref=e232]:
+            - link "Reviews" [ref=e233] [cursor=pointer]:
+              - /url: "#reviews"
+          - text: "*       * * *"
+    - contentinfo [ref=e234]:
+      - generic [ref=e235]:
+        - generic [ref=e238]:
+          - generic [ref=e240]:
+            - text: 
+            - generic [ref=e241]:
+              - generic [ref=e242]: "Sign Up for Our Newsletter:"
+              - textbox "Sign Up for Our Newsletter:" [ref=e243]:
+                - /placeholder: Enter your email address
+          - button "Subscribe" [ref=e245] [cursor=pointer]
+        - list [ref=e246]:
+          - listitem [ref=e247]:
+            - link "Privacy and Cookie Policy" [ref=e248] [cursor=pointer]:
+              - /url: http://127.0.0.1:7770/privacy-policy-cookie-restriction-mode/
+          - listitem [ref=e249]:
+            - link "Search Terms" [ref=e250] [cursor=pointer]:
+              - /url: http://127.0.0.1:7770/search/term/popular/
+          - listitem [ref=e251]:
+            - link "Advanced Search" [ref=e252] [cursor=pointer]:
+              - /url: http://127.0.0.1:7770/catalogsearch/advanced/
+          - listitem [ref=e253]:
+            - link "Orders and Returns" [ref=e254] [cursor=pointer]:
+              - /url: http://127.0.0.1:7770/sales/guest/form/
+          - listitem [ref=e255]:
+            - link "Contact Us" [ref=e256] [cursor=pointer]:
+              - /url: http://127.0.0.1:7770/contact/
+        - generic [ref=e257]: Copyright © 2013-present Magento, Inc. All rights reserved.
+        - generic [ref=e258]:
+          - text: Help Us Keep Magento Healthy
+          - link "Report All Bugs" [ref=e259] [cursor=pointer]:
+            - /url: http://www.magentocommerce.com/bug-tracking
+  - generic [ref=e121]:
+    - generic [ref=e122]:
+      - button "Exit fullscreen" [active] [ref=e299] [cursor=pointer]
+      - img "Image" [ref=e300]
+    - generic [ref=e132]:
+      - button "Image" [ref=e134]:
+        - img "Image" [ref=e136]
+      - button "Image" [ref=e137]:
+        - img "Image" [ref=e139]

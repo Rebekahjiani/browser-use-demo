@@ -1,0 +1,206 @@
+{
+  "context_model": "shopping",
+  "trace_root": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260928-160723-422670",
+  "generated_at": "2026-09-28T17:33:00+08:00",
+  "entities": [
+    {
+      "id": "entity_product",
+      "name": "商品",
+      "type": "business_entity",
+      "description": "商店中可浏览、展示与售卖的商品对象；在首页商品网格、分类页列表、商品详情页中出现。",
+      "attributes": [
+        {"name": "商品名称", "source": "page"},
+        {"name": "SKU", "source": "page"},
+        {"name": "价格", "source": "page"},
+        {"name": "Rating", "source": "page"},
+        {"name": "Reviews", "source": "page"},
+        {"name": "In stock（库存状态）", "source": "page"},
+        {"name": "Qty（数量输入）", "source": "page"},
+        {"name": "分类路径（breadcrumbs）", "source": "page"}
+      ],
+      "page_refs": ["snapshots/00001", "snapshots/00005", "snapshots/00015"],
+      "api_refs": []
+    },
+    {
+      "id": "entity_product_category",
+      "name": "商品分类",
+      "type": "business_entity",
+      "description": "商品的归类与浏览入口；本 trace 中证据为 Beauty & Personal Care 分类页及其 Shop By 子分类、价格区间过滤。",
+      "attributes": [
+        {"name": "分类名称", "source": "page"},
+        {"name": "子分类", "source": "page"},
+        {"name": "商品计数", "source": "page"},
+        {"name": "Price（价格区间）", "source": "page"}
+      ],
+      "page_refs": ["snapshots/00001", "snapshots/00005"],
+      "api_refs": []
+    },
+    {
+      "id": "entity_cart",
+      "name": "购物车",
+      "type": "business_entity",
+      "description": "购物车会话/报价对象，汇总条目与金额；证据为购物车页面 Summary 区与 totals-information API 响应。",
+      "attributes": [
+        {"name": "Subtotal", "source": "page, api"},
+        {"name": "Shipping & Handling", "source": "page, api"},
+        {"name": "Tax", "source": "page, api"},
+        {"name": "Grand Total", "source": "page, api"},
+        {"name": "Estimate Shipping and Tax", "source": "page"},
+        {"name": "shipping_amount（API 字段）", "source": "api"},
+        {"name": "grand_total（API 字段）", "source": "api"},
+        {"name": "subtotal（API 字段）", "source": "api"},
+        {"name": "items_qty（API 字段）", "source": "api"}
+      ],
+      "page_refs": ["snapshots/00021"],
+      "api_refs": [
+        "trace/26_09_28_16_07_27-min/EA89EE44_trace/network.jsonl",
+        "trace/26_09_28_16_07_27-min/EA89EE44_trace/rawbody/1790583535.868_1a8873b3.json"
+      ]
+    },
+    {
+      "id": "entity_cart_item",
+      "name": "购物车条目",
+      "type": "business_entity",
+      "description": "购物车中的单行条目，对应具体商品与数量；证据为购物车表格行与 totals-information 响应 items 数组。",
+      "attributes": [
+        {"name": "Item", "source": "page"},
+        {"name": "Price", "source": "page, api"},
+        {"name": "Qty", "source": "page, api"},
+        {"name": "Subtotal", "source": "page, api"},
+        {"name": "SKU", "source": "page"},
+        {"name": "item_id（API 字段）", "source": "api"},
+        {"name": "row_total（API 字段）", "source": "api"},
+        {"name": "name（API 字段）", "source": "api"}
+      ],
+      "page_refs": ["snapshots/00021"],
+      "api_refs": [
+        "trace/26_09_28_16_07_27-min/EA89EE44_trace/rawbody/1790583535.868_1a8873b3.json"
+      ]
+    }
+  ],
+  "operations": [
+    {
+      "id": "op_product_view",
+      "name": "商品-查看",
+      "belongs_to_entity": "entity_product",
+      "description": "打开商品详情页查看商品信息（名称、SKU、价格、库存、Qty、Details/Reviews）。",
+      "executed": true,
+      "evidence_refs": [
+        "snapshots/00015/metadata.json",
+        "snapshots/00015/page.html",
+        "snapshots/00015/accessibility.json",
+        "snapshots/00016/metadata.json",
+        "snapshots/00017/metadata.json",
+        "actions.jsonl"
+      ],
+      "api_refs": []
+    },
+    {
+      "id": "op_product_query",
+      "name": "商品-查询/浏览列表",
+      "belongs_to_entity": "entity_product",
+      "description": "浏览商品列表（首页 24 条、分类页 21796 条中的分页视图）。",
+      "executed": true,
+      "evidence_refs": [
+        "snapshots/00001/page.html",
+        "snapshots/00001/accessibility.json",
+        "snapshots/00005/page.html",
+        "snapshots/00005/accessibility.json"
+      ],
+      "api_refs": []
+    },
+    {
+      "id": "op_product_search",
+      "name": "商品-搜索",
+      "belongs_to_entity": "entity_product",
+      "description": "搜索商品：首页搜索框与 Advanced Search 表单可见（表单未提交，无搜索结果页）。",
+      "executed": false,
+      "evidence_refs": [
+        "snapshots/00001/page.html",
+        "snapshots/00001/accessibility.json",
+        "snapshots/00018/page.html",
+        "snapshots/00018/accessibility.json"
+      ],
+      "api_refs": []
+    },
+    {
+      "id": "op_product_filter",
+      "name": "商品-筛选",
+      "belongs_to_entity": "entity_product",
+      "description": "分类页 Shop By 区提供 Category/Price 筛选控件（可见，未实际筛选）。",
+      "executed": false,
+      "evidence_refs": [
+        "snapshots/00005/page.html",
+        "snapshots/00005/accessibility.json"
+      ],
+      "api_refs": []
+    },
+    {
+      "id": "op_product_sort",
+      "name": "商品-排序",
+      "belongs_to_entity": "entity_product",
+      "description": "分类页 Sort By 下拉提供 Position/Product Name/Price 排序选项（可见，未实际排序）。",
+      "executed": false,
+      "evidence_refs": [
+        "snapshots/00005/page.html",
+        "snapshots/00005/accessibility.json"
+      ],
+      "api_refs": []
+    },
+    {
+      "id": "op_product_paginate",
+      "name": "商品-分页浏览",
+      "belongs_to_entity": "entity_product",
+      "description": "分类页分页控件（p=2..5）与每页数量 limiter 12/24/36（可见，未实际翻页）。",
+      "executed": false,
+      "evidence_refs": [
+        "snapshots/00005/page.html",
+        "snapshots/00005/accessibility.json"
+      ],
+      "api_refs": []
+    },
+    {
+      "id": "op_cart_view",
+      "name": "购物车-查看",
+      "belongs_to_entity": "entity_cart",
+      "description": "打开购物车页面查看条目与金额汇总（Item/Price/Qty/Subtotal、Summary 区）。",
+      "executed": true,
+      "evidence_refs": [
+        "snapshots/00021/page.html",
+        "snapshots/00021/accessibility.json",
+        "actions.jsonl"
+      ],
+      "api_refs": []
+    },
+    {
+      "id": "op_cart_estimate_shipping",
+      "name": "购物车-运费估算",
+      "belongs_to_entity": "entity_cart",
+      "description": "估算配送方式与运费；购物车页加载时自动 POST estimate-shipping-methods，返回 flatrate/Fixed、amount=20。",
+      "executed": true,
+      "evidence_refs": [
+        "snapshots/00021/page.html",
+        "trace/26_09_28_16_07_27-min/EA89EE44_trace/network.jsonl",
+        "trace/26_09_28_16_07_27-min/EA89EE44_trace/rawbody/1790583533.831_432b1979.json"
+      ],
+      "api_refs": [
+        "http://127.0.0.1:7770/rest/default/V1/guest-carts/F2OJhRqNdo2RX4MTswdYtlmZ0Exwg0Dz/estimate-shipping-methods"
+      ]
+    },
+    {
+      "id": "op_cart_totals",
+      "name": "购物车-金额合计",
+      "belongs_to_entity": "entity_cart",
+      "description": "计算购物车金额合计；购物车页加载时自动 POST totals-information，返回 grand_total/subtotal/shipping/tax 与 items。",
+      "executed": true,
+      "evidence_refs": [
+        "snapshots/00021/page.html",
+        "trace/26_09_28_16_07_27-min/EA89EE44_trace/network.jsonl",
+        "trace/26_09_28_16_07_27-min/EA89EE44_trace/rawbody/1790583535.868_1a8873b3.json"
+      ],
+      "api_refs": [
+        "http://127.0.0.1:7770/rest/default/V1/guest-carts/F2OJhRqNdo2RX4MTswdYtlmZ0Exwg0Dz/totals-information"
+      ]
+    }
+  ]
+}

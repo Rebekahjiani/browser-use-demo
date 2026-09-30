@@ -1,0 +1,185 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "entity-extract page output (concepts.json)",
+  "description": "单页实体抽取产出契约。每页目录 output/concepts.json 必须符合本 schema；collect 用同一份校验。",
+  "type": "object",
+  "required": [
+    "concepts",
+    "relations",
+    "notes"
+  ],
+  "additionalProperties": true,
+  "properties": {
+    "concepts": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/concept"
+      }
+    },
+    "notes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "relations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "source_entity",
+          "predicate",
+          "target_entity",
+          "evidence_refs"
+        ],
+        "properties": {
+          "source_entity": {
+            "type": "string"
+          },
+          "predicate": {
+            "type": "string"
+          },
+          "target_entity": {
+            "type": "string"
+          },
+          "evidence_refs": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "definitions": {
+    "concept": {
+      "type": "object",
+      "required": [
+        "canonical_name",
+        "concept_type",
+        "description",
+        "evidence_refs",
+        "api_refs"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "canonical_name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "concept_type": {
+          "type": "string",
+          "enum": [
+            "business_entity",
+            "operation"
+          ],
+          "description": "两类：business_entity（名词，可持久化对象）/ operation（动词，对实体的原子动作）。导航/菜单不是概念"
+        },
+        "description": {
+          "type": "string",
+          "minLength": 1
+        },
+        "aliases": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "attributes": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/attribute"
+          }
+        },
+        "evidence_refs": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "belongs_to_entity": {
+          "type": "string",
+          "description": "operation 必填：所属实体的 canonical_name（同页或全局已抽实体，如'资产报废单'）。与 canonical_name 的'实体名-动词'约定二选一，优先写字段"
+        },
+        "api_refs": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "数据/行为的接口来源：该页 endpoints.jsonl 里存在的 E###。GET 数据加载也算；字典/配置接口不算。entity 与 operation 都写"
+        },
+        "page_refs": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "实体呈现于哪些页：entity 专写，值=本页目录名（INDEX.json 的 dir）。operation 不写"
+        },
+        "observation_level": {
+          "enum": [
+            "visible_control"
+          ]
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "concept_type": {
+                "const": "operation"
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "belongs_to_entity",
+              "observation_level"
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "concept_type": {
+                "const": "business_entity"
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "attributes",
+              "page_refs"
+            ]
+          }
+        }
+      ]
+    },
+    "attribute": {
+      "type": "object",
+      "required": [
+        "name",
+        "source_refs"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "note": {
+          "type": "string"
+        },
+        "source_refs": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

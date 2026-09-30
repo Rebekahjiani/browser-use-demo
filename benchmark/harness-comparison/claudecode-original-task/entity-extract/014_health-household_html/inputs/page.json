@@ -1,0 +1,32 @@
+{
+  "url": "http://127.0.0.1:7770/health-household.html",
+  "title": "Health & Household",
+  "route": "/health-household.html",
+  "captured_from": "drive",
+  "sources": {
+    "aria_source": "..\\drive\\screenshots\\020_health-household_html\\aria.yml",
+    "catalog": "<runDir>/evidence_catalog.json",
+    "evidence_ids": [
+      "trace:api_candidate:line10043",
+      "trace:api_candidate:line10091",
+      "trace:api_candidate:line10092",
+      "trace:api_candidate:line10093",
+      "trace:api_candidate:line10094",
+      "trace:api_candidate:line10096",
+      "trace:api_candidate:line10097",
+      "trace:api_candidate:line10098",
+      "trace:api_candidate:line10099",
+      "trace:api_candidate:line10100",
+      "trace:api_candidate:line10107",
+      "trace:api_candidate:line10326",
+      "trace:api_candidate:line10378",
+      "trace:api_candidate:line10389",
+      "trace:api_candidate:line10390",
+      "trace:api_candidate:line10391",
+      "trace:api_candidate:line10449",
+      "trace:api_candidate:line10802",
+      "trace:api_candidate:line10805"
+    ]
+  },
+  "tree_format": "aria_yml"
+}

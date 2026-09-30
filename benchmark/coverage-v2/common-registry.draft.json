@@ -1,0 +1,1334 @@
+{
+  "status": "draft_not_frozen_not_a_scoring_denominator",
+  "scope": "Shopping guest catalog/search/cart; independently verified site-wide denominator still pending",
+  "provenance": "DB candidates plus post-hoc trace-derived field candidates; not an independent site inventory",
+  "db_reference": "C:\\Users\\bulin\\.crabvisor_data\\sandboxes\\sb_d5c9d813\\workspace\\appweave\\eval\\ground-truth\\shopping.expected-cm.json",
+  "facts": [
+    {
+      "id": "product",
+      "kind": "entity",
+      "page_types": [
+        "product_detail"
+      ],
+      "clauses": [
+        {
+          "name_regex": ".+",
+          "roles": [
+            "heading"
+          ]
+        }
+      ],
+      "db_mapping": {
+        "entity": "catalog_product"
+      },
+      "independent_site_verification": "pending",
+      "precondition": "guest",
+      "note": ""
+    },
+    {
+      "id": "category",
+      "kind": "entity",
+      "page_types": [
+        "category_list"
+      ],
+      "clauses": [
+        {
+          "name_regex": "Items.*of",
+          "roles": [
+            "heading"
+          ]
+        }
+      ],
+      "db_mapping": {
+        "entity": "catalog_category"
+      },
+      "independent_site_verification": "pending",
+      "precondition": "guest",
+      "note": ""
+    },
+    {
+      "id": "cart",
+      "kind": "entity",
+      "page_types": null,
+      "clauses": [
+        {
+          "name_regex": "My Cart|Shopping Cart",
+          "roles": [
+            "link",
+            "heading"
+          ]
+        }
+      ],
+      "db_mapping": {
+        "entity": "quote"
+      },
+      "independent_site_verification": "pending",
+      "precondition": "guest",
+      "note": ""
+    },
+    {
+      "id": "cart_item",
+      "kind": "entity",
+      "page_types": [
+        "cart"
+      ],
+      "clauses": [
+        {
+          "name_regex": "Qty|Quantity",
+          "roles": [
+            "spinbutton",
+            "textbox",
+            "columnheader"
+          ]
+        },
+        {
+          "name_regex": "Subtotal",
+          "roles": [
+            "columnheader"
+          ]
+        }
+      ],
+      "db_mapping": {
+        "entity": "quote_item"
+      },
+      "independent_site_verification": "pending",
+      "precondition": "guest cart containing an item",
+      "note": ""
+    },
+    {
+      "id": "product.name",
+      "kind": "attribute",
+      "page_types": [
+        "product_detail"
+      ],
+      "clauses": [
+        {
+          "name_regex": "^.+",
+          "roles": [
+            "heading"
+          ]
+        }
+      ],
+      "db_mapping": {
+        "entity": "catalog_product",
+        "field": "name",
+        "status": "code_match_mapping_needs_verification"
+      },
+      "independent_site_verification": "pending",
+      "precondition": "guest; browse permitted",
+      "note": ""
+    },
+    {
+      "id": "product.sku",
+      "kind": "attribute",
+      "page_types": [
+        "product_detail"
+      ],
+      "clauses": [
+        {
+          "name_regex": "^SKU$",
+          "roles": [
+            "StaticText",
+            "strong"
+          ]
+        }
+      ],
+      "db_mapping": {
+        "entity": "catalog_product",
+        "field": "sku",
+        "status": "code_match_mapping_needs_verification"
+      },
+      "independent_site_verification": "pending",
+      "precondition": "guest; browse permitted",
+      "note": ""
+    },
+    {
+      "id": "product.price",
+      "kind": "attribute",
+      "page_types": [
+        "product_detail"
+      ],
+      "clauses": [
+        {
+          "name_regex": "^\\$[\\d,.]+$",
+          "roles": [
+            "StaticText",
+            "generic"
+          ]
+        }
+      ],
+      "db_mapping": {
+        "entity": "catalog_product",
+        "field": "price",
+        "status": "code_match_mapping_needs_verification"
+      },
+      "independent_site_verification": "pending",
+      "precondition": "guest; browse permitted",
+      "note": ""
+    },
+    {
+      "id": "product.rating",
+      "kind": "attribute",
+      "page_types": [
+        "product_detail",
+        "category_list",
+        "home"
+      ],
+      "clauses": [
+        {
+          "name_regex": "^Rating:$",
+          "roles": null
+        }
+      ],
+      "db_mapping": null,
+      "independent_site_verification": "pending",
+      "precondition": "guest; browse permitted",
+      "note": "UI-derived or embedded product detail; exact DB mapping unverified"
+    },
+    {
+      "id": "product.review_count",
+      "kind": "attribute",
+      "page_types": [
+        "product_detail",
+        "category_list",
+        "home"
+      ],
+      "clauses": [
+        {
+          "name_regex": "\\d+\\s+Reviews?",
+          "roles": [
+            "link"
+          ]
+        }
+      ],
+      "db_mapping": null,
+      "independent_site_verification": "pending",
+      "precondition": "guest; browse permitted",
+      "note": "UI-derived or embedded product detail; exact DB mapping unverified"
+    },
+    {
+      "id": "product.availability",
+      "kind": "attribute",
+      "page_types": [
+        "product_detail"
+      ],
+      "clauses": [
+        {
+          "name_regex": "^(In stock|Out of stock)$",
+          "roles": null
+        }
+      ],
+      "db_mapping": null,
+      "independent_site_verification": "pending",
+      "precondition": "guest; browse permitted",
+      "note": "UI-derived or embedded product detail; exact DB mapping unverified"
+    },
+    {
+      "id": "product.image",
+      "kind": "attribute",
+      "page_types": [
+        "product_detail"
+      ],
+      "clauses": [
+        {
+          "name_regex": "^Image$",
+          "roles": [
+            "image",
+            "img"
+          ]
+        }
+      ],
+      "db_mapping": {
+        "entity": "catalog_product",
+        "field": "image",
+        "status": "code_match_mapping_needs_verification"
+      },
+      "independent_site_verification": "pending",
+      "precondition": "guest; browse permitted",
+      "note": ""
+    },
+    {
+      "id": "product.quantity",
+      "kind": "attribute",
+      "page_types": [
+        "product_detail"
+      ],
+      "clauses": [
+        {
+          "name_regex": "^Qty$",
+          "roles": [
+            "spinbutton",
+            "textbox"
+          ]
+        }
+      ],
+      "db_mapping": null,
+      "independent_site_verification": "pending",
+      "precondition": "guest; browse permitted",
+      "note": "UI-derived or embedded product detail; exact DB mapping unverified"
+    },
+    {
+      "id": "product.size",
+      "kind": "attribute",
+      "page_types": [
+        "product_detail"
+      ],
+      "clauses": [
+        {
+          "name_regex": "^Size\\s*\\*?$",
+          "roles": null
+        }
+      ],
+      "db_mapping": null,
+      "independent_site_verification": "pending",
+      "precondition": "guest; browse permitted",
+      "note": "UI-derived or embedded product detail; exact DB mapping unverified"
+    },
+    {
+      "id": "product.color",
+      "kind": "attribute",
+      "page_types": [
+        "product_detail"
+      ],
+      "clauses": [
+        {
+          "name_regex": "^Color\\s*\\*?$",
+          "roles": null
+        }
+      ],
+      "db_mapping": {
+        "entity": "catalog_product",
+        "field": "color",
+        "status": "code_match_mapping_needs_verification"
+      },
+      "independent_site_verification": "pending",
+      "precondition": "guest; browse permitted",
+      "note": ""
+    },
+    {
+      "id": "product.style",
+      "kind": "attribute",
+      "page_types": [
+        "product_detail"
+      ],
+      "clauses": [
+        {
+          "name_regex": "^Style\\s*\\*?$",
+          "roles": null
+        }
+      ],
+      "db_mapping": null,
+      "independent_site_verification": "pending",
+      "precondition": "guest; browse permitted",
+      "note": "UI-derived or embedded product detail; exact DB mapping unverified"
+    },
+    {
+      "id": "product.description",
+      "kind": "attribute",
+      "page_types": [
+        "product_detail"
+      ],
+      "clauses": [
+        {
+          "name_regex": "Product Description|^Details$",
+          "roles": [
+            "heading",
+            "tabpanel"
+          ]
+        }
+      ],
+      "db_mapping": {
+        "entity": "catalog_product",
+        "field": "description",
+        "status": "code_match_mapping_needs_verification"
+      },
+      "independent_site_verification": "pending",
+      "precondition": "guest; browse permitted",
+      "note": ""
+    },
+    {
+      "id": "product.short_description",
+      "kind": "attribute",
+      "page_types": [
+        "advanced_search"
+      ],
+      "clauses": [
+        {
+          "name_regex": "^Short Description$",
+          "roles": [
+            "textbox"
+          ]
+        }
+      ],
+      "db_mapping": {
+        "entity": "catalog_product",
+        "field": "short_description",
+        "status": "code_match_mapping_needs_verification"
+      },
+      "independent_site_verification": "pending",
+      "precondition": "guest; browse permitted",
+      "note": "UI field label only; no assertion of populated value"
+    },
+    {
+      "id": "product.asin",
+      "kind": "attribute",
+      "page_types": [
+        "product_detail"
+      ],
+      "clauses": [
+        {
+          "name_regex": "^ASIN",
+          "roles": [
+            "rowheader"
+          ]
+        }
+      ],
+      "db_mapping": null,
+      "independent_site_verification": "pending",
+      "precondition": "guest; browse permitted",
+      "note": "UI-derived or embedded product detail; exact DB mapping unverified"
+    },
+    {
+      "id": "product.dimensions",
+      "kind": "attribute",
+      "page_types": [
+        "product_detail"
+      ],
+      "clauses": [
+        {
+          "name_regex": "^Product Dimensions",
+          "roles": [
+            "rowheader"
+          ]
+        }
+      ],
+      "db_mapping": null,
+      "independent_site_verification": "pending",
+      "precondition": "guest; browse permitted",
+      "note": "UI-derived or embedded product detail; exact DB mapping unverified"
+    },
+    {
+      "id": "product.upc",
+      "kind": "attribute",
+      "page_types": [
+        "product_detail"
+      ],
+      "clauses": [
+        {
+          "name_regex": "^UPC",
+          "roles": [
+            "rowheader"
+          ]
+        }
+      ],
+      "db_mapping": null,
+      "independent_site_verification": "pending",
+      "precondition": "guest; browse permitted",
+      "note": "UI-derived or embedded product detail; exact DB mapping unverified"
+    },
+    {
+      "id": "product.manufacturer",
+      "kind": "attribute",
+      "page_types": [
+        "product_detail"
+      ],
+      "clauses": [
+        {
+          "name_regex": "^Manufacturer",
+          "roles": [
+            "rowheader"
+          ]
+        }
+      ],
+      "db_mapping": {
+        "entity": "catalog_product",
+        "field": "manufacturer",
+        "status": "code_match_mapping_needs_verification"
+      },
+      "independent_site_verification": "pending",
+      "precondition": "guest; browse permitted",
+      "note": ""
+    },
+    {
+      "id": "product.country_of_origin",
+      "kind": "attribute",
+      "page_types": [
+        "product_detail"
+      ],
+      "clauses": [
+        {
+          "name_regex": "^Country of Origin",
+          "roles": [
+            "rowheader"
+          ]
+        }
+      ],
+      "db_mapping": null,
+      "independent_site_verification": "pending",
+      "precondition": "guest; browse permitted",
+      "note": "UI-derived or embedded product detail; exact DB mapping unverified"
+    },
+    {
+      "id": "product.package_dimensions",
+      "kind": "attribute",
+      "page_types": [
+        "product_detail"
+      ],
+      "clauses": [
+        {
+          "name_regex": "^Package Dimensions",
+          "roles": [
+            "rowheader"
+          ]
+        }
+      ],
+      "db_mapping": null,
+      "independent_site_verification": "pending",
+      "precondition": "guest; browse permitted",
+      "note": "UI-derived or embedded product detail; exact DB mapping unverified"
+    },
+    {
+      "id": "product.item_weight",
+      "kind": "attribute",
+      "page_types": [
+        "product_detail"
+      ],
+      "clauses": [
+        {
+          "name_regex": "^Item Weight",
+          "roles": [
+            "rowheader"
+          ]
+        }
+      ],
+      "db_mapping": null,
+      "independent_site_verification": "pending",
+      "precondition": "guest; browse permitted",
+      "note": "UI-derived or embedded product detail; exact DB mapping unverified"
+    },
+    {
+      "id": "product.model_number",
+      "kind": "attribute",
+      "page_types": [
+        "product_detail"
+      ],
+      "clauses": [
+        {
+          "name_regex": "^Item model number",
+          "roles": [
+            "rowheader"
+          ]
+        }
+      ],
+      "db_mapping": null,
+      "independent_site_verification": "pending",
+      "precondition": "guest; browse permitted",
+      "note": "UI-derived or embedded product detail; exact DB mapping unverified"
+    },
+    {
+      "id": "product.date_first_available",
+      "kind": "attribute",
+      "page_types": [
+        "product_detail"
+      ],
+      "clauses": [
+        {
+          "name_regex": "^Date First Available",
+          "roles": [
+            "rowheader"
+          ]
+        }
+      ],
+      "db_mapping": null,
+      "independent_site_verification": "pending",
+      "precondition": "guest; browse permitted",
+      "note": "UI-derived or embedded product detail; exact DB mapping unverified"
+    },
+    {
+      "id": "product.batteries",
+      "kind": "attribute",
+      "page_types": [
+        "product_detail"
+      ],
+      "clauses": [
+        {
+          "name_regex": "^Batteries",
+          "roles": [
+            "rowheader"
+          ]
+        }
+      ],
+      "db_mapping": null,
+      "independent_site_verification": "pending",
+      "precondition": "guest; browse permitted",
+      "note": "UI-derived or embedded product detail; exact DB mapping unverified"
+    },
+    {
+      "id": "product.discontinued_status",
+      "kind": "attribute",
+      "page_types": [
+        "product_detail"
+      ],
+      "clauses": [
+        {
+          "name_regex": "^Is Discontinued By Manufacturer",
+          "roles": [
+            "rowheader"
+          ]
+        }
+      ],
+      "db_mapping": null,
+      "independent_site_verification": "pending",
+      "precondition": "guest; browse permitted",
+      "note": "UI-derived or embedded product detail; exact DB mapping unverified"
+    },
+    {
+      "id": "product.domestic_shipping",
+      "kind": "attribute",
+      "page_types": [
+        "product_detail"
+      ],
+      "clauses": [
+        {
+          "name_regex": "^Domestic Shipping",
+          "roles": [
+            "rowheader"
+          ]
+        }
+      ],
+      "db_mapping": null,
+      "independent_site_verification": "pending",
+      "precondition": "guest; browse permitted",
+      "note": "UI-derived or embedded product detail; exact DB mapping unverified"
+    },
+    {
+      "id": "product.international_shipping",
+      "kind": "attribute",
+      "page_types": [
+        "product_detail"
+      ],
+      "clauses": [
+        {
+          "name_regex": "^International Shipping",
+          "roles": [
+            "rowheader"
+          ]
+        }
+      ],
+      "db_mapping": null,
+      "independent_site_verification": "pending",
+      "precondition": "guest; browse permitted",
+      "note": "UI-derived or embedded product detail; exact DB mapping unverified"
+    },
+    {
+      "id": "product.department",
+      "kind": "attribute",
+      "page_types": [
+        "product_detail"
+      ],
+      "clauses": [
+        {
+          "name_regex": "^Department",
+          "roles": [
+            "rowheader"
+          ]
+        }
+      ],
+      "db_mapping": null,
+      "independent_site_verification": "pending",
+      "precondition": "guest; browse permitted",
+      "note": "UI-derived or embedded product detail; exact DB mapping unverified"
+    },
+    {
+      "id": "category.name",
+      "kind": "attribute",
+      "page_types": [
+        "category_list"
+      ],
+      "clauses": [
+        {
+          "name_regex": "Items.*of",
+          "roles": [
+            "heading"
+          ]
+        }
+      ],
+      "db_mapping": {
+        "entity": "catalog_category",
+        "field": "name"
+      },
+      "independent_site_verification": "pending",
+      "precondition": "guest; browse permitted",
+      "note": ""
+    },
+    {
+      "id": "category.item_count",
+      "kind": "attribute",
+      "page_types": [
+        "category_list"
+      ],
+      "clauses": [
+        {
+          "name_regex": "Items.*of\\s*\\d+",
+          "roles": null
+        }
+      ],
+      "db_mapping": null,
+      "independent_site_verification": "pending",
+      "precondition": "guest; browse permitted",
+      "note": ""
+    },
+    {
+      "id": "category.subcategories",
+      "kind": "attribute",
+      "page_types": [
+        "category_list"
+      ],
+      "clauses": [
+        {
+          "name_regex": ".+\\(\\s*\\d+\\s*item\\s*\\)",
+          "roles": [
+            "link"
+          ]
+        }
+      ],
+      "db_mapping": null,
+      "independent_site_verification": "pending",
+      "precondition": "guest; browse permitted",
+      "note": ""
+    },
+    {
+      "id": "category.price_range",
+      "kind": "attribute",
+      "page_types": [
+        "category_list"
+      ],
+      "clauses": [
+        {
+          "name_regex": "\\$[\\d,.]+\\s*(-|and above)",
+          "roles": [
+            "link"
+          ]
+        }
+      ],
+      "db_mapping": null,
+      "independent_site_verification": "pending",
+      "precondition": "guest; browse permitted",
+      "note": ""
+    },
+    {
+      "id": "cart.empty_state",
+      "kind": "attribute",
+      "page_types": [
+        "cart"
+      ],
+      "clauses": [
+        {
+          "name_regex": "You have no items in your shopping cart",
+          "roles": null
+        }
+      ],
+      "db_mapping": null,
+      "independent_site_verification": "pending",
+      "precondition": "guest",
+      "note": ""
+    },
+    {
+      "id": "cart.item_count",
+      "kind": "attribute",
+      "page_types": null,
+      "clauses": [
+        {
+          "name_regex": "My Cart\\s+\\d",
+          "roles": [
+            "link"
+          ]
+        }
+      ],
+      "db_mapping": {
+        "entity": "quote",
+        "field": "items_qty",
+        "status": "candidate_mapping_not_verified"
+      },
+      "independent_site_verification": "pending",
+      "precondition": "guest",
+      "note": ""
+    },
+    {
+      "id": "cart.subtotal",
+      "kind": "attribute",
+      "page_types": [
+        "cart"
+      ],
+      "clauses": [
+        {
+          "name_regex": "^Subtotal$",
+          "roles": null
+        }
+      ],
+      "db_mapping": {
+        "entity": "quote",
+        "field": "subtotal",
+        "status": "candidate_mapping_not_verified"
+      },
+      "independent_site_verification": "pending",
+      "precondition": "guest; nonempty cart",
+      "note": ""
+    },
+    {
+      "id": "cart.grand_total",
+      "kind": "attribute",
+      "page_types": [
+        "cart"
+      ],
+      "clauses": [
+        {
+          "name_regex": "Order Total|Grand Total",
+          "roles": null
+        }
+      ],
+      "db_mapping": {
+        "entity": "quote",
+        "field": "grand_total",
+        "status": "candidate_mapping_not_verified"
+      },
+      "independent_site_verification": "pending",
+      "precondition": "guest; nonempty cart",
+      "note": ""
+    },
+    {
+      "id": "cart.coupon_code",
+      "kind": "attribute",
+      "page_types": [
+        "cart"
+      ],
+      "clauses": [
+        {
+          "name_regex": "Discount Code|Coupon",
+          "roles": null
+        }
+      ],
+      "db_mapping": {
+        "entity": "quote",
+        "field": "coupon_code",
+        "status": "candidate_mapping_not_verified"
+      },
+      "independent_site_verification": "pending",
+      "precondition": "guest; nonempty cart",
+      "note": ""
+    },
+    {
+      "id": "cart.shipping_amount",
+      "kind": "attribute",
+      "page_types": [
+        "cart"
+      ],
+      "clauses": [
+        {
+          "name_regex": "Shipping",
+          "roles": null
+        }
+      ],
+      "db_mapping": {
+        "entity": "quote_address",
+        "field": "shipping_amount",
+        "status": "candidate_mapping_not_verified"
+      },
+      "independent_site_verification": "pending",
+      "precondition": "guest; nonempty cart",
+      "note": ""
+    },
+    {
+      "id": "cart_item.name",
+      "kind": "attribute",
+      "page_types": [
+        "cart"
+      ],
+      "clauses": [
+        {
+          "name_regex": "Item",
+          "roles": [
+            "columnheader"
+          ]
+        }
+      ],
+      "db_mapping": {
+        "entity": "quote_item",
+        "field": "name"
+      },
+      "independent_site_verification": "pending",
+      "precondition": "guest; nonempty cart",
+      "note": ""
+    },
+    {
+      "id": "cart_item.price",
+      "kind": "attribute",
+      "page_types": [
+        "cart"
+      ],
+      "clauses": [
+        {
+          "name_regex": "^Price$",
+          "roles": [
+            "columnheader"
+          ]
+        }
+      ],
+      "db_mapping": {
+        "entity": "quote_item",
+        "field": "price"
+      },
+      "independent_site_verification": "pending",
+      "precondition": "guest; nonempty cart",
+      "note": ""
+    },
+    {
+      "id": "cart_item.quantity",
+      "kind": "attribute",
+      "page_types": [
+        "cart"
+      ],
+      "clauses": [
+        {
+          "name_regex": "^Qty$",
+          "roles": [
+            "columnheader",
+            "spinbutton",
+            "textbox"
+          ]
+        }
+      ],
+      "db_mapping": {
+        "entity": "quote_item",
+        "field": "qty"
+      },
+      "independent_site_verification": "pending",
+      "precondition": "guest; nonempty cart",
+      "note": ""
+    },
+    {
+      "id": "cart_item.row_total",
+      "kind": "attribute",
+      "page_types": [
+        "cart"
+      ],
+      "clauses": [
+        {
+          "name_regex": "^Subtotal$",
+          "roles": [
+            "columnheader"
+          ]
+        }
+      ],
+      "db_mapping": {
+        "entity": "quote_item",
+        "field": "row_total"
+      },
+      "independent_site_verification": "pending",
+      "precondition": "guest; nonempty cart",
+      "note": ""
+    },
+    {
+      "id": "search.basic",
+      "kind": "operation_control",
+      "page_types": null,
+      "clauses": [
+        {
+          "name_regex": "Search",
+          "roles": [
+            "combobox"
+          ]
+        }
+      ],
+      "db_mapping": null,
+      "independent_site_verification": "pending",
+      "precondition": "guest",
+      "note": ""
+    },
+    {
+      "id": "search.advanced",
+      "kind": "operation_control",
+      "page_types": [
+        "advanced_search"
+      ],
+      "clauses": [
+        {
+          "name_regex": "^Search$",
+          "roles": [
+            "button"
+          ]
+        }
+      ],
+      "db_mapping": null,
+      "independent_site_verification": "pending",
+      "precondition": "guest",
+      "note": ""
+    },
+    {
+      "id": "catalog.filter",
+      "kind": "operation_control",
+      "page_types": [
+        "category_list"
+      ],
+      "clauses": [
+        {
+          "name_regex": "^Category$",
+          "roles": [
+            "heading"
+          ]
+        }
+      ],
+      "db_mapping": null,
+      "independent_site_verification": "pending",
+      "precondition": "guest",
+      "note": ""
+    },
+    {
+      "id": "catalog.sort",
+      "kind": "operation_control",
+      "page_types": [
+        "category_list"
+      ],
+      "clauses": [
+        {
+          "name_regex": "^Sort By$",
+          "roles": [
+            "combobox"
+          ]
+        }
+      ],
+      "db_mapping": null,
+      "independent_site_verification": "pending",
+      "precondition": "guest",
+      "note": ""
+    },
+    {
+      "id": "catalog.paginate",
+      "kind": "operation_control",
+      "page_types": [
+        "category_list"
+      ],
+      "clauses": [
+        {
+          "name_regex": "Next",
+          "roles": [
+            "link"
+          ]
+        }
+      ],
+      "db_mapping": null,
+      "independent_site_verification": "pending",
+      "precondition": "guest",
+      "note": ""
+    },
+    {
+      "id": "cart.add",
+      "kind": "operation_control",
+      "page_types": [
+        "product_detail",
+        "category_list",
+        "home"
+      ],
+      "clauses": [
+        {
+          "name_regex": "^Add to Cart$",
+          "roles": [
+            "button"
+          ]
+        }
+      ],
+      "db_mapping": null,
+      "independent_site_verification": "pending",
+      "precondition": "guest",
+      "note": ""
+    },
+    {
+      "id": "cart.view",
+      "kind": "operation_control",
+      "page_types": null,
+      "clauses": [
+        {
+          "name_regex": "My Cart",
+          "roles": [
+            "link"
+          ]
+        }
+      ],
+      "db_mapping": null,
+      "independent_site_verification": "pending",
+      "precondition": "guest",
+      "note": ""
+    },
+    {
+      "id": "cart.update",
+      "kind": "operation_control",
+      "page_types": [
+        "cart"
+      ],
+      "clauses": [
+        {
+          "name_regex": "Update Shopping Cart",
+          "roles": [
+            "button"
+          ]
+        }
+      ],
+      "db_mapping": null,
+      "independent_site_verification": "pending",
+      "precondition": "guest; nonempty cart",
+      "note": ""
+    },
+    {
+      "id": "cart.remove",
+      "kind": "operation_control",
+      "page_types": [
+        "cart"
+      ],
+      "clauses": [
+        {
+          "name_regex": "Remove item|Remove This Item",
+          "roles": [
+            "link",
+            "button"
+          ]
+        }
+      ],
+      "db_mapping": null,
+      "independent_site_verification": "pending",
+      "precondition": "guest; nonempty cart",
+      "note": ""
+    },
+    {
+      "id": "category_lists_product",
+      "kind": "relation",
+      "page_types": [
+        "category_list"
+      ],
+      "clauses": [
+        {
+          "name_regex": "Items.*of",
+          "roles": [
+            "heading"
+          ]
+        },
+        {
+          "name_regex": "^Add to Cart$",
+          "roles": [
+            "button"
+          ]
+        }
+      ],
+      "db_mapping": null,
+      "independent_site_verification": "pending",
+      "precondition": "guest; browse permitted",
+      "note": "category heading and product-card action coexist; instance-level ownership not inferred"
+    },
+    {
+      "id": "cart_contains_item",
+      "kind": "relation",
+      "page_types": [
+        "cart"
+      ],
+      "clauses": [
+        {
+          "name_regex": "^Qty$",
+          "roles": [
+            "columnheader"
+          ]
+        },
+        {
+          "name_regex": "^Subtotal$",
+          "roles": [
+            "columnheader"
+          ]
+        }
+      ],
+      "db_mapping": {
+        "table": "quote_item",
+        "join": "quote_id -> quote.entity_id",
+        "status": "candidate; FK not independently checked"
+      },
+      "independent_site_verification": "pending",
+      "precondition": "guest; nonempty cart",
+      "note": ""
+    },
+    {
+      "id": "cart_item_refers_product",
+      "kind": "relation",
+      "page_types": [
+        "cart"
+      ],
+      "clauses": [
+        {
+          "name_regex": "^Qty$",
+          "roles": [
+            "columnheader"
+          ]
+        },
+        {
+          "name_regex": "^Price$",
+          "roles": [
+            "columnheader"
+          ]
+        }
+      ],
+      "db_mapping": {
+        "table": "quote_item",
+        "join": "product_id -> catalog_product.entity_id",
+        "status": "candidate; FK not independently checked"
+      },
+      "independent_site_verification": "pending",
+      "precondition": "guest; nonempty cart",
+      "note": "automatic rule is only a candidate hit; manual cart row/product link confirmation required"
+    },
+    {
+      "id": "cart.empty",
+      "kind": "business_state",
+      "page_types": [
+        "cart"
+      ],
+      "clauses": [
+        {
+          "name_regex": "You have no items in your shopping cart",
+          "roles": null
+        }
+      ],
+      "db_mapping": null,
+      "independent_site_verification": "pending",
+      "precondition": "guest; browse permitted",
+      "note": ""
+    },
+    {
+      "id": "cart.nonempty_header",
+      "kind": "business_state",
+      "page_types": null,
+      "clauses": [
+        {
+          "name_regex": "My Cart\\s+\\d",
+          "roles": [
+            "link"
+          ]
+        }
+      ],
+      "db_mapping": null,
+      "independent_site_verification": "pending",
+      "precondition": "guest; browse permitted",
+      "note": ""
+    },
+    {
+      "id": "cart.nonempty_page",
+      "kind": "business_state",
+      "page_types": [
+        "cart"
+      ],
+      "clauses": [
+        {
+          "name_regex": "^Qty$",
+          "roles": [
+            "columnheader"
+          ]
+        },
+        {
+          "name_regex": "^Subtotal$",
+          "roles": [
+            "columnheader"
+          ]
+        }
+      ],
+      "db_mapping": null,
+      "independent_site_verification": "pending",
+      "precondition": "guest; browse permitted",
+      "note": ""
+    },
+    {
+      "id": "product.required_option_error",
+      "kind": "business_state",
+      "page_types": [
+        "product_detail"
+      ],
+      "clauses": [
+        {
+          "name_regex": "required option\\(s\\).*weren.t entered",
+          "roles": null
+        }
+      ],
+      "db_mapping": null,
+      "independent_site_verification": "pending",
+      "precondition": "guest; browse permitted",
+      "note": ""
+    },
+    {
+      "id": "search.results_nonempty",
+      "kind": "business_state",
+      "page_types": [
+        "search_results"
+      ],
+      "clauses": [
+        {
+          "name_regex": "^Add to Cart$",
+          "roles": [
+            "button"
+          ]
+        }
+      ],
+      "db_mapping": null,
+      "independent_site_verification": "pending",
+      "precondition": "guest; browse permitted",
+      "note": ""
+    },
+    {
+      "id": "search.results_empty",
+      "kind": "business_state",
+      "page_types": [
+        "search_results"
+      ],
+      "clauses": [
+        {
+          "name_regex": "no results|no items|no products",
+          "roles": null
+        }
+      ],
+      "db_mapping": null,
+      "independent_site_verification": "pending",
+      "precondition": "guest; browse permitted",
+      "note": ""
+    }
+  ],
+  "future_targets": [
+    {
+      "id": "catalog.filtered_result",
+      "status": "pending_independent_reachability",
+      "not_in_denominator": true
+    },
+    {
+      "id": "catalog.sorted_result",
+      "status": "pending_independent_reachability",
+      "not_in_denominator": true
+    },
+    {
+      "id": "catalog.next_page",
+      "status": "pending_independent_reachability",
+      "not_in_denominator": true
+    },
+    {
+      "id": "cart.quantity_updated",
+      "status": "pending_independent_reachability",
+      "not_in_denominator": true
+    },
+    {
+      "id": "cart.item_removed",
+      "status": "pending_independent_reachability",
+      "not_in_denominator": true
+    },
+    {
+      "id": "cart.discount_applied",
+      "status": "pending_independent_reachability",
+      "not_in_denominator": true
+    },
+    {
+      "id": "cart.shipping_estimated",
+      "status": "pending_independent_reachability",
+      "not_in_denominator": true
+    }
+  ]
+}

@@ -1,0 +1,172 @@
+{
+  "concepts": [
+    {
+      "canonical_name": "商品",
+      "concept_type": "business_entity",
+      "description": "Q Mixers 姜汁汽水商品详情页展示的商品，含 SKU、库存状态、评分、评论数、价格、数量、成分对比表及 Product Quick Look 信息。",
+      "aliases": [
+        "Product",
+        "product"
+      ],
+      "attributes": [
+        {
+          "name": "名称",
+          "note": "页面标题（heading）/商品名",
+          "source_refs": [
+            "page.aria.yml:heading:Q Mixers Premium Ginger Ale"
+          ]
+        },
+        {
+          "name": "SKU",
+          "note": "SKU 标签（strong）",
+          "source_refs": [
+            "page.aria.yml:strong:SKU"
+          ]
+        },
+        {
+          "name": "Availability",
+          "note": "库存状态（Availability 标签）",
+          "source_refs": [
+            "page.aria.yml:generic:Availability"
+          ]
+        },
+        {
+          "name": "评分",
+          "note": "Rating 百分比标签",
+          "source_refs": [
+            "page.aria.yml:generic:Rating:"
+          ]
+        },
+        {
+          "name": "评论数",
+          "note": "12 Reviews 链接",
+          "source_refs": [
+            "page.aria.yml:link:12 Reviews"
+          ]
+        },
+        {
+          "name": "Price",
+          "note": "商品价格文本",
+          "source_refs": [
+            "page.aria.yml:generic"
+          ]
+        },
+        {
+          "name": "Qty",
+          "note": "数量输入（spinbutton）",
+          "source_refs": [
+            "page.aria.yml:spinbutton:Qty"
+          ]
+        },
+        {
+          "name": "Description",
+          "note": "各商品风味对比表行头",
+          "source_refs": [
+            "page.aria.yml:rowheader:Description"
+          ]
+        },
+        {
+          "name": "Calories (Per 6.7 oz Bottle)",
+          "note": "各商品热量对比表行头",
+          "source_refs": [
+            "page.aria.yml:rowheader:Calories (Per 6.7 oz Bottle)"
+          ]
+        },
+        {
+          "name": "All Natural",
+          "note": "各商品天然成分对比表行头",
+          "source_refs": [
+            "page.aria.yml:rowheader:All Natural"
+          ]
+        },
+        {
+          "name": "Non-GMO",
+          "note": "各商品非转基因对比表行头",
+          "source_refs": [
+            "page.aria.yml:rowheader:Non-GMO"
+          ]
+        },
+        {
+          "name": "Gluten Free",
+          "note": "各商品无麸质对比表行头",
+          "source_refs": [
+            "page.aria.yml:rowheader:Gluten Free"
+          ]
+        },
+        {
+          "name": "Is Discontinued By Manufacturer",
+          "note": "Quick Look 表格行头",
+          "source_refs": [
+            "page.aria.yml:rowheader:Is Discontinued By Manufacturer"
+          ]
+        },
+        {
+          "name": "Package Dimensions",
+          "note": "Quick Look 表格行头",
+          "source_refs": [
+            "page.aria.yml:rowheader:Package Dimensions"
+          ]
+        },
+        {
+          "name": "UPC",
+          "note": "Quick Look 表格行头",
+          "source_refs": [
+            "page.aria.yml:rowheader:UPC"
+          ]
+        },
+        {
+          "name": "Manufacturer",
+          "note": "Quick Look 表格行头",
+          "source_refs": [
+            "page.aria.yml:rowheader:Manufacturer"
+          ]
+        },
+        {
+          "name": "ASIN",
+          "note": "Quick Look 表格行头",
+          "source_refs": [
+            "page.aria.yml:rowheader:ASIN"
+          ]
+        }
+      ],
+      "evidence_refs": [
+        "E021",
+        "E022",
+        "E023"
+      ],
+      "api_refs": [
+        "E022"
+      ],
+      "page_refs": [
+        "022_q-mixers-premium-ginger-ale-real-ingredients-less-sweet-6-7-"
+      ]
+    },
+    {
+      "canonical_name": "商品-加入对比",
+      "concept_type": "operation",
+      "description": "将商品加入对比列表（POST /catalog/product_compare/add/，结果页面出现对比成功提示）。",
+      "belongs_to_entity": "商品",
+      "evidence_refs": [
+        "E021"
+      ],
+      "api_refs": [
+        "E021"
+      ]
+    },
+    {
+      "canonical_name": "商品-查询",
+      "concept_type": "operation",
+      "description": "加载顾客会话数据（GET /customer/section/load/，返回 compare-products 与 messages 区段）。",
+      "belongs_to_entity": "商品",
+      "evidence_refs": [
+        "E023"
+      ],
+      "api_refs": [
+        "E023"
+      ]
+    }
+  ],
+  "notes": [
+    "商品详情页文档 GET（E022 /q-mixers-...html）作为商品实体 api_ref；E023 /customer/section/load/ 计入商品-查询；会话导航端点 E024（/clothing-shoes-jewelry.html）与静态模板端点未计入 api_refs。"
+  ]
+}

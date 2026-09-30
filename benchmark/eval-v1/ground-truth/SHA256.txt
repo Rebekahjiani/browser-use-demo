@@ -1,0 +1,1 @@
+3c27da6b62d6c372feeda2b8580d9beae44a3cce85f18ff07dec4f74010ca9a2  shopping.ui-core.v1.json

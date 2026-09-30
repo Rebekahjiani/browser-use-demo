@@ -1,0 +1,690 @@
+[
+  {
+    "ref": "U00000",
+    "text": "- generic [ref=e2]:"
+  },
+  {
+    "ref": "U00001",
+    "text": "- banner [ref=e3]:"
+  },
+  {
+    "ref": "U00002",
+    "text": "- generic [ref=e5]:"
+  },
+  {
+    "ref": "U00003",
+    "text": "- list [ref=e6]:"
+  },
+  {
+    "ref": "U00004",
+    "text": "- listitem [ref=e7]:"
+  },
+  {
+    "ref": "U00005",
+    "text": "- link \"My Account\" [ref=e8] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00006",
+    "text": "- /url: http://127.0.0.1:7770/customer/account/"
+  },
+  {
+    "ref": "U00007",
+    "text": "- listitem [ref=e9]:"
+  },
+  {
+    "ref": "U00008",
+    "text": "- link \"My Wish List\" [ref=e10] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00009",
+    "text": "- /url: http://127.0.0.1:7770/wishlist/"
+  },
+  {
+    "ref": "U00010",
+    "text": "- listitem [ref=e11]:"
+  },
+  {
+    "ref": "U00011",
+    "text": "- link \"Sign In\" [ref=e12] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00012",
+    "text": "- /url: http://127.0.0.1:7770/customer/account/login/"
+  },
+  {
+    "ref": "U00013",
+    "text": "- listitem [ref=e13]:"
+  },
+  {
+    "ref": "U00014",
+    "text": "- link \"Compare Products 4 items\" [ref=e14] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00015",
+    "text": "- /url: http://127.0.0.1:7770/catalog/product_compare/index/uenc/aHR0cDovLzEyNy4wLjAuMTo3NzcwL2N1c3RvbWVyL3NlY3Rpb24vbG9hZC8_c2VjdGlvbnM9Y29tcGFyZS1wcm9kdWN0cyUyQ21lc3NhZ2VzJmZvcmNlX25ld19zZWN0aW9uX3RpbWVzdGFtcD1mYWxzZSZfPTE3OTA1NjM2NzEwODM~/"
+  },
+  {
+    "ref": "U00016",
+    "text": "- listitem [ref=e15]: Welcome to One Stop Market"
+  },
+  {
+    "ref": "U00017",
+    "text": "- listitem [ref=e16]:"
+  },
+  {
+    "ref": "U00018",
+    "text": "- link \"Create an Account\" [ref=e17] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00019",
+    "text": "- /url: http://127.0.0.1:7770/customer/account/create/"
+  },
+  {
+    "ref": "U00020",
+    "text": "- link \"Skip to Content\" [ref=e18] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00021",
+    "text": "- /url: \"#contentarea\""
+  },
+  {
+    "ref": "U00022",
+    "text": "- generic [ref=e19]:"
+  },
+  {
+    "ref": "U00023",
+    "text": "- text: "
+  },
+  {
+    "ref": "U00024",
+    "text": "- link \"store logo\" [ref=e20] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00025",
+    "text": "- /url: http://127.0.0.1:7770/"
+  },
+  {
+    "ref": "U00026",
+    "text": "- img \"one_stop_market_logo\" [ref=e21]"
+  },
+  {
+    "ref": "U00027",
+    "text": "- generic [ref=e22]:"
+  },
+  {
+    "ref": "U00028",
+    "text": "- link \" My Cart 4 4 items\" [ref=e23] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00029",
+    "text": "- /url: http://127.0.0.1:7770/checkout/cart/"
+  },
+  {
+    "ref": "U00030",
+    "text": "- text: "
+  },
+  {
+    "ref": "U00031",
+    "text": "- generic [ref=e24]: My Cart"
+  },
+  {
+    "ref": "U00032",
+    "text": "- generic [ref=e25]:"
+  },
+  {
+    "ref": "U00033",
+    "text": "- generic [ref=e26]: \"4\""
+  },
+  {
+    "ref": "U00034",
+    "text": "- generic [ref=e27]: 4 items"
+  },
+  {
+    "ref": "U00035",
+    "text": "- text: \" : :   :   :   :  \""
+  },
+  {
+    "ref": "U00036",
+    "text": "- generic [ref=e30]:"
+  },
+  {
+    "ref": "U00037",
+    "text": "- generic [ref=e31]:"
+  },
+  {
+    "ref": "U00038",
+    "text": "- generic [ref=e32]:"
+  },
+  {
+    "ref": "U00039",
+    "text": "- text: "
+  },
+  {
+    "ref": "U00040",
+    "text": "- generic [ref=e33]: Search"
+  },
+  {
+    "ref": "U00041",
+    "text": "- generic [ref=e34]:"
+  },
+  {
+    "ref": "U00042",
+    "text": "- combobox \" Search\" [ref=e35]"
+  },
+  {
+    "ref": "U00043",
+    "text": "- link \"Advanced Search\" [ref=e37] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00044",
+    "text": "- /url: http://127.0.0.1:7770/catalogsearch/advanced/"
+  },
+  {
+    "ref": "U00045",
+    "text": "- generic:"
+  },
+  {
+    "ref": "U00046",
+    "text": "- button \"Search\" [disabled]:"
+  },
+  {
+    "ref": "U00047",
+    "text": "- text: "
+  },
+  {
+    "ref": "U00048",
+    "text": "- generic: Search"
+  },
+  {
+    "ref": "U00049",
+    "text": "- tablist [ref=e39]:"
+  },
+  {
+    "ref": "U00050",
+    "text": "- tabpanel [ref=e40]:"
+  },
+  {
+    "ref": "U00051",
+    "text": "- navigation [ref=e41]:"
+  },
+  {
+    "ref": "U00052",
+    "text": "- menu [ref=e42]:"
+  },
+  {
+    "ref": "U00053",
+    "text": "- listitem [ref=e43]:"
+  },
+  {
+    "ref": "U00054",
+    "text": "- menuitem \" Beauty & Personal Care\" [ref=e44] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00055",
+    "text": "- generic [ref=e45]: "
+  },
+  {
+    "ref": "U00056",
+    "text": "- text: Beauty & Personal Care"
+  },
+  {
+    "ref": "U00057",
+    "text": "- text:          "
+  },
+  {
+    "ref": "U00058",
+    "text": "- listitem [ref=e46]:"
+  },
+  {
+    "ref": "U00059",
+    "text": "- menuitem \" Sports & Outdoors\" [ref=e47] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00060",
+    "text": "- generic [ref=e48]: "
+  },
+  {
+    "ref": "U00061",
+    "text": "- text: Sports & Outdoors"
+  },
+  {
+    "ref": "U00062",
+    "text": "- text:   "
+  },
+  {
+    "ref": "U00063",
+    "text": "- listitem [ref=e49]:"
+  },
+  {
+    "ref": "U00064",
+    "text": "- menuitem \" Clothing, Shoes & Jewelry\" [ref=e50] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00065",
+    "text": "- generic [ref=e51]: "
+  },
+  {
+    "ref": "U00066",
+    "text": "- text: Clothing, Shoes & Jewelry"
+  },
+  {
+    "ref": "U00067",
+    "text": "- text:    "
+  },
+  {
+    "ref": "U00068",
+    "text": "- listitem [ref=e52]:"
+  },
+  {
+    "ref": "U00069",
+    "text": "- menuitem \" Home & Kitchen\" [ref=e53] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00070",
+    "text": "- generic [ref=e54]: "
+  },
+  {
+    "ref": "U00071",
+    "text": "- text: Home & Kitchen"
+  },
+  {
+    "ref": "U00072",
+    "text": "- text:       "
+  },
+  {
+    "ref": "U00073",
+    "text": "- listitem [ref=e55]:"
+  },
+  {
+    "ref": "U00074",
+    "text": "- menuitem \" Office Products\" [ref=e56] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00075",
+    "text": "- generic [ref=e57]: "
+  },
+  {
+    "ref": "U00076",
+    "text": "- text: Office Products"
+  },
+  {
+    "ref": "U00077",
+    "text": "- text:   "
+  },
+  {
+    "ref": "U00078",
+    "text": "- listitem [ref=e58]:"
+  },
+  {
+    "ref": "U00079",
+    "text": "- menuitem \" Tools & Home Improvement\" [ref=e59] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00080",
+    "text": "- generic [ref=e60]: "
+  },
+  {
+    "ref": "U00081",
+    "text": "- text: Tools & Home Improvement"
+  },
+  {
+    "ref": "U00082",
+    "text": "- text: "
+  },
+  {
+    "ref": "U00083",
+    "text": "- listitem [ref=e61]:"
+  },
+  {
+    "ref": "U00084",
+    "text": "- menuitem \" Health & Household\" [ref=e62] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00085",
+    "text": "- generic [ref=e63]: "
+  },
+  {
+    "ref": "U00086",
+    "text": "- text: Health & Household"
+  },
+  {
+    "ref": "U00087",
+    "text": "- text:  "
+  },
+  {
+    "ref": "U00088",
+    "text": "- listitem [ref=e64]:"
+  },
+  {
+    "ref": "U00089",
+    "text": "- menuitem \" Patio, Lawn & Garden\" [ref=e65] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00090",
+    "text": "- generic [ref=e66]: "
+  },
+  {
+    "ref": "U00091",
+    "text": "- text: Patio, Lawn & Garden"
+  },
+  {
+    "ref": "U00092",
+    "text": "- text: "
+  },
+  {
+    "ref": "U00093",
+    "text": "- listitem [ref=e67]:"
+  },
+  {
+    "ref": "U00094",
+    "text": "- menuitem \" Electronics\" [ref=e68] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00095",
+    "text": "- generic [ref=e69]: "
+  },
+  {
+    "ref": "U00096",
+    "text": "- text: Electronics"
+  },
+  {
+    "ref": "U00097",
+    "text": "- text:            "
+  },
+  {
+    "ref": "U00098",
+    "text": "- listitem [ref=e70]:"
+  },
+  {
+    "ref": "U00099",
+    "text": "- menuitem \" Cell Phones & Accessories\" [ref=e71] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00100",
+    "text": "- generic [ref=e72]: "
+  },
+  {
+    "ref": "U00101",
+    "text": "- text: Cell Phones & Accessories"
+  },
+  {
+    "ref": "U00102",
+    "text": "- text:  "
+  },
+  {
+    "ref": "U00103",
+    "text": "- listitem [ref=e73]:"
+  },
+  {
+    "ref": "U00104",
+    "text": "- menuitem \" Video Games\" [ref=e74] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00105",
+    "text": "- generic [ref=e75]: "
+  },
+  {
+    "ref": "U00106",
+    "text": "- text: Video Games"
+  },
+  {
+    "ref": "U00107",
+    "text": "- text:    "
+  },
+  {
+    "ref": "U00108",
+    "text": "- listitem [ref=e76]:"
+  },
+  {
+    "ref": "U00109",
+    "text": "- menuitem \" Grocery & Gourmet Food\" [ref=e77] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00110",
+    "text": "- generic [ref=e78]: "
+  },
+  {
+    "ref": "U00111",
+    "text": "- text: Grocery & Gourmet Food"
+  },
+  {
+    "ref": "U00112",
+    "text": "- text:             "
+  },
+  {
+    "ref": "U00113",
+    "text": "- main [ref=e79]:"
+  },
+  {
+    "ref": "U00114",
+    "text": "- heading \"Customer Login\" [level=1] [ref=e81]"
+  },
+  {
+    "ref": "U00115",
+    "text": "- generic [ref=e84]:"
+  },
+  {
+    "ref": "U00116",
+    "text": "- generic [ref=e85]:"
+  },
+  {
+    "ref": "U00117",
+    "text": "- heading \"Registered Customers\" [level=2] [ref=e87]"
+  },
+  {
+    "ref": "U00118",
+    "text": "- generic \"Registered Customers\" [ref=e88]:"
+  },
+  {
+    "ref": "U00119",
+    "text": "- group [ref=e90]:"
+  },
+  {
+    "ref": "U00120",
+    "text": "- generic [ref=e91]: If you have an account, sign in with your email address."
+  },
+  {
+    "ref": "U00121",
+    "text": "- generic [ref=e92]:"
+  },
+  {
+    "ref": "U00122",
+    "text": "- generic [ref=e93]: Email*"
+  },
+  {
+    "ref": "U00123",
+    "text": "- textbox \"Email*\" [ref=e95]"
+  },
+  {
+    "ref": "U00124",
+    "text": "- generic [ref=e96]:"
+  },
+  {
+    "ref": "U00125",
+    "text": "- generic [ref=e97]: Password*"
+  },
+  {
+    "ref": "U00126",
+    "text": "- textbox \"Password* Password\" [ref=e99]"
+  },
+  {
+    "ref": "U00127",
+    "text": "- generic [ref=e100]:"
+  },
+  {
+    "ref": "U00128",
+    "text": "- checkbox \"Show Password\" [checked] [active] [ref=e101]"
+  },
+  {
+    "ref": "U00129",
+    "text": "- generic [ref=e102]: Show Password"
+  },
+  {
+    "ref": "U00130",
+    "text": "- generic [ref=e103]:"
+  },
+  {
+    "ref": "U00131",
+    "text": "- button \"Sign In\" [ref=e105] [cursor=pointer]"
+  },
+  {
+    "ref": "U00132",
+    "text": "- link \"Forgot Your Password?\" [ref=e107] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00133",
+    "text": "- /url: http://127.0.0.1:7770/customer/account/forgotpassword/"
+  },
+  {
+    "ref": "U00134",
+    "text": "- text: \"* Required Fields\""
+  },
+  {
+    "ref": "U00135",
+    "text": "- generic [ref=e108]:"
+  },
+  {
+    "ref": "U00136",
+    "text": "- heading \"New Customers\" [level=2] [ref=e110]"
+  },
+  {
+    "ref": "U00137",
+    "text": "- generic \"New Customers\" [ref=e111]:"
+  },
+  {
+    "ref": "U00138",
+    "text": "- paragraph [ref=e112]: \"Creating an account has many benefits: check out faster, keep more than one address, track orders and more.\""
+  },
+  {
+    "ref": "U00139",
+    "text": "- link \"Create an Account\" [ref=e115] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00140",
+    "text": "- /url: http://127.0.0.1:7770/customer/account/create/"
+  },
+  {
+    "ref": "U00141",
+    "text": "- contentinfo [ref=e116]:"
+  },
+  {
+    "ref": "U00142",
+    "text": "- generic [ref=e117]:"
+  },
+  {
+    "ref": "U00143",
+    "text": "- generic [ref=e120]:"
+  },
+  {
+    "ref": "U00144",
+    "text": "- generic [ref=e122]:"
+  },
+  {
+    "ref": "U00145",
+    "text": "- text: "
+  },
+  {
+    "ref": "U00146",
+    "text": "- generic [ref=e123]:"
+  },
+  {
+    "ref": "U00147",
+    "text": "- generic [ref=e124]: \"Sign Up for Our Newsletter:\""
+  },
+  {
+    "ref": "U00148",
+    "text": "- textbox \"Sign Up for Our Newsletter:\" [ref=e125]:"
+  },
+  {
+    "ref": "U00149",
+    "text": "- /placeholder: Enter your email address"
+  },
+  {
+    "ref": "U00150",
+    "text": "- button \"Subscribe\" [ref=e127] [cursor=pointer]"
+  },
+  {
+    "ref": "U00151",
+    "text": "- list [ref=e128]:"
+  },
+  {
+    "ref": "U00152",
+    "text": "- listitem [ref=e129]:"
+  },
+  {
+    "ref": "U00153",
+    "text": "- link \"Privacy and Cookie Policy\" [ref=e130] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00154",
+    "text": "- /url: http://127.0.0.1:7770/privacy-policy-cookie-restriction-mode/"
+  },
+  {
+    "ref": "U00155",
+    "text": "- listitem [ref=e131]:"
+  },
+  {
+    "ref": "U00156",
+    "text": "- link \"Search Terms\" [ref=e132] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00157",
+    "text": "- /url: http://127.0.0.1:7770/search/term/popular/"
+  },
+  {
+    "ref": "U00158",
+    "text": "- listitem [ref=e133]:"
+  },
+  {
+    "ref": "U00159",
+    "text": "- link \"Advanced Search\" [ref=e134] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00160",
+    "text": "- /url: http://127.0.0.1:7770/catalogsearch/advanced/"
+  },
+  {
+    "ref": "U00161",
+    "text": "- listitem [ref=e135]:"
+  },
+  {
+    "ref": "U00162",
+    "text": "- link \"Orders and Returns\" [ref=e136] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00163",
+    "text": "- /url: http://127.0.0.1:7770/sales/guest/form/"
+  },
+  {
+    "ref": "U00164",
+    "text": "- listitem [ref=e137]:"
+  },
+  {
+    "ref": "U00165",
+    "text": "- link \"Contact Us\" [ref=e138] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00166",
+    "text": "- /url: http://127.0.0.1:7770/contact/"
+  },
+  {
+    "ref": "U00167",
+    "text": "- generic [ref=e139]: Copyright © 2013-present Magento, Inc. All rights reserved."
+  },
+  {
+    "ref": "U00168",
+    "text": "- generic [ref=e140]:"
+  },
+  {
+    "ref": "U00169",
+    "text": "- text: Help Us Keep Magento Healthy"
+  },
+  {
+    "ref": "U00170",
+    "text": "- link \"Report All Bugs\" [ref=e141] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00171",
+    "text": "- /url: http://www.magentocommerce.com/bug-tracking"
+  }
+]

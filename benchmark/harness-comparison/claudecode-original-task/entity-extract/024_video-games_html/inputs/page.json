@@ -1,0 +1,32 @@
+{
+  "url": "http://127.0.0.1:7770/video-games.html",
+  "title": "Video Games",
+  "route": "/video-games.html",
+  "captured_from": "drive",
+  "sources": {
+    "aria_source": "..\\drive\\screenshots\\028_video-games_html\\aria.yml",
+    "catalog": "<runDir>/evidence_catalog.json",
+    "evidence_ids": [
+      "trace:api_candidate:line13738",
+      "trace:api_candidate:line13741",
+      "trace:api_candidate:line13742",
+      "trace:api_candidate:line13743",
+      "trace:api_candidate:line13810",
+      "trace:api_candidate:line13863",
+      "trace:api_candidate:line13918",
+      "trace:api_candidate:line13919",
+      "trace:api_candidate:line13920",
+      "trace:api_candidate:line13921",
+      "trace:api_candidate:line13922",
+      "trace:api_candidate:line13923",
+      "trace:api_candidate:line13924",
+      "trace:api_candidate:line13925",
+      "trace:api_candidate:line13926",
+      "trace:api_candidate:line13927",
+      "trace:api_candidate:line14162",
+      "trace:api_candidate:line14163",
+      "trace:api_candidate:line7936"
+    ]
+  },
+  "tree_format": "aria_yml"
+}

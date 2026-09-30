@@ -1,0 +1,1160 @@
+{
+  "meta": {
+    "id": "shopping-drive-trace-v1",
+    "trace": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min",
+    "annotation_scope": "Core catalog/search/cart concepts and fields actually supported by this trace. This is not a site-wide inventory.",
+    "annotation_basis": "Post-hoc core-field annotation reviewed against UI evidence; not blind, exhaustive or a strategy/harness ranking.",
+    "cart_state": "The header shows a non-empty cart count (3/4 items across snapshots); this trace does not provide a full cart-page snapshot or cart-line evidence.",
+    "notes": [
+      "The price-range facet is normalized as a category attribute even if a candidate models it as a separate entity.",
+      "Out-of-scope concepts such as compare list, wishlist, reviews as a separate entity, newsletter, account, and contact form are not scored.",
+      "The answer was written after the candidate outputs existed; evidence was checked against raw trace packages. Treat this as a transparent, post-hoc trace-scoped annotation, not a blind annotation."
+    ],
+    "scope_policy": "Closed core vocabulary: only listed entities, attributes, operations and relations have recall denominators. Unmapped assertions require adjudication and are excluded from resolved precision; report precision bounds. No site-wide completeness claim.",
+    "db_reference": "C:\\Users\\bulin\\.crabvisor_data\\sandboxes\\sb_d5c9d813\\workspace\\appweave\\eval\\ground-truth\\shopping.expected-cm.json",
+    "annotation_notes": [
+      "Each scored fact has an exact original trace file + line reference; package refs retained only for provenance.",
+      "Batteries field uses the exact Batteries rowheader, not the unrelated Made with Recycled Batteries comparison heading.",
+      "Core vocabulary intentionally excludes detailed nutrition/comparison/account fields and is not an exhaustive entity/attribute inventory."
+    ]
+  },
+  "entities": [
+    {
+      "id": "product",
+      "name": "商品",
+      "aliases": [
+        "产品",
+        "Product"
+      ],
+      "evidence_refs": [
+        {
+          "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\001_belle-of-the-ball-princess-sprinkle-mix-wedding-colorful-spr\\aria.yml",
+          "quote": "    - heading \"Belle Of The Ball Princess Sprinkle Mix| Wedding Colorful Sprinkles| Cake Cupcake Cookie Sprinkles| Ice cream Candy Sprinkles| Yellow Gold Red Royal Red Rose Icing Flowers Decorating Sprinkles, 8OZ\" [level=1] [ref=e84]",
+          "derived_ref": {
+            "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\eval-v1\\packages\\drive\\002\\inputs\\ui.json",
+            "pointer": "/118/text",
+            "quote": "- heading \"Belle Of The Ball Princess Sprinkle Mix| Wedding Colorful Sprinkles| Cake Cupcake Cookie Sprinkles| Ice cream Candy Sprinkles| Yellow Gold Red Royal Red Rose Icing Flowers Decorating Sprinkles, 8OZ\" [level=1] [ref=e84]"
+          },
+          "line": 119
+        }
+      ]
+    },
+    {
+      "id": "category",
+      "name": "商品分类",
+      "aliases": [
+        "分类",
+        "Category"
+      ],
+      "evidence_refs": [
+        {
+          "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\034_beauty-personal-care_html\\aria.yml",
+          "quote": "    - heading \"Beauty & Personal Care Items 1-12 of 21796\" [level=1] [ref=e87]: Beauty & Personal Care",
+          "derived_ref": {
+            "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\eval-v1\\packages\\drive\\001\\inputs\\ui.json",
+            "pointer": "/121/text",
+            "quote": "- heading \"Beauty & Personal Care Items 1-12 of 21796\" [level=1] [ref=e87]: Beauty & Personal Care"
+          },
+          "line": 122
+        }
+      ]
+    },
+    {
+      "id": "cart",
+      "name": "购物车",
+      "aliases": [
+        "Cart",
+        "My Cart",
+        "Shopping Cart"
+      ],
+      "evidence_refs": [
+        {
+          "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\014_home-kitchen_html\\aria.yml",
+          "quote": "        - link \" My Cart 3 3 items\" [ref=e23] [cursor=pointer]:",
+          "derived_ref": {
+            "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\eval-v1\\packages\\drive\\000\\inputs\\ui.json",
+            "pointer": "/28/text",
+            "quote": "- link \" My Cart 3 3 items\" [ref=e23] [cursor=pointer]:"
+          },
+          "line": 29
+        }
+      ]
+    }
+  ],
+  "attributes": [
+    {
+      "entity": "product",
+      "id": "name",
+      "aliases": [
+        "商品名称",
+        "product name",
+        "title"
+      ],
+      "evidence_refs": [
+        {
+          "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\001_belle-of-the-ball-princess-sprinkle-mix-wedding-colorful-spr\\aria.yml",
+          "quote": "    - heading \"Belle Of The Ball Princess Sprinkle Mix| Wedding Colorful Sprinkles| Cake Cupcake Cookie Sprinkles| Ice cream Candy Sprinkles| Yellow Gold Red Royal Red Rose Icing Flowers Decorating Sprinkles, 8OZ\" [level=1] [ref=e84]",
+          "derived_ref": {
+            "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\eval-v1\\packages\\drive\\002\\inputs\\ui.json",
+            "pointer": "/118/text",
+            "quote": "- heading \"Belle Of The Ball Princess Sprinkle Mix| Wedding Colorful Sprinkles| Cake Cupcake Cookie Sprinkles| Ice cream Candy Sprinkles| Yellow Gold Red Royal Red Rose Icing Flowers Decorating Sprinkles, 8OZ\" [level=1] [ref=e84]"
+          },
+          "line": 119
+        }
+      ],
+      "db_mapping": {
+        "entity": "catalog_product",
+        "field": "name",
+        "status": "reference_catalog_match_only"
+      },
+      "support_kind": "visible_UI_field_or_value"
+    },
+    {
+      "entity": "product",
+      "id": "sku",
+      "aliases": [
+        "SKU",
+        "商品编号"
+      ],
+      "evidence_refs": [
+        {
+          "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\001_belle-of-the-ball-princess-sprinkle-mix-wedding-colorful-spr\\aria.yml",
+          "quote": "              - strong [ref=e97]: SKU",
+          "derived_ref": {
+            "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\eval-v1\\packages\\drive\\002\\inputs\\ui.json",
+            "pointer": "/127/text",
+            "quote": "- strong [ref=e97]: SKU"
+          },
+          "line": 128
+        }
+      ],
+      "db_mapping": {
+        "entity": "catalog_product",
+        "field": "sku",
+        "status": "reference_catalog_match_only"
+      },
+      "support_kind": "visible_UI_field_or_value"
+    },
+    {
+      "entity": "product",
+      "id": "asin",
+      "aliases": [
+        "ASIN"
+      ],
+      "evidence_refs": [
+        {
+          "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\001_belle-of-the-ball-princess-sprinkle-mix-wedding-colorful-spr\\aria.yml",
+          "quote": "                      - rowheader \"ASIN ‏\" [ref=e276]",
+          "derived_ref": {
+            "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\eval-v1\\packages\\drive\\002\\inputs\\ui.json",
+            "pointer": "/275/text",
+            "quote": "- rowheader \"ASIN ‏\" [ref=e276]"
+          },
+          "line": 276
+        }
+      ],
+      "db_mapping": {
+        "entity": "catalog_product",
+        "field": null,
+        "status": "derived_or_unverified_no_exact_mapping"
+      },
+      "support_kind": "visible_UI_field_or_value"
+    },
+    {
+      "entity": "product",
+      "id": "price",
+      "aliases": [
+        "价格",
+        "Product Price"
+      ],
+      "evidence_refs": [
+        {
+          "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\001_belle-of-the-ball-princess-sprinkle-mix-wedding-colorful-spr\\aria.yml",
+          "quote": "          - generic [ref=e112]: $23.50",
+          "derived_ref": {
+            "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\eval-v1\\packages\\drive\\002\\inputs\\ui.json",
+            "pointer": "/145/text",
+            "quote": "- generic [ref=e112]: $23.50"
+          },
+          "line": 146
+        }
+      ],
+      "db_mapping": {
+        "entity": "catalog_product",
+        "field": "price",
+        "status": "reference_catalog_match_only"
+      },
+      "support_kind": "visible_UI_field_or_value"
+    },
+    {
+      "entity": "product",
+      "id": "rating",
+      "aliases": [
+        "Rating",
+        "评分"
+      ],
+      "evidence_refs": [
+        {
+          "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\001_belle-of-the-ball-princess-sprinkle-mix-wedding-colorful-spr\\aria.yml",
+          "quote": "              - generic [ref=e101]: \"Rating:\"",
+          "derived_ref": {
+            "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\eval-v1\\packages\\drive\\002\\inputs\\ui.json",
+            "pointer": "/131/text",
+            "quote": "- generic [ref=e101]: \"Rating:\""
+          },
+          "line": 132
+        }
+      ],
+      "db_mapping": {
+        "entity": "catalog_product",
+        "field": null,
+        "status": "derived_or_unverified_no_exact_mapping"
+      },
+      "support_kind": "visible_UI_field_or_value"
+    },
+    {
+      "entity": "product",
+      "id": "review_count",
+      "aliases": [
+        "reviews",
+        "review count",
+        "评论数",
+        "评论数量"
+      ],
+      "evidence_refs": [
+        {
+          "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\001_belle-of-the-ball-princess-sprinkle-mix-wedding-colorful-spr\\aria.yml",
+          "quote": "              - link \"12 Reviews\" [ref=e108] [cursor=pointer]:",
+          "derived_ref": {
+            "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\eval-v1\\packages\\drive\\002\\inputs\\ui.json",
+            "pointer": "/141/text",
+            "quote": "- link \"12 Reviews\" [ref=e108] [cursor=pointer]:"
+          },
+          "line": 142
+        }
+      ],
+      "db_mapping": {
+        "entity": "catalog_product",
+        "field": null,
+        "status": "derived_or_unverified_no_exact_mapping"
+      },
+      "support_kind": "visible_UI_field_or_value"
+    },
+    {
+      "entity": "product",
+      "id": "availability",
+      "aliases": [
+        "stock status",
+        "库存状态",
+        "In stock",
+        "In stock（库存状态）"
+      ],
+      "evidence_refs": [
+        {
+          "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\001_belle-of-the-ball-princess-sprinkle-mix-wedding-colorful-spr\\aria.yml",
+          "quote": "            - generic \"Availability\" [ref=e95]: In stock",
+          "derived_ref": {
+            "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\eval-v1\\packages\\drive\\002\\inputs\\ui.json",
+            "pointer": "/125/text",
+            "quote": "- generic \"Availability\" [ref=e95]: In stock"
+          },
+          "line": 126
+        }
+      ],
+      "db_mapping": {
+        "entity": "catalog_product",
+        "field": null,
+        "status": "derived_or_unverified_no_exact_mapping"
+      },
+      "support_kind": "visible_UI_field_or_value"
+    },
+    {
+      "entity": "product",
+      "id": "image",
+      "aliases": [
+        "商品图片",
+        "product image"
+      ],
+      "evidence_refs": [
+        {
+          "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\001_belle-of-the-ball-princess-sprinkle-mix-wedding-colorful-spr\\aria.yml",
+          "quote": "              - img \"Image\" [ref=e153]",
+          "derived_ref": {
+            "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\eval-v1\\packages\\drive\\002\\inputs\\ui.json",
+            "pointer": "/176/text",
+            "quote": "- img \"Image\" [ref=e153]"
+          },
+          "line": 177
+        }
+      ],
+      "db_mapping": {
+        "entity": "catalog_product",
+        "field": "image",
+        "status": "reference_catalog_match_only"
+      },
+      "support_kind": "visible_UI_field_or_value"
+    },
+    {
+      "entity": "product",
+      "id": "size",
+      "aliases": [
+        "Size",
+        "规格"
+      ],
+      "evidence_refs": [
+        {
+          "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\001_belle-of-the-ball-princess-sprinkle-mix-wedding-colorful-spr\\aria.yml",
+          "quote": "            - generic [ref=e118]: Size *",
+          "derived_ref": {
+            "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\eval-v1\\packages\\drive\\002\\inputs\\ui.json",
+            "pointer": "/148/text",
+            "quote": "- generic [ref=e118]: Size *"
+          },
+          "line": 149
+        }
+      ],
+      "db_mapping": {
+        "entity": "catalog_product",
+        "field": null,
+        "status": "derived_or_unverified_no_exact_mapping"
+      },
+      "support_kind": "visible_UI_field_or_value"
+    },
+    {
+      "entity": "product",
+      "id": "quantity",
+      "aliases": [
+        "qty",
+        "数量",
+        "购买数量",
+        "Qty（数量输入）"
+      ],
+      "evidence_refs": [
+        {
+          "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\001_belle-of-the-ball-princess-sprinkle-mix-wedding-colorful-spr\\aria.yml",
+          "quote": "              - spinbutton \"Qty\" [ref=e136]: \"1\"",
+          "derived_ref": {
+            "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\eval-v1\\packages\\drive\\002\\inputs\\ui.json",
+            "pointer": "/162/text",
+            "quote": "- spinbutton \"Qty\" [ref=e136]: \"1\""
+          },
+          "line": 163
+        }
+      ],
+      "db_mapping": {
+        "entity": "catalog_product",
+        "field": null,
+        "status": "derived_or_unverified_no_exact_mapping"
+      },
+      "support_kind": "visible_UI_field_or_value"
+    },
+    {
+      "entity": "product",
+      "id": "description",
+      "aliases": [
+        "Product Description",
+        "商品描述"
+      ],
+      "evidence_refs": [
+        {
+          "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\001_belle-of-the-ball-princess-sprinkle-mix-wedding-colorful-spr\\aria.yml",
+          "quote": "              - heading \"Product Description\" [level=2] [ref=e177]",
+          "derived_ref": {
+            "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\eval-v1\\packages\\drive\\002\\inputs\\ui.json",
+            "pointer": "/197/text",
+            "quote": "- heading \"Product Description\" [level=2] [ref=e177]"
+          },
+          "line": 198
+        }
+      ],
+      "db_mapping": {
+        "entity": "catalog_product",
+        "field": "description",
+        "status": "reference_catalog_match_only"
+      },
+      "support_kind": "visible_UI_field_or_value"
+    },
+    {
+      "entity": "product",
+      "id": "dimensions",
+      "aliases": [
+        "product dimensions",
+        "商品尺寸"
+      ],
+      "evidence_refs": [
+        {
+          "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\001_belle-of-the-ball-princess-sprinkle-mix-wedding-colorful-spr\\aria.yml",
+          "quote": "                      - rowheader \"Product Dimensions ‏\" [ref=e267]",
+          "derived_ref": {
+            "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\eval-v1\\packages\\drive\\002\\inputs\\ui.json",
+            "pointer": "/266/text",
+            "quote": "- rowheader \"Product Dimensions ‏\" [ref=e267]"
+          },
+          "line": 267
+        }
+      ],
+      "db_mapping": {
+        "entity": "catalog_product",
+        "field": null,
+        "status": "derived_or_unverified_no_exact_mapping"
+      },
+      "support_kind": "visible_UI_field_or_value"
+    },
+    {
+      "entity": "product",
+      "id": "upc",
+      "aliases": [
+        "UPC"
+      ],
+      "evidence_refs": [
+        {
+          "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\001_belle-of-the-ball-princess-sprinkle-mix-wedding-colorful-spr\\aria.yml",
+          "quote": "                      - rowheader \"UPC ‏\" [ref=e270]",
+          "derived_ref": {
+            "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\eval-v1\\packages\\drive\\002\\inputs\\ui.json",
+            "pointer": "/269/text",
+            "quote": "- rowheader \"UPC ‏\" [ref=e270]"
+          },
+          "line": 270
+        }
+      ],
+      "db_mapping": {
+        "entity": "catalog_product",
+        "field": null,
+        "status": "derived_or_unverified_no_exact_mapping"
+      },
+      "support_kind": "visible_UI_field_or_value"
+    },
+    {
+      "entity": "product",
+      "id": "manufacturer",
+      "aliases": [
+        "Manufacturer",
+        "制造商"
+      ],
+      "evidence_refs": [
+        {
+          "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\001_belle-of-the-ball-princess-sprinkle-mix-wedding-colorful-spr\\aria.yml",
+          "quote": "                      - rowheader \"Manufacturer ‏\" [ref=e273]",
+          "derived_ref": {
+            "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\eval-v1\\packages\\drive\\002\\inputs\\ui.json",
+            "pointer": "/272/text",
+            "quote": "- rowheader \"Manufacturer ‏\" [ref=e273]"
+          },
+          "line": 273
+        }
+      ],
+      "db_mapping": {
+        "entity": "catalog_product",
+        "field": "manufacturer",
+        "status": "reference_catalog_match_only"
+      },
+      "support_kind": "visible_UI_field_or_value"
+    },
+    {
+      "entity": "product",
+      "id": "country_of_origin",
+      "aliases": [
+        "Country of Origin",
+        "产地"
+      ],
+      "evidence_refs": [
+        {
+          "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\001_belle-of-the-ball-princess-sprinkle-mix-wedding-colorful-spr\\aria.yml",
+          "quote": "                      - rowheader \"Country of Origin ‏\" [ref=e279]",
+          "derived_ref": {
+            "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\eval-v1\\packages\\drive\\002\\inputs\\ui.json",
+            "pointer": "/278/text",
+            "quote": "- rowheader \"Country of Origin ‏\" [ref=e279]"
+          },
+          "line": 279
+        }
+      ],
+      "db_mapping": {
+        "entity": "catalog_product",
+        "field": null,
+        "status": "derived_or_unverified_no_exact_mapping"
+      },
+      "support_kind": "visible_UI_field_or_value"
+    },
+    {
+      "entity": "product",
+      "id": "package_dimensions",
+      "aliases": [
+        "Package Dimensions"
+      ],
+      "evidence_refs": [
+        {
+          "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\027_briess-dme-pilsen-light-1-lb-bag_html\\aria.yml",
+          "quote": "                    - rowheader \"Package Dimensions\" [ref=e149]",
+          "derived_ref": {
+            "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\eval-v1\\packages\\drive\\003\\inputs\\ui.json",
+            "pointer": "/167/text",
+            "quote": "- rowheader \"Package Dimensions\" [ref=e149]"
+          },
+          "line": 168
+        }
+      ],
+      "db_mapping": {
+        "entity": "catalog_product",
+        "field": null,
+        "status": "derived_or_unverified_no_exact_mapping"
+      },
+      "support_kind": "visible_UI_field_or_value"
+    },
+    {
+      "entity": "product",
+      "id": "item_weight",
+      "aliases": [
+        "Item Weight"
+      ],
+      "evidence_refs": [
+        {
+          "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\027_briess-dme-pilsen-light-1-lb-bag_html\\aria.yml",
+          "quote": "                    - rowheader \"Item Weight\" [ref=e152]",
+          "derived_ref": {
+            "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\eval-v1\\packages\\drive\\003\\inputs\\ui.json",
+            "pointer": "/170/text",
+            "quote": "- rowheader \"Item Weight\" [ref=e152]"
+          },
+          "line": 171
+        }
+      ],
+      "db_mapping": {
+        "entity": "catalog_product",
+        "field": null,
+        "status": "derived_or_unverified_no_exact_mapping"
+      },
+      "support_kind": "visible_UI_field_or_value"
+    },
+    {
+      "entity": "product",
+      "id": "model_number",
+      "aliases": [
+        "Item model number",
+        "Model Number",
+        "item_model_number"
+      ],
+      "evidence_refs": [
+        {
+          "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\027_briess-dme-pilsen-light-1-lb-bag_html\\aria.yml",
+          "quote": "                    - rowheader \"Item model number\" [ref=e158]",
+          "derived_ref": {
+            "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\eval-v1\\packages\\drive\\003\\inputs\\ui.json",
+            "pointer": "/176/text",
+            "quote": "- rowheader \"Item model number\" [ref=e158]"
+          },
+          "line": 177
+        }
+      ],
+      "db_mapping": {
+        "entity": "catalog_product",
+        "field": null,
+        "status": "derived_or_unverified_no_exact_mapping"
+      },
+      "support_kind": "visible_UI_field_or_value"
+    },
+    {
+      "entity": "product",
+      "id": "date_first_available",
+      "aliases": [
+        "Date First Available"
+      ],
+      "evidence_refs": [
+        {
+          "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\027_briess-dme-pilsen-light-1-lb-bag_html\\aria.yml",
+          "quote": "                    - rowheader \"Date First Available\" [ref=e161]",
+          "derived_ref": {
+            "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\eval-v1\\packages\\drive\\003\\inputs\\ui.json",
+            "pointer": "/179/text",
+            "quote": "- rowheader \"Date First Available\" [ref=e161]"
+          },
+          "line": 180
+        }
+      ],
+      "db_mapping": {
+        "entity": "catalog_product",
+        "field": null,
+        "status": "derived_or_unverified_no_exact_mapping"
+      },
+      "support_kind": "visible_UI_field_or_value"
+    },
+    {
+      "entity": "product",
+      "id": "color",
+      "aliases": [
+        "Color"
+      ],
+      "evidence_refs": [
+        {
+          "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\004_cooloo-cell-phone-stand-2-pack-mobile-phone-anti-skid-holder\\aria.yml",
+          "quote": "            - generic [ref=e115]: Color *",
+          "derived_ref": {
+            "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\eval-v1\\packages\\drive\\008\\inputs\\ui.json",
+            "pointer": "/150/text",
+            "quote": "- generic [ref=e115]: Color *"
+          },
+          "line": 151
+        }
+      ],
+      "db_mapping": {
+        "entity": "catalog_product",
+        "field": "color",
+        "status": "reference_catalog_match_only"
+      },
+      "support_kind": "visible_UI_field_or_value"
+    },
+    {
+      "entity": "product",
+      "id": "style",
+      "aliases": [
+        "Style"
+      ],
+      "evidence_refs": [
+        {
+          "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\023_energizer-max-c-batteries-premium-alkaline-c-cell-batteries-\\aria.yml",
+          "quote": "            - generic [ref=e123]: Style *",
+          "derived_ref": {
+            "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\eval-v1\\packages\\drive\\012\\inputs\\ui.json",
+            "pointer": "/155/text",
+            "quote": "- generic [ref=e123]: Style *"
+          },
+          "line": 156
+        }
+      ],
+      "db_mapping": {
+        "entity": "catalog_product",
+        "field": null,
+        "status": "derived_or_unverified_no_exact_mapping"
+      },
+      "support_kind": "visible_UI_field_or_value"
+    },
+    {
+      "entity": "product",
+      "id": "batteries",
+      "aliases": [
+        "Batteries"
+      ],
+      "evidence_refs": [
+        {
+          "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\023_energizer-max-c-batteries-premium-alkaline-c-cell-batteries-\\aria.yml",
+          "quote": "                      - rowheader \"Batteries ‏\" [ref=e316]",
+          "derived_ref": {
+            "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\eval-v1\\packages\\drive\\012\\inputs\\ui.json",
+            "pointer": "/317/text",
+            "quote": "- rowheader \"Batteries ‏\" [ref=e316]"
+          },
+          "line": 318
+        }
+      ],
+      "db_mapping": {
+        "entity": "catalog_product",
+        "field": null,
+        "status": "derived_or_unverified_no_exact_mapping"
+      },
+      "support_kind": "visible_UI_field_or_value"
+    },
+    {
+      "entity": "product",
+      "id": "discontinued_status",
+      "aliases": [
+        "Is Discontinued By Manufacturer",
+        "is_discontinued_by_manufacturer"
+      ],
+      "evidence_refs": [
+        {
+          "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\023_energizer-max-c-batteries-premium-alkaline-c-cell-batteries-\\aria.yml",
+          "quote": "                      - rowheader \"Is Discontinued By Manufacturer ‏\" [ref=e307]",
+          "derived_ref": {
+            "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\eval-v1\\packages\\drive\\012\\inputs\\ui.json",
+            "pointer": "/308/text",
+            "quote": "- rowheader \"Is Discontinued By Manufacturer ‏\" [ref=e307]"
+          },
+          "line": 309
+        }
+      ],
+      "db_mapping": {
+        "entity": "catalog_product",
+        "field": null,
+        "status": "derived_or_unverified_no_exact_mapping"
+      },
+      "support_kind": "visible_UI_field_or_value"
+    },
+    {
+      "entity": "product",
+      "id": "domestic_shipping",
+      "aliases": [
+        "Domestic Shipping"
+      ],
+      "evidence_refs": [
+        {
+          "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\023_energizer-max-c-batteries-premium-alkaline-c-cell-batteries-\\aria.yml",
+          "quote": "                      - rowheader \"Domestic Shipping\" [ref=e331]",
+          "derived_ref": {
+            "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\eval-v1\\packages\\drive\\012\\inputs\\ui.json",
+            "pointer": "/332/text",
+            "quote": "- rowheader \"Domestic Shipping\" [ref=e331]"
+          },
+          "line": 333
+        }
+      ],
+      "db_mapping": {
+        "entity": "catalog_product",
+        "field": null,
+        "status": "derived_or_unverified_no_exact_mapping"
+      },
+      "support_kind": "visible_UI_field_or_value"
+    },
+    {
+      "entity": "product",
+      "id": "international_shipping",
+      "aliases": [
+        "International Shipping"
+      ],
+      "evidence_refs": [
+        {
+          "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\023_energizer-max-c-batteries-premium-alkaline-c-cell-batteries-\\aria.yml",
+          "quote": "                      - rowheader \"International Shipping\" [ref=e334]",
+          "derived_ref": {
+            "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\eval-v1\\packages\\drive\\012\\inputs\\ui.json",
+            "pointer": "/335/text",
+            "quote": "- rowheader \"International Shipping\" [ref=e334]"
+          },
+          "line": 336
+        }
+      ],
+      "db_mapping": {
+        "entity": "catalog_product",
+        "field": null,
+        "status": "derived_or_unverified_no_exact_mapping"
+      },
+      "support_kind": "visible_UI_field_or_value"
+    },
+    {
+      "entity": "product",
+      "id": "department",
+      "aliases": [
+        "Department"
+      ],
+      "evidence_refs": [
+        {
+          "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\040_hfhapw-onesie-pajamas-for-women-women-s-valentines-day-sexy-\\aria.yml",
+          "quote": "                    - rowheader \"Department ‏\" [ref=e200]",
+          "derived_ref": {
+            "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\eval-v1\\packages\\drive\\015\\inputs\\ui.json",
+            "pointer": "/217/text",
+            "quote": "- rowheader \"Department ‏\" [ref=e200]"
+          },
+          "line": 218
+        }
+      ],
+      "db_mapping": {
+        "entity": "catalog_product",
+        "field": null,
+        "status": "derived_or_unverified_no_exact_mapping"
+      },
+      "support_kind": "visible_UI_field_or_value"
+    },
+    {
+      "entity": "category",
+      "id": "name",
+      "aliases": [
+        "分类名称",
+        "Category Name"
+      ],
+      "evidence_refs": [
+        {
+          "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\034_beauty-personal-care_html\\aria.yml",
+          "quote": "    - heading \"Beauty & Personal Care Items 1-12 of 21796\" [level=1] [ref=e87]: Beauty & Personal Care",
+          "derived_ref": {
+            "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\eval-v1\\packages\\drive\\001\\inputs\\ui.json",
+            "pointer": "/121/text",
+            "quote": "- heading \"Beauty & Personal Care Items 1-12 of 21796\" [level=1] [ref=e87]: Beauty & Personal Care"
+          },
+          "line": 122
+        }
+      ],
+      "db_mapping": {
+        "entity": "catalog_category",
+        "field": "name",
+        "status": "reference_catalog_match_only"
+      },
+      "support_kind": "visible_UI_field_or_value"
+    },
+    {
+      "entity": "category",
+      "id": "item_count",
+      "aliases": [
+        "itemCount",
+        "items",
+        "product count",
+        "商品计数",
+        "商品计数（items）"
+      ],
+      "evidence_refs": [
+        {
+          "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\034_beauty-personal-care_html\\aria.yml",
+          "quote": "          - paragraph [ref=e97]: Items 1-12 of 21796",
+          "derived_ref": {
+            "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\eval-v1\\packages\\drive\\001\\inputs\\ui.json",
+            "pointer": "/134/text",
+            "quote": "- paragraph [ref=e97]: Items 1-12 of 21796"
+          },
+          "line": 135
+        }
+      ],
+      "db_mapping": {
+        "entity": "catalog_category",
+        "field": null,
+        "status": "derived_or_unverified_no_exact_mapping"
+      },
+      "support_kind": "visible_UI_field_or_value"
+    },
+    {
+      "entity": "category",
+      "id": "subcategories",
+      "aliases": [
+        "subcategory",
+        "subcategories",
+        "子分类",
+        "子类别",
+        "子分类（Shop By Category）"
+      ],
+      "evidence_refs": [
+        {
+          "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\034_beauty-personal-care_html\\aria.yml",
+          "quote": "            - heading \"Category\" [level=3] [ref=e418]",
+          "derived_ref": {
+            "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\eval-v1\\packages\\drive\\001\\inputs\\ui.json",
+            "pointer": "/440/text",
+            "quote": "- heading \"Category\" [level=3] [ref=e418]"
+          },
+          "line": 441
+        },
+        {
+          "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\034_beauty-personal-care_html\\aria.yml",
+          "line": 445,
+          "quote": "                  - link \"Oral Care( 3125 item )\" [ref=e422] [cursor=pointer]:"
+        }
+      ],
+      "db_mapping": {
+        "entity": "catalog_category",
+        "field": null,
+        "status": "derived_or_unverified_no_exact_mapping"
+      },
+      "support_kind": "visible_UI_field_or_value"
+    },
+    {
+      "entity": "category",
+      "id": "price_range",
+      "aliases": [
+        "range",
+        "Price Range",
+        "Price facet",
+        "价格区间",
+        "Price",
+        "Price（Shop By Price 区间）"
+      ],
+      "evidence_refs": [
+        {
+          "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\034_beauty-personal-care_html\\aria.yml",
+          "quote": "            - heading \"Price\" [level=3] [ref=e461]",
+          "derived_ref": {
+            "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\eval-v1\\packages\\drive\\001\\inputs\\ui.json",
+            "pointer": "/523/text",
+            "quote": "- heading \"Price\" [level=3] [ref=e461]"
+          },
+          "line": 524
+        },
+        {
+          "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\034_beauty-personal-care_html\\aria.yml",
+          "line": 528,
+          "quote": "                  - link \"$0.00 - $999.99( 21743 item )\" [ref=e465] [cursor=pointer]:"
+        }
+      ],
+      "db_mapping": {
+        "entity": "catalog_category",
+        "field": null,
+        "status": "derived_or_unverified_no_exact_mapping"
+      },
+      "support_kind": "visible_UI_field_or_value"
+    },
+    {
+      "entity": "cart",
+      "id": "item_count",
+      "aliases": [
+        "itemCount",
+        "items",
+        "数量",
+        "购物车商品数量",
+        "商品计数（items）"
+      ],
+      "evidence_refs": [
+        {
+          "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\014_home-kitchen_html\\aria.yml",
+          "quote": "        - link \" My Cart 3 3 items\" [ref=e23] [cursor=pointer]:",
+          "derived_ref": {
+            "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\eval-v1\\packages\\drive\\000\\inputs\\ui.json",
+            "pointer": "/28/text",
+            "quote": "- link \" My Cart 3 3 items\" [ref=e23] [cursor=pointer]:"
+          },
+          "line": 29
+        }
+      ],
+      "db_mapping": {
+        "entity": "quote",
+        "field": null,
+        "status": "derived_or_unverified_no_exact_mapping"
+      },
+      "support_kind": "visible_UI_field_or_value"
+    },
+    {
+      "entity": "product",
+      "id": "short_description",
+      "aliases": [
+        "Short Description",
+        "shortDescription"
+      ],
+      "evidence_refs": [
+        {
+          "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\052_catalogsearch_advanced\\aria.yml",
+          "quote": "          - textbox \"Short Description\" [ref=e108]",
+          "derived_ref": {
+            "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\eval-v1\\packages\\drive\\004\\inputs\\ui.json",
+            "pointer": "/136/text",
+            "quote": "- textbox \"Short Description\" [ref=e108]"
+          },
+          "line": 137
+        }
+      ],
+      "support_kind": "search_form_field_only",
+      "db_mapping": {
+        "entity": "catalog_product",
+        "field": "short_description",
+        "status": "reference_catalog_match_only"
+      }
+    }
+  ],
+  "operations": [
+    {
+      "id": "product_navigation",
+      "name": "商品浏览/查看",
+      "aliases": [
+        "产品-查询",
+        "商品-查看",
+        "商品-查询/浏览列表",
+        "查看商品",
+        "浏览商品",
+        "查询商品"
+      ],
+      "entity": "product",
+      "visibility": "observed_page",
+      "executed": null,
+      "evidence_refs": [
+        {
+          "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\001_belle-of-the-ball-princess-sprinkle-mix-wedding-colorful-spr\\aria.yml",
+          "quote": "    - heading \"Belle Of The Ball Princess Sprinkle Mix| Wedding Colorful Sprinkles| Cake Cupcake Cookie Sprinkles| Ice cream Candy Sprinkles| Yellow Gold Red Royal Red Rose Icing Flowers Decorating Sprinkles, 8OZ\" [level=1] [ref=e84]",
+          "derived_ref": {
+            "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\eval-v1\\packages\\drive\\002\\inputs\\ui.json",
+            "pointer": "/118/text",
+            "quote": "- heading \"Belle Of The Ball Princess Sprinkle Mix| Wedding Colorful Sprinkles| Cake Cupcake Cookie Sprinkles| Ice cream Candy Sprinkles| Yellow Gold Red Royal Red Rose Icing Flowers Decorating Sprinkles, 8OZ\" [level=1] [ref=e84]"
+          },
+          "line": 119
+        }
+      ],
+      "execution_status": "not_adjudicated_from_action_log"
+    },
+    {
+      "id": "search",
+      "name": "商品搜索",
+      "aliases": [
+        "高级搜索-提交",
+        "商品-搜索",
+        "搜索商品",
+        "Search"
+      ],
+      "entity": "product",
+      "visibility": "visible_control",
+      "executed": null,
+      "evidence_refs": [
+        {
+          "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\DE342E97_post\\DE342E97.aria.yml",
+          "quote": "          - button \"Search\" [disabled]:",
+          "derived_ref": {
+            "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\eval-v1\\packages\\drive\\004\\inputs\\ui.json",
+            "pointer": "/46/text",
+            "quote": "- button \"Search\" [disabled]:"
+          },
+          "line": 47
+        }
+      ],
+      "execution_status": "not_adjudicated_from_action_log"
+    },
+    {
+      "id": "filter",
+      "name": "商品筛选",
+      "aliases": [
+        "商品-筛选",
+        "产品-筛选",
+        "筛选商品",
+        "filter products"
+      ],
+      "entity": "product",
+      "visibility": "visible_control",
+      "executed": null,
+      "evidence_refs": [
+        {
+          "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\034_beauty-personal-care_html\\aria.yml",
+          "quote": "            - heading \"Category\" [level=3] [ref=e418]",
+          "derived_ref": {
+            "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\eval-v1\\packages\\drive\\001\\inputs\\ui.json",
+            "pointer": "/440/text",
+            "quote": "- heading \"Category\" [level=3] [ref=e418]"
+          },
+          "line": 441
+        }
+      ],
+      "execution_status": "not_adjudicated_from_action_log"
+    },
+    {
+      "id": "sort",
+      "name": "商品排序",
+      "aliases": [
+        "商品-排序",
+        "产品-排序",
+        "排序商品",
+        "sort products"
+      ],
+      "entity": "product",
+      "visibility": "visible_control",
+      "executed": null,
+      "evidence_refs": [
+        {
+          "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\010_electronics_html\\aria.yml",
+          "quote": "            - combobox \"Sort By\" [ref=e99]:",
+          "derived_ref": {
+            "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\eval-v1\\packages\\drive\\001\\inputs\\ui.json",
+            "pointer": "/137/text",
+            "quote": "- combobox \"Sort By\" [ref=e99]:"
+          },
+          "line": 138
+        }
+      ],
+      "execution_status": "not_adjudicated_from_action_log"
+    },
+    {
+      "id": "paginate",
+      "name": "商品分页浏览",
+      "aliases": [
+        "商品-分页浏览",
+        "产品-分页",
+        "分页浏览",
+        "next page"
+      ],
+      "entity": "product",
+      "visibility": "visible_control",
+      "executed": null,
+      "evidence_refs": [
+        {
+          "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\034_beauty-personal-care_html\\aria.yml",
+          "quote": "                - link \" Page Next\" [ref=e404] [cursor=pointer]:",
+          "derived_ref": {
+            "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\eval-v1\\packages\\drive\\001\\inputs\\ui.json",
+            "pointer": "/423/text",
+            "quote": "- link \" Page Next\" [ref=e404] [cursor=pointer]:"
+          },
+          "line": 424
+        }
+      ],
+      "execution_status": "not_adjudicated_from_action_log"
+    },
+    {
+      "id": "add_to_cart",
+      "name": "商品加入购物车",
+      "aliases": [
+        "产品-加入购物车",
+        "商品-加入购物车",
+        "add to cart"
+      ],
+      "entity": "product",
+      "visibility": "visible_control",
+      "executed": null,
+      "evidence_refs": [
+        {
+          "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\001_belle-of-the-ball-princess-sprinkle-mix-wedding-colorful-spr\\aria.yml",
+          "quote": "            - button \"Add to Cart\" [ref=e138] [cursor=pointer]",
+          "derived_ref": {
+            "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\eval-v1\\packages\\drive\\002\\inputs\\ui.json",
+            "pointer": "/163/text",
+            "quote": "- button \"Add to Cart\" [ref=e138] [cursor=pointer]"
+          },
+          "line": 164
+        }
+      ],
+      "execution_status": "not_adjudicated_from_action_log"
+    },
+    {
+      "id": "cart_view",
+      "name": "购物车查看",
+      "aliases": [
+        "购物车-查看",
+        "查看购物车",
+        "My Cart"
+      ],
+      "entity": "cart",
+      "visibility": "visible_control",
+      "executed": null,
+      "evidence_refs": [
+        {
+          "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\014_home-kitchen_html\\aria.yml",
+          "quote": "        - link \" My Cart 3 3 items\" [ref=e23] [cursor=pointer]:",
+          "derived_ref": {
+            "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\eval-v1\\packages\\drive\\000\\inputs\\ui.json",
+            "pointer": "/28/text",
+            "quote": "- link \" My Cart 3 3 items\" [ref=e23] [cursor=pointer]:"
+          },
+          "line": 29
+        }
+      ],
+      "execution_status": "not_adjudicated_from_action_log"
+    }
+  ],
+  "relations": [
+    {
+      "id": "category_lists_product",
+      "source": "category",
+      "predicate": "lists",
+      "predicate_aliases": [
+        "contains",
+        "lists",
+        "has_product",
+        "商品列表包含",
+        "包含商品",
+        "分类包含商品"
+      ],
+      "target": "product",
+      "evidence_refs": [
+        {
+          "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\034_beauty-personal-care_html\\aria.yml",
+          "quote": "    - heading \"Beauty & Personal Care Items 1-12 of 21796\" [level=1] [ref=e87]: Beauty & Personal Care",
+          "derived_ref": {
+            "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\eval-v1\\packages\\drive\\001\\inputs\\ui.json",
+            "pointer": "/121/text",
+            "quote": "- heading \"Beauty & Personal Care Items 1-12 of 21796\" [level=1] [ref=e87]: Beauty & Personal Care"
+          },
+          "line": 122
+        },
+        {
+          "file": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\034_beauty-personal-care_html\\aria.yml",
+          "quote": "                  - 'link \"JSY Foldable Bath Body Brush Portable Massager Brush with Long Handle for Wet Dry Brush Bath & Body Brushes (Color : Green)\" [ref=e134] [cursor=pointer]':",
+          "derived_ref": {
+            "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\eval-v1\\packages\\drive\\001\\inputs\\ui.json",
+            "pointer": "/172/text",
+            "quote": "- 'link \"JSY Foldable Bath Body Brush Portable Massager Brush with Long Handle for Wet Dry Brush Bath & Body Brushes (Color : Green)\" [ref=e134] [cursor=pointer]':"
+          },
+          "line": 173
+        }
+      ]
+    }
+  ]
+}

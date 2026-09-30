@@ -1,0 +1,34 @@
+{
+  "url": "http://127.0.0.1:7770/zosi-h-265-poe-home-security-camera-system-outdoor-indoor-8-channel-5mp-poe-nvr-recorder-4pcs-wired-2mp-1080p-surveillance-bullet-poe-ip-cameras-no-hard-drive-renewed.html",
+  "title": "ZOSI H.265+ PoE Home Security Camera System Outdoor Indoor,8-Channel 5MP PoE NVR Recorder,4pcs Wired 2MP 1080p Surveillance Bullet PoE IP Cameras, No Hard Drive (Renewed)",
+  "route": "/zosi-h-265-poe-home-security-camera-system-outdoor-indoor-8-channel-5mp-poe-nvr-recorder-4pcs-wired-2mp-1080p-surveillance-bullet-poe-ip-cameras-no-hard-drive-renewed.html",
+  "captured_from": "drive",
+  "sources": {
+    "aria_source": "..\\drive\\screenshots\\047_zosi-h-265-poe-home-security-camera-system-outdoor-indoor-8-\\aria.yml",
+    "catalog": "<runDir>/evidence_catalog.json",
+    "evidence_ids": [
+      "trace:api_candidate:line23772",
+      "trace:api_candidate:line23782",
+      "trace:api_candidate:line23783",
+      "trace:api_candidate:line23784",
+      "trace:api_candidate:line23842",
+      "trace:api_candidate:line23916",
+      "trace:api_candidate:line23917",
+      "trace:api_candidate:line23929",
+      "trace:api_candidate:line23964",
+      "trace:api_candidate:line23980",
+      "trace:api_candidate:line23981",
+      "trace:api_candidate:line23982",
+      "trace:api_candidate:line24087",
+      "trace:api_candidate:line24089",
+      "trace:api_candidate:line24094",
+      "trace:api_candidate:line24095",
+      "trace:api_candidate:line24097",
+      "trace:api_candidate:line24098",
+      "trace:api_candidate:line24099",
+      "trace:api_candidate:line24100",
+      "trace:api_candidate:line24248"
+    ]
+  },
+  "tree_format": "aria_yml"
+}

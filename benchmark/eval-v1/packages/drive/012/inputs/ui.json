@@ -1,0 +1,1514 @@
+[
+  {
+    "ref": "U00000",
+    "text": "- generic [ref=e2]:"
+  },
+  {
+    "ref": "U00001",
+    "text": "- banner [ref=e3]:"
+  },
+  {
+    "ref": "U00002",
+    "text": "- generic [ref=e5]:"
+  },
+  {
+    "ref": "U00003",
+    "text": "- list [ref=e6]:"
+  },
+  {
+    "ref": "U00004",
+    "text": "- listitem [ref=e7]:"
+  },
+  {
+    "ref": "U00005",
+    "text": "- link \"My Account\" [ref=e8] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00006",
+    "text": "- /url: http://127.0.0.1:7770/customer/account/"
+  },
+  {
+    "ref": "U00007",
+    "text": "- listitem [ref=e9]:"
+  },
+  {
+    "ref": "U00008",
+    "text": "- link \"My Wish List\" [ref=e10] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00009",
+    "text": "- /url: http://127.0.0.1:7770/wishlist/"
+  },
+  {
+    "ref": "U00010",
+    "text": "- listitem [ref=e11]:"
+  },
+  {
+    "ref": "U00011",
+    "text": "- link \"Sign In\" [ref=e12] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00012",
+    "text": "- /url: http://127.0.0.1:7770/customer/account/login/"
+  },
+  {
+    "ref": "U00013",
+    "text": "- listitem [ref=e13]:"
+  },
+  {
+    "ref": "U00014",
+    "text": "- link \"Compare Products 2 items\" [ref=e14] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00015",
+    "text": "- /url: http://127.0.0.1:7770/catalog/product_compare/index/uenc/aHR0cDovLzEyNy4wLjAuMTo3NzcwL2N1c3RvbWVyL3NlY3Rpb24vbG9hZC8_c2VjdGlvbnM9Y29tcGFyZS1wcm9kdWN0cyUyQ21lc3NhZ2VzJmZvcmNlX25ld19zZWN0aW9uX3RpbWVzdGFtcD1mYWxzZSZfPTE3OTA1NjMzMTA1MDM~/"
+  },
+  {
+    "ref": "U00016",
+    "text": "- listitem [ref=e15]: Welcome to One Stop Market"
+  },
+  {
+    "ref": "U00017",
+    "text": "- listitem [ref=e16]:"
+  },
+  {
+    "ref": "U00018",
+    "text": "- link \"Create an Account\" [ref=e17] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00019",
+    "text": "- /url: http://127.0.0.1:7770/customer/account/create/"
+  },
+  {
+    "ref": "U00020",
+    "text": "- link \"Skip to Content\" [ref=e18] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00021",
+    "text": "- /url: \"#contentarea\""
+  },
+  {
+    "ref": "U00022",
+    "text": "- generic [ref=e19]:"
+  },
+  {
+    "ref": "U00023",
+    "text": "- text: "
+  },
+  {
+    "ref": "U00024",
+    "text": "- link \"store logo\" [ref=e20] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00025",
+    "text": "- /url: http://127.0.0.1:7770/"
+  },
+  {
+    "ref": "U00026",
+    "text": "- img \"one_stop_market_logo\" [ref=e21]"
+  },
+  {
+    "ref": "U00027",
+    "text": "- generic [ref=e22]:"
+  },
+  {
+    "ref": "U00028",
+    "text": "- link \" My Cart 3 3 items\" [ref=e23] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00029",
+    "text": "- /url: http://127.0.0.1:7770/checkout/cart/"
+  },
+  {
+    "ref": "U00030",
+    "text": "- text: "
+  },
+  {
+    "ref": "U00031",
+    "text": "- generic [ref=e24]: My Cart"
+  },
+  {
+    "ref": "U00032",
+    "text": "- generic [ref=e25]:"
+  },
+  {
+    "ref": "U00033",
+    "text": "- generic [ref=e26]: \"3\""
+  },
+  {
+    "ref": "U00034",
+    "text": "- generic [ref=e27]: 3 items"
+  },
+  {
+    "ref": "U00035",
+    "text": "- text: \" : :   :   :  \""
+  },
+  {
+    "ref": "U00036",
+    "text": "- generic [ref=e30]:"
+  },
+  {
+    "ref": "U00037",
+    "text": "- generic [ref=e31]:"
+  },
+  {
+    "ref": "U00038",
+    "text": "- generic [ref=e32]:"
+  },
+  {
+    "ref": "U00039",
+    "text": "- text: "
+  },
+  {
+    "ref": "U00040",
+    "text": "- generic [ref=e33]: Search"
+  },
+  {
+    "ref": "U00041",
+    "text": "- generic [ref=e34]:"
+  },
+  {
+    "ref": "U00042",
+    "text": "- combobox \" Search\" [ref=e35]"
+  },
+  {
+    "ref": "U00043",
+    "text": "- link \"Advanced Search\" [ref=e37] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00044",
+    "text": "- /url: http://127.0.0.1:7770/catalogsearch/advanced/"
+  },
+  {
+    "ref": "U00045",
+    "text": "- generic:"
+  },
+  {
+    "ref": "U00046",
+    "text": "- button \"Search\" [disabled]:"
+  },
+  {
+    "ref": "U00047",
+    "text": "- text: "
+  },
+  {
+    "ref": "U00048",
+    "text": "- generic: Search"
+  },
+  {
+    "ref": "U00049",
+    "text": "- tablist [ref=e39]:"
+  },
+  {
+    "ref": "U00050",
+    "text": "- tabpanel [ref=e40]:"
+  },
+  {
+    "ref": "U00051",
+    "text": "- navigation [ref=e41]:"
+  },
+  {
+    "ref": "U00052",
+    "text": "- menu [ref=e42]:"
+  },
+  {
+    "ref": "U00053",
+    "text": "- listitem [ref=e43]:"
+  },
+  {
+    "ref": "U00054",
+    "text": "- menuitem \" Beauty & Personal Care\" [ref=e44] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00055",
+    "text": "- generic [ref=e45]: "
+  },
+  {
+    "ref": "U00056",
+    "text": "- text: Beauty & Personal Care"
+  },
+  {
+    "ref": "U00057",
+    "text": "- text:          "
+  },
+  {
+    "ref": "U00058",
+    "text": "- listitem [ref=e46]:"
+  },
+  {
+    "ref": "U00059",
+    "text": "- menuitem \" Sports & Outdoors\" [ref=e47] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00060",
+    "text": "- generic [ref=e48]: "
+  },
+  {
+    "ref": "U00061",
+    "text": "- text: Sports & Outdoors"
+  },
+  {
+    "ref": "U00062",
+    "text": "- text:   "
+  },
+  {
+    "ref": "U00063",
+    "text": "- listitem [ref=e49]:"
+  },
+  {
+    "ref": "U00064",
+    "text": "- menuitem \" Clothing, Shoes & Jewelry\" [ref=e50] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00065",
+    "text": "- generic [ref=e51]: "
+  },
+  {
+    "ref": "U00066",
+    "text": "- text: Clothing, Shoes & Jewelry"
+  },
+  {
+    "ref": "U00067",
+    "text": "- text:    "
+  },
+  {
+    "ref": "U00068",
+    "text": "- listitem [ref=e52]:"
+  },
+  {
+    "ref": "U00069",
+    "text": "- menuitem \" Home & Kitchen\" [ref=e53] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00070",
+    "text": "- generic [ref=e54]: "
+  },
+  {
+    "ref": "U00071",
+    "text": "- text: Home & Kitchen"
+  },
+  {
+    "ref": "U00072",
+    "text": "- text:       "
+  },
+  {
+    "ref": "U00073",
+    "text": "- listitem [ref=e55]:"
+  },
+  {
+    "ref": "U00074",
+    "text": "- menuitem \" Office Products\" [ref=e56] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00075",
+    "text": "- generic [ref=e57]: "
+  },
+  {
+    "ref": "U00076",
+    "text": "- text: Office Products"
+  },
+  {
+    "ref": "U00077",
+    "text": "- text:   "
+  },
+  {
+    "ref": "U00078",
+    "text": "- listitem [ref=e58]:"
+  },
+  {
+    "ref": "U00079",
+    "text": "- menuitem \" Tools & Home Improvement\" [ref=e59] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00080",
+    "text": "- generic [ref=e60]: "
+  },
+  {
+    "ref": "U00081",
+    "text": "- text: Tools & Home Improvement"
+  },
+  {
+    "ref": "U00082",
+    "text": "- text: "
+  },
+  {
+    "ref": "U00083",
+    "text": "- listitem [ref=e61]:"
+  },
+  {
+    "ref": "U00084",
+    "text": "- menuitem \" Health & Household\" [ref=e62] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00085",
+    "text": "- generic [ref=e63]: "
+  },
+  {
+    "ref": "U00086",
+    "text": "- text: Health & Household"
+  },
+  {
+    "ref": "U00087",
+    "text": "- text:  "
+  },
+  {
+    "ref": "U00088",
+    "text": "- listitem [ref=e64]:"
+  },
+  {
+    "ref": "U00089",
+    "text": "- menuitem \" Patio, Lawn & Garden\" [ref=e65] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00090",
+    "text": "- generic [ref=e66]: "
+  },
+  {
+    "ref": "U00091",
+    "text": "- text: Patio, Lawn & Garden"
+  },
+  {
+    "ref": "U00092",
+    "text": "- text: "
+  },
+  {
+    "ref": "U00093",
+    "text": "- listitem [ref=e67]:"
+  },
+  {
+    "ref": "U00094",
+    "text": "- menuitem \" Electronics\" [ref=e68] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00095",
+    "text": "- generic [ref=e69]: "
+  },
+  {
+    "ref": "U00096",
+    "text": "- text: Electronics"
+  },
+  {
+    "ref": "U00097",
+    "text": "- text:            "
+  },
+  {
+    "ref": "U00098",
+    "text": "- listitem [ref=e70]:"
+  },
+  {
+    "ref": "U00099",
+    "text": "- menuitem \" Cell Phones & Accessories\" [ref=e71] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00100",
+    "text": "- generic [ref=e72]: "
+  },
+  {
+    "ref": "U00101",
+    "text": "- text: Cell Phones & Accessories"
+  },
+  {
+    "ref": "U00102",
+    "text": "- text:  "
+  },
+  {
+    "ref": "U00103",
+    "text": "- listitem [ref=e73]:"
+  },
+  {
+    "ref": "U00104",
+    "text": "- menuitem \" Video Games\" [ref=e74] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00105",
+    "text": "- generic [ref=e75]: "
+  },
+  {
+    "ref": "U00106",
+    "text": "- text: Video Games"
+  },
+  {
+    "ref": "U00107",
+    "text": "- text:    "
+  },
+  {
+    "ref": "U00108",
+    "text": "- listitem [ref=e76]:"
+  },
+  {
+    "ref": "U00109",
+    "text": "- menuitem \" Grocery & Gourmet Food\" [ref=e77] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00110",
+    "text": "- generic [ref=e78]: "
+  },
+  {
+    "ref": "U00111",
+    "text": "- text: Grocery & Gourmet Food"
+  },
+  {
+    "ref": "U00112",
+    "text": "- text:             "
+  },
+  {
+    "ref": "U00113",
+    "text": "- list [ref=e80]:"
+  },
+  {
+    "ref": "U00114",
+    "text": "- listitem [ref=e81]:"
+  },
+  {
+    "ref": "U00115",
+    "text": "- link \"Home\" [ref=e82] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00116",
+    "text": "- /url: http://127.0.0.1:7770/"
+  },
+  {
+    "ref": "U00117",
+    "text": "- text: "
+  },
+  {
+    "ref": "U00118",
+    "text": "- listitem [ref=e83]:"
+  },
+  {
+    "ref": "U00119",
+    "text": "- link \"Health & Household\" [ref=e84] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00120",
+    "text": "- /url: http://127.0.0.1:7770/health-household.html"
+  },
+  {
+    "ref": "U00121",
+    "text": "- text: "
+  },
+  {
+    "ref": "U00122",
+    "text": "- listitem [ref=e85]:"
+  },
+  {
+    "ref": "U00123",
+    "text": "- strong [ref=e86]: Energizer MAX C Batteries, Premium Alkaline C Cell Batteries (8 Battery Count)"
+  },
+  {
+    "ref": "U00124",
+    "text": "- main [ref=e87]:"
+  },
+  {
+    "ref": "U00125",
+    "text": "- heading \"Energizer MAX C Batteries, Premium Alkaline C Cell Batteries (8 Battery Count)\" [level=1] [ref=e89]"
+  },
+  {
+    "ref": "U00126",
+    "text": "- alert [ref=e92]:"
+  },
+  {
+    "ref": "U00127",
+    "text": "- generic [ref=e94]:  The product's required option(s) weren't entered. Make sure the options are entered and try again."
+  },
+  {
+    "ref": "U00128",
+    "text": "- generic [ref=e96]:"
+  },
+  {
+    "ref": "U00129",
+    "text": "- generic [ref=e97]:"
+  },
+  {
+    "ref": "U00130",
+    "text": "- generic [ref=e98]:"
+  },
+  {
+    "ref": "U00131",
+    "text": "- generic [ref=e99]:"
+  },
+  {
+    "ref": "U00132",
+    "text": "- generic \"Availability\" [ref=e100]: In stock"
+  },
+  {
+    "ref": "U00133",
+    "text": "- generic [ref=e101]:"
+  },
+  {
+    "ref": "U00134",
+    "text": "- strong [ref=e102]: SKU"
+  },
+  {
+    "ref": "U00135",
+    "text": "- generic [ref=e103]: B0044DA3NS"
+  },
+  {
+    "ref": "U00136",
+    "text": "- generic [ref=e104]:"
+  },
+  {
+    "ref": "U00137",
+    "text": "- generic [ref=e105]:"
+  },
+  {
+    "ref": "U00138",
+    "text": "- generic [ref=e106]: \"Rating:\""
+  },
+  {
+    "ref": "U00139",
+    "text": "- generic \"40%\" [ref=e107]:"
+  },
+  {
+    "ref": "U00140",
+    "text": "- text: "
+  },
+  {
+    "ref": "U00141",
+    "text": "- generic [ref=e108]:"
+  },
+  {
+    "ref": "U00142",
+    "text": "- text: "
+  },
+  {
+    "ref": "U00143",
+    "text": "- generic [ref=e109]:"
+  },
+  {
+    "ref": "U00144",
+    "text": "- generic [ref=e110]: \"40\""
+  },
+  {
+    "ref": "U00145",
+    "text": "- text: \"% of\""
+  },
+  {
+    "ref": "U00146",
+    "text": "- generic [ref=e111]: \"100\""
+  },
+  {
+    "ref": "U00147",
+    "text": "- generic [ref=e112]:"
+  },
+  {
+    "ref": "U00148",
+    "text": "- link \"12 Reviews\" [ref=e113] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00149",
+    "text": "- /url: http://127.0.0.1:7770/energizer-max-c-batteries-premium-alkaline-c-cell-batteries-8-battery-count.html#reviews"
+  },
+  {
+    "ref": "U00150",
+    "text": "- link \"Add Your Review\" [ref=e114] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00151",
+    "text": "- /url: http://127.0.0.1:7770/energizer-max-c-batteries-premium-alkaline-c-cell-batteries-8-battery-count.html#review-form"
+  },
+  {
+    "ref": "U00152",
+    "text": "- generic [ref=e117]: $14.87"
+  },
+  {
+    "ref": "U00153",
+    "text": "- generic [ref=e119]:"
+  },
+  {
+    "ref": "U00154",
+    "text": "- generic [ref=e122]:"
+  },
+  {
+    "ref": "U00155",
+    "text": "- generic [ref=e123]: Style *"
+  },
+  {
+    "ref": "U00156",
+    "text": "- generic [ref=e125]:"
+  },
+  {
+    "ref": "U00157",
+    "text": "- generic [ref=e126]:"
+  },
+  {
+    "ref": "U00158",
+    "text": "- radio \"C 2 Count\" [ref=e127]"
+  },
+  {
+    "ref": "U00159",
+    "text": "- generic [ref=e128]: C 2 Count"
+  },
+  {
+    "ref": "U00160",
+    "text": "- generic [ref=e129]:"
+  },
+  {
+    "ref": "U00161",
+    "text": "- radio \"C 4 Count\" [ref=e130]"
+  },
+  {
+    "ref": "U00162",
+    "text": "- generic [ref=e131]: C 4 Count"
+  },
+  {
+    "ref": "U00163",
+    "text": "- generic [ref=e132]:"
+  },
+  {
+    "ref": "U00164",
+    "text": "- radio \"C 8 Count\" [ref=e133]"
+  },
+  {
+    "ref": "U00165",
+    "text": "- generic [ref=e134]: C 8 Count"
+  },
+  {
+    "ref": "U00166",
+    "text": "- generic [ref=e135]:"
+  },
+  {
+    "ref": "U00167",
+    "text": "- radio \"C, 4 Count\" [ref=e136]"
+  },
+  {
+    "ref": "U00168",
+    "text": "- generic [ref=e137]: C, 4 Count"
+  },
+  {
+    "ref": "U00169",
+    "text": "- generic [ref=e138]:"
+  },
+  {
+    "ref": "U00170",
+    "text": "- radio \"Combo Pack, 12 C + 12 D\" [ref=e139]"
+  },
+  {
+    "ref": "U00171",
+    "text": "- generic [ref=e140]: Combo Pack, 12 C + 12 D"
+  },
+  {
+    "ref": "U00172",
+    "text": "- generic [ref=e143]:"
+  },
+  {
+    "ref": "U00173",
+    "text": "- generic [ref=e144]:"
+  },
+  {
+    "ref": "U00174",
+    "text": "- generic [ref=e145]: Qty"
+  },
+  {
+    "ref": "U00175",
+    "text": "- spinbutton \"Qty\" [ref=e147]: \"1\""
+  },
+  {
+    "ref": "U00176",
+    "text": "- button \"Add to Cart\" [ref=e149] [cursor=pointer]"
+  },
+  {
+    "ref": "U00177",
+    "text": "- generic [ref=e151]:"
+  },
+  {
+    "ref": "U00178",
+    "text": "- link \"Add to Wish List\" [ref=e152] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00179",
+    "text": "- /url: \"#\""
+  },
+  {
+    "ref": "U00180",
+    "text": "- link \"Add to Compare\" [ref=e153] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00181",
+    "text": "- /url: \"#\""
+  },
+  {
+    "ref": "U00182",
+    "text": "- generic [ref=e154]:"
+  },
+  {
+    "ref": "U00183",
+    "text": "- link \"Skip to the end of the images gallery\" [ref=e155] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00184",
+    "text": "- /url: \"#gallery-next-area\""
+  },
+  {
+    "ref": "U00185",
+    "text": "- generic [ref=e158]:"
+  },
+  {
+    "ref": "U00186",
+    "text": "- generic [ref=e159]:"
+  },
+  {
+    "ref": "U00187",
+    "text": "- button \"Previous\" [ref=e160] [cursor=pointer]"
+  },
+  {
+    "ref": "U00188",
+    "text": "- generic [ref=e162]:"
+  },
+  {
+    "ref": "U00189",
+    "text": "- img \"Image\" [ref=e164]"
+  },
+  {
+    "ref": "U00190",
+    "text": "- img [ref=e166]"
+  },
+  {
+    "ref": "U00191",
+    "text": "- button \"Next\""
+  },
+  {
+    "ref": "U00192",
+    "text": "- generic [ref=e168]:"
+  },
+  {
+    "ref": "U00193",
+    "text": "- button \"Previous\""
+  },
+  {
+    "ref": "U00194",
+    "text": "- generic [ref=e169]:"
+  },
+  {
+    "ref": "U00195",
+    "text": "- button \"Image\" [ref=e171]:"
+  },
+  {
+    "ref": "U00196",
+    "text": "- img \"Image\" [ref=e173]"
+  },
+  {
+    "ref": "U00197",
+    "text": "- button \"Image\" [ref=e174]:"
+  },
+  {
+    "ref": "U00198",
+    "text": "- img \"Image\" [ref=e176]"
+  },
+  {
+    "ref": "U00199",
+    "text": "- button \"Next\""
+  },
+  {
+    "ref": "U00200",
+    "text": "- link \"Skip to the beginning of the images gallery\" [ref=e177] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00201",
+    "text": "- /url: \"#gallery-prev-area\""
+  },
+  {
+    "ref": "U00202",
+    "text": "- tablist [ref=e179]:"
+  },
+  {
+    "ref": "U00203",
+    "text": "- tab \"Details\" [expanded] [ref=e180]:"
+  },
+  {
+    "ref": "U00204",
+    "text": "- link \"Details\" [ref=e181] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00205",
+    "text": "- /url: \"#description\""
+  },
+  {
+    "ref": "U00206",
+    "text": "- tabpanel \"Details\" [ref=e182]:"
+  },
+  {
+    "ref": "U00207",
+    "text": "- generic [ref=e184]:"
+  },
+  {
+    "ref": "U00208",
+    "text": "- generic [ref=e186]:"
+  },
+  {
+    "ref": "U00209",
+    "text": "- separator [ref=e187]"
+  },
+  {
+    "ref": "U00210",
+    "text": "- heading \"From the manufacturer\" [level=2] [ref=e188]"
+  },
+  {
+    "ref": "U00211",
+    "text": "- generic [ref=e189]:"
+  },
+  {
+    "ref": "U00212",
+    "text": "- img \"Image shows an electric razor, a toy robot, remote control, flashlight, and a smoke detector. Big or\" [ref=e195]"
+  },
+  {
+    "ref": "U00213",
+    "text": "- img \"Closeup image of the pink Energizer Bunny wearing black sunglasses that say Energizer on them.\" [ref=e201]"
+  },
+  {
+    "ref": "U00214",
+    "text": "- img \"The Energizer Bunny is holding a large Energizer Max battery\" [ref=e207]"
+  },
+  {
+    "ref": "U00215",
+    "text": "- table [ref=e213]:"
+  },
+  {
+    "ref": "U00216",
+    "text": "- rowgroup [ref=e214]:"
+  },
+  {
+    "ref": "U00217",
+    "text": "- row \"Energizer Ultimate Lithium batteries give you the ultimate power for your critical devices Get economical reusable power for your frequently used devices with Energizer Rechargeable batteries Energizer coin batteries give you big power for tiny devices\" [ref=e215]:"
+  },
+  {
+    "ref": "U00218",
+    "text": "- columnheader \"Energizer Ultimate Lithium batteries give you the ultimate power for your critical devices\" [ref=e216]:"
+  },
+  {
+    "ref": "U00219",
+    "text": "- paragraph [ref=e218]:"
+  },
+  {
+    "ref": "U00220",
+    "text": "- img \"Energizer Ultimate Lithium batteries give you the ultimate power for your critical devices\" [ref=e219]"
+  },
+  {
+    "ref": "U00221",
+    "text": "- columnheader \"Get economical reusable power for your frequently used devices with Energizer Rechargeable batteries\" [ref=e220]:"
+  },
+  {
+    "ref": "U00222",
+    "text": "- paragraph [ref=e222]:"
+  },
+  {
+    "ref": "U00223",
+    "text": "- img \"Get economical reusable power for your frequently used devices with Energizer Rechargeable batteries\" [ref=e223]"
+  },
+  {
+    "ref": "U00224",
+    "text": "- columnheader \"Energizer coin batteries give you big power for tiny devices\" [ref=e224]:"
+  },
+  {
+    "ref": "U00225",
+    "text": "- paragraph [ref=e226]:"
+  },
+  {
+    "ref": "U00226",
+    "text": "- img \"Energizer coin batteries give you big power for tiny devices\" [ref=e227]"
+  },
+  {
+    "ref": "U00227",
+    "text": "- row [ref=e228]:"
+  },
+  {
+    "ref": "U00228",
+    "text": "- cell [ref=e229]"
+  },
+  {
+    "ref": "U00229",
+    "text": "- cell [ref=e230]"
+  },
+  {
+    "ref": "U00230",
+    "text": "- cell [ref=e231]"
+  },
+  {
+    "ref": "U00231",
+    "text": "- table [ref=e236]:"
+  },
+  {
+    "ref": "U00232",
+    "text": "- rowgroup [ref=e237]:"
+  },
+  {
+    "ref": "U00233",
+    "text": "- row \"unspecified unspecified unspecified unspecified\" [ref=e238]:"
+  },
+  {
+    "ref": "U00234",
+    "text": "- columnheader [ref=e239]"
+  },
+  {
+    "ref": "U00235",
+    "text": "- columnheader \"unspecified\" [ref=e240]:"
+  },
+  {
+    "ref": "U00236",
+    "text": "- link \"unspecified\" [ref=e241] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00237",
+    "text": "- /url: /dp/B004U429AQ/ref=emc_b_5_i"
+  },
+  {
+    "ref": "U00238",
+    "text": "- img \"unspecified\" [ref=e242]"
+  },
+  {
+    "ref": "U00239",
+    "text": "- columnheader \"unspecified\" [ref=e243]:"
+  },
+  {
+    "ref": "U00240",
+    "text": "- link \"unspecified\" [ref=e244] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00241",
+    "text": "- /url: /dp/B071D87WPV/ref=emc_b_5_i"
+  },
+  {
+    "ref": "U00242",
+    "text": "- img \"unspecified\" [ref=e245]"
+  },
+  {
+    "ref": "U00243",
+    "text": "- columnheader \"unspecified\" [ref=e246]:"
+  },
+  {
+    "ref": "U00244",
+    "text": "- link \"unspecified\" [ref=e247] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00245",
+    "text": "- /url: /dp/B0043CHWHA/ref=emc_b_5_i"
+  },
+  {
+    "ref": "U00246",
+    "text": "- img \"unspecified\" [ref=e248]"
+  },
+  {
+    "ref": "U00247",
+    "text": "- columnheader \"unspecified\" [ref=e249]:"
+  },
+  {
+    "ref": "U00248",
+    "text": "- link \"unspecified\" [ref=e250] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00249",
+    "text": "- /url: /dp/B0057UUB0W/ref=emc_b_5_i"
+  },
+  {
+    "ref": "U00250",
+    "text": "- img \"unspecified\" [ref=e251]"
+  },
+  {
+    "ref": "U00251",
+    "text": "- row \"Max Ultimate Lithium Watch Electronic Hearing Aid\" [ref=e252]:"
+  },
+  {
+    "ref": "U00252",
+    "text": "- columnheader [ref=e253]"
+  },
+  {
+    "ref": "U00253",
+    "text": "- columnheader \"Max\" [ref=e254]:"
+  },
+  {
+    "ref": "U00254",
+    "text": "- link \"Max\" [ref=e255] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00255",
+    "text": "- /url: /dp/B004U429AQ/ref=emc_b_5_t"
+  },
+  {
+    "ref": "U00256",
+    "text": "- columnheader \"Ultimate Lithium\" [ref=e256]:"
+  },
+  {
+    "ref": "U00257",
+    "text": "- link \"Ultimate Lithium\" [ref=e257] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00258",
+    "text": "- /url: /dp/B071D87WPV/ref=emc_b_5_t"
+  },
+  {
+    "ref": "U00259",
+    "text": "- columnheader \"Watch Electronic\" [ref=e258]:"
+  },
+  {
+    "ref": "U00260",
+    "text": "- link \"Watch Electronic\" [ref=e259] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00261",
+    "text": "- /url: /dp/B0043CHWHA/ref=emc_b_5_t"
+  },
+  {
+    "ref": "U00262",
+    "text": "- columnheader \"Hearing Aid\" [ref=e260]:"
+  },
+  {
+    "ref": "U00263",
+    "text": "- link \"Hearing Aid\" [ref=e261] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00264",
+    "text": "- /url: /dp/B0057UUB0W/ref=emc_b_5_t"
+  },
+  {
+    "ref": "U00265",
+    "text": "- 'row \"Comp Chart Feature: Available Sizes AA, AAA, C, D, 9V AA, AAA, 9V 2032, 2025, 2016, 2450, 2430, 1632, 1620, 1616, 1220, 1216, 1025 10, 13, 312, 675\" [ref=e262]':"
+  },
+  {
+    "ref": "U00266",
+    "text": "- 'rowheader \"Comp Chart Feature: Available Sizes\" [ref=e263]'"
+  },
+  {
+    "ref": "U00267",
+    "text": "- cell \"AA, AAA, C, D, 9V\" [ref=e264]"
+  },
+  {
+    "ref": "U00268",
+    "text": "- cell \"AA, AAA, 9V\" [ref=e265]"
+  },
+  {
+    "ref": "U00269",
+    "text": "- cell \"2032, 2025, 2016, 2450, 2430, 1632, 1620, 1616, 1220, 1216, 1025\" [ref=e266]"
+  },
+  {
+    "ref": "U00270",
+    "text": "- cell \"10, 13, 312, 675\" [ref=e267]"
+  },
+  {
+    "ref": "U00271",
+    "text": "- 'row \"Comp Chart Feature: Composition Alkaline Lithium Lithium Zinc Air\" [ref=e268]':"
+  },
+  {
+    "ref": "U00272",
+    "text": "- 'rowheader \"Comp Chart Feature: Composition\" [ref=e269]'"
+  },
+  {
+    "ref": "U00273",
+    "text": "- cell \"Alkaline\" [ref=e270]"
+  },
+  {
+    "ref": "U00274",
+    "text": "- cell \"Lithium\" [ref=e271]"
+  },
+  {
+    "ref": "U00275",
+    "text": "- cell \"Lithium\" [ref=e272]"
+  },
+  {
+    "ref": "U00276",
+    "text": "- cell \"Zinc Air\" [ref=e273]"
+  },
+  {
+    "ref": "U00277",
+    "text": "- 'row \"Comp Chart Feature: Made with Recycled Batteries\" [ref=e274]':"
+  },
+  {
+    "ref": "U00278",
+    "text": "- 'rowheader \"Comp Chart Feature: Made with Recycled Batteries\" [ref=e275]'"
+  },
+  {
+    "ref": "U00279",
+    "text": "- cell [ref=e276]"
+  },
+  {
+    "ref": "U00280",
+    "text": "- cell [ref=e277]"
+  },
+  {
+    "ref": "U00281",
+    "text": "- cell [ref=e278]"
+  },
+  {
+    "ref": "U00282",
+    "text": "- cell [ref=e279]"
+  },
+  {
+    "ref": "U00283",
+    "text": "- 'row \"Comp Chart Feature: Shelf Life AA, AAA, C, D—up to 10 years; 9V—up to 5 years AA, AAA—up to 20 years; 9V—up to 10 years Up to 8 years Up to 4 years\" [ref=e280]':"
+  },
+  {
+    "ref": "U00284",
+    "text": "- 'rowheader \"Comp Chart Feature: Shelf Life\" [ref=e281]'"
+  },
+  {
+    "ref": "U00285",
+    "text": "- cell \"AA, AAA, C, D—up to 10 years; 9V—up to 5 years\" [ref=e282]"
+  },
+  {
+    "ref": "U00286",
+    "text": "- cell \"AA, AAA—up to 20 years; 9V—up to 10 years\" [ref=e283]"
+  },
+  {
+    "ref": "U00287",
+    "text": "- cell \"Up to 8 years\" [ref=e284]"
+  },
+  {
+    "ref": "U00288",
+    "text": "- cell \"Up to 4 years\" [ref=e285]"
+  },
+  {
+    "ref": "U00289",
+    "text": "- 'row \"Comp Chart Feature: Best Uses Everyday low to mid-drain electronics High-tech and smart devices; suitable for use in extreme temperatures Reliable power for heart-rate monitors, glucose monitors, keyless entry, and more For many types of hearing aid devices including ITC, ITE, BTE, CIC, and Cochlear Implants.\" [ref=e286]':"
+  },
+  {
+    "ref": "U00290",
+    "text": "- 'rowheader \"Comp Chart Feature: Best Uses\" [ref=e287]'"
+  },
+  {
+    "ref": "U00291",
+    "text": "- cell \"Everyday low to mid-drain electronics\" [ref=e288]"
+  },
+  {
+    "ref": "U00292",
+    "text": "- cell \"High-tech and smart devices; suitable for use in extreme temperatures\" [ref=e289]"
+  },
+  {
+    "ref": "U00293",
+    "text": "- cell \"Reliable power for heart-rate monitors, glucose monitors, keyless entry, and more\" [ref=e290]"
+  },
+  {
+    "ref": "U00294",
+    "text": "- cell \"For many types of hearing aid devices including ITC, ITE, BTE, CIC, and Cochlear Implants.\" [ref=e291]"
+  },
+  {
+    "ref": "U00295",
+    "text": "- generic [ref=e292]:"
+  },
+  {
+    "ref": "U00296",
+    "text": "- heading \"Product Quick Look\" [level=2] [ref=e293]"
+  },
+  {
+    "ref": "U00297",
+    "text": "- generic [ref=e294]:"
+  },
+  {
+    "ref": "U00298",
+    "text": "- list [ref=e296]:"
+  },
+  {
+    "ref": "U00299",
+    "text": "- listitem [ref=e297]: Long-lasting power and innovation is what the Energizer Max family is all about. Energizer C batteries hold power for up to 10 years while in storage, so you have power when you need it most. When it comes to toys, digital cameras, and other valuable devices, you can feel confident knowing you have the long-lasting power and protection you expect from Energizer. Even fully used AA and AAA sizes are designed to protect your devices from leakage - for up to 2 years."
+  },
+  {
+    "ref": "U00300",
+    "text": "- listitem [ref=e298]: 8 pack of Energizer MAX C Batteries, Batteries C Size"
+  },
+  {
+    "ref": "U00301",
+    "text": "- listitem [ref=e299]: These alkaline C batteries provide long lasting power for your everyday devices"
+  },
+  {
+    "ref": "U00302",
+    "text": "- listitem [ref=e300]: The power you depend on for high-tech C battery flashlights, radios, toys and other high-drain devices"
+  },
+  {
+    "ref": "U00303",
+    "text": "- listitem [ref=e301]: Long lasting batteries hold power for up to 10 years in storage"
+  },
+  {
+    "ref": "U00304",
+    "text": "- listitem [ref=e302]: C Alkaline batteries that are made to last. Not to leak"
+  },
+  {
+    "ref": "U00305",
+    "text": "- table [ref=e304]:"
+  },
+  {
+    "ref": "U00306",
+    "text": "- rowgroup [ref=e305]:"
+  },
+  {
+    "ref": "U00307",
+    "text": "- row \"Is Discontinued By Manufacturer ‏ ‎ No\" [ref=e306]:"
+  },
+  {
+    "ref": "U00308",
+    "text": "- rowheader \"Is Discontinued By Manufacturer ‏\" [ref=e307]"
+  },
+  {
+    "ref": "U00309",
+    "text": "- cell \"‎ No\" [ref=e308]"
+  },
+  {
+    "ref": "U00310",
+    "text": "- row \"Product Dimensions ‏ ‎ 2 x 4.1 x 2 inches; 2.34 Ounces\" [ref=e309]:"
+  },
+  {
+    "ref": "U00311",
+    "text": "- rowheader \"Product Dimensions ‏\" [ref=e310]"
+  },
+  {
+    "ref": "U00312",
+    "text": "- cell \"‎ 2 x 4.1 x 2 inches; 2.34 Ounces\" [ref=e311]"
+  },
+  {
+    "ref": "U00313",
+    "text": "- row \"Item model number ‏ ‎ E93FP-8\" [ref=e312]:"
+  },
+  {
+    "ref": "U00314",
+    "text": "- rowheader \"Item model number ‏\" [ref=e313]"
+  },
+  {
+    "ref": "U00315",
+    "text": "- cell \"‎ E93FP-8\" [ref=e314]"
+  },
+  {
+    "ref": "U00316",
+    "text": "- row \"Batteries ‏ ‎ 1 C batteries required.\" [ref=e315]:"
+  },
+  {
+    "ref": "U00317",
+    "text": "- rowheader \"Batteries ‏\" [ref=e316]"
+  },
+  {
+    "ref": "U00318",
+    "text": "- cell \"‎ 1 C batteries required.\" [ref=e317]"
+  },
+  {
+    "ref": "U00319",
+    "text": "- row \"Date First Available ‏ ‎ December 4, 2006\" [ref=e318]:"
+  },
+  {
+    "ref": "U00320",
+    "text": "- rowheader \"Date First Available ‏\" [ref=e319]"
+  },
+  {
+    "ref": "U00321",
+    "text": "- cell \"‎ December 4, 2006\" [ref=e320]"
+  },
+  {
+    "ref": "U00322",
+    "text": "- row \"Manufacturer ‏ ‎ Energizer Batteries- Consumables\" [ref=e321]:"
+  },
+  {
+    "ref": "U00323",
+    "text": "- rowheader \"Manufacturer ‏\" [ref=e322]"
+  },
+  {
+    "ref": "U00324",
+    "text": "- cell \"‎ Energizer Batteries- Consumables\" [ref=e323]"
+  },
+  {
+    "ref": "U00325",
+    "text": "- row \"ASIN ‏ ‎ B0044DA3NS\" [ref=e324]:"
+  },
+  {
+    "ref": "U00326",
+    "text": "- rowheader \"ASIN ‏\" [ref=e325]"
+  },
+  {
+    "ref": "U00327",
+    "text": "- cell \"‎ B0044DA3NS\" [ref=e326]"
+  },
+  {
+    "ref": "U00328",
+    "text": "- row \"Country of Origin ‏ ‎ USA\" [ref=e327]:"
+  },
+  {
+    "ref": "U00329",
+    "text": "- rowheader \"Country of Origin ‏\" [ref=e328]"
+  },
+  {
+    "ref": "U00330",
+    "text": "- cell \"‎ USA\" [ref=e329]"
+  },
+  {
+    "ref": "U00331",
+    "text": "- row \"Domestic Shipping Currently, item can be shipped only within the U.S. and to APO/FPO addresses. For APO/FPO shipments, please check with the manufacturer regarding warranty and support issues.\" [ref=e330]:"
+  },
+  {
+    "ref": "U00332",
+    "text": "- rowheader \"Domestic Shipping\" [ref=e331]"
+  },
+  {
+    "ref": "U00333",
+    "text": "- cell \"Currently, item can be shipped only within the U.S. and to APO/FPO addresses. For APO/FPO shipments, please check with the manufacturer regarding warranty and support issues.\" [ref=e332]"
+  },
+  {
+    "ref": "U00334",
+    "text": "- row \"International Shipping This item can be shipped to select countries outside of the U.S.Learn More\" [ref=e333]:"
+  },
+  {
+    "ref": "U00335",
+    "text": "- rowheader \"International Shipping\" [ref=e334]"
+  },
+  {
+    "ref": "U00336",
+    "text": "- cell \"This item can be shipped to select countries outside of the U.S.Learn More\" [ref=e335]"
+  },
+  {
+    "ref": "U00337",
+    "text": "- row \"#5 in C Batteries\" [ref=e336]:"
+  },
+  {
+    "ref": "U00338",
+    "text": "- columnheader \"#5 in C Batteries\" [ref=e337]"
+  },
+  {
+    "ref": "U00339",
+    "text": "- cell [ref=e338]"
+  },
+  {
+    "ref": "U00340",
+    "text": "- row \"#507 in Sales & Deals\" [ref=e339]:"
+  },
+  {
+    "ref": "U00341",
+    "text": "- columnheader \"#507 in Sales & Deals\" [ref=e340]"
+  },
+  {
+    "ref": "U00342",
+    "text": "- cell [ref=e341]"
+  },
+  {
+    "ref": "U00343",
+    "text": "- tab \"Reviews (12)\" [ref=e342]:"
+  },
+  {
+    "ref": "U00344",
+    "text": "- link \"Reviews (12)\" [ref=e343] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00345",
+    "text": "- /url: \"#reviews\""
+  },
+  {
+    "ref": "U00346",
+    "text": "- text: \"*       * * *\""
+  },
+  {
+    "ref": "U00347",
+    "text": "- contentinfo [ref=e344]:"
+  },
+  {
+    "ref": "U00348",
+    "text": "- generic [ref=e345]:"
+  },
+  {
+    "ref": "U00349",
+    "text": "- generic [ref=e348]:"
+  },
+  {
+    "ref": "U00350",
+    "text": "- generic [ref=e350]:"
+  },
+  {
+    "ref": "U00351",
+    "text": "- text: "
+  },
+  {
+    "ref": "U00352",
+    "text": "- generic [ref=e351]:"
+  },
+  {
+    "ref": "U00353",
+    "text": "- generic [ref=e352]: \"Sign Up for Our Newsletter:\""
+  },
+  {
+    "ref": "U00354",
+    "text": "- textbox \"Sign Up for Our Newsletter:\" [ref=e353]:"
+  },
+  {
+    "ref": "U00355",
+    "text": "- /placeholder: Enter your email address"
+  },
+  {
+    "ref": "U00356",
+    "text": "- button \"Subscribe\" [ref=e355] [cursor=pointer]"
+  },
+  {
+    "ref": "U00357",
+    "text": "- list [ref=e356]:"
+  },
+  {
+    "ref": "U00358",
+    "text": "- listitem [ref=e357]:"
+  },
+  {
+    "ref": "U00359",
+    "text": "- link \"Privacy and Cookie Policy\" [ref=e358] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00360",
+    "text": "- /url: http://127.0.0.1:7770/privacy-policy-cookie-restriction-mode/"
+  },
+  {
+    "ref": "U00361",
+    "text": "- listitem [ref=e359]:"
+  },
+  {
+    "ref": "U00362",
+    "text": "- link \"Search Terms\" [ref=e360] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00363",
+    "text": "- /url: http://127.0.0.1:7770/search/term/popular/"
+  },
+  {
+    "ref": "U00364",
+    "text": "- listitem [ref=e361]:"
+  },
+  {
+    "ref": "U00365",
+    "text": "- link \"Advanced Search\" [ref=e362] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00366",
+    "text": "- /url: http://127.0.0.1:7770/catalogsearch/advanced/"
+  },
+  {
+    "ref": "U00367",
+    "text": "- listitem [ref=e363]:"
+  },
+  {
+    "ref": "U00368",
+    "text": "- link \"Orders and Returns\" [ref=e364] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00369",
+    "text": "- /url: http://127.0.0.1:7770/sales/guest/form/"
+  },
+  {
+    "ref": "U00370",
+    "text": "- listitem [ref=e365]:"
+  },
+  {
+    "ref": "U00371",
+    "text": "- link \"Contact Us\" [ref=e366] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00372",
+    "text": "- /url: http://127.0.0.1:7770/contact/"
+  },
+  {
+    "ref": "U00373",
+    "text": "- generic [ref=e367]: Copyright © 2013-present Magento, Inc. All rights reserved."
+  },
+  {
+    "ref": "U00374",
+    "text": "- generic [ref=e368]:"
+  },
+  {
+    "ref": "U00375",
+    "text": "- text: Help Us Keep Magento Healthy"
+  },
+  {
+    "ref": "U00376",
+    "text": "- link \"Report All Bugs\" [ref=e369] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00377",
+    "text": "- /url: http://www.magentocommerce.com/bug-tracking"
+  }
+]

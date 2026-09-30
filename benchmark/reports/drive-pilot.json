@@ -1,0 +1,885 @@
+{
+  "strategy": "drive",
+  "rule_version": "pilot-v1",
+  "snapshots": 53,
+  "snapshot_urls": 31,
+  "page_types": {
+    "home": 3,
+    "product_detail": 16,
+    "category_list": 25,
+    "account": 5,
+    "unknown": 1,
+    "contact": 2,
+    "advanced_search": 1
+  },
+  "observed_ax_states": 53,
+  "business_states": null,
+  "repeat_visit_rate": null,
+  "snapshot_errors": [
+    {
+      "path": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\x",
+      "error": "[Errno 2] No such file or directory: 'C:\\\\Users\\\\bulin\\\\appweave\\\\outputs\\\\01-evidence\\\\26_09_28_10_40_34-min\\\\drive\\\\screenshots\\\\x\\\\accessibility.json'"
+    }
+  ],
+  "pages": [
+    {
+      "directory": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\000_root",
+      "url": "http://127.0.0.1:7770/",
+      "type": "home",
+      "ax_sha256": "18e15edf31527c717602447b440dc4c077551e51332e45d1caad36571fd59903",
+      "observed_state_hash": "c5f30d0660d5364c4c4dcd714e08847c213fa8a71405b2df506a3b03e0074dfb",
+      "files": {
+        "page.html": true,
+        "accessibility.json": true,
+        "screenshot.png": true
+      }
+    },
+    {
+      "directory": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\001_belle-of-the-ball-princess-sprinkle-mix-wedding-colorful-spr",
+      "url": "http://127.0.0.1:7770/belle-of-the-ball-princess-sprinkle-mix-wedding-colorful-sprinkles-cake-cupcake-cookie-sprinkles-ice-cream-candy-sprinkles-yellow-gold-red-royal-red-rose-icing-flowers-decorating-sprinkles-8oz.html?options=cart",
+      "type": "product_detail",
+      "ax_sha256": "e3c4979c31654b4200fb41f13aec657d0ad23292d2cd2bd497078429bba43450",
+      "observed_state_hash": "6df343400b1b539e524376b9d3b47074b3a015deab69b4dd901ec48f6adcb5da",
+      "files": {
+        "page.html": true,
+        "accessibility.json": true,
+        "screenshot.png": true
+      }
+    },
+    {
+      "directory": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\002_cell-phones-accessories_html",
+      "url": "http://127.0.0.1:7770/cell-phones-accessories.html",
+      "type": "category_list",
+      "ax_sha256": "4d161658fa22ecdf3365145ba4ed5efe15267bada609e75977a62f8033f42775",
+      "observed_state_hash": "e70660530ea4e6de357d56e84ed47c1902ef9c09f14731597280307b60114b33",
+      "files": {
+        "page.html": true,
+        "accessibility.json": true,
+        "screenshot.png": true
+      }
+    },
+    {
+      "directory": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\003_cell-phones-accessories_html",
+      "url": "http://127.0.0.1:7770/cell-phones-accessories.html?p=2",
+      "type": "category_list",
+      "ax_sha256": "f388ece003ce0afb98a76c6a75b1df09d01f1f278ee5de9b5b83cb8d3ca4eb69",
+      "observed_state_hash": "09e90742859bc3e347956c02e591c8489eda81144296f1cf0f02d9663d355fc1",
+      "files": {
+        "page.html": true,
+        "accessibility.json": true,
+        "screenshot.png": true
+      }
+    },
+    {
+      "directory": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\004_cooloo-cell-phone-stand-2-pack-mobile-phone-anti-skid-holder",
+      "url": "http://127.0.0.1:7770/cooloo-cell-phone-stand-2-pack-mobile-phone-anti-skid-holder-cradle-dock-compatible-android-smartphone-phone-11-pro-xs-max-xr-x-8-7-6-6s-plus-5s-accessories-desk-black.html#reviews",
+      "type": "product_detail",
+      "ax_sha256": "9e6d6e927797a8520cbdbcd643f8489d5fbc8e175097ff450030a77cd8695103",
+      "observed_state_hash": "28624db38c0e4aa065ed0384f2bced63668fe2e205f674ba8c918e58cda3eadb",
+      "files": {
+        "page.html": true,
+        "accessibility.json": true,
+        "screenshot.png": true
+      }
+    },
+    {
+      "directory": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\005_electronics_html",
+      "url": "http://127.0.0.1:7770/electronics.html",
+      "type": "category_list",
+      "ax_sha256": "4cdd7059206363c01f0b5dcfa1798b92f52f182cf3258bb2e0ca2e194ec38e6b",
+      "observed_state_hash": "5a37cec0fdc705259be05507197f6e4c7a70764be8a92b1d55cdef4f51f85f1c",
+      "files": {
+        "page.html": true,
+        "accessibility.json": true,
+        "screenshot.png": true
+      }
+    },
+    {
+      "directory": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\006_electronics_html",
+      "url": "http://127.0.0.1:7770/electronics.html",
+      "type": "category_list",
+      "ax_sha256": "fbbf5d68fdff6b5a4152b4445cb2ff32de7b4fc62bf58af1c3424520ed92a645",
+      "observed_state_hash": "58310431603daa817b99ca4b3787b3c98f335c79670bef3e70480e12644163ae",
+      "files": {
+        "page.html": true,
+        "accessibility.json": true,
+        "screenshot.png": true
+      }
+    },
+    {
+      "directory": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\007_electronics_html",
+      "url": "http://127.0.0.1:7770/electronics.html",
+      "type": "category_list",
+      "ax_sha256": "124b5190fb4d3d14f2e00068b1d0d75b83ee2d73682c0eb3057665a70d7c6476",
+      "observed_state_hash": "bf5ef024577737622f01e06d03030f1a7f4ca3ff6faccc0c0aefbb8816880e30",
+      "files": {
+        "page.html": true,
+        "accessibility.json": true,
+        "screenshot.png": true
+      }
+    },
+    {
+      "directory": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\008_electronics_html",
+      "url": "http://127.0.0.1:7770/electronics.html",
+      "type": "category_list",
+      "ax_sha256": "59e5a54a0d897d1e9515098b4043795cf06e905e7cc9cd362bf78bd65b97496f",
+      "observed_state_hash": "4aa02dceab4a77e0bc16663568e2efd7272d0a21345cc4c95457710739d9ae0e",
+      "files": {
+        "page.html": true,
+        "accessibility.json": true,
+        "screenshot.png": true
+      }
+    },
+    {
+      "directory": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\009_customer_account_login",
+      "url": "http://127.0.0.1:7770/customer/account/login/",
+      "type": "account",
+      "ax_sha256": "1a79b943ca37425c95377847887620210e083bfb30e61725c08d35fc148a0161",
+      "observed_state_hash": "b41ed4279f9e17b0f34e94c60d5e688987b94fd5c710a08865b8d3af6373781c",
+      "files": {
+        "page.html": true,
+        "accessibility.json": true,
+        "screenshot.png": true
+      }
+    },
+    {
+      "directory": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\010_electronics_html",
+      "url": "http://127.0.0.1:7770/electronics.html",
+      "type": "category_list",
+      "ax_sha256": "743c7c8cc296d4305a23c97af638dc34a16187c7526d830a29e9dad853c32dc8",
+      "observed_state_hash": "ccb7cc828080da2deb72197024fc53aa4682106e7f6a0f5ee2d7269a58fc955f",
+      "files": {
+        "page.html": true,
+        "accessibility.json": true,
+        "screenshot.png": true
+      }
+    },
+    {
+      "directory": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\011_customer_account_login",
+      "url": "http://127.0.0.1:7770/customer/account/login/",
+      "type": "account",
+      "ax_sha256": "0ec1c1b5fcd63593ac4f169432988d61aad182f8fbd60464b69652eed51e6af5",
+      "observed_state_hash": "b6458d37992233b9d70a118b253a44b63f3519c1d47e9d8d6a938eaa70e6fce1",
+      "files": {
+        "page.html": true,
+        "accessibility.json": true,
+        "screenshot.png": true
+      }
+    },
+    {
+      "directory": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\012_customer_account_login",
+      "url": "http://127.0.0.1:7770/customer/account/login/",
+      "type": "account",
+      "ax_sha256": "35cc3bae38c5a8b800d4800f1a73277f100ee42f685494b92f3151073122acd2",
+      "observed_state_hash": "8ddf28e4bf137794c74c56c4de371dd7baf0e7adba2048f5413eb663f704852e",
+      "files": {
+        "page.html": true,
+        "accessibility.json": true,
+        "screenshot.png": true
+      }
+    },
+    {
+      "directory": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\013_home-kitchen_html",
+      "url": "http://127.0.0.1:7770/home-kitchen.html",
+      "type": "category_list",
+      "ax_sha256": "1f943bf958b6276eb3b5b1f1d30f16b314c44d5745654923cdcd0d5270b3bc03",
+      "observed_state_hash": "3b39758f66864121bce5a175f064b6ffea672a8141ea98aee176e3b7d9290071",
+      "files": {
+        "page.html": true,
+        "accessibility.json": true,
+        "screenshot.png": true
+      }
+    },
+    {
+      "directory": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\014_home-kitchen_html",
+      "url": "http://127.0.0.1:7770/home-kitchen.html?cat=34",
+      "type": "category_list",
+      "ax_sha256": "0cba7440ae0c61d8dd8d4a7118e3ca56139c5f5629dd48bfd13ff94b5e32de11",
+      "observed_state_hash": "95e0bfe0e126b8d714462c5762237d06e96199826a9e0bb4ca7f2952b1daa8a8",
+      "files": {
+        "page.html": true,
+        "accessibility.json": true,
+        "screenshot.png": true
+      }
+    },
+    {
+      "directory": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\015_home-kitchen_html",
+      "url": "http://127.0.0.1:7770/home-kitchen.html?cat=34&product_list_mode=list",
+      "type": "category_list",
+      "ax_sha256": "942b69e78eedc5b3390d6c10b226b584e4e79507b3197b9cfb5f35e1a463d19b",
+      "observed_state_hash": "6bda05eeaf4b3ccf63037d85ddd42cbf7b0976ed35aebd0fc7acfceeff039255",
+      "files": {
+        "page.html": true,
+        "accessibility.json": true,
+        "screenshot.png": true
+      }
+    },
+    {
+      "directory": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\016_linxiaojix-waterproof-shell-for-osmo-pocket-camera-case-came",
+      "url": "http://127.0.0.1:7770/linxiaojix-waterproof-shell-for-osmo-pocket-camera-case-camera-cover-diving-cover-for-osmo-pocket-60m-waterproof-for-travel-trip.html",
+      "type": "product_detail",
+      "ax_sha256": "f4d3e41dc000e23f23980d9b817f948bdd53d7e32a1d19dbe0154686933e8fa3",
+      "observed_state_hash": "1b75108ca92fb090af2d96a1408e2372f614d5b06161a216e4db1a0de420b9a6",
+      "files": {
+        "page.html": true,
+        "accessibility.json": true,
+        "screenshot.png": true
+      }
+    },
+    {
+      "directory": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\017_video-games_html",
+      "url": "http://127.0.0.1:7770/video-games.html",
+      "type": "category_list",
+      "ax_sha256": "18315696d8d8133b021e6610184ecc07c8b1862e40e4c4252fb23c0be2e7ab5c",
+      "observed_state_hash": "3db2eb227e292aa4deea4205b902c1a7d37fa0e47da70a1b2e26347651c519d1",
+      "files": {
+        "page.html": true,
+        "accessibility.json": true,
+        "screenshot.png": true
+      }
+    },
+    {
+      "directory": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\018_psp-s110-battery-upgraded-ultra-high-capacity-3600mah-li-ion",
+      "url": "http://127.0.0.1:7770/psp-s110-battery-upgraded-ultra-high-capacity-3600mah-li-ion-replacement-battery-for-sony-psp-1000-psp-110-console-not-compatible-with-psp-2000-or-3000-or-psp-slim.html",
+      "type": "product_detail",
+      "ax_sha256": "541a2350de48c5ae76bcb766b39bc597d50ff233b21c733ecc73d125b436d691",
+      "observed_state_hash": "b6ea0def0317f2f8a20e58986ad964d8e29924c4d5d9c14a8d71b2b0c5a7d930",
+      "files": {
+        "page.html": true,
+        "accessibility.json": true,
+        "screenshot.png": true
+      }
+    },
+    {
+      "directory": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\019_patio-lawn-garden_html",
+      "url": "http://127.0.0.1:7770/patio-lawn-garden.html",
+      "type": "category_list",
+      "ax_sha256": "60ae3daa47bc3721ce00c590023da5a2accd4e9b0aa83aa8170d097dc1bdd8a8",
+      "observed_state_hash": "061b5b4c30cd42e775f8f1b45653277a3e0c0bbb54ba2c1f1a5128a2cdde4e86",
+      "files": {
+        "page.html": true,
+        "accessibility.json": true,
+        "screenshot.png": true
+      }
+    },
+    {
+      "directory": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\020_health-household_html",
+      "url": "http://127.0.0.1:7770/health-household.html",
+      "type": "category_list",
+      "ax_sha256": "6892deea92d7fd72687d6b2f1560ac34b292b8ec808ddd3a759fba3db1c76ef8",
+      "observed_state_hash": "e636047db4d051c1564a884346d8aac53283d8936618388adf35b993a2f23d78",
+      "files": {
+        "page.html": true,
+        "accessibility.json": true,
+        "screenshot.png": true
+      }
+    },
+    {
+      "directory": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\021_health-household_html",
+      "url": "http://127.0.0.1:7770/health-household.html?price=0-100",
+      "type": "category_list",
+      "ax_sha256": "2e61f26a4162a179eacf8e68c877eb0586a817f36127dd91010d1280e3ac808c",
+      "observed_state_hash": "91202318488cdcef1ced3206ab77559b1bedd7a7655011d0be608f0e35dbb353",
+      "files": {
+        "page.html": true,
+        "accessibility.json": true,
+        "screenshot.png": true
+      }
+    },
+    {
+      "directory": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\022_health-household_html",
+      "url": "http://127.0.0.1:7770/health-household.html?price=10-20%2C0-100",
+      "type": "category_list",
+      "ax_sha256": "fa0deff5e130d63a20e47f5baad65823b3710602cd13ca5aa274bfd44bf894ee",
+      "observed_state_hash": "16eb641472f292fd74662319c0f4f981e76fdb0f165c6ebf5c9c8c985301f6a0",
+      "files": {
+        "page.html": true,
+        "accessibility.json": true,
+        "screenshot.png": true
+      }
+    },
+    {
+      "directory": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\023_energizer-max-c-batteries-premium-alkaline-c-cell-batteries-",
+      "url": "http://127.0.0.1:7770/energizer-max-c-batteries-premium-alkaline-c-cell-batteries-8-battery-count.html?options=cart",
+      "type": "product_detail",
+      "ax_sha256": "dbb361ca3327472425a52a1acc3de198c7490d848e18f7e5f53bb615ab1b0df8",
+      "observed_state_hash": "a2fbaf38ef42f7196ea659b9e16a93500c6ed80d1abf4903cfc4b6f69617572b",
+      "files": {
+        "page.html": true,
+        "accessibility.json": true,
+        "screenshot.png": true
+      }
+    },
+    {
+      "directory": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\024_dp_B004U429AQ_ref_emc_b_5_i",
+      "url": "http://127.0.0.1:7770/dp/B004U429AQ/ref=emc_b_5_i",
+      "type": "unknown",
+      "ax_sha256": "8e373c7bd4b115cc1079c33d2b67db6ddb539555b0eafef5ba328f270afd77e4",
+      "observed_state_hash": "215b4a352e317a5551e41e8dacb3baab470b2343af3961046d3d17c427204f74",
+      "files": {
+        "page.html": true,
+        "accessibility.json": true,
+        "screenshot.png": true
+      }
+    },
+    {
+      "directory": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\025_root",
+      "url": "http://127.0.0.1:7770/",
+      "type": "home",
+      "ax_sha256": "87a2b67e5f5cf2e4ca4435542d40b8ee02ce8f7033803a0bfd1b3b9b5c018ed2",
+      "observed_state_hash": "f192c4e4a4dc27b8cb91f6dc1056076668e1ec2a03eae8eb95f8dc61d5cd42d1",
+      "files": {
+        "page.html": true,
+        "accessibility.json": true,
+        "screenshot.png": true
+      }
+    },
+    {
+      "directory": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\026_root",
+      "url": "http://127.0.0.1:7770/",
+      "type": "home",
+      "ax_sha256": "0088dc7e68f673ad00c275c52b09423cf69b387ba864737d3ca8e9a404293082",
+      "observed_state_hash": "6fce208173cb612cf740e6dae27b49850807b3613834b98d01093dfe8cc37bb3",
+      "files": {
+        "page.html": true,
+        "accessibility.json": true,
+        "screenshot.png": true
+      }
+    },
+    {
+      "directory": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\027_briess-dme-pilsen-light-1-lb-bag_html",
+      "url": "http://127.0.0.1:7770/briess-dme-pilsen-light-1-lb-bag.html",
+      "type": "product_detail",
+      "ax_sha256": "ecfc1f7009022169a7072ca212acb264741950f7657a20d57fa8327dbf5a9008",
+      "observed_state_hash": "1a62c5259e31f92012517a8b7a994ff03e9a2e9049a11bd2370ff87d5de373c6",
+      "files": {
+        "page.html": true,
+        "accessibility.json": true,
+        "screenshot.png": true
+      }
+    },
+    {
+      "directory": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\028_video-games_html",
+      "url": "http://127.0.0.1:7770/video-games.html",
+      "type": "category_list",
+      "ax_sha256": "77a9317617e406a293a09517f5a819fa80b00a5224c1b50382717136408e616f",
+      "observed_state_hash": "d8afd48bd82d682fa9331ea4618f12d6b14929f9ffd5e4925e2e7e0233fc5dda",
+      "files": {
+        "page.html": true,
+        "accessibility.json": true,
+        "screenshot.png": true
+      }
+    },
+    {
+      "directory": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\029_cell-phones-accessories_html",
+      "url": "http://127.0.0.1:7770/cell-phones-accessories.html",
+      "type": "category_list",
+      "ax_sha256": "fe63b79b977c279aa3376dbd77ac2a4b6bd39130b018238ee1de9868d5cf1aea",
+      "observed_state_hash": "70ad2313bd3eb9f8217dac77aa8915517dd6fa821dd6249f089b1691b502c1c4",
+      "files": {
+        "page.html": true,
+        "accessibility.json": true,
+        "screenshot.png": true
+      }
+    },
+    {
+      "directory": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\030_sports-outdoors_html",
+      "url": "http://127.0.0.1:7770/sports-outdoors.html",
+      "type": "category_list",
+      "ax_sha256": "7dfea73176fb2315f322e454db49c7e858b86df4d12c2779db009368bd9c1274",
+      "observed_state_hash": "627734c0fc4a0ad082da663a8c038abd5ee08f595a38edc47e153bace9bab3d8",
+      "files": {
+        "page.html": true,
+        "accessibility.json": true,
+        "screenshot.png": true
+      }
+    },
+    {
+      "directory": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\031_patio-lawn-garden_html",
+      "url": "http://127.0.0.1:7770/patio-lawn-garden.html",
+      "type": "category_list",
+      "ax_sha256": "85f8f1ea269d756006b8066d246c68c24ed7a89b7350195cad540bd98699e0cd",
+      "observed_state_hash": "9b8361d9b2079a8659fb95ad1fa27601bef5181420a602e0c4ab643f8a56bc8d",
+      "files": {
+        "page.html": true,
+        "accessibility.json": true,
+        "screenshot.png": true
+      }
+    },
+    {
+      "directory": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\032_enevotx-front-door-side-window-covering-alligator-and-cactus",
+      "url": "http://127.0.0.1:7770/enevotx-front-door-side-window-covering-alligator-and-cactus-decor-for-front-door-durable-fabric-decor-for-door-multi-size-door-protector-for-bedroom-home-kitchen-party-decoration.html",
+      "type": "product_detail",
+      "ax_sha256": "2d561b1c381f73a792ed1d75e457fcdf5a69209a36708ac328a89e91fd5c5269",
+      "observed_state_hash": "17059c25c7249d4369141f88a19932209690b1533c433f0dbcbc485e1eb51a57",
+      "files": {
+        "page.html": true,
+        "accessibility.json": true,
+        "screenshot.png": true
+      }
+    },
+    {
+      "directory": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\033_multi-accessory-hub-adapter-by-joby-get-the-right-set-up-for",
+      "url": "http://127.0.0.1:7770/multi-accessory-hub-adapter-by-joby-get-the-right-set-up-for-your-vision-by-attaching-all-the-gopro-accessories-you-need-in-one-central-spot.html",
+      "type": "product_detail",
+      "ax_sha256": "fc043ac4f4ad9411a4b972e2531fcffe68e382457821d26501164096b7797416",
+      "observed_state_hash": "571d77a6032689761ca1c66e8709af3858aa73396c67fc6f8d44b99841a915b1",
+      "files": {
+        "page.html": true,
+        "accessibility.json": true,
+        "screenshot.png": true
+      }
+    },
+    {
+      "directory": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\034_beauty-personal-care_html",
+      "url": "http://127.0.0.1:7770/beauty-personal-care.html",
+      "type": "category_list",
+      "ax_sha256": "0743de4cf1c23ef213d986d3703d66b15be72539364a8c04cd60d05c096c6c73",
+      "observed_state_hash": "42cfb9ae776b769d984ef318362c15fc4832cc9bd6be488d3949cbdac728f191",
+      "files": {
+        "page.html": true,
+        "accessibility.json": true,
+        "screenshot.png": true
+      }
+    },
+    {
+      "directory": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\035_q-mixers-premium-ginger-ale-real-ingredients-less-sweet-6-7-",
+      "url": "http://127.0.0.1:7770/q-mixers-premium-ginger-ale-real-ingredients-less-sweet-6-7-fl-oz-24-bottles.html",
+      "type": "product_detail",
+      "ax_sha256": "6de73d5335715776e54b5551ea9ab65a4d38c274a0d67cac2a6c42934141ef80",
+      "observed_state_hash": "be9109ba22c5414f0a79f43129bce32068b9045abd6f647a13fe6afb430de3e3",
+      "files": {
+        "page.html": true,
+        "accessibility.json": true,
+        "screenshot.png": true
+      }
+    },
+    {
+      "directory": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\036_q-mixers-premium-ginger-ale-real-ingredients-less-sweet-6-7-",
+      "url": "http://127.0.0.1:7770/q-mixers-premium-ginger-ale-real-ingredients-less-sweet-6-7-fl-oz-24-bottles.html",
+      "type": "product_detail",
+      "ax_sha256": "c2817af2ac3815d7f5d676f78de3bff83fbf426711c9ba90df8503ea58b60a62",
+      "observed_state_hash": "188875f4a1d2df721d065f6061fdf8c5796569495d77d3bc1e4b9bed71353f82",
+      "files": {
+        "page.html": true,
+        "accessibility.json": true,
+        "screenshot.png": true
+      }
+    },
+    {
+      "directory": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\037_clothing-shoes-jewelry_html",
+      "url": "http://127.0.0.1:7770/clothing-shoes-jewelry.html",
+      "type": "category_list",
+      "ax_sha256": "60f2106d5219e4bea3f50952e3f07ad5291284945ae1ca1ac0ac7802334931d8",
+      "observed_state_hash": "ab735de8c34ccdc8340603010f0408352c9172b18bf77555a4d1970b558d0fe6",
+      "files": {
+        "page.html": true,
+        "accessibility.json": true,
+        "screenshot.png": true
+      }
+    },
+    {
+      "directory": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\038_clothing-shoes-jewelry_html",
+      "url": "http://127.0.0.1:7770/clothing-shoes-jewelry.html",
+      "type": "category_list",
+      "ax_sha256": "ac0f8e1db5293930f860a4857181dc86e990b6d133e6a569376170d0163c892c",
+      "observed_state_hash": "5db37585dca6365119ee6ee4ed3bb6829a30368d2e1b994aa400c651ed8a7620",
+      "files": {
+        "page.html": true,
+        "accessibility.json": true,
+        "screenshot.png": true
+      }
+    },
+    {
+      "directory": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\039_clothing-shoes-jewelry_html",
+      "url": "http://127.0.0.1:7770/clothing-shoes-jewelry.html",
+      "type": "category_list",
+      "ax_sha256": "c1f536eeda625648a78685447a7b430f0cc0379218c021631ec84bb0de2dcf52",
+      "observed_state_hash": "7cca70661205ef1c80d2a39aa8e4285c659ca662245c917e92c25fa56e3f42ae",
+      "files": {
+        "page.html": true,
+        "accessibility.json": true,
+        "screenshot.png": true
+      }
+    },
+    {
+      "directory": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\040_hfhapw-onesie-pajamas-for-women-women-s-valentines-day-sexy-",
+      "url": "http://127.0.0.1:7770/hfhapw-onesie-pajamas-for-women-women-s-valentines-day-sexy-jumpsuit-v-neck-button-down-red-lip-printed-one-piece-pajamas.html",
+      "type": "product_detail",
+      "ax_sha256": "962790b0c8f840e19a22419b023b6ab809da88866d40c09b05290ab65e6a2bc6",
+      "observed_state_hash": "b2ebc421dfcc5e4d13bae021896506ea5404fa6f2788251f593a78c5621cd490",
+      "files": {
+        "page.html": true,
+        "accessibility.json": true,
+        "screenshot.png": true
+      }
+    },
+    {
+      "directory": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\041_home-kitchen_html",
+      "url": "http://127.0.0.1:7770/home-kitchen.html",
+      "type": "category_list",
+      "ax_sha256": "597d8867a5d8440904f282ac02249605dcb408adb64ad05df723a643c9d0ed14",
+      "observed_state_hash": "a833fcebfeb08bed3f5dc46cf0f2e89e8b8e7dc8f9777ff7e253d995d205cabc",
+      "files": {
+        "page.html": true,
+        "accessibility.json": true,
+        "screenshot.png": true
+      }
+    },
+    {
+      "directory": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\042_customer_account_login",
+      "url": "http://127.0.0.1:7770/customer/account/login/",
+      "type": "account",
+      "ax_sha256": "32d81e19c910eca316735b6b47a0b23f939e04003e0fb38248bbc08ed308e89f",
+      "observed_state_hash": "182b376de767ca3df21b84577c814fd82ad5b81fd2962b43ada9d3838d0697ad",
+      "files": {
+        "page.html": true,
+        "accessibility.json": true,
+        "screenshot.png": true
+      }
+    },
+    {
+      "directory": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\043_contact",
+      "url": "http://127.0.0.1:7770/contact/",
+      "type": "contact",
+      "ax_sha256": "a6c8e5f9572318e4ea09dc6e7d1391dbf914a58535add0aa24fac798ba378971",
+      "observed_state_hash": "fbe826cc4fa829b1ce3f6938bc0696b20f4ce3879e78f357c0c473632a5c2067",
+      "files": {
+        "page.html": true,
+        "accessibility.json": true,
+        "screenshot.png": true
+      }
+    },
+    {
+      "directory": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\044_contact",
+      "url": "http://127.0.0.1:7770/contact/",
+      "type": "contact",
+      "ax_sha256": "1797063cf914f67b7a1ffbdd581ccdb7f873e4964500392a5e4a6ef4f7697972",
+      "observed_state_hash": "5b7bd57737fee1c189151e450ec09b2adf2709b3e7935cb94b2f1b96d55979e5",
+      "files": {
+        "page.html": true,
+        "accessibility.json": true,
+        "screenshot.png": true
+      }
+    },
+    {
+      "directory": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\045_zosi-h-265-poe-home-security-camera-system-outdoor-indoor-8-",
+      "url": "http://127.0.0.1:7770/zosi-h-265-poe-home-security-camera-system-outdoor-indoor-8-channel-5mp-poe-nvr-recorder-4pcs-wired-2mp-1080p-surveillance-bullet-poe-ip-cameras-no-hard-drive-renewed.html",
+      "type": "product_detail",
+      "ax_sha256": "9f8bc8c2de38634f3748ef5111d60889a2c970ac301402f5a2c9f465fd7c84ff",
+      "observed_state_hash": "aced79228ed881e8739183a5ffcd3ed3e3f3d68807afc178bbae0b13ed0984da",
+      "files": {
+        "page.html": true,
+        "accessibility.json": true,
+        "screenshot.png": true
+      }
+    },
+    {
+      "directory": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\046_zosi-h-265-poe-home-security-camera-system-outdoor-indoor-8-",
+      "url": "http://127.0.0.1:7770/zosi-h-265-poe-home-security-camera-system-outdoor-indoor-8-channel-5mp-poe-nvr-recorder-4pcs-wired-2mp-1080p-surveillance-bullet-poe-ip-cameras-no-hard-drive-renewed.html",
+      "type": "product_detail",
+      "ax_sha256": "736b16a5f5fc03b096f58288a344c001ed8f8f8b1621b4f0e1c160110b4e05b1",
+      "observed_state_hash": "86886bd0f263e4c369131974b4d8013763c60a19d959c4e7c0a9df27b9c7aee7",
+      "files": {
+        "page.html": true,
+        "accessibility.json": true,
+        "screenshot.png": true
+      }
+    },
+    {
+      "directory": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\047_zosi-h-265-poe-home-security-camera-system-outdoor-indoor-8-",
+      "url": "http://127.0.0.1:7770/zosi-h-265-poe-home-security-camera-system-outdoor-indoor-8-channel-5mp-poe-nvr-recorder-4pcs-wired-2mp-1080p-surveillance-bullet-poe-ip-cameras-no-hard-drive-renewed.html",
+      "type": "product_detail",
+      "ax_sha256": "620ca0f30965444eb372ea2888bbc8f9c5865bc22f2bd0b732c3244615d78ded",
+      "observed_state_hash": "eedbda028c36cdfa0e03fb446c27a3f55f823cfef561e0b7bf3d6d35b72c647c",
+      "files": {
+        "page.html": true,
+        "accessibility.json": true,
+        "screenshot.png": true
+      }
+    },
+    {
+      "directory": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\048_patio-lawn-garden_html",
+      "url": "http://127.0.0.1:7770/patio-lawn-garden.html",
+      "type": "category_list",
+      "ax_sha256": "8fade14af2c377d44faa13aacfad2ba82a1dcdba9eedc4d8fc56122c62f2d81b",
+      "observed_state_hash": "9915974c0e493cc8b286336751fb4fc58f4e882eccce9522d59f219cdc1f4636",
+      "files": {
+        "page.html": true,
+        "accessibility.json": true,
+        "screenshot.png": true
+      }
+    },
+    {
+      "directory": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\049_mmqq-beige-bar-chairs-outdoor-patio-wicker-rattan-barstools-",
+      "url": "http://127.0.0.1:7770/mmqq-beige-bar-chairs-outdoor-patio-wicker-rattan-barstools-chair-with-footrest-back-counter-height-kitchen-stools-with-black-metal-leg-for-kitchen-pub-cafe.html?options=cart",
+      "type": "product_detail",
+      "ax_sha256": "57881f19ff0d67458284c70644cca15a44505ff8dbb077ba7c0a8714eac2d177",
+      "observed_state_hash": "fa9841b8b86f409482de33f36690fdc21a098a438d3bee4ab2df9bdaedaf7652",
+      "files": {
+        "page.html": true,
+        "accessibility.json": true,
+        "screenshot.png": true
+      }
+    },
+    {
+      "directory": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\050_mmqq-beige-bar-chairs-outdoor-patio-wicker-rattan-barstools-",
+      "url": "http://127.0.0.1:7770/mmqq-beige-bar-chairs-outdoor-patio-wicker-rattan-barstools-chair-with-footrest-back-counter-height-kitchen-stools-with-black-metal-leg-for-kitchen-pub-cafe.html?options=cart",
+      "type": "product_detail",
+      "ax_sha256": "3182ee5804578e360436c123d67c7235a8e68ada6a5c23ca68999b2483d8ad6c",
+      "observed_state_hash": "0313ec2ea261e7bd3c472e8446b5e2df81392de649fae9fd765078950b166ab9",
+      "files": {
+        "page.html": true,
+        "accessibility.json": true,
+        "screenshot.png": true
+      }
+    },
+    {
+      "directory": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\051_customer_account_login",
+      "url": "http://127.0.0.1:7770/customer/account/login/",
+      "type": "account",
+      "ax_sha256": "c6450377c16e545e72e6d39a13a638ef88a7f19b88a085f8eb5109ed48becc47",
+      "observed_state_hash": "8e5cd3ac5f3c715bd89519dd4bffcc7f1961f70ebd3dec8e6dc594cd8f6fb435",
+      "files": {
+        "page.html": true,
+        "accessibility.json": true,
+        "screenshot.png": true
+      }
+    },
+    {
+      "directory": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\052_catalogsearch_advanced",
+      "url": "http://127.0.0.1:7770/catalogsearch/advanced/",
+      "type": "advanced_search",
+      "ax_sha256": "718cf9662d99633178d052260123596e8403c9d9d1b9e531ba3e3a46410f2c09",
+      "observed_state_hash": "7c6097f2b617b7c506304ed852836fa38ea4ca8ad71e287bba4f7d48703ff919",
+      "files": {
+        "page.html": true,
+        "accessibility.json": true,
+        "screenshot.png": true
+      }
+    }
+  ],
+  "trace_segments": [
+    {
+      "path": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\trace.segment.000001.jsonl",
+      "parsed_lines": 7419,
+      "invalid_lines": 0
+    },
+    {
+      "path": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\trace.segment.000002.jsonl",
+      "parsed_lines": 4455,
+      "invalid_lines": 0
+    },
+    {
+      "path": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\trace.segment.000003.jsonl",
+      "parsed_lines": 8883,
+      "invalid_lines": 0
+    },
+    {
+      "path": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\trace.segment.000004.jsonl",
+      "parsed_lines": 4503,
+      "invalid_lines": 0
+    },
+    {
+      "path": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\trace.segment.000005.jsonl",
+      "parsed_lines": 9278,
+      "invalid_lines": 0
+    },
+    {
+      "path": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\trace.segment.000006.jsonl",
+      "parsed_lines": 8214,
+      "invalid_lines": 0
+    },
+    {
+      "path": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\trace.segment.000007.jsonl",
+      "parsed_lines": 8103,
+      "invalid_lines": 0
+    },
+    {
+      "path": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\trace.segment.000008.jsonl",
+      "parsed_lines": 5989,
+      "invalid_lines": 0
+    },
+    {
+      "path": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\trace.segment.000009.jsonl",
+      "parsed_lines": 8932,
+      "invalid_lines": 0
+    },
+    {
+      "path": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\trace.segment.000010.jsonl",
+      "parsed_lines": 4518,
+      "invalid_lines": 0
+    },
+    {
+      "path": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\trace.segment.000011.jsonl",
+      "parsed_lines": 8846,
+      "invalid_lines": 0
+    },
+    {
+      "path": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\trace.segment.000012.jsonl",
+      "parsed_lines": 4927,
+      "invalid_lines": 0
+    },
+    {
+      "path": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\trace.segment.000013.jsonl",
+      "parsed_lines": 8927,
+      "invalid_lines": 0
+    },
+    {
+      "path": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\trace.segment.000014.jsonl",
+      "parsed_lines": 5279,
+      "invalid_lines": 0
+    },
+    {
+      "path": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\trace.segment.000015.jsonl",
+      "parsed_lines": 8292,
+      "invalid_lines": 0
+    },
+    {
+      "path": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\trace.segment.000016.jsonl",
+      "parsed_lines": 12096,
+      "invalid_lines": 0
+    },
+    {
+      "path": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\trace.segment.000017.jsonl",
+      "parsed_lines": 3923,
+      "invalid_lines": 0
+    },
+    {
+      "path": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\trace.segment.000018.jsonl",
+      "parsed_lines": 5003,
+      "invalid_lines": 0
+    },
+    {
+      "path": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\trace.segment.000019.jsonl",
+      "parsed_lines": 1663,
+      "invalid_lines": 0
+    },
+    {
+      "path": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\trace.segment.000020.jsonl",
+      "parsed_lines": 4945,
+      "invalid_lines": 0
+    },
+    {
+      "path": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\trace.segment.000021.jsonl",
+      "parsed_lines": 4516,
+      "invalid_lines": 0
+    },
+    {
+      "path": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\trace.segment.000022.jsonl",
+      "parsed_lines": 5763,
+      "invalid_lines": 0
+    },
+    {
+      "path": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\trace.segment.000023.jsonl",
+      "parsed_lines": 19,
+      "invalid_lines": 0
+    },
+    {
+      "path": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\trace.segment.000024.jsonl",
+      "parsed_lines": 5484,
+      "invalid_lines": 0
+    },
+    {
+      "path": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\trace.segment.000026.jsonl",
+      "parsed_lines": 4436,
+      "invalid_lines": 0
+    },
+    {
+      "path": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\trace.segment.000027.jsonl",
+      "parsed_lines": 4804,
+      "invalid_lines": 0
+    },
+    {
+      "path": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\trace.segment.000028.jsonl",
+      "parsed_lines": 5060,
+      "invalid_lines": 0
+    },
+    {
+      "path": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\trace.segment.000029.jsonl",
+      "parsed_lines": 9028,
+      "invalid_lines": 0
+    },
+    {
+      "path": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\trace.segment.000030.jsonl",
+      "parsed_lines": 4728,
+      "invalid_lines": 0
+    },
+    {
+      "path": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\trace.segment.000031.jsonl",
+      "parsed_lines": 8322,
+      "invalid_lines": 0
+    },
+    {
+      "path": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\trace.segment.000032.jsonl",
+      "parsed_lines": 4802,
+      "invalid_lines": 0
+    },
+    {
+      "path": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\trace.segment.000033.jsonl",
+      "parsed_lines": 771,
+      "invalid_lines": 0
+    },
+    {
+      "path": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\trace.segment.000034.jsonl",
+      "parsed_lines": 3856,
+      "invalid_lines": 0
+    },
+    {
+      "path": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\trace.segment.000035.jsonl",
+      "parsed_lines": 1809,
+      "invalid_lines": 0
+    },
+    {
+      "path": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\trace.segment.000036.jsonl",
+      "parsed_lines": 5393,
+      "invalid_lines": 0
+    },
+    {
+      "path": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\trace.segment.000037.jsonl",
+      "parsed_lines": 4625,
+      "invalid_lines": 0
+    },
+    {
+      "path": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\trace.segment.000038.jsonl",
+      "parsed_lines": 7748,
+      "invalid_lines": 0
+    }
+  ],
+  "trace_summaries": [
+    {
+      "path": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\trace.segments.summary.json",
+      "data": {
+        "totalSegments": 39,
+        "completedSegments": 37,
+        "failedSegments": 2,
+        "totalDurationMs": 441231,
+        "totalEventCount": 215359,
+        "avgSegmentDurationMs": 11925.162162162162,
+        "maxSegmentDurationMs": 17088,
+        "minSegmentDurationMs": 287,
+        "avgEventCount": 5820.513513513513,
+        "maxEventCount": 12096,
+        "minEventCount": 19,
+        "maxSwitchGapMs": null,
+        "dataLossOccurred": true,
+        "startedAt": 1790563238055,
+        "stoppedAt": 1790563816220
+      }
+    }
+  ],
+  "limitations": [
+    "AX state hash includes data values; not independent business-state count",
+    "Snapshots are samples, not visit events; repeat visits unknown",
+    "Parseability does not prove temporal/network completeness"
+  ],
+  "native_result": {
+    "steps": 157,
+    "visited_urls": 31,
+    "trail_statuses": {
+      "visited": 31,
+      "pending": 653
+    },
+    "elapsed_s": 569.177
+  }
+}

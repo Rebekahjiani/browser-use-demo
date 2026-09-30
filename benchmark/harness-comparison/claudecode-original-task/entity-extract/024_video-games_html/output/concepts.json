@@ -1,0 +1,104 @@
+{
+  "concepts": [
+    {
+      "canonical_name": "商品分类",
+      "concept_type": "business_entity",
+      "description": "Video Games 商品分类页，展示分类名称、商品数量、排序方式及筛选选项。",
+      "aliases": [
+        "Category",
+        "分类"
+      ],
+      "attributes": [
+        {
+          "name": "分类名称",
+          "note": "页面标题（heading）",
+          "source_refs": [
+            "page.aria.yml:heading:Video Games Items 1-12 of 932"
+          ]
+        },
+        {
+          "name": "商品数量",
+          "note": "Items 1-12 of 932 段落",
+          "source_refs": [
+            "page.aria.yml:paragraph:Items 1-12 of 932"
+          ]
+        },
+        {
+          "name": "排序方式",
+          "note": "Sort By 下拉框",
+          "source_refs": [
+            "page.aria.yml:combobox:Sort By"
+          ]
+        }
+      ],
+      "evidence_refs": [],
+      "api_refs": [],
+      "page_refs": [
+        "024_video-games_html"
+      ]
+    },
+    {
+      "canonical_name": "商品",
+      "concept_type": "business_entity",
+      "description": "Video Games 分类列表中的商品条目，含名称、评分、评论数与价格，支持加购、加入愿望清单、加入对比、查看详情。",
+      "aliases": [
+        "Product",
+        "product"
+      ],
+      "attributes": [
+        {
+          "name": "名称",
+          "note": "列表项中商品名链接",
+          "source_refs": [
+            "page.aria.yml:listitem:strong:link"
+          ]
+        },
+        {
+          "name": "评分",
+          "note": "Rating: 标签",
+          "source_refs": [
+            "page.aria.yml:generic:Rating:"
+          ]
+        },
+        {
+          "name": "评论数",
+          "note": "N Reviews 链接",
+          "source_refs": [
+            "page.aria.yml:link:Review"
+          ]
+        },
+        {
+          "name": "Price",
+          "note": "商品价格文本",
+          "source_refs": [
+            "page.aria.yml:generic"
+          ]
+        }
+      ],
+      "evidence_refs": [
+        "E019"
+      ],
+      "api_refs": [
+        "E019"
+      ],
+      "page_refs": [
+        "024_video-games_html"
+      ]
+    },
+    {
+      "canonical_name": "商品-查看详情",
+      "concept_type": "operation",
+      "description": "点击列表商品链接跳转到 PSP-S110 电池商品详情页（GET /psp-s110-battery-...html）。",
+      "belongs_to_entity": "商品",
+      "evidence_refs": [
+        "E019"
+      ],
+      "api_refs": [
+        "E019"
+      ]
+    }
+  ],
+  "notes": [
+    "E019（GET /psp-s110-...html）为列表商品详情页导航，作为商品实体及商品-查看详情的 api_ref；会话端点 E017（/customer/account/ 302）、E018（/customer/account/login/）及静态模板端点未计入 api_refs。"
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "concepts": [
+    {
+      "canonical_name": "商品",
+      "concept_type": "business_entity",
+      "description": "高级搜索（Catalog Advanced Search）表单可检索的目标对象：按名称、SKU、描述、短描述及价格条件筛选商品。",
+      "aliases": [
+        "Product",
+        "product"
+      ],
+      "attributes": [
+        {
+          "name": "Product Name",
+          "note": "搜索表单输入框 label",
+          "source_refs": [
+            "page.aria.yml:textbox:Product Name"
+          ]
+        },
+        {
+          "name": "SKU",
+          "note": "搜索表单输入框 label",
+          "source_refs": [
+            "page.aria.yml:textbox:SKU"
+          ]
+        },
+        {
+          "name": "Description",
+          "note": "搜索表单输入框 label",
+          "source_refs": [
+            "page.aria.yml:textbox:Description"
+          ]
+        },
+        {
+          "name": "Short Description",
+          "note": "搜索表单输入框 label",
+          "source_refs": [
+            "page.aria.yml:textbox:Short Description"
+          ]
+        },
+        {
+          "name": "Price",
+          "note": "搜索表单价格区间输入框 label",
+          "source_refs": [
+            "page.aria.yml:textbox:Price"
+          ]
+        },
+        {
+          "name": "USD",
+          "note": "价格币种输入框 label",
+          "source_refs": [
+            "page.aria.yml:textbox:USD"
+          ]
+        }
+      ],
+      "evidence_refs": [],
+      "api_refs": [],
+      "page_refs": [
+        "004_catalogsearch_advanced"
+      ]
+    },
+    {
+      "canonical_name": "商品-搜索",
+      "concept_type": "operation",
+      "description": "填写搜索条件后点击 Search 按钮发起高级搜索。本页仅树锚点（Search 按钮），无对应数据接口证据。",
+      "belongs_to_entity": "商品",
+      "evidence_refs": [
+        "page.aria.yml:button:Search"
+      ],
+      "api_refs": []
+    }
+  ],
+  "notes": [
+    "本页仅捕获到 /customer/account/login/（E017），无搜索数据接口；操作与实体 api_refs 留空（宁缺勿错）。"
+  ]
+}

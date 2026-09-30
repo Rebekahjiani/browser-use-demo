@@ -1,0 +1,124 @@
+{
+  "concepts": [
+    {
+      "canonical_name": "商品分类",
+      "concept_type": "business_entity",
+      "description": "Cell Phones & Accessories 商品分类页，展示分类名称、商品数量、排序方式及筛选选项。",
+      "aliases": [
+        "Category",
+        "分类"
+      ],
+      "attributes": [
+        {
+          "name": "分类名称",
+          "note": "页面标题（heading）",
+          "source_refs": [
+            "page.aria.yml:heading:Cell Phones & Accessories Items 1-12 of 2449"
+          ]
+        },
+        {
+          "name": "商品数量",
+          "note": "Items 1-12 of 2449 段落",
+          "source_refs": [
+            "page.aria.yml:paragraph:Items 1-12 of 2449"
+          ]
+        },
+        {
+          "name": "排序方式",
+          "note": "Sort By 下拉框",
+          "source_refs": [
+            "page.aria.yml:combobox:Sort By"
+          ]
+        }
+      ],
+      "evidence_refs": [
+        "E006"
+      ],
+      "api_refs": [
+        "E006"
+      ],
+      "page_refs": [
+        "005_cell-phones-accessories_html"
+      ]
+    },
+    {
+      "canonical_name": "商品",
+      "concept_type": "business_entity",
+      "description": "分类列表中的商品条目，含名称、评分、评论数、价格及加购/愿望清单/对比入口。",
+      "aliases": [
+        "Product",
+        "product"
+      ],
+      "attributes": [
+        {
+          "name": "名称",
+          "note": "列表项中商品名链接",
+          "source_refs": [
+            "page.aria.yml:listitem:strong:link"
+          ]
+        },
+        {
+          "name": "评分",
+          "note": "Rating: 标签",
+          "source_refs": [
+            "page.aria.yml:generic:Rating:"
+          ]
+        },
+        {
+          "name": "评论数",
+          "note": "N Reviews 链接",
+          "source_refs": [
+            "page.aria.yml:link:Review"
+          ]
+        },
+        {
+          "name": "Price",
+          "note": "商品价格文本",
+          "source_refs": [
+            "page.aria.yml:generic:Price"
+          ]
+        }
+      ],
+      "evidence_refs": [
+        "E006",
+        "E018",
+        "E020"
+      ],
+      "api_refs": [
+        "E006",
+        "E020"
+      ],
+      "page_refs": [
+        "005_cell-phones-accessories_html"
+      ]
+    },
+    {
+      "canonical_name": "商品-加入愿望清单",
+      "concept_type": "operation",
+      "description": "点击 Add to Wish List 将商品加入愿望清单（POST /wishlist/index/add/）。",
+      "belongs_to_entity": "商品",
+      "evidence_refs": [
+        "E018",
+        "page.aria.yml:button:Add to Wish List"
+      ],
+      "api_refs": [
+        "E018"
+      ]
+    },
+    {
+      "canonical_name": "商品-查看详情",
+      "concept_type": "operation",
+      "description": "点击列表商品跳转详情页（GET 商品页，如 Cooloo 手机支架）。",
+      "belongs_to_entity": "商品",
+      "evidence_refs": [
+        "E020"
+      ],
+      "api_refs": [
+        "E020"
+      ]
+    }
+  ],
+  "notes": [
+    "分类页文档 GET（E006）作为分类与商品列表的数据来源；会话端点 E019（/customer/account/login/）与静态模板端点未计入 api_refs。"
+  ]
+}

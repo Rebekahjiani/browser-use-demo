@@ -2,6 +2,7 @@
 .env
 .browser-profile/
 runs/
+benchmark/outputs/
 __pycache__/
 *.pyc
 .DS_Store

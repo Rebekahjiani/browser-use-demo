@@ -1,0 +1,28 @@
+{
+  "aqi_schema_repair_simulation": {
+    "method": "in-memory attribute.description rename to attribute.note",
+    "fields": 204,
+    "conflicts": 0,
+    "schema_pass_pages": 26,
+    "source_outputs_modified": false
+  },
+  "claude_local_log_provenance": [
+    {
+      "source_file": "C:\\Users\\bulin\\.claude\\projects\\C--Users-bulin-artifacttrace-templates-at-template-tasks-09-21-bu-shopping\\a2a8c566-42f8-4fc8-97e5-196fb10d82f7.jsonl",
+      "source_sha256": "385e2384382b1d55bd3456c130ef2a88c457e711b7314af9d7b0d53bf0c6f2c7",
+      "explicit_task_starts": [
+        "2026-09-29T09:04:16.729Z",
+        "2026-09-29T09:14:27.853Z"
+      ],
+      "completion_messages": [
+        "2026-09-29T11:29:21.219Z"
+      ],
+      "assistant_model_field_counts_after_first_task": {
+        "DeepSeek-V4-Flash-0731": 295
+      },
+      "wall_seconds_first_prompt_to_completion": 8704.49,
+      "interpretation": "Wall interval includes repeated prompts, pauses and compactions; not active inference time. Local assistant model fields corroborate model name, not provider billing proof."
+    }
+  ],
+  "user_reported_elapsed_seconds": 2100
+}

@@ -1,0 +1,518 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e5]:
+      - list [ref=e6]:
+        - listitem [ref=e7]:
+          - link "My Account" [ref=e8] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/customer/account/
+        - listitem [ref=e9]:
+          - link "My Wish List" [ref=e10] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/wishlist/
+        - listitem [ref=e11]:
+          - link "Sign In" [ref=e12] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/customer/account/login/
+        - listitem [ref=e13]:
+          - link "Compare Products 3 items" [ref=e14] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/catalog/product_compare/index/uenc/aHR0cDovLzEyNy4wLjAuMTo3NzcwL2N1c3RvbWVyL3NlY3Rpb24vbG9hZC8_c2VjdGlvbnM9Y29tcGFyZS1wcm9kdWN0cyUyQ21lc3NhZ2VzJmZvcmNlX25ld19zZWN0aW9uX3RpbWVzdGFtcD1mYWxzZSZfPTE3OTA1NjM0NzA5NzY~/
+        - listitem [ref=e15]: Welcome to One Stop Market
+        - listitem [ref=e16]:
+          - link "Create an Account" [ref=e17] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/customer/account/create/
+      - link "Skip to Content" [ref=e18] [cursor=pointer]:
+        - /url: "#contentarea"
+    - generic [ref=e19]:
+      - text: 
+      - link "store logo" [ref=e20] [cursor=pointer]:
+        - /url: http://127.0.0.1:7770/
+        - img "one_stop_market_logo" [ref=e21]
+      - generic [ref=e22]:
+        - link " My Cart 3 3 items" [ref=e23] [cursor=pointer]:
+          - /url: http://127.0.0.1:7770/checkout/cart/
+          - text: 
+          - generic [ref=e24]: My Cart
+          - generic [ref=e25]:
+            - generic [ref=e26]: "3"
+            - generic [ref=e27]: 3 items
+        - text: " : :   :   :  "
+      - generic [ref=e30]:
+        - generic [ref=e31]:
+          - generic [ref=e32]:
+            - text: 
+            - generic [ref=e33]: Search
+          - generic [ref=e34]:
+            - combobox " Search" [ref=e35]
+            - link "Advanced Search" [ref=e37] [cursor=pointer]:
+              - /url: http://127.0.0.1:7770/catalogsearch/advanced/
+        - generic:
+          - button "Search" [disabled]:
+            - text: 
+            - generic: Search
+  - tablist [ref=e39]:
+    - tabpanel [ref=e40]:
+      - navigation [ref=e41]:
+        - menu [ref=e42]:
+          - listitem [ref=e43]:
+            - menuitem " Beauty & Personal Care" [ref=e44] [cursor=pointer]:
+              - generic [ref=e45]: 
+              - text: Beauty & Personal Care
+            - text:          
+          - listitem [ref=e46]:
+            - menuitem " Sports & Outdoors" [ref=e47] [cursor=pointer]:
+              - generic [ref=e48]: 
+              - text: Sports & Outdoors
+            - text:   
+          - listitem [ref=e49]:
+            - menuitem " Clothing, Shoes & Jewelry" [ref=e50] [cursor=pointer]:
+              - generic [ref=e51]: 
+              - text: Clothing, Shoes & Jewelry
+            - text:    
+          - listitem [ref=e52]:
+            - menuitem " Home & Kitchen" [ref=e53] [cursor=pointer]:
+              - generic [ref=e54]: 
+              - text: Home & Kitchen
+            - text:       
+          - listitem [ref=e55]:
+            - menuitem " Office Products" [ref=e56] [cursor=pointer]:
+              - generic [ref=e57]: 
+              - text: Office Products
+            - text:   
+          - listitem [ref=e58]:
+            - menuitem " Tools & Home Improvement" [ref=e59] [cursor=pointer]:
+              - generic [ref=e60]: 
+              - text: Tools & Home Improvement
+            - text: 
+          - listitem [ref=e61]:
+            - menuitem " Health & Household" [ref=e62] [cursor=pointer]:
+              - generic [ref=e63]: 
+              - text: Health & Household
+            - text:  
+          - listitem [ref=e64]:
+            - menuitem " Patio, Lawn & Garden" [ref=e65] [cursor=pointer]:
+              - generic [ref=e66]: 
+              - text: Patio, Lawn & Garden
+            - text: 
+          - listitem [ref=e67]:
+            - menuitem " Electronics" [ref=e68] [cursor=pointer]:
+              - generic [ref=e69]: 
+              - text: Electronics
+            - text:            
+          - listitem [ref=e70]:
+            - menuitem " Cell Phones & Accessories" [ref=e71] [cursor=pointer]:
+              - generic [ref=e72]: 
+              - text: Cell Phones & Accessories
+            - text:  
+          - listitem [ref=e73]:
+            - menuitem " Video Games" [ref=e74] [cursor=pointer]:
+              - generic [ref=e75]: 
+              - text: Video Games
+            - text:    
+          - listitem [ref=e76]:
+            - menuitem " Grocery & Gourmet Food" [ref=e77] [cursor=pointer]:
+              - generic [ref=e78]: 
+              - text: Grocery & Gourmet Food
+            - text:             
+  - main [ref=e79]:
+    - heading "One Stop Market" [level=1] [ref=e81]
+    - alert [ref=e84]:
+      - generic [ref=e86]:
+        - text: " You added product Q Mixers Premium Ginger Ale: Real Ingredients & Less Sweet, 6.7 Fl Oz (24 Bottles) to the"
+        - link "comparison list" [ref=e87] [cursor=pointer]:
+          - /url: http://127.0.0.1:7770/catalog/product_compare/
+        - text: .
+    - generic [ref=e91]:
+      - strong [ref=e93]: Product Showcases
+      - generic [ref=e94]:
+        - list [ref=e96]:
+          - listitem [ref=e97]:
+            - generic [ref=e98]:
+              - link "Image" [ref=e99] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/pre-baked-gingerbread-house-kit-value-pack-17-oz-pack-of-2-total-34-oz.html
+                - img "Image" [ref=e102]
+              - generic [ref=e103]:
+                - strong [ref=e104]:
+                  - link "Pre-baked Gingerbread House Kit Value Pack, 17 oz., Pack of 2, Total 34 oz." [ref=e105] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/pre-baked-gingerbread-house-kit-value-pack-17-oz-pack-of-2-total-34-oz.html
+                - generic [ref=e106]:
+                  - generic [ref=e107]:
+                    - generic [ref=e108]: "Rating:"
+                    - generic "20%" [ref=e109]:
+                      - text: 
+                      - generic [ref=e110]:
+                        - text: 
+                        - generic [ref=e111]: 20%
+                  - link "1 Review" [ref=e113] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/pre-baked-gingerbread-house-kit-value-pack-17-oz-pack-of-2-total-34-oz.html#reviews
+                - generic [ref=e116]: $19.99
+                - generic [ref=e118]:
+                  - button "Add to Cart" [ref=e121] [cursor=pointer]
+                  - generic [ref=e122]:
+                    - link " Add to Wish List" [ref=e123] [cursor=pointer]:
+                      - /url: "#"
+                      - text: 
+                      - generic [ref=e124]: Add to Wish List
+                    - link " Add to Compare" [ref=e125] [cursor=pointer]:
+                      - /url: "#"
+                      - text: 
+                      - generic [ref=e126]: Add to Compare
+          - listitem [ref=e127]:
+            - generic [ref=e128]:
+              - link "Image" [ref=e129] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/v8-energy-healthy-energy-drink-steady-energy-from-black-and-green-tea-pomegranate-blueberry-8-ounce-can-pack-of-24.html
+                - img "Image" [ref=e132]
+              - generic [ref=e133]:
+                - strong [ref=e134]:
+                  - link "V8 +Energy, Healthy Energy Drink, Steady Energy from Black and Green Tea, Pomegranate Blueberry, 8 Ounce Can ,Pack of 24" [ref=e135] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/v8-energy-healthy-energy-drink-steady-energy-from-black-and-green-tea-pomegranate-blueberry-8-ounce-can-pack-of-24.html
+                - generic [ref=e136]:
+                  - generic [ref=e137]:
+                    - generic [ref=e138]: "Rating:"
+                    - generic "57%" [ref=e139]:
+                      - text: 
+                      - generic [ref=e140]:
+                        - text: 
+                        - generic [ref=e141]: 57%
+                  - link "12 Reviews" [ref=e143] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/v8-energy-healthy-energy-drink-steady-energy-from-black-and-green-tea-pomegranate-blueberry-8-ounce-can-pack-of-24.html#reviews
+                - generic [ref=e146]: $14.47
+                - generic [ref=e148]:
+                  - button "Add to Cart" [ref=e151] [cursor=pointer]
+                  - generic [ref=e152]:
+                    - link " Add to Wish List" [ref=e153] [cursor=pointer]:
+                      - /url: "#"
+                      - text: 
+                      - generic [ref=e154]: Add to Wish List
+                    - link " Add to Compare" [ref=e155] [cursor=pointer]:
+                      - /url: "#"
+                      - text: 
+                      - generic [ref=e156]: Add to Compare
+          - listitem [ref=e157]:
+            - generic [ref=e158]:
+              - link "Image" [ref=e159] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/elmwood-inn-fine-teas-orange-vanilla-caffeine-free-fruit-infusion-16-ounce-pouch.html
+                - img "Image" [ref=e162]
+              - generic [ref=e163]:
+                - strong [ref=e164]:
+                  - link "Elmwood Inn Fine Teas, Orange Vanilla Caffeine-free Fruit Infusion, 16-Ounce Pouch" [ref=e165] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/elmwood-inn-fine-teas-orange-vanilla-caffeine-free-fruit-infusion-16-ounce-pouch.html
+                - generic [ref=e166]:
+                  - generic [ref=e167]:
+                    - generic [ref=e168]: "Rating:"
+                    - generic "95%" [ref=e169]:
+                      - text: 
+                      - generic [ref=e170]:
+                        - text: 
+                        - generic [ref=e171]: 95%
+                  - link "4 Reviews" [ref=e173] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/elmwood-inn-fine-teas-orange-vanilla-caffeine-free-fruit-infusion-16-ounce-pouch.html#reviews
+                - generic [ref=e176]: $19.36
+                - generic [ref=e178]:
+                  - button "Add to Cart" [ref=e181] [cursor=pointer]
+                  - generic [ref=e182]:
+                    - link " Add to Wish List" [ref=e183] [cursor=pointer]:
+                      - /url: "#"
+                      - text: 
+                      - generic [ref=e184]: Add to Wish List
+                    - link " Add to Compare" [ref=e185] [cursor=pointer]:
+                      - /url: "#"
+                      - text: 
+                      - generic [ref=e186]: Add to Compare
+          - listitem [ref=e187]:
+            - generic [ref=e188]:
+              - link "Image" [ref=e189] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/belle-of-the-ball-princess-sprinkle-mix-wedding-colorful-sprinkles-cake-cupcake-cookie-sprinkles-ice-cream-candy-sprinkles-yellow-gold-red-royal-red-rose-icing-flowers-decorating-sprinkles-8oz.html
+                - img "Image" [ref=e192]
+              - generic [ref=e193]:
+                - strong [ref=e194]:
+                  - link "Belle Of The Ball Princess Sprinkle Mix| Wedding Colorful Sprinkles| Cake Cupcake Cookie Sprinkles| Ice cream Candy Sprinkles| Yellow Gold Red Royal Red Rose Icing Flowers Decorating Sprinkles, 8OZ" [ref=e195] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/belle-of-the-ball-princess-sprinkle-mix-wedding-colorful-sprinkles-cake-cupcake-cookie-sprinkles-ice-cream-candy-sprinkles-yellow-gold-red-royal-red-rose-icing-flowers-decorating-sprinkles-8oz.html
+                - generic [ref=e196]:
+                  - generic [ref=e197]:
+                    - generic [ref=e198]: "Rating:"
+                    - generic "63%" [ref=e199]:
+                      - text: 
+                      - generic [ref=e200]:
+                        - text: 
+                        - generic [ref=e201]: 63%
+                  - link "12 Reviews" [ref=e203] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/belle-of-the-ball-princess-sprinkle-mix-wedding-colorful-sprinkles-cake-cupcake-cookie-sprinkles-ice-cream-candy-sprinkles-yellow-gold-red-royal-red-rose-icing-flowers-decorating-sprinkles-8oz.html#reviews
+                - generic [ref=e206]: $23.50
+                - generic [ref=e208]:
+                  - button "Add to Cart" [ref=e211] [cursor=pointer]
+                  - generic [ref=e212]:
+                    - link " Add to Wish List" [ref=e213] [cursor=pointer]:
+                      - /url: "#"
+                      - text: 
+                      - generic [ref=e214]: Add to Wish List
+                    - link " Add to Compare" [ref=e215] [cursor=pointer]:
+                      - /url: "#"
+                      - text: 
+                      - generic [ref=e216]: Add to Compare
+          - listitem [ref=e217]:
+            - generic [ref=e218]:
+              - link "Image" [ref=e219] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/so-delicious-dairy-free-cocowhip-light-vegan-non-gmo-project-verified-9-oz-tub.html
+                - img "Image" [ref=e222]
+              - generic [ref=e223]:
+                - strong [ref=e224]:
+                  - link "So Delicious Dairy Free CocoWhip Light, Vegan, Non-GMO Project Verified, 9 oz. Tub" [ref=e225] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/so-delicious-dairy-free-cocowhip-light-vegan-non-gmo-project-verified-9-oz-tub.html
+                - generic [ref=e226]:
+                  - generic [ref=e227]:
+                    - generic [ref=e228]: "Rating:"
+                    - generic "78%" [ref=e229]:
+                      - text: 
+                      - generic [ref=e230]:
+                        - text: 
+                        - generic [ref=e231]: 78%
+                  - link "12 Reviews" [ref=e233] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/so-delicious-dairy-free-cocowhip-light-vegan-non-gmo-project-verified-9-oz-tub.html#reviews
+                - generic [ref=e236]: $15.62
+                - generic [ref=e238]:
+                  - button "Add to Cart" [ref=e241] [cursor=pointer]
+                  - generic [ref=e242]:
+                    - link " Add to Wish List" [ref=e243] [cursor=pointer]:
+                      - /url: "#"
+                      - text: 
+                      - generic [ref=e244]: Add to Wish List
+                    - link " Add to Compare" [ref=e245] [cursor=pointer]:
+                      - /url: "#"
+                      - text: 
+                      - generic [ref=e246]: Add to Compare
+          - listitem [ref=e247]:
+            - generic [ref=e248]:
+              - link "Image" [ref=e249] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/cheongeun-sweet-potato-starch-powder-500g-2ea-sweet-potato-55-corn-45.html
+                - img "Image" [ref=e252]
+              - generic [ref=e253]:
+                - strong [ref=e254]:
+                  - link "Cheongeun Sweet Potato Starch Powder 500g, 2ea(Sweet Potato 55%, Corn 45%)" [ref=e255] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/cheongeun-sweet-potato-starch-powder-500g-2ea-sweet-potato-55-corn-45.html
+                - generic [ref=e258]: $34.00
+                - generic [ref=e260]:
+                  - button "Add to Cart" [ref=e263] [cursor=pointer]
+                  - generic [ref=e264]:
+                    - link " Add to Wish List" [ref=e265] [cursor=pointer]:
+                      - /url: "#"
+                      - text: 
+                      - generic [ref=e266]: Add to Wish List
+                    - link " Add to Compare" [ref=e267] [cursor=pointer]:
+                      - /url: "#"
+                      - text: 
+                      - generic [ref=e268]: Add to Compare
+          - listitem [ref=e269]:
+            - generic [ref=e270]:
+              - link "Image" [ref=e271] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/q-mixers-premium-ginger-ale-real-ingredients-less-sweet-6-7-fl-oz-24-bottles.html
+                - img "Image" [ref=e274]
+              - generic [ref=e275]:
+                - strong [ref=e276]:
+                  - 'link "Q Mixers Premium Ginger Ale: Real Ingredients & Less Sweet, 6.7 Fl Oz (24 Bottles)" [ref=e277] [cursor=pointer]':
+                    - /url: http://127.0.0.1:7770/q-mixers-premium-ginger-ale-real-ingredients-less-sweet-6-7-fl-oz-24-bottles.html
+                - generic [ref=e278]:
+                  - generic [ref=e279]:
+                    - generic [ref=e280]: "Rating:"
+                    - generic "88%" [ref=e281]:
+                      - text: 
+                      - generic [ref=e282]:
+                        - text: 
+                        - generic [ref=e283]: 88%
+                  - link "12 Reviews" [ref=e285] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/q-mixers-premium-ginger-ale-real-ingredients-less-sweet-6-7-fl-oz-24-bottles.html#reviews
+                - generic [ref=e288]: $68.50
+                - generic [ref=e290]:
+                  - button "Add to Cart" [ref=e293] [cursor=pointer]
+                  - generic [ref=e294]:
+                    - link " Add to Wish List" [ref=e295] [cursor=pointer]:
+                      - /url: "#"
+                      - text: 
+                      - generic [ref=e296]: Add to Wish List
+                    - link " Add to Compare" [ref=e297] [cursor=pointer]:
+                      - /url: "#"
+                      - text: 
+                      - generic [ref=e298]: Add to Compare
+          - listitem [ref=e299]:
+            - generic [ref=e300]:
+              - link "Image" [ref=e301] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/stove-top-turkey-stuffing-mix-12-oz-boxes-pack-of-2.html
+                - img "Image" [ref=e304]
+              - generic [ref=e305]:
+                - strong [ref=e306]:
+                  - link "Stove Top Turkey Stuffing Mix (12 oz Boxes, Pack of 2)" [ref=e307] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/stove-top-turkey-stuffing-mix-12-oz-boxes-pack-of-2.html
+                - generic [ref=e308]:
+                  - generic [ref=e309]:
+                    - generic [ref=e310]: "Rating:"
+                    - generic "85%" [ref=e311]:
+                      - text: 
+                      - generic [ref=e312]:
+                        - text: 
+                        - generic [ref=e313]: 85%
+                  - link "12 Reviews" [ref=e315] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/stove-top-turkey-stuffing-mix-12-oz-boxes-pack-of-2.html#reviews
+                - generic [ref=e318]: $8.49
+                - generic [ref=e320]:
+                  - button "Add to Cart" [ref=e323] [cursor=pointer]
+                  - generic [ref=e324]:
+                    - link " Add to Wish List" [ref=e325] [cursor=pointer]:
+                      - /url: "#"
+                      - text: 
+                      - generic [ref=e326]: Add to Wish List
+                    - link " Add to Compare" [ref=e327] [cursor=pointer]:
+                      - /url: "#"
+                      - text: 
+                      - generic [ref=e328]: Add to Compare
+          - listitem [ref=e329]:
+            - generic [ref=e330]:
+              - link "Image" [ref=e331] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/briess-dme-pilsen-light-1-lb-bag.html
+                - img "Image" [ref=e334]
+              - generic [ref=e335]:
+                - strong [ref=e336]:
+                  - link "Briess DME - Pilsen Light - 1 lb Bag" [ref=e337] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/briess-dme-pilsen-light-1-lb-bag.html
+                - generic [ref=e340]: $12.99
+                - generic [ref=e342]:
+                  - button "Add to Cart" [ref=e345] [cursor=pointer]
+                  - generic [ref=e346]:
+                    - link " Add to Wish List" [ref=e347] [cursor=pointer]:
+                      - /url: "#"
+                      - text: 
+                      - generic [ref=e348]: Add to Wish List
+                    - link " Add to Compare" [ref=e349] [cursor=pointer]:
+                      - /url: "#"
+                      - text: 
+                      - generic [ref=e350]: Add to Compare
+          - listitem [ref=e351]:
+            - generic [ref=e352]:
+              - link "Image" [ref=e353] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/tony-chachere-s-more-spice-creole-seasoning-14-oz.html
+                - img "Image" [ref=e356]
+              - generic [ref=e357]:
+                - strong [ref=e358]:
+                  - link "Tony Chachere's More Spice Creole Seasoning - 14 oz" [ref=e359] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/tony-chachere-s-more-spice-creole-seasoning-14-oz.html
+                - generic [ref=e360]:
+                  - generic [ref=e361]:
+                    - generic [ref=e362]: "Rating:"
+                    - generic "75%" [ref=e363]:
+                      - text: 
+                      - generic [ref=e364]:
+                        - text: 
+                        - generic [ref=e365]: 75%
+                  - link "12 Reviews" [ref=e367] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/tony-chachere-s-more-spice-creole-seasoning-14-oz.html#reviews
+                - generic [ref=e370]: $7.92
+                - generic [ref=e372]:
+                  - button "Add to Cart" [ref=e375] [cursor=pointer]
+                  - generic [ref=e376]:
+                    - link " Add to Wish List" [ref=e377] [cursor=pointer]:
+                      - /url: "#"
+                      - text: 
+                      - generic [ref=e378]: Add to Wish List
+                    - link " Add to Compare" [ref=e379] [cursor=pointer]:
+                      - /url: "#"
+                      - text: 
+                      - generic [ref=e380]: Add to Compare
+          - listitem [ref=e381]:
+            - generic [ref=e382]:
+              - link "Image" [ref=e383] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/lobster-cobbler-pot-pie-gourmet-frozen-seafood-appetizers-set-of-8-trays.html
+                - img "Image" [ref=e386]
+              - generic [ref=e387]:
+                - strong [ref=e388]:
+                  - link "Lobster Cobbler Pot Pie - Gourmet Frozen Seafood Appetizers (Set of 8 Trays)" [ref=e389] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/lobster-cobbler-pot-pie-gourmet-frozen-seafood-appetizers-set-of-8-trays.html
+                - generic [ref=e392]: $411.76
+                - generic [ref=e394]:
+                  - button "Add to Cart" [ref=e397] [cursor=pointer]
+                  - generic [ref=e398]:
+                    - link " Add to Wish List" [ref=e399] [cursor=pointer]:
+                      - /url: "#"
+                      - text: 
+                      - generic [ref=e400]: Add to Wish List
+                    - link " Add to Compare" [ref=e401] [cursor=pointer]:
+                      - /url: "#"
+                      - text: 
+                      - generic [ref=e402]: Add to Compare
+          - listitem [ref=e403]:
+            - generic [ref=e404]:
+              - link "Image" [ref=e405] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/crunchy-rice-rollers-gluten-free-vegan-3-5-oz-individual-packs-4-packs-of-8-rollers.html
+                - img "Image" [ref=e408]
+              - generic [ref=e409]:
+                - strong [ref=e410]:
+                  - link "Crunchy Rice Rollers - Gluten Free - Vegan - 3.5 oz Individual Packs (4 Packs of 8 Rollers)" [ref=e411] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/crunchy-rice-rollers-gluten-free-vegan-3-5-oz-individual-packs-4-packs-of-8-rollers.html
+                - generic [ref=e412]:
+                  - generic [ref=e413]:
+                    - generic [ref=e414]: "Rating:"
+                    - generic "83%" [ref=e415]:
+                      - text: 
+                      - generic [ref=e416]:
+                        - text: 
+                        - generic [ref=e417]: 83%
+                  - link "12 Reviews" [ref=e419] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/crunchy-rice-rollers-gluten-free-vegan-3-5-oz-individual-packs-4-packs-of-8-rollers.html#reviews
+                - generic [ref=e422]: $11.50
+                - generic [ref=e424]:
+                  - button "Add to Cart" [ref=e427] [cursor=pointer]
+                  - generic [ref=e428]:
+                    - link " Add to Wish List" [ref=e429] [cursor=pointer]:
+                      - /url: "#"
+                      - text: 
+                      - generic [ref=e430]: Add to Wish List
+                    - link " Add to Compare" [ref=e431] [cursor=pointer]:
+                      - /url: "#"
+                      - text: 
+                      - generic [ref=e432]: Add to Compare
+        - generic [ref=e433]:
+          - paragraph [ref=e434]: Items 1 to 12 of 24 total
+          - generic [ref=e435]:
+            - strong [ref=e436]: Page
+            - list "Page" [ref=e437]:
+              - listitem [ref=e438]:
+                - strong [ref=e439]:
+                  - generic [ref=e440]: You're currently reading page
+                  - text: "1"
+              - listitem [ref=e441]:
+                - link "Page 2" [ref=e442] [cursor=pointer]:
+                  - /url: http://127.0.0.1:7770/?pbaocw=2
+                  - generic [ref=e443]: Page
+                  - text: "2"
+              - listitem [ref=e444]:
+                - link " Page Next" [ref=e445] [cursor=pointer]:
+                  - /url: http://127.0.0.1:7770/?pbaocw=2
+                  - text: 
+                  - generic [ref=e446]: Page
+                  - generic [ref=e447]: Next
+  - contentinfo [ref=e448]:
+    - generic [ref=e449]:
+      - generic [ref=e452]:
+        - generic [ref=e454]:
+          - text: 
+          - generic [ref=e455]:
+            - generic [ref=e456]: "Sign Up for Our Newsletter:"
+            - textbox "Sign Up for Our Newsletter:" [ref=e457]:
+              - /placeholder: Enter your email address
+        - button "Subscribe" [ref=e459] [cursor=pointer]
+      - list [ref=e460]:
+        - listitem [ref=e461]:
+          - link "Privacy and Cookie Policy" [ref=e462] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/privacy-policy-cookie-restriction-mode/
+        - listitem [ref=e463]:
+          - link "Search Terms" [ref=e464] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/search/term/popular/
+        - listitem [ref=e465]:
+          - link "Advanced Search" [ref=e466] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/catalogsearch/advanced/
+        - listitem [ref=e467]:
+          - link "Orders and Returns" [ref=e468] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/sales/guest/form/
+        - listitem [ref=e469]:
+          - link "Contact Us" [ref=e470] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/contact/
+      - generic [ref=e471]: Copyright © 2013-present Magento, Inc. All rights reserved.
+      - generic [ref=e472]:
+        - text: Help Us Keep Magento Healthy
+        - link "Report All Bugs" [ref=e473] [cursor=pointer]:
+          - /url: http://www.magentocommerce.com/bug-tracking

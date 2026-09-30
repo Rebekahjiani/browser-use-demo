@@ -1,0 +1,954 @@
+[
+  {
+    "ref": "U00000",
+    "text": "- generic [ref=e2]:"
+  },
+  {
+    "ref": "U00001",
+    "text": "- banner [ref=e3]:"
+  },
+  {
+    "ref": "U00002",
+    "text": "- generic [ref=e5]:"
+  },
+  {
+    "ref": "U00003",
+    "text": "- list [ref=e6]:"
+  },
+  {
+    "ref": "U00004",
+    "text": "- listitem [ref=e7]:"
+  },
+  {
+    "ref": "U00005",
+    "text": "- link \"My Account\" [ref=e8] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00006",
+    "text": "- /url: http://127.0.0.1:7770/customer/account/"
+  },
+  {
+    "ref": "U00007",
+    "text": "- listitem [ref=e9]:"
+  },
+  {
+    "ref": "U00008",
+    "text": "- link \"My Wish List\" [ref=e10] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00009",
+    "text": "- /url: http://127.0.0.1:7770/wishlist/"
+  },
+  {
+    "ref": "U00010",
+    "text": "- listitem [ref=e11]:"
+  },
+  {
+    "ref": "U00011",
+    "text": "- link \"Sign In\" [ref=e12] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00012",
+    "text": "- /url: http://127.0.0.1:7770/customer/account/login/"
+  },
+  {
+    "ref": "U00013",
+    "text": "- listitem [ref=e13]:"
+  },
+  {
+    "ref": "U00014",
+    "text": "- link \"Compare Products 3 items\" [ref=e14] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00015",
+    "text": "- /url: http://127.0.0.1:7770/catalog/product_compare/index/uenc/aHR0cDovLzEyNy4wLjAuMTo3NzcwL2N1c3RvbWVyL3NlY3Rpb24vbG9hZC8_c2VjdGlvbnM9Y29tcGFyZS1wcm9kdWN0cyUyQ21lc3NhZ2VzJmZvcmNlX25ld19zZWN0aW9uX3RpbWVzdGFtcD1mYWxzZSZfPTE3OTA1NjM0NzA5NzY~/"
+  },
+  {
+    "ref": "U00016",
+    "text": "- listitem [ref=e15]: Welcome to One Stop Market"
+  },
+  {
+    "ref": "U00017",
+    "text": "- listitem [ref=e16]:"
+  },
+  {
+    "ref": "U00018",
+    "text": "- link \"Create an Account\" [ref=e17] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00019",
+    "text": "- /url: http://127.0.0.1:7770/customer/account/create/"
+  },
+  {
+    "ref": "U00020",
+    "text": "- link \"Skip to Content\" [ref=e18] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00021",
+    "text": "- /url: \"#contentarea\""
+  },
+  {
+    "ref": "U00022",
+    "text": "- generic [ref=e19]:"
+  },
+  {
+    "ref": "U00023",
+    "text": "- text: "
+  },
+  {
+    "ref": "U00024",
+    "text": "- link \"store logo\" [ref=e20] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00025",
+    "text": "- /url: http://127.0.0.1:7770/"
+  },
+  {
+    "ref": "U00026",
+    "text": "- img \"one_stop_market_logo\" [ref=e21]"
+  },
+  {
+    "ref": "U00027",
+    "text": "- generic [ref=e22]:"
+  },
+  {
+    "ref": "U00028",
+    "text": "- link \" My Cart 3 3 items\" [ref=e23] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00029",
+    "text": "- /url: http://127.0.0.1:7770/checkout/cart/"
+  },
+  {
+    "ref": "U00030",
+    "text": "- text: "
+  },
+  {
+    "ref": "U00031",
+    "text": "- generic [ref=e24]: My Cart"
+  },
+  {
+    "ref": "U00032",
+    "text": "- generic [ref=e25]:"
+  },
+  {
+    "ref": "U00033",
+    "text": "- generic [ref=e26]: \"3\""
+  },
+  {
+    "ref": "U00034",
+    "text": "- generic [ref=e27]: 3 items"
+  },
+  {
+    "ref": "U00035",
+    "text": "- text: \" : :   :   :  \""
+  },
+  {
+    "ref": "U00036",
+    "text": "- generic [ref=e30]:"
+  },
+  {
+    "ref": "U00037",
+    "text": "- generic [ref=e31]:"
+  },
+  {
+    "ref": "U00038",
+    "text": "- generic [ref=e32]:"
+  },
+  {
+    "ref": "U00039",
+    "text": "- text: "
+  },
+  {
+    "ref": "U00040",
+    "text": "- generic [ref=e33]: Search"
+  },
+  {
+    "ref": "U00041",
+    "text": "- generic [ref=e34]:"
+  },
+  {
+    "ref": "U00042",
+    "text": "- combobox \" Search\" [ref=e35]"
+  },
+  {
+    "ref": "U00043",
+    "text": "- link \"Advanced Search\" [ref=e37] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00044",
+    "text": "- /url: http://127.0.0.1:7770/catalogsearch/advanced/"
+  },
+  {
+    "ref": "U00045",
+    "text": "- generic:"
+  },
+  {
+    "ref": "U00046",
+    "text": "- button \"Search\" [disabled]:"
+  },
+  {
+    "ref": "U00047",
+    "text": "- text: "
+  },
+  {
+    "ref": "U00048",
+    "text": "- generic: Search"
+  },
+  {
+    "ref": "U00049",
+    "text": "- tablist [ref=e39]:"
+  },
+  {
+    "ref": "U00050",
+    "text": "- tabpanel [ref=e40]:"
+  },
+  {
+    "ref": "U00051",
+    "text": "- navigation [ref=e41]:"
+  },
+  {
+    "ref": "U00052",
+    "text": "- menu [ref=e42]:"
+  },
+  {
+    "ref": "U00053",
+    "text": "- listitem [ref=e43]:"
+  },
+  {
+    "ref": "U00054",
+    "text": "- menuitem \" Beauty & Personal Care\" [ref=e44] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00055",
+    "text": "- generic [ref=e45]: "
+  },
+  {
+    "ref": "U00056",
+    "text": "- text: Beauty & Personal Care"
+  },
+  {
+    "ref": "U00057",
+    "text": "- text:          "
+  },
+  {
+    "ref": "U00058",
+    "text": "- listitem [ref=e46]:"
+  },
+  {
+    "ref": "U00059",
+    "text": "- menuitem \" Sports & Outdoors\" [ref=e47] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00060",
+    "text": "- generic [ref=e48]: "
+  },
+  {
+    "ref": "U00061",
+    "text": "- text: Sports & Outdoors"
+  },
+  {
+    "ref": "U00062",
+    "text": "- text:   "
+  },
+  {
+    "ref": "U00063",
+    "text": "- listitem [ref=e49]:"
+  },
+  {
+    "ref": "U00064",
+    "text": "- menuitem \" Clothing, Shoes & Jewelry\" [ref=e50] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00065",
+    "text": "- generic [ref=e51]: "
+  },
+  {
+    "ref": "U00066",
+    "text": "- text: Clothing, Shoes & Jewelry"
+  },
+  {
+    "ref": "U00067",
+    "text": "- text:    "
+  },
+  {
+    "ref": "U00068",
+    "text": "- listitem [ref=e52]:"
+  },
+  {
+    "ref": "U00069",
+    "text": "- menuitem \" Home & Kitchen\" [ref=e53] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00070",
+    "text": "- generic [ref=e54]: "
+  },
+  {
+    "ref": "U00071",
+    "text": "- text: Home & Kitchen"
+  },
+  {
+    "ref": "U00072",
+    "text": "- text:       "
+  },
+  {
+    "ref": "U00073",
+    "text": "- listitem [ref=e55]:"
+  },
+  {
+    "ref": "U00074",
+    "text": "- menuitem \" Office Products\" [ref=e56] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00075",
+    "text": "- generic [ref=e57]: "
+  },
+  {
+    "ref": "U00076",
+    "text": "- text: Office Products"
+  },
+  {
+    "ref": "U00077",
+    "text": "- text:   "
+  },
+  {
+    "ref": "U00078",
+    "text": "- listitem [ref=e58]:"
+  },
+  {
+    "ref": "U00079",
+    "text": "- menuitem \" Tools & Home Improvement\" [ref=e59] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00080",
+    "text": "- generic [ref=e60]: "
+  },
+  {
+    "ref": "U00081",
+    "text": "- text: Tools & Home Improvement"
+  },
+  {
+    "ref": "U00082",
+    "text": "- text: "
+  },
+  {
+    "ref": "U00083",
+    "text": "- listitem [ref=e61]:"
+  },
+  {
+    "ref": "U00084",
+    "text": "- menuitem \" Health & Household\" [ref=e62] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00085",
+    "text": "- generic [ref=e63]: "
+  },
+  {
+    "ref": "U00086",
+    "text": "- text: Health & Household"
+  },
+  {
+    "ref": "U00087",
+    "text": "- text:  "
+  },
+  {
+    "ref": "U00088",
+    "text": "- listitem [ref=e64]:"
+  },
+  {
+    "ref": "U00089",
+    "text": "- menuitem \" Patio, Lawn & Garden\" [ref=e65] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00090",
+    "text": "- generic [ref=e66]: "
+  },
+  {
+    "ref": "U00091",
+    "text": "- text: Patio, Lawn & Garden"
+  },
+  {
+    "ref": "U00092",
+    "text": "- text: "
+  },
+  {
+    "ref": "U00093",
+    "text": "- listitem [ref=e67]:"
+  },
+  {
+    "ref": "U00094",
+    "text": "- menuitem \" Electronics\" [ref=e68] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00095",
+    "text": "- generic [ref=e69]: "
+  },
+  {
+    "ref": "U00096",
+    "text": "- text: Electronics"
+  },
+  {
+    "ref": "U00097",
+    "text": "- text:            "
+  },
+  {
+    "ref": "U00098",
+    "text": "- listitem [ref=e70]:"
+  },
+  {
+    "ref": "U00099",
+    "text": "- menuitem \" Cell Phones & Accessories\" [ref=e71] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00100",
+    "text": "- generic [ref=e72]: "
+  },
+  {
+    "ref": "U00101",
+    "text": "- text: Cell Phones & Accessories"
+  },
+  {
+    "ref": "U00102",
+    "text": "- text:  "
+  },
+  {
+    "ref": "U00103",
+    "text": "- listitem [ref=e73]:"
+  },
+  {
+    "ref": "U00104",
+    "text": "- menuitem \" Video Games\" [ref=e74] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00105",
+    "text": "- generic [ref=e75]: "
+  },
+  {
+    "ref": "U00106",
+    "text": "- text: Video Games"
+  },
+  {
+    "ref": "U00107",
+    "text": "- text:    "
+  },
+  {
+    "ref": "U00108",
+    "text": "- listitem [ref=e76]:"
+  },
+  {
+    "ref": "U00109",
+    "text": "- menuitem \" Grocery & Gourmet Food\" [ref=e77] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00110",
+    "text": "- generic [ref=e78]: "
+  },
+  {
+    "ref": "U00111",
+    "text": "- text: Grocery & Gourmet Food"
+  },
+  {
+    "ref": "U00112",
+    "text": "- text:             "
+  },
+  {
+    "ref": "U00113",
+    "text": "- list [ref=e80]:"
+  },
+  {
+    "ref": "U00114",
+    "text": "- listitem [ref=e81]:"
+  },
+  {
+    "ref": "U00115",
+    "text": "- link \"Home\" [ref=e82] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00116",
+    "text": "- /url: http://127.0.0.1:7770/"
+  },
+  {
+    "ref": "U00117",
+    "text": "- text: "
+  },
+  {
+    "ref": "U00118",
+    "text": "- listitem [ref=e83]:"
+  },
+  {
+    "ref": "U00119",
+    "text": "- link \"Patio, Lawn & Garden\" [ref=e84] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00120",
+    "text": "- /url: http://127.0.0.1:7770/patio-lawn-garden.html"
+  },
+  {
+    "ref": "U00121",
+    "text": "- text: "
+  },
+  {
+    "ref": "U00122",
+    "text": "- listitem [ref=e85]:"
+  },
+  {
+    "ref": "U00123",
+    "text": "- strong [ref=e86]: ENEVOTX Front Door Side Window Covering Alligator and Cactus Decor for Front Door Durable Fabric Decor for Door Multi Size Door Protector for Bedroom Home Kitchen Party Decoration"
+  },
+  {
+    "ref": "U00124",
+    "text": "- main [ref=e87]:"
+  },
+  {
+    "ref": "U00125",
+    "text": "- heading \"ENEVOTX Front Door Side Window Covering Alligator and Cactus Decor for Front Door Durable Fabric Decor for Door Multi Size Door Protector for Bedroom Home Kitchen Party Decoration\" [level=1] [ref=e89]"
+  },
+  {
+    "ref": "U00126",
+    "text": "- generic [ref=e91]:"
+  },
+  {
+    "ref": "U00127",
+    "text": "- generic [ref=e92]:"
+  },
+  {
+    "ref": "U00128",
+    "text": "- generic [ref=e93]:"
+  },
+  {
+    "ref": "U00129",
+    "text": "- generic [ref=e94]:"
+  },
+  {
+    "ref": "U00130",
+    "text": "- generic \"Availability\" [ref=e95]: In stock"
+  },
+  {
+    "ref": "U00131",
+    "text": "- generic [ref=e96]:"
+  },
+  {
+    "ref": "U00132",
+    "text": "- strong [ref=e97]: SKU"
+  },
+  {
+    "ref": "U00133",
+    "text": "- generic [ref=e98]: B08L7LQDWF"
+  },
+  {
+    "ref": "U00134",
+    "text": "- link \"Be the first to review this product\" [ref=e101] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00135",
+    "text": "- /url: http://127.0.0.1:7770/enevotx-front-door-side-window-covering-alligator-and-cactus-decor-for-front-door-durable-fabric-decor-for-door-multi-size-door-protector-for-bedroom-home-kitchen-party-decoration.html#review-form"
+  },
+  {
+    "ref": "U00136",
+    "text": "- generic [ref=e104]: $38.00"
+  },
+  {
+    "ref": "U00137",
+    "text": "- generic [ref=e106]:"
+  },
+  {
+    "ref": "U00138",
+    "text": "- generic [ref=e109]:"
+  },
+  {
+    "ref": "U00139",
+    "text": "- generic [ref=e110]: Size *"
+  },
+  {
+    "ref": "U00140",
+    "text": "- generic [ref=e112]:"
+  },
+  {
+    "ref": "U00141",
+    "text": "- generic [ref=e113]:"
+  },
+  {
+    "ref": "U00142",
+    "text": "- radio \"L:36x97inch\" [ref=e114]"
+  },
+  {
+    "ref": "U00143",
+    "text": "- generic [ref=e115]: L:36x97inch"
+  },
+  {
+    "ref": "U00144",
+    "text": "- generic [ref=e116]:"
+  },
+  {
+    "ref": "U00145",
+    "text": "- radio \"M:36x79inch\" [ref=e117]"
+  },
+  {
+    "ref": "U00146",
+    "text": "- generic [ref=e118]: M:36x79inch"
+  },
+  {
+    "ref": "U00147",
+    "text": "- generic [ref=e119]:"
+  },
+  {
+    "ref": "U00148",
+    "text": "- radio \"S:32x79inch\" [ref=e120]"
+  },
+  {
+    "ref": "U00149",
+    "text": "- generic [ref=e121]: S:32x79inch"
+  },
+  {
+    "ref": "U00150",
+    "text": "- generic [ref=e124]:"
+  },
+  {
+    "ref": "U00151",
+    "text": "- generic [ref=e125]:"
+  },
+  {
+    "ref": "U00152",
+    "text": "- generic [ref=e126]: Qty"
+  },
+  {
+    "ref": "U00153",
+    "text": "- spinbutton \"Qty\" [ref=e128]: \"1\""
+  },
+  {
+    "ref": "U00154",
+    "text": "- button \"Add to Cart\" [ref=e130] [cursor=pointer]"
+  },
+  {
+    "ref": "U00155",
+    "text": "- generic [ref=e132]:"
+  },
+  {
+    "ref": "U00156",
+    "text": "- link \"Add to Wish List\" [ref=e133] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00157",
+    "text": "- /url: \"#\""
+  },
+  {
+    "ref": "U00158",
+    "text": "- link \"Add to Compare\" [ref=e134] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00159",
+    "text": "- /url: \"#\""
+  },
+  {
+    "ref": "U00160",
+    "text": "- generic [ref=e135]:"
+  },
+  {
+    "ref": "U00161",
+    "text": "- link \"Skip to the end of the images gallery\" [ref=e136] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00162",
+    "text": "- /url: \"#gallery-next-area\""
+  },
+  {
+    "ref": "U00163",
+    "text": "- generic [ref=e139]:"
+  },
+  {
+    "ref": "U00164",
+    "text": "- generic [ref=e140]:"
+  },
+  {
+    "ref": "U00165",
+    "text": "- button \"Previous\" [ref=e141] [cursor=pointer]"
+  },
+  {
+    "ref": "U00166",
+    "text": "- generic [ref=e143]:"
+  },
+  {
+    "ref": "U00167",
+    "text": "- img \"Image\" [ref=e145]"
+  },
+  {
+    "ref": "U00168",
+    "text": "- img [ref=e147]"
+  },
+  {
+    "ref": "U00169",
+    "text": "- button \"Next\""
+  },
+  {
+    "ref": "U00170",
+    "text": "- generic [ref=e149]:"
+  },
+  {
+    "ref": "U00171",
+    "text": "- button \"Previous\""
+  },
+  {
+    "ref": "U00172",
+    "text": "- generic [ref=e150]:"
+  },
+  {
+    "ref": "U00173",
+    "text": "- button \"Image\" [ref=e152]:"
+  },
+  {
+    "ref": "U00174",
+    "text": "- img \"Image\" [ref=e154]"
+  },
+  {
+    "ref": "U00175",
+    "text": "- button \"Image\" [ref=e155]:"
+  },
+  {
+    "ref": "U00176",
+    "text": "- img \"Image\" [ref=e157]"
+  },
+  {
+    "ref": "U00177",
+    "text": "- button \"Next\""
+  },
+  {
+    "ref": "U00178",
+    "text": "- link \"Skip to the beginning of the images gallery\" [ref=e158] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00179",
+    "text": "- /url: \"#gallery-prev-area\""
+  },
+  {
+    "ref": "U00180",
+    "text": "- tablist [ref=e160]:"
+  },
+  {
+    "ref": "U00181",
+    "text": "- tab \"Details\" [expanded] [ref=e161]:"
+  },
+  {
+    "ref": "U00182",
+    "text": "- link \"Details\" [ref=e162] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00183",
+    "text": "- /url: \"#description\""
+  },
+  {
+    "ref": "U00184",
+    "text": "- tabpanel \"Details\" [ref=e163]:"
+  },
+  {
+    "ref": "U00185",
+    "text": "- generic [ref=e166]:"
+  },
+  {
+    "ref": "U00186",
+    "text": "- heading \"Product Quick Look\" [level=2] [ref=e167]"
+  },
+  {
+    "ref": "U00187",
+    "text": "- generic [ref=e168]:"
+  },
+  {
+    "ref": "U00188",
+    "text": "- list [ref=e170]:"
+  },
+  {
+    "ref": "U00189",
+    "text": "- listitem [ref=e171]: Door covers for themed parties and festivals.Essentials for Halloween party decoration.Essentials for large holiday parties.Provide door covers of various sizes and themes. Porch decorative door covers, very suitable for outdoor large-scale holiday gatherings!.These elements create a better atmosphere for holding festive party decorations. Hang on the front door decoration and spend a good time on happy festivals and large parties."
+  },
+  {
+    "ref": "U00190",
+    "text": "- listitem [ref=e172]: \"◆Three Sizes to Choose: Small: 82cm x 200cm / 32 x 79 inches, Medium: 90cm x 200cm / 36 x 79 inches, Large: 91cm x 248cm / 36 x 97 inches. Please measure the size of the door before ordering, and then select the appropriate size.\""
+  },
+  {
+    "ref": "U00191",
+    "text": "- listitem [ref=e173]: \"◆High-Quality Door Cover: The decorations door cover is made of lightweight fabric, it is weather-resistant and highly durable. It uses premium colorfast permanent dye to create colorful, vibrant designs artwork.\""
+  },
+  {
+    "ref": "U00192",
+    "text": "- listitem [ref=e174]: \"◆Multi Functions: No tools required for installation and removal in just a few minutes, the front is flat and wrinkle free.Easy to find the door handle position.Most people use it for kitchen,living room, utility room, garage,stairwell.\""
+  },
+  {
+    "ref": "U00193",
+    "text": "- listitem [ref=e175]: \"◆Easy to Clean: Hand wash or machine wash, dry in a cool place. Please use mild neutral detergent as detergent.Can be folded for multiple use. Don't iron. Keep away from flames.\""
+  },
+  {
+    "ref": "U00194",
+    "text": "- listitem [ref=e176]: \"◆Warm Notice: The real color of the item may be slightly different from the pictures shown on website caused by many factors such as brightness of your monitor and light brightness.\""
+  },
+  {
+    "ref": "U00195",
+    "text": "- table [ref=e178]:"
+  },
+  {
+    "ref": "U00196",
+    "text": "- rowgroup [ref=e179]:"
+  },
+  {
+    "ref": "U00197",
+    "text": "- row \"Manufacturer ENEVOTX\" [ref=e180]:"
+  },
+  {
+    "ref": "U00198",
+    "text": "- rowheader \"Manufacturer\" [ref=e181]"
+  },
+  {
+    "ref": "U00199",
+    "text": "- cell \"ENEVOTX\" [ref=e182]"
+  },
+  {
+    "ref": "U00200",
+    "text": "- row \"Item model number Doorcover-264-20201015\" [ref=e183]:"
+  },
+  {
+    "ref": "U00201",
+    "text": "- rowheader \"Item model number\" [ref=e184]"
+  },
+  {
+    "ref": "U00202",
+    "text": "- cell \"Doorcover-264-20201015\" [ref=e185]"
+  },
+  {
+    "ref": "U00203",
+    "text": "- tab \"Reviews\" [ref=e186]:"
+  },
+  {
+    "ref": "U00204",
+    "text": "- link \"Reviews\" [ref=e187] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00205",
+    "text": "- /url: \"#reviews\""
+  },
+  {
+    "ref": "U00206",
+    "text": "- text: \"*       * * *\""
+  },
+  {
+    "ref": "U00207",
+    "text": "- contentinfo [ref=e188]:"
+  },
+  {
+    "ref": "U00208",
+    "text": "- generic [ref=e189]:"
+  },
+  {
+    "ref": "U00209",
+    "text": "- generic [ref=e192]:"
+  },
+  {
+    "ref": "U00210",
+    "text": "- generic [ref=e194]:"
+  },
+  {
+    "ref": "U00211",
+    "text": "- text: "
+  },
+  {
+    "ref": "U00212",
+    "text": "- generic [ref=e195]:"
+  },
+  {
+    "ref": "U00213",
+    "text": "- generic [ref=e196]: \"Sign Up for Our Newsletter:\""
+  },
+  {
+    "ref": "U00214",
+    "text": "- textbox \"Sign Up for Our Newsletter:\" [ref=e197]:"
+  },
+  {
+    "ref": "U00215",
+    "text": "- /placeholder: Enter your email address"
+  },
+  {
+    "ref": "U00216",
+    "text": "- button \"Subscribe\" [ref=e199] [cursor=pointer]"
+  },
+  {
+    "ref": "U00217",
+    "text": "- list [ref=e200]:"
+  },
+  {
+    "ref": "U00218",
+    "text": "- listitem [ref=e201]:"
+  },
+  {
+    "ref": "U00219",
+    "text": "- link \"Privacy and Cookie Policy\" [ref=e202] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00220",
+    "text": "- /url: http://127.0.0.1:7770/privacy-policy-cookie-restriction-mode/"
+  },
+  {
+    "ref": "U00221",
+    "text": "- listitem [ref=e203]:"
+  },
+  {
+    "ref": "U00222",
+    "text": "- link \"Search Terms\" [ref=e204] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00223",
+    "text": "- /url: http://127.0.0.1:7770/search/term/popular/"
+  },
+  {
+    "ref": "U00224",
+    "text": "- listitem [ref=e205]:"
+  },
+  {
+    "ref": "U00225",
+    "text": "- link \"Advanced Search\" [ref=e206] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00226",
+    "text": "- /url: http://127.0.0.1:7770/catalogsearch/advanced/"
+  },
+  {
+    "ref": "U00227",
+    "text": "- listitem [ref=e207]:"
+  },
+  {
+    "ref": "U00228",
+    "text": "- link \"Orders and Returns\" [ref=e208] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00229",
+    "text": "- /url: http://127.0.0.1:7770/sales/guest/form/"
+  },
+  {
+    "ref": "U00230",
+    "text": "- listitem [ref=e209]:"
+  },
+  {
+    "ref": "U00231",
+    "text": "- link \"Contact Us\" [ref=e210] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00232",
+    "text": "- /url: http://127.0.0.1:7770/contact/"
+  },
+  {
+    "ref": "U00233",
+    "text": "- generic [ref=e211]: Copyright © 2013-present Magento, Inc. All rights reserved."
+  },
+  {
+    "ref": "U00234",
+    "text": "- generic [ref=e212]:"
+  },
+  {
+    "ref": "U00235",
+    "text": "- text: Help Us Keep Magento Healthy"
+  },
+  {
+    "ref": "U00236",
+    "text": "- link \"Report All Bugs\" [ref=e213] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00237",
+    "text": "- /url: http://www.magentocommerce.com/bug-tracking"
+  }
+]

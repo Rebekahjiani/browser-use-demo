@@ -1,0 +1,612 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e5]:
+      - list [ref=e6]:
+        - listitem [ref=e7]:
+          - link "My Account" [ref=e8] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/customer/account/
+        - listitem [ref=e9]:
+          - link "My Wish List" [ref=e10] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/wishlist/
+        - listitem [ref=e11]:
+          - link "Sign In" [ref=e12] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/customer/account/login/
+        - listitem [ref=e13]:
+          - link "Compare Products 3 items" [ref=e14] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/catalog/product_compare/index/uenc/aHR0cDovLzEyNy4wLjAuMTo3NzcwL2N1c3RvbWVyL3NlY3Rpb24vbG9hZC8_c2VjdGlvbnM9Y29tcGFyZS1wcm9kdWN0cyUyQ21lc3NhZ2VzJmZvcmNlX25ld19zZWN0aW9uX3RpbWVzdGFtcD1mYWxzZSZfPTE3OTA1NjM0NzA5NzY~/
+        - listitem [ref=e15]: Welcome to One Stop Market
+        - listitem [ref=e16]:
+          - link "Create an Account" [ref=e17] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/customer/account/create/
+      - link "Skip to Content" [ref=e18] [cursor=pointer]:
+        - /url: "#contentarea"
+    - generic [ref=e19]:
+      - text: 
+      - link "store logo" [ref=e20] [cursor=pointer]:
+        - /url: http://127.0.0.1:7770/
+        - img "one_stop_market_logo" [ref=e21]
+      - generic [ref=e22]:
+        - link " My Cart 3 3 items" [ref=e23] [cursor=pointer]:
+          - /url: http://127.0.0.1:7770/checkout/cart/
+          - text: 
+          - generic [ref=e24]: My Cart
+          - generic [ref=e25]:
+            - generic [ref=e26]: "3"
+            - generic [ref=e27]: 3 items
+        - text: " : :   :   :  "
+      - generic [ref=e30]:
+        - generic [ref=e31]:
+          - generic [ref=e32]:
+            - text: 
+            - generic [ref=e33]: Search
+          - generic [ref=e34]:
+            - combobox " Search" [ref=e35]
+            - link "Advanced Search" [ref=e37] [cursor=pointer]:
+              - /url: http://127.0.0.1:7770/catalogsearch/advanced/
+        - generic:
+          - button "Search" [disabled]:
+            - text: 
+            - generic: Search
+  - tablist [ref=e39]:
+    - tabpanel [ref=e40]:
+      - navigation [ref=e41]:
+        - menu [ref=e42]:
+          - listitem [ref=e43]:
+            - menuitem " Beauty & Personal Care" [ref=e44] [cursor=pointer]:
+              - generic [ref=e45]: 
+              - text: Beauty & Personal Care
+            - text:          
+          - listitem [ref=e46]:
+            - menuitem " Sports & Outdoors" [ref=e47] [cursor=pointer]:
+              - generic [ref=e48]: 
+              - text: Sports & Outdoors
+            - text:   
+          - listitem [ref=e49]:
+            - menuitem " Clothing, Shoes & Jewelry" [ref=e50] [cursor=pointer]:
+              - generic [ref=e51]: 
+              - text: Clothing, Shoes & Jewelry
+            - text:    
+          - listitem [ref=e52]:
+            - menuitem " Home & Kitchen" [ref=e53] [cursor=pointer]:
+              - generic [ref=e54]: 
+              - text: Home & Kitchen
+            - text:       
+          - listitem [ref=e55]:
+            - menuitem " Office Products" [ref=e56] [cursor=pointer]:
+              - generic [ref=e57]: 
+              - text: Office Products
+            - text:   
+          - listitem [ref=e58]:
+            - menuitem " Tools & Home Improvement" [ref=e59] [cursor=pointer]:
+              - generic [ref=e60]: 
+              - text: Tools & Home Improvement
+            - text: 
+          - listitem [ref=e61]:
+            - menuitem " Health & Household" [ref=e62] [cursor=pointer]:
+              - generic [ref=e63]: 
+              - text: Health & Household
+            - text:  
+          - listitem [ref=e64]:
+            - menuitem " Patio, Lawn & Garden" [ref=e65] [cursor=pointer]:
+              - generic [ref=e66]: 
+              - text: Patio, Lawn & Garden
+            - text: 
+          - listitem [ref=e67]:
+            - menuitem " Electronics" [ref=e68] [cursor=pointer]:
+              - generic [ref=e69]: 
+              - text: Electronics
+            - text:            
+          - listitem [ref=e70]:
+            - menuitem " Cell Phones & Accessories" [ref=e71] [cursor=pointer]:
+              - generic [ref=e72]: 
+              - text: Cell Phones & Accessories
+            - text:  
+          - listitem [ref=e73]:
+            - menuitem " Video Games" [ref=e74] [cursor=pointer]:
+              - generic [ref=e75]: 
+              - text: Video Games
+            - text:    
+          - listitem [ref=e76]:
+            - menuitem " Grocery & Gourmet Food" [ref=e77] [cursor=pointer]:
+              - generic [ref=e78]: 
+              - text: Grocery & Gourmet Food
+            - text:             
+  - list [ref=e80]:
+    - listitem [ref=e81]:
+      - link "Home" [ref=e82] [cursor=pointer]:
+        - /url: http://127.0.0.1:7770/
+      - text: 
+    - listitem [ref=e83]:
+      - strong [ref=e84]: Video Games
+  - main [ref=e85]:
+    - heading "Video Games Items 1-12 of 932" [level=1] [ref=e87]: Video Games
+    - generic [ref=e88]:
+      - generic [ref=e89]:
+        - generic [ref=e90]:
+          - generic [ref=e91]:
+            - strong [ref=e92]: View as
+            - strong [ref=e93]:
+              - text: 
+              - generic [ref=e94]: Grid
+            - link "View as  List" [ref=e95] [cursor=pointer]:
+              - /url: "#"
+              - text: 
+              - generic [ref=e96]: List
+          - paragraph [ref=e97]: Items 1-12 of 932
+          - generic [ref=e98]:
+            - text: Sort By
+            - combobox "Sort By" [ref=e99]:
+              - option "Position" [selected]
+              - option "Product Name"
+              - option "Price"
+            - link " Set Descending Direction" [ref=e100] [cursor=pointer]:
+              - /url: "#"
+              - text: 
+              - generic [ref=e101]: Set Descending Direction
+        - list [ref=e103]:
+          - listitem [ref=e104]:
+            - generic [ref=e105]:
+              - link "Image" [ref=e106] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/celeste-nintendo-animal-crossing-happy-home-designer-amiibo-card-305.html
+                - img "Image" [ref=e109]
+              - generic [ref=e110]:
+                - strong [ref=e111]:
+                  - link "Celeste - Nintendo Animal Crossing Happy Home Designer Amiibo Card - 305" [ref=e112] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/celeste-nintendo-animal-crossing-happy-home-designer-amiibo-card-305.html
+                - generic [ref=e113]:
+                  - generic [ref=e114]:
+                    - generic [ref=e115]: "Rating:"
+                    - generic "88%" [ref=e116]:
+                      - text: 
+                      - generic [ref=e117]:
+                        - text: 
+                        - generic [ref=e118]: 88%
+                  - link "5 Reviews" [ref=e120] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/celeste-nintendo-animal-crossing-happy-home-designer-amiibo-card-305.html#reviews
+                - generic [ref=e123]: $22.95
+                - generic [ref=e125]:
+                  - button "Add to Cart" [ref=e128] [cursor=pointer]
+                  - generic [ref=e129]:
+                    - button "Add to Wish List" [ref=e130] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e131]: Add to Wish List
+                    - button "Add to Compare" [ref=e132] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e133]: Add to Compare
+          - listitem [ref=e134]:
+            - generic [ref=e135]:
+              - link "Image" [ref=e136] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/psp-s110-battery-upgraded-ultra-high-capacity-3600mah-li-ion-replacement-battery-for-sony-psp-1000-psp-110-console-not-compatible-with-psp-2000-or-3000-or-psp-slim.html
+                - img "Image" [ref=e139]
+              - generic [ref=e140]:
+                - strong [ref=e141]:
+                  - link "PSP-S110 Battery,[Upgraded] Ultra High Capacity 3600mAh Li-ion Replacement Battery for Sony PSP 1000 PSP-110 Console (NOT Compatible with PSP-2000 or 3000 or PSP Slim)" [ref=e142] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/psp-s110-battery-upgraded-ultra-high-capacity-3600mah-li-ion-replacement-battery-for-sony-psp-1000-psp-110-console-not-compatible-with-psp-2000-or-3000-or-psp-slim.html
+                - generic [ref=e145]: $15.80
+                - generic [ref=e147]:
+                  - button "Add to Cart" [ref=e150] [cursor=pointer]
+                  - generic [ref=e151]:
+                    - button "Add to Wish List" [ref=e152] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e153]: Add to Wish List
+                    - button "Add to Compare" [ref=e154] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e155]: Add to Compare
+          - listitem [ref=e156]:
+            - generic [ref=e157]:
+              - link "Image" [ref=e158] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/peipu-joystick-for-mobile-phone-gaming-controller-gift-mobile-phone-game-joystick-game-control-2packs.html
+                - img "Image" [ref=e161]
+              - generic [ref=e162]:
+                - strong [ref=e163]:
+                  - link "PEIPU Joystick for Mobile Phone Gaming Controller Gift Mobile Phone Game Joystick Game Control 2packs" [ref=e164] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/peipu-joystick-for-mobile-phone-gaming-controller-gift-mobile-phone-game-joystick-game-control-2packs.html
+                - generic [ref=e167]: $6.99
+                - generic [ref=e169]:
+                  - button "Add to Cart" [ref=e172] [cursor=pointer]
+                  - generic [ref=e173]:
+                    - button "Add to Wish List" [ref=e174] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e175]: Add to Wish List
+                    - button "Add to Compare" [ref=e176] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e177]: Add to Compare
+          - listitem [ref=e178]:
+            - generic [ref=e179]:
+              - link "Image" [ref=e180] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/magnetic-metal-stainless-steel-d-pads-kits-directional-pad-replacement-parts-for-xbox-one-elite-controller-elite-series-2-xbox-one-xbox-one-s-x-controller.html
+                - img "Image" [ref=e183]
+              - generic [ref=e184]:
+                - strong [ref=e185]:
+                  - link "Magnetic Metal Stainless Steel D-pads Kits Directional Pad Replacement Parts for Xbox One Elite Controller, Elite Series 2, Xbox One, Xbox One S/X Controller" [ref=e186] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/magnetic-metal-stainless-steel-d-pads-kits-directional-pad-replacement-parts-for-xbox-one-elite-controller-elite-series-2-xbox-one-xbox-one-s-x-controller.html
+                - generic [ref=e189]: $11.99
+                - generic [ref=e191]:
+                  - button "Add to Cart" [ref=e194] [cursor=pointer]
+                  - generic [ref=e195]:
+                    - button "Add to Wish List" [ref=e196] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e197]: Add to Wish List
+                    - button "Add to Compare" [ref=e198] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e199]: Add to Compare
+          - listitem [ref=e200]:
+            - generic [ref=e201]:
+              - link "Image" [ref=e202] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/skinit-decal-gaming-skin-for-ps4-console-officially-licensed-disney-mickey-mouse-design.html
+                - img "Image" [ref=e205]
+              - generic [ref=e206]:
+                - strong [ref=e207]:
+                  - link "Skinit Decal Gaming Skin for PS4 Console - Officially Licensed Disney Mickey Mouse Design" [ref=e208] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/skinit-decal-gaming-skin-for-ps4-console-officially-licensed-disney-mickey-mouse-design.html
+                - generic [ref=e211]: $29.99
+                - generic [ref=e213]:
+                  - button "Add to Cart" [ref=e216] [cursor=pointer]
+                  - generic [ref=e217]:
+                    - button "Add to Wish List" [ref=e218] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e219]: Add to Wish List
+                    - button "Add to Compare" [ref=e220] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e221]: Add to Compare
+          - listitem [ref=e222]:
+            - generic [ref=e223]:
+              - link "Image" [ref=e224] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/wireless-game-controller-with-4-paddles-game-controller-joystick-compatible-with-playstation-4-pro-slim-dual-vibration-strike-pack-six-axis-gyro-sensor-1000mah-battery-touch-pad-audio-jack-golden.html
+                - img "Image" [ref=e227]
+              - generic [ref=e228]:
+                - strong [ref=e229]:
+                  - link "Wireless Game Controller with 4 Paddles, Game Controller Joystick Compatible with Playstation 4 /Pro/Slim Dual Vibration/Strike Pack/Six-axis Gyro Sensor/1000mAh Battery/Touch Pad/Audio Jack (Golden)" [ref=e230] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/wireless-game-controller-with-4-paddles-game-controller-joystick-compatible-with-playstation-4-pro-slim-dual-vibration-strike-pack-six-axis-gyro-sensor-1000mah-battery-touch-pad-audio-jack-golden.html
+                - generic [ref=e231]:
+                  - generic [ref=e232]:
+                    - generic [ref=e233]: "Rating:"
+                    - generic "70%" [ref=e234]:
+                      - text: 
+                      - generic [ref=e235]:
+                        - text: 
+                        - generic [ref=e236]: 70%
+                  - link "4 Reviews" [ref=e238] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/wireless-game-controller-with-4-paddles-game-controller-joystick-compatible-with-playstation-4-pro-slim-dual-vibration-strike-pack-six-axis-gyro-sensor-1000mah-battery-touch-pad-audio-jack-golden.html#reviews
+                - generic [ref=e241]: $23.95
+                - generic [ref=e243]:
+                  - button "Add to Cart" [ref=e246] [cursor=pointer]
+                  - generic [ref=e247]:
+                    - button "Add to Wish List" [ref=e248] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e249]: Add to Wish List
+                    - button "Add to Compare" [ref=e250] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e251]: Add to Compare
+          - listitem [ref=e252]:
+            - generic [ref=e253]:
+              - link "Image" [ref=e254] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/armor3-soundtac-universal-gaming-headset-black-for-xbox-series-x-xbox-series-s-nintendo-switch-lite-ps4-ps5-xbox-one-wii-u-pc-mac-nintendo-switch.html
+                - img "Image" [ref=e257]
+              - generic [ref=e258]:
+                - strong [ref=e259]:
+                  - link "Armor3 \"Soundtac\" Universal Gaming Headset (Black) for Xbox Series X/ Xbox Series S/ Nintendo Switch/ Lite/ PS4/ PS5/ Xbox One/ Wii U/ PC/ Mac - Nintendo Switch" [ref=e260] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/armor3-soundtac-universal-gaming-headset-black-for-xbox-series-x-xbox-series-s-nintendo-switch-lite-ps4-ps5-xbox-one-wii-u-pc-mac-nintendo-switch.html
+                - generic [ref=e261]:
+                  - generic [ref=e262]:
+                    - generic [ref=e263]: "Rating:"
+                    - generic "73%" [ref=e264]:
+                      - text: 
+                      - generic [ref=e265]:
+                        - text: 
+                        - generic [ref=e266]: 73%
+                  - link "4 Reviews" [ref=e268] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/armor3-soundtac-universal-gaming-headset-black-for-xbox-series-x-xbox-series-s-nintendo-switch-lite-ps4-ps5-xbox-one-wii-u-pc-mac-nintendo-switch.html#reviews
+                - generic [ref=e271]: $21.17
+                - generic [ref=e273]:
+                  - button "Add to Cart" [ref=e276] [cursor=pointer]
+                  - generic [ref=e277]:
+                    - button "Add to Wish List" [ref=e278] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e279]: Add to Wish List
+                    - button "Add to Compare" [ref=e280] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e281]: Add to Compare
+          - listitem [ref=e282]:
+            - generic [ref=e283]:
+              - link "Image" [ref=e284] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/games-tech-5-x-replacement-mini-usb-charging-charger-connector-port-socket-jack-for-ps3-playstation-3-controller.html
+                - img "Image" [ref=e287]
+              - generic [ref=e288]:
+                - strong [ref=e289]:
+                  - link "Games&Tech 5 x Replacement Mini USB Charging Charger Connector Port Socket Jack for PS3 Playstation 3 Controller" [ref=e290] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/games-tech-5-x-replacement-mini-usb-charging-charger-connector-port-socket-jack-for-ps3-playstation-3-controller.html
+                - generic [ref=e291]:
+                  - generic [ref=e292]:
+                    - generic [ref=e293]: "Rating:"
+                    - generic "100%" [ref=e294]:
+                      - text: 
+                      - generic [ref=e295]:
+                        - text: 
+                        - generic [ref=e296]: 100%
+                  - link "1 Review" [ref=e298] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/games-tech-5-x-replacement-mini-usb-charging-charger-connector-port-socket-jack-for-ps3-playstation-3-controller.html#reviews
+                - generic [ref=e301]: $10.49
+                - generic [ref=e303]:
+                  - button "Add to Cart" [ref=e306] [cursor=pointer]
+                  - generic [ref=e307]:
+                    - button "Add to Wish List" [ref=e308] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e309]: Add to Wish List
+                    - button "Add to Compare" [ref=e310] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e311]: Add to Compare
+          - listitem [ref=e312]:
+            - generic [ref=e313]:
+              - link "Image" [ref=e314] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/logitech-g433-7-1-wired-gaming-headset-with-dts-headphone-x-7-1-surround-for-pc-ps4-ps4-pro-xbox-one-xbox-one-s-nintendo-switch-fire-red.html
+                - img "Image" [ref=e317]
+              - generic [ref=e318]:
+                - strong [ref=e319]:
+                  - 'link "Logitech G433 7.1 Wired Gaming Headset with DTS Headphone: X 7.1 Surround for PC, PS4, PS4 PRO, Xbox One, Xbox One S, Nintendo Switch – Fire Red" [ref=e320] [cursor=pointer]':
+                    - /url: http://127.0.0.1:7770/logitech-g433-7-1-wired-gaming-headset-with-dts-headphone-x-7-1-surround-for-pc-ps4-ps4-pro-xbox-one-xbox-one-s-nintendo-switch-fire-red.html
+                - generic [ref=e323]: $123.45
+                - generic [ref=e325]:
+                  - button "Add to Cart" [ref=e328] [cursor=pointer]
+                  - generic [ref=e329]:
+                    - button "Add to Wish List" [ref=e330] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e331]: Add to Wish List
+                    - button "Add to Compare" [ref=e332] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e333]: Add to Compare
+          - listitem [ref=e334]:
+            - generic [ref=e335]:
+              - link "Image" [ref=e336] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/miadore-classic-n64-controller-joystick-remote-for-n64-video-game-system-n64-console-jungle-green.html
+                - img "Image" [ref=e339]
+              - generic [ref=e340]:
+                - strong [ref=e341]:
+                  - link "miadore Classic N64 Controller Joystick Remote for N64 Video Game System N64 Console-Jungle Green" [ref=e342] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/miadore-classic-n64-controller-joystick-remote-for-n64-video-game-system-n64-console-jungle-green.html
+                - generic [ref=e343]:
+                  - generic [ref=e344]:
+                    - generic [ref=e345]: "Rating:"
+                    - generic "67%" [ref=e346]:
+                      - text: 
+                      - generic [ref=e347]:
+                        - text: 
+                        - generic [ref=e348]: 67%
+                  - link "12 Reviews" [ref=e350] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/miadore-classic-n64-controller-joystick-remote-for-n64-video-game-system-n64-console-jungle-green.html#reviews
+                - generic [ref=e353]: $16.99
+                - generic [ref=e355]:
+                  - button "Add to Cart" [ref=e358] [cursor=pointer]
+                  - generic [ref=e359]:
+                    - button "Add to Wish List" [ref=e360] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e361]: Add to Wish List
+                    - button "Add to Compare" [ref=e362] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e363]: Add to Compare
+          - listitem [ref=e364]:
+            - generic [ref=e365]:
+              - link "Image" [ref=e366] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/skinit-decal-gaming-skin-compatible-with-ps4-controller-officially-licensed-nfl-los-angeles-rams-zone-block-design.html
+                - img "Image" [ref=e369]
+              - generic [ref=e370]:
+                - strong [ref=e371]:
+                  - link "Skinit Decal Gaming Skin Compatible with PS4 Controller - Officially Licensed NFL Los Angeles Rams Zone Block Design" [ref=e372] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/skinit-decal-gaming-skin-compatible-with-ps4-controller-officially-licensed-nfl-los-angeles-rams-zone-block-design.html
+                - generic [ref=e375]: $16.99
+                - generic [ref=e377]:
+                  - button "Add to Cart" [ref=e380] [cursor=pointer]
+                  - generic [ref=e381]:
+                    - button "Add to Wish List" [ref=e382] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e383]: Add to Wish List
+                    - button "Add to Compare" [ref=e384] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e385]: Add to Compare
+          - listitem [ref=e386]:
+            - generic [ref=e387]:
+              - link "Image" [ref=e388] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/skinit-decal-gaming-skin-compatible-with-xbox-one-s-controller-officially-licensed-nfl-dallas-cowboys-blue-blast-design.html
+                - img "Image" [ref=e391]
+              - generic [ref=e392]:
+                - strong [ref=e393]:
+                  - link "Skinit Decal Gaming Skin Compatible with Xbox One S Controller - Officially Licensed NFL Dallas Cowboys Blue Blast Design" [ref=e394] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/skinit-decal-gaming-skin-compatible-with-xbox-one-s-controller-officially-licensed-nfl-dallas-cowboys-blue-blast-design.html
+                - generic [ref=e395]:
+                  - generic [ref=e396]:
+                    - generic [ref=e397]: "Rating:"
+                    - generic "100%" [ref=e398]:
+                      - text: 
+                      - generic [ref=e399]:
+                        - text: 
+                        - generic [ref=e400]: 100%
+                  - link "1 Review" [ref=e402] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/skinit-decal-gaming-skin-compatible-with-xbox-one-s-controller-officially-licensed-nfl-dallas-cowboys-blue-blast-design.html#reviews
+                - generic [ref=e405]: $16.99
+                - generic [ref=e407]:
+                  - button "Add to Cart" [ref=e410] [cursor=pointer]
+                  - generic [ref=e411]:
+                    - button "Add to Wish List" [ref=e412] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e413]: Add to Wish List
+                    - button "Add to Compare" [ref=e414] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e415]: Add to Compare
+        - generic [ref=e416]:
+          - generic [ref=e417]:
+            - strong [ref=e418]: Page
+            - list "Page" [ref=e419]:
+              - listitem [ref=e420]:
+                - strong [ref=e421]:
+                  - generic [ref=e422]: You're currently reading page
+                  - text: "1"
+              - listitem [ref=e423]:
+                - link "Page 2" [ref=e424] [cursor=pointer]:
+                  - /url: http://127.0.0.1:7770/video-games.html?p=2
+                  - generic [ref=e425]: Page
+                  - text: "2"
+              - listitem [ref=e426]:
+                - link "Page 3" [ref=e427] [cursor=pointer]:
+                  - /url: http://127.0.0.1:7770/video-games.html?p=3
+                  - generic [ref=e428]: Page
+                  - text: "3"
+              - listitem [ref=e429]:
+                - link "Page 4" [ref=e430] [cursor=pointer]:
+                  - /url: http://127.0.0.1:7770/video-games.html?p=4
+                  - generic [ref=e431]: Page
+                  - text: "4"
+              - listitem [ref=e432]:
+                - link "Page 5" [ref=e433] [cursor=pointer]:
+                  - /url: http://127.0.0.1:7770/video-games.html?p=5
+                  - generic [ref=e434]: Page
+                  - text: "5"
+              - listitem [ref=e435]:
+                - link " Page Next" [ref=e436] [cursor=pointer]:
+                  - /url: http://127.0.0.1:7770/video-games.html?p=2
+                  - text: 
+                  - generic [ref=e437]: Page
+                  - generic [ref=e438]: Next
+          - generic [ref=e439]:
+            - generic [ref=e440]: Show
+            - combobox "Show" [ref=e442]:
+              - option "12" [selected]
+              - option "24"
+              - option "36"
+            - text: per page
+      - generic [ref=e444]:
+        - strong [ref=e446]: Shop By
+        - generic [ref=e447]:
+          - heading "Shopping Options" [level=2] [ref=e448]
+          - generic [ref=e449]:
+            - heading "Category" [level=3] [ref=e450]
+            - definition [ref=e451]:
+              - list [ref=e452]:
+                - listitem [ref=e453]:
+                  - link "Xbox One( 158 item )" [ref=e454] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/video-games.html?cat=58
+                    - text: Xbox One
+                    - generic [ref=e455]:
+                      - text: ( 158
+                      - generic [ref=e456]: item
+                      - text: )
+                - listitem [ref=e457]:
+                  - link "PC( 181 item )" [ref=e458] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/video-games.html?cat=59
+                    - text: PC
+                    - generic [ref=e459]:
+                      - text: ( 181
+                      - generic [ref=e460]: item
+                      - text: )
+                - listitem [ref=e461]:
+                  - link "Legacy Systems( 293 item )" [ref=e462] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/video-games.html?cat=61
+                    - text: Legacy Systems
+                    - generic [ref=e463]:
+                      - text: ( 293
+                      - generic [ref=e464]: item
+                      - text: )
+                - listitem [ref=e465]:
+                  - link "PlayStation 4( 233 item )" [ref=e466] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/video-games.html?cat=67
+                    - text: PlayStation 4
+                    - generic [ref=e467]:
+                      - text: ( 233
+                      - generic [ref=e468]: item
+                      - text: )
+                - listitem [ref=e469]:
+                  - link "Nintendo Switch( 51 item )" [ref=e470] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/video-games.html?cat=71
+                    - text: Nintendo Switch
+                    - generic [ref=e471]:
+                      - text: ( 51
+                      - generic [ref=e472]: item
+                      - text: )
+            - heading "Price" [level=3] [ref=e473]
+            - definition [ref=e474]:
+              - list [ref=e475]:
+                - listitem [ref=e476]:
+                  - link "$0.00 - $999.99( 930 item )" [ref=e477] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/video-games.html?price=0-1000
+                    - text: $0.00 - $999.99
+                    - generic [ref=e478]:
+                      - text: ( 930
+                      - generic [ref=e479]: item
+                      - text: )
+                - listitem [ref=e480]:
+                  - link "$1,000.00 and above( 2 item )" [ref=e481] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/video-games.html?price=1000-2000
+                    - text: $1,000.00 and above
+                    - generic [ref=e482]:
+                      - text: ( 2
+                      - generic [ref=e483]: item
+                      - text: )
+      - generic [ref=e484]:
+        - generic [ref=e485]:
+          - generic [ref=e486]:
+            - heading "Compare Products" [level=2] [ref=e487]
+            - text: 3 items
+          - generic "Compare Products" [ref=e488]:
+            - list [ref=e489]:
+              - listitem [ref=e490]:
+                - strong [ref=e491]:
+                  - link "Multi Accessory Hub Adapter By JOBY – Get The Right Set Up For Your Vision By Attaching All The GoPro Accessories You Need In One Central Spot" [ref=e492] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/multi-accessory-hub-adapter-by-joby-get-the-right-set-up-for-your-vision-by-attaching-all-the-gopro-accessories-you-need-in-one-central-spot.html
+                - link " Remove This Item" [ref=e493] [cursor=pointer]:
+                  - /url: "#"
+                  - text: 
+                  - generic [ref=e494]: Remove This Item
+              - listitem [ref=e495]:
+                - strong [ref=e496]:
+                  - link "linxiaojix Waterproof Shell for Osmo Pocket, Camera Case Camera Cover Diving Cover for Osmo Pocket, 60M Waterproof for Travel Trip" [ref=e497] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/linxiaojix-waterproof-shell-for-osmo-pocket-camera-case-camera-cover-diving-cover-for-osmo-pocket-60m-waterproof-for-travel-trip.html
+                - link " Remove This Item" [ref=e498] [cursor=pointer]:
+                  - /url: "#"
+                  - text: 
+                  - generic [ref=e499]: Remove This Item
+              - listitem [ref=e500]:
+                - strong [ref=e501]:
+                  - 'link "Q Mixers Premium Ginger Ale: Real Ingredients & Less Sweet, 6.7 Fl Oz (24 Bottles)" [ref=e502] [cursor=pointer]':
+                    - /url: http://127.0.0.1:7770/q-mixers-premium-ginger-ale-real-ingredients-less-sweet-6-7-fl-oz-24-bottles.html
+                - link " Remove This Item" [ref=e503] [cursor=pointer]:
+                  - /url: "#"
+                  - text: 
+                  - generic [ref=e504]: Remove This Item
+            - generic [ref=e505]:
+              - link "Compare" [ref=e507] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/catalog/product_compare/index/uenc/aHR0cDovLzEyNy4wLjAuMTo3NzcwL2N1c3RvbWVyL3NlY3Rpb24vbG9hZC8_c2VjdGlvbnM9Y29tcGFyZS1wcm9kdWN0cyUyQ21lc3NhZ2VzJmZvcmNlX25ld19zZWN0aW9uX3RpbWVzdGFtcD1mYWxzZSZfPTE3OTA1NjM0NzA5NzY~/
+              - link "Clear All" [ref=e509] [cursor=pointer]:
+                - /url: "#"
+        - generic [ref=e510]:
+          - heading "My Wish List" [level=2] [ref=e512]
+          - generic [ref=e514]: You have no items in your wish list.
+  - contentinfo [ref=e515]:
+    - generic [ref=e516]:
+      - generic [ref=e519]:
+        - generic [ref=e521]:
+          - text: 
+          - generic [ref=e522]:
+            - generic [ref=e523]: "Sign Up for Our Newsletter:"
+            - textbox "Sign Up for Our Newsletter:" [ref=e524]:
+              - /placeholder: Enter your email address
+        - button "Subscribe" [ref=e526] [cursor=pointer]
+      - list [ref=e527]:
+        - listitem [ref=e528]:
+          - link "Privacy and Cookie Policy" [ref=e529] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/privacy-policy-cookie-restriction-mode/
+        - listitem [ref=e530]:
+          - link "Search Terms" [ref=e531] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/search/term/popular/
+        - listitem [ref=e532]:
+          - link "Advanced Search" [ref=e533] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/catalogsearch/advanced/
+        - listitem [ref=e534]:
+          - link "Orders and Returns" [ref=e535] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/sales/guest/form/
+        - listitem [ref=e536]:
+          - link "Contact Us" [ref=e537] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/contact/
+      - generic [ref=e538]: Copyright © 2013-present Magento, Inc. All rights reserved.
+      - generic [ref=e539]:
+        - text: Help Us Keep Magento Healthy
+        - link "Report All Bugs" [ref=e540] [cursor=pointer]:
+          - /url: http://www.magentocommerce.com/bug-tracking

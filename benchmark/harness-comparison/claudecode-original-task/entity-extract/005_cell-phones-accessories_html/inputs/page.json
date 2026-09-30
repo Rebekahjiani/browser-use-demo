@@ -1,0 +1,33 @@
+{
+  "url": "http://127.0.0.1:7770/cell-phones-accessories.html",
+  "title": "Cell Phones & Accessories",
+  "route": "/cell-phones-accessories.html",
+  "captured_from": "drive",
+  "sources": {
+    "aria_source": "..\\drive\\screenshots\\029_cell-phones-accessories_html\\aria.yml",
+    "catalog": "<runDir>/evidence_catalog.json",
+    "evidence_ids": [
+      "trace:api_candidate:line1033",
+      "trace:api_candidate:line1034",
+      "trace:api_candidate:line1036",
+      "trace:api_candidate:line1037",
+      "trace:api_candidate:line1038",
+      "trace:api_candidate:line1269",
+      "trace:api_candidate:line1339",
+      "trace:api_candidate:line1349",
+      "trace:api_candidate:line1350",
+      "trace:api_candidate:line1351",
+      "trace:api_candidate:line1410",
+      "trace:api_candidate:line1466",
+      "trace:api_candidate:line15271",
+      "trace:api_candidate:line15274",
+      "trace:api_candidate:line15275",
+      "trace:api_candidate:line15276",
+      "trace:api_candidate:line15277",
+      "trace:api_candidate:line15516",
+      "trace:api_candidate:line15517",
+      "trace:api_candidate:line1735"
+    ]
+  },
+  "tree_format": "aria_yml"
+}

@@ -1,0 +1,30 @@
+{"ref":"E001","method":"GET","path":"/static/version1681826198/frontend/Magento/blank/en_US/js-translation.json","status":"200","evidence_id":"trace:api_candidate:line13290","digest":{"shape":"object(0 keys)","record_keys":[],"key_enums":{}},"record_shape":null}
+{"ref":"E002","method":"GET","path":"/static/version1681826198/frontend/Magento/blank/en_US/Magento_Ui/templates/modal/modal-popup.html","status":"200","evidence_id":"trace:api_candidate:line13299","digest":null,"record_shape":null}
+{"ref":"E003","method":"GET","path":"/static/version1681826198/frontend/Magento/blank/en_US/Magento_Ui/templates/modal/modal-slide.html","status":"200","evidence_id":"trace:api_candidate:line13300","digest":null,"record_shape":null}
+{"ref":"E004","method":"GET","path":"/static/version1681826198/frontend/Magento/blank/en_US/Magento_Ui/templates/modal/modal-custom.html","status":"200","evidence_id":"trace:api_candidate:line13301","digest":null,"record_shape":null}
+{"ref":"E005","method":"GET","path":"/static/version1681826198/frontend/Magento/blank/en_US/Magento_Ui/templates/tooltip/tooltip.html","status":"200","evidence_id":"trace:api_candidate:line13358","digest":null,"record_shape":null}
+{"ref":"E006","method":"GET","path":"/static/version1681826198/frontend/Magento/blank/en_US/Magento_Ui/templates/block-loader.html","status":"200","evidence_id":"trace:api_candidate:line13409","digest":null,"record_shape":null}
+{"ref":"E007","method":"GET","path":"/static/version1681826198/frontend/Magento/blank/en_US/Magento_Checkout/template/minicart/content.html","status":"200","evidence_id":"trace:api_candidate:line13456","digest":null,"record_shape":null}
+{"ref":"E008","method":"GET","path":"/static/version1681826198/frontend/Magento/blank/en_US/Magento_Customer/template/authentication-popup.html","status":"200","evidence_id":"trace:api_candidate:line13457","digest":null,"record_shape":null}
+{"ref":"E009","method":"GET","path":"/static/version1681826198/frontend/Magento/blank/en_US/Magento_Customer/template/show-password.html","status":"200","evidence_id":"trace:api_candidate:line13458","digest":null,"record_shape":null}
+{"ref":"E010","method":"GET","path":"/static/version1681826198/frontend/Magento/blank/en_US/Magento_Ui/templates/collection.html","status":"200","evidence_id":"trace:api_candidate:line13459","digest":null,"record_shape":null}
+{"ref":"E011","method":"GET","path":"/static/version1681826198/frontend/Magento/blank/en_US/Magento_Checkout/template/minicart/item/default.html","status":"200","evidence_id":"trace:api_candidate:line13460","digest":null,"record_shape":null}
+{"ref":"E012","method":"GET","path":"/static/version1681826198/frontend/Magento/blank/en_US/Magento_Ui/template/messages.html","status":"200","evidence_id":"trace:api_candidate:line13461","digest":null,"record_shape":null}
+{"ref":"E013","method":"GET","path":"/static/version1681826198/frontend/Magento/blank/en_US/Magento_Captcha/template/checkout/captcha.html","status":"200","evidence_id":"trace:api_candidate:line13462","digest":null,"record_shape":null}
+{"ref":"E014","method":"GET","path":"/static/version1681826198/frontend/Magento/blank/en_US/Magento_Checkout/template/minicart/subtotal.html","status":"200","evidence_id":"trace:api_candidate:line13463","digest":null,"record_shape":null}
+{"ref":"E015","method":"GET","path":"/static/version1681826198/frontend/Magento/blank/en_US/Magento_Catalog/template/product/image_with_borders.html","status":"200","evidence_id":"trace:api_candidate:line13464","digest":null,"record_shape":null}
+{"ref":"E016","method":"GET","path":"/static/version1681826198/frontend/Magento/blank/en_US/Magento_Checkout/template/minicart/item/price.html","status":"200","evidence_id":"trace:api_candidate:line13465","digest":null,"record_shape":null}
+{"ref":"E017","method":"GET","path":"/static/version1681826198/frontend/Magento/blank/en_US/Magento_Tax/template/checkout/minicart/subtotal/totals.html","status":"200","evidence_id":"trace:api_candidate:line13466","digest":null,"record_shape":null}
+{"ref":"E018","method":"GET","path":"/video-games.html","status":"200","evidence_id":"trace:api_candidate:line13686","digest":null,"record_shape":null}
+{"ref":"E019","method":"GET","path":"/customer/account/login/","status":"200","evidence_id":"trace:api_candidate:line14602","digest":null,"record_shape":null}
+{"ref":"E020","method":"GET","path":"/cell-phones-accessories.html","status":"200","evidence_id":"trace:api_candidate:line15040","digest":null,"record_shape":null}
+{"ref":"E021","method":"GET","path":"/customer/section/load/","status":"200","evidence_id":"trace:api_candidate:line15723","digest":{"shape":"object(2 keys)","record_keys":["wishlist","messages"],"key_enums":{}},"record_shape":null}
+{"ref":"E022","method":"GET","path":"/sports-outdoors.html","status":"200","evidence_id":"trace:api_candidate:line15958","digest":null,"record_shape":null}
+{"ref":"E023","method":"GET","path":"/customer/account/","status":"302","evidence_id":"trace:api_candidate:line16769","digest":null,"record_shape":null}
+{"ref":"E024","method":"GET","path":"/patio-lawn-garden.html","status":"200","evidence_id":"trace:api_candidate:line17312","digest":null,"record_shape":null}
+{"ref":"E025","method":"GET","path":"/contact/","status":"200","evidence_id":"trace:api_candidate:line23266","digest":null,"record_shape":null}
+{"ref":"E026","method":"GET","path":"/wishlist/","status":"302","evidence_id":"trace:api_candidate:line27040","digest":null,"record_shape":null}
+{"ref":"E027","method":"GET","path":"/catalogsearch/advanced/","status":"200","evidence_id":"trace:api_candidate:line27480","digest":null,"record_shape":null}
+{"ref":"E028","method":"GET","path":"/electronics.html","status":"200","evidence_id":"trace:api_candidate:line4149","digest":null,"record_shape":null}
+{"ref":"E029","method":"GET","path":"/home-kitchen.html","status":"200","evidence_id":"trace:api_candidate:line5510","digest":null,"record_shape":null}
+{"ref":"E030","method":"GET","path":"/health-household.html","status":"200","evidence_id":"trace:api_candidate:line9374","digest":null,"record_shape":null}

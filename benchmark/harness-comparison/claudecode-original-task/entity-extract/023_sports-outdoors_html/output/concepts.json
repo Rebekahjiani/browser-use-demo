@@ -1,0 +1,88 @@
+{
+  "concepts": [
+    {
+      "canonical_name": "商品分类",
+      "concept_type": "business_entity",
+      "description": "Sports & Outdoors 商品分类页，展示分类名称、商品数量、排序方式及筛选选项。",
+      "aliases": [
+        "Category",
+        "分类"
+      ],
+      "attributes": [
+        {
+          "name": "分类名称",
+          "note": "页面标题（heading）",
+          "source_refs": [
+            "page.aria.yml:heading:Sports & Outdoors Items 1-12 of 884"
+          ]
+        },
+        {
+          "name": "商品数量",
+          "note": "Items 1-12 of 884 段落",
+          "source_refs": [
+            "page.aria.yml:paragraph:Items 1-12 of 884"
+          ]
+        },
+        {
+          "name": "排序方式",
+          "note": "Sort By 下拉框",
+          "source_refs": [
+            "page.aria.yml:combobox:Sort By"
+          ]
+        }
+      ],
+      "evidence_refs": [],
+      "api_refs": [],
+      "page_refs": [
+        "023_sports-outdoors_html"
+      ]
+    },
+    {
+      "canonical_name": "商品",
+      "concept_type": "business_entity",
+      "description": "Sports & Outdoors 分类列表中的商品条目，含名称、评分、评论数与价格，支持加购、加入愿望清单、加入对比。",
+      "aliases": [
+        "Product",
+        "product"
+      ],
+      "attributes": [
+        {
+          "name": "名称",
+          "note": "列表项中商品名链接",
+          "source_refs": [
+            "page.aria.yml:listitem:strong:link"
+          ]
+        },
+        {
+          "name": "评分",
+          "note": "Rating: 标签",
+          "source_refs": [
+            "page.aria.yml:generic:Rating:"
+          ]
+        },
+        {
+          "name": "评论数",
+          "note": "N Reviews 链接",
+          "source_refs": [
+            "page.aria.yml:link:Review"
+          ]
+        },
+        {
+          "name": "Price",
+          "note": "商品价格文本",
+          "source_refs": [
+            "page.aria.yml:generic"
+          ]
+        }
+      ],
+      "evidence_refs": [],
+      "api_refs": [],
+      "page_refs": [
+        "023_sports-outdoors_html"
+      ]
+    }
+  ],
+  "notes": [
+    "本页唯一非静态端点为 /customer/account/login/（E017，会话导航），无商品数据接口；商品分类与商品实体均为纯树锚点，api_refs 留空（宁缺勿错），不输出 operations。"
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "concepts": [
+    {
+      "canonical_name": "商品",
+      "concept_type": "business_entity",
+      "description": "MMQQ 吧台椅商品详情页展示的商品，含 SKU、库存状态、颜色、尺寸、数量及 Product Quick Look 信息。",
+      "aliases": [
+        "Product",
+        "product"
+      ],
+      "attributes": [
+        {
+          "name": "名称",
+          "note": "页面标题（heading）/商品名",
+          "source_refs": [
+            "page.aria.yml:heading:MMQQ Beige Bar Chairs"
+          ]
+        },
+        {
+          "name": "SKU",
+          "note": "SKU 标签（strong）",
+          "source_refs": [
+            "page.aria.yml:strong:SKU"
+          ]
+        },
+        {
+          "name": "Availability",
+          "note": "库存状态（Availability 标签）",
+          "source_refs": [
+            "page.aria.yml:generic:Availability"
+          ]
+        },
+        {
+          "name": "颜色",
+          "note": "Color * 单选：Black/Brown/White",
+          "source_refs": [
+            "page.aria.yml:radio:Color *"
+          ]
+        },
+        {
+          "name": "尺寸",
+          "note": "Size * 单选：58cm/65cm/75cm",
+          "source_refs": [
+            "page.aria.yml:radio:Size *"
+          ]
+        },
+        {
+          "name": "Price",
+          "note": "商品价格文本",
+          "source_refs": [
+            "page.aria.yml:generic:Price"
+          ]
+        },
+        {
+          "name": "Qty",
+          "note": "数量输入（spinbutton）",
+          "source_refs": [
+            "page.aria.yml:spinbutton:Qty"
+          ]
+        },
+        {
+          "name": "Date First Available",
+          "note": "Quick Look 表格行头",
+          "source_refs": [
+            "page.aria.yml:rowheader:Date First Available"
+          ]
+        }
+      ],
+      "evidence_refs": [],
+      "api_refs": [],
+      "page_refs": [
+        "018_mmqq-beige-bar-chairs-outdoor-patio-wicker-rattan-barstools-"
+      ]
+    }
+  ],
+  "notes": [
+    "本页仅捕获到 /wishlist/（E021，302 导航）与 /customer/account/login/（E022）及静态模板端点，无商品数据接口；商品实体纯树锚点，api_refs 留空（宁缺勿错）。"
+  ]
+}

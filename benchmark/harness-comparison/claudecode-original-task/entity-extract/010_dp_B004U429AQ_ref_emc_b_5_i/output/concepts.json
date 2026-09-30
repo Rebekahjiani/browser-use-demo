@@ -1,0 +1,40 @@
+{
+  "concepts": [
+    {
+      "canonical_name": "商品",
+      "concept_type": "business_entity",
+      "description": "错误页（404 页面）侧栏 Compare Products 区块列出的对比商品（Multi Accessory Hub Adapter By JOBY、linxiaojix Waterproof Shell）。",
+      "aliases": [
+        "Product",
+        "product"
+      ],
+      "attributes": [
+        {
+          "name": "名称",
+          "note": "对比列表中的商品名链接",
+          "source_refs": [
+            "page.aria.yml:link:Multi Accessory Hub Adapter By JOBY"
+          ]
+        }
+      ],
+      "evidence_refs": [],
+      "api_refs": [],
+      "page_refs": [
+        "010_dp_B004U429AQ_ref_emc_b_5_i"
+      ]
+    },
+    {
+      "canonical_name": "商品-移除对比",
+      "concept_type": "operation",
+      "description": "点击 Remove This Item 从对比列表移除商品。本页仅树锚点，无对应数据接口证据。",
+      "belongs_to_entity": "商品",
+      "evidence_refs": [
+        "page.aria.yml:link:Remove This Item"
+      ],
+      "api_refs": []
+    }
+  ],
+  "notes": [
+    "本页无数据接口端点（全部为静态模板），对比商品列表与空愿望清单均来自页面树；api_refs 留空（宁缺勿错）。"
+  ]
+}

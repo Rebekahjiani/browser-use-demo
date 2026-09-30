@@ -1,0 +1,362 @@
+[
+  {
+    "ref": "U00000",
+    "text": "RootWebArea: Advanced Search"
+  },
+  {
+    "ref": "U00001",
+    "text": "link: Skip to Content"
+  },
+  {
+    "ref": "U00002",
+    "text": "StaticText: Skip to Content"
+  },
+  {
+    "ref": "U00003",
+    "text": "link: store logo"
+  },
+  {
+    "ref": "U00004",
+    "text": "link: Home"
+  },
+  {
+    "ref": "U00005",
+    "text": "heading: Advanced Search"
+  },
+  {
+    "ref": "U00006",
+    "text": "group: Search Settings"
+  },
+  {
+    "ref": "U00007",
+    "text": "StaticText: Copyright © 2013-present Magento, Inc. All rights reserved."
+  },
+  {
+    "ref": "U00008",
+    "text": "StaticText: Help Us Keep Magento Healthy"
+  },
+  {
+    "ref": "U00009",
+    "text": "StaticText:"
+  },
+  {
+    "ref": "U00010",
+    "text": "link: Report All Bugs"
+  },
+  {
+    "ref": "U00011",
+    "text": "link: My Account"
+  },
+  {
+    "ref": "U00012",
+    "text": "link: My Wish List"
+  },
+  {
+    "ref": "U00013",
+    "text": "link: Sign In"
+  },
+  {
+    "ref": "U00014",
+    "text": "link: Create an Account"
+  },
+  {
+    "ref": "U00015",
+    "text": "image: one_stop_market_logo"
+  },
+  {
+    "ref": "U00016",
+    "text": "link:  My Cart"
+  },
+  {
+    "ref": "U00017",
+    "text": "StaticText: Home"
+  },
+  {
+    "ref": "U00018",
+    "text": "StaticText: "
+  },
+  {
+    "ref": "U00019",
+    "text": "StaticText: Catalog Advanced Search"
+  },
+  {
+    "ref": "U00020",
+    "text": "StaticText: Advanced Search"
+  },
+  {
+    "ref": "U00021",
+    "text": "button: Search"
+  },
+  {
+    "ref": "U00022",
+    "text": "button: Subscribe"
+  },
+  {
+    "ref": "U00023",
+    "text": "link: Privacy and Cookie Policy"
+  },
+  {
+    "ref": "U00024",
+    "text": "link: Search Terms"
+  },
+  {
+    "ref": "U00025",
+    "text": "link: Orders and Returns"
+  },
+  {
+    "ref": "U00026",
+    "text": "link: Contact Us"
+  },
+  {
+    "ref": "U00027",
+    "text": "StaticText: Report All Bugs"
+  },
+  {
+    "ref": "U00028",
+    "text": "StaticText: My Account"
+  },
+  {
+    "ref": "U00029",
+    "text": "StaticText: My Wish List"
+  },
+  {
+    "ref": "U00030",
+    "text": "StaticText: Sign In"
+  },
+  {
+    "ref": "U00031",
+    "text": "StaticText: Create an Account"
+  },
+  {
+    "ref": "U00032",
+    "text": "StaticText: My Cart"
+  },
+  {
+    "ref": "U00033",
+    "text": "link: Beauty & Personal Care"
+  },
+  {
+    "ref": "U00034",
+    "text": "link: Sports & Outdoors"
+  },
+  {
+    "ref": "U00035",
+    "text": "link: Clothing, Shoes & Jewelry"
+  },
+  {
+    "ref": "U00036",
+    "text": "link: Home & Kitchen"
+  },
+  {
+    "ref": "U00037",
+    "text": "link: Office Products"
+  },
+  {
+    "ref": "U00038",
+    "text": "link: Tools & Home Improvement"
+  },
+  {
+    "ref": "U00039",
+    "text": "link: Health & Household"
+  },
+  {
+    "ref": "U00040",
+    "text": "link: Patio, Lawn & Garden"
+  },
+  {
+    "ref": "U00041",
+    "text": "link: Electronics"
+  },
+  {
+    "ref": "U00042",
+    "text": "link: Cell Phones & Accessories"
+  },
+  {
+    "ref": "U00043",
+    "text": "link: Video Games"
+  },
+  {
+    "ref": "U00044",
+    "text": "link: Grocery & Gourmet Food"
+  },
+  {
+    "ref": "U00045",
+    "text": "StaticText: Search Settings"
+  },
+  {
+    "ref": "U00046",
+    "text": "StaticText: Product Name"
+  },
+  {
+    "ref": "U00047",
+    "text": "textbox: Product Name"
+  },
+  {
+    "ref": "U00048",
+    "text": "StaticText: SKU"
+  },
+  {
+    "ref": "U00049",
+    "text": "textbox: SKU"
+  },
+  {
+    "ref": "U00050",
+    "text": "StaticText: Description"
+  },
+  {
+    "ref": "U00051",
+    "text": "textbox: Description"
+  },
+  {
+    "ref": "U00052",
+    "text": "StaticText: Short Description"
+  },
+  {
+    "ref": "U00053",
+    "text": "textbox: Short Description"
+  },
+  {
+    "ref": "U00054",
+    "text": "StaticText: Price"
+  },
+  {
+    "ref": "U00055",
+    "text": "StaticText: Search"
+  },
+  {
+    "ref": "U00056",
+    "text": "StaticText: "
+  },
+  {
+    "ref": "U00057",
+    "text": "StaticText: Sign Up for Our Newsletter:"
+  },
+  {
+    "ref": "U00058",
+    "text": "textbox: Sign Up for Our Newsletter:"
+  },
+  {
+    "ref": "U00059",
+    "text": "StaticText: Subscribe"
+  },
+  {
+    "ref": "U00060",
+    "text": "StaticText: Privacy and Cookie Policy"
+  },
+  {
+    "ref": "U00061",
+    "text": "StaticText: Search Terms"
+  },
+  {
+    "ref": "U00062",
+    "text": "StaticText: Advanced Search"
+  },
+  {
+    "ref": "U00063",
+    "text": "StaticText: Orders and Returns"
+  },
+  {
+    "ref": "U00064",
+    "text": "StaticText: Contact Us"
+  },
+  {
+    "ref": "U00065",
+    "text": "StaticText: "
+  },
+  {
+    "ref": "U00066",
+    "text": "StaticText: Search"
+  },
+  {
+    "ref": "U00067",
+    "text": "combobox:  Search"
+  },
+  {
+    "ref": "U00068",
+    "text": "button: Search"
+  },
+  {
+    "ref": "U00069",
+    "text": "StaticText: Beauty & Personal Care"
+  },
+  {
+    "ref": "U00070",
+    "text": "StaticText: Sports & Outdoors"
+  },
+  {
+    "ref": "U00071",
+    "text": "StaticText: Clothing, Shoes & Jewelry"
+  },
+  {
+    "ref": "U00072",
+    "text": "StaticText: Home & Kitchen"
+  },
+  {
+    "ref": "U00073",
+    "text": "StaticText: Office Products"
+  },
+  {
+    "ref": "U00074",
+    "text": "StaticText: Tools & Home Improvement"
+  },
+  {
+    "ref": "U00075",
+    "text": "StaticText: Health & Household"
+  },
+  {
+    "ref": "U00076",
+    "text": "StaticText: Patio, Lawn & Garden"
+  },
+  {
+    "ref": "U00077",
+    "text": "StaticText: Electronics"
+  },
+  {
+    "ref": "U00078",
+    "text": "StaticText: Cell Phones & Accessories"
+  },
+  {
+    "ref": "U00079",
+    "text": "StaticText: Video Games"
+  },
+  {
+    "ref": "U00080",
+    "text": "StaticText: Grocery & Gourmet Food"
+  },
+  {
+    "ref": "U00081",
+    "text": "textbox: Price"
+  },
+  {
+    "ref": "U00082",
+    "text": "textbox: USD"
+  },
+  {
+    "ref": "U00083",
+    "text": "StaticText: "
+  },
+  {
+    "ref": "U00084",
+    "text": "link: Advanced Search"
+  },
+  {
+    "ref": "U00085",
+    "text": "StaticText: Search"
+  },
+  {
+    "ref": "U00086",
+    "text": "StaticText: –"
+  },
+  {
+    "ref": "U00087",
+    "text": "StaticText: USD"
+  },
+  {
+    "ref": "U00088",
+    "text": "StaticText: Advanced Search"
+  },
+  {
+    "ref": "U00089",
+    "text": "StaticText: "
+  }
+]

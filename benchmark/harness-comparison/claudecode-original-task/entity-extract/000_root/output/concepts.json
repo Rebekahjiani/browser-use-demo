@@ -1,0 +1,112 @@
+{
+  "concepts": [
+    {
+      "canonical_name": "商品",
+      "concept_type": "business_entity",
+      "description": "首页 One Stop Market（Product Showcases 区块）展示的商品，含名称、评分、评论数、价格以及加入购物车/愿望清单/对比的入口。",
+      "aliases": [
+        "Product",
+        "product"
+      ],
+      "attributes": [
+        {
+          "name": "名称",
+          "note": "商品名称（展示区商品链接文本）",
+          "source_refs": [
+            "page.aria.yml:strong:Product Showcases"
+          ]
+        },
+        {
+          "name": "评分",
+          "note": "Rating: 标签",
+          "source_refs": [
+            "page.aria.yml:generic:Rating:"
+          ]
+        },
+        {
+          "name": "评论数",
+          "note": "N Reviews 链接",
+          "source_refs": [
+            "page.aria.yml:link:Review"
+          ]
+        },
+        {
+          "name": "Price",
+          "note": "商品价格文本",
+          "source_refs": [
+            "page.aria.yml:generic:Price"
+          ]
+        }
+      ],
+      "evidence_refs": [
+        "E017",
+        "E019",
+        "E022",
+        "E023"
+      ],
+      "api_refs": [
+        "E019",
+        "E023"
+      ],
+      "page_refs": [
+        "000_root"
+      ]
+    },
+    {
+      "canonical_name": "商品-查看详情",
+      "concept_type": "operation",
+      "description": "点击商品卡跳转商品详情页（GET 商品页）。",
+      "belongs_to_entity": "商品",
+      "evidence_refs": [
+        "E019",
+        "E023"
+      ],
+      "api_refs": [
+        "E019",
+        "E023"
+      ]
+    },
+    {
+      "canonical_name": "商品-加入对比",
+      "concept_type": "operation",
+      "description": "点击 Add to Compare 将商品加入对比列表（POST /catalog/product_compare/add/）。",
+      "belongs_to_entity": "商品",
+      "evidence_refs": [
+        "E017",
+        "E018",
+        "page.aria.yml:link:Add to Compare"
+      ],
+      "api_refs": [
+        "E017"
+      ]
+    },
+    {
+      "canonical_name": "商品-查询",
+      "concept_type": "operation",
+      "description": "加载购物车/对比/消息等顾客会话数据（GET /customer/section/load/，返回 compare-products 与 messages）。",
+      "belongs_to_entity": "商品",
+      "evidence_refs": [
+        "E018"
+      ],
+      "api_refs": [
+        "E018"
+      ]
+    },
+    {
+      "canonical_name": "商品-加入购物车",
+      "concept_type": "operation",
+      "description": "点击 Add to Cart 提交加购表单（POST 至商品页 URL，302 跳转）。",
+      "belongs_to_entity": "商品",
+      "evidence_refs": [
+        "E022",
+        "page.aria.yml:button:Add to Cart"
+      ],
+      "api_refs": [
+        "E022"
+      ]
+    }
+  ],
+  "notes": [
+    "静态模板端点（/static/...js-translation、modal、tooltip、breadcrumbs 等 Magento UI 模板）与导航/会话端点（E020 GET /wishlist/ 302、E021 GET /customer/account/login/ 200）不计入 api_refs。"
+  ]
+}

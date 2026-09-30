@@ -1,0 +1,308 @@
+{
+  "meta": {
+    "version": "shopping-ui-core-v1",
+    "frozen": true,
+    "freeze_date": "2026-09-29",
+    "scope": "商品、搜索筛选、购物车的已证实最小核心；不是三个模块全集",
+    "reference_selection": "既有 browser-use 快照辅助核验，存在选择偏差；只供试评，不足以给探索器正式排名",
+    "source_db_sha256": "3daa2e5d53f1debc412a9cca437bc0b48bfe4c995dad6aad9295dda5cda7228a",
+    "exclude": [
+      "后台",
+      "订单支付",
+      "未知可见性字段",
+      "动作执行成功率",
+      "API覆盖率"
+    ]
+  },
+  "entities": [
+    {
+      "id": "product",
+      "name": "商品",
+      "aliases": [
+        "catalog_product",
+        "产品",
+        "Product"
+      ],
+      "attributes": [
+        {
+          "name": "sku",
+          "aliases": [
+            "SKU",
+            "商品编号"
+          ],
+          "db_mapping": "catalog_product.sku",
+          "visibility": {
+            "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260928-160723-422670\\snapshots\\00015\\accessibility.json",
+            "node_id": "16562",
+            "label": "SKU",
+            "url": "http://127.0.0.1:7770/surethik-15g-hair-thickening-fiber-black-and-holding-spray-3oz-bundle.html",
+            "precondition": "本次已捕获页面状态；购物车为非空",
+            "verification": "snapshot_verified"
+          }
+        },
+        {
+          "name": "price",
+          "aliases": [
+            "Price",
+            "价格"
+          ],
+          "db_mapping": "catalog_product.price",
+          "visibility": {
+            "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260928-160723-422670\\snapshots\\00005\\accessibility.json",
+            "node_id": "11264",
+            "label": "Price",
+            "url": "http://127.0.0.1:7770/beauty-personal-care.html",
+            "precondition": "本次已捕获页面状态；购物车为非空",
+            "verification": "snapshot_verified"
+          }
+        },
+        {
+          "name": "availability",
+          "aliases": [
+            "In stock",
+            "库存状态"
+          ],
+          "db_mapping": "cataloginventory_stock_item.is_in_stock",
+          "visibility": {
+            "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260928-160723-422670\\snapshots\\00015\\accessibility.json",
+            "node_id": "16530",
+            "label": "IN STOCK",
+            "url": "http://127.0.0.1:7770/surethik-15g-hair-thickening-fiber-black-and-holding-spray-3oz-bundle.html",
+            "precondition": "本次已捕获页面状态；购物车为非空",
+            "verification": "snapshot_verified"
+          }
+        }
+      ],
+      "scope": "minimum_confirmed_core"
+    },
+    {
+      "id": "cart",
+      "name": "购物车",
+      "aliases": [
+        "quote",
+        "Shopping Cart"
+      ],
+      "attributes": [
+        {
+          "name": "subtotal",
+          "aliases": [
+            "Subtotal",
+            "小计"
+          ],
+          "db_mapping": "quote.subtotal",
+          "visibility": {
+            "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260928-160723-422670\\snapshots\\00021\\accessibility.json",
+            "node_id": "25023",
+            "label": "Subtotal",
+            "url": "http://127.0.0.1:7770/checkout/cart/",
+            "precondition": "本次已捕获页面状态；购物车为非空",
+            "verification": "snapshot_verified"
+          }
+        },
+        {
+          "name": "grand_total",
+          "aliases": [
+            "Order Total",
+            "总计"
+          ],
+          "db_mapping": "quote.grand_total",
+          "visibility": {
+            "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260928-160723-422670\\snapshots\\00022\\accessibility.json",
+            "node_id": "29906",
+            "label": "Order Total",
+            "url": "http://127.0.0.1:7770/checkout/cart/",
+            "precondition": "本次已捕获页面状态；购物车为非空",
+            "verification": "snapshot_verified"
+          }
+        }
+      ],
+      "scope": "minimum_confirmed_core"
+    },
+    {
+      "id": "cart_item",
+      "name": "购物车条目",
+      "aliases": [
+        "quote_item",
+        "购物车项",
+        "Cart Item"
+      ],
+      "attributes": [
+        {
+          "name": "qty",
+          "aliases": [
+            "Qty",
+            "数量"
+          ],
+          "db_mapping": "quote_item.qty",
+          "visibility": {
+            "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260928-160723-422670\\snapshots\\00021\\accessibility.json",
+            "node_id": "25022",
+            "label": "Qty",
+            "url": "http://127.0.0.1:7770/checkout/cart/",
+            "precondition": "本次已捕获页面状态；购物车为非空",
+            "verification": "snapshot_verified"
+          }
+        },
+        {
+          "name": "price",
+          "aliases": [
+            "Price",
+            "价格"
+          ],
+          "db_mapping": "quote_item.price",
+          "visibility": {
+            "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260928-160723-422670\\snapshots\\00021\\accessibility.json",
+            "node_id": "25021",
+            "label": "Price",
+            "url": "http://127.0.0.1:7770/checkout/cart/",
+            "precondition": "本次已捕获页面状态；购物车为非空",
+            "verification": "snapshot_verified"
+          }
+        },
+        {
+          "name": "row_total",
+          "aliases": [
+            "Subtotal",
+            "行小计"
+          ],
+          "db_mapping": "quote_item.row_total",
+          "visibility": {
+            "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260928-160723-422670\\snapshots\\00021\\accessibility.json",
+            "node_id": "25023",
+            "label": "Subtotal",
+            "url": "http://127.0.0.1:7770/checkout/cart/",
+            "precondition": "本次已捕获页面状态；购物车为非空",
+            "verification": "snapshot_verified"
+          }
+        }
+      ],
+      "scope": "minimum_confirmed_core"
+    }
+  ],
+  "operations": [
+    {
+      "id": "product.搜索",
+      "name": "搜索",
+      "belongs_to_entity": "product",
+      "observation_level": "visible_control",
+      "visibility": {
+        "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260928-160723-422670\\snapshots\\00018\\accessibility.json",
+        "node_id": "20968",
+        "label": "Advanced Search",
+        "url": "http://127.0.0.1:7770/catalogsearch/advanced/",
+        "precondition": "本次已捕获页面状态；购物车为非空",
+        "verification": "snapshot_verified"
+      },
+      "execution_verified": false
+    },
+    {
+      "id": "product.排序",
+      "name": "排序",
+      "belongs_to_entity": "product",
+      "observation_level": "visible_control",
+      "visibility": {
+        "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260928-160723-422670\\snapshots\\00005\\accessibility.json",
+        "node_id": "11157",
+        "label": "Sort By",
+        "url": "http://127.0.0.1:7770/beauty-personal-care.html",
+        "precondition": "本次已捕获页面状态；购物车为非空",
+        "verification": "snapshot_verified"
+      },
+      "execution_verified": false
+    },
+    {
+      "id": "product.翻页",
+      "name": "翻页",
+      "belongs_to_entity": "product",
+      "observation_level": "visible_control",
+      "visibility": {
+        "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260928-160723-422670\\snapshots\\00005\\accessibility.json",
+        "node_id": "11304",
+        "label": " Page Next",
+        "url": "http://127.0.0.1:7770/beauty-personal-care.html",
+        "precondition": "本次已捕获页面状态；购物车为非空",
+        "verification": "snapshot_verified"
+      },
+      "execution_verified": false
+    },
+    {
+      "id": "cart_item.编辑",
+      "name": "编辑",
+      "belongs_to_entity": "cart_item",
+      "observation_level": "visible_control",
+      "visibility": {
+        "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260928-160723-422670\\snapshots\\00021\\accessibility.json",
+        "node_id": "26211",
+        "label": "Edit Remove item",
+        "url": "http://127.0.0.1:7770/checkout/cart/",
+        "precondition": "本次已捕获页面状态；购物车为非空",
+        "verification": "snapshot_verified"
+      },
+      "execution_verified": false
+    },
+    {
+      "id": "cart_item.删除",
+      "name": "删除",
+      "belongs_to_entity": "cart_item",
+      "observation_level": "visible_control",
+      "visibility": {
+        "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260928-160723-422670\\snapshots\\00021\\accessibility.json",
+        "node_id": "26211",
+        "label": "Edit Remove item",
+        "url": "http://127.0.0.1:7770/checkout/cart/",
+        "precondition": "本次已捕获页面状态；购物车为非空",
+        "verification": "snapshot_verified"
+      },
+      "execution_verified": false
+    },
+    {
+      "id": "cart.更新",
+      "name": "更新",
+      "belongs_to_entity": "cart",
+      "observation_level": "visible_control",
+      "visibility": {
+        "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260928-160723-422670\\snapshots\\00021\\accessibility.json",
+        "node_id": "25024",
+        "label": " Update Shopping Cart",
+        "url": "http://127.0.0.1:7770/checkout/cart/",
+        "precondition": "本次已捕获页面状态；购物车为非空",
+        "verification": "snapshot_verified"
+      },
+      "execution_verified": false
+    }
+  ],
+  "relations": [
+    {
+      "source_entity": "cart",
+      "predicate": "contains",
+      "target_entity": "cart_item",
+      "visibility": {
+        "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260928-160723-422670\\snapshots\\00021\\accessibility.json",
+        "node_id": "25022",
+        "label": "Qty",
+        "url": "http://127.0.0.1:7770/checkout/cart/",
+        "precondition": "本次已捕获页面状态；购物车为非空",
+        "verification": "snapshot_verified"
+      }
+    },
+    {
+      "source_entity": "cart_item",
+      "predicate": "references",
+      "target_entity": "product",
+      "visibility": {
+        "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260928-160723-422670\\snapshots\\00021\\accessibility.json",
+        "node_id": "26188",
+        "label": "ZOSI H.265+ PoE Home Security Camera System Outdoor Indoor,8-Channel 5MP PoE NVR Recorder,4pcs Wired 2MP 1080p Surveillance Bullet PoE IP Cameras, No Hard Drive (Renewed) ZOSI H.265+ PoE Home Security Camera System Outdoor Indoor,8-Channel 5MP PoE NVR Recorder,4pcs Wired 2MP 1080p Surveillance Bullet PoE IP Cameras, No Hard Drive (Renewed)",
+        "url": "http://127.0.0.1:7770/checkout/cart/",
+        "precondition": "本次已捕获页面状态；购物车为非空",
+        "verification": "snapshot_verified"
+      }
+    }
+  ],
+  "pending": [
+    "分类名称/层级及商品分类关系需独立参考采集",
+    "搜索有/无结果、筛选后状态需独立验证",
+    "购物车空状态、数量修改/删除结果需独立验证",
+    "商品名称、描述、特殊价格等需字段级证据和映射补全"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:7770/electronics.html",
+  "title": "Electronics",
+  "route": "/electronics.html",
+  "captured_from": "drive",
+  "sources": {
+    "aria_source": "..\\drive\\screenshots\\010_electronics_html\\aria.yml",
+    "catalog": "<runDir>/evidence_catalog.json",
+    "evidence_ids": [
+      "trace:api_candidate:line2315",
+      "trace:api_candidate:line2325",
+      "trace:api_candidate:line2326",
+      "trace:api_candidate:line2327",
+      "trace:api_candidate:line2386",
+      "trace:api_candidate:line2440",
+      "trace:api_candidate:line2502",
+      "trace:api_candidate:line2503",
+      "trace:api_candidate:line2504",
+      "trace:api_candidate:line2505",
+      "trace:api_candidate:line2506",
+      "trace:api_candidate:line2731",
+      "trace:api_candidate:line2734",
+      "trace:api_candidate:line2736",
+      "trace:api_candidate:line2737",
+      "trace:api_candidate:line2739",
+      "trace:api_candidate:line2740",
+      "trace:api_candidate:line2741",
+      "trace:api_candidate:line2747",
+      "trace:api_candidate:line2748",
+      "trace:api_candidate:line3707",
+      "trace:api_candidate:line3708",
+      "trace:api_candidate:line4625"
+    ]
+  },
+  "tree_format": "aria_yml"
+}

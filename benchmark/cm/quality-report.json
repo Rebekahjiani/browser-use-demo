@@ -1,0 +1,81 @@
+{
+  "context_model": "shopping",
+  "trace_root": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260928-160723-422670",
+  "generated_at": "2026-09-28T17:33:00+08:00",
+  "inputs": {
+    "root_files_read": ["result.json", "config.json", "prompt.txt", "actions.jsonl", "observations.jsonl"],
+    "agent_files_read": ["agent-files/browseruse_agent_data/results.md", "agent-files/browseruse_agent_data/todo.md"],
+    "trace_metadata_read": [
+      "trace/26_09_28_16_07_27-min/EA89EE44_trace/metadata.json",
+      "trace/26_09_28_16_07_27-min/trace.segments.summary.json",
+      "trace/26_09_28_16_07_27-min/trace.meta.jsonl"
+    ],
+    "snapshot_count": 26,
+    "snapshot_dirs_processed": 26,
+    "accessibility_json_read": ["snapshots/00001", "snapshots/00005", "snapshots/00015", "snapshots/00018", "snapshots/00021"],
+    "network_evidence": [
+      "trace/26_09_28_16_07_27-min/EA89EE44_trace/network.jsonl",
+      "trace/26_09_28_16_07_27-min/EA89EE44_trace/rawbody/1790583533.831_432b1979.json",
+      "trace/26_09_28_16_07_27-min/EA89EE44_trace/rawbody/1790583535.868_1a8873b3.json"
+    ]
+  },
+  "summary": {
+    "pages_total": 5,
+    "pages_success": 5,
+    "pages_skipped": 0,
+    "snapshots_total": 26,
+    "snapshots_success": 26,
+    "entities_count": 4,
+    "operations_count": 9,
+    "api_refs_count": 2,
+    "api_refs": [
+      "http://127.0.0.1:7770/rest/default/V1/guest-carts/F2OJhRqNdo2RX4MTswdYtlmZ0Exwg0Dz/estimate-shipping-methods",
+      "http://127.0.0.1:7770/rest/default/V1/guest-carts/F2OJhRqNdo2RX4MTswdYtlmZ0Exwg0Dz/totals-information"
+    ]
+  },
+  "quality_issues": [
+    {
+      "severity": "high",
+      "category": "run_data_loss",
+      "description": "result.json 记录 dataLossOccurred=true。"
+    },
+    {
+      "severity": "medium",
+      "category": "agent_error",
+      "description": "step 5 search_page 正则无效：Invalid regular expression: /(?i)(stock|in stock|out of stock|availability|qty|quantity)/gi: Invalid group。"
+    },
+    {
+      "severity": "medium",
+      "category": "model_timeout",
+      "description": "LLM 90 秒超时、输出截断（max_completion_tokens=4096）、AgentOutput JSON 校验失败（result.json 记录）。"
+    },
+    {
+      "severity": "low",
+      "category": "large_file",
+      "description": "network.jsonl 约 1.55MB 超过 read_file 单次读取上限，改用 search_file 定位后按行读取关键记录，未整读。"
+    },
+    {
+      "severity": "low",
+      "category": "low_signal_segments",
+      "description": "trace 大量 segment 仅含 Chrome loading 事件（无业务字段），已跳过并记录；metadata 显示 62 个 segment 全部 completed、13411 事件、maxSwitchGapMs=2660。"
+    },
+    {
+      "severity": "info",
+      "category": "unexecuted_actions",
+      "description": "未执行动作未写成事实：搜索未提交、Add to Cart 均 disabled 未加购、Qty 未修改、条目未删除/更新、Proceed to Checkout 未点击、Reviews 表单未提交。"
+    }
+  ],
+  "coverage_gaps": [
+    "搜索结果页（未提交搜索）",
+    "加入购物车（无动作证据，按钮 disabled）",
+    "购物车条目增删改（无动作证据）",
+    "结算流程（Proceed to Checkout 未点击）",
+    "Reviews 提交（表单可见未提交）"
+  ],
+  "notes": [
+    "两个 REST API 均为购物车页加载时自动触发的 POST（referer=/checkout/cart/），非用户显式操作；已在 operations 描述中注明。",
+    "00015 详情页 page.html 嵌入 JSON 包含 product id=6520、type=simple、is_salable、store_id、currency_code、price_info、images、url 等字段，仅作商品实体属性佐证，未单列为属性名。",
+    "未发现 URL、标题与树不一致的冲突；未根据商品 URL 猜测实体。",
+    "购物车 4 个条目（item_id 579/580/581/582）名称、价格等具体值未写入属性名，仅引用字段名（Item/Price/Qty/Subtotal/SKU/item_id/row_total/name）。"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "url": "http://127.0.0.1:7770/clothing-shoes-jewelry.html",
+  "title": "Clothing, Shoes & Jewelry",
+  "route": "/clothing-shoes-jewelry.html",
+  "captured_from": "drive",
+  "sources": {
+    "aria_source": "..\\drive\\screenshots\\039_clothing-shoes-jewelry_html\\aria.yml",
+    "catalog": "<runDir>/evidence_catalog.json",
+    "evidence_ids": [
+      "trace:api_candidate:line20916",
+      "trace:api_candidate:line20927",
+      "trace:api_candidate:line20928",
+      "trace:api_candidate:line20929",
+      "trace:api_candidate:line20985",
+      "trace:api_candidate:line21045",
+      "trace:api_candidate:line21107",
+      "trace:api_candidate:line21108",
+      "trace:api_candidate:line21114",
+      "trace:api_candidate:line21117",
+      "trace:api_candidate:line21119",
+      "trace:api_candidate:line21120",
+      "trace:api_candidate:line21122",
+      "trace:api_candidate:line21123",
+      "trace:api_candidate:line21124",
+      "trace:api_candidate:line21126",
+      "trace:api_candidate:line21342",
+      "trace:api_candidate:line21344",
+      "trace:api_candidate:line21345",
+      "trace:api_candidate:line21573",
+      "trace:api_candidate:line21824"
+    ]
+  },
+  "tree_format": "aria_yml"
+}

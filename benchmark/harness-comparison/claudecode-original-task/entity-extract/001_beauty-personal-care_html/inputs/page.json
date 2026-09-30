@@ -1,0 +1,30 @@
+{
+  "url": "http://127.0.0.1:7770/beauty-personal-care.html",
+  "title": "Beauty & Personal Care",
+  "route": "/beauty-personal-care.html",
+  "captured_from": "drive",
+  "sources": {
+    "aria_source": "..\\drive\\screenshots\\034_beauty-personal-care_html\\aria.yml",
+    "catalog": "<runDir>/evidence_catalog.json",
+    "evidence_ids": [
+      "trace:api_candidate:line19353",
+      "trace:api_candidate:line19368",
+      "trace:api_candidate:line19369",
+      "trace:api_candidate:line19370",
+      "trace:api_candidate:line19426",
+      "trace:api_candidate:line19496",
+      "trace:api_candidate:line19543",
+      "trace:api_candidate:line19545",
+      "trace:api_candidate:line19547",
+      "trace:api_candidate:line19549",
+      "trace:api_candidate:line19550",
+      "trace:api_candidate:line19551",
+      "trace:api_candidate:line19552",
+      "trace:api_candidate:line19554",
+      "trace:api_candidate:line19555",
+      "trace:api_candidate:line19556",
+      "trace:api_candidate:line19782"
+    ]
+  },
+  "tree_format": "aria_yml"
+}

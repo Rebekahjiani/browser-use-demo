@@ -1,0 +1,37 @@
+{
+  "url": "http://127.0.0.1:7770/patio-lawn-garden.html",
+  "title": "Patio, Lawn & Garden",
+  "route": "/patio-lawn-garden.html",
+  "captured_from": "drive",
+  "sources": {
+    "aria_source": "..\\drive\\screenshots\\048_patio-lawn-garden_html\\aria.yml",
+    "catalog": "<runDir>/evidence_catalog.json",
+    "evidence_ids": [
+      "trace:api_candidate:line17360",
+      "trace:api_candidate:line17361",
+      "trace:api_candidate:line17362",
+      "trace:api_candidate:line17363",
+      "trace:api_candidate:line17425",
+      "trace:api_candidate:line17485",
+      "trace:api_candidate:line17541",
+      "trace:api_candidate:line17542",
+      "trace:api_candidate:line17543",
+      "trace:api_candidate:line17544",
+      "trace:api_candidate:line17545",
+      "trace:api_candidate:line17546",
+      "trace:api_candidate:line17547",
+      "trace:api_candidate:line17548",
+      "trace:api_candidate:line17549",
+      "trace:api_candidate:line17550",
+      "trace:api_candidate:line17788",
+      "trace:api_candidate:line18786",
+      "trace:api_candidate:line26070",
+      "trace:api_candidate:line26073",
+      "trace:api_candidate:line26074",
+      "trace:api_candidate:line26076",
+      "trace:api_candidate:line8932",
+      "trace:api_candidate:line8933"
+    ]
+  },
+  "tree_format": "aria_yml"
+}

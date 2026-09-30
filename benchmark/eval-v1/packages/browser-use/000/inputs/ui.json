@@ -1,0 +1,1210 @@
+[
+  {
+    "ref": "U00000",
+    "text": "RootWebArea: One Stop Market"
+  },
+  {
+    "ref": "U00001",
+    "text": "link: Skip to Content"
+  },
+  {
+    "ref": "U00002",
+    "text": "StaticText: Skip to Content"
+  },
+  {
+    "ref": "U00003",
+    "text": "link: store logo"
+  },
+  {
+    "ref": "U00004",
+    "text": "heading: One Stop Market"
+  },
+  {
+    "ref": "U00005",
+    "text": "StaticText: Items 1 to 12 of 24 total"
+  },
+  {
+    "ref": "U00006",
+    "text": "list: Page"
+  },
+  {
+    "ref": "U00007",
+    "text": "StaticText: Copyright © 2013-present Magento, Inc. All rights reserved."
+  },
+  {
+    "ref": "U00008",
+    "text": "StaticText: Help Us Keep Magento Healthy"
+  },
+  {
+    "ref": "U00009",
+    "text": "StaticText:"
+  },
+  {
+    "ref": "U00010",
+    "text": "link: Report All Bugs"
+  },
+  {
+    "ref": "U00011",
+    "text": "link: My Account"
+  },
+  {
+    "ref": "U00012",
+    "text": "link: My Wish List"
+  },
+  {
+    "ref": "U00013",
+    "text": "link: Sign In"
+  },
+  {
+    "ref": "U00014",
+    "text": "link: Create an Account"
+  },
+  {
+    "ref": "U00015",
+    "text": "image: one_stop_market_logo"
+  },
+  {
+    "ref": "U00016",
+    "text": "link:  My Cart"
+  },
+  {
+    "ref": "U00017",
+    "text": "StaticText: One Stop Market"
+  },
+  {
+    "ref": "U00018",
+    "text": "StaticText: Product Showcases"
+  },
+  {
+    "ref": "U00019",
+    "text": "link: Image"
+  },
+  {
+    "ref": "U00020",
+    "text": "link: Image"
+  },
+  {
+    "ref": "U00021",
+    "text": "link: Image"
+  },
+  {
+    "ref": "U00022",
+    "text": "link: Image"
+  },
+  {
+    "ref": "U00023",
+    "text": "link: Image"
+  },
+  {
+    "ref": "U00024",
+    "text": "link: Image"
+  },
+  {
+    "ref": "U00025",
+    "text": "link: Image"
+  },
+  {
+    "ref": "U00026",
+    "text": "link: Image"
+  },
+  {
+    "ref": "U00027",
+    "text": "link: Image"
+  },
+  {
+    "ref": "U00028",
+    "text": "link: Image"
+  },
+  {
+    "ref": "U00029",
+    "text": "link: Image"
+  },
+  {
+    "ref": "U00030",
+    "text": "link: Image"
+  },
+  {
+    "ref": "U00031",
+    "text": "StaticText: Page"
+  },
+  {
+    "ref": "U00032",
+    "text": "button: Subscribe"
+  },
+  {
+    "ref": "U00033",
+    "text": "link: Privacy and Cookie Policy"
+  },
+  {
+    "ref": "U00034",
+    "text": "link: Search Terms"
+  },
+  {
+    "ref": "U00035",
+    "text": "link: Advanced Search"
+  },
+  {
+    "ref": "U00036",
+    "text": "link: Orders and Returns"
+  },
+  {
+    "ref": "U00037",
+    "text": "link: Contact Us"
+  },
+  {
+    "ref": "U00038",
+    "text": "StaticText: Report All Bugs"
+  },
+  {
+    "ref": "U00039",
+    "text": "StaticText: My Account"
+  },
+  {
+    "ref": "U00040",
+    "text": "StaticText: My Wish List"
+  },
+  {
+    "ref": "U00041",
+    "text": "StaticText: Sign In"
+  },
+  {
+    "ref": "U00042",
+    "text": "StaticText: Create an Account"
+  },
+  {
+    "ref": "U00043",
+    "text": "StaticText: My Cart"
+  },
+  {
+    "ref": "U00044",
+    "text": "link: Beauty & Personal Care"
+  },
+  {
+    "ref": "U00045",
+    "text": "link: Sports & Outdoors"
+  },
+  {
+    "ref": "U00046",
+    "text": "link: Clothing, Shoes & Jewelry"
+  },
+  {
+    "ref": "U00047",
+    "text": "link: Home & Kitchen"
+  },
+  {
+    "ref": "U00048",
+    "text": "link: Office Products"
+  },
+  {
+    "ref": "U00049",
+    "text": "link: Tools & Home Improvement"
+  },
+  {
+    "ref": "U00050",
+    "text": "link: Health & Household"
+  },
+  {
+    "ref": "U00051",
+    "text": "link: Patio, Lawn & Garden"
+  },
+  {
+    "ref": "U00052",
+    "text": "link: Electronics"
+  },
+  {
+    "ref": "U00053",
+    "text": "link: Cell Phones & Accessories"
+  },
+  {
+    "ref": "U00054",
+    "text": "link: Video Games"
+  },
+  {
+    "ref": "U00055",
+    "text": "link: Grocery & Gourmet Food"
+  },
+  {
+    "ref": "U00056",
+    "text": "image: Image"
+  },
+  {
+    "ref": "U00057",
+    "text": "link: Pre-baked Gingerbread House Kit Value Pack, 17 oz., Pack of 2, Total 34 oz."
+  },
+  {
+    "ref": "U00058",
+    "text": "image: Image"
+  },
+  {
+    "ref": "U00059",
+    "text": "link: V8 +Energy, Healthy Energy Drink, Steady Energy from Black and Green Tea, Pomegranate Blueberry, 8 Ounce Can ,Pack of 24"
+  },
+  {
+    "ref": "U00060",
+    "text": "image: Image"
+  },
+  {
+    "ref": "U00061",
+    "text": "link: Elmwood Inn Fine Teas, Orange Vanilla Caffeine-free Fruit Infusion, 16-Ounce Pouch"
+  },
+  {
+    "ref": "U00062",
+    "text": "image: Image"
+  },
+  {
+    "ref": "U00063",
+    "text": "link: Belle Of The Ball Princess Sprinkle Mix| Wedding Colorful Sprinkles| Cake Cupcake Cookie Sprinkles| Ice cream Candy Sprinkles| Yellow Gold Red Royal Red Rose Icing Flowers Decorating Sprinkles, 8OZ"
+  },
+  {
+    "ref": "U00064",
+    "text": "image: Image"
+  },
+  {
+    "ref": "U00065",
+    "text": "link: So Delicious Dairy Free CocoWhip Light, Vegan, Non-GMO Project Verified, 9 oz. Tub"
+  },
+  {
+    "ref": "U00066",
+    "text": "image: Image"
+  },
+  {
+    "ref": "U00067",
+    "text": "link: Cheongeun Sweet Potato Starch Powder 500g, 2ea(Sweet Potato 55%, Corn 45%)"
+  },
+  {
+    "ref": "U00068",
+    "text": "image: Image"
+  },
+  {
+    "ref": "U00069",
+    "text": "link: Q Mixers Premium Ginger Ale: Real Ingredients & Less Sweet, 6.7 Fl Oz (24 Bottles)"
+  },
+  {
+    "ref": "U00070",
+    "text": "image: Image"
+  },
+  {
+    "ref": "U00071",
+    "text": "link: Stove Top Turkey Stuffing Mix (12 oz Boxes, Pack of 2)"
+  },
+  {
+    "ref": "U00072",
+    "text": "image: Image"
+  },
+  {
+    "ref": "U00073",
+    "text": "link: Briess DME - Pilsen Light - 1 lb Bag"
+  },
+  {
+    "ref": "U00074",
+    "text": "image: Image"
+  },
+  {
+    "ref": "U00075",
+    "text": "link: Tony Chachere's More Spice Creole Seasoning - 14 oz"
+  },
+  {
+    "ref": "U00076",
+    "text": "image: Image"
+  },
+  {
+    "ref": "U00077",
+    "text": "link: Lobster Cobbler Pot Pie - Gourmet Frozen Seafood Appetizers (Set of 8 Trays)"
+  },
+  {
+    "ref": "U00078",
+    "text": "image: Image"
+  },
+  {
+    "ref": "U00079",
+    "text": "link: Crunchy Rice Rollers - Gluten Free - Vegan - 3.5 oz Individual Packs (4 Packs of 8 Rollers)"
+  },
+  {
+    "ref": "U00080",
+    "text": "link: Page 2"
+  },
+  {
+    "ref": "U00081",
+    "text": "link:  Page Next"
+  },
+  {
+    "ref": "U00082",
+    "text": "StaticText: "
+  },
+  {
+    "ref": "U00083",
+    "text": "StaticText: Sign Up for Our Newsletter:"
+  },
+  {
+    "ref": "U00084",
+    "text": "textbox: Sign Up for Our Newsletter:"
+  },
+  {
+    "ref": "U00085",
+    "text": "StaticText: Subscribe"
+  },
+  {
+    "ref": "U00086",
+    "text": "StaticText: Privacy and Cookie Policy"
+  },
+  {
+    "ref": "U00087",
+    "text": "StaticText: Search Terms"
+  },
+  {
+    "ref": "U00088",
+    "text": "StaticText: Advanced Search"
+  },
+  {
+    "ref": "U00089",
+    "text": "StaticText: Orders and Returns"
+  },
+  {
+    "ref": "U00090",
+    "text": "StaticText: Contact Us"
+  },
+  {
+    "ref": "U00091",
+    "text": "StaticText: "
+  },
+  {
+    "ref": "U00092",
+    "text": "StaticText: Search"
+  },
+  {
+    "ref": "U00093",
+    "text": "combobox:  Search"
+  },
+  {
+    "ref": "U00094",
+    "text": "button: Search"
+  },
+  {
+    "ref": "U00095",
+    "text": "StaticText: Beauty & Personal Care"
+  },
+  {
+    "ref": "U00096",
+    "text": "StaticText: Sports & Outdoors"
+  },
+  {
+    "ref": "U00097",
+    "text": "StaticText: Clothing, Shoes & Jewelry"
+  },
+  {
+    "ref": "U00098",
+    "text": "StaticText: Home & Kitchen"
+  },
+  {
+    "ref": "U00099",
+    "text": "StaticText: Office Products"
+  },
+  {
+    "ref": "U00100",
+    "text": "StaticText: Tools & Home Improvement"
+  },
+  {
+    "ref": "U00101",
+    "text": "StaticText: Health & Household"
+  },
+  {
+    "ref": "U00102",
+    "text": "StaticText: Patio, Lawn & Garden"
+  },
+  {
+    "ref": "U00103",
+    "text": "StaticText: Electronics"
+  },
+  {
+    "ref": "U00104",
+    "text": "StaticText: Cell Phones & Accessories"
+  },
+  {
+    "ref": "U00105",
+    "text": "StaticText: Video Games"
+  },
+  {
+    "ref": "U00106",
+    "text": "StaticText: Grocery & Gourmet Food"
+  },
+  {
+    "ref": "U00107",
+    "text": "StaticText: Pre-baked Gingerbread House Kit Value Pack, 17 oz., Pack of 2, Total 34 oz."
+  },
+  {
+    "ref": "U00108",
+    "text": "StaticText: Rating:"
+  },
+  {
+    "ref": "U00109",
+    "text": "link: 1  Review"
+  },
+  {
+    "ref": "U00110",
+    "text": "StaticText: $19.99"
+  },
+  {
+    "ref": "U00111",
+    "text": "button: Add to Cart"
+  },
+  {
+    "ref": "U00112",
+    "text": "link:  Add to Wish List"
+  },
+  {
+    "ref": "U00113",
+    "text": "link:  Add to Compare"
+  },
+  {
+    "ref": "U00114",
+    "text": "StaticText: V8 +Energy, Healthy Energy Drink, Steady Energy from Black and Green Tea, Pomegranate Blueberry, 8 Ounce Can ,Pack of 24"
+  },
+  {
+    "ref": "U00115",
+    "text": "StaticText: Rating:"
+  },
+  {
+    "ref": "U00116",
+    "text": "link: 12  Reviews"
+  },
+  {
+    "ref": "U00117",
+    "text": "StaticText: $14.47"
+  },
+  {
+    "ref": "U00118",
+    "text": "button: Add to Cart"
+  },
+  {
+    "ref": "U00119",
+    "text": "link:  Add to Wish List"
+  },
+  {
+    "ref": "U00120",
+    "text": "link:  Add to Compare"
+  },
+  {
+    "ref": "U00121",
+    "text": "StaticText: Elmwood Inn Fine Teas, Orange Vanilla Caffeine-free Fruit Infusion, 16-Ounce Pouch"
+  },
+  {
+    "ref": "U00122",
+    "text": "StaticText: Rating:"
+  },
+  {
+    "ref": "U00123",
+    "text": "link: 4  Reviews"
+  },
+  {
+    "ref": "U00124",
+    "text": "StaticText: $19.36"
+  },
+  {
+    "ref": "U00125",
+    "text": "button: Add to Cart"
+  },
+  {
+    "ref": "U00126",
+    "text": "link:  Add to Wish List"
+  },
+  {
+    "ref": "U00127",
+    "text": "link:  Add to Compare"
+  },
+  {
+    "ref": "U00128",
+    "text": "StaticText: Belle Of The Ball Princess Sprinkle Mix| Wedding Colorful Sprinkles| Cake Cupcake Cookie Sprinkles| Ice cream Candy Sprinkles| Yellow Gold Red Royal Red Rose Icing Flowers Decorating Sprinkles, 8OZ"
+  },
+  {
+    "ref": "U00129",
+    "text": "StaticText: Rating:"
+  },
+  {
+    "ref": "U00130",
+    "text": "link: 12  Reviews"
+  },
+  {
+    "ref": "U00131",
+    "text": "StaticText: $23.50"
+  },
+  {
+    "ref": "U00132",
+    "text": "button: Add to Cart"
+  },
+  {
+    "ref": "U00133",
+    "text": "link:  Add to Wish List"
+  },
+  {
+    "ref": "U00134",
+    "text": "link:  Add to Compare"
+  },
+  {
+    "ref": "U00135",
+    "text": "StaticText: So Delicious Dairy Free CocoWhip Light, Vegan, Non-GMO Project Verified, 9 oz. Tub"
+  },
+  {
+    "ref": "U00136",
+    "text": "StaticText: Rating:"
+  },
+  {
+    "ref": "U00137",
+    "text": "link: 12  Reviews"
+  },
+  {
+    "ref": "U00138",
+    "text": "StaticText: $15.62"
+  },
+  {
+    "ref": "U00139",
+    "text": "button: Add to Cart"
+  },
+  {
+    "ref": "U00140",
+    "text": "link:  Add to Wish List"
+  },
+  {
+    "ref": "U00141",
+    "text": "link:  Add to Compare"
+  },
+  {
+    "ref": "U00142",
+    "text": "StaticText: Cheongeun Sweet Potato Starch Powder 500g, 2ea(Sweet Potato 55%, Corn 45%)"
+  },
+  {
+    "ref": "U00143",
+    "text": "StaticText: $34.00"
+  },
+  {
+    "ref": "U00144",
+    "text": "button: Add to Cart"
+  },
+  {
+    "ref": "U00145",
+    "text": "link:  Add to Wish List"
+  },
+  {
+    "ref": "U00146",
+    "text": "link:  Add to Compare"
+  },
+  {
+    "ref": "U00147",
+    "text": "StaticText: Q Mixers Premium Ginger Ale: Real Ingredients & Less Sweet, 6.7 Fl Oz (24 Bottles)"
+  },
+  {
+    "ref": "U00148",
+    "text": "StaticText: Rating:"
+  },
+  {
+    "ref": "U00149",
+    "text": "link: 12  Reviews"
+  },
+  {
+    "ref": "U00150",
+    "text": "StaticText: $68.50"
+  },
+  {
+    "ref": "U00151",
+    "text": "button: Add to Cart"
+  },
+  {
+    "ref": "U00152",
+    "text": "link:  Add to Wish List"
+  },
+  {
+    "ref": "U00153",
+    "text": "link:  Add to Compare"
+  },
+  {
+    "ref": "U00154",
+    "text": "StaticText: Stove Top Turkey Stuffing Mix (12 oz Boxes, Pack of 2)"
+  },
+  {
+    "ref": "U00155",
+    "text": "StaticText: Rating:"
+  },
+  {
+    "ref": "U00156",
+    "text": "link: 12  Reviews"
+  },
+  {
+    "ref": "U00157",
+    "text": "StaticText: $8.49"
+  },
+  {
+    "ref": "U00158",
+    "text": "button: Add to Cart"
+  },
+  {
+    "ref": "U00159",
+    "text": "link:  Add to Wish List"
+  },
+  {
+    "ref": "U00160",
+    "text": "link:  Add to Compare"
+  },
+  {
+    "ref": "U00161",
+    "text": "StaticText: Briess DME - Pilsen Light - 1 lb Bag"
+  },
+  {
+    "ref": "U00162",
+    "text": "StaticText: $12.99"
+  },
+  {
+    "ref": "U00163",
+    "text": "button: Add to Cart"
+  },
+  {
+    "ref": "U00164",
+    "text": "link:  Add to Wish List"
+  },
+  {
+    "ref": "U00165",
+    "text": "link:  Add to Compare"
+  },
+  {
+    "ref": "U00166",
+    "text": "StaticText: Tony Chachere's More Spice Creole Seasoning - 14 oz"
+  },
+  {
+    "ref": "U00167",
+    "text": "StaticText: Rating:"
+  },
+  {
+    "ref": "U00168",
+    "text": "link: 12  Reviews"
+  },
+  {
+    "ref": "U00169",
+    "text": "StaticText: $7.92"
+  },
+  {
+    "ref": "U00170",
+    "text": "button: Add to Cart"
+  },
+  {
+    "ref": "U00171",
+    "text": "link:  Add to Wish List"
+  },
+  {
+    "ref": "U00172",
+    "text": "link:  Add to Compare"
+  },
+  {
+    "ref": "U00173",
+    "text": "StaticText: Lobster Cobbler Pot Pie - Gourmet Frozen Seafood Appetizers (Set of 8 Trays)"
+  },
+  {
+    "ref": "U00174",
+    "text": "StaticText: $411.76"
+  },
+  {
+    "ref": "U00175",
+    "text": "button: Add to Cart"
+  },
+  {
+    "ref": "U00176",
+    "text": "link:  Add to Wish List"
+  },
+  {
+    "ref": "U00177",
+    "text": "link:  Add to Compare"
+  },
+  {
+    "ref": "U00178",
+    "text": "StaticText: Crunchy Rice Rollers - Gluten Free - Vegan - 3.5 oz Individual Packs (4 Packs of 8 Rollers)"
+  },
+  {
+    "ref": "U00179",
+    "text": "StaticText: Rating:"
+  },
+  {
+    "ref": "U00180",
+    "text": "link: 12  Reviews"
+  },
+  {
+    "ref": "U00181",
+    "text": "StaticText: $11.50"
+  },
+  {
+    "ref": "U00182",
+    "text": "button: Add to Cart"
+  },
+  {
+    "ref": "U00183",
+    "text": "link:  Add to Wish List"
+  },
+  {
+    "ref": "U00184",
+    "text": "link:  Add to Compare"
+  },
+  {
+    "ref": "U00185",
+    "text": "StaticText: You're currently reading page"
+  },
+  {
+    "ref": "U00186",
+    "text": "StaticText: 1"
+  },
+  {
+    "ref": "U00187",
+    "text": "StaticText: Page"
+  },
+  {
+    "ref": "U00188",
+    "text": "StaticText: 2"
+  },
+  {
+    "ref": "U00189",
+    "text": "StaticText: Page"
+  },
+  {
+    "ref": "U00190",
+    "text": "StaticText: Next"
+  },
+  {
+    "ref": "U00191",
+    "text": "StaticText: "
+  },
+  {
+    "ref": "U00192",
+    "text": "link: Advanced Search"
+  },
+  {
+    "ref": "U00193",
+    "text": "StaticText: Search"
+  },
+  {
+    "ref": "U00194",
+    "text": "StaticText: 20%"
+  },
+  {
+    "ref": "U00195",
+    "text": "StaticText: 1"
+  },
+  {
+    "ref": "U00196",
+    "text": "StaticText: Review"
+  },
+  {
+    "ref": "U00197",
+    "text": "StaticText: Add to Cart"
+  },
+  {
+    "ref": "U00198",
+    "text": "StaticText: Add to Wish List"
+  },
+  {
+    "ref": "U00199",
+    "text": "StaticText: Add to Compare"
+  },
+  {
+    "ref": "U00200",
+    "text": "StaticText: 57%"
+  },
+  {
+    "ref": "U00201",
+    "text": "StaticText: 12"
+  },
+  {
+    "ref": "U00202",
+    "text": "StaticText: Reviews"
+  },
+  {
+    "ref": "U00203",
+    "text": "StaticText: Add to Cart"
+  },
+  {
+    "ref": "U00204",
+    "text": "StaticText: Add to Wish List"
+  },
+  {
+    "ref": "U00205",
+    "text": "StaticText: Add to Compare"
+  },
+  {
+    "ref": "U00206",
+    "text": "StaticText: 95%"
+  },
+  {
+    "ref": "U00207",
+    "text": "StaticText: 4"
+  },
+  {
+    "ref": "U00208",
+    "text": "StaticText: Reviews"
+  },
+  {
+    "ref": "U00209",
+    "text": "StaticText: Add to Cart"
+  },
+  {
+    "ref": "U00210",
+    "text": "StaticText: Add to Wish List"
+  },
+  {
+    "ref": "U00211",
+    "text": "StaticText: Add to Compare"
+  },
+  {
+    "ref": "U00212",
+    "text": "StaticText: 63%"
+  },
+  {
+    "ref": "U00213",
+    "text": "StaticText: 12"
+  },
+  {
+    "ref": "U00214",
+    "text": "StaticText: Reviews"
+  },
+  {
+    "ref": "U00215",
+    "text": "StaticText: Add to Cart"
+  },
+  {
+    "ref": "U00216",
+    "text": "StaticText: Add to Wish List"
+  },
+  {
+    "ref": "U00217",
+    "text": "StaticText: Add to Compare"
+  },
+  {
+    "ref": "U00218",
+    "text": "StaticText: 78%"
+  },
+  {
+    "ref": "U00219",
+    "text": "StaticText: 12"
+  },
+  {
+    "ref": "U00220",
+    "text": "StaticText: Reviews"
+  },
+  {
+    "ref": "U00221",
+    "text": "StaticText: Add to Cart"
+  },
+  {
+    "ref": "U00222",
+    "text": "StaticText: Add to Wish List"
+  },
+  {
+    "ref": "U00223",
+    "text": "StaticText: Add to Compare"
+  },
+  {
+    "ref": "U00224",
+    "text": "StaticText: Add to Cart"
+  },
+  {
+    "ref": "U00225",
+    "text": "StaticText: Add to Wish List"
+  },
+  {
+    "ref": "U00226",
+    "text": "StaticText: Add to Compare"
+  },
+  {
+    "ref": "U00227",
+    "text": "StaticText: 88%"
+  },
+  {
+    "ref": "U00228",
+    "text": "StaticText: 12"
+  },
+  {
+    "ref": "U00229",
+    "text": "StaticText: Reviews"
+  },
+  {
+    "ref": "U00230",
+    "text": "StaticText: Add to Cart"
+  },
+  {
+    "ref": "U00231",
+    "text": "StaticText: Add to Wish List"
+  },
+  {
+    "ref": "U00232",
+    "text": "StaticText: Add to Compare"
+  },
+  {
+    "ref": "U00233",
+    "text": "StaticText: 85%"
+  },
+  {
+    "ref": "U00234",
+    "text": "StaticText: 12"
+  },
+  {
+    "ref": "U00235",
+    "text": "StaticText: Reviews"
+  },
+  {
+    "ref": "U00236",
+    "text": "StaticText: Add to Cart"
+  },
+  {
+    "ref": "U00237",
+    "text": "StaticText: Add to Wish List"
+  },
+  {
+    "ref": "U00238",
+    "text": "StaticText: Add to Compare"
+  },
+  {
+    "ref": "U00239",
+    "text": "StaticText: Add to Cart"
+  },
+  {
+    "ref": "U00240",
+    "text": "StaticText: Add to Wish List"
+  },
+  {
+    "ref": "U00241",
+    "text": "StaticText: Add to Compare"
+  },
+  {
+    "ref": "U00242",
+    "text": "StaticText: 75%"
+  },
+  {
+    "ref": "U00243",
+    "text": "StaticText: 12"
+  },
+  {
+    "ref": "U00244",
+    "text": "StaticText: Reviews"
+  },
+  {
+    "ref": "U00245",
+    "text": "StaticText: Add to Cart"
+  },
+  {
+    "ref": "U00246",
+    "text": "StaticText: Add to Wish List"
+  },
+  {
+    "ref": "U00247",
+    "text": "StaticText: Add to Compare"
+  },
+  {
+    "ref": "U00248",
+    "text": "StaticText: Add to Cart"
+  },
+  {
+    "ref": "U00249",
+    "text": "StaticText: Add to Wish List"
+  },
+  {
+    "ref": "U00250",
+    "text": "StaticText: Add to Compare"
+  },
+  {
+    "ref": "U00251",
+    "text": "StaticText: 83%"
+  },
+  {
+    "ref": "U00252",
+    "text": "StaticText: 12"
+  },
+  {
+    "ref": "U00253",
+    "text": "StaticText: Reviews"
+  },
+  {
+    "ref": "U00254",
+    "text": "StaticText: Add to Cart"
+  },
+  {
+    "ref": "U00255",
+    "text": "StaticText: Add to Wish List"
+  },
+  {
+    "ref": "U00256",
+    "text": "StaticText: Add to Compare"
+  },
+  {
+    "ref": "U00257",
+    "text": "StaticText: "
+  },
+  {
+    "ref": "U00258",
+    "text": "StaticText: Advanced Search"
+  },
+  {
+    "ref": "U00259",
+    "text": "StaticText: "
+  },
+  {
+    "ref": "U00260",
+    "text": "StaticText: "
+  },
+  {
+    "ref": "U00261",
+    "text": "StaticText: "
+  },
+  {
+    "ref": "U00262",
+    "text": "StaticText: "
+  },
+  {
+    "ref": "U00263",
+    "text": "StaticText: "
+  },
+  {
+    "ref": "U00264",
+    "text": "StaticText: "
+  },
+  {
+    "ref": "U00265",
+    "text": "StaticText: "
+  },
+  {
+    "ref": "U00266",
+    "text": "StaticText: "
+  },
+  {
+    "ref": "U00267",
+    "text": "StaticText: "
+  },
+  {
+    "ref": "U00268",
+    "text": "StaticText: "
+  },
+  {
+    "ref": "U00269",
+    "text": "StaticText: "
+  },
+  {
+    "ref": "U00270",
+    "text": "StaticText: "
+  },
+  {
+    "ref": "U00271",
+    "text": "StaticText: "
+  },
+  {
+    "ref": "U00272",
+    "text": "StaticText: "
+  },
+  {
+    "ref": "U00273",
+    "text": "StaticText: "
+  },
+  {
+    "ref": "U00274",
+    "text": "StaticText: "
+  },
+  {
+    "ref": "U00275",
+    "text": "StaticText: "
+  },
+  {
+    "ref": "U00276",
+    "text": "StaticText: "
+  },
+  {
+    "ref": "U00277",
+    "text": "StaticText: "
+  },
+  {
+    "ref": "U00278",
+    "text": "StaticText: "
+  },
+  {
+    "ref": "U00279",
+    "text": "StaticText: "
+  },
+  {
+    "ref": "U00280",
+    "text": "StaticText: "
+  },
+  {
+    "ref": "U00281",
+    "text": "StaticText: "
+  },
+  {
+    "ref": "U00282",
+    "text": "StaticText: "
+  },
+  {
+    "ref": "U00283",
+    "text": "StaticText: "
+  },
+  {
+    "ref": "U00284",
+    "text": "StaticText: "
+  },
+  {
+    "ref": "U00285",
+    "text": "StaticText: "
+  },
+  {
+    "ref": "U00286",
+    "text": "StaticText: "
+  },
+  {
+    "ref": "U00287",
+    "text": "StaticText: "
+  },
+  {
+    "ref": "U00288",
+    "text": "StaticText: "
+  },
+  {
+    "ref": "U00289",
+    "text": "StaticText: "
+  },
+  {
+    "ref": "U00290",
+    "text": "StaticText: "
+  },
+  {
+    "ref": "U00291",
+    "text": "StaticText: "
+  },
+  {
+    "ref": "U00292",
+    "text": "StaticText: "
+  },
+  {
+    "ref": "U00293",
+    "text": "StaticText: "
+  },
+  {
+    "ref": "U00294",
+    "text": "StaticText: "
+  },
+  {
+    "ref": "U00295",
+    "text": "StaticText: "
+  },
+  {
+    "ref": "U00296",
+    "text": "StaticText: "
+  },
+  {
+    "ref": "U00297",
+    "text": "StaticText: "
+  },
+  {
+    "ref": "U00298",
+    "text": "StaticText: "
+  },
+  {
+    "ref": "U00299",
+    "text": "StaticText: "
+  },
+  {
+    "ref": "U00300",
+    "text": "StaticText: "
+  },
+  {
+    "ref": "U00301",
+    "text": "StaticText: "
+  }
+]

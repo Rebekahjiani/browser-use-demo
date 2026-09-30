@@ -1,0 +1,974 @@
+[
+  {
+    "ref": "U00000",
+    "text": "- generic [ref=e2]:"
+  },
+  {
+    "ref": "U00001",
+    "text": "- banner [ref=e3]:"
+  },
+  {
+    "ref": "U00002",
+    "text": "- generic [ref=e5]:"
+  },
+  {
+    "ref": "U00003",
+    "text": "- list [ref=e6]:"
+  },
+  {
+    "ref": "U00004",
+    "text": "- listitem [ref=e7]:"
+  },
+  {
+    "ref": "U00005",
+    "text": "- link \"My Account\" [ref=e8] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00006",
+    "text": "- /url: http://127.0.0.1:7770/customer/account/"
+  },
+  {
+    "ref": "U00007",
+    "text": "- listitem [ref=e9]:"
+  },
+  {
+    "ref": "U00008",
+    "text": "- link \"My Wish List\" [ref=e10] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00009",
+    "text": "- /url: http://127.0.0.1:7770/wishlist/"
+  },
+  {
+    "ref": "U00010",
+    "text": "- listitem [ref=e11]:"
+  },
+  {
+    "ref": "U00011",
+    "text": "- link \"Sign In\" [ref=e12] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00012",
+    "text": "- /url: http://127.0.0.1:7770/customer/account/login/"
+  },
+  {
+    "ref": "U00013",
+    "text": "- listitem [ref=e13]:"
+  },
+  {
+    "ref": "U00014",
+    "text": "- link \"Compare Products 4 items\" [ref=e14] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00015",
+    "text": "- /url: http://127.0.0.1:7770/catalog/product_compare/index/uenc/aHR0cDovLzEyNy4wLjAuMTo3NzcwL2N1c3RvbWVyL3NlY3Rpb24vbG9hZC8_c2VjdGlvbnM9Y29tcGFyZS1wcm9kdWN0cyUyQ21lc3NhZ2VzJmZvcmNlX25ld19zZWN0aW9uX3RpbWVzdGFtcD1mYWxzZSZfPTE3OTA1NjM2NzEwODM~/"
+  },
+  {
+    "ref": "U00016",
+    "text": "- listitem [ref=e15]: Welcome to One Stop Market"
+  },
+  {
+    "ref": "U00017",
+    "text": "- listitem [ref=e16]:"
+  },
+  {
+    "ref": "U00018",
+    "text": "- link \"Create an Account\" [ref=e17] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00019",
+    "text": "- /url: http://127.0.0.1:7770/customer/account/create/"
+  },
+  {
+    "ref": "U00020",
+    "text": "- link \"Skip to Content\" [ref=e18] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00021",
+    "text": "- /url: \"#contentarea\""
+  },
+  {
+    "ref": "U00022",
+    "text": "- generic [ref=e19]:"
+  },
+  {
+    "ref": "U00023",
+    "text": "- text: "
+  },
+  {
+    "ref": "U00024",
+    "text": "- link \"store logo\" [ref=e20] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00025",
+    "text": "- /url: http://127.0.0.1:7770/"
+  },
+  {
+    "ref": "U00026",
+    "text": "- img \"one_stop_market_logo\" [ref=e21]"
+  },
+  {
+    "ref": "U00027",
+    "text": "- generic [ref=e22]:"
+  },
+  {
+    "ref": "U00028",
+    "text": "- link \" My Cart 3 3 items\" [ref=e23] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00029",
+    "text": "- /url: http://127.0.0.1:7770/checkout/cart/"
+  },
+  {
+    "ref": "U00030",
+    "text": "- text: "
+  },
+  {
+    "ref": "U00031",
+    "text": "- generic [ref=e24]: My Cart"
+  },
+  {
+    "ref": "U00032",
+    "text": "- generic [ref=e25]:"
+  },
+  {
+    "ref": "U00033",
+    "text": "- generic [ref=e26]: \"3\""
+  },
+  {
+    "ref": "U00034",
+    "text": "- generic [ref=e27]: 3 items"
+  },
+  {
+    "ref": "U00035",
+    "text": "- dialog:"
+  },
+  {
+    "ref": "U00036",
+    "text": "- generic [ref=e135]:"
+  },
+  {
+    "ref": "U00037",
+    "text": "- button \" Close\" [active] [ref=e136] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00038",
+    "text": "- text: "
+  },
+  {
+    "ref": "U00039",
+    "text": "- generic [ref=e137]: Close"
+  },
+  {
+    "ref": "U00040",
+    "text": "- generic [ref=e138]: 3 Items in Cart"
+  },
+  {
+    "ref": "U00041",
+    "text": "- generic [ref=e139]:"
+  },
+  {
+    "ref": "U00042",
+    "text": "- generic [ref=e140]: \"Cart Subtotal :\""
+  },
+  {
+    "ref": "U00043",
+    "text": "- generic [ref=e142]: $238.97"
+  },
+  {
+    "ref": "U00044",
+    "text": "- button \"Proceed to Checkout\" [ref=e145] [cursor=pointer]"
+  },
+  {
+    "ref": "U00045",
+    "text": "- list [ref=e147]:"
+  },
+  {
+    "ref": "U00046",
+    "text": "- listitem [ref=e148]:"
+  },
+  {
+    "ref": "U00047",
+    "text": "- generic [ref=e149]:"
+  },
+  {
+    "ref": "U00048",
+    "text": "- link \"Bookshelf Bookcase Storage Rack Standing Shelf Industrial Stable Bookcase with Iron Tube Frame for Home, Living Room, Bedroom, Office by Tribesigns\" [ref=e150] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00049",
+    "text": "- /url: http://127.0.0.1:7770/bookshelf-bookcase-storage-rack-standing-shelf-industrial-stable-bookcase-with-iron-tube-frame-for-home-living-room-bedroom-office-by-tribesigns.html"
+  },
+  {
+    "ref": "U00050",
+    "text": "- img \"Bookshelf Bookcase Storage Rack Standing Shelf Industrial Stable Bookcase with Iron Tube Frame for Home, Living Room, Bedroom, Office by Tribesigns\" [ref=e153]"
+  },
+  {
+    "ref": "U00051",
+    "text": "- generic [ref=e154]:"
+  },
+  {
+    "ref": "U00052",
+    "text": "- strong [ref=e155]:"
+  },
+  {
+    "ref": "U00053",
+    "text": "- link \"Bookshelf Bookcase Storage Rack Standing Shelf Industrial Stable Bookcase with Iron Tube Frame for Home, Living Room, Bedroom, Office by Tribesigns\" [ref=e156] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00054",
+    "text": "- /url: http://127.0.0.1:7770/bookshelf-bookcase-storage-rack-standing-shelf-industrial-stable-bookcase-with-iron-tube-frame-for-home-living-room-bedroom-office-by-tribesigns.html"
+  },
+  {
+    "ref": "U00055",
+    "text": "- generic [ref=e157]:"
+  },
+  {
+    "ref": "U00056",
+    "text": "- generic [ref=e161]: $42.99"
+  },
+  {
+    "ref": "U00057",
+    "text": "- generic [ref=e162]:"
+  },
+  {
+    "ref": "U00058",
+    "text": "- generic [ref=e163]: \"Qty:\""
+  },
+  {
+    "ref": "U00059",
+    "text": "- spinbutton \"Qty:\" [ref=e164]: \"1\""
+  },
+  {
+    "ref": "U00060",
+    "text": "- generic [ref=e165]:"
+  },
+  {
+    "ref": "U00061",
+    "text": "- link \" Edit\" [ref=e167] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00062",
+    "text": "- /url: http://127.0.0.1:7770/checkout/cart/configure/id/581/product_id/34046/"
+  },
+  {
+    "ref": "U00063",
+    "text": "- text: "
+  },
+  {
+    "ref": "U00064",
+    "text": "- generic [ref=e168]: Edit"
+  },
+  {
+    "ref": "U00065",
+    "text": "- link \" Remove\" [ref=e170] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00066",
+    "text": "- /url: \"#\""
+  },
+  {
+    "ref": "U00067",
+    "text": "- text: "
+  },
+  {
+    "ref": "U00068",
+    "text": "- generic [ref=e171]: Remove"
+  },
+  {
+    "ref": "U00069",
+    "text": "- listitem [ref=e172]:"
+  },
+  {
+    "ref": "U00070",
+    "text": "- generic [ref=e173]:"
+  },
+  {
+    "ref": "U00071",
+    "text": "- link \"Replacement Battery for Garmin Montana 600 600T 650 650T 600t Camo 680 680T,fit Part No 361-00053-00 010-11599-00, 2200mAh\" [ref=e174] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00072",
+    "text": "- /url: http://127.0.0.1:7770/replacement-battery-for-garmin-montana-600-600t-650-650t-600t-camo-680-680t-fit-part-no-361-00053-00-010-11599-00-2200mah.html"
+  },
+  {
+    "ref": "U00073",
+    "text": "- img \"Replacement Battery for Garmin Montana 600 600T 650 650T 600t Camo 680 680T,fit Part No 361-00053-00 010-11599-00, 2200mAh\" [ref=e177]"
+  },
+  {
+    "ref": "U00074",
+    "text": "- generic [ref=e178]:"
+  },
+  {
+    "ref": "U00075",
+    "text": "- strong [ref=e179]:"
+  },
+  {
+    "ref": "U00076",
+    "text": "- link \"Replacement Battery for Garmin Montana 600 600T 650 650T 600t Camo 680 680T,fit Part No 361-00053-00 010-11599-00, 2200mAh\" [ref=e180] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00077",
+    "text": "- /url: http://127.0.0.1:7770/replacement-battery-for-garmin-montana-600-600t-650-650t-600t-camo-680-680t-fit-part-no-361-00053-00-010-11599-00-2200mah.html"
+  },
+  {
+    "ref": "U00078",
+    "text": "- generic [ref=e181]:"
+  },
+  {
+    "ref": "U00079",
+    "text": "- generic [ref=e185]: $25.99"
+  },
+  {
+    "ref": "U00080",
+    "text": "- generic [ref=e186]:"
+  },
+  {
+    "ref": "U00081",
+    "text": "- generic [ref=e187]: \"Qty:\""
+  },
+  {
+    "ref": "U00082",
+    "text": "- spinbutton \"Qty:\" [ref=e188]: \"1\""
+  },
+  {
+    "ref": "U00083",
+    "text": "- generic [ref=e189]:"
+  },
+  {
+    "ref": "U00084",
+    "text": "- link \" Edit\" [ref=e191] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00085",
+    "text": "- /url: http://127.0.0.1:7770/checkout/cart/configure/id/580/product_id/37288/"
+  },
+  {
+    "ref": "U00086",
+    "text": "- text: "
+  },
+  {
+    "ref": "U00087",
+    "text": "- generic [ref=e192]: Edit"
+  },
+  {
+    "ref": "U00088",
+    "text": "- link \" Remove\" [ref=e194] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00089",
+    "text": "- /url: \"#\""
+  },
+  {
+    "ref": "U00090",
+    "text": "- text: "
+  },
+  {
+    "ref": "U00091",
+    "text": "- generic [ref=e195]: Remove"
+  },
+  {
+    "ref": "U00092",
+    "text": "- listitem [ref=e196]:"
+  },
+  {
+    "ref": "U00093",
+    "text": "- generic [ref=e197]:"
+  },
+  {
+    "ref": "U00094",
+    "text": "- link \"ZOSI H.265+ PoE Home Security Camera System Outdoor Indoor,8-Channel 5MP PoE NVR Recorder,4pcs Wired 2MP 1080p Surveillance Bullet PoE IP Cameras, No Hard Drive (Renewed)\" [ref=e198] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00095",
+    "text": "- /url: http://127.0.0.1:7770/zosi-h-265-poe-home-security-camera-system-outdoor-indoor-8-channel-5mp-poe-nvr-recorder-4pcs-wired-2mp-1080p-surveillance-bullet-poe-ip-cameras-no-hard-drive-renewed.html"
+  },
+  {
+    "ref": "U00096",
+    "text": "- img \"ZOSI H.265+ PoE Home Security Camera System Outdoor Indoor,8-Channel 5MP PoE NVR Recorder,4pcs Wired 2MP 1080p Surveillance Bullet PoE IP Cameras, No Hard Drive (Renewed)\" [ref=e201]"
+  },
+  {
+    "ref": "U00097",
+    "text": "- generic [ref=e202]:"
+  },
+  {
+    "ref": "U00098",
+    "text": "- strong [ref=e203]:"
+  },
+  {
+    "ref": "U00099",
+    "text": "- link \"ZOSI H.265+ PoE Home Security Camera System Outdoor Indoor,8-Channel 5MP PoE NVR Recorder,4pcs Wired 2MP 1080p Surveillance Bullet PoE IP Cameras, No Hard Drive (Renewed)\" [ref=e204] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00100",
+    "text": "- /url: http://127.0.0.1:7770/zosi-h-265-poe-home-security-camera-system-outdoor-indoor-8-channel-5mp-poe-nvr-recorder-4pcs-wired-2mp-1080p-surveillance-bullet-poe-ip-cameras-no-hard-drive-renewed.html"
+  },
+  {
+    "ref": "U00101",
+    "text": "- generic [ref=e205]:"
+  },
+  {
+    "ref": "U00102",
+    "text": "- generic [ref=e209]: $169.99"
+  },
+  {
+    "ref": "U00103",
+    "text": "- generic [ref=e210]:"
+  },
+  {
+    "ref": "U00104",
+    "text": "- generic [ref=e211]: \"Qty:\""
+  },
+  {
+    "ref": "U00105",
+    "text": "- spinbutton \"Qty:\" [ref=e212]: \"1\""
+  },
+  {
+    "ref": "U00106",
+    "text": "- generic [ref=e213]:"
+  },
+  {
+    "ref": "U00107",
+    "text": "- link \" Edit\" [ref=e215] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00108",
+    "text": "- /url: http://127.0.0.1:7770/checkout/cart/configure/id/579/product_id/37272/"
+  },
+  {
+    "ref": "U00109",
+    "text": "- text: "
+  },
+  {
+    "ref": "U00110",
+    "text": "- generic [ref=e216]: Edit"
+  },
+  {
+    "ref": "U00111",
+    "text": "- link \" Remove\" [ref=e218] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00112",
+    "text": "- /url: \"#\""
+  },
+  {
+    "ref": "U00113",
+    "text": "- text: "
+  },
+  {
+    "ref": "U00114",
+    "text": "- generic [ref=e219]: Remove"
+  },
+  {
+    "ref": "U00115",
+    "text": "- link \"View and Edit Cart\" [ref=e222] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00116",
+    "text": "- /url: http://127.0.0.1:7770/checkout/cart/"
+  },
+  {
+    "ref": "U00117",
+    "text": "- generic [ref=e30]:"
+  },
+  {
+    "ref": "U00118",
+    "text": "- generic [ref=e31]:"
+  },
+  {
+    "ref": "U00119",
+    "text": "- generic [ref=e32]:"
+  },
+  {
+    "ref": "U00120",
+    "text": "- text: "
+  },
+  {
+    "ref": "U00121",
+    "text": "- generic [ref=e33]: Search"
+  },
+  {
+    "ref": "U00122",
+    "text": "- generic [ref=e34]:"
+  },
+  {
+    "ref": "U00123",
+    "text": "- combobox \" Search\" [ref=e35]"
+  },
+  {
+    "ref": "U00124",
+    "text": "- link \"Advanced Search\" [ref=e37] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00125",
+    "text": "- /url: http://127.0.0.1:7770/catalogsearch/advanced/"
+  },
+  {
+    "ref": "U00126",
+    "text": "- generic:"
+  },
+  {
+    "ref": "U00127",
+    "text": "- button \"Search\" [disabled]:"
+  },
+  {
+    "ref": "U00128",
+    "text": "- text: "
+  },
+  {
+    "ref": "U00129",
+    "text": "- generic: Search"
+  },
+  {
+    "ref": "U00130",
+    "text": "- tablist [ref=e39]:"
+  },
+  {
+    "ref": "U00131",
+    "text": "- tabpanel [ref=e40]:"
+  },
+  {
+    "ref": "U00132",
+    "text": "- navigation [ref=e41]:"
+  },
+  {
+    "ref": "U00133",
+    "text": "- menu [ref=e42]:"
+  },
+  {
+    "ref": "U00134",
+    "text": "- listitem [ref=e43]:"
+  },
+  {
+    "ref": "U00135",
+    "text": "- menuitem \" Beauty & Personal Care\" [ref=e44] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00136",
+    "text": "- generic [ref=e45]: "
+  },
+  {
+    "ref": "U00137",
+    "text": "- text: Beauty & Personal Care"
+  },
+  {
+    "ref": "U00138",
+    "text": "- text:          "
+  },
+  {
+    "ref": "U00139",
+    "text": "- listitem [ref=e46]:"
+  },
+  {
+    "ref": "U00140",
+    "text": "- menuitem \" Sports & Outdoors\" [ref=e47] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00141",
+    "text": "- generic [ref=e48]: "
+  },
+  {
+    "ref": "U00142",
+    "text": "- text: Sports & Outdoors"
+  },
+  {
+    "ref": "U00143",
+    "text": "- text:   "
+  },
+  {
+    "ref": "U00144",
+    "text": "- listitem [ref=e49]:"
+  },
+  {
+    "ref": "U00145",
+    "text": "- menuitem \" Clothing, Shoes & Jewelry\" [ref=e50] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00146",
+    "text": "- generic [ref=e51]: "
+  },
+  {
+    "ref": "U00147",
+    "text": "- text: Clothing, Shoes & Jewelry"
+  },
+  {
+    "ref": "U00148",
+    "text": "- text:    "
+  },
+  {
+    "ref": "U00149",
+    "text": "- listitem [ref=e52]:"
+  },
+  {
+    "ref": "U00150",
+    "text": "- menuitem \" Home & Kitchen\" [ref=e53] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00151",
+    "text": "- generic [ref=e54]: "
+  },
+  {
+    "ref": "U00152",
+    "text": "- text: Home & Kitchen"
+  },
+  {
+    "ref": "U00153",
+    "text": "- text:       "
+  },
+  {
+    "ref": "U00154",
+    "text": "- listitem [ref=e55]:"
+  },
+  {
+    "ref": "U00155",
+    "text": "- menuitem \" Office Products\" [ref=e56] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00156",
+    "text": "- generic [ref=e57]: "
+  },
+  {
+    "ref": "U00157",
+    "text": "- text: Office Products"
+  },
+  {
+    "ref": "U00158",
+    "text": "- text:   "
+  },
+  {
+    "ref": "U00159",
+    "text": "- listitem [ref=e58]:"
+  },
+  {
+    "ref": "U00160",
+    "text": "- menuitem \" Tools & Home Improvement\" [ref=e59] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00161",
+    "text": "- generic [ref=e60]: "
+  },
+  {
+    "ref": "U00162",
+    "text": "- text: Tools & Home Improvement"
+  },
+  {
+    "ref": "U00163",
+    "text": "- text: "
+  },
+  {
+    "ref": "U00164",
+    "text": "- listitem [ref=e61]:"
+  },
+  {
+    "ref": "U00165",
+    "text": "- menuitem \" Health & Household\" [ref=e62] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00166",
+    "text": "- generic [ref=e63]: "
+  },
+  {
+    "ref": "U00167",
+    "text": "- text: Health & Household"
+  },
+  {
+    "ref": "U00168",
+    "text": "- text:  "
+  },
+  {
+    "ref": "U00169",
+    "text": "- listitem [ref=e64]:"
+  },
+  {
+    "ref": "U00170",
+    "text": "- menuitem \" Patio, Lawn & Garden\" [ref=e65] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00171",
+    "text": "- generic [ref=e66]: "
+  },
+  {
+    "ref": "U00172",
+    "text": "- text: Patio, Lawn & Garden"
+  },
+  {
+    "ref": "U00173",
+    "text": "- text: "
+  },
+  {
+    "ref": "U00174",
+    "text": "- listitem [ref=e67]:"
+  },
+  {
+    "ref": "U00175",
+    "text": "- menuitem \" Electronics\" [ref=e68] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00176",
+    "text": "- generic [ref=e69]: "
+  },
+  {
+    "ref": "U00177",
+    "text": "- text: Electronics"
+  },
+  {
+    "ref": "U00178",
+    "text": "- text:            "
+  },
+  {
+    "ref": "U00179",
+    "text": "- listitem [ref=e70]:"
+  },
+  {
+    "ref": "U00180",
+    "text": "- menuitem \" Cell Phones & Accessories\" [ref=e71] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00181",
+    "text": "- generic [ref=e72]: "
+  },
+  {
+    "ref": "U00182",
+    "text": "- text: Cell Phones & Accessories"
+  },
+  {
+    "ref": "U00183",
+    "text": "- text:  "
+  },
+  {
+    "ref": "U00184",
+    "text": "- listitem [ref=e73]:"
+  },
+  {
+    "ref": "U00185",
+    "text": "- menuitem \" Video Games\" [ref=e74] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00186",
+    "text": "- generic [ref=e75]: "
+  },
+  {
+    "ref": "U00187",
+    "text": "- text: Video Games"
+  },
+  {
+    "ref": "U00188",
+    "text": "- text:    "
+  },
+  {
+    "ref": "U00189",
+    "text": "- listitem [ref=e76]:"
+  },
+  {
+    "ref": "U00190",
+    "text": "- menuitem \" Grocery & Gourmet Food\" [ref=e77] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00191",
+    "text": "- generic [ref=e78]: "
+  },
+  {
+    "ref": "U00192",
+    "text": "- text: Grocery & Gourmet Food"
+  },
+  {
+    "ref": "U00193",
+    "text": "- text:             "
+  },
+  {
+    "ref": "U00194",
+    "text": "- main [ref=e79]:"
+  },
+  {
+    "ref": "U00195",
+    "text": "- heading \"Contact Us\" [level=1] [ref=e81]"
+  },
+  {
+    "ref": "U00196",
+    "text": "- generic [ref=e84]:"
+  },
+  {
+    "ref": "U00197",
+    "text": "- group \"Write Us\" [ref=e85]:"
+  },
+  {
+    "ref": "U00198",
+    "text": "- generic [ref=e86]: Write Us"
+  },
+  {
+    "ref": "U00199",
+    "text": "- generic [ref=e87]: Jot us a note and we’ll get back to you as quickly as possible."
+  },
+  {
+    "ref": "U00200",
+    "text": "- generic [ref=e88]:"
+  },
+  {
+    "ref": "U00201",
+    "text": "- generic [ref=e89]: Name*"
+  },
+  {
+    "ref": "U00202",
+    "text": "- textbox \"Name*\" [ref=e91]"
+  },
+  {
+    "ref": "U00203",
+    "text": "- generic [ref=e92]:"
+  },
+  {
+    "ref": "U00204",
+    "text": "- generic [ref=e93]: Email*"
+  },
+  {
+    "ref": "U00205",
+    "text": "- textbox \"Email*\" [ref=e95]"
+  },
+  {
+    "ref": "U00206",
+    "text": "- generic [ref=e96]:"
+  },
+  {
+    "ref": "U00207",
+    "text": "- generic [ref=e97]: Phone Number"
+  },
+  {
+    "ref": "U00208",
+    "text": "- textbox \"Phone Number\" [ref=e99]"
+  },
+  {
+    "ref": "U00209",
+    "text": "- generic [ref=e100]:"
+  },
+  {
+    "ref": "U00210",
+    "text": "- generic [ref=e101]: What’s on your mind? *"
+  },
+  {
+    "ref": "U00211",
+    "text": "- textbox \"What’s on your mind? *\" [ref=e103]"
+  },
+  {
+    "ref": "U00212",
+    "text": "- button \"Submit\" [ref=e106] [cursor=pointer]"
+  },
+  {
+    "ref": "U00213",
+    "text": "- contentinfo [ref=e107]:"
+  },
+  {
+    "ref": "U00214",
+    "text": "- generic [ref=e108]:"
+  },
+  {
+    "ref": "U00215",
+    "text": "- generic [ref=e111]:"
+  },
+  {
+    "ref": "U00216",
+    "text": "- generic [ref=e113]:"
+  },
+  {
+    "ref": "U00217",
+    "text": "- text: "
+  },
+  {
+    "ref": "U00218",
+    "text": "- generic [ref=e114]:"
+  },
+  {
+    "ref": "U00219",
+    "text": "- generic [ref=e115]: \"Sign Up for Our Newsletter:\""
+  },
+  {
+    "ref": "U00220",
+    "text": "- textbox \"Sign Up for Our Newsletter:\" [ref=e116]:"
+  },
+  {
+    "ref": "U00221",
+    "text": "- /placeholder: Enter your email address"
+  },
+  {
+    "ref": "U00222",
+    "text": "- button \"Subscribe\" [ref=e118] [cursor=pointer]"
+  },
+  {
+    "ref": "U00223",
+    "text": "- list [ref=e119]:"
+  },
+  {
+    "ref": "U00224",
+    "text": "- listitem [ref=e120]:"
+  },
+  {
+    "ref": "U00225",
+    "text": "- link \"Privacy and Cookie Policy\" [ref=e121] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00226",
+    "text": "- /url: http://127.0.0.1:7770/privacy-policy-cookie-restriction-mode/"
+  },
+  {
+    "ref": "U00227",
+    "text": "- listitem [ref=e122]:"
+  },
+  {
+    "ref": "U00228",
+    "text": "- link \"Search Terms\" [ref=e123] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00229",
+    "text": "- /url: http://127.0.0.1:7770/search/term/popular/"
+  },
+  {
+    "ref": "U00230",
+    "text": "- listitem [ref=e124]:"
+  },
+  {
+    "ref": "U00231",
+    "text": "- link \"Advanced Search\" [ref=e125] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00232",
+    "text": "- /url: http://127.0.0.1:7770/catalogsearch/advanced/"
+  },
+  {
+    "ref": "U00233",
+    "text": "- listitem [ref=e126]:"
+  },
+  {
+    "ref": "U00234",
+    "text": "- link \"Orders and Returns\" [ref=e127] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00235",
+    "text": "- /url: http://127.0.0.1:7770/sales/guest/form/"
+  },
+  {
+    "ref": "U00236",
+    "text": "- listitem [ref=e128]:"
+  },
+  {
+    "ref": "U00237",
+    "text": "- strong [ref=e129]: Contact Us"
+  },
+  {
+    "ref": "U00238",
+    "text": "- generic [ref=e130]: Copyright © 2013-present Magento, Inc. All rights reserved."
+  },
+  {
+    "ref": "U00239",
+    "text": "- generic [ref=e131]:"
+  },
+  {
+    "ref": "U00240",
+    "text": "- text: Help Us Keep Magento Healthy"
+  },
+  {
+    "ref": "U00241",
+    "text": "- link \"Report All Bugs\" [ref=e132] [cursor=pointer]:"
+  },
+  {
+    "ref": "U00242",
+    "text": "- /url: http://www.magentocommerce.com/bug-tracking"
+  }
+]

@@ -1,0 +1,574 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e5]:
+      - list [ref=e6]:
+        - listitem [ref=e7]:
+          - link "My Account" [ref=e8] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/customer/account/
+        - listitem [ref=e9]:
+          - link "My Wish List" [ref=e10] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/wishlist/
+        - listitem [ref=e11]:
+          - link "Sign In" [ref=e12] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/customer/account/login/
+        - listitem [ref=e13]:
+          - link "Compare Products 2 items" [ref=e14] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/catalog/product_compare/index/uenc/aHR0cDovLzEyNy4wLjAuMTo3NzcwL2N1c3RvbWVyL3NlY3Rpb24vbG9hZC8_c2VjdGlvbnM9Y29tcGFyZS1wcm9kdWN0cyUyQ21lc3NhZ2VzJmZvcmNlX25ld19zZWN0aW9uX3RpbWVzdGFtcD1mYWxzZSZfPTE3OTA1NjMzMTA1MDM~/
+        - listitem [ref=e15]: Welcome to One Stop Market
+        - listitem [ref=e16]:
+          - link "Create an Account" [ref=e17] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/customer/account/create/
+      - link "Skip to Content" [ref=e18] [cursor=pointer]:
+        - /url: "#contentarea"
+    - generic [ref=e19]:
+      - text: 
+      - link "store logo" [ref=e20] [cursor=pointer]:
+        - /url: http://127.0.0.1:7770/
+        - img "one_stop_market_logo" [ref=e21]
+      - generic [ref=e22]:
+        - link " My Cart 3 3 items" [ref=e23] [cursor=pointer]:
+          - /url: http://127.0.0.1:7770/checkout/cart/
+          - text: 
+          - generic [ref=e24]: My Cart
+          - generic [ref=e25]:
+            - generic [ref=e26]: "3"
+            - generic [ref=e27]: 3 items
+        - text: " : :   :   :  "
+      - generic [ref=e30]:
+        - generic [ref=e31]:
+          - generic [ref=e32]:
+            - text: 
+            - generic [ref=e33]: Search
+          - generic [ref=e34]:
+            - combobox " Search" [ref=e35]
+            - link "Advanced Search" [ref=e37] [cursor=pointer]:
+              - /url: http://127.0.0.1:7770/catalogsearch/advanced/
+        - generic:
+          - button "Search" [disabled]:
+            - text: 
+            - generic: Search
+  - tablist [ref=e39]:
+    - tabpanel [ref=e40]:
+      - navigation [ref=e41]:
+        - menu [ref=e42]:
+          - listitem [ref=e43]:
+            - menuitem " Beauty & Personal Care" [ref=e44] [cursor=pointer]:
+              - generic [ref=e45]: 
+              - text: Beauty & Personal Care
+            - text:          
+          - listitem [ref=e46]:
+            - menuitem " Sports & Outdoors" [ref=e47] [cursor=pointer]:
+              - generic [ref=e48]: 
+              - text: Sports & Outdoors
+            - text:   
+          - listitem [ref=e49]:
+            - menuitem " Clothing, Shoes & Jewelry" [ref=e50] [cursor=pointer]:
+              - generic [ref=e51]: 
+              - text: Clothing, Shoes & Jewelry
+            - text:    
+          - listitem [ref=e52]:
+            - menuitem " Home & Kitchen" [ref=e53] [cursor=pointer]:
+              - generic [ref=e54]: 
+              - text: Home & Kitchen
+            - text:       
+          - listitem [ref=e55]:
+            - menuitem " Office Products" [ref=e56] [cursor=pointer]:
+              - generic [ref=e57]: 
+              - text: Office Products
+            - text:   
+          - listitem [ref=e58]:
+            - menuitem " Tools & Home Improvement" [ref=e59] [cursor=pointer]:
+              - generic [ref=e60]: 
+              - text: Tools & Home Improvement
+            - text: 
+          - listitem [ref=e61]:
+            - menuitem " Health & Household" [ref=e62] [cursor=pointer]:
+              - generic [ref=e63]: 
+              - text: Health & Household
+            - text:  
+          - listitem [ref=e64]:
+            - menuitem " Patio, Lawn & Garden" [ref=e65] [cursor=pointer]:
+              - generic [ref=e66]: 
+              - text: Patio, Lawn & Garden
+            - text: 
+          - listitem [ref=e67]:
+            - menuitem " Electronics" [ref=e68] [cursor=pointer]:
+              - generic [ref=e69]: 
+              - text: Electronics
+            - text:            
+          - listitem [ref=e70]:
+            - menuitem " Cell Phones & Accessories" [ref=e71] [cursor=pointer]:
+              - generic [ref=e72]: 
+              - text: Cell Phones & Accessories
+            - text:  
+          - listitem [ref=e73]:
+            - menuitem " Video Games" [ref=e74] [cursor=pointer]:
+              - generic [ref=e75]: 
+              - text: Video Games
+            - text:    
+          - listitem [ref=e76]:
+            - menuitem " Grocery & Gourmet Food" [ref=e77] [cursor=pointer]:
+              - generic [ref=e78]: 
+              - text: Grocery & Gourmet Food
+            - text:             
+  - list [ref=e80]:
+    - listitem [ref=e81]:
+      - link "Home" [ref=e82] [cursor=pointer]:
+        - /url: http://127.0.0.1:7770/
+      - text: 
+    - listitem [ref=e83]:
+      - strong [ref=e84]: Health & Household
+  - main [ref=e85]:
+    - heading "Health & Household Items 1-12 of 537" [level=1] [ref=e87]: Health & Household
+    - generic [ref=e88]:
+      - generic [ref=e89]:
+        - generic [ref=e90]:
+          - generic [ref=e91]:
+            - strong [ref=e92]: View as
+            - strong [ref=e93]:
+              - text: 
+              - generic [ref=e94]: Grid
+            - link "View as  List" [ref=e95] [cursor=pointer]:
+              - /url: "#"
+              - text: 
+              - generic [ref=e96]: List
+          - paragraph [ref=e97]: Items 1-12 of 537
+          - generic [ref=e98]:
+            - text: Sort By
+            - combobox "Sort By" [ref=e99]:
+              - option "Position" [selected]
+              - option "Product Name"
+              - option "Price"
+            - link " Set Descending Direction" [ref=e100] [cursor=pointer]:
+              - /url: "#"
+              - text: 
+              - generic [ref=e101]: Set Descending Direction
+        - list [ref=e103]:
+          - listitem [ref=e104]:
+            - generic [ref=e105]:
+              - link "Image" [ref=e106] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/loopacell-ag13-lr44-l1154-357-76a-a76-button-cell-battery-10-pack.html
+                - img "Image" [ref=e109]
+              - generic [ref=e110]:
+                - strong [ref=e111]:
+                  - link "LOOPACELL AG13 LR44 L1154 357 76A A76 Button Cell Battery 10 Pack" [ref=e112] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/loopacell-ag13-lr44-l1154-357-76a-a76-button-cell-battery-10-pack.html
+                - generic [ref=e113]:
+                  - generic [ref=e114]:
+                    - generic [ref=e115]: "Rating:"
+                    - generic "55%" [ref=e116]:
+                      - text: 
+                      - generic [ref=e117]:
+                        - text: 
+                        - generic [ref=e118]: 55%
+                  - link "12 Reviews" [ref=e120] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/loopacell-ag13-lr44-l1154-357-76a-a76-button-cell-battery-10-pack.html#reviews
+                - generic [ref=e123]: $3.72
+                - generic [ref=e125]:
+                  - button "Add to Cart" [ref=e128] [cursor=pointer]
+                  - generic [ref=e129]:
+                    - button "Add to Wish List" [ref=e130] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e131]: Add to Wish List
+                    - button "Add to Compare" [ref=e132] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e133]: Add to Compare
+          - listitem [ref=e134]:
+            - generic [ref=e135]:
+              - link "Image" [ref=e136] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/manitoba-harvest-hemp-seed-oil-12g-of-omegas-3-6-per-serving-non-gmo-vegan-gluten-free-12-fl-oz.html
+                - img "Image" [ref=e139]
+              - generic [ref=e140]:
+                - strong [ref=e141]:
+                  - link "Manitoba Harvest Hemp Seed Oil, 12g of Omegas 3&6 Per Serving, Non-GMO, Vegan, Gluten-Free 12 Fl Oz" [ref=e142] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/manitoba-harvest-hemp-seed-oil-12g-of-omegas-3-6-per-serving-non-gmo-vegan-gluten-free-12-fl-oz.html
+                - generic [ref=e145]: $12.98
+                - generic [ref=e147]:
+                  - button "Add to Cart" [ref=e150] [cursor=pointer]
+                  - generic [ref=e151]:
+                    - button "Add to Wish List" [ref=e152] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e153]: Add to Wish List
+                    - button "Add to Compare" [ref=e154] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e155]: Add to Compare
+          - listitem [ref=e156]:
+            - generic [ref=e157]:
+              - link "Image" [ref=e158] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/12v-100ah-battery-for-solar-wind-deep-cycle-vrla-12v-24v-48v.html
+                - img "Image" [ref=e161]
+              - generic [ref=e162]:
+                - strong [ref=e163]:
+                  - link "12V 100AH Battery for Solar Wind DEEP Cycle VRLA 12V 24V 48V" [ref=e164] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/12v-100ah-battery-for-solar-wind-deep-cycle-vrla-12v-24v-48v.html
+                - generic [ref=e165]:
+                  - generic [ref=e166]:
+                    - generic [ref=e167]: "Rating:"
+                    - generic "77%" [ref=e168]:
+                      - text: 
+                      - generic [ref=e169]:
+                        - text: 
+                        - generic [ref=e170]: 77%
+                  - link "12 Reviews" [ref=e172] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/12v-100ah-battery-for-solar-wind-deep-cycle-vrla-12v-24v-48v.html#reviews
+                - generic [ref=e175]: $179.99
+                - generic [ref=e177]:
+                  - button "Add to Cart" [ref=e180] [cursor=pointer]
+                  - generic [ref=e181]:
+                    - button "Add to Wish List" [ref=e182] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e183]: Add to Wish List
+                    - button "Add to Compare" [ref=e184] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e185]: Add to Compare
+          - listitem [ref=e186]:
+            - generic [ref=e187]:
+              - link "Image" [ref=e188] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/lr1130-ag10-battery-1-5v-long-lasting-alkaline-button-cell-batteries-20-batteries-5-year-warranty.html
+                - img "Image" [ref=e191]
+              - generic [ref=e192]:
+                - strong [ref=e193]:
+                  - link "LR1130 AG10 Battery 1.5V Long-Lasting Alkaline Button Cell Batteries (20 Batteries)【5-Year Warranty】" [ref=e194] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/lr1130-ag10-battery-1-5v-long-lasting-alkaline-button-cell-batteries-20-batteries-5-year-warranty.html
+                - generic [ref=e197]: $4.98
+                - generic [ref=e199]:
+                  - button "Add to Cart" [ref=e202] [cursor=pointer]
+                  - generic [ref=e203]:
+                    - button "Add to Wish List" [ref=e204] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e205]: Add to Wish List
+                    - button "Add to Compare" [ref=e206] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e207]: Add to Compare
+          - listitem [ref=e208]:
+            - generic [ref=e209]:
+              - link "Image" [ref=e210] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/energizer-max-c-batteries-premium-alkaline-c-cell-batteries-8-battery-count.html
+                - img "Image" [ref=e213]
+              - generic [ref=e214]:
+                - strong [ref=e215]:
+                  - link "Energizer MAX C Batteries, Premium Alkaline C Cell Batteries (8 Battery Count)" [ref=e216] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/energizer-max-c-batteries-premium-alkaline-c-cell-batteries-8-battery-count.html
+                - generic [ref=e217]:
+                  - generic [ref=e218]:
+                    - generic [ref=e219]: "Rating:"
+                    - generic "40%" [ref=e220]:
+                      - text: 
+                      - generic [ref=e221]:
+                        - text: 
+                        - generic [ref=e222]: 40%
+                  - link "12 Reviews" [ref=e224] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/energizer-max-c-batteries-premium-alkaline-c-cell-batteries-8-battery-count.html#reviews
+                - generic [ref=e227]: $14.87
+                - generic [ref=e229]:
+                  - button "Add to Cart" [ref=e232] [cursor=pointer]
+                  - generic [ref=e233]:
+                    - button "Add to Wish List" [ref=e234] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e235]: Add to Wish List
+                    - button "Add to Compare" [ref=e236] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e237]: Add to Compare
+          - listitem [ref=e238]:
+            - generic [ref=e239]:
+              - link "Image" [ref=e240] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/cgid-ct84-computer-glasses-readers-reading-video-gaming-glasses-of-anti-blue-light-eye-strain-and-uv-light-vintage-rectangle-black-brown-frame-transparnet-lens.html
+                - img "Image" [ref=e243]
+              - generic [ref=e244]:
+                - strong [ref=e245]:
+                  - link "CGID CT84 Computer Glasses Readers Reading Video Gaming Glasses of Anti Blue Light Eye Strain and UV Light,Vintage Rectangle Black Brown Frame,Transparnet Lens" [ref=e246] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/cgid-ct84-computer-glasses-readers-reading-video-gaming-glasses-of-anti-blue-light-eye-strain-and-uv-light-vintage-rectangle-black-brown-frame-transparnet-lens.html
+                - generic [ref=e249]: $14.99
+                - generic [ref=e251]:
+                  - button "Add to Cart" [ref=e254] [cursor=pointer]
+                  - generic [ref=e255]:
+                    - button "Add to Wish List" [ref=e256] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e257]: Add to Wish List
+                    - button "Add to Compare" [ref=e258] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e259]: Add to Compare
+          - listitem [ref=e260]:
+            - generic [ref=e261]:
+              - link "Image" [ref=e262] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/highly-scented-aromatherapy-jar-candles-white-sage-small-6-oz-2-pack.html
+                - img "Image" [ref=e265]
+              - generic [ref=e266]:
+                - strong [ref=e267]:
+                  - link "Highly Scented Aromatherapy Jar Candles (White Sage, Small 6 Oz. (2-Pack))" [ref=e268] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/highly-scented-aromatherapy-jar-candles-white-sage-small-6-oz-2-pack.html
+                - generic [ref=e271]: $19.95
+                - generic [ref=e273]:
+                  - button "Add to Cart" [ref=e276] [cursor=pointer]
+                  - generic [ref=e277]:
+                    - button "Add to Wish List" [ref=e278] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e279]: Add to Wish List
+                    - button "Add to Compare" [ref=e280] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e281]: Add to Compare
+          - listitem [ref=e282]:
+            - generic [ref=e283]:
+              - link "Image" [ref=e284] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/thinkthin-high-protein-super-variety-pack-2-1-ounce-pack-of-10.html
+                - img "Image" [ref=e287]
+              - generic [ref=e288]:
+                - strong [ref=e289]:
+                  - link "Thinkthin High Protein Super Variety Pack, 2.1 Ounce (Pack of 10)" [ref=e290] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/thinkthin-high-protein-super-variety-pack-2-1-ounce-pack-of-10.html
+                - generic [ref=e293]: $26.99
+                - generic [ref=e295]:
+                  - button "Add to Cart" [ref=e298] [cursor=pointer]
+                  - generic [ref=e299]:
+                    - button "Add to Wish List" [ref=e300] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e301]: Add to Wish List
+                    - button "Add to Compare" [ref=e302] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e303]: Add to Compare
+          - listitem [ref=e304]:
+            - generic [ref=e305]:
+              - link "Image" [ref=e306] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/wolfberry-eye-cream-5-oz-by-young-living-essential-oils.html
+                - img "Image" [ref=e309]
+              - generic [ref=e310]:
+                - strong [ref=e311]:
+                  - link "Wolfberry Eye Cream .5 oz by Young Living Essential Oils" [ref=e312] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/wolfberry-eye-cream-5-oz-by-young-living-essential-oils.html
+                - generic [ref=e315]: $72.99
+                - generic [ref=e317]:
+                  - button "Add to Cart" [ref=e320] [cursor=pointer]
+                  - generic [ref=e321]:
+                    - button "Add to Wish List" [ref=e322] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e323]: Add to Wish List
+                    - button "Add to Compare" [ref=e324] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e325]: Add to Compare
+          - listitem [ref=e326]:
+            - generic [ref=e327]:
+              - link "Image" [ref=e328] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/whey-protein-powder-six-star-whey-protein-plus-whey-protein-isolate-peptides-lean-protein-powder-for-muscle-gain-muscle-builder-for-men-women-vanilla-2-lbs-package-may-vary.html
+                - img "Image" [ref=e331]
+              - generic [ref=e332]:
+                - strong [ref=e333]:
+                  - link "Whey Protein Powder | Six Star Whey Protein Plus | Whey Protein Isolate & Peptides | Lean Protein Powder for Muscle Gain | Muscle Builder for Men & Women | Vanilla, 2 lbs (Package May Vary)" [ref=e334] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/whey-protein-powder-six-star-whey-protein-plus-whey-protein-isolate-peptides-lean-protein-powder-for-muscle-gain-muscle-builder-for-men-women-vanilla-2-lbs-package-may-vary.html
+                - generic [ref=e337]: $42.76
+                - generic [ref=e339]:
+                  - button "Add to Cart" [ref=e342] [cursor=pointer]
+                  - generic [ref=e343]:
+                    - button "Add to Wish List" [ref=e344] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e345]: Add to Wish List
+                    - button "Add to Compare" [ref=e346] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e347]: Add to Compare
+          - listitem [ref=e348]:
+            - generic [ref=e349]:
+              - link "Image" [ref=e350] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/pibbs-flat-iron-holder-table-mount-model-1512.html
+                - img "Image" [ref=e353]
+              - generic [ref=e354]:
+                - strong [ref=e355]:
+                  - 'link "PIBBS Flat Iron Holder Table Mount (Model: 1512)" [ref=e356] [cursor=pointer]':
+                    - /url: http://127.0.0.1:7770/pibbs-flat-iron-holder-table-mount-model-1512.html
+                - generic [ref=e359]: $60.00
+                - generic [ref=e361]:
+                  - button "Add to Cart" [ref=e364] [cursor=pointer]
+                  - generic [ref=e365]:
+                    - button "Add to Wish List" [ref=e366] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e367]: Add to Wish List
+                    - button "Add to Compare" [ref=e368] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e369]: Add to Compare
+          - listitem [ref=e370]:
+            - generic [ref=e371]:
+              - link "Image" [ref=e372] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/sony-364-sr621sw-1-55v-silver-oxide-0-hg-mercury-free-watch-battery-5-batteries.html
+                - img "Image" [ref=e375]
+              - generic [ref=e376]:
+                - strong [ref=e377]:
+                  - link "Sony 364 (SR621SW) 1.55V Silver Oxide 0% Hg Mercury Free Watch Battery (5 Batteries)" [ref=e378] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/sony-364-sr621sw-1-55v-silver-oxide-0-hg-mercury-free-watch-battery-5-batteries.html
+                - generic [ref=e381]: $6.96
+                - generic [ref=e383]:
+                  - button "Add to Cart" [ref=e386] [cursor=pointer]
+                  - generic [ref=e387]:
+                    - button "Add to Wish List" [ref=e388] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e389]: Add to Wish List
+                    - button "Add to Compare" [ref=e390] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e391]: Add to Compare
+        - generic [ref=e392]:
+          - generic [ref=e393]:
+            - strong [ref=e394]: Page
+            - list "Page" [ref=e395]:
+              - listitem [ref=e396]:
+                - strong [ref=e397]:
+                  - generic [ref=e398]: You're currently reading page
+                  - text: "1"
+              - listitem [ref=e399]:
+                - link "Page 2" [ref=e400] [cursor=pointer]:
+                  - /url: http://127.0.0.1:7770/health-household.html?p=2
+                  - generic [ref=e401]: Page
+                  - text: "2"
+              - listitem [ref=e402]:
+                - link "Page 3" [ref=e403] [cursor=pointer]:
+                  - /url: http://127.0.0.1:7770/health-household.html?p=3
+                  - generic [ref=e404]: Page
+                  - text: "3"
+              - listitem [ref=e405]:
+                - link "Page 4" [ref=e406] [cursor=pointer]:
+                  - /url: http://127.0.0.1:7770/health-household.html?p=4
+                  - generic [ref=e407]: Page
+                  - text: "4"
+              - listitem [ref=e408]:
+                - link "Page 5" [ref=e409] [cursor=pointer]:
+                  - /url: http://127.0.0.1:7770/health-household.html?p=5
+                  - generic [ref=e410]: Page
+                  - text: "5"
+              - listitem [ref=e411]:
+                - link " Page Next" [ref=e412] [cursor=pointer]:
+                  - /url: http://127.0.0.1:7770/health-household.html?p=2
+                  - text: 
+                  - generic [ref=e413]: Page
+                  - generic [ref=e414]: Next
+          - generic [ref=e415]:
+            - generic [ref=e416]: Show
+            - combobox "Show" [ref=e418]:
+              - option "12" [selected]
+              - option "24"
+              - option "36"
+            - text: per page
+      - generic [ref=e420]:
+        - strong [ref=e422]: Shop By
+        - generic [ref=e423]:
+          - heading "Shopping Options" [level=2] [ref=e424]
+          - generic [ref=e425]:
+            - heading "Category" [level=3] [ref=e426]
+            - definition [ref=e427]:
+              - list [ref=e428]:
+                - listitem [ref=e429]:
+                  - link "Household Supplies( 277 item )" [ref=e430] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/health-household.html?cat=42
+                    - text: Household Supplies
+                    - generic [ref=e431]:
+                      - text: ( 277
+                      - generic [ref=e432]: item
+                      - text: )
+                - listitem [ref=e433]:
+                  - link "Health Care( 86 item )" [ref=e434] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/health-household.html?cat=47
+                    - text: Health Care
+                    - generic [ref=e435]:
+                      - text: ( 86
+                      - generic [ref=e436]: item
+                      - text: )
+                - listitem [ref=e437]:
+                  - link "Diet & Sports Nutrition( 108 item )" [ref=e438] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/health-household.html?cat=49
+                    - text: Diet & Sports Nutrition
+                    - generic [ref=e439]:
+                      - text: ( 108
+                      - generic [ref=e440]: item
+                      - text: )
+            - heading "Price" [level=3] [ref=e441]
+            - definition [ref=e442]:
+              - list [ref=e443]:
+                - listitem [ref=e444]:
+                  - link "$0.00 - $99.99( 519 item )" [ref=e445] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/health-household.html?price=0-100
+                    - text: $0.00 - $99.99
+                    - generic [ref=e446]:
+                      - text: ( 519
+                      - generic [ref=e447]: item
+                      - text: )
+                - listitem [ref=e448]:
+                  - link "$100.00 - $199.99( 13 item )" [ref=e449] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/health-household.html?price=100-200
+                    - text: $100.00 - $199.99
+                    - generic [ref=e450]:
+                      - text: ( 13
+                      - generic [ref=e451]: item
+                      - text: )
+                - listitem [ref=e452]:
+                  - link "$200.00 - $299.99( 2 item )" [ref=e453] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/health-household.html?price=200-300
+                    - text: $200.00 - $299.99
+                    - generic [ref=e454]:
+                      - text: ( 2
+                      - generic [ref=e455]: item
+                      - text: )
+                - listitem [ref=e456]:
+                  - link "$900.00 and above( 2 item )" [ref=e457] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/health-household.html?price=900-1000
+                    - text: $900.00 and above
+                    - generic [ref=e458]:
+                      - text: ( 2
+                      - generic [ref=e459]: item
+                      - text: )
+      - generic [ref=e460]:
+        - generic [ref=e461]:
+          - generic [ref=e462]:
+            - heading "Compare Products" [level=2] [ref=e463]
+            - text: 2 items
+          - generic "Compare Products" [ref=e464]:
+            - list [ref=e465]:
+              - listitem [ref=e466]:
+                - strong [ref=e467]:
+                  - link "Multi Accessory Hub Adapter By JOBY – Get The Right Set Up For Your Vision By Attaching All The GoPro Accessories You Need In One Central Spot" [ref=e468] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/multi-accessory-hub-adapter-by-joby-get-the-right-set-up-for-your-vision-by-attaching-all-the-gopro-accessories-you-need-in-one-central-spot.html
+                - link " Remove This Item" [ref=e469] [cursor=pointer]:
+                  - /url: "#"
+                  - text: 
+                  - generic [ref=e470]: Remove This Item
+              - listitem [ref=e471]:
+                - strong [ref=e472]:
+                  - link "linxiaojix Waterproof Shell for Osmo Pocket, Camera Case Camera Cover Diving Cover for Osmo Pocket, 60M Waterproof for Travel Trip" [ref=e473] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/linxiaojix-waterproof-shell-for-osmo-pocket-camera-case-camera-cover-diving-cover-for-osmo-pocket-60m-waterproof-for-travel-trip.html
+                - link " Remove This Item" [ref=e474] [cursor=pointer]:
+                  - /url: "#"
+                  - text: 
+                  - generic [ref=e475]: Remove This Item
+            - generic [ref=e476]:
+              - link "Compare" [ref=e478] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/catalog/product_compare/index/uenc/aHR0cDovLzEyNy4wLjAuMTo3NzcwL2N1c3RvbWVyL3NlY3Rpb24vbG9hZC8_c2VjdGlvbnM9Y29tcGFyZS1wcm9kdWN0cyUyQ21lc3NhZ2VzJmZvcmNlX25ld19zZWN0aW9uX3RpbWVzdGFtcD1mYWxzZSZfPTE3OTA1NjMzMTA1MDM~/
+              - link "Clear All" [ref=e480] [cursor=pointer]:
+                - /url: "#"
+        - generic [ref=e481]:
+          - heading "My Wish List" [level=2] [ref=e483]
+          - generic [ref=e485]: You have no items in your wish list.
+  - contentinfo [ref=e486]:
+    - generic [ref=e487]:
+      - generic [ref=e490]:
+        - generic [ref=e492]:
+          - text: 
+          - generic [ref=e493]:
+            - generic [ref=e494]: "Sign Up for Our Newsletter:"
+            - textbox "Sign Up for Our Newsletter:" [ref=e495]:
+              - /placeholder: Enter your email address
+        - button "Subscribe" [ref=e497] [cursor=pointer]
+      - list [ref=e498]:
+        - listitem [ref=e499]:
+          - link "Privacy and Cookie Policy" [ref=e500] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/privacy-policy-cookie-restriction-mode/
+        - listitem [ref=e501]:
+          - link "Search Terms" [ref=e502] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/search/term/popular/
+        - listitem [ref=e503]:
+          - link "Advanced Search" [ref=e504] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/catalogsearch/advanced/
+        - listitem [ref=e505]:
+          - link "Orders and Returns" [ref=e506] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/sales/guest/form/
+        - listitem [ref=e507]:
+          - link "Contact Us" [ref=e508] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/contact/
+      - generic [ref=e509]: Copyright © 2013-present Magento, Inc. All rights reserved.
+      - generic [ref=e510]:
+        - text: Help Us Keep Magento Healthy
+        - link "Report All Bugs" [ref=e511] [cursor=pointer]:
+          - /url: http://www.magentocommerce.com/bug-tracking

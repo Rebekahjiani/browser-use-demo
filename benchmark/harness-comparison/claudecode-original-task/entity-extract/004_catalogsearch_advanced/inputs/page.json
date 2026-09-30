@@ -1,0 +1,30 @@
+{
+  "url": "http://127.0.0.1:7770/catalogsearch/advanced",
+  "title": "Advanced Search",
+  "route": "/catalogsearch/advanced",
+  "captured_from": "drive",
+  "sources": {
+    "aria_source": "..\\drive\\screenshots\\052_catalogsearch_advanced\\aria.yml",
+    "catalog": "<runDir>/evidence_catalog.json",
+    "evidence_ids": [
+      "trace:api_candidate:line27522",
+      "trace:api_candidate:line27540",
+      "trace:api_candidate:line27541",
+      "trace:api_candidate:line27542",
+      "trace:api_candidate:line27596",
+      "trace:api_candidate:line27640",
+      "trace:api_candidate:line27687",
+      "trace:api_candidate:line27688",
+      "trace:api_candidate:line27689",
+      "trace:api_candidate:line27690",
+      "trace:api_candidate:line27691",
+      "trace:api_candidate:line27692",
+      "trace:api_candidate:line27693",
+      "trace:api_candidate:line27694",
+      "trace:api_candidate:line27695",
+      "trace:api_candidate:line27696",
+      "trace:api_candidate:line27912"
+    ]
+  },
+  "tree_format": "aria_yml"
+}

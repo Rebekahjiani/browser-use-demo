@@ -1,0 +1,149 @@
+{
+  "concepts": [
+    {
+      "canonical_name": "商品分类",
+      "concept_type": "business_entity",
+      "description": "Clothing, Shoes & Jewelry 商品分类页，展示分类名称、商品数量、排序方式及筛选选项。",
+      "aliases": [
+        "Category",
+        "分类"
+      ],
+      "attributes": [
+        {
+          "name": "分类名称",
+          "note": "页面标题（heading）",
+          "source_refs": [
+            "page.aria.yml:heading:Clothing, Shoes & Jewelry Items 1-12 of 20923"
+          ]
+        },
+        {
+          "name": "商品数量",
+          "note": "Items 1-12 of 20923 段落",
+          "source_refs": [
+            "page.aria.yml:paragraph:Items 1-12 of 20923"
+          ]
+        },
+        {
+          "name": "排序方式",
+          "note": "Sort By 下拉框",
+          "source_refs": [
+            "page.aria.yml:combobox:Sort By"
+          ]
+        }
+      ],
+      "evidence_refs": [
+        "E019"
+      ],
+      "api_refs": [
+        "E019"
+      ],
+      "page_refs": [
+        "006_clothing-shoes-jewelry_html"
+      ]
+    },
+    {
+      "canonical_name": "商品",
+      "concept_type": "business_entity",
+      "description": "分类列表中的商品条目，含名称、评分、评论数、价格及加购/愿望清单/对比入口。",
+      "aliases": [
+        "Product",
+        "product"
+      ],
+      "attributes": [
+        {
+          "name": "名称",
+          "note": "列表项中商品名链接",
+          "source_refs": [
+            "page.aria.yml:listitem:strong:link"
+          ]
+        },
+        {
+          "name": "评分",
+          "note": "Rating: 标签",
+          "source_refs": [
+            "page.aria.yml:generic:Rating:"
+          ]
+        },
+        {
+          "name": "评论数",
+          "note": "N Reviews 链接",
+          "source_refs": [
+            "page.aria.yml:link:Review"
+          ]
+        },
+        {
+          "name": "Price",
+          "note": "商品价格文本",
+          "source_refs": [
+            "page.aria.yml:generic:Price"
+          ]
+        }
+      ],
+      "evidence_refs": [
+        "E017",
+        "E018",
+        "E019",
+        "E021"
+      ],
+      "api_refs": [
+        "E019",
+        "E021"
+      ],
+      "page_refs": [
+        "006_clothing-shoes-jewelry_html"
+      ]
+    },
+    {
+      "canonical_name": "商品-加入对比",
+      "concept_type": "operation",
+      "description": "点击 Add to Compare 将商品加入对比列表（POST /catalog/product_compare/add/，成功后有 You added product ... to the comparison list 提示）。",
+      "belongs_to_entity": "商品",
+      "evidence_refs": [
+        "E018",
+        "page.aria.yml:alert:comparison list"
+      ],
+      "api_refs": [
+        "E018"
+      ]
+    },
+    {
+      "canonical_name": "商品-查询",
+      "concept_type": "operation",
+      "description": "加载顾客会话数据（GET /customer/section/load/，返回 compare-products 与 messages）。",
+      "belongs_to_entity": "商品",
+      "evidence_refs": [
+        "E020"
+      ],
+      "api_refs": [
+        "E020"
+      ]
+    },
+    {
+      "canonical_name": "商品-查看详情",
+      "concept_type": "operation",
+      "description": "点击列表商品跳转详情页（GET 商品页，如 HFHAPW 连体睡衣）。",
+      "belongs_to_entity": "商品",
+      "evidence_refs": [
+        "E021"
+      ],
+      "api_refs": [
+        "E021"
+      ]
+    },
+    {
+      "canonical_name": "商品-搜索建议",
+      "concept_type": "operation",
+      "description": "搜索框输入触发搜索建议（GET /search/ajax/suggest/）。",
+      "belongs_to_entity": "商品",
+      "evidence_refs": [
+        "E017"
+      ],
+      "api_refs": [
+        "E017"
+      ]
+    }
+  ],
+  "notes": [
+    "会话端点 E020（/customer/section/load/）为商品相关会话数据加载，计入查询操作；静态模板端点已排除。"
+  ]
+}

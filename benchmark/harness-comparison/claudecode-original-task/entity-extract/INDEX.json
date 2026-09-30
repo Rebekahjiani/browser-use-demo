@@ -1,0 +1,188 @@
+{
+  "generated_at": "2026-09-28T06:57:03.679Z",
+  "task": "entity-extract",
+  "pages": [
+    {
+      "dir": "000_root",
+      "url": "http://127.0.0.1:7770/",
+      "title": "One Stop Market",
+      "endpoint_count": 23,
+      "aria_from": "drive"
+    },
+    {
+      "dir": "001_beauty-personal-care_html",
+      "url": "http://127.0.0.1:7770/beauty-personal-care.html",
+      "title": "Beauty & Personal Care",
+      "endpoint_count": 17,
+      "aria_from": "drive"
+    },
+    {
+      "dir": "002_belle-of-the-ball-princess-sprinkle-mix-wedding-colorful-spr",
+      "url": "http://127.0.0.1:7770/belle-of-the-ball-princess-sprinkle-mix-wedding-colorful-sprinkles-cake-cupcake-cookie-sprinkles-ice-cream-candy-sprinkles-yellow-gold-red-royal-red-rose-icing-flowers-decorating-sprinkles-8oz.html",
+      "title": "Belle Of The Ball Princess Sprinkle Mix| Wedding Colorful Sprinkles| Cake Cupcake Cookie Sprinkles| Ice cream Candy Sprinkles| Yellow Gold Red Royal Red Rose Icing Flowers Decorating Sprinkles, 8OZ",
+      "endpoint_count": 22,
+      "aria_from": "drive"
+    },
+    {
+      "dir": "003_briess-dme-pilsen-light-1-lb-bag_html",
+      "url": "http://127.0.0.1:7770/briess-dme-pilsen-light-1-lb-bag.html",
+      "title": "Briess DME - Pilsen Light - 1 lb Bag",
+      "endpoint_count": 21,
+      "aria_from": "drive"
+    },
+    {
+      "dir": "004_catalogsearch_advanced",
+      "url": "http://127.0.0.1:7770/catalogsearch/advanced",
+      "title": "Advanced Search",
+      "endpoint_count": 17,
+      "aria_from": "drive"
+    },
+    {
+      "dir": "005_cell-phones-accessories_html",
+      "url": "http://127.0.0.1:7770/cell-phones-accessories.html",
+      "title": "Cell Phones & Accessories",
+      "endpoint_count": 20,
+      "aria_from": "drive"
+    },
+    {
+      "dir": "006_clothing-shoes-jewelry_html",
+      "url": "http://127.0.0.1:7770/clothing-shoes-jewelry.html",
+      "title": "Clothing, Shoes & Jewelry",
+      "endpoint_count": 21,
+      "aria_from": "drive"
+    },
+    {
+      "dir": "007_contact",
+      "url": "http://127.0.0.1:7770/contact",
+      "title": "Contact Us",
+      "endpoint_count": 17,
+      "aria_from": "drive"
+    },
+    {
+      "dir": "008_cooloo-cell-phone-stand-2-pack-mobile-phone-anti-skid-holder",
+      "url": "http://127.0.0.1:7770/cooloo-cell-phone-stand-2-pack-mobile-phone-anti-skid-holder-cradle-dock-compatible-android-smartphone-phone-11-pro-xs-max-xr-x-8-7-6-6s-plus-5s-accessories-desk-black.html",
+      "title": "COOLOO Cell Phone Stand,【2 Pack】 Mobile Phone Anti-Skid Holder, Cradle, Dock Compatible Android Smartphone, Phone 11 Pro Xs Max Xr X 8 7 6 6s Plus 5s, Accessories Desk - Black",
+      "endpoint_count": 17,
+      "aria_from": "drive"
+    },
+    {
+      "dir": "009_customer_account_login",
+      "url": "http://127.0.0.1:7770/customer/account/login",
+      "title": "Customer Login",
+      "endpoint_count": 30,
+      "aria_from": "drive"
+    },
+    {
+      "dir": "010_dp_B004U429AQ_ref_emc_b_5_i",
+      "url": "http://127.0.0.1:7770/dp/B004U429AQ/ref=emc_b_5_i",
+      "title": "404 Not Found",
+      "endpoint_count": 16,
+      "aria_from": "drive"
+    },
+    {
+      "dir": "011_electronics_html",
+      "url": "http://127.0.0.1:7770/electronics.html",
+      "title": "Electronics",
+      "endpoint_count": 23,
+      "aria_from": "drive"
+    },
+    {
+      "dir": "012_energizer-max-c-batteries-premium-alkaline-c-cell-batteries-",
+      "url": "http://127.0.0.1:7770/energizer-max-c-batteries-premium-alkaline-c-cell-batteries-8-battery-count.html",
+      "title": "Energizer MAX C Batteries, Premium Alkaline C Cell Batteries (8 Battery Count)",
+      "endpoint_count": 22,
+      "aria_from": "drive"
+    },
+    {
+      "dir": "013_enevotx-front-door-side-window-covering-alligator-and-cactus",
+      "url": "http://127.0.0.1:7770/enevotx-front-door-side-window-covering-alligator-and-cactus-decor-for-front-door-durable-fabric-decor-for-door-multi-size-door-protector-for-bedroom-home-kitchen-party-decoration.html",
+      "title": "ENEVOTX Front Door Side Window Covering Alligator and Cactus Decor for Front Door Durable Fabric Decor for Door Multi Size Door Protector for Bedroom Home Kitchen Party Decoration",
+      "endpoint_count": 21,
+      "aria_from": "drive"
+    },
+    {
+      "dir": "014_health-household_html",
+      "url": "http://127.0.0.1:7770/health-household.html",
+      "title": "Health & Household",
+      "endpoint_count": 19,
+      "aria_from": "drive"
+    },
+    {
+      "dir": "015_hfhapw-onesie-pajamas-for-women-women-s-valentines-day-sexy-",
+      "url": "http://127.0.0.1:7770/hfhapw-onesie-pajamas-for-women-women-s-valentines-day-sexy-jumpsuit-v-neck-button-down-red-lip-printed-one-piece-pajamas.html",
+      "title": "HFHAPW Onesie Pajamas for Women,Women's Valentines Day Sexy Jumpsuit V Neck Button Down Red Lip Printed One Piece Pajamas",
+      "endpoint_count": 21,
+      "aria_from": "drive"
+    },
+    {
+      "dir": "016_home-kitchen_html",
+      "url": "http://127.0.0.1:7770/home-kitchen.html",
+      "title": "Home & Kitchen",
+      "endpoint_count": 22,
+      "aria_from": "drive"
+    },
+    {
+      "dir": "017_linxiaojix-waterproof-shell-for-osmo-pocket-camera-case-came",
+      "url": "http://127.0.0.1:7770/linxiaojix-waterproof-shell-for-osmo-pocket-camera-case-camera-cover-diving-cover-for-osmo-pocket-60m-waterproof-for-travel-trip.html",
+      "title": "linxiaojix Waterproof Shell for Osmo Pocket, Camera Case Camera Cover Diving Cover for Osmo Pocket, 60M Waterproof for Travel Trip",
+      "endpoint_count": 21,
+      "aria_from": "drive"
+    },
+    {
+      "dir": "018_mmqq-beige-bar-chairs-outdoor-patio-wicker-rattan-barstools-",
+      "url": "http://127.0.0.1:7770/mmqq-beige-bar-chairs-outdoor-patio-wicker-rattan-barstools-chair-with-footrest-back-counter-height-kitchen-stools-with-black-metal-leg-for-kitchen-pub-cafe.html",
+      "title": "MMQQ Beige Bar Chairs Outdoor Patio Wicker Rattan Barstools Chair with Footrest & Back, Counter Height Kitchen Stools with Black Metal Leg, for Kitchen/Pub/Café",
+      "endpoint_count": 22,
+      "aria_from": "drive"
+    },
+    {
+      "dir": "019_multi-accessory-hub-adapter-by-joby-get-the-right-set-up-for",
+      "url": "http://127.0.0.1:7770/multi-accessory-hub-adapter-by-joby-get-the-right-set-up-for-your-vision-by-attaching-all-the-gopro-accessories-you-need-in-one-central-spot.html",
+      "title": "Multi Accessory Hub Adapter By JOBY – Get The Right Set Up For Your Vision By Attaching All The GoPro Accessories You Need In One Central Spot",
+      "endpoint_count": 21,
+      "aria_from": "drive"
+    },
+    {
+      "dir": "020_patio-lawn-garden_html",
+      "url": "http://127.0.0.1:7770/patio-lawn-garden.html",
+      "title": "Patio, Lawn & Garden",
+      "endpoint_count": 24,
+      "aria_from": "drive"
+    },
+    {
+      "dir": "021_psp-s110-battery-upgraded-ultra-high-capacity-3600mah-li-ion",
+      "url": "http://127.0.0.1:7770/psp-s110-battery-upgraded-ultra-high-capacity-3600mah-li-ion-replacement-battery-for-sony-psp-1000-psp-110-console-not-compatible-with-psp-2000-or-3000-or-psp-slim.html",
+      "title": "PSP-S110 Battery,[Upgraded] Ultra High Capacity 3600mAh Li-ion Replacement Battery for Sony PSP 1000 PSP-110 Console (NOT Compatible with PSP-2000 or 3000 or PSP Slim)",
+      "endpoint_count": 21,
+      "aria_from": "drive"
+    },
+    {
+      "dir": "022_q-mixers-premium-ginger-ale-real-ingredients-less-sweet-6-7-",
+      "url": "http://127.0.0.1:7770/q-mixers-premium-ginger-ale-real-ingredients-less-sweet-6-7-fl-oz-24-bottles.html",
+      "title": "Q Mixers Premium Ginger Ale: Real Ingredients & Less Sweet, 6.7 Fl Oz (24 Bottles)",
+      "endpoint_count": 24,
+      "aria_from": "drive"
+    },
+    {
+      "dir": "023_sports-outdoors_html",
+      "url": "http://127.0.0.1:7770/sports-outdoors.html",
+      "title": "Sports & Outdoors",
+      "endpoint_count": 17,
+      "aria_from": "drive"
+    },
+    {
+      "dir": "024_video-games_html",
+      "url": "http://127.0.0.1:7770/video-games.html",
+      "title": "Video Games",
+      "endpoint_count": 19,
+      "aria_from": "drive"
+    },
+    {
+      "dir": "025_zosi-h-265-poe-home-security-camera-system-outdoor-indoor-8-",
+      "url": "http://127.0.0.1:7770/zosi-h-265-poe-home-security-camera-system-outdoor-indoor-8-channel-5mp-poe-nvr-recorder-4pcs-wired-2mp-1080p-surveillance-bullet-poe-ip-cameras-no-hard-drive-renewed.html",
+      "title": "ZOSI H.265+ PoE Home Security Camera System Outdoor Indoor,8-Channel 5MP PoE NVR Recorder,4pcs Wired 2MP 1080p Surveillance Bullet PoE IP Cameras, No Hard Drive (Renewed)",
+      "endpoint_count": 21,
+      "aria_from": "drive"
+    }
+  ]
+}

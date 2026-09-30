@@ -1,0 +1,255 @@
+{
+  "title": "Existing CM retrospective diagnostic (not a benchmark result)",
+  "reference": {
+    "product": {
+      "names": [
+        "产品",
+        "商品",
+        "Product"
+      ],
+      "attrs": {
+        "name": [
+          "name",
+          "商品名称",
+          "Product Name"
+        ],
+        "sku": [
+          "sku",
+          "SKU"
+        ],
+        "price": [
+          "price",
+          "价格",
+          "Price"
+        ],
+        "image": [
+          "image",
+          "商品图片"
+        ],
+        "quantity_and_stock_status": [
+          "availability",
+          "In stock（库存状态）",
+          "In stock (库存状态)",
+          "库存状态"
+        ]
+      }
+    },
+    "category": {
+      "names": [
+        "商品分类",
+        "分类",
+        "Category"
+      ],
+      "attrs": {
+        "name": [
+          "name",
+          "分类名称",
+          "Category Name"
+        ]
+      }
+    },
+    "cart": {
+      "names": [
+        "购物车",
+        "Cart"
+      ],
+      "attrs": {
+        "items_count": [
+          "itemCount",
+          "item_count",
+          "数量"
+        ],
+        "subtotal": [
+          "subtotal",
+          "Subtotal",
+          "小计"
+        ],
+        "grand_total": [
+          "grand_total",
+          "Grand Total",
+          "Order Total",
+          "总计"
+        ]
+      }
+    },
+    "cart_item": {
+      "names": [
+        "购物车条目",
+        "购物车商品",
+        "Cart Item"
+      ],
+      "attrs": {
+        "name": [
+          "name",
+          "Item",
+          "商品名称"
+        ],
+        "sku": [
+          "sku",
+          "SKU"
+        ],
+        "qty": [
+          "qty",
+          "Qty",
+          "数量"
+        ],
+        "price": [
+          "price",
+          "Price",
+          "价格"
+        ],
+        "row_total": [
+          "row_total",
+          "Subtotal",
+          "小计"
+        ]
+      }
+    }
+  },
+  "reference_bias": "This 14-item checklist was authored after inspecting both generated Context Models and their traces. It overlaps observed outputs by construction and must not be used to claim either strategy is superior. Freeze an independently authored oracle before formal scoring.",
+  "results": [
+    {
+      "strategy": "drive",
+      "source_meta": {
+        "merged_entities": 12,
+        "source_pages": 26,
+        "source": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\reports\\drive-context-model.json"
+      },
+      "entity_recall": 0.75,
+      "entity_hits": 3,
+      "entity_total": 4,
+      "attribute_recall_micro": 0.5714,
+      "attribute_hits": 8,
+      "attribute_total": 14,
+      "per_entity": [
+        {
+          "entity": "product",
+          "entity_found": true,
+          "attributes_hit": [
+            "name",
+            "sku",
+            "price",
+            "image",
+            "quantity_and_stock_status"
+          ],
+          "attributes_missed": [],
+          "attr_recall": 1.0
+        },
+        {
+          "entity": "category",
+          "entity_found": true,
+          "attributes_hit": [
+            "name"
+          ],
+          "attributes_missed": [],
+          "attr_recall": 1.0
+        },
+        {
+          "entity": "cart",
+          "entity_found": true,
+          "attributes_hit": [
+            "items_count",
+            "subtotal"
+          ],
+          "attributes_missed": [
+            "grand_total"
+          ],
+          "attr_recall": 0.6667
+        },
+        {
+          "entity": "cart_item",
+          "entity_found": false,
+          "attributes_hit": [],
+          "attributes_missed": [
+            "name",
+            "sku",
+            "qty",
+            "price",
+            "row_total"
+          ],
+          "attr_recall": 0.0
+        }
+      ],
+      "scope_note": "Recall only. Reference is a small, manually mapped trace-demonstrated subset; precision and site-wide completeness are not measured."
+    },
+    {
+      "strategy": "browser-use",
+      "source_meta": {
+        "entities": 4,
+        "operations": 9,
+        "snapshot_dirs_processed": null,
+        "accessibility_json_read": [
+          "snapshots/00001",
+          "snapshots/00005",
+          "snapshots/00015",
+          "snapshots/00018",
+          "snapshots/00021"
+        ],
+        "source": "C:\\Users\\bulin\\artifacttrace\\templates\\at-template\\tasks\\09-21-bu-shopping\\outputs\\context-model.json"
+      },
+      "entity_recall": 1.0,
+      "entity_hits": 4,
+      "entity_total": 4,
+      "attribute_recall_micro": 0.8571,
+      "attribute_hits": 12,
+      "attribute_total": 14,
+      "per_entity": [
+        {
+          "entity": "product",
+          "entity_found": true,
+          "attributes_hit": [
+            "name",
+            "sku",
+            "price",
+            "quantity_and_stock_status"
+          ],
+          "attributes_missed": [
+            "image"
+          ],
+          "attr_recall": 0.8
+        },
+        {
+          "entity": "category",
+          "entity_found": true,
+          "attributes_hit": [
+            "name"
+          ],
+          "attributes_missed": [],
+          "attr_recall": 1.0
+        },
+        {
+          "entity": "cart",
+          "entity_found": true,
+          "attributes_hit": [
+            "subtotal",
+            "grand_total"
+          ],
+          "attributes_missed": [
+            "items_count"
+          ],
+          "attr_recall": 0.6667
+        },
+        {
+          "entity": "cart_item",
+          "entity_found": true,
+          "attributes_hit": [
+            "name",
+            "sku",
+            "qty",
+            "price",
+            "row_total"
+          ],
+          "attributes_missed": [],
+          "attr_recall": 1.0
+        }
+      ],
+      "scope_note": "Recall only. Reference is a small, manually mapped trace-demonstrated subset; precision and site-wide completeness are not measured."
+    }
+  ],
+  "comparability": {
+    "model": "DeepSeek-V4-Flash-0731 confirmed in browser-use AT run trace; drive AT run not located in saved task history. Eval plan says drive extraction used same model, so treat as provisionally reported, not independently verified.",
+    "prompt": "Different task text. Drive used page-wise entity-extract TASK.md; browser-use received a broad custom Context Model prompt naming the target concepts.",
+    "inputs": "Drive extraction had 26 page packages with endpoint summaries and ARIA; browser AT report says it read AX for 5 page groups, plus selective network evidence. Not same evidence volume/type.",
+    "claim": "Scores describe these two end-to-end historical runs only; they do not isolate the crawler algorithm."
+  }
+}

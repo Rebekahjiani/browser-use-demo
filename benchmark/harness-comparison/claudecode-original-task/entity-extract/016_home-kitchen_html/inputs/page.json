@@ -1,0 +1,35 @@
+{
+  "url": "http://127.0.0.1:7770/home-kitchen.html",
+  "title": "Home & Kitchen",
+  "route": "/home-kitchen.html",
+  "captured_from": "drive",
+  "sources": {
+    "aria_source": "..\\drive\\screenshots\\041_home-kitchen_html\\aria.yml",
+    "catalog": "<runDir>/evidence_catalog.json",
+    "evidence_ids": [
+      "trace:api_candidate:line22398",
+      "trace:api_candidate:line22405",
+      "trace:api_candidate:line22406",
+      "trace:api_candidate:line22407",
+      "trace:api_candidate:line22467",
+      "trace:api_candidate:line22522",
+      "trace:api_candidate:line22576",
+      "trace:api_candidate:line22577",
+      "trace:api_candidate:line22578",
+      "trace:api_candidate:line22579",
+      "trace:api_candidate:line22580",
+      "trace:api_candidate:line22581",
+      "trace:api_candidate:line22582",
+      "trace:api_candidate:line22583",
+      "trace:api_candidate:line22584",
+      "trace:api_candidate:line22585",
+      "trace:api_candidate:line22822",
+      "trace:api_candidate:line22823",
+      "trace:api_candidate:line5986",
+      "trace:api_candidate:line5989",
+      "trace:api_candidate:line5990",
+      "trace:api_candidate:line6940"
+    ]
+  },
+  "tree_format": "aria_yml"
+}

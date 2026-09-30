@@ -1,0 +1,231 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e5]:
+      - list [ref=e6]:
+        - listitem [ref=e7]:
+          - link "My Account" [ref=e8] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/customer/account/
+        - listitem [ref=e9]:
+          - link "My Wish List" [ref=e10] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/wishlist/
+        - listitem [ref=e11]:
+          - link "Sign In" [ref=e12] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/customer/account/login/
+        - listitem [ref=e13]:
+          - link "Compare Products 2 items" [ref=e14] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/catalog/product_compare/index/uenc/aHR0cDovLzEyNy4wLjAuMTo3NzcwL2N1c3RvbWVyL3NlY3Rpb24vbG9hZC8_c2VjdGlvbnM9Y29tcGFyZS1wcm9kdWN0cyUyQ21lc3NhZ2VzJmZvcmNlX25ld19zZWN0aW9uX3RpbWVzdGFtcD1mYWxzZSZfPTE3OTA1NjMzMTA1MDM~/
+        - listitem [ref=e15]: Welcome to One Stop Market
+        - listitem [ref=e16]:
+          - link "Create an Account" [ref=e17] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/customer/account/create/
+      - link "Skip to Content" [ref=e18] [cursor=pointer]:
+        - /url: "#contentarea"
+    - generic [ref=e19]:
+      - text: 
+      - link "store logo" [ref=e20] [cursor=pointer]:
+        - /url: http://127.0.0.1:7770/
+        - img "one_stop_market_logo" [ref=e21]
+      - generic [ref=e22]:
+        - link " My Cart 3 3 items" [ref=e23] [cursor=pointer]:
+          - /url: http://127.0.0.1:7770/checkout/cart/
+          - text: 
+          - generic [ref=e24]: My Cart
+          - generic [ref=e25]:
+            - generic [ref=e26]: "3"
+            - generic [ref=e27]: 3 items
+        - text: " : :   :   :  "
+      - generic [ref=e30]:
+        - generic [ref=e31]:
+          - generic [ref=e32]:
+            - text: 
+            - generic [ref=e33]: Search
+          - generic [ref=e34]:
+            - combobox " Search" [ref=e35]
+            - link "Advanced Search" [ref=e37] [cursor=pointer]:
+              - /url: http://127.0.0.1:7770/catalogsearch/advanced/
+        - generic:
+          - button "Search" [disabled]:
+            - text: 
+            - generic: Search
+  - tablist [ref=e39]:
+    - tabpanel [ref=e40]:
+      - navigation [ref=e41]:
+        - menu [ref=e42]:
+          - listitem [ref=e43]:
+            - menuitem " Beauty & Personal Care" [ref=e44] [cursor=pointer]:
+              - generic [ref=e45]: 
+              - text: Beauty & Personal Care
+            - text:          
+          - listitem [ref=e46]:
+            - menuitem " Sports & Outdoors" [ref=e47] [cursor=pointer]:
+              - generic [ref=e48]: 
+              - text: Sports & Outdoors
+            - text:   
+          - listitem [ref=e49]:
+            - menuitem " Clothing, Shoes & Jewelry" [ref=e50] [cursor=pointer]:
+              - generic [ref=e51]: 
+              - text: Clothing, Shoes & Jewelry
+            - text:    
+          - listitem [ref=e52]:
+            - menuitem " Home & Kitchen" [ref=e53] [cursor=pointer]:
+              - generic [ref=e54]: 
+              - text: Home & Kitchen
+            - text:       
+          - listitem [ref=e55]:
+            - menuitem " Office Products" [ref=e56] [cursor=pointer]:
+              - generic [ref=e57]: 
+              - text: Office Products
+            - text:   
+          - listitem [ref=e58]:
+            - menuitem " Tools & Home Improvement" [ref=e59] [cursor=pointer]:
+              - generic [ref=e60]: 
+              - text: Tools & Home Improvement
+            - text: 
+          - listitem [ref=e61]:
+            - menuitem " Health & Household" [ref=e62] [cursor=pointer]:
+              - generic [ref=e63]: 
+              - text: Health & Household
+            - text:  
+          - listitem [ref=e64]:
+            - menuitem " Patio, Lawn & Garden" [ref=e65] [cursor=pointer]:
+              - generic [ref=e66]: 
+              - text: Patio, Lawn & Garden
+            - text: 
+          - listitem [ref=e67]:
+            - menuitem " Electronics" [ref=e68] [cursor=pointer]:
+              - generic [ref=e69]: 
+              - text: Electronics
+            - text:            
+          - listitem [ref=e70]:
+            - menuitem " Cell Phones & Accessories" [ref=e71] [cursor=pointer]:
+              - generic [ref=e72]: 
+              - text: Cell Phones & Accessories
+            - text:  
+          - listitem [ref=e73]:
+            - menuitem " Video Games" [ref=e74] [cursor=pointer]:
+              - generic [ref=e75]: 
+              - text: Video Games
+            - text:    
+          - listitem [ref=e76]:
+            - menuitem " Grocery & Gourmet Food" [ref=e77] [cursor=pointer]:
+              - generic [ref=e78]: 
+              - text: Grocery & Gourmet Food
+            - text:             
+  - list [ref=e80]:
+    - listitem [ref=e81]:
+      - link "Home" [ref=e82] [cursor=pointer]:
+        - /url: http://127.0.0.1:7770/
+      - text: 
+    - listitem [ref=e83]:
+      - link "Home & Kitchen" [ref=e84] [cursor=pointer]:
+        - /url: http://127.0.0.1:7770/home-kitchen.html
+      - text: 
+    - listitem [ref=e85]:
+      - strong [ref=e86]: linxiaojix Waterproof Shell for Osmo Pocket, Camera Case Camera Cover Diving Cover for Osmo Pocket, 60M Waterproof for Travel Trip
+  - main [ref=e87]:
+    - heading "linxiaojix Waterproof Shell for Osmo Pocket, Camera Case Camera Cover Diving Cover for Osmo Pocket, 60M Waterproof for Travel Trip" [level=1] [ref=e89]
+    - generic [ref=e91]:
+      - generic [ref=e92]:
+        - generic [ref=e93]:
+          - generic [ref=e94]:
+            - generic "Availability" [ref=e95]: In stock
+            - generic [ref=e96]:
+              - strong [ref=e97]: SKU
+              - generic [ref=e98]: B09SYB25J1
+          - link "Be the first to review this product" [ref=e101] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/linxiaojix-waterproof-shell-for-osmo-pocket-camera-case-camera-cover-diving-cover-for-osmo-pocket-60m-waterproof-for-travel-trip.html#review-form
+          - generic [ref=e104]: $17.76
+        - generic [ref=e108]:
+          - generic [ref=e109]:
+            - generic [ref=e110]: Qty
+            - spinbutton "Qty" [ref=e112]: "1"
+          - button "Add to Cart" [ref=e114] [cursor=pointer]
+        - generic [ref=e116]:
+          - link "Add to Wish List" [ref=e117] [cursor=pointer]:
+            - /url: "#"
+          - link "Add to Compare" [ref=e118] [cursor=pointer]:
+            - /url: "#"
+      - generic [ref=e119]:
+        - link "Skip to the end of the images gallery" [ref=e120] [cursor=pointer]:
+          - /url: "#gallery-next-area"
+        - generic [ref=e123]:
+          - generic [ref=e124]:
+            - button "Previous" [ref=e125] [cursor=pointer]
+            - generic [ref=e127]:
+              - img "Image" [ref=e129]
+              - img [ref=e131]
+            - button "Next"
+          - generic [ref=e133]:
+            - button "Previous"
+            - generic [ref=e134]:
+              - button "Image" [ref=e136]:
+                - img "Image" [ref=e138]
+              - button "Image" [ref=e139]:
+                - img "Image" [ref=e141]
+            - button "Next"
+        - link "Skip to the beginning of the images gallery" [ref=e142] [cursor=pointer]:
+          - /url: "#gallery-prev-area"
+      - tablist [ref=e144]:
+        - tab "Details" [expanded] [ref=e145]:
+          - link "Details" [ref=e146] [cursor=pointer]:
+            - /url: "#description"
+        - tabpanel "Details" [ref=e147]:
+          - generic [ref=e150]:
+            - heading "Product Quick Look" [level=2] [ref=e151]
+            - generic [ref=e152]:
+              - list [ref=e154]:
+                - listitem [ref=e155]: "Feature:1. Semicircle dome design, the pressure under water is dispersed, and the waterproof effect is better, 360°dome, underwater shooting without dead angle.2. Adopts high light transmission acrylic material shell body, light transmittance is up to 90%.3. Waterproof at a depth of 60 meters makes shooting more exciting.4. Double connector design, better matching accessories using to meet different shooting needs.5. The top of the round ball is provided with silicone cover, prevent scratches, affect your shooting experience.Specification:Condition: 100% Brand NewItem Type: Waterproof Shell for Osmo PocketMaterial: PCColor: As Pictures ShownFitment: for Osmo Pocket CameraWaterproof Depth: Approx. 60m/196.86inchWeight: Approx. 101gPackage Size: Approx. 20x10x6.5cm/7.87x3.94x2.56inch.w-e-text table td,.w-e-text table th,;.w-e-text table,Package List:1 x Waterproof Shell for Osmo Pocket1 x Silicone Protective Cover"
+                - listitem [ref=e156]: Semicircle dome design, the pressure under water is dispersed, and the waterproof effect is better, 360°dome, underwater shooting without dead angle.
+                - listitem [ref=e157]: Adopts high light transmission acrylic material shell body, light transmittance is up to 90%.
+                - listitem [ref=e158]: Waterproof at a depth of 60 meters makes shooting more exciting.
+                - listitem [ref=e159]: Double connector design, better matching accessories using to meet different shooting needs.
+                - listitem [ref=e160]: The top of the round ball is provided with silicone cover, prevent scratches, affect your shooting experience.
+              - table [ref=e162]:
+                - rowgroup [ref=e163]:
+                  - row "Package Dimensions 7.87 x 3.94 x 2.76 inches" [ref=e164]:
+                    - rowheader "Package Dimensions" [ref=e165]
+                    - cell "7.87 x 3.94 x 2.76 inches" [ref=e166]
+                  - row "Item Weight 5.6 ounces" [ref=e167]:
+                    - rowheader "Item Weight" [ref=e168]
+                    - cell "5.6 ounces" [ref=e169]
+                  - row "Date First Available February 20, 2022" [ref=e170]:
+                    - rowheader "Date First Available" [ref=e171]
+                    - cell "February 20, 2022" [ref=e172]
+                  - row "Manufacturer linxiaojix" [ref=e173]:
+                    - rowheader "Manufacturer" [ref=e174]
+                    - cell "linxiaojix" [ref=e175]
+        - tab "Reviews" [ref=e176]:
+          - link "Reviews" [ref=e177] [cursor=pointer]:
+            - /url: "#reviews"
+        - text: "*       * * *"
+  - contentinfo [ref=e178]:
+    - generic [ref=e179]:
+      - generic [ref=e182]:
+        - generic [ref=e184]:
+          - text: 
+          - generic [ref=e185]:
+            - generic [ref=e186]: "Sign Up for Our Newsletter:"
+            - textbox "Sign Up for Our Newsletter:" [ref=e187]:
+              - /placeholder: Enter your email address
+        - button "Subscribe" [ref=e189] [cursor=pointer]
+      - list [ref=e190]:
+        - listitem [ref=e191]:
+          - link "Privacy and Cookie Policy" [ref=e192] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/privacy-policy-cookie-restriction-mode/
+        - listitem [ref=e193]:
+          - link "Search Terms" [ref=e194] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/search/term/popular/
+        - listitem [ref=e195]:
+          - link "Advanced Search" [ref=e196] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/catalogsearch/advanced/
+        - listitem [ref=e197]:
+          - link "Orders and Returns" [ref=e198] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/sales/guest/form/
+        - listitem [ref=e199]:
+          - link "Contact Us" [ref=e200] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/contact/
+      - generic [ref=e201]: Copyright © 2013-present Magento, Inc. All rights reserved.
+      - generic [ref=e202]:
+        - text: Help Us Keep Magento Healthy
+        - link "Report All Bugs" [ref=e203] [cursor=pointer]:
+          - /url: http://www.magentocommerce.com/bug-tracking

@@ -1,0 +1,35 @@
+{
+  "url": "http://127.0.0.1:7770/belle-of-the-ball-princess-sprinkle-mix-wedding-colorful-sprinkles-cake-cupcake-cookie-sprinkles-ice-cream-candy-sprinkles-yellow-gold-red-royal-red-rose-icing-flowers-decorating-sprinkles-8oz.html",
+  "title": "Belle Of The Ball Princess Sprinkle Mix| Wedding Colorful Sprinkles| Cake Cupcake Cookie Sprinkles| Ice cream Candy Sprinkles| Yellow Gold Red Royal Red Rose Icing Flowers Decorating Sprinkles, 8OZ",
+  "route": "/belle-of-the-ball-princess-sprinkle-mix-wedding-colorful-sprinkles-cake-cupcake-cookie-sprinkles-ice-cream-candy-sprinkles-yellow-gold-red-royal-red-rose-icing-flowers-decorating-sprinkles-8oz.html",
+  "captured_from": "drive",
+  "sources": {
+    "aria_source": "..\\drive\\screenshots\\001_belle-of-the-ball-princess-sprinkle-mix-wedding-colorful-spr\\aria.yml",
+    "catalog": "<runDir>/evidence_catalog.json",
+    "evidence_ids": [
+      "trace:api_candidate:line312",
+      "trace:api_candidate:line322",
+      "trace:api_candidate:line323",
+      "trace:api_candidate:line324",
+      "trace:api_candidate:line385",
+      "trace:api_candidate:line450",
+      "trace:api_candidate:line467",
+      "trace:api_candidate:line468",
+      "trace:api_candidate:line512",
+      "trace:api_candidate:line515",
+      "trace:api_candidate:line532",
+      "trace:api_candidate:line541",
+      "trace:api_candidate:line542",
+      "trace:api_candidate:line543",
+      "trace:api_candidate:line544",
+      "trace:api_candidate:line545",
+      "trace:api_candidate:line546",
+      "trace:api_candidate:line549",
+      "trace:api_candidate:line551",
+      "trace:api_candidate:line552",
+      "trace:api_candidate:line554",
+      "trace:api_candidate:line803"
+    ]
+  },
+  "tree_format": "aria_yml"
+}

@@ -1,0 +1,351 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e5]:
+      - list [ref=e6]:
+        - listitem [ref=e7]:
+          - link "My Account" [ref=e8] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/customer/account/
+        - listitem [ref=e9]:
+          - link "My Wish List" [ref=e10] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/wishlist/
+        - listitem [ref=e11]:
+          - link "Sign In" [ref=e12] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/customer/account/login/
+        - listitem [ref=e13]:
+          - link "Compare Products 3 items" [ref=e14] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/catalog/product_compare/index/uenc/aHR0cDovLzEyNy4wLjAuMTo3NzcwL2N1c3RvbWVyL3NlY3Rpb24vbG9hZC8_c2VjdGlvbnM9Y29tcGFyZS1wcm9kdWN0cyUyQ21lc3NhZ2VzJmZvcmNlX25ld19zZWN0aW9uX3RpbWVzdGFtcD1mYWxzZSZfPTE3OTA1NjM2NTI3NzI~/
+        - listitem [ref=e15]: Welcome to One Stop Market
+        - listitem [ref=e16]:
+          - link "Create an Account" [ref=e17] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/customer/account/create/
+      - link "Skip to Content" [ref=e18] [cursor=pointer]:
+        - /url: "#contentarea"
+    - generic [ref=e19]:
+      - text: 
+      - link "store logo" [ref=e20] [cursor=pointer]:
+        - /url: http://127.0.0.1:7770/
+        - img "one_stop_market_logo" [ref=e21]
+      - generic [ref=e22]:
+        - link " My Cart 3 3 items" [ref=e23] [cursor=pointer]:
+          - /url: http://127.0.0.1:7770/checkout/cart/
+          - text: 
+          - generic [ref=e24]: My Cart
+          - generic [ref=e25]:
+            - generic [ref=e26]: "3"
+            - generic [ref=e27]: 3 items
+        - text: " : :   :   :  "
+      - generic [ref=e30]:
+        - generic [ref=e31]:
+          - generic [ref=e32]:
+            - text: 
+            - generic [ref=e33]: Search
+          - generic [ref=e34]:
+            - combobox " Search" [ref=e35]
+            - link "Advanced Search" [ref=e37] [cursor=pointer]:
+              - /url: http://127.0.0.1:7770/catalogsearch/advanced/
+        - generic:
+          - button "Search" [disabled]:
+            - text: 
+            - generic: Search
+  - tablist [ref=e39]:
+    - tabpanel [ref=e40]:
+      - navigation [ref=e41]:
+        - menu [ref=e42]:
+          - listitem [ref=e43]:
+            - menuitem " Beauty & Personal Care" [ref=e44] [cursor=pointer]:
+              - generic [ref=e45]: 
+              - text: Beauty & Personal Care
+            - text:          
+          - listitem [ref=e46]:
+            - menuitem " Sports & Outdoors" [ref=e47] [cursor=pointer]:
+              - generic [ref=e48]: 
+              - text: Sports & Outdoors
+            - text:   
+          - listitem [ref=e49]:
+            - menuitem " Clothing, Shoes & Jewelry" [ref=e50] [cursor=pointer]:
+              - generic [ref=e51]: 
+              - text: Clothing, Shoes & Jewelry
+            - text:    
+          - listitem [ref=e52]:
+            - menuitem " Home & Kitchen" [ref=e53] [cursor=pointer]:
+              - generic [ref=e54]: 
+              - text: Home & Kitchen
+            - text:       
+          - listitem [ref=e55]:
+            - menuitem " Office Products" [ref=e56] [cursor=pointer]:
+              - generic [ref=e57]: 
+              - text: Office Products
+            - text:   
+          - listitem [ref=e58]:
+            - menuitem " Tools & Home Improvement" [ref=e59] [cursor=pointer]:
+              - generic [ref=e60]: 
+              - text: Tools & Home Improvement
+            - text: 
+          - listitem [ref=e61]:
+            - menuitem " Health & Household" [ref=e62] [cursor=pointer]:
+              - generic [ref=e63]: 
+              - text: Health & Household
+            - text:  
+          - listitem [ref=e64]:
+            - menuitem " Patio, Lawn & Garden" [ref=e65] [cursor=pointer]:
+              - generic [ref=e66]: 
+              - text: Patio, Lawn & Garden
+            - text: 
+          - listitem [ref=e67]:
+            - menuitem " Electronics" [ref=e68] [cursor=pointer]:
+              - generic [ref=e69]: 
+              - text: Electronics
+            - text:            
+          - listitem [ref=e70]:
+            - menuitem " Cell Phones & Accessories" [ref=e71] [cursor=pointer]:
+              - generic [ref=e72]: 
+              - text: Cell Phones & Accessories
+            - text:  
+          - listitem [ref=e73]:
+            - menuitem " Video Games" [ref=e74] [cursor=pointer]:
+              - generic [ref=e75]: 
+              - text: Video Games
+            - text:    
+          - listitem [ref=e76]:
+            - menuitem " Grocery & Gourmet Food" [ref=e77] [cursor=pointer]:
+              - generic [ref=e78]: 
+              - text: Grocery & Gourmet Food
+            - text:             
+  - list [ref=e80]:
+    - listitem [ref=e81]:
+      - link "Home" [ref=e82] [cursor=pointer]:
+        - /url: http://127.0.0.1:7770/
+      - text: 
+    - listitem [ref=e83]:
+      - strong [ref=e84]: "Q Mixers Premium Ginger Ale: Real Ingredients & Less Sweet, 6.7 Fl Oz (24 Bottles)"
+  - main [ref=e85]:
+    - 'heading "Q Mixers Premium Ginger Ale: Real Ingredients & Less Sweet, 6.7 Fl Oz (24 Bottles)" [level=1] [ref=e87]'
+    - alert [ref=e90]:
+      - generic [ref=e92]:
+        - text: " You added product Q Mixers Premium Ginger Ale: Real Ingredients & Less Sweet, 6.7 Fl Oz (24 Bottles) to the"
+        - link "comparison list" [ref=e93] [cursor=pointer]:
+          - /url: http://127.0.0.1:7770/catalog/product_compare/
+        - text: .
+    - generic [ref=e95]:
+      - generic [ref=e96]:
+        - generic [ref=e97]:
+          - generic [ref=e98]:
+            - generic "Availability" [ref=e99]: In stock
+            - generic [ref=e100]:
+              - strong [ref=e101]: SKU
+              - generic [ref=e102]: B071KC37VD
+          - generic [ref=e103]:
+            - generic [ref=e104]:
+              - generic [ref=e105]: "Rating:"
+              - generic "88%" [ref=e106]:
+                - text: 
+                - generic [ref=e107]:
+                  - text: 
+                  - generic [ref=e108]:
+                    - generic [ref=e109]: "88"
+                    - text: "% of"
+                    - generic [ref=e110]: "100"
+            - generic [ref=e111]:
+              - link "12 Reviews" [ref=e112] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/q-mixers-premium-ginger-ale-real-ingredients-less-sweet-6-7-fl-oz-24-bottles.html#reviews
+              - link "Add Your Review" [ref=e113] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/q-mixers-premium-ginger-ale-real-ingredients-less-sweet-6-7-fl-oz-24-bottles.html#review-form
+          - generic [ref=e116]: $68.50
+        - generic [ref=e120]:
+          - generic [ref=e121]:
+            - generic [ref=e122]: Qty
+            - spinbutton "Qty" [ref=e124]: "1"
+          - button "Add to Cart" [ref=e126] [cursor=pointer]
+        - generic [ref=e128]:
+          - link "Add to Wish List" [ref=e129] [cursor=pointer]:
+            - /url: "#"
+          - link "Add to Compare" [ref=e130] [cursor=pointer]:
+            - /url: "#"
+      - generic [ref=e131]:
+        - link "Skip to the end of the images gallery" [ref=e132] [cursor=pointer]:
+          - /url: "#gallery-next-area"
+        - generic [ref=e135]:
+          - generic [ref=e136]:
+            - button "Previous" [ref=e137] [cursor=pointer]
+            - generic [ref=e139]:
+              - img "Image" [ref=e141]
+              - img [ref=e143]
+            - button "Next"
+          - generic [ref=e145]:
+            - button "Previous"
+            - generic [ref=e146]:
+              - button "Image" [ref=e148]:
+                - img "Image" [ref=e150]
+              - button "Image" [ref=e151]:
+                - img "Image" [ref=e153]
+            - button "Next"
+        - link "Skip to the beginning of the images gallery" [ref=e154] [cursor=pointer]:
+          - /url: "#gallery-prev-area"
+      - tablist [ref=e156]:
+        - tab "Details" [expanded] [ref=e157]:
+          - link "Details" [ref=e158] [cursor=pointer]:
+            - /url: "#description"
+        - tabpanel "Details" [ref=e159]:
+          - generic [ref=e161]:
+            - generic [ref=e163]:
+              - separator [ref=e164]
+              - heading "From the manufacturer" [level=2] [ref=e165]
+              - generic [ref=e166]:
+                - img "Mixer, Spirit, Cocktail, Drink, Bar, Moscow Mule, Carbonation, Beverage, Crisp, Ginger Bear, Tonic" [ref=e172]
+                - img "Q" [ref=e175]
+                - img "Mixer, Spirit, Cocktail, Drink, Bar, Moscow Mule, Carbonation, Beverage, Crisp, Ginger Bear, Tonic" [ref=e181]
+                - img "Mixer, Spirit, Cocktail, Drink, Bar, Moscow Mule, Carbonation, Beverage, Crisp, Ginger Bear, Tonic" [ref=e187]
+                - table [ref=e192]:
+                  - rowgroup [ref=e193]:
+                    - row "Mixer, Spirit, Cocktail, Drink, Bar, Moscow Mule, Carbonation, Beverage, Crisp, Ginger Bear, Tonic Mixer, Spirit, Cocktail, Drink, Bar, Moscow Mule, Carbonation, Beverage, Crisp, Ginger Bear, Tonic Mixer, Spirit, Cocktail, Drink, Bar, Moscow Mule, Carbonation, Beverage, Crisp, Ginger Bear, Tonic Mixer, Spirit, Cocktail, Drink, Bar, Moscow Mule, Carbonation, Beverage, Crisp, Ginger Bear, Tonic Mixer, Spirit, Cocktail, Drink, Bar, Moscow Mule, Carbonation, Beverage, Crisp, Ginger Bear, Tonic Mixer, Spirit, Cocktail, Drink, Bar, Moscow Mule, Carbonation, Beverage, Crisp, Ginger Bear, Tonic" [ref=e194]:
+                      - columnheader [ref=e195]
+                      - columnheader "Mixer, Spirit, Cocktail, Drink, Bar, Moscow Mule, Carbonation, Beverage, Crisp, Ginger Bear, Tonic" [ref=e196]:
+                        - link "Mixer, Spirit, Cocktail, Drink, Bar, Moscow Mule, Carbonation, Beverage, Crisp, Ginger Bear, Tonic" [ref=e197] [cursor=pointer]:
+                          - /url: /dp/B072N5FNZX/ref=emc_b_5_i
+                          - img "Mixer, Spirit, Cocktail, Drink, Bar, Moscow Mule, Carbonation, Beverage, Crisp, Ginger Bear, Tonic" [ref=e198]
+                      - columnheader "Mixer, Spirit, Cocktail, Drink, Bar, Moscow Mule, Carbonation, Beverage, Crisp, Ginger Bear, Tonic" [ref=e199]:
+                        - link "Mixer, Spirit, Cocktail, Drink, Bar, Moscow Mule, Carbonation, Beverage, Crisp, Ginger Bear, Tonic" [ref=e200] [cursor=pointer]:
+                          - /url: /dp/B07ZHXFN79/ref=emc_b_5_i
+                          - img "Mixer, Spirit, Cocktail, Drink, Bar, Moscow Mule, Carbonation, Beverage, Crisp, Ginger Bear, Tonic" [ref=e201]
+                      - columnheader "Mixer, Spirit, Cocktail, Drink, Bar, Moscow Mule, Carbonation, Beverage, Crisp, Ginger Bear, Tonic" [ref=e202]:
+                        - link "Mixer, Spirit, Cocktail, Drink, Bar, Moscow Mule, Carbonation, Beverage, Crisp, Ginger Bear, Tonic" [ref=e203] [cursor=pointer]:
+                          - /url: /dp/B071KC3846/ref=emc_b_5_i
+                          - img "Mixer, Spirit, Cocktail, Drink, Bar, Moscow Mule, Carbonation, Beverage, Crisp, Ginger Bear, Tonic" [ref=e204]
+                      - columnheader "Mixer, Spirit, Cocktail, Drink, Bar, Moscow Mule, Carbonation, Beverage, Crisp, Ginger Bear, Tonic" [ref=e205]:
+                        - link "Mixer, Spirit, Cocktail, Drink, Bar, Moscow Mule, Carbonation, Beverage, Crisp, Ginger Bear, Tonic" [ref=e206] [cursor=pointer]:
+                          - /url: /dp/B07ZHXRQDH/ref=emc_b_5_i
+                          - img "Mixer, Spirit, Cocktail, Drink, Bar, Moscow Mule, Carbonation, Beverage, Crisp, Ginger Bear, Tonic" [ref=e207]
+                      - columnheader "Mixer, Spirit, Cocktail, Drink, Bar, Moscow Mule, Carbonation, Beverage, Crisp, Ginger Bear, Tonic" [ref=e208]:
+                        - link "Mixer, Spirit, Cocktail, Drink, Bar, Moscow Mule, Carbonation, Beverage, Crisp, Ginger Bear, Tonic" [ref=e209] [cursor=pointer]:
+                          - /url: /dp/B072R4B8B5/ref=emc_b_5_i
+                          - img "Mixer, Spirit, Cocktail, Drink, Bar, Moscow Mule, Carbonation, Beverage, Crisp, Ginger Bear, Tonic" [ref=e210]
+                      - columnheader "Mixer, Spirit, Cocktail, Drink, Bar, Moscow Mule, Carbonation, Beverage, Crisp, Ginger Bear, Tonic" [ref=e211]:
+                        - link "Mixer, Spirit, Cocktail, Drink, Bar, Moscow Mule, Carbonation, Beverage, Crisp, Ginger Bear, Tonic" [ref=e212] [cursor=pointer]:
+                          - /url: /dp/B071GR36Z4/ref=emc_b_5_i
+                          - img "Mixer, Spirit, Cocktail, Drink, Bar, Moscow Mule, Carbonation, Beverage, Crisp, Ginger Bear, Tonic" [ref=e213]
+                    - row "Spectacular Tonic Light Tonic Ginger Beer Light Ginger Beer Ginger Ale Sparkling Grapefruit" [ref=e214]:
+                      - columnheader [ref=e215]
+                      - columnheader "Spectacular Tonic" [ref=e216]:
+                        - link "Spectacular Tonic" [ref=e217] [cursor=pointer]:
+                          - /url: /dp/B072N5FNZX/ref=emc_b_5_t
+                      - columnheader "Light Tonic" [ref=e218]:
+                        - link "Light Tonic" [ref=e219] [cursor=pointer]:
+                          - /url: /dp/B07ZHXFN79/ref=emc_b_5_t
+                      - columnheader "Ginger Beer" [ref=e220]:
+                        - link "Ginger Beer" [ref=e221] [cursor=pointer]:
+                          - /url: /dp/B071KC3846/ref=emc_b_5_t
+                      - columnheader "Light Ginger Beer" [ref=e222]:
+                        - link "Light Ginger Beer" [ref=e223] [cursor=pointer]:
+                          - /url: /dp/B07ZHXRQDH/ref=emc_b_5_t
+                      - columnheader "Ginger Ale" [ref=e224]:
+                        - link "Ginger Ale" [ref=e225] [cursor=pointer]:
+                          - /url: /dp/B072R4B8B5/ref=emc_b_5_t
+                      - columnheader "Sparkling Grapefruit" [ref=e226]:
+                        - link "Sparkling Grapefruit" [ref=e227] [cursor=pointer]:
+                          - /url: /dp/B071GR36Z4/ref=emc_b_5_t
+                    - row "Description Crisp, highly carbonated and dry-not sweet Clean, crisp and highly carbonated with fewer than half the calories Spicier, less sweet, and more carbonated Spicy, highly carbonated, and less sweet Clean and crisp with a gingery bite Fresh, bitter, and very tart, with just a hint of sweetness" [ref=e228]:
+                      - rowheader "Description" [ref=e229]
+                      - cell "Crisp, highly carbonated and dry-not sweet" [ref=e230]
+                      - cell "Clean, crisp and highly carbonated with fewer than half the calories" [ref=e231]
+                      - cell "Spicier, less sweet, and more carbonated" [ref=e232]
+                      - cell "Spicy, highly carbonated, and less sweet" [ref=e233]
+                      - cell "Clean and crisp with a gingery bite" [ref=e234]
+                      - cell "Fresh, bitter, and very tart, with just a hint of sweetness" [ref=e235]
+                    - row "Calories (Per 6.7 oz Bottle) 40 15 80 35 60 90" [ref=e236]:
+                      - rowheader "Calories (Per 6.7 oz Bottle)" [ref=e237]
+                      - cell "40" [ref=e238]
+                      - cell "15" [ref=e239]
+                      - cell "80" [ref=e240]
+                      - cell "35" [ref=e241]
+                      - cell "60" [ref=e242]
+                      - cell "90" [ref=e243]
+                    - row "All Natural ✓ ✓ ✓ ✓ ✓ ✓" [ref=e244]:
+                      - rowheader "All Natural" [ref=e245]
+                      - cell "✓" [ref=e246]
+                      - cell "✓" [ref=e247]
+                      - cell "✓" [ref=e248]
+                      - cell "✓" [ref=e249]
+                      - cell "✓" [ref=e250]
+                      - cell "✓" [ref=e251]
+                    - row "Non-GMO ✓ ✓ ✓ ✓ ✓ ✓" [ref=e252]:
+                      - rowheader "Non-GMO" [ref=e253]
+                      - cell "✓" [ref=e254]
+                      - cell "✓" [ref=e255]
+                      - cell "✓" [ref=e256]
+                      - cell "✓" [ref=e257]
+                      - cell "✓" [ref=e258]
+                      - cell "✓" [ref=e259]
+                    - row "Gluten Free ✓ ✓ ✓ ✓ ✓ ✓" [ref=e260]:
+                      - rowheader "Gluten Free" [ref=e261]
+                      - cell "✓" [ref=e262]
+                      - cell "✓" [ref=e263]
+                      - cell "✓" [ref=e264]
+                      - cell "✓" [ref=e265]
+                      - cell "✓" [ref=e266]
+                      - cell "✓" [ref=e267]
+            - generic [ref=e268]:
+              - heading "Product Quick Look" [level=2] [ref=e269]
+              - generic [ref=e270]:
+                - list [ref=e272]:
+                  - listitem [ref=e273]: Q Ginger Ale is clean and crisp with a gingery bite. Made with Organic Agave and real Ginger, our Ginger Ale is less sweet and has a real depth which comes from a subtle mix of rose oil and spices. Perfectly carbonated so your drink always stays fizzy. Make your drink spectacular.
+                  - listitem [ref=e274]: "BOLD, AUTHENTIC FLAVOR: clean and crisp with a gingery bite"
+                  - listitem [ref=e275]: "REAL INGREDIENTS: Made with organic Agave and real ginger"
+                  - listitem [ref=e276]: "ALL NATURAL: No High Fructose Corn Syrup, No artificial flavors or preservatives"
+                  - listitem [ref=e277]: "REFRESHING: More carbonation so your favorite drink stays fizzier longer"
+                  - listitem [ref=e278]: CERTIFIED NON-GMO and Kosher
+                  - listitem [ref=e279]: Packaging may vary
+                - table [ref=e281]:
+                  - rowgroup [ref=e282]:
+                    - row "Is Discontinued By Manufacturer ‏ ‎ No" [ref=e283]:
+                      - rowheader "Is Discontinued By Manufacturer ‏" [ref=e284]
+                      - cell "‎ No" [ref=e285]
+                    - row "Package Dimensions ‏ ‎ 15.6 x 11.7 x 10.1 inches; 6.7 Ounces" [ref=e286]:
+                      - rowheader "Package Dimensions ‏" [ref=e287]
+                      - cell "‎ 15.6 x 11.7 x 10.1 inches; 6.7 Ounces" [ref=e288]
+                    - row "UPC ‏ ‎ 856544008107" [ref=e289]:
+                      - rowheader "UPC ‏" [ref=e290]
+                      - cell "‎ 856544008107" [ref=e291]
+                    - row "Manufacturer ‏ ‎ Q - Drinks" [ref=e292]:
+                      - rowheader "Manufacturer ‏" [ref=e293]
+                      - cell "‎ Q - Drinks" [ref=e294]
+                    - row "ASIN ‏ ‎ B071KC37VD" [ref=e295]:
+                      - rowheader "ASIN ‏" [ref=e296]
+                      - cell "‎ B071KC37VD" [ref=e297]
+                    - row "#49 in Seltzer Drinking Water" [ref=e298]:
+                      - columnheader "#49 in Seltzer Drinking Water" [ref=e299]
+                      - cell [ref=e300]
+        - tab "Reviews (12)" [ref=e301]:
+          - link "Reviews (12)" [ref=e302] [cursor=pointer]:
+            - /url: "#reviews"
+        - text: "*       * * *"
+  - contentinfo [ref=e303]:
+    - generic [ref=e304]:
+      - generic [ref=e307]:
+        - generic [ref=e309]:
+          - text: 
+          - generic [ref=e310]:
+            - generic [ref=e311]: "Sign Up for Our Newsletter:"
+            - textbox "Sign Up for Our Newsletter:" [ref=e312]:
+              - /placeholder: Enter your email address
+        - button "Subscribe" [ref=e314] [cursor=pointer]
+      - list [ref=e315]:
+        - listitem [ref=e316]:
+          - link "Privacy and Cookie Policy" [ref=e317] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/privacy-policy-cookie-restriction-mode/
+        - listitem [ref=e318]:
+          - link "Search Terms" [ref=e319] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/search/term/popular/
+        - listitem [ref=e320]:
+          - link "Advanced Search" [ref=e321] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/catalogsearch/advanced/
+        - listitem [ref=e322]:
+          - link "Orders and Returns" [ref=e323] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/sales/guest/form/
+        - listitem [ref=e324]:
+          - link "Contact Us" [ref=e325] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/contact/
+      - generic [ref=e326]: Copyright © 2013-present Magento, Inc. All rights reserved.
+      - generic [ref=e327]:
+        - text: Help Us Keep Magento Healthy
+        - link "Report All Bugs" [ref=e328] [cursor=pointer]:
+          - /url: http://www.magentocommerce.com/bug-tracking

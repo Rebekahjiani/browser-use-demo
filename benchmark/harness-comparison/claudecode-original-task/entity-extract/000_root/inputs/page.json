@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:7770/",
+  "title": "One Stop Market",
+  "route": "/",
+  "captured_from": "drive",
+  "sources": {
+    "aria_source": "..\\drive\\screenshots\\026_root\\aria.yml",
+    "catalog": "<runDir>/evidence_catalog.json",
+    "evidence_ids": [
+      "trace:api_candidate:line11833",
+      "trace:api_candidate:line11844",
+      "trace:api_candidate:line11845",
+      "trace:api_candidate:line11846",
+      "trace:api_candidate:line11904",
+      "trace:api_candidate:line11959",
+      "trace:api_candidate:line12010",
+      "trace:api_candidate:line12011",
+      "trace:api_candidate:line12013",
+      "trace:api_candidate:line12014",
+      "trace:api_candidate:line12016",
+      "trace:api_candidate:line12017",
+      "trace:api_candidate:line12018",
+      "trace:api_candidate:line12020",
+      "trace:api_candidate:line12021",
+      "trace:api_candidate:line12022",
+      "trace:api_candidate:line12256",
+      "trace:api_candidate:line12481",
+      "trace:api_candidate:line12734",
+      "trace:api_candidate:line24681",
+      "trace:api_candidate:line24888",
+      "trace:api_candidate:line265",
+      "trace:api_candidate:line266"
+    ]
+  },
+  "tree_format": "aria_yml"
+}

@@ -1,0 +1,7 @@
+{
+  "track": "ui-only-v1",
+  "pages": 26,
+  "schema_sha256": "05c0980b7c78625df1224add77cc8fd0a9563a5f8c29a10c5f26188d42ab917e",
+  "task_sha256": "6294322171be2565066de03d8f3b0b1c3a42a4bd500404dfc8a8085774649c59",
+  "notes": "All captured snapshots retained; repeated URLs are not new page types. Browser-use AX and drive ARIA retain different sensor provenance."
+}

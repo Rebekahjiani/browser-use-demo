@@ -1,0 +1,34 @@
+{
+  "url": "http://127.0.0.1:7770/linxiaojix-waterproof-shell-for-osmo-pocket-camera-case-camera-cover-diving-cover-for-osmo-pocket-60m-waterproof-for-travel-trip.html",
+  "title": "linxiaojix Waterproof Shell for Osmo Pocket, Camera Case Camera Cover Diving Cover for Osmo Pocket, 60M Waterproof for Travel Trip",
+  "route": "/linxiaojix-waterproof-shell-for-osmo-pocket-camera-case-camera-cover-diving-cover-for-osmo-pocket-60m-waterproof-for-travel-trip.html",
+  "captured_from": "drive",
+  "sources": {
+    "aria_source": "..\\drive\\screenshots\\016_linxiaojix-waterproof-shell-for-osmo-pocket-camera-case-came\\aria.yml",
+    "catalog": "<runDir>/evidence_catalog.json",
+    "evidence_ids": [
+      "trace:api_candidate:line6982",
+      "trace:api_candidate:line6990",
+      "trace:api_candidate:line6991",
+      "trace:api_candidate:line6992",
+      "trace:api_candidate:line7053",
+      "trace:api_candidate:line7127",
+      "trace:api_candidate:line7134",
+      "trace:api_candidate:line7137",
+      "trace:api_candidate:line7179",
+      "trace:api_candidate:line7195",
+      "trace:api_candidate:line7203",
+      "trace:api_candidate:line7205",
+      "trace:api_candidate:line7207",
+      "trace:api_candidate:line7208",
+      "trace:api_candidate:line7209",
+      "trace:api_candidate:line7210",
+      "trace:api_candidate:line7212",
+      "trace:api_candidate:line7214",
+      "trace:api_candidate:line7215",
+      "trace:api_candidate:line7219",
+      "trace:api_candidate:line7460"
+    ]
+  },
+  "tree_format": "aria_yml"
+}

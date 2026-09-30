@@ -1,0 +1,61 @@
+{
+  "concepts": [
+    {
+      "canonical_name": "联系留言",
+      "concept_type": "business_entity",
+      "description": "Contact Us 表单（Write Us）提交的联系留言，含联系人姓名、邮箱、电话与留言内容。",
+      "aliases": [
+        "Contact Message",
+        "留言"
+      ],
+      "attributes": [
+        {
+          "name": "Name",
+          "note": "表单输入框 label",
+          "source_refs": [
+            "page.aria.yml:textbox:Name*"
+          ]
+        },
+        {
+          "name": "Email",
+          "note": "表单输入框 label",
+          "source_refs": [
+            "page.aria.yml:textbox:Email*"
+          ]
+        },
+        {
+          "name": "Phone Number",
+          "note": "表单输入框 label",
+          "source_refs": [
+            "page.aria.yml:textbox:Phone Number"
+          ]
+        },
+        {
+          "name": "留言内容",
+          "note": "What’s on your mind? 输入框 label",
+          "source_refs": [
+            "page.aria.yml:textbox:What’s on your mind? *"
+          ]
+        }
+      ],
+      "evidence_refs": [],
+      "api_refs": [],
+      "page_refs": [
+        "007_contact"
+      ]
+    },
+    {
+      "canonical_name": "联系留言-提交",
+      "concept_type": "operation",
+      "description": "填写表单后点击 Submit 提交联系留言。本页仅树锚点（Submit 按钮），无对应数据接口证据。",
+      "belongs_to_entity": "联系留言",
+      "evidence_refs": [
+        "page.aria.yml:button:Submit"
+      ],
+      "api_refs": []
+    }
+  ],
+  "notes": [
+    "本页仅捕获到 GET /zosi-...html（E017，页面加载相关，无本页数据语义）与静态模板端点；联系表单提交无数据接口证据，api_refs 留空（宁缺勿错）。"
+  ]
+}

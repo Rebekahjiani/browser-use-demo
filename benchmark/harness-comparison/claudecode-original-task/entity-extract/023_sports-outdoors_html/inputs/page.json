@@ -1,0 +1,30 @@
+{
+  "url": "http://127.0.0.1:7770/sports-outdoors.html",
+  "title": "Sports & Outdoors",
+  "route": "/sports-outdoors.html",
+  "captured_from": "drive",
+  "sources": {
+    "aria_source": "..\\drive\\screenshots\\030_sports-outdoors_html\\aria.yml",
+    "catalog": "<runDir>/evidence_catalog.json",
+    "evidence_ids": [
+      "trace:api_candidate:line16012",
+      "trace:api_candidate:line16014",
+      "trace:api_candidate:line16015",
+      "trace:api_candidate:line16016",
+      "trace:api_candidate:line16078",
+      "trace:api_candidate:line16138",
+      "trace:api_candidate:line16195",
+      "trace:api_candidate:line16196",
+      "trace:api_candidate:line16197",
+      "trace:api_candidate:line16198",
+      "trace:api_candidate:line16199",
+      "trace:api_candidate:line16200",
+      "trace:api_candidate:line16201",
+      "trace:api_candidate:line16202",
+      "trace:api_candidate:line16203",
+      "trace:api_candidate:line16204",
+      "trace:api_candidate:line16434"
+    ]
+  },
+  "tree_format": "aria_yml"
+}

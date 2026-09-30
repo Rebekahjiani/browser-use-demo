@@ -1,0 +1,35 @@
+{
+  "url": "http://127.0.0.1:7770/energizer-max-c-batteries-premium-alkaline-c-cell-batteries-8-battery-count.html",
+  "title": "Energizer MAX C Batteries, Premium Alkaline C Cell Batteries (8 Battery Count)",
+  "route": "/energizer-max-c-batteries-premium-alkaline-c-cell-batteries-8-battery-count.html",
+  "captured_from": "drive",
+  "sources": {
+    "aria_source": "..\\drive\\screenshots\\023_energizer-max-c-batteries-premium-alkaline-c-cell-batteries-\\aria.yml",
+    "catalog": "<runDir>/evidence_catalog.json",
+    "evidence_ids": [
+      "trace:api_candidate:line10877",
+      "trace:api_candidate:line10888",
+      "trace:api_candidate:line10889",
+      "trace:api_candidate:line10890",
+      "trace:api_candidate:line10948",
+      "trace:api_candidate:line11024",
+      "trace:api_candidate:line11025",
+      "trace:api_candidate:line11032",
+      "trace:api_candidate:line11073",
+      "trace:api_candidate:line11079",
+      "trace:api_candidate:line11088",
+      "trace:api_candidate:line11089",
+      "trace:api_candidate:line11090",
+      "trace:api_candidate:line11117",
+      "trace:api_candidate:line11119",
+      "trace:api_candidate:line11122",
+      "trace:api_candidate:line11125",
+      "trace:api_candidate:line11134",
+      "trace:api_candidate:line11136",
+      "trace:api_candidate:line11137",
+      "trace:api_candidate:line11138",
+      "trace:api_candidate:line11350"
+    ]
+  },
+  "tree_format": "aria_yml"
+}
