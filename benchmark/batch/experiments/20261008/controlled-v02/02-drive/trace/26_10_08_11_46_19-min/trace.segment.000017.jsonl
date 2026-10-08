@@ -1,0 +1,12 @@
+{"args":{"name":"swapper"},"cat":"__metadata","name":"thread_name","ph":"M","pid":0,"tid":0,"ts":0}
+{"args":{"name":"CrRendererMain"},"cat":"__metadata","name":"thread_name","ph":"M","pid":35296,"tid":45316,"ts":0}
+{"args":{"name":"CrBrowserMain"},"cat":"__metadata","name":"thread_name","ph":"M","pid":51324,"tid":48460,"ts":0}
+{"args":{"name":"Renderer"},"cat":"__metadata","name":"process_name","ph":"M","pid":35296,"tid":0,"ts":0}
+{"args":{"name":"Browser"},"cat":"__metadata","name":"process_name","ph":"M","pid":51324,"tid":0,"ts":0}
+{"args":{"uptime":"247"},"cat":"__metadata","name":"process_uptime_seconds","ph":"M","pid":35296,"tid":0,"ts":0}
+{"args":{"uptime":"3357"},"cat":"__metadata","name":"process_uptime_seconds","ph":"M","pid":51324,"tid":0,"ts":0}
+{"args":{"data":{"navigationId":"76FB750A158582526F13D5E4F4FA7209"},"frame":"E42C032F4AD866337E63F1AFCB2DA291"},"cat":"loading,rail,devtools.timeline","name":"firstMeaningfulPaint","ph":"R","pid":35296,"s":"t","tid":45316,"ts":1549386043252}
+{"args":{"afterUserInput":0,"frame":"E42C032F4AD866337E63F1AFCB2DA291"},"cat":"loading,rail,devtools.timeline","name":"firstMeaningfulPaint","ph":"R","pid":35296,"s":"t","tid":45316,"ts":1549386043252}
+{"args":{"args":{"had_user_input_before_interactive":false,"total_blocking_time_ms":0},"frame":"E42C032F4AD866337E63F1AFCB2DA291"},"cat":"loading,rail","name":"InteractiveTime","ph":"R","pid":35296,"s":"t","tid":45316,"ts":1549386043252}
+{"args":{"custom_user_timings_count":0},"cat":"loading","dur":1510,"name":"PageTimingMetricsSender::SendNow","ph":"X","pid":35296,"tdur":81,"tid":45316,"ts":1549386800556,"tts":3162222}
+{"args":{"custom_timings_count":0},"cat":"loading","dur":131,"name":"MetricsWebContentsObserver::UpdateTiming","ph":"X","pid":51324,"tdur":43,"tid":48460,"ts":1549386801801,"tts":35649399}

@@ -1,0 +1,42 @@
+{
+  "runs": [
+    {
+      "id": "reference-20261008",
+      "strategy": "reference-only",
+      "snapshots": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008",
+      "artifacts": [
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\coverage-v4\\prepare.py",
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\coverage-v4\\test_relation.py",
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\capture.json"
+      ],
+      "files": [
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0000\\accessibility.json",
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0001\\accessibility.json",
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0002\\accessibility.json",
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0003\\accessibility.json",
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0004\\accessibility.json",
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0005\\accessibility.json",
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0006\\accessibility.json",
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0007\\accessibility.json",
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0008\\accessibility.json",
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0009\\accessibility.json",
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0010\\accessibility.json",
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0011\\accessibility.json",
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0012\\accessibility.json",
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0013\\accessibility.json",
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0014\\accessibility.json",
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0015\\accessibility.json",
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0016\\accessibility.json",
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0017\\accessibility.json",
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0018\\accessibility.json",
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0019\\accessibility.json",
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0020\\accessibility.json",
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0021\\accessibility.json"
+      ]
+    }
+  ],
+  "experiment": {
+    "role": "Independent reference validation; not explorer performance",
+    "permissions": "read-only query submission; no writes"
+  }
+}

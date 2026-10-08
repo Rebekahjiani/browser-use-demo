@@ -1,0 +1,58 @@
+{
+  "gold": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\coverage-v4\\gold.v1.json",
+  "mapping": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\db-ui-mapping.v3.json",
+  "experiment": {
+    "version": "controlled-shopping-v02",
+    "role": "smoke-test; not official repeat",
+    "model": "sophnet/DeepSeek-V4-Flash-0731",
+    "permissions": "query submission only; shared request boundary",
+    "repeats": 1,
+    "max_actions": 5,
+    "max_pages": 10,
+    "max_minutes": 5,
+    "gold": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\coverage-v4\\gold.v1.json",
+    "gold_sha256": "c502eaf02ca56971fb80d5960391c218ecb2e78b4eb52f85b0adbfd75f0c2974",
+    "mapping": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\db-ui-mapping.v3.json",
+    "engine": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\coverage-v4\\score.py",
+    "contract_bundle": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\bundles\\contract-v02"
+  },
+  "runs": [
+    {
+      "id": "01-drive",
+      "strategy": "drive",
+      "snapshots": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\smoke-v02\\01-drive\\trace\\26_10_08_11_04_27-min\\drive\\screenshots",
+      "conditions": {
+        "model": "sophnet/DeepSeek-V4-Flash-0731",
+        "max_actions": 5,
+        "max_pages": 10,
+        "max_minutes": 5
+      },
+      "artifacts": [
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\smoke-v02\\01-drive\\config.json",
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\smoke-v02\\01-drive\\profiles.json",
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\smoke-v02\\01-drive\\reset.json",
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\smoke-v02\\01-drive\\start.json",
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\smoke-v02\\01-drive\\status.json",
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\smoke-v02\\01-drive\\stop.json"
+      ]
+    },
+    {
+      "id": "01-browser-use",
+      "strategy": "browser-use",
+      "snapshots": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-110444-803919\\snapshots",
+      "conditions": {
+        "model": "sophnet/DeepSeek-V4-Flash-0731",
+        "max_actions": 5,
+        "max_pages": 10,
+        "max_minutes": 5
+      },
+      "artifacts": [
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\smoke-v02\\01-browser-use\\command.json",
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\smoke-v02\\01-browser-use\\process.json",
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\smoke-v02\\01-browser-use\\reset.json",
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\smoke-v02\\01-browser-use\\result.json"
+      ]
+    }
+  ],
+  "engine": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\coverage-v4\\score.py"
+}

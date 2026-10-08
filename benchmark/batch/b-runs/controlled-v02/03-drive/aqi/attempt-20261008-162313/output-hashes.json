@@ -1,0 +1,96 @@
+{
+  "files": [
+    {
+      "file": "C:\\Users\\bulin\\artifacttrace\\templates\\at-template\\tasks\\benchmark-20261008-b-03-drive\\aqi\\entity-extract\\000_state\\output\\concepts.json",
+      "sha256": "2ed48b55b789e2a5c377daada57a210fffe073fed0c5a7b7dbbd3d13ffd52fc5"
+    },
+    {
+      "file": "C:\\Users\\bulin\\artifacttrace\\templates\\at-template\\tasks\\benchmark-20261008-b-03-drive\\aqi\\entity-extract\\001_state\\output\\concepts.json",
+      "sha256": "f1920a70ed53388e33115fd1c5b71f6d0e783faa2c89e6a317bc2a030377f2ed"
+    },
+    {
+      "file": "C:\\Users\\bulin\\artifacttrace\\templates\\at-template\\tasks\\benchmark-20261008-b-03-drive\\aqi\\entity-extract\\002_state\\output\\concepts.json",
+      "sha256": "12d4fddbf8112d84e204edbe7dc7552df0cf81a4b30e2253b1bec3b298e03517"
+    },
+    {
+      "file": "C:\\Users\\bulin\\artifacttrace\\templates\\at-template\\tasks\\benchmark-20261008-b-03-drive\\aqi\\entity-extract\\003_state\\output\\concepts.json",
+      "sha256": "b180cc4862e96f95b08a08e722e185d60a14b4a61051c61f3a5dbd0ceb33fadf"
+    },
+    {
+      "file": "C:\\Users\\bulin\\artifacttrace\\templates\\at-template\\tasks\\benchmark-20261008-b-03-drive\\aqi\\entity-extract\\004_state\\output\\concepts.json",
+      "sha256": "a37cadac5cbd5b5b768a2d16375587855d309f99deba1912228ee976598be1ad"
+    },
+    {
+      "file": "C:\\Users\\bulin\\artifacttrace\\templates\\at-template\\tasks\\benchmark-20261008-b-03-drive\\aqi\\entity-extract\\005_state\\output\\concepts.json",
+      "sha256": "a003a688a81b0967d10d86816dd44147fd4b371ebdaa7a8dc095200765bbeab4"
+    },
+    {
+      "file": "C:\\Users\\bulin\\artifacttrace\\templates\\at-template\\tasks\\benchmark-20261008-b-03-drive\\aqi\\entity-extract\\006_state\\output\\concepts.json",
+      "sha256": "23025a2c57dec4e4162d103739fb2a1b5b0e3363b369a04c82e4277769f684ad"
+    },
+    {
+      "file": "C:\\Users\\bulin\\artifacttrace\\templates\\at-template\\tasks\\benchmark-20261008-b-03-drive\\aqi\\entity-extract\\007_state\\output\\concepts.json",
+      "sha256": "f5fad8e0a54a44204f66531fc36160575fac17e7b2162cc2d38f501d69e4ee04"
+    },
+    {
+      "file": "C:\\Users\\bulin\\artifacttrace\\templates\\at-template\\tasks\\benchmark-20261008-b-03-drive\\aqi\\entity-extract\\008_state\\output\\concepts.json",
+      "sha256": "8027ed8f8a90410f1012985f8d7256760b6dd36c0af5e2dff84e2cfe8de42952"
+    },
+    {
+      "file": "C:\\Users\\bulin\\artifacttrace\\templates\\at-template\\tasks\\benchmark-20261008-b-03-drive\\aqi\\entity-extract\\009_state\\output\\concepts.json",
+      "sha256": "4fff4109208ccd175b5377294db8311e10c02706e381632855978c2f0c523bb5"
+    },
+    {
+      "file": "C:\\Users\\bulin\\artifacttrace\\templates\\at-template\\tasks\\benchmark-20261008-b-03-drive\\aqi\\entity-extract\\010_state\\output\\concepts.json",
+      "sha256": "36d311ac2a16b9ad17528e9badcfe91208db3fad38c1eba40530eb9fc9ecc97c"
+    },
+    {
+      "file": "C:\\Users\\bulin\\artifacttrace\\templates\\at-template\\tasks\\benchmark-20261008-b-03-drive\\aqi\\entity-extract\\011_state\\output\\concepts.json",
+      "sha256": "31ad67d8e7043991701ba8bc4c7cffdd23679e7d9f69df889436ec9b26fcc8c8"
+    },
+    {
+      "file": "C:\\Users\\bulin\\artifacttrace\\templates\\at-template\\tasks\\benchmark-20261008-b-03-drive\\aqi\\entity-extract\\012_state\\output\\concepts.json",
+      "sha256": "72cbef90603a1b2bc54ec40761724f1930170440d0d1311c8d862f5c5d47d544"
+    },
+    {
+      "file": "C:\\Users\\bulin\\artifacttrace\\templates\\at-template\\tasks\\benchmark-20261008-b-03-drive\\aqi\\entity-extract\\013_state\\output\\concepts.json",
+      "sha256": "b0f61bed3c08bda21d75a2d021c8e5f9315473f6fdb94f22b3710935e3185318"
+    },
+    {
+      "file": "C:\\Users\\bulin\\artifacttrace\\templates\\at-template\\tasks\\benchmark-20261008-b-03-drive\\aqi\\entity-extract\\014_state\\output\\concepts.json",
+      "sha256": "354df1afcc63974792ff55aedcd82d7bb9dcf5907871347e02fe75b12012e610"
+    },
+    {
+      "file": "C:\\Users\\bulin\\artifacttrace\\templates\\at-template\\tasks\\benchmark-20261008-b-03-drive\\aqi\\entity-extract\\015_state\\output\\concepts.json",
+      "sha256": "6f5add5dab365b3c5b535108d1ed006e74d4582de17cc2f6edf9b1846572d34e"
+    },
+    {
+      "file": "C:\\Users\\bulin\\artifacttrace\\templates\\at-template\\tasks\\benchmark-20261008-b-03-drive\\aqi\\entity-extract\\016_state\\output\\concepts.json",
+      "sha256": "a09ad92eef0d37202a387eb594721145c2db702194c063ae886a63feda0f92f1"
+    },
+    {
+      "file": "C:\\Users\\bulin\\artifacttrace\\templates\\at-template\\tasks\\benchmark-20261008-b-03-drive\\aqi\\entity-extract\\017_state\\output\\concepts.json",
+      "sha256": "fec1bab41466a10704bcc193f67bba6944de2bd724fe79628edd4d950cdce0ad"
+    },
+    {
+      "file": "C:\\Users\\bulin\\artifacttrace\\templates\\at-template\\tasks\\benchmark-20261008-b-03-drive\\aqi\\entity-extract\\018_state\\output\\concepts.json",
+      "sha256": "ec5c795e0023afbf06f07f3a2daf1313977e3d1379110092ce56b2594d7983c1"
+    },
+    {
+      "file": "C:\\Users\\bulin\\artifacttrace\\templates\\at-template\\tasks\\benchmark-20261008-b-03-drive\\aqi\\entity-extract\\019_state\\output\\concepts.json",
+      "sha256": "4751f0a4c87334b1af2f5d03a1bb23fee1c2d6b77c1a158ef2638d0cfcd01643"
+    },
+    {
+      "file": "C:\\Users\\bulin\\artifacttrace\\templates\\at-template\\tasks\\benchmark-20261008-b-03-drive\\aqi\\entity-extract\\020_state\\output\\concepts.json",
+      "sha256": "f9279df5e066562d2fece4346d80b4aee1b67623e6a18625bde3cda2774df10d"
+    },
+    {
+      "file": "C:\\Users\\bulin\\artifacttrace\\templates\\at-template\\tasks\\benchmark-20261008-b-03-drive\\aqi\\entity-extract\\021_state\\output\\concepts.json",
+      "sha256": "9b5e73565437eb1937de4046bf7474258679bbab3ebad29c093310057e71069c"
+    },
+    {
+      "file": "C:\\Users\\bulin\\artifacttrace\\templates\\at-template\\tasks\\benchmark-20261008-b-03-drive\\aqi\\entity-extract\\022_state\\output\\concepts.json",
+      "sha256": "3fc178169ce4fc56cdee9b334732bc690c3515197e764d06f156b327e91fe161"
+    }
+  ]
+}

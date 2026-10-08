@@ -1,0 +1,11 @@
+{"args":{"name":"swapper"},"cat":"__metadata","name":"thread_name","ph":"M","pid":0,"tid":0,"ts":0}
+{"args":{"name":"CrRendererMain"},"cat":"__metadata","name":"thread_name","ph":"M","pid":35296,"tid":45316,"ts":0}
+{"args":{"name":"Renderer"},"cat":"__metadata","name":"process_name","ph":"M","pid":35296,"tid":0,"ts":0}
+{"args":{"uptime":"882"},"cat":"__metadata","name":"process_uptime_seconds","ph":"M","pid":35296,"tid":0,"ts":0}
+{"args":{"args":{"had_user_input_before_interactive":true,"total_blocking_time_ms":118.638},"frame":""},"cat":"loading,rail","name":"InteractiveTime","ph":"R","pid":35296,"s":"t","tid":45316,"ts":1549841548792}
+{"args":{"snapshot":{"documentLoaderURL":"http://127.0.0.1:7770/","frame":{"id_ref":"E42C032F4AD866337E63F1AFCB2DA291"},"isLoadingMainFrame":true,"isOutermostMainFrame":true}},"cat":"loading","name":"FrameLoader:state_snapshot","ph":"I","pid":35296,"s":"t","tid":45316,"ts":1550021933242,"tts":23721641}
+{"args":{},"cat":"loading","name":"FrameLoader:deleted","ph":"I","pid":35296,"s":"t","tid":45316,"ts":1550021933274,"tts":23721664}
+{"args":{"substracted_bytes":0,"total_bytes_buffered":0},"cat":"loading","dur":1,"name":"BackForwardCacheBufferLimitTracker::DidRemoveFrameOrWorkerFromBackForwardCache","ph":"X","pid":35296,"tdur":1,"tid":45316,"ts":1550021933277,"tts":23721665}
+{"args":{},"cat":"loading","id":0,"name":"FrameLoader:state_snapshot","ph":"s","pid":35296,"tid":45316,"ts":1550021933242}
+{"args":{},"bp":"e","cat":"loading","id":0,"name":"FrameLoader:state_snapshot","ph":"f","pid":35296,"tid":45316,"ts":1550021933274}
+{"args":{"context":{"URL":"","domModifications":1,"firstContentfulPaint":0,"paintedArea":0,"performanceTimelineNavigationId":0,"processingEnd":1549841878724,"softNavContextId":52,"timeOrigin":1549841877542,"urlChangeTime":0}},"cat":"loading","id2":{"local":"0x4"},"name":"SoftNavigationHeuristics::SoftNavigationContextWasExhausted","ph":"n","pid":35296,"tid":45316,"ts":1550021934243}

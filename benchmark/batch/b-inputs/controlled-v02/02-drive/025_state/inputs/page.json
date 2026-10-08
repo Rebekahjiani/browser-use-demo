@@ -1,0 +1,10 @@
+{
+  "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/children-s-dental-care.html",
+  "title": "Children's Dental Care - Oral Care - Beauty & Personal Care",
+  "route": "/beauty-personal-care/oral-care/children-s-dental-care.html",
+  "sources": {
+    "accessibility": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\02-drive\\trace\\26_10_08_11_46_19-min\\drive\\screenshots\\033_beauty-personal-care_oral-care_children-s-dental-care_html\\accessibility.json",
+    "sha256_AX": "2080a3959d16c8bdac9829becdcec629ee2a4207bb89df4c65e5ac97b3a77d79"
+  },
+  "material_scope": "recorded UI and conservatively associated JSON responses"
+}

@@ -1,0 +1,412 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - link "Skip to Content" [ref=e4] [cursor=pointer]:
+      - /url: "#contentarea"
+    - generic [ref=e5]:
+      - generic [ref=e6] [cursor=pointer]:
+        - text: 
+        - generic [ref=e7]: Toggle Nav
+      - link "store logo" [ref=e8] [cursor=pointer]:
+        - /url: http://127.0.0.1:7770/
+        - img "one_stop_market_logo" [ref=e9]
+      - generic [ref=e10]:
+        - link " My Cart" [ref=e11] [cursor=pointer]:
+          - /url: http://127.0.0.1:7770/checkout/cart/
+          - text: 
+          - generic [ref=e12]: My Cart
+        - text: 
+      - generic [ref=e16]:
+        - generic [ref=e17]:
+          - text: 
+          - generic [ref=e18]: Search
+        - combobox " Search" [ref=e20]
+  - tablist [ref=e22]:
+    - tab "Menu" [expanded] [ref=e23]:
+      - link "Menu" [ref=e24] [cursor=pointer]:
+        - /url: "#store.menu"
+    - tabpanel [ref=e25]:
+      - navigation [ref=e26]:
+        - menu [ref=e27]:
+          - listitem [ref=e28]:
+            - menuitem "Beauty & Personal Care " [ref=e29] [cursor=pointer]: Beauty & Personal Care 
+          - listitem [ref=e30]:
+            - menuitem "Sports & Outdoors " [ref=e31] [cursor=pointer]: Sports & Outdoors 
+          - listitem [ref=e32]:
+            - menuitem "Clothing, Shoes & Jewelry " [ref=e33] [cursor=pointer]: Clothing, Shoes & Jewelry 
+          - listitem [ref=e34]:
+            - menuitem "Home & Kitchen " [ref=e35] [cursor=pointer]: Home & Kitchen 
+          - listitem [ref=e36]:
+            - menuitem "Office Products " [ref=e37] [cursor=pointer]: Office Products 
+          - listitem [ref=e38]:
+            - menuitem "Tools & Home Improvement " [ref=e39] [cursor=pointer]: Tools & Home Improvement 
+          - listitem [ref=e40]:
+            - menuitem "Health & Household " [ref=e41] [cursor=pointer]: Health & Household 
+          - listitem [ref=e42]:
+            - menuitem "Patio, Lawn & Garden " [ref=e43] [cursor=pointer]: Patio, Lawn & Garden 
+          - listitem [ref=e44]:
+            - menuitem "Electronics " [ref=e45] [cursor=pointer]: Electronics 
+          - listitem [ref=e46]:
+            - menuitem "Cell Phones & Accessories " [ref=e47] [cursor=pointer]: Cell Phones & Accessories 
+          - listitem [ref=e48]:
+            - menuitem "Video Games " [ref=e49] [cursor=pointer]: Video Games 
+          - listitem [ref=e50]:
+            - menuitem "Grocery & Gourmet Food " [ref=e51] [cursor=pointer]: Grocery & Gourmet Food 
+    - tab "Account" [ref=e52]:
+      - link "Account" [ref=e53] [cursor=pointer]:
+        - /url: "#store.links"
+  - main [ref=e54]:
+    - heading "One Stop Market" [level=1] [ref=e56]
+    - generic [ref=e60]:
+      - strong [ref=e62]: Product Showcases
+      - generic [ref=e63]:
+        - list [ref=e65]:
+          - listitem [ref=e66]:
+            - generic [ref=e67]:
+              - link "Image" [ref=e68] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/20-pcs-balls-cake-topper-mini-balloons-cake-topper-pearl-balls-cake-pick-foam-ball-cupcake-topper-baking-decoration-supplies-toothpick-party-wedding-anniversary-birthday-baby-shower-cake-decoration.html
+                - img "Image" [ref=e71]
+              - generic [ref=e72]:
+                - strong [ref=e73]:
+                  - link "20 PCS Balls Cake Topper Mini Balloons Cake Topper Pearl Balls Cake Pick Foam Ball Cupcake Topper Baking Decoration Supplies Toothpick Party Wedding Anniversary Birthday Baby Shower Cake Decoration" [ref=e74] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/20-pcs-balls-cake-topper-mini-balloons-cake-topper-pearl-balls-cake-pick-foam-ball-cupcake-topper-baking-decoration-supplies-toothpick-party-wedding-anniversary-birthday-baby-shower-cake-decoration.html
+                - generic [ref=e75]:
+                  - generic [ref=e76]:
+                    - generic [ref=e77]: "Rating:"
+                    - generic "62%" [ref=e78]:
+                      - text: 
+                      - generic [ref=e79]:
+                        - text: 
+                        - generic [ref=e80]: 62%
+                  - link "11 Reviews" [ref=e82] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/20-pcs-balls-cake-topper-mini-balloons-cake-topper-pearl-balls-cake-pick-foam-ball-cupcake-topper-baking-decoration-supplies-toothpick-party-wedding-anniversary-birthday-baby-shower-cake-decoration.html#reviews
+                - generic [ref=e85]: $9.49
+                - generic [ref=e87]:
+                  - button "Add to Cart" [ref=e90] [cursor=pointer]
+                  - generic [ref=e91]:
+                    - link " Add to Wish List" [ref=e92] [cursor=pointer]:
+                      - /url: "#"
+                      - text: 
+                      - generic [ref=e93]: Add to Wish List
+                    - text: 
+          - listitem [ref=e94]:
+            - generic [ref=e95]:
+              - link "Image" [ref=e96] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/amosfun-100pcs-cupcake-toppers-flag-cake-flags-picks-cake-decoration-toothpick-for-party-cake-food-cheeseplate-appetizers-welsh.html
+                - img "Image" [ref=e99]
+              - generic [ref=e100]:
+                - strong [ref=e101]:
+                  - link "Amosfun 100pcs Cupcake Toppers Flag Cake Flags Picks Cake Decoration Toothpick for Party Cake Food Cheeseplate Appetizers (Welsh)" [ref=e102] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/amosfun-100pcs-cupcake-toppers-flag-cake-flags-picks-cake-decoration-toothpick-for-party-cake-food-cheeseplate-appetizers-welsh.html
+                - generic [ref=e105]: $7.39
+                - generic [ref=e107]:
+                  - button "Add to Cart" [ref=e110] [cursor=pointer]
+                  - generic [ref=e111]:
+                    - link " Add to Wish List" [ref=e112] [cursor=pointer]:
+                      - /url: "#"
+                      - text: 
+                      - generic [ref=e113]: Add to Wish List
+                    - text: 
+          - listitem [ref=e114]:
+            - generic [ref=e115]:
+              - link "Image" [ref=e116] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/lolo-collagen-creamer-vanilla-creme-for-coffee-or-tea-grass-fed-pasture-raised-collagen-keto-paleo-friendly-non-dairy.html
+                - img "Image" [ref=e119]
+              - generic [ref=e120]:
+                - strong [ref=e121]:
+                  - link "LoLo Collagen Creamer | Vanilla Creme | For Coffee or Tea | Grass-Fed, Pasture-Raised Collagen | Keto + Paleo Friendly | Non-Dairy" [ref=e122] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/lolo-collagen-creamer-vanilla-creme-for-coffee-or-tea-grass-fed-pasture-raised-collagen-keto-paleo-friendly-non-dairy.html
+                - generic [ref=e123]:
+                  - generic [ref=e124]:
+                    - generic [ref=e125]: "Rating:"
+                    - generic "100%" [ref=e126]:
+                      - text: 
+                      - generic [ref=e127]:
+                        - text: 
+                        - generic [ref=e128]: 100%
+                  - link "1 Review" [ref=e130] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/lolo-collagen-creamer-vanilla-creme-for-coffee-or-tea-grass-fed-pasture-raised-collagen-keto-paleo-friendly-non-dairy.html#reviews
+                - generic [ref=e133]: $34.99
+                - generic [ref=e135]:
+                  - button "Add to Cart" [ref=e138] [cursor=pointer]
+                  - generic [ref=e139]:
+                    - link " Add to Wish List" [ref=e140] [cursor=pointer]:
+                      - /url: "#"
+                      - text: 
+                      - generic [ref=e141]: Add to Wish List
+                    - text: 
+          - listitem [ref=e142]:
+            - generic [ref=e143]:
+              - link "Image" [ref=e144] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/campbell-s-family-size-cream-of-chicken-soup-23oz-pack-of-3.html
+                - img "Image" [ref=e147]
+              - generic [ref=e148]:
+                - strong [ref=e149]:
+                  - link "Campbell's FAMILY SIZE CREAM OF CHICKEN SOUP 23oz. (Pack of 3)" [ref=e150] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/campbell-s-family-size-cream-of-chicken-soup-23oz-pack-of-3.html
+                - generic [ref=e153]: $19.99
+                - generic [ref=e155]:
+                  - button "Add to Cart" [ref=e158] [cursor=pointer]
+                  - generic [ref=e159]:
+                    - link " Add to Wish List" [ref=e160] [cursor=pointer]:
+                      - /url: "#"
+                      - text: 
+                      - generic [ref=e161]: Add to Wish List
+                    - text: 
+          - listitem [ref=e162]:
+            - generic [ref=e163]:
+              - link "Image" [ref=e164] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/a-c-legg-inc-mesquite-marinade-seasoning.html
+                - img "Image" [ref=e167]
+              - generic [ref=e168]:
+                - strong [ref=e169]:
+                  - link "A.C. Legg INC Mesquite Marinade Seasoning" [ref=e170] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/a-c-legg-inc-mesquite-marinade-seasoning.html
+                - generic [ref=e171]:
+                  - generic [ref=e172]:
+                    - generic [ref=e173]: "Rating:"
+                    - generic "93%" [ref=e174]:
+                      - text: 
+                      - generic [ref=e175]:
+                        - text: 
+                        - generic [ref=e176]: 93%
+                  - link "3 Reviews" [ref=e178] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/a-c-legg-inc-mesquite-marinade-seasoning.html#reviews
+                - generic [ref=e181]: $7.95
+                - generic [ref=e183]:
+                  - button "Add to Cart" [ref=e186] [cursor=pointer]
+                  - generic [ref=e187]:
+                    - link " Add to Wish List" [ref=e188] [cursor=pointer]:
+                      - /url: "#"
+                      - text: 
+                      - generic [ref=e189]: Add to Wish List
+                    - text: 
+          - listitem [ref=e190]:
+            - generic [ref=e191]:
+              - link "Image" [ref=e192] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/evaxo-angostura-bitters-aromatic-4oz.html
+                - img "Image" [ref=e195]
+              - generic [ref=e196]:
+                - strong [ref=e197]:
+                  - link "Evaxo ANGOSTURA BITTERS AROMATIC 4OZ" [ref=e198] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/evaxo-angostura-bitters-aromatic-4oz.html
+                - generic [ref=e201]: $51.47
+                - generic [ref=e203]:
+                  - button "Add to Cart" [ref=e206] [cursor=pointer]
+                  - generic [ref=e207]:
+                    - link " Add to Wish List" [ref=e208] [cursor=pointer]:
+                      - /url: "#"
+                      - text: 
+                      - generic [ref=e209]: Add to Wish List
+                    - text: 
+          - listitem [ref=e210]:
+            - generic [ref=e211]:
+              - link "Image" [ref=e212] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/nunature-cocodate-dates-and-cacao-spread-100-natural-chocolate-date-spread-vegan-paleo-friendly-gluten-dairy-free-snack-non-gmo-sugar-free.html
+                - img "Image" [ref=e215]
+              - generic [ref=e216]:
+                - strong [ref=e217]:
+                  - link "NUNATURE Cocodate Dates And Cacao Spread - 100% Natural Chocolate Date Spread, Vegan, Paleo Friendly, Gluten & Dairy Free Snack, Non-GMO, Sugar-free" [ref=e218] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/nunature-cocodate-dates-and-cacao-spread-100-natural-chocolate-date-spread-vegan-paleo-friendly-gluten-dairy-free-snack-non-gmo-sugar-free.html
+                - generic [ref=e219]:
+                  - generic [ref=e220]:
+                    - generic [ref=e221]: "Rating:"
+                    - generic "75%" [ref=e222]:
+                      - text: 
+                      - generic [ref=e223]:
+                        - text: 
+                        - generic [ref=e224]: 75%
+                  - link "12 Reviews" [ref=e226] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/nunature-cocodate-dates-and-cacao-spread-100-natural-chocolate-date-spread-vegan-paleo-friendly-gluten-dairy-free-snack-non-gmo-sugar-free.html#reviews
+                - generic [ref=e229]: $12.99
+                - generic [ref=e231]:
+                  - button "Add to Cart" [ref=e234] [cursor=pointer]
+                  - generic [ref=e235]:
+                    - link " Add to Wish List" [ref=e236] [cursor=pointer]:
+                      - /url: "#"
+                      - text: 
+                      - generic [ref=e237]: Add to Wish List
+                    - text: 
+          - listitem [ref=e238]:
+            - generic [ref=e239]:
+              - link "Image" [ref=e240] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/bon-appetit-apple-danish-5-ounce-pack-of-8.html
+                - img "Image" [ref=e243]
+              - generic [ref=e244]:
+                - strong [ref=e245]:
+                  - link "Bon Appetit Apple Danish, 5 Ounce (Pack of 8)" [ref=e246] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/bon-appetit-apple-danish-5-ounce-pack-of-8.html
+                - generic [ref=e247]:
+                  - generic [ref=e248]:
+                    - generic [ref=e249]: "Rating:"
+                    - generic "78%" [ref=e250]:
+                      - text: 
+                      - generic [ref=e251]:
+                        - text: 
+                        - generic [ref=e252]: 78%
+                  - link "12 Reviews" [ref=e254] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/bon-appetit-apple-danish-5-ounce-pack-of-8.html#reviews
+                - generic [ref=e257]: $19.12
+                - generic [ref=e259]:
+                  - button "Add to Cart" [ref=e262] [cursor=pointer]
+                  - generic [ref=e263]:
+                    - link " Add to Wish List" [ref=e264] [cursor=pointer]:
+                      - /url: "#"
+                      - text: 
+                      - generic [ref=e265]: Add to Wish List
+                    - text: 
+          - listitem [ref=e266]:
+            - generic [ref=e267]:
+              - link "Image" [ref=e268] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/not-a-case-original-concentrated-hot-curry-paste-tomato-cumin-and-chile.html
+                - img "Image" [ref=e271]
+              - generic [ref=e272]:
+                - strong [ref=e273]:
+                  - link "(NOT A CASE) Original Concentrated Hot Curry Paste Tomato Cumin and Chile" [ref=e274] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/not-a-case-original-concentrated-hot-curry-paste-tomato-cumin-and-chile.html
+                - generic [ref=e277]: $34.05
+                - generic [ref=e279]:
+                  - button "Add to Cart" [ref=e282] [cursor=pointer]
+                  - generic [ref=e283]:
+                    - link " Add to Wish List" [ref=e284] [cursor=pointer]:
+                      - /url: "#"
+                      - text: 
+                      - generic [ref=e285]: Add to Wish List
+                    - text: 
+          - listitem [ref=e286]:
+            - generic [ref=e287]:
+              - link "Image" [ref=e288] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/chao-thai-coconut-powder-large-13-ounce.html
+                - generic [ref=e290]:
+                  - img "Image"
+              - generic [ref=e291]:
+                - strong [ref=e292]:
+                  - link "Chao Thai Coconut Powder, Large, 13 Ounce" [ref=e293] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/chao-thai-coconut-powder-large-13-ounce.html
+                - generic [ref=e294]:
+                  - generic [ref=e295]:
+                    - generic [ref=e296]: "Rating:"
+                    - generic "88%" [ref=e297]:
+                      - text: 
+                      - generic [ref=e298]:
+                        - text: 
+                        - generic [ref=e299]: 88%
+                  - link "12 Reviews" [ref=e301] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/chao-thai-coconut-powder-large-13-ounce.html#reviews
+                - generic [ref=e304]: $10.99
+                - generic [ref=e306]:
+                  - button "Add to Cart" [ref=e309] [cursor=pointer]
+                  - generic [ref=e310]:
+                    - link " Add to Wish List" [ref=e311] [cursor=pointer]:
+                      - /url: "#"
+                      - text: 
+                      - generic [ref=e312]: Add to Wish List
+                    - text: 
+          - listitem [ref=e313]:
+            - generic [ref=e314]:
+              - link "Image" [ref=e315] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/viva-doria-tellicherry-peppercorn-steam-sterilized-whole-black-pepper-black-peppercorns-12-oz-pepper-grinder.html
+                - generic [ref=e317]:
+                  - img "Image"
+              - generic [ref=e318]:
+                - strong [ref=e319]:
+                  - link "Viva Doria Tellicherry Peppercorn, Steam Sterilized Whole Black Pepper, Black Peppercorns, 12 Oz (Pepper+Grinder)" [ref=e320] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/viva-doria-tellicherry-peppercorn-steam-sterilized-whole-black-pepper-black-peppercorns-12-oz-pepper-grinder.html
+                - generic [ref=e321]:
+                  - generic [ref=e322]:
+                    - generic [ref=e323]: "Rating:"
+                    - generic "93%" [ref=e324]:
+                      - text: 
+                      - generic [ref=e325]:
+                        - text: 
+                        - generic [ref=e326]: 93%
+                  - link "12 Reviews" [ref=e328] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/viva-doria-tellicherry-peppercorn-steam-sterilized-whole-black-pepper-black-peppercorns-12-oz-pepper-grinder.html#reviews
+                - generic [ref=e331]: $12.99
+                - generic [ref=e333]:
+                  - button "Add to Cart" [ref=e336] [cursor=pointer]
+                  - generic [ref=e337]:
+                    - link " Add to Wish List" [ref=e338] [cursor=pointer]:
+                      - /url: "#"
+                      - text: 
+                      - generic [ref=e339]: Add to Wish List
+                    - text: 
+          - listitem [ref=e340]:
+            - generic [ref=e341]:
+              - link "Image" [ref=e342] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/krusteaz-buttermilk-pancake-mix-10-lb.html
+                - generic [ref=e344]:
+                  - img "Image"
+              - generic [ref=e345]:
+                - strong [ref=e346]:
+                  - link "Krusteaz Buttermilk Pancake Mix (10 lb.)" [ref=e347] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/krusteaz-buttermilk-pancake-mix-10-lb.html
+                - generic [ref=e348]:
+                  - generic [ref=e349]:
+                    - generic [ref=e350]: "Rating:"
+                    - generic "93%" [ref=e351]:
+                      - text: 
+                      - generic [ref=e352]:
+                        - text: 
+                        - generic [ref=e353]: 93%
+                  - link "12 Reviews" [ref=e355] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/krusteaz-buttermilk-pancake-mix-10-lb.html#reviews
+                - generic [ref=e358]: $37.91
+                - generic [ref=e360]:
+                  - button "Add to Cart" [ref=e363] [cursor=pointer]
+                  - generic [ref=e364]:
+                    - link " Add to Wish List" [ref=e365] [cursor=pointer]:
+                      - /url: "#"
+                      - text: 
+                      - generic [ref=e366]: Add to Wish List
+                    - text: 
+        - generic [ref=e367]:
+          - paragraph [ref=e368]: Items 13 to 24 of 24 total
+          - generic [ref=e369]:
+            - strong [ref=e370]: Page
+            - list "Page" [ref=e371]:
+              - listitem [ref=e372]:
+                - link " Page Previous" [ref=e373] [cursor=pointer]:
+                  - /url: http://127.0.0.1:7770/
+                  - text: 
+                  - generic [ref=e374]: Page
+                  - generic [ref=e375]: Previous
+              - listitem [ref=e376]:
+                - link "Page 1" [ref=e377] [cursor=pointer]:
+                  - /url: http://127.0.0.1:7770/
+                  - generic [ref=e378]: Page
+                  - text: "1"
+              - listitem [ref=e379]:
+                - strong [ref=e380]:
+                  - generic [ref=e381]: You're currently reading page
+                  - text: "2"
+  - contentinfo [ref=e382]:
+    - generic [ref=e383]:
+      - generic [ref=e386]:
+        - generic [ref=e388]:
+          - text: 
+          - generic [ref=e389]:
+            - generic [ref=e390]: "Sign Up for Our Newsletter:"
+            - textbox "Sign Up for Our Newsletter:" [ref=e391]:
+              - /placeholder: Enter your email address
+        - button "Subscribe" [ref=e393] [cursor=pointer]
+      - list [ref=e394]:
+        - listitem [ref=e395]:
+          - link "Privacy and Cookie Policy" [ref=e396] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/privacy-policy-cookie-restriction-mode/
+        - listitem [ref=e397]:
+          - link "Search Terms" [ref=e398] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/search/term/popular/
+        - listitem [ref=e399]:
+          - link "Advanced Search" [ref=e400] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/catalogsearch/advanced/
+        - listitem [ref=e401]:
+          - link "Orders and Returns" [ref=e402] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/sales/guest/form/
+        - listitem [ref=e403]:
+          - link "Contact Us" [ref=e404] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/contact/
+      - generic [ref=e405]: Copyright © 2013-present Magento, Inc. All rights reserved.
+      - generic [ref=e406]:
+        - text: Help Us Keep Magento Healthy
+        - link "Report All Bugs" [ref=e407] [cursor=pointer]:
+          - /url: http://www.magentocommerce.com/bug-tracking

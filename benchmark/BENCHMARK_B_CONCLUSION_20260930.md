@@ -1,5 +1,11 @@
 # 维度 B：同一织语素材，阿器与 Claude Code 的抽取比较
 
+对照对象：**织语 trace → 阿器 + DeepSeek V4 Flash** 与 **同一织语 trace → Claude Code + DeepSeek V4 Flash**。两边使用相同26页任务包；B不使用browser-use采集素材。下文表头统一简称“织语 / 阿器”“织语 / Claude Code”。
+
+当前评测脚本：[自身引用支持评分 score_citations_v4.py](C:/Users/bulin/browser-use-demo/benchmark/harness-comparison/score_citations_v4.py)；[原始声明/schema检查 evaluate_original_task.py](C:/Users/bulin/browser-use-demo/benchmark/harness-comparison/evaluate_original_task.py)；[模型及成本日志 build_cost_ledger.py](C:/Users/bulin/browser-use-demo/benchmark/harness-comparison/build_cost_ledger.py)。当前逐项结果：[citations-v4.results.json](C:/Users/bulin/browser-use-demo/benchmark/harness-comparison/citations-v4.results.json)。
+
+更新入口：`CURRENT_RESULTS.md`。已补自身引用支持评分v4（30/32 vs22/32），并找到阿器历史run的Flash模型与token记录；本文件旧的模型/成本未核实描述不再代表最新状态。完整语义精确率仍未完成，不能将原始声明召回或新引用支持直接称为整体准确率。
+
 ## 当前选型
 
 **以核心业务信息完整度为首要目标，本轮优先选阿器，并在收卷阶段加确定性的 schema 校验与格式修复。Claude Code 的原始输出格式更可靠，但遗漏的核心信息更多。** 这是两份历史产出的工程选型结论；尚未完成所有声明的语义精确率裁定，不能表述为阿器在正确性、速度等所有指标上都胜出。
@@ -8,7 +14,7 @@
 
 ## 同分母结果
 
-| 指标 | 阿器 | Claude Code | 解读 |
+| 指标 | 织语 / 阿器 | 织语 / Claude Code | 解读 |
 |---|---:|---:|---|
 | 26 页输出齐全 | 26/26 | 26/26 | 均完成 |
 | 核心实体声明召回 | 3/3 | 2/3 | Claude Code 缺购物车实体 |
@@ -49,7 +55,7 @@
 
 ## 模型、时间和实验边界
 
-- Claude Code 对应本地会话的 assistant.model 字段记录为 `DeepSeek-V4-Flash-0731`（任务开始后 295 条消息记录，不等于295次独立请求）。阿器历史模型目前依据用户说明和当前 agent 配置，尚未找到对应运行的服务端模型记录。
+- 两边对应运行日志均记录为 `DeepSeek-V4-Flash-0731`：阿器任务 run 有 89 次完成调用记录，Claude Code 本地会话有 assistant.model 字段记录（任务开始后 295 条消息，不等于295次独立请求）。这不等于供应商底层权重的独立证明。
 - Claude Code 运行在 AT 外部 agent 集成会话中，日志有任务重复提示和多次压缩，不能称全新空会话、相同预算的严格单次对照。未据此否定现有产物比较。
 - 用户报告 Claude Code 约35分钟；日志首次明确提示 2026-09-29 09:04:16 UTC，完成 11:29:21 UTC，墙钟区间约145.1分钟。包括暂停、重试与压缩的区间不是有效推理耗时。两种口径分别记录，阿器对应耗时未知，暂不排速度名次。
 - 原始任务/输入一致，harness 自身提示词、工具和会话处理不同，这正是比较因素；模型调用参数、上下文历史和预算未完全控制。

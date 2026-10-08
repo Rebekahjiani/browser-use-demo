@@ -1,0 +1,9 @@
+{
+  "decision": "User said continue after recommendation; proceed with parallel DB source and business-detail metrics, no weighted composite.",
+  "DB_layer": "Distinct verified physical/EAV keys reachable through independently witnessed UI facts. Description subfields collapse to product.description. Only a verified subset, never full DB coverage.",
+  "detail_layer": "29 frozen UI semantic attributes; values/options required by coverage-v3 rules. Controls/forms/states excluded from attribute denominator and reported separately.",
+  "unknown": "Unmapped and unverified DB/UI candidates remain pending; not false and not silently declared invisible.",
+  "comparison": "Existing historical traces, not a new controlled run. No cart writes. No CM candidate-name scoring.",
+  "bias": "Post-hoc vocabulary and mappings; source/schema verification does not remove selection bias.",
+  "provenance": "Live read-only catalog metadata sampled 2026-09-30; no claim of identical complete historical database."
+}

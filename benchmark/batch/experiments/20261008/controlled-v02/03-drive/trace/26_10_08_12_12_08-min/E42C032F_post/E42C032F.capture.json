@@ -1,0 +1,12 @@
+{
+  "capturedAt": "2026-10-08T04:28:28.649Z",
+  "url": "http://127.0.0.1:7770/wishlist/index/add/",
+  "title": "Error response",
+  "cdpPort": 9222,
+  "basename": "E42C032F",
+  "outputs": {
+    "screenshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\03-drive\\trace\\26_10_08_12_12_08-min\\E42C032F_post\\E42C032F.png",
+    "html": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\03-drive\\trace\\26_10_08_12_12_08-min\\E42C032F_post\\E42C032F.html",
+    "accessibilitySnapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\03-drive\\trace\\26_10_08_12_12_08-min\\E42C032F_post\\E42C032F.accessibility.json"
+  }
+}

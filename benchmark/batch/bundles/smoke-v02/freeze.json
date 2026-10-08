@@ -1,0 +1,324 @@
+{
+  "inputs": [
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\smoke-v02\\01-browser-use\\command.json",
+      "sha256": "b02909b780411a3b044d3bf2dc14100fd4152b9138b84d9dab665fa376bfbc55"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\smoke-v02\\01-browser-use\\process.json",
+      "sha256": "d9dcb9ef2c61e96f7161b8c9f8d7330a7a9b20fd9d21042264b599ae8e677049"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\smoke-v02\\01-browser-use\\reset.json",
+      "sha256": "1c4f8dd561429e419b5b1d151a4f3d773e4615723fddc47de2170bbcb7ac094f"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\smoke-v02\\01-browser-use\\result.json",
+      "sha256": "37d81296f49a4b7dfee8a9503fcbd8deabb2c2cea1dbf38f000e40f0566df304"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\smoke-v02\\01-drive\\config.json",
+      "sha256": "3ecff6301c27b8a50bfa5b7d8fe5dadd5ae308d68eec511076e9078df8c3df76"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\smoke-v02\\01-drive\\profiles.json",
+      "sha256": "974fe5a5da82333c5c34a49c514c9a22acc7fe565e2a8be0a1d0b671f57d6469"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\smoke-v02\\01-drive\\reset.json",
+      "sha256": "1fc081c18974e83c466f57509d878cd3b2298fb3e6a48515f5437e25f5545c05"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\smoke-v02\\01-drive\\start.json",
+      "sha256": "08675e3a11bc1e78484eb683e7ce50feef02defd80dbf4724f0b0aeb33aeb111"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\smoke-v02\\01-drive\\status.json",
+      "sha256": "7c5730f7223dd433062e3a2ec0f27b9580af0894eba47c2396ab11dc2a84cc22"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\smoke-v02\\01-drive\\stop.json",
+      "sha256": "9ced9718259fe6b8ad7d8ae102a19870dc46e8b9b2b18b0b611d8816d899ab53"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\smoke-v02\\01-drive\\trace\\26_10_08_11_04_27-min\\drive\\screenshots\\000_root\\accessibility.json",
+      "sha256": "b065b65d6764ca962d8d69b0ab14d33ca7b3284e87ad80baffe5014e1e5b95e2"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\smoke-v02\\01-drive\\trace\\26_10_08_11_04_27-min\\drive\\screenshots\\000_root\\page.html",
+      "sha256": "eb0d76f87e75439fb882f05885ba1558eb55287d269f9ab30cf44a02658b77ac"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\smoke-v02\\01-drive\\trace\\26_10_08_11_04_27-min\\drive\\screenshots\\001_crunchy-rice-rollers-gluten-free-vegan-3-5-oz-individual-pac\\accessibility.json",
+      "sha256": "bb2c4aa59ed44c215bef23e0d9513edb0247a95574554b5c54cf93e250093870"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\smoke-v02\\01-drive\\trace\\26_10_08_11_04_27-min\\drive\\screenshots\\001_crunchy-rice-rollers-gluten-free-vegan-3-5-oz-individual-pac\\page.html",
+      "sha256": "7cbee05aec87d981d25d19d8c9214d1c72459e6d86555e455cccae7e8556b0d3"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\smoke-v02\\runs.json",
+      "sha256": "12fb01c4120a82079608dccc04a5cd51149756d73ff9e1dd7e0bee1f34c3731d"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\coverage-v2\\site-verification\\product-0\\accessibility.json",
+      "sha256": "685beb9d4fc106a9d2af9c77bbd3b69dd2911f34050bc51d370ba8a3d30eb88e"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\coverage-v2\\site-verification\\product-0\\page.html",
+      "sha256": "a208c4aa1c95855a69096210d19deec6a03bd375a953888ac5ef8d3d3c45c171"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\coverage-v4\\gold.v1.json",
+      "sha256": "c502eaf02ca56971fb80d5960391c218ecb2e78b4eb52f85b0adbfd75f0c2974"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\coverage-v4\\score.py",
+      "sha256": "b47deb4da8d456967bbb3066013bfe4853f8e1812f15030f10756e34227700c9"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\db-category-witness.20261008.json",
+      "sha256": "1edfc18ebfe9b556f7baef205d7d4644fdb50b9bf304f35d997d13f48e970cfa"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\db-export.v2.json",
+      "sha256": "4c3271b61ea4c58950c10502d91644a907bf4731a4bedc0bc05a579a6337d964"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\db-frontend-audit.20261008.json",
+      "sha256": "f9b1feb574369991cb54b14c3b5752b75b6ace85888c9de90759de1195422547"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\db-public-samples.20261008.json",
+      "sha256": "1a4a4e29fd7172c1ac24c75d01d1bb4dae2c66bca911a1e7085f578002bcd306"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\db-ui-mapping.v3.json",
+      "sha256": "4ca51e6e9092a0a561389a8d545d0bb1e726d26c3de25cc02328ad6e4ee5a951"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\review_candidates_v2.py",
+      "sha256": "2ae3518290d3917ece06f4408d2c5e721a77d9cd771f549b463e18539a867979"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0000\\accessibility.json",
+      "sha256": "f5af51f144a72f0e6af51d2743faf6b7f484ce7c323f899e952a92c23b4e1ecc"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0000\\page.html",
+      "sha256": "45d7c052e56325878d8949fe6fd5e1715ee91c3109e1628a14192bc9653c57eb"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0001\\accessibility.json",
+      "sha256": "5ca9acb15f442a5cc8151cc790fba9b93b7e5b07b1211ffd692157726018c90f"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0001\\page.html",
+      "sha256": "238bb9c0c551e2b3d2d71d9c124719b5d339dd7702178c6613c51d2b7c345444"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0004\\accessibility.json",
+      "sha256": "24297a8bfb9b6f4181a77fff37be6bd979fa406d5c4f4fa97251005bfd6941d4"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0004\\page.html",
+      "sha256": "851fdbf8f2f124c91766371983958a5f4b83be3fd6479691149e847e3e5be632"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0007\\accessibility.json",
+      "sha256": "4e0bdef69a68053c2009860680b72be9031b5c4922fbf3da058c467fb6c9e8a6"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0007\\page.html",
+      "sha256": "850b9c1e6d914fd7263d436225e9ca27185cf0a468ff84e58dce0b4a21ea5204"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0008\\accessibility.json",
+      "sha256": "4c5a70e5d668b13992cbdda48aa3560582183974530b63828ecdb9937ea9daee"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0008\\page.html",
+      "sha256": "39573fc009e8b11c3010a88fe238a75480bea6ae8e77641b792f9e3bd344d2a2"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0010\\accessibility.json",
+      "sha256": "9956739a65e491eb395a943a21f9cecabe438c172a84f2e65ccc2cce135db293"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0010\\page.html",
+      "sha256": "d90ed34477d7875eae883c69e3a913e51ad8ba1f2d2e5d084d0c13d4cb5d2596"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0011\\accessibility.json",
+      "sha256": "9ef3e5b6e9678581b5fd0d7791778663cbc8bddd852999ed9095d117fa5a3195"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0011\\page.html",
+      "sha256": "aad51584635222f4ebfb4ee160286e9778a7eba62b3e739e5c74d0321270160f"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0012\\accessibility.json",
+      "sha256": "7a6f6fc66203f334bfec47cab31b1761e15a8577df82319e78c7edf8047de8ab"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0012\\page.html",
+      "sha256": "341619c8927f0b1235463a6561eb5e1bbd95a5875241a8680cbf9a0a2e3a52bb"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0013\\accessibility.json",
+      "sha256": "bc9215d43b556d3bf32f03e875216576f6a8466ae4259289ceb3fe37af73dbb8"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0013\\page.html",
+      "sha256": "2f3cc89477043d0da314cab706bd6471f46537fa8c4cfd2f3ccfb233ab2157fe"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0014\\accessibility.json",
+      "sha256": "b8bba6955d8b589b9c98b07338181c472256e625ce4c2c39093bc233b6cc42d9"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0014\\page.html",
+      "sha256": "ea79b7dd5cce4f3b4bde6495e5982abb77a3d650d9adac70844eca609bb029f4"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0015\\accessibility.json",
+      "sha256": "d06eeedcc92003d6b88e24cc738e37e0605fe80d48e3a3c6e36138c7e4576aa2"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0015\\page.html",
+      "sha256": "97d806291e0e907ab12b3d9e3755cfe7f817a28a5fa139316240dc54866c17e3"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0016\\accessibility.json",
+      "sha256": "348b85710829574168d1cf85bc98ad434f1baf2e67204d4832e6414863936570"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0016\\page.html",
+      "sha256": "cd37159b65ae87fafb3e7d4ee20aba2fa806a7159ceec67923fdf776777a1a3e"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0017\\accessibility.json",
+      "sha256": "5181b437503001750f153dfbfc3028bd20c789367da3cfc69f6c7f11b0f67d64"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0017\\page.html",
+      "sha256": "bcc7fd31dee3b95f53bf176de91d995126bca85ac3c9fe5a7008eb575f1b17ae"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0018\\accessibility.json",
+      "sha256": "293a48a95b834117052cfe844ed3a35abeaaa0ec7f2813582a436f437f1e0d28"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0018\\page.html",
+      "sha256": "357c3515c379615c747ed8ddfc181098e028fa2ead9276c810a05ba506b12d82"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0019\\accessibility.json",
+      "sha256": "96d3b4eccfd142275b12c6b80481c593e1d1a2c66474047f6d2b982b37425414"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0019\\page.html",
+      "sha256": "ba58e6e06c046044de9bcc876c70c59a7b5f3d770fa5a5c0bfda2ca466ea950a"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0020\\accessibility.json",
+      "sha256": "9396091c3a517e00009ae7eefc603d7a360cefd7f491c852745d2796b0da6f06"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0020\\page.html",
+      "sha256": "0de1bb6840517ce669c9f35e6f80c0da0c7ce48af0f3544163f4ff0b6d8c2713"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0021\\accessibility.json",
+      "sha256": "4e23fc1ef2de2b6d9aeb606b60d5b3fbc6d579c6bdac18d14085f778bf2c8a48"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0021\\page.html",
+      "sha256": "4058fb67dea5b599fdbf52c954550de367507b5afd0d2667554a7d6e9e72432e"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-110444-803919\\snapshots\\00001\\accessibility.json",
+      "sha256": "6b106a61786f485e14cc8aaf04ed86cd7d0ec53e392a1e8e79b98c104286543a"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-110444-803919\\snapshots\\00001\\metadata.json",
+      "sha256": "b9cfd608d159da25cb7d6badf071420f637a0e0532c606c89656a316b5a9331b"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-110444-803919\\snapshots\\00001\\page.html",
+      "sha256": "75ed5ed406e26d1b7a9b2424505a5493194620de343f0eadbe3d159e9c17d3e3"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-110444-803919\\snapshots\\00002\\accessibility.json",
+      "sha256": "1212c696ec2fe51f13bf8c8f320f0de215da7c0eef4ed19305cba5b9ffd942dd"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-110444-803919\\snapshots\\00002\\metadata.json",
+      "sha256": "a0d0af228f00eb56790b4873d7de2ceac6c1d2e3b754c3ba54f0d076707a12fd"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-110444-803919\\snapshots\\00002\\page.html",
+      "sha256": "974ad5cbd7e558a3fd023fddf4620d9a5f97297374098beb9935dd573e7cfccf"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-110444-803919\\snapshots\\00003\\accessibility.json",
+      "sha256": "1212c696ec2fe51f13bf8c8f320f0de215da7c0eef4ed19305cba5b9ffd942dd"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-110444-803919\\snapshots\\00003\\metadata.json",
+      "sha256": "b041e491049fffe8f3654fd708d5cf7ea4ac2e481848a37ba7009f319b058ff9"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-110444-803919\\snapshots\\00003\\page.html",
+      "sha256": "974ad5cbd7e558a3fd023fddf4620d9a5f97297374098beb9935dd573e7cfccf"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-110444-803919\\snapshots\\00004\\accessibility.json",
+      "sha256": "1212c696ec2fe51f13bf8c8f320f0de215da7c0eef4ed19305cba5b9ffd942dd"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-110444-803919\\snapshots\\00004\\metadata.json",
+      "sha256": "b7350f7426fc052c6a2904c36e12a3351489a04c100cb99ff42ac971a3fb899a"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-110444-803919\\snapshots\\00004\\page.html",
+      "sha256": "974ad5cbd7e558a3fd023fddf4620d9a5f97297374098beb9935dd573e7cfccf"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-110444-803919\\snapshots\\00005\\accessibility.json",
+      "sha256": "1212c696ec2fe51f13bf8c8f320f0de215da7c0eef4ed19305cba5b9ffd942dd"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-110444-803919\\snapshots\\00005\\metadata.json",
+      "sha256": "d2d1f3c1feb1ef12a63cd63cf25f1fa4978622f9a9d65677750f5b9e85c6a297"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-110444-803919\\snapshots\\00005\\page.html",
+      "sha256": "974ad5cbd7e558a3fd023fddf4620d9a5f97297374098beb9935dd573e7cfccf"
+    }
+  ],
+  "bundle_files": [
+    {
+      "file": "ui_engine.py",
+      "sha256": "b47deb4da8d456967bbb3066013bfe4853f8e1812f15030f10756e34227700c9"
+    },
+    {
+      "file": "gold.json",
+      "sha256": "c502eaf02ca56971fb80d5960391c218ecb2e78b4eb52f85b0adbfd75f0c2974"
+    },
+    {
+      "file": "mapping.json",
+      "sha256": "4ca51e6e9092a0a561389a8d545d0bb1e726d26c3de25cc02328ad6e4ee5a951"
+    },
+    {
+      "file": "score_runs.py",
+      "sha256": "85380c7c570f1236a27d2fbcc7086aa388283c4eb83deabf680bef0979d6f60a"
+    },
+    {
+      "file": "runs.json",
+      "sha256": "e7e9ddf1bbfbb9f49044ed5a15132a332334a2311f9ab6172ec4b74d888b7d12"
+    }
+  ],
+  "scope": "Shopping finite public read-only contract v0.2: 54 facts; not whole website or complete DB",
+  "status": "finite witnessed contract; not complete website gold"
+}

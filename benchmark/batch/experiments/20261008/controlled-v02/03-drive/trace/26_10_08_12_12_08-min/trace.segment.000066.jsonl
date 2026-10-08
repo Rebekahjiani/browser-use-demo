@@ -1,0 +1,10 @@
+{"args":{"name":"swapper"},"cat":"__metadata","name":"thread_name","ph":"M","pid":0,"tid":0,"ts":0}
+{"args":{"name":"CrRendererMain"},"cat":"__metadata","name":"thread_name","ph":"M","pid":29548,"tid":40800,"ts":0}
+{"args":{"name":"Renderer"},"cat":"__metadata","name":"process_name","ph":"M","pid":29548,"tid":0,"ts":0}
+{"args":{"uptime":"981"},"cat":"__metadata","name":"process_uptime_seconds","ph":"M","pid":29548,"tid":0,"ts":0}
+{"args":{"args":{"had_user_input_before_interactive":true,"total_blocking_time_ms":483.294},"frame":""},"cat":"loading,rail","name":"InteractiveTime","ph":"R","pid":29548,"s":"t","tid":40800,"ts":1551503090910}
+{"args":{"snapshot":{"documentLoaderURL":"http://127.0.0.1:7770/beauty-personal-care/oral-care/children-s-dental-care.html","frame":{"id_ref":"E42C032F4AD866337E63F1AFCB2DA291"},"isLoadingMainFrame":true,"isOutermostMainFrame":true}},"cat":"loading","name":"FrameLoader:state_snapshot","ph":"I","pid":29548,"s":"t","tid":40800,"ts":1551670683375,"tts":22198258}
+{"args":{},"cat":"loading","name":"FrameLoader:deleted","ph":"I","pid":29548,"s":"t","tid":40800,"ts":1551670683434,"tts":22198303}
+{"args":{"substracted_bytes":0,"total_bytes_buffered":0},"cat":"loading","dur":3,"name":"BackForwardCacheBufferLimitTracker::DidRemoveFrameOrWorkerFromBackForwardCache","ph":"X","pid":29548,"tdur":3,"tid":40800,"ts":1551670683438,"tts":22198306}
+{"args":{},"cat":"loading","id":0,"name":"FrameLoader:state_snapshot","ph":"s","pid":29548,"tid":40800,"ts":1551670683375}
+{"args":{},"bp":"e","cat":"loading","id":0,"name":"FrameLoader:state_snapshot","ph":"f","pid":29548,"tid":40800,"ts":1551670683434}

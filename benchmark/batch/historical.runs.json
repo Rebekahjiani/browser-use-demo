@@ -1,0 +1,25 @@
+{
+  "experiment": {
+    "purpose": "Historical regression only; conditions differ"
+  },
+  "gold": "../coverage-v3/gold.v1.json",
+  "mapping": "../ground-truth-vnext/db-ui-mapping.v1.json",
+  "runs": [
+    {
+      "id": "drive-historical",
+      "strategy": "drive",
+      "snapshots": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots",
+      "conditions": {
+        "initial_state": "historical; not controlled"
+      }
+    },
+    {
+      "id": "browser-use-historical",
+      "strategy": "browser-use",
+      "snapshots": "../outputs/20260929-115141-231052/snapshots",
+      "conditions": {
+        "initial_state": "guest; empty cart"
+      }
+    }
+  ]
+}

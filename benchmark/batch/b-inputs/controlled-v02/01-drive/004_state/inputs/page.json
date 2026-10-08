@@ -1,0 +1,10 @@
+{
+  "url": "http://127.0.0.1:7770/catalogsearch/advanced/result/?name=&sku=Seed+a26826&description=launch+seed+cnrya1b977edzz&short_description=keynote+seed+cnryca90abd7zz&price%5Bfrom%5D=&price%5Bto%5D=&price%5Bcurrency%5D=USD",
+  "title": "Advanced Search Results",
+  "route": "/catalogsearch/advanced/result/",
+  "sources": {
+    "accessibility": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\01-drive\\trace\\26_10_08_11_08_15-min\\drive\\screenshots\\004_catalogsearch_advanced_result\\accessibility.json",
+    "sha256_AX": "60ce8cf8c70cbbaf29426deb7c1c3fc9586f6f4cd4c242f15c57917cb4c02aeb"
+  },
+  "material_scope": "recorded UI and conservatively associated JSON responses"
+}

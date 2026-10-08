@@ -1,0 +1,385 @@
+- RootWebArea "Crunchy Rice Rollers - Gluten Free - Vegan - 3.5 oz Individual Packs (4 Packs of 8 Rollers)" [url="http://127.0.0.1:7770/crunchy-rice-rollers-gluten-free-vegan-3-5-oz-individual-packs-4-packs-of-8-rollers.html"]
+  - generic
+    - banner
+      - generic
+        - link "Skip to Content" [url="http://127.0.0.1:7770/crunchy-rice-rollers-gluten-free-vegan-3-5-oz-individual-packs-4-packs-of-8-rollers.html#contentarea"]
+          - StaticText "Skip to Content"
+      - generic
+        - generic
+          - generic
+            - StaticText ""
+          - StaticText "Toggle Nav"
+        - link "store logo" [url="http://127.0.0.1:7770/"]
+          - image "one_stop_market_logo" [url="http://127.0.0.1:7770/media/logo/websites/1/image_15__1.png"]
+        - generic
+          - link " My Cart" [url="http://127.0.0.1:7770/checkout/cart/"]
+            - generic
+              - StaticText ""
+            - StaticText "My Cart"
+        - form
+          - LabelText
+            - generic
+              - StaticText ""
+            - StaticText "Search"
+          - generic
+            - combobox " Search" [expanded=false]
+              - generic
+    - generic
+      - tablist
+        - tab "Menu" [selected=false] [expanded=true]
+          - link "Menu" [url="http://127.0.0.1:7770/crunchy-rice-rollers-gluten-free-vegan-3-5-oz-individual-packs-4-packs-of-8-rollers.html#store.menu"]
+            - StaticText "Menu"
+        - tabpanel
+          - navigation
+            - menu
+              - menuitem "BEAUTY & PERSONAL CARE "
+                - StaticText "BEAUTY & PERSONAL CARE"
+                - generic
+                  - StaticText ""
+              - menuitem "SPORTS & OUTDOORS "
+                - StaticText "SPORTS & OUTDOORS"
+                - generic
+                  - StaticText ""
+              - menuitem "CLOTHING, SHOES & JEWELRY "
+                - StaticText "CLOTHING, SHOES & JEWELRY"
+                - generic
+                  - StaticText ""
+              - menuitem "HOME & KITCHEN "
+                - StaticText "HOME & KITCHEN"
+                - generic
+                  - StaticText ""
+              - menuitem "OFFICE PRODUCTS "
+                - StaticText "OFFICE PRODUCTS"
+                - generic
+                  - StaticText ""
+              - menuitem "TOOLS & HOME IMPROVEMENT "
+                - StaticText "TOOLS & HOME IMPROVEMENT"
+                - generic
+                  - StaticText ""
+              - menuitem "HEALTH & HOUSEHOLD "
+                - StaticText "HEALTH & HOUSEHOLD"
+                - generic
+                  - StaticText ""
+              - menuitem "PATIO, LAWN & GARDEN "
+                - StaticText "PATIO, LAWN & GARDEN"
+                - generic
+                  - StaticText ""
+              - menuitem "ELECTRONICS "
+                - StaticText "ELECTRONICS"
+                - generic
+                  - StaticText ""
+              - menuitem "CELL PHONES & ACCESSORIES "
+                - StaticText "CELL PHONES & ACCESSORIES"
+                - generic
+                  - StaticText ""
+              - menuitem "VIDEO GAMES "
+                - StaticText "VIDEO GAMES"
+                - generic
+                  - StaticText ""
+              - menuitem "GROCERY & GOURMET FOOD "
+                - StaticText "GROCERY & GOURMET FOOD"
+                - generic
+                  - StaticText ""
+        - tab "Account" [selected=false] [expanded=false]
+          - link "Account" [url="http://127.0.0.1:7770/crunchy-rice-rollers-gluten-free-vegan-3-5-oz-individual-packs-4-packs-of-8-rollers.html#store.links"]
+            - StaticText "Account"
+    - list
+      - listitem [level=1]
+        - link "Home" [url="http://127.0.0.1:7770/"]
+          - StaticText "Home"
+        - generic
+          - StaticText ""
+      - listitem [level=1]
+        - strong
+          - StaticText "Crunchy Rice Rollers - Gluten Free - Vegan - 3.5 oz Individual Packs (4 Packs of 8 Rollers)"
+    - main
+      - generic
+      - heading "Crunchy Rice Rollers - Gluten Free - Vegan - 3.5 oz Individual Packs (4 Packs of 8 Rollers)" [level=1]
+        - StaticText "Crunchy Rice Rollers - Gluten Free - Vegan - 3.5 oz Individual Packs (4 Packs of 8 Rollers)"
+      - generic
+        - generic
+          - StaticText "IN STOCK"
+        - generic
+          - strong
+            - StaticText "SKU"
+          - generic
+            - StaticText "B00J7HXXGA"
+      - LayoutTable
+        - generic
+          - StaticText "Rating:"
+          - generic
+            - generic
+              - StaticText ""
+            - generic
+              - StaticText ""
+            - StaticText "83"
+            - StaticText "% of"
+            - StaticText "100"
+        - generic
+          - link "12 Reviews" [url="http://127.0.0.1:7770/crunchy-rice-rollers-gluten-free-vegan-3-5-oz-individual-packs-4-packs-of-8-rollers.html#reviews"]
+            - StaticText "12"
+            - StaticText
+            - StaticText "Reviews"
+          - link "Add Your Review" [url="http://127.0.0.1:7770/crunchy-rice-rollers-gluten-free-vegan-3-5-oz-individual-packs-4-packs-of-8-rollers.html#review-form"]
+            - StaticText "Add Your Review"
+      - generic
+        - generic
+          - StaticText "$11.50"
+      - form
+        - generic
+          - generic
+            - LabelText
+              - StaticText "Flavor Name"
+              - StaticText
+              - StaticText "*"
+            - generic
+              - generic
+                - radio "White Rice" [checked="false"]
+                - LabelText
+                  - StaticText "White Rice"
+              - generic
+                - radio "White Rice - 12 Pk" [checked="false"]
+                - LabelText
+                  - StaticText "White Rice - 12 Pk"
+            - generic
+        - LabelText
+          - StaticText "Qty"
+        - generic
+          - spinbutton "Qty" [value=1]
+            - generic
+              - StaticText "1"
+        - button "Add to Cart"
+          - StaticText "Add to Cart"
+        - generic
+      - generic
+        - link "Add to Wish List" [url="http://127.0.0.1:7770/crunchy-rice-rollers-gluten-free-vegan-3-5-oz-individual-packs-4-packs-of-8-rollers.html#"]
+          - StaticText "Add to Wish List"
+      - generic
+      - generic
+        - link "Skip to the end of the images gallery" [url="http://127.0.0.1:7770/crunchy-rice-rollers-gluten-free-vegan-3-5-oz-individual-packs-4-packs-of-8-rollers.html#gallery-next-area"]
+          - StaticText "Skip to the end of the images gallery"
+      - generic
+        - generic
+        - generic
+        - generic
+          - generic
+            - button "Previous"
+              - generic
+            - generic
+              - generic
+                - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/829a59e57f886f8cf0598ffca4f8a940/B/0/B00J7HXXGA.1.jpg"]
+            - button "Next"
+              - generic
+          - generic
+            - generic
+              - button "Image"
+                - generic
+              - button "Image"
+                - generic
+        - generic
+      - generic
+        - link "Skip to the beginning of the images gallery" [url="http://127.0.0.1:7770/crunchy-rice-rollers-gluten-free-vegan-3-5-oz-individual-packs-4-packs-of-8-rollers.html#gallery-prev-area"]
+          - StaticText "Skip to the beginning of the images gallery"
+      - generic
+      - tablist
+        - tab "Details" [selected=false] [expanded=true]
+          - link "Details" [url="http://127.0.0.1:7770/crunchy-rice-rollers-gluten-free-vegan-3-5-oz-individual-packs-4-packs-of-8-rollers.html#description"]
+            - StaticText "Details"
+        - tabpanel "Details"
+          - generic
+          - generic
+          - generic
+            - generic
+              - separator
+              - heading "Product Description" [level=2]
+                - StaticText "Product Description"
+              - LayoutTable
+                - table
+                  - row
+                    - columnheader
+                    - columnheader "4 Packs of 8 Rollers"
+                      - link "4 Packs of 8 Rollers" [url="http://127.0.0.1:7770/dp/B00J7HXXGA/ref=emc_b_5_i"]
+                        - image "4 Packs of 8 Rollers" [url="https://m.media-amazon.com/images/S/aplus-media/sc/edfff605-9afd-4ef6-8f25-e14d3ca0b79d.__CR0,0,150,300_PT0_SX150_V1___.jpg"]
+                    - columnheader "8 Packs of 8 Rollers"
+                      - link "8 Packs of 8 Rollers" [url="http://127.0.0.1:7770/dp/B00O3J5FB8/ref=emc_b_5_i"]
+                        - image "8 Packs of 8 Rollers" [url="https://m.media-amazon.com/images/S/aplus-media/sc/9ca8b6a9-a1d8-4382-9c49-da9c6f933a2d.__CR0,0,150,300_PT0_SX150_V1___.jpg"]
+                    - columnheader "12 Packs of 8 Rollers"
+                      - link "12 Packs of 8 Rollers" [url="http://127.0.0.1:7770/dp/B01N365D7B/ref=emc_b_5_i"]
+                        - image "12 Packs of 8 Rollers" [url="https://m.media-amazon.com/images/S/aplus-media/sc/626cbdc8-1c42-41ff-a3be-99f6e9f091a9.__CR0,0,150,300_PT0_SX150_V1___.jpg"]
+                    - columnheader "Friendly Grains Crunchy Rollers Original 32 ct. Allergen Friendly puffed brown rice snacks."
+                      - link "Friendly Grains Crunchy Rollers Original 32 ct. Allergen Friendly puffed brown rice snacks." [url="http://127.0.0.1:7770/dp/B06XS5C7MX/ref=emc_b_5_i"]
+                        - image "Friendly Grains Crunchy Rollers Original 32 ct. Allergen Friendly puffed brown rice snacks." [url="https://m.media-amazon.com/images/S/aplus-media-library-service-media/37e6a332-5b85-4453-9ac9-a70f6807ba1e.__CR0,0,300,600_PT0_SX150_V1___.jpg"]
+                    - columnheader "Friendly Grains Crunchy Rollers Caramel Sea Salt. Allergen Friendly puffed brown rice snacks."
+                      - link "Friendly Grains Crunchy Rollers Caramel Sea Salt. Allergen Friendly puffed brown rice snacks." [url="http://127.0.0.1:7770/dp/B084D2PGT5/ref=emc_b_5_i"]
+                        - image "Friendly Grains Crunchy Rollers Caramel Sea Salt. Allergen Friendly puffed brown rice snacks." [url="https://m.media-amazon.com/images/S/aplus-media-library-service-media/324bba37-8d8b-476a-b816-d802e9d8967c.__CR0,0,300,600_PT0_SX150_V1___.jpg"]
+                    - columnheader "Friendly Grains Crunchy Rollers Strawberry. Allergen Friendly puffed brown rice snacks."
+                      - link "Friendly Grains Crunchy Rollers Strawberry. Allergen Friendly puffed brown rice snacks." [url="http://127.0.0.1:7770/dp/B07VWRT7G1/ref=emc_b_5_i"]
+                        - image "Friendly Grains Crunchy Rollers Strawberry. Allergen Friendly puffed brown rice snacks." [url="https://m.media-amazon.com/images/S/aplus-media-library-service-media/cb63e200-3a12-454e-8f05-cb27357e45ab.__CR0,0,300,600_PT0_SX150_V1___.jpg"]
+                  - row
+                    - columnheader
+                    - columnheader "Classic White Rice"
+                      - link "Classic White Rice" [url="http://127.0.0.1:7770/dp/B00J7HXXGA/ref=emc_b_5_t"]
+                        - StaticText "Classic White Rice"
+                    - columnheader "Classic White Rice"
+                      - link "Classic White Rice" [url="http://127.0.0.1:7770/dp/B00O3J5FB8/ref=emc_b_5_t"]
+                        - StaticText "Classic White Rice"
+                    - columnheader "Classic White Rice"
+                      - link "Classic White Rice" [url="http://127.0.0.1:7770/dp/B01N365D7B/ref=emc_b_5_t"]
+                        - StaticText "Classic White Rice"
+                    - columnheader "Original Brown Rice"
+                      - link "Original Brown Rice" [url="http://127.0.0.1:7770/dp/B06XS5C7MX/ref=emc_b_5_t"]
+                        - StaticText "Original Brown Rice"
+                    - columnheader "Caramel Sea Salt"
+                      - link "Caramel Sea Salt" [url="http://127.0.0.1:7770/dp/B084D2PGT5/ref=emc_b_5_t"]
+                        - StaticText "Caramel Sea Salt"
+                    - columnheader "Apple Cinnamon"
+                      - link "Apple Cinnamon" [url="http://127.0.0.1:7770/dp/B07VWRT7G1/ref=emc_b_5_t"]
+                        - StaticText "Apple Cinnamon"
+                  - row
+                    - rowheader "Pack Type"
+                      - StaticText "Pack Type"
+                    - cell "4 Packs of 8 Rollers"
+                      - StaticText "4 Packs of 8 Rollers"
+                    - cell "8 Packs of 8 Rollers"
+                      - StaticText "8 Packs of 8 Rollers"
+                    - cell "12 Packs of 8 Rollers"
+                      - StaticText "12 Packs of 8 Rollers"
+                    - cell "16 Pack of 2 Rollers"
+                      - StaticText "16 Pack of 2 Rollers"
+                    - cell "4 Packs of 6 Rollers"
+                      - StaticText "4 Packs of 6 Rollers"
+                    - cell "8 Packs of 2 Rollers"
+                      - StaticText "8 Packs of 2 Rollers"
+                  - row
+                    - rowheader "Other Flavors"
+                      - StaticText "Other Flavors"
+                    - cell
+                    - cell
+                    - cell
+                    - cell
+                    - cell "✓"
+                      - StaticText "✓"
+                    - cell "✓"
+                      - StaticText "✓"
+                  - row
+                    - rowheader "Gluten Free"
+                      - StaticText "Gluten Free"
+                    - cell "✓"
+                      - StaticText "✓"
+                    - cell "✓"
+                      - StaticText "✓"
+                    - cell "✓"
+                      - StaticText "✓"
+                    - cell "✓"
+                      - StaticText "✓"
+                    - cell "✓"
+                      - StaticText "✓"
+                    - cell "✓"
+                      - StaticText "✓"
+                  - row
+                    - rowheader "Safe for School"
+                      - StaticText "Safe for School"
+                    - cell "✓"
+                      - StaticText "✓"
+                    - cell "✓"
+                      - StaticText "✓"
+                    - cell "✓"
+                      - StaticText "✓"
+                    - cell "✓"
+                      - StaticText "✓"
+                    - cell "✓"
+                      - StaticText "✓"
+                    - cell "✓"
+                      - StaticText "✓"
+          - generic
+          - generic
+            - heading "Product Quick Look" [level=2]
+              - StaticText "Product Quick Look"
+            - generic
+              - list
+                - listitem [level=1]
+                  - ListMarker "•"
+                  - StaticText "Grocery"
+                - listitem [level=1]
+                  - ListMarker "•"
+                  - StaticText "Crunchy Rice"
+                - listitem [level=1]
+                  - ListMarker "•"
+                  - StaticText "Bamboo Lane"
+            - table
+              - row
+                - rowheader "Is Discontinued By Manufacturer ‏"
+                  - StaticText "Is Discontinued By Manufacturer ‏"
+                - cell "‎ No"
+                  - StaticText "‎ No"
+              - row
+                - rowheader "Package Dimensions ‏"
+                  - StaticText "Package Dimensions ‏"
+                - cell "‎ 11.42 x 8.62 x 5.24 inches; 14.4 Ounces"
+                  - StaticText "‎ 11.42 x 8.62 x 5.24 inches; 14.4 Ounces"
+              - row
+                - rowheader "Item model number ‏"
+                  - StaticText "Item model number ‏"
+                - cell "‎ 00268403"
+                  - StaticText "‎ 00268403"
+              - row
+                - rowheader "UPC ‏"
+                  - StaticText "UPC ‏"
+                - cell "‎ 825625700049"
+                  - StaticText "‎ 825625700049"
+              - row
+                - rowheader "Manufacturer ‏"
+                  - StaticText "Manufacturer ‏"
+                - cell "‎ Bamboo Lane"
+                  - StaticText "‎ Bamboo Lane"
+              - row
+                - rowheader "ASIN ‏"
+                  - StaticText "ASIN ‏"
+                - cell "‎ B00J7HXXGA"
+                  - StaticText "‎ B00J7HXXGA"
+              - row
+                - rowheader "#34 in Rice Cakes"
+                  - StaticText "#34 in Rice Cakes"
+                - cell
+        - tab "Reviews (12)" [selected=false] [expanded=false]
+          - link "Reviews (12)" [url="http://127.0.0.1:7770/crunchy-rice-rollers-gluten-free-vegan-3-5-oz-individual-packs-4-packs-of-8-rollers.html#reviews"]
+            - StaticText "Reviews"
+            - StaticText "("
+            - StaticText "12"
+            - StaticText ")"
+    - contentinfo
+      - form
+        - generic
+          - generic
+            - StaticText ""
+          - LabelText
+            - StaticText "Sign Up for Our Newsletter:"
+            - textbox "Sign Up for Our Newsletter:"
+              - generic
+        - generic
+          - button "Subscribe"
+            - StaticText "Subscribe"
+      - list
+        - listitem [level=1]
+          - link "Privacy and Cookie Policy" [url="http://127.0.0.1:7770/privacy-policy-cookie-restriction-mode/"]
+            - StaticText "Privacy and Cookie Policy"
+        - listitem [level=1]
+          - link "Search Terms" [url="http://127.0.0.1:7770/search/term/popular/"]
+            - StaticText "Search Terms"
+        - listitem [level=1]
+          - link "Advanced Search" [url="http://127.0.0.1:7770/catalogsearch/advanced/"]
+            - StaticText "Advanced Search"
+        - listitem [level=1]
+          - link "Orders and Returns" [url="http://127.0.0.1:7770/sales/guest/form/"]
+            - StaticText "Orders and Returns"
+        - listitem [level=1]
+          - link "Contact Us" [url="http://127.0.0.1:7770/contact/"]
+            - StaticText "Contact Us"
+      - generic
+        - StaticText "Copyright © 2013-present Magento, Inc. All rights reserved."
+      - generic
+        - StaticText "Help Us Keep Magento Healthy"
+        - StaticText
+        - link "Report All Bugs" [url="http://www.magentocommerce.com/bug-tracking"]
+          - StaticText "Report All Bugs"
+    - generic

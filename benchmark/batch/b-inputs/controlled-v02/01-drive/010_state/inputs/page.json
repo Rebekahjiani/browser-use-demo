@@ -1,0 +1,10 @@
+{
+  "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/toothbrushes-accessories.html",
+  "title": "Toothbrushes & Accessories - Oral Care - Beauty & Personal Care",
+  "route": "/beauty-personal-care/oral-care/toothbrushes-accessories.html",
+  "sources": {
+    "accessibility": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\01-drive\\trace\\26_10_08_11_08_15-min\\drive\\screenshots\\011_beauty-personal-care_oral-care_toothbrushes-accessories_html\\accessibility.json",
+    "sha256_AX": "f78069ed8568133b94c898509874ee074164a74578ad81e3fd36f25eb6d09e57"
+  },
+  "material_scope": "recorded UI and conservatively associated JSON responses"
+}

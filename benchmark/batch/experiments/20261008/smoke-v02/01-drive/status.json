@@ -1,0 +1,214 @@
+{
+  "ok": true,
+  "exploreId": "c32232fe-194c-47a9-9c76-7fd7239d3292",
+  "state": "completed",
+  "profileId": "467dcf6d-ca4b-409a-aeed-bceed9322206",
+  "startedAt": "2026-10-08T03:04:27.996Z",
+  "finishedAt": "2026-10-08T03:04:35.502Z",
+  "result": {
+    "run": {
+      "id": "c32232fe-194c-47a9-9c76-7fd7239d3292",
+      "startedAt": "2026-10-08T03:04:27.996Z",
+      "finishedAt": "2026-10-08T03:04:35.502Z",
+      "durationMs": 7506,
+      "target": "http://127.0.0.1:7770/",
+      "complete": true
+    },
+    "config": {
+      "seed": "controlled-20261008-1",
+      "maxActions": 5,
+      "maxDurationMs": 300000,
+      "allowSubmit": true
+    },
+    "stats": {
+      "actionsTaken": 4,
+      "pagesVisited": 2,
+      "statesDiscovered": 2,
+      "recordsCreated": 0,
+      "findingsBySeverity": {
+        "critical": 0,
+        "high": 1,
+        "medium": 6,
+        "low": 6,
+        "info": 0
+      }
+    },
+    "actions": [
+      {
+        "step": 0,
+        "kind": "dblclick",
+        "stateHash": "543756ab",
+        "fp": "f0e5d412",
+        "target": ".product-image-container-104488 { width: 240px; } .product-image-container-10448",
+        "selector": "body:nth-child(2) > div:nth-child(8) > main:nth-child(3) > div:nth-child(4) > div:nth-child(1) > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > ol:nth-child(1) > li:nth-child(12) > div:nth-child(1) > a:nth-child(1)",
+        "url": "http://127.0.0.1:7770/",
+        "ts": 1791428671740,
+        "navigated": false
+      },
+      {
+        "step": 2,
+        "kind": "hover",
+        "stateHash": "7d90a310",
+        "fp": "474c9aba",
+        "target": "Orders and Returns",
+        "selector": "body:nth-child(2) > div:nth-child(8) > footer:nth-child(5) > div:nth-child(1) > ul:nth-child(2) > li:nth-child(4) > a:nth-child(1)",
+        "url": "http://127.0.0.1:7770/crunchy-rice-rollers-gluten-free-vegan-3-5-oz-individual-packs-4-packs-of-8-rollers.html",
+        "ts": 1791428674693,
+        "navigated": false
+      },
+      {
+        "step": 3,
+        "kind": "key",
+        "stateHash": "7d90a310",
+        "fp": "317b4699",
+        "target": "White Rice",
+        "selector": "body:nth-child(2) > div:nth-child(8) > main:nth-child(4) > div:nth-child(4) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > form:nth-child(1) > div:nth-child(6) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > label:nth-child(2)",
+        "value": "ArrowUp",
+        "url": "http://127.0.0.1:7770/crunchy-rice-rollers-gluten-free-vegan-3-5-oz-individual-packs-4-packs-of-8-rollers.html",
+        "ts": 1791428675006,
+        "navigated": false
+      },
+      {
+        "step": 4,
+        "kind": "click",
+        "stateHash": "7d90a310",
+        "fp": "0410f8da",
+        "target": "Image",
+        "selector": "body:nth-child(2) > div:nth-child(8) > main:nth-child(4) > div:nth-child(4) > div:nth-child(1) > div:nth-child(2) > div:nth-child(3) > div:nth-child(3) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(4)",
+        "url": "http://127.0.0.1:7770/crunchy-rice-rollers-gluten-free-vegan-3-5-oz-individual-packs-4-packs-of-8-rollers.html",
+        "ts": 1791428675287,
+        "navigated": false
+      }
+    ],
+    "signals": [
+      {
+        "kind": "pageerror",
+        "detail": "P is not defined\nReferenceError: P is not defined\n    at http://127.0.0.1:7770/crunchy-rice-rollers-gluten-free-vegan-3-5-oz-individual-packs-4-packs-of-8-rollers.html:979:5",
+        "url": "http://127.0.0.1:7770/crunchy-rice-rollers-gluten-free-vegan-3-5-oz-individual-packs-4-packs-of-8-rollers.html",
+        "at": 1791428672560,
+        "severity": "high"
+      },
+      {
+        "kind": "requestfailed",
+        "detail": "GET https://m.media-amazon.com/images/S/aplus-media/sc/edfff605-9afd-4ef6-8f25-e14d3ca0b79d.__CR0,0,150,300_PT0_SX150_V1___.jpg — net::ERR_TUNNEL_CONNECTION_FAILED",
+        "url": "https://m.media-amazon.com/images/S/aplus-media/sc/edfff605-9afd-4ef6-8f25-e14d3ca0b79d.__CR0,0,150,300_PT0_SX150_V1___.jpg",
+        "at": 1791428672564,
+        "severity": "medium",
+        "meta": {
+          "resourceType": "image"
+        }
+      },
+      {
+        "kind": "console.error",
+        "detail": "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "url": "http://127.0.0.1:7770/crunchy-rice-rollers-gluten-free-vegan-3-5-oz-individual-packs-4-packs-of-8-rollers.html",
+        "at": 1791428672564,
+        "severity": "low",
+        "meta": {
+          "source": "https://m.media-amazon.com"
+        }
+      },
+      {
+        "kind": "requestfailed",
+        "detail": "GET https://m.media-amazon.com/images/S/aplus-media/sc/9ca8b6a9-a1d8-4382-9c49-da9c6f933a2d.__CR0,0,150,300_PT0_SX150_V1___.jpg — net::ERR_TUNNEL_CONNECTION_FAILED",
+        "url": "https://m.media-amazon.com/images/S/aplus-media/sc/9ca8b6a9-a1d8-4382-9c49-da9c6f933a2d.__CR0,0,150,300_PT0_SX150_V1___.jpg",
+        "at": 1791428672564,
+        "severity": "medium",
+        "meta": {
+          "resourceType": "image"
+        }
+      },
+      {
+        "kind": "console.error",
+        "detail": "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "url": "http://127.0.0.1:7770/crunchy-rice-rollers-gluten-free-vegan-3-5-oz-individual-packs-4-packs-of-8-rollers.html",
+        "at": 1791428672564,
+        "severity": "low",
+        "meta": {
+          "source": "https://m.media-amazon.com"
+        }
+      },
+      {
+        "kind": "requestfailed",
+        "detail": "GET https://m.media-amazon.com/images/S/aplus-media/sc/626cbdc8-1c42-41ff-a3be-99f6e9f091a9.__CR0,0,150,300_PT0_SX150_V1___.jpg — net::ERR_TUNNEL_CONNECTION_FAILED",
+        "url": "https://m.media-amazon.com/images/S/aplus-media/sc/626cbdc8-1c42-41ff-a3be-99f6e9f091a9.__CR0,0,150,300_PT0_SX150_V1___.jpg",
+        "at": 1791428672566,
+        "severity": "medium",
+        "meta": {
+          "resourceType": "image"
+        }
+      },
+      {
+        "kind": "console.error",
+        "detail": "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "url": "http://127.0.0.1:7770/crunchy-rice-rollers-gluten-free-vegan-3-5-oz-individual-packs-4-packs-of-8-rollers.html",
+        "at": 1791428672566,
+        "severity": "low",
+        "meta": {
+          "source": "https://m.media-amazon.com"
+        }
+      },
+      {
+        "kind": "requestfailed",
+        "detail": "GET https://m.media-amazon.com/images/S/aplus-media-library-service-media/37e6a332-5b85-4453-9ac9-a70f6807ba1e.__CR0,0,300,600_PT0_SX150_V1___.jpg — net::ERR_TUNNEL_CONNECTION_FAILED",
+        "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/37e6a332-5b85-4453-9ac9-a70f6807ba1e.__CR0,0,300,600_PT0_SX150_V1___.jpg",
+        "at": 1791428672574,
+        "severity": "medium",
+        "meta": {
+          "resourceType": "image"
+        }
+      },
+      {
+        "kind": "console.error",
+        "detail": "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "url": "http://127.0.0.1:7770/crunchy-rice-rollers-gluten-free-vegan-3-5-oz-individual-packs-4-packs-of-8-rollers.html",
+        "at": 1791428672574,
+        "severity": "low",
+        "meta": {
+          "source": "https://m.media-amazon.com"
+        }
+      },
+      {
+        "kind": "requestfailed",
+        "detail": "GET https://m.media-amazon.com/images/S/aplus-media-library-service-media/324bba37-8d8b-476a-b816-d802e9d8967c.__CR0,0,300,600_PT0_SX150_V1___.jpg — net::ERR_TUNNEL_CONNECTION_FAILED",
+        "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/324bba37-8d8b-476a-b816-d802e9d8967c.__CR0,0,300,600_PT0_SX150_V1___.jpg",
+        "at": 1791428672575,
+        "severity": "medium",
+        "meta": {
+          "resourceType": "image"
+        }
+      },
+      {
+        "kind": "console.error",
+        "detail": "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "url": "http://127.0.0.1:7770/crunchy-rice-rollers-gluten-free-vegan-3-5-oz-individual-packs-4-packs-of-8-rollers.html",
+        "at": 1791428672575,
+        "severity": "low",
+        "meta": {
+          "source": "https://m.media-amazon.com"
+        }
+      },
+      {
+        "kind": "requestfailed",
+        "detail": "GET https://m.media-amazon.com/images/S/aplus-media-library-service-media/cb63e200-3a12-454e-8f05-cb27357e45ab.__CR0,0,300,600_PT0_SX150_V1___.jpg — net::ERR_TUNNEL_CONNECTION_FAILED",
+        "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/cb63e200-3a12-454e-8f05-cb27357e45ab.__CR0,0,300,600_PT0_SX150_V1___.jpg",
+        "at": 1791428672575,
+        "severity": "medium",
+        "meta": {
+          "resourceType": "image"
+        }
+      },
+      {
+        "kind": "console.error",
+        "detail": "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "url": "http://127.0.0.1:7770/crunchy-rice-rollers-gluten-free-vegan-3-5-oz-individual-packs-4-packs-of-8-rollers.html",
+        "at": 1791428672575,
+        "severity": "low",
+        "meta": {
+          "source": "https://m.media-amazon.com"
+        }
+      }
+    ]
+  },
+  "reason": "budget exhausted"
+}

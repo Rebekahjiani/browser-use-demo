@@ -1,0 +1,550 @@
+{
+  "captured_at": "2026-10-08T02:32:15.403486+00:00",
+  "method": "Read-only bounded catalog samples, at most three rows per EAV attribute; empty sample is not proof of UI invisibility",
+  "queries": {
+    "catalog_category.name": "SELECT entity_id,store_id,value FROM catalog_category_entity_varchar WHERE attribute_id=45 AND value IS NOT NULL AND CAST(value AS CHAR) <> '' LIMIT 3",
+    "catalog_category.is_active": "SELECT entity_id,store_id,value FROM catalog_category_entity_int WHERE attribute_id=46 AND value IS NOT NULL AND CAST(value AS CHAR) <> '' LIMIT 3",
+    "catalog_category.description": "SELECT entity_id,store_id,value FROM catalog_category_entity_text WHERE attribute_id=47 AND value IS NOT NULL AND CAST(value AS CHAR) <> '' LIMIT 3",
+    "catalog_category.image": "SELECT entity_id,store_id,value FROM catalog_category_entity_varchar WHERE attribute_id=48 AND value IS NOT NULL AND CAST(value AS CHAR) <> '' LIMIT 3",
+    "catalog_category.meta_title": "SELECT entity_id,store_id,value FROM catalog_category_entity_varchar WHERE attribute_id=49 AND value IS NOT NULL AND CAST(value AS CHAR) <> '' LIMIT 3",
+    "catalog_category.meta_keywords": "SELECT entity_id,store_id,value FROM catalog_category_entity_text WHERE attribute_id=50 AND value IS NOT NULL AND CAST(value AS CHAR) <> '' LIMIT 3",
+    "catalog_category.meta_description": "SELECT entity_id,store_id,value FROM catalog_category_entity_text WHERE attribute_id=51 AND value IS NOT NULL AND CAST(value AS CHAR) <> '' LIMIT 3",
+    "catalog_category.display_mode": "SELECT entity_id,store_id,value FROM catalog_category_entity_varchar WHERE attribute_id=52 AND value IS NOT NULL AND CAST(value AS CHAR) <> '' LIMIT 3",
+    "catalog_category.landing_page": "SELECT entity_id,store_id,value FROM catalog_category_entity_int WHERE attribute_id=53 AND value IS NOT NULL AND CAST(value AS CHAR) <> '' LIMIT 3",
+    "catalog_category.is_anchor": "SELECT entity_id,store_id,value FROM catalog_category_entity_int WHERE attribute_id=54 AND value IS NOT NULL AND CAST(value AS CHAR) <> '' LIMIT 3",
+    "catalog_category.all_children": "SELECT entity_id,store_id,value FROM catalog_category_entity_text WHERE attribute_id=57 AND value IS NOT NULL AND CAST(value AS CHAR) <> '' LIMIT 3",
+    "catalog_category.path_in_store": "SELECT entity_id,store_id,value FROM catalog_category_entity_text WHERE attribute_id=58 AND value IS NOT NULL AND CAST(value AS CHAR) <> '' LIMIT 3",
+    "catalog_category.children": "SELECT entity_id,store_id,value FROM catalog_category_entity_text WHERE attribute_id=59 AND value IS NOT NULL AND CAST(value AS CHAR) <> '' LIMIT 3",
+    "catalog_category.custom_design": "SELECT entity_id,store_id,value FROM catalog_category_entity_varchar WHERE attribute_id=60 AND value IS NOT NULL AND CAST(value AS CHAR) <> '' LIMIT 3",
+    "catalog_category.custom_design_from": "SELECT entity_id,store_id,value FROM catalog_category_entity_datetime WHERE attribute_id=61 AND value IS NOT NULL AND CAST(value AS CHAR) <> '' LIMIT 3",
+    "catalog_category.custom_design_to": "SELECT entity_id,store_id,value FROM catalog_category_entity_datetime WHERE attribute_id=62 AND value IS NOT NULL AND CAST(value AS CHAR) <> '' LIMIT 3",
+    "catalog_category.page_layout": "SELECT entity_id,store_id,value FROM catalog_category_entity_varchar WHERE attribute_id=63 AND value IS NOT NULL AND CAST(value AS CHAR) <> '' LIMIT 3",
+    "catalog_category.custom_layout_update": "SELECT entity_id,store_id,value FROM catalog_category_entity_text WHERE attribute_id=64 AND value IS NOT NULL AND CAST(value AS CHAR) <> '' LIMIT 3",
+    "catalog_category.available_sort_by": "SELECT entity_id,store_id,value FROM catalog_category_entity_text WHERE attribute_id=67 AND value IS NOT NULL AND CAST(value AS CHAR) <> '' LIMIT 3",
+    "catalog_category.default_sort_by": "SELECT entity_id,store_id,value FROM catalog_category_entity_varchar WHERE attribute_id=68 AND value IS NOT NULL AND CAST(value AS CHAR) <> '' LIMIT 3",
+    "catalog_category.include_in_menu": "SELECT entity_id,store_id,value FROM catalog_category_entity_int WHERE attribute_id=69 AND value IS NOT NULL AND CAST(value AS CHAR) <> '' LIMIT 3",
+    "catalog_category.custom_use_parent_settings": "SELECT entity_id,store_id,value FROM catalog_category_entity_int WHERE attribute_id=70 AND value IS NOT NULL AND CAST(value AS CHAR) <> '' LIMIT 3",
+    "catalog_category.custom_apply_to_products": "SELECT entity_id,store_id,value FROM catalog_category_entity_int WHERE attribute_id=71 AND value IS NOT NULL AND CAST(value AS CHAR) <> '' LIMIT 3",
+    "catalog_category.filter_price_range": "SELECT entity_id,store_id,value FROM catalog_category_entity_decimal WHERE attribute_id=72 AND value IS NOT NULL AND CAST(value AS CHAR) <> '' LIMIT 3",
+    "catalog_product.name": "SELECT entity_id,store_id,value FROM catalog_product_entity_varchar WHERE attribute_id=73 AND value IS NOT NULL AND CAST(value AS CHAR) <> '' LIMIT 3",
+    "catalog_product.description": "SELECT entity_id,store_id,value FROM catalog_product_entity_text WHERE attribute_id=75 AND value IS NOT NULL AND CAST(value AS CHAR) <> '' LIMIT 3",
+    "catalog_product.short_description": "SELECT entity_id,store_id,value FROM catalog_product_entity_text WHERE attribute_id=76 AND value IS NOT NULL AND CAST(value AS CHAR) <> '' LIMIT 3",
+    "catalog_product.price": "SELECT entity_id,store_id,value FROM catalog_product_entity_decimal WHERE attribute_id=77 AND value IS NOT NULL AND CAST(value AS CHAR) <> '' LIMIT 3",
+    "catalog_product.special_price": "SELECT entity_id,store_id,value FROM catalog_product_entity_decimal WHERE attribute_id=78 AND value IS NOT NULL AND CAST(value AS CHAR) <> '' LIMIT 3",
+    "catalog_product.special_from_date": "SELECT entity_id,store_id,value FROM catalog_product_entity_datetime WHERE attribute_id=79 AND value IS NOT NULL AND CAST(value AS CHAR) <> '' LIMIT 3",
+    "catalog_product.special_to_date": "SELECT entity_id,store_id,value FROM catalog_product_entity_datetime WHERE attribute_id=80 AND value IS NOT NULL AND CAST(value AS CHAR) <> '' LIMIT 3",
+    "catalog_product.cost": "SELECT entity_id,store_id,value FROM catalog_product_entity_decimal WHERE attribute_id=81 AND value IS NOT NULL AND CAST(value AS CHAR) <> '' LIMIT 3",
+    "catalog_product.weight": "SELECT entity_id,store_id,value FROM catalog_product_entity_decimal WHERE attribute_id=82 AND value IS NOT NULL AND CAST(value AS CHAR) <> '' LIMIT 3",
+    "catalog_product.manufacturer": "SELECT entity_id,store_id,value FROM catalog_product_entity_int WHERE attribute_id=83 AND value IS NOT NULL AND CAST(value AS CHAR) <> '' LIMIT 3",
+    "catalog_product.meta_title": "SELECT entity_id,store_id,value FROM catalog_product_entity_varchar WHERE attribute_id=84 AND value IS NOT NULL AND CAST(value AS CHAR) <> '' LIMIT 3",
+    "catalog_product.meta_keyword": "SELECT entity_id,store_id,value FROM catalog_product_entity_text WHERE attribute_id=85 AND value IS NOT NULL AND CAST(value AS CHAR) <> '' LIMIT 3",
+    "catalog_product.meta_description": "SELECT entity_id,store_id,value FROM catalog_product_entity_varchar WHERE attribute_id=86 AND value IS NOT NULL AND CAST(value AS CHAR) <> '' LIMIT 3",
+    "catalog_product.image": "SELECT entity_id,store_id,value FROM catalog_product_entity_varchar WHERE attribute_id=87 AND value IS NOT NULL AND CAST(value AS CHAR) <> '' LIMIT 3",
+    "catalog_product.small_image": "SELECT entity_id,store_id,value FROM catalog_product_entity_varchar WHERE attribute_id=88 AND value IS NOT NULL AND CAST(value AS CHAR) <> '' LIMIT 3",
+    "catalog_product.thumbnail": "SELECT entity_id,store_id,value FROM catalog_product_entity_varchar WHERE attribute_id=89 AND value IS NOT NULL AND CAST(value AS CHAR) <> '' LIMIT 3",
+    "catalog_product.old_id": "SELECT entity_id,store_id,value FROM catalog_product_entity_int WHERE attribute_id=91 AND value IS NOT NULL AND CAST(value AS CHAR) <> '' LIMIT 3",
+    "catalog_product.tier_price": "SELECT entity_id,store_id,value FROM catalog_product_entity_decimal WHERE attribute_id=92 AND value IS NOT NULL AND CAST(value AS CHAR) <> '' LIMIT 3",
+    "catalog_product.color": "SELECT entity_id,store_id,value FROM catalog_product_entity_int WHERE attribute_id=93 AND value IS NOT NULL AND CAST(value AS CHAR) <> '' LIMIT 3",
+    "catalog_product.news_from_date": "SELECT entity_id,store_id,value FROM catalog_product_entity_datetime WHERE attribute_id=94 AND value IS NOT NULL AND CAST(value AS CHAR) <> '' LIMIT 3",
+    "catalog_product.news_to_date": "SELECT entity_id,store_id,value FROM catalog_product_entity_datetime WHERE attribute_id=95 AND value IS NOT NULL AND CAST(value AS CHAR) <> '' LIMIT 3",
+    "catalog_product.gallery": "SELECT entity_id,store_id,value FROM catalog_product_entity_varchar WHERE attribute_id=96 AND value IS NOT NULL AND CAST(value AS CHAR) <> '' LIMIT 3",
+    "catalog_product.status": "SELECT entity_id,store_id,value FROM catalog_product_entity_int WHERE attribute_id=97 AND value IS NOT NULL AND CAST(value AS CHAR) <> '' LIMIT 3",
+    "catalog_product.minimal_price": "SELECT entity_id,store_id,value FROM catalog_product_entity_decimal WHERE attribute_id=98 AND value IS NOT NULL AND CAST(value AS CHAR) <> '' LIMIT 3",
+    "catalog_product.visibility": "SELECT entity_id,store_id,value FROM catalog_product_entity_int WHERE attribute_id=99 AND value IS NOT NULL AND CAST(value AS CHAR) <> '' LIMIT 3",
+    "catalog_product.custom_design": "SELECT entity_id,store_id,value FROM catalog_product_entity_varchar WHERE attribute_id=100 AND value IS NOT NULL AND CAST(value AS CHAR) <> '' LIMIT 3",
+    "catalog_product.custom_design_from": "SELECT entity_id,store_id,value FROM catalog_product_entity_datetime WHERE attribute_id=101 AND value IS NOT NULL AND CAST(value AS CHAR) <> '' LIMIT 3",
+    "catalog_product.custom_design_to": "SELECT entity_id,store_id,value FROM catalog_product_entity_datetime WHERE attribute_id=102 AND value IS NOT NULL AND CAST(value AS CHAR) <> '' LIMIT 3",
+    "catalog_product.custom_layout_update": "SELECT entity_id,store_id,value FROM catalog_product_entity_text WHERE attribute_id=103 AND value IS NOT NULL AND CAST(value AS CHAR) <> '' LIMIT 3",
+    "catalog_product.page_layout": "SELECT entity_id,store_id,value FROM catalog_product_entity_varchar WHERE attribute_id=104 AND value IS NOT NULL AND CAST(value AS CHAR) <> '' LIMIT 3",
+    "catalog_product.options_container": "SELECT entity_id,store_id,value FROM catalog_product_entity_varchar WHERE attribute_id=106 AND value IS NOT NULL AND CAST(value AS CHAR) <> '' LIMIT 3",
+    "catalog_product.image_label": "SELECT entity_id,store_id,value FROM catalog_product_entity_varchar WHERE attribute_id=109 AND value IS NOT NULL AND CAST(value AS CHAR) <> '' LIMIT 3",
+    "catalog_product.small_image_label": "SELECT entity_id,store_id,value FROM catalog_product_entity_varchar WHERE attribute_id=110 AND value IS NOT NULL AND CAST(value AS CHAR) <> '' LIMIT 3",
+    "catalog_product.thumbnail_label": "SELECT entity_id,store_id,value FROM catalog_product_entity_varchar WHERE attribute_id=111 AND value IS NOT NULL AND CAST(value AS CHAR) <> '' LIMIT 3",
+    "catalog_product.country_of_manufacture": "SELECT entity_id,store_id,value FROM catalog_product_entity_varchar WHERE attribute_id=114 AND value IS NOT NULL AND CAST(value AS CHAR) <> '' LIMIT 3",
+    "catalog_product.quantity_and_stock_status": "SELECT entity_id,store_id,value FROM catalog_product_entity_int WHERE attribute_id=115 AND value IS NOT NULL AND CAST(value AS CHAR) <> '' LIMIT 3",
+    "catalog_product.custom_layout": "SELECT entity_id,store_id,value FROM catalog_product_entity_varchar WHERE attribute_id=116 AND value IS NOT NULL AND CAST(value AS CHAR) <> '' LIMIT 3",
+    "catalog_product.custom_layout_update_file": "SELECT entity_id,store_id,value FROM catalog_product_entity_varchar WHERE attribute_id=117 AND value IS NOT NULL AND CAST(value AS CHAR) <> '' LIMIT 3",
+    "catalog_category.custom_layout_update_file": "SELECT entity_id,store_id,value FROM catalog_category_entity_varchar WHERE attribute_id=118 AND value IS NOT NULL AND CAST(value AS CHAR) <> '' LIMIT 3",
+    "catalog_category.url_key": "SELECT entity_id,store_id,value FROM catalog_category_entity_varchar WHERE attribute_id=119 AND value IS NOT NULL AND CAST(value AS CHAR) <> '' LIMIT 3",
+    "catalog_category.url_path": "SELECT entity_id,store_id,value FROM catalog_category_entity_varchar WHERE attribute_id=120 AND value IS NOT NULL AND CAST(value AS CHAR) <> '' LIMIT 3",
+    "catalog_product.url_key": "SELECT entity_id,store_id,value FROM catalog_product_entity_varchar WHERE attribute_id=121 AND value IS NOT NULL AND CAST(value AS CHAR) <> '' LIMIT 3",
+    "catalog_product.url_path": "SELECT entity_id,store_id,value FROM catalog_product_entity_varchar WHERE attribute_id=122 AND value IS NOT NULL AND CAST(value AS CHAR) <> '' LIMIT 3",
+    "catalog_product.msrp": "SELECT entity_id,store_id,value FROM catalog_product_entity_decimal WHERE attribute_id=123 AND value IS NOT NULL AND CAST(value AS CHAR) <> '' LIMIT 3",
+    "catalog_product.msrp_display_actual_price_type": "SELECT entity_id,store_id,value FROM catalog_product_entity_varchar WHERE attribute_id=124 AND value IS NOT NULL AND CAST(value AS CHAR) <> '' LIMIT 3",
+    "catalog_product.links_purchased_separately": "SELECT entity_id,store_id,value FROM catalog_product_entity_int WHERE attribute_id=125 AND value IS NOT NULL AND CAST(value AS CHAR) <> '' LIMIT 3",
+    "catalog_product.samples_title": "SELECT entity_id,store_id,value FROM catalog_product_entity_varchar WHERE attribute_id=126 AND value IS NOT NULL AND CAST(value AS CHAR) <> '' LIMIT 3",
+    "catalog_product.links_title": "SELECT entity_id,store_id,value FROM catalog_product_entity_varchar WHERE attribute_id=127 AND value IS NOT NULL AND CAST(value AS CHAR) <> '' LIMIT 3",
+    "catalog_product.links_exist": "SELECT entity_id,store_id,value FROM catalog_product_entity_int WHERE attribute_id=128 AND value IS NOT NULL AND CAST(value AS CHAR) <> '' LIMIT 3",
+    "catalog_product.price_type": "SELECT entity_id,store_id,value FROM catalog_product_entity_int WHERE attribute_id=129 AND value IS NOT NULL AND CAST(value AS CHAR) <> '' LIMIT 3",
+    "catalog_product.sku_type": "SELECT entity_id,store_id,value FROM catalog_product_entity_int WHERE attribute_id=130 AND value IS NOT NULL AND CAST(value AS CHAR) <> '' LIMIT 3",
+    "catalog_product.weight_type": "SELECT entity_id,store_id,value FROM catalog_product_entity_int WHERE attribute_id=131 AND value IS NOT NULL AND CAST(value AS CHAR) <> '' LIMIT 3",
+    "catalog_product.price_view": "SELECT entity_id,store_id,value FROM catalog_product_entity_int WHERE attribute_id=132 AND value IS NOT NULL AND CAST(value AS CHAR) <> '' LIMIT 3",
+    "catalog_product.shipment_type": "SELECT entity_id,store_id,value FROM catalog_product_entity_int WHERE attribute_id=133 AND value IS NOT NULL AND CAST(value AS CHAR) <> '' LIMIT 3",
+    "catalog_product.gift_message_available": "SELECT entity_id,store_id,value FROM catalog_product_entity_varchar WHERE attribute_id=134 AND value IS NOT NULL AND CAST(value AS CHAR) <> '' LIMIT 3",
+    "catalog_product.swatch_image": "SELECT entity_id,store_id,value FROM catalog_product_entity_varchar WHERE attribute_id=135 AND value IS NOT NULL AND CAST(value AS CHAR) <> '' LIMIT 3",
+    "catalog_product.tax_class_id": "SELECT entity_id,store_id,value FROM catalog_product_entity_int WHERE attribute_id=136 AND value IS NOT NULL AND CAST(value AS CHAR) <> '' LIMIT 3"
+  },
+  "data": {
+    "catalog_category.name": [
+      {
+        "entity_id": 1,
+        "store_id": 0,
+        "value": "Root Catalog"
+      },
+      {
+        "entity_id": 2,
+        "store_id": 0,
+        "value": "Default Category"
+      },
+      {
+        "entity_id": 3,
+        "store_id": 0,
+        "value": "Beauty & Personal Care"
+      }
+    ],
+    "catalog_category.is_active": [
+      {
+        "entity_id": 2,
+        "store_id": 0,
+        "value": 1
+      },
+      {
+        "entity_id": 3,
+        "store_id": 0,
+        "value": 1
+      },
+      {
+        "entity_id": 4,
+        "store_id": 0,
+        "value": 1
+      }
+    ],
+    "catalog_category.description": [],
+    "catalog_category.image": [],
+    "catalog_category.meta_title": [],
+    "catalog_category.meta_keywords": [],
+    "catalog_category.meta_description": [],
+    "catalog_category.display_mode": [
+      {
+        "entity_id": 2,
+        "store_id": 0,
+        "value": "PRODUCTS"
+      }
+    ],
+    "catalog_category.landing_page": [],
+    "catalog_category.is_anchor": [
+      {
+        "entity_id": 3,
+        "store_id": 0,
+        "value": 1
+      },
+      {
+        "entity_id": 4,
+        "store_id": 0,
+        "value": 1
+      },
+      {
+        "entity_id": 5,
+        "store_id": 0,
+        "value": 1
+      }
+    ],
+    "catalog_category.all_children": [],
+    "catalog_category.path_in_store": [],
+    "catalog_category.children": [],
+    "catalog_category.custom_design": [],
+    "catalog_category.custom_design_from": [],
+    "catalog_category.custom_design_to": [],
+    "catalog_category.page_layout": [],
+    "catalog_category.custom_layout_update": [],
+    "catalog_category.available_sort_by": [],
+    "catalog_category.default_sort_by": [],
+    "catalog_category.include_in_menu": [
+      {
+        "entity_id": 1,
+        "store_id": 0,
+        "value": 1
+      },
+      {
+        "entity_id": 2,
+        "store_id": 0,
+        "value": 1
+      },
+      {
+        "entity_id": 3,
+        "store_id": 0,
+        "value": 1
+      }
+    ],
+    "catalog_category.custom_use_parent_settings": [],
+    "catalog_category.custom_apply_to_products": [],
+    "catalog_category.filter_price_range": [],
+    "catalog_product.name": [
+      {
+        "entity_id": 16,
+        "store_id": 0,
+        "value": "Toothbrush Head Cover, Toothbrush Protective Case, Toothbrush Head Cap, for Home Travel Camping Lightweight Safe Protecting Toothbrush Head(Light blue)"
+      },
+      {
+        "entity_id": 17,
+        "store_id": 0,
+        "value": "Body Drench Quick Tan Sunless Tanning Self Tan Dry Oil for Bronze Glowing Skin in Just Hours, 7.2 oz"
+      },
+      {
+        "entity_id": 18,
+        "store_id": 0,
+        "value": "Dalin 64 Sheets Temporary Tattoos, Warrior Elephant, Dead Skull, Koi Fish, Eagle Hawks 40 Small Tattoo Sheets"
+      }
+    ],
+    "catalog_product.description": [
+      {
+        "entity_id": 16,
+        "store_id": 0,
+        "value": "This is the description placeholder for the product"
+      },
+      {
+        "entity_id": 17,
+        "store_id": 0,
+        "value": "This is the description placeholder for the product"
+      },
+      {
+        "entity_id": 18,
+        "store_id": 0,
+        "value": "This is the description placeholder for the product"
+      }
+    ],
+    "catalog_product.short_description": [],
+    "catalog_product.price": [
+      {
+        "entity_id": 16,
+        "store_id": 0,
+        "value": "6.490000"
+      },
+      {
+        "entity_id": 17,
+        "store_id": 0,
+        "value": "12.500000"
+      },
+      {
+        "entity_id": 18,
+        "store_id": 0,
+        "value": "42.970000"
+      }
+    ],
+    "catalog_product.special_price": [],
+    "catalog_product.special_from_date": [],
+    "catalog_product.special_to_date": [],
+    "catalog_product.cost": [],
+    "catalog_product.weight": [],
+    "catalog_product.manufacturer": [],
+    "catalog_product.meta_title": [],
+    "catalog_product.meta_keyword": [],
+    "catalog_product.meta_description": [],
+    "catalog_product.image": [
+      {
+        "entity_id": 16,
+        "store_id": 0,
+        "value": "/B/0/B091BB3B86.1.jpg"
+      },
+      {
+        "entity_id": 17,
+        "store_id": 0,
+        "value": "/B/0/B071GML3JS.1.jpg"
+      },
+      {
+        "entity_id": 18,
+        "store_id": 0,
+        "value": "/B/0/B017DFPQOY.1.jpg"
+      }
+    ],
+    "catalog_product.small_image": [
+      {
+        "entity_id": 16,
+        "store_id": 0,
+        "value": "/B/0/B091BB3B86.0_1.jpg"
+      },
+      {
+        "entity_id": 17,
+        "store_id": 0,
+        "value": "/B/0/B071GML3JS.0.jpg"
+      },
+      {
+        "entity_id": 18,
+        "store_id": 0,
+        "value": "/B/0/B017DFPQOY.0.jpg"
+      }
+    ],
+    "catalog_product.thumbnail": [
+      {
+        "entity_id": 16,
+        "store_id": 0,
+        "value": "/B/0/B091BB3B86.0_1.jpg"
+      },
+      {
+        "entity_id": 17,
+        "store_id": 0,
+        "value": "/B/0/B071GML3JS.0.jpg"
+      },
+      {
+        "entity_id": 18,
+        "store_id": 0,
+        "value": "/B/0/B017DFPQOY.0.jpg"
+      }
+    ],
+    "catalog_product.old_id": [],
+    "catalog_product.tier_price": [],
+    "catalog_product.color": [],
+    "catalog_product.news_from_date": [],
+    "catalog_product.news_to_date": [],
+    "catalog_product.gallery": [],
+    "catalog_product.status": [
+      {
+        "entity_id": 16,
+        "store_id": 0,
+        "value": 1
+      },
+      {
+        "entity_id": 17,
+        "store_id": 0,
+        "value": 1
+      },
+      {
+        "entity_id": 18,
+        "store_id": 0,
+        "value": 1
+      }
+    ],
+    "catalog_product.minimal_price": [],
+    "catalog_product.visibility": [
+      {
+        "entity_id": 16,
+        "store_id": 0,
+        "value": 4
+      },
+      {
+        "entity_id": 17,
+        "store_id": 0,
+        "value": 4
+      },
+      {
+        "entity_id": 18,
+        "store_id": 0,
+        "value": 4
+      }
+    ],
+    "catalog_product.custom_design": [],
+    "catalog_product.custom_design_from": [],
+    "catalog_product.custom_design_to": [],
+    "catalog_product.custom_layout_update": [],
+    "catalog_product.page_layout": [],
+    "catalog_product.options_container": [
+      {
+        "entity_id": 16,
+        "store_id": 0,
+        "value": "container2"
+      },
+      {
+        "entity_id": 17,
+        "store_id": 0,
+        "value": "container2"
+      },
+      {
+        "entity_id": 18,
+        "store_id": 0,
+        "value": "container2"
+      }
+    ],
+    "catalog_product.image_label": [
+      {
+        "entity_id": 17,
+        "store_id": 0,
+        "value": "Image"
+      },
+      {
+        "entity_id": 18,
+        "store_id": 0,
+        "value": "Image"
+      },
+      {
+        "entity_id": 19,
+        "store_id": 0,
+        "value": "Image"
+      }
+    ],
+    "catalog_product.small_image_label": [
+      {
+        "entity_id": 17,
+        "store_id": 0,
+        "value": "Image"
+      },
+      {
+        "entity_id": 18,
+        "store_id": 0,
+        "value": "Image"
+      },
+      {
+        "entity_id": 19,
+        "store_id": 0,
+        "value": "Image"
+      }
+    ],
+    "catalog_product.thumbnail_label": [
+      {
+        "entity_id": 17,
+        "store_id": 0,
+        "value": "Image"
+      },
+      {
+        "entity_id": 18,
+        "store_id": 0,
+        "value": "Image"
+      },
+      {
+        "entity_id": 19,
+        "store_id": 0,
+        "value": "Image"
+      }
+    ],
+    "catalog_product.country_of_manufacture": [],
+    "catalog_product.quantity_and_stock_status": [
+      {
+        "entity_id": 16,
+        "store_id": 0,
+        "value": 1
+      },
+      {
+        "entity_id": 17,
+        "store_id": 0,
+        "value": 1
+      },
+      {
+        "entity_id": 18,
+        "store_id": 0,
+        "value": 1
+      }
+    ],
+    "catalog_product.custom_layout": [],
+    "catalog_product.custom_layout_update_file": [],
+    "catalog_category.custom_layout_update_file": [],
+    "catalog_category.url_key": [
+      {
+        "entity_id": 3,
+        "store_id": 0,
+        "value": "beauty-personal-care"
+      },
+      {
+        "entity_id": 4,
+        "store_id": 0,
+        "value": "sports-outdoors"
+      },
+      {
+        "entity_id": 5,
+        "store_id": 0,
+        "value": "clothing-shoes-jewelry"
+      }
+    ],
+    "catalog_category.url_path": [
+      {
+        "entity_id": 3,
+        "store_id": 0,
+        "value": "beauty-personal-care"
+      },
+      {
+        "entity_id": 4,
+        "store_id": 0,
+        "value": "sports-outdoors"
+      },
+      {
+        "entity_id": 5,
+        "store_id": 0,
+        "value": "clothing-shoes-jewelry"
+      }
+    ],
+    "catalog_product.url_key": [
+      {
+        "entity_id": 16,
+        "store_id": 0,
+        "value": "toothbrush-head-cover-toothbrush-protective-case-toothbrush-head-cap-for-home-travel-camping-lightweight-safe-protecting-toothbrush-head-light-blue"
+      },
+      {
+        "entity_id": 17,
+        "store_id": 0,
+        "value": "body-drench-quick-tan-sunless-tanning-self-tan-dry-oil-for-bronze-glowing-skin-in-just-hours-7-2-oz"
+      },
+      {
+        "entity_id": 18,
+        "store_id": 0,
+        "value": "dalin-64-sheets-temporary-tattoos-warrior-elephant-dead-skull-koi-fish-eagle-hawks-40-small-tattoo-sheets"
+      }
+    ],
+    "catalog_product.url_path": [],
+    "catalog_product.msrp": [],
+    "catalog_product.msrp_display_actual_price_type": [
+      {
+        "entity_id": 16,
+        "store_id": 0,
+        "value": "0"
+      },
+      {
+        "entity_id": 17,
+        "store_id": 0,
+        "value": "0"
+      },
+      {
+        "entity_id": 18,
+        "store_id": 0,
+        "value": "0"
+      }
+    ],
+    "catalog_product.links_purchased_separately": [],
+    "catalog_product.samples_title": [],
+    "catalog_product.links_title": [],
+    "catalog_product.links_exist": [],
+    "catalog_product.price_type": [],
+    "catalog_product.sku_type": [],
+    "catalog_product.weight_type": [],
+    "catalog_product.price_view": [],
+    "catalog_product.shipment_type": [],
+    "catalog_product.gift_message_available": [
+      {
+        "entity_id": 16,
+        "store_id": 0,
+        "value": "0"
+      }
+    ],
+    "catalog_product.swatch_image": [
+      {
+        "entity_id": 16,
+        "store_id": 0,
+        "value": "/B/0/B091BB3B86.0_1.jpg"
+      },
+      {
+        "entity_id": 17,
+        "store_id": 0,
+        "value": "/B/0/B071GML3JS.0.jpg"
+      },
+      {
+        "entity_id": 18,
+        "store_id": 0,
+        "value": "/B/0/B017DFPQOY.0.jpg"
+      }
+    ],
+    "catalog_product.tax_class_id": [
+      {
+        "entity_id": 16,
+        "store_id": 0,
+        "value": 2
+      },
+      {
+        "entity_id": 17,
+        "store_id": 0,
+        "value": 2
+      },
+      {
+        "entity_id": 18,
+        "store_id": 0,
+        "value": 2
+      }
+    ]
+  }
+}

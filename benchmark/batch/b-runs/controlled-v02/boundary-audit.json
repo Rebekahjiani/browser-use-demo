@@ -1,0 +1,348 @@
+{
+  "rows": [
+    {
+      "trace": "01-drive",
+      "combination": "aqi",
+      "attempt": "aqi",
+      "tool_counts": {
+        "read_file": 99,
+        "glob": 5,
+        "list_dir": 31,
+        "write_file": 23,
+        "apply_patch": 1
+      },
+      "outside_assigned_directory": [
+        {
+          "tool": "glob",
+          "key": "path",
+          "path": "C:\\Users\\bulin\\artifacttrace\\templates\\at-template\\.at\\..\\tasks\\benchmark-20261008-b-01-drive",
+          "normalized": "C:\\Users\\bulin\\artifacttrace\\templates\\at-template\\.at\\..\\tasks\\benchmark-20261008-b-01-drive",
+          "outcome": "success",
+          "access_kind": "directory_metadata"
+        },
+        {
+          "tool": "list_dir",
+          "key": "path",
+          "path": "C:\\Users\\bulin\\artifacttrace\\templates\\at-template\\.at\\..\\tasks\\benchmark-20261008-b-01-drive\\aqi",
+          "normalized": "C:\\Users\\bulin\\artifacttrace\\templates\\at-template\\.at\\..\\tasks\\benchmark-20261008-b-01-drive\\aqi",
+          "outcome": "success",
+          "access_kind": "directory_metadata"
+        },
+        {
+          "tool": "read_file",
+          "key": "path",
+          "path": "C:\\Users\\bulin\\artifacttrace\\templates\\at-template\\.at\\..\\tasks\\benchmark-20261008-b-01-drive\\TASK.md",
+          "normalized": "C:\\Users\\bulin\\artifacttrace\\templates\\at-template\\.at\\..\\tasks\\benchmark-20261008-b-01-drive\\TASK.md",
+          "outcome": "success",
+          "access_kind": "shared_task_instructions"
+        }
+      ],
+      "unresolved_paths": [],
+      "unexpected_tools": []
+    },
+    {
+      "trace": "01-drive",
+      "combination": "claudecode",
+      "attempt": "claudecode",
+      "tool_counts": {
+        "Read": 230,
+        "Edit": 23
+      },
+      "outside_assigned_directory": [],
+      "unresolved_paths": [],
+      "unexpected_tools": []
+    },
+    {
+      "trace": "01-browser-use",
+      "combination": "aqi",
+      "attempt": "aqi",
+      "tool_counts": {
+        "read_file": 59,
+        "list_dir": 6,
+        "glob": 2,
+        "write_file": 11
+      },
+      "outside_assigned_directory": [
+        {
+          "tool": "read_file",
+          "key": "path",
+          "path": "aqi/TASK.md",
+          "normalized": "C:\\Users\\bulin\\artifacttrace\\templates\\at-template\\tasks\\benchmark-20261008-b-01-browser-use\\aqi/TASK.md",
+          "outcome": "failed",
+          "access_kind": "failed_path_attempt"
+        },
+        {
+          "tool": "list_dir",
+          "key": "path",
+          "path": ".",
+          "normalized": "C:\\Users\\bulin\\artifacttrace\\templates\\at-template\\tasks\\benchmark-20261008-b-01-browser-use\\.",
+          "outcome": "success",
+          "access_kind": "directory_metadata"
+        },
+        {
+          "tool": "read_file",
+          "key": "path",
+          "path": "TASK.md",
+          "normalized": "C:\\Users\\bulin\\artifacttrace\\templates\\at-template\\tasks\\benchmark-20261008-b-01-browser-use\\TASK.md",
+          "outcome": "success",
+          "access_kind": "shared_task_instructions"
+        }
+      ],
+      "unresolved_paths": [
+        {
+          "tool": "write_file",
+          "key": "arguments",
+          "path": null,
+          "reason": "Arguments not available as a mapping in recorded event"
+        }
+      ],
+      "unexpected_tools": []
+    },
+    {
+      "trace": "01-browser-use",
+      "combination": "aqi",
+      "attempt": "attempt-20261008-154322",
+      "tool_counts": {
+        "read_file": 12,
+        "list_dir": 7,
+        "write_file": 2,
+        "apply_patch": 1
+      },
+      "outside_assigned_directory": [],
+      "unresolved_paths": [],
+      "unexpected_tools": []
+    },
+    {
+      "trace": "01-browser-use",
+      "combination": "claudecode",
+      "attempt": "claudecode",
+      "tool_counts": {
+        "Read": 118,
+        "Edit": 12
+      },
+      "outside_assigned_directory": [],
+      "unresolved_paths": [],
+      "unexpected_tools": []
+    },
+    {
+      "trace": "02-drive",
+      "combination": "aqi",
+      "attempt": "aqi",
+      "tool_counts": {
+        "read_file": 123,
+        "list_dir": 20,
+        "write_file": 31,
+        "glob": 5
+      },
+      "outside_assigned_directory": [
+        {
+          "tool": "read_file",
+          "key": "path",
+          "path": "tasks/benchmark-20261008-b-02-drive/aqi/entity-extract/TASK.md",
+          "normalized": "C:\\Users\\bulin\\artifacttrace\\templates\\at-template\\tasks\\benchmark-20261008-b-02-drive\\tasks/benchmark-20261008-b-02-drive/aqi/entity-extract/TASK.md",
+          "outcome": "failed",
+          "access_kind": "failed_path_attempt"
+        },
+        {
+          "tool": "list_dir",
+          "key": "path",
+          "path": "tasks/benchmark-20261008-b-02-drive/aqi/entity-extract",
+          "normalized": "C:\\Users\\bulin\\artifacttrace\\templates\\at-template\\tasks\\benchmark-20261008-b-02-drive\\tasks/benchmark-20261008-b-02-drive/aqi/entity-extract",
+          "outcome": "failed",
+          "access_kind": "failed_path_attempt"
+        },
+        {
+          "tool": "list_dir",
+          "key": "path",
+          "path": "C:\\Users\\bulin\\artifacttrace\\templates\\at-template\\tasks\\benchmark-20261008-b-02-drive",
+          "normalized": "C:\\Users\\bulin\\artifacttrace\\templates\\at-template\\tasks\\benchmark-20261008-b-02-drive",
+          "outcome": "success",
+          "access_kind": "directory_metadata"
+        },
+        {
+          "tool": "list_dir",
+          "key": "path",
+          "path": "C:\\Users\\bulin\\artifacttrace\\templates\\at-template\\tasks\\benchmark-20261008-b-02-drive\\aqi",
+          "normalized": "C:\\Users\\bulin\\artifacttrace\\templates\\at-template\\tasks\\benchmark-20261008-b-02-drive\\aqi",
+          "outcome": "success",
+          "access_kind": "directory_metadata"
+        },
+        {
+          "tool": "read_file",
+          "key": "path",
+          "path": "C:\\Users\\bulin\\artifacttrace\\templates\\at-template\\tasks\\benchmark-20261008-b-02-drive\\TASK.md",
+          "normalized": "C:\\Users\\bulin\\artifacttrace\\templates\\at-template\\tasks\\benchmark-20261008-b-02-drive\\TASK.md",
+          "outcome": "success",
+          "access_kind": "shared_task_instructions"
+        },
+        {
+          "tool": "glob",
+          "key": "path",
+          "path": "C:\\Users\\bulin\\artifacttrace\\templates\\at-template\\tasks\\benchmark-20261008-b-02-drive",
+          "normalized": "C:\\Users\\bulin\\artifacttrace\\templates\\at-template\\tasks\\benchmark-20261008-b-02-drive",
+          "outcome": "success",
+          "access_kind": "directory_metadata"
+        },
+        {
+          "tool": "glob",
+          "key": "path",
+          "path": "C:\\Users\\bulin\\artifacttrace\\templates\\at-template\\tasks\\benchmark-20261008-b-02-drive",
+          "normalized": "C:\\Users\\bulin\\artifacttrace\\templates\\at-template\\tasks\\benchmark-20261008-b-02-drive",
+          "outcome": "success",
+          "access_kind": "directory_metadata"
+        }
+      ],
+      "unresolved_paths": [],
+      "unexpected_tools": []
+    },
+    {
+      "trace": "02-drive",
+      "combination": "claudecode",
+      "attempt": "claudecode",
+      "tool_counts": {
+        "Read": 128
+      },
+      "outside_assigned_directory": [],
+      "unresolved_paths": [],
+      "unexpected_tools": []
+    },
+    {
+      "trace": "02-drive",
+      "combination": "claudecode",
+      "attempt": "attempt-20261008-154504",
+      "tool_counts": {
+        "Read": 141
+      },
+      "outside_assigned_directory": [],
+      "unresolved_paths": [],
+      "unexpected_tools": []
+    },
+    {
+      "trace": "02-drive",
+      "combination": "claudecode",
+      "attempt": "attempt-20261008-155919",
+      "tool_counts": {
+        "Read": 128,
+        "Edit": 32
+      },
+      "outside_assigned_directory": [],
+      "unresolved_paths": [],
+      "unexpected_tools": []
+    },
+    {
+      "trace": "02-browser-use",
+      "combination": "aqi",
+      "attempt": "attempt-20261008-161434",
+      "tool_counts": {
+        "read_file": 19,
+        "list_dir": 11,
+        "write_file": 8,
+        "glob": 1
+      },
+      "outside_assigned_directory": [],
+      "unresolved_paths": [],
+      "unexpected_tools": []
+    },
+    {
+      "trace": "02-browser-use",
+      "combination": "claudecode",
+      "attempt": "attempt-20261008-161721",
+      "tool_counts": {
+        "Read": 39,
+        "Edit": 8
+      },
+      "outside_assigned_directory": [],
+      "unresolved_paths": [],
+      "unexpected_tools": []
+    },
+    {
+      "trace": "03-drive",
+      "combination": "aqi",
+      "attempt": "attempt-20261008-162313",
+      "tool_counts": {
+        "read_file": 88,
+        "glob": 1,
+        "list_dir": 52,
+        "write_file": 23,
+        "search_file": 3
+      },
+      "outside_assigned_directory": [],
+      "unresolved_paths": [],
+      "unexpected_tools": [
+        {
+          "id": "b2a113d0-6d8c-48cc-98a1-ededacd7fb1e",
+          "name": "search_file",
+          "arguments": {
+            "max_results": 3,
+            "path": "aqi/entity-extract/016_state/inputs/endpoints.jsonl",
+            "pattern": "customer/section/load|\"ref\": \"E001\""
+          },
+          "outcome": "success"
+        },
+        {
+          "id": "5beb817c-440a-49a3-ab27-487f4d1c6b52",
+          "name": "search_file",
+          "arguments": {
+            "max_results": 3,
+            "path": "aqi/entity-extract/019_state/inputs/endpoints.jsonl",
+            "pattern": "\"ref\": \"E"
+          },
+          "outcome": "success"
+        },
+        {
+          "id": "0d6fdcae-109a-483d-bb49-c53a739f3d09",
+          "name": "search_file",
+          "arguments": {
+            "max_results": 10,
+            "path": "C:\\Users\\bulin\\artifacttrace\\templates\\at-template\\.at\\..\\tasks\\benchmark-20261008-b-03-drive\\aqi\\entity-extract\\022_state\\inputs\\endpoints.jsonl",
+            "pattern": "\"ref\": \"E\\d+\""
+          },
+          "outcome": "success"
+        }
+      ]
+    },
+    {
+      "trace": "03-drive",
+      "combination": "claudecode",
+      "attempt": "attempt-20261008-163253",
+      "tool_counts": {
+        "Read": 83,
+        "Edit": 24
+      },
+      "outside_assigned_directory": [],
+      "unresolved_paths": [],
+      "unexpected_tools": []
+    },
+    {
+      "trace": "03-browser-use",
+      "combination": "aqi",
+      "attempt": "attempt-20261008-164436",
+      "tool_counts": {
+        "read_file": 50,
+        "list_dir": 4,
+        "write_file": 14,
+        "glob": 2
+      },
+      "outside_assigned_directory": [],
+      "unresolved_paths": [],
+      "unexpected_tools": []
+    },
+    {
+      "trace": "03-browser-use",
+      "combination": "claudecode",
+      "attempt": "attempt-20261008-165030",
+      "tool_counts": {
+        "Read": 58,
+        "Edit": 14
+      },
+      "outside_assigned_directory": [],
+      "unresolved_paths": [],
+      "unexpected_tools": []
+    }
+  ],
+  "at_path_resolution_source": "C:\\Users\\bulin\\artifacttrace\\crates\\executor\\src\\tool_context.rs:580",
+  "limitations": [
+    "Observed tool calls only; this is not an operating-system sandbox proof.",
+    "Unknown argument formats or relative AT paths require review; they are not silently treated as compliant."
+  ]
+}

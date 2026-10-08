@@ -1,0 +1,45 @@
+{
+  "tasks": [
+    {
+      "run": "01-drive",
+      "task_id": "benchmark-20261008-b-01-drive",
+      "path": "C:\\Users\\bulin\\artifacttrace\\templates\\at-template\\tasks\\benchmark-20261008-b-01-drive",
+      "pages": 23
+    },
+    {
+      "run": "01-browser-use",
+      "task_id": "benchmark-20261008-b-01-browser-use",
+      "path": "C:\\Users\\bulin\\artifacttrace\\templates\\at-template\\tasks\\benchmark-20261008-b-01-browser-use",
+      "pages": 12
+    },
+    {
+      "run": "02-drive",
+      "task_id": "benchmark-20261008-b-02-drive",
+      "path": "C:\\Users\\bulin\\artifacttrace\\templates\\at-template\\tasks\\benchmark-20261008-b-02-drive",
+      "pages": 31
+    },
+    {
+      "run": "02-browser-use",
+      "task_id": "benchmark-20261008-b-02-browser-use",
+      "path": "C:\\Users\\bulin\\artifacttrace\\templates\\at-template\\tasks\\benchmark-20261008-b-02-browser-use",
+      "pages": 8
+    },
+    {
+      "run": "03-drive",
+      "task_id": "benchmark-20261008-b-03-drive",
+      "path": "C:\\Users\\bulin\\artifacttrace\\templates\\at-template\\tasks\\benchmark-20261008-b-03-drive",
+      "pages": 23
+    },
+    {
+      "run": "03-browser-use",
+      "task_id": "benchmark-20261008-b-03-browser-use",
+      "path": "C:\\Users\\bulin\\artifacttrace\\templates\\at-template\\tasks\\benchmark-20261008-b-03-browser-use",
+      "pages": 14
+    }
+  ],
+  "model": "sophnet/DeepSeek-V4-Flash-0731",
+  "order": "aqi then claudecode per trace",
+  "harness_guard_s": 3600,
+  "strategy": "fresh task per trace; raw outputs retained",
+  "source_freeze_sha256": "5fac532548f158118b27add0a6977d0895e6fe7d1459c17c2ae4e7a60bc7ff03"
+}

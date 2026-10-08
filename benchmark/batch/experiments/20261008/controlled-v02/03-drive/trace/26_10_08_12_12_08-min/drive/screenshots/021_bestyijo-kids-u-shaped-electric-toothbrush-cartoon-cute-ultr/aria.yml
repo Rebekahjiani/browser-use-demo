@@ -1,0 +1,188 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - link "Skip to Content" [ref=e4] [cursor=pointer]:
+      - /url: "#contentarea"
+    - generic [ref=e5]:
+      - generic [ref=e6] [cursor=pointer]:
+        - text: 
+        - generic [ref=e7]: Toggle Nav
+      - link "store logo" [ref=e8] [cursor=pointer]:
+        - /url: http://127.0.0.1:7770/
+        - img "one_stop_market_logo" [ref=e9]
+      - generic [ref=e10]:
+        - link " My Cart" [ref=e11] [cursor=pointer]:
+          - /url: http://127.0.0.1:7770/checkout/cart/
+          - text: 
+          - generic [ref=e12]: My Cart
+        - text: 
+      - generic [ref=e16]:
+        - generic [ref=e17]:
+          - text: 
+          - generic [ref=e18]: Search
+        - combobox " Search" [ref=e20]
+  - tablist [ref=e22]:
+    - tab "Menu" [expanded] [ref=e23]:
+      - link "Menu" [ref=e24] [cursor=pointer]:
+        - /url: "#store.menu"
+    - tabpanel [ref=e25]:
+      - navigation [ref=e26]:
+        - menu [ref=e27]:
+          - listitem [ref=e28]:
+            - menuitem "Beauty & Personal Care " [ref=e29] [cursor=pointer]: Beauty & Personal Care 
+          - listitem [ref=e30]:
+            - menuitem "Sports & Outdoors " [ref=e31] [cursor=pointer]: Sports & Outdoors 
+          - listitem [ref=e32]:
+            - menuitem "Clothing, Shoes & Jewelry " [ref=e33] [cursor=pointer]: Clothing, Shoes & Jewelry 
+          - listitem [ref=e34]:
+            - menuitem "Home & Kitchen " [ref=e35] [cursor=pointer]: Home & Kitchen 
+          - listitem [ref=e36]:
+            - menuitem "Office Products " [ref=e37] [cursor=pointer]: Office Products 
+          - listitem [ref=e38]:
+            - menuitem "Tools & Home Improvement " [ref=e39] [cursor=pointer]: Tools & Home Improvement 
+          - listitem [ref=e40]:
+            - menuitem "Health & Household " [ref=e41] [cursor=pointer]: Health & Household 
+          - listitem [ref=e42]:
+            - menuitem "Patio, Lawn & Garden " [ref=e43] [cursor=pointer]: Patio, Lawn & Garden 
+          - listitem [ref=e44]:
+            - menuitem "Electronics " [ref=e45] [cursor=pointer]: Electronics 
+          - listitem [ref=e46]:
+            - menuitem "Cell Phones & Accessories " [ref=e47] [cursor=pointer]: Cell Phones & Accessories 
+          - listitem [ref=e48]:
+            - menuitem "Video Games " [ref=e49] [cursor=pointer]: Video Games 
+          - listitem [ref=e50]:
+            - menuitem "Grocery & Gourmet Food " [ref=e51] [cursor=pointer]: Grocery & Gourmet Food 
+    - tab "Account" [ref=e52]:
+      - link "Account" [ref=e53] [cursor=pointer]:
+        - /url: "#store.links"
+  - list [ref=e55]:
+    - listitem [ref=e56]:
+      - link "Home" [ref=e57] [cursor=pointer]:
+        - /url: http://127.0.0.1:7770/
+      - text: 
+    - listitem [ref=e58]:
+      - strong [ref=e59]: BestYiJo Kids U Shaped Electric Toothbrush, Cartoon Cute Ultrasonic Automatic Toothbrushes with 5 Cleaning Modes, Waterproof Auto Toothbrush for Children Toddler (Kid)
+  - main [ref=e60]:
+    - heading "BestYiJo Kids U Shaped Electric Toothbrush, Cartoon Cute Ultrasonic Automatic Toothbrushes with 5 Cleaning Modes, Waterproof Auto Toothbrush for Children Toddler (Kid)" [level=1] [ref=e62]
+    - generic [ref=e64]:
+      - generic [ref=e65]:
+        - generic [ref=e66]:
+          - generic [ref=e67]:
+            - generic "Availability" [ref=e68]: In stock
+            - generic [ref=e69]:
+              - strong [ref=e70]: SKU
+              - generic [ref=e71]: B09MJ75D97
+          - link "Be the first to review this product" [ref=e74] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/bestyijo-kids-u-shaped-electric-toothbrush-cartoon-cute-ultrasonic-automatic-toothbrushes-with-5-cleaning-modes-waterproof-auto-toothbrush-for-children-toddler-kid.html#review-form
+          - generic [ref=e77]: $18.99
+        - generic [ref=e79]:
+          - generic [ref=e82]:
+            - generic [ref=e83]: Size *
+            - generic [ref=e85]:
+              - generic [ref=e86]:
+                - radio "Kid" [ref=e87]
+                - generic [ref=e88]: Kid
+              - generic [ref=e89]:
+                - radio "Older children" [ref=e90]
+                - generic [ref=e91]: Older children
+          - generic [ref=e94]:
+            - generic [ref=e95]:
+              - generic [ref=e96]: Qty
+              - spinbutton "Qty" [ref=e98]: "1"
+            - button "Add to Cart" [ref=e100] [cursor=pointer]
+        - link "Add to Wish List" [ref=e103] [cursor=pointer]:
+          - /url: "#"
+      - generic [ref=e104]:
+        - link "Skip to the end of the images gallery" [ref=e105] [cursor=pointer]:
+          - /url: "#gallery-next-area"
+        - generic [ref=e108]:
+          - generic [ref=e109]:
+            - button "Previous" [ref=e110] [cursor=pointer]
+            - generic [ref=e112]:
+              - img "Image" [ref=e114]
+              - img [ref=e116]
+            - button "Next"
+          - generic [ref=e119]:
+            - button "Image" [ref=e120]
+            - button "Image" [ref=e122]
+        - link "Skip to the beginning of the images gallery" [ref=e124] [cursor=pointer]:
+          - /url: "#gallery-prev-area"
+      - tablist [ref=e126]:
+        - tab "Details" [ref=e127]:
+          - link "Details" [ref=e128] [cursor=pointer]:
+            - /url: "#description"
+        - tab "Reviews" [expanded] [selected] [ref=e155]:
+          - link "Reviews" [active] [ref=e156] [cursor=pointer]:
+            - /url: "#reviews"
+        - tabpanel "Reviews" [ref=e183]:
+          - generic [ref=e186]:
+            - 'group "You''re reviewing: BestYiJo Kids U Shaped Electric Toothbrush, Cartoon Cute Ultrasonic Automatic Toothbrushes with 5 Cleaning Modes, Waterproof Auto Toothbrush for Children Toddler (Kid)" [ref=e187]':
+              - generic [ref=e188]:
+                - text: "You're reviewing:"
+                - strong [ref=e189]: BestYiJo Kids U Shaped Electric Toothbrush, Cartoon Cute Ultrasonic Automatic Toothbrushes with 5 Cleaning Modes, Waterproof Auto Toothbrush for Children Toddler (Kid)
+              - group "Your Rating*" [ref=e190]:
+                - generic [ref=e191]: Your Rating*
+                - generic [ref=e194]:
+                  - generic [ref=e195]: Rating
+                  - generic:
+                    - text: 
+                    - radio "Rating  1 star" [ref=e196]
+                    - generic "1 star" [ref=e197] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e198]: 1 star
+                    - radio "Rating  2 stars" [ref=e199]
+                    - generic "2 stars" [ref=e200] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e201]: 2 stars
+                    - radio "Rating  3 stars" [ref=e202]
+                    - generic "3 stars" [ref=e203] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e204]: 3 stars
+                    - radio "Rating  4 stars" [ref=e205]
+                    - generic "4 stars" [ref=e206] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e207]: 4 stars
+                    - radio "Rating  5 stars" [ref=e208]
+                    - generic "5 stars" [ref=e209] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e210]: 5 stars
+              - generic [ref=e211]:
+                - generic [ref=e212]: Nickname*
+                - textbox "Nickname*" [ref=e214]
+              - generic [ref=e215]:
+                - generic [ref=e216]: Summary*
+                - textbox "Summary*" [ref=e218]
+              - generic [ref=e219]:
+                - generic [ref=e220]: Review*
+                - textbox "Review*" [ref=e222]
+            - button "Submit Review" [ref=e225] [cursor=pointer]
+  - contentinfo [ref=e157]:
+    - generic [ref=e158]:
+      - generic [ref=e161]:
+        - generic [ref=e163]:
+          - text: 
+          - generic [ref=e164]:
+            - generic [ref=e165]: "Sign Up for Our Newsletter:"
+            - textbox "Sign Up for Our Newsletter:" [ref=e166]:
+              - /placeholder: Enter your email address
+        - button "Subscribe" [ref=e168] [cursor=pointer]
+      - list [ref=e169]:
+        - listitem [ref=e170]:
+          - link "Privacy and Cookie Policy" [ref=e171] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/privacy-policy-cookie-restriction-mode/
+        - listitem [ref=e172]:
+          - link "Search Terms" [ref=e173] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/search/term/popular/
+        - listitem [ref=e174]:
+          - link "Advanced Search" [ref=e175] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/catalogsearch/advanced/
+        - listitem [ref=e176]:
+          - link "Orders and Returns" [ref=e177] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/sales/guest/form/
+        - listitem [ref=e178]:
+          - link "Contact Us" [ref=e179] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/contact/
+      - generic [ref=e180]: Copyright © 2013-present Magento, Inc. All rights reserved.
+      - generic [ref=e181]:
+        - text: Help Us Keep Magento Healthy
+        - link "Report All Bugs" [ref=e182] [cursor=pointer]:
+          - /url: http://www.magentocommerce.com/bug-tracking

@@ -1,0 +1,15 @@
+{"args":{"name":"swapper"},"cat":"__metadata","name":"thread_name","ph":"M","pid":0,"tid":0,"ts":0}
+{"args":{"name":"CrRendererMain"},"cat":"__metadata","name":"thread_name","ph":"M","pid":39388,"tid":20720,"ts":0}
+{"args":{"name":"Renderer"},"cat":"__metadata","name":"process_name","ph":"M","pid":39388,"tid":0,"ts":0}
+{"args":{"uptime":"271"},"cat":"__metadata","name":"process_uptime_seconds","ph":"M","pid":39388,"tid":0,"ts":0}
+{"args":{"args":{"had_user_input_before_interactive":false,"total_blocking_time_ms":0},"frame":""},"cat":"loading,rail","name":"InteractiveTime","ph":"R","pid":39388,"s":"t","tid":20720,"ts":1546944842539}
+{"args":{"snapshot":{"documentLoaderURL":"http://127.0.0.1:7770/checkout/cart/","frame":{"id_ref":"E42C032F4AD866337E63F1AFCB2DA291"},"isLoadingMainFrame":true,"isOutermostMainFrame":true}},"cat":"loading","name":"FrameLoader:state_snapshot","ph":"I","pid":39388,"s":"t","tid":20720,"ts":1547124766463,"tts":4914645}
+{"args":{},"cat":"loading","name":"FrameLoader:deleted","ph":"I","pid":39388,"s":"t","tid":20720,"ts":1547124766508,"tts":4914675}
+{"args":{"substracted_bytes":0,"total_bytes_buffered":0},"cat":"loading","dur":2,"name":"BackForwardCacheBufferLimitTracker::DidRemoveFrameOrWorkerFromBackForwardCache","ph":"X","pid":39388,"tdur":1,"tid":20720,"ts":1547124766510,"tts":4914676}
+{"args":{"snapshot":{"documentLoaderURL":"http://127.0.0.1:7770/","frame":{"id_ref":"E42C032F4AD866337E63F1AFCB2DA291"},"isLoadingMainFrame":true,"isOutermostMainFrame":true}},"cat":"loading","name":"FrameLoader:state_snapshot","ph":"I","pid":39388,"s":"t","tid":20720,"ts":1547127786426,"tts":4920005}
+{"args":{},"cat":"loading","name":"FrameLoader:deleted","ph":"I","pid":39388,"s":"t","tid":20720,"ts":1547127786581,"tts":4920068}
+{"args":{"substracted_bytes":0,"total_bytes_buffered":0},"cat":"loading","dur":4,"name":"BackForwardCacheBufferLimitTracker::DidRemoveFrameOrWorkerFromBackForwardCache","ph":"X","pid":39388,"tdur":4,"tid":20720,"ts":1547127786588,"tts":4920073}
+{"args":{},"cat":"loading","id":0,"name":"FrameLoader:state_snapshot","ph":"s","pid":39388,"tid":20720,"ts":1547124766463}
+{"args":{},"bp":"e","cat":"loading","id":0,"name":"FrameLoader:state_snapshot","ph":"f","pid":39388,"tid":20720,"ts":1547124766508}
+{"args":{},"cat":"loading","id":1,"name":"FrameLoader:state_snapshot","ph":"s","pid":39388,"tid":20720,"ts":1547127786426}
+{"args":{},"bp":"e","cat":"loading","id":1,"name":"FrameLoader:state_snapshot","ph":"f","pid":39388,"tid":20720,"ts":1547127786581}

@@ -1,0 +1,10 @@
+{
+  "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/orthodontic-supplies.html?price=0-100",
+  "title": "Orthodontic Supplies - Oral Care - Beauty & Personal Care",
+  "route": "/beauty-personal-care/oral-care/orthodontic-supplies.html",
+  "sources": {
+    "accessibility": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\03-drive\\trace\\26_10_08_12_12_08-min\\drive\\screenshots\\013_beauty-personal-care_oral-care_orthodontic-supplies_html\\accessibility.json",
+    "sha256_AX": "2b06a91e3ae1e17c4be2e967d7ab732bb4b50663b7edb35c554dbe1155c9724d"
+  },
+  "material_scope": "recorded UI and conservatively associated JSON responses"
+}

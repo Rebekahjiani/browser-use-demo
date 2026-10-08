@@ -1,0 +1,205 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - link "Skip to Content" [ref=e4] [cursor=pointer]:
+      - /url: "#contentarea"
+    - generic [ref=e5]:
+      - generic [ref=e6] [cursor=pointer]:
+        - text: 
+        - generic [ref=e7]: Toggle Nav
+      - link "store logo" [ref=e8] [cursor=pointer]:
+        - /url: http://127.0.0.1:7770/
+        - img "one_stop_market_logo" [ref=e9]
+      - generic [ref=e10]:
+        - link " My Cart" [ref=e11] [cursor=pointer]:
+          - /url: http://127.0.0.1:7770/checkout/cart/
+          - text: 
+          - generic [ref=e12]: My Cart
+        - text: 
+      - generic [ref=e16]:
+        - generic [ref=e17]:
+          - text: 
+          - generic [ref=e18]: Search
+        - combobox " Search" [ref=e20]
+  - tablist [ref=e22]:
+    - tab "Menu" [expanded] [ref=e23]:
+      - link "Menu" [ref=e24] [cursor=pointer]:
+        - /url: "#store.menu"
+    - tabpanel [ref=e25]:
+      - navigation [ref=e26]:
+        - menu [ref=e27]:
+          - listitem [ref=e28]:
+            - menuitem "Beauty & Personal Care " [ref=e29] [cursor=pointer]: Beauty & Personal Care 
+          - listitem [ref=e30]:
+            - menuitem "Sports & Outdoors " [ref=e31] [cursor=pointer]: Sports & Outdoors 
+          - listitem [ref=e32]:
+            - menuitem "Clothing, Shoes & Jewelry " [ref=e33] [cursor=pointer]: Clothing, Shoes & Jewelry 
+          - listitem [ref=e34]:
+            - menuitem "Home & Kitchen " [ref=e35] [cursor=pointer]: Home & Kitchen 
+          - listitem [ref=e36]:
+            - menuitem "Office Products " [ref=e37] [cursor=pointer]: Office Products 
+          - listitem [ref=e38]:
+            - menuitem "Tools & Home Improvement " [ref=e39] [cursor=pointer]: Tools & Home Improvement 
+          - listitem [ref=e40]:
+            - menuitem "Health & Household " [ref=e41] [cursor=pointer]: Health & Household 
+          - listitem [ref=e42]:
+            - menuitem "Patio, Lawn & Garden " [ref=e43] [cursor=pointer]: Patio, Lawn & Garden 
+          - listitem [ref=e44]:
+            - menuitem "Electronics " [ref=e45] [cursor=pointer]: Electronics 
+          - listitem [ref=e46]:
+            - menuitem "Cell Phones & Accessories " [ref=e47] [cursor=pointer]: Cell Phones & Accessories 
+          - listitem [ref=e48]:
+            - menuitem "Video Games " [ref=e49] [cursor=pointer]: Video Games 
+          - listitem [ref=e50]:
+            - menuitem "Grocery & Gourmet Food " [ref=e51] [cursor=pointer]: Grocery & Gourmet Food 
+    - tab "Account" [ref=e52]:
+      - link "Account" [ref=e53] [cursor=pointer]:
+        - /url: "#store.links"
+  - list [ref=e55]:
+    - listitem [ref=e56]:
+      - link "Home" [ref=e57] [cursor=pointer]:
+        - /url: http://127.0.0.1:7770/
+      - text: 
+    - listitem [ref=e58]:
+      - link "Beauty & Personal Care" [ref=e59] [cursor=pointer]:
+        - /url: http://127.0.0.1:7770/beauty-personal-care.html
+      - text: 
+    - listitem [ref=e60]:
+      - link "Oral Care" [ref=e61] [cursor=pointer]:
+        - /url: http://127.0.0.1:7770/beauty-personal-care/oral-care.html
+      - text: 
+    - listitem [ref=e62]:
+      - link "Oral Pain Relief" [ref=e63] [cursor=pointer]:
+        - /url: http://127.0.0.1:7770/beauty-personal-care/oral-care/oral-pain-relief.html
+      - text: 
+    - listitem [ref=e64]:
+      - strong [ref=e65]: Mouth Guard Moldable Nightguard for Grinding Teeth at Night, Whitening Tray, 4 Pack Upgraded Night Guards to Keep Calm, Professional Comfortable Mouthguards for Sleep, 2 Sizes
+  - main [ref=e66]:
+    - heading "Mouth Guard Moldable Nightguard for Grinding Teeth at Night, Whitening Tray, 4 Pack Upgraded Night Guards to Keep Calm, Professional Comfortable Mouthguards for Sleep, 2 Sizes" [level=1] [ref=e68]
+    - generic [ref=e70]:
+      - generic [ref=e71]:
+        - generic [ref=e72]:
+          - generic [ref=e73]:
+            - generic "Availability" [ref=e74]: In stock
+            - generic [ref=e75]:
+              - strong [ref=e76]: SKU
+              - generic [ref=e77]: B09NZYST29
+          - link "Be the first to review this product" [ref=e80] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/mouth-guard-moldable-nightguard-for-grinding-teeth-at-night-whitening-tray-4-pack-upgraded-night-guards-to-keep-calm-professional-comfortable-mouthguards-for-sleep-2-sizes.html#review-form
+          - generic [ref=e83]: $10.99
+        - generic [ref=e87]:
+          - generic [ref=e88]:
+            - generic [ref=e89]: Qty
+            - spinbutton "Qty" [ref=e91]: "1"
+          - button "Add to Cart" [ref=e93] [cursor=pointer]
+        - link "Add to Wish List" [ref=e96] [cursor=pointer]:
+          - /url: "#"
+      - generic [ref=e97]:
+        - link "Skip to the end of the images gallery" [ref=e98] [cursor=pointer]:
+          - /url: "#gallery-next-area"
+        - generic [ref=e101]:
+          - generic [ref=e102]:
+            - button "Previous" [ref=e103] [cursor=pointer]
+            - generic [ref=e105]:
+              - img "Image" [ref=e107]
+              - img [ref=e109]
+            - button "Next"
+          - generic [ref=e112]:
+            - button "Image" [ref=e113]
+            - button "Image" [ref=e115]
+        - link "Skip to the beginning of the images gallery" [ref=e117] [cursor=pointer]:
+          - /url: "#gallery-prev-area"
+      - tablist [ref=e119]:
+        - tab "Details" [expanded] [ref=e120]:
+          - link "Details" [ref=e121] [cursor=pointer]:
+            - /url: "#description"
+        - tabpanel "Details" [ref=e122]:
+          - generic [ref=e124]:
+            - generic [ref=e126]:
+              - separator [ref=e127]
+              - heading "Product Description" [level=2] [ref=e128]
+              - generic [ref=e129]:
+                - img "mouthguard" [ref=e132]
+                - generic [ref=e137]:
+                  - img "mouthguard" [ref=e139]
+                  - generic [ref=e140]:
+                    - heading "Say goodbye to bruxism" [level=3] [ref=e141]
+                    - paragraph [ref=e142]: If you want to protect your teeth from damage, then our individually adjustable mouthguards are the perfect solution. We ensure that our products are made of safe materials, have a reasonable structure, are comfortable to wear, and are suitable for daily use
+                    - paragraph [ref=e143]: The new patented professional mouthguard can relieve the symptoms of insomnia, tension or teeth grinding at night, such as headache, neck pain or jaw pain, and you can finally fall asleep at ease
+                - img "mouthguard" [ref=e149]
+                - generic [ref=e154]:
+                  - img "mouthguard" [ref=e156]
+                  - generic [ref=e157]:
+                    - heading "Protect your teeth" [level=3] [ref=e158]
+                    - paragraph [ref=e159]: Use our mouthguard to reduce the impact of bruxism and snoring on you
+                    - paragraph [ref=e160]: The mouthguard can effectively prevent teeth clenching at night, and significantly reduce the pressure on your jaw, help you stop grinding your teeth and gradually reduce all other consequences of toothache, migraine, insomnia and bruxism, and significantly improve the quality of sleep
+                - img "mouthguard" [ref=e163]
+            - generic [ref=e164]:
+              - heading "Product Quick Look" [level=2] [ref=e165]
+              - generic [ref=e166]:
+                - list [ref=e168]:
+                  - listitem [ref=e169]: Made of high-quality materials - High-quality food-grade resin polymerized, our mouthguards are made of BPA-free resin, with strong ductility, softness and comfort
+                  - listitem [ref=e170]: No foreign body sensation - We use super soft silicone, which is much thinner than traditional night guard, so it is more comfortable to wear in the mouth and can fit perfectly. The product contains two different sizes and comes with two braces Box, suitable for various mouth shapes
+                  - listitem [ref=e171]: Safe and non-toxic - Does not contain BPA and latex, the mouthguard only contains substances that have been tested for safety and effectiveness
+                  - listitem [ref=e172]: Say goodbye to bruxism - Do you want to alleviate various problems caused by teeth grinding? Have you used many methods without improving? Our mouthguard provides you with the perfect solution
+                  - listitem [ref=e173]: The product contains - 4 X mouth guard (2 sizes), 2 X Mouth Guard Cases. TIPS：Put the mouthguard in 65-75℃ hot water for about 20 seconds, too high water temperature and long soaking time will cause damage to the mouthguard
+                - table [ref=e175]:
+                  - rowgroup [ref=e176]:
+                    - row "Product Dimensions ‏ ‎ 4.96 x 3.03 x 1.22 inches; 2.93 Ounces" [ref=e177]:
+                      - rowheader "Product Dimensions ‏" [ref=e178]
+                      - cell "‎ 4.96 x 3.03 x 1.22 inches; 2.93 Ounces" [ref=e179]
+                    - row "Item model number ‏ ‎ Mouthguard A192" [ref=e180]:
+                      - rowheader "Item model number ‏" [ref=e181]
+                      - cell "‎ Mouthguard A192" [ref=e182]
+                    - row "UPC ‏ ‎ 612789248872" [ref=e183]:
+                      - rowheader "UPC ‏" [ref=e184]
+                      - cell "‎ 612789248872" [ref=e185]
+                    - row "Manufacturer ‏ ‎ SIGMOOR" [ref=e186]:
+                      - rowheader "Manufacturer ‏" [ref=e187]
+                      - cell "‎ SIGMOOR" [ref=e188]
+                    - row "ASIN ‏ ‎ B09NZYST29" [ref=e189]:
+                      - rowheader "ASIN ‏" [ref=e190]
+                      - cell "‎ B09NZYST29" [ref=e191]
+                    - row "Country of Origin ‏ ‎ China" [ref=e192]:
+                      - rowheader "Country of Origin ‏" [ref=e193]
+                      - cell "‎ China" [ref=e194]
+                    - row "#115 in Anti Grinding Teeth Protectors" [ref=e195]:
+                      - columnheader "#115 in Anti Grinding Teeth Protectors" [ref=e196]
+                      - cell [ref=e197]
+                    - row "#281 in Oral Pain Treatments" [ref=e198]:
+                      - columnheader "#281 in Oral Pain Treatments" [ref=e199]
+                      - cell [ref=e200]
+        - tab "Reviews" [ref=e201]:
+          - link "Reviews" [ref=e202] [cursor=pointer]:
+            - /url: "#reviews"
+        - text: "*       * * *"
+  - contentinfo [ref=e203]:
+    - generic [ref=e204]:
+      - generic [ref=e207]:
+        - generic [ref=e209]:
+          - text: 
+          - generic [ref=e210]:
+            - generic [ref=e211]: "Sign Up for Our Newsletter:"
+            - textbox "Sign Up for Our Newsletter:" [ref=e212]:
+              - /placeholder: Enter your email address
+        - button "Subscribe" [ref=e214] [cursor=pointer]
+      - list [ref=e215]:
+        - listitem [ref=e216]:
+          - link "Privacy and Cookie Policy" [ref=e217] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/privacy-policy-cookie-restriction-mode/
+        - listitem [ref=e218]:
+          - link "Search Terms" [ref=e219] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/search/term/popular/
+        - listitem [ref=e220]:
+          - link "Advanced Search" [ref=e221] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/catalogsearch/advanced/
+        - listitem [ref=e222]:
+          - link "Orders and Returns" [ref=e223] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/sales/guest/form/
+        - listitem [ref=e224]:
+          - link "Contact Us" [ref=e225] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/contact/
+      - generic [ref=e226]: Copyright © 2013-present Magento, Inc. All rights reserved.
+      - generic [ref=e227]:
+        - text: Help Us Keep Magento Healthy
+        - link "Report All Bugs" [ref=e228] [cursor=pointer]:
+          - /url: http://www.magentocommerce.com/bug-tracking

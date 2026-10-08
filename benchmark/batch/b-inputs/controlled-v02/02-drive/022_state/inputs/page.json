@@ -1,0 +1,10 @@
+{
+  "url": "http://127.0.0.1:7770/dental-floss-fresh-up-mint-50-m-per-pack-pack-of-4.html",
+  "title": "Dental Floss Fresh up Mint 50 M Per Pack (Pack of 4)",
+  "route": "/dental-floss-fresh-up-mint-50-m-per-pack-pack-of-4.html",
+  "sources": {
+    "accessibility": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\02-drive\\trace\\26_10_08_11_46_19-min\\drive\\screenshots\\029_dental-floss-fresh-up-mint-50-m-per-pack-pack-of-4_html\\accessibility.json",
+    "sha256_AX": "267b4da129d87c9128d0db4f53bcb12928b5bb133ff75242161c3c9bcea16fe5"
+  },
+  "material_scope": "recorded UI and conservatively associated JSON responses"
+}

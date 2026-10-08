@@ -1,0 +1,10 @@
+{
+  "url": "http://127.0.0.1:7770/beauty-personal-care.html",
+  "title": "Beauty & Personal Care",
+  "route": "/beauty-personal-care.html",
+  "sources": {
+    "accessibility": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\01-drive\\trace\\26_10_08_11_08_15-min\\drive\\screenshots\\005_beauty-personal-care_html\\accessibility.json",
+    "sha256_AX": "a085fda10f1b94af6f53ddad7fed2f10333263efb5b306e02988fdb579d3350e"
+  },
+  "material_scope": "recorded UI and conservatively associated JSON responses"
+}

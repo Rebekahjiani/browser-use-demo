@@ -1,0 +1,160 @@
+{
+  "gold": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\coverage-v4\\gold.v1.json",
+  "mapping": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\db-ui-mapping.v3.json",
+  "engine": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\coverage-v4\\score.py",
+  "experiment": {
+    "version": "controlled-shopping-v02",
+    "role": "controlled exploration; three independent repeats per strategy",
+    "model": "sophnet/DeepSeek-V4-Flash-0731",
+    "permissions": "query submission only; shared request boundary",
+    "repeats": 3,
+    "max_actions": 200,
+    "max_pages": 100,
+    "max_minutes": 30,
+    "gold": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\coverage-v4\\gold.v1.json",
+    "gold_sha256": "c502eaf02ca56971fb80d5960391c218ecb2e78b4eb52f85b0adbfd75f0c2974",
+    "mapping": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\db-ui-mapping.v3.json",
+    "engine": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\coverage-v4\\score.py",
+    "contract_bundle": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\bundles\\contract-v02"
+  },
+  "runs": [
+    {
+      "id": "01-drive",
+      "strategy": "drive",
+      "snapshots": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\01-drive\\trace\\26_10_08_11_08_15-min\\drive\\screenshots",
+      "conditions": {
+        "max_actions": 200,
+        "max_pages": 100,
+        "max_minutes": 30,
+        "model": null,
+        "permissions": "query submission only; shared request boundary"
+      },
+      "artifacts": [
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\01-drive\\config.json",
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\01-drive\\profiles.json",
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\01-drive\\reset.json",
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\01-drive\\start.json",
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\01-drive\\status.json",
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\01-drive\\stop.json",
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\01-drive\\trace\\26_10_08_11_08_15-min\\trace.segments.summary.json"
+      ]
+    },
+    {
+      "id": "01-browser-use",
+      "strategy": "browser-use",
+      "snapshots": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-112904-537744\\snapshots",
+      "conditions": {
+        "max_actions": 200,
+        "max_pages": 100,
+        "max_minutes": 30,
+        "model": "sophnet/DeepSeek-V4-Flash-0731",
+        "permissions": "query submission only; shared request boundary"
+      },
+      "artifacts": [
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\01-browser-use\\command.json",
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\01-browser-use\\process.json",
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\01-browser-use\\reset.json",
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\01-browser-use\\result.json",
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-112904-537744\\config.json",
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-112904-537744\\prompt.txt",
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-112904-537744\\result.json",
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-112904-537744\\history.json",
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-112904-537744\\actions.jsonl",
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-112904-537744\\observations.jsonl",
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-112904-537744\\trace\\26_10_08_11_29_06-min\\trace.segments.summary.json"
+      ]
+    },
+    {
+      "id": "02-drive",
+      "strategy": "drive",
+      "snapshots": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\02-drive\\trace\\26_10_08_11_46_19-min\\drive\\screenshots",
+      "conditions": {
+        "max_actions": 200,
+        "max_pages": 100,
+        "max_minutes": 30,
+        "model": null,
+        "permissions": "query submission only; shared request boundary"
+      },
+      "artifacts": [
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\02-drive\\config.json",
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\02-drive\\profiles.json",
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\02-drive\\reset.json",
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\02-drive\\start.json",
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\02-drive\\status.json",
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\02-drive\\stop.json",
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\02-drive\\trace\\26_10_08_11_46_19-min\\trace.segments.summary.json"
+      ]
+    },
+    {
+      "id": "02-browser-use",
+      "strategy": "browser-use",
+      "snapshots": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-120157-401286\\snapshots",
+      "conditions": {
+        "max_actions": 200,
+        "max_pages": 100,
+        "max_minutes": 30,
+        "model": "sophnet/DeepSeek-V4-Flash-0731",
+        "permissions": "query submission only; shared request boundary"
+      },
+      "artifacts": [
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\02-browser-use\\command.json",
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\02-browser-use\\process.json",
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\02-browser-use\\reset.json",
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\02-browser-use\\result.json",
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-120157-401286\\config.json",
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-120157-401286\\prompt.txt",
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-120157-401286\\result.json",
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-120157-401286\\history.json",
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-120157-401286\\actions.jsonl",
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-120157-401286\\observations.jsonl",
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-120157-401286\\trace\\26_10_08_12_01_59-min\\trace.segments.summary.json"
+      ]
+    },
+    {
+      "id": "03-drive",
+      "strategy": "drive",
+      "snapshots": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\03-drive\\trace\\26_10_08_12_12_08-min\\drive\\screenshots",
+      "conditions": {
+        "max_actions": 200,
+        "max_pages": 100,
+        "max_minutes": 30,
+        "model": null,
+        "permissions": "query submission only; shared request boundary"
+      },
+      "artifacts": [
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\03-drive\\config.json",
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\03-drive\\profiles.json",
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\03-drive\\reset.json",
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\03-drive\\start.json",
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\03-drive\\status.json",
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\03-drive\\stop.json",
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\03-drive\\trace\\26_10_08_12_12_08-min\\trace.segments.summary.json"
+      ]
+    },
+    {
+      "id": "03-browser-use",
+      "strategy": "browser-use",
+      "snapshots": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-122835-137305\\snapshots",
+      "conditions": {
+        "max_actions": 200,
+        "max_pages": 100,
+        "max_minutes": 30,
+        "model": "sophnet/DeepSeek-V4-Flash-0731",
+        "permissions": "query submission only; shared request boundary"
+      },
+      "artifacts": [
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\03-browser-use\\command.json",
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\03-browser-use\\process.json",
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\03-browser-use\\reset.json",
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\03-browser-use\\result.json",
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-122835-137305\\config.json",
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-122835-137305\\prompt.txt",
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-122835-137305\\result.json",
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-122835-137305\\history.json",
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-122835-137305\\actions.jsonl",
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-122835-137305\\observations.jsonl",
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-122835-137305\\trace\\26_10_08_12_28_36-min\\trace.segments.summary.json"
+      ]
+    }
+  ]
+}

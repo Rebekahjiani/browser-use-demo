@@ -1,0 +1,360 @@
+{
+  "files": [
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0000\\accessibility.json",
+      "sha256": "f5af51f144a72f0e6af51d2743faf6b7f484ce7c323f899e952a92c23b4e1ecc"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0000\\metadata.json",
+      "sha256": "27905a7a509107313204873b0f510e4ccda77df0745234472dd651fabcaf772c"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0000\\page.html",
+      "sha256": "45d7c052e56325878d8949fe6fd5e1715ee91c3109e1628a14192bc9653c57eb"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0000\\screenshot.png",
+      "sha256": "0203ff45b88017a1e2a33fc9422b913690b6f46fa327c5a230593b82d00a158e"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0001\\accessibility.json",
+      "sha256": "5ca9acb15f442a5cc8151cc790fba9b93b7e5b07b1211ffd692157726018c90f"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0001\\metadata.json",
+      "sha256": "e4e6af5c30d145669f8a6b0b6bc853c84e98e7372fceb498d858a9f2f31c9ba4"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0001\\page.html",
+      "sha256": "238bb9c0c551e2b3d2d71d9c124719b5d339dd7702178c6613c51d2b7c345444"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0001\\screenshot.png",
+      "sha256": "5236cea6fe3823853870bde114e0d56d4e4d488acb0c855d2f896a758902f580"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0002\\accessibility.json",
+      "sha256": "2e7f1d6b86f8cb1fb9deaa77608bca41eab2e542e0749ea17d69d20deac33dda"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0002\\metadata.json",
+      "sha256": "7a1e602fd4f178a57353db11c89a40ab0c9ff91e4ea4b09adc85be23dace5708"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0002\\page.html",
+      "sha256": "be4ea48179f28da9d74d934b07371916a1a326b66856344b7c9c75b63453aaf4"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0002\\screenshot.png",
+      "sha256": "6d8901fc66e3d4102be6fecbae527036d936883df296c0e70264f59e9988eea2"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0003\\accessibility.json",
+      "sha256": "8c022ff778904d574dc0ab4c565185f18beb6091a141868e10a2604aaa3c7fd9"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0003\\metadata.json",
+      "sha256": "5ac3c9717966afd9d503e8aa18d052cf4c9c5184565cd8963c4252a3a8f91bfb"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0003\\page.html",
+      "sha256": "38d18df81566dd3714ad5a40473abf56f5e283b5b6cf9a90ba30ac388549d9c5"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0003\\screenshot.png",
+      "sha256": "70c98c38f6c8886be3a1927f387c4df7ac0f797ddb2e516c3ebe7ace185b3631"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0004\\accessibility.json",
+      "sha256": "24297a8bfb9b6f4181a77fff37be6bd979fa406d5c4f4fa97251005bfd6941d4"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0004\\metadata.json",
+      "sha256": "51435e0817439c082e8915d109c798fb13b1230a97df4ed08b7c9a9565c1ffe5"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0004\\page.html",
+      "sha256": "851fdbf8f2f124c91766371983958a5f4b83be3fd6479691149e847e3e5be632"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0004\\screenshot.png",
+      "sha256": "b0dfb431eefd54751dc4d7faac8d6ff15d7f2db9ba06adfa23a5306fe64c1773"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0005\\accessibility.json",
+      "sha256": "d302daeeefd3fda7cf3741e4833cce9d971398587163d39da9cb6f21092f1e32"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0005\\metadata.json",
+      "sha256": "fbc4ce2217a2bd1043a3ec288b85af30e4ded04ec29e3d65e74ce6a6febb25fc"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0005\\page.html",
+      "sha256": "28dc3bf5d5b9d2e026cab0524ce091cea5c61531a8fac49eb34e4887425a7fa3"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0005\\screenshot.png",
+      "sha256": "db9aacf1071fa7d0b499a830d38ccaf67964744b7af97d23b92f475f8fa78524"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0006\\accessibility.json",
+      "sha256": "1a8ab61f8ab0c95892d9f5d084ecf712d7cac09547dd6c2acc877b44fa153375"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0006\\metadata.json",
+      "sha256": "98522c21f00d6248b07f12cb17b39a554b2ad11b414ff05bfc45aedc03aad527"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0006\\page.html",
+      "sha256": "b8ac33666c77f27a2f9c6bb5f61f6e936f86c8457cae5d19b3c1893de9922d2d"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0006\\screenshot.png",
+      "sha256": "eb1322e2fa67ddacb8224dcafe2865a174c20b69d445105c2e06ecd39eba078c"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0007\\accessibility.json",
+      "sha256": "4e0bdef69a68053c2009860680b72be9031b5c4922fbf3da058c467fb6c9e8a6"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0007\\metadata.json",
+      "sha256": "ae1ca6b924a390a600d8c35b56b5afe951d71dca5b9ecbd028de95c15cf7da77"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0007\\page.html",
+      "sha256": "850b9c1e6d914fd7263d436225e9ca27185cf0a468ff84e58dce0b4a21ea5204"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0007\\screenshot.png",
+      "sha256": "376856ce33ce10219aaa4ee84caa01577aa07b49e7f3918648ed866b33986bf9"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0008\\accessibility.json",
+      "sha256": "4c5a70e5d668b13992cbdda48aa3560582183974530b63828ecdb9937ea9daee"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0008\\metadata.json",
+      "sha256": "30ca4da650f3c19add26b854f1146e9a269f2b6fc1e8808b0b3c483282bc6dca"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0008\\page.html",
+      "sha256": "39573fc009e8b11c3010a88fe238a75480bea6ae8e77641b792f9e3bd344d2a2"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0008\\screenshot.png",
+      "sha256": "c58ba8bff64c6a2a754d900bbc90b3ae06f932624d49c951046e3dccf524744d"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0009\\accessibility.json",
+      "sha256": "303c26e19c2485469b1450b5c8b7139fff9d48e12dd5a852d9e8c586f9305ca1"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0009\\metadata.json",
+      "sha256": "0f80dcf0d3aadb49ad7941c6f93b43b24ae7546ae990dd6313a4678b8cf21a60"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0009\\page.html",
+      "sha256": "bed45f590d9ee14ccbbc6b1e678cd449427b5d6951f389c54e0f6c94ee66931f"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0009\\screenshot.png",
+      "sha256": "40418b5eb4809cfa88fa70b72f90890de19820b8e968f3865356b87f909b6d1a"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0010\\accessibility.json",
+      "sha256": "9956739a65e491eb395a943a21f9cecabe438c172a84f2e65ccc2cce135db293"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0010\\metadata.json",
+      "sha256": "fa8f05bc292ad2a806cc248636de13db3fe99be3a6662f391df516b40aeb2c82"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0010\\page.html",
+      "sha256": "d90ed34477d7875eae883c69e3a913e51ad8ba1f2d2e5d084d0c13d4cb5d2596"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0010\\screenshot.png",
+      "sha256": "454d6700d1af1508862efc9e633e9442848088f94c6e3a1448c92360fd06c871"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0011\\accessibility.json",
+      "sha256": "9ef3e5b6e9678581b5fd0d7791778663cbc8bddd852999ed9095d117fa5a3195"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0011\\metadata.json",
+      "sha256": "f3a7640f99c98c7c9ae5169b8899ec0b971afbbc198a5541094cc0fd7ee66a3e"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0011\\page.html",
+      "sha256": "aad51584635222f4ebfb4ee160286e9778a7eba62b3e739e5c74d0321270160f"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0011\\screenshot.png",
+      "sha256": "15589423c2f15adf0376de236ad9c086d441c3c461ea3acda72da5edbf27f6a7"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0012\\accessibility.json",
+      "sha256": "7a6f6fc66203f334bfec47cab31b1761e15a8577df82319e78c7edf8047de8ab"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0012\\metadata.json",
+      "sha256": "5c2991dcee8db63f3061642dcedb5cb167d3f49a4059d96b840a5145192a8e42"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0012\\page.html",
+      "sha256": "341619c8927f0b1235463a6561eb5e1bbd95a5875241a8680cbf9a0a2e3a52bb"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0012\\screenshot.png",
+      "sha256": "1e70c11e28657f78b6c31fd81a3fae6a103d908d45694032d5808684298d87b9"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0013\\accessibility.json",
+      "sha256": "bc9215d43b556d3bf32f03e875216576f6a8466ae4259289ceb3fe37af73dbb8"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0013\\metadata.json",
+      "sha256": "5b10b510fa6748617d71e98bcd5c10cec63218f0a4cdd5999533f93a65a136b2"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0013\\page.html",
+      "sha256": "2f3cc89477043d0da314cab706bd6471f46537fa8c4cfd2f3ccfb233ab2157fe"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0013\\screenshot.png",
+      "sha256": "2941dd67d669cf298aede28650c1f79b63c7612cb6bba5fc1edac83cbec08df6"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0014\\accessibility.json",
+      "sha256": "b8bba6955d8b589b9c98b07338181c472256e625ce4c2c39093bc233b6cc42d9"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0014\\metadata.json",
+      "sha256": "c606b5323f5ccf7c0b76917538b2d423882dfca835a8a94cdb7158b5b073cb75"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0014\\page.html",
+      "sha256": "ea79b7dd5cce4f3b4bde6495e5982abb77a3d650d9adac70844eca609bb029f4"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0014\\screenshot.png",
+      "sha256": "dd4db63c3bd3f20d3cad3a4a060b2b8a5cef10f607263a0942010b8ba2b0e510"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0015\\accessibility.json",
+      "sha256": "d06eeedcc92003d6b88e24cc738e37e0605fe80d48e3a3c6e36138c7e4576aa2"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0015\\metadata.json",
+      "sha256": "6d02e6cbdc7841c9741b82c5f59b255e636755b9137bb5911d7d4fb9a7dab314"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0015\\page.html",
+      "sha256": "97d806291e0e907ab12b3d9e3755cfe7f817a28a5fa139316240dc54866c17e3"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0015\\screenshot.png",
+      "sha256": "cada74498b61846fb476eeb676120a77a5ae4d2e0cdae5dc98f12c53fb5fcbc6"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0016\\accessibility.json",
+      "sha256": "348b85710829574168d1cf85bc98ad434f1baf2e67204d4832e6414863936570"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0016\\metadata.json",
+      "sha256": "1b768559b876695b4947bf8355bb357169e40d4c31784370384e32a2b79b9ded"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0016\\page.html",
+      "sha256": "cd37159b65ae87fafb3e7d4ee20aba2fa806a7159ceec67923fdf776777a1a3e"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0016\\screenshot.png",
+      "sha256": "dc79079a5144dc13b65fd97276d2ba80b0ea48d20fbf55c40b94527460085584"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0017\\accessibility.json",
+      "sha256": "5181b437503001750f153dfbfc3028bd20c789367da3cfc69f6c7f11b0f67d64"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0017\\metadata.json",
+      "sha256": "eec5cc61eea8fb41242f1214efd5b013aeb6e9f57dfa2a22db5c783b0d4b6213"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0017\\page.html",
+      "sha256": "bcc7fd31dee3b95f53bf176de91d995126bca85ac3c9fe5a7008eb575f1b17ae"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0017\\screenshot.png",
+      "sha256": "eb33501008fd620222aa91aa3704d5fcd7642fd4a21ee6d622d13031f8669e7d"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0018\\accessibility.json",
+      "sha256": "293a48a95b834117052cfe844ed3a35abeaaa0ec7f2813582a436f437f1e0d28"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0018\\metadata.json",
+      "sha256": "6dcf8ed0e3cdef4d1bfefab6fa3975acfd3944cc53cabc05c858bded4535aa74"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0018\\page.html",
+      "sha256": "357c3515c379615c747ed8ddfc181098e028fa2ead9276c810a05ba506b12d82"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0018\\screenshot.png",
+      "sha256": "fba706ae0ce9886a0c244914b1a4ac87b2e11c053be42cbdbc59d0de585367db"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0019\\accessibility.json",
+      "sha256": "96d3b4eccfd142275b12c6b80481c593e1d1a2c66474047f6d2b982b37425414"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0019\\metadata.json",
+      "sha256": "312ef9ad6c3aa06b247e9b7b0f7b0a056a8b2173870a60e48f6f943b0c29a37e"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0019\\page.html",
+      "sha256": "ba58e6e06c046044de9bcc876c70c59a7b5f3d770fa5a5c0bfda2ca466ea950a"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0019\\screenshot.png",
+      "sha256": "11471afabd0cc3fc5a6101c37e518d70afd6f1e8316d6656d36c77ae86e41e21"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0020\\accessibility.json",
+      "sha256": "9396091c3a517e00009ae7eefc603d7a360cefd7f491c852745d2796b0da6f06"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0020\\metadata.json",
+      "sha256": "9f5d804dd6bbbfe8409cca22e89c64f7a29e3b81f33fe52b29ac4704448552d5"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0020\\page.html",
+      "sha256": "0de1bb6840517ce669c9f35e6f80c0da0c7ce48af0f3544163f4ff0b6d8c2713"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0020\\screenshot.png",
+      "sha256": "83870638e61f3b615ea1afc89143419a8d644ab2e6913b79585f87da558800a2"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0021\\accessibility.json",
+      "sha256": "4e23fc1ef2de2b6d9aeb606b60d5b3fbc6d579c6bdac18d14085f778bf2c8a48"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0021\\metadata.json",
+      "sha256": "fa39d0df231a208c6bcfbd6ff41800194acde2576a4ce60fbf4fb3065dd0621f"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0021\\page.html",
+      "sha256": "4058fb67dea5b599fdbf52c954550de367507b5afd0d2667554a7d6e9e72432e"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0021\\screenshot.png",
+      "sha256": "5236cea6fe3823853870bde114e0d56d4e4d488acb0c855d2f896a758902f580"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\capture.json",
+      "sha256": "ae8a049e4e9a658dce0264f6c8603b2d3a77455351106b046d4f03943c5ad9af"
+    }
+  ]
+}

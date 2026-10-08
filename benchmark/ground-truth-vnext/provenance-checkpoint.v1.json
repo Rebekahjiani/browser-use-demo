@@ -1,0 +1,34 @@
+{
+  "created_at": "2026-09-30T03:47:28.565751+00:00",
+  "status": "provenance checkpoint, not final gold freeze",
+  "files": [
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\export_db.py",
+      "sha256": "bcdb2d1d74064dcab6b93c87da84b4a953d70563bde7e6fda52292a03792bd0b"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\map_db_ui.py",
+      "sha256": "c0e385513dcd39c339d0e89144f32ba1e4a8b00677171e56f8ad27b15f5b05e3"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\db-export.v1.json",
+      "sha256": "97f5ea49a5fd44e5e57a49c8d89587ca568bab23d3a48657f6f3be6a62b61abf"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\db-export.v2.json",
+      "sha256": "4c3271b61ea4c58950c10502d91644a907bf4731a4bedc0bc05a579a6337d964"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\db-ui-mapping.v1.json",
+      "sha256": "bfd93bcbdd855a2da6f468eb5d82d1236dc996784428d8b6a4fa1b21def11a1c"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\mapped-subset-diagnostic.v1.json",
+      "sha256": "33f16581cb568722a210673704ff04225f711bb0a7c525f4029a500ba7fff2c4"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\PROGRESS_20260930.md",
+      "sha256": "8da7ee964445045c86736163aa21441daa518ef136a019f7b0f13a256165ac87"
+    }
+  ]
+}

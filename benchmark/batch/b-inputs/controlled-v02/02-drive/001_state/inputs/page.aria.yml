@@ -1,0 +1,213 @@
+- RootWebArea "So Delicious Dairy Free CocoWhip Light, Vegan, Non-GMO Project Verified, 9 oz. Tub" [url="http://127.0.0.1:7770/so-delicious-dairy-free-cocowhip-light-vegan-non-gmo-project-verified-9-oz-tub.html#reviews"]
+  - generic
+    - banner
+      - generic
+        - link "Skip to Content" [url="http://127.0.0.1:7770/so-delicious-dairy-free-cocowhip-light-vegan-non-gmo-project-verified-9-oz-tub.html#contentarea"]
+          - StaticText "Skip to Content"
+      - generic
+        - generic
+          - generic
+            - StaticText ""
+          - StaticText "Toggle Nav"
+        - link "store logo" [url="http://127.0.0.1:7770/"]
+          - image "one_stop_market_logo" [url="http://127.0.0.1:7770/media/logo/websites/1/image_15__1.png"]
+        - generic
+          - link " My Cart" [url="http://127.0.0.1:7770/checkout/cart/"]
+            - generic
+              - StaticText ""
+            - StaticText "My Cart"
+        - form
+          - LabelText
+            - generic
+              - StaticText ""
+            - StaticText "Search"
+          - generic
+            - combobox " Search" [expanded=false]
+              - generic
+    - generic
+      - tablist
+        - tab "Menu" [selected=false] [expanded=true]
+          - link "Menu" [url="http://127.0.0.1:7770/so-delicious-dairy-free-cocowhip-light-vegan-non-gmo-project-verified-9-oz-tub.html#store.menu"]
+            - StaticText "Menu"
+        - tabpanel
+          - navigation
+            - menu
+              - menuitem "BEAUTY & PERSONAL CARE "
+                - StaticText "BEAUTY & PERSONAL CARE"
+                - generic
+                  - StaticText ""
+              - menuitem "SPORTS & OUTDOORS "
+                - StaticText "SPORTS & OUTDOORS"
+                - generic
+                  - StaticText ""
+              - menuitem "CLOTHING, SHOES & JEWELRY "
+                - StaticText "CLOTHING, SHOES & JEWELRY"
+                - generic
+                  - StaticText ""
+              - menuitem "HOME & KITCHEN "
+                - StaticText "HOME & KITCHEN"
+                - generic
+                  - StaticText ""
+              - menuitem "OFFICE PRODUCTS "
+                - StaticText "OFFICE PRODUCTS"
+                - generic
+                  - StaticText ""
+              - menuitem "TOOLS & HOME IMPROVEMENT "
+                - StaticText "TOOLS & HOME IMPROVEMENT"
+                - generic
+                  - StaticText ""
+              - menuitem "HEALTH & HOUSEHOLD "
+                - StaticText "HEALTH & HOUSEHOLD"
+                - generic
+                  - StaticText ""
+              - menuitem "PATIO, LAWN & GARDEN "
+                - StaticText "PATIO, LAWN & GARDEN"
+                - generic
+                  - StaticText ""
+              - menuitem "ELECTRONICS "
+                - StaticText "ELECTRONICS"
+                - generic
+                  - StaticText ""
+              - menuitem "CELL PHONES & ACCESSORIES "
+                - StaticText "CELL PHONES & ACCESSORIES"
+                - generic
+                  - StaticText ""
+              - menuitem "VIDEO GAMES "
+                - StaticText "VIDEO GAMES"
+                - generic
+                  - StaticText ""
+              - menuitem "GROCERY & GOURMET FOOD "
+                - StaticText "GROCERY & GOURMET FOOD"
+                - generic
+                  - StaticText ""
+        - tab "Account" [selected=false] [expanded=false]
+          - link "Account" [url="http://127.0.0.1:7770/so-delicious-dairy-free-cocowhip-light-vegan-non-gmo-project-verified-9-oz-tub.html#store.links"]
+            - StaticText "Account"
+    - list
+      - listitem [level=1]
+        - link "Home" [url="http://127.0.0.1:7770/"]
+          - StaticText "Home"
+        - generic
+          - StaticText ""
+      - listitem [level=1]
+        - strong
+          - StaticText "So Delicious Dairy Free CocoWhip Light, Vegan, Non-GMO Project Verified, 9 oz. Tub"
+    - main
+      - generic
+      - heading "So Delicious Dairy Free CocoWhip Light, Vegan, Non-GMO Project Verified, 9 oz. Tub" [level=1]
+        - StaticText "So Delicious Dairy Free CocoWhip Light, Vegan, Non-GMO Project Verified, 9 oz. Tub"
+      - generic
+        - generic
+          - StaticText "IN STOCK"
+        - generic
+          - strong
+            - StaticText "SKU"
+          - generic
+            - StaticText "B01N1QRJNG"
+      - LayoutTable
+        - generic
+          - StaticText "Rating:"
+          - generic
+            - generic
+              - StaticText ""
+            - generic
+              - StaticText ""
+            - StaticText "78"
+            - StaticText "% of"
+            - StaticText "100"
+        - generic
+          - link "12 Reviews" [url="http://127.0.0.1:7770/so-delicious-dairy-free-cocowhip-light-vegan-non-gmo-project-verified-9-oz-tub.html#reviews"]
+            - StaticText "12"
+            - StaticText
+            - StaticText "Reviews"
+          - link "Add Your Review" [url="http://127.0.0.1:7770/so-delicious-dairy-free-cocowhip-light-vegan-non-gmo-project-verified-9-oz-tub.html#review-form"]
+            - StaticText "Add Your Review"
+      - generic
+        - generic
+          - StaticText "$15.62"
+      - form
+        - LabelText
+          - StaticText "Qty"
+        - generic
+          - spinbutton "Qty" [value=1]
+            - generic
+              - StaticText "1"
+        - button "Add to Cart"
+          - StaticText "Add to Cart"
+        - generic
+      - generic
+        - link "Add to Wish List" [url="http://127.0.0.1:7770/so-delicious-dairy-free-cocowhip-light-vegan-non-gmo-project-verified-9-oz-tub.html#"]
+          - StaticText "Add to Wish List"
+      - generic
+      - generic
+        - link "Skip to the end of the images gallery" [url="http://127.0.0.1:7770/so-delicious-dairy-free-cocowhip-light-vegan-non-gmo-project-verified-9-oz-tub.html#gallery-next-area"]
+          - StaticText "Skip to the end of the images gallery"
+      - generic
+        - generic
+        - generic
+        - generic
+          - generic
+            - button "Previous"
+              - generic
+            - generic
+              - generic
+                - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/829a59e57f886f8cf0598ffca4f8a940/B/0/B01N1QRJNG.1.jpg"]
+            - button "Next"
+              - generic
+          - generic
+            - generic
+              - button "Image"
+                - generic
+              - button "Image"
+                - generic
+        - generic
+      - generic
+        - link "Skip to the beginning of the images gallery" [url="http://127.0.0.1:7770/so-delicious-dairy-free-cocowhip-light-vegan-non-gmo-project-verified-9-oz-tub.html#gallery-prev-area"]
+          - StaticText "Skip to the beginning of the images gallery"
+      - generic
+      - tablist
+        - tab "Details" [selected=false] [expanded=false]
+          - link "Details" [url="http://127.0.0.1:7770/so-delicious-dairy-free-cocowhip-light-vegan-non-gmo-project-verified-9-oz-tub.html#description"]
+            - StaticText "Details"
+        - tab "Reviews (12)" [selected=false] [expanded=false]
+          - link "Reviews (12)" [url="http://127.0.0.1:7770/so-delicious-dairy-free-cocowhip-light-vegan-non-gmo-project-verified-9-oz-tub.html#reviews"]
+            - StaticText "Reviews"
+            - StaticText "("
+            - StaticText "12"
+            - StaticText ")"
+    - contentinfo
+      - form
+        - generic
+          - generic
+            - StaticText ""
+          - LabelText
+            - StaticText "Sign Up for Our Newsletter:"
+            - textbox "Sign Up for Our Newsletter:"
+              - generic
+        - generic
+          - button "Subscribe"
+            - StaticText "Subscribe"
+      - list
+        - listitem [level=1]
+          - link "Privacy and Cookie Policy" [url="http://127.0.0.1:7770/privacy-policy-cookie-restriction-mode/"]
+            - StaticText "Privacy and Cookie Policy"
+        - listitem [level=1]
+          - link "Search Terms" [url="http://127.0.0.1:7770/search/term/popular/"]
+            - StaticText "Search Terms"
+        - listitem [level=1]
+          - link "Advanced Search" [url="http://127.0.0.1:7770/catalogsearch/advanced/"]
+            - StaticText "Advanced Search"
+        - listitem [level=1]
+          - link "Orders and Returns" [url="http://127.0.0.1:7770/sales/guest/form/"]
+            - StaticText "Orders and Returns"
+        - listitem [level=1]
+          - link "Contact Us" [url="http://127.0.0.1:7770/contact/"]
+            - StaticText "Contact Us"
+      - generic
+        - StaticText "Copyright © 2013-present Magento, Inc. All rights reserved."
+      - generic
+        - StaticText "Help Us Keep Magento Healthy"
+        - StaticText
+        - link "Report All Bugs" [url="http://www.magentocommerce.com/bug-tracking"]
+          - StaticText "Report All Bugs"
+    - generic

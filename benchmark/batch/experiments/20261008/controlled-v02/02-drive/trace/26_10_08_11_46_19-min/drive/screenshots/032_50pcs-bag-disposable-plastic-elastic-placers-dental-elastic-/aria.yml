@@ -1,0 +1,172 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - link "Skip to Content" [ref=e4] [cursor=pointer]:
+      - /url: "#contentarea"
+    - generic [ref=e5]:
+      - generic [ref=e6] [cursor=pointer]:
+        - text: 
+        - generic [ref=e7]: Toggle Nav
+      - link "store logo" [ref=e8] [cursor=pointer]:
+        - /url: http://127.0.0.1:7770/
+        - img "one_stop_market_logo" [ref=e9]
+      - generic [ref=e10]:
+        - link " My Cart" [ref=e11] [cursor=pointer]:
+          - /url: http://127.0.0.1:7770/checkout/cart/
+          - text: 
+          - generic [ref=e12]: My Cart
+        - text: 
+      - generic [ref=e16]:
+        - generic [ref=e17]:
+          - text: 
+          - generic [ref=e18]: Search
+        - combobox " Search" [ref=e20]
+  - tablist [ref=e22]:
+    - tab "Menu" [expanded] [ref=e23]:
+      - link "Menu" [ref=e24] [cursor=pointer]:
+        - /url: "#store.menu"
+    - tabpanel [ref=e25]:
+      - navigation [ref=e26]:
+        - menu [ref=e27]:
+          - listitem [ref=e28]:
+            - menuitem "Beauty & Personal Care " [ref=e29] [cursor=pointer]: Beauty & Personal Care 
+          - listitem [ref=e30]:
+            - menuitem "Sports & Outdoors " [ref=e31] [cursor=pointer]: Sports & Outdoors 
+          - listitem [ref=e32]:
+            - menuitem "Clothing, Shoes & Jewelry " [ref=e33] [cursor=pointer]: Clothing, Shoes & Jewelry 
+          - listitem [ref=e34]:
+            - menuitem "Home & Kitchen " [ref=e35] [cursor=pointer]: Home & Kitchen 
+          - listitem [ref=e36]:
+            - menuitem "Office Products " [ref=e37] [cursor=pointer]: Office Products 
+          - listitem [ref=e38]:
+            - menuitem "Tools & Home Improvement " [ref=e39] [cursor=pointer]: Tools & Home Improvement 
+          - listitem [ref=e40]:
+            - menuitem "Health & Household " [ref=e41] [cursor=pointer]: Health & Household 
+          - listitem [ref=e42]:
+            - menuitem "Patio, Lawn & Garden " [ref=e43] [cursor=pointer]: Patio, Lawn & Garden 
+          - listitem [ref=e44]:
+            - menuitem "Electronics " [ref=e45] [cursor=pointer]: Electronics 
+          - listitem [ref=e46]:
+            - menuitem "Cell Phones & Accessories " [ref=e47] [cursor=pointer]: Cell Phones & Accessories 
+          - listitem [ref=e48]:
+            - menuitem "Video Games " [ref=e49] [cursor=pointer]: Video Games 
+          - listitem [ref=e50]:
+            - menuitem "Grocery & Gourmet Food " [ref=e51] [cursor=pointer]: Grocery & Gourmet Food 
+    - tab "Account" [ref=e52]:
+      - link "Account" [ref=e53] [cursor=pointer]:
+        - /url: "#store.links"
+  - list [ref=e55]:
+    - listitem [ref=e56]:
+      - link "Home" [ref=e57] [cursor=pointer]:
+        - /url: http://127.0.0.1:7770/
+      - text: 
+    - listitem [ref=e58]:
+      - link "Beauty & Personal Care" [ref=e59] [cursor=pointer]:
+        - /url: http://127.0.0.1:7770/beauty-personal-care.html
+      - text: 
+    - listitem [ref=e60]:
+      - link "Oral Care" [ref=e61] [cursor=pointer]:
+        - /url: http://127.0.0.1:7770/beauty-personal-care/oral-care.html
+      - text: 
+    - listitem [ref=e62]:
+      - link "Orthodontic Supplies" [ref=e63] [cursor=pointer]:
+        - /url: http://127.0.0.1:7770/beauty-personal-care/oral-care/orthodontic-supplies.html
+      - text: 
+    - listitem [ref=e64]:
+      - strong [ref=e65]: 50Pcs/Bag Disposable Plastic Elastic Placers Dental Elastic Rubber Band Dental Orthodontic Product Multi Color
+  - main [ref=e66]:
+    - heading "50Pcs/Bag Disposable Plastic Elastic Placers Dental Elastic Rubber Band Dental Orthodontic Product Multi Color" [level=1] [ref=e68]
+    - generic [ref=e70]:
+      - generic [ref=e71]:
+        - generic [ref=e72]:
+          - generic [ref=e73]:
+            - generic "Availability" [ref=e74]: In stock
+            - generic [ref=e75]:
+              - strong [ref=e76]: SKU
+              - generic [ref=e77]: B09KNDB2V8
+          - link "Be the first to review this product" [ref=e80] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/50pcs-bag-disposable-plastic-elastic-placers-dental-elastic-rubber-band-dental-orthodontic-product-multi-color.html#review-form
+          - generic [ref=e83]: $15.85
+        - generic [ref=e87]:
+          - generic [ref=e88]:
+            - generic [ref=e89]: Qty
+            - spinbutton "Qty" [ref=e91]: "1"
+          - button "Add to Cart" [ref=e93] [cursor=pointer]
+        - link "Add to Wish List" [ref=e96] [cursor=pointer]:
+          - /url: "#"
+      - generic [ref=e97]:
+        - link "Skip to the end of the images gallery" [ref=e98] [cursor=pointer]:
+          - /url: "#gallery-next-area"
+        - generic [ref=e101]:
+          - generic [ref=e102]:
+            - button "Previous" [ref=e103] [cursor=pointer]
+            - generic [ref=e105]:
+              - img "Image" [ref=e107]
+              - img [ref=e109]
+            - button "Next"
+          - generic [ref=e112]:
+            - button "Image" [ref=e113]
+            - button "Image" [ref=e115]
+        - link "Skip to the beginning of the images gallery" [ref=e117] [cursor=pointer]:
+          - /url: "#gallery-prev-area"
+      - tablist [ref=e119]:
+        - tab "Details" [expanded] [ref=e120]:
+          - link "Details" [ref=e121] [cursor=pointer]:
+            - /url: "#description"
+        - tabpanel "Details" [ref=e122]:
+          - generic [ref=e125]:
+            - heading "Product Quick Look" [level=2] [ref=e126]
+            - generic [ref=e127]:
+              - list [ref=e129]:
+                - listitem [ref=e130]: "Specifications: Type: Orthodontic Elastic Placer Color: MixColor Material: Plastic Quantity: 50Pcs Item Size: Approx. 6cm / 2.4in (Single) Total Size: Approx. 14 * 9.0 * 1cm / 5.5 * 3.6 * 0.4in Total Weight: Approx. 45g / 1.6oz Package List: 1 Pack * Orthodontic Elastic Placer (50Pcs)"
+                - listitem [ref=e131]: "#These elastic rubber bands placers are made of non-toxic and harmless material to the human body, place elastics easily with less frustration"
+                - listitem [ref=e132]: "#Our elastic placers have a design that provides an elastic hook on one end and a pusher on the other end to remove elastics,it's a little wonderful tool"
+                - listitem [ref=e133]: "#Easy to store and carry, making it an ideal tool"
+              - table [ref=e135]:
+                - rowgroup [ref=e136]:
+                  - row "Manufacturer ‎SERZG" [ref=e137]:
+                    - rowheader "Manufacturer" [ref=e138]
+                    - cell "‎SERZG" [ref=e139]
+                  - row "Part Number ‎BBEY547I-T68" [ref=e140]:
+                    - rowheader "Part Number" [ref=e141]
+                    - cell "‎BBEY547I-T68" [ref=e142]
+                  - row "Material ‎Aluminum" [ref=e143]:
+                    - rowheader "Material" [ref=e144]
+                    - cell "‎Aluminum" [ref=e145]
+                  - row "Date First Available October 29, 2021" [ref=e146]:
+                    - rowheader "Date First Available" [ref=e147]
+                    - cell "October 29, 2021" [ref=e148]
+        - tab "Reviews" [ref=e149]:
+          - link "Reviews" [ref=e150] [cursor=pointer]:
+            - /url: "#reviews"
+        - text: "*       * * *"
+  - contentinfo [ref=e151]:
+    - generic [ref=e152]:
+      - generic [ref=e155]:
+        - generic [ref=e157]:
+          - text: 
+          - generic [ref=e158]:
+            - generic [ref=e159]: "Sign Up for Our Newsletter:"
+            - textbox "Sign Up for Our Newsletter:" [ref=e160]:
+              - /placeholder: Enter your email address
+        - button "Subscribe" [ref=e162] [cursor=pointer]
+      - list [ref=e163]:
+        - listitem [ref=e164]:
+          - link "Privacy and Cookie Policy" [ref=e165] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/privacy-policy-cookie-restriction-mode/
+        - listitem [ref=e166]:
+          - link "Search Terms" [ref=e167] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/search/term/popular/
+        - listitem [ref=e168]:
+          - link "Advanced Search" [ref=e169] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/catalogsearch/advanced/
+        - listitem [ref=e170]:
+          - link "Orders and Returns" [ref=e171] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/sales/guest/form/
+        - listitem [ref=e172]:
+          - link "Contact Us" [ref=e173] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/contact/
+      - generic [ref=e174]: Copyright © 2013-present Magento, Inc. All rights reserved.
+      - generic [ref=e175]:
+        - text: Help Us Keep Magento Healthy
+        - link "Report All Bugs" [ref=e176] [cursor=pointer]:
+          - /url: http://www.magentocommerce.com/bug-tracking

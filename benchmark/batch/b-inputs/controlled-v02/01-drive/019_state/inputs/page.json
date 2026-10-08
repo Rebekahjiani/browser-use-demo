@@ -1,0 +1,10 @@
+{
+  "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/teeth-whitening.html",
+  "title": "Teeth Whitening - Oral Care - Beauty & Personal Care",
+  "route": "/beauty-personal-care/oral-care/teeth-whitening.html",
+  "sources": {
+    "accessibility": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\01-drive\\trace\\26_10_08_11_08_15-min\\drive\\screenshots\\026_beauty-personal-care_oral-care_teeth-whitening_html\\accessibility.json",
+    "sha256_AX": "52dda04f8ce483e2b2ff85db89bc00fbc78f64df5f7fab3fa52b620a2d2e2cb0"
+  },
+  "material_scope": "recorded UI and conservatively associated JSON responses"
+}

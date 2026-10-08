@@ -1,0 +1,254 @@
+- RootWebArea "50Pcs/Bag Disposable Plastic Elastic Placers Dental Elastic Rubber Band Dental Orthodontic Product Multi Color" [url="http://127.0.0.1:7770/50pcs-bag-disposable-plastic-elastic-placers-dental-elastic-rubber-band-dental-orthodontic-product-multi-color.html"]
+  - generic
+    - banner
+      - generic
+        - link "Skip to Content" [url="http://127.0.0.1:7770/50pcs-bag-disposable-plastic-elastic-placers-dental-elastic-rubber-band-dental-orthodontic-product-multi-color.html#contentarea"]
+          - StaticText "Skip to Content"
+      - generic
+        - generic
+          - generic
+            - StaticText ""
+          - StaticText "Toggle Nav"
+        - link "store logo" [url="http://127.0.0.1:7770/"]
+          - image "one_stop_market_logo" [url="http://127.0.0.1:7770/media/logo/websites/1/image_15__1.png"]
+        - generic
+          - link " My Cart" [url="http://127.0.0.1:7770/checkout/cart/"]
+            - generic
+              - StaticText ""
+            - StaticText "My Cart"
+        - form
+          - LabelText
+            - generic
+              - StaticText ""
+            - StaticText "Search"
+          - generic
+            - combobox " Search" [expanded=false]
+              - generic
+    - generic
+      - tablist
+        - tab "Menu" [selected=false] [expanded=true]
+          - link "Menu" [url="http://127.0.0.1:7770/50pcs-bag-disposable-plastic-elastic-placers-dental-elastic-rubber-band-dental-orthodontic-product-multi-color.html#store.menu"]
+            - StaticText "Menu"
+        - tabpanel
+          - navigation
+            - menu
+              - menuitem "BEAUTY & PERSONAL CARE "
+                - StaticText "BEAUTY & PERSONAL CARE"
+                - generic
+                  - StaticText ""
+              - menuitem "SPORTS & OUTDOORS "
+                - StaticText "SPORTS & OUTDOORS"
+                - generic
+                  - StaticText ""
+              - menuitem "CLOTHING, SHOES & JEWELRY "
+                - StaticText "CLOTHING, SHOES & JEWELRY"
+                - generic
+                  - StaticText ""
+              - menuitem "HOME & KITCHEN "
+                - StaticText "HOME & KITCHEN"
+                - generic
+                  - StaticText ""
+              - menuitem "OFFICE PRODUCTS "
+                - StaticText "OFFICE PRODUCTS"
+                - generic
+                  - StaticText ""
+              - menuitem "TOOLS & HOME IMPROVEMENT "
+                - StaticText "TOOLS & HOME IMPROVEMENT"
+                - generic
+                  - StaticText ""
+              - menuitem "HEALTH & HOUSEHOLD "
+                - StaticText "HEALTH & HOUSEHOLD"
+                - generic
+                  - StaticText ""
+              - menuitem "PATIO, LAWN & GARDEN "
+                - StaticText "PATIO, LAWN & GARDEN"
+                - generic
+                  - StaticText ""
+              - menuitem "ELECTRONICS "
+                - StaticText "ELECTRONICS"
+                - generic
+                  - StaticText ""
+              - menuitem "CELL PHONES & ACCESSORIES "
+                - StaticText "CELL PHONES & ACCESSORIES"
+                - generic
+                  - StaticText ""
+              - menuitem "VIDEO GAMES "
+                - StaticText "VIDEO GAMES"
+                - generic
+                  - StaticText ""
+              - menuitem "GROCERY & GOURMET FOOD "
+                - StaticText "GROCERY & GOURMET FOOD"
+                - generic
+                  - StaticText ""
+        - tab "Account" [selected=false] [expanded=false]
+          - link "Account" [url="http://127.0.0.1:7770/50pcs-bag-disposable-plastic-elastic-placers-dental-elastic-rubber-band-dental-orthodontic-product-multi-color.html#store.links"]
+            - StaticText "Account"
+    - list
+      - listitem [level=1]
+        - link "Home" [url="http://127.0.0.1:7770/"]
+          - StaticText "Home"
+        - generic
+          - StaticText ""
+      - listitem [level=1]
+        - link "Beauty & Personal Care" [url="http://127.0.0.1:7770/beauty-personal-care.html"]
+          - StaticText "Beauty & Personal Care"
+        - generic
+          - StaticText ""
+      - listitem [level=1]
+        - link "Oral Care" [url="http://127.0.0.1:7770/beauty-personal-care/oral-care.html"]
+          - StaticText "Oral Care"
+        - generic
+          - StaticText ""
+      - listitem [level=1]
+        - link "Orthodontic Supplies" [url="http://127.0.0.1:7770/beauty-personal-care/oral-care/orthodontic-supplies.html"]
+          - StaticText "Orthodontic Supplies"
+        - generic
+          - StaticText ""
+      - listitem [level=1]
+        - strong
+          - StaticText "50Pcs/Bag Disposable Plastic Elastic Placers Dental Elastic Rubber Band Dental Orthodontic Product Multi Color"
+    - main
+      - generic
+      - heading "50Pcs/Bag Disposable Plastic Elastic Placers Dental Elastic Rubber Band Dental Orthodontic Product Multi Color" [level=1]
+        - StaticText "50Pcs/Bag Disposable Plastic Elastic Placers Dental Elastic Rubber Band Dental Orthodontic Product Multi Color"
+      - generic
+        - generic
+          - StaticText "IN STOCK"
+        - generic
+          - strong
+            - StaticText "SKU"
+          - generic
+            - StaticText "B09KNDB2V8"
+      - LayoutTable
+        - generic
+          - link "Be the first to review this product" [url="http://127.0.0.1:7770/50pcs-bag-disposable-plastic-elastic-placers-dental-elastic-rubber-band-dental-orthodontic-product-multi-color.html#review-form"]
+            - StaticText "Be the first to review this product"
+      - generic
+        - generic
+          - StaticText "$15.85"
+      - form
+        - LabelText
+          - StaticText "Qty"
+        - generic
+          - spinbutton "Qty" [value=1]
+            - generic
+              - StaticText "1"
+        - button "Add to Cart"
+          - StaticText "Add to Cart"
+        - generic
+      - generic
+        - link "Add to Wish List" [url="http://127.0.0.1:7770/50pcs-bag-disposable-plastic-elastic-placers-dental-elastic-rubber-band-dental-orthodontic-product-multi-color.html#"]
+          - StaticText "Add to Wish List"
+      - generic
+      - generic
+        - link "Skip to the end of the images gallery" [url="http://127.0.0.1:7770/50pcs-bag-disposable-plastic-elastic-placers-dental-elastic-rubber-band-dental-orthodontic-product-multi-color.html#gallery-next-area"]
+          - StaticText "Skip to the end of the images gallery"
+      - generic
+        - generic
+        - generic
+        - generic
+          - generic
+            - button "Previous"
+              - generic
+            - generic
+              - generic
+                - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/829a59e57f886f8cf0598ffca4f8a940/B/0/B09KNDB2V8.1.jpg"]
+            - button "Next"
+              - generic
+          - generic
+            - generic
+              - button "Image"
+                - generic
+              - button "Image"
+                - generic
+        - generic
+      - generic
+        - link "Skip to the beginning of the images gallery" [url="http://127.0.0.1:7770/50pcs-bag-disposable-plastic-elastic-placers-dental-elastic-rubber-band-dental-orthodontic-product-multi-color.html#gallery-prev-area"]
+          - StaticText "Skip to the beginning of the images gallery"
+      - generic
+      - tablist
+        - tab "Details" [selected=false] [expanded=true]
+          - link "Details" [url="http://127.0.0.1:7770/50pcs-bag-disposable-plastic-elastic-placers-dental-elastic-rubber-band-dental-orthodontic-product-multi-color.html#description"]
+            - StaticText "Details"
+        - tabpanel "Details"
+          - generic
+          - generic
+          - generic
+          - generic
+          - generic
+            - heading "Product Quick Look" [level=2]
+              - StaticText "Product Quick Look"
+            - generic
+              - list
+                - listitem [level=1]
+                  - ListMarker "•"
+                  - StaticText "Specifications: Type: Orthodontic Elastic Placer Color: MixColor Material: Plastic Quantity: 50Pcs Item Size: Approx. 6cm / 2.4in (Single) Total Size: Approx. 14 * 9.0 * 1cm / 5.5 * 3.6 * 0.4in Total Weight: Approx. 45g / 1.6oz Package List: 1 Pack * Orthodontic Elastic Placer (50Pcs)"
+                - listitem [level=1]
+                  - ListMarker "•"
+                  - StaticText "#These elastic rubber bands placers are made of non-toxic and harmless material to the human body, place elastics easily with less frustration"
+                - listitem [level=1]
+                  - ListMarker "•"
+                  - StaticText "#Our elastic placers have a design that provides an elastic hook on one end and a pusher on the other end to remove elastics,it's a little wonderful tool"
+                - listitem [level=1]
+                  - ListMarker "•"
+                  - StaticText "#Easy to store and carry, making it an ideal tool"
+            - table
+              - row
+                - rowheader "Manufacturer"
+                  - StaticText "Manufacturer"
+                - cell "‎SERZG"
+                  - StaticText "‎SERZG"
+              - row
+                - rowheader "Part Number"
+                  - StaticText "Part Number"
+                - cell "‎BBEY547I-T68"
+                  - StaticText "‎BBEY547I-T68"
+              - row
+                - rowheader "Material"
+                  - StaticText "Material"
+                - cell "‎Aluminum"
+                  - StaticText "‎Aluminum"
+              - row
+                - rowheader "Date First Available"
+                  - StaticText "Date First Available"
+                - cell "October 29, 2021"
+                  - StaticText "October 29, 2021"
+        - tab "Reviews" [selected=false] [expanded=false]
+          - link "Reviews" [url="http://127.0.0.1:7770/50pcs-bag-disposable-plastic-elastic-placers-dental-elastic-rubber-band-dental-orthodontic-product-multi-color.html#reviews"]
+            - StaticText "Reviews"
+    - contentinfo
+      - form
+        - generic
+          - generic
+            - StaticText ""
+          - LabelText
+            - StaticText "Sign Up for Our Newsletter:"
+            - textbox "Sign Up for Our Newsletter:"
+              - generic
+        - generic
+          - button "Subscribe"
+            - StaticText "Subscribe"
+      - list
+        - listitem [level=1]
+          - link "Privacy and Cookie Policy" [url="http://127.0.0.1:7770/privacy-policy-cookie-restriction-mode/"]
+            - StaticText "Privacy and Cookie Policy"
+        - listitem [level=1]
+          - link "Search Terms" [url="http://127.0.0.1:7770/search/term/popular/"]
+            - StaticText "Search Terms"
+        - listitem [level=1]
+          - link "Advanced Search" [url="http://127.0.0.1:7770/catalogsearch/advanced/"]
+            - StaticText "Advanced Search"
+        - listitem [level=1]
+          - link "Orders and Returns" [url="http://127.0.0.1:7770/sales/guest/form/"]
+            - StaticText "Orders and Returns"
+        - listitem [level=1]
+          - link "Contact Us" [url="http://127.0.0.1:7770/contact/"]
+            - StaticText "Contact Us"
+      - generic
+        - StaticText "Copyright © 2013-present Magento, Inc. All rights reserved."
+      - generic
+        - StaticText "Help Us Keep Magento Healthy"
+        - StaticText
+        - link "Report All Bugs" [url="http://www.magentocommerce.com/bug-tracking"]
+          - StaticText "Report All Bugs"
+    - generic

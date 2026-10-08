@@ -1,0 +1,14 @@
+{"args":{"name":"swapper"},"cat":"__metadata","name":"thread_name","ph":"M","pid":0,"tid":0,"ts":0}
+{"args":{"name":"CrRendererMain"},"cat":"__metadata","name":"thread_name","ph":"M","pid":35296,"tid":45316,"ts":0}
+{"args":{"name":"Renderer"},"cat":"__metadata","name":"process_name","ph":"M","pid":35296,"tid":0,"ts":0}
+{"args":{"uptime":"716"},"cat":"__metadata","name":"process_uptime_seconds","ph":"M","pid":35296,"tid":0,"ts":0}
+{"args":{"substracted_bytes":0,"total_bytes_buffered":0},"cat":"loading","dur":24,"name":"BackForwardCacheBufferLimitTracker::DidRemoveFrameOrWorkerFromBackForwardCache","ph":"X","pid":35296,"tdur":9,"tid":45316,"ts":1549855606963,"tts":18123967}
+{"args":{"substracted_bytes":0,"total_bytes_buffered":0},"cat":"loading","dur":5,"name":"BackForwardCacheBufferLimitTracker::DidRemoveFrameOrWorkerFromBackForwardCache","ph":"X","pid":35296,"tdur":2,"tid":45316,"ts":1549855608282,"tts":18124314}
+{"args":{"substracted_bytes":0,"total_bytes_buffered":0},"cat":"loading","dur":5,"name":"BackForwardCacheBufferLimitTracker::DidRemoveFrameOrWorkerFromBackForwardCache","ph":"X","pid":35296,"tdur":2,"tid":45316,"ts":1549855609866,"tts":18124756}
+{"args":{"substracted_bytes":0,"total_bytes_buffered":0},"cat":"loading","dur":1,"name":"BackForwardCacheBufferLimitTracker::DidRemoveFrameOrWorkerFromBackForwardCache","ph":"X","pid":35296,"tid":45316,"ts":1549855610099}
+{"args":{},"cat":"loading","dur":7,"name":"DocumentLoader::~DocumentLoader","ph":"X","pid":35296,"tdur":4,"tid":45316,"ts":1549855693678,"tts":18201803}
+{"args":{},"cat":"loading","dur":26,"name":"DocumentLoader::~DocumentLoader","ph":"X","pid":35296,"tdur":11,"tid":45316,"ts":1549855703216,"tts":18210632}
+{"args":{},"cat":"loading","dur":11,"name":"DocumentLoader::~DocumentLoader","ph":"X","pid":35296,"tdur":8,"tid":45316,"ts":1549855705790,"tts":18212851}
+{"args":{},"cat":"loading","dur":3,"name":"DocumentLoader::~DocumentLoader","ph":"X","pid":35296,"tdur":1,"tid":45316,"ts":1549855709275,"tts":18215948}
+{"args":{"context":{"URL":"","domModifications":0,"firstContentfulPaint":0,"paintedArea":0,"performanceTimelineNavigationId":0,"processingEnd":1549841436867,"softNavContextId":51,"timeOrigin":1549841433947,"urlChangeTime":0}},"cat":"loading","id2":{"local":"0x3"},"name":"SoftNavigationHeuristics::SoftNavigationContextWasExhausted","ph":"n","pid":35296,"tid":45316,"ts":1549855607014}
+{"args":{"context":{"URL":"","domModifications":0,"firstContentfulPaint":0,"paintedArea":0,"performanceTimelineNavigationId":0,"processingEnd":1549837752370,"softNavContextId":50,"timeOrigin":1549837749040,"urlChangeTime":0}},"cat":"loading","id2":{"local":"0x3"},"name":"SoftNavigationHeuristics::SoftNavigationContextWasExhausted","ph":"n","pid":35296,"tid":45316,"ts":1549855608310}

@@ -1,0 +1,563 @@
+- RootWebArea "Denture Care - Oral Care - Beauty & Personal Care" [url="http://127.0.0.1:7770/beauty-personal-care/oral-care/denture-care.html"]
+  - generic
+    - banner
+      - generic
+        - link "Skip to Content" [url="http://127.0.0.1:7770/beauty-personal-care/oral-care/denture-care.html#contentarea"]
+          - StaticText "Skip to Content"
+      - generic
+        - generic
+          - generic
+            - StaticText ""
+          - StaticText "Toggle Nav"
+        - link "store logo" [url="http://127.0.0.1:7770/"]
+          - image "one_stop_market_logo" [url="http://127.0.0.1:7770/media/logo/websites/1/image_15__1.png"]
+        - generic
+          - link " My Cart" [url="http://127.0.0.1:7770/checkout/cart/"]
+            - generic
+              - StaticText ""
+            - StaticText "My Cart"
+        - form
+          - LabelText
+            - generic
+              - StaticText ""
+            - StaticText "Search"
+          - generic
+            - combobox " Search" [expanded=false]
+              - generic
+    - generic
+      - tablist
+        - tab "Menu" [selected=false] [expanded=true]
+          - link "Menu" [url="http://127.0.0.1:7770/beauty-personal-care/oral-care/denture-care.html#store.menu"]
+            - StaticText "Menu"
+        - tabpanel
+          - navigation
+            - menu
+              - menuitem "BEAUTY & PERSONAL CARE "
+                - StaticText "BEAUTY & PERSONAL CARE"
+                - generic
+                  - StaticText ""
+              - menuitem "SPORTS & OUTDOORS "
+                - StaticText "SPORTS & OUTDOORS"
+                - generic
+                  - StaticText ""
+              - menuitem "CLOTHING, SHOES & JEWELRY "
+                - StaticText "CLOTHING, SHOES & JEWELRY"
+                - generic
+                  - StaticText ""
+              - menuitem "HOME & KITCHEN "
+                - StaticText "HOME & KITCHEN"
+                - generic
+                  - StaticText ""
+              - menuitem "OFFICE PRODUCTS "
+                - StaticText "OFFICE PRODUCTS"
+                - generic
+                  - StaticText ""
+              - menuitem "TOOLS & HOME IMPROVEMENT "
+                - StaticText "TOOLS & HOME IMPROVEMENT"
+                - generic
+                  - StaticText ""
+              - menuitem "HEALTH & HOUSEHOLD "
+                - StaticText "HEALTH & HOUSEHOLD"
+                - generic
+                  - StaticText ""
+              - menuitem "PATIO, LAWN & GARDEN "
+                - StaticText "PATIO, LAWN & GARDEN"
+                - generic
+                  - StaticText ""
+              - menuitem "ELECTRONICS "
+                - StaticText "ELECTRONICS"
+                - generic
+                  - StaticText ""
+              - menuitem "CELL PHONES & ACCESSORIES "
+                - StaticText "CELL PHONES & ACCESSORIES"
+                - generic
+                  - StaticText ""
+              - menuitem "VIDEO GAMES "
+                - StaticText "VIDEO GAMES"
+                - generic
+                  - StaticText ""
+              - menuitem "GROCERY & GOURMET FOOD "
+                - StaticText "GROCERY & GOURMET FOOD"
+                - generic
+                  - StaticText ""
+        - tab "Account" [selected=false] [expanded=false]
+          - link "Account" [url="http://127.0.0.1:7770/beauty-personal-care/oral-care/denture-care.html#store.links"]
+            - StaticText "Account"
+    - list
+      - listitem [level=1]
+        - link "Home" [url="http://127.0.0.1:7770/"]
+          - StaticText "Home"
+        - generic
+          - StaticText ""
+      - listitem [level=1]
+        - link "Beauty & Personal Care" [url="http://127.0.0.1:7770/beauty-personal-care.html"]
+          - StaticText "Beauty & Personal Care"
+        - generic
+          - StaticText ""
+      - listitem [level=1]
+        - link "Oral Care" [url="http://127.0.0.1:7770/beauty-personal-care/oral-care.html"]
+          - StaticText "Oral Care"
+        - generic
+          - StaticText ""
+      - listitem [level=1]
+        - strong
+          - StaticText "Denture Care"
+    - main
+      - generic
+      - heading "Denture Care Items 1-12 of 259" [level=1]
+        - StaticText "Denture Care"
+      - generic
+        - paragraph
+          - StaticText "Items"
+          - StaticText "1"
+          - StaticText "-"
+          - StaticText "12"
+          - StaticText "of"
+          - StaticText "259"
+        - generic
+          - LabelText
+            - StaticText "Sort By"
+          - combobox "Sort By" [expanded=false] [value="Position"]
+            - MenuListPopup
+              - option "Position" [selected=true]
+              - option "Product Name" [selected=false]
+              - option "Price" [selected=false]
+          - link " Set Descending Direction" [url="http://127.0.0.1:7770/beauty-personal-care/oral-care/denture-care.html#"]
+            - generic
+              - StaticText ""
+            - StaticText "Set Descending Direction"
+        - list
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/2-boxes-of-iodent-overnight-whitening-denture-cleanser-tablets-20-per-box-40-tablets-total.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B01LBE89HO.0.jpg"]
+              - strong
+                - link "2 - Boxes of Iodent Overnight Whitening Denture Cleanser Tablets 20 per box (40 tablets total)" [url="http://127.0.0.1:7770/2-boxes-of-iodent-overnight-whitening-denture-cleanser-tablets-20-per-box-40-tablets-total.html"]
+                  - StaticText "2 - Boxes of Iodent Overnight Whitening Denture Cleanser Tablets 20 per box (40 tablets total)"
+              - generic
+                - generic
+                  - StaticText "$12.99"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/polident-overnight-whitening-denture-cleanser-120-tablets-pack-of-2.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B00TRAO1U4.0.jpg"]
+              - strong
+                - link "Polident Overnight Whitening Denture Cleanser 120 Tablets (Pack of 2)" [url="http://127.0.0.1:7770/polident-overnight-whitening-denture-cleanser-120-tablets-pack-of-2.html"]
+                  - StaticText "Polident Overnight Whitening Denture Cleanser 120 Tablets (Pack of 2)"
+              - generic
+                - generic
+                  - StaticText "$22.85"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/polident-overnight-whitening-antibacterial-denture-cleanser-triple-mint-freshness-40-ea-pack-of-12.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B01IAE07EQ.0.jpg"]
+              - strong
+                - link "Polident Overnight Whitening, Antibacterial Denture Cleanser, Triple Mint Freshness 40 ea (Pack of 12)" [url="http://127.0.0.1:7770/polident-overnight-whitening-antibacterial-denture-cleanser-triple-mint-freshness-40-ea-pack-of-12.html"]
+                  - StaticText "Polident Overnight Whitening, Antibacterial Denture Cleanser, Triple Mint Freshness 40 ea (Pack of 12)"
+              - generic
+                - generic
+                  - StaticText "$53.50"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/protefix-adhesive-cream-pack-of-3-x-47g-1-66oz.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B00NY6FO3U.0.jpg"]
+              - strong
+                - link "Protefix Adhesive Cream - Pack of 3 x 47g/1.66oz" [url="http://127.0.0.1:7770/protefix-adhesive-cream-pack-of-3-x-47g-1-66oz.html"]
+                  - StaticText "Protefix Adhesive Cream - Pack of 3 x 47g/1.66oz"
+              - generic
+                - generic
+                  - StaticText "$12.70"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/artibetter-portable-retainer-denture-bath-dental-appliance-cleaning-case-dentures-retainer-container-dentures-for-travel-4pcs.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B08FD6B1JK.0.jpg"]
+              - strong
+                - link "ARTIBETTER Portable Retainer Denture Bath Dental Appliance Cleaning Case Dentures Retainer Container Dentures for Travel 4pcs" [url="http://127.0.0.1:7770/artibetter-portable-retainer-denture-bath-dental-appliance-cleaning-case-dentures-retainer-container-dentures-for-travel-4pcs.html"]
+                  - StaticText "ARTIBETTER Portable Retainer Denture Bath Dental Appliance Cleaning Case Dentures Retainer Container Dentures for Travel 4pcs"
+              - generic
+                - generic
+                  - StaticText "$10.69"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/instant-smile-the-disk-denture-reliner-forms-using-hot-water.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B08HJJY781.0.jpg"]
+              - strong
+                - link "Instant Smile - The Disk Denture Reliner - Forms Using Hot Water" [url="http://127.0.0.1:7770/instant-smile-the-disk-denture-reliner-forms-using-hot-water.html"]
+                  - StaticText "Instant Smile - The Disk Denture Reliner - Forms Using Hot Water"
+              - LayoutTable
+                - generic
+                  - StaticText "Rating:"
+                  - generic
+                    - generic
+                      - StaticText ""
+                    - generic
+                      - StaticText ""
+                    - StaticText "68%"
+                - generic
+                  - link "12 Reviews" [url="http://127.0.0.1:7770/instant-smile-the-disk-denture-reliner-forms-using-hot-water.html#reviews"]
+                    - StaticText "12"
+                    - StaticText "Reviews"
+              - generic
+                - generic
+                  - StaticText "$9.99"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/d-o-c-reline-it-advanced-denture-reliner-kit-pack-of-2.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B011EUL5KI.0.jpg"]
+              - strong
+                - link "D.O.C. Reline-It Advanced Denture Reliner Kit ( Pack of 2)" [url="http://127.0.0.1:7770/d-o-c-reline-it-advanced-denture-reliner-kit-pack-of-2.html"]
+                  - StaticText "D.O.C. Reline-It Advanced Denture Reliner Kit ( Pack of 2)"
+              - LayoutTable
+                - generic
+                  - StaticText "Rating:"
+                  - generic
+                    - generic
+                      - StaticText ""
+                    - generic
+                      - StaticText ""
+                    - StaticText "67%"
+                - generic
+                  - link "12 Reviews" [url="http://127.0.0.1:7770/d-o-c-reline-it-advanced-denture-reliner-kit-pack-of-2.html#reviews"]
+                    - StaticText "12"
+                    - StaticText "Reviews"
+              - generic
+                - generic
+                  - StaticText "$19.98"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/ultrasonic-denture-cleaner-blumway-profession-retainer-aligner-mouth-guard-cleaner-machine-sus304-material-5-minute-quick-cleaning-with-tablets.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B082PTP8YB.0.jpg"]
+              - strong
+                - link "Ultrasonic Denture Cleaner, BlumWay Profession Retainer/Aligner/Mouth Guard Cleaner Machine, SUS304 Material 5 Minute Quick Cleaning With Tablets" [url="http://127.0.0.1:7770/ultrasonic-denture-cleaner-blumway-profession-retainer-aligner-mouth-guard-cleaner-machine-sus304-material-5-minute-quick-cleaning-with-tablets.html"]
+                  - StaticText "Ultrasonic Denture Cleaner, BlumWay Profession Retainer/Aligner/Mouth Guard Cleaner Machine, SUS304 Material 5 Minute Quick Cleaning With Tablets"
+              - LayoutTable
+                - generic
+                  - StaticText "Rating:"
+                  - generic
+                    - generic
+                      - StaticText ""
+                    - generic
+                      - StaticText ""
+                    - StaticText "43%"
+                - generic
+                  - link "12 Reviews" [url="http://127.0.0.1:7770/ultrasonic-denture-cleaner-blumway-profession-retainer-aligner-mouth-guard-cleaner-machine-sus304-material-5-minute-quick-cleaning-with-tablets.html#reviews"]
+                    - StaticText "12"
+                    - StaticText "Reviews"
+              - generic
+                - generic
+                  - StaticText "$55.99"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/smile-saver-spray-cleaner-for-retainers-clear-aligners-mouth-guards-night-guards-dentures-toothbrushes-eliminate-bacteria-freshen-all-these-devices-while-on-the-go-1-pack.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B087QT6R3Z.0.jpg"]
+              - strong
+                - link "Smile Saver Spray Cleaner for Retainers, Clear Aligners, Mouth Guards, Night Guards, Dentures & Toothbrushes - Eliminate Bacteria & Freshen All These Devices While On The Go (1 Pack)" [url="http://127.0.0.1:7770/smile-saver-spray-cleaner-for-retainers-clear-aligners-mouth-guards-night-guards-dentures-toothbrushes-eliminate-bacteria-freshen-all-these-devices-while-on-the-go-1-pack.html"]
+                  - StaticText "Smile Saver Spray Cleaner for Retainers, Clear Aligners, Mouth Guards, Night Guards, Dentures & Toothbrushes - Eliminate Bacteria & Freshen All These Devices While On The Go (1 Pack)"
+              - LayoutTable
+                - generic
+                  - StaticText "Rating:"
+                  - generic
+                    - generic
+                      - StaticText ""
+                    - generic
+                      - StaticText ""
+                    - StaticText "75%"
+                - generic
+                  - link "11 Reviews" [url="http://127.0.0.1:7770/smile-saver-spray-cleaner-for-retainers-clear-aligners-mouth-guards-night-guards-dentures-toothbrushes-eliminate-bacteria-freshen-all-these-devices-while-on-the-go-1-pack.html#reviews"]
+                    - StaticText "11"
+                    - StaticText "Reviews"
+              - generic
+                - generic
+                  - StaticText "$14.95"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/famkit-disposable-glasses-leg-sleeves-cover-hairdressing-hair-coloring-protector-accessory-disposable-glasses-leg-cover.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B08JT8R55G.0.jpg"]
+              - strong
+                - link "FAMKIT Disposable Glasses Leg Sleeves Cover Hairdressing Hair Coloring Protector Accessory(Disposable Glasses Leg Cover)" [url="http://127.0.0.1:7770/famkit-disposable-glasses-leg-sleeves-cover-hairdressing-hair-coloring-protector-accessory-disposable-glasses-leg-cover.html"]
+                  - StaticText "FAMKIT Disposable Glasses Leg Sleeves Cover Hairdressing Hair Coloring Protector Accessory(Disposable Glasses Leg Cover)"
+              - generic
+                - generic
+                  - StaticText "$8.63"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/fafeicy-1pc-denture-storage-box-case-with-mirror-and-clean-brush-dental-appliance.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B08L881G9J.0.jpg"]
+              - strong
+                - link "Fafeicy 1pc Denture Storage Box, Case With Mirror and Clean Brush Dental Appliance" [url="http://127.0.0.1:7770/fafeicy-1pc-denture-storage-box-case-with-mirror-and-clean-brush-dental-appliance.html"]
+                  - StaticText "Fafeicy 1pc Denture Storage Box, Case With Mirror and Clean Brush Dental Appliance"
+              - generic
+                - generic
+                  - StaticText "$10.94"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/2-pack-colors-denture-bath-case-cup-box-holder-storage-soak-container-with-strainer-basket-for-travel-cleaning-light-blue-white.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B08PYB97Y9.0.jpg"]
+              - strong
+                - link "2 Pack Colors Denture Bath Case Cup Box Holder Storage Soak Container with Strainer Basket for Travel Cleaning (Light Blue, White)" [url="http://127.0.0.1:7770/2-pack-colors-denture-bath-case-cup-box-holder-storage-soak-container-with-strainer-basket-for-travel-cleaning-light-blue-white.html"]
+                  - StaticText "2 Pack Colors Denture Bath Case Cup Box Holder Storage Soak Container with Strainer Basket for Travel Cleaning (Light Blue, White)"
+              - generic
+                - generic
+                  - StaticText "$6.79"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+        - generic
+          - strong
+            - StaticText "Page"
+          - list "Page"
+            - listitem [level=1]
+              - strong
+                - StaticText "You're currently reading page"
+                - StaticText "1"
+            - listitem [level=1]
+              - link "Page 2" [url="http://127.0.0.1:7770/beauty-personal-care/oral-care/denture-care.html?p=2"]
+                - StaticText "Page"
+                - StaticText "2"
+            - listitem [level=1]
+              - link "Page 3" [url="http://127.0.0.1:7770/beauty-personal-care/oral-care/denture-care.html?p=3"]
+                - StaticText "Page"
+                - StaticText "3"
+            - listitem [level=1]
+              - link "Page 4" [url="http://127.0.0.1:7770/beauty-personal-care/oral-care/denture-care.html?p=4"]
+                - StaticText "Page"
+                - StaticText "4"
+            - listitem [level=1]
+              - link "Page 5" [url="http://127.0.0.1:7770/beauty-personal-care/oral-care/denture-care.html?p=5"]
+                - StaticText "Page"
+                - StaticText "5"
+            - listitem [level=1]
+              - link " Page Next" [url="http://127.0.0.1:7770/beauty-personal-care/oral-care/denture-care.html?p=2"]
+                - generic
+                  - StaticText ""
+                - StaticText "Page"
+                - StaticText "Next"
+        - generic
+          - strong
+            - StaticText "Shop By"
+        - heading "Shopping Options" [level=2]
+          - StaticText "Shopping Options"
+        - DescriptionList
+          - heading "Price" [level=3]
+            - StaticText "Price"
+          - definition
+            - list
+              - listitem [level=1]
+                - link "$0.00 - $99.99( 252 item )" [url="http://127.0.0.1:7770/beauty-personal-care/oral-care/denture-care.html?price=0-100"]
+                  - StaticText "$0.00"
+                  - StaticText "-"
+                  - StaticText "$99.99"
+                  - StaticText "("
+                  - StaticText "252"
+                  - StaticText "item"
+                  - StaticText ")"
+              - listitem [level=1]
+                - link "$100.00 - $199.99( 3 item )" [url="http://127.0.0.1:7770/beauty-personal-care/oral-care/denture-care.html?price=100-200"]
+                  - StaticText "$100.00"
+                  - StaticText "-"
+                  - StaticText "$199.99"
+                  - StaticText "("
+                  - StaticText "3"
+                  - StaticText "item"
+                  - StaticText ")"
+              - listitem [level=1]
+                - link "$200.00 - $299.99( 2 item )" [url="http://127.0.0.1:7770/beauty-personal-care/oral-care/denture-care.html?price=200-300"]
+                  - StaticText "$200.00"
+                  - StaticText "-"
+                  - StaticText "$299.99"
+                  - StaticText "("
+                  - StaticText "2"
+                  - StaticText "item"
+                  - StaticText ")"
+              - listitem [level=1]
+                - link "$600.00 - $699.99( 1 item )" [url="http://127.0.0.1:7770/beauty-personal-care/oral-care/denture-care.html?price=600-700"]
+                  - StaticText "$600.00"
+                  - StaticText "-"
+                  - StaticText "$699.99"
+                  - StaticText "("
+                  - StaticText "1"
+                  - StaticText "item"
+                  - StaticText ")"
+              - listitem [level=1]
+                - link "$700.00 and above( 1 item )" [url="http://127.0.0.1:7770/beauty-personal-care/oral-care/denture-care.html?price=700-800"]
+                  - StaticText "$700.00"
+                  - StaticText "and above"
+                  - StaticText "("
+                  - StaticText "1"
+                  - StaticText "item"
+                  - StaticText ")"
+        - generic
+          - heading "Compare Products" [level=2]
+            - StaticText "Compare Products"
+        - generic
+          - StaticText "You have no items to compare."
+        - generic
+          - heading "My Wish List" [level=2]
+            - StaticText "My Wish List"
+        - generic
+          - StaticText "You have no items in your wish list."
+    - contentinfo
+      - form
+        - generic
+          - generic
+            - StaticText ""
+          - LabelText
+            - StaticText "Sign Up for Our Newsletter:"
+            - textbox "Sign Up for Our Newsletter:"
+              - generic
+        - generic
+          - button "Subscribe"
+            - StaticText "Subscribe"
+      - list
+        - listitem [level=1]
+          - link "Privacy and Cookie Policy" [url="http://127.0.0.1:7770/privacy-policy-cookie-restriction-mode/"]
+            - StaticText "Privacy and Cookie Policy"
+        - listitem [level=1]
+          - link "Search Terms" [url="http://127.0.0.1:7770/search/term/popular/"]
+            - StaticText "Search Terms"
+        - listitem [level=1]
+          - link "Advanced Search" [url="http://127.0.0.1:7770/catalogsearch/advanced/"]
+            - StaticText "Advanced Search"
+        - listitem [level=1]
+          - link "Orders and Returns" [url="http://127.0.0.1:7770/sales/guest/form/"]
+            - StaticText "Orders and Returns"
+        - listitem [level=1]
+          - link "Contact Us" [url="http://127.0.0.1:7770/contact/"]
+            - StaticText "Contact Us"
+      - generic
+        - StaticText "Copyright © 2013-present Magento, Inc. All rights reserved."
+      - generic
+        - StaticText "Help Us Keep Magento Healthy"
+        - StaticText
+        - link "Report All Bugs" [url="http://www.magentocommerce.com/bug-tracking"]
+          - StaticText "Report All Bugs"
+    - generic

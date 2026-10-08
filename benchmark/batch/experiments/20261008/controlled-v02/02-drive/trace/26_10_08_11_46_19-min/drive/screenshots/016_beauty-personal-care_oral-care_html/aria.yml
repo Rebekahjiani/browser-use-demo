@@ -1,0 +1,431 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - link "Skip to Content" [ref=e4] [cursor=pointer]:
+      - /url: "#contentarea"
+    - generic [ref=e5]:
+      - generic [ref=e6] [cursor=pointer]:
+        - text: 
+        - generic [ref=e7]: Toggle Nav
+      - link "store logo" [ref=e8] [cursor=pointer]:
+        - /url: http://127.0.0.1:7770/
+        - img "one_stop_market_logo" [ref=e9]
+      - generic [ref=e10]:
+        - link " My Cart" [ref=e11] [cursor=pointer]:
+          - /url: http://127.0.0.1:7770/checkout/cart/
+          - text: 
+          - generic [ref=e12]: My Cart
+        - text: 
+      - generic [ref=e16]:
+        - generic [ref=e17]:
+          - text: 
+          - generic [ref=e18]: Search
+        - combobox " Search" [ref=e20]
+  - tablist [ref=e22]:
+    - tab "Menu" [expanded] [ref=e23]:
+      - link "Menu" [ref=e24] [cursor=pointer]:
+        - /url: "#store.menu"
+    - tabpanel [ref=e25]:
+      - navigation [ref=e26]:
+        - menu [ref=e27]:
+          - listitem [ref=e28]:
+            - menuitem "Beauty & Personal Care " [ref=e29] [cursor=pointer]: Beauty & Personal Care 
+          - listitem [ref=e30]:
+            - menuitem "Sports & Outdoors " [ref=e31] [cursor=pointer]: Sports & Outdoors 
+          - listitem [ref=e32]:
+            - menuitem "Clothing, Shoes & Jewelry " [ref=e33] [cursor=pointer]: Clothing, Shoes & Jewelry 
+          - listitem [ref=e34]:
+            - menuitem "Home & Kitchen " [ref=e35] [cursor=pointer]: Home & Kitchen 
+          - listitem [ref=e36]:
+            - menuitem "Office Products " [ref=e37] [cursor=pointer]: Office Products 
+          - listitem [ref=e38]:
+            - menuitem "Tools & Home Improvement " [ref=e39] [cursor=pointer]: Tools & Home Improvement 
+          - listitem [ref=e40]:
+            - menuitem "Health & Household " [ref=e41] [cursor=pointer]: Health & Household 
+          - listitem [ref=e42]:
+            - menuitem "Patio, Lawn & Garden " [ref=e43] [cursor=pointer]: Patio, Lawn & Garden 
+          - listitem [ref=e44]:
+            - menuitem "Electronics " [ref=e45] [cursor=pointer]: Electronics 
+          - listitem [ref=e46]:
+            - menuitem "Cell Phones & Accessories " [ref=e47] [cursor=pointer]: Cell Phones & Accessories 
+          - listitem [ref=e48]:
+            - menuitem "Video Games " [ref=e49] [cursor=pointer]: Video Games 
+          - listitem [ref=e50]:
+            - menuitem "Grocery & Gourmet Food " [ref=e51] [cursor=pointer]: Grocery & Gourmet Food 
+    - tab "Account" [ref=e52]:
+      - link "Account" [ref=e53] [cursor=pointer]:
+        - /url: "#store.links"
+  - list [ref=e55]:
+    - listitem [ref=e56]:
+      - link "Home" [ref=e57] [cursor=pointer]:
+        - /url: http://127.0.0.1:7770/
+      - text: 
+    - listitem [ref=e58]:
+      - link "Beauty & Personal Care" [ref=e59] [cursor=pointer]:
+        - /url: http://127.0.0.1:7770/beauty-personal-care.html
+      - text: 
+    - listitem [ref=e60]:
+      - strong [ref=e61]: Oral Care
+  - main [ref=e62]:
+    - heading "Oral Care Items 49-60 of 88" [level=1] [ref=e64]: Oral Care
+    - generic [ref=e65]:
+      - generic [ref=e66]:
+        - generic [ref=e67]:
+          - paragraph [ref=e68]: Items 49-60 of 88
+          - generic [ref=e69]:
+            - text: Sort By
+            - combobox "Sort By" [ref=e70]:
+              - option "Position"
+              - option "Product Name" [selected]
+              - option "Price"
+            - link " Set Ascending Direction" [ref=e71] [cursor=pointer]:
+              - /url: "#"
+              - text: 
+              - generic [ref=e72]: Set Ascending Direction
+        - list [ref=e74]:
+          - listitem [ref=e75]:
+            - generic [ref=e76]:
+              - link "Image" [ref=e77] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/hu-friedy-mp52-markel-mouth-prop-child.html
+                - img "Image" [ref=e80]
+              - generic [ref=e81]:
+                - strong [ref=e82]:
+                  - link "Hu-Friedy MP52 Markel Mouth Prop, Child" [ref=e83] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/hu-friedy-mp52-markel-mouth-prop-child.html
+                - generic [ref=e86]: $47.33
+                - generic [ref=e88]:
+                  - button "Add to Cart" [ref=e91] [cursor=pointer]
+                  - generic [ref=e92]:
+                    - button "Add to Wish List" [ref=e93] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e94]: Add to Wish List
+                    - text: 
+          - listitem [ref=e95]:
+            - generic [ref=e96]:
+              - link "Image" [ref=e97] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/htlc-tech-mouth-guard-night-guard-for-clenching-gnashing-moldable-adjustable-soft-comfortable.html
+                - img "Image" [ref=e100]
+              - generic [ref=e101]:
+                - strong [ref=e102]:
+                  - link "HTLC-TECH Mouth Guard, Night Guard for Clenching & Gnashing, Moldable & Adjustable, Soft & Comfortable" [ref=e103] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/htlc-tech-mouth-guard-night-guard-for-clenching-gnashing-moldable-adjustable-soft-comfortable.html
+                - generic [ref=e106]: $40.99
+                - generic [ref=e108]:
+                  - button "Add to Cart" [ref=e111] [cursor=pointer]
+                  - generic [ref=e112]:
+                    - button "Add to Wish List" [ref=e113] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e114]: Add to Wish List
+                    - text: 
+          - listitem [ref=e115]:
+            - generic [ref=e116]:
+              - link "Image" [ref=e117] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/hip-hop-teeth-decoration-accessories-lower-teeth-hip-hop-style-dentures-halloween-festival-black.html
+                - img "Image" [ref=e120]
+              - generic [ref=e121]:
+                - strong [ref=e122]:
+                  - link "Hip Hop Teeth Decoration Accessories Lower Teeth Hip Hop Style Dentures Halloween Festival(black)" [ref=e123] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/hip-hop-teeth-decoration-accessories-lower-teeth-hip-hop-style-dentures-halloween-festival-black.html
+                - generic [ref=e126]: $5.71
+                - generic [ref=e128]:
+                  - button "Add to Cart" [ref=e131] [cursor=pointer]
+                  - generic [ref=e132]:
+                    - button "Add to Wish List" [ref=e133] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e134]: Add to Wish List
+                    - text: 
+          - listitem [ref=e135]:
+            - generic [ref=e136]:
+              - link "Image" [ref=e137] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/hip-hop-teeth-brace-single-teeth-capital-letter-shaped-hip-hop-tooth-fashionable-alloy-teeth-hip-hop-decoration-teeth-brace-accessory-jewelry-teeth-plated-for-halloween-party-silver-2.html
+                - img "Image" [ref=e140]
+              - generic [ref=e141]:
+                - strong [ref=e142]:
+                  - link "Hip Hop Teeth Brace, Single Teeth Capital Letter Shaped Hip Hop Tooth Fashionable Alloy Teeth Hip Hop Decoration Teeth Brace Accessory Jewelry Teeth Plated for Halloween Party(Silver#2)" [ref=e143] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/hip-hop-teeth-brace-single-teeth-capital-letter-shaped-hip-hop-tooth-fashionable-alloy-teeth-hip-hop-decoration-teeth-brace-accessory-jewelry-teeth-plated-for-halloween-party-silver-2.html
+                - generic [ref=e146]: $7.89
+                - generic [ref=e148]:
+                  - button "Add to Cart" [ref=e151] [cursor=pointer]
+                  - generic [ref=e152]:
+                    - button "Add to Wish List" [ref=e153] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e154]: Add to Wish List
+                    - text: 
+          - listitem [ref=e155]:
+            - generic [ref=e156]:
+              - link "Image" [ref=e157] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/halloween-festival-hip-hop-tooth-removable-mouth-teeth-decoration-cross-pattern-hip-hop-false-tooth-accessory-for-men-women-silver.html
+                - img "Image" [ref=e160]
+              - generic [ref=e161]:
+                - strong [ref=e162]:
+                  - link "Halloween Festival Hip Hop Tooth, Removable Mouth Teeth, Decoration Cross Pattern Hip Hop False Tooth Accessory for Men Women(Silver)" [ref=e163] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/halloween-festival-hip-hop-tooth-removable-mouth-teeth-decoration-cross-pattern-hip-hop-false-tooth-accessory-for-men-women-silver.html
+                - generic [ref=e166]: $6.11
+                - generic [ref=e168]:
+                  - button "Add to Cart" [ref=e171] [cursor=pointer]
+                  - generic [ref=e172]:
+                    - button "Add to Wish List" [ref=e173] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e174]: Add to Wish List
+                    - text: 
+          - listitem [ref=e175]:
+            - generic [ref=e176]:
+              - link "Image" [ref=e177] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/guna-throat-and-gums.html
+                - img "Image" [ref=e180]
+              - generic [ref=e181]:
+                - strong [ref=e182]:
+                  - link "Guna Throat and Gums" [ref=e183] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/guna-throat-and-gums.html
+                - generic [ref=e186]: $22.00
+                - generic [ref=e188]:
+                  - button "Add to Cart" [ref=e191] [cursor=pointer]
+                  - generic [ref=e192]:
+                    - button "Add to Wish List" [ref=e193] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e194]: Add to Wish List
+                    - text: 
+          - listitem [ref=e195]:
+            - generic [ref=e196]:
+              - link "Image" [ref=e197] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/gum-mouthwashes.html
+                - generic [ref=e199]:
+                  - img "Image"
+              - generic [ref=e200]:
+                - strong [ref=e201]:
+                  - link "Gum Mouthwashes" [ref=e202] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/gum-mouthwashes.html
+                - generic [ref=e205]: $32.62
+                - generic [ref=e207]:
+                  - button "Add to Cart" [ref=e210] [cursor=pointer]
+                  - generic [ref=e211]:
+                    - button "Add to Wish List" [ref=e212] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e213]: Add to Wish List
+                    - text: 
+          - listitem [ref=e214]:
+            - generic [ref=e215]:
+              - link "Image" [ref=e216] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/gum-health-spritz.html
+                - generic [ref=e218]:
+                  - img "Image"
+              - generic [ref=e219]:
+                - strong [ref=e220]:
+                  - link "Gum Health Spritz" [ref=e221] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/gum-health-spritz.html
+                - generic [ref=e224]: $30.00
+                - generic [ref=e226]:
+                  - button "Add to Cart" [ref=e229] [cursor=pointer]
+                  - generic [ref=e230]:
+                    - button "Add to Wish List" [ref=e231] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e232]: Add to Wish List
+                    - text: 
+          - listitem [ref=e233]:
+            - generic [ref=e234]:
+              - link "Image" [ref=e235] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/gum-aftamed-oral-gel-12ml.html
+                - generic [ref=e237]:
+                  - img "Image"
+              - generic [ref=e238]:
+                - strong [ref=e239]:
+                  - link "Gum AftaMed Oral Gel 12ml" [ref=e240] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/gum-aftamed-oral-gel-12ml.html
+                - generic [ref=e243]: $24.44
+                - generic [ref=e245]:
+                  - button "Add to Cart" [ref=e248] [cursor=pointer]
+                  - generic [ref=e249]:
+                    - button "Add to Wish List" [ref=e250] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e251]: Add to Wish List
+                    - text: 
+          - listitem [ref=e252]:
+            - generic [ref=e253]:
+              - link "Image" [ref=e254] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/gdyjp-fake-serrated-denture-teeth-top-bottom-temporary-fake-cosmetic-teeth-braces-covering-with-for-men-and-women-apply-to-tooth-decay-and-missing-teeth-size-6pair.html
+                - generic [ref=e256]:
+                  - img "Image"
+              - generic [ref=e257]:
+                - strong [ref=e258]:
+                  - 'link "GDYJP Fake Serrated Denture Teeth Top Bottom Temporary Fake Cosmetic Teeth Braces Covering with for Men and Women Apply to Tooth Decay and Missing Teeth (Size : 6pair)" [ref=e259] [cursor=pointer]':
+                    - /url: http://127.0.0.1:7770/gdyjp-fake-serrated-denture-teeth-top-bottom-temporary-fake-cosmetic-teeth-braces-covering-with-for-men-and-women-apply-to-tooth-decay-and-missing-teeth-size-6pair.html
+                - generic [ref=e262]: $85.36
+                - generic [ref=e264]:
+                  - button "Add to Cart" [ref=e267] [cursor=pointer]
+                  - generic [ref=e268]:
+                    - button "Add to Wish List" [ref=e269] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e270]: Add to Wish List
+                    - text: 
+          - listitem [ref=e271]:
+            - generic [ref=e272]:
+              - link "Image" [ref=e273] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/foqitoxi-sport-mouth-guard-upper-and-lower-brace-teeth-grinding-guard-4-pack-with-storage-case.html
+                - generic [ref=e275]:
+                  - img "Image"
+              - generic [ref=e276]:
+                - strong [ref=e277]:
+                  - link "foqitoxi Sport Mouth Guard Upper and Lower Brace - Teeth Grinding Guard - 4 Pack - with Storage Case" [ref=e278] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/foqitoxi-sport-mouth-guard-upper-and-lower-brace-teeth-grinding-guard-4-pack-with-storage-case.html
+                - generic [ref=e281]: $12.90
+                - generic [ref=e283]:
+                  - button "Add to Cart" [ref=e286] [cursor=pointer]
+                  - generic [ref=e287]:
+                    - button "Add to Wish List" [ref=e288] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e289]: Add to Wish List
+                    - text: 
+          - listitem [ref=e290]:
+            - generic [ref=e291]:
+              - link "Image" [ref=e292] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/fccassiel-snap-on-veneers-temporary-teeth-for-men-and-women-cover-the-imperfect-teeth-no-pain-no-shot-no-drilling-fix-confident-smile-pack-of-2.html
+                - generic [ref=e294]:
+                  - img "Image"
+              - generic [ref=e295]:
+                - strong [ref=e296]:
+                  - link "FCcassiel Snap on Veneers, Temporary Teeth for Men and Women,Cover The Imperfect Teeth,No Pain No Shot No Drilling,Fix Confident Smile(Pack of 2)" [ref=e297] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/fccassiel-snap-on-veneers-temporary-teeth-for-men-and-women-cover-the-imperfect-teeth-no-pain-no-shot-no-drilling-fix-confident-smile-pack-of-2.html
+                - generic [ref=e298]:
+                  - generic [ref=e299]:
+                    - generic [ref=e300]: "Rating:"
+                    - generic "20%" [ref=e301]:
+                      - text: 
+                      - generic [ref=e302]:
+                        - text: 
+                        - generic [ref=e303]: 20%
+                  - link "4 Reviews" [ref=e305] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/fccassiel-snap-on-veneers-temporary-teeth-for-men-and-women-cover-the-imperfect-teeth-no-pain-no-shot-no-drilling-fix-confident-smile-pack-of-2.html#reviews
+                - generic [ref=e308]: $22.98
+                - generic [ref=e310]:
+                  - button "Add to Cart" [ref=e313] [cursor=pointer]
+                  - generic [ref=e314]:
+                    - button "Add to Wish List" [ref=e315] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e316]: Add to Wish List
+                    - text: 
+        - generic [ref=e318]:
+          - strong [ref=e319]: Page
+          - list "Page" [ref=e320]:
+            - listitem [ref=e321]:
+              - link " Page Previous" [ref=e322] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/beauty-personal-care/oral-care.html?cat=118&p=4&product_list_dir=desc&product_list_order=name
+                - text: 
+                - generic [ref=e323]: Page
+                - generic [ref=e324]: Previous
+            - listitem [ref=e325]:
+              - link "Page 3" [ref=e326] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/beauty-personal-care/oral-care.html?cat=118&p=3&product_list_dir=desc&product_list_order=name
+                - generic [ref=e327]: Page
+                - text: "3"
+            - listitem [ref=e328]:
+              - link "Page 4" [ref=e329] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/beauty-personal-care/oral-care.html?cat=118&p=4&product_list_dir=desc&product_list_order=name
+                - generic [ref=e330]: Page
+                - text: "4"
+            - listitem [ref=e331]:
+              - strong [ref=e332]:
+                - generic [ref=e333]: You're currently reading page
+                - text: "5"
+            - listitem [ref=e334]:
+              - link "Page 6" [ref=e335] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/beauty-personal-care/oral-care.html?cat=118&p=6&product_list_dir=desc&product_list_order=name
+                - generic [ref=e336]: Page
+                - text: "6"
+            - listitem [ref=e337]:
+              - link "Page 7" [ref=e338] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/beauty-personal-care/oral-care.html?cat=118&p=7&product_list_dir=desc&product_list_order=name
+                - generic [ref=e339]: Page
+                - text: "7"
+            - listitem [ref=e340]:
+              - link " Page Next" [ref=e341] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/beauty-personal-care/oral-care.html?cat=118&p=6&product_list_dir=desc&product_list_order=name
+                - text: 
+                - generic [ref=e342]: Page
+                - generic [ref=e343]: Next
+      - generic [ref=e345]:
+        - strong [ref=e347]: Shop By
+        - generic [ref=e348]:
+          - generic [ref=e349]:
+            - heading "Now Shopping by" [level=2] [ref=e350]
+            - list [ref=e351]:
+              - listitem [ref=e352]:
+                - generic [ref=e353]: "Category:"
+                - text: Oral Pain Relief
+                - link "Remove This Item" [ref=e354] [cursor=pointer]:
+                  - /url: http://127.0.0.1:7770/beauty-personal-care/oral-care.html?p=5&product_list_dir=desc&product_list_order=name
+          - link "Clear All" [ref=e356] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/beauty-personal-care/oral-care.html?p=5&product_list_dir=desc&product_list_order=name
+          - heading "Shopping Options" [level=2] [ref=e357]
+          - generic [ref=e358]:
+            - heading "Price" [level=3] [ref=e359]
+            - definition [ref=e360]:
+              - list [ref=e361]:
+                - listitem [ref=e362]:
+                  - link "$0.00 - $99.99( 83 item )" [ref=e363] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/beauty-personal-care/oral-care.html?cat=118&price=0-100&product_list_dir=desc&product_list_order=name
+                    - text: $0.00 - $99.99
+                    - generic [ref=e364]:
+                      - text: ( 83
+                      - generic [ref=e365]: item
+                      - text: )
+                - listitem [ref=e366]:
+                  - link "$100.00 - $199.99( 3 item )" [ref=e367] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/beauty-personal-care/oral-care.html?cat=118&price=100-200&product_list_dir=desc&product_list_order=name
+                    - text: $100.00 - $199.99
+                    - generic [ref=e368]:
+                      - text: ( 3
+                      - generic [ref=e369]: item
+                      - text: )
+                - listitem [ref=e370]:
+                  - link "$200.00 - $299.99( 1 item )" [ref=e371] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/beauty-personal-care/oral-care.html?cat=118&price=200-300&product_list_dir=desc&product_list_order=name
+                    - text: $200.00 - $299.99
+                    - generic [ref=e372]:
+                      - text: ( 1
+                      - generic [ref=e373]: item
+                      - text: )
+                - listitem [ref=e374]:
+                  - link "$600.00 and above( 1 item )" [ref=e375] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/beauty-personal-care/oral-care.html?cat=118&price=600-700&product_list_dir=desc&product_list_order=name
+                    - text: $600.00 and above
+                    - generic [ref=e376]:
+                      - text: ( 1
+                      - generic [ref=e377]: item
+                      - text: )
+      - generic [ref=e378]:
+        - generic [ref=e379]:
+          - heading "Compare Products" [level=2] [ref=e381]
+          - generic [ref=e382]: You have no items to compare.
+        - generic [ref=e383]:
+          - heading "My Wish List" [level=2] [ref=e385]
+          - generic [ref=e387]: You have no items in your wish list.
+  - contentinfo [ref=e388]:
+    - generic [ref=e389]:
+      - generic [ref=e392]:
+        - generic [ref=e394]:
+          - text: 
+          - generic [ref=e395]:
+            - generic [ref=e396]: "Sign Up for Our Newsletter:"
+            - textbox "Sign Up for Our Newsletter:" [ref=e397]:
+              - /placeholder: Enter your email address
+        - button "Subscribe" [ref=e399] [cursor=pointer]
+      - list [ref=e400]:
+        - listitem [ref=e401]:
+          - link "Privacy and Cookie Policy" [ref=e402] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/privacy-policy-cookie-restriction-mode/
+        - listitem [ref=e403]:
+          - link "Search Terms" [ref=e404] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/search/term/popular/
+        - listitem [ref=e405]:
+          - link "Advanced Search" [ref=e406] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/catalogsearch/advanced/
+        - listitem [ref=e407]:
+          - link "Orders and Returns" [ref=e408] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/sales/guest/form/
+        - listitem [ref=e409]:
+          - link "Contact Us" [ref=e410] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/contact/
+      - generic [ref=e411]: Copyright © 2013-present Magento, Inc. All rights reserved.
+      - generic [ref=e412]:
+        - text: Help Us Keep Magento Healthy
+        - link "Report All Bugs" [ref=e413] [cursor=pointer]:
+          - /url: http://www.magentocommerce.com/bug-tracking

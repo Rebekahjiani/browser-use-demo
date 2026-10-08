@@ -1,0 +1,561 @@
+- RootWebArea "Search results for: 'camera'" [url="http://127.0.0.1:7770/catalogsearch/result/?q=camera"]
+  - generic
+    - banner
+      - generic
+        - link "Skip to Content" [url="http://127.0.0.1:7770/catalogsearch/result/?q=camera#contentarea"]
+          - StaticText "Skip to Content"
+      - generic
+        - generic
+          - generic
+            - StaticText ""
+          - StaticText "Toggle Nav"
+        - link "store logo" [url="http://127.0.0.1:7770/"]
+          - image "one_stop_market_logo" [url="http://127.0.0.1:7770/media/logo/websites/1/image_15__1.png"]
+        - generic
+          - link " My Cart" [url="http://127.0.0.1:7770/checkout/cart/"]
+            - generic
+              - StaticText ""
+            - StaticText "My Cart"
+        - form
+          - LabelText
+            - generic
+              - StaticText ""
+            - StaticText "Search"
+          - generic
+            - combobox " Search" [expanded=false] [value="camera"]
+              - generic
+                - StaticText "camera"
+    - generic
+      - tablist
+        - tab "Menu" [selected=false] [expanded=true]
+          - link "Menu" [url="http://127.0.0.1:7770/catalogsearch/result/?q=camera#store.menu"]
+            - StaticText "Menu"
+        - tabpanel
+          - navigation
+            - menu
+              - menuitem "BEAUTY & PERSONAL CARE "
+                - StaticText "BEAUTY & PERSONAL CARE"
+                - generic
+                  - StaticText ""
+              - menuitem "SPORTS & OUTDOORS "
+                - StaticText "SPORTS & OUTDOORS"
+                - generic
+                  - StaticText ""
+              - menuitem "CLOTHING, SHOES & JEWELRY "
+                - StaticText "CLOTHING, SHOES & JEWELRY"
+                - generic
+                  - StaticText ""
+              - menuitem "HOME & KITCHEN "
+                - StaticText "HOME & KITCHEN"
+                - generic
+                  - StaticText ""
+              - menuitem "OFFICE PRODUCTS "
+                - StaticText "OFFICE PRODUCTS"
+                - generic
+                  - StaticText ""
+              - menuitem "TOOLS & HOME IMPROVEMENT "
+                - StaticText "TOOLS & HOME IMPROVEMENT"
+                - generic
+                  - StaticText ""
+              - menuitem "HEALTH & HOUSEHOLD "
+                - StaticText "HEALTH & HOUSEHOLD"
+                - generic
+                  - StaticText ""
+              - menuitem "PATIO, LAWN & GARDEN "
+                - StaticText "PATIO, LAWN & GARDEN"
+                - generic
+                  - StaticText ""
+              - menuitem "ELECTRONICS "
+                - StaticText "ELECTRONICS"
+                - generic
+                  - StaticText ""
+              - menuitem "CELL PHONES & ACCESSORIES "
+                - StaticText "CELL PHONES & ACCESSORIES"
+                - generic
+                  - StaticText ""
+              - menuitem "VIDEO GAMES "
+                - StaticText "VIDEO GAMES"
+                - generic
+                  - StaticText ""
+              - menuitem "GROCERY & GOURMET FOOD "
+                - StaticText "GROCERY & GOURMET FOOD"
+                - generic
+                  - StaticText ""
+        - tab "Account" [selected=false] [expanded=false]
+          - link "Account" [url="http://127.0.0.1:7770/catalogsearch/result/?q=camera#store.links"]
+            - StaticText "Account"
+    - list
+      - listitem [level=1]
+        - link "Home" [url="http://127.0.0.1:7770/"]
+          - StaticText "Home"
+        - generic
+          - StaticText ""
+      - listitem [level=1]
+        - strong
+          - StaticText "Search results for: 'camera'"
+    - main
+      - generic
+      - heading "Search results for: 'camera'" [level=1]
+        - StaticText "Search results for: 'camera'"
+      - generic
+        - paragraph
+          - StaticText "Items"
+          - StaticText "1"
+          - StaticText "-"
+          - StaticText "12"
+          - StaticText "of"
+          - StaticText "5016"
+        - generic
+          - LabelText
+            - StaticText "Sort By"
+          - combobox "Sort By" [expanded=false] [value="Relevance"]
+            - MenuListPopup
+              - option "Product Name" [selected=false]
+              - option "Price" [selected=false]
+              - option "Relevance" [selected=true]
+          - link " Set Ascending Direction" [url="http://127.0.0.1:7770/catalogsearch/result/?q=camera#"]
+            - generic
+              - StaticText ""
+            - StaticText "Set Ascending Direction"
+        - list
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/cameraaccessories-letspro-ly-11-3-in-1-handheld-tripod-self-portrait-monopod-extendable-selfie-stick-with-remote-shutter-for-smartphones-digital-cameras-for-gopro-sports-cameras-your-perfect-pho.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B08YQT8YXC.0.jpg"]
+              - strong
+                - link "CAMERAACCESSORIES/Letspro LY-11 3 in 1 Handheld Tripod Self-Portrait Monopod Extendable Selfie Stick with Remote Shutter for Smartphones, Digital Cameras, for GoPro Sports Cameras,Your Perfect Pho" [url="http://127.0.0.1:7770/cameraaccessories-letspro-ly-11-3-in-1-handheld-tripod-self-portrait-monopod-extendable-selfie-stick-with-remote-shutter-for-smartphones-digital-cameras-for-gopro-sports-cameras-your-perfect-pho.html"]
+                  - StaticText "CAMERAACCESSORIES/Letspro LY-11 3 in 1 Handheld Tripod Self-Portrait Monopod Extendable Selfie Stick with Remote Shutter for Smartphones, Digital Cameras, for GoPro Sports Cameras,Your Perfect Pho"
+              - generic
+                - generic
+                  - StaticText "$32.69"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/small-wireless-wifi-camerananny-cam-small-home-security-camera-1080p-hd-indoor-and-outdoor-ip-camera-surveillance-system-home-security-camera-built-in-battery-app-control-night-vision.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B09SZDBNRF.0.jpg"]
+              - strong
+                - link "Small Wireless WiFi CameraNanny Cam Small Home Security Camera, 1080P HD Indoor and Outdoor IP Camera Surveillance System Home Security Camera,Built-in Battery, App Control, Night Vision" [url="http://127.0.0.1:7770/small-wireless-wifi-camerananny-cam-small-home-security-camera-1080p-hd-indoor-and-outdoor-ip-camera-surveillance-system-home-security-camera-built-in-battery-app-control-night-vision.html"]
+                  - StaticText "Small Wireless WiFi CameraNanny Cam Small Home Security Camera, 1080P HD Indoor and Outdoor IP Camera Surveillance System Home Security Camera,Built-in Battery, App Control, Night Vision"
+              - generic
+                - generic
+                  - StaticText "$29.99"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/luowan-2021-new-version-mini-camera1080p-hidden-camera-with-audio-and-video-live-feed-wifi-wireless-cameras-with-night-vision-motion-detection-for-homeofficecar.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B097BLN12V.0.jpg"]
+              - strong
+                - link "LUOWAN (2021 New Version) Mini Camera1080P Hidden Camera，with Audio and Video Live Feed WiFi Wireless Cameras，with Night Vision Motion Detection，for HomeOfficeCar" [url="http://127.0.0.1:7770/luowan-2021-new-version-mini-camera1080p-hidden-camera-with-audio-and-video-live-feed-wifi-wireless-cameras-with-night-vision-motion-detection-for-homeofficecar.html"]
+                  - StaticText "LUOWAN (2021 New Version) Mini Camera1080P Hidden Camera，with Audio and Video Live Feed WiFi Wireless Cameras，with Night Vision Motion Detection，for HomeOfficeCar"
+              - LayoutTable
+                - generic
+                  - StaticText "Rating:"
+                  - generic
+                    - generic
+                      - StaticText ""
+                    - generic
+                      - StaticText ""
+                    - StaticText "37%"
+                - generic
+                  - link "12 Reviews" [url="http://127.0.0.1:7770/luowan-2021-new-version-mini-camera1080p-hidden-camera-with-audio-and-video-live-feed-wifi-wireless-cameras-with-night-vision-motion-detection-for-homeofficecar.html#reviews"]
+                    - StaticText "12"
+                    - StaticText "Reviews"
+              - generic
+                - generic
+                  - StaticText "$35.20"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/bediffer-camera-waterproof-bag-underwater-camera-case-univeral-waterproof-case-slr-camera-case-slr-cameras-case-for-photography-enthusiast-for-video-camera-for-cameras-white.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B09G11VLS9.0.jpg"]
+              - strong
+                - link "Bediffer Camera Waterproof Bag, Underwater Camera Case Univeral Waterproof Case SLR Camera Case SLR Cameras Case for Photography Enthusiast for Video Camera for Cameras(White)" [url="http://127.0.0.1:7770/bediffer-camera-waterproof-bag-underwater-camera-case-univeral-waterproof-case-slr-camera-case-slr-cameras-case-for-photography-enthusiast-for-video-camera-for-cameras-white.html"]
+                  - StaticText "Bediffer Camera Waterproof Bag, Underwater Camera Case Univeral Waterproof Case SLR Camera Case SLR Cameras Case for Photography Enthusiast for Video Camera for Cameras(White)"
+              - generic
+                - generic
+                  - StaticText "$32.19"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/portable-camera-hidden-cameras-outdoor-high-definition-infrared-cameras-home-security-systems-1080-high-definition-resolution-security-camera-indoor-suitable-for-rooms-outdoor-shops-hidden-camera.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B09JW8H3TX.0.jpg"]
+              - strong
+                - link "Portable camera Hidden Cameras, Outdoor High-definition Infrared Cameras, Home Security Systems 1080 High-definition Resolution Security Camera Indoor Suitable for Rooms, Outdoor Shops. Hidden camera" [url="http://127.0.0.1:7770/portable-camera-hidden-cameras-outdoor-high-definition-infrared-cameras-home-security-systems-1080-high-definition-resolution-security-camera-indoor-suitable-for-rooms-outdoor-shops-hidden-camera.html"]
+                  - StaticText "Portable camera Hidden Cameras, Outdoor High-definition Infrared Cameras, Home Security Systems 1080 High-definition Resolution Security Camera Indoor Suitable for Rooms, Outdoor Shops. Hidden camera"
+              - generic
+                - generic
+                  - StaticText "$25.74"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/spy-camera-wifi-hidden-cameras-mini-camera-wireless-with-audio-built-in-battery-nanny-cam-usb-plug-security-camera-1080p-hd-pet-camera-with-app-live-streaming-security-cameras-wireless-outdoor.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B09K5J33HF.0.jpg"]
+              - strong
+                - link "Spy Camera WiFi Hidden Cameras - Mini Camera Wireless with Audio,Built-in Battery Nanny Cam, USB Plug Security Camera 1080p HD Pet Camera with App Live Streaming,Security Cameras Wireless Outdoor." [url="http://127.0.0.1:7770/spy-camera-wifi-hidden-cameras-mini-camera-wireless-with-audio-built-in-battery-nanny-cam-usb-plug-security-camera-1080p-hd-pet-camera-with-app-live-streaming-security-cameras-wireless-outdoor.html"]
+                  - StaticText "Spy Camera WiFi Hidden Cameras - Mini Camera Wireless with Audio,Built-in Battery Nanny Cam, USB Plug Security Camera 1080p HD Pet Camera with App Live Streaming,Security Cameras Wireless Outdoor."
+              - LayoutTable
+                - generic
+                  - StaticText "Rating:"
+                  - generic
+                    - generic
+                      - StaticText ""
+                    - generic
+                      - StaticText ""
+                    - StaticText "38%"
+                - generic
+                  - link "12 Reviews" [url="http://127.0.0.1:7770/spy-camera-wifi-hidden-cameras-mini-camera-wireless-with-audio-built-in-battery-nanny-cam-usb-plug-security-camera-1080p-hd-pet-camera-with-app-live-streaming-security-cameras-wireless-outdoor.html#reviews"]
+                    - StaticText "12"
+                    - StaticText "Reviews"
+              - generic
+                - generic
+                  - StaticText "$21.49"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/action-camera-2-0-170-sports-cameras-action-camera-ultra-hd-4k-25fps-wifi-underwater-waterproof-camera-helmet-video-recording-cameras-time-lapse-color-black-size-medium.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B09QCJC91X.0.jpg"]
+              - strong
+                - link "Action Camera 2.0\" 170° Sports Cameras, Action Camera Ultra HD, 4K / 25fps WiFi Underwater Waterproof Camera, Helmet Video Recording Cameras Time Lapse (Color : Black, Size : Medium)" [url="http://127.0.0.1:7770/action-camera-2-0-170-sports-cameras-action-camera-ultra-hd-4k-25fps-wifi-underwater-waterproof-camera-helmet-video-recording-cameras-time-lapse-color-black-size-medium.html"]
+                  - StaticText "Action Camera 2.0\" 170° Sports Cameras, Action Camera Ultra HD, 4K / 25fps WiFi Underwater Waterproof Camera, Helmet Video Recording Cameras Time Lapse (Color : Black, Size : Medium)"
+              - generic
+                - generic
+                  - StaticText "$55.35"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/betthen-cameras-for-photography-digital-camera-with-wifi-4k-camera-hd-dual-screen-60fps-action-camera-screen-remote-control-underwater-waterproof-sport-cameras-bundle-option-6-color-at-s60tr.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B09Q13TNBY.0.jpg"]
+              - strong
+                - link "BETTHEN Cameras for Photography, Digital Camera with WiFi, 4k Camera HD Dual Screen 60FPS Action Camera Screen Remote Control Underwater Waterproof Sport Cameras (Bundle : Option 6, Color : AT-S60TR)" [url="http://127.0.0.1:7770/betthen-cameras-for-photography-digital-camera-with-wifi-4k-camera-hd-dual-screen-60fps-action-camera-screen-remote-control-underwater-waterproof-sport-cameras-bundle-option-6-color-at-s60tr.html"]
+                  - StaticText "BETTHEN Cameras for Photography, Digital Camera with WiFi, 4k Camera HD Dual Screen 60FPS Action Camera Screen Remote Control Underwater Waterproof Sport Cameras (Bundle : Option 6, Color : AT-S60TR)"
+              - generic
+                - generic
+                  - StaticText "$109.19"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/children-digital-cameras-digital-camera-for-kids-digital-video-cameras-for-toddler-cute-cartoon-mini-camera-for-christmas-birthday-gifts-pink.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B09SY9FGNF.0.jpg"]
+              - strong
+                - link "Children Digital Cameras, Digital Camera for Kids Digital Video Cameras for Toddler Cute Cartoon Mini Camera for Christmas Birthday Gifts(Pink)" [url="http://127.0.0.1:7770/children-digital-cameras-digital-camera-for-kids-digital-video-cameras-for-toddler-cute-cartoon-mini-camera-for-christmas-birthday-gifts-pink.html"]
+                  - StaticText "Children Digital Cameras, Digital Camera for Kids Digital Video Cameras for Toddler Cute Cartoon Mini Camera for Christmas Birthday Gifts(Pink)"
+              - generic
+                - generic
+                  - StaticText "$4.33"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/dc-12v-cameras-cable-enster-16-4ft-5m-2-1x5-5mm-power-extension-cable-for-cctv-security-cameras-ip-camera-surveillance-camera-dvr-standalone-wifi-camera-outdoor.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B08GZ8JP87.0.jpg"]
+              - strong
+                - link "Dc 12v Cameras Cable ENSTER 16.4ft(5m) 2.1x5.5mm Power Extension Cable for CCTV Security Cameras IP Camera, Surveillance Camera Dvr Standalone, WiFi Camera Outdoor" [url="http://127.0.0.1:7770/dc-12v-cameras-cable-enster-16-4ft-5m-2-1x5-5mm-power-extension-cable-for-cctv-security-cameras-ip-camera-surveillance-camera-dvr-standalone-wifi-camera-outdoor.html"]
+                  - StaticText "Dc 12v Cameras Cable ENSTER 16.4ft(5m) 2.1x5.5mm Power Extension Cable for CCTV Security Cameras IP Camera, Surveillance Camera Dvr Standalone, WiFi Camera Outdoor"
+              - generic
+                - generic
+                  - StaticText "$8.99"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/01-02-015-camera-accurate-hole-position-camera-protective-housing-professional-washable-for-digital-camera-for-a73-a7r3-a7r-cameras.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B09SFG4JVG.0.jpg"]
+              - strong
+                - link "01 02 015 Camera, Accurate Hole Position Camera Protective Housing Professional Washable for Digital Camera for A73 A7R3 A7R Cameras" [url="http://127.0.0.1:7770/01-02-015-camera-accurate-hole-position-camera-protective-housing-professional-washable-for-digital-camera-for-a73-a7r3-a7r-cameras.html"]
+                  - StaticText "01 02 015 Camera, Accurate Hole Position Camera Protective Housing Professional Washable for Digital Camera for A73 A7R3 A7R Cameras"
+              - generic
+                - generic
+                  - StaticText "$29.49"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/browning-trail-camera-defender-wireless-security-box-fits-cellular-cameras.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B0892SKZM8.0.jpg"]
+              - strong
+                - link "Browning Trail Camera Defender Wireless Security Box (Fits Cellular Cameras)" [url="http://127.0.0.1:7770/browning-trail-camera-defender-wireless-security-box-fits-cellular-cameras.html"]
+                  - StaticText "Browning Trail Camera Defender Wireless Security Box (Fits Cellular Cameras)"
+              - generic
+                - generic
+                  - StaticText "$39.95"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+        - generic
+          - strong
+            - StaticText "Page"
+          - list "Page"
+            - listitem [level=1]
+              - strong
+                - StaticText "You're currently reading page"
+                - StaticText "1"
+            - listitem [level=1]
+              - link "Page 2" [url="http://127.0.0.1:7770/catalogsearch/result/index/?p=2&q=camera"]
+                - StaticText "Page"
+                - StaticText "2"
+            - listitem [level=1]
+              - link "Page 3" [url="http://127.0.0.1:7770/catalogsearch/result/index/?p=3&q=camera"]
+                - StaticText "Page"
+                - StaticText "3"
+            - listitem [level=1]
+              - link "Page 4" [url="http://127.0.0.1:7770/catalogsearch/result/index/?p=4&q=camera"]
+                - StaticText "Page"
+                - StaticText "4"
+            - listitem [level=1]
+              - link "Page 5" [url="http://127.0.0.1:7770/catalogsearch/result/index/?p=5&q=camera"]
+                - StaticText "Page"
+                - StaticText "5"
+            - listitem [level=1]
+              - link " Page Next" [url="http://127.0.0.1:7770/catalogsearch/result/index/?p=2&q=camera"]
+                - generic
+                  - StaticText ""
+                - StaticText "Page"
+                - StaticText "Next"
+        - generic
+          - strong
+            - StaticText "Shop By"
+        - heading "Shopping Options" [level=2]
+          - StaticText "Shopping Options"
+        - DescriptionList
+          - heading "Category" [level=3]
+            - StaticText "Category"
+          - definition
+            - list
+              - listitem [level=1]
+                - link "Beauty & Personal Care( 93 item )" [url="http://127.0.0.1:7770/catalogsearch/result/index/?cat=3&q=camera"]
+                  - StaticText "Beauty & Personal Care"
+                  - StaticText "("
+                  - StaticText "93"
+                  - StaticText "item"
+                  - StaticText ")"
+              - listitem [level=1]
+                - link "Sports & Outdoors( 77 item )" [url="http://127.0.0.1:7770/catalogsearch/result/index/?cat=4&q=camera"]
+                  - StaticText "Sports & Outdoors"
+                  - StaticText "("
+                  - StaticText "77"
+                  - StaticText "item"
+                  - StaticText ")"
+              - listitem [level=1]
+                - link "Clothing, Shoes & Jewelry( 57 item )" [url="http://127.0.0.1:7770/catalogsearch/result/index/?cat=5&q=camera"]
+                  - StaticText "Clothing, Shoes & Jewelry"
+                  - StaticText "("
+                  - StaticText "57"
+                  - StaticText "item"
+                  - StaticText ")"
+              - listitem [level=1]
+                - link "Home & Kitchen( 124 item )" [url="http://127.0.0.1:7770/catalogsearch/result/index/?cat=6&q=camera"]
+                  - StaticText "Home & Kitchen"
+                  - StaticText "("
+                  - StaticText "124"
+                  - StaticText "item"
+                  - StaticText ")"
+              - listitem [level=1]
+                - link "Office Products( 42 item )" [url="http://127.0.0.1:7770/catalogsearch/result/index/?cat=7&q=camera"]
+                  - StaticText "Office Products"
+                  - StaticText "("
+                  - StaticText "42"
+                  - StaticText "item"
+                  - StaticText ")"
+              - listitem [level=1]
+                - link "Tools & Home Improvement( 9 item )" [url="http://127.0.0.1:7770/catalogsearch/result/index/?cat=8&q=camera"]
+                  - StaticText "Tools & Home Improvement"
+                  - StaticText "("
+                  - StaticText "9"
+                  - StaticText "item"
+                  - StaticText ")"
+              - listitem [level=1]
+                - link "Health & Household( 52 item )" [url="http://127.0.0.1:7770/catalogsearch/result/index/?cat=9&q=camera"]
+                  - StaticText "Health & Household"
+                  - StaticText "("
+                  - StaticText "52"
+                  - StaticText "item"
+                  - StaticText ")"
+              - listitem [level=1]
+                - link "Electronics( 3851 item )" [url="http://127.0.0.1:7770/catalogsearch/result/index/?cat=11&q=camera"]
+                  - StaticText "Electronics"
+                  - StaticText "("
+                  - StaticText "3851"
+                  - StaticText "item"
+                  - StaticText ")"
+              - listitem [level=1]
+                - link "Cell Phones & Accessories( 684 item )" [url="http://127.0.0.1:7770/catalogsearch/result/index/?cat=12&q=camera"]
+                  - StaticText "Cell Phones & Accessories"
+                  - StaticText "("
+                  - StaticText "684"
+                  - StaticText "item"
+                  - StaticText ")"
+              - listitem [level=1]
+                - link "Video Games( 22 item )" [url="http://127.0.0.1:7770/catalogsearch/result/index/?cat=13&q=camera"]
+                  - StaticText "Video Games"
+                  - StaticText "("
+                  - StaticText "22"
+                  - StaticText "item"
+                  - StaticText ")"
+              - listitem [level=1]
+                - link "Grocery & Gourmet Food( 5 item )" [url="http://127.0.0.1:7770/catalogsearch/result/index/?cat=14&q=camera"]
+                  - StaticText "Grocery & Gourmet Food"
+                  - StaticText "("
+                  - StaticText "5"
+                  - StaticText "item"
+                  - StaticText ")"
+        - generic
+          - heading "Compare Products" [level=2]
+            - StaticText "Compare Products"
+        - generic
+          - StaticText "You have no items to compare."
+        - generic
+          - heading "My Wish List" [level=2]
+            - StaticText "My Wish List"
+        - generic
+          - StaticText "You have no items in your wish list."
+    - contentinfo
+      - form
+        - generic
+          - generic
+            - StaticText ""
+          - LabelText
+            - StaticText "Sign Up for Our Newsletter:"
+            - textbox "Sign Up for Our Newsletter:"
+              - generic
+        - generic
+          - button "Subscribe"
+            - StaticText "Subscribe"
+      - list
+        - listitem [level=1]
+          - link "Privacy and Cookie Policy" [url="http://127.0.0.1:7770/privacy-policy-cookie-restriction-mode/"]
+            - StaticText "Privacy and Cookie Policy"
+        - listitem [level=1]
+          - link "Search Terms" [url="http://127.0.0.1:7770/search/term/popular/"]
+            - StaticText "Search Terms"
+        - listitem [level=1]
+          - link "Advanced Search" [url="http://127.0.0.1:7770/catalogsearch/advanced/"]
+            - StaticText "Advanced Search"
+        - listitem [level=1]
+          - link "Orders and Returns" [url="http://127.0.0.1:7770/sales/guest/form/"]
+            - StaticText "Orders and Returns"
+        - listitem [level=1]
+          - link "Contact Us" [url="http://127.0.0.1:7770/contact/"]
+            - StaticText "Contact Us"
+      - generic
+        - StaticText "Copyright © 2013-present Magento, Inc. All rights reserved."
+      - generic
+        - StaticText "Help Us Keep Magento Healthy"
+        - StaticText
+        - link "Report All Bugs" [url="http://www.magentocommerce.com/bug-tracking"]
+          - StaticText "Report All Bugs"
+    - generic

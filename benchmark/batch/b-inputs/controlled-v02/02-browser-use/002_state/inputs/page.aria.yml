@@ -1,0 +1,280 @@
+- RootWebArea "Tweezers For Succulents Duo" [url="http://127.0.0.1:7770/tweezers-for-succulents-duo.html"]
+  - generic
+    - banner
+      - generic
+        - link "Skip to Content" [url="http://127.0.0.1:7770/tweezers-for-succulents-duo.html#contentarea"]
+          - StaticText "Skip to Content"
+      - generic
+        - generic
+          - generic
+            - StaticText ""
+          - StaticText "Toggle Nav"
+        - link "store logo" [url="http://127.0.0.1:7770/"]
+          - image "one_stop_market_logo" [url="http://127.0.0.1:7770/media/logo/websites/1/image_15__1.png"]
+        - generic
+          - link " My Cart" [url="http://127.0.0.1:7770/checkout/cart/"]
+            - generic
+              - StaticText ""
+            - StaticText "My Cart"
+        - form
+          - LabelText
+            - generic
+              - StaticText ""
+            - StaticText "Search"
+          - generic
+            - combobox " Search" [expanded=false]
+              - generic
+    - generic
+      - tablist
+        - tab "Menu" [selected=false] [expanded=true]
+          - link "Menu" [url="http://127.0.0.1:7770/tweezers-for-succulents-duo.html#store.menu"]
+            - StaticText "Menu"
+        - tabpanel
+          - navigation
+            - menu
+              - menuitem "BEAUTY & PERSONAL CARE "
+                - StaticText "BEAUTY & PERSONAL CARE"
+                - generic
+                  - StaticText ""
+              - menuitem "SPORTS & OUTDOORS "
+                - StaticText "SPORTS & OUTDOORS"
+                - generic
+                  - StaticText ""
+              - menuitem "CLOTHING, SHOES & JEWELRY "
+                - StaticText "CLOTHING, SHOES & JEWELRY"
+                - generic
+                  - StaticText ""
+              - menuitem "HOME & KITCHEN "
+                - StaticText "HOME & KITCHEN"
+                - generic
+                  - StaticText ""
+              - menuitem "OFFICE PRODUCTS "
+                - StaticText "OFFICE PRODUCTS"
+                - generic
+                  - StaticText ""
+              - menuitem "TOOLS & HOME IMPROVEMENT "
+                - StaticText "TOOLS & HOME IMPROVEMENT"
+                - generic
+                  - StaticText ""
+              - menuitem "HEALTH & HOUSEHOLD "
+                - StaticText "HEALTH & HOUSEHOLD"
+                - generic
+                  - StaticText ""
+              - menuitem "PATIO, LAWN & GARDEN "
+                - StaticText "PATIO, LAWN & GARDEN"
+                - generic
+                  - StaticText ""
+              - menuitem "ELECTRONICS "
+                - StaticText "ELECTRONICS"
+                - generic
+                  - StaticText ""
+              - menuitem "CELL PHONES & ACCESSORIES "
+                - StaticText "CELL PHONES & ACCESSORIES"
+                - generic
+                  - StaticText ""
+              - menuitem "VIDEO GAMES "
+                - StaticText "VIDEO GAMES"
+                - generic
+                  - StaticText ""
+              - menuitem "GROCERY & GOURMET FOOD "
+                - StaticText "GROCERY & GOURMET FOOD"
+                - generic
+                  - StaticText ""
+        - tab "Account" [selected=false] [expanded=false]
+          - link "Account" [url="http://127.0.0.1:7770/tweezers-for-succulents-duo.html#store.links"]
+            - StaticText "Account"
+    - list
+      - listitem [level=1]
+        - link "Home" [url="http://127.0.0.1:7770/"]
+          - StaticText "Home"
+        - generic
+          - StaticText ""
+      - listitem [level=1]
+        - link "Beauty & Personal Care" [url="http://127.0.0.1:7770/beauty-personal-care.html"]
+          - StaticText "Beauty & Personal Care"
+        - generic
+          - StaticText ""
+      - listitem [level=1]
+        - strong
+          - StaticText "Tweezers For Succulents Duo"
+    - main
+      - generic
+      - heading "Tweezers For Succulents Duo" [level=1]
+        - StaticText "Tweezers For Succulents Duo"
+      - generic
+        - generic
+          - StaticText "IN STOCK"
+        - generic
+          - strong
+            - StaticText "SKU"
+          - generic
+            - StaticText "B0912T6WWG"
+      - LayoutTable
+        - generic
+          - link "Be the first to review this product" [url="http://127.0.0.1:7770/tweezers-for-succulents-duo.html#review-form"]
+            - StaticText "Be the first to review this product"
+      - generic
+        - generic
+          - StaticText "$19.99"
+      - form
+        - LabelText
+          - StaticText "Qty"
+        - generic
+          - spinbutton "Qty" [value=1]
+            - generic
+              - StaticText "1"
+        - button "Add to Cart"
+          - StaticText "Add to Cart"
+        - generic
+      - generic
+        - link "Add to Wish List" [url="http://127.0.0.1:7770/tweezers-for-succulents-duo.html#"]
+          - StaticText "Add to Wish List"
+      - generic
+      - generic
+        - link "Skip to the end of the images gallery" [url="http://127.0.0.1:7770/tweezers-for-succulents-duo.html#gallery-next-area"]
+          - StaticText "Skip to the end of the images gallery"
+      - generic
+        - generic
+        - generic
+        - generic
+          - generic
+            - button "Previous"
+              - generic
+            - generic
+              - generic
+                - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/829a59e57f886f8cf0598ffca4f8a940/B/0/B0912T6WWG.1.jpg"]
+            - button "Next"
+              - generic
+          - generic
+            - generic
+              - button "Image"
+                - generic
+              - button "Image"
+                - generic
+        - generic
+      - generic
+        - link "Skip to the beginning of the images gallery" [url="http://127.0.0.1:7770/tweezers-for-succulents-duo.html#gallery-prev-area"]
+          - StaticText "Skip to the beginning of the images gallery"
+      - generic
+      - tablist
+        - tab "Details" [selected=false] [expanded=true]
+          - link "Details" [url="http://127.0.0.1:7770/tweezers-for-succulents-duo.html#description"]
+            - StaticText "Details"
+        - tabpanel "Details"
+          - generic
+          - generic
+          - generic
+          - generic
+          - generic
+            - heading "Product Quick Look" [level=2]
+              - StaticText "Product Quick Look"
+            - generic
+              - list
+                - listitem [level=1]
+                  - ListMarker "•"
+                  - StaticText "Multi-purpose extra-long tweezers designed for succulent hobbyists. Strong and durable. Perfectly aligned curved tip. Ideal for creating miniature projects, transferring and planting small succulent propagations to new pots, making compact arrangements with ease. Can be used to groom plants by removing dead leaves. Long enough to access hard-to-reach areas without disturbing nearby delicate leaves. Made of the best quality stainless steel. Manufactured by a company that supplies surgical and dental instruments. The green coating will not peel off or fade."
+                - listitem [level=1]
+                  - ListMarker "•"
+                  - StaticText "????EXCELLENT QUALITY TOOL- Set of two gardening tweezers. Made of high-quality stainless steel. Durable and built to last. Designed with a perfectly aligned curved tip. Features precision and strong grip that remains tight even with repeated use. These extra-long garden tweezers won’t bend and can hold even fine objects."
+                - listitem [level=1]
+                  - ListMarker "•"
+                  - StaticText "????VERY PRACTICAL AND USEFUL- The 8-inch long garden tweezers can reach in between leaves and tight spaces to pull off debris or dried leaves. Allows easy plant clean-up without disturbing nearby delicate leaves. Cacti have spikes and using this large gardening tweezer can help you avoid getting poked"
+                - listitem [level=1]
+                  - ListMarker "•"
+                  - StaticText "????A MULTI-PURPOSE TOOL- Great for uprooting and transferring succulent leaf propagation, removing dry leaves, digging the soil, and planting succulent cuttings. An indispensable long-handled tweezers for gardening with cactus and succulents. A very useful tool for creating compact succulent arrangements. Ideal for indoor and outdoor gardening."
+                - listitem [level=1]
+                  - ListMarker "•"
+                  - StaticText "????MAKES GARDENING EASY AND FUN! You’ll be thrilled to use it every day. Once you start using this tweezer, you’ll wonder how you managed without it. You’ll fall in love with it that you’ll use it over and over again. Its green color makes it easy to spot when misplaced among the debris."
+                - listitem [level=1]
+                  - ListMarker "•"
+                  - StaticText "????SUCCULENT HOBBYISTS BESTFRIEND- Highly recommended by succulent enthusiasts. As a hobbyist, you deserve only the best tool that can withstand frequent use. A tool you can use every day yet continues to deliver the same excellent performance. A great addition to your gardening tool kit. Be a proud owner of this amazing tweezer. Buy it now."
+            - table
+              - row
+                - rowheader "Manufacturer"
+                  - StaticText "Manufacturer"
+                - cell "‎Chopstick And Succulents"
+                  - StaticText "‎Chopstick And Succulents"
+              - row
+                - rowheader "Item Weight"
+                  - StaticText "Item Weight"
+                - cell "‎3.84 ounces"
+                  - StaticText "‎3.84 ounces"
+              - row
+                - rowheader "Product Dimensions"
+                  - StaticText "Product Dimensions"
+                - cell "‎8 x 0.5 x 0.25 inches"
+                  - StaticText "‎8 x 0.5 x 0.25 inches"
+              - row
+                - rowheader "Size"
+                  - StaticText "Size"
+                - cell "‎Small"
+                  - StaticText "‎Small"
+              - row
+                - rowheader "Color"
+                  - StaticText "Color"
+                - cell "‎Green"
+                  - StaticText "‎Green"
+              - row
+                - rowheader "Material"
+                  - StaticText "Material"
+                - cell "‎Stainless Steel"
+                  - StaticText "‎Stainless Steel"
+              - row
+                - rowheader "Thickness"
+                  - StaticText "Thickness"
+                - cell "‎0.25 Inches"
+                  - StaticText "‎0.25 Inches"
+              - row
+                - rowheader "Batteries Included?"
+                  - StaticText "Batteries Included?"
+                - cell "‎No"
+                  - StaticText "‎No"
+              - row
+                - rowheader "Batteries Required?"
+                  - StaticText "Batteries Required?"
+                - cell "‎No"
+                  - StaticText "‎No"
+              - row
+                - rowheader "Date First Available"
+                  - StaticText "Date First Available"
+                - cell "March 25, 2021"
+                  - StaticText "March 25, 2021"
+        - tab "Reviews" [selected=false] [expanded=false]
+          - link "Reviews" [url="http://127.0.0.1:7770/tweezers-for-succulents-duo.html#reviews"]
+            - StaticText "Reviews"
+    - contentinfo
+      - form
+        - generic
+          - generic
+            - StaticText ""
+          - LabelText
+            - StaticText "Sign Up for Our Newsletter:"
+            - textbox "Sign Up for Our Newsletter:"
+              - generic
+        - generic
+          - button "Subscribe"
+            - StaticText "Subscribe"
+      - list
+        - listitem [level=1]
+          - link "Privacy and Cookie Policy" [url="http://127.0.0.1:7770/privacy-policy-cookie-restriction-mode/"]
+            - StaticText "Privacy and Cookie Policy"
+        - listitem [level=1]
+          - link "Search Terms" [url="http://127.0.0.1:7770/search/term/popular/"]
+            - StaticText "Search Terms"
+        - listitem [level=1]
+          - link "Advanced Search" [url="http://127.0.0.1:7770/catalogsearch/advanced/"]
+            - StaticText "Advanced Search"
+        - listitem [level=1]
+          - link "Orders and Returns" [url="http://127.0.0.1:7770/sales/guest/form/"]
+            - StaticText "Orders and Returns"
+        - listitem [level=1]
+          - link "Contact Us" [url="http://127.0.0.1:7770/contact/"]
+            - StaticText "Contact Us"
+      - generic
+        - StaticText "Copyright © 2013-present Magento, Inc. All rights reserved."
+      - generic
+        - StaticText "Help Us Keep Magento Healthy"
+        - StaticText
+        - link "Report All Bugs" [url="http://www.magentocommerce.com/bug-tracking"]
+          - StaticText "Report All Bugs"
+    - generic

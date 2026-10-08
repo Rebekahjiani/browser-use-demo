@@ -1,0 +1,11 @@
+{
+  "type": "runs.start",
+  "id": "b-smoke-start",
+  "success": true,
+  "payload": {
+    "message": "Request enqueued, will start when agent is available",
+    "queue_id": "queue-1791439026899",
+    "status": "queued"
+  },
+  "timestamp": 1791439026901
+}

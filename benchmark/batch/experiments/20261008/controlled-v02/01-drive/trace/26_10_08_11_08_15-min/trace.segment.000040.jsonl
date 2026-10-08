@@ -1,0 +1,9 @@
+{"args":{"name":"swapper"},"cat":"__metadata","name":"thread_name","ph":"M","pid":0,"tid":0,"ts":0}
+{"args":{"name":"CrRendererMain"},"cat":"__metadata","name":"thread_name","ph":"M","pid":39388,"tid":20720,"ts":0}
+{"args":{"name":"Renderer"},"cat":"__metadata","name":"process_name","ph":"M","pid":39388,"tid":0,"ts":0}
+{"args":{"uptime":"603"},"cat":"__metadata","name":"process_uptime_seconds","ph":"M","pid":39388,"tid":0,"ts":0}
+{"args":{"snapshot":{"documentLoaderURL":"http://127.0.0.1:7770/catalogsearch/advanced/result/?name=&sku=Seed+a26826&description=launch+seed+cnrya1b977edzz&short_description=keynote+seed+cnryca90abd7zz&price%5Bfrom%5D=&price%5Bto%5D=&price%5Bcurrency%5D=USD","frame":{"id_ref":"E42C032F4AD866337E63F1AFCB2DA291"},"isLoadingMainFrame":true,"isOutermostMainFrame":true}},"cat":"loading","name":"FrameLoader:state_snapshot","ph":"I","pid":39388,"s":"t","tid":20720,"ts":1547460034674,"tts":10661221}
+{"args":{},"cat":"loading","name":"FrameLoader:deleted","ph":"I","pid":39388,"s":"t","tid":20720,"ts":1547460034852,"tts":10661288}
+{"args":{"substracted_bytes":0,"total_bytes_buffered":0},"cat":"loading","dur":2,"name":"BackForwardCacheBufferLimitTracker::DidRemoveFrameOrWorkerFromBackForwardCache","ph":"X","pid":39388,"tdur":2,"tid":20720,"ts":1547460034856,"tts":10661291}
+{"args":{},"cat":"loading","id":0,"name":"FrameLoader:state_snapshot","ph":"s","pid":39388,"tid":20720,"ts":1547460034674}
+{"args":{},"bp":"e","cat":"loading","id":0,"name":"FrameLoader:state_snapshot","ph":"f","pid":39388,"tid":20720,"ts":1547460034852}

@@ -1,0 +1,99 @@
+{
+  "pages": [
+    {
+      "dir": "000_state",
+      "url": "http://127.0.0.1:7770/",
+      "title": "One Stop Market",
+      "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-120157-401286\\snapshots\\00001",
+      "duplicate_snapshots": [
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-120157-401286\\snapshots\\00002",
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-120157-401286\\snapshots\\00003",
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-120157-401286\\snapshots\\00004",
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-120157-401286\\snapshots\\00005"
+      ],
+      "signature": "ad1dc6dbe8cde81040f86a316d08f6bf98d613bac2ba4b9fb803a13735bba092",
+      "endpoint_count": 0
+    },
+    {
+      "dir": "001_state",
+      "url": "http://127.0.0.1:7770/beauty-personal-care.html",
+      "title": "Beauty & Personal Care",
+      "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-120157-401286\\snapshots\\00006",
+      "duplicate_snapshots": [
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-120157-401286\\snapshots\\00007",
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-120157-401286\\snapshots\\00008",
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-120157-401286\\snapshots\\00009",
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-120157-401286\\snapshots\\00018"
+      ],
+      "signature": "07cb14c733a5aa33a70a3d1b2aed191a815a1435fef05af2f2c3051214444020",
+      "endpoint_count": 0
+    },
+    {
+      "dir": "002_state",
+      "url": "http://127.0.0.1:7770/tweezers-for-succulents-duo.html",
+      "title": "Tweezers For Succulents Duo",
+      "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-120157-401286\\snapshots\\00010",
+      "duplicate_snapshots": [
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-120157-401286\\snapshots\\00011"
+      ],
+      "signature": "7414c6bf23f2418c51a437b6efcfaea3902d4c93fcfbc0644e584c869a1d2caf",
+      "endpoint_count": 0
+    },
+    {
+      "dir": "003_state",
+      "url": "http://127.0.0.1:7770/catalogsearch/result/?q=tea",
+      "title": "Search results for: 'tea'",
+      "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-120157-401286\\snapshots\\00012",
+      "duplicate_snapshots": [],
+      "signature": "6c1d1024aed7a0552f4728c9d8244e5c2b937dc6cf2cbdff41f5e490272face2",
+      "endpoint_count": 0
+    },
+    {
+      "dir": "004_state",
+      "url": "http://127.0.0.1:7770/catalogsearch/result/?q=tea",
+      "title": "Search results for: 'tea'",
+      "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-120157-401286\\snapshots\\00013",
+      "duplicate_snapshots": [],
+      "signature": "d53bd4d05cf41f80fad4aa3ddd7f9a5b69063981d2bf5b9b5e42c4e2c36ccd4c",
+      "endpoint_count": 0
+    },
+    {
+      "dir": "005_state",
+      "url": "http://127.0.0.1:7770/catalogsearch/result/?q=tea",
+      "title": "Search results for: 'tea'",
+      "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-120157-401286\\snapshots\\00014",
+      "duplicate_snapshots": [
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-120157-401286\\snapshots\\00015"
+      ],
+      "signature": "bf641e3930bb3abce6c556da01530a101ecfd3a2acdfc876d7574acf55368995",
+      "endpoint_count": 0
+    },
+    {
+      "dir": "006_state",
+      "url": "http://127.0.0.1:7770/checkout/cart/",
+      "title": "Shopping Cart",
+      "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-120157-401286\\snapshots\\00016",
+      "duplicate_snapshots": [
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-120157-401286\\snapshots\\00017"
+      ],
+      "signature": "594334f1220f69e98147b7f16ad953471a041d23a497f49296cffd951fb121eb",
+      "endpoint_count": 0
+    },
+    {
+      "dir": "007_state",
+      "url": "http://127.0.0.1:7770/beauty-personal-care.html?cat=15",
+      "title": "Beauty & Personal Care",
+      "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-120157-401286\\snapshots\\00019",
+      "duplicate_snapshots": [
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-120157-401286\\snapshots\\00020",
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-120157-401286\\snapshots\\00021",
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-120157-401286\\snapshots\\00022",
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-120157-401286\\snapshots\\00023",
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-120157-401286\\snapshots\\00024"
+      ],
+      "signature": "c3b33f59ead22a58f7ac6c4b2e0f78ed0251a36269c4433e57d840042db066a6",
+      "endpoint_count": 0
+    }
+  ],
+  "deduplication": "exact prepared input signature within run; no URL-only merging"
+}

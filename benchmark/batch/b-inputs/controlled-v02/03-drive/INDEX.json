@@ -1,0 +1,227 @@
+{
+  "pages": [
+    {
+      "dir": "000_state",
+      "url": "http://127.0.0.1:7770/",
+      "title": "One Stop Market",
+      "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\03-drive\\trace\\26_10_08_12_12_08-min\\drive\\screenshots\\000_root",
+      "duplicate_snapshots": [],
+      "signature": "ad1dc6dbe8cde81040f86a316d08f6bf98d613bac2ba4b9fb803a13735bba092",
+      "endpoint_count": 0
+    },
+    {
+      "dir": "001_state",
+      "url": "http://127.0.0.1:7770/tony-chachere-s-more-spice-creole-seasoning-14-oz.html",
+      "title": "Tony Chachere's More Spice Creole Seasoning - 14 oz",
+      "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\03-drive\\trace\\26_10_08_12_12_08-min\\drive\\screenshots\\001_tony-chachere-s-more-spice-creole-seasoning-14-oz_html",
+      "duplicate_snapshots": [],
+      "signature": "8f80419f230c07e256c662ab0968e7834d49ed2b5b8b541ead7efb512f8923ad",
+      "endpoint_count": 0
+    },
+    {
+      "dir": "002_state",
+      "url": "http://127.0.0.1:7770/tony-chachere-s-more-spice-creole-seasoning-14-oz.html",
+      "title": "Tony Chachere's More Spice Creole Seasoning - 14 oz",
+      "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\03-drive\\trace\\26_10_08_12_12_08-min\\drive\\screenshots\\002_tony-chachere-s-more-spice-creole-seasoning-14-oz_html",
+      "duplicate_snapshots": [],
+      "signature": "5eb8ed2ffef9e5ab40dcbc8d9003ed9250c2fecaa3b6713c178d76c1de41f293",
+      "endpoint_count": 0
+    },
+    {
+      "dir": "003_state",
+      "url": "http://127.0.0.1:7770/checkout/cart/",
+      "title": "Shopping Cart",
+      "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\03-drive\\trace\\26_10_08_12_12_08-min\\drive\\screenshots\\003_checkout_cart",
+      "duplicate_snapshots": [],
+      "signature": "143e477fbcfb0f813bed2fd987babe9d51e5fdffd28c0277fe7bca3166fec51b",
+      "endpoint_count": 1
+    },
+    {
+      "dir": "004_state",
+      "url": "http://127.0.0.1:7770/catalogsearch/advanced/",
+      "title": "Advanced Search",
+      "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\03-drive\\trace\\26_10_08_12_12_08-min\\drive\\screenshots\\004_catalogsearch_advanced",
+      "duplicate_snapshots": [],
+      "signature": "8a2316b304be59f3d3f7af26928e051a5e79df42d129d83c8c11881f942eb853",
+      "endpoint_count": 0
+    },
+    {
+      "dir": "005_state",
+      "url": "http://127.0.0.1:7770/?pbaocw=2",
+      "title": "One Stop Market",
+      "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\03-drive\\trace\\26_10_08_12_12_08-min\\drive\\screenshots\\005_root",
+      "duplicate_snapshots": [],
+      "signature": "7f3d8a334627e13aa31915e60f37a5b591e373eaa20a2de8b930dc45bebb374b",
+      "endpoint_count": 1
+    },
+    {
+      "dir": "006_state",
+      "url": "http://127.0.0.1:7770/beauty-personal-care.html",
+      "title": "Beauty & Personal Care",
+      "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\03-drive\\trace\\26_10_08_12_12_08-min\\drive\\screenshots\\006_beauty-personal-care_html",
+      "duplicate_snapshots": [],
+      "signature": "07cb14c733a5aa33a70a3d1b2aed191a815a1435fef05af2f2c3051214444020",
+      "endpoint_count": 0
+    },
+    {
+      "dir": "007_state",
+      "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care.html",
+      "title": "Oral Care - Beauty & Personal Care",
+      "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\03-drive\\trace\\26_10_08_12_12_08-min\\drive\\screenshots\\007_beauty-personal-care_oral-care_html",
+      "duplicate_snapshots": [],
+      "signature": "a4dda729047691b2b1a7da7b7e19aad1d9ae9faf054021b35ef850d6db891492",
+      "endpoint_count": 1
+    },
+    {
+      "dir": "008_state",
+      "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/toothbrushes-accessories.html",
+      "title": "Toothbrushes & Accessories - Oral Care - Beauty & Personal Care",
+      "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\03-drive\\trace\\26_10_08_12_12_08-min\\drive\\screenshots\\008_beauty-personal-care_oral-care_toothbrushes-accessories_html",
+      "duplicate_snapshots": [
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\03-drive\\trace\\26_10_08_12_12_08-min\\drive\\screenshots\\009_beauty-personal-care_oral-care_toothbrushes-accessories_html"
+      ],
+      "signature": "62314b6832c31dd0e6eebde1d033f6c920786f39d25e0f06996543820cf85570",
+      "endpoint_count": 1
+    },
+    {
+      "dir": "009_state",
+      "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/dental-floss-picks.html",
+      "title": "Dental Floss & Picks - Oral Care - Beauty & Personal Care",
+      "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\03-drive\\trace\\26_10_08_12_12_08-min\\drive\\screenshots\\010_beauty-personal-care_oral-care_dental-floss-picks_html",
+      "duplicate_snapshots": [
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\03-drive\\trace\\26_10_08_12_12_08-min\\drive\\screenshots\\011_beauty-personal-care_oral-care_dental-floss-picks_html"
+      ],
+      "signature": "533621ce8fa245c9ccb46ad6762e0e30fe7369a7c5205e36e7d92e5589606a47",
+      "endpoint_count": 1
+    },
+    {
+      "dir": "010_state",
+      "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/orthodontic-supplies.html",
+      "title": "Orthodontic Supplies - Oral Care - Beauty & Personal Care",
+      "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\03-drive\\trace\\26_10_08_12_12_08-min\\drive\\screenshots\\012_beauty-personal-care_oral-care_orthodontic-supplies_html",
+      "duplicate_snapshots": [],
+      "signature": "0cadfece3740c6e8c442fccfc6ec158ecd3fc1254d1d2091973280f220e0197f",
+      "endpoint_count": 1
+    },
+    {
+      "dir": "011_state",
+      "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/orthodontic-supplies.html?price=0-100",
+      "title": "Orthodontic Supplies - Oral Care - Beauty & Personal Care",
+      "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\03-drive\\trace\\26_10_08_12_12_08-min\\drive\\screenshots\\013_beauty-personal-care_oral-care_orthodontic-supplies_html",
+      "duplicate_snapshots": [],
+      "signature": "6f600d2c731d43f0a188adc2035480a88a5382c75ab448b482e7248bcdd45114",
+      "endpoint_count": 0
+    },
+    {
+      "dir": "012_state",
+      "url": "http://127.0.0.1:7770/catalogsearch/advanced/",
+      "title": "Advanced Search",
+      "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\03-drive\\trace\\26_10_08_12_12_08-min\\drive\\screenshots\\014_catalogsearch_advanced",
+      "duplicate_snapshots": [],
+      "signature": "0ff0bb2af6b26750ff06f9325e27bbfd396ad903629dbd0c25a92ec7c3bae5a3",
+      "endpoint_count": 0
+    },
+    {
+      "dir": "013_state",
+      "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/children-s-dental-care.html",
+      "title": "Children's Dental Care - Oral Care - Beauty & Personal Care",
+      "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\03-drive\\trace\\26_10_08_12_12_08-min\\drive\\screenshots\\015_beauty-personal-care_oral-care_children-s-dental-care_html",
+      "duplicate_snapshots": [],
+      "signature": "be92ba69b857732dfde43ea842d4bd25389f3c936514455a113990e754cc8bde",
+      "endpoint_count": 0
+    },
+    {
+      "dir": "014_state",
+      "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/children-s-dental-care.html?p=2",
+      "title": "Children's Dental Care - Oral Care - Beauty & Personal Care",
+      "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\03-drive\\trace\\26_10_08_12_12_08-min\\drive\\screenshots\\016_beauty-personal-care_oral-care_children-s-dental-care_html",
+      "duplicate_snapshots": [
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\03-drive\\trace\\26_10_08_12_12_08-min\\drive\\screenshots\\017_beauty-personal-care_oral-care_children-s-dental-care_html"
+      ],
+      "signature": "d26dd831a70cc8070cc578dbbfb9f6bd21dd69d34f1cf0de40cf8a86c612576d",
+      "endpoint_count": 0
+    },
+    {
+      "dir": "015_state",
+      "url": "http://127.0.0.1:7770/bestyijo-kids-u-shaped-electric-toothbrush-cartoon-cute-ultrasonic-automatic-toothbrushes-with-5-cleaning-modes-waterproof-auto-toothbrush-for-children-toddler-kid.html",
+      "title": "BestYiJo Kids U Shaped Electric Toothbrush, Cartoon Cute Ultrasonic Automatic Toothbrushes with 5 Cleaning Modes, Waterproof Auto Toothbrush for Children Toddler (Kid)",
+      "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\03-drive\\trace\\26_10_08_12_12_08-min\\drive\\screenshots\\018_bestyijo-kids-u-shaped-electric-toothbrush-cartoon-cute-ultr",
+      "duplicate_snapshots": [
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\03-drive\\trace\\26_10_08_12_12_08-min\\drive\\screenshots\\019_bestyijo-kids-u-shaped-electric-toothbrush-cartoon-cute-ultr"
+      ],
+      "signature": "92725bd071af602774e4754f05c3149018c41e98b0ab8b04de1784e032a1f1ca",
+      "endpoint_count": 1
+    },
+    {
+      "dir": "016_state",
+      "url": "http://127.0.0.1:7770/bestyijo-kids-u-shaped-electric-toothbrush-cartoon-cute-ultrasonic-automatic-toothbrushes-with-5-cleaning-modes-waterproof-auto-toothbrush-for-children-toddler-kid.html",
+      "title": "BestYiJo Kids U Shaped Electric Toothbrush, Cartoon Cute Ultrasonic Automatic Toothbrushes with 5 Cleaning Modes, Waterproof Auto Toothbrush for Children Toddler (Kid)",
+      "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\03-drive\\trace\\26_10_08_12_12_08-min\\drive\\screenshots\\020_bestyijo-kids-u-shaped-electric-toothbrush-cartoon-cute-ultr",
+      "duplicate_snapshots": [],
+      "signature": "f131d1926cea3208fed1d1558a3bc2d5549afbbe4da57d2c77c0e1fed5136b1f",
+      "endpoint_count": 1
+    },
+    {
+      "dir": "017_state",
+      "url": "http://127.0.0.1:7770/bestyijo-kids-u-shaped-electric-toothbrush-cartoon-cute-ultrasonic-automatic-toothbrushes-with-5-cleaning-modes-waterproof-auto-toothbrush-for-children-toddler-kid.html",
+      "title": "BestYiJo Kids U Shaped Electric Toothbrush, Cartoon Cute Ultrasonic Automatic Toothbrushes with 5 Cleaning Modes, Waterproof Auto Toothbrush for Children Toddler (Kid)",
+      "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\03-drive\\trace\\26_10_08_12_12_08-min\\drive\\screenshots\\021_bestyijo-kids-u-shaped-electric-toothbrush-cartoon-cute-ultr",
+      "duplicate_snapshots": [],
+      "signature": "0ac499967c217d1ef83789a0fe4bcbf9dc79eb4baa1d1870d8095d7a1ab62cb0",
+      "endpoint_count": 1
+    },
+    {
+      "dir": "018_state",
+      "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/oral-pain-relief.html",
+      "title": "Oral Pain Relief - Oral Care - Beauty & Personal Care",
+      "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\03-drive\\trace\\26_10_08_12_12_08-min\\drive\\screenshots\\022_beauty-personal-care_oral-care_oral-pain-relief_html",
+      "duplicate_snapshots": [],
+      "signature": "79f1d1653dd71d1cbcbb76efc07261b6962b9eaeb23ea207541a88e88f345c06",
+      "endpoint_count": 0
+    },
+    {
+      "dir": "019_state",
+      "url": "http://127.0.0.1:7770/prevest-denpro-platina-hi-gloss-1x4g-dental-products.html",
+      "title": "Prevest Denpro Platina Hi-Gloss 1X4g, Dental Products",
+      "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\03-drive\\trace\\26_10_08_12_12_08-min\\drive\\screenshots\\023_prevest-denpro-platina-hi-gloss-1x4g-dental-products_html",
+      "duplicate_snapshots": [
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\03-drive\\trace\\26_10_08_12_12_08-min\\drive\\screenshots\\024_prevest-denpro-platina-hi-gloss-1x4g-dental-products_html"
+      ],
+      "signature": "5b01c79cf3aedd428a0b113cbc4c259aeb78a0f13f20aec8fec958d84e8fdd1c",
+      "endpoint_count": 1
+    },
+    {
+      "dir": "020_state",
+      "url": "http://127.0.0.1:7770/prevest-denpro-platina-hi-gloss-1x4g-dental-products.html",
+      "title": "Prevest Denpro Platina Hi-Gloss 1X4g, Dental Products",
+      "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\03-drive\\trace\\26_10_08_12_12_08-min\\drive\\screenshots\\025_prevest-denpro-platina-hi-gloss-1x4g-dental-products_html",
+      "duplicate_snapshots": [],
+      "signature": "0441032cf0426b0283600314bea83e310b153d13b8f4c768030ed12c7737af9e",
+      "endpoint_count": 1
+    },
+    {
+      "dir": "021_state",
+      "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/toothpaste.html",
+      "title": "Toothpaste - Oral Care - Beauty & Personal Care",
+      "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\03-drive\\trace\\26_10_08_12_12_08-min\\drive\\screenshots\\026_beauty-personal-care_oral-care_toothpaste_html",
+      "duplicate_snapshots": [
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\03-drive\\trace\\26_10_08_12_12_08-min\\drive\\screenshots\\030_beauty-personal-care_oral-care_toothpaste_html"
+      ],
+      "signature": "663f6f08d3105a1abc319291eb3d150822e92f37026dce9b2a47ff301def8834",
+      "endpoint_count": 0
+    },
+    {
+      "dir": "022_state",
+      "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/toothpaste.html?p=2",
+      "title": "Toothpaste - Oral Care - Beauty & Personal Care",
+      "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\03-drive\\trace\\26_10_08_12_12_08-min\\drive\\screenshots\\027_beauty-personal-care_oral-care_toothpaste_html",
+      "duplicate_snapshots": [
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\03-drive\\trace\\26_10_08_12_12_08-min\\drive\\screenshots\\028_beauty-personal-care_oral-care_toothpaste_html",
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\03-drive\\trace\\26_10_08_12_12_08-min\\drive\\screenshots\\029_beauty-personal-care_oral-care_toothpaste_html"
+      ],
+      "signature": "0be744874f8a88fbfcb3449b8ef7b59f3858d87a71021d2f5a63e7a4dd251713",
+      "endpoint_count": 1
+    }
+  ],
+  "deduplication": "exact prepared input signature within run; no URL-only merging"
+}

@@ -1,0 +1,96 @@
+{
+  "files": [
+    {
+      "file": "C:\\Users\\bulin\\artifacttrace\\templates\\at-template\\tasks\\benchmark-20261008-b-01-drive\\claudecode\\entity-extract\\000_state\\output\\concepts.json",
+      "sha256": "93a64d244aa8e44bf4a432c3bb80880158bd3c4402fa45495bed7cb4b7bd1693"
+    },
+    {
+      "file": "C:\\Users\\bulin\\artifacttrace\\templates\\at-template\\tasks\\benchmark-20261008-b-01-drive\\claudecode\\entity-extract\\001_state\\output\\concepts.json",
+      "sha256": "d3ccac3b36b1f47b806d9ce765ce80cdefdadb319a1afcb5bc8e3882d0ebd454"
+    },
+    {
+      "file": "C:\\Users\\bulin\\artifacttrace\\templates\\at-template\\tasks\\benchmark-20261008-b-01-drive\\claudecode\\entity-extract\\002_state\\output\\concepts.json",
+      "sha256": "de8816949c0928f5839dc25b86d210ac0b9f795b217e9d08fe5a2171212b88f5"
+    },
+    {
+      "file": "C:\\Users\\bulin\\artifacttrace\\templates\\at-template\\tasks\\benchmark-20261008-b-01-drive\\claudecode\\entity-extract\\003_state\\output\\concepts.json",
+      "sha256": "fa864bb48b125abea526575149a66830a3f90c859ba8ffc9e4a88aee2aa4118d"
+    },
+    {
+      "file": "C:\\Users\\bulin\\artifacttrace\\templates\\at-template\\tasks\\benchmark-20261008-b-01-drive\\claudecode\\entity-extract\\004_state\\output\\concepts.json",
+      "sha256": "21259a36f679fa93bcff84ecb0a8f0c5000622d26c5a88494753687abca3c9cc"
+    },
+    {
+      "file": "C:\\Users\\bulin\\artifacttrace\\templates\\at-template\\tasks\\benchmark-20261008-b-01-drive\\claudecode\\entity-extract\\005_state\\output\\concepts.json",
+      "sha256": "ba022630161f726c1560745e7a425d24715fc18dae870bc5cc86c7a532ec1822"
+    },
+    {
+      "file": "C:\\Users\\bulin\\artifacttrace\\templates\\at-template\\tasks\\benchmark-20261008-b-01-drive\\claudecode\\entity-extract\\006_state\\output\\concepts.json",
+      "sha256": "308921746e86709ddf532b8aeb05c811c1d99495dea9bb8f2d185723bb0dab3c"
+    },
+    {
+      "file": "C:\\Users\\bulin\\artifacttrace\\templates\\at-template\\tasks\\benchmark-20261008-b-01-drive\\claudecode\\entity-extract\\007_state\\output\\concepts.json",
+      "sha256": "c5a59337bd7ab124f0cdb1f2dd3385a2b77a2ad6ebbfb1e77908aaf31b463a1e"
+    },
+    {
+      "file": "C:\\Users\\bulin\\artifacttrace\\templates\\at-template\\tasks\\benchmark-20261008-b-01-drive\\claudecode\\entity-extract\\008_state\\output\\concepts.json",
+      "sha256": "7819be1b24ed12970cad1ef217c3d1644fc0f8180cec676eb08285621b4f3b3e"
+    },
+    {
+      "file": "C:\\Users\\bulin\\artifacttrace\\templates\\at-template\\tasks\\benchmark-20261008-b-01-drive\\claudecode\\entity-extract\\009_state\\output\\concepts.json",
+      "sha256": "9522ce64da6479ea8dbd003b3fb3145b238f0890d0ea293013c1e48a3be4736e"
+    },
+    {
+      "file": "C:\\Users\\bulin\\artifacttrace\\templates\\at-template\\tasks\\benchmark-20261008-b-01-drive\\claudecode\\entity-extract\\010_state\\output\\concepts.json",
+      "sha256": "5eba75efca8476a0654da243d17fd8ed35ff0826582553c23fb1d464c0a0c7f5"
+    },
+    {
+      "file": "C:\\Users\\bulin\\artifacttrace\\templates\\at-template\\tasks\\benchmark-20261008-b-01-drive\\claudecode\\entity-extract\\011_state\\output\\concepts.json",
+      "sha256": "01c56d0bc847bf69b290c9f168e97fa92cec763e65e6717e93f4a572de3a6bd1"
+    },
+    {
+      "file": "C:\\Users\\bulin\\artifacttrace\\templates\\at-template\\tasks\\benchmark-20261008-b-01-drive\\claudecode\\entity-extract\\012_state\\output\\concepts.json",
+      "sha256": "0dadff34815e295c0f228b37f9f5f4a68f3561a098a071a6e9d4184727efe305"
+    },
+    {
+      "file": "C:\\Users\\bulin\\artifacttrace\\templates\\at-template\\tasks\\benchmark-20261008-b-01-drive\\claudecode\\entity-extract\\013_state\\output\\concepts.json",
+      "sha256": "64cf6c2c7a6c338a5a33938b60a4708b8bb981b367c41c248c3cc91fd1f43186"
+    },
+    {
+      "file": "C:\\Users\\bulin\\artifacttrace\\templates\\at-template\\tasks\\benchmark-20261008-b-01-drive\\claudecode\\entity-extract\\014_state\\output\\concepts.json",
+      "sha256": "5988a589a4863fdc279fb4b5c26366ad5632c7b9e82130244719bc45fb24b810"
+    },
+    {
+      "file": "C:\\Users\\bulin\\artifacttrace\\templates\\at-template\\tasks\\benchmark-20261008-b-01-drive\\claudecode\\entity-extract\\015_state\\output\\concepts.json",
+      "sha256": "45dafe7c5f60d45283e2c1e09dfc8f24d1de220989c6b6bae5f413857f008512"
+    },
+    {
+      "file": "C:\\Users\\bulin\\artifacttrace\\templates\\at-template\\tasks\\benchmark-20261008-b-01-drive\\claudecode\\entity-extract\\016_state\\output\\concepts.json",
+      "sha256": "efa615d4c4e3c40947bf30afc29027f9f5bad21dfe3ef8bda19acb572063287f"
+    },
+    {
+      "file": "C:\\Users\\bulin\\artifacttrace\\templates\\at-template\\tasks\\benchmark-20261008-b-01-drive\\claudecode\\entity-extract\\017_state\\output\\concepts.json",
+      "sha256": "1c44cbfc5b990bfd2cabf31f5bc95dd5f334b1d180cd4e9101fe1874cbeae989"
+    },
+    {
+      "file": "C:\\Users\\bulin\\artifacttrace\\templates\\at-template\\tasks\\benchmark-20261008-b-01-drive\\claudecode\\entity-extract\\018_state\\output\\concepts.json",
+      "sha256": "125cd236270698f8e4f9c351e4e9a64555160c6f8c02c1ed7e25e7cc80cd1f83"
+    },
+    {
+      "file": "C:\\Users\\bulin\\artifacttrace\\templates\\at-template\\tasks\\benchmark-20261008-b-01-drive\\claudecode\\entity-extract\\019_state\\output\\concepts.json",
+      "sha256": "56db16ce374bad3e10ce2678a880a05274781339c282ab2752268b1bc016037c"
+    },
+    {
+      "file": "C:\\Users\\bulin\\artifacttrace\\templates\\at-template\\tasks\\benchmark-20261008-b-01-drive\\claudecode\\entity-extract\\020_state\\output\\concepts.json",
+      "sha256": "a6fcbd6b0155c9708c2b65bf89c52e865dc70b558b49cdc21b0bdebf82e91f00"
+    },
+    {
+      "file": "C:\\Users\\bulin\\artifacttrace\\templates\\at-template\\tasks\\benchmark-20261008-b-01-drive\\claudecode\\entity-extract\\021_state\\output\\concepts.json",
+      "sha256": "1c41d9b426b2916042ac406578efc299e79df3e4cebc65725b082e71ca0a2a71"
+    },
+    {
+      "file": "C:\\Users\\bulin\\artifacttrace\\templates\\at-template\\tasks\\benchmark-20261008-b-01-drive\\claudecode\\entity-extract\\022_state\\output\\concepts.json",
+      "sha256": "ecf44b9e747846a374bf61fb7b7cf156015cfc76d46945e233f7fc10be660f54"
+    }
+  ]
+}

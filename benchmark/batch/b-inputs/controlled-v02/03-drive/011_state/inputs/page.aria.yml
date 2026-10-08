@@ -1,0 +1,568 @@
+- RootWebArea "Orthodontic Supplies - Oral Care - Beauty & Personal Care" [url="http://127.0.0.1:7770/beauty-personal-care/oral-care/orthodontic-supplies.html?price=0-100"]
+  - generic
+    - banner
+      - generic
+        - link "Skip to Content" [url="http://127.0.0.1:7770/beauty-personal-care/oral-care/orthodontic-supplies.html?price=0-100#contentarea"]
+          - StaticText "Skip to Content"
+      - generic
+        - generic
+          - generic
+            - StaticText ""
+          - StaticText "Toggle Nav"
+        - link "store logo" [url="http://127.0.0.1:7770/"]
+          - image "one_stop_market_logo" [url="http://127.0.0.1:7770/media/logo/websites/1/image_15__1.png"]
+        - generic
+          - link " My Cart" [url="http://127.0.0.1:7770/checkout/cart/"]
+            - generic
+              - StaticText ""
+            - StaticText "My Cart"
+        - form
+          - LabelText
+            - generic
+              - StaticText ""
+            - StaticText "Search"
+          - generic
+            - combobox " Search" [expanded=false]
+              - generic
+    - generic
+      - tablist
+        - tab "Menu" [selected=false] [expanded=true]
+          - link "Menu" [url="http://127.0.0.1:7770/beauty-personal-care/oral-care/orthodontic-supplies.html?price=0-100#store.menu"]
+            - StaticText "Menu"
+        - tabpanel
+          - navigation
+            - menu
+              - menuitem "BEAUTY & PERSONAL CARE "
+                - StaticText "BEAUTY & PERSONAL CARE"
+                - generic
+                  - StaticText ""
+              - menuitem "SPORTS & OUTDOORS "
+                - StaticText "SPORTS & OUTDOORS"
+                - generic
+                  - StaticText ""
+              - menuitem "CLOTHING, SHOES & JEWELRY "
+                - StaticText "CLOTHING, SHOES & JEWELRY"
+                - generic
+                  - StaticText ""
+              - menuitem "HOME & KITCHEN "
+                - StaticText "HOME & KITCHEN"
+                - generic
+                  - StaticText ""
+              - menuitem "OFFICE PRODUCTS "
+                - StaticText "OFFICE PRODUCTS"
+                - generic
+                  - StaticText ""
+              - menuitem "TOOLS & HOME IMPROVEMENT "
+                - StaticText "TOOLS & HOME IMPROVEMENT"
+                - generic
+                  - StaticText ""
+              - menuitem "HEALTH & HOUSEHOLD "
+                - StaticText "HEALTH & HOUSEHOLD"
+                - generic
+                  - StaticText ""
+              - menuitem "PATIO, LAWN & GARDEN "
+                - StaticText "PATIO, LAWN & GARDEN"
+                - generic
+                  - StaticText ""
+              - menuitem "ELECTRONICS "
+                - StaticText "ELECTRONICS"
+                - generic
+                  - StaticText ""
+              - menuitem "CELL PHONES & ACCESSORIES "
+                - StaticText "CELL PHONES & ACCESSORIES"
+                - generic
+                  - StaticText ""
+              - menuitem "VIDEO GAMES "
+                - StaticText "VIDEO GAMES"
+                - generic
+                  - StaticText ""
+              - menuitem "GROCERY & GOURMET FOOD "
+                - StaticText "GROCERY & GOURMET FOOD"
+                - generic
+                  - StaticText ""
+        - tab "Account" [selected=false] [expanded=false]
+          - link "Account" [url="http://127.0.0.1:7770/beauty-personal-care/oral-care/orthodontic-supplies.html?price=0-100#store.links"]
+            - StaticText "Account"
+    - list
+      - listitem [level=1]
+        - link "Home" [url="http://127.0.0.1:7770/"]
+          - StaticText "Home"
+        - generic
+          - StaticText ""
+      - listitem [level=1]
+        - link "Beauty & Personal Care" [url="http://127.0.0.1:7770/beauty-personal-care.html"]
+          - StaticText "Beauty & Personal Care"
+        - generic
+          - StaticText ""
+      - listitem [level=1]
+        - link "Oral Care" [url="http://127.0.0.1:7770/beauty-personal-care/oral-care.html"]
+          - StaticText "Oral Care"
+        - generic
+          - StaticText ""
+      - listitem [level=1]
+        - strong
+          - StaticText "Orthodontic Supplies"
+    - main
+      - generic
+      - heading "Orthodontic Supplies Items 1-12 of 395" [level=1]
+        - StaticText "Orthodontic Supplies"
+      - generic
+        - paragraph
+          - StaticText "Items"
+          - StaticText "1"
+          - StaticText "-"
+          - StaticText "12"
+          - StaticText "of"
+          - StaticText "395"
+        - generic
+          - LabelText
+            - StaticText "Sort By"
+          - combobox "Sort By" [expanded=false] [value="Position"]
+            - MenuListPopup
+              - option "Position" [selected=true]
+              - option "Product Name" [selected=false]
+              - option "Price" [selected=false]
+          - link " Set Descending Direction" [url="http://127.0.0.1:7770/beauty-personal-care/oral-care/orthodontic-supplies.html?price=0-100#"]
+            - generic
+              - StaticText ""
+            - StaticText "Set Descending Direction"
+        - list
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/elastic-ligature-threader-orthodontic-elastic-instruments-ortho-twirl-on-new-by-g-s-online-store.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B01LN1H7K0.0.jpg"]
+              - strong
+                - link "Elastic Ligature Threader Orthodontic Elastic Instruments Ortho Twirl ON New by G.S Online Store" [url="http://127.0.0.1:7770/elastic-ligature-threader-orthodontic-elastic-instruments-ortho-twirl-on-new-by-g-s-online-store.html"]
+                  - StaticText "Elastic Ligature Threader Orthodontic Elastic Instruments Ortho Twirl ON New by G.S Online Store"
+              - generic
+                - generic
+                  - StaticText "$8.09"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/orthodontic-dental-retainers-dental-guard-grinding-clenching-guard-retainer-3pcs-with-storage-box.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B09SWS1FJW.0.jpg"]
+              - strong
+                - link "Orthodontic Dental Retainers, Dental Guard, Grinding, Clenching Guard, Retainer 3pcs with Storage Box" [url="http://127.0.0.1:7770/orthodontic-dental-retainers-dental-guard-grinding-clenching-guard-retainer-3pcs-with-storage-box.html"]
+                  - StaticText "Orthodontic Dental Retainers, Dental Guard, Grinding, Clenching Guard, Retainer 3pcs with Storage Box"
+              - generic
+                - generic
+                  - StaticText "$21.99"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/50pcs-bag-disposable-plastic-elastic-placers-dental-elastic-rubber-band-dental-orthodontic-product-multi-color.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B09KNDB2V8.0.jpg"]
+              - strong
+                - link "50Pcs/Bag Disposable Plastic Elastic Placers Dental Elastic Rubber Band Dental Orthodontic Product Multi Color" [url="http://127.0.0.1:7770/50pcs-bag-disposable-plastic-elastic-placers-dental-elastic-rubber-band-dental-orthodontic-product-multi-color.html"]
+                  - StaticText "50Pcs/Bag Disposable Plastic Elastic Placers Dental Elastic Rubber Band Dental Orthodontic Product Multi Color"
+              - generic
+                - generic
+                  - StaticText "$15.85"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/ddp-6-kidney-tray-stainless-steel-dental-holloware-instrument.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B01N35NQLB.0.jpg"]
+              - strong
+                - link "DDP 6\" Kidney Tray Stainless Steel Dental HOLLOWARE Instrument" [url="http://127.0.0.1:7770/ddp-6-kidney-tray-stainless-steel-dental-holloware-instrument.html"]
+                  - StaticText "DDP 6\" Kidney Tray Stainless Steel Dental HOLLOWARE Instrument"
+              - generic
+                - generic
+                  - StaticText "$8.69"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/5-bag-50-pcs-dental-orthodontic-bite-turbos-opener-tongue-tamers-bondable-hinge.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B0928N27BH.0.jpg"]
+              - strong
+                - link "5 bag/ 50 pcs Dental Orthodontic Bite Turbos Opener Tongue Tamers Bondable Hinge" [url="http://127.0.0.1:7770/5-bag-50-pcs-dental-orthodontic-bite-turbos-opener-tongue-tamers-bondable-hinge.html"]
+                  - StaticText "5 bag/ 50 pcs Dental Orthodontic Bite Turbos Opener Tongue Tamers Bondable Hinge"
+              - generic
+                - generic
+                  - StaticText "$39.99"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/dental-gutta-percha-endodontics-system-endodontic-heated-pen-with-2-tips-oral-care-tools-with-charging-base.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B09SV3NBRT.0.jpg"]
+              - strong
+                - link "Dental Gutta Percha Endodontics System Endodontic Heated Pen with 2 Tips Oral Care Tools with Charging Base" [url="http://127.0.0.1:7770/dental-gutta-percha-endodontics-system-endodontic-heated-pen-with-2-tips-oral-care-tools-with-charging-base.html"]
+                  - StaticText "Dental Gutta Percha Endodontics System Endodontic Heated Pen with 2 Tips Oral Care Tools with Charging Base"
+              - generic
+                - generic
+                  - StaticText "$55.99"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/laja-imports-orringer-cheek-retractor-dental-orthodontic-stainless-steel.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B078GN43ZR.0.jpg"]
+              - strong
+                - link "LAJA IMPORTS ORRINGER Cheek Retractor Dental Orthodontic Stainless Steel" [url="http://127.0.0.1:7770/laja-imports-orringer-cheek-retractor-dental-orthodontic-stainless-steel.html"]
+                  - StaticText "LAJA IMPORTS ORRINGER Cheek Retractor Dental Orthodontic Stainless Steel"
+              - generic
+                - generic
+                  - StaticText "$8.29"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/orthodontic-retainer-case-orthodontic-retainer-container-dustproof-and-waterproof-denture-storage-box-for-orthodontic-retainer-case-blue.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B098R9S7CW.0.jpg"]
+              - strong
+                - link "Orthodontic Retainer Case, Orthodontic Retainer Container Dustproof and Waterproof Denture Storage Box for Orthodontic Retainer Case(blue)" [url="http://127.0.0.1:7770/orthodontic-retainer-case-orthodontic-retainer-container-dustproof-and-waterproof-denture-storage-box-for-orthodontic-retainer-case-blue.html"]
+                  - StaticText "Orthodontic Retainer Case, Orthodontic Retainer Container Dustproof and Waterproof Denture Storage Box for Orthodontic Retainer Case(blue)"
+              - generic
+                - generic
+                  - StaticText "$6.79"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/10-pieces-aligner-chewies-trays-white-aligner-chompers-aligner-trays-seater-chewies-original-scent-dental-chewies.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B083VRKMHM.0.jpg"]
+              - strong
+                - link "10 Pieces Aligner Chewies Trays White Aligner Chompers Aligner Trays Seater Chewies Original Scent Dental Chewies" [url="http://127.0.0.1:7770/10-pieces-aligner-chewies-trays-white-aligner-chompers-aligner-trays-seater-chewies-original-scent-dental-chewies.html"]
+                  - StaticText "10 Pieces Aligner Chewies Trays White Aligner Chompers Aligner Trays Seater Chewies Original Scent Dental Chewies"
+              - generic
+                - generic
+                  - StaticText "$7.49"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/german-dental-elevator-straight-4pc-blue-1-5-2-0-3-0-4-0-orthodontic-instruments-cynamed.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B07C845W5W.0.jpg"]
+              - strong
+                - link "German Dental Elevator Straight 4PC Blue 1.5, 2.0,3.0,4.0 Orthodontic Instruments (CYNAMED)" [url="http://127.0.0.1:7770/german-dental-elevator-straight-4pc-blue-1-5-2-0-3-0-4-0-orthodontic-instruments-cynamed.html"]
+                  - StaticText "German Dental Elevator Straight 4PC Blue 1.5, 2.0,3.0,4.0 Orthodontic Instruments (CYNAMED)"
+              - generic
+                - generic
+                  - StaticText "$18.10"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/boromed-orthodontic-flush-cut-and-hold-distal-end-cutter-germany-tc-insert-long-handle.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B07R2K1CX1.0.jpg"]
+              - strong
+                - link "BOROMED Orthodontic Flush cut and Hold Distal End cutter-Germany TC insert Long Handle" [url="http://127.0.0.1:7770/boromed-orthodontic-flush-cut-and-hold-distal-end-cutter-germany-tc-insert-long-handle.html"]
+                  - StaticText "BOROMED Orthodontic Flush cut and Hold Distal End cutter-Germany TC insert Long Handle"
+              - generic
+                - generic
+                  - StaticText "$49.00"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/gugxiom-dental-orthodontic-treatment-malocclusion-study-teeth-model-with-wire-chain.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B09DYTRPLF.0.jpg"]
+              - strong
+                - link "Gugxiom Dental Orthodontic Treatment Malocclusion Study Teeth Model with Wire Chain" [url="http://127.0.0.1:7770/gugxiom-dental-orthodontic-treatment-malocclusion-study-teeth-model-with-wire-chain.html"]
+                  - StaticText "Gugxiom Dental Orthodontic Treatment Malocclusion Study Teeth Model with Wire Chain"
+              - generic
+                - generic
+                  - StaticText "$32.29"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+        - generic
+          - strong
+            - StaticText "Page"
+          - list "Page"
+            - listitem [level=1]
+              - strong
+                - StaticText "You're currently reading page"
+                - StaticText "1"
+            - listitem [level=1]
+              - link "Page 2" [url="http://127.0.0.1:7770/beauty-personal-care/oral-care/orthodontic-supplies.html?p=2&price=0-100"]
+                - StaticText "Page"
+                - StaticText "2"
+            - listitem [level=1]
+              - link "Page 3" [url="http://127.0.0.1:7770/beauty-personal-care/oral-care/orthodontic-supplies.html?p=3&price=0-100"]
+                - StaticText "Page"
+                - StaticText "3"
+            - listitem [level=1]
+              - link "Page 4" [url="http://127.0.0.1:7770/beauty-personal-care/oral-care/orthodontic-supplies.html?p=4&price=0-100"]
+                - StaticText "Page"
+                - StaticText "4"
+            - listitem [level=1]
+              - link "Page 5" [url="http://127.0.0.1:7770/beauty-personal-care/oral-care/orthodontic-supplies.html?p=5&price=0-100"]
+                - StaticText "Page"
+                - StaticText "5"
+            - listitem [level=1]
+              - link " Page Next" [url="http://127.0.0.1:7770/beauty-personal-care/oral-care/orthodontic-supplies.html?p=2&price=0-100"]
+                - generic
+                  - StaticText ""
+                - StaticText "Page"
+                - StaticText "Next"
+        - generic
+          - strong
+            - StaticText "Shop By"
+        - heading "Now Shopping by" [level=2]
+          - StaticText "Now Shopping by"
+        - list
+          - listitem [level=1]
+            - StaticText "Price"
+            - StaticText ":"
+            - StaticText "$0.00 - $99.99"
+            - link "Remove This Item" [url="http://127.0.0.1:7770/beauty-personal-care/oral-care/orthodontic-supplies.html"]
+              - StaticText "Remove This Item"
+        - generic
+          - link "Clear All" [url="http://127.0.0.1:7770/beauty-personal-care/oral-care/orthodontic-supplies.html"]
+            - StaticText "Clear All"
+        - heading "Shopping Options" [level=2]
+          - StaticText "Shopping Options"
+        - DescriptionList
+          - heading "Price" [level=3]
+            - StaticText "Price"
+          - definition
+            - list
+              - listitem [level=1]
+                - link "$0.00 - $9.99( 166 item )" [url="http://127.0.0.1:7770/beauty-personal-care/oral-care/orthodontic-supplies.html?price=0-10%2C0-100"]
+                  - StaticText "$0.00"
+                  - StaticText "-"
+                  - StaticText "$9.99"
+                  - StaticText "("
+                  - StaticText "166"
+                  - StaticText "item"
+                  - StaticText ")"
+              - listitem [level=1]
+                - link "$10.00 - $19.99( 107 item )" [url="http://127.0.0.1:7770/beauty-personal-care/oral-care/orthodontic-supplies.html?price=10-20%2C0-100"]
+                  - StaticText "$10.00"
+                  - StaticText "-"
+                  - StaticText "$19.99"
+                  - StaticText "("
+                  - StaticText "107"
+                  - StaticText "item"
+                  - StaticText ")"
+              - listitem [level=1]
+                - link "$20.00 - $29.99( 55 item )" [url="http://127.0.0.1:7770/beauty-personal-care/oral-care/orthodontic-supplies.html?price=20-30%2C0-100"]
+                  - StaticText "$20.00"
+                  - StaticText "-"
+                  - StaticText "$29.99"
+                  - StaticText "("
+                  - StaticText "55"
+                  - StaticText "item"
+                  - StaticText ")"
+              - listitem [level=1]
+                - link "$30.00 - $39.99( 22 item )" [url="http://127.0.0.1:7770/beauty-personal-care/oral-care/orthodontic-supplies.html?price=30-40%2C0-100"]
+                  - StaticText "$30.00"
+                  - StaticText "-"
+                  - StaticText "$39.99"
+                  - StaticText "("
+                  - StaticText "22"
+                  - StaticText "item"
+                  - StaticText ")"
+              - listitem [level=1]
+                - link "$40.00 - $49.99( 17 item )" [url="http://127.0.0.1:7770/beauty-personal-care/oral-care/orthodontic-supplies.html?price=40-50%2C0-100"]
+                  - StaticText "$40.00"
+                  - StaticText "-"
+                  - StaticText "$49.99"
+                  - StaticText "("
+                  - StaticText "17"
+                  - StaticText "item"
+                  - StaticText ")"
+              - listitem [level=1]
+                - link "$50.00 - $59.99( 12 item )" [url="http://127.0.0.1:7770/beauty-personal-care/oral-care/orthodontic-supplies.html?price=50-60%2C0-100"]
+                  - StaticText "$50.00"
+                  - StaticText "-"
+                  - StaticText "$59.99"
+                  - StaticText "("
+                  - StaticText "12"
+                  - StaticText "item"
+                  - StaticText ")"
+              - listitem [level=1]
+                - link "$60.00 - $69.99( 2 item )" [url="http://127.0.0.1:7770/beauty-personal-care/oral-care/orthodontic-supplies.html?price=60-70%2C0-100"]
+                  - StaticText "$60.00"
+                  - StaticText "-"
+                  - StaticText "$69.99"
+                  - StaticText "("
+                  - StaticText "2"
+                  - StaticText "item"
+                  - StaticText ")"
+              - listitem [level=1]
+                - link "$70.00 - $79.99( 4 item )" [url="http://127.0.0.1:7770/beauty-personal-care/oral-care/orthodontic-supplies.html?price=70-80%2C0-100"]
+                  - StaticText "$70.00"
+                  - StaticText "-"
+                  - StaticText "$79.99"
+                  - StaticText "("
+                  - StaticText "4"
+                  - StaticText "item"
+                  - StaticText ")"
+              - listitem [level=1]
+                - link "$80.00 - $89.99( 4 item )" [url="http://127.0.0.1:7770/beauty-personal-care/oral-care/orthodontic-supplies.html?price=80-90%2C0-100"]
+                  - StaticText "$80.00"
+                  - StaticText "-"
+                  - StaticText "$89.99"
+                  - StaticText "("
+                  - StaticText "4"
+                  - StaticText "item"
+                  - StaticText ")"
+              - listitem [level=1]
+                - link "$90.00 and above( 6 item )" [url="http://127.0.0.1:7770/beauty-personal-care/oral-care/orthodontic-supplies.html?price=90-100%2C0-100"]
+                  - StaticText "$90.00"
+                  - StaticText "and above"
+                  - StaticText "("
+                  - StaticText "6"
+                  - StaticText "item"
+                  - StaticText ")"
+        - generic
+          - heading "Compare Products" [level=2]
+            - StaticText "Compare Products"
+        - generic
+          - StaticText "You have no items to compare."
+        - generic
+          - heading "My Wish List" [level=2]
+            - StaticText "My Wish List"
+        - generic
+          - StaticText "You have no items in your wish list."
+    - contentinfo
+      - form
+        - generic
+          - generic
+            - StaticText ""
+          - LabelText
+            - StaticText "Sign Up for Our Newsletter:"
+            - textbox "Sign Up for Our Newsletter:"
+              - generic
+        - generic
+          - button "Subscribe"
+            - StaticText "Subscribe"
+      - list
+        - listitem [level=1]
+          - link "Privacy and Cookie Policy" [url="http://127.0.0.1:7770/privacy-policy-cookie-restriction-mode/"]
+            - StaticText "Privacy and Cookie Policy"
+        - listitem [level=1]
+          - link "Search Terms" [url="http://127.0.0.1:7770/search/term/popular/"]
+            - StaticText "Search Terms"
+        - listitem [level=1]
+          - link "Advanced Search" [url="http://127.0.0.1:7770/catalogsearch/advanced/"]
+            - StaticText "Advanced Search"
+        - listitem [level=1]
+          - link "Orders and Returns" [url="http://127.0.0.1:7770/sales/guest/form/"]
+            - StaticText "Orders and Returns"
+        - listitem [level=1]
+          - link "Contact Us" [url="http://127.0.0.1:7770/contact/"]
+            - StaticText "Contact Us"
+      - generic
+        - StaticText "Copyright © 2013-present Magento, Inc. All rights reserved."
+      - generic
+        - StaticText "Help Us Keep Magento Healthy"
+        - StaticText
+        - link "Report All Bugs" [url="http://www.magentocommerce.com/bug-tracking"]
+          - StaticText "Report All Bugs"
+    - generic

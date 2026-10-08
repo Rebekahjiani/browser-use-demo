@@ -1,0 +1,19 @@
+{
+  "ok": true,
+  "profiles": [
+    {
+      "profileId": "5abc7d48-94ca-4b9f-b296-95922e03bdaf",
+      "traceId": "36722f6e-efe3-4e1f-9505-ce293326082f",
+      "pageName": "",
+      "basename": "E42C032F",
+      "status": "running",
+      "targetHint": "",
+      "cdpPort": 9222,
+      "preCaptureDir": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\02-drive\\trace/26_10_08_11_46_19-min/E42C032F_pre",
+      "traceDir": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\02-drive\\trace/26_10_08_11_46_19-min/E42C032F_trace",
+      "title": "One Stop Market",
+      "url": "http://127.0.0.1:7770/",
+      "startedAt": "2026-10-08T03:46:20.456Z"
+    }
+  ]
+}

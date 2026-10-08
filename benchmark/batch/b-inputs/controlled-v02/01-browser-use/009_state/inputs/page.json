@@ -1,0 +1,10 @@
+{
+  "url": "http://127.0.0.1:7770/catalogsearch/result/?q=headphones",
+  "title": "Search results for: 'headphones'",
+  "route": "/catalogsearch/result/",
+  "sources": {
+    "accessibility": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-112904-537744\\snapshots\\00033\\accessibility.json",
+    "sha256_AX": "15e21c0c9bc3bf3b72590110fdb6f513b5044450fa12505a0fd8776c8ae94b6d"
+  },
+  "material_scope": "recorded UI and conservatively associated JSON responses"
+}

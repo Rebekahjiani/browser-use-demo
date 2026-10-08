@@ -1,0 +1,292 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - link "Skip to Content" [ref=e4] [cursor=pointer]:
+      - /url: "#contentarea"
+    - generic [ref=e5]:
+      - generic [ref=e6] [cursor=pointer]:
+        - text: 
+        - generic [ref=e7]: Toggle Nav
+      - link "store logo" [ref=e8] [cursor=pointer]:
+        - /url: http://127.0.0.1:7770/
+        - img "one_stop_market_logo" [ref=e9]
+      - generic [ref=e10]:
+        - link " My Cart" [ref=e11] [cursor=pointer]:
+          - /url: http://127.0.0.1:7770/checkout/cart/
+          - text: 
+          - generic [ref=e12]: My Cart
+        - text: 
+      - generic [ref=e16]:
+        - generic [ref=e17]:
+          - text: 
+          - generic [ref=e18]: Search
+        - combobox " Search" [ref=e20]
+  - tablist [ref=e22]:
+    - tab "Menu" [expanded] [ref=e23]:
+      - link "Menu" [ref=e24] [cursor=pointer]:
+        - /url: "#store.menu"
+    - tabpanel [ref=e25]:
+      - navigation [ref=e26]:
+        - menu [ref=e27]:
+          - listitem [ref=e28]:
+            - menuitem "Beauty & Personal Care " [ref=e29] [cursor=pointer]: Beauty & Personal Care 
+          - listitem [ref=e30]:
+            - menuitem "Sports & Outdoors " [ref=e31] [cursor=pointer]: Sports & Outdoors 
+          - listitem [ref=e32]:
+            - menuitem "Clothing, Shoes & Jewelry " [ref=e33] [cursor=pointer]: Clothing, Shoes & Jewelry 
+          - listitem [ref=e34]:
+            - menuitem "Home & Kitchen " [ref=e35] [cursor=pointer]: Home & Kitchen 
+          - listitem [ref=e36]:
+            - menuitem "Office Products " [ref=e37] [cursor=pointer]: Office Products 
+          - listitem [ref=e38]:
+            - menuitem "Tools & Home Improvement " [ref=e39] [cursor=pointer]: Tools & Home Improvement 
+          - listitem [ref=e40]:
+            - menuitem "Health & Household " [ref=e41] [cursor=pointer]: Health & Household 
+          - listitem [ref=e42]:
+            - menuitem "Patio, Lawn & Garden " [ref=e43] [cursor=pointer]: Patio, Lawn & Garden 
+          - listitem [ref=e44]:
+            - menuitem "Electronics " [ref=e45] [cursor=pointer]: Electronics 
+          - listitem [ref=e46]:
+            - menuitem "Cell Phones & Accessories " [ref=e47] [cursor=pointer]: Cell Phones & Accessories 
+          - listitem [ref=e48]:
+            - menuitem "Video Games " [ref=e49] [cursor=pointer]: Video Games 
+          - listitem [ref=e50]:
+            - menuitem "Grocery & Gourmet Food " [ref=e51] [cursor=pointer]: Grocery & Gourmet Food 
+    - tab "Account" [ref=e52]:
+      - link "Account" [ref=e53] [cursor=pointer]:
+        - /url: "#store.links"
+  - list [ref=e55]:
+    - listitem [ref=e56]:
+      - link "Home" [ref=e57] [cursor=pointer]:
+        - /url: http://127.0.0.1:7770/
+      - text: 
+    - listitem [ref=e58]:
+      - strong [ref=e59]: XZP 4 Pack Larger Thicker Rapid Hair Wrap Towels Drying Women Long Thick Curly Hair Magic Instant Dry Hair Towel Caps Anti Frizz Fast Drying Microfiber Turban Wet Hair Wrap Towels Quick Drying
+  - main [ref=e60]:
+    - heading "XZP 4 Pack Larger Thicker Rapid Hair Wrap Towels Drying Women Long Thick Curly Hair Magic Instant Dry Hair Towel Caps Anti Frizz Fast Drying Microfiber Turban Wet Hair Wrap Towels Quick Drying" [level=1] [ref=e62]
+    - generic [ref=e64]:
+      - generic [ref=e65]:
+        - generic [ref=e66]:
+          - generic [ref=e67]:
+            - generic "Availability" [ref=e68]: In stock
+            - generic [ref=e69]:
+              - strong [ref=e70]: SKU
+              - generic [ref=e71]: B08LV1LR8C
+          - link "Be the first to review this product" [ref=e74] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/xzp-4-pack-larger-thicker-rapid-hair-wrap-towels-drying-women-long-thick-curly-hair-magic-instant-dry-hair-towel-caps-anti-frizz-fast-drying-microfiber-turban-wet-hair-wrap-towels-quick-drying.html#review-form
+          - generic [ref=e77]: $19.99
+        - generic [ref=e79]:
+          - generic [ref=e82]:
+            - generic [ref=e83]: Color *
+            - generic [ref=e85]:
+              - generic [ref=e86]:
+                - radio "3 Colors of Hair Quick Drying Towels" [ref=e87]
+                - generic [ref=e88]: 3 Colors of Hair Quick Drying Towels
+              - generic [ref=e89]:
+                - radio "4 Colors of Rapid Drying Hair Towel" [ref=e90]
+                - generic [ref=e91]: 4 Colors of Rapid Drying Hair Towel
+              - generic [ref=e92]:
+                - radio "Hair Quick Drying Towels" [ref=e93]
+                - generic [ref=e94]: Hair Quick Drying Towels
+              - generic [ref=e95]:
+                - radio "Rapid Drying Hair Towel" [ref=e96]
+                - generic [ref=e97]: Rapid Drying Hair Towel
+          - generic [ref=e100]:
+            - generic [ref=e101]:
+              - generic [ref=e102]: Qty
+              - spinbutton "Qty" [ref=e104]: "1"
+            - button "Add to Cart" [ref=e106] [cursor=pointer]
+        - link "Add to Wish List" [ref=e109] [cursor=pointer]:
+          - /url: "#"
+      - generic [ref=e110]:
+        - link "Skip to the end of the images gallery" [ref=e111] [cursor=pointer]:
+          - /url: "#gallery-next-area"
+        - generic [ref=e114]:
+          - generic [ref=e115]:
+            - button "Previous" [ref=e116] [cursor=pointer]
+            - generic [ref=e118]:
+              - img "Image" [ref=e120]
+              - img [ref=e122]
+            - button "Next"
+          - generic [ref=e125]:
+            - button "Image" [ref=e126]
+            - button "Image" [ref=e128]
+        - link "Skip to the beginning of the images gallery" [ref=e130] [cursor=pointer]:
+          - /url: "#gallery-prev-area"
+      - tablist [ref=e132]:
+        - tab "Details" [expanded] [ref=e133]:
+          - link "Details" [ref=e134] [cursor=pointer]:
+            - /url: "#description"
+        - tabpanel "Details" [ref=e135]:
+          - generic [ref=e137]:
+            - generic [ref=e139]:
+              - separator [ref=e140]
+              - heading "Product Description" [level=2] [ref=e141]
+              - generic [ref=e142]:
+                - generic [ref=e144]:
+                  - img "Rapid Drying Hair Towel For Long Hair" [ref=e145]
+                  - heading "Fast Drying Towel for Hair Wrap Turban" [level=3] [ref=e146]
+                  - paragraph [ref=e147]: Soft microfiber
+                  - paragraph [ref=e148]: Double side coral fleece
+                  - paragraph [ref=e149]: Comfrotable and Durable
+                  - paragraph [ref=e150]: Strong absorbent
+                  - paragraph [ref=e151]: Light and portable
+                  - paragraph [ref=e152]: No Fading and machine washing
+                  - paragraph [ref=e153]: Popular for curly hair/thick hair/fine hair/thin hair/short hair/long hair
+                - generic [ref=e158]:
+                  - img "multied colors hair drying towels for women and girls" [ref=e159]
+                  - generic [ref=e160]:
+                    - heading "Multicolors Hair Wrap Towel Instant Dring for Women" [level=3] [ref=e161]
+                    - paragraph [ref=e162]: Quick hair dry assistant,strong absorb mostly water from wet hair,save yor time by hair blow dryer.Turban Wrap well with button after head shower,won't fall off.Antifrizzy for curly hair.
+                - generic [ref=e164]:
+                  - img "Rapid Drying Hair Towel For Long Hair" [ref=e165]
+                  - heading "Colorful towel quick dry hair" [level=3] [ref=e166]
+                  - paragraph [ref=e167]: Grey
+                  - paragraph [ref=e168]: Green
+                  - paragraph [ref=e169]: Lavender
+                  - paragraph [ref=e170]: Rose Pink
+                  - paragraph [ref=e171]: Many color options for your choice
+                - generic [ref=e173]:
+                  - heading "Water Absorption test of 850ml water for rapid drying hair towel 10 minutes" [level=3] [ref=e174]
+                  - img "Rapid Drying Hair Towel For Long Hair" [ref=e175]
+                  - heading "Microfiber hair turban wrap drying towel" [level=3] [ref=e176]
+                  - paragraph [ref=e177]: magic instant absorbent,fast drying
+                - table [ref=e183]:
+                  - rowgroup [ref=e184]:
+                    - row "Rapid Drying Hair Towel for Long Hair Rapid Drying Hair Towel for Long Hair Rapid Drying Hair Towel for Long Hair" [ref=e185]:
+                      - columnheader "Rapid Drying Hair Towel for Long Hair" [ref=e186]:
+                        - paragraph [ref=e188]:
+                          - img "Rapid Drying Hair Towel for Long Hair" [ref=e189]
+                      - columnheader "Rapid Drying Hair Towel for Long Hair" [ref=e190]:
+                        - paragraph [ref=e192]:
+                          - img "Rapid Drying Hair Towel for Long Hair" [ref=e193]
+                      - columnheader "Rapid Drying Hair Towel for Long Hair" [ref=e194]:
+                        - paragraph [ref=e196]:
+                          - img "Rapid Drying Hair Towel for Long Hair" [ref=e197]
+                    - row "Makeup or facial mask time The rapid drying hair towel will holding your hair well when you do makeup or facial mask Face washing helper When you do face washing, the wrap turbans will help you much Sleeping time assistant Wrap your hair well, anti-frizze,and won't ploping,especially for curly hair" [ref=e198]:
+                      - cell "Makeup or facial mask time The rapid drying hair towel will holding your hair well when you do makeup or facial mask" [ref=e199]:
+                        - generic [ref=e200]:
+                          - heading "Makeup or facial mask time" [level=4] [ref=e201]
+                          - paragraph [ref=e202]: The rapid drying hair towel will holding your hair well when you do makeup or facial mask
+                      - cell "Face washing helper When you do face washing, the wrap turbans will help you much" [ref=e203]:
+                        - generic [ref=e204]:
+                          - heading "Face washing helper" [level=4] [ref=e205]
+                          - paragraph [ref=e206]: When you do face washing, the wrap turbans will help you much
+                      - cell "Sleeping time assistant Wrap your hair well, anti-frizze,and won't ploping,especially for curly hair" [ref=e207]:
+                        - generic [ref=e208]:
+                          - heading "Sleeping time assistant" [level=4] [ref=e209]
+                          - paragraph [ref=e210]: Wrap your hair well, anti-frizze,and won't ploping,especially for curly hair
+                - generic [ref=e215]:
+                  - heading "Material Details" [level=3] [ref=e216]
+                  - table [ref=e217]:
+                    - rowgroup [ref=e218]:
+                      - row "Rapid Drying Hair Towel For Long Hair Rapid Drying Hair Towel For Long Hair Rapid Drying Hair Towel For Long Hair" [ref=e219]:
+                        - columnheader "Rapid Drying Hair Towel For Long Hair" [ref=e220]:
+                          - paragraph [ref=e222]:
+                            - img "Rapid Drying Hair Towel For Long Hair" [ref=e223]
+                        - columnheader "Rapid Drying Hair Towel For Long Hair" [ref=e224]:
+                          - paragraph [ref=e226]:
+                            - img "Rapid Drying Hair Towel For Long Hair" [ref=e227]
+                        - columnheader "Rapid Drying Hair Towel For Long Hair" [ref=e228]:
+                          - paragraph [ref=e230]:
+                            - img "Rapid Drying Hair Towel For Long Hair" [ref=e231]
+                      - row "Friendly to Hair： Those microfiber quick drying hair towels wrap do less friction on hair, helps to prevent breakage, split ends and less frizz. Our unique microfiber technology dries your hair quicker and absorbs moisture very fast. leaving your hair light airy and smooth while still slightly damp. blow dry in less time with better results. Fine Double Thread Lock Design： The edge of the hair towel is sewn with double rows of threads, which is very durable. Button and Loop Design： A button and loop is designed for easily and conveniently fixing the quick drying hair towel on your head. Do not worry the fast hair dry towel for women will loose anytime." [ref=e232]:
+                        - cell "Friendly to Hair： Those microfiber quick drying hair towels wrap do less friction on hair, helps to prevent breakage, split ends and less frizz. Our unique microfiber technology dries your hair quicker and absorbs moisture very fast. leaving your hair light airy and smooth while still slightly damp. blow dry in less time with better results." [ref=e233]:
+                          - generic [ref=e234]:
+                            - heading "Friendly to Hair：" [level=4] [ref=e235]
+                            - paragraph [ref=e236]: Those microfiber quick drying hair towels wrap do less friction on hair, helps to prevent breakage, split ends and less frizz. Our unique microfiber technology dries your hair quicker and absorbs moisture very fast. leaving your hair light airy and smooth while still slightly damp. blow dry in less time with better results.
+                        - cell "Fine Double Thread Lock Design： The edge of the hair towel is sewn with double rows of threads, which is very durable." [ref=e237]:
+                          - generic [ref=e238]:
+                            - heading "Fine Double Thread Lock Design：" [level=4] [ref=e239]
+                            - paragraph [ref=e240]: The edge of the hair towel is sewn with double rows of threads, which is very durable.
+                        - cell "Button and Loop Design： A button and loop is designed for easily and conveniently fixing the quick drying hair towel on your head. Do not worry the fast hair dry towel for women will loose anytime." [ref=e241]:
+                          - generic [ref=e242]:
+                            - heading "Button and Loop Design：" [level=4] [ref=e243]
+                            - paragraph [ref=e244]: A button and loop is designed for easily and conveniently fixing the quick drying hair towel on your head. Do not worry the fast hair dry towel for women will loose anytime.
+                - generic [ref=e249]:
+                  - heading "Popular use in your daily" [level=3] [ref=e250]
+                  - table [ref=e251]:
+                    - rowgroup [ref=e252]:
+                      - row "gray hair wrap towel rapid drying hair Purple Hair dry wrap turban Hair towel wrap frizzy free in sleep time" [ref=e253]:
+                        - columnheader "gray hair wrap towel rapid drying hair" [ref=e254]:
+                          - paragraph [ref=e256]:
+                            - img "gray hair wrap towel rapid drying hair" [ref=e257]
+                        - columnheader "Purple Hair dry wrap turban" [ref=e258]:
+                          - paragraph [ref=e260]:
+                            - img "Purple Hair dry wrap turban" [ref=e261]
+                        - columnheader "Hair towel wrap frizzy free in sleep time" [ref=e262]:
+                          - paragraph [ref=e264]:
+                            - img "Hair towel wrap frizzy free in sleep time" [ref=e265]
+                      - row "Grey hair towel in makeup time This dry hair cap can make your makeup time amazing and easy. Enjoying your perfume with the light hair wrap Locked by white resin button, the towel wrap stand you hair well Anti-frizzed Hair towel protect your hair well in sleeping This good microfiber towel for hair can protect your hair well, no frizzy, no break,no ploping" [ref=e266]:
+                        - cell "Grey hair towel in makeup time This dry hair cap can make your makeup time amazing and easy." [ref=e267]:
+                          - generic [ref=e268]:
+                            - heading "Grey hair towel in makeup time" [level=4] [ref=e269]
+                            - paragraph [ref=e270]: This dry hair cap can make your makeup time amazing and easy.
+                        - cell "Enjoying your perfume with the light hair wrap Locked by white resin button, the towel wrap stand you hair well" [ref=e271]:
+                          - generic [ref=e272]:
+                            - heading "Enjoying your perfume with the light hair wrap" [level=4] [ref=e273]
+                            - paragraph [ref=e274]: Locked by white resin button, the towel wrap stand you hair well
+                        - cell "Anti-frizzed Hair towel protect your hair well in sleeping This good microfiber towel for hair can protect your hair well, no frizzy, no break,no ploping" [ref=e275]:
+                          - generic [ref=e276]:
+                            - heading "Anti-frizzed Hair towel protect your hair well in sleeping" [level=4] [ref=e277]
+                            - paragraph [ref=e278]: This good microfiber towel for hair can protect your hair well, no frizzy, no break,no ploping
+            - generic [ref=e279]:
+              - heading "Product Quick Look" [level=2] [ref=e280]
+              - generic [ref=e281]:
+                - list [ref=e283]:
+                  - listitem [ref=e284]: 【Fast Drying Hair Towel and Super Water-Absorbent】hair towel wrap is made of comfortable microfibers, which has super absorbent and light weight.Anti frizz hair towel,This soft micro fibre turban is a uniquely, fast way of drying your hair naturally, far away from hair dryer.no damaging to your hair
+                  - listitem [ref=e285]: "【Thickened Towel to Dry Hair Fast】You will receive 4 thicker magic instant dry hair towels in different colors. Size: 27 \"x 10.5\" (68.5cm x 26.7cm), weight of each dry hair towel for women is about 153g.These hair turbans are large enough for long thiar or thick hair"
+                  - listitem [ref=e286]: 【Durable Twist hair wrap】The edge of the rapid drying hair towel is piping by the soft cotton fabric, which greatly increases the service life of the towel. Use it day after day and wash it hundreds of times without wearing out or losing any function.no shrink or color fading
+                  - listitem [ref=e287]: 【Easy to Use Extra Large Hair Towel】After taking a bath or shower, put the rapid drying towel on your hair and twist it into a turban like an ordinary towel. Then hook the loop on the button to lock into position.This rapid drying hair towel for long hair will greatly save the hair drying time.
+                  - listitem [ref=e288]: 【Wide Application Quick Drying Hair Towels】Quickly Magic instant dry hair towels fit all hair types and lengths. From long, short, curly, flat, voluminous or dyed to super straight, fine strands, coarse and kinky locks.Fast drying microfiber hair towels are ideal for everyday use at home, at the gym and travel, it is a great assistant in facial, bath, makeup, face Wash. It is also a wonderful Christmas gift choice
+                - table [ref=e290]:
+                  - rowgroup [ref=e291]:
+                    - row "Package Dimensions 12.44 x 9.72 x 2.99 inches" [ref=e292]:
+                      - rowheader "Package Dimensions" [ref=e293]
+                      - cell "12.44 x 9.72 x 2.99 inches" [ref=e294]
+                    - row "Item Weight 1.41 pounds" [ref=e295]:
+                      - rowheader "Item Weight" [ref=e296]
+                      - cell "1.41 pounds" [ref=e297]
+                    - row "Manufacturer XZP" [ref=e298]:
+                      - rowheader "Manufacturer" [ref=e299]
+                      - cell "XZP" [ref=e300]
+                    - row "Country of Origin Tajikistan" [ref=e301]:
+                      - rowheader "Country of Origin" [ref=e302]
+                      - cell "Tajikistan" [ref=e303]
+                    - row "Date First Available October 30, 2020" [ref=e304]:
+                      - rowheader "Date First Available" [ref=e305]
+                      - cell "October 30, 2020" [ref=e306]
+        - tab "Reviews" [ref=e307]:
+          - link "Reviews" [ref=e308] [cursor=pointer]:
+            - /url: "#reviews"
+        - text: "*       * * *"
+  - contentinfo [ref=e309]:
+    - generic [ref=e310]:
+      - generic [ref=e313]:
+        - generic [ref=e315]:
+          - text: 
+          - generic [ref=e316]:
+            - generic [ref=e317]: "Sign Up for Our Newsletter:"
+            - textbox "Sign Up for Our Newsletter:" [ref=e318]:
+              - /placeholder: Enter your email address
+        - button "Subscribe" [ref=e320] [cursor=pointer]
+      - list [ref=e321]:
+        - listitem [ref=e322]:
+          - link "Privacy and Cookie Policy" [ref=e323] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/privacy-policy-cookie-restriction-mode/
+        - listitem [ref=e324]:
+          - link "Search Terms" [ref=e325] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/search/term/popular/
+        - listitem [ref=e326]:
+          - link "Advanced Search" [ref=e327] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/catalogsearch/advanced/
+        - listitem [ref=e328]:
+          - link "Orders and Returns" [ref=e329] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/sales/guest/form/
+        - listitem [ref=e330]:
+          - link "Contact Us" [ref=e331] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/contact/
+      - generic [ref=e332]: Copyright © 2013-present Magento, Inc. All rights reserved.
+      - generic [ref=e333]:
+        - text: Help Us Keep Magento Healthy
+        - link "Report All Bugs" [ref=e334] [cursor=pointer]:
+          - /url: http://www.magentocommerce.com/bug-tracking

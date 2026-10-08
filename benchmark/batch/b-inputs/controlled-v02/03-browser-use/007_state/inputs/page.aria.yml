@@ -1,0 +1,252 @@
+- RootWebArea "Sugoi 80X100 Mini Portable Monocular Handheld Telescope BAK4 Prism FMC, Waterproof Shockproof Scope for Birds Animals Watching Hunting Camping Travelling Scenery" [url="http://127.0.0.1:7770/sugoi-80x100-mini-portable-monocular-handheld-telescope-bak4-prism-fmc-waterproof-shockproof-scope-for-birds-animals-watching-hunting-camping-travelling-scenery.html"]
+  - generic
+    - banner
+      - generic
+        - link "Skip to Content" [url="http://127.0.0.1:7770/sugoi-80x100-mini-portable-monocular-handheld-telescope-bak4-prism-fmc-waterproof-shockproof-scope-for-birds-animals-watching-hunting-camping-travelling-scenery.html#contentarea"]
+          - StaticText "Skip to Content"
+      - generic
+        - generic
+          - generic
+            - StaticText ""
+          - StaticText "Toggle Nav"
+        - link "store logo" [url="http://127.0.0.1:7770/"]
+          - image "one_stop_market_logo" [url="http://127.0.0.1:7770/media/logo/websites/1/image_15__1.png"]
+        - generic
+          - link " My Cart" [url="http://127.0.0.1:7770/checkout/cart/"]
+            - generic
+              - StaticText ""
+            - StaticText "My Cart"
+        - form
+          - LabelText
+            - generic
+              - StaticText ""
+            - StaticText "Search"
+          - generic
+            - combobox " Search" [expanded=false]
+              - generic
+    - generic
+      - tablist
+        - tab "Menu" [selected=false] [expanded=true]
+          - link "Menu" [url="http://127.0.0.1:7770/sugoi-80x100-mini-portable-monocular-handheld-telescope-bak4-prism-fmc-waterproof-shockproof-scope-for-birds-animals-watching-hunting-camping-travelling-scenery.html#store.menu"]
+            - StaticText "Menu"
+        - tabpanel
+          - navigation
+            - menu
+              - menuitem "BEAUTY & PERSONAL CARE "
+                - StaticText "BEAUTY & PERSONAL CARE"
+                - generic
+                  - StaticText ""
+              - menuitem "SPORTS & OUTDOORS "
+                - StaticText "SPORTS & OUTDOORS"
+                - generic
+                  - StaticText ""
+              - menuitem "CLOTHING, SHOES & JEWELRY "
+                - StaticText "CLOTHING, SHOES & JEWELRY"
+                - generic
+                  - StaticText ""
+              - menuitem "HOME & KITCHEN "
+                - StaticText "HOME & KITCHEN"
+                - generic
+                  - StaticText ""
+              - menuitem "OFFICE PRODUCTS "
+                - StaticText "OFFICE PRODUCTS"
+                - generic
+                  - StaticText ""
+              - menuitem "TOOLS & HOME IMPROVEMENT "
+                - StaticText "TOOLS & HOME IMPROVEMENT"
+                - generic
+                  - StaticText ""
+              - menuitem "HEALTH & HOUSEHOLD "
+                - StaticText "HEALTH & HOUSEHOLD"
+                - generic
+                  - StaticText ""
+              - menuitem "PATIO, LAWN & GARDEN "
+                - StaticText "PATIO, LAWN & GARDEN"
+                - generic
+                  - StaticText ""
+              - menuitem "ELECTRONICS "
+                - StaticText "ELECTRONICS"
+                - generic
+                  - StaticText ""
+              - menuitem "CELL PHONES & ACCESSORIES "
+                - StaticText "CELL PHONES & ACCESSORIES"
+                - generic
+                  - StaticText ""
+              - menuitem "VIDEO GAMES "
+                - StaticText "VIDEO GAMES"
+                - generic
+                  - StaticText ""
+              - menuitem "GROCERY & GOURMET FOOD "
+                - StaticText "GROCERY & GOURMET FOOD"
+                - generic
+                  - StaticText ""
+        - tab "Account" [selected=false] [expanded=false]
+          - link "Account" [url="http://127.0.0.1:7770/sugoi-80x100-mini-portable-monocular-handheld-telescope-bak4-prism-fmc-waterproof-shockproof-scope-for-birds-animals-watching-hunting-camping-travelling-scenery.html#store.links"]
+            - StaticText "Account"
+    - list
+      - listitem [level=1]
+        - link "Home" [url="http://127.0.0.1:7770/"]
+          - StaticText "Home"
+        - generic
+          - StaticText ""
+      - listitem [level=1]
+        - link "Electronics" [url="http://127.0.0.1:7770/electronics.html"]
+          - StaticText "Electronics"
+        - generic
+          - StaticText ""
+      - listitem [level=1]
+        - strong
+          - StaticText "Sugoi 80X100 Mini Portable Monocular Handheld Telescope BAK4 Prism FMC, Waterproof Shockproof Scope for Birds Animals Watching Hunting Camping Travelling Scenery"
+    - main
+      - generic
+      - heading "Sugoi 80X100 Mini Portable Monocular Handheld Telescope BAK4 Prism FMC, Waterproof Shockproof Scope for Birds Animals Watching Hunting Camping Travelling Scenery" [level=1]
+        - StaticText "Sugoi 80X100 Mini Portable Monocular Handheld Telescope BAK4 Prism FMC, Waterproof Shockproof Scope for Birds Animals Watching Hunting Camping Travelling Scenery"
+      - generic
+        - generic
+          - StaticText "IN STOCK"
+        - generic
+          - strong
+            - StaticText "SKU"
+          - generic
+            - StaticText "B09CHJPH5D"
+      - LayoutTable
+        - generic
+          - link "Be the first to review this product" [url="http://127.0.0.1:7770/sugoi-80x100-mini-portable-monocular-handheld-telescope-bak4-prism-fmc-waterproof-shockproof-scope-for-birds-animals-watching-hunting-camping-travelling-scenery.html#review-form"]
+            - StaticText "Be the first to review this product"
+      - generic
+        - generic
+          - StaticText "$0.01"
+      - form
+        - LabelText
+          - StaticText "Qty"
+        - generic
+          - spinbutton "Qty" [value=1]
+            - generic
+              - StaticText "1"
+        - button "Add to Cart"
+          - StaticText "Add to Cart"
+        - generic
+      - generic
+        - link "Add to Wish List" [url="http://127.0.0.1:7770/sugoi-80x100-mini-portable-monocular-handheld-telescope-bak4-prism-fmc-waterproof-shockproof-scope-for-birds-animals-watching-hunting-camping-travelling-scenery.html#"]
+          - StaticText "Add to Wish List"
+      - generic
+      - generic
+        - link "Skip to the end of the images gallery" [url="http://127.0.0.1:7770/sugoi-80x100-mini-portable-monocular-handheld-telescope-bak4-prism-fmc-waterproof-shockproof-scope-for-birds-animals-watching-hunting-camping-travelling-scenery.html#gallery-next-area"]
+          - StaticText "Skip to the end of the images gallery"
+      - generic
+        - generic
+        - generic
+        - generic
+          - generic
+            - button "Previous"
+              - generic
+            - generic
+              - generic
+                - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/829a59e57f886f8cf0598ffca4f8a940/B/0/B09CHJPH5D.1.jpg"]
+            - button "Next"
+              - generic
+          - generic
+            - generic
+              - button "Image"
+                - generic
+              - button "Image"
+                - generic
+        - generic
+      - generic
+        - link "Skip to the beginning of the images gallery" [url="http://127.0.0.1:7770/sugoi-80x100-mini-portable-monocular-handheld-telescope-bak4-prism-fmc-waterproof-shockproof-scope-for-birds-animals-watching-hunting-camping-travelling-scenery.html#gallery-prev-area"]
+          - StaticText "Skip to the beginning of the images gallery"
+      - generic
+      - tablist
+        - tab "Details" [selected=false] [expanded=true]
+          - link "Details" [url="http://127.0.0.1:7770/sugoi-80x100-mini-portable-monocular-handheld-telescope-bak4-prism-fmc-waterproof-shockproof-scope-for-birds-animals-watching-hunting-camping-travelling-scenery.html#description"]
+            - StaticText "Details"
+        - tabpanel "Details"
+          - generic
+            - generic
+          - generic
+          - generic
+          - generic
+            - generic
+          - generic
+            - heading "Product Quick Look" [level=2]
+              - StaticText "Product Quick Look"
+            - generic
+              - list
+                - listitem [level=1]
+                  - ListMarker "•"
+                  - StaticText "Do not want to carry a cumbersome telescope while wandering in beautiful nature? Single Hand Focus Monocular Telescope, Lightweight(0.61 pounds, only about 2 battery(D)) makes it more comfortable to use with only one hand, both hold and adjust focus. Also, the durable rubber armor with stripes offers a slip-free grip, avoid thosee unnecessary acciden"
+                - listitem [level=1]
+                  - ListMarker "•"
+                  - StaticText "80X100 High Power Magnification Monocular Telescope- Have the best view in your outdoor adventures. To see 12X closer with a clear and bright image with the generous, light-gathering 50mm objective wide lens. Perfect for Hiking,Hunting,Climbing,Birdwatching, Ball games,Watching Wildlife and Scenery."
+                - listitem [level=1]
+                  - ListMarker "•"
+                  - StaticText "Comes with a Gosky 2020 newest quick alignment smartphone adapter mount.Compatible with smartphone 12Pro Max, 12 Pro, 12, 12mini, 11Pro Max, 11 Pro,11, SE, Xs,Xr, X, 8 plus, 8, 7plus,7, 6plus, 6,5s,5, 4s, Samsung M30, S20, S20+,S20FE, S10, S10+, S10E, S8, S7, S6, S5, S4, Note20, Note20 Ultra, Note, A51,A71,A70, LG, HTV, Sony, and much more."
+                - listitem [level=1]
+                  - ListMarker "•"
+                  - StaticText "Large BAK4 Prism inside and Fully Multi-coated(FMC) Lens Coating - s, light transmittance reaches up to 99.5%, delivers more light to the view, reduces chromatic aberration and ghost images, give you clearer, brighter and more colorful view."
+                - listitem [level=1]
+                  - ListMarker "•"
+                  - StaticText "Solid Framework and shock-absorbing Rubber Armor with Stripes -Its tight fitting protection makes it usable to withstand the toughest weather conditions. And The rubber armor with stripes makes it comfortable for use and keeps it from slipping out from your hand."
+                - listitem [level=1]
+                  - ListMarker "•"
+                  - StaticText "Waterproof, Dust-proof, and Shockproof Design: Nitrogen-filled waterproof and O-ring sealed optics prevent moisture, dust and debris and ensures the living waterproof function."
+            - table
+              - row
+                - rowheader "Item Weight"
+                  - StaticText "Item Weight"
+                - cell "9.8 ounces"
+                  - StaticText "9.8 ounces"
+              - row
+                - rowheader "Item model number"
+                  - StaticText "Item model number"
+                - cell "SG-MO2"
+                  - StaticText "SG-MO2"
+              - row
+                - rowheader "Date First Available"
+                  - StaticText "Date First Available"
+                - cell "August 12, 2021"
+                  - StaticText "August 12, 2021"
+              - row
+                - rowheader "Manufacturer"
+                  - StaticText "Manufacturer"
+                - cell "Kakawaii"
+                  - StaticText "Kakawaii"
+        - tab "Reviews" [selected=false] [expanded=false]
+          - link "Reviews" [url="http://127.0.0.1:7770/sugoi-80x100-mini-portable-monocular-handheld-telescope-bak4-prism-fmc-waterproof-shockproof-scope-for-birds-animals-watching-hunting-camping-travelling-scenery.html#reviews"]
+            - StaticText "Reviews"
+    - contentinfo
+      - form
+        - generic
+          - generic
+            - StaticText ""
+          - LabelText
+            - StaticText "Sign Up for Our Newsletter:"
+            - textbox "Sign Up for Our Newsletter:"
+              - generic
+        - generic
+          - button "Subscribe"
+            - StaticText "Subscribe"
+      - list
+        - listitem [level=1]
+          - link "Privacy and Cookie Policy" [url="http://127.0.0.1:7770/privacy-policy-cookie-restriction-mode/"]
+            - StaticText "Privacy and Cookie Policy"
+        - listitem [level=1]
+          - link "Search Terms" [url="http://127.0.0.1:7770/search/term/popular/"]
+            - StaticText "Search Terms"
+        - listitem [level=1]
+          - link "Advanced Search" [url="http://127.0.0.1:7770/catalogsearch/advanced/"]
+            - StaticText "Advanced Search"
+        - listitem [level=1]
+          - link "Orders and Returns" [url="http://127.0.0.1:7770/sales/guest/form/"]
+            - StaticText "Orders and Returns"
+        - listitem [level=1]
+          - link "Contact Us" [url="http://127.0.0.1:7770/contact/"]
+            - StaticText "Contact Us"
+      - generic
+        - StaticText "Copyright © 2013-present Magento, Inc. All rights reserved."
+      - generic
+        - StaticText "Help Us Keep Magento Healthy"
+        - StaticText
+        - link "Report All Bugs" [url="http://www.magentocommerce.com/bug-tracking"]
+          - StaticText "Report All Bugs"
+    - generic

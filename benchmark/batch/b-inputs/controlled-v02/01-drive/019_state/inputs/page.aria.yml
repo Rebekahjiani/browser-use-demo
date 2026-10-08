@@ -1,0 +1,519 @@
+- RootWebArea "Teeth Whitening - Oral Care - Beauty & Personal Care" [url="http://127.0.0.1:7770/beauty-personal-care/oral-care/teeth-whitening.html"]
+  - generic
+    - banner
+      - generic
+        - link "Skip to Content" [url="http://127.0.0.1:7770/beauty-personal-care/oral-care/teeth-whitening.html#contentarea"]
+          - StaticText "Skip to Content"
+      - generic
+        - generic
+          - generic
+            - StaticText ""
+          - StaticText "Toggle Nav"
+        - link "store logo" [url="http://127.0.0.1:7770/"]
+          - image "one_stop_market_logo" [url="http://127.0.0.1:7770/media/logo/websites/1/image_15__1.png"]
+        - generic
+          - link " My Cart" [url="http://127.0.0.1:7770/checkout/cart/"]
+            - generic
+              - StaticText ""
+            - StaticText "My Cart"
+        - form
+          - LabelText
+            - generic
+              - StaticText ""
+            - StaticText "Search"
+          - generic
+            - combobox " Search" [expanded=false]
+              - generic
+    - generic
+      - tablist
+        - tab "Menu" [selected=false] [expanded=true]
+          - link "Menu" [url="http://127.0.0.1:7770/beauty-personal-care/oral-care/teeth-whitening.html#store.menu"]
+            - StaticText "Menu"
+        - tabpanel
+          - navigation
+            - menu
+              - menuitem "BEAUTY & PERSONAL CARE "
+                - StaticText "BEAUTY & PERSONAL CARE"
+                - generic
+                  - StaticText ""
+              - menuitem "SPORTS & OUTDOORS "
+                - StaticText "SPORTS & OUTDOORS"
+                - generic
+                  - StaticText ""
+              - menuitem "CLOTHING, SHOES & JEWELRY "
+                - StaticText "CLOTHING, SHOES & JEWELRY"
+                - generic
+                  - StaticText ""
+              - menuitem "HOME & KITCHEN "
+                - StaticText "HOME & KITCHEN"
+                - generic
+                  - StaticText ""
+              - menuitem "OFFICE PRODUCTS "
+                - StaticText "OFFICE PRODUCTS"
+                - generic
+                  - StaticText ""
+              - menuitem "TOOLS & HOME IMPROVEMENT "
+                - StaticText "TOOLS & HOME IMPROVEMENT"
+                - generic
+                  - StaticText ""
+              - menuitem "HEALTH & HOUSEHOLD "
+                - StaticText "HEALTH & HOUSEHOLD"
+                - generic
+                  - StaticText ""
+              - menuitem "PATIO, LAWN & GARDEN "
+                - StaticText "PATIO, LAWN & GARDEN"
+                - generic
+                  - StaticText ""
+              - menuitem "ELECTRONICS "
+                - StaticText "ELECTRONICS"
+                - generic
+                  - StaticText ""
+              - menuitem "CELL PHONES & ACCESSORIES "
+                - StaticText "CELL PHONES & ACCESSORIES"
+                - generic
+                  - StaticText ""
+              - menuitem "VIDEO GAMES "
+                - StaticText "VIDEO GAMES"
+                - generic
+                  - StaticText ""
+              - menuitem "GROCERY & GOURMET FOOD "
+                - StaticText "GROCERY & GOURMET FOOD"
+                - generic
+                  - StaticText ""
+        - tab "Account" [selected=false] [expanded=false]
+          - link "Account" [url="http://127.0.0.1:7770/beauty-personal-care/oral-care/teeth-whitening.html#store.links"]
+            - StaticText "Account"
+    - list
+      - listitem [level=1]
+        - link "Home" [url="http://127.0.0.1:7770/"]
+          - StaticText "Home"
+        - generic
+          - StaticText ""
+      - listitem [level=1]
+        - link "Beauty & Personal Care" [url="http://127.0.0.1:7770/beauty-personal-care.html"]
+          - StaticText "Beauty & Personal Care"
+        - generic
+          - StaticText ""
+      - listitem [level=1]
+        - link "Oral Care" [url="http://127.0.0.1:7770/beauty-personal-care/oral-care.html"]
+          - StaticText "Oral Care"
+        - generic
+          - StaticText ""
+      - listitem [level=1]
+        - strong
+          - StaticText "Teeth Whitening"
+    - main
+      - generic
+      - heading "Teeth Whitening Items 1-12 of 128" [level=1]
+        - StaticText "Teeth Whitening"
+      - generic
+        - paragraph
+          - StaticText "Items"
+          - StaticText "1"
+          - StaticText "-"
+          - StaticText "12"
+          - StaticText "of"
+          - StaticText "128"
+        - generic
+          - LabelText
+            - StaticText "Sort By"
+          - combobox "Sort By" [expanded=false] [value="Position"]
+            - MenuListPopup
+              - option "Position" [selected=true]
+              - option "Product Name" [selected=false]
+              - option "Price" [selected=false]
+          - link " Set Descending Direction" [url="http://127.0.0.1:7770/beauty-personal-care/oral-care/teeth-whitening.html#"]
+            - generic
+              - StaticText ""
+            - StaticText "Set Descending Direction"
+        - list
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/ixaer-dental-teeth-whitening-lamp-2-colors-mobile-blue-red-led-teeth-whitener-machine-36w-10-led-bleaching-cold-light-lamp-accelerator-light-oral-care-floor-standing.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B0928D5D9R.0.jpg"]
+              - strong
+                - link "ixaer Dental Teeth Whitening Lamp 2 Colors Mobile Blue Red LED Teeth Whitener Machine 36W 10 LED Bleaching Cold Light Lamp Accelerator Light Oral Care Floor Standing" [url="http://127.0.0.1:7770/ixaer-dental-teeth-whitening-lamp-2-colors-mobile-blue-red-led-teeth-whitener-machine-36w-10-led-bleaching-cold-light-lamp-accelerator-light-oral-care-floor-standing.html"]
+                  - StaticText "ixaer Dental Teeth Whitening Lamp 2 Colors Mobile Blue Red LED Teeth Whitener Machine 36W 10 LED Bleaching Cold Light Lamp Accelerator Light Oral Care Floor Standing"
+              - generic
+                - generic
+                  - StaticText "$139.99"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/hhkuize-pap-teeth-whitening-powder-teeth-whitener-powder-organic-tooth-powder-for-sensitive-teeth-natural-and-fluoride-free-oral-care-20g-1pcs.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B09SV38F6M.0.jpg"]
+              - strong
+                - link "Hhkuize Pap Teeth Whitening Powder, Teeth Whitener Powder, Organic Tooth Powder for Sensitive Teeth, Natural and Fluoride Free Oral Care, 20g (1pcs)" [url="http://127.0.0.1:7770/hhkuize-pap-teeth-whitening-powder-teeth-whitener-powder-organic-tooth-powder-for-sensitive-teeth-natural-and-fluoride-free-oral-care-20g-1pcs.html"]
+                  - StaticText "Hhkuize Pap Teeth Whitening Powder, Teeth Whitener Powder, Organic Tooth Powder for Sensitive Teeth, Natural and Fluoride Free Oral Care, 20g (1pcs)"
+              - generic
+                - generic
+                  - StaticText "$11.68"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/mmdent-resin-teeth-dental-acrylic-denture-false-teeth-for-halloween-horror-prop-middle-size-a2-color.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B08RD42GWF.0.jpg"]
+              - strong
+                - link "MMDENT Resin Teeth Dental Acrylic Denture False Teeth for Halloween Horror Prop Middle Size A2 Color" [url="http://127.0.0.1:7770/mmdent-resin-teeth-dental-acrylic-denture-false-teeth-for-halloween-horror-prop-middle-size-a2-color.html"]
+                  - StaticText "MMDENT Resin Teeth Dental Acrylic Denture False Teeth for Halloween Horror Prop Middle Size A2 Color"
+              - generic
+                - generic
+                  - StaticText "$11.95"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/frau-fowler-mouth-medic-tooth-powder-botanically-clean-teeth-whitening-remineralizing-sensitive-teeth-treatment-2-oz-6-week-supply.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B07SPVMZRN.0.jpg"]
+              - strong
+                - link "Frau Fowler MOUTH MEDIC Tooth Powder, Botanically Clean, Teeth-Whitening, Remineralizing, Sensitive-Teeth Treatment, (2 oz / 6+ Week Supply)" [url="http://127.0.0.1:7770/frau-fowler-mouth-medic-tooth-powder-botanically-clean-teeth-whitening-remineralizing-sensitive-teeth-treatment-2-oz-6-week-supply.html"]
+                  - StaticText "Frau Fowler MOUTH MEDIC Tooth Powder, Botanically Clean, Teeth-Whitening, Remineralizing, Sensitive-Teeth Treatment, (2 oz / 6+ Week Supply)"
+              - generic
+                - generic
+                  - StaticText "$12.97"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/eucryl-three-packs-of-freshmint-toothpowder.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B008FRN9SU.0.jpg"]
+              - strong
+                - link "Eucryl Three Packs Of Freshmint Toothpowder" [url="http://127.0.0.1:7770/eucryl-three-packs-of-freshmint-toothpowder.html"]
+                  - StaticText "Eucryl Three Packs Of Freshmint Toothpowder"
+              - generic
+                - generic
+                  - StaticText "$13.48"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/igia-micro-foam-toothpaste-teeth-whitening-deep-cleaning-for-ultrasonic-electric-360-toothbrushes-total-white-60-ml-3-count.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B07XVR3YZK.0.jpg"]
+              - strong
+                - link "Igia Micro Foam Toothpaste, Teeth Whitening Deep Cleaning for Ultrasonic Electric 360° Toothbrushes, Total White, 60 ml, 3 Count" [url="http://127.0.0.1:7770/igia-micro-foam-toothpaste-teeth-whitening-deep-cleaning-for-ultrasonic-electric-360-toothbrushes-total-white-60-ml-3-count.html"]
+                  - StaticText "Igia Micro Foam Toothpaste, Teeth Whitening Deep Cleaning for Ultrasonic Electric 360° Toothbrushes, Total White, 60 ml, 3 Count"
+              - LayoutTable
+                - generic
+                  - StaticText "Rating:"
+                  - generic
+                    - generic
+                      - StaticText ""
+                    - generic
+                      - StaticText ""
+                    - StaticText "65%"
+                - generic
+                  - link "4 Reviews" [url="http://127.0.0.1:7770/igia-micro-foam-toothpaste-teeth-whitening-deep-cleaning-for-ultrasonic-electric-360-toothbrushes-total-white-60-ml-3-count.html#reviews"]
+                    - StaticText "4"
+                    - StaticText "Reviews"
+              - generic
+                - generic
+                  - StaticText "$23.00"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/mint-flavored-professional-strength-tooth-polish-medium-coarse-or-x-coarse-coarse-grit.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B00Z7J0SOW.0.jpg"]
+              - strong
+                - link "Mint Flavored Professional Strength Tooth Polish - Medium, Coarse, or X-Coarse (Coarse Grit)" [url="http://127.0.0.1:7770/mint-flavored-professional-strength-tooth-polish-medium-coarse-or-x-coarse-coarse-grit.html"]
+                  - StaticText "Mint Flavored Professional Strength Tooth Polish - Medium, Coarse, or X-Coarse (Coarse Grit)"
+              - generic
+                - generic
+                  - StaticText "$4.99"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/mouth-opener-t-shape-double-head-mouth-opener-intraoral-opener-dental-orthodontic-tool-intraoral-cheek-lip-retractor-10pcs.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B07PRV6712.0.jpg"]
+              - strong
+                - link "Mouth Opener T-Shape Double Head Mouth Opener Intraoral Opener Dental Orthodontic Tool Intraoral Cheek Lip Retractor 10pcs" [url="http://127.0.0.1:7770/mouth-opener-t-shape-double-head-mouth-opener-intraoral-opener-dental-orthodontic-tool-intraoral-cheek-lip-retractor-10pcs.html"]
+                  - StaticText "Mouth Opener T-Shape Double Head Mouth Opener Intraoral Opener Dental Orthodontic Tool Intraoral Cheek Lip Retractor 10pcs"
+              - generic
+                - generic
+                  - StaticText "$13.99"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/exceart-20pcs-finger-teeth-wipes-disposable-finger-toothbrush-oral-care-teeth-cleaning-gauze-brush-portable-travel-teeth-brush-cleaner.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B08R771GPW.0.jpg"]
+              - strong
+                - link "EXCEART 20pcs Finger Teeth Wipes Disposable Finger Toothbrush Oral Care Teeth Cleaning Gauze Brush Portable Travel Teeth Brush Cleaner" [url="http://127.0.0.1:7770/exceart-20pcs-finger-teeth-wipes-disposable-finger-toothbrush-oral-care-teeth-cleaning-gauze-brush-portable-travel-teeth-brush-cleaner.html"]
+                  - StaticText "EXCEART 20pcs Finger Teeth Wipes Disposable Finger Toothbrush Oral Care Teeth Cleaning Gauze Brush Portable Travel Teeth Brush Cleaner"
+              - generic
+                - generic
+                  - StaticText "$8.49"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/signal-cavity-protection-toothpaste-75-ml-2-53-fl-oz.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B00LJ0X24G.0.jpg"]
+              - strong
+                - link "Signal Cavity Protection Toothpaste 75 ml / 2.53 fl oz" [url="http://127.0.0.1:7770/signal-cavity-protection-toothpaste-75-ml-2-53-fl-oz.html"]
+                  - StaticText "Signal Cavity Protection Toothpaste 75 ml / 2.53 fl oz"
+              - generic
+                - generic
+                  - StaticText "$10.45"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/vakker-tooth-powder-for-teeth-whitening-natural-toothpaste-powder-teeth-whitener-with-no-mess-tooth-whitening-remove-stains-coffee-wine-alternative-to-toothpaste-strips-kits-gels-mint-flavor.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B08P3FRWQR.0.jpg"]
+              - strong
+                - link "Vakker Tooth Powder for Teeth Whitening, Natural Toothpaste Powder Teeth Whitener with NO Mess Tooth Whitening Remove Stains Coffee Wine Alternative to Toothpaste, Strips, Kits, Gels,Mint Flavor" [url="http://127.0.0.1:7770/vakker-tooth-powder-for-teeth-whitening-natural-toothpaste-powder-teeth-whitener-with-no-mess-tooth-whitening-remove-stains-coffee-wine-alternative-to-toothpaste-strips-kits-gels-mint-flavor.html"]
+                  - StaticText "Vakker Tooth Powder for Teeth Whitening, Natural Toothpaste Powder Teeth Whitener with NO Mess Tooth Whitening Remove Stains Coffee Wine Alternative to Toothpaste, Strips, Kits, Gels,Mint Flavor"
+              - LayoutTable
+                - generic
+                  - StaticText "Rating:"
+                  - generic
+                    - generic
+                      - StaticText ""
+                    - generic
+                      - StaticText ""
+                    - StaticText "87%"
+                - generic
+                  - link "12 Reviews" [url="http://127.0.0.1:7770/vakker-tooth-powder-for-teeth-whitening-natural-toothpaste-powder-teeth-whitener-with-no-mess-tooth-whitening-remove-stains-coffee-wine-alternative-to-toothpaste-strips-kits-gels-mint-flavor.html#reviews"]
+                    - StaticText "12"
+                    - StaticText "Reviews"
+              - generic
+                - generic
+                  - StaticText "$12.99"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/oralgen-nupearl-32x-perfect-teeth-whitening-pen-peroxide-free-08-oz.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B06XXDCCMF.0.jpg"]
+              - strong
+                - link "ORALGEN NuPearl.32x Perfect Teeth Whitening Pen (Peroxide-Free), 08 Oz" [url="http://127.0.0.1:7770/oralgen-nupearl-32x-perfect-teeth-whitening-pen-peroxide-free-08-oz.html"]
+                  - StaticText "ORALGEN NuPearl.32x Perfect Teeth Whitening Pen (Peroxide-Free), 08 Oz"
+              - generic
+                - generic
+                  - StaticText "$9.99"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+        - generic
+          - strong
+            - StaticText "Page"
+          - list "Page"
+            - listitem [level=1]
+              - strong
+                - StaticText "You're currently reading page"
+                - StaticText "1"
+            - listitem [level=1]
+              - link "Page 2" [url="http://127.0.0.1:7770/beauty-personal-care/oral-care/teeth-whitening.html?p=2"]
+                - StaticText "Page"
+                - StaticText "2"
+            - listitem [level=1]
+              - link "Page 3" [url="http://127.0.0.1:7770/beauty-personal-care/oral-care/teeth-whitening.html?p=3"]
+                - StaticText "Page"
+                - StaticText "3"
+            - listitem [level=1]
+              - link "Page 4" [url="http://127.0.0.1:7770/beauty-personal-care/oral-care/teeth-whitening.html?p=4"]
+                - StaticText "Page"
+                - StaticText "4"
+            - listitem [level=1]
+              - link "Page 5" [url="http://127.0.0.1:7770/beauty-personal-care/oral-care/teeth-whitening.html?p=5"]
+                - StaticText "Page"
+                - StaticText "5"
+            - listitem [level=1]
+              - link " Page Next" [url="http://127.0.0.1:7770/beauty-personal-care/oral-care/teeth-whitening.html?p=2"]
+                - generic
+                  - StaticText ""
+                - StaticText "Page"
+                - StaticText "Next"
+        - generic
+          - strong
+            - StaticText "Shop By"
+        - heading "Shopping Options" [level=2]
+          - StaticText "Shopping Options"
+        - DescriptionList
+          - heading "Price" [level=3]
+            - StaticText "Price"
+          - definition
+            - list
+              - listitem [level=1]
+                - link "$0.00 - $99.99( 125 item )" [url="http://127.0.0.1:7770/beauty-personal-care/oral-care/teeth-whitening.html?price=0-100"]
+                  - StaticText "$0.00"
+                  - StaticText "-"
+                  - StaticText "$99.99"
+                  - StaticText "("
+                  - StaticText "125"
+                  - StaticText "item"
+                  - StaticText ")"
+              - listitem [level=1]
+                - link "$100.00 - $199.99( 2 item )" [url="http://127.0.0.1:7770/beauty-personal-care/oral-care/teeth-whitening.html?price=100-200"]
+                  - StaticText "$100.00"
+                  - StaticText "-"
+                  - StaticText "$199.99"
+                  - StaticText "("
+                  - StaticText "2"
+                  - StaticText "item"
+                  - StaticText ")"
+              - listitem [level=1]
+                - link "$300.00 and above( 1 item )" [url="http://127.0.0.1:7770/beauty-personal-care/oral-care/teeth-whitening.html?price=300-400"]
+                  - StaticText "$300.00"
+                  - StaticText "and above"
+                  - StaticText "("
+                  - StaticText "1"
+                  - StaticText "item"
+                  - StaticText ")"
+        - generic
+          - heading "Compare Products" [level=2]
+            - StaticText "Compare Products"
+        - generic
+          - StaticText "You have no items to compare."
+        - generic
+          - heading "My Wish List" [level=2]
+            - StaticText "My Wish List"
+        - generic
+          - StaticText "You have no items in your wish list."
+    - contentinfo
+      - form
+        - generic
+          - generic
+            - StaticText ""
+          - LabelText
+            - StaticText "Sign Up for Our Newsletter:"
+            - textbox "Sign Up for Our Newsletter:"
+              - generic
+        - generic
+          - button "Subscribe"
+            - StaticText "Subscribe"
+      - list
+        - listitem [level=1]
+          - link "Privacy and Cookie Policy" [url="http://127.0.0.1:7770/privacy-policy-cookie-restriction-mode/"]
+            - StaticText "Privacy and Cookie Policy"
+        - listitem [level=1]
+          - link "Search Terms" [url="http://127.0.0.1:7770/search/term/popular/"]
+            - StaticText "Search Terms"
+        - listitem [level=1]
+          - link "Advanced Search" [url="http://127.0.0.1:7770/catalogsearch/advanced/"]
+            - StaticText "Advanced Search"
+        - listitem [level=1]
+          - link "Orders and Returns" [url="http://127.0.0.1:7770/sales/guest/form/"]
+            - StaticText "Orders and Returns"
+        - listitem [level=1]
+          - link "Contact Us" [url="http://127.0.0.1:7770/contact/"]
+            - StaticText "Contact Us"
+      - generic
+        - StaticText "Copyright © 2013-present Magento, Inc. All rights reserved."
+      - generic
+        - StaticText "Help Us Keep Magento Healthy"
+        - StaticText
+        - link "Report All Bugs" [url="http://www.magentocommerce.com/bug-tracking"]
+          - StaticText "Report All Bugs"
+    - generic

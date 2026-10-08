@@ -1,0 +1,408 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - link "Skip to Content" [ref=e4] [cursor=pointer]:
+      - /url: "#contentarea"
+    - generic [ref=e5]:
+      - generic [ref=e6] [cursor=pointer]:
+        - text: 
+        - generic [ref=e7]: Toggle Nav
+      - link "store logo" [ref=e8] [cursor=pointer]:
+        - /url: http://127.0.0.1:7770/
+        - img "one_stop_market_logo" [ref=e9]
+      - generic [ref=e10]:
+        - link " My Cart" [ref=e11] [cursor=pointer]:
+          - /url: http://127.0.0.1:7770/checkout/cart/
+          - text: 
+          - generic [ref=e12]: My Cart
+        - text: 
+      - generic [ref=e16]:
+        - generic [ref=e17]:
+          - text: 
+          - generic [ref=e18]: Search
+        - combobox " Search" [ref=e20]
+  - tablist [ref=e22]:
+    - tab "Menu" [expanded] [ref=e23]:
+      - link "Menu" [ref=e24] [cursor=pointer]:
+        - /url: "#store.menu"
+    - tabpanel [ref=e25]:
+      - navigation [ref=e26]:
+        - menu [ref=e27]:
+          - listitem [ref=e28]:
+            - menuitem "Beauty & Personal Care " [ref=e29] [cursor=pointer]: Beauty & Personal Care 
+          - listitem [ref=e30]:
+            - menuitem "Sports & Outdoors " [ref=e31] [cursor=pointer]: Sports & Outdoors 
+          - listitem [ref=e32]:
+            - menuitem "Clothing, Shoes & Jewelry " [ref=e33] [cursor=pointer]: Clothing, Shoes & Jewelry 
+          - listitem [ref=e34]:
+            - menuitem "Home & Kitchen " [ref=e35] [cursor=pointer]: Home & Kitchen 
+          - listitem [ref=e36]:
+            - menuitem "Office Products " [ref=e37] [cursor=pointer]: Office Products 
+          - listitem [ref=e38]:
+            - menuitem "Tools & Home Improvement " [ref=e39] [cursor=pointer]: Tools & Home Improvement 
+          - listitem [ref=e40]:
+            - menuitem "Health & Household " [ref=e41] [cursor=pointer]: Health & Household 
+          - listitem [ref=e42]:
+            - menuitem "Patio, Lawn & Garden " [ref=e43] [cursor=pointer]: Patio, Lawn & Garden 
+          - listitem [ref=e44]:
+            - menuitem "Electronics " [ref=e45] [cursor=pointer]: Electronics 
+          - listitem [ref=e46]:
+            - menuitem "Cell Phones & Accessories " [ref=e47] [cursor=pointer]: Cell Phones & Accessories 
+          - listitem [ref=e48]:
+            - menuitem "Video Games " [ref=e49] [cursor=pointer]: Video Games 
+          - listitem [ref=e50]:
+            - menuitem "Grocery & Gourmet Food " [ref=e51] [cursor=pointer]: Grocery & Gourmet Food 
+    - tab "Account" [ref=e52]:
+      - link "Account" [ref=e53] [cursor=pointer]:
+        - /url: "#store.links"
+  - list [ref=e55]:
+    - listitem [ref=e56]:
+      - link "Home" [ref=e57] [cursor=pointer]:
+        - /url: http://127.0.0.1:7770/
+      - text: 
+    - listitem [ref=e58]:
+      - link "Beauty & Personal Care" [ref=e59] [cursor=pointer]:
+        - /url: http://127.0.0.1:7770/beauty-personal-care.html
+      - text: 
+    - listitem [ref=e60]:
+      - link "Oral Care" [ref=e61] [cursor=pointer]:
+        - /url: http://127.0.0.1:7770/beauty-personal-care/oral-care.html
+      - text: 
+    - listitem [ref=e62]:
+      - strong [ref=e63]: Toothbrushes & Accessories
+  - main [ref=e64]:
+    - heading "Toothbrushes & Accessories Items 1-12 of 536" [level=1] [ref=e66]: Toothbrushes & Accessories
+    - generic [ref=e67]:
+      - generic [ref=e68]:
+        - generic [ref=e69]:
+          - paragraph [ref=e70]: Items 1-12 of 536
+          - generic [ref=e71]:
+            - text: Sort By
+            - combobox "Sort By" [ref=e72]:
+              - option "Position" [selected]
+              - option "Product Name"
+              - option "Price"
+            - link " Set Descending Direction" [ref=e73] [cursor=pointer]:
+              - /url: "#"
+              - text: 
+              - generic [ref=e74]: Set Descending Direction
+        - list [ref=e76]:
+          - listitem [ref=e77]:
+            - generic [ref=e78]:
+              - link "Image" [ref=e79] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/electric-toothbrush-travel-case-fit-for-oral-b-pro-1000-2000-3000-3500-1500-7000-philips-sonicare-5100-6100-carrying-case-holder-container-for-electric-toothbrush-travel-accessories-silver.html
+                - img "Image" [ref=e82]
+              - generic [ref=e83]:
+                - strong [ref=e84]:
+                  - link "Electric Toothbrush Travel Case Fit for Oral-b Pro 1000, 2000, 3000, 3500, 1500,7000/ Philips Sonicare 5100 6100, Carrying Case Holder Container for Electric Toothbrush, Travel Accessories–Silver" [ref=e85] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/electric-toothbrush-travel-case-fit-for-oral-b-pro-1000-2000-3000-3500-1500-7000-philips-sonicare-5100-6100-carrying-case-holder-container-for-electric-toothbrush-travel-accessories-silver.html
+                - generic [ref=e88]: $12.80
+                - generic [ref=e90]:
+                  - button "Add to Cart" [ref=e93] [cursor=pointer]
+                  - generic [ref=e94]:
+                    - button "Add to Wish List" [ref=e95] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e96]: Add to Wish List
+                    - text: 
+          - listitem [ref=e97]:
+            - generic [ref=e98]:
+              - link "Image" [ref=e99] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/colgate-slimsoft-floss-tip-charcoal-toothbrush-pack-of-6.html
+                - img "Image" [ref=e102]
+              - generic [ref=e103]:
+                - strong [ref=e104]:
+                  - link "Colgate Slimsoft Floss-Tip Charcoal Toothbrush (Pack of 6)" [ref=e105] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/colgate-slimsoft-floss-tip-charcoal-toothbrush-pack-of-6.html
+                - generic [ref=e108]: $10.72
+                - generic [ref=e110]:
+                  - button "Add to Cart" [ref=e113] [cursor=pointer]
+                  - generic [ref=e114]:
+                    - button "Add to Wish List" [ref=e115] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e116]: Add to Wish List
+                    - text: 
+          - listitem [ref=e117]:
+            - generic [ref=e118]:
+              - link "Image" [ref=e119] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/nfegsiya-toothbrush-case-travel-toothbrush-toothpaste-cup-storage-case-portable-holder-box-household-storage-cup-bathroom-accessories-color-nordic-blue.html
+                - img "Image" [ref=e122]
+              - generic [ref=e123]:
+                - strong [ref=e124]:
+                  - 'link "NFEGSIYA Toothbrush Case Travel Toothbrush Toothpaste Cup Storage Case Portable Holder Box Household Storage Cup Bathroom Accessories (Color : Nordic Blue)" [ref=e125] [cursor=pointer]':
+                    - /url: http://127.0.0.1:7770/nfegsiya-toothbrush-case-travel-toothbrush-toothpaste-cup-storage-case-portable-holder-box-household-storage-cup-bathroom-accessories-color-nordic-blue.html
+                - generic [ref=e128]: $20.84
+                - generic [ref=e130]:
+                  - button "Add to Cart" [ref=e133] [cursor=pointer]
+                  - generic [ref=e134]:
+                    - button "Add to Wish List" [ref=e135] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e136]: Add to Wish List
+                    - text: 
+          - listitem [ref=e137]:
+            - generic [ref=e138]:
+              - link "Image" [ref=e139] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/wipply-toothbrush-box-outdoor-home-portable-cartoon-wash-cup-towel-toothbrush-toothpaste-storage-box-towel-toothbrush-holder-case-outdoor-travel-camping-toothpaste-multi-cap-storage-case-bathroom-tumb.html
+                - img "Image" [ref=e142]
+              - generic [ref=e143]:
+                - strong [ref=e144]:
+                  - link "WIPPLY Toothbrush box Outdoor Home Portable Cartoon Wash Cup Towel Toothbrush Toothpaste Storage Box Towel Toothbrush Holder Case Outdoor Travel Camping Toothpaste Multi Cap Storage Case Bathroom Tumb" [ref=e145] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/wipply-toothbrush-box-outdoor-home-portable-cartoon-wash-cup-towel-toothbrush-toothpaste-storage-box-towel-toothbrush-holder-case-outdoor-travel-camping-toothpaste-multi-cap-storage-case-bathroom-tumb.html
+                - generic [ref=e148]: $24.50
+                - generic [ref=e150]:
+                  - button "Add to Cart" [ref=e153] [cursor=pointer]
+                  - generic [ref=e154]:
+                    - button "Add to Wish List" [ref=e155] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e156]: Add to Wish List
+                    - text: 
+          - listitem [ref=e157]:
+            - generic [ref=e158]:
+              - link "Image" [ref=e159] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/cyho-toothbrush-container-without-waxing-accessory-kit-in-villa-dormitory-bathroom-homestay-lodging-house-travel-excursion-201x83-mm-purple-1-x-toothbrush-travel-storage-box.html
+                - img "Image" [ref=e162]
+              - generic [ref=e163]:
+                - strong [ref=e164]:
+                  - link "CYHO Toothbrush Container Without Waxing, Accessory Kit In Villa;Dormitory;Bathroom;Homestay;Lodging House;Travel;Excursion, 201x83(MM), Purple, 1 X Toothbrush Travel Storage Box" [ref=e165] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/cyho-toothbrush-container-without-waxing-accessory-kit-in-villa-dormitory-bathroom-homestay-lodging-house-travel-excursion-201x83-mm-purple-1-x-toothbrush-travel-storage-box.html
+                - generic [ref=e168]: $5.70
+                - generic [ref=e170]:
+                  - button "Add to Cart" [ref=e173] [cursor=pointer]
+                  - generic [ref=e174]:
+                    - button "Add to Wish List" [ref=e175] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e176]: Add to Wish List
+                    - text: 
+          - listitem [ref=e177]:
+            - generic [ref=e178]:
+              - link "Image" [ref=e179] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/u-shaped-toothbrush-for-kids-children-s-u-shaped-toothbrush-manual-training-tooth-brush-360-oral-teeth-cleaning-design-age-2-12.html
+                - img "Image" [ref=e182]
+              - generic [ref=e183]:
+                - strong [ref=e184]:
+                  - link "U-shaped Toothbrush for Kids, Children's U-shaped Toothbrush Manual Training Tooth Brush, 360° Oral Teeth Cleaning Design Age 2-12" [ref=e185] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/u-shaped-toothbrush-for-kids-children-s-u-shaped-toothbrush-manual-training-tooth-brush-360-oral-teeth-cleaning-design-age-2-12.html
+                - generic [ref=e188]: $5.99
+                - generic [ref=e190]:
+                  - button "Add to Cart" [ref=e193] [cursor=pointer]
+                  - generic [ref=e194]:
+                    - button "Add to Wish List" [ref=e195] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e196]: Add to Wish List
+                    - text: 
+          - listitem [ref=e197]:
+            - generic [ref=e198]:
+              - link "Image" [ref=e199] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/travel-toothbrush-kit-with-case-includes-leak-proof-refillable-liquid-travel-bottles-for-shampoo-and-lotion-towel-toothbrush-comb-mirror-cup-gray-7-in-1-not-included-toothpaste.html
+                - img "Image" [ref=e202]
+              - generic [ref=e203]:
+                - strong [ref=e204]:
+                  - link "Travel Toothbrush Kit With Case, Includes Leak Proof Refillable Liquid Travel Bottles for Shampoo and Lotion, Towel, Toothbrush, Comb, Mirror, Cup (Gray, 7-in-1, not included toothpaste)" [ref=e205] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/travel-toothbrush-kit-with-case-includes-leak-proof-refillable-liquid-travel-bottles-for-shampoo-and-lotion-towel-toothbrush-comb-mirror-cup-gray-7-in-1-not-included-toothpaste.html
+                - generic [ref=e208]: $21.99
+                - generic [ref=e210]:
+                  - button "Add to Cart" [ref=e213] [cursor=pointer]
+                  - generic [ref=e214]:
+                    - button "Add to Wish List" [ref=e215] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e216]: Add to Wish List
+                    - text: 
+          - listitem [ref=e217]:
+            - generic [ref=e218]:
+              - link "Image" [ref=e219] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/extra-soft-toothbrush-for-sensitive-teeth-micro-nano-manual-toothbrush-with-20-000-soft-floss-bristle-for-fragile-gums-adult-kid-children-2-pack.html
+                - img "Image" [ref=e222]
+              - generic [ref=e223]:
+                - strong [ref=e224]:
+                  - link "Extra Soft Toothbrush for Sensitive Teeth, Micro Nano Manual Toothbrush with 20,000 Soft Floss Bristle for Fragile Gums Adult Kid Children - 2 Pack" [ref=e225] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/extra-soft-toothbrush-for-sensitive-teeth-micro-nano-manual-toothbrush-with-20-000-soft-floss-bristle-for-fragile-gums-adult-kid-children-2-pack.html
+                - generic [ref=e228]: $4.99
+                - generic [ref=e230]:
+                  - button "Add to Cart" [ref=e233] [cursor=pointer]
+                  - generic [ref=e234]:
+                    - button "Add to Wish List" [ref=e235] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e236]: Add to Wish List
+                    - text: 
+          - listitem [ref=e237]:
+            - generic [ref=e238]:
+              - link "Image" [ref=e239] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/colgate-my-frst-colg-tb-size-1ct-colgate-my-first-toothbrush-extra-soft.html
+                - img "Image" [ref=e242]
+              - generic [ref=e243]:
+                - strong [ref=e244]:
+                  - link "Colgate My Frst Colg Tb Size 1ct Colgate My First Toothbrush Extra Soft" [ref=e245] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/colgate-my-frst-colg-tb-size-1ct-colgate-my-first-toothbrush-extra-soft.html
+                - generic [ref=e248]: $7.46
+                - generic [ref=e250]:
+                  - button "Add to Cart" [ref=e253] [cursor=pointer]
+                  - generic [ref=e254]:
+                    - button "Add to Wish List" [ref=e255] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e256]: Add to Wish List
+                    - text: 
+          - listitem [ref=e257]:
+            - generic [ref=e258]:
+              - link "Image" [ref=e259] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/oral-b-complete-deep-clean-toothbrush-medium-6-count.html
+                - generic [ref=e261]:
+                  - img "Image"
+              - generic [ref=e262]:
+                - strong [ref=e263]:
+                  - link "Oral-B Complete Deep Clean Toothbrush, Medium, 6 Count" [ref=e264] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/oral-b-complete-deep-clean-toothbrush-medium-6-count.html
+                - generic [ref=e265]:
+                  - generic [ref=e266]:
+                    - generic [ref=e267]: "Rating:"
+                    - generic "58%" [ref=e268]:
+                      - text: 
+                      - generic [ref=e269]:
+                        - text: 
+                        - generic [ref=e270]: 58%
+                  - link "12 Reviews" [ref=e272] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/oral-b-complete-deep-clean-toothbrush-medium-6-count.html#reviews
+                - generic [ref=e275]: $11.99
+                - generic [ref=e277]:
+                  - button "Add to Cart" [ref=e280] [cursor=pointer]
+                  - generic [ref=e281]:
+                    - button "Add to Wish List" [ref=e282] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e283]: Add to Wish List
+                    - text: 
+          - listitem [ref=e284]:
+            - generic [ref=e285]:
+              - link "Image" [ref=e286] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/topbathy-4pcs-toothbrush-travel-case-hard-plastic-toothpaste-container-portable-toothbrush-wash-cup-holder-for-business-trips-daily-use.html
+                - generic [ref=e288]:
+                  - img "Image"
+              - generic [ref=e289]:
+                - strong [ref=e290]:
+                  - link "TOPBATHY 4pcs Toothbrush Travel Case Hard Plastic Toothpaste Container Portable Toothbrush Wash Cup Holder For Business Trips Daily Use" [ref=e291] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/topbathy-4pcs-toothbrush-travel-case-hard-plastic-toothpaste-container-portable-toothbrush-wash-cup-holder-for-business-trips-daily-use.html
+                - generic [ref=e294]: $17.89
+                - generic [ref=e296]:
+                  - button "Add to Cart" [ref=e299] [cursor=pointer]
+                  - generic [ref=e300]:
+                    - button "Add to Wish List" [ref=e301] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e302]: Add to Wish List
+                    - text: 
+          - listitem [ref=e303]:
+            - generic [ref=e304]:
+              - link "Image" [ref=e305] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/feihaiyany-toothbrush-holder-toothbrush-case-for-family-nice-appearance-durable-size-5-8-19-5cm-color-green.html
+                - generic [ref=e307]:
+                  - img "Image"
+              - generic [ref=e308]:
+                - strong [ref=e309]:
+                  - 'link "FEIHAIYANY Toothbrush Holder Toothbrush Case for Family，Nice Appearance，Durable，Size：5.8×19.5cm (Color : Green)" [ref=e310] [cursor=pointer]':
+                    - /url: http://127.0.0.1:7770/feihaiyany-toothbrush-holder-toothbrush-case-for-family-nice-appearance-durable-size-5-8-19-5cm-color-green.html
+                - generic [ref=e313]: $32.03
+                - generic [ref=e315]:
+                  - button "Add to Cart" [ref=e318] [cursor=pointer]
+                  - generic [ref=e319]:
+                    - button "Add to Wish List" [ref=e320] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e321]: Add to Wish List
+                    - text: 
+        - generic [ref=e323]:
+          - strong [ref=e324]: Page
+          - list "Page" [ref=e325]:
+            - listitem [ref=e326]:
+              - strong [ref=e327]:
+                - generic [ref=e328]: You're currently reading page
+                - text: "1"
+            - listitem [ref=e329]:
+              - link "Page 2" [ref=e330] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/beauty-personal-care/oral-care/toothbrushes-accessories.html?p=2
+                - generic [ref=e331]: Page
+                - text: "2"
+            - listitem [ref=e332]:
+              - link "Page 3" [ref=e333] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/beauty-personal-care/oral-care/toothbrushes-accessories.html?p=3
+                - generic [ref=e334]: Page
+                - text: "3"
+            - listitem [ref=e335]:
+              - link "Page 4" [ref=e336] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/beauty-personal-care/oral-care/toothbrushes-accessories.html?p=4
+                - generic [ref=e337]: Page
+                - text: "4"
+            - listitem [ref=e338]:
+              - link "Page 5" [ref=e339] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/beauty-personal-care/oral-care/toothbrushes-accessories.html?p=5
+                - generic [ref=e340]: Page
+                - text: "5"
+            - listitem [ref=e341]:
+              - link " Page Next" [ref=e342] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/beauty-personal-care/oral-care/toothbrushes-accessories.html?p=2
+                - text: 
+                - generic [ref=e343]: Page
+                - generic [ref=e344]: Next
+      - generic [ref=e346]:
+        - strong [ref=e348]: Shop By
+        - generic [ref=e349]:
+          - heading "Shopping Options" [level=2] [ref=e350]
+          - generic [ref=e351]:
+            - heading "Price" [level=3] [ref=e352]
+            - definition [ref=e353]:
+              - list [ref=e354]:
+                - listitem [ref=e355]:
+                  - link "$0.00 - $99.99( 528 item )" [ref=e356] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/beauty-personal-care/oral-care/toothbrushes-accessories.html?price=0-100
+                    - text: $0.00 - $99.99
+                    - generic [ref=e357]:
+                      - text: ( 528
+                      - generic [ref=e358]: item
+                      - text: )
+                - listitem [ref=e359]:
+                  - link "$100.00 - $199.99( 7 item )" [ref=e360] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/beauty-personal-care/oral-care/toothbrushes-accessories.html?price=100-200
+                    - text: $100.00 - $199.99
+                    - generic [ref=e361]:
+                      - text: ( 7
+                      - generic [ref=e362]: item
+                      - text: )
+                - listitem [ref=e363]:
+                  - link "$200.00 and above( 1 item )" [ref=e364] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/beauty-personal-care/oral-care/toothbrushes-accessories.html?price=200-300
+                    - text: $200.00 and above
+                    - generic [ref=e365]:
+                      - text: ( 1
+                      - generic [ref=e366]: item
+                      - text: )
+      - generic [ref=e367]:
+        - generic [ref=e368]:
+          - heading "Compare Products" [level=2] [ref=e370]
+          - generic [ref=e371]: You have no items to compare.
+        - generic [ref=e372]:
+          - heading "My Wish List" [level=2] [ref=e374]
+          - generic [ref=e376]: You have no items in your wish list.
+  - contentinfo [ref=e377]:
+    - generic [ref=e378]:
+      - generic [ref=e381]:
+        - generic [ref=e383]:
+          - text: 
+          - generic [ref=e384]:
+            - generic [ref=e385]: "Sign Up for Our Newsletter:"
+            - textbox "Sign Up for Our Newsletter:" [ref=e386]:
+              - /placeholder: Enter your email address
+        - button "Subscribe" [ref=e388] [cursor=pointer]
+      - list [ref=e389]:
+        - listitem [ref=e390]:
+          - link "Privacy and Cookie Policy" [ref=e391] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/privacy-policy-cookie-restriction-mode/
+        - listitem [ref=e392]:
+          - link "Search Terms" [ref=e393] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/search/term/popular/
+        - listitem [ref=e394]:
+          - link "Advanced Search" [ref=e395] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/catalogsearch/advanced/
+        - listitem [ref=e396]:
+          - link "Orders and Returns" [ref=e397] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/sales/guest/form/
+        - listitem [ref=e398]:
+          - link "Contact Us" [ref=e399] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/contact/
+      - generic [ref=e400]: Copyright © 2013-present Magento, Inc. All rights reserved.
+      - generic [ref=e401]:
+        - text: Help Us Keep Magento Healthy
+        - link "Report All Bugs" [ref=e402] [cursor=pointer]:
+          - /url: http://www.magentocommerce.com/bug-tracking

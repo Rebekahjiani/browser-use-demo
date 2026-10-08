@@ -1,0 +1,258 @@
+- RootWebArea "Tony Chachere's More Spice Creole Seasoning - 14 oz" [url="http://127.0.0.1:7770/tony-chachere-s-more-spice-creole-seasoning-14-oz.html"]
+  - generic
+    - banner
+      - generic
+        - link "Skip to Content" [url="http://127.0.0.1:7770/tony-chachere-s-more-spice-creole-seasoning-14-oz.html#contentarea"]
+          - StaticText "Skip to Content"
+      - generic
+        - generic
+          - generic
+            - StaticText ""
+          - StaticText "Toggle Nav"
+        - link "store logo" [url="http://127.0.0.1:7770/"]
+          - image "one_stop_market_logo" [url="http://127.0.0.1:7770/media/logo/websites/1/image_15__1.png"]
+        - generic
+          - link " My Cart" [url="http://127.0.0.1:7770/checkout/cart/"]
+            - generic
+              - StaticText ""
+            - StaticText "My Cart"
+        - form
+          - LabelText
+            - generic
+              - StaticText ""
+            - StaticText "Search"
+          - generic
+            - combobox " Search" [expanded=false]
+              - generic
+    - generic
+      - tablist
+        - tab "Menu" [selected=false] [expanded=true]
+          - link "Menu" [url="http://127.0.0.1:7770/tony-chachere-s-more-spice-creole-seasoning-14-oz.html#store.menu"]
+            - StaticText "Menu"
+        - tabpanel
+          - navigation
+            - menu
+              - menuitem "BEAUTY & PERSONAL CARE "
+                - StaticText "BEAUTY & PERSONAL CARE"
+                - generic
+                  - StaticText ""
+              - menuitem "SPORTS & OUTDOORS "
+                - StaticText "SPORTS & OUTDOORS"
+                - generic
+                  - StaticText ""
+              - menuitem "CLOTHING, SHOES & JEWELRY "
+                - StaticText "CLOTHING, SHOES & JEWELRY"
+                - generic
+                  - StaticText ""
+              - menuitem "HOME & KITCHEN "
+                - StaticText "HOME & KITCHEN"
+                - generic
+                  - StaticText ""
+              - menuitem "OFFICE PRODUCTS "
+                - StaticText "OFFICE PRODUCTS"
+                - generic
+                  - StaticText ""
+              - menuitem "TOOLS & HOME IMPROVEMENT "
+                - StaticText "TOOLS & HOME IMPROVEMENT"
+                - generic
+                  - StaticText ""
+              - menuitem "HEALTH & HOUSEHOLD "
+                - StaticText "HEALTH & HOUSEHOLD"
+                - generic
+                  - StaticText ""
+              - menuitem "PATIO, LAWN & GARDEN "
+                - StaticText "PATIO, LAWN & GARDEN"
+                - generic
+                  - StaticText ""
+              - menuitem "ELECTRONICS "
+                - StaticText "ELECTRONICS"
+                - generic
+                  - StaticText ""
+              - menuitem "CELL PHONES & ACCESSORIES "
+                - StaticText "CELL PHONES & ACCESSORIES"
+                - generic
+                  - StaticText ""
+              - menuitem "VIDEO GAMES "
+                - StaticText "VIDEO GAMES"
+                - generic
+                  - StaticText ""
+              - menuitem "GROCERY & GOURMET FOOD "
+                - StaticText "GROCERY & GOURMET FOOD"
+                - generic
+                  - StaticText ""
+        - tab "Account" [selected=false] [expanded=false]
+          - link "Account" [url="http://127.0.0.1:7770/tony-chachere-s-more-spice-creole-seasoning-14-oz.html#store.links"]
+            - StaticText "Account"
+    - list
+      - listitem [level=1]
+        - link "Home" [url="http://127.0.0.1:7770/"]
+          - StaticText "Home"
+        - generic
+          - StaticText ""
+      - listitem [level=1]
+        - strong
+          - StaticText "Tony Chachere's More Spice Creole Seasoning - 14 oz"
+    - main
+      - generic
+      - heading "Tony Chachere's More Spice Creole Seasoning - 14 oz" [level=1]
+        - StaticText "Tony Chachere's More Spice Creole Seasoning - 14 oz"
+      - generic
+        - generic
+          - StaticText "IN STOCK"
+        - generic
+          - strong
+            - StaticText "SKU"
+          - generic
+            - StaticText "B001Q1J3QY"
+      - LayoutTable
+        - generic
+          - StaticText "Rating:"
+          - generic
+            - generic
+              - StaticText ""
+            - generic
+              - StaticText ""
+            - StaticText "75"
+            - StaticText "% of"
+            - StaticText "100"
+        - generic
+          - link "12 Reviews" [url="http://127.0.0.1:7770/tony-chachere-s-more-spice-creole-seasoning-14-oz.html#reviews"]
+            - StaticText "12"
+            - StaticText
+            - StaticText "Reviews"
+          - link "Add Your Review" [url="http://127.0.0.1:7770/tony-chachere-s-more-spice-creole-seasoning-14-oz.html#review-form"]
+            - StaticText "Add Your Review"
+      - generic
+        - generic
+          - StaticText "$7.92"
+      - form
+        - LabelText
+          - StaticText "Qty"
+        - generic
+          - spinbutton "Qty" [value=1]
+            - generic
+              - StaticText "1"
+        - button "Add to Cart"
+          - StaticText "Add to Cart"
+        - generic
+      - generic
+        - link "Add to Wish List" [url="http://127.0.0.1:7770/tony-chachere-s-more-spice-creole-seasoning-14-oz.html#"]
+          - StaticText "Add to Wish List"
+      - generic
+      - generic
+        - link "Skip to the end of the images gallery" [url="http://127.0.0.1:7770/tony-chachere-s-more-spice-creole-seasoning-14-oz.html#gallery-next-area"]
+          - StaticText "Skip to the end of the images gallery"
+      - generic
+        - generic
+        - generic
+        - generic
+          - generic
+            - generic
+              - generic
+                - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/829a59e57f886f8cf0598ffca4f8a940/B/0/B001Q1J3QY.0.jpg"]
+        - generic
+      - generic
+        - link "Skip to the beginning of the images gallery" [url="http://127.0.0.1:7770/tony-chachere-s-more-spice-creole-seasoning-14-oz.html#gallery-prev-area"]
+          - StaticText "Skip to the beginning of the images gallery"
+      - generic
+      - tablist
+        - tab "Details" [selected=false] [expanded=true]
+          - link "Details" [url="http://127.0.0.1:7770/tony-chachere-s-more-spice-creole-seasoning-14-oz.html#description"]
+            - StaticText "Details"
+        - tabpanel "Details"
+          - generic
+          - generic
+          - generic
+          - generic
+          - generic
+            - heading "Product Quick Look" [level=2]
+              - StaticText "Product Quick Look"
+            - generic
+              - list
+                - listitem [level=1]
+                  - ListMarker "•"
+                  - StaticText "Tony Chacheres More Spice Cajun Seasoning offers a hotter / spicier blend of Cajun seasoning, without adding a salty taste to your Cajun food. Tony Chacheres found that people were adding more of the Tony Chacheres Original Cajun Seasoning to their food for a spicer taste. These customers were complaining that their food was too salty! Hence, Tony Chacheres came out with a spicier blend of the Tony Chacheres Original Cajun Seasoning."
+                - listitem [level=1]
+                  - ListMarker "•"
+                  - StaticText "A spicier blend when you want to step up the heat or reduce the sodium in whatever you're cooking."
+                - listitem [level=1]
+                  - ListMarker "•"
+                  - StaticText "Perfect for seasoning meats, seafood, poultry, vegetables, soups, stews, salads, pasta and barbecue...even popcorn and French fries."
+                - listitem [level=1]
+                  - ListMarker "•"
+                  - StaticText "Great for grilling and marinating."
+                - listitem [level=1]
+                  - ListMarker "•"
+                  - StaticText "Large 14 oz can !!!"
+            - table
+              - row
+                - rowheader "Is Discontinued By Manufacturer ‏"
+                  - StaticText "Is Discontinued By Manufacturer ‏"
+                - cell "‎ No"
+                  - StaticText "‎ No"
+              - row
+                - rowheader "Product Dimensions ‏"
+                  - StaticText "Product Dimensions ‏"
+                - cell "‎ 6 x 3 x 3 inches; 14 Ounces"
+                  - StaticText "‎ 6 x 3 x 3 inches; 14 Ounces"
+              - row
+                - rowheader "UPC ‏"
+                  - StaticText "UPC ‏"
+                - cell "‎ 400060069854 071998001911 074994457287"
+                  - StaticText "‎ 400060069854 071998001911 074994457287"
+              - row
+                - rowheader "Manufacturer ‏"
+                  - StaticText "Manufacturer ‏"
+                - cell "‎ Tony Chachere's Creole Foods"
+                  - StaticText "‎ Tony Chachere's Creole Foods"
+              - row
+                - rowheader "ASIN ‏"
+                  - StaticText "ASIN ‏"
+                - cell "‎ B001Q1J3QY"
+                  - StaticText "‎ B001Q1J3QY"
+              - row
+                - rowheader "#62 in Cajun Seasonings"
+                  - StaticText "#62 in Cajun Seasonings"
+                - cell
+        - tab "Reviews (12)" [selected=false] [expanded=false]
+          - link "Reviews (12)" [url="http://127.0.0.1:7770/tony-chachere-s-more-spice-creole-seasoning-14-oz.html#reviews"]
+            - StaticText "Reviews"
+            - StaticText "("
+            - StaticText "12"
+            - StaticText ")"
+    - contentinfo
+      - form
+        - generic
+          - generic
+            - StaticText ""
+          - LabelText
+            - StaticText "Sign Up for Our Newsletter:"
+            - textbox "Sign Up for Our Newsletter:"
+              - generic
+        - generic
+          - button "Subscribe"
+            - StaticText "Subscribe"
+      - list
+        - listitem [level=1]
+          - link "Privacy and Cookie Policy" [url="http://127.0.0.1:7770/privacy-policy-cookie-restriction-mode/"]
+            - StaticText "Privacy and Cookie Policy"
+        - listitem [level=1]
+          - link "Search Terms" [url="http://127.0.0.1:7770/search/term/popular/"]
+            - StaticText "Search Terms"
+        - listitem [level=1]
+          - link "Advanced Search" [url="http://127.0.0.1:7770/catalogsearch/advanced/"]
+            - StaticText "Advanced Search"
+        - listitem [level=1]
+          - link "Orders and Returns" [url="http://127.0.0.1:7770/sales/guest/form/"]
+            - StaticText "Orders and Returns"
+        - listitem [level=1]
+          - link "Contact Us" [url="http://127.0.0.1:7770/contact/"]
+            - StaticText "Contact Us"
+      - generic
+        - StaticText "Copyright © 2013-present Magento, Inc. All rights reserved."
+      - generic
+        - StaticText "Help Us Keep Magento Healthy"
+        - StaticText
+        - link "Report All Bugs" [url="http://www.magentocommerce.com/bug-tracking"]
+          - StaticText "Report All Bugs"
+    - generic

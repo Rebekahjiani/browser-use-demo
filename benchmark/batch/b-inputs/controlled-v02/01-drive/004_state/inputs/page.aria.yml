@@ -1,0 +1,171 @@
+- RootWebArea "Advanced Search Results" [url="http://127.0.0.1:7770/catalogsearch/advanced/result/?name=&sku=Seed+a26826&description=launch+seed+cnrya1b977edzz&short_description=keynote+seed+cnryca90abd7zz&price%5Bfrom%5D=&price%5Bto%5D=&price%5Bcurrency%5D=USD"]
+  - generic
+    - banner
+      - generic
+        - link "Skip to Content" [url="http://127.0.0.1:7770/catalogsearch/advanced/result/?name=&sku=Seed+a26826&description=launch+seed+cnrya1b977edzz&short_description=keynote+seed+cnryca90abd7zz&price%5Bfrom%5D=&price%5Bto%5D=&price%5Bcurrency%5D=USD#contentarea"]
+          - StaticText "Skip to Content"
+      - generic
+        - generic
+          - generic
+            - StaticText ""
+          - StaticText "Toggle Nav"
+        - link "store logo" [url="http://127.0.0.1:7770/"]
+          - image "one_stop_market_logo" [url="http://127.0.0.1:7770/media/logo/websites/1/image_15__1.png"]
+        - generic
+          - link " My Cart" [url="http://127.0.0.1:7770/checkout/cart/"]
+            - generic
+              - StaticText ""
+            - StaticText "My Cart"
+        - form
+          - LabelText
+            - generic
+              - StaticText ""
+            - StaticText "Search"
+          - generic
+            - combobox " Search" [expanded=false]
+              - generic
+    - generic
+      - tablist
+        - tab "Menu" [selected=false] [expanded=true]
+          - link "Menu" [url="http://127.0.0.1:7770/catalogsearch/advanced/result/?name=&sku=Seed+a26826&description=launch+seed+cnrya1b977edzz&short_description=keynote+seed+cnryca90abd7zz&price%5Bfrom%5D=&price%5Bto%5D=&price%5Bcurrency%5D=USD#store.menu"]
+            - StaticText "Menu"
+        - tabpanel
+          - navigation
+            - menu
+              - menuitem "BEAUTY & PERSONAL CARE "
+                - StaticText "BEAUTY & PERSONAL CARE"
+                - generic
+                  - StaticText ""
+              - menuitem "SPORTS & OUTDOORS "
+                - StaticText "SPORTS & OUTDOORS"
+                - generic
+                  - StaticText ""
+              - menuitem "CLOTHING, SHOES & JEWELRY "
+                - StaticText "CLOTHING, SHOES & JEWELRY"
+                - generic
+                  - StaticText ""
+              - menuitem "HOME & KITCHEN "
+                - StaticText "HOME & KITCHEN"
+                - generic
+                  - StaticText ""
+              - menuitem "OFFICE PRODUCTS "
+                - StaticText "OFFICE PRODUCTS"
+                - generic
+                  - StaticText ""
+              - menuitem "TOOLS & HOME IMPROVEMENT "
+                - StaticText "TOOLS & HOME IMPROVEMENT"
+                - generic
+                  - StaticText ""
+              - menuitem "HEALTH & HOUSEHOLD "
+                - StaticText "HEALTH & HOUSEHOLD"
+                - generic
+                  - StaticText ""
+              - menuitem "PATIO, LAWN & GARDEN "
+                - StaticText "PATIO, LAWN & GARDEN"
+                - generic
+                  - StaticText ""
+              - menuitem "ELECTRONICS "
+                - StaticText "ELECTRONICS"
+                - generic
+                  - StaticText ""
+              - menuitem "CELL PHONES & ACCESSORIES "
+                - StaticText "CELL PHONES & ACCESSORIES"
+                - generic
+                  - StaticText ""
+              - menuitem "VIDEO GAMES "
+                - StaticText "VIDEO GAMES"
+                - generic
+                  - StaticText ""
+              - menuitem "GROCERY & GOURMET FOOD "
+                - StaticText "GROCERY & GOURMET FOOD"
+                - generic
+                  - StaticText ""
+        - tab "Account" [selected=false] [expanded=false]
+          - link "Account" [url="http://127.0.0.1:7770/catalogsearch/advanced/result/?name=&sku=Seed+a26826&description=launch+seed+cnrya1b977edzz&short_description=keynote+seed+cnryca90abd7zz&price%5Bfrom%5D=&price%5Bto%5D=&price%5Bcurrency%5D=USD#store.links"]
+            - StaticText "Account"
+    - list
+      - listitem [level=1]
+        - link "Home" [url="http://127.0.0.1:7770/"]
+          - StaticText "Home"
+        - generic
+          - StaticText ""
+      - listitem [level=1]
+        - link "Catalog Advanced Search" [url="http://127.0.0.1:7770/catalogsearch/advanced/"]
+          - StaticText "Catalog Advanced Search"
+        - generic
+          - StaticText ""
+      - listitem [level=1]
+        - strong
+          - StaticText "Results"
+    - main
+      - generic
+      - heading "Catalog Advanced Search" [level=1]
+        - StaticText "Catalog Advanced Search"
+      - generic
+        - alert
+          - generic
+            - generic
+              - StaticText ""
+            - StaticText "We can't find any items matching these search criteria."
+            - link "Modify your search." [url="http://127.0.0.1:7770/catalogsearch/advanced/?description=launch+seed+cnrya1b977edzz&name=&price%5Bfrom%5D=&price%5Bto%5D=&price%5Bcurrency%5D=USD&short_description=keynote+seed+cnryca90abd7zz&sku=Seed+a26826"]
+              - StaticText "Modify your search."
+        - list
+          - listitem [level=1]
+            - strong
+              - StaticText "SKU:"
+            - StaticText "Seed a26826"
+          - listitem [level=1]
+            - strong
+              - StaticText "Description:"
+            - StaticText "launch seed cnrya1b977edzz"
+        - list
+          - listitem [level=1]
+            - strong
+              - StaticText "Short Description:"
+            - StaticText "keynote seed cnryca90abd7zz"
+        - generic
+          - heading "Compare Products" [level=2]
+            - StaticText "Compare Products"
+        - generic
+          - StaticText "You have no items to compare."
+        - generic
+          - heading "My Wish List" [level=2]
+            - StaticText "My Wish List"
+        - generic
+          - StaticText "You have no items in your wish list."
+    - contentinfo
+      - form
+        - generic
+          - generic
+            - StaticText ""
+          - LabelText
+            - StaticText "Sign Up for Our Newsletter:"
+            - textbox "Sign Up for Our Newsletter:"
+              - generic
+        - generic
+          - button "Subscribe"
+            - StaticText "Subscribe"
+      - list
+        - listitem [level=1]
+          - link "Privacy and Cookie Policy" [url="http://127.0.0.1:7770/privacy-policy-cookie-restriction-mode/"]
+            - StaticText "Privacy and Cookie Policy"
+        - listitem [level=1]
+          - link "Search Terms" [url="http://127.0.0.1:7770/search/term/popular/"]
+            - StaticText "Search Terms"
+        - listitem [level=1]
+          - link "Advanced Search" [url="http://127.0.0.1:7770/catalogsearch/advanced/"]
+            - StaticText "Advanced Search"
+        - listitem [level=1]
+          - link "Orders and Returns" [url="http://127.0.0.1:7770/sales/guest/form/"]
+            - StaticText "Orders and Returns"
+        - listitem [level=1]
+          - link "Contact Us" [url="http://127.0.0.1:7770/contact/"]
+            - StaticText "Contact Us"
+      - generic
+        - StaticText "Copyright © 2013-present Magento, Inc. All rights reserved."
+      - generic
+        - StaticText "Help Us Keep Magento Healthy"
+        - StaticText
+        - link "Report All Bugs" [url="http://www.magentocommerce.com/bug-tracking"]
+          - StaticText "Report All Bugs"
+    - generic

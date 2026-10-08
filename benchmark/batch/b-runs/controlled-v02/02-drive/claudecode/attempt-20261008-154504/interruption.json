@@ -1,0 +1,6 @@
+{
+  "reason": "Repeated bulk preloading and context compaction without any page output; restart with explicit write-before-next-page protocol",
+  "runner_pid": 888,
+  "pid": 8844,
+  "interrupted_at": "2026-10-08T15:59:18.4387201+08:00"
+}

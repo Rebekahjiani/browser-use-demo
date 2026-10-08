@@ -1,0 +1,52 @@
+{
+  "files": [
+    {
+      "file": "C:\\Users\\bulin\\artifacttrace\\templates\\at-template\\tasks\\benchmark-20261008-b-01-browser-use\\claudecode\\entity-extract\\000_state\\output\\concepts.json",
+      "sha256": "923463e72997b1e7f94b22dc893d351ad9f549dcd0c4837fda1db2d69186cd30"
+    },
+    {
+      "file": "C:\\Users\\bulin\\artifacttrace\\templates\\at-template\\tasks\\benchmark-20261008-b-01-browser-use\\claudecode\\entity-extract\\001_state\\output\\concepts.json",
+      "sha256": "119b71ddab20095b2c9a69e7cd4d8773a07b25eb44b3611796752fdf30856d21"
+    },
+    {
+      "file": "C:\\Users\\bulin\\artifacttrace\\templates\\at-template\\tasks\\benchmark-20261008-b-01-browser-use\\claudecode\\entity-extract\\002_state\\output\\concepts.json",
+      "sha256": "c150dd3f3a72b3a76cfe20c34a277b8cabdb40bc77689ecf61899e128d821750"
+    },
+    {
+      "file": "C:\\Users\\bulin\\artifacttrace\\templates\\at-template\\tasks\\benchmark-20261008-b-01-browser-use\\claudecode\\entity-extract\\003_state\\output\\concepts.json",
+      "sha256": "2ed139844e50da169b0b34b8a3bb47a50050753f8e163098df849f875d544cd3"
+    },
+    {
+      "file": "C:\\Users\\bulin\\artifacttrace\\templates\\at-template\\tasks\\benchmark-20261008-b-01-browser-use\\claudecode\\entity-extract\\004_state\\output\\concepts.json",
+      "sha256": "d66135038c77e8cff843d7c187903505554175f414b29f9ff09728627545ebcc"
+    },
+    {
+      "file": "C:\\Users\\bulin\\artifacttrace\\templates\\at-template\\tasks\\benchmark-20261008-b-01-browser-use\\claudecode\\entity-extract\\005_state\\output\\concepts.json",
+      "sha256": "dea1ca7fbe892669c342b36eaf14b8ec4698e2b0b8ad4ec4581e3cd6f02f877f"
+    },
+    {
+      "file": "C:\\Users\\bulin\\artifacttrace\\templates\\at-template\\tasks\\benchmark-20261008-b-01-browser-use\\claudecode\\entity-extract\\006_state\\output\\concepts.json",
+      "sha256": "3dcd381e69a3e4325b1b42398de054d50d69182933707746a4ad60ec73547119"
+    },
+    {
+      "file": "C:\\Users\\bulin\\artifacttrace\\templates\\at-template\\tasks\\benchmark-20261008-b-01-browser-use\\claudecode\\entity-extract\\007_state\\output\\concepts.json",
+      "sha256": "6f2eac566660defd2a1daf1354ba00fb8fed493e7fc5c6349e96e2340f4983f9"
+    },
+    {
+      "file": "C:\\Users\\bulin\\artifacttrace\\templates\\at-template\\tasks\\benchmark-20261008-b-01-browser-use\\claudecode\\entity-extract\\008_state\\output\\concepts.json",
+      "sha256": "cd4810ead74a293f47c7b9f67d9e041c5b3243c464d79a6a178677725c64207e"
+    },
+    {
+      "file": "C:\\Users\\bulin\\artifacttrace\\templates\\at-template\\tasks\\benchmark-20261008-b-01-browser-use\\claudecode\\entity-extract\\009_state\\output\\concepts.json",
+      "sha256": "b29a5878b9bb550a4f574e6cc5df52b8a7c96447db5a1d8f5a1d580a584e7348"
+    },
+    {
+      "file": "C:\\Users\\bulin\\artifacttrace\\templates\\at-template\\tasks\\benchmark-20261008-b-01-browser-use\\claudecode\\entity-extract\\010_state\\output\\concepts.json",
+      "sha256": "d0aef642d9c3a89c2c04b55818bd99def0aed05590c2f9c53755b261ae1e78f0"
+    },
+    {
+      "file": "C:\\Users\\bulin\\artifacttrace\\templates\\at-template\\tasks\\benchmark-20261008-b-01-browser-use\\claudecode\\entity-extract\\011_state\\output\\concepts.json",
+      "sha256": "4b47f8de5781e029b73b04bb2342b6394ec3842ba86a097287386ab45a838570"
+    }
+  ]
+}

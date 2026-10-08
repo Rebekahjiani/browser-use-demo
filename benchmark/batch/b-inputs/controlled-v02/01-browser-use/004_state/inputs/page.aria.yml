@@ -1,0 +1,617 @@
+- RootWebArea "Electronics" [url="http://127.0.0.1:7770/electronics.html"]
+  - generic
+    - banner
+      - generic
+        - link "Skip to Content" [url="http://127.0.0.1:7770/electronics.html#contentarea"]
+          - StaticText "Skip to Content"
+      - generic
+        - generic
+          - generic
+            - StaticText ""
+          - StaticText "Toggle Nav"
+        - link "store logo" [url="http://127.0.0.1:7770/"]
+          - image "one_stop_market_logo" [url="http://127.0.0.1:7770/media/logo/websites/1/image_15__1.png"]
+        - generic
+          - link " My Cart" [url="http://127.0.0.1:7770/checkout/cart/"]
+            - generic
+              - StaticText ""
+            - StaticText "My Cart"
+        - form
+          - LabelText
+            - generic
+              - StaticText ""
+            - StaticText "Search"
+          - generic
+            - combobox " Search" [expanded=false]
+              - generic
+    - generic
+      - tablist
+        - tab "Menu" [selected=false] [expanded=true]
+          - link "Menu" [url="http://127.0.0.1:7770/electronics.html#store.menu"]
+            - StaticText "Menu"
+        - tabpanel
+          - navigation
+            - menu
+              - menuitem "BEAUTY & PERSONAL CARE "
+                - StaticText "BEAUTY & PERSONAL CARE"
+                - generic
+                  - StaticText ""
+              - menuitem "SPORTS & OUTDOORS "
+                - StaticText "SPORTS & OUTDOORS"
+                - generic
+                  - StaticText ""
+              - menuitem "CLOTHING, SHOES & JEWELRY "
+                - StaticText "CLOTHING, SHOES & JEWELRY"
+                - generic
+                  - StaticText ""
+              - menuitem "HOME & KITCHEN "
+                - StaticText "HOME & KITCHEN"
+                - generic
+                  - StaticText ""
+              - menuitem "OFFICE PRODUCTS "
+                - StaticText "OFFICE PRODUCTS"
+                - generic
+                  - StaticText ""
+              - menuitem "TOOLS & HOME IMPROVEMENT "
+                - StaticText "TOOLS & HOME IMPROVEMENT"
+                - generic
+                  - StaticText ""
+              - menuitem "HEALTH & HOUSEHOLD "
+                - StaticText "HEALTH & HOUSEHOLD"
+                - generic
+                  - StaticText ""
+              - menuitem "PATIO, LAWN & GARDEN "
+                - StaticText "PATIO, LAWN & GARDEN"
+                - generic
+                  - StaticText ""
+              - menuitem "ELECTRONICS "
+                - StaticText "ELECTRONICS"
+                - generic
+                  - StaticText ""
+              - menuitem "CELL PHONES & ACCESSORIES "
+                - StaticText "CELL PHONES & ACCESSORIES"
+                - generic
+                  - StaticText ""
+              - menuitem "VIDEO GAMES "
+                - StaticText "VIDEO GAMES"
+                - generic
+                  - StaticText ""
+              - menuitem "GROCERY & GOURMET FOOD "
+                - StaticText "GROCERY & GOURMET FOOD"
+                - generic
+                  - StaticText ""
+        - tab "Account" [selected=false] [expanded=false]
+          - link "Account" [url="http://127.0.0.1:7770/electronics.html#store.links"]
+            - StaticText "Account"
+    - list
+      - listitem [level=1]
+        - link "Home" [url="http://127.0.0.1:7770/"]
+          - StaticText "Home"
+        - generic
+          - StaticText ""
+      - listitem [level=1]
+        - strong
+          - StaticText "Electronics"
+    - main
+      - generic
+      - heading "Electronics Items 1-12 of 14539" [level=1]
+        - StaticText "Electronics"
+      - generic
+        - paragraph
+          - StaticText "Items"
+          - StaticText "1"
+          - StaticText "-"
+          - StaticText "12"
+          - StaticText "of"
+          - StaticText "14539"
+        - generic
+          - LabelText
+            - StaticText "Sort By"
+          - combobox "Sort By" [expanded=false] [value="Position"]
+            - MenuListPopup
+              - option "Position" [selected=true]
+              - option "Product Name" [selected=false]
+              - option "Price" [selected=false]
+          - link " Set Descending Direction" [url="http://127.0.0.1:7770/electronics.html#"]
+            - generic
+              - StaticText ""
+            - StaticText "Set Descending Direction"
+        - list
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/navitech-black-hard-carry-bag-case-cover-with-shoulder-strap-compatible-with-the-vr-virtual-reality-3d-headsets-including-the-crypto-vr-150-virtual-reality-headset-3d-glasses.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B073QQTT4G.0.jpg"]
+              - strong
+                - link "Navitech Black Hard Carry Bag/Case/Cover with Shoulder Strap Compatible with The VR/Virtual Reality 3D headsets Including The Crypto VR 150 Virtual Reality Headset 3D Glasses" [url="http://127.0.0.1:7770/navitech-black-hard-carry-bag-case-cover-with-shoulder-strap-compatible-with-the-vr-virtual-reality-3d-headsets-including-the-crypto-vr-150-virtual-reality-headset-3d-glasses.html"]
+                  - StaticText "Navitech Black Hard Carry Bag/Case/Cover with Shoulder Strap Compatible with The VR/Virtual Reality 3D headsets Including The Crypto VR 150 Virtual Reality Headset 3D Glasses"
+              - generic
+                - generic
+                  - StaticText "$24.99"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/zosi-h-265-poe-home-security-camera-system-outdoor-indoor-8-channel-5mp-poe-nvr-recorder-4pcs-wired-2mp-1080p-surveillance-bullet-poe-ip-cameras-no-hard-drive-renewed.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B07V4D5CTJ.0.jpg"]
+              - strong
+                - link "ZOSI H.265+ PoE Home Security Camera System Outdoor Indoor,8-Channel 5MP PoE NVR Recorder,4pcs Wired 2MP 1080p Surveillance Bullet PoE IP Cameras, No Hard Drive (Renewed)" [url="http://127.0.0.1:7770/zosi-h-265-poe-home-security-camera-system-outdoor-indoor-8-channel-5mp-poe-nvr-recorder-4pcs-wired-2mp-1080p-surveillance-bullet-poe-ip-cameras-no-hard-drive-renewed.html"]
+                  - StaticText "ZOSI H.265+ PoE Home Security Camera System Outdoor Indoor,8-Channel 5MP PoE NVR Recorder,4pcs Wired 2MP 1080p Surveillance Bullet PoE IP Cameras, No Hard Drive (Renewed)"
+              - generic
+                - generic
+                  - StaticText "$169.99"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/indoor-pet-camera-hd-1080p-no-wifi-security-camera-with-night-vision-no-built-in-baterry.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B09SPLH8LR.0.jpg"]
+              - strong
+                - link "Indoor Pet Camera, HD 1080P No WiFi Security Camera with Night Vision-No Built-in Baterry" [url="http://127.0.0.1:7770/indoor-pet-camera-hd-1080p-no-wifi-security-camera-with-night-vision-no-built-in-baterry.html"]
+                  - StaticText "Indoor Pet Camera, HD 1080P No WiFi Security Camera with Night Vision-No Built-in Baterry"
+              - generic
+                - generic
+                  - StaticText "$28.99"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/rockville-ch103sp-chuchero-car-audio-enclosure-for-2-10-mids-2-3-tweeter.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B07H9QBSTX.0.jpg"]
+              - strong
+                - link "Rockville CH103SP Chuchero Car Audio Enclosure For (2) 10\" Mids + (2) 3\" Tweeter" [url="http://127.0.0.1:7770/rockville-ch103sp-chuchero-car-audio-enclosure-for-2-10-mids-2-3-tweeter.html"]
+                  - StaticText "Rockville CH103SP Chuchero Car Audio Enclosure For (2) 10\" Mids + (2) 3\" Tweeter"
+              - generic
+                - generic
+                  - StaticText "$56.68"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/150ft-quad-shield-solid-copper-3ghz-rg-6-coaxial-cable-75-ohm-directv-satellite-tv-or-broadband-internet-anti-corrosion-brass-connector-rg6-fittings-assembled-in-usa-by-phat-satellite-intl.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B01GBZZA48.0.jpg"]
+              - strong
+                - link "150ft Quad Shield Solid Copper 3GHZ RG-6 Coaxial Cable 75 Ohm (DIRECTV Satellite TV or Broadband Internet) Anti Corrosion Brass Connector RG6 Fittings Assembled in USA by PHAT SATELLITE INTL" [url="http://127.0.0.1:7770/150ft-quad-shield-solid-copper-3ghz-rg-6-coaxial-cable-75-ohm-directv-satellite-tv-or-broadband-internet-anti-corrosion-brass-connector-rg6-fittings-assembled-in-usa-by-phat-satellite-intl.html"]
+                  - StaticText "150ft Quad Shield Solid Copper 3GHZ RG-6 Coaxial Cable 75 Ohm (DIRECTV Satellite TV or Broadband Internet) Anti Corrosion Brass Connector RG6 Fittings Assembled in USA by PHAT SATELLITE INTL"
+              - generic
+                - generic
+                  - StaticText "$57.71"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/multi-accessory-hub-adapter-by-joby-get-the-right-set-up-for-your-vision-by-attaching-all-the-gopro-accessories-you-need-in-one-central-spot.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B00RZEYSE8.0.jpg"]
+              - strong
+                - link "Multi Accessory Hub Adapter By JOBY – Get The Right Set Up For Your Vision By Attaching All The GoPro Accessories You Need In One Central Spot" [url="http://127.0.0.1:7770/multi-accessory-hub-adapter-by-joby-get-the-right-set-up-for-your-vision-by-attaching-all-the-gopro-accessories-you-need-in-one-central-spot.html"]
+                  - StaticText "Multi Accessory Hub Adapter By JOBY – Get The Right Set Up For Your Vision By Attaching All The GoPro Accessories You Need In One Central Spot"
+              - LayoutTable
+                - generic
+                  - StaticText "Rating:"
+                  - generic
+                    - generic
+                      - StaticText ""
+                    - generic
+                      - StaticText ""
+                    - StaticText "90%"
+                - generic
+                  - link "12 Reviews" [url="http://127.0.0.1:7770/multi-accessory-hub-adapter-by-joby-get-the-right-set-up-for-your-vision-by-attaching-all-the-gopro-accessories-you-need-in-one-central-spot.html#reviews"]
+                    - StaticText "12"
+                    - StaticText "Reviews"
+              - generic
+                - generic
+                  - StaticText "$14.95"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/intel-nuc-kit-nuc6i7kyk-mini-pc-no-power-cord.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B01DJ9XID4.0.jpg"]
+              - strong
+                - link "Intel NUC Kit NUC6i7KYK Mini PC-no Power Cord" [url="http://127.0.0.1:7770/intel-nuc-kit-nuc6i7kyk-mini-pc-no-power-cord.html"]
+                  - StaticText "Intel NUC Kit NUC6i7KYK Mini PC-no Power Cord"
+              - generic
+                - generic
+                  - StaticText "$599.99"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/cg7060-apollo-transparency-film-letter-8-50quot-x-11quot-50-box-transparent.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B015G8E75O.0.jpg"]
+              - strong
+                - link "CG7060 Apollo Transparency Film - Letter - 8.50quot; x 11quot; - 50 / Box - Transparent" [url="http://127.0.0.1:7770/cg7060-apollo-transparency-film-letter-8-50quot-x-11quot-50-box-transparent.html"]
+                  - StaticText "CG7060 Apollo Transparency Film - Letter - 8.50quot; x 11quot; - 50 / Box - Transparent"
+              - generic
+                - generic
+                  - StaticText "$42.65"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/sceptre-e195bd-srr-19-inch-720p-led-tv-true-black-2017.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B01MY87FWG.0.jpg"]
+              - strong
+                - link "Sceptre E195BD-SRR 19-Inch 720P LED TV, True Black (2017)" [url="http://127.0.0.1:7770/sceptre-e195bd-srr-19-inch-720p-led-tv-true-black-2017.html"]
+                  - StaticText "Sceptre E195BD-SRR 19-Inch 720P LED TV, True Black (2017)"
+              - generic
+                - generic
+                  - StaticText "$209.99"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/sandisk-cruzer-glide-32gb-5-pack-usb-2-0-flash-drive-sdcz60-032g-pen-drive-bundle-with-2-everything-but-stromboli-lanyards.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B00XJXYONO.0.jpg"]
+              - strong
+                - link "SanDisk Cruzer Glide 32GB (5 Pack) USB 2.0 Flash Drive (SDCZ60-032G) Pen Drive Bundle with (2) Everything But Stromboli Lanyards" [url="http://127.0.0.1:7770/sandisk-cruzer-glide-32gb-5-pack-usb-2-0-flash-drive-sdcz60-032g-pen-drive-bundle-with-2-everything-but-stromboli-lanyards.html"]
+                  - StaticText "SanDisk Cruzer Glide 32GB (5 Pack) USB 2.0 Flash Drive (SDCZ60-032G) Pen Drive Bundle with (2) Everything But Stromboli Lanyards"
+              - LayoutTable
+                - generic
+                  - StaticText "Rating:"
+                  - generic
+                    - generic
+                      - StaticText ""
+                    - generic
+                      - StaticText ""
+                    - StaticText "70%"
+                - generic
+                  - link "12 Reviews" [url="http://127.0.0.1:7770/sandisk-cruzer-glide-32gb-5-pack-usb-2-0-flash-drive-sdcz60-032g-pen-drive-bundle-with-2-everything-but-stromboli-lanyards.html#reviews"]
+                    - StaticText "12"
+                    - StaticText "Reviews"
+              - generic
+                - generic
+                  - StaticText "$34.46"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/linxiaojix-waterproof-shell-for-osmo-pocket-camera-case-camera-cover-diving-cover-for-osmo-pocket-60m-waterproof-for-travel-trip.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B09SYB25J1.0.jpg"]
+              - strong
+                - link "linxiaojix Waterproof Shell for Osmo Pocket, Camera Case Camera Cover Diving Cover for Osmo Pocket, 60M Waterproof for Travel Trip" [url="http://127.0.0.1:7770/linxiaojix-waterproof-shell-for-osmo-pocket-camera-case-camera-cover-diving-cover-for-osmo-pocket-60m-waterproof-for-travel-trip.html"]
+                  - StaticText "linxiaojix Waterproof Shell for Osmo Pocket, Camera Case Camera Cover Diving Cover for Osmo Pocket, 60M Waterproof for Travel Trip"
+              - generic
+                - generic
+                  - StaticText "$17.76"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/replacement-battery-for-garmin-montana-600-600t-650-650t-600t-camo-680-680t-fit-part-no-361-00053-00-010-11599-00-2200mah.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B09246TXSV.0.jpg"]
+              - strong
+                - link "Replacement Battery for Garmin Montana 600 600T 650 650T 600t Camo 680 680T,fit Part No 361-00053-00 010-11599-00, 2200mAh" [url="http://127.0.0.1:7770/replacement-battery-for-garmin-montana-600-600t-650-650t-600t-camo-680-680t-fit-part-no-361-00053-00-010-11599-00-2200mah.html"]
+                  - StaticText "Replacement Battery for Garmin Montana 600 600T 650 650T 600t Camo 680 680T,fit Part No 361-00053-00 010-11599-00, 2200mAh"
+              - LayoutTable
+                - generic
+                  - StaticText "Rating:"
+                  - generic
+                    - generic
+                      - StaticText ""
+                    - generic
+                      - StaticText ""
+                    - StaticText "80%"
+                - generic
+                  - link "3 Reviews" [url="http://127.0.0.1:7770/replacement-battery-for-garmin-montana-600-600t-650-650t-600t-camo-680-680t-fit-part-no-361-00053-00-010-11599-00-2200mah.html#reviews"]
+                    - StaticText "3"
+                    - StaticText "Reviews"
+              - generic
+                - generic
+                  - StaticText "$25.99"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+        - generic
+          - strong
+            - StaticText "Page"
+          - list "Page"
+            - listitem [level=1]
+              - strong
+                - StaticText "You're currently reading page"
+                - StaticText "1"
+            - listitem [level=1]
+              - link "Page 2" [url="http://127.0.0.1:7770/electronics.html?p=2"]
+                - StaticText "Page"
+                - StaticText "2"
+            - listitem [level=1]
+              - link "Page 3" [url="http://127.0.0.1:7770/electronics.html?p=3"]
+                - StaticText "Page"
+                - StaticText "3"
+            - listitem [level=1]
+              - link "Page 4" [url="http://127.0.0.1:7770/electronics.html?p=4"]
+                - StaticText "Page"
+                - StaticText "4"
+            - listitem [level=1]
+              - link "Page 5" [url="http://127.0.0.1:7770/electronics.html?p=5"]
+                - StaticText "Page"
+                - StaticText "5"
+            - listitem [level=1]
+              - link " Page Next" [url="http://127.0.0.1:7770/electronics.html?p=2"]
+                - generic
+                  - StaticText ""
+                - StaticText "Page"
+                - StaticText "Next"
+        - generic
+          - strong
+            - StaticText "Shop By"
+        - heading "Shopping Options" [level=2]
+          - StaticText "Shopping Options"
+        - DescriptionList
+          - heading "Category" [level=3]
+            - StaticText "Category"
+          - definition
+            - list
+              - listitem [level=1]
+                - link "Home Audio( 1280 item )" [url="http://127.0.0.1:7770/electronics.html?cat=51"]
+                  - StaticText "Home Audio"
+                  - StaticText "("
+                  - StaticText "1280"
+                  - StaticText "item"
+                  - StaticText ")"
+              - listitem [level=1]
+                - link "Video Projectors( 484 item )" [url="http://127.0.0.1:7770/electronics.html?cat=52"]
+                  - StaticText "Video Projectors"
+                  - StaticText "("
+                  - StaticText "484"
+                  - StaticText "item"
+                  - StaticText ")"
+              - listitem [level=1]
+                - link "Accessories & Supplies( 2409 item )" [url="http://127.0.0.1:7770/electronics.html?cat=53"]
+                  - StaticText "Accessories & Supplies"
+                  - StaticText "("
+                  - StaticText "2409"
+                  - StaticText "item"
+                  - StaticText ")"
+              - listitem [level=1]
+                - link "Television & Video( 1083 item )" [url="http://127.0.0.1:7770/electronics.html?cat=54"]
+                  - StaticText "Television & Video"
+                  - StaticText "("
+                  - StaticText "1083"
+                  - StaticText "item"
+                  - StaticText ")"
+              - listitem [level=1]
+                - link "Camera & Photo( 3512 item )" [url="http://127.0.0.1:7770/electronics.html?cat=55"]
+                  - StaticText "Camera & Photo"
+                  - StaticText "("
+                  - StaticText "3512"
+                  - StaticText "item"
+                  - StaticText ")"
+              - listitem [level=1]
+                - link "Computers & Accessories( 2929 item )" [url="http://127.0.0.1:7770/electronics.html?cat=56"]
+                  - StaticText "Computers & Accessories"
+                  - StaticText "("
+                  - StaticText "2929"
+                  - StaticText "item"
+                  - StaticText ")"
+              - listitem [level=1]
+                - link "Headphones( 631 item )" [url="http://127.0.0.1:7770/electronics.html?cat=60"]
+                  - StaticText "Headphones"
+                  - StaticText "("
+                  - StaticText "631"
+                  - StaticText "item"
+                  - StaticText ")"
+              - listitem [level=1]
+                - link "Portable Audio & Video( 824 item )" [url="http://127.0.0.1:7770/electronics.html?cat=62"]
+                  - StaticText "Portable Audio & Video"
+                  - StaticText "("
+                  - StaticText "824"
+                  - StaticText "item"
+                  - StaticText ")"
+              - listitem [level=1]
+                - link "Security & Surveillance( 249 item )" [url="http://127.0.0.1:7770/electronics.html?cat=63"]
+                  - StaticText "Security & Surveillance"
+                  - StaticText "("
+                  - StaticText "249"
+                  - StaticText "item"
+                  - StaticText ")"
+              - listitem [level=1]
+                - link "Power Accessories( 243 item )" [url="http://127.0.0.1:7770/electronics.html?cat=64"]
+                  - StaticText "Power Accessories"
+                  - StaticText "("
+                  - StaticText "243"
+                  - StaticText "item"
+                  - StaticText ")"
+              - listitem [level=1]
+                - link "Car & Vehicle Electronics( 635 item )" [url="http://127.0.0.1:7770/electronics.html?cat=65"]
+                  - StaticText "Car & Vehicle Electronics"
+                  - StaticText "("
+                  - StaticText "635"
+                  - StaticText "item"
+                  - StaticText ")"
+              - listitem [level=1]
+                - link "Wearable Technology( 120 item )" [url="http://127.0.0.1:7770/electronics.html?cat=68"]
+                  - StaticText "Wearable Technology"
+                  - StaticText "("
+                  - StaticText "120"
+                  - StaticText "item"
+                  - StaticText ")"
+              - listitem [level=1]
+                - link "GPS, Finders & Accessories( 102 item )" [url="http://127.0.0.1:7770/electronics.html?cat=69"]
+                  - StaticText "GPS, Finders & Accessories"
+                  - StaticText "("
+                  - StaticText "102"
+                  - StaticText "item"
+                  - StaticText ")"
+          - heading "Price" [level=3]
+            - StaticText "Price"
+          - definition
+            - list
+              - listitem [level=1]
+                - link "$0.00 - $9,999.99( 14528 item )" [url="http://127.0.0.1:7770/electronics.html?price=0-10000"]
+                  - StaticText "$0.00"
+                  - StaticText "-"
+                  - StaticText "$9,999.99"
+                  - StaticText "("
+                  - StaticText "14528"
+                  - StaticText "item"
+                  - StaticText ")"
+              - listitem [level=1]
+                - link "$10,000.00 - $19,999.99( 9 item )" [url="http://127.0.0.1:7770/electronics.html?price=10000-20000"]
+                  - StaticText "$10,000.00"
+                  - StaticText "-"
+                  - StaticText "$19,999.99"
+                  - StaticText "("
+                  - StaticText "9"
+                  - StaticText "item"
+                  - StaticText ")"
+              - listitem [level=1]
+                - link "$20,000.00 and above( 1 item )" [url="http://127.0.0.1:7770/electronics.html?price=20000-30000"]
+                  - StaticText "$20,000.00"
+                  - StaticText "and above"
+                  - StaticText "("
+                  - StaticText "1"
+                  - StaticText "item"
+                  - StaticText ")"
+        - generic
+          - heading "Compare Products" [level=2]
+            - StaticText "Compare Products"
+        - generic
+          - StaticText "You have no items to compare."
+        - generic
+          - heading "My Wish List" [level=2]
+            - StaticText "My Wish List"
+        - generic
+          - StaticText "You have no items in your wish list."
+    - contentinfo
+      - form
+        - generic
+          - generic
+            - StaticText ""
+          - LabelText
+            - StaticText "Sign Up for Our Newsletter:"
+            - textbox "Sign Up for Our Newsletter:"
+              - generic
+        - generic
+          - button "Subscribe"
+            - StaticText "Subscribe"
+      - list
+        - listitem [level=1]
+          - link "Privacy and Cookie Policy" [url="http://127.0.0.1:7770/privacy-policy-cookie-restriction-mode/"]
+            - StaticText "Privacy and Cookie Policy"
+        - listitem [level=1]
+          - link "Search Terms" [url="http://127.0.0.1:7770/search/term/popular/"]
+            - StaticText "Search Terms"
+        - listitem [level=1]
+          - link "Advanced Search" [url="http://127.0.0.1:7770/catalogsearch/advanced/"]
+            - StaticText "Advanced Search"
+        - listitem [level=1]
+          - link "Orders and Returns" [url="http://127.0.0.1:7770/sales/guest/form/"]
+            - StaticText "Orders and Returns"
+        - listitem [level=1]
+          - link "Contact Us" [url="http://127.0.0.1:7770/contact/"]
+            - StaticText "Contact Us"
+      - generic
+        - StaticText "Copyright © 2013-present Magento, Inc. All rights reserved."
+      - generic
+        - StaticText "Help Us Keep Magento Healthy"
+        - StaticText
+        - link "Report All Bugs" [url="http://www.magentocommerce.com/bug-tracking"]
+          - StaticText "Report All Bugs"
+    - generic

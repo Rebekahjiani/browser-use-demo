@@ -1,0 +1,10 @@
+{
+  "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care.html?cat=118&product_list_dir=desc",
+  "title": "Oral Care - Beauty & Personal Care",
+  "route": "/beauty-personal-care/oral-care.html",
+  "sources": {
+    "accessibility": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\02-drive\\trace\\26_10_08_11_46_19-min\\drive\\screenshots\\013_beauty-personal-care_oral-care_html\\accessibility.json",
+    "sha256_AX": "1ab547758f812de4c42c8dd5dcc50ea0dc12f3a7a0b08a025e55cbfe50b99499"
+  },
+  "material_scope": "recorded UI and conservatively associated JSON responses"
+}

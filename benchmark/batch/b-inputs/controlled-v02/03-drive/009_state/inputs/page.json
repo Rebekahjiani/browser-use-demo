@@ -1,0 +1,10 @@
+{
+  "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/dental-floss-picks.html",
+  "title": "Dental Floss & Picks - Oral Care - Beauty & Personal Care",
+  "route": "/beauty-personal-care/oral-care/dental-floss-picks.html",
+  "sources": {
+    "accessibility": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\03-drive\\trace\\26_10_08_12_12_08-min\\drive\\screenshots\\010_beauty-personal-care_oral-care_dental-floss-picks_html\\accessibility.json",
+    "sha256_AX": "8b23c783ab5f4ce1275e01767c4a78f1cfcf42d9940c3afa355a734b4179321a"
+  },
+  "material_scope": "recorded UI and conservatively associated JSON responses"
+}

@@ -1,0 +1,1455 @@
+{
+  "ok": true,
+  "exploreId": "e331d5ae-52ac-4e4a-9198-32681e2c485e",
+  "state": "completed",
+  "profileId": "0b34fc8b-c79b-47f5-b250-7886f54a71af",
+  "startedAt": "2026-10-08T03:08:16.224Z",
+  "finishedAt": "2026-10-08T03:28:55.039Z",
+  "result": {
+    "run": {
+      "id": "e331d5ae-52ac-4e4a-9198-32681e2c485e",
+      "startedAt": "2026-10-08T03:08:16.224Z",
+      "finishedAt": "2026-10-08T03:28:55.039Z",
+      "durationMs": 1238815,
+      "target": "http://127.0.0.1:7770/",
+      "complete": true
+    },
+    "config": {
+      "seed": "controlled-20261008-1",
+      "maxActions": 200,
+      "maxDurationMs": 1800000,
+      "allowSubmit": true
+    },
+    "stats": {
+      "actionsTaken": 62,
+      "pagesVisited": 27,
+      "statesDiscovered": 40,
+      "recordsCreated": 5,
+      "findingsBySeverity": {
+        "critical": 0,
+        "high": 20,
+        "medium": 22,
+        "low": 36,
+        "info": 6
+      }
+    },
+    "actions": [
+      {
+        "step": 0,
+        "kind": "dblclick",
+        "stateHash": "543756ab",
+        "fp": "f0e5d412",
+        "target": ".product-image-container-104488 { width: 240px; } .product-image-container-10448",
+        "selector": "body:nth-child(2) > div:nth-child(8) > main:nth-child(3) > div:nth-child(4) > div:nth-child(1) > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > ol:nth-child(1) > li:nth-child(12) > div:nth-child(1) > a:nth-child(1)",
+        "url": "http://127.0.0.1:7770/",
+        "ts": 1791428910037,
+        "navigated": false
+      },
+      {
+        "step": 1,
+        "kind": "hover",
+        "stateHash": "7d90a310",
+        "fp": "474c9aba",
+        "target": "Orders and Returns",
+        "selector": "body:nth-child(2) > div:nth-child(8) > footer:nth-child(5) > div:nth-child(1) > ul:nth-child(2) > li:nth-child(4) > a:nth-child(1)",
+        "url": "http://127.0.0.1:7770/crunchy-rice-rollers-gluten-free-vegan-3-5-oz-individual-packs-4-packs-of-8-rollers.html",
+        "ts": 1791428928681,
+        "navigated": false
+      },
+      {
+        "step": 2,
+        "kind": "key",
+        "stateHash": "7d90a310",
+        "fp": "317b4699",
+        "target": "White Rice",
+        "selector": "body:nth-child(2) > div:nth-child(8) > main:nth-child(4) > div:nth-child(4) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > form:nth-child(1) > div:nth-child(6) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > label:nth-child(2)",
+        "value": "ArrowUp",
+        "url": "http://127.0.0.1:7770/crunchy-rice-rollers-gluten-free-vegan-3-5-oz-individual-packs-4-packs-of-8-rollers.html",
+        "ts": 1791428929123,
+        "navigated": false
+      },
+      {
+        "step": 3,
+        "kind": "click",
+        "stateHash": "7d90a310",
+        "fp": "0410f8da",
+        "target": "Image",
+        "selector": "body:nth-child(2) > div:nth-child(8) > main:nth-child(4) > div:nth-child(4) > div:nth-child(1) > div:nth-child(2) > div:nth-child(3) > div:nth-child(3) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(4)",
+        "url": "http://127.0.0.1:7770/crunchy-rice-rollers-gluten-free-vegan-3-5-oz-individual-packs-4-packs-of-8-rollers.html",
+        "ts": 1791428929632,
+        "navigated": false
+      },
+      {
+        "step": 4,
+        "kind": "submit-form",
+        "stateHash": "7d90a310",
+        "target": "Add to Cart",
+        "value": "2 fields → created",
+        "url": "http://127.0.0.1:7770/crunchy-rice-rollers-gluten-free-vegan-3-5-oz-individual-packs-4-packs-of-8-rollers.html",
+        "ts": 1791428930982,
+        "navigated": false,
+        "formKey": "body:1>div:7>main:3>div:3>div:0>div:0>div:1>form:0",
+        "fieldsFilled": 2,
+        "retries": 0,
+        "submitted": true
+      },
+      {
+        "step": 5,
+        "kind": "scroll",
+        "stateHash": "7d90a310",
+        "url": "http://127.0.0.1:7770/crunchy-rice-rollers-gluten-free-vegan-3-5-oz-individual-packs-4-packs-of-8-rollers.html",
+        "ts": 1791428946735,
+        "navigated": false
+      },
+      {
+        "step": 6,
+        "kind": "back",
+        "stateHash": "7d90a310",
+        "url": "http://127.0.0.1:7770/crunchy-rice-rollers-gluten-free-vegan-3-5-oz-individual-packs-4-packs-of-8-rollers.html",
+        "ts": 1791428948043,
+        "navigated": true
+      },
+      {
+        "step": 7,
+        "kind": "back",
+        "stateHash": "543756ab",
+        "url": "http://127.0.0.1:7770/",
+        "ts": 1791428959113,
+        "navigated": true
+      },
+      {
+        "step": 10,
+        "kind": "scroll",
+        "stateHash": "6e0ca411",
+        "url": "http://127.0.0.1:7770/checkout/cart/",
+        "ts": 1791428975180,
+        "navigated": false
+      },
+      {
+        "step": 11,
+        "kind": "click",
+        "stateHash": "6e0ca411",
+        "fp": "c0627a5f",
+        "target": "Enter your email address",
+        "selector": "#newsletter",
+        "url": "http://127.0.0.1:7770/checkout/cart/",
+        "ts": 1791428975475,
+        "navigated": false
+      },
+      {
+        "step": 12,
+        "kind": "scroll",
+        "stateHash": "6e0ca411",
+        "url": "http://127.0.0.1:7770/checkout/cart/",
+        "ts": 1791428975699,
+        "navigated": false
+      },
+      {
+        "step": 13,
+        "kind": "scroll",
+        "stateHash": "6e0ca411",
+        "url": "http://127.0.0.1:7770/checkout/cart/",
+        "ts": 1791428975944,
+        "navigated": false
+      },
+      {
+        "step": 14,
+        "kind": "click",
+        "stateHash": "6e0ca411",
+        "fp": "7568f857",
+        "target": "Report All Bugs",
+        "selector": "body:nth-child(2) > div:nth-child(8) > footer:nth-child(4) > div:nth-child(1) > small:nth-child(4) > a:nth-child(2)",
+        "url": "http://127.0.0.1:7770/checkout/cart/",
+        "ts": 1791428976492,
+        "navigated": false
+      },
+      {
+        "step": 16,
+        "kind": "forward",
+        "stateHash": "6e0ca411",
+        "url": "http://127.0.0.1:7770/checkout/cart/",
+        "ts": 1791428983047,
+        "navigated": true
+      },
+      {
+        "step": 53,
+        "kind": "submit-form",
+        "stateHash": "a4174385",
+        "target": "Search",
+        "value": "3 fields → created",
+        "url": "http://127.0.0.1:7770/catalogsearch/advanced/",
+        "ts": 1791429293871,
+        "navigated": false,
+        "formKey": "html:0>body:1>div:7>main:3>div:3>div:0>form:3",
+        "fieldsFilled": 3,
+        "retries": 0,
+        "submitted": true
+      },
+      {
+        "step": 54,
+        "kind": "scroll",
+        "stateHash": "16f17e42",
+        "url": "http://127.0.0.1:7770/catalogsearch/advanced/result/?name=&sku=Seed+a26826&description=launch+seed+cnrya1b977edzz&short_description=keynote+seed+cnryca90abd7zz&price%5Bfrom%5D=&price%5Bto%5D=&price%5Bcurrency%5D=USD",
+        "ts": 1791429300514,
+        "navigated": false
+      },
+      {
+        "step": 55,
+        "kind": "scroll",
+        "stateHash": "16f17e42",
+        "url": "http://127.0.0.1:7770/catalogsearch/advanced/result/?name=&sku=Seed+a26826&description=launch+seed+cnrya1b977edzz&short_description=keynote+seed+cnryca90abd7zz&price%5Bfrom%5D=&price%5Bto%5D=&price%5Bcurrency%5D=USD",
+        "ts": 1791429300896,
+        "navigated": false
+      },
+      {
+        "step": 56,
+        "kind": "key",
+        "stateHash": "16f17e42",
+        "fp": "58f94cd9",
+        "target": "store logo",
+        "selector": "body:nth-child(2) > div:nth-child(8) > header:nth-child(1) > div:nth-child(2) > a:nth-child(2)",
+        "value": "PageDown",
+        "url": "http://127.0.0.1:7770/catalogsearch/advanced/result/?name=&sku=Seed+a26826&description=launch+seed+cnrya1b977edzz&short_description=keynote+seed+cnryca90abd7zz&price%5Bfrom%5D=&price%5Bto%5D=&price%5Bcurrency%5D=USD",
+        "ts": 1791429301185,
+        "navigated": false
+      },
+      {
+        "step": 59,
+        "kind": "key",
+        "stateHash": "16f17e42",
+        "fp": "314b3ea4",
+        "target": "Menu",
+        "selector": "body:nth-child(2) > div:nth-child(8) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > a:nth-child(1)",
+        "value": "ArrowRight",
+        "url": "http://127.0.0.1:7770/catalogsearch/advanced/result/?name=&sku=Seed+a26826&description=launch+seed+cnrya1b977edzz&short_description=keynote+seed+cnryca90abd7zz&price%5Bfrom%5D=&price%5Bto%5D=&price%5Bcurrency%5D=USD",
+        "ts": 1791429308274,
+        "navigated": false
+      },
+      {
+        "step": 61,
+        "kind": "scroll",
+        "stateHash": "16f17e42",
+        "url": "http://127.0.0.1:7770/catalogsearch/advanced/result/?name=&sku=Seed+a26826&description=launch+seed+cnrya1b977edzz&short_description=keynote+seed+cnryca90abd7zz&price%5Bfrom%5D=&price%5Bto%5D=&price%5Bcurrency%5D=USD",
+        "ts": 1791429311852,
+        "navigated": false
+      },
+      {
+        "step": 63,
+        "kind": "submit-form",
+        "stateHash": "4e718433",
+        "target": "Add to Wish List",
+        "value": "1 fields → created",
+        "url": "http://127.0.0.1:7770/beauty-personal-care.html",
+        "ts": 1791429332244,
+        "navigated": false,
+        "formKey": "page",
+        "fieldsFilled": 1,
+        "retries": 0,
+        "submitted": true
+      },
+      {
+        "step": 64,
+        "kind": "forward",
+        "stateHash": "4e718433",
+        "url": "http://127.0.0.1:7770/beauty-personal-care.html",
+        "ts": 1791429332803,
+        "navigated": false
+      },
+      {
+        "step": 65,
+        "kind": "key",
+        "stateHash": "4e718433",
+        "fp": "f0640d92",
+        "target": "Add to Wish List",
+        "selector": "body:nth-child(2) > div:nth-child(8) > main:nth-child(4) > div:nth-child(4) > div:nth-child(1) > div:nth-child(4) > ol:nth-child(1) > li:nth-child(8) > div:nth-child(1) > div:nth-child(2) > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > a:nth-child(1)",
+        "value": "Delete",
+        "url": "http://127.0.0.1:7770/beauty-personal-care.html",
+        "ts": 1791429333294,
+        "navigated": false
+      },
+      {
+        "step": 66,
+        "kind": "click",
+        "stateHash": "4e718433",
+        "fp": "37288c8f",
+        "target": "Add to Wish List",
+        "selector": "body:nth-child(2) > div:nth-child(8) > main:nth-child(4) > div:nth-child(4) > div:nth-child(1) > div:nth-child(4) > ol:nth-child(1) > li:nth-child(12) > div:nth-child(1) > div:nth-child(2) > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > a:nth-child(1)",
+        "url": "http://127.0.0.1:7770/beauty-personal-care.html",
+        "ts": 1791429333663,
+        "navigated": false
+      },
+      {
+        "step": 76,
+        "kind": "key",
+        "stateHash": "f460ae98",
+        "fp": "a7fa1ccb",
+        "target": "Polident Overnight Whitening Denture Cleanser 120 Tablets (Pack of 2)",
+        "selector": "body:nth-child(2) > div:nth-child(8) > main:nth-child(4) > div:nth-child(4) > div:nth-child(1) > div:nth-child(4) > ol:nth-child(1) > li:nth-child(12) > div:nth-child(1) > div:nth-child(2) > strong:nth-child(1) > a:nth-child(1)",
+        "value": "PageUp",
+        "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care.html",
+        "ts": 1791429412657,
+        "navigated": false
+      },
+      {
+        "step": 77,
+        "kind": "key",
+        "stateHash": "f460ae98",
+        "fp": "0c5516c4",
+        "target": ".product-image-container-6584 { width: 240px; } .product-image-container-6584 sp",
+        "selector": "body:nth-child(2) > div:nth-child(8) > main:nth-child(4) > div:nth-child(4) > div:nth-child(1) > div:nth-child(4) > ol:nth-child(1) > li:nth-child(8) > div:nth-child(1) > a:nth-child(1)",
+        "value": "Enter",
+        "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care.html",
+        "ts": 1791429412973,
+        "navigated": false
+      },
+      {
+        "step": 80,
+        "kind": "scroll",
+        "stateHash": "470c35b2",
+        "url": "http://127.0.0.1:7770/crest-pro-health-intense-mouthwash-antigingivitis-antiplaque-pack-of-4.html",
+        "ts": 1791429421215,
+        "navigated": false
+      },
+      {
+        "step": 81,
+        "kind": "click",
+        "stateHash": "470c35b2",
+        "fp": "58117e7c",
+        "target": "Details",
+        "selector": "#tab-label-description",
+        "url": "http://127.0.0.1:7770/crest-pro-health-intense-mouthwash-antigingivitis-antiplaque-pack-of-4.html",
+        "ts": 1791429421586,
+        "navigated": false
+      },
+      {
+        "step": 83,
+        "kind": "submit-form",
+        "stateHash": "470c35b2",
+        "target": "Add to Cart",
+        "value": "0 fields → created",
+        "url": "http://127.0.0.1:7770/crest-pro-health-intense-mouthwash-antigingivitis-antiplaque-pack-of-4.html",
+        "ts": 1791429425201,
+        "navigated": false,
+        "formKey": "body:1>div:7>main:3>div:3>div:0>div:0>div:1>form:0",
+        "fieldsFilled": 0,
+        "retries": 0,
+        "submitted": true
+      },
+      {
+        "step": 85,
+        "kind": "click",
+        "stateHash": "561e6652",
+        "fp": "5f8d4ee1",
+        "target": "Details",
+        "selector": "#tab-label-description-title",
+        "url": "http://127.0.0.1:7770/crest-pro-health-intense-mouthwash-antigingivitis-antiplaque-pack-of-4.html",
+        "ts": 1791429432828,
+        "navigated": false
+      },
+      {
+        "step": 86,
+        "kind": "forward",
+        "stateHash": "561e6652",
+        "url": "http://127.0.0.1:7770/crest-pro-health-intense-mouthwash-antigingivitis-antiplaque-pack-of-4.html",
+        "ts": 1791429433077,
+        "navigated": false
+      },
+      {
+        "step": 87,
+        "kind": "click",
+        "stateHash": "561e6652",
+        "fp": "0a765000",
+        "target": "Search Terms",
+        "selector": "body:nth-child(2) > div:nth-child(8) > footer:nth-child(5) > div:nth-child(1) > ul:nth-child(2) > li:nth-child(2) > a:nth-child(1)",
+        "url": "http://127.0.0.1:7770/crest-pro-health-intense-mouthwash-antigingivitis-antiplaque-pack-of-4.html",
+        "ts": 1791429433443,
+        "navigated": false
+      },
+      {
+        "step": 97,
+        "kind": "back",
+        "stateHash": "8094aa08",
+        "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/toothbrushes-accessories.html",
+        "ts": 1791429512429,
+        "navigated": true
+      },
+      {
+        "step": 107,
+        "kind": "dblclick",
+        "stateHash": "d20f5deb",
+        "fp": "17afe5b1",
+        "target": "Add to Wish List",
+        "selector": "body:nth-child(2) > div:nth-child(8) > main:nth-child(4) > div:nth-child(4) > div:nth-child(1) > div:nth-child(4) > ol:nth-child(1) > li:nth-child(7) > div:nth-child(1) > div:nth-child(2) > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > a:nth-child(1)",
+        "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/dental-floss-picks.html",
+        "ts": 1791429587718,
+        "navigated": false
+      },
+      {
+        "step": 116,
+        "kind": "hover",
+        "stateHash": "ab216a73",
+        "fp": "7e01a659",
+        "target": "Dental Gutta Percha Endodontics System Endodontic Heated Pen with 2 Tips Oral Ca",
+        "selector": "body:nth-child(2) > div:nth-child(8) > main:nth-child(4) > div:nth-child(4) > div:nth-child(1) > div:nth-child(4) > ol:nth-child(1) > li:nth-child(6) > div:nth-child(1) > div:nth-child(2) > strong:nth-child(1) > a:nth-child(1)",
+        "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/orthodontic-supplies.html",
+        "ts": 1791429659679,
+        "navigated": false
+      },
+      {
+        "step": 117,
+        "kind": "key",
+        "stateHash": "b6eaf600",
+        "fp": "5c5a55be",
+        "target": "Patio, Lawn & Garden",
+        "selector": "#ui-id-147",
+        "value": "PageUp",
+        "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/orthodontic-supplies.html",
+        "ts": 1791429660753,
+        "navigated": false
+      },
+      {
+        "step": 119,
+        "kind": "click",
+        "stateHash": "b6eaf600",
+        "fp": "448923c3",
+        "target": "Add to Wish List",
+        "selector": "body:nth-child(2) > div:nth-child(8) > main:nth-child(4) > div:nth-child(4) > div:nth-child(1) > div:nth-child(4) > ol:nth-child(1) > li:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > a:nth-child(1)",
+        "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/orthodontic-supplies.html",
+        "ts": 1791429664620,
+        "navigated": false
+      },
+      {
+        "step": 127,
+        "kind": "click",
+        "stateHash": "90a888c9",
+        "fp": "a956930e",
+        "target": "Contact Us",
+        "selector": "body:nth-child(2) > div:nth-child(8) > footer:nth-child(5) > div:nth-child(1) > ul:nth-child(2) > li:nth-child(5) > a:nth-child(1)",
+        "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/children-s-dental-care.html",
+        "ts": 1791429723453,
+        "navigated": false
+      },
+      {
+        "step": 137,
+        "kind": "scroll",
+        "stateHash": "11358a21",
+        "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/oral-pain-relief.html",
+        "ts": 1791429803320,
+        "navigated": false
+      },
+      {
+        "step": 138,
+        "kind": "hover",
+        "stateHash": "11358a21",
+        "fp": "6dd24e29",
+        "target": "Resin Teeth Veneers Mixed Dental Temporary Teeth Front and Molar Posterior Teeth",
+        "selector": "body:nth-child(2) > div:nth-child(8) > main:nth-child(4) > div:nth-child(4) > div:nth-child(1) > div:nth-child(4) > ol:nth-child(1) > li:nth-child(3) > div:nth-child(1) > div:nth-child(2) > strong:nth-child(1) > a:nth-child(1)",
+        "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/oral-pain-relief.html",
+        "ts": 1791429803677,
+        "navigated": false
+      },
+      {
+        "step": 139,
+        "kind": "scroll",
+        "stateHash": "11358a21",
+        "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/oral-pain-relief.html",
+        "ts": 1791429803926,
+        "navigated": false
+      },
+      {
+        "step": 141,
+        "kind": "click",
+        "stateHash": "11358a21",
+        "fp": "f32c8a41",
+        "target": "Add to Cart",
+        "selector": "body:nth-child(2) > div:nth-child(8) > main:nth-child(4) > div:nth-child(4) > div:nth-child(1) > div:nth-child(4) > ol:nth-child(1) > li:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > form:nth-child(1) > button:nth-child(4)",
+        "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/oral-pain-relief.html",
+        "ts": 1791429807648,
+        "navigated": false
+      },
+      {
+        "step": 143,
+        "kind": "scroll",
+        "stateHash": "11358a21",
+        "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/oral-pain-relief.html",
+        "ts": 1791429815650,
+        "navigated": false
+      },
+      {
+        "step": 145,
+        "kind": "forward",
+        "stateHash": "11358a21",
+        "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/oral-pain-relief.html",
+        "ts": 1791429816243,
+        "navigated": false
+      },
+      {
+        "step": 146,
+        "kind": "click",
+        "stateHash": "11358a21",
+        "fp": "1f92048d",
+        "target": "Add to Cart",
+        "selector": "body:nth-child(2) > div:nth-child(8) > main:nth-child(4) > div:nth-child(4) > div:nth-child(1) > div:nth-child(4) > ol:nth-child(1) > li:nth-child(5) > div:nth-child(1) > div:nth-child(2) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > form:nth-child(1) > button:nth-child(4)",
+        "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/oral-pain-relief.html",
+        "ts": 1791429816656,
+        "navigated": false
+      },
+      {
+        "step": 147,
+        "kind": "key",
+        "stateHash": "bb76ae83",
+        "fp": "60f81646",
+        "target": "Dining & Entertaining",
+        "selector": "body:nth-child(2) > div:nth-child(8) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > nav:nth-child(1) > ul:nth-child(1) > li:nth-child(4) > ul:nth-child(2) > li:nth-child(5) > ul:nth-child(2) > li:nth-child(1) > a:nth-child(1)",
+        "value": "Enter",
+        "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/oral-pain-relief.html",
+        "ts": 1791429821757,
+        "navigated": false
+      },
+      {
+        "step": 148,
+        "kind": "click",
+        "stateHash": "11358a21",
+        "fp": "fd1bcc3d",
+        "target": ".product-image-container-6969 { width: 240px; } .product-image-container-6969 sp",
+        "selector": "body:nth-child(2) > div:nth-child(8) > main:nth-child(4) > div:nth-child(4) > div:nth-child(1) > div:nth-child(4) > ol:nth-child(1) > li:nth-child(1) > div:nth-child(1) > a:nth-child(1)",
+        "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/oral-pain-relief.html",
+        "ts": 1791429822179,
+        "navigated": false
+      },
+      {
+        "step": 149,
+        "kind": "key",
+        "stateHash": "a2dde4cc",
+        "fp": "31e27376",
+        "target": "Beauty & Personal Care",
+        "selector": "#ui-id-2",
+        "value": "Backspace",
+        "url": "http://127.0.0.1:7770/mouth-guard-moldable-nightguard-for-grinding-teeth-at-night-whitening-tray-4-pack-upgraded-night-guards-to-keep-calm-professional-comfortable-mouthguards-for-sleep-2-sizes.html",
+        "ts": 1791429827361,
+        "navigated": false
+      },
+      {
+        "step": 150,
+        "kind": "click",
+        "stateHash": "a2dde4cc",
+        "fp": "2c50786d",
+        "target": "Reviews",
+        "selector": "#tab-label-reviews",
+        "url": "http://127.0.0.1:7770/mouth-guard-moldable-nightguard-for-grinding-teeth-at-night-whitening-tray-4-pack-upgraded-night-guards-to-keep-calm-professional-comfortable-mouthguards-for-sleep-2-sizes.html",
+        "ts": 1791429827961,
+        "navigated": false
+      },
+      {
+        "step": 151,
+        "kind": "submit-form",
+        "stateHash": "34f8980e",
+        "target": "Submit Review",
+        "value": "4 fields → created",
+        "url": "http://127.0.0.1:7770/mouth-guard-moldable-nightguard-for-grinding-teeth-at-night-whitening-tray-4-pack-upgraded-night-guards-to-keep-calm-professional-comfortable-mouthguards-for-sleep-2-sizes.html",
+        "ts": 1791429829149,
+        "navigated": false,
+        "formKey": "div:3>div:0>div:2>div:0>div:3>div:1>div:1>form:0",
+        "fieldsFilled": 4,
+        "retries": 0,
+        "submitted": true
+      },
+      {
+        "step": 162,
+        "kind": "click",
+        "stateHash": "25f7b572",
+        "fp": "0ecf5dff",
+        "target": "My Cart",
+        "selector": "body:nth-child(2) > div:nth-child(8) > header:nth-child(1) > div:nth-child(2) > div:nth-child(3) > a:nth-child(1)",
+        "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/toothpaste.html",
+        "ts": 1791429912338,
+        "navigated": false
+      },
+      {
+        "step": 163,
+        "kind": "key",
+        "stateHash": "a85e6417",
+        "fp": "207db359",
+        "target": "Oral Care",
+        "selector": "body:nth-child(2) > div:nth-child(8) > div:nth-child(3) > ul:nth-child(1) > li:nth-child(3) > a:nth-child(1)",
+        "value": "PageDown",
+        "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/toothpaste.html",
+        "ts": 1791429913226,
+        "navigated": false
+      },
+      {
+        "step": 164,
+        "kind": "key",
+        "stateHash": "a85e6417",
+        "fp": "80fd27b9",
+        "target": ".product-image-container-6580 { width: 240px; } .product-image-container-6580 sp",
+        "selector": "body:nth-child(2) > div:nth-child(8) > main:nth-child(4) > div:nth-child(4) > div:nth-child(1) > div:nth-child(4) > ol:nth-child(1) > li:nth-child(1) > div:nth-child(1) > a:nth-child(1)",
+        "value": "a",
+        "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/toothpaste.html",
+        "ts": 1791429913528,
+        "navigated": false
+      },
+      {
+        "step": 165,
+        "kind": "click",
+        "stateHash": "a85e6417",
+        "fp": "4e7fae9a",
+        "target": "Add to Wish List",
+        "selector": "body:nth-child(2) > div:nth-child(8) > main:nth-child(4) > div:nth-child(4) > div:nth-child(1) > div:nth-child(4) > ol:nth-child(1) > li:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div:nth-child(4) > div:nth-child(1) > div:nth-child(2) > a:nth-child(1)",
+        "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/toothpaste.html",
+        "ts": 1791429913921,
+        "navigated": false
+      },
+      {
+        "step": 172,
+        "kind": "key",
+        "stateHash": "29a6385c",
+        "fp": "ff8eb47e",
+        "target": ".product-image-container-7204 { width: 240px; } .product-image-container-7204 sp",
+        "selector": "body:nth-child(2) > div:nth-child(8) > main:nth-child(4) > div:nth-child(4) > div:nth-child(1) > div:nth-child(4) > ol:nth-child(1) > li:nth-child(6) > div:nth-child(1) > a:nth-child(1)",
+        "value": "ArrowUp",
+        "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/teeth-whitening.html",
+        "ts": 1791429968894,
+        "navigated": false
+      },
+      {
+        "step": 174,
+        "kind": "back",
+        "stateHash": "29a6385c",
+        "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/teeth-whitening.html",
+        "ts": 1791429972602,
+        "navigated": true
+      },
+      {
+        "step": 181,
+        "kind": "click",
+        "stateHash": "06c60883",
+        "fp": "ad1334b6",
+        "target": "Sort By",
+        "selector": "body:nth-child(2) > div:nth-child(8) > main:nth-child(4) > div:nth-child(4) > div:nth-child(1) > div:nth-child(3) > div:nth-child(3) > label:nth-child(1)",
+        "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/breath-fresheners.html",
+        "ts": 1791430027188,
+        "navigated": false
+      },
+      {
+        "step": 182,
+        "kind": "forward",
+        "stateHash": "f5d564f4",
+        "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/breath-fresheners.html",
+        "ts": 1791430028362,
+        "navigated": false
+      },
+      {
+        "step": 183,
+        "kind": "click",
+        "stateHash": "f5d564f4",
+        "fp": "0d178d5e",
+        "target": ".product-image-container-7598 { width: 240px; } .product-image-container-7598 sp",
+        "selector": "body:nth-child(2) > div:nth-child(8) > main:nth-child(4) > div:nth-child(4) > div:nth-child(1) > div:nth-child(4) > ol:nth-child(1) > li:nth-child(6) > div:nth-child(1) > a:nth-child(1)",
+        "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/breath-fresheners.html",
+        "ts": 1791430028762,
+        "navigated": false
+      },
+      {
+        "step": 186,
+        "kind": "click",
+        "stateHash": "adaf04ad",
+        "fp": "e51c6314",
+        "target": "Add to Wish List",
+        "selector": "body:nth-child(2) > div:nth-child(8) > main:nth-child(4) > div:nth-child(4) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(1) > a:nth-child(1)",
+        "url": "http://127.0.0.1:7770/oceansedge11-classic-christmas-theme-disposable-face-masks-for-adult-3-ply-face-protection-for-outdoor-sport-bicycle-mountain-bike.html",
+        "ts": 1791430038293,
+        "navigated": false
+      },
+      {
+        "step": 195,
+        "kind": "scroll",
+        "stateHash": "c7cf43c3",
+        "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/denture-care.html",
+        "ts": 1791430109746,
+        "navigated": false
+      },
+      {
+        "step": 196,
+        "kind": "back",
+        "stateHash": "c7cf43c3",
+        "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/denture-care.html",
+        "ts": 1791430110055,
+        "navigated": true
+      }
+    ],
+    "signals": [
+      {
+        "kind": "pageerror",
+        "detail": "P is not defined\nReferenceError: P is not defined\n    at http://127.0.0.1:7770/crunchy-rice-rollers-gluten-free-vegan-3-5-oz-individual-packs-4-packs-of-8-rollers.html:979:5",
+        "url": "http://127.0.0.1:7770/crunchy-rice-rollers-gluten-free-vegan-3-5-oz-individual-packs-4-packs-of-8-rollers.html",
+        "at": 1791428911170,
+        "severity": "high"
+      },
+      {
+        "kind": "requestfailed",
+        "detail": "GET https://m.media-amazon.com/images/S/aplus-media/sc/edfff605-9afd-4ef6-8f25-e14d3ca0b79d.__CR0,0,150,300_PT0_SX150_V1___.jpg — net::ERR_TUNNEL_CONNECTION_FAILED",
+        "url": "https://m.media-amazon.com/images/S/aplus-media/sc/edfff605-9afd-4ef6-8f25-e14d3ca0b79d.__CR0,0,150,300_PT0_SX150_V1___.jpg",
+        "at": 1791428911537,
+        "severity": "medium",
+        "meta": {
+          "resourceType": "image"
+        }
+      },
+      {
+        "kind": "console.error",
+        "detail": "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "url": "http://127.0.0.1:7770/crunchy-rice-rollers-gluten-free-vegan-3-5-oz-individual-packs-4-packs-of-8-rollers.html",
+        "at": 1791428911543,
+        "severity": "low",
+        "meta": {
+          "source": "https://m.media-amazon.com"
+        }
+      },
+      {
+        "kind": "requestfailed",
+        "detail": "GET https://m.media-amazon.com/images/S/aplus-media/sc/9ca8b6a9-a1d8-4382-9c49-da9c6f933a2d.__CR0,0,150,300_PT0_SX150_V1___.jpg — net::ERR_TUNNEL_CONNECTION_FAILED",
+        "url": "https://m.media-amazon.com/images/S/aplus-media/sc/9ca8b6a9-a1d8-4382-9c49-da9c6f933a2d.__CR0,0,150,300_PT0_SX150_V1___.jpg",
+        "at": 1791428911752,
+        "severity": "medium",
+        "meta": {
+          "resourceType": "image"
+        }
+      },
+      {
+        "kind": "console.error",
+        "detail": "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "url": "http://127.0.0.1:7770/crunchy-rice-rollers-gluten-free-vegan-3-5-oz-individual-packs-4-packs-of-8-rollers.html",
+        "at": 1791428911755,
+        "severity": "low",
+        "meta": {
+          "source": "https://m.media-amazon.com"
+        }
+      },
+      {
+        "kind": "requestfailed",
+        "detail": "GET https://m.media-amazon.com/images/S/aplus-media/sc/626cbdc8-1c42-41ff-a3be-99f6e9f091a9.__CR0,0,150,300_PT0_SX150_V1___.jpg — net::ERR_TUNNEL_CONNECTION_FAILED",
+        "url": "https://m.media-amazon.com/images/S/aplus-media/sc/626cbdc8-1c42-41ff-a3be-99f6e9f091a9.__CR0,0,150,300_PT0_SX150_V1___.jpg",
+        "at": 1791428911827,
+        "severity": "medium",
+        "meta": {
+          "resourceType": "image"
+        }
+      },
+      {
+        "kind": "console.error",
+        "detail": "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "url": "http://127.0.0.1:7770/crunchy-rice-rollers-gluten-free-vegan-3-5-oz-individual-packs-4-packs-of-8-rollers.html",
+        "at": 1791428911830,
+        "severity": "low",
+        "meta": {
+          "source": "https://m.media-amazon.com"
+        }
+      },
+      {
+        "kind": "requestfailed",
+        "detail": "GET https://m.media-amazon.com/images/S/aplus-media-library-service-media/37e6a332-5b85-4453-9ac9-a70f6807ba1e.__CR0,0,300,600_PT0_SX150_V1___.jpg — net::ERR_TUNNEL_CONNECTION_FAILED",
+        "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/37e6a332-5b85-4453-9ac9-a70f6807ba1e.__CR0,0,300,600_PT0_SX150_V1___.jpg",
+        "at": 1791428911848,
+        "severity": "medium",
+        "meta": {
+          "resourceType": "image"
+        }
+      },
+      {
+        "kind": "console.error",
+        "detail": "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "url": "http://127.0.0.1:7770/crunchy-rice-rollers-gluten-free-vegan-3-5-oz-individual-packs-4-packs-of-8-rollers.html",
+        "at": 1791428911850,
+        "severity": "low",
+        "meta": {
+          "source": "https://m.media-amazon.com"
+        }
+      },
+      {
+        "kind": "requestfailed",
+        "detail": "GET https://m.media-amazon.com/images/S/aplus-media-library-service-media/324bba37-8d8b-476a-b816-d802e9d8967c.__CR0,0,300,600_PT0_SX150_V1___.jpg — net::ERR_TUNNEL_CONNECTION_FAILED",
+        "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/324bba37-8d8b-476a-b816-d802e9d8967c.__CR0,0,300,600_PT0_SX150_V1___.jpg",
+        "at": 1791428911856,
+        "severity": "medium",
+        "meta": {
+          "resourceType": "image"
+        }
+      },
+      {
+        "kind": "console.error",
+        "detail": "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "url": "http://127.0.0.1:7770/crunchy-rice-rollers-gluten-free-vegan-3-5-oz-individual-packs-4-packs-of-8-rollers.html",
+        "at": 1791428911861,
+        "severity": "low",
+        "meta": {
+          "source": "https://m.media-amazon.com"
+        }
+      },
+      {
+        "kind": "requestfailed",
+        "detail": "GET https://m.media-amazon.com/images/S/aplus-media-library-service-media/cb63e200-3a12-454e-8f05-cb27357e45ab.__CR0,0,300,600_PT0_SX150_V1___.jpg — net::ERR_TUNNEL_CONNECTION_FAILED",
+        "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/cb63e200-3a12-454e-8f05-cb27357e45ab.__CR0,0,300,600_PT0_SX150_V1___.jpg",
+        "at": 1791428911865,
+        "severity": "medium",
+        "meta": {
+          "resourceType": "image"
+        }
+      },
+      {
+        "kind": "console.error",
+        "detail": "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "url": "http://127.0.0.1:7770/crunchy-rice-rollers-gluten-free-vegan-3-5-oz-individual-packs-4-packs-of-8-rollers.html",
+        "at": 1791428911866,
+        "severity": "low",
+        "meta": {
+          "source": "https://m.media-amazon.com"
+        }
+      },
+      {
+        "kind": "http.4xx",
+        "detail": "403 http://127.0.0.1:7770/checkout/cart/add/uenc/aHR0cDovLzEyNy4wLjAuMTo3NzcwL2NydW5jaHktcmljZS1yb2xsZXJzLWdsdXRlbi1mcmVlLXZlZ2FuLTMtNS1vei1pbmRpdmlkdWFsLXBhY2tzLTQtcGFja3Mtb2YtOC1yb2xsZXJzLmh0bWw~/product/104488/",
+        "url": "http://127.0.0.1:7770/checkout/cart/add/uenc/aHR0cDovLzEyNy4wLjAuMTo3NzcwL2NydW5jaHktcmljZS1yb2xsZXJzLWdsdXRlbi1mcmVlLXZlZ2FuLTMtNS1vei1pbmRpdmlkdWFsLXBhY2tzLTQtcGFja3Mtb2YtOC1yb2xsZXJzLmh0bWw~/product/104488/",
+        "at": 1791428930346,
+        "severity": "medium",
+        "meta": {
+          "status": 403,
+          "resourceType": "xhr"
+        }
+      },
+      {
+        "kind": "pageerror",
+        "detail": "P is not defined\nReferenceError: P is not defined\n    at http://127.0.0.1:7770/crunchy-rice-rollers-gluten-free-vegan-3-5-oz-individual-packs-4-packs-of-8-rollers.html:979:5",
+        "url": "http://127.0.0.1:7770/crunchy-rice-rollers-gluten-free-vegan-3-5-oz-individual-packs-4-packs-of-8-rollers.html",
+        "at": 1791428932661,
+        "severity": "high"
+      },
+      {
+        "kind": "requestfailed",
+        "detail": "GET https://m.media-amazon.com/images/S/aplus-media/sc/edfff605-9afd-4ef6-8f25-e14d3ca0b79d.__CR0,0,150,300_PT0_SX150_V1___.jpg — net::ERR_TUNNEL_CONNECTION_FAILED",
+        "url": "https://m.media-amazon.com/images/S/aplus-media/sc/edfff605-9afd-4ef6-8f25-e14d3ca0b79d.__CR0,0,150,300_PT0_SX150_V1___.jpg",
+        "at": 1791428932828,
+        "severity": "medium",
+        "meta": {
+          "resourceType": "image"
+        }
+      },
+      {
+        "kind": "console.error",
+        "detail": "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "url": "http://127.0.0.1:7770/crunchy-rice-rollers-gluten-free-vegan-3-5-oz-individual-packs-4-packs-of-8-rollers.html",
+        "at": 1791428932829,
+        "severity": "low",
+        "meta": {
+          "source": "https://m.media-amazon.com"
+        }
+      },
+      {
+        "kind": "requestfailed",
+        "detail": "GET https://m.media-amazon.com/images/S/aplus-media/sc/9ca8b6a9-a1d8-4382-9c49-da9c6f933a2d.__CR0,0,150,300_PT0_SX150_V1___.jpg — net::ERR_TUNNEL_CONNECTION_FAILED",
+        "url": "https://m.media-amazon.com/images/S/aplus-media/sc/9ca8b6a9-a1d8-4382-9c49-da9c6f933a2d.__CR0,0,150,300_PT0_SX150_V1___.jpg",
+        "at": 1791428932829,
+        "severity": "medium",
+        "meta": {
+          "resourceType": "image"
+        }
+      },
+      {
+        "kind": "console.error",
+        "detail": "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "url": "http://127.0.0.1:7770/crunchy-rice-rollers-gluten-free-vegan-3-5-oz-individual-packs-4-packs-of-8-rollers.html",
+        "at": 1791428932830,
+        "severity": "low",
+        "meta": {
+          "source": "https://m.media-amazon.com"
+        }
+      },
+      {
+        "kind": "requestfailed",
+        "detail": "GET https://m.media-amazon.com/images/S/aplus-media/sc/626cbdc8-1c42-41ff-a3be-99f6e9f091a9.__CR0,0,150,300_PT0_SX150_V1___.jpg — net::ERR_TUNNEL_CONNECTION_FAILED",
+        "url": "https://m.media-amazon.com/images/S/aplus-media/sc/626cbdc8-1c42-41ff-a3be-99f6e9f091a9.__CR0,0,150,300_PT0_SX150_V1___.jpg",
+        "at": 1791428933428,
+        "severity": "medium",
+        "meta": {
+          "resourceType": "image"
+        }
+      },
+      {
+        "kind": "console.error",
+        "detail": "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "url": "http://127.0.0.1:7770/crunchy-rice-rollers-gluten-free-vegan-3-5-oz-individual-packs-4-packs-of-8-rollers.html",
+        "at": 1791428933436,
+        "severity": "low",
+        "meta": {
+          "source": "https://m.media-amazon.com"
+        }
+      },
+      {
+        "kind": "requestfailed",
+        "detail": "GET https://m.media-amazon.com/images/S/aplus-media-library-service-media/37e6a332-5b85-4453-9ac9-a70f6807ba1e.__CR0,0,300,600_PT0_SX150_V1___.jpg — net::ERR_TUNNEL_CONNECTION_FAILED",
+        "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/37e6a332-5b85-4453-9ac9-a70f6807ba1e.__CR0,0,300,600_PT0_SX150_V1___.jpg",
+        "at": 1791428933486,
+        "severity": "medium",
+        "meta": {
+          "resourceType": "image"
+        }
+      },
+      {
+        "kind": "console.error",
+        "detail": "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "url": "http://127.0.0.1:7770/crunchy-rice-rollers-gluten-free-vegan-3-5-oz-individual-packs-4-packs-of-8-rollers.html",
+        "at": 1791428933488,
+        "severity": "low",
+        "meta": {
+          "source": "https://m.media-amazon.com"
+        }
+      },
+      {
+        "kind": "requestfailed",
+        "detail": "GET https://m.media-amazon.com/images/S/aplus-media-library-service-media/324bba37-8d8b-476a-b816-d802e9d8967c.__CR0,0,300,600_PT0_SX150_V1___.jpg — net::ERR_TUNNEL_CONNECTION_FAILED",
+        "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/324bba37-8d8b-476a-b816-d802e9d8967c.__CR0,0,300,600_PT0_SX150_V1___.jpg",
+        "at": 1791428933513,
+        "severity": "medium",
+        "meta": {
+          "resourceType": "image"
+        }
+      },
+      {
+        "kind": "console.error",
+        "detail": "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "url": "http://127.0.0.1:7770/crunchy-rice-rollers-gluten-free-vegan-3-5-oz-individual-packs-4-packs-of-8-rollers.html",
+        "at": 1791428933513,
+        "severity": "low",
+        "meta": {
+          "source": "https://m.media-amazon.com"
+        }
+      },
+      {
+        "kind": "requestfailed",
+        "detail": "GET https://m.media-amazon.com/images/S/aplus-media-library-service-media/cb63e200-3a12-454e-8f05-cb27357e45ab.__CR0,0,300,600_PT0_SX150_V1___.jpg — net::ERR_TUNNEL_CONNECTION_FAILED",
+        "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/cb63e200-3a12-454e-8f05-cb27357e45ab.__CR0,0,300,600_PT0_SX150_V1___.jpg",
+        "at": 1791428933513,
+        "severity": "medium",
+        "meta": {
+          "resourceType": "image"
+        }
+      },
+      {
+        "kind": "console.error",
+        "detail": "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "url": "http://127.0.0.1:7770/crunchy-rice-rollers-gluten-free-vegan-3-5-oz-individual-packs-4-packs-of-8-rollers.html",
+        "at": 1791428933513,
+        "severity": "low",
+        "meta": {
+          "source": "https://m.media-amazon.com"
+        }
+      },
+      {
+        "kind": "guardrail",
+        "detail": "skipped form (auth/login form): Subscribe",
+        "url": "http://127.0.0.1:7770/crunchy-rice-rollers-gluten-free-vegan-3-5-oz-individual-packs-4-packs-of-8-rollers.html",
+        "at": 1791428946607,
+        "severity": "info"
+      },
+      {
+        "kind": "driver",
+        "detail": "action click failed: locator.click: Timeout 3000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#ui-id-91').first()\u001b[22m\n\u001b[2m    - locator resolved to <a id=\"ui-id-91\" tabindex=\"-1\" role=\"menuitem\" aria-haspopup=\"true\" class=\"level-top ui-menu-item-wrapper\" href=\"http://127.0.0.1:7770/home-kitchen.html\">…</a>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is outside of the viewport\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is outside of the viewport\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    5 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is outside of the viewport\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n",
+        "url": "http://127.0.0.1:7770/checkout/cart/",
+        "at": 1791428971547,
+        "severity": "low"
+      },
+      {
+        "kind": "driver",
+        "detail": "action click failed: locator.click: Timeout 3000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#ui-id-128').first()\u001b[22m\n\u001b[2m    - locator resolved to <a tabindex=\"-1\" id=\"ui-id-128\" role=\"menuitem\" aria-haspopup=\"true\" class=\"level-top ui-menu-item-wrapper\" href=\"http://127.0.0.1:7770/office-products.html\">…</a>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is outside of the viewport\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is outside of the viewport\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    5 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is outside of the viewport\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n",
+        "url": "http://127.0.0.1:7770/checkout/cart/",
+        "at": 1791428974942,
+        "severity": "low"
+      },
+      {
+        "kind": "guardrail",
+        "detail": "skipped form (auth/login form): Subscribe",
+        "url": "http://127.0.0.1:7770/checkout/cart/",
+        "at": 1791428975172,
+        "severity": "info"
+      },
+      {
+        "kind": "guardrail",
+        "detail": "skipped form (auth/login form): Subscribe",
+        "url": "http://127.0.0.1:7770/checkout/cart/",
+        "at": 1791428975697,
+        "severity": "info"
+      },
+      {
+        "kind": "guardrail",
+        "detail": "skipped form (auth/login form): Subscribe",
+        "url": "http://127.0.0.1:7770/checkout/cart/",
+        "at": 1791428975941,
+        "severity": "info"
+      },
+      {
+        "kind": "driver",
+        "detail": "action dblclick failed: locator.dblclick: Timeout 3000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#ui-id-1').first()\u001b[22m\n\u001b[2m    - locator resolved to <ul role=\"menu\" id=\"ui-id-1\" tabindex=\"0\" class=\"ui-menu ui-widget ui-widget-content\">…</ul>\u001b[22m\n\u001b[2m  - attempting dblclick action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is outside of the viewport\u001b[22m\n\u001b[2m    - retrying dblclick action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is outside of the viewport\u001b[22m\n\u001b[2m    - retrying dblclick action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    5 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is outside of the viewport\u001b[22m\n\u001b[2m    - retrying dblclick action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n",
+        "url": "http://127.0.0.1:7770/checkout/cart/",
+        "at": 1791428979760,
+        "severity": "low"
+      },
+      {
+        "kind": "http.4xx",
+        "detail": "403 http://127.0.0.1:7770/customer/account/",
+        "url": "http://127.0.0.1:7770/customer/account/",
+        "at": 1791428988048,
+        "severity": "high",
+        "meta": {
+          "status": 403,
+          "resourceType": "document"
+        }
+      },
+      {
+        "kind": "http.4xx",
+        "detail": "403 http://127.0.0.1:7770/wishlist/",
+        "url": "http://127.0.0.1:7770/wishlist/",
+        "at": 1791429062307,
+        "severity": "high",
+        "meta": {
+          "status": 403,
+          "resourceType": "document"
+        }
+      },
+      {
+        "kind": "http.4xx",
+        "detail": "403 http://127.0.0.1:7770/customer/account/login/",
+        "url": "http://127.0.0.1:7770/customer/account/login/",
+        "at": 1791429136826,
+        "severity": "high",
+        "meta": {
+          "status": 403,
+          "resourceType": "document"
+        }
+      },
+      {
+        "kind": "http.4xx",
+        "detail": "403 http://127.0.0.1:7770/customer/account/create/",
+        "url": "http://127.0.0.1:7770/customer/account/create/",
+        "at": 1791429211442,
+        "severity": "high",
+        "meta": {
+          "status": 403,
+          "resourceType": "document"
+        }
+      },
+      {
+        "kind": "guardrail",
+        "detail": "skipped form (auth/login form): Subscribe",
+        "url": "http://127.0.0.1:7770/catalogsearch/advanced/result/?name=&sku=Seed+a26826&description=launch+seed+cnrya1b977edzz&short_description=keynote+seed+cnryca90abd7zz&price%5Bfrom%5D=&price%5Bto%5D=&price%5Bcurrency%5D=USD",
+        "at": 1791429300509,
+        "severity": "info"
+      },
+      {
+        "kind": "guardrail",
+        "detail": "skipped form (auth/login form): Subscribe",
+        "url": "http://127.0.0.1:7770/catalogsearch/advanced/result/?name=&sku=Seed+a26826&description=launch+seed+cnrya1b977edzz&short_description=keynote+seed+cnryca90abd7zz&price%5Bfrom%5D=&price%5Bto%5D=&price%5Bcurrency%5D=USD",
+        "at": 1791429300889,
+        "severity": "info"
+      },
+      {
+        "kind": "driver",
+        "detail": "action click failed: locator.click: Timeout 3000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#ui-id-77').first()\u001b[22m\n\u001b[2m    - locator resolved to <a id=\"ui-id-77\" tabindex=\"-1\" role=\"menuitem\" aria-haspopup=\"true\" class=\"level-top ui-menu-item-wrapper\" href=\"http://127.0.0.1:7770/clothing-shoes-jewelry.html\">…</a>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is outside of the viewport\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is outside of the viewport\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    5 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is outside of the viewport\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n",
+        "url": "http://127.0.0.1:7770/catalogsearch/advanced/result/?name=&sku=Seed+a26826&description=launch+seed+cnrya1b977edzz&short_description=keynote+seed+cnryca90abd7zz&price%5Bfrom%5D=&price%5Bto%5D=&price%5Bcurrency%5D=USD",
+        "at": 1791429304725,
+        "severity": "low"
+      },
+      {
+        "kind": "driver",
+        "detail": "action click failed: locator.click: Timeout 3000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('body:nth-child(2) > div:nth-child(8) > footer:nth-child(5) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > form:nth-child(1) > div:nth-child(1) > div:nth-child(1) > label:nth-child(1)').first()\u001b[22m\n\u001b[2m    - locator resolved to <label for=\"newsletter\">…</label>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <div class=\"control\">…</div> intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <div class=\"control\">…</div> intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    5 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <div class=\"control\">…</div> intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n",
+        "url": "http://127.0.0.1:7770/catalogsearch/advanced/result/?name=&sku=Seed+a26826&description=launch+seed+cnrya1b977edzz&short_description=keynote+seed+cnryca90abd7zz&price%5Bfrom%5D=&price%5Bto%5D=&price%5Bcurrency%5D=USD",
+        "at": 1791429307992,
+        "severity": "low"
+      },
+      {
+        "kind": "driver",
+        "detail": "action click failed: locator.click: Timeout 3000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#ui-id-91').first()\u001b[22m\n\u001b[2m    - locator resolved to <a id=\"ui-id-91\" tabindex=\"-1\" role=\"menuitem\" aria-haspopup=\"true\" class=\"level-top ui-menu-item-wrapper\" href=\"http://127.0.0.1:7770/home-kitchen.html\">…</a>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is outside of the viewport\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is outside of the viewport\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    5 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is outside of the viewport\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n",
+        "url": "http://127.0.0.1:7770/catalogsearch/advanced/result/?name=&sku=Seed+a26826&description=launch+seed+cnrya1b977edzz&short_description=keynote+seed+cnryca90abd7zz&price%5Bfrom%5D=&price%5Bto%5D=&price%5Bcurrency%5D=USD",
+        "at": 1791429311565,
+        "severity": "low"
+      },
+      {
+        "kind": "driver",
+        "detail": "action click failed: locator.click: Timeout 3000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#ui-id-241').first()\u001b[22m\n\u001b[2m    - locator resolved to <a tabindex=\"-1\" id=\"ui-id-241\" role=\"menuitem\" aria-haspopup=\"true\" class=\"level-top ui-menu-item-wrapper\" href=\"http://127.0.0.1:7770/grocery-gourmet-food.html\">…</a>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is outside of the viewport\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is outside of the viewport\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    5 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is outside of the viewport\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n",
+        "url": "http://127.0.0.1:7770/catalogsearch/advanced/result/?name=&sku=Seed+a26826&description=launch+seed+cnrya1b977edzz&short_description=keynote+seed+cnryca90abd7zz&price%5Bfrom%5D=&price%5Bto%5D=&price%5Bcurrency%5D=USD",
+        "at": 1791429315100,
+        "severity": "low"
+      },
+      {
+        "kind": "http.4xx",
+        "detail": "403 http://127.0.0.1:7770/wishlist/index/add/",
+        "url": "http://127.0.0.1:7770/wishlist/index/add/",
+        "at": 1791429333692,
+        "severity": "high",
+        "meta": {
+          "status": 403,
+          "resourceType": "document"
+        }
+      },
+      {
+        "kind": "driver",
+        "detail": "action click failed: locator.click: Timeout 3000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('body:nth-child(2) > div:nth-child(8) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > nav:nth-child(1) > ul:nth-child(1) > li:nth-child(10) > ul:nth-child(2) > li:nth-child(2) > ul:nth-child(2) > li:nth-child(1) > a:nth-child(1)').first()\u001b[22m\n\u001b[2m    - locator resolved to <a tabindex=\"-1\" id=\"ui-id-215\" role=\"menuitem\" class=\"ui-menu-item-wrapper\" href=\"http://127.0.0.1:7770/cell-phones-accessories/accessories/chargers-power-adapters.html\">…</a>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    5 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n",
+        "url": "http://127.0.0.1:7770/crest-pro-health-intense-mouthwash-antigingivitis-antiplaque-pack-of-4.html",
+        "at": 1791429420638,
+        "severity": "low"
+      },
+      {
+        "kind": "driver",
+        "detail": "action click failed: locator.click: Timeout 3000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('body:nth-child(2) > div:nth-child(8) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > a:nth-child(1)').first()\u001b[22m\n\u001b[2m    - locator resolved to <a href=\"#store.menu\" data-toggle=\"switch\" class=\"nav-sections-item-switch\">↵                        Menu                    </a>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is outside of the viewport\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is outside of the viewport\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    5 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is outside of the viewport\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n",
+        "url": "http://127.0.0.1:7770/crest-pro-health-intense-mouthwash-antigingivitis-antiplaque-pack-of-4.html",
+        "at": 1791429424895,
+        "severity": "low"
+      },
+      {
+        "kind": "http.4xx",
+        "detail": "403 http://127.0.0.1:7770/checkout/cart/add/uenc/aHR0cDovLzEyNy4wLjAuMTo3NzcwL2NyZXN0LXByby1oZWFsdGgtaW50ZW5zZS1tb3V0aHdhc2gtYW50aWdpbmdpdml0aXMtYW50aXBsYXF1ZS1wYWNrLW9mLTQuaHRtbA~~/product/6584/",
+        "url": "http://127.0.0.1:7770/checkout/cart/add/uenc/aHR0cDovLzEyNy4wLjAuMTo3NzcwL2NyZXN0LXByby1oZWFsdGgtaW50ZW5zZS1tb3V0aHdhc2gtYW50aWdpbmdpdml0aXMtYW50aXBsYXF1ZS1wYWNrLW9mLTQuaHRtbA~~/product/6584/",
+        "at": 1791429425205,
+        "severity": "medium",
+        "meta": {
+          "status": 403,
+          "resourceType": "xhr"
+        }
+      },
+      {
+        "kind": "driver",
+        "detail": "action click failed: locator.click: Timeout 3000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('body:nth-child(2) > div:nth-child(8) > div:nth-child(2) > div:nth-child(1) > div:nth-child(4) > ul:nth-child(1) > li:nth-child(3) > a:nth-child(1)').first()\u001b[22m\n\u001b[2m    - locator resolved to <a href=\"http://127.0.0.1:7770/customer/account/login/\">Sign In</a>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    5 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n",
+        "url": "http://127.0.0.1:7770/crest-pro-health-intense-mouthwash-antigingivitis-antiplaque-pack-of-4.html",
+        "at": 1791429432350,
+        "severity": "low"
+      },
+      {
+        "kind": "http.4xx",
+        "detail": "403 http://127.0.0.1:7770/search/term/popular/",
+        "url": "http://127.0.0.1:7770/search/term/popular/",
+        "at": 1791429433463,
+        "severity": "high",
+        "meta": {
+          "status": 403,
+          "resourceType": "document"
+        }
+      },
+      {
+        "kind": "http.4xx",
+        "detail": "403 http://127.0.0.1:7770/search/term/popular/",
+        "url": "http://127.0.0.1:7770/search/term/popular/",
+        "at": 1791429512396,
+        "severity": "high",
+        "meta": {
+          "status": 403,
+          "resourceType": "document"
+        }
+      },
+      {
+        "kind": "driver",
+        "detail": "action hover failed: locator.hover: Timeout 3000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('body:nth-child(2) > div:nth-child(8) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > nav:nth-child(1) > ul:nth-child(1) > li:nth-child(4) > ul:nth-child(2) > li:nth-child(3) > ul:nth-child(2) > li:nth-child(4) > a:nth-child(1)').first()\u001b[22m\n",
+        "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/dental-floss-picks.html",
+        "at": 1791429586627,
+        "severity": "low"
+      },
+      {
+        "kind": "http.4xx",
+        "detail": "403 http://127.0.0.1:7770/wishlist/index/add/",
+        "url": "http://127.0.0.1:7770/wishlist/index/add/",
+        "at": 1791429587864,
+        "severity": "high",
+        "meta": {
+          "status": 403,
+          "resourceType": "document"
+        }
+      },
+      {
+        "kind": "pageerror",
+        "detail": "Cannot read properties of undefined (reading 'closest')\nTypeError: Cannot read properties of undefined (reading 'closest')\n    at $.<computed>.<computed>._keydown (http://127.0.0.1:7770/static/version1681826198/frontend/Magento/blank/en_US/mage/menu.js:249:29)\n    at $.<computed>.<computed>._keydown (http://127.0.0.1:7770/static/version1681826198/frontend/Magento/blank/en_US/jquery/ui-modules/widget.js:132:25)\n    at HTMLUListElement.handlerProxy (http://127.0.0.1:7770/static/version1681826198/frontend/Magento/blank/en_US/jquery/ui-modules/widget.js:615:7)\n    at HTMLUListElement.dispatch (http://127.0.0.1:7770/static/version1681826198/frontend/Magento/blank/en_US/jquery.js:5430:49)\n    at elemData.handle (http://127.0.0.1:7770/static/version1681826198/frontend/Magento/blank/en_US/jquery.js:5234:47)",
+        "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/orthodontic-supplies.html",
+        "at": 1791429660750,
+        "severity": "high"
+      },
+      {
+        "kind": "driver",
+        "detail": "action click failed: locator.click: Timeout 3000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#ui-id-1').first()\u001b[22m\n\u001b[2m    - locator resolved to <ul role=\"menu\" id=\"ui-id-1\" tabindex=\"0\" class=\"ui-menu ui-widget ui-widget-content\">…</ul>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is outside of the viewport\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is outside of the viewport\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    5 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is outside of the viewport\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n",
+        "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/orthodontic-supplies.html",
+        "at": 1791429664071,
+        "severity": "low"
+      },
+      {
+        "kind": "http.4xx",
+        "detail": "403 http://127.0.0.1:7770/wishlist/index/add/",
+        "url": "http://127.0.0.1:7770/wishlist/index/add/",
+        "at": 1791429664640,
+        "severity": "high",
+        "meta": {
+          "status": 403,
+          "resourceType": "document"
+        }
+      },
+      {
+        "kind": "driver",
+        "detail": "action click failed: locator.click: Timeout 3000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('body:nth-child(2) > div:nth-child(8) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > nav:nth-child(1) > ul:nth-child(1) > li:nth-child(12) > ul:nth-child(2) > li:nth-child(2) > a:nth-child(1)').first()\u001b[22m\n\u001b[2m    - locator resolved to <a tabindex=\"-1\" id=\"ui-id-242\" role=\"menuitem\" aria-haspopup=\"true\" class=\"ui-menu-item-wrapper\" href=\"http://127.0.0.1:7770/grocery-gourmet-food/food-beverage-gifts.html\">…</a>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    5 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n",
+        "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/children-s-dental-care.html",
+        "at": 1791429722734,
+        "severity": "low"
+      },
+      {
+        "kind": "http.4xx",
+        "detail": "403 http://127.0.0.1:7770/contact/",
+        "url": "http://127.0.0.1:7770/contact/",
+        "at": 1791429723478,
+        "severity": "high",
+        "meta": {
+          "status": 403,
+          "resourceType": "document"
+        }
+      },
+      {
+        "kind": "driver",
+        "detail": "action click failed: locator.click: Timeout 3000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#ui-id-147').first()\u001b[22m\n\u001b[2m    - locator resolved to <a tabindex=\"-1\" id=\"ui-id-147\" role=\"menuitem\" aria-haspopup=\"true\" class=\"level-top ui-menu-item-wrapper\" href=\"http://127.0.0.1:7770/patio-lawn-garden.html\">…</a>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is outside of the viewport\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is outside of the viewport\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    5 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is outside of the viewport\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n",
+        "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/oral-pain-relief.html",
+        "at": 1791429807245,
+        "severity": "low"
+      },
+      {
+        "kind": "http.4xx",
+        "detail": "403 http://127.0.0.1:7770/checkout/cart/add/uenc/aHR0cDovLzEyNy4wLjAuMTo3NzcwL2JlYXV0eS1wZXJzb25hbC1jYXJlL29yYWwtY2FyZS9vcmFsLXBhaW4tcmVsaWVmLmh0bWw~/product/6969/",
+        "url": "http://127.0.0.1:7770/checkout/cart/add/uenc/aHR0cDovLzEyNy4wLjAuMTo3NzcwL2JlYXV0eS1wZXJzb25hbC1jYXJlL29yYWwtY2FyZS9vcmFsLXBhaW4tcmVsaWVmLmh0bWw~/product/6969/",
+        "at": 1791429807664,
+        "severity": "medium",
+        "meta": {
+          "status": 403,
+          "resourceType": "xhr"
+        }
+      },
+      {
+        "kind": "driver",
+        "detail": "action click failed: locator.click: Timeout 3000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('body:nth-child(2) > div:nth-child(11) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > nav:nth-child(1) > ul:nth-child(1) > li:nth-child(1) > ul:nth-child(2) > li:nth-child(3) > ul:nth-child(2) > li:nth-child(5) > a:nth-child(1)').first()\u001b[22m\n",
+        "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/oral-pain-relief.html",
+        "at": 1791429815395,
+        "severity": "low"
+      },
+      {
+        "kind": "driver",
+        "detail": "action hover failed: locator.hover: Element is outside of the viewport\nCall log:\n\u001b[2m  - waiting for locator('#ui-id-241').first()\u001b[22m\n\u001b[2m    - locator resolved to <a tabindex=\"-1\" id=\"ui-id-241\" role=\"menuitem\" aria-haspopup=\"true\" class=\"level-top ui-menu-item-wrapper\" href=\"http://127.0.0.1:7770/grocery-gourmet-food.html\">…</a>\u001b[22m\n\u001b[2m  - attempting hover action\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n",
+        "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/oral-pain-relief.html",
+        "at": 1791429815998,
+        "severity": "low"
+      },
+      {
+        "kind": "http.4xx",
+        "detail": "403 http://127.0.0.1:7770/checkout/cart/add/uenc/aHR0cDovLzEyNy4wLjAuMTo3NzcwL2JlYXV0eS1wZXJzb25hbC1jYXJlL29yYWwtY2FyZS9vcmFsLXBhaW4tcmVsaWVmLmh0bWw~/product/7155/",
+        "url": "http://127.0.0.1:7770/checkout/cart/add/uenc/aHR0cDovLzEyNy4wLjAuMTo3NzcwL2JlYXV0eS1wZXJzb25hbC1jYXJlL29yYWwtY2FyZS9vcmFsLXBhaW4tcmVsaWVmLmh0bWw~/product/7155/",
+        "at": 1791429816664,
+        "severity": "medium",
+        "meta": {
+          "status": 403,
+          "resourceType": "xhr"
+        }
+      },
+      {
+        "kind": "pageerror",
+        "detail": "P is not defined\nReferenceError: P is not defined\n    at http://127.0.0.1:7770/mouth-guard-moldable-nightguard-for-grinding-teeth-at-night-whitening-tray-4-pack-upgraded-night-guards-to-keep-calm-professional-comfortable-mouthguards-for-sleep-2-sizes.html:861:5",
+        "url": "http://127.0.0.1:7770/mouth-guard-moldable-nightguard-for-grinding-teeth-at-night-whitening-tray-4-pack-upgraded-night-guards-to-keep-calm-professional-comfortable-mouthguards-for-sleep-2-sizes.html",
+        "at": 1791429822432,
+        "severity": "high"
+      },
+      {
+        "kind": "requestfailed",
+        "detail": "GET https://m.media-amazon.com/images/S/aplus-media-library-service-media/7855e740-c6b3-47ed-8a50-aa970b27d862.__CR0,0,970,600_PT0_SX970_V1___.jpg — net::ERR_TUNNEL_CONNECTION_FAILED",
+        "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/7855e740-c6b3-47ed-8a50-aa970b27d862.__CR0,0,970,600_PT0_SX970_V1___.jpg",
+        "at": 1791429822619,
+        "severity": "medium",
+        "meta": {
+          "resourceType": "image"
+        }
+      },
+      {
+        "kind": "console.error",
+        "detail": "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "url": "http://127.0.0.1:7770/mouth-guard-moldable-nightguard-for-grinding-teeth-at-night-whitening-tray-4-pack-upgraded-night-guards-to-keep-calm-professional-comfortable-mouthguards-for-sleep-2-sizes.html",
+        "at": 1791429822619,
+        "severity": "low",
+        "meta": {
+          "source": "https://m.media-amazon.com"
+        }
+      },
+      {
+        "kind": "requestfailed",
+        "detail": "GET https://m.media-amazon.com/images/S/aplus-media-library-service-media/09b622d4-b86f-4972-a1a6-01c8c924af32.__CR0,0,300,300_PT0_SX300_V1___.jpg — net::ERR_TUNNEL_CONNECTION_FAILED",
+        "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/09b622d4-b86f-4972-a1a6-01c8c924af32.__CR0,0,300,300_PT0_SX300_V1___.jpg",
+        "at": 1791429822620,
+        "severity": "medium",
+        "meta": {
+          "resourceType": "image"
+        }
+      },
+      {
+        "kind": "console.error",
+        "detail": "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "url": "http://127.0.0.1:7770/mouth-guard-moldable-nightguard-for-grinding-teeth-at-night-whitening-tray-4-pack-upgraded-night-guards-to-keep-calm-professional-comfortable-mouthguards-for-sleep-2-sizes.html",
+        "at": 1791429822620,
+        "severity": "low",
+        "meta": {
+          "source": "https://m.media-amazon.com"
+        }
+      },
+      {
+        "kind": "requestfailed",
+        "detail": "GET https://m.media-amazon.com/images/S/aplus-media-library-service-media/d4359c91-498e-47d4-97c1-f04d3b51d921.__CR0,0,970,300_PT0_SX970_V1___.jpg — net::ERR_TUNNEL_CONNECTION_FAILED",
+        "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/d4359c91-498e-47d4-97c1-f04d3b51d921.__CR0,0,970,300_PT0_SX970_V1___.jpg",
+        "at": 1791429822621,
+        "severity": "medium",
+        "meta": {
+          "resourceType": "image"
+        }
+      },
+      {
+        "kind": "console.error",
+        "detail": "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "url": "http://127.0.0.1:7770/mouth-guard-moldable-nightguard-for-grinding-teeth-at-night-whitening-tray-4-pack-upgraded-night-guards-to-keep-calm-professional-comfortable-mouthguards-for-sleep-2-sizes.html",
+        "at": 1791429822621,
+        "severity": "low",
+        "meta": {
+          "source": "https://m.media-amazon.com"
+        }
+      },
+      {
+        "kind": "requestfailed",
+        "detail": "GET https://m.media-amazon.com/images/S/aplus-media-library-service-media/99a516e1-887c-4894-92d5-faa964ae33b1.__CR0,0,300,300_PT0_SX300_V1___.jpg — net::ERR_TUNNEL_CONNECTION_FAILED",
+        "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/99a516e1-887c-4894-92d5-faa964ae33b1.__CR0,0,300,300_PT0_SX300_V1___.jpg",
+        "at": 1791429822621,
+        "severity": "medium",
+        "meta": {
+          "resourceType": "image"
+        }
+      },
+      {
+        "kind": "console.error",
+        "detail": "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "url": "http://127.0.0.1:7770/mouth-guard-moldable-nightguard-for-grinding-teeth-at-night-whitening-tray-4-pack-upgraded-night-guards-to-keep-calm-professional-comfortable-mouthguards-for-sleep-2-sizes.html",
+        "at": 1791429822621,
+        "severity": "low",
+        "meta": {
+          "source": "https://m.media-amazon.com"
+        }
+      },
+      {
+        "kind": "requestfailed",
+        "detail": "GET https://m.media-amazon.com/images/S/aplus-media-library-service-media/00ec66c4-7dad-472a-b14d-3b317344ad26.__CR0,0,970,600_PT0_SX970_V1___.jpg — net::ERR_TUNNEL_CONNECTION_FAILED",
+        "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/00ec66c4-7dad-472a-b14d-3b317344ad26.__CR0,0,970,600_PT0_SX970_V1___.jpg",
+        "at": 1791429822621,
+        "severity": "medium",
+        "meta": {
+          "resourceType": "image"
+        }
+      },
+      {
+        "kind": "console.error",
+        "detail": "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "url": "http://127.0.0.1:7770/mouth-guard-moldable-nightguard-for-grinding-teeth-at-night-whitening-tray-4-pack-upgraded-night-guards-to-keep-calm-professional-comfortable-mouthguards-for-sleep-2-sizes.html",
+        "at": 1791429822621,
+        "severity": "low",
+        "meta": {
+          "source": "https://m.media-amazon.com"
+        }
+      },
+      {
+        "kind": "pageerror",
+        "detail": "Cannot read properties of undefined (reading 'closest')\nTypeError: Cannot read properties of undefined (reading 'closest')\n    at $.<computed>.<computed>._keydown (http://127.0.0.1:7770/static/version1681826198/frontend/Magento/blank/en_US/mage/menu.js:249:29)\n    at $.<computed>.<computed>._keydown (http://127.0.0.1:7770/static/version1681826198/frontend/Magento/blank/en_US/jquery/ui-modules/widget.js:132:25)\n    at HTMLUListElement.handlerProxy (http://127.0.0.1:7770/static/version1681826198/frontend/Magento/blank/en_US/jquery/ui-modules/widget.js:615:7)\n    at HTMLUListElement.dispatch (http://127.0.0.1:7770/static/version1681826198/frontend/Magento/blank/en_US/jquery.js:5430:49)\n    at elemData.handle (http://127.0.0.1:7770/static/version1681826198/frontend/Magento/blank/en_US/jquery.js:5234:47)",
+        "url": "http://127.0.0.1:7770/mouth-guard-moldable-nightguard-for-grinding-teeth-at-night-whitening-tray-4-pack-upgraded-night-guards-to-keep-calm-professional-comfortable-mouthguards-for-sleep-2-sizes.html",
+        "at": 1791429827357,
+        "severity": "high"
+      },
+      {
+        "kind": "http.4xx",
+        "detail": "403 http://127.0.0.1:7770/review/product/listAjax/id/6969/",
+        "url": "http://127.0.0.1:7770/review/product/listAjax/id/6969/",
+        "at": 1791429827967,
+        "severity": "medium",
+        "meta": {
+          "status": 403,
+          "resourceType": "xhr"
+        }
+      },
+      {
+        "kind": "http.4xx",
+        "detail": "403 http://127.0.0.1:7770/review/product/post/id/6969/",
+        "url": "http://127.0.0.1:7770/review/product/post/id/6969/",
+        "at": 1791429829149,
+        "severity": "high",
+        "meta": {
+          "status": 403,
+          "resourceType": "document"
+        }
+      },
+      {
+        "kind": "driver",
+        "detail": "action click failed: locator.click: Timeout 3000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('body:nth-child(2) > div:nth-child(8) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > nav:nth-child(1) > ul:nth-child(1) > li:nth-child(11) > ul:nth-child(2) > li:nth-child(4) > ul:nth-child(2) > li:nth-child(1) > a:nth-child(1)').first()\u001b[22m\n\u001b[2m    - locator resolved to <a tabindex=\"-1\" id=\"ui-id-235\" role=\"menuitem\" class=\"ui-menu-item-wrapper\" href=\"http://127.0.0.1:7770/video-games/legacy-systems/xbox-systems.html\">…</a>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    5 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n",
+        "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/toothpaste.html",
+        "at": 1791429911554,
+        "severity": "low"
+      },
+      {
+        "kind": "http.4xx",
+        "detail": "403 http://127.0.0.1:7770/wishlist/index/add/",
+        "url": "http://127.0.0.1:7770/wishlist/index/add/",
+        "at": 1791429913962,
+        "severity": "high",
+        "meta": {
+          "status": 403,
+          "resourceType": "document"
+        }
+      },
+      {
+        "kind": "driver",
+        "detail": "action click failed: locator.click: Timeout 3000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('body:nth-child(2) > div:nth-child(8) > header:nth-child(1) > div:nth-child(1) > div:nth-child(1) > a:nth-child(2)').first()\u001b[22m\n\u001b[2m    - locator resolved to <a href=\"#contentarea\" class=\"action skip contentarea\">…</a>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is outside of the viewport\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is outside of the viewport\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    5 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is outside of the viewport\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n",
+        "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/teeth-whitening.html",
+        "at": 1791429972231,
+        "severity": "low"
+      },
+      {
+        "kind": "http.4xx",
+        "detail": "403 http://127.0.0.1:7770/wishlist/index/add/",
+        "url": "http://127.0.0.1:7770/wishlist/index/add/",
+        "at": 1791429972560,
+        "severity": "high",
+        "meta": {
+          "status": 403,
+          "resourceType": "document"
+        }
+      },
+      {
+        "kind": "driver",
+        "detail": "action click failed: locator.click: Timeout 3000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('body:nth-child(2) > div:nth-child(8) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > nav:nth-child(1) > ul:nth-child(1) > li:nth-child(11) > ul:nth-child(2) > li:nth-child(3) > a:nth-child(1)').first()\u001b[22m\n\u001b[2m    - locator resolved to <a tabindex=\"-1\" id=\"ui-id-231\" role=\"menuitem\" aria-haspopup=\"true\" class=\"ui-menu-item-wrapper\" href=\"http://127.0.0.1:7770/video-games/pc.html\">…</a>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    5 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n",
+        "url": "http://127.0.0.1:7770/oceansedge11-classic-christmas-theme-disposable-face-masks-for-adult-3-ply-face-protection-for-outdoor-sport-bicycle-mountain-bike.html",
+        "at": 1791430037262,
+        "severity": "low"
+      },
+      {
+        "kind": "http.4xx",
+        "detail": "403 http://127.0.0.1:7770/wishlist/index/add/",
+        "url": "http://127.0.0.1:7770/wishlist/index/add/",
+        "at": 1791430038313,
+        "severity": "high",
+        "meta": {
+          "status": 403,
+          "resourceType": "document"
+        }
+      },
+      {
+        "kind": "http.4xx",
+        "detail": "403 http://127.0.0.1:7770/wishlist/index/add/",
+        "url": "http://127.0.0.1:7770/wishlist/index/add/",
+        "at": 1791430110031,
+        "severity": "high",
+        "meta": {
+          "status": 403,
+          "resourceType": "document"
+        }
+      }
+    ]
+  },
+  "reason": "budget exhausted"
+}

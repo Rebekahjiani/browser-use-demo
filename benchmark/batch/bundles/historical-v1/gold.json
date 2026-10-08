@@ -1,0 +1,1968 @@
+{
+  "scope": "Historical Shopping read-only core UI, explicitly not whole website/DB or full network trace",
+  "facts": [
+    {
+      "id": "product",
+      "kind": "entity",
+      "page_types": [
+        "product_detail"
+      ],
+      "clauses": [
+        {
+          "name_regex": ".+",
+          "roles": [
+            "heading"
+          ]
+        }
+      ],
+      "db_mapping": {
+        "entity": "catalog_product"
+      },
+      "independent_site_verification": "rendered_UI_witness_verified",
+      "precondition": "guest",
+      "note": "",
+      "provenance": "Candidate defined before independent site verification; historical trace informed product-field vocabulary. Not blind.",
+      "rule": "heading_identity",
+      "interpretation": "Observed UI evidence only; no automatic claim about execution or database provenance.",
+      "reference_witness": {
+        "url": "http://127.0.0.1:7770/tweezers-for-succulents-duo.html",
+        "evidence_refs": [
+          {
+            "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\coverage-v2\\site-verification\\product-0\\accessibility.json",
+            "pointer": "/nodes/124/name/value",
+            "quote": "Tweezers For Succulents Duo"
+          }
+        ]
+      }
+    },
+    {
+      "id": "category",
+      "kind": "entity",
+      "page_types": [
+        "category_list"
+      ],
+      "clauses": [
+        {
+          "name_regex": "Items.*of",
+          "roles": [
+            "heading"
+          ]
+        }
+      ],
+      "db_mapping": {
+        "entity": "catalog_category"
+      },
+      "independent_site_verification": "rendered_UI_witness_verified",
+      "precondition": "guest",
+      "note": "",
+      "provenance": "Candidate defined before independent site verification; historical trace informed product-field vocabulary. Not blind.",
+      "rule": "heading_identity",
+      "interpretation": "Observed UI evidence only; no automatic claim about execution or database provenance.",
+      "reference_witness": {
+        "url": "http://127.0.0.1:7770/beauty-personal-care.html",
+        "evidence_refs": [
+          {
+            "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\coverage-v2\\site-verification\\category-0\\accessibility.json",
+            "pointer": "/nodes/106/name/value",
+            "quote": "Beauty & Personal Care Items 1-12 of 21796"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cart",
+      "kind": "entity",
+      "page_types": [
+        "cart"
+      ],
+      "clauses": [
+        {
+          "name_regex": "My Cart|Shopping Cart",
+          "roles": [
+            "link",
+            "heading"
+          ]
+        }
+      ],
+      "db_mapping": {
+        "entity": "quote"
+      },
+      "independent_site_verification": "rendered_UI_witness_verified",
+      "precondition": "guest",
+      "note": "",
+      "provenance": "Candidate defined before independent site verification; historical trace informed product-field vocabulary. Not blind.",
+      "rule": "cart_page",
+      "interpretation": "Observed UI evidence only; no automatic claim about execution or database provenance.",
+      "reference_witness": {
+        "url": "http://127.0.0.1:7770/checkout/cart/",
+        "evidence_refs": [
+          {
+            "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\coverage-v2\\site-verification\\cart-empty\\accessibility.json",
+            "pointer": "/nodes/103/name/value",
+            "quote": "Shopping Cart"
+          },
+          {
+            "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\coverage-v2\\site-verification\\cart-empty\\accessibility.json",
+            "pointer": "/nodes/104/name/value",
+            "quote": "You have no items in your shopping cart."
+          }
+        ]
+      }
+    },
+    {
+      "id": "product.name",
+      "kind": "attribute",
+      "page_types": [
+        "product_detail"
+      ],
+      "clauses": [
+        {
+          "name_regex": "^.+",
+          "roles": [
+            "heading"
+          ]
+        }
+      ],
+      "db_mapping": {
+        "entity": "catalog_product",
+        "field": "name",
+        "status": "code_match_mapping_needs_verification"
+      },
+      "independent_site_verification": "rendered_UI_witness_verified",
+      "precondition": "guest; browse permitted",
+      "note": "",
+      "provenance": "Candidate defined before independent site verification; historical trace informed product-field vocabulary. Not blind.",
+      "rule": "heading_identity",
+      "interpretation": "Observed UI evidence only; no automatic claim about execution or database provenance.",
+      "reference_witness": {
+        "url": "http://127.0.0.1:7770/tweezers-for-succulents-duo.html",
+        "evidence_refs": [
+          {
+            "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\coverage-v2\\site-verification\\product-0\\accessibility.json",
+            "pointer": "/nodes/124/name/value",
+            "quote": "Tweezers For Succulents Duo"
+          }
+        ]
+      }
+    },
+    {
+      "id": "product.sku",
+      "kind": "attribute",
+      "page_types": [
+        "product_detail"
+      ],
+      "clauses": [
+        {
+          "name_regex": "^SKU$",
+          "roles": [
+            "StaticText",
+            "strong"
+          ]
+        }
+      ],
+      "db_mapping": {
+        "entity": "catalog_product",
+        "field": "sku",
+        "status": "code_match_mapping_needs_verification"
+      },
+      "independent_site_verification": "rendered_UI_witness_verified",
+      "precondition": "guest; browse permitted",
+      "note": "",
+      "provenance": "Candidate defined before independent site verification; historical trace informed product-field vocabulary. Not blind.",
+      "rule": "sku_value",
+      "interpretation": "Observed UI evidence only; no automatic claim about execution or database provenance.",
+      "reference_witness": {
+        "url": "http://127.0.0.1:7770/tweezers-for-succulents-duo.html",
+        "evidence_refs": [
+          {
+            "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\coverage-v2\\site-verification\\product-0\\accessibility.json",
+            "pointer": "/nodes/359/name/value",
+            "quote": "SKU"
+          },
+          {
+            "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\coverage-v2\\site-verification\\product-0\\accessibility.json",
+            "pointer": "/nodes/360/name/value",
+            "quote": "B0912T6WWG"
+          }
+        ]
+      }
+    },
+    {
+      "id": "product.price",
+      "kind": "attribute",
+      "page_types": [
+        "product_detail"
+      ],
+      "clauses": [
+        {
+          "name_regex": "^\\$[\\d,.]+$",
+          "roles": [
+            "StaticText",
+            "generic"
+          ]
+        }
+      ],
+      "db_mapping": {
+        "entity": "catalog_product",
+        "field": "price",
+        "status": "code_match_mapping_needs_verification"
+      },
+      "independent_site_verification": "rendered_UI_witness_verified",
+      "precondition": "guest; browse permitted",
+      "note": "",
+      "provenance": "Candidate defined before independent site verification; historical trace informed product-field vocabulary. Not blind.",
+      "rule": "literal_value",
+      "interpretation": "Observed UI evidence only; no automatic claim about execution or database provenance.",
+      "reference_witness": {
+        "url": "http://127.0.0.1:7770/tweezers-for-succulents-duo.html",
+        "evidence_refs": [
+          {
+            "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\coverage-v2\\site-verification\\product-0\\accessibility.json",
+            "pointer": "/nodes/220/name/value",
+            "quote": "$19.99"
+          }
+        ]
+      }
+    },
+    {
+      "id": "product.rating",
+      "kind": "attribute",
+      "page_types": [
+        "product_detail",
+        "category_list",
+        "home"
+      ],
+      "clauses": [
+        {
+          "name_regex": "^Rating:$",
+          "roles": null
+        }
+      ],
+      "db_mapping": null,
+      "independent_site_verification": "rendered_UI_witness_verified",
+      "precondition": "guest; browse permitted",
+      "note": "UI-derived or embedded product detail; exact DB mapping unverified",
+      "provenance": "Candidate defined before independent site verification; historical trace informed product-field vocabulary. Not blind.",
+      "rule": "rating_value",
+      "interpretation": "Observed UI evidence only; no automatic claim about execution or database provenance.",
+      "reference_witness": {
+        "url": "http://127.0.0.1:7770/beauty-personal-care.html",
+        "evidence_refs": [
+          {
+            "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\coverage-v2\\site-verification\\category-0\\accessibility.json",
+            "pointer": "/nodes/790/name/value",
+            "quote": "Rating:"
+          },
+          {
+            "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\coverage-v2\\site-verification\\category-0\\accessibility.json",
+            "pointer": "/nodes/1116/name/value",
+            "quote": "73%"
+          }
+        ]
+      }
+    },
+    {
+      "id": "product.review_count",
+      "kind": "attribute",
+      "page_types": [
+        "product_detail",
+        "category_list",
+        "home"
+      ],
+      "clauses": [
+        {
+          "name_regex": "\\d+\\s+Reviews?",
+          "roles": [
+            "link"
+          ]
+        }
+      ],
+      "db_mapping": null,
+      "independent_site_verification": "rendered_UI_witness_verified",
+      "precondition": "guest; browse permitted",
+      "note": "UI-derived or embedded product detail; exact DB mapping unverified",
+      "provenance": "Candidate defined before independent site verification; historical trace informed product-field vocabulary. Not blind.",
+      "rule": "literal_value",
+      "interpretation": "Observed UI evidence only; no automatic claim about execution or database provenance.",
+      "reference_witness": {
+        "url": "http://127.0.0.1:7770/beauty-personal-care.html",
+        "evidence_refs": [
+          {
+            "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\coverage-v2\\site-verification\\category-0\\accessibility.json",
+            "pointer": "/nodes/792/name/value",
+            "quote": "3  Reviews"
+          }
+        ]
+      }
+    },
+    {
+      "id": "product.availability",
+      "kind": "attribute",
+      "page_types": [
+        "product_detail"
+      ],
+      "clauses": [
+        {
+          "name_regex": "^(In stock|Out of stock)$",
+          "roles": null
+        }
+      ],
+      "db_mapping": null,
+      "independent_site_verification": "rendered_UI_witness_verified",
+      "precondition": "guest; browse permitted",
+      "note": "UI-derived or embedded product detail; exact DB mapping unverified",
+      "provenance": "Candidate defined before independent site verification; historical trace informed product-field vocabulary. Not blind.",
+      "rule": "literal_value",
+      "interpretation": "Observed UI evidence only; no automatic claim about execution or database provenance.",
+      "reference_witness": {
+        "url": "http://127.0.0.1:7770/tweezers-for-succulents-duo.html",
+        "evidence_refs": [
+          {
+            "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\coverage-v2\\site-verification\\product-0\\accessibility.json",
+            "pointer": "/nodes/216/name/value",
+            "quote": "IN STOCK"
+          }
+        ]
+      }
+    },
+    {
+      "id": "product.image",
+      "kind": "attribute",
+      "page_types": [
+        "product_detail"
+      ],
+      "clauses": [
+        {
+          "name_regex": "^Image$",
+          "roles": [
+            "image",
+            "img"
+          ]
+        }
+      ],
+      "db_mapping": {
+        "entity": "catalog_product",
+        "field": "image",
+        "status": "code_match_mapping_needs_verification"
+      },
+      "independent_site_verification": "rendered_UI_witness_verified",
+      "precondition": "guest; browse permitted",
+      "note": "",
+      "provenance": "Candidate defined before independent site verification; historical trace informed product-field vocabulary. Not blind.",
+      "rule": "image_resource",
+      "interpretation": "Observed UI evidence only; no automatic claim about execution or database provenance.",
+      "reference_witness": {
+        "url": "http://127.0.0.1:7770/tweezers-for-succulents-duo.html",
+        "evidence_refs": [
+          {
+            "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\coverage-v2\\site-verification\\product-0\\accessibility.json",
+            "pointer": "/nodes/549/name/value",
+            "quote": "Image"
+          },
+          {
+            "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\coverage-v2\\site-verification\\product-0\\accessibility.json",
+            "pointer": "/nodes/549/properties/0/value/value",
+            "quote": "http://127.0.0.1:7770/media/catalog/product/cache/829a59e57f886f8cf0598ffca4f8a940/B/0/B0912T6WWG.1.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "id": "control.product.quantity",
+      "kind": "input_control",
+      "page_types": [
+        "product_detail"
+      ],
+      "clauses": [
+        {
+          "name_regex": "^Qty$",
+          "roles": [
+            "spinbutton",
+            "textbox"
+          ]
+        }
+      ],
+      "db_mapping": null,
+      "independent_site_verification": "rendered_UI_witness_verified",
+      "precondition": "guest; browse permitted",
+      "note": "UI-derived or embedded product detail; exact DB mapping unverified",
+      "provenance": "Candidate defined before independent site verification; historical trace informed product-field vocabulary. Not blind.",
+      "rule": "numeric_input",
+      "interpretation": "Observed UI evidence only; no automatic claim about execution or database provenance.",
+      "reference_witness": {
+        "url": "http://127.0.0.1:7770/tweezers-for-succulents-duo.html",
+        "evidence_refs": [
+          {
+            "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\coverage-v2\\site-verification\\product-0\\accessibility.json",
+            "pointer": "/nodes/364/name/value",
+            "quote": "Qty"
+          },
+          {
+            "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\coverage-v2\\site-verification\\product-0\\accessibility.json",
+            "pointer": "/nodes/364/value/value",
+            "quote": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "product.size",
+      "kind": "attribute",
+      "page_types": [
+        "product_detail"
+      ],
+      "clauses": [
+        {
+          "name_regex": "^Size\\s*\\*?$",
+          "roles": null
+        }
+      ],
+      "db_mapping": null,
+      "independent_site_verification": "rendered_UI_witness_verified",
+      "precondition": "guest; browse permitted",
+      "note": "UI-derived or embedded product detail; exact DB mapping unverified",
+      "provenance": "Candidate defined before independent site verification; historical trace informed product-field vocabulary. Not blind.",
+      "rule": "row_value_or_option",
+      "interpretation": "Observed UI evidence only; no automatic claim about execution or database provenance.",
+      "reference_witness": {
+        "url": "http://127.0.0.1:7770/tweezers-for-succulents-duo.html",
+        "evidence_refs": [
+          {
+            "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\coverage-v2\\site-verification\\product-0\\accessibility.json",
+            "pointer": "/nodes/565/name/value",
+            "quote": "Size"
+          },
+          {
+            "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\coverage-v2\\site-verification\\product-0\\accessibility.json",
+            "pointer": "/nodes/566/name/value",
+            "quote": "‎Small"
+          }
+        ]
+      }
+    },
+    {
+      "id": "product.color",
+      "kind": "attribute",
+      "page_types": [
+        "product_detail"
+      ],
+      "clauses": [
+        {
+          "name_regex": "^Color\\s*\\*?$",
+          "roles": null
+        }
+      ],
+      "db_mapping": {
+        "entity": "catalog_product",
+        "field": "color",
+        "status": "code_match_mapping_needs_verification"
+      },
+      "independent_site_verification": "rendered_UI_witness_verified",
+      "precondition": "guest; browse permitted",
+      "note": "",
+      "provenance": "Candidate defined before independent site verification; historical trace informed product-field vocabulary. Not blind.",
+      "rule": "row_value_or_option",
+      "interpretation": "Observed UI evidence only; no automatic claim about execution or database provenance.",
+      "reference_witness": {
+        "url": "http://127.0.0.1:7770/tweezers-for-succulents-duo.html",
+        "evidence_refs": [
+          {
+            "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\coverage-v2\\site-verification\\product-0\\accessibility.json",
+            "pointer": "/nodes/567/name/value",
+            "quote": "Color"
+          },
+          {
+            "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\coverage-v2\\site-verification\\product-0\\accessibility.json",
+            "pointer": "/nodes/568/name/value",
+            "quote": "‎Green"
+          }
+        ]
+      }
+    },
+    {
+      "id": "product.style",
+      "kind": "attribute",
+      "page_types": [
+        "product_detail"
+      ],
+      "clauses": [
+        {
+          "name_regex": "^Style\\s*\\*?$",
+          "roles": null
+        }
+      ],
+      "db_mapping": null,
+      "independent_site_verification": "rendered_UI_witness_verified",
+      "precondition": "guest; browse permitted",
+      "note": "UI-derived or embedded product detail; exact DB mapping unverified",
+      "provenance": "Candidate defined before independent site verification; historical trace informed product-field vocabulary. Not blind.",
+      "rule": "row_value_or_option",
+      "interpretation": "Observed UI evidence only; no automatic claim about execution or database provenance.",
+      "reference_witness": {
+        "url": "http://127.0.0.1:7770/the-super-dentists-electric-toothbrush-electric-toothbrush-with-rotating-head-for-children-tweens-teens-dr-haveonesupersmile.html",
+        "evidence_refs": [
+          {
+            "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\coverage-v2\\site-verification\\product-5\\accessibility.json",
+            "pointer": "/nodes/471/name/value",
+            "quote": "Style"
+          },
+          {
+            "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\coverage-v2\\site-verification\\product-5\\accessibility.json",
+            "pointer": "/nodes/565/name/value",
+            "quote": "The Tooth Keri"
+          }
+        ]
+      }
+    },
+    {
+      "id": "product.description",
+      "kind": "attribute",
+      "page_types": [
+        "product_detail"
+      ],
+      "clauses": [
+        {
+          "name_regex": "^Details$",
+          "roles": [
+            "tabpanel"
+          ]
+        }
+      ],
+      "db_mapping": {
+        "entity": "catalog_product",
+        "field": "description",
+        "status": "code_match_mapping_needs_verification"
+      },
+      "independent_site_verification": "rendered_UI_witness_verified",
+      "precondition": "guest; browse permitted",
+      "note": "",
+      "provenance": "Candidate defined before independent site verification; historical trace informed product-field vocabulary. Not blind.",
+      "rule": "description_content",
+      "interpretation": "Observed UI evidence only; no automatic claim about execution or database provenance.",
+      "reference_witness": {
+        "url": "http://127.0.0.1:7770/tweezers-for-succulents-duo.html",
+        "evidence_refs": [
+          {
+            "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\coverage-v2\\site-verification\\product-0\\accessibility.json",
+            "pointer": "/nodes/140/name/value",
+            "quote": "Details"
+          },
+          {
+            "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\coverage-v2\\site-verification\\product-0\\accessibility.json",
+            "pointer": "/nodes/610/name/value",
+            "quote": "????SUCCULENT HOBBYISTS BESTFRIEND- Highly recommended by succulent enthusiasts. As a hobbyist, you deserve only the best tool that can withstand frequent use. A tool you can use every day yet continues to deliver the same excellent performance. A great addition to your gardening tool kit. Be a proud owner of this amazing tweezer. Buy it now."
+          }
+        ]
+      }
+    },
+    {
+      "id": "form.search.short_description",
+      "kind": "form_field",
+      "page_types": [
+        "advanced_search"
+      ],
+      "clauses": [
+        {
+          "name_regex": "^Short Description$",
+          "roles": [
+            "textbox"
+          ]
+        }
+      ],
+      "db_mapping": {
+        "entity": "catalog_product",
+        "field": "short_description",
+        "status": "code_match_mapping_needs_verification"
+      },
+      "independent_site_verification": "rendered_UI_witness_verified",
+      "precondition": "guest; browse permitted",
+      "note": "UI field label only; no assertion of populated value",
+      "provenance": "Candidate defined before independent site verification; historical trace informed product-field vocabulary. Not blind.",
+      "rule": "visible_control",
+      "interpretation": "Observed UI evidence only; no automatic claim about execution or database provenance.",
+      "reference_witness": {
+        "url": "http://127.0.0.1:7770/catalogsearch/advanced/",
+        "evidence_refs": [
+          {
+            "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\coverage-v2\\site-verification\\advanced\\accessibility.json",
+            "pointer": "/nodes/298/name/value",
+            "quote": "Short Description"
+          }
+        ]
+      }
+    },
+    {
+      "id": "product.asin",
+      "kind": "attribute",
+      "page_types": [
+        "product_detail"
+      ],
+      "clauses": [
+        {
+          "name_regex": "^ASIN[\\s\\u200f]*$",
+          "roles": [
+            "rowheader"
+          ]
+        }
+      ],
+      "db_mapping": null,
+      "independent_site_verification": "rendered_UI_witness_verified",
+      "precondition": "guest; browse permitted",
+      "note": "UI-derived or embedded product detail; exact DB mapping unverified",
+      "provenance": "Candidate defined before independent site verification; historical trace informed product-field vocabulary. Not blind.",
+      "rule": "row_value_or_option",
+      "interpretation": "Observed UI evidence only; no automatic claim about execution or database provenance.",
+      "reference_witness": {
+        "url": "http://127.0.0.1:7770/soft-clean-between-interdental-floss-brushes-random-color-oral-care-tool-20-pcs-2-pack-elastic-massage-gums-toothpick-2-box.html",
+        "evidence_refs": [
+          {
+            "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\coverage-v2\\site-verification\\product-1\\accessibility.json",
+            "pointer": "/nodes/557/name/value",
+            "quote": "ASIN ‏"
+          },
+          {
+            "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\coverage-v2\\site-verification\\product-1\\accessibility.json",
+            "pointer": "/nodes/558/name/value",
+            "quote": "‎ B073QTWJ2Y"
+          }
+        ]
+      }
+    },
+    {
+      "id": "product.dimensions",
+      "kind": "attribute",
+      "page_types": [
+        "product_detail"
+      ],
+      "clauses": [
+        {
+          "name_regex": "^Product Dimensions[\\s\\u200f]*$",
+          "roles": [
+            "rowheader"
+          ]
+        }
+      ],
+      "db_mapping": null,
+      "independent_site_verification": "rendered_UI_witness_verified",
+      "precondition": "guest; browse permitted",
+      "note": "UI-derived or embedded product detail; exact DB mapping unverified",
+      "provenance": "Candidate defined before independent site verification; historical trace informed product-field vocabulary. Not blind.",
+      "rule": "row_value_or_option",
+      "interpretation": "Observed UI evidence only; no automatic claim about execution or database provenance.",
+      "reference_witness": {
+        "url": "http://127.0.0.1:7770/tweezers-for-succulents-duo.html",
+        "evidence_refs": [
+          {
+            "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\coverage-v2\\site-verification\\product-0\\accessibility.json",
+            "pointer": "/nodes/563/name/value",
+            "quote": "Product Dimensions"
+          },
+          {
+            "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\coverage-v2\\site-verification\\product-0\\accessibility.json",
+            "pointer": "/nodes/564/name/value",
+            "quote": "‎8 x 0.5 x 0.25 inches"
+          }
+        ]
+      }
+    },
+    {
+      "id": "product.upc",
+      "kind": "attribute",
+      "page_types": [
+        "product_detail"
+      ],
+      "clauses": [
+        {
+          "name_regex": "^UPC[\\s\\u200f]*$",
+          "roles": [
+            "rowheader"
+          ]
+        }
+      ],
+      "db_mapping": null,
+      "independent_site_verification": "rendered_UI_witness_verified",
+      "precondition": "guest; browse permitted",
+      "note": "UI-derived or embedded product detail; exact DB mapping unverified",
+      "provenance": "Candidate defined before independent site verification; historical trace informed product-field vocabulary. Not blind.",
+      "rule": "row_value_or_option",
+      "interpretation": "Observed UI evidence only; no automatic claim about execution or database provenance.",
+      "reference_witness": {
+        "url": "http://127.0.0.1:7770/soft-clean-between-interdental-floss-brushes-random-color-oral-care-tool-20-pcs-2-pack-elastic-massage-gums-toothpick-2-box.html",
+        "evidence_refs": [
+          {
+            "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\coverage-v2\\site-verification\\product-1\\accessibility.json",
+            "pointer": "/nodes/553/name/value",
+            "quote": "UPC ‏"
+          },
+          {
+            "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\coverage-v2\\site-verification\\product-1\\accessibility.json",
+            "pointer": "/nodes/554/name/value",
+            "quote": "‎ 761560665992"
+          }
+        ]
+      }
+    },
+    {
+      "id": "product.manufacturer",
+      "kind": "attribute",
+      "page_types": [
+        "product_detail"
+      ],
+      "clauses": [
+        {
+          "name_regex": "^Manufacturer[\\s\\u200f]*$",
+          "roles": [
+            "rowheader"
+          ]
+        }
+      ],
+      "db_mapping": {
+        "entity": "catalog_product",
+        "field": "manufacturer",
+        "status": "code_match_mapping_needs_verification"
+      },
+      "independent_site_verification": "rendered_UI_witness_verified",
+      "precondition": "guest; browse permitted",
+      "note": "",
+      "provenance": "Candidate defined before independent site verification; historical trace informed product-field vocabulary. Not blind.",
+      "rule": "row_value_or_option",
+      "interpretation": "Observed UI evidence only; no automatic claim about execution or database provenance.",
+      "reference_witness": {
+        "url": "http://127.0.0.1:7770/tweezers-for-succulents-duo.html",
+        "evidence_refs": [
+          {
+            "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\coverage-v2\\site-verification\\product-0\\accessibility.json",
+            "pointer": "/nodes/559/name/value",
+            "quote": "Manufacturer"
+          },
+          {
+            "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\coverage-v2\\site-verification\\product-0\\accessibility.json",
+            "pointer": "/nodes/560/name/value",
+            "quote": "‎Chopstick And Succulents"
+          }
+        ]
+      }
+    },
+    {
+      "id": "product.country_of_origin",
+      "kind": "attribute",
+      "page_types": [
+        "product_detail"
+      ],
+      "clauses": [
+        {
+          "name_regex": "^Country of Origin[\\s\\u200f]*$",
+          "roles": [
+            "rowheader"
+          ]
+        }
+      ],
+      "db_mapping": null,
+      "independent_site_verification": "rendered_UI_witness_verified",
+      "precondition": "guest; browse permitted",
+      "note": "UI-derived or embedded product detail; exact DB mapping unverified",
+      "provenance": "Candidate defined before independent site verification; historical trace informed product-field vocabulary. Not blind.",
+      "rule": "row_value_or_option",
+      "interpretation": "Observed UI evidence only; no automatic claim about execution or database provenance.",
+      "reference_witness": {
+        "url": "http://127.0.0.1:7770/mouth-guard-moldable-nightguard-for-grinding-teeth-at-night-whitening-tray-4-pack-upgraded-night-guards-to-keep-calm-professional-comfortable-mouthguards-for-sleep-2-sizes.html",
+        "evidence_refs": [
+          {
+            "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\coverage-v2\\site-verification\\product-6\\accessibility.json",
+            "pointer": "/nodes/597/name/value",
+            "quote": "Country of Origin ‏"
+          },
+          {
+            "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\coverage-v2\\site-verification\\product-6\\accessibility.json",
+            "pointer": "/nodes/598/name/value",
+            "quote": "‎ China"
+          }
+        ]
+      }
+    },
+    {
+      "id": "product.package_dimensions",
+      "kind": "attribute",
+      "page_types": [
+        "product_detail"
+      ],
+      "clauses": [
+        {
+          "name_regex": "^Package Dimensions[\\s\\u200f]*$",
+          "roles": [
+            "rowheader"
+          ]
+        }
+      ],
+      "db_mapping": null,
+      "independent_site_verification": "rendered_UI_witness_verified",
+      "precondition": "guest; browse permitted",
+      "note": "UI-derived or embedded product detail; exact DB mapping unverified",
+      "provenance": "Candidate defined before independent site verification; historical trace informed product-field vocabulary. Not blind.",
+      "rule": "row_value_or_option",
+      "interpretation": "Observed UI evidence only; no automatic claim about execution or database provenance.",
+      "reference_witness": {
+        "url": "http://127.0.0.1:7770/2-boxes-of-iodent-overnight-whitening-denture-cleanser-tablets-20-per-box-40-tablets-total.html",
+        "evidence_refs": [
+          {
+            "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\coverage-v2\\site-verification\\product-10\\accessibility.json",
+            "pointer": "/nodes/551/name/value",
+            "quote": "Package Dimensions ‏"
+          },
+          {
+            "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\coverage-v2\\site-verification\\product-10\\accessibility.json",
+            "pointer": "/nodes/552/name/value",
+            "quote": "‎ 4.2 x 4 x 3.1 inches; 3.2 Ounces"
+          }
+        ]
+      }
+    },
+    {
+      "id": "product.item_weight",
+      "kind": "attribute",
+      "page_types": [
+        "product_detail"
+      ],
+      "clauses": [
+        {
+          "name_regex": "^Item Weight[\\s\\u200f]*$",
+          "roles": [
+            "rowheader"
+          ]
+        }
+      ],
+      "db_mapping": null,
+      "independent_site_verification": "rendered_UI_witness_verified",
+      "precondition": "guest; browse permitted",
+      "note": "UI-derived or embedded product detail; exact DB mapping unverified",
+      "provenance": "Candidate defined before independent site verification; historical trace informed product-field vocabulary. Not blind.",
+      "rule": "row_value_or_option",
+      "interpretation": "Observed UI evidence only; no automatic claim about execution or database provenance.",
+      "reference_witness": {
+        "url": "http://127.0.0.1:7770/tweezers-for-succulents-duo.html",
+        "evidence_refs": [
+          {
+            "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\coverage-v2\\site-verification\\product-0\\accessibility.json",
+            "pointer": "/nodes/561/name/value",
+            "quote": "Item Weight"
+          },
+          {
+            "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\coverage-v2\\site-verification\\product-0\\accessibility.json",
+            "pointer": "/nodes/562/name/value",
+            "quote": "‎3.84 ounces"
+          }
+        ]
+      }
+    },
+    {
+      "id": "product.model_number",
+      "kind": "attribute",
+      "page_types": [
+        "product_detail"
+      ],
+      "clauses": [
+        {
+          "name_regex": "^Item model number[\\s\\u200f]*$",
+          "roles": [
+            "rowheader"
+          ]
+        }
+      ],
+      "db_mapping": null,
+      "independent_site_verification": "rendered_UI_witness_verified",
+      "precondition": "guest; browse permitted",
+      "note": "UI-derived or embedded product detail; exact DB mapping unverified",
+      "provenance": "Candidate defined before independent site verification; historical trace informed product-field vocabulary. Not blind.",
+      "rule": "row_value_or_option",
+      "interpretation": "Observed UI evidence only; no automatic claim about execution or database provenance.",
+      "reference_witness": {
+        "url": "http://127.0.0.1:7770/healifty-2-sets-of-professional-tongue-cleaners-tongue-cleaning-tools-for-home.html",
+        "evidence_refs": [
+          {
+            "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\coverage-v2\\site-verification\\product-11\\accessibility.json",
+            "pointer": "/nodes/579/name/value",
+            "quote": "Item model number ‏"
+          },
+          {
+            "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\coverage-v2\\site-verification\\product-11\\accessibility.json",
+            "pointer": "/nodes/580/name/value",
+            "quote": "‎ BRJR171554OZYD7MVI"
+          }
+        ]
+      }
+    },
+    {
+      "id": "product.date_first_available",
+      "kind": "attribute",
+      "page_types": [
+        "product_detail"
+      ],
+      "clauses": [
+        {
+          "name_regex": "^Date First Available[\\s\\u200f]*$",
+          "roles": [
+            "rowheader"
+          ]
+        }
+      ],
+      "db_mapping": null,
+      "independent_site_verification": "rendered_UI_witness_verified",
+      "precondition": "guest; browse permitted",
+      "note": "UI-derived or embedded product detail; exact DB mapping unverified",
+      "provenance": "Candidate defined before independent site verification; historical trace informed product-field vocabulary. Not blind.",
+      "rule": "row_value_or_option",
+      "interpretation": "Observed UI evidence only; no automatic claim about execution or database provenance.",
+      "reference_witness": {
+        "url": "http://127.0.0.1:7770/tweezers-for-succulents-duo.html",
+        "evidence_refs": [
+          {
+            "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\coverage-v2\\site-verification\\product-0\\accessibility.json",
+            "pointer": "/nodes/577/name/value",
+            "quote": "Date First Available"
+          },
+          {
+            "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\coverage-v2\\site-verification\\product-0\\accessibility.json",
+            "pointer": "/nodes/578/name/value",
+            "quote": "March 25, 2021"
+          }
+        ]
+      }
+    },
+    {
+      "id": "product.batteries",
+      "kind": "attribute",
+      "page_types": [
+        "product_detail"
+      ],
+      "clauses": [
+        {
+          "name_regex": "^Batteries[\\s\\u200f]*[\\s\\u200f]*$",
+          "roles": [
+            "rowheader"
+          ]
+        }
+      ],
+      "db_mapping": null,
+      "independent_site_verification": "rendered_UI_witness_verified",
+      "precondition": "guest; browse permitted",
+      "note": "UI-derived or embedded product detail; exact DB mapping unverified",
+      "provenance": "Candidate defined before independent site verification; historical trace informed product-field vocabulary. Not blind.",
+      "rule": "row_value_or_option",
+      "interpretation": "Observed UI evidence only; no automatic claim about execution or database provenance.",
+      "reference_witness": {
+        "url": "http://127.0.0.1:7770/energizer-max-c-batteries-premium-alkaline-c-cell-batteries-8-battery-count.html?options=cart",
+        "evidence_refs": [
+          {
+            "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\coverage-v2\\site-verification-extra\\target-0\\accessibility.json",
+            "pointer": "/nodes/461/name/value",
+            "quote": "Batteries ‏"
+          },
+          {
+            "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\coverage-v2\\site-verification-extra\\target-0\\accessibility.json",
+            "pointer": "/nodes/462/name/value",
+            "quote": "‎ 1 C batteries required."
+          }
+        ]
+      }
+    },
+    {
+      "id": "product.discontinued_status",
+      "kind": "attribute",
+      "page_types": [
+        "product_detail"
+      ],
+      "clauses": [
+        {
+          "name_regex": "^Is Discontinued By Manufacturer[\\s\\u200f]*$",
+          "roles": [
+            "rowheader"
+          ]
+        }
+      ],
+      "db_mapping": null,
+      "independent_site_verification": "rendered_UI_witness_verified",
+      "precondition": "guest; browse permitted",
+      "note": "UI-derived or embedded product detail; exact DB mapping unverified",
+      "provenance": "Candidate defined before independent site verification; historical trace informed product-field vocabulary. Not blind.",
+      "rule": "row_value_or_option",
+      "interpretation": "Observed UI evidence only; no automatic claim about execution or database provenance.",
+      "reference_witness": {
+        "url": "http://127.0.0.1:7770/soft-clean-between-interdental-floss-brushes-random-color-oral-care-tool-20-pcs-2-pack-elastic-massage-gums-toothpick-2-box.html",
+        "evidence_refs": [
+          {
+            "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\coverage-v2\\site-verification\\product-1\\accessibility.json",
+            "pointer": "/nodes/551/name/value",
+            "quote": "Is Discontinued By Manufacturer ‏"
+          },
+          {
+            "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\coverage-v2\\site-verification\\product-1\\accessibility.json",
+            "pointer": "/nodes/552/name/value",
+            "quote": "‎ No"
+          }
+        ]
+      }
+    },
+    {
+      "id": "product.domestic_shipping",
+      "kind": "attribute",
+      "page_types": [
+        "product_detail"
+      ],
+      "clauses": [
+        {
+          "name_regex": "^Domestic Shipping[\\s\\u200f]*$",
+          "roles": [
+            "rowheader"
+          ]
+        }
+      ],
+      "db_mapping": null,
+      "independent_site_verification": "rendered_UI_witness_verified",
+      "precondition": "guest; browse permitted",
+      "note": "UI-derived or embedded product detail; exact DB mapping unverified",
+      "provenance": "Candidate defined before independent site verification; historical trace informed product-field vocabulary. Not blind.",
+      "rule": "row_value_or_option",
+      "interpretation": "Observed UI evidence only; no automatic claim about execution or database provenance.",
+      "reference_witness": {
+        "url": "http://127.0.0.1:7770/energizer-max-c-batteries-premium-alkaline-c-cell-batteries-8-battery-count.html?options=cart",
+        "evidence_refs": [
+          {
+            "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\coverage-v2\\site-verification-extra\\target-0\\accessibility.json",
+            "pointer": "/nodes/471/name/value",
+            "quote": "Domestic Shipping"
+          },
+          {
+            "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\coverage-v2\\site-verification-extra\\target-0\\accessibility.json",
+            "pointer": "/nodes/472/name/value",
+            "quote": "Currently, item can be shipped only within the U.S. and to APO/FPO addresses. For APO/FPO shipments, please check with the manufacturer regarding warranty and support issues."
+          }
+        ]
+      }
+    },
+    {
+      "id": "product.international_shipping",
+      "kind": "attribute",
+      "page_types": [
+        "product_detail"
+      ],
+      "clauses": [
+        {
+          "name_regex": "^International Shipping[\\s\\u200f]*$",
+          "roles": [
+            "rowheader"
+          ]
+        }
+      ],
+      "db_mapping": null,
+      "independent_site_verification": "rendered_UI_witness_verified",
+      "precondition": "guest; browse permitted",
+      "note": "UI-derived or embedded product detail; exact DB mapping unverified",
+      "provenance": "Candidate defined before independent site verification; historical trace informed product-field vocabulary. Not blind.",
+      "rule": "row_value_or_option",
+      "interpretation": "Observed UI evidence only; no automatic claim about execution or database provenance.",
+      "reference_witness": {
+        "url": "http://127.0.0.1:7770/energizer-max-c-batteries-premium-alkaline-c-cell-batteries-8-battery-count.html?options=cart",
+        "evidence_refs": [
+          {
+            "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\coverage-v2\\site-verification-extra\\target-0\\accessibility.json",
+            "pointer": "/nodes/473/name/value",
+            "quote": "International Shipping"
+          },
+          {
+            "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\coverage-v2\\site-verification-extra\\target-0\\accessibility.json",
+            "pointer": "/nodes/474/name/value",
+            "quote": "This item can be shipped to select countries outside of the U.S.Learn More"
+          }
+        ]
+      }
+    },
+    {
+      "id": "product.department",
+      "kind": "attribute",
+      "page_types": [
+        "product_detail"
+      ],
+      "clauses": [
+        {
+          "name_regex": "^Department[\\s\\u200f]*$",
+          "roles": [
+            "rowheader"
+          ]
+        }
+      ],
+      "db_mapping": null,
+      "independent_site_verification": "rendered_UI_witness_verified",
+      "precondition": "guest; browse permitted",
+      "note": "UI-derived or embedded product detail; exact DB mapping unverified",
+      "provenance": "Candidate defined before independent site verification; historical trace informed product-field vocabulary. Not blind.",
+      "rule": "row_value_or_option",
+      "interpretation": "Observed UI evidence only; no automatic claim about execution or database provenance.",
+      "reference_witness": {
+        "url": "http://127.0.0.1:7770/elastic-ligature-threader-orthodontic-elastic-instruments-ortho-twirl-on-new-by-g-s-online-store.html",
+        "evidence_refs": [
+          {
+            "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\coverage-v2\\site-verification\\product-4\\accessibility.json",
+            "pointer": "/nodes/540/name/value",
+            "quote": "Department ‏"
+          },
+          {
+            "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\coverage-v2\\site-verification\\product-4\\accessibility.json",
+            "pointer": "/nodes/541/name/value",
+            "quote": "‎ Unisex-adult"
+          }
+        ]
+      }
+    },
+    {
+      "id": "category.name",
+      "kind": "attribute",
+      "page_types": [
+        "category_list"
+      ],
+      "clauses": [
+        {
+          "name_regex": "Items.*of",
+          "roles": [
+            "heading"
+          ]
+        }
+      ],
+      "db_mapping": {
+        "entity": "catalog_category",
+        "field": "name"
+      },
+      "independent_site_verification": "rendered_UI_witness_verified",
+      "precondition": "guest; browse permitted",
+      "note": "",
+      "provenance": "Candidate defined before independent site verification; historical trace informed product-field vocabulary. Not blind.",
+      "rule": "heading_identity",
+      "interpretation": "Observed UI evidence only; no automatic claim about execution or database provenance.",
+      "reference_witness": {
+        "url": "http://127.0.0.1:7770/beauty-personal-care.html",
+        "evidence_refs": [
+          {
+            "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\coverage-v2\\site-verification\\category-0\\accessibility.json",
+            "pointer": "/nodes/106/name/value",
+            "quote": "Beauty & Personal Care Items 1-12 of 21796"
+          }
+        ]
+      }
+    },
+    {
+      "id": "category.item_count",
+      "kind": "attribute",
+      "page_types": [
+        "category_list"
+      ],
+      "clauses": [
+        {
+          "name_regex": "Items.*of\\s*\\d+",
+          "roles": null
+        }
+      ],
+      "db_mapping": null,
+      "independent_site_verification": "rendered_UI_witness_verified",
+      "precondition": "guest; browse permitted",
+      "note": "",
+      "provenance": "Candidate defined before independent site verification; historical trace informed product-field vocabulary. Not blind.",
+      "rule": "literal_value",
+      "interpretation": "Observed UI evidence only; no automatic claim about execution or database provenance.",
+      "reference_witness": {
+        "url": "http://127.0.0.1:7770/beauty-personal-care.html",
+        "evidence_refs": [
+          {
+            "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\coverage-v2\\site-verification\\category-0\\accessibility.json",
+            "pointer": "/nodes/106/name/value",
+            "quote": "Beauty & Personal Care Items 1-12 of 21796"
+          }
+        ]
+      }
+    },
+    {
+      "id": "category.subcategories",
+      "kind": "attribute",
+      "page_types": [
+        "category_list"
+      ],
+      "clauses": [
+        {
+          "name_regex": "^(?!\\$).+\\(\\s*\\d+\\s*item\\s*\\)",
+          "roles": [
+            "link"
+          ]
+        }
+      ],
+      "db_mapping": null,
+      "independent_site_verification": "rendered_UI_witness_verified",
+      "precondition": "guest; browse permitted",
+      "note": "",
+      "provenance": "Candidate defined before independent site verification; historical trace informed product-field vocabulary. Not blind.",
+      "rule": "literal_value",
+      "interpretation": "Observed UI evidence only; no automatic claim about execution or database provenance.",
+      "reference_witness": {
+        "url": "http://127.0.0.1:7770/beauty-personal-care.html",
+        "evidence_refs": [
+          {
+            "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\coverage-v2\\site-verification\\category-0\\accessibility.json",
+            "pointer": "/nodes/711/name/value",
+            "quote": "Oral Care( 3125 item )"
+          }
+        ]
+      }
+    },
+    {
+      "id": "category.price_range",
+      "kind": "attribute",
+      "page_types": [
+        "category_list"
+      ],
+      "clauses": [
+        {
+          "name_regex": "\\$[\\d,.]+\\s*(-|and above)",
+          "roles": [
+            "link"
+          ]
+        }
+      ],
+      "db_mapping": null,
+      "independent_site_verification": "rendered_UI_witness_verified",
+      "precondition": "guest; browse permitted",
+      "note": "",
+      "provenance": "Candidate defined before independent site verification; historical trace informed product-field vocabulary. Not blind.",
+      "rule": "literal_value",
+      "interpretation": "Observed UI evidence only; no automatic claim about execution or database provenance.",
+      "reference_witness": {
+        "url": "http://127.0.0.1:7770/beauty-personal-care.html",
+        "evidence_refs": [
+          {
+            "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\coverage-v2\\site-verification\\category-0\\accessibility.json",
+            "pointer": "/nodes/721/name/value",
+            "quote": "$0.00 - $999.99( 21743 item )"
+          }
+        ]
+      }
+    },
+    {
+      "id": "search.basic",
+      "kind": "affordance",
+      "page_types": null,
+      "clauses": [
+        {
+          "name_regex": "Search",
+          "roles": [
+            "combobox"
+          ]
+        }
+      ],
+      "db_mapping": null,
+      "independent_site_verification": "rendered_UI_witness_verified",
+      "precondition": "guest",
+      "note": "",
+      "provenance": "Candidate defined before independent site verification; historical trace informed product-field vocabulary. Not blind.",
+      "rule": "visible_control",
+      "interpretation": "Observed UI evidence only; no automatic claim about execution or database provenance.",
+      "reference_witness": {
+        "url": "http://127.0.0.1:7770/catalogsearch/advanced/",
+        "evidence_refs": [
+          {
+            "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\coverage-v2\\site-verification\\advanced\\accessibility.json",
+            "pointer": "/nodes/325/name/value",
+            "quote": " Search"
+          }
+        ]
+      }
+    },
+    {
+      "id": "search.advanced",
+      "kind": "affordance",
+      "page_types": [
+        "advanced_search"
+      ],
+      "clauses": [
+        {
+          "name_regex": "^Search$",
+          "roles": [
+            "button"
+          ]
+        }
+      ],
+      "db_mapping": null,
+      "independent_site_verification": "rendered_UI_witness_verified",
+      "precondition": "guest",
+      "note": "",
+      "provenance": "Candidate defined before independent site verification; historical trace informed product-field vocabulary. Not blind.",
+      "rule": "visible_control",
+      "interpretation": "Observed UI evidence only; no automatic claim about execution or database provenance.",
+      "reference_witness": {
+        "url": "http://127.0.0.1:7770/catalogsearch/advanced/",
+        "evidence_refs": [
+          {
+            "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\coverage-v2\\site-verification\\advanced\\accessibility.json",
+            "pointer": "/nodes/175/name/value",
+            "quote": "Search"
+          }
+        ]
+      }
+    },
+    {
+      "id": "catalog.filter",
+      "kind": "affordance",
+      "page_types": [
+        "category_list"
+      ],
+      "clauses": [
+        {
+          "name_regex": "^Category$",
+          "roles": [
+            "heading"
+          ]
+        }
+      ],
+      "db_mapping": null,
+      "independent_site_verification": "rendered_UI_witness_verified",
+      "precondition": "guest",
+      "note": "",
+      "provenance": "Candidate defined before independent site verification; historical trace informed product-field vocabulary. Not blind.",
+      "rule": "visible_control",
+      "interpretation": "Observed UI evidence only; no automatic claim about execution or database provenance.",
+      "reference_witness": {
+        "url": "http://127.0.0.1:7770/beauty-personal-care.html",
+        "evidence_refs": [
+          {
+            "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\coverage-v2\\site-verification\\category-0\\accessibility.json",
+            "pointer": "/nodes/206/name/value",
+            "quote": "Category"
+          },
+          {
+            "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\coverage-v2\\site-verification\\category-0\\accessibility.json",
+            "pointer": "/nodes/711/name/value",
+            "quote": "Oral Care( 3125 item )"
+          }
+        ]
+      }
+    },
+    {
+      "id": "catalog.sort",
+      "kind": "affordance",
+      "page_types": [
+        "category_list"
+      ],
+      "clauses": [
+        {
+          "name_regex": "^Sort By$",
+          "roles": [
+            "combobox"
+          ]
+        }
+      ],
+      "db_mapping": null,
+      "independent_site_verification": "rendered_UI_witness_verified",
+      "precondition": "guest",
+      "note": "",
+      "provenance": "Candidate defined before independent site verification; historical trace informed product-field vocabulary. Not blind.",
+      "rule": "visible_control",
+      "interpretation": "Observed UI evidence only; no automatic claim about execution or database provenance.",
+      "reference_witness": {
+        "url": "http://127.0.0.1:7770/beauty-personal-care.html",
+        "evidence_refs": [
+          {
+            "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\coverage-v2\\site-verification\\category-0\\accessibility.json",
+            "pointer": "/nodes/185/name/value",
+            "quote": "Sort By"
+          }
+        ]
+      }
+    },
+    {
+      "id": "catalog.paginate",
+      "kind": "affordance",
+      "page_types": [
+        "category_list"
+      ],
+      "clauses": [
+        {
+          "name_regex": "Next",
+          "roles": [
+            "link"
+          ]
+        }
+      ],
+      "db_mapping": null,
+      "independent_site_verification": "rendered_UI_witness_verified",
+      "precondition": "guest",
+      "note": "",
+      "provenance": "Candidate defined before independent site verification; historical trace informed product-field vocabulary. Not blind.",
+      "rule": "link_target",
+      "target_contains": "p=",
+      "interpretation": "Observed UI evidence only; no automatic claim about execution or database provenance.",
+      "reference_witness": {
+        "url": "http://127.0.0.1:7770/beauty-personal-care.html",
+        "evidence_refs": [
+          {
+            "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\coverage-v2\\site-verification\\category-0\\accessibility.json",
+            "pointer": "/nodes/537/name/value",
+            "quote": " Page Next"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cart.add",
+      "kind": "affordance",
+      "page_types": [
+        "product_detail",
+        "category_list",
+        "home"
+      ],
+      "clauses": [
+        {
+          "name_regex": "^Add to Cart$",
+          "roles": [
+            "button"
+          ]
+        }
+      ],
+      "db_mapping": null,
+      "independent_site_verification": "rendered_UI_witness_verified",
+      "precondition": "guest",
+      "note": "",
+      "provenance": "Candidate defined before independent site verification; historical trace informed product-field vocabulary. Not blind.",
+      "rule": "visible_control",
+      "interpretation": "Observed UI evidence only; no automatic claim about execution or database provenance.",
+      "reference_witness": {
+        "url": "http://127.0.0.1:7770/beauty-personal-care.html",
+        "evidence_refs": [
+          {
+            "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\coverage-v2\\site-verification\\category-0\\accessibility.json",
+            "pointer": "/nodes/1041/name/value",
+            "quote": "Add to Cart"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cart.view",
+      "kind": "affordance",
+      "page_types": null,
+      "clauses": [
+        {
+          "name_regex": "My Cart",
+          "roles": [
+            "link"
+          ]
+        }
+      ],
+      "db_mapping": null,
+      "independent_site_verification": "rendered_UI_witness_verified",
+      "precondition": "guest",
+      "note": "",
+      "provenance": "Candidate defined before independent site verification; historical trace informed product-field vocabulary. Not blind.",
+      "rule": "link_target",
+      "target_contains": "/checkout/cart",
+      "interpretation": "Observed UI evidence only; no automatic claim about execution or database provenance.",
+      "reference_witness": {
+        "url": "http://127.0.0.1:7770/catalogsearch/advanced/",
+        "evidence_refs": [
+          {
+            "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\coverage-v2\\site-verification\\advanced\\accessibility.json",
+            "pointer": "/nodes/133/name/value",
+            "quote": " My Cart"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cart.empty",
+      "kind": "business_state",
+      "page_types": [
+        "cart"
+      ],
+      "clauses": [
+        {
+          "name_regex": "You have no items in your shopping cart",
+          "roles": null
+        }
+      ],
+      "db_mapping": null,
+      "independent_site_verification": "rendered_UI_witness_verified",
+      "precondition": "guest; browse permitted",
+      "note": "",
+      "provenance": "Candidate defined before independent site verification; historical trace informed product-field vocabulary. Not blind.",
+      "rule": "literal_value",
+      "interpretation": "Observed UI evidence only; no automatic claim about execution or database provenance.",
+      "reference_witness": {
+        "url": "http://127.0.0.1:7770/checkout/cart/",
+        "evidence_refs": [
+          {
+            "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\coverage-v2\\site-verification\\cart-empty\\accessibility.json",
+            "pointer": "/nodes/104/name/value",
+            "quote": "You have no items in your shopping cart."
+          }
+        ]
+      }
+    },
+    {
+      "id": "search.results_nonempty",
+      "kind": "business_state",
+      "page_types": [
+        "search_results"
+      ],
+      "clauses": [
+        {
+          "name_regex": "^Add to Cart$",
+          "roles": [
+            "button"
+          ]
+        }
+      ],
+      "db_mapping": null,
+      "independent_site_verification": "rendered_UI_witness_verified",
+      "precondition": "guest; browse permitted",
+      "note": "",
+      "provenance": "Candidate defined before independent site verification; historical trace informed product-field vocabulary. Not blind.",
+      "rule": "search_result",
+      "interpretation": "Observed UI evidence only; no automatic claim about execution or database provenance.",
+      "reference_witness": {
+        "url": "http://127.0.0.1:7770/catalogsearch/result/?q=bread",
+        "evidence_refs": [
+          {
+            "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\coverage-v2\\site-verification\\search-results\\accessibility.json",
+            "pointer": "/nodes/934/name/value",
+            "quote": "Add to Cart"
+          },
+          {
+            "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\coverage-v2\\site-verification\\search-results\\accessibility.json",
+            "pointer": "/nodes/454/name/value",
+            "quote": "Image"
+          }
+        ]
+      }
+    },
+    {
+      "id": "search.results_empty",
+      "kind": "business_state",
+      "page_types": [
+        "search_results"
+      ],
+      "clauses": [
+        {
+          "name_regex": "^Your search returned no results\\.$",
+          "roles": [
+            "StaticText"
+          ]
+        }
+      ],
+      "db_mapping": null,
+      "independent_site_verification": "rendered_UI_witness_verified",
+      "precondition": "guest; browse permitted",
+      "note": "",
+      "provenance": "Candidate defined before independent site verification; historical trace informed product-field vocabulary. Not blind.",
+      "rule": "literal_value",
+      "interpretation": "Observed UI evidence only; no automatic claim about execution or database provenance.",
+      "reference_witness": {
+        "url": "http://127.0.0.1:7770/catalogsearch/result/?q=zzbenchmarknomatch20260929",
+        "evidence_refs": [
+          {
+            "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\coverage-v2\\site-verification\\search-empty\\accessibility.json",
+            "pointer": "/nodes/282/name/value",
+            "quote": "Your search returned no results."
+          }
+        ]
+      }
+    },
+    {
+      "id": "catalog.filtered_result",
+      "kind": "business_state",
+      "page_types": [
+        "category_list"
+      ],
+      "clauses": [
+        {
+          "name_regex": "^Now Shopping by$",
+          "roles": [
+            "heading"
+          ]
+        }
+      ],
+      "db_mapping": null,
+      "precondition": "guest; read-only GET allowed",
+      "note": "Observed result state; no claim that historical agent executed a specific action.",
+      "independent_site_verification": "rendered_UI_witness_verified",
+      "rule": "filter_result",
+      "interpretation": "Observed UI evidence only; no automatic claim about execution or database provenance.",
+      "reference_witness": {
+        "url": "http://127.0.0.1:7770/grocery-gourmet-food.html?price=0-1000",
+        "evidence_refs": [
+          {
+            "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\coverage-v2\\site-verification-extra\\filtered\\accessibility.json",
+            "pointer": "/nodes/122/name/value",
+            "quote": "Now Shopping by"
+          },
+          {
+            "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\coverage-v2\\site-verification-extra\\filtered\\accessibility.json",
+            "pointer": "/nodes/383/name/value",
+            "quote": "Remove This Item"
+          }
+        ]
+      }
+    },
+    {
+      "id": "catalog.price_sort_selected",
+      "kind": "business_state",
+      "page_types": [
+        "category_list"
+      ],
+      "clauses": [
+        {
+          "name_regex": "^Sort By$",
+          "roles": [
+            "combobox"
+          ],
+          "value_equals": "Price"
+        }
+      ],
+      "db_mapping": null,
+      "precondition": "guest; read-only GET allowed",
+      "note": "Observed result state; no claim that historical agent executed a specific action.",
+      "independent_site_verification": "rendered_UI_witness_verified",
+      "rule": "sort_selection",
+      "interpretation": "Observed UI evidence only; no automatic claim about execution or database provenance.",
+      "reference_witness": {
+        "url": "http://127.0.0.1:7770/beauty-personal-care.html?product_list_order=price",
+        "evidence_refs": [
+          {
+            "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\coverage-v2\\site-verification\\category-sort\\accessibility.json",
+            "pointer": "/nodes/185/name/value",
+            "quote": "Sort By"
+          },
+          {
+            "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\coverage-v2\\site-verification\\category-sort\\accessibility.json",
+            "pointer": "/nodes/185/value/value",
+            "quote": "Price"
+          }
+        ]
+      }
+    },
+    {
+      "id": "catalog.next_page",
+      "kind": "business_state",
+      "page_types": [
+        "category_list"
+      ],
+      "clauses": [
+        {
+          "name_regex": "Items 13-24 of",
+          "roles": [
+            "heading"
+          ]
+        }
+      ],
+      "db_mapping": null,
+      "precondition": "guest; read-only GET allowed",
+      "note": "Observed result state; no claim that historical agent executed a specific action.",
+      "independent_site_verification": "rendered_UI_witness_verified",
+      "rule": "page2_result",
+      "interpretation": "Observed UI evidence only; no automatic claim about execution or database provenance.",
+      "reference_witness": {
+        "url": "http://127.0.0.1:7770/beauty-personal-care.html?p=2",
+        "evidence_refs": [
+          {
+            "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\coverage-v2\\site-verification\\category-page2\\accessibility.json",
+            "pointer": "/nodes/106/name/value",
+            "quote": "Beauty & Personal Care Items 13-24 of 21796"
+          }
+        ]
+      }
+    },
+    {
+      "id": "page.home",
+      "kind": "page_type",
+      "page_types": [
+        "home"
+      ],
+      "clauses": [
+        {
+          "name_regex": ".+",
+          "roles": [
+            "RootWebArea"
+          ]
+        }
+      ],
+      "db_mapping": null,
+      "precondition": "guest; read-only",
+      "note": "URL/body-class classifier plus observed rendered page.",
+      "independent_site_verification": "rendered_UI_witness_verified",
+      "rule": "literal_value",
+      "interpretation": "Observed UI evidence only; no automatic claim about execution or database provenance.",
+      "reference_witness": {
+        "url": "http://127.0.0.1:7770/",
+        "evidence_refs": [
+          {
+            "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\coverage-v2\\site-verification\\home\\accessibility.json",
+            "pointer": "/nodes/0/name/value",
+            "quote": "One Stop Market"
+          }
+        ]
+      }
+    },
+    {
+      "id": "page.category_list",
+      "kind": "page_type",
+      "page_types": [
+        "category_list"
+      ],
+      "clauses": [
+        {
+          "name_regex": ".+",
+          "roles": [
+            "RootWebArea"
+          ]
+        }
+      ],
+      "db_mapping": null,
+      "precondition": "guest; read-only",
+      "note": "URL/body-class classifier plus observed rendered page.",
+      "independent_site_verification": "rendered_UI_witness_verified",
+      "rule": "literal_value",
+      "interpretation": "Observed UI evidence only; no automatic claim about execution or database provenance.",
+      "reference_witness": {
+        "url": "http://127.0.0.1:7770/beauty-personal-care.html",
+        "evidence_refs": [
+          {
+            "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\coverage-v2\\site-verification\\category-0\\accessibility.json",
+            "pointer": "/nodes/0/name/value",
+            "quote": "Beauty & Personal Care"
+          }
+        ]
+      }
+    },
+    {
+      "id": "page.product_detail",
+      "kind": "page_type",
+      "page_types": [
+        "product_detail"
+      ],
+      "clauses": [
+        {
+          "name_regex": ".+",
+          "roles": [
+            "RootWebArea"
+          ]
+        }
+      ],
+      "db_mapping": null,
+      "precondition": "guest; read-only",
+      "note": "URL/body-class classifier plus observed rendered page.",
+      "independent_site_verification": "rendered_UI_witness_verified",
+      "rule": "literal_value",
+      "interpretation": "Observed UI evidence only; no automatic claim about execution or database provenance.",
+      "reference_witness": {
+        "url": "http://127.0.0.1:7770/tweezers-for-succulents-duo.html",
+        "evidence_refs": [
+          {
+            "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\coverage-v2\\site-verification\\product-0\\accessibility.json",
+            "pointer": "/nodes/0/name/value",
+            "quote": "Tweezers For Succulents Duo"
+          }
+        ]
+      }
+    },
+    {
+      "id": "page.advanced_search",
+      "kind": "page_type",
+      "page_types": [
+        "advanced_search"
+      ],
+      "clauses": [
+        {
+          "name_regex": ".+",
+          "roles": [
+            "RootWebArea"
+          ]
+        }
+      ],
+      "db_mapping": null,
+      "precondition": "guest; read-only",
+      "note": "URL/body-class classifier plus observed rendered page.",
+      "independent_site_verification": "rendered_UI_witness_verified",
+      "rule": "literal_value",
+      "interpretation": "Observed UI evidence only; no automatic claim about execution or database provenance.",
+      "reference_witness": {
+        "url": "http://127.0.0.1:7770/catalogsearch/advanced/",
+        "evidence_refs": [
+          {
+            "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\coverage-v2\\site-verification\\advanced\\accessibility.json",
+            "pointer": "/nodes/0/name/value",
+            "quote": "Advanced Search"
+          }
+        ]
+      }
+    },
+    {
+      "id": "page.search_results",
+      "kind": "page_type",
+      "page_types": [
+        "search_results"
+      ],
+      "clauses": [
+        {
+          "name_regex": ".+",
+          "roles": [
+            "RootWebArea"
+          ]
+        }
+      ],
+      "db_mapping": null,
+      "precondition": "guest; read-only",
+      "note": "URL/body-class classifier plus observed rendered page.",
+      "independent_site_verification": "rendered_UI_witness_verified",
+      "rule": "literal_value",
+      "interpretation": "Observed UI evidence only; no automatic claim about execution or database provenance.",
+      "reference_witness": {
+        "url": "http://127.0.0.1:7770/catalogsearch/result/?q=zzbenchmarknomatch20260929",
+        "evidence_refs": [
+          {
+            "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\coverage-v2\\site-verification\\search-empty\\accessibility.json",
+            "pointer": "/nodes/0/name/value",
+            "quote": "Search results for: 'zzbenchmarknomatch20260929'"
+          }
+        ]
+      }
+    },
+    {
+      "id": "page.cart",
+      "kind": "page_type",
+      "page_types": [
+        "cart"
+      ],
+      "clauses": [
+        {
+          "name_regex": ".+",
+          "roles": [
+            "RootWebArea"
+          ]
+        }
+      ],
+      "db_mapping": null,
+      "precondition": "guest; read-only",
+      "note": "URL/body-class classifier plus observed rendered page.",
+      "independent_site_verification": "rendered_UI_witness_verified",
+      "rule": "literal_value",
+      "interpretation": "Observed UI evidence only; no automatic claim about execution or database provenance.",
+      "reference_witness": {
+        "url": "http://127.0.0.1:7770/checkout/cart/",
+        "evidence_refs": [
+          {
+            "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\coverage-v2\\site-verification\\cart-empty\\accessibility.json",
+            "pointer": "/nodes/0/name/value",
+            "quote": "Shopping Cart"
+          }
+        ]
+      }
+    }
+  ],
+  "changes": [
+    {
+      "id": "cart",
+      "change": "require cart page heading and empty state; menu link insufficient"
+    },
+    {
+      "id": "product.quantity",
+      "change": "purchase input, not persistent entity attribute"
+    },
+    {
+      "id": "product.short_description",
+      "change": "form field, not product attribute value"
+    },
+    {
+      "id": "cart.empty_state",
+      "change": "removed",
+      "reason": "duplicate of cart.empty state"
+    },
+    {
+      "id": "category_lists_product",
+      "change": "removed",
+      "reason": "co-occurrence does not prove relation"
+    },
+    {
+      "id": "catalog.sorted_result",
+      "change": "selection state only; no sorted-order correctness claim"
+    }
+  ],
+  "limitations": [
+    "Candidate vocabulary was informed by historical trace; independent verification is fresh evidence, not blind annotation.",
+    "DB mapping is a reference schema/code mapping, not verified row-level provenance. UI-derived attributes are separately labeled.",
+    "G is the explicit core contract; unselected DB candidates remain outside this version, not declared invisible.",
+    "Read-only search is allowed in reference verification but was forbidden in browser-use historical prompt; no causal strategy ranking."
+  ],
+  "excluded": [
+    {
+      "id": "cart_item",
+      "reason": "User chose fresh-guest read-only scope; nonempty cart and write-dependent results excluded. Historical occurrences may be retained as extras."
+    },
+    {
+      "id": "cart.item_count",
+      "reason": "User chose fresh-guest read-only scope; nonempty cart and write-dependent results excluded. Historical occurrences may be retained as extras."
+    },
+    {
+      "id": "cart.subtotal",
+      "reason": "User chose fresh-guest read-only scope; nonempty cart and write-dependent results excluded. Historical occurrences may be retained as extras."
+    },
+    {
+      "id": "cart.grand_total",
+      "reason": "User chose fresh-guest read-only scope; nonempty cart and write-dependent results excluded. Historical occurrences may be retained as extras."
+    },
+    {
+      "id": "cart.coupon_code",
+      "reason": "User chose fresh-guest read-only scope; nonempty cart and write-dependent results excluded. Historical occurrences may be retained as extras."
+    },
+    {
+      "id": "cart.shipping_amount",
+      "reason": "User chose fresh-guest read-only scope; nonempty cart and write-dependent results excluded. Historical occurrences may be retained as extras."
+    },
+    {
+      "id": "cart_item.name",
+      "reason": "User chose fresh-guest read-only scope; nonempty cart and write-dependent results excluded. Historical occurrences may be retained as extras."
+    },
+    {
+      "id": "cart_item.price",
+      "reason": "User chose fresh-guest read-only scope; nonempty cart and write-dependent results excluded. Historical occurrences may be retained as extras."
+    },
+    {
+      "id": "cart_item.quantity",
+      "reason": "User chose fresh-guest read-only scope; nonempty cart and write-dependent results excluded. Historical occurrences may be retained as extras."
+    },
+    {
+      "id": "cart_item.row_total",
+      "reason": "User chose fresh-guest read-only scope; nonempty cart and write-dependent results excluded. Historical occurrences may be retained as extras."
+    },
+    {
+      "id": "cart.update",
+      "reason": "User chose fresh-guest read-only scope; nonempty cart and write-dependent results excluded. Historical occurrences may be retained as extras."
+    },
+    {
+      "id": "cart.remove",
+      "reason": "User chose fresh-guest read-only scope; nonempty cart and write-dependent results excluded. Historical occurrences may be retained as extras."
+    },
+    {
+      "id": "cart_contains_item",
+      "reason": "User chose fresh-guest read-only scope; nonempty cart and write-dependent results excluded. Historical occurrences may be retained as extras."
+    },
+    {
+      "id": "cart_item_refers_product",
+      "reason": "User chose fresh-guest read-only scope; nonempty cart and write-dependent results excluded. Historical occurrences may be retained as extras."
+    },
+    {
+      "id": "cart.nonempty_header",
+      "reason": "User chose fresh-guest read-only scope; nonempty cart and write-dependent results excluded. Historical occurrences may be retained as extras."
+    },
+    {
+      "id": "cart.nonempty_page",
+      "reason": "User chose fresh-guest read-only scope; nonempty cart and write-dependent results excluded. Historical occurrences may be retained as extras."
+    },
+    {
+      "id": "product.required_option_error",
+      "reason": "User chose fresh-guest read-only scope; nonempty cart and write-dependent results excluded. Historical occurrences may be retained as extras."
+    }
+  ]
+}

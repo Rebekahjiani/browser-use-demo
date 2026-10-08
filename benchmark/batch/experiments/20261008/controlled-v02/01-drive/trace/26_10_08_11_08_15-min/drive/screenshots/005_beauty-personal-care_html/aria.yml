@@ -1,0 +1,520 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - link "Skip to Content" [ref=e4] [cursor=pointer]:
+      - /url: "#contentarea"
+    - generic [ref=e5]:
+      - generic [ref=e6] [cursor=pointer]:
+        - text: 
+        - generic [ref=e7]: Toggle Nav
+      - link "store logo" [ref=e8] [cursor=pointer]:
+        - /url: http://127.0.0.1:7770/
+        - img "one_stop_market_logo" [ref=e9]
+      - generic [ref=e10]:
+        - link " My Cart" [ref=e11] [cursor=pointer]:
+          - /url: http://127.0.0.1:7770/checkout/cart/
+          - text: 
+          - generic [ref=e12]: My Cart
+        - text: 
+      - generic [ref=e16]:
+        - generic [ref=e17]:
+          - text: 
+          - generic [ref=e18]: Search
+        - combobox " Search" [ref=e20]
+  - tablist [ref=e22]:
+    - tab "Menu" [expanded] [ref=e23]:
+      - link "Menu" [ref=e24] [cursor=pointer]:
+        - /url: "#store.menu"
+    - tabpanel [ref=e25]:
+      - navigation [ref=e26]:
+        - menu [ref=e27]:
+          - listitem [ref=e28]:
+            - menuitem "Beauty & Personal Care " [ref=e29] [cursor=pointer]: Beauty & Personal Care 
+          - listitem [ref=e30]:
+            - menuitem "Sports & Outdoors " [ref=e31] [cursor=pointer]: Sports & Outdoors 
+          - listitem [ref=e32]:
+            - menuitem "Clothing, Shoes & Jewelry " [ref=e33] [cursor=pointer]: Clothing, Shoes & Jewelry 
+          - listitem [ref=e34]:
+            - menuitem "Home & Kitchen " [ref=e35] [cursor=pointer]: Home & Kitchen 
+          - listitem [ref=e36]:
+            - menuitem "Office Products " [ref=e37] [cursor=pointer]: Office Products 
+          - listitem [ref=e38]:
+            - menuitem "Tools & Home Improvement " [ref=e39] [cursor=pointer]: Tools & Home Improvement 
+          - listitem [ref=e40]:
+            - menuitem "Health & Household " [ref=e41] [cursor=pointer]: Health & Household 
+          - listitem [ref=e42]:
+            - menuitem "Patio, Lawn & Garden " [ref=e43] [cursor=pointer]: Patio, Lawn & Garden 
+          - listitem [ref=e44]:
+            - menuitem "Electronics " [ref=e45] [cursor=pointer]: Electronics 
+          - listitem [ref=e46]:
+            - menuitem "Cell Phones & Accessories " [ref=e47] [cursor=pointer]: Cell Phones & Accessories 
+          - listitem [ref=e48]:
+            - menuitem "Video Games " [ref=e49] [cursor=pointer]: Video Games 
+          - listitem [ref=e50]:
+            - menuitem "Grocery & Gourmet Food " [ref=e51] [cursor=pointer]: Grocery & Gourmet Food 
+    - tab "Account" [ref=e52]:
+      - link "Account" [ref=e53] [cursor=pointer]:
+        - /url: "#store.links"
+  - list [ref=e55]:
+    - listitem [ref=e56]:
+      - link "Home" [ref=e57] [cursor=pointer]:
+        - /url: http://127.0.0.1:7770/
+      - text: 
+    - listitem [ref=e58]:
+      - strong [ref=e59]: Beauty & Personal Care
+  - main [ref=e60]:
+    - heading "Beauty & Personal Care Items 1-12 of 21796" [level=1] [ref=e62]: Beauty & Personal Care
+    - generic [ref=e63]:
+      - generic [ref=e64]:
+        - generic [ref=e65]:
+          - paragraph [ref=e66]: Items 1-12 of 21796
+          - generic [ref=e67]:
+            - text: Sort By
+            - combobox "Sort By" [ref=e68]:
+              - option "Position" [selected]
+              - option "Product Name"
+              - option "Price"
+            - link " Set Descending Direction" [ref=e69] [cursor=pointer]:
+              - /url: "#"
+              - text: 
+              - generic [ref=e70]: Set Descending Direction
+        - list [ref=e72]:
+          - listitem [ref=e73]:
+            - generic [ref=e74]:
+              - link "Image" [ref=e75] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/tweezers-for-succulents-duo.html
+                - img "Image" [ref=e78]
+              - generic [ref=e79]:
+                - strong [ref=e80]:
+                  - link "Tweezers For Succulents Duo" [ref=e81] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/tweezers-for-succulents-duo.html
+                - generic [ref=e84]: $19.99
+                - generic [ref=e86]:
+                  - button "Add to Cart" [ref=e89] [cursor=pointer]
+                  - generic [ref=e90]:
+                    - button "Add to Wish List" [ref=e91] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e92]: Add to Wish List
+                    - text: 
+          - listitem [ref=e93]:
+            - generic [ref=e94]:
+              - link "Image" [ref=e95] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/jsy-foldable-bath-body-brush-portable-massager-brush-with-long-handle-for-wet-dry-brush-bath-body-brushes-color-green.html
+                - img "Image" [ref=e98]
+              - generic [ref=e99]:
+                - strong [ref=e100]:
+                  - 'link "JSY Foldable Bath Body Brush Portable Massager Brush with Long Handle for Wet Dry Brush Bath & Body Brushes (Color : Green)" [ref=e101] [cursor=pointer]':
+                    - /url: http://127.0.0.1:7770/jsy-foldable-bath-body-brush-portable-massager-brush-with-long-handle-for-wet-dry-brush-bath-body-brushes-color-green.html
+                - generic [ref=e104]: $17.19
+                - generic [ref=e106]:
+                  - button "Add to Cart" [ref=e109] [cursor=pointer]
+                  - generic [ref=e110]:
+                    - button "Add to Wish List" [ref=e111] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e112]: Add to Wish List
+                    - text: 
+          - listitem [ref=e113]:
+            - generic [ref=e114]:
+              - link "Image" [ref=e115] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/body-exfoliating-washcloth-mitt-soft-dual-sided-wet-dry-face-body-exfoliator-body-scrubber-exfoliating-cloth-pad.html
+                - img "Image" [ref=e118]
+              - generic [ref=e119]:
+                - strong [ref=e120]:
+                  - link "BODY Exfoliating Washcloth Mitt, Soft Dual-Sided Wet & Dry Face & Body Exfoliator - Body Scrubber Exfoliating Cloth Pad" [ref=e121] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/body-exfoliating-washcloth-mitt-soft-dual-sided-wet-dry-face-body-exfoliator-body-scrubber-exfoliating-cloth-pad.html
+                - generic [ref=e124]: $22.00
+                - generic [ref=e126]:
+                  - button "Add to Cart" [ref=e129] [cursor=pointer]
+                  - generic [ref=e130]:
+                    - button "Add to Wish List" [ref=e131] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e132]: Add to Wish List
+                    - text: 
+          - listitem [ref=e133]:
+            - generic [ref=e134]:
+              - link "Image" [ref=e135] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/lip-balm-containers-refillable-transparent-cosmetic-containers-empty-with-lids-for-earrings-for-travel-use-for-cosmetics.html
+                - img "Image" [ref=e138]
+              - generic [ref=e139]:
+                - strong [ref=e140]:
+                  - link "Lip Balm Containers, Refillable Transparent Cosmetic Containers Empty with Lids for Earrings for Travel Use for Cosmetics" [ref=e141] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/lip-balm-containers-refillable-transparent-cosmetic-containers-empty-with-lids-for-earrings-for-travel-use-for-cosmetics.html
+                - generic [ref=e144]: $14.59
+                - generic [ref=e146]:
+                  - button "Add to Cart" [ref=e149] [cursor=pointer]
+                  - generic [ref=e150]:
+                    - button "Add to Wish List" [ref=e151] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e152]: Add to Wish List
+                    - text: 
+          - listitem [ref=e153]:
+            - generic [ref=e154]:
+              - link "Image" [ref=e155] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/surethik-15g-hair-thickening-fiber-black-and-holding-spray-3oz-bundle.html
+                - img "Image" [ref=e158]
+              - generic [ref=e159]:
+                - strong [ref=e160]:
+                  - link "SureThik 15g Hair Thickening Fiber (Black) and Holding Spray (3oz) Bundle" [ref=e161] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/surethik-15g-hair-thickening-fiber-black-and-holding-spray-3oz-bundle.html
+                - generic [ref=e164]: $32.00
+                - generic [ref=e166]:
+                  - button "Add to Cart" [ref=e169] [cursor=pointer]
+                  - generic [ref=e170]:
+                    - button "Add to Wish List" [ref=e171] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e172]: Add to Wish List
+                    - text: 
+          - listitem [ref=e173]:
+            - generic [ref=e174]:
+              - link "Image" [ref=e175] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/vesunny-tape-in-hair-extensions-ombre-blonde-silky-straight-tape-on-hair-extensions-brown-to-blonde-ombre-double-sided-tape-in-human-hair-extensions-platinum-blonde-ombre-16inch-20pcs-50g.html
+                - img "Image" [ref=e178]
+              - generic [ref=e179]:
+                - strong [ref=e180]:
+                  - link "VeSunny Tape in Hair Extensions Ombre Blonde Silky Straight Tape on Hair Extensions Brown to Blonde Ombre Double Sided Tape in Human Hair Extensions Platinum Blonde Ombre 16inch 20pcs 50g" [ref=e181] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/vesunny-tape-in-hair-extensions-ombre-blonde-silky-straight-tape-on-hair-extensions-brown-to-blonde-ombre-double-sided-tape-in-human-hair-extensions-platinum-blonde-ombre-16inch-20pcs-50g.html
+                - generic [ref=e184]: $51.99
+                - generic [ref=e186]:
+                  - button "Add to Cart" [ref=e189] [cursor=pointer]
+                  - generic [ref=e190]:
+                    - button "Add to Wish List" [ref=e191] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e192]: Add to Wish List
+                    - text: 
+          - listitem [ref=e193]:
+            - generic [ref=e194]:
+              - link "Image" [ref=e195] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/mineralogie-all-natural-lip-gloss-ruby-rose.html
+                - generic [ref=e197]:
+                  - img "Image"
+              - generic [ref=e198]:
+                - strong [ref=e199]:
+                  - link "Mineralogie All Natural Lip Gloss, Ruby Rose" [ref=e200] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/mineralogie-all-natural-lip-gloss-ruby-rose.html
+                - generic [ref=e201]:
+                  - generic [ref=e202]:
+                    - generic [ref=e203]: "Rating:"
+                    - generic "73%" [ref=e204]:
+                      - text: 
+                      - generic [ref=e205]:
+                        - text: 
+                        - generic [ref=e206]: 73%
+                  - link "3 Reviews" [ref=e208] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/mineralogie-all-natural-lip-gloss-ruby-rose.html#reviews
+                - generic [ref=e211]: $20.00
+                - generic [ref=e213]:
+                  - button "Add to Cart" [ref=e216] [cursor=pointer]
+                  - generic [ref=e217]:
+                    - button "Add to Wish List" [ref=e218] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e219]: Add to Wish List
+                    - text: 
+          - listitem [ref=e220]:
+            - generic [ref=e221]:
+              - link "Image" [ref=e222] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/srurllug-tabletop-vanity-mirror-brightness-adjustable-portable-mirrors-for-travel-with-3-color-lighting-modes-and-usb-rechargeable-makeup-mirror-smart-touch-control-360-rotation-white.html
+                - generic [ref=e224]:
+                  - img "Image"
+              - generic [ref=e225]:
+                - strong [ref=e226]:
+                  - link "SRURLLUG Tabletop Vanity Mirror Brightness Adjustable Portable Mirrors for Travel with 3 Color Lighting Modes and USB Rechargeable Makeup Mirror Smart Touch Control 360°Rotation,White" [ref=e227] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/srurllug-tabletop-vanity-mirror-brightness-adjustable-portable-mirrors-for-travel-with-3-color-lighting-modes-and-usb-rechargeable-makeup-mirror-smart-touch-control-360-rotation-white.html
+                - generic [ref=e230]: $61.18
+                - generic [ref=e232]:
+                  - button "Add to Cart" [ref=e235] [cursor=pointer]
+                  - generic [ref=e236]:
+                    - button "Add to Wish List" [ref=e237] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e238]: Add to Wish List
+                    - text: 
+          - listitem [ref=e239]:
+            - generic [ref=e240]:
+              - link "Image" [ref=e241] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/petansy-3-packs-aloe-vera-lipstick-lips-moisturizer-long-lasting-nutritious-lip-balm-magic-temperature-color-change-lip-gloss-set-a.html
+                - generic [ref=e243]:
+                  - img "Image"
+              - generic [ref=e244]:
+                - strong [ref=e245]:
+                  - link "Petansy 3 Packs Aloe Vera Lipstick , Lips Moisturizer Long Lasting Nutritious Lip Balm Magic Temperature Color Change Lip Gloss-Set(A)" [ref=e246] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/petansy-3-packs-aloe-vera-lipstick-lips-moisturizer-long-lasting-nutritious-lip-balm-magic-temperature-color-change-lip-gloss-set-a.html
+                - generic [ref=e247]:
+                  - generic [ref=e248]:
+                    - generic [ref=e249]: "Rating:"
+                    - generic "68%" [ref=e250]:
+                      - text: 
+                      - generic [ref=e251]:
+                        - text: 
+                        - generic [ref=e252]: 68%
+                  - link "12 Reviews" [ref=e254] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/petansy-3-packs-aloe-vera-lipstick-lips-moisturizer-long-lasting-nutritious-lip-balm-magic-temperature-color-change-lip-gloss-set-a.html#reviews
+                - generic [ref=e257]: $13.89
+                - generic [ref=e259]:
+                  - button "Add to Cart" [ref=e262] [cursor=pointer]
+                  - generic [ref=e263]:
+                    - button "Add to Wish List" [ref=e264] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e265]: Add to Wish List
+                    - text: 
+          - listitem [ref=e266]:
+            - generic [ref=e267]:
+              - link "Image" [ref=e268] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/soft-clean-between-interdental-floss-brushes-random-color-oral-care-tool-20-pcs-2-pack-elastic-massage-gums-toothpick-2-box.html
+                - generic [ref=e270]:
+                  - img "Image"
+              - generic [ref=e271]:
+                - strong [ref=e272]:
+                  - link "Soft Clean Between Interdental Floss Brushes Random Color Oral Care Tool 20 PCS/ 2 Pack Elastic Massage Gums Toothpick (2 box)" [ref=e273] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/soft-clean-between-interdental-floss-brushes-random-color-oral-care-tool-20-pcs-2-pack-elastic-massage-gums-toothpick-2-box.html
+                - generic [ref=e276]: $8.90
+                - generic [ref=e278]:
+                  - button "Add to Cart" [ref=e281] [cursor=pointer]
+                  - generic [ref=e282]:
+                    - button "Add to Wish List" [ref=e283] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e284]: Add to Wish List
+                    - text: 
+          - listitem [ref=e285]:
+            - generic [ref=e286]:
+              - link "Image" [ref=e287] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/xzp-4-pack-larger-thicker-rapid-hair-wrap-towels-drying-women-long-thick-curly-hair-magic-instant-dry-hair-towel-caps-anti-frizz-fast-drying-microfiber-turban-wet-hair-wrap-towels-quick-drying.html
+                - generic [ref=e289]:
+                  - img "Image"
+              - generic [ref=e290]:
+                - strong [ref=e291]:
+                  - link "XZP 4 Pack Larger Thicker Rapid Hair Wrap Towels Drying Women Long Thick Curly Hair Magic Instant Dry Hair Towel Caps Anti Frizz Fast Drying Microfiber Turban Wet Hair Wrap Towels Quick Drying" [ref=e292] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/xzp-4-pack-larger-thicker-rapid-hair-wrap-towels-drying-women-long-thick-curly-hair-magic-instant-dry-hair-towel-caps-anti-frizz-fast-drying-microfiber-turban-wet-hair-wrap-towels-quick-drying.html
+                - generic [ref=e295]: $19.99
+                - generic [ref=e297]:
+                  - button "Add to Cart" [ref=e300] [cursor=pointer]
+                  - generic [ref=e301]:
+                    - button "Add to Wish List" [ref=e302] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e303]: Add to Wish List
+                    - text: 
+          - listitem [ref=e304]:
+            - generic [ref=e305]:
+              - link "Image" [ref=e306] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/the-super-dentists-electric-toothbrush-electric-toothbrush-with-rotating-head-for-children-tweens-teens-dr-haveonesupersmile.html
+                - generic [ref=e308]:
+                  - img "Image"
+              - generic [ref=e309]:
+                - strong [ref=e310]:
+                  - link "The Super Dentists Electric Toothbrush, Electric Toothbrush with Rotating Head for Children, Tweens, & Teens (Dr. HaveOneSuperSmile)" [ref=e311] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/the-super-dentists-electric-toothbrush-electric-toothbrush-with-rotating-head-for-children-tweens-teens-dr-haveonesupersmile.html
+                - generic [ref=e314]: $16.99
+                - generic [ref=e316]:
+                  - button "Add to Cart" [ref=e319] [cursor=pointer]
+                  - generic [ref=e320]:
+                    - button "Add to Wish List" [ref=e321] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e322]: Add to Wish List
+                    - text: 
+        - generic [ref=e324]:
+          - strong [ref=e325]: Page
+          - list "Page" [ref=e326]:
+            - listitem [ref=e327]:
+              - strong [ref=e328]:
+                - generic [ref=e329]: You're currently reading page
+                - text: "1"
+            - listitem [ref=e330]:
+              - link "Page 2" [ref=e331] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/beauty-personal-care.html?p=2
+                - generic [ref=e332]: Page
+                - text: "2"
+            - listitem [ref=e333]:
+              - link "Page 3" [ref=e334] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/beauty-personal-care.html?p=3
+                - generic [ref=e335]: Page
+                - text: "3"
+            - listitem [ref=e336]:
+              - link "Page 4" [ref=e337] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/beauty-personal-care.html?p=4
+                - generic [ref=e338]: Page
+                - text: "4"
+            - listitem [ref=e339]:
+              - link "Page 5" [ref=e340] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/beauty-personal-care.html?p=5
+                - generic [ref=e341]: Page
+                - text: "5"
+            - listitem [ref=e342]:
+              - link " Page Next" [ref=e343] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/beauty-personal-care.html?p=2
+                - text: 
+                - generic [ref=e344]: Page
+                - generic [ref=e345]: Next
+      - generic [ref=e347]:
+        - strong [ref=e349]: Shop By
+        - generic [ref=e350]:
+          - heading "Shopping Options" [level=2] [ref=e351]
+          - generic [ref=e352]:
+            - heading "Category" [level=3] [ref=e353]
+            - definition [ref=e354]:
+              - list [ref=e355]:
+                - listitem [ref=e356]:
+                  - link "Oral Care( 3125 item )" [ref=e357] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/beauty-personal-care.html?cat=15
+                    - text: Oral Care
+                    - generic [ref=e358]:
+                      - text: ( 3125
+                      - generic [ref=e359]: item
+                      - text: )
+                - listitem [ref=e360]:
+                  - link "Skin Care( 3074 item )" [ref=e361] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/beauty-personal-care.html?cat=16
+                    - text: Skin Care
+                    - generic [ref=e362]:
+                      - text: ( 3074
+                      - generic [ref=e363]: item
+                      - text: )
+                - listitem [ref=e364]:
+                  - link "Makeup( 1883 item )" [ref=e365] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/beauty-personal-care.html?cat=17
+                    - text: Makeup
+                    - generic [ref=e366]:
+                      - text: ( 1883
+                      - generic [ref=e367]: item
+                      - text: )
+                - listitem [ref=e368]:
+                  - link "Foot, Hand & Nail Care( 794 item )" [ref=e369] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/beauty-personal-care.html?cat=18
+                    - text: Foot, Hand & Nail Care
+                    - generic [ref=e370]:
+                      - text: ( 794
+                      - generic [ref=e371]: item
+                      - text: )
+                - listitem [ref=e372]:
+                  - link "Hair Care( 4912 item )" [ref=e373] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/beauty-personal-care.html?cat=19
+                    - text: Hair Care
+                    - generic [ref=e374]:
+                      - text: ( 4912
+                      - generic [ref=e375]: item
+                      - text: )
+                - listitem [ref=e376]:
+                  - link "Tools & Accessories( 3451 item )" [ref=e377] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/beauty-personal-care.html?cat=20
+                    - text: Tools & Accessories
+                    - generic [ref=e378]:
+                      - text: ( 3451
+                      - generic [ref=e379]: item
+                      - text: )
+                - listitem [ref=e380]:
+                  - link "Fragrance( 1311 item )" [ref=e381] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/beauty-personal-care.html?cat=21
+                    - text: Fragrance
+                    - generic [ref=e382]:
+                      - text: ( 1311
+                      - generic [ref=e383]: item
+                      - text: )
+                - listitem [ref=e384]:
+                  - link "Personal Care( 1838 item )" [ref=e385] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/beauty-personal-care.html?cat=22
+                    - text: Personal Care
+                    - generic [ref=e386]:
+                      - text: ( 1838
+                      - generic [ref=e387]: item
+                      - text: )
+                - listitem [ref=e388]:
+                  - link "Shave & Hair Removal( 799 item )" [ref=e389] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/beauty-personal-care.html?cat=23
+                    - text: Shave & Hair Removal
+                    - generic [ref=e390]:
+                      - text: ( 799
+                      - generic [ref=e391]: item
+                      - text: )
+                - listitem [ref=e392]:
+                  - link "Salon & Spa Equipment( 609 item )" [ref=e393] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/beauty-personal-care.html?cat=24
+                    - text: Salon & Spa Equipment
+                    - generic [ref=e394]:
+                      - text: ( 609
+                      - generic [ref=e395]: item
+                      - text: )
+            - heading "Price" [level=3] [ref=e396]
+            - definition [ref=e397]:
+              - list [ref=e398]:
+                - listitem [ref=e399]:
+                  - link "$0.00 - $999.99( 21743 item )" [ref=e400] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/beauty-personal-care.html?price=0-1000
+                    - text: $0.00 - $999.99
+                    - generic [ref=e401]:
+                      - text: ( 21743
+                      - generic [ref=e402]: item
+                      - text: )
+                - listitem [ref=e403]:
+                  - link "$1,000.00 - $1,999.99( 41 item )" [ref=e404] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/beauty-personal-care.html?price=1000-2000
+                    - text: $1,000.00 - $1,999.99
+                    - generic [ref=e405]:
+                      - text: ( 41
+                      - generic [ref=e406]: item
+                      - text: )
+                - listitem [ref=e407]:
+                  - link "$2,000.00 - $2,999.99( 8 item )" [ref=e408] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/beauty-personal-care.html?price=2000-3000
+                    - text: $2,000.00 - $2,999.99
+                    - generic [ref=e409]:
+                      - text: ( 8
+                      - generic [ref=e410]: item
+                      - text: )
+                - listitem [ref=e411]:
+                  - link "$3,000.00 - $3,999.99( 2 item )" [ref=e412] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/beauty-personal-care.html?price=3000-4000
+                    - text: $3,000.00 - $3,999.99
+                    - generic [ref=e413]:
+                      - text: ( 2
+                      - generic [ref=e414]: item
+                      - text: )
+                - listitem [ref=e415]:
+                  - link "$4,000.00 - $4,999.99( 1 item )" [ref=e416] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/beauty-personal-care.html?price=4000-5000
+                    - text: $4,000.00 - $4,999.99
+                    - generic [ref=e417]:
+                      - text: ( 1
+                      - generic [ref=e418]: item
+                      - text: )
+                - listitem [ref=e419]:
+                  - link "$9,000.00 and above( 1 item )" [ref=e420] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/beauty-personal-care.html?price=9000-10000
+                    - text: $9,000.00 and above
+                    - generic [ref=e421]:
+                      - text: ( 1
+                      - generic [ref=e422]: item
+                      - text: )
+      - generic [ref=e423]:
+        - generic [ref=e424]:
+          - heading "Compare Products" [level=2] [ref=e426]
+          - generic [ref=e427]: You have no items to compare.
+        - generic [ref=e428]:
+          - heading "My Wish List" [level=2] [ref=e430]
+          - generic [ref=e432]: You have no items in your wish list.
+  - contentinfo [ref=e433]:
+    - generic [ref=e434]:
+      - generic [ref=e437]:
+        - generic [ref=e439]:
+          - text: 
+          - generic [ref=e440]:
+            - generic [ref=e441]: "Sign Up for Our Newsletter:"
+            - textbox "Sign Up for Our Newsletter:" [ref=e442]:
+              - /placeholder: Enter your email address
+        - button "Subscribe" [ref=e444] [cursor=pointer]
+      - list [ref=e445]:
+        - listitem [ref=e446]:
+          - link "Privacy and Cookie Policy" [ref=e447] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/privacy-policy-cookie-restriction-mode/
+        - listitem [ref=e448]:
+          - link "Search Terms" [ref=e449] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/search/term/popular/
+        - listitem [ref=e450]:
+          - link "Advanced Search" [ref=e451] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/catalogsearch/advanced/
+        - listitem [ref=e452]:
+          - link "Orders and Returns" [ref=e453] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/sales/guest/form/
+        - listitem [ref=e454]:
+          - link "Contact Us" [ref=e455] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/contact/
+      - generic [ref=e456]: Copyright © 2013-present Magento, Inc. All rights reserved.
+      - generic [ref=e457]:
+        - text: Help Us Keep Magento Healthy
+        - link "Report All Bugs" [ref=e458] [cursor=pointer]:
+          - /url: http://www.magentocommerce.com/bug-tracking

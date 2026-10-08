@@ -1,0 +1,2125 @@
+{
+  "ok": true,
+  "exploreId": "ec63dc98-0426-4f8e-9c6b-cadd3bd4a33c",
+  "state": "completed",
+  "profileId": "5abc7d48-94ca-4b9f-b296-95922e03bdaf",
+  "startedAt": "2026-10-08T03:46:21.225Z",
+  "finishedAt": "2026-10-08T04:01:47.999Z",
+  "result": {
+    "run": {
+      "id": "ec63dc98-0426-4f8e-9c6b-cadd3bd4a33c",
+      "startedAt": "2026-10-08T03:46:21.225Z",
+      "finishedAt": "2026-10-08T04:01:47.999Z",
+      "durationMs": 926774,
+      "target": "http://127.0.0.1:7770/",
+      "complete": true
+    },
+    "config": {
+      "seed": "controlled-20261008-2",
+      "maxActions": 200,
+      "maxDurationMs": 1800000,
+      "allowSubmit": true
+    },
+    "stats": {
+      "actionsTaken": 81,
+      "pagesVisited": 31,
+      "statesDiscovered": 48,
+      "recordsCreated": 4,
+      "findingsBySeverity": {
+        "critical": 0,
+        "high": 17,
+        "medium": 49,
+        "low": 60,
+        "info": 7
+      }
+    },
+    "actions": [
+      {
+        "step": 0,
+        "kind": "scroll",
+        "stateHash": "543756ab",
+        "url": "http://127.0.0.1:7770/",
+        "ts": 1791431185767,
+        "navigated": false
+      },
+      {
+        "step": 1,
+        "kind": "key",
+        "stateHash": "543756ab",
+        "fp": "08aa32d9",
+        "target": "Home & Kitchen",
+        "selector": "#ui-id-91",
+        "value": "z",
+        "url": "http://127.0.0.1:7770/",
+        "ts": 1791431186134,
+        "navigated": false
+      },
+      {
+        "step": 2,
+        "kind": "click",
+        "stateHash": "543756ab",
+        "fp": "8e729871",
+        "target": "12 Reviews",
+        "selector": "body:nth-child(2) > div:nth-child(8) > main:nth-child(3) > div:nth-child(4) > div:nth-child(1) > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > ol:nth-child(1) > li:nth-child(5) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(2) > a:nth-child(1)",
+        "url": "http://127.0.0.1:7770/",
+        "ts": 1791431186436,
+        "navigated": false
+      },
+      {
+        "step": 5,
+        "kind": "click",
+        "stateHash": "4025768a",
+        "fp": "0ecf5dff",
+        "target": "My Cart",
+        "selector": "body:nth-child(2) > div:nth-child(8) > header:nth-child(1) > div:nth-child(2) > div:nth-child(3) > a:nth-child(1)",
+        "url": "http://127.0.0.1:7770/so-delicious-dairy-free-cocowhip-light-vegan-non-gmo-project-verified-9-oz-tub.html#reviews",
+        "ts": 1791431194743,
+        "navigated": false
+      },
+      {
+        "step": 6,
+        "kind": "scroll",
+        "stateHash": "39f9822d",
+        "url": "http://127.0.0.1:7770/so-delicious-dairy-free-cocowhip-light-vegan-non-gmo-project-verified-9-oz-tub.html#reviews",
+        "ts": 1791431195554,
+        "navigated": false
+      },
+      {
+        "step": 7,
+        "kind": "scroll",
+        "stateHash": "39f9822d",
+        "url": "http://127.0.0.1:7770/so-delicious-dairy-free-cocowhip-light-vegan-non-gmo-project-verified-9-oz-tub.html#reviews",
+        "ts": 1791431195939,
+        "navigated": false
+      },
+      {
+        "step": 8,
+        "kind": "forward",
+        "stateHash": "39f9822d",
+        "url": "http://127.0.0.1:7770/so-delicious-dairy-free-cocowhip-light-vegan-non-gmo-project-verified-9-oz-tub.html#reviews",
+        "ts": 1791431196174,
+        "navigated": false
+      },
+      {
+        "step": 9,
+        "kind": "click",
+        "stateHash": "39f9822d",
+        "fp": "0a125825",
+        "target": "Reviews 12",
+        "selector": "#tab-label-reviews-title",
+        "url": "http://127.0.0.1:7770/so-delicious-dairy-free-cocowhip-light-vegan-non-gmo-project-verified-9-oz-tub.html#reviews",
+        "ts": 1791431196575,
+        "navigated": false
+      },
+      {
+        "step": 10,
+        "kind": "hover",
+        "stateHash": "defdc9e4",
+        "fp": "5d2820d1",
+        "target": "Summary",
+        "selector": "body:nth-child(2) > div:nth-child(8) > main:nth-child(4) > div:nth-child(4) > div:nth-child(1) > div:nth-child(3) > div:nth-child(1) > div:nth-child(4) > div:nth-child(2) > div:nth-child(2) > form:nth-child(1) > fieldset:nth-child(2) > div:nth-child(6) > label:nth-child(1)",
+        "url": "http://127.0.0.1:7770/so-delicious-dairy-free-cocowhip-light-vegan-non-gmo-project-verified-9-oz-tub.html#reviews",
+        "ts": 1791431197292,
+        "navigated": false
+      },
+      {
+        "step": 11,
+        "kind": "submit-form",
+        "stateHash": "defdc9e4",
+        "target": "Submit Review",
+        "value": "4 fields → created",
+        "url": "http://127.0.0.1:7770/so-delicious-dairy-free-cocowhip-light-vegan-non-gmo-project-verified-9-oz-tub.html#reviews",
+        "ts": 1791431198192,
+        "navigated": false,
+        "formKey": "div:3>div:0>div:2>div:0>div:3>div:1>div:1>form:0",
+        "fieldsFilled": 4,
+        "retries": 0,
+        "submitted": true
+      },
+      {
+        "step": 57,
+        "kind": "click",
+        "stateHash": "cc120186",
+        "fp": "d2952e23",
+        "target": "Orders and Returns",
+        "selector": "body:nth-child(2) > div:nth-child(8) > footer:nth-child(4) > div:nth-child(1) > ul:nth-child(2) > li:nth-child(4) > a:nth-child(1)",
+        "url": "http://127.0.0.1:7770/checkout/cart/",
+        "ts": 1791431573635,
+        "navigated": false
+      },
+      {
+        "step": 67,
+        "kind": "key",
+        "stateHash": "a4174385",
+        "fp": "65c07a59",
+        "target": "Description",
+        "selector": "#description",
+        "value": "a",
+        "url": "http://127.0.0.1:7770/catalogsearch/advanced/",
+        "ts": 1791431651206,
+        "navigated": false
+      },
+      {
+        "step": 68,
+        "kind": "dblclick",
+        "stateHash": "a4174385",
+        "fp": "474c9aba",
+        "target": "Orders and Returns",
+        "selector": "body:nth-child(2) > div:nth-child(8) > footer:nth-child(5) > div:nth-child(1) > ul:nth-child(2) > li:nth-child(4) > a:nth-child(1)",
+        "url": "http://127.0.0.1:7770/catalogsearch/advanced/",
+        "ts": 1791431651552,
+        "navigated": false
+      },
+      {
+        "step": 76,
+        "kind": "dblclick",
+        "stateHash": "4e718433",
+        "fp": "6be15654",
+        "target": "XZP 4 Pack Larger Thicker Rapid Hair Wrap Towels Drying Women Long Thick Curly H",
+        "selector": "body:nth-child(2) > div:nth-child(8) > main:nth-child(4) > div:nth-child(4) > div:nth-child(1) > div:nth-child(4) > ol:nth-child(1) > li:nth-child(11) > div:nth-child(1) > div:nth-child(2) > strong:nth-child(1) > a:nth-child(1)",
+        "url": "http://127.0.0.1:7770/beauty-personal-care.html",
+        "ts": 1791431713097,
+        "navigated": false
+      },
+      {
+        "step": 80,
+        "kind": "scroll",
+        "stateHash": "da8aeb16",
+        "url": "http://127.0.0.1:7770/xzp-4-pack-larger-thicker-rapid-hair-wrap-towels-drying-women-long-thick-curly-hair-magic-instant-dry-hair-towel-caps-anti-frizz-fast-drying-microfiber-turban-wet-hair-wrap-towels-quick-drying.html",
+        "ts": 1791431725170,
+        "navigated": false
+      },
+      {
+        "step": 81,
+        "kind": "submit-form",
+        "stateHash": "da8aeb16",
+        "target": "Add to Cart",
+        "value": "5 fields → created",
+        "url": "http://127.0.0.1:7770/xzp-4-pack-larger-thicker-rapid-hair-wrap-towels-drying-women-long-thick-curly-hair-magic-instant-dry-hair-towel-caps-anti-frizz-fast-drying-microfiber-turban-wet-hair-wrap-towels-quick-drying.html",
+        "ts": 1791431730649,
+        "navigated": false,
+        "formKey": "body:1>div:7>main:3>div:3>div:0>div:0>div:1>form:0",
+        "fieldsFilled": 5,
+        "retries": 2,
+        "submitted": true
+      },
+      {
+        "step": 82,
+        "kind": "scroll",
+        "stateHash": "41ec09c8",
+        "url": "http://127.0.0.1:7770/xzp-4-pack-larger-thicker-rapid-hair-wrap-towels-drying-women-long-thick-curly-hair-magic-instant-dry-hair-towel-caps-anti-frizz-fast-drying-microfiber-turban-wet-hair-wrap-towels-quick-drying.html",
+        "ts": 1791431734295,
+        "navigated": false
+      },
+      {
+        "step": 85,
+        "kind": "click",
+        "stateHash": "41ec09c8",
+        "fp": "53e98139",
+        "target": "4 Colors of Rapid Drying Hair Towel",
+        "selector": "body:nth-child(2) > div:nth-child(8) > main:nth-child(4) > div:nth-child(4) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > form:nth-child(1) > div:nth-child(6) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > label:nth-child(2)",
+        "url": "http://127.0.0.1:7770/xzp-4-pack-larger-thicker-rapid-hair-wrap-towels-drying-women-long-thick-curly-hair-magic-instant-dry-hair-towel-caps-anti-frizz-fast-drying-microfiber-turban-wet-hair-wrap-towels-quick-drying.html",
+        "ts": 1791431738144,
+        "navigated": false
+      },
+      {
+        "step": 86,
+        "kind": "click",
+        "stateHash": "41ec09c8",
+        "fp": "0ecf5dff",
+        "target": "My Cart",
+        "selector": "body:nth-child(2) > div:nth-child(8) > header:nth-child(1) > div:nth-child(2) > div:nth-child(3) > a:nth-child(1)",
+        "url": "http://127.0.0.1:7770/xzp-4-pack-larger-thicker-rapid-hair-wrap-towels-drying-women-long-thick-curly-hair-magic-instant-dry-hair-towel-caps-anti-frizz-fast-drying-microfiber-turban-wet-hair-wrap-towels-quick-drying.html",
+        "ts": 1791431738428,
+        "navigated": false
+      },
+      {
+        "step": 88,
+        "kind": "forward",
+        "stateHash": "d1464e03",
+        "url": "http://127.0.0.1:7770/xzp-4-pack-larger-thicker-rapid-hair-wrap-towels-drying-women-long-thick-curly-hair-magic-instant-dry-hair-towel-caps-anti-frizz-fast-drying-microfiber-turban-wet-hair-wrap-towels-quick-drying.html",
+        "ts": 1791431742384,
+        "navigated": false
+      },
+      {
+        "step": 89,
+        "kind": "scroll",
+        "stateHash": "d1464e03",
+        "url": "http://127.0.0.1:7770/xzp-4-pack-larger-thicker-rapid-hair-wrap-towels-drying-women-long-thick-curly-hair-magic-instant-dry-hair-towel-caps-anti-frizz-fast-drying-microfiber-turban-wet-hair-wrap-towels-quick-drying.html",
+        "ts": 1791431742621,
+        "navigated": false
+      },
+      {
+        "step": 90,
+        "kind": "click",
+        "stateHash": "d1464e03",
+        "fp": "0410f8da",
+        "target": "Image",
+        "selector": "body:nth-child(2) > div:nth-child(8) > main:nth-child(4) > div:nth-child(4) > div:nth-child(1) > div:nth-child(2) > div:nth-child(3) > div:nth-child(3) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(4)",
+        "url": "http://127.0.0.1:7770/xzp-4-pack-larger-thicker-rapid-hair-wrap-towels-drying-women-long-thick-curly-hair-magic-instant-dry-hair-towel-caps-anti-frizz-fast-drying-microfiber-turban-wet-hair-wrap-towels-quick-drying.html",
+        "ts": 1791431742956,
+        "navigated": false
+      },
+      {
+        "step": 91,
+        "kind": "key",
+        "stateHash": "41ec09c8",
+        "fp": "ff10f0fb",
+        "target": "Image",
+        "selector": "body:nth-child(2) > div:nth-child(8) > main:nth-child(4) > div:nth-child(4) > div:nth-child(1) > div:nth-child(2) > div:nth-child(3) > div:nth-child(3) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(5)",
+        "value": "Tab",
+        "url": "http://127.0.0.1:7770/xzp-4-pack-larger-thicker-rapid-hair-wrap-towels-drying-women-long-thick-curly-hair-magic-instant-dry-hair-towel-caps-anti-frizz-fast-drying-microfiber-turban-wet-hair-wrap-towels-quick-drying.html",
+        "ts": 1791431743281,
+        "navigated": false
+      },
+      {
+        "step": 92,
+        "kind": "type",
+        "stateHash": "41ec09c8",
+        "fp": "c0627a5f",
+        "target": "Enter your email address",
+        "selector": "#newsletter",
+        "value": "null",
+        "url": "http://127.0.0.1:7770/xzp-4-pack-larger-thicker-rapid-hair-wrap-towels-drying-women-long-thick-curly-hair-magic-instant-dry-hair-towel-caps-anti-frizz-fast-drying-microfiber-turban-wet-hair-wrap-towels-quick-drying.html",
+        "ts": 1791431743549,
+        "navigated": false
+      },
+      {
+        "step": 93,
+        "kind": "forward",
+        "stateHash": "41ec09c8",
+        "url": "http://127.0.0.1:7770/xzp-4-pack-larger-thicker-rapid-hair-wrap-towels-drying-women-long-thick-curly-hair-magic-instant-dry-hair-towel-caps-anti-frizz-fast-drying-microfiber-turban-wet-hair-wrap-towels-quick-drying.html",
+        "ts": 1791431743792,
+        "navigated": false
+      },
+      {
+        "step": 94,
+        "kind": "scroll",
+        "stateHash": "41ec09c8",
+        "url": "http://127.0.0.1:7770/xzp-4-pack-larger-thicker-rapid-hair-wrap-towels-drying-women-long-thick-curly-hair-magic-instant-dry-hair-towel-caps-anti-frizz-fast-drying-microfiber-turban-wet-hair-wrap-towels-quick-drying.html",
+        "ts": 1791431744042,
+        "navigated": false
+      },
+      {
+        "step": 95,
+        "kind": "back",
+        "stateHash": "41ec09c8",
+        "url": "http://127.0.0.1:7770/xzp-4-pack-larger-thicker-rapid-hair-wrap-towels-drying-women-long-thick-curly-hair-magic-instant-dry-hair-towel-caps-anti-frizz-fast-drying-microfiber-turban-wet-hair-wrap-towels-quick-drying.html",
+        "ts": 1791431746483,
+        "navigated": true
+      },
+      {
+        "step": 96,
+        "kind": "click",
+        "stateHash": "f460ae98",
+        "fp": "6b695776",
+        "target": "Oral Pain Relief 88item",
+        "selector": "body:nth-child(2) > div:nth-child(8) > main:nth-child(4) > div:nth-child(4) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > dl:nth-child(2) > dd:nth-child(2) > ol:nth-child(1) > li:nth-child(5) > a:nth-child(1)",
+        "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care.html",
+        "ts": 1791431750199,
+        "navigated": false
+      },
+      {
+        "step": 98,
+        "kind": "click",
+        "stateHash": "4d137168",
+        "fp": "9ea3ea52",
+        "target": "Set Descending Direction",
+        "selector": "body:nth-child(2) > div:nth-child(8) > main:nth-child(4) > div:nth-child(4) > div:nth-child(1) > div:nth-child(3) > div:nth-child(3) > a:nth-child(3)",
+        "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care.html?cat=118",
+        "ts": 1791431754493,
+        "navigated": false
+      },
+      {
+        "step": 100,
+        "kind": "scroll",
+        "stateHash": "0773ad48",
+        "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care.html?cat=118&product_list_dir=desc",
+        "ts": 1791431758912,
+        "navigated": false
+      },
+      {
+        "step": 102,
+        "kind": "hover",
+        "stateHash": "fe76f64b",
+        "fp": "f24b860d",
+        "target": "Page 2",
+        "selector": "body:nth-child(2) > div:nth-child(8) > main:nth-child(4) > div:nth-child(4) > div:nth-child(1) > div:nth-child(5) > div:nth-child(1) > ul:nth-child(2) > li:nth-child(2) > a:nth-child(1)",
+        "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care.html?cat=118&product_list_dir=desc",
+        "ts": 1791431760039,
+        "navigated": false
+      },
+      {
+        "step": 103,
+        "kind": "submit-form",
+        "stateHash": "fe76f64b",
+        "target": "Add to Wish List",
+        "value": "1 fields → created",
+        "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care.html?cat=118&product_list_dir=desc",
+        "ts": 1791431763313,
+        "navigated": true,
+        "formKey": "page",
+        "fieldsFilled": 1,
+        "retries": 0,
+        "submitted": true
+      },
+      {
+        "step": 104,
+        "kind": "click",
+        "stateHash": "88f96227",
+        "fp": "ee77d2a5",
+        "target": "Page 5",
+        "selector": "body:nth-child(2) > div:nth-child(8) > main:nth-child(4) > div:nth-child(4) > div:nth-child(1) > div:nth-child(5) > div:nth-child(1) > ul:nth-child(2) > li:nth-child(5) > a:nth-child(1)",
+        "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care.html?cat=118&product_list_dir=desc&product_list_order=name",
+        "ts": 1791431766081,
+        "navigated": false
+      },
+      {
+        "step": 106,
+        "kind": "key",
+        "stateHash": "905ec252",
+        "fp": "1f684a7e",
+        "target": "Report All Bugs",
+        "selector": "body:nth-child(2) > div:nth-child(8) > footer:nth-child(5) > div:nth-child(1) > small:nth-child(4) > a:nth-child(2)",
+        "value": "ArrowRight",
+        "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care.html?cat=118&p=5&product_list_dir=desc&product_list_order=name",
+        "ts": 1791431772148,
+        "navigated": false
+      },
+      {
+        "step": 107,
+        "kind": "click",
+        "stateHash": "905ec252",
+        "fp": "885698a7",
+        "target": "foqitoxi Sport Mouth Guard Upper and Lower Brace - Teeth Grinding Guard - 4 Pack",
+        "selector": "body:nth-child(2) > div:nth-child(8) > main:nth-child(4) > div:nth-child(4) > div:nth-child(1) > div:nth-child(4) > ol:nth-child(1) > li:nth-child(11) > div:nth-child(1) > div:nth-child(2) > strong:nth-child(1) > a:nth-child(1)",
+        "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care.html?cat=118&p=5&product_list_dir=desc&product_list_order=name",
+        "ts": 1791431772429,
+        "navigated": false
+      },
+      {
+        "step": 110,
+        "kind": "scroll",
+        "stateHash": "44ccadf3",
+        "url": "http://127.0.0.1:7770/foqitoxi-sport-mouth-guard-upper-and-lower-brace-teeth-grinding-guard-4-pack-with-storage-case.html",
+        "ts": 1791431777920,
+        "navigated": false
+      },
+      {
+        "step": 111,
+        "kind": "click",
+        "stateHash": "44ccadf3",
+        "fp": "474c9aba",
+        "target": "Orders and Returns",
+        "selector": "body:nth-child(2) > div:nth-child(8) > footer:nth-child(5) > div:nth-child(1) > ul:nth-child(2) > li:nth-child(4) > a:nth-child(1)",
+        "url": "http://127.0.0.1:7770/foqitoxi-sport-mouth-guard-upper-and-lower-brace-teeth-grinding-guard-4-pack-with-storage-case.html",
+        "ts": 1791431778403,
+        "navigated": false
+      },
+      {
+        "step": 119,
+        "kind": "scroll",
+        "stateHash": "8094aa08",
+        "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/toothbrushes-accessories.html",
+        "ts": 1791431840285,
+        "navigated": false
+      },
+      {
+        "step": 120,
+        "kind": "hover",
+        "stateHash": "8094aa08",
+        "fp": "d952cba5",
+        "target": "Add to Cart",
+        "selector": "body:nth-child(2) > div:nth-child(8) > main:nth-child(4) > div:nth-child(4) > div:nth-child(1) > div:nth-child(4) > ol:nth-child(1) > li:nth-child(10) > div:nth-child(1) > div:nth-child(2) > div:nth-child(4) > div:nth-child(1) > div:nth-child(1) > form:nth-child(1) > button:nth-child(4)",
+        "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/toothbrushes-accessories.html",
+        "ts": 1791431840678,
+        "navigated": false
+      },
+      {
+        "step": 121,
+        "kind": "click",
+        "stateHash": "8094aa08",
+        "fp": "43055c44",
+        "target": "Add to Cart",
+        "selector": "body:nth-child(2) > div:nth-child(8) > main:nth-child(4) > div:nth-child(4) > div:nth-child(1) > div:nth-child(4) > ol:nth-child(1) > li:nth-child(4) > div:nth-child(1) > div:nth-child(2) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > form:nth-child(1) > button:nth-child(4)",
+        "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/toothbrushes-accessories.html",
+        "ts": 1791431841022,
+        "navigated": false
+      },
+      {
+        "step": 123,
+        "kind": "click",
+        "stateHash": "8094aa08",
+        "fp": "1f92048d",
+        "target": "Add to Cart",
+        "selector": "body:nth-child(2) > div:nth-child(8) > main:nth-child(4) > div:nth-child(4) > div:nth-child(1) > div:nth-child(4) > ol:nth-child(1) > li:nth-child(5) > div:nth-child(1) > div:nth-child(2) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > form:nth-child(1) > button:nth-child(4)",
+        "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/toothbrushes-accessories.html",
+        "ts": 1791431848018,
+        "navigated": false
+      },
+      {
+        "step": 125,
+        "kind": "click",
+        "stateHash": "8094aa08",
+        "fp": "a935e946",
+        "target": "Colgate Slimsoft Floss-Tip Charcoal Toothbrush (Pack of 6)",
+        "selector": "body:nth-child(2) > div:nth-child(8) > main:nth-child(4) > div:nth-child(4) > div:nth-child(1) > div:nth-child(4) > ol:nth-child(1) > li:nth-child(2) > div:nth-child(1) > div:nth-child(2) > strong:nth-child(1) > a:nth-child(1)",
+        "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/toothbrushes-accessories.html",
+        "ts": 1791431855385,
+        "navigated": false
+      },
+      {
+        "step": 128,
+        "kind": "submit-form",
+        "stateHash": "28381c9a",
+        "target": "Add to Cart",
+        "value": "1 fields → created",
+        "url": "http://127.0.0.1:7770/colgate-slimsoft-floss-tip-charcoal-toothbrush-pack-of-6.html",
+        "ts": 1791431869018,
+        "navigated": false,
+        "formKey": "body:1>div:7>main:3>div:3>div:0>div:0>div:1>form:0",
+        "fieldsFilled": 1,
+        "retries": 2,
+        "submitted": true
+      },
+      {
+        "step": 129,
+        "kind": "click",
+        "stateHash": "29e2d450",
+        "fp": "2c50786d",
+        "target": "Reviews",
+        "selector": "#tab-label-reviews",
+        "url": "http://127.0.0.1:7770/colgate-slimsoft-floss-tip-charcoal-toothbrush-pack-of-6.html",
+        "ts": 1791431872282,
+        "navigated": false
+      },
+      {
+        "step": 130,
+        "kind": "type",
+        "stateHash": "5ede4714",
+        "fp": "7b550130",
+        "target": "detail",
+        "selector": "#review_field",
+        "value": "2147483647",
+        "url": "http://127.0.0.1:7770/colgate-slimsoft-floss-tip-charcoal-toothbrush-pack-of-6.html",
+        "ts": 1791431872725,
+        "navigated": false
+      },
+      {
+        "step": 131,
+        "kind": "forward",
+        "stateHash": "5ede4714",
+        "url": "http://127.0.0.1:7770/colgate-slimsoft-floss-tip-charcoal-toothbrush-pack-of-6.html",
+        "ts": 1791431872996,
+        "navigated": false
+      },
+      {
+        "step": 132,
+        "kind": "click",
+        "stateHash": "5ede4714",
+        "fp": "c375bf93",
+        "target": "Go to Home Page",
+        "selector": "body:nth-child(2) > div:nth-child(8) > div:nth-child(3) > ul:nth-child(1) > li:nth-child(1) > a:nth-child(1)",
+        "url": "http://127.0.0.1:7770/colgate-slimsoft-floss-tip-charcoal-toothbrush-pack-of-6.html",
+        "ts": 1791431873295,
+        "navigated": false
+      },
+      {
+        "step": 133,
+        "kind": "click",
+        "stateHash": "7fd4e8d0",
+        "fp": "7568f857",
+        "target": "Report All Bugs",
+        "selector": "body:nth-child(2) > div:nth-child(8) > footer:nth-child(4) > div:nth-child(1) > small:nth-child(4) > a:nth-child(2)",
+        "url": "http://127.0.0.1:7770/",
+        "ts": 1791431877085,
+        "navigated": false
+      },
+      {
+        "step": 134,
+        "kind": "click",
+        "stateHash": "543756ab",
+        "fp": "06240714",
+        "target": "Add to Wish List",
+        "selector": "body:nth-child(2) > div:nth-child(8) > main:nth-child(3) > div:nth-child(4) > div:nth-child(1) > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > ol:nth-child(1) > li:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(4) > div:nth-child(1) > div:nth-child(2) > a:nth-child(1)",
+        "url": "http://127.0.0.1:7770/",
+        "ts": 1791431877424,
+        "navigated": false
+      },
+      {
+        "step": 144,
+        "kind": "click",
+        "stateHash": "d20f5deb",
+        "fp": "16eea1ac",
+        "target": "Add to Cart",
+        "selector": "body:nth-child(2) > div:nth-child(8) > main:nth-child(4) > div:nth-child(4) > div:nth-child(1) > div:nth-child(4) > ol:nth-child(1) > li:nth-child(11) > div:nth-child(1) > div:nth-child(2) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > form:nth-child(1) > button:nth-child(4)",
+        "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/dental-floss-picks.html",
+        "ts": 1791431955653,
+        "navigated": false
+      },
+      {
+        "step": 146,
+        "kind": "key",
+        "stateHash": "d20f5deb",
+        "fp": "4b155692",
+        "target": "Tools & Home Improvement",
+        "selector": "#ui-id-136",
+        "value": "z",
+        "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/dental-floss-picks.html",
+        "ts": 1791431961821,
+        "navigated": false
+      },
+      {
+        "step": 147,
+        "kind": "click",
+        "stateHash": "d20f5deb",
+        "fp": "f1817415",
+        "target": "Page 4",
+        "selector": "body:nth-child(2) > div:nth-child(8) > main:nth-child(4) > div:nth-child(4) > div:nth-child(1) > div:nth-child(5) > div:nth-child(1) > ul:nth-child(2) > li:nth-child(4) > a:nth-child(1)",
+        "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/dental-floss-picks.html",
+        "ts": 1791431962263,
+        "navigated": false
+      },
+      {
+        "step": 149,
+        "kind": "key",
+        "stateHash": "e4c81339",
+        "fp": "4742dc2b",
+        "target": "Position Product Name Price",
+        "selector": "#sorter",
+        "value": "Escape",
+        "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/dental-floss-picks.html?p=4",
+        "ts": 1791431966642,
+        "navigated": false
+      },
+      {
+        "step": 151,
+        "kind": "click",
+        "stateHash": "e4c81339",
+        "fp": "84fe98ed",
+        "target": ".product-image-container-7613 { width: 240px; } .product-image-container-7613 sp",
+        "selector": "body:nth-child(2) > div:nth-child(8) > main:nth-child(4) > div:nth-child(4) > div:nth-child(1) > div:nth-child(4) > ol:nth-child(1) > li:nth-child(5) > div:nth-child(1) > a:nth-child(1)",
+        "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/dental-floss-picks.html?p=4",
+        "ts": 1791431967451,
+        "navigated": false
+      },
+      {
+        "step": 153,
+        "kind": "forward",
+        "stateHash": "584fb5e6",
+        "url": "http://127.0.0.1:7770/dental-floss-fresh-up-mint-50-m-per-pack-pack-of-4.html",
+        "ts": 1791431971847,
+        "navigated": false
+      },
+      {
+        "step": 155,
+        "kind": "scroll",
+        "stateHash": "4934d6e7",
+        "url": "http://127.0.0.1:7770/dental-floss-fresh-up-mint-50-m-per-pack-pack-of-4.html",
+        "ts": 1791431975787,
+        "navigated": false
+      },
+      {
+        "step": 156,
+        "kind": "click",
+        "stateHash": "4934d6e7",
+        "fp": "1f684a7e",
+        "target": "Report All Bugs",
+        "selector": "body:nth-child(2) > div:nth-child(8) > footer:nth-child(5) > div:nth-child(1) > small:nth-child(4) > a:nth-child(2)",
+        "url": "http://127.0.0.1:7770/dental-floss-fresh-up-mint-50-m-per-pack-pack-of-4.html",
+        "ts": 1791431976251,
+        "navigated": false
+      },
+      {
+        "step": 157,
+        "kind": "click",
+        "stateHash": "4934d6e7",
+        "fp": "5f8d4ee1",
+        "target": "Details",
+        "selector": "#tab-label-description-title",
+        "url": "http://127.0.0.1:7770/dental-floss-fresh-up-mint-50-m-per-pack-pack-of-4.html",
+        "ts": 1791431976636,
+        "navigated": false
+      },
+      {
+        "step": 158,
+        "kind": "forward",
+        "stateHash": "4934d6e7",
+        "url": "http://127.0.0.1:7770/dental-floss-fresh-up-mint-50-m-per-pack-pack-of-4.html",
+        "ts": 1791431977048,
+        "navigated": false
+      },
+      {
+        "step": 159,
+        "kind": "forward",
+        "stateHash": "4934d6e7",
+        "url": "http://127.0.0.1:7770/dental-floss-fresh-up-mint-50-m-per-pack-pack-of-4.html",
+        "ts": 1791431977369,
+        "navigated": false
+      },
+      {
+        "step": 160,
+        "kind": "click",
+        "stateHash": "4934d6e7",
+        "fp": "58f94cd9",
+        "target": "store logo",
+        "selector": "body:nth-child(2) > div:nth-child(8) > header:nth-child(1) > div:nth-child(2) > a:nth-child(2)",
+        "url": "http://127.0.0.1:7770/dental-floss-fresh-up-mint-50-m-per-pack-pack-of-4.html",
+        "ts": 1791431977639,
+        "navigated": false
+      },
+      {
+        "step": 161,
+        "kind": "key",
+        "stateHash": "543756ab",
+        "fp": "308e618d",
+        "target": ".product-image-container-104495 { width: 240px; } .product-image-container-10449",
+        "selector": "body:nth-child(2) > div:nth-child(8) > main:nth-child(3) > div:nth-child(4) > div:nth-child(1) > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > ol:nth-child(1) > li:nth-child(5) > div:nth-child(1) > a:nth-child(1)",
+        "value": "Home",
+        "url": "http://127.0.0.1:7770/",
+        "ts": 1791431981370,
+        "navigated": false
+      },
+      {
+        "step": 162,
+        "kind": "scroll",
+        "stateHash": "543756ab",
+        "url": "http://127.0.0.1:7770/",
+        "ts": 1791431981851,
+        "navigated": false
+      },
+      {
+        "step": 163,
+        "kind": "click",
+        "stateHash": "b6eaf600",
+        "fp": "ad1334b6",
+        "target": "Sort By",
+        "selector": "body:nth-child(2) > div:nth-child(8) > main:nth-child(4) > div:nth-child(4) > div:nth-child(1) > div:nth-child(3) > div:nth-child(3) > label:nth-child(1)",
+        "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/orthodontic-supplies.html",
+        "ts": 1791431985972,
+        "navigated": false
+      },
+      {
+        "step": 164,
+        "kind": "dblclick",
+        "stateHash": "b6eaf600",
+        "fp": "2efa759b",
+        "target": ".product-image-container-6691 { width: 240px; } .product-image-container-6691 sp",
+        "selector": "body:nth-child(2) > div:nth-child(8) > main:nth-child(4) > div:nth-child(4) > div:nth-child(1) > div:nth-child(4) > ol:nth-child(1) > li:nth-child(3) > div:nth-child(1) > a:nth-child(1)",
+        "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/orthodontic-supplies.html",
+        "ts": 1791431986502,
+        "navigated": false
+      },
+      {
+        "step": 167,
+        "kind": "forward",
+        "stateHash": "dedc652d",
+        "url": "http://127.0.0.1:7770/50pcs-bag-disposable-plastic-elastic-placers-dental-elastic-rubber-band-dental-orthodontic-product-multi-color.html",
+        "ts": 1791431994230,
+        "navigated": false
+      },
+      {
+        "step": 168,
+        "kind": "click",
+        "stateHash": "dedc652d",
+        "fp": "0410f8da",
+        "target": "Image",
+        "selector": "body:nth-child(2) > div:nth-child(8) > main:nth-child(4) > div:nth-child(4) > div:nth-child(1) > div:nth-child(2) > div:nth-child(3) > div:nth-child(3) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(4)",
+        "url": "http://127.0.0.1:7770/50pcs-bag-disposable-plastic-elastic-placers-dental-elastic-rubber-band-dental-orthodontic-product-multi-color.html",
+        "ts": 1791431994531,
+        "navigated": false
+      },
+      {
+        "step": 170,
+        "kind": "hover",
+        "stateHash": "dedc652d",
+        "fp": "d35e7e5e",
+        "target": "Beauty & Personal Care",
+        "selector": "body:nth-child(2) > div:nth-child(8) > div:nth-child(3) > ul:nth-child(1) > li:nth-child(2) > a:nth-child(1)",
+        "url": "http://127.0.0.1:7770/50pcs-bag-disposable-plastic-elastic-placers-dental-elastic-rubber-band-dental-orthodontic-product-multi-color.html",
+        "ts": 1791431998047,
+        "navigated": false
+      },
+      {
+        "step": 171,
+        "kind": "click",
+        "stateHash": "dedc652d",
+        "fp": "a956930e",
+        "target": "Contact Us",
+        "selector": "body:nth-child(2) > div:nth-child(8) > footer:nth-child(5) > div:nth-child(1) > ul:nth-child(2) > li:nth-child(5) > a:nth-child(1)",
+        "url": "http://127.0.0.1:7770/50pcs-bag-disposable-plastic-elastic-placers-dental-elastic-rubber-band-dental-orthodontic-product-multi-color.html",
+        "ts": 1791431998388,
+        "navigated": false
+      },
+      {
+        "step": 181,
+        "kind": "click",
+        "stateHash": "90a888c9",
+        "fp": "bf125572",
+        "target": "3 Sets Dental Mouth Prop Tongue Guard Right Left 134℃ Bite Block Adult Children ",
+        "selector": "body:nth-child(2) > div:nth-child(8) > main:nth-child(4) > div:nth-child(4) > div:nth-child(1) > div:nth-child(4) > ol:nth-child(1) > li:nth-child(6) > div:nth-child(1) > div:nth-child(2) > strong:nth-child(1) > a:nth-child(1)",
+        "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/children-s-dental-care.html",
+        "ts": 1791432076473,
+        "navigated": false
+      },
+      {
+        "step": 183,
+        "kind": "click",
+        "stateHash": "02f1eed2",
+        "fp": "2c50786d",
+        "target": "Reviews",
+        "selector": "#tab-label-reviews",
+        "url": "http://127.0.0.1:7770/3-sets-dental-mouth-prop-tongue-guard-right-left-134-bite-block-adult-children-kids.html",
+        "ts": 1791432081502,
+        "navigated": false
+      },
+      {
+        "step": 184,
+        "kind": "click",
+        "stateHash": "34a73a8c",
+        "fp": "1d8e0f01",
+        "selector": "body:nth-child(2) > div:nth-child(8) > main:nth-child(4) > div:nth-child(4) > div:nth-child(1) > div:nth-child(2) > div:nth-child(3) > div:nth-child(3) > div:nth-child(2) > div:nth-child(1) > div:nth-child(3)",
+        "url": "http://127.0.0.1:7770/3-sets-dental-mouth-prop-tongue-guard-right-left-134-bite-block-adult-children-kids.html",
+        "ts": 1791432082312,
+        "navigated": false
+      },
+      {
+        "step": 185,
+        "kind": "scroll",
+        "stateHash": "debfd8d8",
+        "url": "http://127.0.0.1:7770/3-sets-dental-mouth-prop-tongue-guard-right-left-134-bite-block-adult-children-kids.html",
+        "ts": 1791432083145,
+        "navigated": false
+      },
+      {
+        "step": 187,
+        "kind": "key",
+        "stateHash": "debfd8d8",
+        "fp": "01e4f813",
+        "target": "Skip to the end of the images gallery",
+        "selector": "body:nth-child(2) > div:nth-child(8) > main:nth-child(4) > div:nth-child(4) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > a:nth-child(1)",
+        "value": "ArrowUp",
+        "url": "http://127.0.0.1:7770/3-sets-dental-mouth-prop-tongue-guard-right-left-134-bite-block-adult-children-kids.html",
+        "ts": 1791432086759,
+        "navigated": false
+      },
+      {
+        "step": 191,
+        "kind": "scroll",
+        "stateHash": "debfd8d8",
+        "url": "http://127.0.0.1:7770/3-sets-dental-mouth-prop-tongue-guard-right-left-134-bite-block-adult-children-kids.html",
+        "ts": 1791432093756,
+        "navigated": false
+      },
+      {
+        "step": 192,
+        "kind": "click",
+        "stateHash": "debfd8d8",
+        "fp": "b5f6517c",
+        "selector": "body:nth-child(2) > div:nth-child(10) > div:nth-child(2) > div:nth-child(1) > div:nth-child(3)",
+        "url": "http://127.0.0.1:7770/3-sets-dental-mouth-prop-tongue-guard-right-left-134-bite-block-adult-children-kids.html",
+        "ts": 1791432094012,
+        "navigated": false
+      },
+      {
+        "step": 194,
+        "kind": "key",
+        "stateHash": "bb76ae83",
+        "fp": "cee2779f",
+        "target": "Portable Speakers & Docks",
+        "selector": "body:nth-child(2) > div:nth-child(8) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > nav:nth-child(1) > ul:nth-child(1) > li:nth-child(9) > ul:nth-child(2) > li:nth-child(8) > ul:nth-child(2) > li:nth-child(2) > a:nth-child(1)",
+        "value": "End",
+        "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/oral-pain-relief.html",
+        "ts": 1791432101885,
+        "navigated": false
+      },
+      {
+        "step": 195,
+        "kind": "click",
+        "stateHash": "11358a21",
+        "fp": "761b5703",
+        "target": "$0.00 - $99.99 83item",
+        "selector": "body:nth-child(2) > div:nth-child(8) > main:nth-child(4) > div:nth-child(4) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > dl:nth-child(2) > dd:nth-child(2) > ol:nth-child(1) > li:nth-child(1) > a:nth-child(1)",
+        "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/oral-pain-relief.html",
+        "ts": 1791432102877,
+        "navigated": false
+      },
+      {
+        "step": 197,
+        "kind": "forward",
+        "stateHash": "1aea18da",
+        "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/oral-pain-relief.html?price=0-100",
+        "ts": 1791432107264,
+        "navigated": false
+      },
+      {
+        "step": 198,
+        "kind": "key",
+        "stateHash": "1aea18da",
+        "fp": "0583506a",
+        "target": "2 Reviews",
+        "selector": "body:nth-child(2) > div:nth-child(8) > main:nth-child(4) > div:nth-child(4) > div:nth-child(1) > div:nth-child(4) > ol:nth-child(1) > li:nth-child(10) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(2) > a:nth-child(1)",
+        "value": "Home",
+        "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/oral-pain-relief.html?price=0-100",
+        "ts": 1791432107541,
+        "navigated": false
+      },
+      {
+        "step": 199,
+        "kind": "scroll",
+        "stateHash": "1aea18da",
+        "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/oral-pain-relief.html?price=0-100",
+        "ts": 1791432107796,
+        "navigated": false
+      }
+    ],
+    "signals": [
+      {
+        "kind": "guardrail",
+        "detail": "skipped form (auth/login form): Subscribe",
+        "url": "http://127.0.0.1:7770/",
+        "at": 1791431185762,
+        "severity": "info"
+      },
+      {
+        "kind": "pageerror",
+        "detail": "Cannot read properties of undefined (reading 'closest')\nTypeError: Cannot read properties of undefined (reading 'closest')\n    at $.<computed>.<computed>._keydown (http://127.0.0.1:7770/static/version1681826198/frontend/Magento/blank/en_US/mage/menu.js:249:29)\n    at $.<computed>.<computed>._keydown (http://127.0.0.1:7770/static/version1681826198/frontend/Magento/blank/en_US/jquery/ui-modules/widget.js:132:25)\n    at HTMLUListElement.handlerProxy (http://127.0.0.1:7770/static/version1681826198/frontend/Magento/blank/en_US/jquery/ui-modules/widget.js:615:7)\n    at HTMLUListElement.dispatch (http://127.0.0.1:7770/static/version1681826198/frontend/Magento/blank/en_US/jquery.js:5430:49)\n    at elemData.handle (http://127.0.0.1:7770/static/version1681826198/frontend/Magento/blank/en_US/jquery.js:5234:47)",
+        "url": "http://127.0.0.1:7770/",
+        "at": 1791431186131,
+        "severity": "high"
+      },
+      {
+        "kind": "http.4xx",
+        "detail": "403 http://127.0.0.1:7770/review/product/listAjax/id/104495/",
+        "url": "http://127.0.0.1:7770/review/product/listAjax/id/104495/",
+        "at": 1791431190569,
+        "severity": "medium",
+        "meta": {
+          "status": 403,
+          "resourceType": "xhr"
+        }
+      },
+      {
+        "kind": "driver",
+        "detail": "action dblclick failed: locator.dblclick: Timeout 3000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#ui-id-152').first()\u001b[22m\n\u001b[2m    - locator resolved to <a tabindex=\"-1\" id=\"ui-id-152\" role=\"menuitem\" aria-haspopup=\"true\" class=\"level-top ui-menu-item-wrapper\" href=\"http://127.0.0.1:7770/electronics.html\">…</a>\u001b[22m\n\u001b[2m  - attempting dblclick action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is outside of the viewport\u001b[22m\n\u001b[2m    - retrying dblclick action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is outside of the viewport\u001b[22m\n\u001b[2m    - retrying dblclick action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    4 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is outside of the viewport\u001b[22m\n\u001b[2m    - retrying dblclick action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n",
+        "url": "http://127.0.0.1:7770/so-delicious-dairy-free-cocowhip-light-vegan-non-gmo-project-verified-9-oz-tub.html#reviews",
+        "at": 1791431194351,
+        "severity": "low"
+      },
+      {
+        "kind": "guardrail",
+        "detail": "skipped form (auth/login form): Subscribe",
+        "url": "http://127.0.0.1:7770/so-delicious-dairy-free-cocowhip-light-vegan-non-gmo-project-verified-9-oz-tub.html#reviews",
+        "at": 1791431195535,
+        "severity": "info"
+      },
+      {
+        "kind": "guardrail",
+        "detail": "skipped form (auth/login form): Subscribe",
+        "url": "http://127.0.0.1:7770/so-delicious-dairy-free-cocowhip-light-vegan-non-gmo-project-verified-9-oz-tub.html#reviews",
+        "at": 1791431195930,
+        "severity": "info"
+      },
+      {
+        "kind": "http.4xx",
+        "detail": "403 http://127.0.0.1:7770/review/product/post/id/104495/",
+        "url": "http://127.0.0.1:7770/review/product/post/id/104495/",
+        "at": 1791431198183,
+        "severity": "high",
+        "meta": {
+          "status": 403,
+          "resourceType": "document"
+        }
+      },
+      {
+        "kind": "http.4xx",
+        "detail": "403 http://127.0.0.1:7770/customer/account/",
+        "url": "http://127.0.0.1:7770/customer/account/",
+        "at": 1791431272746,
+        "severity": "high",
+        "meta": {
+          "status": 403,
+          "resourceType": "document"
+        }
+      },
+      {
+        "kind": "http.4xx",
+        "detail": "403 http://127.0.0.1:7770/wishlist/",
+        "url": "http://127.0.0.1:7770/wishlist/",
+        "at": 1791431347106,
+        "severity": "high",
+        "meta": {
+          "status": 403,
+          "resourceType": "document"
+        }
+      },
+      {
+        "kind": "http.4xx",
+        "detail": "403 http://127.0.0.1:7770/customer/account/login/",
+        "url": "http://127.0.0.1:7770/customer/account/login/",
+        "at": 1791431421499,
+        "severity": "high",
+        "meta": {
+          "status": 403,
+          "resourceType": "document"
+        }
+      },
+      {
+        "kind": "http.4xx",
+        "detail": "403 http://127.0.0.1:7770/customer/account/create/",
+        "url": "http://127.0.0.1:7770/customer/account/create/",
+        "at": 1791431495807,
+        "severity": "high",
+        "meta": {
+          "status": 403,
+          "resourceType": "document"
+        }
+      },
+      {
+        "kind": "http.4xx",
+        "detail": "403 http://127.0.0.1:7770/sales/guest/form/",
+        "url": "http://127.0.0.1:7770/sales/guest/form/",
+        "at": 1791431573675,
+        "severity": "high",
+        "meta": {
+          "status": 403,
+          "resourceType": "document"
+        }
+      },
+      {
+        "kind": "http.4xx",
+        "detail": "403 http://127.0.0.1:7770/sales/guest/form/",
+        "url": "http://127.0.0.1:7770/sales/guest/form/",
+        "at": 1791431651564,
+        "severity": "high",
+        "meta": {
+          "status": 403,
+          "resourceType": "document"
+        }
+      },
+      {
+        "kind": "pageerror",
+        "detail": "P is not defined\nReferenceError: P is not defined\n    at http://127.0.0.1:7770/xzp-4-pack-larger-thicker-rapid-hair-wrap-towels-drying-women-long-thick-curly-hair-magic-instant-dry-hair-towel-caps-anti-frizz-fast-drying-microfiber-turban-wet-hair-wrap-towels-quick-drying.html:1001:5",
+        "url": "http://127.0.0.1:7770/xzp-4-pack-larger-thicker-rapid-hair-wrap-towels-drying-women-long-thick-curly-hair-magic-instant-dry-hair-towel-caps-anti-frizz-fast-drying-microfiber-turban-wet-hair-wrap-towels-quick-drying.html",
+        "at": 1791431714074,
+        "severity": "high"
+      },
+      {
+        "kind": "requestfailed",
+        "detail": "GET https://m.media-amazon.com/images/S/aplus-media/sc/f221bf46-08aa-4376-8d1a-a8473842bd51.__CR0,0,970,600_PT0_SX970_V1___.jpg — net::ERR_TUNNEL_CONNECTION_FAILED",
+        "url": "https://m.media-amazon.com/images/S/aplus-media/sc/f221bf46-08aa-4376-8d1a-a8473842bd51.__CR0,0,970,600_PT0_SX970_V1___.jpg",
+        "at": 1791431714088,
+        "severity": "medium",
+        "meta": {
+          "resourceType": "image"
+        }
+      },
+      {
+        "kind": "console.error",
+        "detail": "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "url": "http://127.0.0.1:7770/xzp-4-pack-larger-thicker-rapid-hair-wrap-towels-drying-women-long-thick-curly-hair-magic-instant-dry-hair-towel-caps-anti-frizz-fast-drying-microfiber-turban-wet-hair-wrap-towels-quick-drying.html",
+        "at": 1791431714091,
+        "severity": "low",
+        "meta": {
+          "source": "https://m.media-amazon.com"
+        }
+      },
+      {
+        "kind": "requestfailed",
+        "detail": "GET https://m.media-amazon.com/images/S/aplus-media-library-service-media/a17037d6-b8cf-4a5e-a188-a2d82a01c30f.__CR1,0,1659,513_PT0_SX970_V1___.jpg — net::ERR_TUNNEL_CONNECTION_FAILED",
+        "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/a17037d6-b8cf-4a5e-a188-a2d82a01c30f.__CR1,0,1659,513_PT0_SX970_V1___.jpg",
+        "at": 1791431714116,
+        "severity": "medium",
+        "meta": {
+          "resourceType": "image"
+        }
+      },
+      {
+        "kind": "console.error",
+        "detail": "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "url": "http://127.0.0.1:7770/xzp-4-pack-larger-thicker-rapid-hair-wrap-towels-drying-women-long-thick-curly-hair-magic-instant-dry-hair-towel-caps-anti-frizz-fast-drying-microfiber-turban-wet-hair-wrap-towels-quick-drying.html",
+        "at": 1791431714116,
+        "severity": "low",
+        "meta": {
+          "source": "https://m.media-amazon.com"
+        }
+      },
+      {
+        "kind": "requestfailed",
+        "detail": "GET https://m.media-amazon.com/images/S/aplus-media/sc/94dc2495-46de-49bd-9cb2-e8c04fe1b59d.__CR0,0,970,600_PT0_SX970_V1___.jpg — net::ERR_TUNNEL_CONNECTION_FAILED",
+        "url": "https://m.media-amazon.com/images/S/aplus-media/sc/94dc2495-46de-49bd-9cb2-e8c04fe1b59d.__CR0,0,970,600_PT0_SX970_V1___.jpg",
+        "at": 1791431714125,
+        "severity": "medium",
+        "meta": {
+          "resourceType": "image"
+        }
+      },
+      {
+        "kind": "console.error",
+        "detail": "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "url": "http://127.0.0.1:7770/xzp-4-pack-larger-thicker-rapid-hair-wrap-towels-drying-women-long-thick-curly-hair-magic-instant-dry-hair-towel-caps-anti-frizz-fast-drying-microfiber-turban-wet-hair-wrap-towels-quick-drying.html",
+        "at": 1791431714127,
+        "severity": "low",
+        "meta": {
+          "source": "https://m.media-amazon.com"
+        }
+      },
+      {
+        "kind": "requestfailed",
+        "detail": "GET https://m.media-amazon.com/images/S/aplus-media/sc/16b78faf-9ecd-430f-9949-b77eed0908e6.__CR0,0,970,600_PT0_SX970_V1___.jpg — net::ERR_TUNNEL_CONNECTION_FAILED",
+        "url": "https://m.media-amazon.com/images/S/aplus-media/sc/16b78faf-9ecd-430f-9949-b77eed0908e6.__CR0,0,970,600_PT0_SX970_V1___.jpg",
+        "at": 1791431714190,
+        "severity": "medium",
+        "meta": {
+          "resourceType": "image"
+        }
+      },
+      {
+        "kind": "console.error",
+        "detail": "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "url": "http://127.0.0.1:7770/xzp-4-pack-larger-thicker-rapid-hair-wrap-towels-drying-women-long-thick-curly-hair-magic-instant-dry-hair-towel-caps-anti-frizz-fast-drying-microfiber-turban-wet-hair-wrap-towels-quick-drying.html",
+        "at": 1791431714191,
+        "severity": "low",
+        "meta": {
+          "source": "https://m.media-amazon.com"
+        }
+      },
+      {
+        "kind": "requestfailed",
+        "detail": "GET https://m.media-amazon.com/images/S/aplus-media/sc/2802cd2c-cfc5-4e3f-a992-af6635a17020.__CR0,0,300,300_PT0_SX300_V1___.jpg — net::ERR_TUNNEL_CONNECTION_FAILED",
+        "url": "https://m.media-amazon.com/images/S/aplus-media/sc/2802cd2c-cfc5-4e3f-a992-af6635a17020.__CR0,0,300,300_PT0_SX300_V1___.jpg",
+        "at": 1791431714191,
+        "severity": "medium",
+        "meta": {
+          "resourceType": "image"
+        }
+      },
+      {
+        "kind": "console.error",
+        "detail": "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "url": "http://127.0.0.1:7770/xzp-4-pack-larger-thicker-rapid-hair-wrap-towels-drying-women-long-thick-curly-hair-magic-instant-dry-hair-towel-caps-anti-frizz-fast-drying-microfiber-turban-wet-hair-wrap-towels-quick-drying.html",
+        "at": 1791431714191,
+        "severity": "low",
+        "meta": {
+          "source": "https://m.media-amazon.com"
+        }
+      },
+      {
+        "kind": "requestfailed",
+        "detail": "GET https://m.media-amazon.com/images/S/aplus-media/sc/93424575-ea41-48e1-8f25-1a57cba68a36.__CR0,0,300,300_PT0_SX300_V1___.jpg — net::ERR_TUNNEL_CONNECTION_FAILED",
+        "url": "https://m.media-amazon.com/images/S/aplus-media/sc/93424575-ea41-48e1-8f25-1a57cba68a36.__CR0,0,300,300_PT0_SX300_V1___.jpg",
+        "at": 1791431714358,
+        "severity": "medium",
+        "meta": {
+          "resourceType": "image"
+        }
+      },
+      {
+        "kind": "console.error",
+        "detail": "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "url": "http://127.0.0.1:7770/xzp-4-pack-larger-thicker-rapid-hair-wrap-towels-drying-women-long-thick-curly-hair-magic-instant-dry-hair-towel-caps-anti-frizz-fast-drying-microfiber-turban-wet-hair-wrap-towels-quick-drying.html",
+        "at": 1791431714358,
+        "severity": "low",
+        "meta": {
+          "source": "https://m.media-amazon.com"
+        }
+      },
+      {
+        "kind": "requestfailed",
+        "detail": "GET https://m.media-amazon.com/images/S/aplus-media/sc/01a0d85f-9fd8-431e-a579-caf7b54b43b2.__CR0,0,300,300_PT0_SX300_V1___.jpg — net::ERR_TUNNEL_CONNECTION_FAILED",
+        "url": "https://m.media-amazon.com/images/S/aplus-media/sc/01a0d85f-9fd8-431e-a579-caf7b54b43b2.__CR0,0,300,300_PT0_SX300_V1___.jpg",
+        "at": 1791431714358,
+        "severity": "medium",
+        "meta": {
+          "resourceType": "image"
+        }
+      },
+      {
+        "kind": "console.error",
+        "detail": "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "url": "http://127.0.0.1:7770/xzp-4-pack-larger-thicker-rapid-hair-wrap-towels-drying-women-long-thick-curly-hair-magic-instant-dry-hair-towel-caps-anti-frizz-fast-drying-microfiber-turban-wet-hair-wrap-towels-quick-drying.html",
+        "at": 1791431714358,
+        "severity": "low",
+        "meta": {
+          "source": "https://m.media-amazon.com"
+        }
+      },
+      {
+        "kind": "requestfailed",
+        "detail": "GET https://m.media-amazon.com/images/S/aplus-media/sc/128e46e4-8d5c-4048-b524-ff5e91016847.__CR0,0,300,300_PT0_SX300_V1___.jpg — net::ERR_TUNNEL_CONNECTION_FAILED",
+        "url": "https://m.media-amazon.com/images/S/aplus-media/sc/128e46e4-8d5c-4048-b524-ff5e91016847.__CR0,0,300,300_PT0_SX300_V1___.jpg",
+        "at": 1791431714359,
+        "severity": "medium",
+        "meta": {
+          "resourceType": "image"
+        }
+      },
+      {
+        "kind": "console.error",
+        "detail": "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "url": "http://127.0.0.1:7770/xzp-4-pack-larger-thicker-rapid-hair-wrap-towels-drying-women-long-thick-curly-hair-magic-instant-dry-hair-towel-caps-anti-frizz-fast-drying-microfiber-turban-wet-hair-wrap-towels-quick-drying.html",
+        "at": 1791431714359,
+        "severity": "low",
+        "meta": {
+          "source": "https://m.media-amazon.com"
+        }
+      },
+      {
+        "kind": "requestfailed",
+        "detail": "GET https://m.media-amazon.com/images/S/aplus-media/sc/ef174b5b-435a-430b-b14f-bd16f21ad095.__CR0,0,300,300_PT0_SX300_V1___.jpg — net::ERR_TUNNEL_CONNECTION_FAILED",
+        "url": "https://m.media-amazon.com/images/S/aplus-media/sc/ef174b5b-435a-430b-b14f-bd16f21ad095.__CR0,0,300,300_PT0_SX300_V1___.jpg",
+        "at": 1791431714359,
+        "severity": "medium",
+        "meta": {
+          "resourceType": "image"
+        }
+      },
+      {
+        "kind": "console.error",
+        "detail": "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "url": "http://127.0.0.1:7770/xzp-4-pack-larger-thicker-rapid-hair-wrap-towels-drying-women-long-thick-curly-hair-magic-instant-dry-hair-towel-caps-anti-frizz-fast-drying-microfiber-turban-wet-hair-wrap-towels-quick-drying.html",
+        "at": 1791431714359,
+        "severity": "low",
+        "meta": {
+          "source": "https://m.media-amazon.com"
+        }
+      },
+      {
+        "kind": "requestfailed",
+        "detail": "GET https://m.media-amazon.com/images/S/aplus-media/sc/25825fdc-e11f-4843-a184-36f485e198cd.__CR0,0,300,300_PT0_SX300_V1___.jpg — net::ERR_TUNNEL_CONNECTION_FAILED",
+        "url": "https://m.media-amazon.com/images/S/aplus-media/sc/25825fdc-e11f-4843-a184-36f485e198cd.__CR0,0,300,300_PT0_SX300_V1___.jpg",
+        "at": 1791431714359,
+        "severity": "medium",
+        "meta": {
+          "resourceType": "image"
+        }
+      },
+      {
+        "kind": "console.error",
+        "detail": "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "url": "http://127.0.0.1:7770/xzp-4-pack-larger-thicker-rapid-hair-wrap-towels-drying-women-long-thick-curly-hair-magic-instant-dry-hair-towel-caps-anti-frizz-fast-drying-microfiber-turban-wet-hair-wrap-towels-quick-drying.html",
+        "at": 1791431714359,
+        "severity": "low",
+        "meta": {
+          "source": "https://m.media-amazon.com"
+        }
+      },
+      {
+        "kind": "requestfailed",
+        "detail": "GET https://m.media-amazon.com/images/S/aplus-media-library-service-media/19e8ec71-55d9-4787-b8fd-08c6cb76fa0c.__CR0,0,600,600_PT0_SX300_V1___.jpg — net::ERR_TUNNEL_CONNECTION_FAILED",
+        "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/19e8ec71-55d9-4787-b8fd-08c6cb76fa0c.__CR0,0,600,600_PT0_SX300_V1___.jpg",
+        "at": 1791431714359,
+        "severity": "medium",
+        "meta": {
+          "resourceType": "image"
+        }
+      },
+      {
+        "kind": "console.error",
+        "detail": "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "url": "http://127.0.0.1:7770/xzp-4-pack-larger-thicker-rapid-hair-wrap-towels-drying-women-long-thick-curly-hair-magic-instant-dry-hair-towel-caps-anti-frizz-fast-drying-microfiber-turban-wet-hair-wrap-towels-quick-drying.html",
+        "at": 1791431714359,
+        "severity": "low",
+        "meta": {
+          "source": "https://m.media-amazon.com"
+        }
+      },
+      {
+        "kind": "requestfailed",
+        "detail": "GET https://m.media-amazon.com/images/S/aplus-media-library-service-media/faa5b6f4-d760-4e7f-b561-7d2ff7ea9529.__CR0,0,600,600_PT0_SX300_V1___.jpg — net::ERR_TUNNEL_CONNECTION_FAILED",
+        "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/faa5b6f4-d760-4e7f-b561-7d2ff7ea9529.__CR0,0,600,600_PT0_SX300_V1___.jpg",
+        "at": 1791431714359,
+        "severity": "medium",
+        "meta": {
+          "resourceType": "image"
+        }
+      },
+      {
+        "kind": "console.error",
+        "detail": "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "url": "http://127.0.0.1:7770/xzp-4-pack-larger-thicker-rapid-hair-wrap-towels-drying-women-long-thick-curly-hair-magic-instant-dry-hair-towel-caps-anti-frizz-fast-drying-microfiber-turban-wet-hair-wrap-towels-quick-drying.html",
+        "at": 1791431714360,
+        "severity": "low",
+        "meta": {
+          "source": "https://m.media-amazon.com"
+        }
+      },
+      {
+        "kind": "requestfailed",
+        "detail": "GET https://m.media-amazon.com/images/S/aplus-media-library-service-media/d5cbb33a-a154-4866-bff1-00914f835929.__CR0,0,600,600_PT0_SX300_V1___.jpg — net::ERR_TUNNEL_CONNECTION_FAILED",
+        "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/d5cbb33a-a154-4866-bff1-00914f835929.__CR0,0,600,600_PT0_SX300_V1___.jpg",
+        "at": 1791431714360,
+        "severity": "medium",
+        "meta": {
+          "resourceType": "image"
+        }
+      },
+      {
+        "kind": "console.error",
+        "detail": "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "url": "http://127.0.0.1:7770/xzp-4-pack-larger-thicker-rapid-hair-wrap-towels-drying-women-long-thick-curly-hair-magic-instant-dry-hair-towel-caps-anti-frizz-fast-drying-microfiber-turban-wet-hair-wrap-towels-quick-drying.html",
+        "at": 1791431714360,
+        "severity": "low",
+        "meta": {
+          "source": "https://m.media-amazon.com"
+        }
+      },
+      {
+        "kind": "driver",
+        "detail": "action dblclick failed: locator.dblclick: Timeout 3000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('body:nth-child(2) > div:nth-child(8) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > nav:nth-child(1) > ul:nth-child(1) > li:nth-child(9) > ul:nth-child(2) > li:nth-child(5) > ul:nth-child(2) > li:nth-child(3) > a:nth-child(1)').first()\u001b[22m\n\u001b[2m    - locator resolved to <a tabindex=\"-1\" id=\"ui-id-167\" role=\"menuitem\" class=\"ui-menu-item-wrapper\" href=\"http://127.0.0.1:7770/electronics/television-video/dvd-players-recorders.html\">…</a>\u001b[22m\n\u001b[2m  - attempting dblclick action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying dblclick action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying dblclick action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    5 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying dblclick action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n",
+        "url": "http://127.0.0.1:7770/xzp-4-pack-larger-thicker-rapid-hair-wrap-towels-drying-women-long-thick-curly-hair-magic-instant-dry-hair-towel-caps-anti-frizz-fast-drying-microfiber-turban-wet-hair-wrap-towels-quick-drying.html",
+        "at": 1791431721021,
+        "severity": "low"
+      },
+      {
+        "kind": "driver",
+        "detail": "action click failed: locator.click: Timeout 3000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#ui-id-147').first()\u001b[22m\n\u001b[2m    - locator resolved to <a tabindex=\"-1\" id=\"ui-id-147\" role=\"menuitem\" aria-haspopup=\"true\" class=\"level-top ui-menu-item-wrapper\" href=\"http://127.0.0.1:7770/patio-lawn-garden.html\">…</a>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is outside of the viewport\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is outside of the viewport\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    5 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is outside of the viewport\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n",
+        "url": "http://127.0.0.1:7770/xzp-4-pack-larger-thicker-rapid-hair-wrap-towels-drying-women-long-thick-curly-hair-magic-instant-dry-hair-towel-caps-anti-frizz-fast-drying-microfiber-turban-wet-hair-wrap-towels-quick-drying.html",
+        "at": 1791431724832,
+        "severity": "low"
+      },
+      {
+        "kind": "http.4xx",
+        "detail": "403 http://127.0.0.1:7770/checkout/cart/add/uenc/aHR0cDovLzEyNy4wLjAuMTo3NzcwL3h6cC00LXBhY2stbGFyZ2VyLXRoaWNrZXItcmFwaWQtaGFpci13cmFwLXRvd2Vscy1kcnlpbmctd29tZW4tbG9uZy10aGljay1jdXJseS1oYWlyLW1hZ2ljLWluc3RhbnQtZHJ5LWhhaXItdG93ZWwtY2Fwcy1hbnRpLWZyaXp6LWZhc3QtZHJ5aW5nLW1pY3JvZmliZXItdHVyYmFuLXdldC1oYWlyLXdyYXAtdG93ZWxzLXF1aWNrLWRyeWluZy5odG1s/product/6528/",
+        "url": "http://127.0.0.1:7770/checkout/cart/add/uenc/aHR0cDovLzEyNy4wLjAuMTo3NzcwL3h6cC00LXBhY2stbGFyZ2VyLXRoaWNrZXItcmFwaWQtaGFpci13cmFwLXRvd2Vscy1kcnlpbmctd29tZW4tbG9uZy10aGljay1jdXJseS1oYWlyLW1hZ2ljLWluc3RhbnQtZHJ5LWhhaXItdG93ZWwtY2Fwcy1hbnRpLWZyaXp6LWZhc3QtZHJ5aW5nLW1pY3JvZmliZXItdHVyYmFuLXdldC1oYWlyLXdyYXAtdG93ZWxzLXF1aWNrLWRyeWluZy5odG1s/product/6528/",
+        "at": 1791431726114,
+        "severity": "medium",
+        "meta": {
+          "status": 403,
+          "resourceType": "xhr"
+        }
+      },
+      {
+        "kind": "pageerror",
+        "detail": "P is not defined\nReferenceError: P is not defined\n    at http://127.0.0.1:7770/xzp-4-pack-larger-thicker-rapid-hair-wrap-towels-drying-women-long-thick-curly-hair-magic-instant-dry-hair-towel-caps-anti-frizz-fast-drying-microfiber-turban-wet-hair-wrap-towels-quick-drying.html:1001:5",
+        "url": "http://127.0.0.1:7770/xzp-4-pack-larger-thicker-rapid-hair-wrap-towels-drying-women-long-thick-curly-hair-magic-instant-dry-hair-towel-caps-anti-frizz-fast-drying-microfiber-turban-wet-hair-wrap-towels-quick-drying.html",
+        "at": 1791431726655,
+        "severity": "high"
+      },
+      {
+        "kind": "requestfailed",
+        "detail": "GET https://m.media-amazon.com/images/S/aplus-media/sc/f221bf46-08aa-4376-8d1a-a8473842bd51.__CR0,0,970,600_PT0_SX970_V1___.jpg — net::ERR_TUNNEL_CONNECTION_FAILED",
+        "url": "https://m.media-amazon.com/images/S/aplus-media/sc/f221bf46-08aa-4376-8d1a-a8473842bd51.__CR0,0,970,600_PT0_SX970_V1___.jpg",
+        "at": 1791431726676,
+        "severity": "medium",
+        "meta": {
+          "resourceType": "image"
+        }
+      },
+      {
+        "kind": "console.error",
+        "detail": "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "url": "http://127.0.0.1:7770/xzp-4-pack-larger-thicker-rapid-hair-wrap-towels-drying-women-long-thick-curly-hair-magic-instant-dry-hair-towel-caps-anti-frizz-fast-drying-microfiber-turban-wet-hair-wrap-towels-quick-drying.html",
+        "at": 1791431726676,
+        "severity": "low",
+        "meta": {
+          "source": "https://m.media-amazon.com"
+        }
+      },
+      {
+        "kind": "requestfailed",
+        "detail": "GET https://m.media-amazon.com/images/S/aplus-media-library-service-media/a17037d6-b8cf-4a5e-a188-a2d82a01c30f.__CR1,0,1659,513_PT0_SX970_V1___.jpg — net::ERR_TUNNEL_CONNECTION_FAILED",
+        "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/a17037d6-b8cf-4a5e-a188-a2d82a01c30f.__CR1,0,1659,513_PT0_SX970_V1___.jpg",
+        "at": 1791431726677,
+        "severity": "medium",
+        "meta": {
+          "resourceType": "image"
+        }
+      },
+      {
+        "kind": "console.error",
+        "detail": "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "url": "http://127.0.0.1:7770/xzp-4-pack-larger-thicker-rapid-hair-wrap-towels-drying-women-long-thick-curly-hair-magic-instant-dry-hair-towel-caps-anti-frizz-fast-drying-microfiber-turban-wet-hair-wrap-towels-quick-drying.html",
+        "at": 1791431726677,
+        "severity": "low",
+        "meta": {
+          "source": "https://m.media-amazon.com"
+        }
+      },
+      {
+        "kind": "requestfailed",
+        "detail": "GET https://m.media-amazon.com/images/S/aplus-media/sc/94dc2495-46de-49bd-9cb2-e8c04fe1b59d.__CR0,0,970,600_PT0_SX970_V1___.jpg — net::ERR_TUNNEL_CONNECTION_FAILED",
+        "url": "https://m.media-amazon.com/images/S/aplus-media/sc/94dc2495-46de-49bd-9cb2-e8c04fe1b59d.__CR0,0,970,600_PT0_SX970_V1___.jpg",
+        "at": 1791431726762,
+        "severity": "medium",
+        "meta": {
+          "resourceType": "image"
+        }
+      },
+      {
+        "kind": "console.error",
+        "detail": "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "url": "http://127.0.0.1:7770/xzp-4-pack-larger-thicker-rapid-hair-wrap-towels-drying-women-long-thick-curly-hair-magic-instant-dry-hair-towel-caps-anti-frizz-fast-drying-microfiber-turban-wet-hair-wrap-towels-quick-drying.html",
+        "at": 1791431726763,
+        "severity": "low",
+        "meta": {
+          "source": "https://m.media-amazon.com"
+        }
+      },
+      {
+        "kind": "requestfailed",
+        "detail": "GET https://m.media-amazon.com/images/S/aplus-media/sc/16b78faf-9ecd-430f-9949-b77eed0908e6.__CR0,0,970,600_PT0_SX970_V1___.jpg — net::ERR_PROXY_CONNECTION_FAILED",
+        "url": "https://m.media-amazon.com/images/S/aplus-media/sc/16b78faf-9ecd-430f-9949-b77eed0908e6.__CR0,0,970,600_PT0_SX970_V1___.jpg",
+        "at": 1791431726769,
+        "severity": "medium",
+        "meta": {
+          "resourceType": "image"
+        }
+      },
+      {
+        "kind": "console.error",
+        "detail": "Failed to load resource: net::ERR_PROXY_CONNECTION_FAILED",
+        "url": "http://127.0.0.1:7770/xzp-4-pack-larger-thicker-rapid-hair-wrap-towels-drying-women-long-thick-curly-hair-magic-instant-dry-hair-towel-caps-anti-frizz-fast-drying-microfiber-turban-wet-hair-wrap-towels-quick-drying.html",
+        "at": 1791431726769,
+        "severity": "low",
+        "meta": {
+          "source": "https://m.media-amazon.com"
+        }
+      },
+      {
+        "kind": "requestfailed",
+        "detail": "GET https://m.media-amazon.com/images/S/aplus-media/sc/2802cd2c-cfc5-4e3f-a992-af6635a17020.__CR0,0,300,300_PT0_SX300_V1___.jpg — net::ERR_TUNNEL_CONNECTION_FAILED",
+        "url": "https://m.media-amazon.com/images/S/aplus-media/sc/2802cd2c-cfc5-4e3f-a992-af6635a17020.__CR0,0,300,300_PT0_SX300_V1___.jpg",
+        "at": 1791431726769,
+        "severity": "medium",
+        "meta": {
+          "resourceType": "image"
+        }
+      },
+      {
+        "kind": "console.error",
+        "detail": "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "url": "http://127.0.0.1:7770/xzp-4-pack-larger-thicker-rapid-hair-wrap-towels-drying-women-long-thick-curly-hair-magic-instant-dry-hair-towel-caps-anti-frizz-fast-drying-microfiber-turban-wet-hair-wrap-towels-quick-drying.html",
+        "at": 1791431726770,
+        "severity": "low",
+        "meta": {
+          "source": "https://m.media-amazon.com"
+        }
+      },
+      {
+        "kind": "requestfailed",
+        "detail": "GET https://m.media-amazon.com/images/S/aplus-media/sc/93424575-ea41-48e1-8f25-1a57cba68a36.__CR0,0,300,300_PT0_SX300_V1___.jpg — net::ERR_TUNNEL_CONNECTION_FAILED",
+        "url": "https://m.media-amazon.com/images/S/aplus-media/sc/93424575-ea41-48e1-8f25-1a57cba68a36.__CR0,0,300,300_PT0_SX300_V1___.jpg",
+        "at": 1791431726773,
+        "severity": "medium",
+        "meta": {
+          "resourceType": "image"
+        }
+      },
+      {
+        "kind": "console.error",
+        "detail": "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "url": "http://127.0.0.1:7770/xzp-4-pack-larger-thicker-rapid-hair-wrap-towels-drying-women-long-thick-curly-hair-magic-instant-dry-hair-towel-caps-anti-frizz-fast-drying-microfiber-turban-wet-hair-wrap-towels-quick-drying.html",
+        "at": 1791431726773,
+        "severity": "low",
+        "meta": {
+          "source": "https://m.media-amazon.com"
+        }
+      },
+      {
+        "kind": "requestfailed",
+        "detail": "GET https://m.media-amazon.com/images/S/aplus-media/sc/01a0d85f-9fd8-431e-a579-caf7b54b43b2.__CR0,0,300,300_PT0_SX300_V1___.jpg — net::ERR_TUNNEL_CONNECTION_FAILED",
+        "url": "https://m.media-amazon.com/images/S/aplus-media/sc/01a0d85f-9fd8-431e-a579-caf7b54b43b2.__CR0,0,300,300_PT0_SX300_V1___.jpg",
+        "at": 1791431726773,
+        "severity": "medium",
+        "meta": {
+          "resourceType": "image"
+        }
+      },
+      {
+        "kind": "console.error",
+        "detail": "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "url": "http://127.0.0.1:7770/xzp-4-pack-larger-thicker-rapid-hair-wrap-towels-drying-women-long-thick-curly-hair-magic-instant-dry-hair-towel-caps-anti-frizz-fast-drying-microfiber-turban-wet-hair-wrap-towels-quick-drying.html",
+        "at": 1791431726774,
+        "severity": "low",
+        "meta": {
+          "source": "https://m.media-amazon.com"
+        }
+      },
+      {
+        "kind": "requestfailed",
+        "detail": "GET https://m.media-amazon.com/images/S/aplus-media/sc/128e46e4-8d5c-4048-b524-ff5e91016847.__CR0,0,300,300_PT0_SX300_V1___.jpg — net::ERR_PROXY_CONNECTION_FAILED",
+        "url": "https://m.media-amazon.com/images/S/aplus-media/sc/128e46e4-8d5c-4048-b524-ff5e91016847.__CR0,0,300,300_PT0_SX300_V1___.jpg",
+        "at": 1791431726774,
+        "severity": "medium",
+        "meta": {
+          "resourceType": "image"
+        }
+      },
+      {
+        "kind": "console.error",
+        "detail": "Failed to load resource: net::ERR_PROXY_CONNECTION_FAILED",
+        "url": "http://127.0.0.1:7770/xzp-4-pack-larger-thicker-rapid-hair-wrap-towels-drying-women-long-thick-curly-hair-magic-instant-dry-hair-towel-caps-anti-frizz-fast-drying-microfiber-turban-wet-hair-wrap-towels-quick-drying.html",
+        "at": 1791431726774,
+        "severity": "low",
+        "meta": {
+          "source": "https://m.media-amazon.com"
+        }
+      },
+      {
+        "kind": "requestfailed",
+        "detail": "GET https://m.media-amazon.com/images/S/aplus-media/sc/ef174b5b-435a-430b-b14f-bd16f21ad095.__CR0,0,300,300_PT0_SX300_V1___.jpg — net::ERR_TUNNEL_CONNECTION_FAILED",
+        "url": "https://m.media-amazon.com/images/S/aplus-media/sc/ef174b5b-435a-430b-b14f-bd16f21ad095.__CR0,0,300,300_PT0_SX300_V1___.jpg",
+        "at": 1791431726774,
+        "severity": "medium",
+        "meta": {
+          "resourceType": "image"
+        }
+      },
+      {
+        "kind": "console.error",
+        "detail": "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "url": "http://127.0.0.1:7770/xzp-4-pack-larger-thicker-rapid-hair-wrap-towels-drying-women-long-thick-curly-hair-magic-instant-dry-hair-towel-caps-anti-frizz-fast-drying-microfiber-turban-wet-hair-wrap-towels-quick-drying.html",
+        "at": 1791431726774,
+        "severity": "low",
+        "meta": {
+          "source": "https://m.media-amazon.com"
+        }
+      },
+      {
+        "kind": "requestfailed",
+        "detail": "GET https://m.media-amazon.com/images/S/aplus-media/sc/25825fdc-e11f-4843-a184-36f485e198cd.__CR0,0,300,300_PT0_SX300_V1___.jpg — net::ERR_TUNNEL_CONNECTION_FAILED",
+        "url": "https://m.media-amazon.com/images/S/aplus-media/sc/25825fdc-e11f-4843-a184-36f485e198cd.__CR0,0,300,300_PT0_SX300_V1___.jpg",
+        "at": 1791431726798,
+        "severity": "medium",
+        "meta": {
+          "resourceType": "image"
+        }
+      },
+      {
+        "kind": "console.error",
+        "detail": "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "url": "http://127.0.0.1:7770/xzp-4-pack-larger-thicker-rapid-hair-wrap-towels-drying-women-long-thick-curly-hair-magic-instant-dry-hair-towel-caps-anti-frizz-fast-drying-microfiber-turban-wet-hair-wrap-towels-quick-drying.html",
+        "at": 1791431726798,
+        "severity": "low",
+        "meta": {
+          "source": "https://m.media-amazon.com"
+        }
+      },
+      {
+        "kind": "requestfailed",
+        "detail": "GET https://m.media-amazon.com/images/S/aplus-media-library-service-media/19e8ec71-55d9-4787-b8fd-08c6cb76fa0c.__CR0,0,600,600_PT0_SX300_V1___.jpg — net::ERR_TUNNEL_CONNECTION_FAILED",
+        "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/19e8ec71-55d9-4787-b8fd-08c6cb76fa0c.__CR0,0,600,600_PT0_SX300_V1___.jpg",
+        "at": 1791431726808,
+        "severity": "medium",
+        "meta": {
+          "resourceType": "image"
+        }
+      },
+      {
+        "kind": "console.error",
+        "detail": "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "url": "http://127.0.0.1:7770/xzp-4-pack-larger-thicker-rapid-hair-wrap-towels-drying-women-long-thick-curly-hair-magic-instant-dry-hair-towel-caps-anti-frizz-fast-drying-microfiber-turban-wet-hair-wrap-towels-quick-drying.html",
+        "at": 1791431726808,
+        "severity": "low",
+        "meta": {
+          "source": "https://m.media-amazon.com"
+        }
+      },
+      {
+        "kind": "requestfailed",
+        "detail": "GET https://m.media-amazon.com/images/S/aplus-media-library-service-media/faa5b6f4-d760-4e7f-b561-7d2ff7ea9529.__CR0,0,600,600_PT0_SX300_V1___.jpg — net::ERR_TUNNEL_CONNECTION_FAILED",
+        "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/faa5b6f4-d760-4e7f-b561-7d2ff7ea9529.__CR0,0,600,600_PT0_SX300_V1___.jpg",
+        "at": 1791431726812,
+        "severity": "medium",
+        "meta": {
+          "resourceType": "image"
+        }
+      },
+      {
+        "kind": "console.error",
+        "detail": "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "url": "http://127.0.0.1:7770/xzp-4-pack-larger-thicker-rapid-hair-wrap-towels-drying-women-long-thick-curly-hair-magic-instant-dry-hair-towel-caps-anti-frizz-fast-drying-microfiber-turban-wet-hair-wrap-towels-quick-drying.html",
+        "at": 1791431726812,
+        "severity": "low",
+        "meta": {
+          "source": "https://m.media-amazon.com"
+        }
+      },
+      {
+        "kind": "requestfailed",
+        "detail": "GET https://m.media-amazon.com/images/S/aplus-media-library-service-media/d5cbb33a-a154-4866-bff1-00914f835929.__CR0,0,600,600_PT0_SX300_V1___.jpg — net::ERR_TUNNEL_CONNECTION_FAILED",
+        "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/d5cbb33a-a154-4866-bff1-00914f835929.__CR0,0,600,600_PT0_SX300_V1___.jpg",
+        "at": 1791431726942,
+        "severity": "medium",
+        "meta": {
+          "resourceType": "image"
+        }
+      },
+      {
+        "kind": "console.error",
+        "detail": "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "url": "http://127.0.0.1:7770/xzp-4-pack-larger-thicker-rapid-hair-wrap-towels-drying-women-long-thick-curly-hair-magic-instant-dry-hair-towel-caps-anti-frizz-fast-drying-microfiber-turban-wet-hair-wrap-towels-quick-drying.html",
+        "at": 1791431726942,
+        "severity": "low",
+        "meta": {
+          "source": "https://m.media-amazon.com"
+        }
+      },
+      {
+        "kind": "http.4xx",
+        "detail": "403 http://127.0.0.1:7770/checkout/cart/add/uenc/aHR0cDovLzEyNy4wLjAuMTo3NzcwL3h6cC00LXBhY2stbGFyZ2VyLXRoaWNrZXItcmFwaWQtaGFpci13cmFwLXRvd2Vscy1kcnlpbmctd29tZW4tbG9uZy10aGljay1jdXJseS1oYWlyLW1hZ2ljLWluc3RhbnQtZHJ5LWhhaXItdG93ZWwtY2Fwcy1hbnRpLWZyaXp6LWZhc3QtZHJ5aW5nLW1pY3JvZmliZXItdHVyYmFuLXdldC1oYWlyLXdyYXAtdG93ZWxzLXF1aWNrLWRyeWluZy5odG1s/product/6528/",
+        "url": "http://127.0.0.1:7770/checkout/cart/add/uenc/aHR0cDovLzEyNy4wLjAuMTo3NzcwL3h6cC00LXBhY2stbGFyZ2VyLXRoaWNrZXItcmFwaWQtaGFpci13cmFwLXRvd2Vscy1kcnlpbmctd29tZW4tbG9uZy10aGljay1jdXJseS1oYWlyLW1hZ2ljLWluc3RhbnQtZHJ5LWhhaXItdG93ZWwtY2Fwcy1hbnRpLWZyaXp6LWZhc3QtZHJ5aW5nLW1pY3JvZmliZXItdHVyYmFuLXdldC1oYWlyLXdyYXAtdG93ZWxzLXF1aWNrLWRyeWluZy5odG1s/product/6528/",
+        "at": 1791431730400,
+        "severity": "medium",
+        "meta": {
+          "status": 403,
+          "resourceType": "xhr"
+        }
+      },
+      {
+        "kind": "pageerror",
+        "detail": "P is not defined\nReferenceError: P is not defined\n    at http://127.0.0.1:7770/xzp-4-pack-larger-thicker-rapid-hair-wrap-towels-drying-women-long-thick-curly-hair-magic-instant-dry-hair-towel-caps-anti-frizz-fast-drying-microfiber-turban-wet-hair-wrap-towels-quick-drying.html:1001:5",
+        "url": "http://127.0.0.1:7770/xzp-4-pack-larger-thicker-rapid-hair-wrap-towels-drying-women-long-thick-curly-hair-magic-instant-dry-hair-towel-caps-anti-frizz-fast-drying-microfiber-turban-wet-hair-wrap-towels-quick-drying.html",
+        "at": 1791431730726,
+        "severity": "high"
+      },
+      {
+        "kind": "requestfailed",
+        "detail": "GET https://m.media-amazon.com/images/S/aplus-media/sc/f221bf46-08aa-4376-8d1a-a8473842bd51.__CR0,0,970,600_PT0_SX970_V1___.jpg — net::ERR_PROXY_CONNECTION_FAILED",
+        "url": "https://m.media-amazon.com/images/S/aplus-media/sc/f221bf46-08aa-4376-8d1a-a8473842bd51.__CR0,0,970,600_PT0_SX970_V1___.jpg",
+        "at": 1791431730752,
+        "severity": "medium",
+        "meta": {
+          "resourceType": "image"
+        }
+      },
+      {
+        "kind": "console.error",
+        "detail": "Failed to load resource: net::ERR_PROXY_CONNECTION_FAILED",
+        "url": "http://127.0.0.1:7770/xzp-4-pack-larger-thicker-rapid-hair-wrap-towels-drying-women-long-thick-curly-hair-magic-instant-dry-hair-towel-caps-anti-frizz-fast-drying-microfiber-turban-wet-hair-wrap-towels-quick-drying.html",
+        "at": 1791431730753,
+        "severity": "low",
+        "meta": {
+          "source": "https://m.media-amazon.com"
+        }
+      },
+      {
+        "kind": "requestfailed",
+        "detail": "GET https://m.media-amazon.com/images/S/aplus-media-library-service-media/a17037d6-b8cf-4a5e-a188-a2d82a01c30f.__CR1,0,1659,513_PT0_SX970_V1___.jpg — net::ERR_TUNNEL_CONNECTION_FAILED",
+        "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/a17037d6-b8cf-4a5e-a188-a2d82a01c30f.__CR1,0,1659,513_PT0_SX970_V1___.jpg",
+        "at": 1791431731096,
+        "severity": "medium",
+        "meta": {
+          "resourceType": "image"
+        }
+      },
+      {
+        "kind": "console.error",
+        "detail": "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "url": "http://127.0.0.1:7770/xzp-4-pack-larger-thicker-rapid-hair-wrap-towels-drying-women-long-thick-curly-hair-magic-instant-dry-hair-towel-caps-anti-frizz-fast-drying-microfiber-turban-wet-hair-wrap-towels-quick-drying.html",
+        "at": 1791431731096,
+        "severity": "low",
+        "meta": {
+          "source": "https://m.media-amazon.com"
+        }
+      },
+      {
+        "kind": "requestfailed",
+        "detail": "GET https://m.media-amazon.com/images/S/aplus-media/sc/94dc2495-46de-49bd-9cb2-e8c04fe1b59d.__CR0,0,970,600_PT0_SX970_V1___.jpg — net::ERR_TUNNEL_CONNECTION_FAILED",
+        "url": "https://m.media-amazon.com/images/S/aplus-media/sc/94dc2495-46de-49bd-9cb2-e8c04fe1b59d.__CR0,0,970,600_PT0_SX970_V1___.jpg",
+        "at": 1791431731312,
+        "severity": "medium",
+        "meta": {
+          "resourceType": "image"
+        }
+      },
+      {
+        "kind": "console.error",
+        "detail": "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "url": "http://127.0.0.1:7770/xzp-4-pack-larger-thicker-rapid-hair-wrap-towels-drying-women-long-thick-curly-hair-magic-instant-dry-hair-towel-caps-anti-frizz-fast-drying-microfiber-turban-wet-hair-wrap-towels-quick-drying.html",
+        "at": 1791431731313,
+        "severity": "low",
+        "meta": {
+          "source": "https://m.media-amazon.com"
+        }
+      },
+      {
+        "kind": "requestfailed",
+        "detail": "GET https://m.media-amazon.com/images/S/aplus-media/sc/16b78faf-9ecd-430f-9949-b77eed0908e6.__CR0,0,970,600_PT0_SX970_V1___.jpg — net::ERR_TUNNEL_CONNECTION_FAILED",
+        "url": "https://m.media-amazon.com/images/S/aplus-media/sc/16b78faf-9ecd-430f-9949-b77eed0908e6.__CR0,0,970,600_PT0_SX970_V1___.jpg",
+        "at": 1791431731327,
+        "severity": "medium",
+        "meta": {
+          "resourceType": "image"
+        }
+      },
+      {
+        "kind": "console.error",
+        "detail": "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "url": "http://127.0.0.1:7770/xzp-4-pack-larger-thicker-rapid-hair-wrap-towels-drying-women-long-thick-curly-hair-magic-instant-dry-hair-towel-caps-anti-frizz-fast-drying-microfiber-turban-wet-hair-wrap-towels-quick-drying.html",
+        "at": 1791431731328,
+        "severity": "low",
+        "meta": {
+          "source": "https://m.media-amazon.com"
+        }
+      },
+      {
+        "kind": "requestfailed",
+        "detail": "GET https://m.media-amazon.com/images/S/aplus-media/sc/2802cd2c-cfc5-4e3f-a992-af6635a17020.__CR0,0,300,300_PT0_SX300_V1___.jpg — net::ERR_TUNNEL_CONNECTION_FAILED",
+        "url": "https://m.media-amazon.com/images/S/aplus-media/sc/2802cd2c-cfc5-4e3f-a992-af6635a17020.__CR0,0,300,300_PT0_SX300_V1___.jpg",
+        "at": 1791431731336,
+        "severity": "medium",
+        "meta": {
+          "resourceType": "image"
+        }
+      },
+      {
+        "kind": "console.error",
+        "detail": "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "url": "http://127.0.0.1:7770/xzp-4-pack-larger-thicker-rapid-hair-wrap-towels-drying-women-long-thick-curly-hair-magic-instant-dry-hair-towel-caps-anti-frizz-fast-drying-microfiber-turban-wet-hair-wrap-towels-quick-drying.html",
+        "at": 1791431731337,
+        "severity": "low",
+        "meta": {
+          "source": "https://m.media-amazon.com"
+        }
+      },
+      {
+        "kind": "requestfailed",
+        "detail": "GET https://m.media-amazon.com/images/S/aplus-media/sc/93424575-ea41-48e1-8f25-1a57cba68a36.__CR0,0,300,300_PT0_SX300_V1___.jpg — net::ERR_TUNNEL_CONNECTION_FAILED",
+        "url": "https://m.media-amazon.com/images/S/aplus-media/sc/93424575-ea41-48e1-8f25-1a57cba68a36.__CR0,0,300,300_PT0_SX300_V1___.jpg",
+        "at": 1791431731339,
+        "severity": "medium",
+        "meta": {
+          "resourceType": "image"
+        }
+      },
+      {
+        "kind": "console.error",
+        "detail": "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "url": "http://127.0.0.1:7770/xzp-4-pack-larger-thicker-rapid-hair-wrap-towels-drying-women-long-thick-curly-hair-magic-instant-dry-hair-towel-caps-anti-frizz-fast-drying-microfiber-turban-wet-hair-wrap-towels-quick-drying.html",
+        "at": 1791431731339,
+        "severity": "low",
+        "meta": {
+          "source": "https://m.media-amazon.com"
+        }
+      },
+      {
+        "kind": "requestfailed",
+        "detail": "GET https://m.media-amazon.com/images/S/aplus-media/sc/01a0d85f-9fd8-431e-a579-caf7b54b43b2.__CR0,0,300,300_PT0_SX300_V1___.jpg — net::ERR_TUNNEL_CONNECTION_FAILED",
+        "url": "https://m.media-amazon.com/images/S/aplus-media/sc/01a0d85f-9fd8-431e-a579-caf7b54b43b2.__CR0,0,300,300_PT0_SX300_V1___.jpg",
+        "at": 1791431731371,
+        "severity": "medium",
+        "meta": {
+          "resourceType": "image"
+        }
+      },
+      {
+        "kind": "console.error",
+        "detail": "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "url": "http://127.0.0.1:7770/xzp-4-pack-larger-thicker-rapid-hair-wrap-towels-drying-women-long-thick-curly-hair-magic-instant-dry-hair-towel-caps-anti-frizz-fast-drying-microfiber-turban-wet-hair-wrap-towels-quick-drying.html",
+        "at": 1791431731372,
+        "severity": "low",
+        "meta": {
+          "source": "https://m.media-amazon.com"
+        }
+      },
+      {
+        "kind": "requestfailed",
+        "detail": "GET https://m.media-amazon.com/images/S/aplus-media/sc/128e46e4-8d5c-4048-b524-ff5e91016847.__CR0,0,300,300_PT0_SX300_V1___.jpg — net::ERR_TUNNEL_CONNECTION_FAILED",
+        "url": "https://m.media-amazon.com/images/S/aplus-media/sc/128e46e4-8d5c-4048-b524-ff5e91016847.__CR0,0,300,300_PT0_SX300_V1___.jpg",
+        "at": 1791431731421,
+        "severity": "medium",
+        "meta": {
+          "resourceType": "image"
+        }
+      },
+      {
+        "kind": "console.error",
+        "detail": "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "url": "http://127.0.0.1:7770/xzp-4-pack-larger-thicker-rapid-hair-wrap-towels-drying-women-long-thick-curly-hair-magic-instant-dry-hair-towel-caps-anti-frizz-fast-drying-microfiber-turban-wet-hair-wrap-towels-quick-drying.html",
+        "at": 1791431731421,
+        "severity": "low",
+        "meta": {
+          "source": "https://m.media-amazon.com"
+        }
+      },
+      {
+        "kind": "requestfailed",
+        "detail": "GET https://m.media-amazon.com/images/S/aplus-media/sc/ef174b5b-435a-430b-b14f-bd16f21ad095.__CR0,0,300,300_PT0_SX300_V1___.jpg — net::ERR_TUNNEL_CONNECTION_FAILED",
+        "url": "https://m.media-amazon.com/images/S/aplus-media/sc/ef174b5b-435a-430b-b14f-bd16f21ad095.__CR0,0,300,300_PT0_SX300_V1___.jpg",
+        "at": 1791431731422,
+        "severity": "medium",
+        "meta": {
+          "resourceType": "image"
+        }
+      },
+      {
+        "kind": "console.error",
+        "detail": "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "url": "http://127.0.0.1:7770/xzp-4-pack-larger-thicker-rapid-hair-wrap-towels-drying-women-long-thick-curly-hair-magic-instant-dry-hair-towel-caps-anti-frizz-fast-drying-microfiber-turban-wet-hair-wrap-towels-quick-drying.html",
+        "at": 1791431731422,
+        "severity": "low",
+        "meta": {
+          "source": "https://m.media-amazon.com"
+        }
+      },
+      {
+        "kind": "requestfailed",
+        "detail": "GET https://m.media-amazon.com/images/S/aplus-media/sc/25825fdc-e11f-4843-a184-36f485e198cd.__CR0,0,300,300_PT0_SX300_V1___.jpg — net::ERR_TUNNEL_CONNECTION_FAILED",
+        "url": "https://m.media-amazon.com/images/S/aplus-media/sc/25825fdc-e11f-4843-a184-36f485e198cd.__CR0,0,300,300_PT0_SX300_V1___.jpg",
+        "at": 1791431731423,
+        "severity": "medium",
+        "meta": {
+          "resourceType": "image"
+        }
+      },
+      {
+        "kind": "console.error",
+        "detail": "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "url": "http://127.0.0.1:7770/xzp-4-pack-larger-thicker-rapid-hair-wrap-towels-drying-women-long-thick-curly-hair-magic-instant-dry-hair-towel-caps-anti-frizz-fast-drying-microfiber-turban-wet-hair-wrap-towels-quick-drying.html",
+        "at": 1791431731423,
+        "severity": "low",
+        "meta": {
+          "source": "https://m.media-amazon.com"
+        }
+      },
+      {
+        "kind": "requestfailed",
+        "detail": "GET https://m.media-amazon.com/images/S/aplus-media-library-service-media/19e8ec71-55d9-4787-b8fd-08c6cb76fa0c.__CR0,0,600,600_PT0_SX300_V1___.jpg — net::ERR_TUNNEL_CONNECTION_FAILED",
+        "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/19e8ec71-55d9-4787-b8fd-08c6cb76fa0c.__CR0,0,600,600_PT0_SX300_V1___.jpg",
+        "at": 1791431731533,
+        "severity": "medium",
+        "meta": {
+          "resourceType": "image"
+        }
+      },
+      {
+        "kind": "console.error",
+        "detail": "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "url": "http://127.0.0.1:7770/xzp-4-pack-larger-thicker-rapid-hair-wrap-towels-drying-women-long-thick-curly-hair-magic-instant-dry-hair-towel-caps-anti-frizz-fast-drying-microfiber-turban-wet-hair-wrap-towels-quick-drying.html",
+        "at": 1791431731533,
+        "severity": "low",
+        "meta": {
+          "source": "https://m.media-amazon.com"
+        }
+      },
+      {
+        "kind": "requestfailed",
+        "detail": "GET https://m.media-amazon.com/images/S/aplus-media-library-service-media/faa5b6f4-d760-4e7f-b561-7d2ff7ea9529.__CR0,0,600,600_PT0_SX300_V1___.jpg — net::ERR_TUNNEL_CONNECTION_FAILED",
+        "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/faa5b6f4-d760-4e7f-b561-7d2ff7ea9529.__CR0,0,600,600_PT0_SX300_V1___.jpg",
+        "at": 1791431731533,
+        "severity": "medium",
+        "meta": {
+          "resourceType": "image"
+        }
+      },
+      {
+        "kind": "console.error",
+        "detail": "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "url": "http://127.0.0.1:7770/xzp-4-pack-larger-thicker-rapid-hair-wrap-towels-drying-women-long-thick-curly-hair-magic-instant-dry-hair-towel-caps-anti-frizz-fast-drying-microfiber-turban-wet-hair-wrap-towels-quick-drying.html",
+        "at": 1791431731533,
+        "severity": "low",
+        "meta": {
+          "source": "https://m.media-amazon.com"
+        }
+      },
+      {
+        "kind": "requestfailed",
+        "detail": "GET https://m.media-amazon.com/images/S/aplus-media-library-service-media/d5cbb33a-a154-4866-bff1-00914f835929.__CR0,0,600,600_PT0_SX300_V1___.jpg — net::ERR_TUNNEL_CONNECTION_FAILED",
+        "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/d5cbb33a-a154-4866-bff1-00914f835929.__CR0,0,600,600_PT0_SX300_V1___.jpg",
+        "at": 1791431731534,
+        "severity": "medium",
+        "meta": {
+          "resourceType": "image"
+        }
+      },
+      {
+        "kind": "console.error",
+        "detail": "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "url": "http://127.0.0.1:7770/xzp-4-pack-larger-thicker-rapid-hair-wrap-towels-drying-women-long-thick-curly-hair-magic-instant-dry-hair-towel-caps-anti-frizz-fast-drying-microfiber-turban-wet-hair-wrap-towels-quick-drying.html",
+        "at": 1791431731534,
+        "severity": "low",
+        "meta": {
+          "source": "https://m.media-amazon.com"
+        }
+      },
+      {
+        "kind": "guardrail",
+        "detail": "skipped form (auth/login form): Subscribe",
+        "url": "http://127.0.0.1:7770/xzp-4-pack-larger-thicker-rapid-hair-wrap-towels-drying-women-long-thick-curly-hair-magic-instant-dry-hair-towel-caps-anti-frizz-fast-drying-microfiber-turban-wet-hair-wrap-towels-quick-drying.html",
+        "at": 1791431734286,
+        "severity": "info"
+      },
+      {
+        "kind": "driver",
+        "detail": "action click failed: locator.click: Timeout 3000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#ui-id-77').first()\u001b[22m\n\u001b[2m    - locator resolved to <a id=\"ui-id-77\" tabindex=\"-1\" role=\"menuitem\" aria-haspopup=\"true\" class=\"level-top ui-menu-item-wrapper\" href=\"http://127.0.0.1:7770/clothing-shoes-jewelry.html\">…</a>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is outside of the viewport\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is outside of the viewport\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    5 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is outside of the viewport\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n",
+        "url": "http://127.0.0.1:7770/xzp-4-pack-larger-thicker-rapid-hair-wrap-towels-drying-women-long-thick-curly-hair-magic-instant-dry-hair-towel-caps-anti-frizz-fast-drying-microfiber-turban-wet-hair-wrap-towels-quick-drying.html",
+        "at": 1791431737597,
+        "severity": "low"
+      },
+      {
+        "kind": "driver",
+        "detail": "action hover failed: locator.hover: Element is outside of the viewport\nCall log:\n\u001b[2m  - waiting for locator('#ui-id-228').first()\u001b[22m\n\u001b[2m    - locator resolved to <a tabindex=\"-1\" id=\"ui-id-228\" role=\"menuitem\" aria-haspopup=\"true\" class=\"level-top ui-menu-item-wrapper\" href=\"http://127.0.0.1:7770/video-games.html\">…</a>\u001b[22m\n\u001b[2m  - attempting hover action\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n",
+        "url": "http://127.0.0.1:7770/xzp-4-pack-larger-thicker-rapid-hair-wrap-towels-drying-women-long-thick-curly-hair-magic-instant-dry-hair-towel-caps-anti-frizz-fast-drying-microfiber-turban-wet-hair-wrap-towels-quick-drying.html",
+        "at": 1791431737842,
+        "severity": "low"
+      },
+      {
+        "kind": "driver",
+        "detail": "action click failed: locator.click: Timeout 3000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#ui-id-136').first()\u001b[22m\n\u001b[2m    - locator resolved to <a tabindex=\"-1\" id=\"ui-id-136\" role=\"menuitem\" aria-haspopup=\"true\" class=\"level-top ui-menu-item-wrapper\" href=\"http://127.0.0.1:7770/tools-home-improvement.html\">…</a>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is outside of the viewport\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is outside of the viewport\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    5 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is outside of the viewport\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n",
+        "url": "http://127.0.0.1:7770/xzp-4-pack-larger-thicker-rapid-hair-wrap-towels-drying-women-long-thick-curly-hair-magic-instant-dry-hair-towel-caps-anti-frizz-fast-drying-microfiber-turban-wet-hair-wrap-towels-quick-drying.html",
+        "at": 1791431742139,
+        "severity": "low"
+      },
+      {
+        "kind": "guardrail",
+        "detail": "skipped form (auth/login form): Subscribe",
+        "url": "http://127.0.0.1:7770/xzp-4-pack-larger-thicker-rapid-hair-wrap-towels-drying-women-long-thick-curly-hair-magic-instant-dry-hair-towel-caps-anti-frizz-fast-drying-microfiber-turban-wet-hair-wrap-towels-quick-drying.html",
+        "at": 1791431744036,
+        "severity": "info"
+      },
+      {
+        "kind": "guardrail",
+        "detail": "skipped form (auth/login form): Add to Wish List",
+        "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care.html?cat=118&product_list_dir=desc",
+        "at": 1791431758892,
+        "severity": "info"
+      },
+      {
+        "kind": "driver",
+        "detail": "action hover failed: locator.hover: Element is outside of the viewport\nCall log:\n\u001b[2m  - waiting for locator('#ui-id-77').first()\u001b[22m\n\u001b[2m    - locator resolved to <a id=\"ui-id-77\" tabindex=\"-1\" role=\"menuitem\" aria-haspopup=\"true\" class=\"level-top ui-menu-item-wrapper\" href=\"http://127.0.0.1:7770/clothing-shoes-jewelry.html\">…</a>\u001b[22m\n\u001b[2m  - attempting hover action\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n",
+        "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care.html?cat=118&product_list_dir=desc",
+        "at": 1791431759755,
+        "severity": "low"
+      },
+      {
+        "kind": "guardrail",
+        "detail": "skipped destructive control (verb:remove): Makeup Remover",
+        "url": "http://127.0.0.1:7770/foqitoxi-sport-mouth-guard-upper-and-lower-brace-teeth-grinding-guard-4-pack-with-storage-case.html",
+        "at": 1791431777160,
+        "severity": "info"
+      },
+      {
+        "kind": "driver",
+        "detail": "action hover failed: locator.hover: Element is not visible\nCall log:\n\u001b[2m  - waiting for locator('body:nth-child(2) > div:nth-child(8) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > nav:nth-child(1) > ul:nth-child(1) > li:nth-child(1) > ul:nth-child(2) > li:nth-child(3) > ul:nth-child(2) > li:nth-child(7) > a:nth-child(1)').first()\u001b[22m\n\u001b[2m    - locator resolved to <a id=\"ui-id-22\" tabindex=\"-1\" role=\"menuitem\" class=\"ui-menu-item-wrapper\" href=\"http://127.0.0.1:7770/beauty-personal-care/skin-care/body.html\">…</a>\u001b[22m\n\u001b[2m  - attempting hover action\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n",
+        "url": "http://127.0.0.1:7770/foqitoxi-sport-mouth-guard-upper-and-lower-brace-teeth-grinding-guard-4-pack-with-storage-case.html",
+        "at": 1791431777196,
+        "severity": "low"
+      },
+      {
+        "kind": "http.4xx",
+        "detail": "403 http://127.0.0.1:7770/sales/guest/form/",
+        "url": "http://127.0.0.1:7770/sales/guest/form/",
+        "at": 1791431778448,
+        "severity": "high",
+        "meta": {
+          "status": 403,
+          "resourceType": "document"
+        }
+      },
+      {
+        "kind": "http.4xx",
+        "detail": "403 http://127.0.0.1:7770/wipply-toothbrush-box-outdoor-home-portable-cartoon-wash-cup-towel-toothbrush-toothpaste-storage-box-towel-toothbrush-holder-case-outdoor-travel-camping-toothpaste-multi-cap-storage-case-bathroom-tumb.html?options=cart",
+        "url": "http://127.0.0.1:7770/wipply-toothbrush-box-outdoor-home-portable-cartoon-wash-cup-towel-toothbrush-toothpaste-storage-box-towel-toothbrush-holder-case-outdoor-travel-camping-toothpaste-multi-cap-storage-case-bathroom-tumb.html?options=cart",
+        "at": 1791431841032,
+        "severity": "medium",
+        "meta": {
+          "status": 403,
+          "resourceType": "xhr"
+        }
+      },
+      {
+        "kind": "driver",
+        "detail": "action key failed: locator.press: Timeout 3000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('body:nth-child(2) > div:nth-child(11) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > nav:nth-child(1) > ul:nth-child(1) > li:nth-child(12) > ul:nth-child(2) > li:nth-child(1) > a:nth-child(1)').first()\u001b[22m\n",
+        "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/toothbrushes-accessories.html",
+        "at": 1791431847747,
+        "severity": "low"
+      },
+      {
+        "kind": "http.4xx",
+        "detail": "403 http://127.0.0.1:7770/checkout/cart/add/uenc/aHR0cDovLzEyNy4wLjAuMTo3NzcwL2JlYXV0eS1wZXJzb25hbC1jYXJlL29yYWwtY2FyZS90b290aGJydXNoZXMtYWNjZXNzb3JpZXMuaHRtbA~~/product/6795/",
+        "url": "http://127.0.0.1:7770/checkout/cart/add/uenc/aHR0cDovLzEyNy4wLjAuMTo3NzcwL2JlYXV0eS1wZXJzb25hbC1jYXJlL29yYWwtY2FyZS90b290aGJydXNoZXMtYWNjZXNzb3JpZXMuaHRtbA~~/product/6795/",
+        "at": 1791431848023,
+        "severity": "medium",
+        "meta": {
+          "status": 403,
+          "resourceType": "xhr"
+        }
+      },
+      {
+        "kind": "driver",
+        "detail": "action click failed: locator.click: Timeout 3000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('body:nth-child(2) > div:nth-child(8) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > nav:nth-child(1) > ul:nth-child(1) > li:nth-child(11) > ul:nth-child(2) > li:nth-child(3) > ul:nth-child(2) > li:nth-child(2) > a:nth-child(1)').first()\u001b[22m\n\u001b[2m    - locator resolved to <a tabindex=\"-1\" id=\"ui-id-233\" role=\"menuitem\" class=\"ui-menu-item-wrapper\" href=\"http://127.0.0.1:7770/video-games/pc/virtual-reality.html\">…</a>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    5 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n",
+        "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/toothbrushes-accessories.html",
+        "at": 1791431855106,
+        "severity": "low"
+      },
+      {
+        "kind": "driver",
+        "detail": "action click failed: locator.click: Timeout 3000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('body:nth-child(2) > div:nth-child(8) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > nav:nth-child(1) > ul:nth-child(1) > li:nth-child(1) > ul:nth-child(2) > li:nth-child(5) > ul:nth-child(2) > li:nth-child(2) > a:nth-child(1)').first()\u001b[22m\n\u001b[2m    - locator resolved to <a id=\"ui-id-33\" tabindex=\"-1\" role=\"menuitem\" class=\"ui-menu-item-wrapper\" href=\"http://127.0.0.1:7770/beauty-personal-care/foot-hand-nail-care/nail-art-polish.html\">…</a>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    5 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n",
+        "url": "http://127.0.0.1:7770/colgate-slimsoft-floss-tip-charcoal-toothbrush-pack-of-6.html",
+        "at": 1791431863047,
+        "severity": "low"
+      },
+      {
+        "kind": "http.4xx",
+        "detail": "403 http://127.0.0.1:7770/checkout/cart/add/uenc/aHR0cDovLzEyNy4wLjAuMTo3NzcwL2NvbGdhdGUtc2xpbXNvZnQtZmxvc3MtdGlwLWNoYXJjb2FsLXRvb3RoYnJ1c2gtcGFjay1vZi02Lmh0bWw~/product/6617/",
+        "url": "http://127.0.0.1:7770/checkout/cart/add/uenc/aHR0cDovLzEyNy4wLjAuMTo3NzcwL2NvbGdhdGUtc2xpbXNvZnQtZmxvc3MtdGlwLWNoYXJjb2FsLXRvb3RoYnJ1c2gtcGFjay1vZi02Lmh0bWw~/product/6617/",
+        "at": 1791431864649,
+        "severity": "medium",
+        "meta": {
+          "status": 403,
+          "resourceType": "xhr"
+        }
+      },
+      {
+        "kind": "http.4xx",
+        "detail": "403 http://127.0.0.1:7770/checkout/cart/add/uenc/aHR0cDovLzEyNy4wLjAuMTo3NzcwL2NvbGdhdGUtc2xpbXNvZnQtZmxvc3MtdGlwLWNoYXJjb2FsLXRvb3RoYnJ1c2gtcGFjay1vZi02Lmh0bWw~/product/6617/",
+        "url": "http://127.0.0.1:7770/checkout/cart/add/uenc/aHR0cDovLzEyNy4wLjAuMTo3NzcwL2NvbGdhdGUtc2xpbXNvZnQtZmxvc3MtdGlwLWNoYXJjb2FsLXRvb3RoYnJ1c2gtcGFjay1vZi02Lmh0bWw~/product/6617/",
+        "at": 1791431868764,
+        "severity": "medium",
+        "meta": {
+          "status": 403,
+          "resourceType": "xhr"
+        }
+      },
+      {
+        "kind": "http.4xx",
+        "detail": "403 http://127.0.0.1:7770/review/product/listAjax/id/6617/",
+        "url": "http://127.0.0.1:7770/review/product/listAjax/id/6617/",
+        "at": 1791431872302,
+        "severity": "medium",
+        "meta": {
+          "status": 403,
+          "resourceType": "xhr"
+        }
+      },
+      {
+        "kind": "http.4xx",
+        "detail": "403 http://127.0.0.1:7770/wishlist/index/add/",
+        "url": "http://127.0.0.1:7770/wishlist/index/add/",
+        "at": 1791431877437,
+        "severity": "high",
+        "meta": {
+          "status": 403,
+          "resourceType": "document"
+        }
+      },
+      {
+        "kind": "http.4xx",
+        "detail": "403 http://127.0.0.1:7770/checkout/cart/add/uenc/aHR0cDovLzEyNy4wLjAuMTo3NzcwL2JlYXV0eS1wZXJzb25hbC1jYXJlL29yYWwtY2FyZS9kZW50YWwtZmxvc3MtcGlja3MuaHRtbA~~/product/6923/",
+        "url": "http://127.0.0.1:7770/checkout/cart/add/uenc/aHR0cDovLzEyNy4wLjAuMTo3NzcwL2JlYXV0eS1wZXJzb25hbC1jYXJlL29yYWwtY2FyZS9kZW50YWwtZmxvc3MtcGlja3MuaHRtbA~~/product/6923/",
+        "at": 1791431955667,
+        "severity": "medium",
+        "meta": {
+          "status": 403,
+          "resourceType": "xhr"
+        }
+      },
+      {
+        "kind": "driver",
+        "detail": "action click failed: locator.click: Timeout 3000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('body:nth-child(2) > div:nth-child(8) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > a:nth-child(1)').first()\u001b[22m\n\u001b[2m    - locator resolved to <a href=\"#store.menu\" data-toggle=\"switch\" class=\"nav-sections-item-switch\">↵                        Menu                    </a>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is outside of the viewport\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is outside of the viewport\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    4 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is outside of the viewport\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n",
+        "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/dental-floss-picks.html",
+        "at": 1791431961479,
+        "severity": "low"
+      },
+      {
+        "kind": "pageerror",
+        "detail": "Cannot read properties of undefined (reading 'closest')\nTypeError: Cannot read properties of undefined (reading 'closest')\n    at $.<computed>.<computed>._keydown (http://127.0.0.1:7770/static/version1681826198/frontend/Magento/blank/en_US/mage/menu.js:249:29)\n    at $.<computed>.<computed>._keydown (http://127.0.0.1:7770/static/version1681826198/frontend/Magento/blank/en_US/jquery/ui-modules/widget.js:132:25)\n    at HTMLUListElement.handlerProxy (http://127.0.0.1:7770/static/version1681826198/frontend/Magento/blank/en_US/jquery/ui-modules/widget.js:615:7)\n    at HTMLUListElement.dispatch (http://127.0.0.1:7770/static/version1681826198/frontend/Magento/blank/en_US/jquery.js:5430:49)\n    at elemData.handle (http://127.0.0.1:7770/static/version1681826198/frontend/Magento/blank/en_US/jquery.js:5234:47)",
+        "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/dental-floss-picks.html",
+        "at": 1791431961807,
+        "severity": "high"
+      },
+      {
+        "kind": "driver",
+        "detail": "action hover failed: locator.hover: Element is outside of the viewport\nCall log:\n\u001b[2m  - waiting for locator('#ui-id-1').first()\u001b[22m\n\u001b[2m    - locator resolved to <ul role=\"menu\" id=\"ui-id-1\" tabindex=\"0\" class=\"ui-menu ui-widget ui-widget-content\">…</ul>\u001b[22m\n\u001b[2m  - attempting hover action\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n",
+        "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/dental-floss-picks.html?p=4",
+        "at": 1791431967065,
+        "severity": "low"
+      },
+      {
+        "kind": "driver",
+        "detail": "action click failed: locator.click: Timeout 3000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#ui-id-228').first()\u001b[22m\n\u001b[2m    - locator resolved to <a tabindex=\"-1\" id=\"ui-id-228\" role=\"menuitem\" aria-haspopup=\"true\" class=\"level-top ui-menu-item-wrapper\" href=\"http://127.0.0.1:7770/video-games.html\">…</a>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is outside of the viewport\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is outside of the viewport\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    5 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is outside of the viewport\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n",
+        "url": "http://127.0.0.1:7770/dental-floss-fresh-up-mint-50-m-per-pack-pack-of-4.html",
+        "at": 1791431975517,
+        "severity": "low"
+      },
+      {
+        "kind": "driver",
+        "detail": "action click failed: locator.click: Timeout 3000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('body:nth-child(2) > div:nth-child(8) > header:nth-child(1) > div:nth-child(1) > div:nth-child(1) > a:nth-child(2)').first()\u001b[22m\n\u001b[2m    - locator resolved to <a href=\"#contentarea\" class=\"action skip contentarea\">…</a>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is outside of the viewport\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is outside of the viewport\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    5 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is outside of the viewport\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n",
+        "url": "http://127.0.0.1:7770/50pcs-bag-disposable-plastic-elastic-placers-dental-elastic-rubber-band-dental-orthodontic-product-multi-color.html",
+        "at": 1791431993925,
+        "severity": "low"
+      },
+      {
+        "kind": "driver",
+        "detail": "action click failed: locator.click: Timeout 3000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#ui-id-241').first()\u001b[22m\n\u001b[2m    - locator resolved to <a tabindex=\"-1\" id=\"ui-id-241\" role=\"menuitem\" aria-haspopup=\"true\" class=\"level-top ui-menu-item-wrapper\" href=\"http://127.0.0.1:7770/grocery-gourmet-food.html\">…</a>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is outside of the viewport\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is outside of the viewport\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    5 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is outside of the viewport\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n",
+        "url": "http://127.0.0.1:7770/50pcs-bag-disposable-plastic-elastic-placers-dental-elastic-rubber-band-dental-orthodontic-product-multi-color.html",
+        "at": 1791431997806,
+        "severity": "low"
+      },
+      {
+        "kind": "http.4xx",
+        "detail": "403 http://127.0.0.1:7770/contact/",
+        "url": "http://127.0.0.1:7770/contact/",
+        "at": 1791431998407,
+        "severity": "high",
+        "meta": {
+          "status": 403,
+          "resourceType": "document"
+        }
+      },
+      {
+        "kind": "http.4xx",
+        "detail": "403 http://127.0.0.1:7770/review/product/listAjax/id/7301/",
+        "url": "http://127.0.0.1:7770/review/product/listAjax/id/7301/",
+        "at": 1791432081528,
+        "severity": "medium",
+        "meta": {
+          "status": 403,
+          "resourceType": "xhr"
+        }
+      },
+      {
+        "kind": "console.error",
+        "detail": "Unable to preventDefault inside passive event listener invocation.",
+        "url": "http://127.0.0.1:7770/3-sets-dental-mouth-prop-tongue-guard-right-left-134-bite-block-adult-children-kids.html",
+        "at": 1791432083145,
+        "severity": "high"
+      },
+      {
+        "kind": "driver",
+        "detail": "action click failed: locator.click: Timeout 3000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#nickname_field').first()\u001b[22m\n\u001b[2m    - locator resolved to <input type=\"text\" name=\"nickname\" class=\"input-text\" id=\"nickname_field\" aria-required=\"true\" data-bind=\"value: nickname()\" data-validate=\"{required:true}\"/>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n\u001b[2m    - <img alt=\"Image\" aria-hidden=\"false\" class=\"fotorama__img--full\" src=\"http://127.0.0.1:7770/media/catalog/product/cache/74cdeb509b6b4eb890697855eecec1ad/B/0/B07X5G6KX9.1.jpg\"/> from <div data-gallery-role=\"gallery\" class=\"fotorama-item fotorama fotorama1791432079590 fotorama--fullscreen\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m  - retrying click action\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n\u001b[2m    - <div class=\"fotorama__nav fotorama__nav--dots\">…</div> from <div data-gallery-role=\"gallery\" class=\"fotorama-item fotorama fotorama1791432079590 fotorama--fullscreen\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m  - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n\u001b[2m    - <img alt=\"Image\" aria-hidden=\"false\" class=\"fotorama__img--full\" src=\"http://127.0.0.1:7770/media/catalog/product/cache/74cdeb509b6b4eb890697855eecec1ad/B/0/B07X5G6KX9.1.jpg\"/> from <div data-gallery-role=\"gallery\" class=\"fotorama-item fotorama fotorama1791432079590 fotorama--fullscreen\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m  2 × retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m      - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <div data-active=\"true\" aria-hidden=\"false\" href=\"http://127.0.0.1:7770/media/catalog/product/cache/74cdeb509b6b4eb890697855eecec1ad/B/0/B07X5G6KX9.1.jpg\" class=\"fotorama__stage__frame fotorama__loaded fotorama__loaded--img magnify-wheel-loaded fotorama__fade-rear fotorama__active fotorama_horizontal_ratio fotorama__loaded--full\">…</div> from <div data-gallery-role=\"gallery\" class=\"fotorama-item fotorama fotorama1791432079590 fotorama--fullscreen\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m  - retrying click action\u001b[22m\n\u001b[2m    - waiting 500ms\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n\u001b[2m    - <div class=\"fotorama__nav fotorama__nav--dots\">…</div> from <div data-gallery-role=\"gallery\" class=\"fotorama-item fotorama fotorama1791432079590 fotorama--fullscreen\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m  - retrying click action\u001b[22m\n\u001b[2m    - waiting 500ms\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n\u001b[2m    - <img alt=\"Image\" aria-hidden=\"false\" class=\"fotorama__img--full\" src=\"http://127.0.0.1:7770/media/catalog/product/cache/74cdeb509b6b4eb890697855eecec1ad/B/0/B07X5G6KX9.1.jpg\"/> from <div data-gallery-role=\"gallery\" class=\"fotorama-item fotorama fotorama1791432079590 fotorama--fullscreen\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m  2 × retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n\u001b[2m      - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <div data-active=\"true\" aria-hidden=\"false\" href=\"http://127.0.0.1:7770/media/catalog/product/cache/74cdeb509b6b4eb890697855eecec1ad/B/0/B07X5G6KX9.1.jpg\" class=\"fotorama__stage__frame fotorama__loaded fotorama__loaded--img magnify-wheel-loaded fotorama__fade-rear fotorama__active fotorama_horizontal_ratio fotorama__loaded--full\">…</div> from <div data-gallery-role=\"gallery\" class=\"fotorama-item fotorama fotorama1791432079590 fotorama--fullscreen\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m  - retrying click action\u001b[22m\n\u001b[2m    - waiting 500ms\u001b[22m\n",
+        "url": "http://127.0.0.1:7770/3-sets-dental-mouth-prop-tongue-guard-right-left-134-bite-block-adult-children-kids.html",
+        "at": 1791432086489,
+        "severity": "low"
+      },
+      {
+        "kind": "driver",
+        "detail": "action hover failed: locator.hover: Element is outside of the viewport\nCall log:\n\u001b[2m  - waiting for locator('body:nth-child(2) > div:nth-child(8) > div:nth-child(2) > div:nth-child(1) > div:nth-child(3) > a:nth-child(1)').first()\u001b[22m\n\u001b[2m    - locator resolved to <a href=\"#store.links\" data-toggle=\"switch\" class=\"nav-sections-item-switch\">↵                        Account                 …</a>\u001b[22m\n\u001b[2m  - attempting hover action\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n",
+        "url": "http://127.0.0.1:7770/3-sets-dental-mouth-prop-tongue-guard-right-left-134-bite-block-adult-children-kids.html",
+        "at": 1791432087004,
+        "severity": "low"
+      },
+      {
+        "kind": "driver",
+        "detail": "action click failed: locator.click: Timeout 3000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#ui-id-228').first()\u001b[22m\n\u001b[2m    - locator resolved to <a tabindex=\"-1\" id=\"ui-id-228\" role=\"menuitem\" aria-haspopup=\"true\" class=\"level-top ui-menu-item-wrapper\" href=\"http://127.0.0.1:7770/video-games.html\">…</a>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is outside of the viewport\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is outside of the viewport\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    5 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is outside of the viewport\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n",
+        "url": "http://127.0.0.1:7770/3-sets-dental-mouth-prop-tongue-guard-right-left-134-bite-block-adult-children-kids.html",
+        "at": 1791432090273,
+        "severity": "low"
+      },
+      {
+        "kind": "driver",
+        "detail": "action click failed: locator.click: Timeout 3000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('body:nth-child(2) > div:nth-child(8) > footer:nth-child(5) > div:nth-child(1) > ul:nth-child(2) > li:nth-child(1) > a:nth-child(1)').first()\u001b[22m\n\u001b[2m    - locator resolved to <a href=\"http://127.0.0.1:7770/privacy-policy-cookie-restriction-mode/\">Privacy and Cookie Policy</a>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n\u001b[2m    - <div data-active=\"true\" aria-hidden=\"false\" href=\"http://127.0.0.1:7770/media/catalog/product/cache/74cdeb509b6b4eb890697855eecec1ad/B/0/B07X5G6KX9.1.jpg\" class=\"fotorama__stage__frame fotorama__loaded fotorama__loaded--img magnify-wheel-loaded fotorama__fade-rear fotorama__active fotorama_horizontal_ratio fotorama__loaded--full\">…</div> from <div data-gallery-role=\"gallery\" class=\"fotorama-item fotorama fotorama1791432079590 fotorama--fullscreen\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m  - retrying click action\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n\u001b[2m    - <div class=\"fotorama__nav fotorama__nav--dots\">…</div> from <div data-gallery-role=\"gallery\" class=\"fotorama-item fotorama fotorama1791432079590 fotorama--fullscreen\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m  - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <div data-active=\"true\" aria-hidden=\"false\" href=\"http://127.0.0.1:7770/media/catalog/product/cache/74cdeb509b6b4eb890697855eecec1ad/B/0/B07X5G6KX9.1.jpg\" class=\"fotorama__stage__frame fotorama__loaded fotorama__loaded--img magnify-wheel-loaded fotorama__fade-rear fotorama__active fotorama_horizontal_ratio fotorama__loaded--full\">…</div> from <div data-gallery-role=\"gallery\" class=\"fotorama-item fotorama fotorama1791432079590 fotorama--fullscreen\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n\u001b[2m    - <div data-active=\"true\" aria-hidden=\"false\" href=\"http://127.0.0.1:7770/media/catalog/product/cache/74cdeb509b6b4eb890697855eecec1ad/B/0/B07X5G6KX9.1.jpg\" class=\"fotorama__stage__frame fotorama__loaded fotorama__loaded--img magnify-wheel-loaded fotorama__fade-rear fotorama__active fotorama_horizontal_ratio fotorama__loaded--full\">…</div> from <div data-gallery-role=\"gallery\" class=\"fotorama-item fotorama fotorama1791432079590 fotorama--fullscreen\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m  - retrying click action\u001b[22m\n\u001b[2m    - waiting 500ms\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n\u001b[2m    - <div class=\"fotorama__nav fotorama__nav--dots\">…</div> from <div data-gallery-role=\"gallery\" class=\"fotorama-item fotorama fotorama1791432079590 fotorama--fullscreen\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m  3 × retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n\u001b[2m      - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <div data-active=\"true\" aria-hidden=\"false\" href=\"http://127.0.0.1:7770/media/catalog/product/cache/74cdeb509b6b4eb890697855eecec1ad/B/0/B07X5G6KX9.1.jpg\" class=\"fotorama__stage__frame fotorama__loaded fotorama__loaded--img magnify-wheel-loaded fotorama__fade-rear fotorama__active fotorama_horizontal_ratio fotorama__loaded--full\">…</div> from <div data-gallery-role=\"gallery\" class=\"fotorama-item fotorama fotorama1791432079590 fotorama--fullscreen\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m  - retrying click action\u001b[22m\n\u001b[2m    - waiting 500ms\u001b[22m\n",
+        "url": "http://127.0.0.1:7770/3-sets-dental-mouth-prop-tongue-guard-right-left-134-bite-block-adult-children-kids.html",
+        "at": 1791432093513,
+        "severity": "low"
+      },
+      {
+        "kind": "console.error",
+        "detail": "Unable to preventDefault inside passive event listener invocation.",
+        "url": "http://127.0.0.1:7770/3-sets-dental-mouth-prop-tongue-guard-right-left-134-bite-block-adult-children-kids.html",
+        "at": 1791432093756,
+        "severity": "high"
+      },
+      {
+        "kind": "driver",
+        "detail": "action dblclick failed: locator.dblclick: Timeout 3000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('body:nth-child(2) > div:nth-child(8) > footer:nth-child(5) > div:nth-child(1) > ul:nth-child(2) > li:nth-child(4) > a:nth-child(1)').first()\u001b[22m\n\u001b[2m    - locator resolved to <a href=\"http://127.0.0.1:7770/sales/guest/form/\">Orders and Returns</a>\u001b[22m\n\u001b[2m  - attempting dblclick action\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n\u001b[2m    - <div data-active=\"true\" aria-hidden=\"false\" href=\"http://127.0.0.1:7770/media/catalog/product/cache/74cdeb509b6b4eb890697855eecec1ad/B/0/B07X5G6KX9.1.jpg\" class=\"fotorama__stage__frame fotorama__loaded fotorama__loaded--img magnify-wheel-loaded fotorama__fade-rear fotorama__active fotorama_horizontal_ratio fotorama__loaded--full\">…</div> from <div data-gallery-role=\"gallery\" class=\"fotorama-item fotorama fotorama1791432079590 fotorama--fullscreen\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m  - retrying dblclick action\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n\u001b[2m    - <div class=\"fotorama__nav fotorama__nav--dots\">…</div> from <div data-gallery-role=\"gallery\" class=\"fotorama-item fotorama fotorama1791432079590 fotorama--fullscreen\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m  - retrying dblclick action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <div data-active=\"true\" aria-hidden=\"false\" href=\"http://127.0.0.1:7770/media/catalog/product/cache/74cdeb509b6b4eb890697855eecec1ad/B/0/B07X5G6KX9.1.jpg\" class=\"fotorama__stage__frame fotorama__loaded fotorama__loaded--img magnify-wheel-loaded fotorama__fade-rear fotorama__active fotorama_horizontal_ratio fotorama__loaded--full\">…</div> from <div data-gallery-role=\"gallery\" class=\"fotorama-item fotorama fotorama1791432079590 fotorama--fullscreen\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying dblclick action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n\u001b[2m    - <div data-active=\"true\" aria-hidden=\"false\" href=\"http://127.0.0.1:7770/media/catalog/product/cache/74cdeb509b6b4eb890697855eecec1ad/B/0/B07X5G6KX9.1.jpg\" class=\"fotorama__stage__frame fotorama__loaded fotorama__loaded--img magnify-wheel-loaded fotorama__fade-rear fotorama__active fotorama_horizontal_ratio fotorama__loaded--full\">…</div> from <div data-gallery-role=\"gallery\" class=\"fotorama-item fotorama fotorama1791432079590 fotorama--fullscreen\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m  - retrying dblclick action\u001b[22m\n\u001b[2m    - waiting 500ms\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n\u001b[2m    - <div class=\"fotorama__nav fotorama__nav--dots\">…</div> from <div data-gallery-role=\"gallery\" class=\"fotorama-item fotorama fotorama1791432079590 fotorama--fullscreen\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m  3 × retrying dblclick action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n\u001b[2m      - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <div data-active=\"true\" aria-hidden=\"false\" href=\"http://127.0.0.1:7770/media/catalog/product/cache/74cdeb509b6b4eb890697855eecec1ad/B/0/B07X5G6KX9.1.jpg\" class=\"fotorama__stage__frame fotorama__loaded fotorama__loaded--img magnify-wheel-loaded fotorama__fade-rear fotorama__active fotorama_horizontal_ratio fotorama__loaded--full\">…</div> from <div data-gallery-role=\"gallery\" class=\"fotorama-item fotorama fotorama1791432079590 fotorama--fullscreen\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m  - retrying dblclick action\u001b[22m\n\u001b[2m    - waiting 500ms\u001b[22m\n",
+        "url": "http://127.0.0.1:7770/3-sets-dental-mouth-prop-tongue-guard-right-left-134-bite-block-adult-children-kids.html",
+        "at": 1791432097259,
+        "severity": "low"
+      }
+    ]
+  },
+  "reason": "budget exhausted"
+}

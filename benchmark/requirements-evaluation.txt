@@ -1,0 +1,2 @@
+jsonschema==4.26.0
+paramiko==5.0.0

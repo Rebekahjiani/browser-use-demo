@@ -1,0 +1,20 @@
+{
+  "segments": [
+    {
+      "segmentId": "f8560c70-0d30-4e6f-9dad-b9da4d7c4e80",
+      "segmentIndex": 0,
+      "startedAt": 1791428667924,
+      "stoppedAt": 1791428677193,
+      "durationMs": 9269,
+      "eventCount": 8725,
+      "filePath": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\smoke-v02\\01-drive\\trace\\26_10_08_11_04_27-min\\trace.segment.000001.jsonl",
+      "status": "completed"
+    }
+  ],
+  "totalDurationMs": 9269,
+  "totalEventCount": 8725,
+  "startedAt": 1791428667924,
+  "stoppedAt": 1791428677193,
+  "dataLossOccurred": false,
+  "maxSwitchGapMs": 0
+}

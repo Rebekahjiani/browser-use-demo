@@ -1,0 +1,533 @@
+[
+  {
+    "trace": "01-drive",
+    "combination": "aqi",
+    "records": [
+      {
+        "kind": "process.json",
+        "data": {
+          "elapsed_s": 601.8458421230316,
+          "model": "sophnet/DeepSeek-V4-Flash-0731",
+          "run_id": "run_20261008_060205_9374",
+          "outputs": 23,
+          "pages": 23
+        }
+      },
+      {
+        "kind": "at_original_status",
+        "data": {
+          "id": "run_20261008_060205_9374",
+          "status": "completed"
+        }
+      }
+    ]
+  },
+  {
+    "trace": "01-drive",
+    "combination": "claudecode",
+    "records": [
+      {
+        "kind": "process.json",
+        "data": {
+          "exit_code": 0,
+          "elapsed_s": 2112.0320053100586,
+          "model": "sophnet/DeepSeek-V4-Flash-0731",
+          "outputs": 23,
+          "pages": 23
+        }
+      }
+    ]
+  },
+  {
+    "trace": "01-browser-use",
+    "combination": "aqi",
+    "records": [
+      {
+        "kind": "process.json",
+        "data": {
+          "elapsed_s": 376.6945900917053,
+          "model": "sophnet/DeepSeek-V4-Flash-0731",
+          "run_id": "run_20261008_064722_1ba5",
+          "outputs": 10,
+          "pages": 12
+        }
+      },
+      {
+        "kind": "at_original_status",
+        "data": {
+          "id": "run_20261008_064722_1ba5",
+          "status": "failed"
+        }
+      },
+      {
+        "kind": "attempt",
+        "data": {
+          "trace": "01-browser-use",
+          "combination": "aqi",
+          "directory": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\b-runs\\controlled-v02\\01-browser-use\\aqi\\attempt-20261008-154322",
+          "selected_pages": [
+            "010_state",
+            "011_state"
+          ],
+          "previous_outputs": {
+            "C:\\Users\\bulin\\artifacttrace\\templates\\at-template\\tasks\\benchmark-20261008-b-01-browser-use\\aqi\\entity-extract\\000_state\\output\\concepts.json": "b2aa064830d1193e88399d02c145a601152f68279e2c9ecf0bd389d861dbe5dd",
+            "C:\\Users\\bulin\\artifacttrace\\templates\\at-template\\tasks\\benchmark-20261008-b-01-browser-use\\aqi\\entity-extract\\001_state\\output\\concepts.json": "e29cd998e0c2c3b7e4a22474d2b09b9d02894a3caf382d80100775444da64f55",
+            "C:\\Users\\bulin\\artifacttrace\\templates\\at-template\\tasks\\benchmark-20261008-b-01-browser-use\\aqi\\entity-extract\\002_state\\output\\concepts.json": "1909c88f653a793cd541a0fa4f6bf031271505eeed1d57790460d35c81b339b7",
+            "C:\\Users\\bulin\\artifacttrace\\templates\\at-template\\tasks\\benchmark-20261008-b-01-browser-use\\aqi\\entity-extract\\003_state\\output\\concepts.json": "2285a4727fd423a86a28f3f2254efdc595b8b538ab0abbee224a3a6e7d23e2e1",
+            "C:\\Users\\bulin\\artifacttrace\\templates\\at-template\\tasks\\benchmark-20261008-b-01-browser-use\\aqi\\entity-extract\\004_state\\output\\concepts.json": "6ac29dc58640ca3c140635422975276b9eff254e3d0568ae9475a332f6554728",
+            "C:\\Users\\bulin\\artifacttrace\\templates\\at-template\\tasks\\benchmark-20261008-b-01-browser-use\\aqi\\entity-extract\\005_state\\output\\concepts.json": "172741da6f44534c2b40d42491098cf4f3c399abedcced11ce1d1ca19adfa4d5",
+            "C:\\Users\\bulin\\artifacttrace\\templates\\at-template\\tasks\\benchmark-20261008-b-01-browser-use\\aqi\\entity-extract\\006_state\\output\\concepts.json": "98219d12ccd53255e388d7f9e0cf5acc9d362531574ce4412c26820c0cdc8067",
+            "C:\\Users\\bulin\\artifacttrace\\templates\\at-template\\tasks\\benchmark-20261008-b-01-browser-use\\aqi\\entity-extract\\007_state\\output\\concepts.json": "d5409e077e180dd2af772693dab075c46467134b6c05f988c6c2aab6853bffa5",
+            "C:\\Users\\bulin\\artifacttrace\\templates\\at-template\\tasks\\benchmark-20261008-b-01-browser-use\\aqi\\entity-extract\\008_state\\output\\concepts.json": "fd8e8b5fa09717925844d87dab52fb4127e9828d36a8805ca260605ad0c4ca83",
+            "C:\\Users\\bulin\\artifacttrace\\templates\\at-template\\tasks\\benchmark-20261008-b-01-browser-use\\aqi\\entity-extract\\009_state\\output\\concepts.json": "6a70bf8f8355cbfd5c5142b387c122ea01d47d7bb2981e9cde4a1f3a14e22599"
+          },
+          "started_at": "2026-10-08T07:43:22.842806+00:00",
+          "status": "completed",
+          "remaining_pages": [],
+          "ended_at": "2026-10-08T07:45:04.752318+00:00"
+        },
+        "process.json": {
+          "elapsed_s": 101.8835666179657,
+          "model": "sophnet/DeepSeek-V4-Flash-0731",
+          "run_id": "run_20261008_074323_7511",
+          "status": "completed",
+          "outputs": 12,
+          "pages": 12
+        },
+        "at_status": {
+          "id": "run_20261008_074323_7511",
+          "status": "completed"
+        }
+      }
+    ]
+  },
+  {
+    "trace": "01-browser-use",
+    "combination": "claudecode",
+    "records": [
+      {
+        "kind": "process.json",
+        "data": {
+          "exit_code": 0,
+          "elapsed_s": 1020.5322473049164,
+          "model": "sophnet/DeepSeek-V4-Flash-0731",
+          "outputs": 12,
+          "pages": 12
+        }
+      }
+    ]
+  },
+  {
+    "trace": "02-drive",
+    "combination": "aqi",
+    "records": [
+      {
+        "kind": "process.json",
+        "data": {
+          "elapsed_s": 756.3360342979431,
+          "model": "sophnet/DeepSeek-V4-Flash-0731",
+          "run_id": "run_20261008_071040_5151",
+          "outputs": 31,
+          "pages": 31
+        }
+      },
+      {
+        "kind": "at_original_status",
+        "data": {
+          "id": "run_20261008_071040_5151",
+          "status": "completed"
+        }
+      }
+    ]
+  },
+  {
+    "trace": "02-drive",
+    "combination": "claudecode",
+    "records": [
+      {
+        "kind": "interruption.json",
+        "data": {
+          "reason": "No logs or page outputs for over ten minutes; gateway smoke passed in 4.6 seconds; interrupted for recorded retry with stdin closed and idle watchdog",
+          "interrupted_at": "2026-10-08T15:37:05.1433776+08:00",
+          "pid": 19356,
+          "runner_pid": 33512
+        }
+      },
+      {
+        "kind": "attempt",
+        "data": {
+          "trace": "02-drive",
+          "combination": "claudecode",
+          "directory": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\b-runs\\controlled-v02\\02-drive\\claudecode\\attempt-20261008-154504",
+          "selected_pages": [
+            "000_state",
+            "001_state",
+            "002_state",
+            "003_state",
+            "004_state",
+            "005_state",
+            "006_state",
+            "007_state",
+            "008_state",
+            "009_state",
+            "010_state",
+            "011_state",
+            "012_state",
+            "013_state",
+            "014_state",
+            "015_state",
+            "016_state",
+            "017_state",
+            "018_state",
+            "019_state",
+            "020_state",
+            "021_state",
+            "022_state",
+            "023_state",
+            "024_state",
+            "025_state",
+            "026_state",
+            "027_state",
+            "028_state",
+            "029_state",
+            "030_state"
+          ],
+          "previous_outputs": {},
+          "started_at": "2026-10-08T07:45:04.800537+00:00"
+        },
+        "interruption.json": {
+          "reason": "Repeated bulk preloading and context compaction without any page output; restart with explicit write-before-next-page protocol",
+          "runner_pid": 888,
+          "pid": 8844,
+          "interrupted_at": "2026-10-08T15:59:18.4387201+08:00"
+        }
+      },
+      {
+        "kind": "attempt",
+        "data": {
+          "trace": "02-drive",
+          "combination": "claudecode",
+          "directory": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\b-runs\\controlled-v02\\02-drive\\claudecode\\attempt-20261008-155919",
+          "selected_pages": [
+            "000_state",
+            "001_state",
+            "002_state",
+            "003_state",
+            "004_state",
+            "005_state",
+            "006_state",
+            "007_state",
+            "008_state",
+            "009_state",
+            "010_state",
+            "011_state",
+            "012_state",
+            "013_state",
+            "014_state",
+            "015_state",
+            "016_state",
+            "017_state",
+            "018_state",
+            "019_state",
+            "020_state",
+            "021_state",
+            "022_state",
+            "023_state",
+            "024_state",
+            "025_state",
+            "026_state",
+            "027_state",
+            "028_state",
+            "029_state",
+            "030_state"
+          ],
+          "previous_outputs": {},
+          "started_at": "2026-10-08T07:59:19.154256+00:00",
+          "status": "completed",
+          "remaining_pages": [],
+          "ended_at": "2026-10-08T08:14:33.959943+00:00"
+        },
+        "process.json": {
+          "exit_code": 0,
+          "elapsed_s": 914.5025341510773,
+          "model": "sophnet/DeepSeek-V4-Flash-0731",
+          "outputs": 31,
+          "pages": 31
+        }
+      }
+    ]
+  },
+  {
+    "trace": "02-browser-use",
+    "combination": "aqi",
+    "records": [
+      {
+        "kind": "attempt",
+        "data": {
+          "trace": "02-browser-use",
+          "combination": "aqi",
+          "directory": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\b-runs\\controlled-v02\\02-browser-use\\aqi\\attempt-20261008-161434",
+          "selected_pages": [
+            "000_state",
+            "001_state",
+            "002_state",
+            "003_state",
+            "004_state",
+            "005_state",
+            "006_state",
+            "007_state"
+          ],
+          "previous_outputs": {},
+          "started_at": "2026-10-08T08:14:34.062477+00:00",
+          "status": "completed",
+          "remaining_pages": [],
+          "ended_at": "2026-10-08T08:17:21.129927+00:00"
+        },
+        "process.json": {
+          "elapsed_s": 167.03052234649658,
+          "model": "sophnet/DeepSeek-V4-Flash-0731",
+          "run_id": "run_20261008_081434_f298",
+          "status": "completed",
+          "outputs": 8,
+          "pages": 8
+        },
+        "at_status": {
+          "id": "run_20261008_081434_f298",
+          "status": "completed"
+        }
+      }
+    ]
+  },
+  {
+    "trace": "02-browser-use",
+    "combination": "claudecode",
+    "records": [
+      {
+        "kind": "attempt",
+        "data": {
+          "trace": "02-browser-use",
+          "combination": "claudecode",
+          "directory": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\b-runs\\controlled-v02\\02-browser-use\\claudecode\\attempt-20261008-161721",
+          "selected_pages": [
+            "000_state",
+            "001_state",
+            "002_state",
+            "003_state",
+            "004_state",
+            "005_state",
+            "006_state",
+            "007_state"
+          ],
+          "previous_outputs": {},
+          "started_at": "2026-10-08T08:17:21.153467+00:00",
+          "status": "completed",
+          "remaining_pages": [],
+          "ended_at": "2026-10-08T08:23:13.084217+00:00"
+        },
+        "process.json": {
+          "exit_code": 0,
+          "elapsed_s": 351.85515880584717,
+          "model": "sophnet/DeepSeek-V4-Flash-0731",
+          "outputs": 8,
+          "pages": 8
+        }
+      }
+    ]
+  },
+  {
+    "trace": "03-drive",
+    "combination": "aqi",
+    "records": [
+      {
+        "kind": "attempt",
+        "data": {
+          "trace": "03-drive",
+          "combination": "aqi",
+          "directory": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\b-runs\\controlled-v02\\03-drive\\aqi\\attempt-20261008-162313",
+          "selected_pages": [
+            "000_state",
+            "001_state",
+            "002_state",
+            "003_state",
+            "004_state",
+            "005_state",
+            "006_state",
+            "007_state",
+            "008_state",
+            "009_state",
+            "010_state",
+            "011_state",
+            "012_state",
+            "013_state",
+            "014_state",
+            "015_state",
+            "016_state",
+            "017_state",
+            "018_state",
+            "019_state",
+            "020_state",
+            "021_state",
+            "022_state"
+          ],
+          "previous_outputs": {},
+          "started_at": "2026-10-08T08:23:13.238727+00:00",
+          "status": "completed",
+          "remaining_pages": [],
+          "ended_at": "2026-10-08T08:32:53.136878+00:00"
+        },
+        "process.json": {
+          "elapsed_s": 579.8484272956848,
+          "model": "sophnet/DeepSeek-V4-Flash-0731",
+          "run_id": "run_20261008_082313_6b0e",
+          "status": "completed",
+          "outputs": 23,
+          "pages": 23
+        },
+        "at_status": {
+          "id": "run_20261008_082313_6b0e",
+          "status": "completed"
+        }
+      }
+    ]
+  },
+  {
+    "trace": "03-drive",
+    "combination": "claudecode",
+    "records": [
+      {
+        "kind": "attempt",
+        "data": {
+          "trace": "03-drive",
+          "combination": "claudecode",
+          "directory": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\b-runs\\controlled-v02\\03-drive\\claudecode\\attempt-20261008-163253",
+          "selected_pages": [
+            "000_state",
+            "001_state",
+            "002_state",
+            "003_state",
+            "004_state",
+            "005_state",
+            "006_state",
+            "007_state",
+            "008_state",
+            "009_state",
+            "010_state",
+            "011_state",
+            "012_state",
+            "013_state",
+            "014_state",
+            "015_state",
+            "016_state",
+            "017_state",
+            "018_state",
+            "019_state",
+            "020_state",
+            "021_state",
+            "022_state"
+          ],
+          "previous_outputs": {},
+          "started_at": "2026-10-08T08:32:53.175858+00:00",
+          "status": "completed",
+          "remaining_pages": [],
+          "ended_at": "2026-10-08T08:44:36.413774+00:00"
+        },
+        "process.json": {
+          "exit_code": 0,
+          "elapsed_s": 703.2018554210663,
+          "model": "sophnet/DeepSeek-V4-Flash-0731",
+          "outputs": 23,
+          "pages": 23
+        }
+      }
+    ]
+  },
+  {
+    "trace": "03-browser-use",
+    "combination": "aqi",
+    "records": [
+      {
+        "kind": "attempt",
+        "data": {
+          "trace": "03-browser-use",
+          "combination": "aqi",
+          "directory": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\b-runs\\controlled-v02\\03-browser-use\\aqi\\attempt-20261008-164436",
+          "selected_pages": [
+            "000_state",
+            "001_state",
+            "002_state",
+            "003_state",
+            "004_state",
+            "005_state",
+            "006_state",
+            "007_state",
+            "008_state",
+            "009_state",
+            "010_state",
+            "011_state",
+            "012_state",
+            "013_state"
+          ],
+          "previous_outputs": {},
+          "started_at": "2026-10-08T08:44:36.446289+00:00",
+          "status": "completed",
+          "remaining_pages": [],
+          "ended_at": "2026-10-08T08:50:30.971417+00:00"
+        },
+        "process.json": {
+          "elapsed_s": 354.5039346218109,
+          "model": "sophnet/DeepSeek-V4-Flash-0731",
+          "run_id": "run_20261008_084436_5cb7",
+          "status": "completed",
+          "outputs": 14,
+          "pages": 14
+        },
+        "at_status": {
+          "id": "run_20261008_084436_5cb7",
+          "status": "completed"
+        }
+      }
+    ]
+  },
+  {
+    "trace": "03-browser-use",
+    "combination": "claudecode",
+    "records": [
+      {
+        "kind": "attempt",
+        "data": {
+          "trace": "03-browser-use",
+          "combination": "claudecode",
+          "directory": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\b-runs\\controlled-v02\\03-browser-use\\claudecode\\attempt-20261008-165030",
+          "selected_pages": [
+            "000_state",
+            "001_state",
+            "002_state",
+            "003_state",
+            "004_state",
+            "005_state",
+            "006_state",
+            "007_state",
+            "008_state",
+            "009_state",
+            "010_state",
+            "011_state",
+            "012_state",
+            "013_state"
+          ],
+          "previous_outputs": {},
+          "started_at": "2026-10-08T08:50:30.982238+00:00",
+          "status": "completed",
+          "remaining_pages": [],
+          "ended_at": "2026-10-08T08:58:42.914397+00:00"
+        },
+        "process.json": {
+          "exit_code": 0,
+          "elapsed_s": 491.9023051261902,
+          "model": "sophnet/DeepSeek-V4-Flash-0731",
+          "outputs": 14,
+          "pages": 14
+        }
+      }
+    ]
+  }
+]

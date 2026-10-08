@@ -1,0 +1,50 @@
+{
+  "scope": "Extraction only; do not mix with exploration cost",
+  "aqi": {
+    "source_file": "C:\\Users\\bulin\\artifacttrace\\templates\\at-template\\tasks\\09-21-bu-shopping\\.at\\run\\run_20260928_072333_05a3\\trace.jsonl",
+    "sha256": "f4291737b5688b089a13de05d50056218dcff54dec01f2f8e5903fa222121064",
+    "bound_to_original_task": true,
+    "model_routes": {
+      "sophnet/DeepSeek-V4-Flash-0731": 89
+    },
+    "wall_seconds": 880.637,
+    "completed_model_calls": 89,
+    "recorded_token_usage": {
+      "input": 4436609,
+      "output": 75951
+    },
+    "billing_cost": null,
+    "usage_caveat": "AT event totals; input includes repeated context; cache accounting and billing not verified",
+    "event_counts": {
+      "run_started": 1,
+      "model_call_started": 89,
+      "model_call_completed": 89,
+      "tool_call_started": 135,
+      "tool_call_completed": 134,
+      "tool_call_failed": 1,
+      "run_completed": 1
+    }
+  },
+  "claudecode": {
+    "source_file": "C:\\Users\\bulin\\.claude\\projects\\C--Users-bulin-artifacttrace-templates-at-template-tasks-09-21-bu-shopping\\a2a8c566-42f8-4fc8-97e5-196fb10d82f7.jsonl",
+    "sha256": "697158b9d8b98261c0fd53166d2d109d95bf8cb0300334ae3f2817f8b862c3fe",
+    "model_message_counts": {
+      "DeepSeek-V4-Flash-0731": 295
+    },
+    "unique_assistant_message_ids": 171,
+    "recorded_token_usage": {
+      "input_tokens": 9321045,
+      "output_tokens": 201974,
+      "cache_read_input_tokens": 10190848,
+      "cache_creation_input_tokens": 0
+    },
+    "first_task_timestamp": "2026-09-29T09:04:16.729Z",
+    "completion_timestamp": "2026-09-29T11:29:21.219Z",
+    "wall_seconds": 8704.49,
+    "explicit_task_prompt_count": 2,
+    "user_reported_seconds": 2100,
+    "billing_cost": null,
+    "usage_caveat": "Local message usage deduplicated by message.id, per-field maximum across updates. Not validated as gateway billing; assistant messages are not guaranteed one-to-one HTTP requests. Wall interval includes pauses/retries/compaction."
+  },
+  "comparability": "Both logs identify DeepSeek-V4-Flash-0731. Harness context, retries and token/cache reporting differ. No cost or speed winner asserted from incomparable active-time/accounting."
+}

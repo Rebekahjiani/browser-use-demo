@@ -1,0 +1,10 @@
+{
+  "url": "http://127.0.0.1:7770/catalogsearch/advanced/",
+  "title": "Advanced Search",
+  "route": "/catalogsearch/advanced/",
+  "sources": {
+    "accessibility": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\03-drive\\trace\\26_10_08_12_12_08-min\\drive\\screenshots\\014_catalogsearch_advanced\\accessibility.json",
+    "sha256_AX": "c790097963172e3c04c01ca0401d6044134934ef926363b44ae2740b318fd037"
+  },
+  "material_scope": "recorded UI and conservatively associated JSON responses"
+}

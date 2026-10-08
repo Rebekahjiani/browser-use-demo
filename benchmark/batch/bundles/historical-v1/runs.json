@@ -1,0 +1,96 @@
+{
+  "runs": [
+    {
+      "id": "drive-historical",
+      "strategy": "drive",
+      "snapshots": "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots",
+      "conditions": {
+        "initial_state": "historical; not controlled"
+      },
+      "files": [
+        "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\000_root\\accessibility.json",
+        "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\001_belle-of-the-ball-princess-sprinkle-mix-wedding-colorful-spr\\accessibility.json",
+        "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\002_cell-phones-accessories_html\\accessibility.json",
+        "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\003_cell-phones-accessories_html\\accessibility.json",
+        "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\004_cooloo-cell-phone-stand-2-pack-mobile-phone-anti-skid-holder\\accessibility.json",
+        "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\005_electronics_html\\accessibility.json",
+        "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\006_electronics_html\\accessibility.json",
+        "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\007_electronics_html\\accessibility.json",
+        "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\008_electronics_html\\accessibility.json",
+        "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\009_customer_account_login\\accessibility.json",
+        "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\010_electronics_html\\accessibility.json",
+        "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\011_customer_account_login\\accessibility.json",
+        "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\012_customer_account_login\\accessibility.json",
+        "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\013_home-kitchen_html\\accessibility.json",
+        "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\014_home-kitchen_html\\accessibility.json",
+        "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\015_home-kitchen_html\\accessibility.json",
+        "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\016_linxiaojix-waterproof-shell-for-osmo-pocket-camera-case-came\\accessibility.json",
+        "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\017_video-games_html\\accessibility.json",
+        "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\018_psp-s110-battery-upgraded-ultra-high-capacity-3600mah-li-ion\\accessibility.json",
+        "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\019_patio-lawn-garden_html\\accessibility.json",
+        "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\020_health-household_html\\accessibility.json",
+        "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\021_health-household_html\\accessibility.json",
+        "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\022_health-household_html\\accessibility.json",
+        "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\023_energizer-max-c-batteries-premium-alkaline-c-cell-batteries-\\accessibility.json",
+        "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\024_dp_B004U429AQ_ref_emc_b_5_i\\accessibility.json",
+        "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\025_root\\accessibility.json",
+        "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\026_root\\accessibility.json",
+        "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\027_briess-dme-pilsen-light-1-lb-bag_html\\accessibility.json",
+        "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\028_video-games_html\\accessibility.json",
+        "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\029_cell-phones-accessories_html\\accessibility.json",
+        "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\030_sports-outdoors_html\\accessibility.json",
+        "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\031_patio-lawn-garden_html\\accessibility.json",
+        "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\032_enevotx-front-door-side-window-covering-alligator-and-cactus\\accessibility.json",
+        "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\033_multi-accessory-hub-adapter-by-joby-get-the-right-set-up-for\\accessibility.json",
+        "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\034_beauty-personal-care_html\\accessibility.json",
+        "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\035_q-mixers-premium-ginger-ale-real-ingredients-less-sweet-6-7-\\accessibility.json",
+        "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\036_q-mixers-premium-ginger-ale-real-ingredients-less-sweet-6-7-\\accessibility.json",
+        "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\037_clothing-shoes-jewelry_html\\accessibility.json",
+        "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\038_clothing-shoes-jewelry_html\\accessibility.json",
+        "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\039_clothing-shoes-jewelry_html\\accessibility.json",
+        "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\040_hfhapw-onesie-pajamas-for-women-women-s-valentines-day-sexy-\\accessibility.json",
+        "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\041_home-kitchen_html\\accessibility.json",
+        "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\042_customer_account_login\\accessibility.json",
+        "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\043_contact\\accessibility.json",
+        "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\044_contact\\accessibility.json",
+        "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\045_zosi-h-265-poe-home-security-camera-system-outdoor-indoor-8-\\accessibility.json",
+        "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\046_zosi-h-265-poe-home-security-camera-system-outdoor-indoor-8-\\accessibility.json",
+        "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\047_zosi-h-265-poe-home-security-camera-system-outdoor-indoor-8-\\accessibility.json",
+        "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\048_patio-lawn-garden_html\\accessibility.json",
+        "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\049_mmqq-beige-bar-chairs-outdoor-patio-wicker-rattan-barstools-\\accessibility.json",
+        "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\050_mmqq-beige-bar-chairs-outdoor-patio-wicker-rattan-barstools-\\accessibility.json",
+        "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\051_customer_account_login\\accessibility.json",
+        "C:\\Users\\bulin\\appweave\\outputs\\01-evidence\\26_09_28_10_40_34-min\\drive\\screenshots\\052_catalogsearch_advanced\\accessibility.json"
+      ],
+      "artifacts": []
+    },
+    {
+      "id": "browser-use-historical",
+      "strategy": "browser-use",
+      "snapshots": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260929-115141-231052\\snapshots",
+      "conditions": {
+        "initial_state": "guest; empty cart"
+      },
+      "files": [
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260929-115141-231052\\snapshots\\00001\\accessibility.json",
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260929-115141-231052\\snapshots\\00002\\accessibility.json",
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260929-115141-231052\\snapshots\\00003\\accessibility.json",
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260929-115141-231052\\snapshots\\00004\\accessibility.json",
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260929-115141-231052\\snapshots\\00005\\accessibility.json",
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260929-115141-231052\\snapshots\\00006\\accessibility.json",
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260929-115141-231052\\snapshots\\00007\\accessibility.json",
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260929-115141-231052\\snapshots\\00008\\accessibility.json",
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260929-115141-231052\\snapshots\\00009\\accessibility.json",
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260929-115141-231052\\snapshots\\00010\\accessibility.json",
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260929-115141-231052\\snapshots\\00011\\accessibility.json",
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260929-115141-231052\\snapshots\\00012\\accessibility.json",
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260929-115141-231052\\snapshots\\00013\\accessibility.json",
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20260929-115141-231052\\snapshots\\00014\\accessibility.json"
+      ],
+      "artifacts": []
+    }
+  ],
+  "experiment": {
+    "purpose": "Historical regression only; conditions differ"
+  }
+}

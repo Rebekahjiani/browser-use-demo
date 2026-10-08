@@ -1,0 +1,134 @@
+{
+  "status": "all six collections complete; trace fidelity unresolved",
+  "runs": [
+    {
+      "id": "01-drive",
+      "strategy": "drive",
+      "urls": 27,
+      "snapshots": 32,
+      "elapsed_s": 1238.815,
+      "native_actions_or_attempts": 62,
+      "stop_reason": "budget exhausted",
+      "errors": null,
+      "trace_quality": [
+        {
+          "totalSegments": 83,
+          "failedSegments": 1,
+          "maxSwitchGapMs": 16731,
+          "dataLossOccurred": true
+        }
+      ]
+    },
+    {
+      "id": "01-browser-use",
+      "strategy": "browser-use",
+      "urls": 7,
+      "snapshots": 42,
+      "elapsed_s": 1025.0149999998976,
+      "native_actions_or_attempts": 36,
+      "stop_reason": "agent_done",
+      "errors": [
+        "1 validation error for AgentOutput\n  Invalid JSON: expected value at line 1 column 1 [type=json_invalid, input_value='<{\"thinking\":\"我目前...include_text\":true}}]}]', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid",
+        "1 validation error for AgentOutput\n  Invalid JSON: expected ident at line 1 column 2 [type=json_invalid, input_value='I\\'ll interact with the ...n      }\\n    }\\n  ]\\n}', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid",
+        "Model output was truncated at max_completion_tokens=4096; the structured output is incomplete. Increase max_completion_tokens or request shorter output.",
+        "Model output was truncated at max_completion_tokens=4096; the structured output is incomplete. Increase max_completion_tokens or request shorter output.",
+        "Model output was truncated at max_completion_tokens=4096; the structured output is incomplete. Increase max_completion_tokens or request shorter output.",
+        "Model output was truncated at max_completion_tokens=4096; the structured output is incomplete. Increase max_completion_tokens or request shorter output."
+      ],
+      "trace_quality": [
+        {
+          "totalSegments": 69,
+          "failedSegments": 0,
+          "maxSwitchGapMs": 5870,
+          "dataLossOccurred": true
+        }
+      ]
+    },
+    {
+      "id": "02-drive",
+      "strategy": "drive",
+      "urls": 31,
+      "snapshots": 40,
+      "elapsed_s": 926.774,
+      "native_actions_or_attempts": 81,
+      "stop_reason": "budget exhausted",
+      "errors": null,
+      "trace_quality": [
+        {
+          "totalSegments": 62,
+          "failedSegments": 0,
+          "maxSwitchGapMs": 2706,
+          "dataLossOccurred": true
+        }
+      ]
+    },
+    {
+      "id": "02-browser-use",
+      "strategy": "browser-use",
+      "urls": 6,
+      "snapshots": 24,
+      "elapsed_s": 602.0160000000615,
+      "native_actions_or_attempts": 18,
+      "stop_reason": "agent_done",
+      "errors": [
+        "1 validation error for AgentOutput\n  Invalid JSON: expected ident at line 1 column 2 [type=json_invalid, input_value='I\\'m on the Beauty & Per...n      }\\n    }\\n  ]\\n}', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid",
+        "Model output was truncated at max_completion_tokens=4096; the structured output is incomplete. Increase max_completion_tokens or request shorter output.",
+        "Model output was truncated at max_completion_tokens=4096; the structured output is incomplete. Increase max_completion_tokens or request shorter output.",
+        "Model output was truncated at max_completion_tokens=4096; the structured output is incomplete. Increase max_completion_tokens or request shorter output."
+      ],
+      "trace_quality": [
+        {
+          "totalSegments": 41,
+          "failedSegments": 0,
+          "maxSwitchGapMs": 5386,
+          "dataLossOccurred": true
+        }
+      ]
+    },
+    {
+      "id": "03-drive",
+      "strategy": "drive",
+      "urls": 25,
+      "snapshots": 31,
+      "elapsed_s": 977.71,
+      "native_actions_or_attempts": 78,
+      "stop_reason": "budget exhausted",
+      "errors": null,
+      "trace_quality": [
+        {
+          "totalSegments": 66,
+          "failedSegments": 0,
+          "maxSwitchGapMs": 1826,
+          "dataLossOccurred": true
+        }
+      ]
+    },
+    {
+      "id": "03-browser-use",
+      "strategy": "browser-use",
+      "urls": 9,
+      "snapshots": 32,
+      "elapsed_s": 715.155999999959,
+      "native_actions_or_attempts": 27,
+      "stop_reason": "agent_done",
+      "errors": [
+        "Model output was truncated at max_completion_tokens=4096; the structured output is incomplete. Increase max_completion_tokens or request shorter output.",
+        "Model output was truncated at max_completion_tokens=4096; the structured output is incomplete. Increase max_completion_tokens or request shorter output.",
+        "Model output was truncated at max_completion_tokens=4096; the structured output is incomplete. Increase max_completion_tokens or request shorter output."
+      ],
+      "trace_quality": [
+        {
+          "totalSegments": 48,
+          "failedSegments": 0,
+          "maxSwitchGapMs": 3779,
+          "dataLossOccurred": true
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "Native actions and tool attempts are different units.",
+    "dataLossOccurred is an interval/segment alarm, not proof all UI snapshots are unusable.",
+    "All model JSON errors and output truncations preserved; no retries removed."
+  ]
+}

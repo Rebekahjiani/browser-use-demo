@@ -1,0 +1,10 @@
+{
+  "url": "http://127.0.0.1:7770/",
+  "title": "One Stop Market",
+  "route": "/",
+  "sources": {
+    "accessibility": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\02-drive\\trace\\26_10_08_11_46_19-min\\drive\\screenshots\\000_root\\accessibility.json",
+    "sha256_AX": "9e4a2a8356d01fa71c555455f6575943ee3f8e1a399d2730d088b01b88293b0d"
+  },
+  "material_scope": "recorded UI and conservatively associated JSON responses"
+}

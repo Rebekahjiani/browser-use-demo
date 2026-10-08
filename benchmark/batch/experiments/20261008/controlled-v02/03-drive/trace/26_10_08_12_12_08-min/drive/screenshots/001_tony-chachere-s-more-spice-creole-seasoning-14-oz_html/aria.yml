@@ -1,0 +1,172 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - link "Skip to Content" [ref=e4] [cursor=pointer]:
+      - /url: "#contentarea"
+    - generic [ref=e5]:
+      - generic [ref=e6] [cursor=pointer]:
+        - text: 
+        - generic [ref=e7]: Toggle Nav
+      - link "store logo" [ref=e8] [cursor=pointer]:
+        - /url: http://127.0.0.1:7770/
+        - img "one_stop_market_logo" [ref=e9]
+      - generic [ref=e10]:
+        - link " My Cart" [ref=e11] [cursor=pointer]:
+          - /url: http://127.0.0.1:7770/checkout/cart/
+          - text: 
+          - generic [ref=e12]: My Cart
+        - text: 
+      - generic [ref=e16]:
+        - generic [ref=e17]:
+          - text: 
+          - generic [ref=e18]: Search
+        - combobox " Search" [ref=e20]
+  - tablist [ref=e22]:
+    - tab "Menu" [expanded] [ref=e23]:
+      - link "Menu" [ref=e24] [cursor=pointer]:
+        - /url: "#store.menu"
+    - tabpanel [ref=e25]:
+      - navigation [ref=e26]:
+        - menu [ref=e27]:
+          - listitem [ref=e28]:
+            - menuitem "Beauty & Personal Care " [ref=e29] [cursor=pointer]: Beauty & Personal Care 
+          - listitem [ref=e30]:
+            - menuitem "Sports & Outdoors " [ref=e31] [cursor=pointer]: Sports & Outdoors 
+          - listitem [ref=e32]:
+            - menuitem "Clothing, Shoes & Jewelry " [ref=e33] [cursor=pointer]: Clothing, Shoes & Jewelry 
+          - listitem [ref=e34]:
+            - menuitem "Home & Kitchen " [ref=e35] [cursor=pointer]: Home & Kitchen 
+          - listitem [ref=e36]:
+            - menuitem "Office Products " [ref=e37] [cursor=pointer]: Office Products 
+          - listitem [ref=e38]:
+            - menuitem "Tools & Home Improvement " [ref=e39] [cursor=pointer]: Tools & Home Improvement 
+          - listitem [ref=e40]:
+            - menuitem "Health & Household " [ref=e41] [cursor=pointer]: Health & Household 
+          - listitem [ref=e42]:
+            - menuitem "Patio, Lawn & Garden " [ref=e43] [cursor=pointer]: Patio, Lawn & Garden 
+          - listitem [ref=e44]:
+            - menuitem "Electronics " [ref=e45] [cursor=pointer]: Electronics 
+          - listitem [ref=e46]:
+            - menuitem "Cell Phones & Accessories " [ref=e47] [cursor=pointer]: Cell Phones & Accessories 
+          - listitem [ref=e48]:
+            - menuitem "Video Games " [ref=e49] [cursor=pointer]: Video Games 
+          - listitem [ref=e50]:
+            - menuitem "Grocery & Gourmet Food " [ref=e51] [cursor=pointer]: Grocery & Gourmet Food 
+    - tab "Account" [ref=e52]:
+      - link "Account" [ref=e53] [cursor=pointer]:
+        - /url: "#store.links"
+  - list [ref=e55]:
+    - listitem [ref=e56]:
+      - link "Home" [ref=e57] [cursor=pointer]:
+        - /url: http://127.0.0.1:7770/
+      - text: 
+    - listitem [ref=e58]:
+      - strong [ref=e59]: Tony Chachere's More Spice Creole Seasoning - 14 oz
+  - main [ref=e60]:
+    - heading "Tony Chachere's More Spice Creole Seasoning - 14 oz" [level=1] [ref=e62]
+    - generic [ref=e64]:
+      - generic [ref=e65]:
+        - generic [ref=e66]:
+          - generic [ref=e67]:
+            - generic "Availability" [ref=e68]: In stock
+            - generic [ref=e69]:
+              - strong [ref=e70]: SKU
+              - generic [ref=e71]: B001Q1J3QY
+          - generic [ref=e72]:
+            - generic [ref=e73]:
+              - generic [ref=e74]: "Rating:"
+              - generic "75%" [ref=e75]:
+                - text: 
+                - generic [ref=e76]:
+                  - text: 
+                  - generic [ref=e77]:
+                    - generic [ref=e78]: "75"
+                    - text: "% of"
+                    - generic [ref=e79]: "100"
+            - generic [ref=e80]:
+              - link "12 Reviews" [ref=e81] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/tony-chachere-s-more-spice-creole-seasoning-14-oz.html#reviews
+              - link "Add Your Review" [ref=e82] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/tony-chachere-s-more-spice-creole-seasoning-14-oz.html#review-form
+          - generic [ref=e85]: $7.92
+        - generic [ref=e89]:
+          - generic [ref=e90]:
+            - generic [ref=e91]: Qty
+            - spinbutton "Qty" [ref=e93]: "1"
+          - button "Add to Cart" [ref=e95] [cursor=pointer]
+        - link "Add to Wish List" [ref=e98] [cursor=pointer]:
+          - /url: "#"
+      - generic [ref=e99]:
+        - link "Skip to the end of the images gallery" [ref=e100] [cursor=pointer]:
+          - /url: "#gallery-next-area"
+        - img "Image" [ref=e107]
+        - link "Skip to the beginning of the images gallery" [ref=e108] [cursor=pointer]:
+          - /url: "#gallery-prev-area"
+      - tablist [ref=e110]:
+        - tab "Details" [expanded] [ref=e111]:
+          - link "Details" [ref=e112] [cursor=pointer]:
+            - /url: "#description"
+        - tabpanel "Details" [ref=e113]:
+          - generic [ref=e116]:
+            - heading "Product Quick Look" [level=2] [ref=e117]
+            - generic [ref=e118]:
+              - list [ref=e120]:
+                - listitem [ref=e121]: Tony Chacheres More Spice Cajun Seasoning offers a hotter / spicier blend of Cajun seasoning, without adding a salty taste to your Cajun food. Tony Chacheres found that people were adding more of the Tony Chacheres Original Cajun Seasoning to their food for a spicer taste. These customers were complaining that their food was too salty! Hence, Tony Chacheres came out with a spicier blend of the Tony Chacheres Original Cajun Seasoning.
+                - listitem [ref=e122]: A spicier blend when you want to step up the heat or reduce the sodium in whatever you're cooking.
+                - listitem [ref=e123]: Perfect for seasoning meats, seafood, poultry, vegetables, soups, stews, salads, pasta and barbecue...even popcorn and French fries.
+                - listitem [ref=e124]: Great for grilling and marinating.
+                - listitem [ref=e125]: Large 14 oz can !!!
+              - table [ref=e127]:
+                - rowgroup [ref=e128]:
+                  - row "Is Discontinued By Manufacturer ‏ ‎ No" [ref=e129]:
+                    - rowheader "Is Discontinued By Manufacturer ‏" [ref=e130]
+                    - cell "‎ No" [ref=e131]
+                  - row "Product Dimensions ‏ ‎ 6 x 3 x 3 inches; 14 Ounces" [ref=e132]:
+                    - rowheader "Product Dimensions ‏" [ref=e133]
+                    - cell "‎ 6 x 3 x 3 inches; 14 Ounces" [ref=e134]
+                  - row "UPC ‏ ‎ 400060069854 071998001911 074994457287" [ref=e135]:
+                    - rowheader "UPC ‏" [ref=e136]
+                    - cell "‎ 400060069854 071998001911 074994457287" [ref=e137]
+                  - row "Manufacturer ‏ ‎ Tony Chachere's Creole Foods" [ref=e138]:
+                    - rowheader "Manufacturer ‏" [ref=e139]
+                    - cell "‎ Tony Chachere's Creole Foods" [ref=e140]
+                  - row "ASIN ‏ ‎ B001Q1J3QY" [ref=e141]:
+                    - rowheader "ASIN ‏" [ref=e142]
+                    - cell "‎ B001Q1J3QY" [ref=e143]
+                  - row "#62 in Cajun Seasonings" [ref=e144]:
+                    - columnheader "#62 in Cajun Seasonings" [ref=e145]
+                    - cell [ref=e146]
+        - tab "Reviews (12)" [ref=e147]:
+          - link "Reviews (12)" [ref=e148] [cursor=pointer]:
+            - /url: "#reviews"
+        - text: "*       * * *"
+  - contentinfo [ref=e149]:
+    - generic [ref=e150]:
+      - generic [ref=e153]:
+        - generic [ref=e155]:
+          - text: 
+          - generic [ref=e156]:
+            - generic [ref=e157]: "Sign Up for Our Newsletter:"
+            - textbox "Sign Up for Our Newsletter:" [ref=e158]:
+              - /placeholder: Enter your email address
+        - button "Subscribe" [ref=e160] [cursor=pointer]
+      - list [ref=e161]:
+        - listitem [ref=e162]:
+          - link "Privacy and Cookie Policy" [ref=e163] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/privacy-policy-cookie-restriction-mode/
+        - listitem [ref=e164]:
+          - link "Search Terms" [ref=e165] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/search/term/popular/
+        - listitem [ref=e166]:
+          - link "Advanced Search" [ref=e167] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/catalogsearch/advanced/
+        - listitem [ref=e168]:
+          - link "Orders and Returns" [ref=e169] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/sales/guest/form/
+        - listitem [ref=e170]:
+          - link "Contact Us" [ref=e171] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/contact/
+      - generic [ref=e172]: Copyright © 2013-present Magento, Inc. All rights reserved.
+      - generic [ref=e173]:
+        - text: Help Us Keep Magento Healthy
+        - link "Report All Bugs" [ref=e174] [cursor=pointer]:
+          - /url: http://www.magentocommerce.com/bug-tracking

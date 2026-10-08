@@ -1,0 +1,512 @@
+- RootWebArea "One Stop Market" [url="http://127.0.0.1:7770/"]
+  - generic
+    - generic
+      - banner
+        - generic
+          - link "Skip to Content" [url="http://127.0.0.1:7770/#contentarea"]
+            - StaticText "Skip to Content"
+        - generic
+          - generic
+            - generic
+              - StaticText ""
+            - StaticText "Toggle Nav"
+          - link "store logo" [url="http://127.0.0.1:7770/"]
+            - image "one_stop_market_logo" [url="http://127.0.0.1:7770/media/logo/websites/1/image_15__1.png"]
+          - generic
+            - link " My Cart" [url="http://127.0.0.1:7770/checkout/cart/"]
+              - generic
+                - StaticText ""
+              - StaticText "My Cart"
+          - form
+            - LabelText
+              - generic
+                - StaticText ""
+              - StaticText "Search"
+            - generic
+              - combobox " Search" [expanded=false]
+                - generic
+      - generic
+        - tablist
+          - tab "Menu" [selected=false] [expanded=true]
+            - link "Menu" [url="http://127.0.0.1:7770/#store.menu"]
+              - StaticText "Menu"
+          - tabpanel
+            - navigation
+              - menu
+                - menuitem "BEAUTY & PERSONAL CARE "
+                  - StaticText "BEAUTY & PERSONAL CARE"
+                  - generic
+                    - StaticText ""
+                - menuitem "SPORTS & OUTDOORS "
+                  - StaticText "SPORTS & OUTDOORS"
+                  - generic
+                    - StaticText ""
+                - menuitem "CLOTHING, SHOES & JEWELRY "
+                  - StaticText "CLOTHING, SHOES & JEWELRY"
+                  - generic
+                    - StaticText ""
+                - menuitem "HOME & KITCHEN "
+                  - StaticText "HOME & KITCHEN"
+                  - generic
+                    - StaticText ""
+                - menuitem "OFFICE PRODUCTS "
+                  - StaticText "OFFICE PRODUCTS"
+                  - generic
+                    - StaticText ""
+                - menuitem "TOOLS & HOME IMPROVEMENT "
+                  - StaticText "TOOLS & HOME IMPROVEMENT"
+                  - generic
+                    - StaticText ""
+                - menuitem "HEALTH & HOUSEHOLD "
+                  - StaticText "HEALTH & HOUSEHOLD"
+                  - generic
+                    - StaticText ""
+                - menuitem "PATIO, LAWN & GARDEN "
+                  - StaticText "PATIO, LAWN & GARDEN"
+                  - generic
+                    - StaticText ""
+                - menuitem "ELECTRONICS "
+                  - StaticText "ELECTRONICS"
+                  - generic
+                    - StaticText ""
+                - menuitem "CELL PHONES & ACCESSORIES "
+                  - StaticText "CELL PHONES & ACCESSORIES"
+                  - generic
+                    - StaticText ""
+                - menuitem "VIDEO GAMES "
+                  - StaticText "VIDEO GAMES"
+                  - generic
+                    - StaticText ""
+                - menuitem "GROCERY & GOURMET FOOD "
+                  - StaticText "GROCERY & GOURMET FOOD"
+                  - generic
+                    - StaticText ""
+          - tab "Account" [selected=false] [expanded=false]
+            - link "Account" [url="http://127.0.0.1:7770/#store.links"]
+              - StaticText "Account"
+      - main
+        - generic
+        - heading "One Stop Market" [level=1]
+          - StaticText "One Stop Market"
+        - generic
+          - strong
+            - StaticText "Product Showcases"
+        - list
+          - listitem [level=1]
+            - link "Image" [url="http://127.0.0.1:7770/pre-baked-gingerbread-house-kit-value-pack-17-oz-pack-of-2-total-34-oz.html"]
+              - generic
+                - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B08PCSHBXY.0.jpg"]
+            - strong
+              - link "Pre-baked Gingerbread House Kit Value Pack, 17 oz., Pack of 2, Total 34 oz." [url="http://127.0.0.1:7770/pre-baked-gingerbread-house-kit-value-pack-17-oz-pack-of-2-total-34-oz.html"]
+                - StaticText "Pre-baked Gingerbread House Kit Value Pack, 17 oz., Pack of 2, Total 34 oz."
+            - LayoutTable
+              - generic
+                - StaticText "Rating:"
+                - generic
+                  - generic
+                    - StaticText ""
+                  - generic
+                    - StaticText ""
+                  - StaticText "20%"
+              - generic
+                - link "1 Review" [url="http://127.0.0.1:7770/pre-baked-gingerbread-house-kit-value-pack-17-oz-pack-of-2-total-34-oz.html#reviews"]
+                  - StaticText "1"
+                  - StaticText "Review"
+            - generic
+              - generic
+                - StaticText "$19.99"
+            - generic
+              - generic
+                - form
+                  - button "Add to Cart"
+                    - StaticText "Add to Cart"
+              - generic
+                - link " Add to Wish List" [url="http://127.0.0.1:7770/#"]
+                  - generic
+                    - StaticText ""
+                  - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - link "Image" [url="http://127.0.0.1:7770/v8-energy-healthy-energy-drink-steady-energy-from-black-and-green-tea-pomegranate-blueberry-8-ounce-can-pack-of-24.html"]
+              - generic
+                - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B00CPTR7WS.0.jpg"]
+            - strong
+              - link "V8 +Energy, Healthy Energy Drink, Steady Energy from Black and Green Tea, Pomegranate Blueberry, 8 Ounce Can ,Pack of 24" [url="http://127.0.0.1:7770/v8-energy-healthy-energy-drink-steady-energy-from-black-and-green-tea-pomegranate-blueberry-8-ounce-can-pack-of-24.html"]
+                - StaticText "V8 +Energy, Healthy Energy Drink, Steady Energy from Black and Green Tea, Pomegranate Blueberry, 8 Ounce Can ,Pack of 24"
+            - LayoutTable
+              - generic
+                - StaticText "Rating:"
+                - generic
+                  - generic
+                    - StaticText ""
+                  - generic
+                    - StaticText ""
+                  - StaticText "57%"
+              - generic
+                - link "12 Reviews" [url="http://127.0.0.1:7770/v8-energy-healthy-energy-drink-steady-energy-from-black-and-green-tea-pomegranate-blueberry-8-ounce-can-pack-of-24.html#reviews"]
+                  - StaticText "12"
+                  - StaticText "Reviews"
+            - generic
+              - generic
+                - StaticText "$14.47"
+            - generic
+              - generic
+                - form
+                  - button "Add to Cart"
+                    - StaticText "Add to Cart"
+              - generic
+                - link " Add to Wish List" [url="http://127.0.0.1:7770/#"]
+                  - generic
+                    - StaticText ""
+                  - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - link "Image" [url="http://127.0.0.1:7770/elmwood-inn-fine-teas-orange-vanilla-caffeine-free-fruit-infusion-16-ounce-pouch.html"]
+              - generic
+                - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B0040WHKIY.0.jpg"]
+            - strong
+              - link "Elmwood Inn Fine Teas, Orange Vanilla Caffeine-free Fruit Infusion, 16-Ounce Pouch" [url="http://127.0.0.1:7770/elmwood-inn-fine-teas-orange-vanilla-caffeine-free-fruit-infusion-16-ounce-pouch.html"]
+                - StaticText "Elmwood Inn Fine Teas, Orange Vanilla Caffeine-free Fruit Infusion, 16-Ounce Pouch"
+            - LayoutTable
+              - generic
+                - StaticText "Rating:"
+                - generic
+                  - generic
+                    - StaticText ""
+                  - generic
+                    - StaticText ""
+                  - StaticText "95%"
+              - generic
+                - link "4 Reviews" [url="http://127.0.0.1:7770/elmwood-inn-fine-teas-orange-vanilla-caffeine-free-fruit-infusion-16-ounce-pouch.html#reviews"]
+                  - StaticText "4"
+                  - StaticText "Reviews"
+            - generic
+              - generic
+                - StaticText "$19.36"
+            - generic
+              - generic
+                - form
+                  - button "Add to Cart"
+                    - StaticText "Add to Cart"
+              - generic
+                - link " Add to Wish List" [url="http://127.0.0.1:7770/#"]
+                  - generic
+                    - StaticText ""
+                  - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - link "Image" [url="http://127.0.0.1:7770/belle-of-the-ball-princess-sprinkle-mix-wedding-colorful-sprinkles-cake-cupcake-cookie-sprinkles-ice-cream-candy-sprinkles-yellow-gold-red-royal-red-rose-icing-flowers-decorating-sprinkles-8oz.html"]
+              - generic
+                - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B08743KW8M.0.jpg"]
+            - strong
+              - link "Belle Of The Ball Princess Sprinkle Mix| Wedding Colorful Sprinkles| Cake Cupcake Cookie Sprinkles| Ice cream Candy Sprinkles| Yellow Gold Red Royal Red Rose Icing Flowers Decorating Sprinkles, 8OZ" [url="http://127.0.0.1:7770/belle-of-the-ball-princess-sprinkle-mix-wedding-colorful-sprinkles-cake-cupcake-cookie-sprinkles-ice-cream-candy-sprinkles-yellow-gold-red-royal-red-rose-icing-flowers-decorating-sprinkles-8oz.html"]
+                - StaticText "Belle Of The Ball Princess Sprinkle Mix| Wedding Colorful Sprinkles| Cake Cupcake Cookie Sprinkles| Ice cream Candy Sprinkles| Yellow Gold Red Royal Red Rose Icing Flowers Decorating Sprinkles, 8OZ"
+            - LayoutTable
+              - generic
+                - StaticText "Rating:"
+                - generic
+                  - generic
+                    - StaticText ""
+                  - generic
+                    - StaticText ""
+                  - StaticText "63%"
+              - generic
+                - link "12 Reviews" [url="http://127.0.0.1:7770/belle-of-the-ball-princess-sprinkle-mix-wedding-colorful-sprinkles-cake-cupcake-cookie-sprinkles-ice-cream-candy-sprinkles-yellow-gold-red-royal-red-rose-icing-flowers-decorating-sprinkles-8oz.html#reviews"]
+                  - StaticText "12"
+                  - StaticText "Reviews"
+            - generic
+              - generic
+                - StaticText "$23.50"
+            - generic
+              - generic
+                - form
+                  - button "Add to Cart"
+                    - StaticText "Add to Cart"
+              - generic
+                - link " Add to Wish List" [url="http://127.0.0.1:7770/#"]
+                  - generic
+                    - StaticText ""
+                  - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - link "Image" [url="http://127.0.0.1:7770/so-delicious-dairy-free-cocowhip-light-vegan-non-gmo-project-verified-9-oz-tub.html"]
+              - generic
+                - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B01N1QRJNG.0.jpg"]
+            - strong
+              - link "So Delicious Dairy Free CocoWhip Light, Vegan, Non-GMO Project Verified, 9 oz. Tub" [url="http://127.0.0.1:7770/so-delicious-dairy-free-cocowhip-light-vegan-non-gmo-project-verified-9-oz-tub.html"]
+                - StaticText "So Delicious Dairy Free CocoWhip Light, Vegan, Non-GMO Project Verified, 9 oz. Tub"
+            - LayoutTable
+              - generic
+                - StaticText "Rating:"
+                - generic
+                  - generic
+                    - StaticText ""
+                  - generic
+                    - StaticText ""
+                  - StaticText "78%"
+              - generic
+                - link "12 Reviews" [url="http://127.0.0.1:7770/so-delicious-dairy-free-cocowhip-light-vegan-non-gmo-project-verified-9-oz-tub.html#reviews"]
+                  - StaticText "12"
+                  - StaticText "Reviews"
+            - generic
+              - generic
+                - StaticText "$15.62"
+            - generic
+              - generic
+                - form
+                  - button "Add to Cart"
+                    - StaticText "Add to Cart"
+              - generic
+                - link " Add to Wish List" [url="http://127.0.0.1:7770/#"]
+                  - generic
+                    - StaticText ""
+                  - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - link "Image" [url="http://127.0.0.1:7770/cheongeun-sweet-potato-starch-powder-500g-2ea-sweet-potato-55-corn-45.html"]
+              - generic
+                - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B07Y4MC6M5.0.jpg"]
+            - strong
+              - link "Cheongeun Sweet Potato Starch Powder 500g, 2ea(Sweet Potato 55%, Corn 45%)" [url="http://127.0.0.1:7770/cheongeun-sweet-potato-starch-powder-500g-2ea-sweet-potato-55-corn-45.html"]
+                - StaticText "Cheongeun Sweet Potato Starch Powder 500g, 2ea(Sweet Potato 55%, Corn 45%)"
+            - generic
+              - generic
+                - StaticText "$34.00"
+            - generic
+              - generic
+                - form
+                  - button "Add to Cart"
+                    - StaticText "Add to Cart"
+              - generic
+                - link " Add to Wish List" [url="http://127.0.0.1:7770/#"]
+                  - generic
+                    - StaticText ""
+                  - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - link "Image" [url="http://127.0.0.1:7770/q-mixers-premium-ginger-ale-real-ingredients-less-sweet-6-7-fl-oz-24-bottles.html"]
+              - generic
+                - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B071KC37VD.0.jpg"]
+            - strong
+              - link "Q Mixers Premium Ginger Ale: Real Ingredients & Less Sweet, 6.7 Fl Oz (24 Bottles)" [url="http://127.0.0.1:7770/q-mixers-premium-ginger-ale-real-ingredients-less-sweet-6-7-fl-oz-24-bottles.html"]
+                - StaticText "Q Mixers Premium Ginger Ale: Real Ingredients & Less Sweet, 6.7 Fl Oz (24 Bottles)"
+            - LayoutTable
+              - generic
+                - StaticText "Rating:"
+                - generic
+                  - generic
+                    - StaticText ""
+                  - generic
+                    - StaticText ""
+                  - StaticText "88%"
+              - generic
+                - link "12 Reviews" [url="http://127.0.0.1:7770/q-mixers-premium-ginger-ale-real-ingredients-less-sweet-6-7-fl-oz-24-bottles.html#reviews"]
+                  - StaticText "12"
+                  - StaticText "Reviews"
+            - generic
+              - generic
+                - StaticText "$68.50"
+            - generic
+              - generic
+                - form
+                  - button "Add to Cart"
+                    - StaticText "Add to Cart"
+              - generic
+                - link " Add to Wish List" [url="http://127.0.0.1:7770/#"]
+                  - generic
+                    - StaticText ""
+                  - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - link "Image" [url="http://127.0.0.1:7770/stove-top-turkey-stuffing-mix-12-oz-boxes-pack-of-2.html"]
+              - generic
+                - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B004U5F23G.0.jpg"]
+            - strong
+              - link "Stove Top Turkey Stuffing Mix (12 oz Boxes, Pack of 2)" [url="http://127.0.0.1:7770/stove-top-turkey-stuffing-mix-12-oz-boxes-pack-of-2.html"]
+                - StaticText "Stove Top Turkey Stuffing Mix (12 oz Boxes, Pack of 2)"
+            - LayoutTable
+              - generic
+                - StaticText "Rating:"
+                - generic
+                  - generic
+                    - StaticText ""
+                  - generic
+                    - StaticText ""
+                  - StaticText "85%"
+              - generic
+                - link "12 Reviews" [url="http://127.0.0.1:7770/stove-top-turkey-stuffing-mix-12-oz-boxes-pack-of-2.html#reviews"]
+                  - StaticText "12"
+                  - StaticText "Reviews"
+            - generic
+              - generic
+                - StaticText "$8.49"
+            - generic
+              - generic
+                - form
+                  - button "Add to Cart"
+                    - StaticText "Add to Cart"
+              - generic
+                - link " Add to Wish List" [url="http://127.0.0.1:7770/#"]
+                  - generic
+                    - StaticText ""
+                  - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - link "Image" [url="http://127.0.0.1:7770/briess-dme-pilsen-light-1-lb-bag.html"]
+              - generic
+                - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B074DBMG66.0.jpg"]
+            - strong
+              - link "Briess DME - Pilsen Light - 1 lb Bag" [url="http://127.0.0.1:7770/briess-dme-pilsen-light-1-lb-bag.html"]
+                - StaticText "Briess DME - Pilsen Light - 1 lb Bag"
+            - generic
+              - generic
+                - StaticText "$12.99"
+            - generic
+              - generic
+                - form
+                  - button "Add to Cart"
+                    - StaticText "Add to Cart"
+              - generic
+                - link " Add to Wish List" [url="http://127.0.0.1:7770/#"]
+                  - generic
+                    - StaticText ""
+                  - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - link "Image" [url="http://127.0.0.1:7770/tony-chachere-s-more-spice-creole-seasoning-14-oz.html"]
+              - generic
+                - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B001Q1J3QY.0.jpg"]
+            - strong
+              - link "Tony Chachere's More Spice Creole Seasoning - 14 oz" [url="http://127.0.0.1:7770/tony-chachere-s-more-spice-creole-seasoning-14-oz.html"]
+                - StaticText "Tony Chachere's More Spice Creole Seasoning - 14 oz"
+            - LayoutTable
+              - generic
+                - StaticText "Rating:"
+                - generic
+                  - generic
+                    - StaticText ""
+                  - generic
+                    - StaticText ""
+                  - StaticText "75%"
+              - generic
+                - link "12 Reviews" [url="http://127.0.0.1:7770/tony-chachere-s-more-spice-creole-seasoning-14-oz.html#reviews"]
+                  - StaticText "12"
+                  - StaticText "Reviews"
+            - generic
+              - generic
+                - StaticText "$7.92"
+            - generic
+              - generic
+                - form
+                  - button "Add to Cart"
+                    - StaticText "Add to Cart"
+              - generic
+                - link " Add to Wish List" [url="http://127.0.0.1:7770/#"]
+                  - generic
+                    - StaticText ""
+                  - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - link "Image" [url="http://127.0.0.1:7770/lobster-cobbler-pot-pie-gourmet-frozen-seafood-appetizers-set-of-8-trays.html"]
+              - generic
+                - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B0793RMRGT.0.jpg"]
+            - strong
+              - link "Lobster Cobbler Pot Pie - Gourmet Frozen Seafood Appetizers (Set of 8 Trays)" [url="http://127.0.0.1:7770/lobster-cobbler-pot-pie-gourmet-frozen-seafood-appetizers-set-of-8-trays.html"]
+                - StaticText "Lobster Cobbler Pot Pie - Gourmet Frozen Seafood Appetizers (Set of 8 Trays)"
+            - generic
+              - generic
+                - StaticText "$411.76"
+            - generic
+              - generic
+                - form
+                  - button "Add to Cart"
+                    - StaticText "Add to Cart"
+              - generic
+                - link " Add to Wish List" [url="http://127.0.0.1:7770/#"]
+                  - generic
+                    - StaticText ""
+                  - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - link "Image" [url="http://127.0.0.1:7770/crunchy-rice-rollers-gluten-free-vegan-3-5-oz-individual-packs-4-packs-of-8-rollers.html"]
+              - generic
+                - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B00J7HXXGA.0.jpg"]
+            - strong
+              - link "Crunchy Rice Rollers - Gluten Free - Vegan - 3.5 oz Individual Packs (4 Packs of 8 Rollers)" [url="http://127.0.0.1:7770/crunchy-rice-rollers-gluten-free-vegan-3-5-oz-individual-packs-4-packs-of-8-rollers.html"]
+                - StaticText "Crunchy Rice Rollers - Gluten Free - Vegan - 3.5 oz Individual Packs (4 Packs of 8 Rollers)"
+            - LayoutTable
+              - generic
+                - StaticText "Rating:"
+                - generic
+                  - generic
+                    - StaticText ""
+                  - generic
+                    - StaticText ""
+                  - StaticText "83%"
+              - generic
+                - link "12 Reviews" [url="http://127.0.0.1:7770/crunchy-rice-rollers-gluten-free-vegan-3-5-oz-individual-packs-4-packs-of-8-rollers.html#reviews"]
+                  - StaticText "12"
+                  - StaticText "Reviews"
+            - generic
+              - generic
+                - StaticText "$11.50"
+            - generic
+              - generic
+                - form
+                  - button "Add to Cart"
+                    - StaticText "Add to Cart"
+              - generic
+                - link " Add to Wish List" [url="http://127.0.0.1:7770/#"]
+                  - generic
+                    - StaticText ""
+                  - StaticText "Add to Wish List"
+        - paragraph
+          - StaticText "Items 1 to 12 of 24 total"
+        - generic
+          - strong
+            - StaticText "Page"
+          - list "Page"
+            - listitem [level=1]
+              - strong
+                - StaticText "You're currently reading page"
+                - StaticText "1"
+            - listitem [level=1]
+              - link "Page 2" [url="http://127.0.0.1:7770/?pbaocw=2"]
+                - StaticText "Page"
+                - StaticText "2"
+            - listitem [level=1]
+              - link " Page Next" [url="http://127.0.0.1:7770/?pbaocw=2"]
+                - generic
+                  - StaticText ""
+                - StaticText "Page"
+                - StaticText "Next"
+      - contentinfo
+        - form
+          - generic
+            - generic
+              - StaticText ""
+            - LabelText
+              - StaticText "Sign Up for Our Newsletter:"
+              - textbox "Sign Up for Our Newsletter:"
+                - generic
+          - generic
+            - button "Subscribe"
+              - StaticText "Subscribe"
+        - list
+          - listitem [level=1]
+            - link "Privacy and Cookie Policy" [url="http://127.0.0.1:7770/privacy-policy-cookie-restriction-mode/"]
+              - StaticText "Privacy and Cookie Policy"
+          - listitem [level=1]
+            - link "Search Terms" [url="http://127.0.0.1:7770/search/term/popular/"]
+              - StaticText "Search Terms"
+          - listitem [level=1]
+            - link "Advanced Search" [url="http://127.0.0.1:7770/catalogsearch/advanced/"]
+              - StaticText "Advanced Search"
+          - listitem [level=1]
+            - link "Orders and Returns" [url="http://127.0.0.1:7770/sales/guest/form/"]
+              - StaticText "Orders and Returns"
+          - listitem [level=1]
+            - link "Contact Us" [url="http://127.0.0.1:7770/contact/"]
+              - StaticText "Contact Us"
+        - generic
+          - StaticText "Copyright © 2013-present Magento, Inc. All rights reserved."
+        - generic
+          - StaticText "Help Us Keep Magento Healthy"
+          - StaticText
+          - link "Report All Bugs" [url="http://www.magentocommerce.com/bug-tracking"]
+            - StaticText "Report All Bugs"
+    - generic
+    - generic
+      - generic
+      - generic
+      - generic
+      - generic

@@ -1,0 +1,227 @@
+{
+  "role": "Independent current UI reference; not automatic exploration or blind annotation",
+  "conditions": "fresh guest cookies/storage; shared read-only proxy; no writes",
+  "posthoc_limit": "Some witness URLs originate in historical gold; not blind",
+  "urls": [
+    {
+      "requested_url": "http://127.0.0.1:7770/",
+      "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0000",
+      "metadata": {
+        "url": "http://127.0.0.1:7770/",
+        "title": "One Stop Market",
+        "target_id": "E42C032F4AD866337E63F1AFCB2DA291",
+        "captured_at": "2026-10-08T02:57:34.545473+00:00"
+      }
+    },
+    {
+      "requested_url": "http://127.0.0.1:7770/beauty-personal-care.html",
+      "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0001",
+      "metadata": {
+        "url": "http://127.0.0.1:7770/beauty-personal-care.html",
+        "title": "Beauty & Personal Care",
+        "target_id": "E42C032F4AD866337E63F1AFCB2DA291",
+        "captured_at": "2026-10-08T02:57:38.660088+00:00"
+      }
+    },
+    {
+      "requested_url": "http://127.0.0.1:7770/home-kitchen.html?cat=34",
+      "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0002",
+      "metadata": {
+        "url": "http://127.0.0.1:7770/home-kitchen.html?cat=34",
+        "title": "Home & Kitchen",
+        "target_id": "E42C032F4AD866337E63F1AFCB2DA291",
+        "captured_at": "2026-10-08T02:57:42.591501+00:00"
+      }
+    },
+    {
+      "requested_url": "http://127.0.0.1:7770/cell-phones-accessories.html?p=2",
+      "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0003",
+      "metadata": {
+        "url": "http://127.0.0.1:7770/cell-phones-accessories.html?p=2",
+        "title": "Cell Phones & Accessories",
+        "target_id": "E42C032F4AD866337E63F1AFCB2DA291",
+        "captured_at": "2026-10-08T02:57:46.523335+00:00"
+      }
+    },
+    {
+      "requested_url": "http://127.0.0.1:7770/beauty-personal-care.html?product_list_order=price",
+      "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0004",
+      "metadata": {
+        "url": "http://127.0.0.1:7770/beauty-personal-care.html?product_list_order=price",
+        "title": "Beauty & Personal Care",
+        "target_id": "E42C032F4AD866337E63F1AFCB2DA291",
+        "captured_at": "2026-10-08T02:57:50.590124+00:00"
+      }
+    },
+    {
+      "requested_url": "http://127.0.0.1:7770/catalogsearch/result/?q=shoe",
+      "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0005",
+      "metadata": {
+        "url": "http://127.0.0.1:7770/catalogsearch/result/?q=shoe",
+        "title": "Search results for: 'shoe'",
+        "target_id": "E42C032F4AD866337E63F1AFCB2DA291",
+        "captured_at": "2026-10-08T02:57:53.945233+00:00"
+      }
+    },
+    {
+      "requested_url": "http://127.0.0.1:7770/catalogsearch/result/?q=zzzz_no_result_20261008",
+      "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0006",
+      "metadata": {
+        "url": "http://127.0.0.1:7770/catalogsearch/result/?q=zzzz_no_result_20261008",
+        "title": "Search results for: 'zzzz_no_result_20261008'",
+        "target_id": "E42C032F4AD866337E63F1AFCB2DA291",
+        "captured_at": "2026-10-08T02:57:57.619429+00:00"
+      }
+    },
+    {
+      "requested_url": "http://127.0.0.1:7770/catalogsearch/advanced/",
+      "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0007",
+      "metadata": {
+        "url": "http://127.0.0.1:7770/catalogsearch/advanced/",
+        "title": "Advanced Search",
+        "target_id": "E42C032F4AD866337E63F1AFCB2DA291",
+        "captured_at": "2026-10-08T02:58:01.119083+00:00"
+      }
+    },
+    {
+      "requested_url": "http://127.0.0.1:7770/checkout/cart/",
+      "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0008",
+      "metadata": {
+        "url": "http://127.0.0.1:7770/checkout/cart/",
+        "title": "Shopping Cart",
+        "target_id": "E42C032F4AD866337E63F1AFCB2DA291",
+        "captured_at": "2026-10-08T02:58:04.721627+00:00"
+      }
+    },
+    {
+      "requested_url": "http://127.0.0.1:7770/catalog/product/view/id/16/",
+      "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0009",
+      "metadata": {
+        "url": "http://127.0.0.1:7770/catalog/product/view/id/16/",
+        "title": "Toothbrush Head Cover, Toothbrush Protective Case, Toothbrush Head Cap, for Home Travel Camping Lightweight Safe Protecting Toothbrush Head(Light blue)",
+        "target_id": "E42C032F4AD866337E63F1AFCB2DA291",
+        "captured_at": "2026-10-08T02:58:09.194817+00:00"
+      }
+    },
+    {
+      "requested_url": "http://127.0.0.1:7770/tweezers-for-succulents-duo.html",
+      "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0010",
+      "metadata": {
+        "url": "http://127.0.0.1:7770/tweezers-for-succulents-duo.html",
+        "title": "Tweezers For Succulents Duo",
+        "target_id": "E42C032F4AD866337E63F1AFCB2DA291",
+        "captured_at": "2026-10-08T02:58:13.096017+00:00"
+      }
+    },
+    {
+      "requested_url": "http://127.0.0.1:7770/the-super-dentists-electric-toothbrush-electric-toothbrush-with-rotating-head-for-children-tweens-teens-dr-haveonesupersmile.html",
+      "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0011",
+      "metadata": {
+        "url": "http://127.0.0.1:7770/the-super-dentists-electric-toothbrush-electric-toothbrush-with-rotating-head-for-children-tweens-teens-dr-haveonesupersmile.html",
+        "title": "The Super Dentists Electric Toothbrush, Electric Toothbrush with Rotating Head for Children, Tweens, & Teens (Dr. HaveOneSuperSmile)",
+        "target_id": "E42C032F4AD866337E63F1AFCB2DA291",
+        "captured_at": "2026-10-08T02:58:16.834496+00:00"
+      }
+    },
+    {
+      "requested_url": "http://127.0.0.1:7770/soft-clean-between-interdental-floss-brushes-random-color-oral-care-tool-20-pcs-2-pack-elastic-massage-gums-toothpick-2-box.html",
+      "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0012",
+      "metadata": {
+        "url": "http://127.0.0.1:7770/soft-clean-between-interdental-floss-brushes-random-color-oral-care-tool-20-pcs-2-pack-elastic-massage-gums-toothpick-2-box.html",
+        "title": "Soft Clean Between Interdental Floss Brushes Random Color Oral Care Tool 20 PCS/ 2 Pack Elastic Massage Gums Toothpick (2 box)",
+        "target_id": "E42C032F4AD866337E63F1AFCB2DA291",
+        "captured_at": "2026-10-08T02:58:20.478046+00:00"
+      }
+    },
+    {
+      "requested_url": "http://127.0.0.1:7770/mouth-guard-moldable-nightguard-for-grinding-teeth-at-night-whitening-tray-4-pack-upgraded-night-guards-to-keep-calm-professional-comfortable-mouthguards-for-sleep-2-sizes.html",
+      "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0013",
+      "metadata": {
+        "url": "http://127.0.0.1:7770/mouth-guard-moldable-nightguard-for-grinding-teeth-at-night-whitening-tray-4-pack-upgraded-night-guards-to-keep-calm-professional-comfortable-mouthguards-for-sleep-2-sizes.html",
+        "title": "Mouth Guard Moldable Nightguard for Grinding Teeth at Night, Whitening Tray, 4 Pack Upgraded Night Guards to Keep Calm, Professional Comfortable Mouthguards for Sleep, 2 Sizes",
+        "target_id": "E42C032F4AD866337E63F1AFCB2DA291",
+        "captured_at": "2026-10-08T02:58:24.413492+00:00"
+      }
+    },
+    {
+      "requested_url": "http://127.0.0.1:7770/2-boxes-of-iodent-overnight-whitening-denture-cleanser-tablets-20-per-box-40-tablets-total.html",
+      "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0014",
+      "metadata": {
+        "url": "http://127.0.0.1:7770/2-boxes-of-iodent-overnight-whitening-denture-cleanser-tablets-20-per-box-40-tablets-total.html",
+        "title": "2 - Boxes of Iodent Overnight Whitening Denture Cleanser Tablets 20 per box (40 tablets total)",
+        "target_id": "E42C032F4AD866337E63F1AFCB2DA291",
+        "captured_at": "2026-10-08T02:58:28.204870+00:00"
+      }
+    },
+    {
+      "requested_url": "http://127.0.0.1:7770/healifty-2-sets-of-professional-tongue-cleaners-tongue-cleaning-tools-for-home.html",
+      "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0015",
+      "metadata": {
+        "url": "http://127.0.0.1:7770/healifty-2-sets-of-professional-tongue-cleaners-tongue-cleaning-tools-for-home.html",
+        "title": "Healifty 2 Sets of Professional Tongue Cleaners Tongue Cleaning Tools for Home",
+        "target_id": "E42C032F4AD866337E63F1AFCB2DA291",
+        "captured_at": "2026-10-08T02:58:31.926740+00:00"
+      }
+    },
+    {
+      "requested_url": "http://127.0.0.1:7770/energizer-max-c-batteries-premium-alkaline-c-cell-batteries-8-battery-count.html?options=cart",
+      "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0016",
+      "metadata": {
+        "url": "http://127.0.0.1:7770/energizer-max-c-batteries-premium-alkaline-c-cell-batteries-8-battery-count.html?options=cart",
+        "title": "Energizer MAX C Batteries, Premium Alkaline C Cell Batteries (8 Battery Count)",
+        "target_id": "E42C032F4AD866337E63F1AFCB2DA291",
+        "captured_at": "2026-10-08T02:58:35.735042+00:00"
+      }
+    },
+    {
+      "requested_url": "http://127.0.0.1:7770/elastic-ligature-threader-orthodontic-elastic-instruments-ortho-twirl-on-new-by-g-s-online-store.html",
+      "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0017",
+      "metadata": {
+        "url": "http://127.0.0.1:7770/elastic-ligature-threader-orthodontic-elastic-instruments-ortho-twirl-on-new-by-g-s-online-store.html",
+        "title": "Elastic Ligature Threader Orthodontic Elastic Instruments Ortho Twirl ON New by G.S Online Store",
+        "target_id": "E42C032F4AD866337E63F1AFCB2DA291",
+        "captured_at": "2026-10-08T02:58:39.472380+00:00"
+      }
+    },
+    {
+      "requested_url": "http://127.0.0.1:7770/catalogsearch/result/?q=bread",
+      "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0018",
+      "metadata": {
+        "url": "http://127.0.0.1:7770/catalogsearch/result/?q=bread",
+        "title": "Search results for: 'bread'",
+        "target_id": "E42C032F4AD866337E63F1AFCB2DA291",
+        "captured_at": "2026-10-08T02:58:44.107905+00:00"
+      }
+    },
+    {
+      "requested_url": "http://127.0.0.1:7770/catalogsearch/result/?q=zzbenchmarknomatch20260929",
+      "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0019",
+      "metadata": {
+        "url": "http://127.0.0.1:7770/catalogsearch/result/?q=zzbenchmarknomatch20260929",
+        "title": "Search results for: 'zzbenchmarknomatch20260929'",
+        "target_id": "E42C032F4AD866337E63F1AFCB2DA291",
+        "captured_at": "2026-10-08T02:58:47.835762+00:00"
+      }
+    },
+    {
+      "requested_url": "http://127.0.0.1:7770/grocery-gourmet-food.html?price=0-1000",
+      "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0020",
+      "metadata": {
+        "url": "http://127.0.0.1:7770/grocery-gourmet-food.html?price=0-1000",
+        "title": "Grocery & Gourmet Food",
+        "target_id": "E42C032F4AD866337E63F1AFCB2DA291",
+        "captured_at": "2026-10-08T02:58:51.860252+00:00"
+      }
+    },
+    {
+      "requested_url": "http://127.0.0.1:7770/beauty-personal-care.html?p=2",
+      "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\site-verification-20261008\\0021",
+      "metadata": {
+        "url": "http://127.0.0.1:7770/beauty-personal-care.html?p=2",
+        "title": "Beauty & Personal Care",
+        "target_id": "E42C032F4AD866337E63F1AFCB2DA291",
+        "captured_at": "2026-10-08T02:58:55.695312+00:00"
+      }
+    }
+  ]
+}

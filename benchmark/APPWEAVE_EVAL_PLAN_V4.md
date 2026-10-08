@@ -2,6 +2,26 @@
 
 更新：2026-09-30。当前入口文件；v3及冻结v1产物保留为历史记录。
 
+2026-10-08推进入口：`PROGRESS_20261008.md`、`batch/README.md`。已新增参数化评分、92项EAV候选分类审查和图片来源映射，DB已核验子集7/7对7/7；其余UI业务细节29/29对16/29。用户确认新采集使用Flash及允许只读查询提交。原历史数字和阶段说明保留，下文未更新的状态以新推进记录和CURRENT_RESULTS为准。旧browser-use采集实际为Pro，Flash是B抽取模型；新A实验单列。
+
+**对照命名更正**：A比较“织语 Drive采集”与“browser-use采集”；B比较“织语 trace / 阿器 + DeepSeek V4 Flash”与“同一织语 trace / Claude Code + DeepSeek V4 Flash”。B固定同一26页任务包，不使用browser-use trace，不混用A/B表头。
+
+**当前评测脚本位置**：
+
+- A两层评分：[C:\Users\bulin\browser-use-demo\benchmark\ground-truth-vnext\score_two_layers.py](C:/Users/bulin/browser-use-demo/benchmark/ground-truth-vnext/score_two_layers.py)。
+- A原始UI证据规则：[C:\Users\bulin\browser-use-demo\benchmark\coverage-v3\score.py](C:/Users/bulin/browser-use-demo/benchmark/coverage-v3/score.py)。
+- B自身引用支持：[C:\Users\bulin\browser-use-demo\benchmark\harness-comparison\score_citations_v4.py](C:/Users/bulin/browser-use-demo/benchmark/harness-comparison/score_citations_v4.py)。
+- B原始声明/schema检查：[C:\Users\bulin\browser-use-demo\benchmark\harness-comparison\evaluate_original_task.py](C:/Users/bulin/browser-use-demo/benchmark/harness-comparison/evaluate_original_task.py)。
+- B成本日志：[C:\Users\bulin\browser-use-demo\benchmark\harness-comparison\build_cost_ledger.py](C:/Users/bulin/browser-use-demo/benchmark/harness-comparison/build_cost_ledger.py)。
+
+结果文件及复算命令统一见 [CURRENT_RESULTS.md](C:/Users/bulin/browser-use-demo/benchmark/CURRENT_RESULTS.md)。
+
+统一当前结果入口：`CURRENT_RESULTS.md`。按“两层并列、不合成总分”继续，已冻结并复算A双层结果：已核验DB子集6/6对6/6，业务细节29/29对16/29。B最新自身引用支持诊断为citations-v4：30/32对22/32（不等于完整语义精确率），7项测试通过。已找到阿器对应历史run及Flash模型标识，成本原始日志整理至cost-ledger.v1.json。下文旧阶段状态保留历史，以当前入口为准。
+
+DB核验新增进度：`ground-truth-vnext/PROGRESS_20260930.md`。已获得只读实时schema/EAV及公开商品样本，发现17项UI细节来自同一个description字段。已核验的6个独立DB字段子集两边都命中，不能将coverage-v3的29/29 vs16/29称为DB字段覆盖优势。下一版答案尚未冻结；待确定DB来源覆盖与业务细节覆盖的主次后继续。
+
+下一阶段具体计划：`NEXT_STEPS_20260930.md`。优先补实DB/EAV到界面的来源映射，再冻结有证据评分并重评已有A/B候选；补齐质量/成本，最后整理统一复算入口。当前标准并非本轮直接从数据库导出并核验的全集。
+
 最新A入口：`coverage-v3/README.md`。根据对抗审查修订标准和证据门槛，并完成原始trace重评：实体Drive2/3、browser-use3/3；有值/选项的核心属性29/29、16/29；页面4/6、5/6；状态2/6、1/6。搜索字段与数量控件单列，删除共现关系及重复空状态属性。53项参考事实验证后先冻结171个文件，再评分；12项测试及字节一致复算通过。旧coverage-v2数值仅作历史，不与新分母直接比较。B的名称召回与语义精确率缺口仍未修复。
 
 审查更正：见 `ADVERSARIAL_REVIEW_20260930.md`。当前完成的是核心覆盖与历史产物诊断，完整误报率、trace忠实度及成本尚未验收。B的30/32和26/32是声明召回，不验证候选逐条语义支持，不能据此判定总体准确性胜者；下文“优先阿器”仅限核心信息完整度。冻结文件与原始分数保留。
@@ -48,7 +68,7 @@
 3. 统一审计原始trace，输出T及证据索引；对无法证明不存在的项记unknown。界面展示与网络响应可获得性分别记录。
 4. 在G冻结后输出同分母覆盖矩阵、交集与独有项、采集遗漏/抽取遗漏清单。
 5. 直接接入两份现有 CM，冻结规范化评分并输出辅助诊断；不重新调用 `/ingest`，不要求 A 重建。
-6. A 已得出本轮选型结论：以业务属性证据丰富度为主，优先织语；browser-use 在空购物车和 trace 完整性方面更好。详细证据与边界见 `BENCHMARK_A_CONCLUSION_20260929.md`。
+6. A 已得出本轮选型结论：以业务属性证据丰富度为主，优先织语；browser-use 在空购物车和 trace 完整性方面更好。当前结果与边界见 `coverage-v3/README.md` 和 `CURRENT_RESULTS.md`；旧结论在 `archive/BENCHMARK_A_CONCLUSION_20260929.md`。
 7. B 已按用户决定改为原始 26 页 entity-extract 任务：相同 TASK/schema/inputs，直接比较历史阿器输出和用户执行完成的 Claude Code 输出。81 个输入文件哈希一致；结论见 `BENCHMARK_B_CONCLUSION_20260930.md`，不再把此前独立 CLI 的 Messages 404 当作阻塞。
 
 ## 5. 限制与当前阻塞
@@ -61,10 +81,10 @@
 
 ## 6. 文件
 
-- 历史计划：APPWEAVE_EVAL_PLAN_V3.md
+- 历史计划：`archive/APPWEAVE_EVAL_PLAN_V3.md`
 - 已冻结提取诊断：extraction/reports/existing-trace-scoped.v1.{json,md}
 - 新的共同标准与A审计：coverage-v2/
-- 原始需求参考：appweave-eval-plan-reference-20260920.md
+- 原始需求参考：`archive/appweave-eval-plan-reference-20260920.md`
 
 本文件随实际进度更新。任何新冻结使用新版本，禁止覆写extraction/freeze.v1.json及其纳入文件。
 
@@ -120,7 +140,7 @@ coverage-v2的v1数值/逐项矩阵与v2一致；v1自动报告有一句错误�
 
 ## 9. 当前交付与下一步
 
-- A 结论：`BENCHMARK_A_CONCLUSION_20260929.md`。当前业务属性采集目标下优先织语，保留 browser-use 的页面覆盖及完整性优势；不合成总分、不泛化为全站或所有网站算法结论。
+- A 结论：`coverage-v3/README.md`。当前业务属性采集目标下优先织语，保留 browser-use 的页面覆盖及完整性优势；不合成总分、不泛化为全站或所有网站算法结论。旧结论保存在 `archive/BENCHMARK_A_CONCLUSION_20260929.md`。
 - B 已完成现有产物的核心召回与格式/引用审计：阿器实体3/3、属性30/32，Claude Code实体2/3、属性26/32；原始 schema 合格页分别7/26与26/26。阿器204处 description→note 的内存修复模拟可使26页全通过，原件未修改。以信息完整度为主优先阿器，未经适配的格式可靠性则Claude Code更好。完整语义精确率尚未逐条裁定，不能宣称全指标胜出。
-- 当前报告：`BENCHMARK_B_CONCLUSION_20260930.md`；可复算数据与冻结：`harness-comparison/paired-original.v1.json`、`paired-original.freeze.v1.json`。Claude本地日志已确认Flash模型名，阿器对应历史运行模型日志未独立核实。35分钟为用户口径，日志墙钟约145分钟包含暂停/重复提示/压缩，不作速度排名。
+- 当前报告：`BENCHMARK_B_CONCLUSION_20260930.md`；可复算数据与冻结：`harness-comparison/paired-original.v1.json`、`paired-original.freeze.v1.json`。两边对应运行日志均记录 `DeepSeek-V4-Flash-0731`；这不等于供应商底层权重的独立证明。35分钟为用户口径，日志墙钟约145分钟包含暂停/重复提示/压缩，不作速度排名。
 - 原始 trace、原始 CM、extraction 冻结 v1、coverage 冻结 v1/v2 均不修改。旧清单回溯数值不称正式分数。

@@ -1,0 +1,666 @@
+- RootWebArea "Electronics" [url="http://127.0.0.1:7770/electronics.html?product_list_order=price&price=0-10000"]
+  - generic
+    - banner
+      - generic
+        - link "Skip to Content" [url="http://127.0.0.1:7770/electronics.html?product_list_order=price&price=0-10000#contentarea"]
+          - StaticText "Skip to Content"
+      - generic
+        - generic
+          - generic
+            - StaticText ""
+          - StaticText "Toggle Nav"
+        - link "store logo" [url="http://127.0.0.1:7770/"]
+          - image "one_stop_market_logo" [url="http://127.0.0.1:7770/media/logo/websites/1/image_15__1.png"]
+        - generic
+          - link " My Cart" [url="http://127.0.0.1:7770/checkout/cart/"]
+            - generic
+              - StaticText ""
+            - StaticText "My Cart"
+        - form
+          - LabelText
+            - generic
+              - StaticText ""
+            - StaticText "Search"
+          - generic
+            - combobox " Search" [expanded=false]
+              - generic
+    - generic
+      - tablist
+        - tab "Menu" [selected=false] [expanded=true]
+          - link "Menu" [url="http://127.0.0.1:7770/electronics.html?product_list_order=price&price=0-10000#store.menu"]
+            - StaticText "Menu"
+        - tabpanel
+          - navigation
+            - menu
+              - menuitem "BEAUTY & PERSONAL CARE "
+                - StaticText "BEAUTY & PERSONAL CARE"
+                - generic
+                  - StaticText ""
+              - menuitem "SPORTS & OUTDOORS "
+                - StaticText "SPORTS & OUTDOORS"
+                - generic
+                  - StaticText ""
+              - menuitem "CLOTHING, SHOES & JEWELRY "
+                - StaticText "CLOTHING, SHOES & JEWELRY"
+                - generic
+                  - StaticText ""
+              - menuitem "HOME & KITCHEN "
+                - StaticText "HOME & KITCHEN"
+                - generic
+                  - StaticText ""
+              - menuitem "OFFICE PRODUCTS "
+                - StaticText "OFFICE PRODUCTS"
+                - generic
+                  - StaticText ""
+              - menuitem "TOOLS & HOME IMPROVEMENT "
+                - StaticText "TOOLS & HOME IMPROVEMENT"
+                - generic
+                  - StaticText ""
+              - menuitem "HEALTH & HOUSEHOLD "
+                - StaticText "HEALTH & HOUSEHOLD"
+                - generic
+                  - StaticText ""
+              - menuitem "PATIO, LAWN & GARDEN "
+                - StaticText "PATIO, LAWN & GARDEN"
+                - generic
+                  - StaticText ""
+              - menuitem "ELECTRONICS "
+                - StaticText "ELECTRONICS"
+                - generic
+                  - StaticText ""
+              - menuitem "CELL PHONES & ACCESSORIES "
+                - StaticText "CELL PHONES & ACCESSORIES"
+                - generic
+                  - StaticText ""
+              - menuitem "VIDEO GAMES "
+                - StaticText "VIDEO GAMES"
+                - generic
+                  - StaticText ""
+              - menuitem "GROCERY & GOURMET FOOD "
+                - StaticText "GROCERY & GOURMET FOOD"
+                - generic
+                  - StaticText ""
+        - tab "Account" [selected=false] [expanded=false]
+          - link "Account" [url="http://127.0.0.1:7770/electronics.html?product_list_order=price&price=0-10000#store.links"]
+            - StaticText "Account"
+    - list
+      - listitem [level=1]
+        - link "Home" [url="http://127.0.0.1:7770/"]
+          - StaticText "Home"
+        - generic
+          - StaticText ""
+      - listitem [level=1]
+        - strong
+          - StaticText "Electronics"
+    - main
+      - generic
+      - heading "Electronics Items 1-12 of 14528" [level=1]
+        - StaticText "Electronics"
+      - generic
+        - paragraph
+          - StaticText "Items"
+          - StaticText "1"
+          - StaticText "-"
+          - StaticText "12"
+          - StaticText "of"
+          - StaticText "14528"
+        - generic
+          - LabelText
+            - StaticText "Sort By"
+          - combobox "Sort By" [expanded=false] [value="Price"]
+            - MenuListPopup
+              - option "Position" [selected=false]
+              - option "Product Name" [selected=false]
+              - option "Price" [selected=true]
+          - link " Set Descending Direction" [url="http://127.0.0.1:7770/electronics.html?product_list_order=price&price=0-10000#"]
+            - generic
+              - StaticText ""
+            - StaticText "Set Descending Direction"
+        - list
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/sugoi-80x100-mini-portable-monocular-handheld-telescope-bak4-prism-fmc-waterproof-shockproof-scope-for-birds-animals-watching-hunting-camping-travelling-scenery.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B09CHJPH5D.0.jpg"]
+              - strong
+                - link "Sugoi 80X100 Mini Portable Monocular Handheld Telescope BAK4 Prism FMC, Waterproof Shockproof Scope for Birds Animals Watching Hunting Camping Travelling Scenery" [url="http://127.0.0.1:7770/sugoi-80x100-mini-portable-monocular-handheld-telescope-bak4-prism-fmc-waterproof-shockproof-scope-for-birds-animals-watching-hunting-camping-travelling-scenery.html"]
+                  - StaticText "Sugoi 80X100 Mini Portable Monocular Handheld Telescope BAK4 Prism FMC, Waterproof Shockproof Scope for Birds Animals Watching Hunting Camping Travelling Scenery"
+              - generic
+                - generic
+                  - StaticText "$0.01"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/wireless-earbuds-mics-call-noise-canceling-wireless-charging-case-bluetooth-5-0-headset-wireless-earphones-mini-earbuds-stereo-headphones-white.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B09RB14X4D.0.jpg"]
+              - strong
+                - link "Wireless Earbuds Mics Call Noise Canceling & Wireless Charging Case,Bluetooth 5.0 Headset Wireless Earphones Mini Earbuds Stereo Headphones (White)" [url="http://127.0.0.1:7770/wireless-earbuds-mics-call-noise-canceling-wireless-charging-case-bluetooth-5-0-headset-wireless-earphones-mini-earbuds-stereo-headphones-white.html"]
+                  - StaticText "Wireless Earbuds Mics Call Noise Canceling & Wireless Charging Case,Bluetooth 5.0 Headset Wireless Earphones Mini Earbuds Stereo Headphones (White)"
+              - generic
+                - generic
+                  - StaticText "$0.01"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/bluetooth-speake-portable-waterproof-premium-rose-gold-3d-mini-speaker-with-portable-waterproof-case-mic-a14-pink.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B09P4Z1D1Z.0.jpg"]
+              - strong
+                - link "Bluetooth Speake Portable Waterproof Premium Rose Gold 3D Mini Speaker with Portable Waterproof Case Mic,A14 (Pink)" [url="http://127.0.0.1:7770/bluetooth-speake-portable-waterproof-premium-rose-gold-3d-mini-speaker-with-portable-waterproof-case-mic-a14-pink.html"]
+                  - StaticText "Bluetooth Speake Portable Waterproof Premium Rose Gold 3D Mini Speaker with Portable Waterproof Case Mic,A14 (Pink)"
+              - generic
+                - generic
+                  - StaticText "$0.01"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/hudiemm0b-type-c-to-3-5mm-adapter-cable-1m-type-c-male-to-3-5mm-plug-aux-audio-adapter-cable-for-samsung-car-speaker-blue-a.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B083V1NF73.0.jpg"]
+              - strong
+                - link "hudiemm0B Type-C to 3.5mm Adapter Cable, 1m Type-C Male to 3.5mm Plug AUX Audio Adapter Cable for Samsung Car Speaker Blue A" [url="http://127.0.0.1:7770/hudiemm0b-type-c-to-3-5mm-adapter-cable-1m-type-c-male-to-3-5mm-plug-aux-audio-adapter-cable-for-samsung-car-speaker-blue-a.html"]
+                  - StaticText "hudiemm0B Type-C to 3.5mm Adapter Cable, 1m Type-C Male to 3.5mm Plug AUX Audio Adapter Cable for Samsung Car Speaker Blue A"
+              - generic
+                - generic
+                  - StaticText "$0.01"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/luyanhapy9-bluetooth-5-0-wireless-earphone-1pc-xt-5-mini-hifi-sound-in-ear-earbuds-headset-with-mic-for-noise-cancelling-comfortable-premium-sound-with-deep-bass-for-sport-black-one-size.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B0963936TH.0.jpg"]
+              - strong
+                - link "LUYANhapy9 Bluetooth 5.0 Wireless Earphone,1Pc XT-5 Mini HiFi Sound in-Ear Earbuds Headset with Mic for Noise Cancelling Comfortable Premium Sound with Deep Bass for Sport Black One Size" [url="http://127.0.0.1:7770/luyanhapy9-bluetooth-5-0-wireless-earphone-1pc-xt-5-mini-hifi-sound-in-ear-earbuds-headset-with-mic-for-noise-cancelling-comfortable-premium-sound-with-deep-bass-for-sport-black-one-size.html"]
+                  - StaticText "LUYANhapy9 Bluetooth 5.0 Wireless Earphone,1Pc XT-5 Mini HiFi Sound in-Ear Earbuds Headset with Mic for Noise Cancelling Comfortable Premium Sound with Deep Bass for Sport Black One Size"
+              - generic
+                - generic
+                  - StaticText "$0.14"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/projector-portable-screen-easy-to-fold-light-3d-high-definition-screen.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B09RH3K232.0.jpg"]
+              - strong
+                - link "Projector Portable Screen Easy to Fold -Light 3D High Definition Screen" [url="http://127.0.0.1:7770/projector-portable-screen-easy-to-fold-light-3d-high-definition-screen.html"]
+                  - StaticText "Projector Portable Screen Easy to Fold -Light 3D High Definition Screen"
+              - generic
+                - generic
+                  - StaticText "$0.70"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/hudiemm0b-car-cassette-audio-converter-3-5mm-jack-car-aux-cassette-tape-adapter-audio-mp3-cd-phone-radio-converter.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B084D1MRWQ.0.jpg"]
+              - strong
+                - link "hudiemm0B Car Cassette Audio Converter, 3.5mm Jack Car AUX Cassette Tape Adapter Audio MP3 CD Phone Radio Converter" [url="http://127.0.0.1:7770/hudiemm0b-car-cassette-audio-converter-3-5mm-jack-car-aux-cassette-tape-adapter-audio-mp3-cd-phone-radio-converter.html"]
+                  - StaticText "hudiemm0B Car Cassette Audio Converter, 3.5mm Jack Car AUX Cassette Tape Adapter Audio MP3 CD Phone Radio Converter"
+              - generic
+                - generic
+                  - StaticText "$0.99"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/speedtalk-mobile-gps-tracker-sim-card-starter-kit-3-in-1-universal-simcard-standard-micro-nano-for-kids-senior-pet-car-fitness-activity-5g-4g-lte-tracking-devices-no-contract.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B07933LMZW.0.jpg"]
+              - strong
+                - link "SpeedTalk Mobile GPS Tracker SIM Card Starter Kit | 3 in 1 Universal Simcard: Standard, Micro, Nano for Kids Senior Pet Car Fitness Activity 5G 4G LTE Tracking Devices | No Contract" [url="http://127.0.0.1:7770/speedtalk-mobile-gps-tracker-sim-card-starter-kit-3-in-1-universal-simcard-standard-micro-nano-for-kids-senior-pet-car-fitness-activity-5g-4g-lte-tracking-devices-no-contract.html"]
+                  - StaticText "SpeedTalk Mobile GPS Tracker SIM Card Starter Kit | 3 in 1 Universal Simcard: Standard, Micro, Nano for Kids Senior Pet Car Fitness Activity 5G 4G LTE Tracking Devices | No Contract"
+              - LayoutTable
+                - generic
+                  - StaticText "Rating:"
+                  - generic
+                    - generic
+                      - StaticText ""
+                    - generic
+                      - StaticText ""
+                    - StaticText "74%"
+                - generic
+                  - link "10 Reviews" [url="http://127.0.0.1:7770/speedtalk-mobile-gps-tracker-sim-card-starter-kit-3-in-1-universal-simcard-standard-micro-nano-for-kids-senior-pet-car-fitness-activity-5g-4g-lte-tracking-devices-no-contract.html#reviews"]
+                    - StaticText "10"
+                    - StaticText "Reviews"
+              - generic
+                - generic
+                  - StaticText "$0.99"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/lvhe-16-mega-pixels-digital-camera-vlogging-flip-selfie-camera-full-hd-1080p-camera-with-2-4-inch-lcd-screen-camera-for-family-gathering-indoor-outdoor-travel-selfie-black.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B07Y3DQC2N.0.jpg"]
+              - strong
+                - link "LVHE 16 Mega Pixels Digital Camera Vlogging Flip Selfie Camera Full HD 1080P Camera with 2.4 inch LCD Screen Camera for Family Gathering/Indoor/Outdoor/Travel/Selfie (Black)" [url="http://127.0.0.1:7770/lvhe-16-mega-pixels-digital-camera-vlogging-flip-selfie-camera-full-hd-1080p-camera-with-2-4-inch-lcd-screen-camera-for-family-gathering-indoor-outdoor-travel-selfie-black.html"]
+                  - StaticText "LVHE 16 Mega Pixels Digital Camera Vlogging Flip Selfie Camera Full HD 1080P Camera with 2.4 inch LCD Screen Camera for Family Gathering/Indoor/Outdoor/Travel/Selfie (Black)"
+              - generic
+                - generic
+                  - StaticText "$1.09"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/bluetooth-single-ear-ultra-long-standby-fast-charge-anti-noise-5-0-bluetooth-over-ear-headphones-a1-red.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B09NLML6YZ.0.jpg"]
+              - strong
+                - link "Bluetooth Single Ear Ultra-Long Standby Fast Charge Anti-Noise 5.0 Bluetooth Over-Ear Headphones,A1 (Red)" [url="http://127.0.0.1:7770/bluetooth-single-ear-ultra-long-standby-fast-charge-anti-noise-5-0-bluetooth-over-ear-headphones-a1-red.html"]
+                  - StaticText "Bluetooth Single Ear Ultra-Long Standby Fast Charge Anti-Noise 5.0 Bluetooth Over-Ear Headphones,A1 (Red)"
+              - generic
+                - generic
+                  - StaticText "$1.14"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/vlogging-camera-4k-digital-camera-for-youtube-with-wifi-16x-digital-zoom-0221-bs93.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B09SZ43M7T.0.jpg"]
+              - strong
+                - link "Vlogging Camera, 4K Digital Camera for YouTube with WiFi, 16X Digital Zoom 0221-bs93" [url="http://127.0.0.1:7770/vlogging-camera-4k-digital-camera-for-youtube-with-wifi-16x-digital-zoom-0221-bs93.html"]
+                  - StaticText "Vlogging Camera, 4K Digital Camera for YouTube with WiFi, 16X Digital Zoom 0221-bs93"
+              - generic
+                - generic
+                  - StaticText "$1.14"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/cables-uk-hdmi-cable-right-angled-1-4-prem-gold-ethernet-5m-3d-for-sky-lcd-virgin.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B008XHI8B0.0.jpg"]
+              - strong
+                - link "Cables UK HDMI CABLE RIGHT ANGLED 1.4 PREM GOLD + ETHERNET 5m 3D for SKY LCD VIRGIN" [url="http://127.0.0.1:7770/cables-uk-hdmi-cable-right-angled-1-4-prem-gold-ethernet-5m-3d-for-sky-lcd-virgin.html"]
+                  - StaticText "Cables UK HDMI CABLE RIGHT ANGLED 1.4 PREM GOLD + ETHERNET 5m 3D for SKY LCD VIRGIN"
+              - generic
+                - generic
+                  - StaticText "$1.17"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+        - generic
+          - strong
+            - StaticText "Page"
+          - list "Page"
+            - listitem [level=1]
+              - strong
+                - StaticText "You're currently reading page"
+                - StaticText "1"
+            - listitem [level=1]
+              - link "Page 2" [url="http://127.0.0.1:7770/electronics.html?p=2&price=0-10000&product_list_order=price"]
+                - StaticText "Page"
+                - StaticText "2"
+            - listitem [level=1]
+              - link "Page 3" [url="http://127.0.0.1:7770/electronics.html?p=3&price=0-10000&product_list_order=price"]
+                - StaticText "Page"
+                - StaticText "3"
+            - listitem [level=1]
+              - link "Page 4" [url="http://127.0.0.1:7770/electronics.html?p=4&price=0-10000&product_list_order=price"]
+                - StaticText "Page"
+                - StaticText "4"
+            - listitem [level=1]
+              - link "Page 5" [url="http://127.0.0.1:7770/electronics.html?p=5&price=0-10000&product_list_order=price"]
+                - StaticText "Page"
+                - StaticText "5"
+            - listitem [level=1]
+              - link " Page Next" [url="http://127.0.0.1:7770/electronics.html?p=2&price=0-10000&product_list_order=price"]
+                - generic
+                  - StaticText ""
+                - StaticText "Page"
+                - StaticText "Next"
+        - generic
+          - strong
+            - StaticText "Shop By"
+        - heading "Now Shopping by" [level=2]
+          - StaticText "Now Shopping by"
+        - list
+          - listitem [level=1]
+            - StaticText "Price"
+            - StaticText ":"
+            - StaticText "$0.00 - $9,999.99"
+            - link "Remove This Item" [url="http://127.0.0.1:7770/electronics.html?product_list_order=price"]
+              - StaticText "Remove This Item"
+        - generic
+          - link "Clear All" [url="http://127.0.0.1:7770/electronics.html?product_list_order=price"]
+            - StaticText "Clear All"
+        - heading "Shopping Options" [level=2]
+          - StaticText "Shopping Options"
+        - DescriptionList
+          - heading "Category" [level=3]
+            - StaticText "Category"
+          - definition
+            - list
+              - listitem [level=1]
+                - link "Home Audio( 1280 item )" [url="http://127.0.0.1:7770/electronics.html?cat=51&price=0-10000&product_list_order=price"]
+                  - StaticText "Home Audio"
+                  - StaticText "("
+                  - StaticText "1280"
+                  - StaticText "item"
+                  - StaticText ")"
+              - listitem [level=1]
+                - link "Video Projectors( 481 item )" [url="http://127.0.0.1:7770/electronics.html?cat=52&price=0-10000&product_list_order=price"]
+                  - StaticText "Video Projectors"
+                  - StaticText "("
+                  - StaticText "481"
+                  - StaticText "item"
+                  - StaticText ")"
+              - listitem [level=1]
+                - link "Accessories & Supplies( 2409 item )" [url="http://127.0.0.1:7770/electronics.html?cat=53&price=0-10000&product_list_order=price"]
+                  - StaticText "Accessories & Supplies"
+                  - StaticText "("
+                  - StaticText "2409"
+                  - StaticText "item"
+                  - StaticText ")"
+              - listitem [level=1]
+                - link "Television & Video( 1078 item )" [url="http://127.0.0.1:7770/electronics.html?cat=54&price=0-10000&product_list_order=price"]
+                  - StaticText "Television & Video"
+                  - StaticText "("
+                  - StaticText "1078"
+                  - StaticText "item"
+                  - StaticText ")"
+              - listitem [level=1]
+                - link "Camera & Photo( 3511 item )" [url="http://127.0.0.1:7770/electronics.html?cat=55&price=0-10000&product_list_order=price"]
+                  - StaticText "Camera & Photo"
+                  - StaticText "("
+                  - StaticText "3511"
+                  - StaticText "item"
+                  - StaticText ")"
+              - listitem [level=1]
+                - link "Computers & Accessories( 2927 item )" [url="http://127.0.0.1:7770/electronics.html?cat=56&price=0-10000&product_list_order=price"]
+                  - StaticText "Computers & Accessories"
+                  - StaticText "("
+                  - StaticText "2927"
+                  - StaticText "item"
+                  - StaticText ")"
+              - listitem [level=1]
+                - link "Headphones( 631 item )" [url="http://127.0.0.1:7770/electronics.html?cat=60&price=0-10000&product_list_order=price"]
+                  - StaticText "Headphones"
+                  - StaticText "("
+                  - StaticText "631"
+                  - StaticText "item"
+                  - StaticText ")"
+              - listitem [level=1]
+                - link "Portable Audio & Video( 824 item )" [url="http://127.0.0.1:7770/electronics.html?cat=62&price=0-10000&product_list_order=price"]
+                  - StaticText "Portable Audio & Video"
+                  - StaticText "("
+                  - StaticText "824"
+                  - StaticText "item"
+                  - StaticText ")"
+              - listitem [level=1]
+                - link "Security & Surveillance( 249 item )" [url="http://127.0.0.1:7770/electronics.html?cat=63&price=0-10000&product_list_order=price"]
+                  - StaticText "Security & Surveillance"
+                  - StaticText "("
+                  - StaticText "249"
+                  - StaticText "item"
+                  - StaticText ")"
+              - listitem [level=1]
+                - link "Power Accessories( 243 item )" [url="http://127.0.0.1:7770/electronics.html?cat=64&price=0-10000&product_list_order=price"]
+                  - StaticText "Power Accessories"
+                  - StaticText "("
+                  - StaticText "243"
+                  - StaticText "item"
+                  - StaticText ")"
+              - listitem [level=1]
+                - link "Car & Vehicle Electronics( 635 item )" [url="http://127.0.0.1:7770/electronics.html?cat=65&price=0-10000&product_list_order=price"]
+                  - StaticText "Car & Vehicle Electronics"
+                  - StaticText "("
+                  - StaticText "635"
+                  - StaticText "item"
+                  - StaticText ")"
+              - listitem [level=1]
+                - link "Wearable Technology( 120 item )" [url="http://127.0.0.1:7770/electronics.html?cat=68&price=0-10000&product_list_order=price"]
+                  - StaticText "Wearable Technology"
+                  - StaticText "("
+                  - StaticText "120"
+                  - StaticText "item"
+                  - StaticText ")"
+              - listitem [level=1]
+                - link "GPS, Finders & Accessories( 102 item )" [url="http://127.0.0.1:7770/electronics.html?cat=69&price=0-10000&product_list_order=price"]
+                  - StaticText "GPS, Finders & Accessories"
+                  - StaticText "("
+                  - StaticText "102"
+                  - StaticText "item"
+                  - StaticText ")"
+          - heading "Price" [level=3]
+            - StaticText "Price"
+          - definition
+            - list
+              - listitem [level=1]
+                - link "$0.00 - $999.99( 13938 item )" [url="http://127.0.0.1:7770/electronics.html?price=0-1000%2C0-10000&product_list_order=price"]
+                  - StaticText "$0.00"
+                  - StaticText "-"
+                  - StaticText "$999.99"
+                  - StaticText "("
+                  - StaticText "13938"
+                  - StaticText "item"
+                  - StaticText ")"
+              - listitem [level=1]
+                - link "$1,000.00 - $1,999.99( 329 item )" [url="http://127.0.0.1:7770/electronics.html?price=1000-2000%2C0-10000&product_list_order=price"]
+                  - StaticText "$1,000.00"
+                  - StaticText "-"
+                  - StaticText "$1,999.99"
+                  - StaticText "("
+                  - StaticText "329"
+                  - StaticText "item"
+                  - StaticText ")"
+              - listitem [level=1]
+                - link "$2,000.00 - $2,999.99( 123 item )" [url="http://127.0.0.1:7770/electronics.html?price=2000-3000%2C0-10000&product_list_order=price"]
+                  - StaticText "$2,000.00"
+                  - StaticText "-"
+                  - StaticText "$2,999.99"
+                  - StaticText "("
+                  - StaticText "123"
+                  - StaticText "item"
+                  - StaticText ")"
+              - listitem [level=1]
+                - link "$3,000.00 - $3,999.99( 69 item )" [url="http://127.0.0.1:7770/electronics.html?price=3000-4000%2C0-10000&product_list_order=price"]
+                  - StaticText "$3,000.00"
+                  - StaticText "-"
+                  - StaticText "$3,999.99"
+                  - StaticText "("
+                  - StaticText "69"
+                  - StaticText "item"
+                  - StaticText ")"
+              - listitem [level=1]
+                - link "$4,000.00 - $4,999.99( 32 item )" [url="http://127.0.0.1:7770/electronics.html?price=4000-5000%2C0-10000&product_list_order=price"]
+                  - StaticText "$4,000.00"
+                  - StaticText "-"
+                  - StaticText "$4,999.99"
+                  - StaticText "("
+                  - StaticText "32"
+                  - StaticText "item"
+                  - StaticText ")"
+              - listitem [level=1]
+                - link "$5,000.00 - $5,999.99( 17 item )" [url="http://127.0.0.1:7770/electronics.html?price=5000-6000%2C0-10000&product_list_order=price"]
+                  - StaticText "$5,000.00"
+                  - StaticText "-"
+                  - StaticText "$5,999.99"
+                  - StaticText "("
+                  - StaticText "17"
+                  - StaticText "item"
+                  - StaticText ")"
+              - listitem [level=1]
+                - link "$6,000.00 - $6,999.99( 8 item )" [url="http://127.0.0.1:7770/electronics.html?price=6000-7000%2C0-10000&product_list_order=price"]
+                  - StaticText "$6,000.00"
+                  - StaticText "-"
+                  - StaticText "$6,999.99"
+                  - StaticText "("
+                  - StaticText "8"
+                  - StaticText "item"
+                  - StaticText ")"
+              - listitem [level=1]
+                - link "$7,000.00 - $7,999.99( 4 item )" [url="http://127.0.0.1:7770/electronics.html?price=7000-8000%2C0-10000&product_list_order=price"]
+                  - StaticText "$7,000.00"
+                  - StaticText "-"
+                  - StaticText "$7,999.99"
+                  - StaticText "("
+                  - StaticText "4"
+                  - StaticText "item"
+                  - StaticText ")"
+              - listitem [level=1]
+                - link "$8,000.00 - $8,999.99( 6 item )" [url="http://127.0.0.1:7770/electronics.html?price=8000-9000%2C0-10000&product_list_order=price"]
+                  - StaticText "$8,000.00"
+                  - StaticText "-"
+                  - StaticText "$8,999.99"
+                  - StaticText "("
+                  - StaticText "6"
+                  - StaticText "item"
+                  - StaticText ")"
+              - listitem [level=1]
+                - link "$9,000.00 and above( 2 item )" [url="http://127.0.0.1:7770/electronics.html?price=9000-10000%2C0-10000&product_list_order=price"]
+                  - StaticText "$9,000.00"
+                  - StaticText "and above"
+                  - StaticText "("
+                  - StaticText "2"
+                  - StaticText "item"
+                  - StaticText ")"
+        - generic
+          - heading "Compare Products" [level=2]
+            - StaticText "Compare Products"
+        - generic
+          - StaticText "You have no items to compare."
+        - generic
+          - heading "My Wish List" [level=2]
+            - StaticText "My Wish List"
+        - generic
+          - StaticText "You have no items in your wish list."
+    - contentinfo
+      - form
+        - generic
+          - generic
+            - StaticText ""
+          - LabelText
+            - StaticText "Sign Up for Our Newsletter:"
+            - textbox "Sign Up for Our Newsletter:"
+              - generic
+        - generic
+          - button "Subscribe"
+            - StaticText "Subscribe"
+      - list
+        - listitem [level=1]
+          - link "Privacy and Cookie Policy" [url="http://127.0.0.1:7770/privacy-policy-cookie-restriction-mode/"]
+            - StaticText "Privacy and Cookie Policy"
+        - listitem [level=1]
+          - link "Search Terms" [url="http://127.0.0.1:7770/search/term/popular/"]
+            - StaticText "Search Terms"
+        - listitem [level=1]
+          - link "Advanced Search" [url="http://127.0.0.1:7770/catalogsearch/advanced/"]
+            - StaticText "Advanced Search"
+        - listitem [level=1]
+          - link "Orders and Returns" [url="http://127.0.0.1:7770/sales/guest/form/"]
+            - StaticText "Orders and Returns"
+        - listitem [level=1]
+          - link "Contact Us" [url="http://127.0.0.1:7770/contact/"]
+            - StaticText "Contact Us"
+      - generic
+        - StaticText "Copyright © 2013-present Magento, Inc. All rights reserved."
+      - generic
+        - StaticText "Help Us Keep Magento Healthy"
+        - StaticText
+        - link "Report All Bugs" [url="http://www.magentocommerce.com/bug-tracking"]
+          - StaticText "Report All Bugs"
+    - generic

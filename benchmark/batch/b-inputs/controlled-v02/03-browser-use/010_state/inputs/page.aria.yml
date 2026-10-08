@@ -1,0 +1,644 @@
+- RootWebArea "Electronics" [url="http://127.0.0.1:7770/electronics.html?cat=55&p=2&price=0-10000&product_list_order=price"]
+  - generic
+    - banner
+      - generic
+        - link "Skip to Content" [url="http://127.0.0.1:7770/electronics.html?cat=55&p=2&price=0-10000&product_list_order=price#contentarea"]
+          - StaticText "Skip to Content"
+      - generic
+        - generic
+          - generic
+            - StaticText ""
+          - StaticText "Toggle Nav"
+        - link "store logo" [url="http://127.0.0.1:7770/"]
+          - image "one_stop_market_logo" [url="http://127.0.0.1:7770/media/logo/websites/1/image_15__1.png"]
+        - generic
+          - link " My Cart" [url="http://127.0.0.1:7770/checkout/cart/"]
+            - generic
+              - StaticText ""
+            - StaticText "My Cart"
+        - form
+          - LabelText
+            - generic
+              - StaticText ""
+            - StaticText "Search"
+          - generic
+            - combobox " Search" [expanded=false]
+              - generic
+    - generic
+      - tablist
+        - tab "Menu" [selected=false] [expanded=true]
+          - link "Menu" [url="http://127.0.0.1:7770/electronics.html?cat=55&p=2&price=0-10000&product_list_order=price#store.menu"]
+            - StaticText "Menu"
+        - tabpanel
+          - navigation
+            - menu
+              - menuitem "BEAUTY & PERSONAL CARE "
+                - StaticText "BEAUTY & PERSONAL CARE"
+                - generic
+                  - StaticText ""
+              - menuitem "SPORTS & OUTDOORS "
+                - StaticText "SPORTS & OUTDOORS"
+                - generic
+                  - StaticText ""
+              - menuitem "CLOTHING, SHOES & JEWELRY "
+                - StaticText "CLOTHING, SHOES & JEWELRY"
+                - generic
+                  - StaticText ""
+              - menuitem "HOME & KITCHEN "
+                - StaticText "HOME & KITCHEN"
+                - generic
+                  - StaticText ""
+              - menuitem "OFFICE PRODUCTS "
+                - StaticText "OFFICE PRODUCTS"
+                - generic
+                  - StaticText ""
+              - menuitem "TOOLS & HOME IMPROVEMENT "
+                - StaticText "TOOLS & HOME IMPROVEMENT"
+                - generic
+                  - StaticText ""
+              - menuitem "HEALTH & HOUSEHOLD "
+                - StaticText "HEALTH & HOUSEHOLD"
+                - generic
+                  - StaticText ""
+              - menuitem "PATIO, LAWN & GARDEN "
+                - StaticText "PATIO, LAWN & GARDEN"
+                - generic
+                  - StaticText ""
+              - menuitem "ELECTRONICS "
+                - StaticText "ELECTRONICS"
+                - generic
+                  - StaticText ""
+              - menuitem "CELL PHONES & ACCESSORIES "
+                - StaticText "CELL PHONES & ACCESSORIES"
+                - generic
+                  - StaticText ""
+              - menuitem "VIDEO GAMES "
+                - StaticText "VIDEO GAMES"
+                - generic
+                  - StaticText ""
+              - menuitem "GROCERY & GOURMET FOOD "
+                - StaticText "GROCERY & GOURMET FOOD"
+                - generic
+                  - StaticText ""
+        - tab "Account" [selected=false] [expanded=false]
+          - link "Account" [url="http://127.0.0.1:7770/electronics.html?cat=55&p=2&price=0-10000&product_list_order=price#store.links"]
+            - StaticText "Account"
+    - list
+      - listitem [level=1]
+        - link "Home" [url="http://127.0.0.1:7770/"]
+          - StaticText "Home"
+        - generic
+          - StaticText ""
+      - listitem [level=1]
+        - strong
+          - StaticText "Electronics"
+    - main
+      - generic
+      - heading "Electronics Items 13-24 of 3511" [level=1]
+        - StaticText "Electronics"
+      - generic
+        - paragraph
+          - StaticText "Items"
+          - StaticText "13"
+          - StaticText "-"
+          - StaticText "24"
+          - StaticText "of"
+          - StaticText "3511"
+        - generic
+          - LabelText
+            - StaticText "Sort By"
+          - combobox "Sort By" [expanded=false] [value="Price"]
+            - MenuListPopup
+              - option "Position" [selected=false]
+              - option "Product Name" [selected=false]
+              - option "Price" [selected=true]
+          - link " Set Descending Direction" [url="http://127.0.0.1:7770/electronics.html?cat=55&p=2&price=0-10000&product_list_order=price#"]
+            - generic
+              - StaticText ""
+            - StaticText "Set Descending Direction"
+        - list
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/panasonic-lumix-dmc-ts30-waterproof-digital-camera-orange-bundle-with-32gb-memory-card-floating-wrist-strap-lcd-screen-protectors-and-more.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B07RP221V4.0.jpg"]
+              - strong
+                - link "Panasonic Lumix DMC-TS30 Waterproof Digital Camera (Orange) - Bundle with 32GB Memory Card + Floating Wrist Strap + LCD Screen Protectors and More" [url="http://127.0.0.1:7770/panasonic-lumix-dmc-ts30-waterproof-digital-camera-orange-bundle-with-32gb-memory-card-floating-wrist-strap-lcd-screen-protectors-and-more.html"]
+                  - StaticText "Panasonic Lumix DMC-TS30 Waterproof Digital Camera (Orange) - Bundle with 32GB Memory Card + Floating Wrist Strap + LCD Screen Protectors and More"
+              - generic
+                - generic
+                  - StaticText "$3.16"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/fed-5c-ussr-soviet-union-russian-35-mm-rangefinder-film-camera-industar-61-l-d-lens.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B0764MMHZQ.0.jpg"]
+              - strong
+                - link "FED-5C USSR Soviet Union Russian 35 mm Rangefinder film camera Industar-61 L/D Lens" [url="http://127.0.0.1:7770/fed-5c-ussr-soviet-union-russian-35-mm-rangefinder-film-camera-industar-61-l-d-lens.html"]
+                  - StaticText "FED-5C USSR Soviet Union Russian 35 mm Rangefinder film camera Industar-61 L/D Lens"
+              - generic
+                - generic
+                  - StaticText "$3.19"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/yadsheng-ball-head-tilt-head-cnc-monopod-ball-head-with-quick-release-plate-tripod-heads-color-black-size-one-size.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B096DGYTPN.0.jpg"]
+              - strong
+                - link "YADSHENG Ball Head Tilt Head CNC Monopod Ball Head with Quick Release Plate Tripod Heads (Color : Black, Size : One Size)" [url="http://127.0.0.1:7770/yadsheng-ball-head-tilt-head-cnc-monopod-ball-head-with-quick-release-plate-tripod-heads-color-black-size-one-size.html"]
+                  - StaticText "YADSHENG Ball Head Tilt Head CNC Monopod Ball Head with Quick Release Plate Tripod Heads (Color : Black, Size : One Size)"
+              - generic
+                - generic
+                  - StaticText "$3.33"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/yivibe-underwater-protective-shell-plastic-waterproof-housing-full-protection-portable-for-sj10-motion-camera.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B09HFSKD69.0.jpg"]
+              - strong
+                - link "Yivibe Underwater Protective Shell, Plastic Waterproof Housing Full Protection Portable for SJ10 Motion Camera" [url="http://127.0.0.1:7770/yivibe-underwater-protective-shell-plastic-waterproof-housing-full-protection-portable-for-sj10-motion-camera.html"]
+                  - StaticText "Yivibe Underwater Protective Shell, Plastic Waterproof Housing Full Protection Portable for SJ10 Motion Camera"
+              - generic
+                - generic
+                  - StaticText "$3.36"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/improved-4k-wifi-action-camera-waterproof-hd-1080p-dvr-cam-dv-video-camcorder-sports-camera-with-helmet-accessories-kit.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B09NVHGXYN.0.jpg"]
+              - strong
+                - link "Improved 4K WiFi Action Camera Waterproof HD 1080P DVR Cam DV Video Camcorder Sports Camera with Helmet Accessories Kit" [url="http://127.0.0.1:7770/improved-4k-wifi-action-camera-waterproof-hd-1080p-dvr-cam-dv-video-camcorder-sports-camera-with-helmet-accessories-kit.html"]
+                  - StaticText "Improved 4K WiFi Action Camera Waterproof HD 1080P DVR Cam DV Video Camcorder Sports Camera with Helmet Accessories Kit"
+              - generic
+                - generic
+                  - StaticText "$3.61"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/action-camera-ultra-hd-4k-action-camera-10m-waterproof-2-0-screen-1080p-sport-camera-cam-driving-recorder-tachograph-hd-bundle-camera-add-64gb-card-color-blue.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B09L7MYJ49.0.jpg"]
+              - strong
+                - link "Action Camera Ultra HD 4K Action Camera 10m Waterproof 2.0' Screen 1080p Sport Camera Cam Driving Recorder Tachograph HD (Bundle : Camera Add 64GB Card, Color : Blue)" [url="http://127.0.0.1:7770/action-camera-ultra-hd-4k-action-camera-10m-waterproof-2-0-screen-1080p-sport-camera-cam-driving-recorder-tachograph-hd-bundle-camera-add-64gb-card-color-blue.html"]
+                  - StaticText "Action Camera Ultra HD 4K Action Camera 10m Waterproof 2.0' Screen 1080p Sport Camera Cam Driving Recorder Tachograph HD (Bundle : Camera Add 64GB Card, Color : Blue)"
+              - generic
+                - generic
+                  - StaticText "$3.71"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/insho-300-pockets-5-inch-pu-leather-album-book-for-instax-wide-210-wide-300-fp-3000b-fp100c-films-black.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B06XGL3ZZN.0.jpg"]
+              - strong
+                - link "Insho 300 Pockets 5 inch PU Leather Album Book for Instax Wide 210,Wide 300, FP 3000B,FP100C Films - Black" [url="http://127.0.0.1:7770/insho-300-pockets-5-inch-pu-leather-album-book-for-instax-wide-210-wide-300-fp-3000b-fp100c-films-black.html"]
+                  - StaticText "Insho 300 Pockets 5 inch PU Leather Album Book for Instax Wide 210,Wide 300, FP 3000B,FP100C Films - Black"
+              - generic
+                - generic
+                  - StaticText "$3.93"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/mini-portable-aluminum-alloy-flexible-tripod-2-section-stand-holder-desktop-tripod-for-mobile-phone-camera-silver.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B09NLJRXST.0.jpg"]
+              - strong
+                - link "Mini Portable Aluminum Alloy Flexible Tripod 2 Section Stand Holder, Desktop Tripod for Mobile Phone Camera(Silver)" [url="http://127.0.0.1:7770/mini-portable-aluminum-alloy-flexible-tripod-2-section-stand-holder-desktop-tripod-for-mobile-phone-camera-silver.html"]
+                  - StaticText "Mini Portable Aluminum Alloy Flexible Tripod 2 Section Stand Holder, Desktop Tripod for Mobile Phone Camera(Silver)"
+              - generic
+                - generic
+                  - StaticText "$3.96"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/xianyundian-1pcs-tripod-mini-non-slip-desktop-tripod-w-1-4-inch-screw-universal-for-smartphone-action-camera-holder-monopod-camera-mounts-clamps-color-black.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B091P16ZYQ.0.jpg"]
+              - strong
+                - link "XIANYUNDIAN 1pcs Tripod Mini Non-Slip Desktop Tripod w/ 1/4 inch Screw Universal for Smartphone Action Camera Holder monopod Camera Mounts Clamps (Color : Black)" [url="http://127.0.0.1:7770/xianyundian-1pcs-tripod-mini-non-slip-desktop-tripod-w-1-4-inch-screw-universal-for-smartphone-action-camera-holder-monopod-camera-mounts-clamps-color-black.html"]
+                  - StaticText "XIANYUNDIAN 1pcs Tripod Mini Non-Slip Desktop Tripod w/ 1/4 inch Screw Universal for Smartphone Action Camera Holder monopod Camera Mounts Clamps (Color : Black)"
+              - generic
+                - generic
+                  - StaticText "$4.07"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/djdk-thread-adapter-1-4-inch-female-to-1-4-inch-female-thread-adapter-aluminium-alloy-screw-camera-tripod-monopod-adapter.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B09KRHN6D8.0.jpg"]
+              - strong
+                - link "DJDK Thread Adapter,1/4 Inch Female to 1/4 Inch Female Thread Adapter Aluminium Alloy Screw Camera Tripod Monopod Adapter" [url="http://127.0.0.1:7770/djdk-thread-adapter-1-4-inch-female-to-1-4-inch-female-thread-adapter-aluminium-alloy-screw-camera-tripod-monopod-adapter.html"]
+                  - StaticText "DJDK Thread Adapter,1/4 Inch Female to 1/4 Inch Female Thread Adapter Aluminium Alloy Screw Camera Tripod Monopod Adapter"
+              - generic
+                - generic
+                  - StaticText "$4.19"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/lorex-4k-ultra-hd-8-channel-fusion-nvr-system-with-4-smart-deterrence-ip-audio-dome-cameras-and-two-way-talk.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B09J97Z3S5.0.jpg"]
+              - strong
+                - link "Lorex 4K Ultra HD 8-Channel Fusion NVR System with 4 Smart Deterrence IP Audio Dome Cameras and Two-Way Talk" [url="http://127.0.0.1:7770/lorex-4k-ultra-hd-8-channel-fusion-nvr-system-with-4-smart-deterrence-ip-audio-dome-cameras-and-two-way-talk.html"]
+                  - StaticText "Lorex 4K Ultra HD 8-Channel Fusion NVR System with 4 Smart Deterrence IP Audio Dome Cameras and Two-Way Talk"
+              - LayoutTable
+                - generic
+                  - StaticText "Rating:"
+                  - generic
+                    - generic
+                      - StaticText ""
+                    - generic
+                      - StaticText ""
+                    - StaticText "60%"
+                - generic
+                  - link "2 Reviews" [url="http://127.0.0.1:7770/lorex-4k-ultra-hd-8-channel-fusion-nvr-system-with-4-smart-deterrence-ip-audio-dome-cameras-and-two-way-talk.html#reviews"]
+                    - StaticText "2"
+                    - StaticText "Reviews"
+              - generic
+                - generic
+                  - StaticText "$4.27"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/children-digital-cameras-digital-camera-for-kids-digital-video-cameras-for-toddler-cute-cartoon-mini-camera-for-christmas-birthday-gifts-pink.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B09SY9FGNF.0.jpg"]
+              - strong
+                - link "Children Digital Cameras, Digital Camera for Kids Digital Video Cameras for Toddler Cute Cartoon Mini Camera for Christmas Birthday Gifts(Pink)" [url="http://127.0.0.1:7770/children-digital-cameras-digital-camera-for-kids-digital-video-cameras-for-toddler-cute-cartoon-mini-camera-for-christmas-birthday-gifts-pink.html"]
+                  - StaticText "Children Digital Cameras, Digital Camera for Kids Digital Video Cameras for Toddler Cute Cartoon Mini Camera for Christmas Birthday Gifts(Pink)"
+              - generic
+                - generic
+                  - StaticText "$4.33"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+        - generic
+          - strong
+            - StaticText "Page"
+          - list "Page"
+            - listitem [level=1]
+              - link " Page Previous" [url="http://127.0.0.1:7770/electronics.html?cat=55&price=0-10000&product_list_order=price"]
+                - generic
+                  - StaticText ""
+                - StaticText "Page"
+                - StaticText "Previous"
+            - listitem [level=1]
+              - link "Page 1" [url="http://127.0.0.1:7770/electronics.html?cat=55&price=0-10000&product_list_order=price"]
+                - StaticText "Page"
+                - StaticText "1"
+            - listitem [level=1]
+              - strong
+                - StaticText "You're currently reading page"
+                - StaticText "2"
+            - listitem [level=1]
+              - link "Page 3" [url="http://127.0.0.1:7770/electronics.html?cat=55&p=3&price=0-10000&product_list_order=price"]
+                - StaticText "Page"
+                - StaticText "3"
+            - listitem [level=1]
+              - link "Page 4" [url="http://127.0.0.1:7770/electronics.html?cat=55&p=4&price=0-10000&product_list_order=price"]
+                - StaticText "Page"
+                - StaticText "4"
+            - listitem [level=1]
+              - link "Page 5" [url="http://127.0.0.1:7770/electronics.html?cat=55&p=5&price=0-10000&product_list_order=price"]
+                - StaticText "Page"
+                - StaticText "5"
+            - listitem [level=1]
+              - link " Page Next" [url="http://127.0.0.1:7770/electronics.html?cat=55&p=3&price=0-10000&product_list_order=price"]
+                - generic
+                  - StaticText ""
+                - StaticText "Page"
+                - StaticText "Next"
+        - generic
+          - strong
+            - StaticText "Shop By"
+        - heading "Now Shopping by" [level=2]
+          - StaticText "Now Shopping by"
+        - list
+          - listitem [level=1]
+            - StaticText "Category"
+            - StaticText ":"
+            - StaticText "Camera & Photo"
+            - link "Remove This Item" [url="http://127.0.0.1:7770/electronics.html?p=2&price=0-10000&product_list_order=price"]
+              - StaticText "Remove This Item"
+          - listitem [level=1]
+            - StaticText "Price"
+            - StaticText ":"
+            - StaticText "$0.00 - $9,999.99"
+            - link "Remove This Item" [url="http://127.0.0.1:7770/electronics.html?cat=55&p=2&product_list_order=price"]
+              - StaticText "Remove This Item"
+        - generic
+          - link "Clear All" [url="http://127.0.0.1:7770/electronics.html?p=2&product_list_order=price"]
+            - StaticText "Clear All"
+        - heading "Shopping Options" [level=2]
+          - StaticText "Shopping Options"
+        - DescriptionList
+          - heading "Category" [level=3]
+            - StaticText "Category"
+          - definition
+            - list
+              - listitem [level=1]
+                - link "Tripods & Monopods( 386 item )" [url="http://127.0.0.1:7770/electronics.html?cat=197&price=0-10000&product_list_order=price"]
+                  - StaticText "Tripods & Monopods"
+                  - StaticText "("
+                  - StaticText "386"
+                  - StaticText "item"
+                  - StaticText ")"
+              - listitem [level=1]
+                - link "Lighting & Studio( 467 item )" [url="http://127.0.0.1:7770/electronics.html?cat=198&price=0-10000&product_list_order=price"]
+                  - StaticText "Lighting & Studio"
+                  - StaticText "("
+                  - StaticText "467"
+                  - StaticText "item"
+                  - StaticText ")"
+              - listitem [level=1]
+                - link "Bags & Cases( 104 item )" [url="http://127.0.0.1:7770/electronics.html?cat=200&price=0-10000&product_list_order=price"]
+                  - StaticText "Bags & Cases"
+                  - StaticText "("
+                  - StaticText "104"
+                  - StaticText "item"
+                  - StaticText ")"
+              - listitem [level=1]
+                - link "Binoculars & Scopes( 296 item )" [url="http://127.0.0.1:7770/electronics.html?cat=206&price=0-10000&product_list_order=price"]
+                  - StaticText "Binoculars & Scopes"
+                  - StaticText "("
+                  - StaticText "296"
+                  - StaticText "item"
+                  - StaticText ")"
+              - listitem [level=1]
+                - link "Video Surveillance( 379 item )" [url="http://127.0.0.1:7770/electronics.html?cat=209&price=0-10000&product_list_order=price"]
+                  - StaticText "Video Surveillance"
+                  - StaticText "("
+                  - StaticText "379"
+                  - StaticText "item"
+                  - StaticText ")"
+              - listitem [level=1]
+                - link "Accessories( 726 item )" [url="http://127.0.0.1:7770/electronics.html?cat=211&price=0-10000&product_list_order=price"]
+                  - StaticText "Accessories"
+                  - StaticText "("
+                  - StaticText "726"
+                  - StaticText "item"
+                  - StaticText ")"
+              - listitem [level=1]
+                - link "Digital Cameras( 445 item )" [url="http://127.0.0.1:7770/electronics.html?cat=216&price=0-10000&product_list_order=price"]
+                  - StaticText "Digital Cameras"
+                  - StaticText "("
+                  - StaticText "445"
+                  - StaticText "item"
+                  - StaticText ")"
+              - listitem [level=1]
+                - link "Underwater Photography( 240 item )" [url="http://127.0.0.1:7770/electronics.html?cat=223&price=0-10000&product_list_order=price"]
+                  - StaticText "Underwater Photography"
+                  - StaticText "("
+                  - StaticText "240"
+                  - StaticText "item"
+                  - StaticText ")"
+              - listitem [level=1]
+                - link "Film Photography( 154 item )" [url="http://127.0.0.1:7770/electronics.html?cat=230&price=0-10000&product_list_order=price"]
+                  - StaticText "Film Photography"
+                  - StaticText "("
+                  - StaticText "154"
+                  - StaticText "item"
+                  - StaticText ")"
+              - listitem [level=1]
+                - link "Flashes( 49 item )" [url="http://127.0.0.1:7770/electronics.html?cat=245&price=0-10000&product_list_order=price"]
+                  - StaticText "Flashes"
+                  - StaticText "("
+                  - StaticText "49"
+                  - StaticText "item"
+                  - StaticText ")"
+              - listitem [level=1]
+                - link "Lenses( 141 item )" [url="http://127.0.0.1:7770/electronics.html?cat=246&price=0-10000&product_list_order=price"]
+                  - StaticText "Lenses"
+                  - StaticText "("
+                  - StaticText "141"
+                  - StaticText "item"
+                  - StaticText ")"
+              - listitem [level=1]
+                - link "Video( 87 item )" [url="http://127.0.0.1:7770/electronics.html?cat=252&price=0-10000&product_list_order=price"]
+                  - StaticText "Video"
+                  - StaticText "("
+                  - StaticText "87"
+                  - StaticText "item"
+                  - StaticText ")"
+          - heading "Price" [level=3]
+            - StaticText "Price"
+          - definition
+            - list
+              - listitem [level=1]
+                - link "$0.00 - $999.99( 3328 item )" [url="http://127.0.0.1:7770/electronics.html?cat=55&price=0-1000%2C0-10000&product_list_order=price"]
+                  - StaticText "$0.00"
+                  - StaticText "-"
+                  - StaticText "$999.99"
+                  - StaticText "("
+                  - StaticText "3328"
+                  - StaticText "item"
+                  - StaticText ")"
+              - listitem [level=1]
+                - link "$1,000.00 - $1,999.99( 124 item )" [url="http://127.0.0.1:7770/electronics.html?cat=55&price=1000-2000%2C0-10000&product_list_order=price"]
+                  - StaticText "$1,000.00"
+                  - StaticText "-"
+                  - StaticText "$1,999.99"
+                  - StaticText "("
+                  - StaticText "124"
+                  - StaticText "item"
+                  - StaticText ")"
+              - listitem [level=1]
+                - link "$2,000.00 - $2,999.99( 33 item )" [url="http://127.0.0.1:7770/electronics.html?cat=55&price=2000-3000%2C0-10000&product_list_order=price"]
+                  - StaticText "$2,000.00"
+                  - StaticText "-"
+                  - StaticText "$2,999.99"
+                  - StaticText "("
+                  - StaticText "33"
+                  - StaticText "item"
+                  - StaticText ")"
+              - listitem [level=1]
+                - link "$3,000.00 - $3,999.99( 18 item )" [url="http://127.0.0.1:7770/electronics.html?cat=55&price=3000-4000%2C0-10000&product_list_order=price"]
+                  - StaticText "$3,000.00"
+                  - StaticText "-"
+                  - StaticText "$3,999.99"
+                  - StaticText "("
+                  - StaticText "18"
+                  - StaticText "item"
+                  - StaticText ")"
+              - listitem [level=1]
+                - link "$4,000.00 - $4,999.99( 4 item )" [url="http://127.0.0.1:7770/electronics.html?cat=55&price=4000-5000%2C0-10000&product_list_order=price"]
+                  - StaticText "$4,000.00"
+                  - StaticText "-"
+                  - StaticText "$4,999.99"
+                  - StaticText "("
+                  - StaticText "4"
+                  - StaticText "item"
+                  - StaticText ")"
+              - listitem [level=1]
+                - link "$5,000.00 - $5,999.99( 3 item )" [url="http://127.0.0.1:7770/electronics.html?cat=55&price=5000-6000%2C0-10000&product_list_order=price"]
+                  - StaticText "$5,000.00"
+                  - StaticText "-"
+                  - StaticText "$5,999.99"
+                  - StaticText "("
+                  - StaticText "3"
+                  - StaticText "item"
+                  - StaticText ")"
+              - listitem [level=1]
+                - link "$8,000.00 and above( 1 item )" [url="http://127.0.0.1:7770/electronics.html?cat=55&price=8000-9000%2C0-10000&product_list_order=price"]
+                  - StaticText "$8,000.00"
+                  - StaticText "and above"
+                  - StaticText "("
+                  - StaticText "1"
+                  - StaticText "item"
+                  - StaticText ")"
+        - generic
+          - heading "Compare Products" [level=2]
+            - StaticText "Compare Products"
+        - generic
+          - StaticText "You have no items to compare."
+        - generic
+          - heading "My Wish List" [level=2]
+            - StaticText "My Wish List"
+        - generic
+          - StaticText "You have no items in your wish list."
+    - contentinfo
+      - form
+        - generic
+          - generic
+            - StaticText ""
+          - LabelText
+            - StaticText "Sign Up for Our Newsletter:"
+            - textbox "Sign Up for Our Newsletter:"
+              - generic
+        - generic
+          - button "Subscribe"
+            - StaticText "Subscribe"
+      - list
+        - listitem [level=1]
+          - link "Privacy and Cookie Policy" [url="http://127.0.0.1:7770/privacy-policy-cookie-restriction-mode/"]
+            - StaticText "Privacy and Cookie Policy"
+        - listitem [level=1]
+          - link "Search Terms" [url="http://127.0.0.1:7770/search/term/popular/"]
+            - StaticText "Search Terms"
+        - listitem [level=1]
+          - link "Advanced Search" [url="http://127.0.0.1:7770/catalogsearch/advanced/"]
+            - StaticText "Advanced Search"
+        - listitem [level=1]
+          - link "Orders and Returns" [url="http://127.0.0.1:7770/sales/guest/form/"]
+            - StaticText "Orders and Returns"
+        - listitem [level=1]
+          - link "Contact Us" [url="http://127.0.0.1:7770/contact/"]
+            - StaticText "Contact Us"
+      - generic
+        - StaticText "Copyright © 2013-present Magento, Inc. All rights reserved."
+      - generic
+        - StaticText "Help Us Keep Magento Healthy"
+        - StaticText
+        - link "Report All Bugs" [url="http://www.magentocommerce.com/bug-tracking"]
+          - StaticText "Report All Bugs"
+    - generic

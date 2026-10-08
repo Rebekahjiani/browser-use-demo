@@ -1,0 +1,480 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - link "Skip to Content" [ref=e4] [cursor=pointer]:
+      - /url: "#contentarea"
+    - generic [ref=e5]:
+      - generic [ref=e6] [cursor=pointer]:
+        - text: 
+        - generic [ref=e7]: Toggle Nav
+      - link "store logo" [ref=e8] [cursor=pointer]:
+        - /url: http://127.0.0.1:7770/
+        - img "one_stop_market_logo" [ref=e9]
+      - generic [ref=e10]:
+        - link " My Cart" [ref=e11] [cursor=pointer]:
+          - /url: http://127.0.0.1:7770/checkout/cart/
+          - text: 
+          - generic [ref=e12]: My Cart
+        - text: 
+      - generic [ref=e16]:
+        - generic [ref=e17]:
+          - text: 
+          - generic [ref=e18]: Search
+        - combobox " Search" [ref=e20]
+  - tablist [ref=e22]:
+    - tab "Menu" [expanded] [ref=e23]:
+      - link "Menu" [ref=e24] [cursor=pointer]:
+        - /url: "#store.menu"
+    - tabpanel [ref=e25]:
+      - navigation [ref=e26]:
+        - menu [ref=e27]:
+          - listitem [ref=e28]:
+            - menuitem "Beauty & Personal Care " [ref=e29] [cursor=pointer]: Beauty & Personal Care 
+          - listitem [ref=e30]:
+            - menuitem "Sports & Outdoors " [ref=e31] [cursor=pointer]: Sports & Outdoors 
+          - listitem [ref=e32]:
+            - menuitem "Clothing, Shoes & Jewelry " [ref=e33] [cursor=pointer]: Clothing, Shoes & Jewelry 
+          - listitem [ref=e34]:
+            - menuitem "Home & Kitchen " [ref=e35] [cursor=pointer]: Home & Kitchen 
+          - listitem [ref=e36]:
+            - menuitem "Office Products " [ref=e37] [cursor=pointer]: Office Products 
+          - listitem [ref=e38]:
+            - menuitem "Tools & Home Improvement " [ref=e39] [cursor=pointer]: Tools & Home Improvement 
+          - listitem [ref=e40]:
+            - menuitem "Health & Household " [ref=e41] [cursor=pointer]: Health & Household 
+          - listitem [ref=e42]:
+            - menuitem "Patio, Lawn & Garden " [ref=e43] [cursor=pointer]: Patio, Lawn & Garden 
+          - listitem [ref=e44]:
+            - menuitem "Electronics " [ref=e45] [cursor=pointer]: Electronics 
+          - listitem [ref=e46]:
+            - menuitem "Cell Phones & Accessories " [ref=e47] [cursor=pointer]: Cell Phones & Accessories 
+          - listitem [ref=e48]:
+            - menuitem "Video Games " [ref=e49] [cursor=pointer]: Video Games 
+          - listitem [ref=e50]:
+            - menuitem "Grocery & Gourmet Food " [ref=e51] [cursor=pointer]: Grocery & Gourmet Food 
+    - tab "Account" [ref=e52]:
+      - link "Account" [ref=e53] [cursor=pointer]:
+        - /url: "#store.links"
+  - list [ref=e55]:
+    - listitem [ref=e56]:
+      - link "Home" [ref=e57] [cursor=pointer]:
+        - /url: http://127.0.0.1:7770/
+      - text: 
+    - listitem [ref=e58]:
+      - link "Beauty & Personal Care" [ref=e59] [cursor=pointer]:
+        - /url: http://127.0.0.1:7770/beauty-personal-care.html
+      - text: 
+    - listitem [ref=e60]:
+      - strong [ref=e61]: Oral Care
+  - main [ref=e62]:
+    - heading "Oral Care Items 1-12 of 3125" [level=1] [ref=e64]: Oral Care
+    - generic [ref=e65]:
+      - generic [ref=e66]:
+        - generic [ref=e67]:
+          - paragraph [ref=e68]: Items 1-12 of 3125
+          - generic [ref=e69]:
+            - text: Sort By
+            - combobox "Sort By" [ref=e70]:
+              - option "Position" [selected]
+              - option "Product Name"
+              - option "Price"
+            - link " Set Descending Direction" [ref=e71] [cursor=pointer]:
+              - /url: "#"
+              - text: 
+              - generic [ref=e72]: Set Descending Direction
+        - list [ref=e74]:
+          - listitem [ref=e75]:
+            - generic [ref=e76]:
+              - link "Image" [ref=e77] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/soft-clean-between-interdental-floss-brushes-random-color-oral-care-tool-20-pcs-2-pack-elastic-massage-gums-toothpick-2-box.html
+                - img "Image" [ref=e80]
+              - generic [ref=e81]:
+                - strong [ref=e82]:
+                  - link "Soft Clean Between Interdental Floss Brushes Random Color Oral Care Tool 20 PCS/ 2 Pack Elastic Massage Gums Toothpick (2 box)" [ref=e83] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/soft-clean-between-interdental-floss-brushes-random-color-oral-care-tool-20-pcs-2-pack-elastic-massage-gums-toothpick-2-box.html
+                - generic [ref=e86]: $8.90
+                - generic [ref=e88]:
+                  - button "Add to Cart" [ref=e91] [cursor=pointer]
+                  - generic [ref=e92]:
+                    - button "Add to Wish List" [ref=e93] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e94]: Add to Wish List
+                    - text: 
+          - listitem [ref=e95]:
+            - generic [ref=e96]:
+              - link "Image" [ref=e97] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/the-super-dentists-electric-toothbrush-electric-toothbrush-with-rotating-head-for-children-tweens-teens-dr-haveonesupersmile.html
+                - img "Image" [ref=e100]
+              - generic [ref=e101]:
+                - strong [ref=e102]:
+                  - link "The Super Dentists Electric Toothbrush, Electric Toothbrush with Rotating Head for Children, Tweens, & Teens (Dr. HaveOneSuperSmile)" [ref=e103] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/the-super-dentists-electric-toothbrush-electric-toothbrush-with-rotating-head-for-children-tweens-teens-dr-haveonesupersmile.html
+                - generic [ref=e106]: $16.99
+                - generic [ref=e108]:
+                  - button "Add to Cart" [ref=e111] [cursor=pointer]
+                  - generic [ref=e112]:
+                    - button "Add to Wish List" [ref=e113] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e114]: Add to Wish List
+                    - text: 
+          - listitem [ref=e115]:
+            - generic [ref=e116]:
+              - link "Image" [ref=e117] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/huixinliang-tooth-cleaner-water-floss-4-modes-usb-rechargeable-portable-water-dental-flosser-cordless-tooth-cleaner-with-8-levels-water-teeth-cleaner-picks-for-home-travel.html
+                - img "Image" [ref=e120]
+              - generic [ref=e121]:
+                - strong [ref=e122]:
+                  - link "HUIXINLIANG Tooth Cleaner Water Floss,4 Modes USB Rechargeable Portable Water Dental Flosser Cordless,Tooth Cleaner with 8 Levels,Water Teeth Cleaner Picks for Home Travel" [ref=e123] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/huixinliang-tooth-cleaner-water-floss-4-modes-usb-rechargeable-portable-water-dental-flosser-cordless-tooth-cleaner-with-8-levels-water-teeth-cleaner-picks-for-home-travel.html
+                - generic [ref=e126]: $224.76
+                - generic [ref=e128]:
+                  - button "Add to Cart" [ref=e131] [cursor=pointer]
+                  - generic [ref=e132]:
+                    - button "Add to Wish List" [ref=e133] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e134]: Add to Wish List
+                    - text: 
+          - listitem [ref=e135]:
+            - generic [ref=e136]:
+              - link "Image" [ref=e137] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/ixaer-dental-teeth-whitening-lamp-2-colors-mobile-blue-red-led-teeth-whitener-machine-36w-10-led-bleaching-cold-light-lamp-accelerator-light-oral-care-floor-standing.html
+                - img "Image" [ref=e140]
+              - generic [ref=e141]:
+                - strong [ref=e142]:
+                  - link "ixaer Dental Teeth Whitening Lamp 2 Colors Mobile Blue Red LED Teeth Whitener Machine 36W 10 LED Bleaching Cold Light Lamp Accelerator Light Oral Care Floor Standing" [ref=e143] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/ixaer-dental-teeth-whitening-lamp-2-colors-mobile-blue-red-led-teeth-whitener-machine-36w-10-led-bleaching-cold-light-lamp-accelerator-light-oral-care-floor-standing.html
+                - generic [ref=e146]: $139.99
+                - generic [ref=e148]:
+                  - button "Add to Cart" [ref=e151] [cursor=pointer]
+                  - generic [ref=e152]:
+                    - button "Add to Wish List" [ref=e153] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e154]: Add to Wish List
+                    - text: 
+          - listitem [ref=e155]:
+            - generic [ref=e156]:
+              - link "Image" [ref=e157] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/elastic-ligature-threader-orthodontic-elastic-instruments-ortho-twirl-on-new-by-g-s-online-store.html
+                - img "Image" [ref=e160]
+              - generic [ref=e161]:
+                - strong [ref=e162]:
+                  - link "Elastic Ligature Threader Orthodontic Elastic Instruments Ortho Twirl ON New by G.S Online Store" [ref=e163] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/elastic-ligature-threader-orthodontic-elastic-instruments-ortho-twirl-on-new-by-g-s-online-store.html
+                - generic [ref=e166]: $8.09
+                - generic [ref=e168]:
+                  - button "Add to Cart" [ref=e171] [cursor=pointer]
+                  - generic [ref=e172]:
+                    - button "Add to Wish List" [ref=e173] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e174]: Add to Wish List
+                    - text: 
+          - listitem [ref=e175]:
+            - generic [ref=e176]:
+              - link "Image" [ref=e177] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/rembrandt-intense-stain-whitening-toothpaste-with-fluoride3-oz-3-packs.html
+                - img "Image" [ref=e180]
+              - generic [ref=e181]:
+                - strong [ref=e182]:
+                  - link "Rembrandt Intense Stain Whitening Toothpaste With Fluoride3 oz(3 Packs)" [ref=e183] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/rembrandt-intense-stain-whitening-toothpaste-with-fluoride3-oz-3-packs.html
+                - generic [ref=e186]: $30.73
+                - generic [ref=e188]:
+                  - button "Add to Cart" [ref=e191] [cursor=pointer]
+                  - generic [ref=e192]:
+                    - button "Add to Wish List" [ref=e193] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e194]: Add to Wish List
+                    - text: 
+          - listitem [ref=e195]:
+            - generic [ref=e196]:
+              - link "Image" [ref=e197] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/2-boxes-of-iodent-overnight-whitening-denture-cleanser-tablets-20-per-box-40-tablets-total.html
+                - generic [ref=e199]:
+                  - img "Image"
+              - generic [ref=e200]:
+                - strong [ref=e201]:
+                  - link "2 - Boxes of Iodent Overnight Whitening Denture Cleanser Tablets 20 per box (40 tablets total)" [ref=e202] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/2-boxes-of-iodent-overnight-whitening-denture-cleanser-tablets-20-per-box-40-tablets-total.html
+                - generic [ref=e205]: $12.99
+                - generic [ref=e207]:
+                  - button "Add to Cart" [ref=e210] [cursor=pointer]
+                  - generic [ref=e211]:
+                    - button "Add to Wish List" [ref=e212] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e213]: Add to Wish List
+                    - text: 
+          - listitem [ref=e214]:
+            - generic [ref=e215]:
+              - link "Image" [ref=e216] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/crest-pro-health-intense-mouthwash-antigingivitis-antiplaque-pack-of-4.html
+                - generic [ref=e218]:
+                  - img "Image"
+              - generic [ref=e219]:
+                - strong [ref=e220]:
+                  - link "Crest Pro-Health Intense Mouthwash Antigingivitis Antiplaque (Pack of 4)" [ref=e221] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/crest-pro-health-intense-mouthwash-antigingivitis-antiplaque-pack-of-4.html
+                - generic [ref=e224]: $44.48
+                - generic [ref=e226]:
+                  - button "Add to Cart" [ref=e229] [cursor=pointer]
+                  - generic [ref=e230]:
+                    - button "Add to Wish List" [ref=e231] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e232]: Add to Wish List
+                    - text: 
+          - listitem [ref=e233]:
+            - generic [ref=e234]:
+              - link "Image" [ref=e235] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/electric-toothbrush-travel-case-fit-for-oral-b-pro-1000-2000-3000-3500-1500-7000-philips-sonicare-5100-6100-carrying-case-holder-container-for-electric-toothbrush-travel-accessories-silver.html
+                - generic [ref=e237]:
+                  - img "Image"
+              - generic [ref=e238]:
+                - strong [ref=e239]:
+                  - link "Electric Toothbrush Travel Case Fit for Oral-b Pro 1000, 2000, 3000, 3500, 1500,7000/ Philips Sonicare 5100 6100, Carrying Case Holder Container for Electric Toothbrush, Travel Accessories–Silver" [ref=e240] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/electric-toothbrush-travel-case-fit-for-oral-b-pro-1000-2000-3000-3500-1500-7000-philips-sonicare-5100-6100-carrying-case-holder-container-for-electric-toothbrush-travel-accessories-silver.html
+                - generic [ref=e243]: $12.80
+                - generic [ref=e245]:
+                  - button "Add to Cart" [ref=e248] [cursor=pointer]
+                  - generic [ref=e249]:
+                    - button "Add to Wish List" [ref=e250] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e251]: Add to Wish List
+                    - text: 
+          - listitem [ref=e252]:
+            - generic [ref=e253]:
+              - link "Image" [ref=e254] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/freshen-breath-mouthwash-oral-cleaning-care-mouth-wash-set-10pcs-portable-mouthwash-for-oral-bad-breath-strip-bags-package-11ml-mint.html
+                - generic [ref=e256]:
+                  - img "Image"
+              - generic [ref=e257]:
+                - strong [ref=e258]:
+                  - link "Freshen Breath Mouthwash Oral Cleaning Care Mouth Wash Set, 10pcs Portable Mouthwash for Oral Bad Breath, Strip Bags Package (11ml)(Mint)" [ref=e259] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/freshen-breath-mouthwash-oral-cleaning-care-mouth-wash-set-10pcs-portable-mouthwash-for-oral-bad-breath-strip-bags-package-11ml-mint.html
+                - generic [ref=e262]: $11.59
+                - generic [ref=e264]:
+                  - button "Add to Cart" [ref=e267] [cursor=pointer]
+                  - generic [ref=e268]:
+                    - button "Add to Wish List" [ref=e269] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e270]: Add to Wish List
+                    - text: 
+          - listitem [ref=e271]:
+            - generic [ref=e272]:
+              - link "Image" [ref=e273] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/orthodontic-dental-retainers-dental-guard-grinding-clenching-guard-retainer-3pcs-with-storage-box.html
+                - generic [ref=e275]:
+                  - img "Image"
+              - generic [ref=e276]:
+                - strong [ref=e277]:
+                  - link "Orthodontic Dental Retainers, Dental Guard, Grinding, Clenching Guard, Retainer 3pcs with Storage Box" [ref=e278] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/orthodontic-dental-retainers-dental-guard-grinding-clenching-guard-retainer-3pcs-with-storage-box.html
+                - generic [ref=e281]: $21.99
+                - generic [ref=e283]:
+                  - button "Add to Cart" [ref=e286] [cursor=pointer]
+                  - generic [ref=e287]:
+                    - button "Add to Wish List" [ref=e288] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e289]: Add to Wish List
+                    - text: 
+          - listitem [ref=e290]:
+            - generic [ref=e291]:
+              - link "Image" [ref=e292] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/polident-overnight-whitening-denture-cleanser-120-tablets-pack-of-2.html
+                - generic [ref=e294]:
+                  - img "Image"
+              - generic [ref=e295]:
+                - strong [ref=e296]:
+                  - link "Polident Overnight Whitening Denture Cleanser 120 Tablets (Pack of 2)" [ref=e297] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/polident-overnight-whitening-denture-cleanser-120-tablets-pack-of-2.html
+                - generic [ref=e300]: $22.85
+                - generic [ref=e302]:
+                  - button "Add to Cart" [ref=e305] [cursor=pointer]
+                  - generic [ref=e306]:
+                    - button "Add to Wish List" [ref=e307] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e308]: Add to Wish List
+                    - text: 
+        - generic [ref=e310]:
+          - strong [ref=e311]: Page
+          - list "Page" [ref=e312]:
+            - listitem [ref=e313]:
+              - strong [ref=e314]:
+                - generic [ref=e315]: You're currently reading page
+                - text: "1"
+            - listitem [ref=e316]:
+              - link "Page 2" [ref=e317] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/beauty-personal-care/oral-care.html?p=2
+                - generic [ref=e318]: Page
+                - text: "2"
+            - listitem [ref=e319]:
+              - link "Page 3" [ref=e320] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/beauty-personal-care/oral-care.html?p=3
+                - generic [ref=e321]: Page
+                - text: "3"
+            - listitem [ref=e322]:
+              - link "Page 4" [ref=e323] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/beauty-personal-care/oral-care.html?p=4
+                - generic [ref=e324]: Page
+                - text: "4"
+            - listitem [ref=e325]:
+              - link "Page 5" [ref=e326] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/beauty-personal-care/oral-care.html?p=5
+                - generic [ref=e327]: Page
+                - text: "5"
+            - listitem [ref=e328]:
+              - link " Page Next" [ref=e329] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/beauty-personal-care/oral-care.html?p=2
+                - text: 
+                - generic [ref=e330]: Page
+                - generic [ref=e331]: Next
+      - generic [ref=e333]:
+        - strong [ref=e335]: Shop By
+        - generic [ref=e336]:
+          - heading "Shopping Options" [level=2] [ref=e337]
+          - generic [ref=e338]:
+            - heading "Category" [level=3] [ref=e339]
+            - definition [ref=e340]:
+              - list [ref=e341]:
+                - listitem [ref=e342]:
+                  - link "Toothbrushes & Accessories( 536 item )" [ref=e343] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/beauty-personal-care/oral-care.html?cat=87
+                    - text: Toothbrushes & Accessories
+                    - generic [ref=e344]:
+                      - text: ( 536
+                      - generic [ref=e345]: item
+                      - text: )
+                - listitem [ref=e346]:
+                  - link "Dental Floss & Picks( 441 item )" [ref=e347] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/beauty-personal-care/oral-care.html?cat=100
+                    - text: Dental Floss & Picks
+                    - generic [ref=e348]:
+                      - text: ( 441
+                      - generic [ref=e349]: item
+                      - text: )
+                - listitem [ref=e350]:
+                  - link "Orthodontic Supplies( 407 item )" [ref=e351] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/beauty-personal-care/oral-care.html?cat=113
+                    - text: Orthodontic Supplies
+                    - generic [ref=e352]:
+                      - text: ( 407
+                      - generic [ref=e353]: item
+                      - text: )
+                - listitem [ref=e354]:
+                  - link "Children's Dental Care( 182 item )" [ref=e355] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/beauty-personal-care/oral-care.html?cat=116
+                    - text: Children's Dental Care
+                    - generic [ref=e356]:
+                      - text: ( 182
+                      - generic [ref=e357]: item
+                      - text: )
+                - listitem [ref=e358]:
+                  - link "Oral Pain Relief( 88 item )" [ref=e359] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/beauty-personal-care/oral-care.html?cat=118
+                    - text: Oral Pain Relief
+                    - generic [ref=e360]:
+                      - text: ( 88
+                      - generic [ref=e361]: item
+                      - text: )
+                - listitem [ref=e362]:
+                  - link "Toothpaste( 562 item )" [ref=e363] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/beauty-personal-care/oral-care.html?cat=119
+                    - text: Toothpaste
+                    - generic [ref=e364]:
+                      - text: ( 562
+                      - generic [ref=e365]: item
+                      - text: )
+                - listitem [ref=e366]:
+                  - link "Teeth Whitening( 128 item )" [ref=e367] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/beauty-personal-care/oral-care.html?cat=131
+                    - text: Teeth Whitening
+                    - generic [ref=e368]:
+                      - text: ( 128
+                      - generic [ref=e369]: item
+                      - text: )
+                - listitem [ref=e370]:
+                  - link "Breath Fresheners( 68 item )" [ref=e371] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/beauty-personal-care/oral-care.html?cat=133
+                    - text: Breath Fresheners
+                    - generic [ref=e372]:
+                      - text: ( 68
+                      - generic [ref=e373]: item
+                      - text: )
+                - listitem [ref=e374]:
+                  - link "Denture Care( 259 item )" [ref=e375] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/beauty-personal-care/oral-care.html?cat=135
+                    - text: Denture Care
+                    - generic [ref=e376]:
+                      - text: ( 259
+                      - generic [ref=e377]: item
+                      - text: )
+                - listitem [ref=e378]:
+                  - link "Tongue Cleaners( 126 item )" [ref=e379] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/beauty-personal-care/oral-care.html?cat=138
+                    - text: Tongue Cleaners
+                    - generic [ref=e380]:
+                      - text: ( 126
+                      - generic [ref=e381]: item
+                      - text: )
+                - listitem [ref=e382]:
+                  - link "Mouthwash( 196 item )" [ref=e383] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/beauty-personal-care/oral-care.html?cat=139
+                    - text: Mouthwash
+                    - generic [ref=e384]:
+                      - text: ( 196
+                      - generic [ref=e385]: item
+                      - text: )
+            - heading "Price" [level=3] [ref=e386]
+            - definition [ref=e387]:
+              - list [ref=e388]:
+                - listitem [ref=e389]:
+                  - link "$0.00 - $999.99( 3123 item )" [ref=e390] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/beauty-personal-care/oral-care.html?price=0-1000
+                    - text: $0.00 - $999.99
+                    - generic [ref=e391]:
+                      - text: ( 3123
+                      - generic [ref=e392]: item
+                      - text: )
+                - listitem [ref=e393]:
+                  - link "$1,000.00 and above( 2 item )" [ref=e394] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/beauty-personal-care/oral-care.html?price=1000-2000
+                    - text: $1,000.00 and above
+                    - generic [ref=e395]:
+                      - text: ( 2
+                      - generic [ref=e396]: item
+                      - text: )
+      - generic [ref=e397]:
+        - generic [ref=e398]:
+          - heading "Compare Products" [level=2] [ref=e400]
+          - generic [ref=e401]: You have no items to compare.
+        - generic [ref=e402]:
+          - heading "My Wish List" [level=2] [ref=e404]
+          - generic [ref=e406]: You have no items in your wish list.
+  - contentinfo [ref=e407]:
+    - generic [ref=e408]:
+      - generic [ref=e411]:
+        - generic [ref=e413]:
+          - text: 
+          - generic [ref=e414]:
+            - generic [ref=e415]: "Sign Up for Our Newsletter:"
+            - textbox "Sign Up for Our Newsletter:" [ref=e416]:
+              - /placeholder: Enter your email address
+        - button "Subscribe" [ref=e418] [cursor=pointer]
+      - list [ref=e419]:
+        - listitem [ref=e420]:
+          - link "Privacy and Cookie Policy" [ref=e421] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/privacy-policy-cookie-restriction-mode/
+        - listitem [ref=e422]:
+          - link "Search Terms" [ref=e423] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/search/term/popular/
+        - listitem [ref=e424]:
+          - link "Advanced Search" [ref=e425] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/catalogsearch/advanced/
+        - listitem [ref=e426]:
+          - link "Orders and Returns" [ref=e427] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/sales/guest/form/
+        - listitem [ref=e428]:
+          - link "Contact Us" [ref=e429] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/contact/
+      - generic [ref=e430]: Copyright © 2013-present Magento, Inc. All rights reserved.
+      - generic [ref=e431]:
+        - text: Help Us Keep Magento Healthy
+        - link "Report All Bugs" [ref=e432] [cursor=pointer]:
+          - /url: http://www.magentocommerce.com/bug-tracking

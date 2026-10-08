@@ -1,0 +1,10 @@
+{
+  "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/toothpaste.html?p=2",
+  "title": "Toothpaste - Oral Care - Beauty & Personal Care",
+  "route": "/beauty-personal-care/oral-care/toothpaste.html",
+  "sources": {
+    "accessibility": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\03-drive\\trace\\26_10_08_12_12_08-min\\drive\\screenshots\\027_beauty-personal-care_oral-care_toothpaste_html\\accessibility.json",
+    "sha256_AX": "f77aab26cf7cab1934a5ff1b90c4e8eec502a3599a0b160c09c22b98d3e0b6fe"
+  },
+  "material_scope": "recorded UI and conservatively associated JSON responses"
+}

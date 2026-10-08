@@ -1,0 +1,149 @@
+{
+  "pages": [
+    {
+      "dir": "000_state",
+      "url": "http://127.0.0.1:7770/",
+      "title": "One Stop Market",
+      "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-112904-537744\\snapshots\\00001",
+      "duplicate_snapshots": [],
+      "signature": "ab9dd6092360144b6a62b80d9295446addb2e02846b68a7439a45ad61af4945e",
+      "endpoint_count": 0
+    },
+    {
+      "dir": "001_state",
+      "url": "http://127.0.0.1:7770/",
+      "title": "One Stop Market",
+      "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-112904-537744\\snapshots\\00002",
+      "duplicate_snapshots": [],
+      "signature": "ad1dc6dbe8cde81040f86a316d08f6bf98d613bac2ba4b9fb803a13735bba092",
+      "endpoint_count": 0
+    },
+    {
+      "dir": "002_state",
+      "url": "http://127.0.0.1:7770/",
+      "title": "One Stop Market",
+      "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-112904-537744\\snapshots\\00003",
+      "duplicate_snapshots": [],
+      "signature": "7fe582035f46afe853f23c2e39b05accb7416432298cd307a51de61adb926e8c",
+      "endpoint_count": 0
+    },
+    {
+      "dir": "003_state",
+      "url": "http://127.0.0.1:7770/",
+      "title": "One Stop Market",
+      "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-112904-537744\\snapshots\\00004",
+      "duplicate_snapshots": [
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-112904-537744\\snapshots\\00005",
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-112904-537744\\snapshots\\00006",
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-112904-537744\\snapshots\\00007",
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-112904-537744\\snapshots\\00008",
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-112904-537744\\snapshots\\00009",
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-112904-537744\\snapshots\\00010",
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-112904-537744\\snapshots\\00011",
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-112904-537744\\snapshots\\00012"
+      ],
+      "signature": "4943146a86753f90e41493a9cc31941fdb7d9038d09de1779cad2bda79231a44",
+      "endpoint_count": 0
+    },
+    {
+      "dir": "004_state",
+      "url": "http://127.0.0.1:7770/electronics.html",
+      "title": "Electronics",
+      "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-112904-537744\\snapshots\\00013",
+      "duplicate_snapshots": [
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-112904-537744\\snapshots\\00014",
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-112904-537744\\snapshots\\00015",
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-112904-537744\\snapshots\\00016",
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-112904-537744\\snapshots\\00017",
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-112904-537744\\snapshots\\00018"
+      ],
+      "signature": "bfbc4216631f5e48947852f46395a58137a165f27ffeee5bf533bcac6a7da417",
+      "endpoint_count": 0
+    },
+    {
+      "dir": "005_state",
+      "url": "http://127.0.0.1:7770/electronics.html?product_list_order=price",
+      "title": "Electronics",
+      "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-112904-537744\\snapshots\\00020",
+      "duplicate_snapshots": [],
+      "signature": "66caa05c64579d68e835a3ba521d9d540c9bfcfc5efc7c351e2471bbd2207812",
+      "endpoint_count": 0
+    },
+    {
+      "dir": "006_state",
+      "url": "http://127.0.0.1:7770/electronics.html?cat=60&product_list_order=price",
+      "title": "Electronics",
+      "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-112904-537744\\snapshots\\00021",
+      "duplicate_snapshots": [
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-112904-537744\\snapshots\\00022",
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-112904-537744\\snapshots\\00023"
+      ],
+      "signature": "aefc3f8e442080e617bc557199ee5d828ffe0fb90c06c8f6196a3f668e0d9e32",
+      "endpoint_count": 0
+    },
+    {
+      "dir": "007_state",
+      "url": "http://127.0.0.1:7770/wireless-earbuds-mics-call-noise-canceling-wireless-charging-case-bluetooth-5-0-headset-wireless-earphones-mini-earbuds-stereo-headphones-white.html",
+      "title": "Wireless Earbuds Mics Call Noise Canceling & Wireless Charging Case,Bluetooth 5.0 Headset Wireless Earphones Mini Earbuds Stereo Headphones (White)",
+      "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-112904-537744\\snapshots\\00024",
+      "duplicate_snapshots": [
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-112904-537744\\snapshots\\00025",
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-112904-537744\\snapshots\\00026",
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-112904-537744\\snapshots\\00027",
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-112904-537744\\snapshots\\00028",
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-112904-537744\\snapshots\\00029"
+      ],
+      "signature": "04bb855a5d1b5dbc3747ca50afb48b4101e1b33175c2a0ca7dcb9bca95d1cac9",
+      "endpoint_count": 0
+    },
+    {
+      "dir": "008_state",
+      "url": "http://127.0.0.1:7770/catalogsearch/result/?q=headphones",
+      "title": "Search results for: 'headphones'",
+      "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-112904-537744\\snapshots\\00031",
+      "duplicate_snapshots": [
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-112904-537744\\snapshots\\00032"
+      ],
+      "signature": "ed4c2bad673588a07ea1c811558c79f1122307fa722d70d9be7ed4c36a967e8b",
+      "endpoint_count": 0
+    },
+    {
+      "dir": "009_state",
+      "url": "http://127.0.0.1:7770/catalogsearch/result/?q=headphones",
+      "title": "Search results for: 'headphones'",
+      "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-112904-537744\\snapshots\\00033",
+      "duplicate_snapshots": [],
+      "signature": "f285324da9d867518bb24bfaf0aef4f3651e44b55f41aeb8fc9a958a6bf2550b",
+      "endpoint_count": 0
+    },
+    {
+      "dir": "010_state",
+      "url": "http://127.0.0.1:7770/catalogsearch/result/?q=headphones",
+      "title": "Search results for: 'headphones'",
+      "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-112904-537744\\snapshots\\00034",
+      "duplicate_snapshots": [],
+      "signature": "d1bc269b001743e5f7313804609455576388133cfc1da8ffafa06b8b709c2995",
+      "endpoint_count": 0
+    },
+    {
+      "dir": "011_state",
+      "url": "http://127.0.0.1:7770/checkout/cart/",
+      "title": "Shopping Cart",
+      "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-112904-537744\\snapshots\\00035",
+      "duplicate_snapshots": [
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-112904-537744\\snapshots\\00036",
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-112904-537744\\snapshots\\00037",
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-112904-537744\\snapshots\\00038",
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-112904-537744\\snapshots\\00039",
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-112904-537744\\snapshots\\00040",
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-112904-537744\\snapshots\\00041",
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-112904-537744\\snapshots\\00042",
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-112904-537744\\snapshots\\00043",
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-112904-537744\\snapshots\\00044"
+      ],
+      "signature": "594334f1220f69e98147b7f16ad953471a041d23a497f49296cffd951fb121eb",
+      "endpoint_count": 0
+    }
+  ],
+  "deduplication": "exact prepared input signature within run; no URL-only merging"
+}

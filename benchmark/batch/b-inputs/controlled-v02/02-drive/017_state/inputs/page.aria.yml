@@ -1,0 +1,269 @@
+- RootWebArea "Colgate Slimsoft Floss-Tip Charcoal Toothbrush (Pack of 6)" [url="http://127.0.0.1:7770/colgate-slimsoft-floss-tip-charcoal-toothbrush-pack-of-6.html"]
+  - generic
+    - banner
+      - generic
+        - link "Skip to Content" [url="http://127.0.0.1:7770/colgate-slimsoft-floss-tip-charcoal-toothbrush-pack-of-6.html#contentarea"]
+          - StaticText "Skip to Content"
+      - generic
+        - generic
+          - generic
+            - StaticText ""
+          - StaticText "Toggle Nav"
+        - link "store logo" [url="http://127.0.0.1:7770/"]
+          - image "one_stop_market_logo" [url="http://127.0.0.1:7770/media/logo/websites/1/image_15__1.png"]
+        - generic
+          - link " My Cart" [url="http://127.0.0.1:7770/checkout/cart/"]
+            - generic
+              - StaticText ""
+            - StaticText "My Cart"
+        - form
+          - LabelText
+            - generic
+              - StaticText ""
+            - StaticText "Search"
+          - generic
+            - combobox " Search" [expanded=false]
+              - generic
+    - generic
+      - tablist
+        - tab "Menu" [selected=false] [expanded=true]
+          - link "Menu" [url="http://127.0.0.1:7770/colgate-slimsoft-floss-tip-charcoal-toothbrush-pack-of-6.html#store.menu"]
+            - StaticText "Menu"
+        - tabpanel
+          - navigation
+            - menu
+              - menuitem "BEAUTY & PERSONAL CARE "
+                - StaticText "BEAUTY & PERSONAL CARE"
+                - generic
+                  - StaticText ""
+              - menuitem "SPORTS & OUTDOORS "
+                - StaticText "SPORTS & OUTDOORS"
+                - generic
+                  - StaticText ""
+              - menuitem "CLOTHING, SHOES & JEWELRY "
+                - StaticText "CLOTHING, SHOES & JEWELRY"
+                - generic
+                  - StaticText ""
+              - menuitem "HOME & KITCHEN "
+                - StaticText "HOME & KITCHEN"
+                - generic
+                  - StaticText ""
+              - menuitem "OFFICE PRODUCTS "
+                - StaticText "OFFICE PRODUCTS"
+                - generic
+                  - StaticText ""
+              - menuitem "TOOLS & HOME IMPROVEMENT "
+                - StaticText "TOOLS & HOME IMPROVEMENT"
+                - generic
+                  - StaticText ""
+              - menuitem "HEALTH & HOUSEHOLD "
+                - StaticText "HEALTH & HOUSEHOLD"
+                - generic
+                  - StaticText ""
+              - menuitem "PATIO, LAWN & GARDEN "
+                - StaticText "PATIO, LAWN & GARDEN"
+                - generic
+                  - StaticText ""
+              - menuitem "ELECTRONICS "
+                - StaticText "ELECTRONICS"
+                - generic
+                  - StaticText ""
+              - menuitem "CELL PHONES & ACCESSORIES "
+                - StaticText "CELL PHONES & ACCESSORIES"
+                - generic
+                  - StaticText ""
+              - menuitem "VIDEO GAMES "
+                - StaticText "VIDEO GAMES"
+                - generic
+                  - StaticText ""
+              - menuitem "GROCERY & GOURMET FOOD "
+                - StaticText "GROCERY & GOURMET FOOD"
+                - generic
+                  - StaticText ""
+        - tab "Account" [selected=false] [expanded=false]
+          - link "Account" [url="http://127.0.0.1:7770/colgate-slimsoft-floss-tip-charcoal-toothbrush-pack-of-6.html#store.links"]
+            - StaticText "Account"
+    - list
+      - listitem [level=1]
+        - link "Home" [url="http://127.0.0.1:7770/"]
+          - StaticText "Home"
+        - generic
+          - StaticText ""
+      - listitem [level=1]
+        - link "Beauty & Personal Care" [url="http://127.0.0.1:7770/beauty-personal-care.html"]
+          - StaticText "Beauty & Personal Care"
+        - generic
+          - StaticText ""
+      - listitem [level=1]
+        - link "Oral Care" [url="http://127.0.0.1:7770/beauty-personal-care/oral-care.html"]
+          - StaticText "Oral Care"
+        - generic
+          - StaticText ""
+      - listitem [level=1]
+        - link "Toothbrushes & Accessories" [url="http://127.0.0.1:7770/beauty-personal-care/oral-care/toothbrushes-accessories.html"]
+          - StaticText "Toothbrushes & Accessories"
+        - generic
+          - StaticText ""
+      - listitem [level=1]
+        - strong
+          - StaticText "Colgate Slimsoft Floss-Tip Charcoal Toothbrush (Pack of 6)"
+    - main
+      - generic
+      - heading "Colgate Slimsoft Floss-Tip Charcoal Toothbrush (Pack of 6)" [level=1]
+        - StaticText "Colgate Slimsoft Floss-Tip Charcoal Toothbrush (Pack of 6)"
+      - generic
+        - generic
+          - StaticText "IN STOCK"
+        - generic
+          - strong
+            - StaticText "SKU"
+          - generic
+            - StaticText "B086LJX6TL"
+      - LayoutTable
+        - generic
+          - link "Be the first to review this product" [url="http://127.0.0.1:7770/colgate-slimsoft-floss-tip-charcoal-toothbrush-pack-of-6.html#review-form"]
+            - StaticText "Be the first to review this product"
+      - generic
+        - generic
+          - StaticText "$10.72"
+      - form
+        - LabelText
+          - StaticText "Qty"
+        - generic
+          - spinbutton "Qty" [value=1]
+            - generic
+              - StaticText "1"
+        - button "Add to Cart"
+          - StaticText "Add to Cart"
+        - generic
+      - generic
+        - link "Add to Wish List" [url="http://127.0.0.1:7770/colgate-slimsoft-floss-tip-charcoal-toothbrush-pack-of-6.html#"]
+          - StaticText "Add to Wish List"
+      - generic
+      - generic
+        - link "Skip to the end of the images gallery" [url="http://127.0.0.1:7770/colgate-slimsoft-floss-tip-charcoal-toothbrush-pack-of-6.html#gallery-next-area"]
+          - StaticText "Skip to the end of the images gallery"
+      - generic
+        - generic
+        - generic
+        - generic
+          - generic
+            - button "Previous"
+              - generic
+            - generic
+              - generic
+                - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/829a59e57f886f8cf0598ffca4f8a940/B/0/B086LJX6TL.1.jpg"]
+            - button "Next"
+              - generic
+          - generic
+            - generic
+              - button "Image"
+                - generic
+              - button "Image"
+                - generic
+        - generic
+      - generic
+        - link "Skip to the beginning of the images gallery" [url="http://127.0.0.1:7770/colgate-slimsoft-floss-tip-charcoal-toothbrush-pack-of-6.html#gallery-prev-area"]
+          - StaticText "Skip to the beginning of the images gallery"
+      - generic
+      - tablist
+        - tab "Details" [selected=false] [expanded=true]
+          - link "Details" [url="http://127.0.0.1:7770/colgate-slimsoft-floss-tip-charcoal-toothbrush-pack-of-6.html#description"]
+            - StaticText "Details"
+        - tabpanel "Details"
+          - generic
+          - generic
+          - generic
+          - generic
+          - generic
+            - heading "Product Quick Look" [level=2]
+              - StaticText "Product Quick Look"
+            - generic
+              - list
+                - listitem [level=1]
+                  - ListMarker "•"
+                  - StaticText "Colgate Twister Soft Toothbrush with Tongue Cleaner has a unique Twister Bristle Pattern that cleans in-between teeth and along the gum line. Its multi-height bristles fit the contours of your teeth to clean their surface. Toothbrushes include tongue cleaners to help fight bad breath."
+                - listitem [level=1]
+                  - ListMarker "•"
+                  - StaticText "Soft toothbrush bristles"
+                - listitem [level=1]
+                  - ListMarker "•"
+                  - StaticText "Toothbrush Include Tongue Cleaners to Fight Bad Breath"
+                - listitem [level=1]
+                  - ListMarker "•"
+                  - StaticText "Has a unique Twister Bristle Pattern that cleans in-between teeth and along the gum line"
+                - listitem [level=1]
+                  - ListMarker "•"
+                  - StaticText "Its multi-height bristles fit the contours of your teeth to clean their surface"
+                - listitem [level=1]
+                  - ListMarker "•"
+                  - StaticText "Change Your Toothbrush Every 3 Months"
+            - table
+              - row
+                - rowheader "Product Dimensions ‏"
+                  - StaticText "Product Dimensions ‏"
+                - cell "‎ 9.25 x 1.25 x 11.25 inches; 9.6 Ounces"
+                  - StaticText "‎ 9.25 x 1.25 x 11.25 inches; 9.6 Ounces"
+              - row
+                - rowheader "UPC ‏"
+                  - StaticText "UPC ‏"
+                - cell "‎ 035000980472"
+                  - StaticText "‎ 035000980472"
+              - row
+                - rowheader "Manufacturer ‏"
+                  - StaticText "Manufacturer ‏"
+                - cell "‎ AmazonUs/COKT7"
+                  - StaticText "‎ AmazonUs/COKT7"
+              - row
+                - rowheader "ASIN ‏"
+                  - StaticText "ASIN ‏"
+                - cell "‎ B086LJX6TL"
+                  - StaticText "‎ B086LJX6TL"
+              - row
+                - rowheader "Country of Origin ‏"
+                  - StaticText "Country of Origin ‏"
+                - cell "‎ Vietnam"
+                  - StaticText "‎ Vietnam"
+              - row
+                - rowheader "#2,273 in Manual Toothbrushes"
+                  - StaticText "#2,273 in Manual Toothbrushes"
+                - cell
+        - tab "Reviews" [selected=false] [expanded=false]
+          - link "Reviews" [url="http://127.0.0.1:7770/colgate-slimsoft-floss-tip-charcoal-toothbrush-pack-of-6.html#reviews"]
+            - StaticText "Reviews"
+    - contentinfo
+      - form
+        - generic
+          - generic
+            - StaticText ""
+          - LabelText
+            - StaticText "Sign Up for Our Newsletter:"
+            - textbox "Sign Up for Our Newsletter:"
+              - generic
+        - generic
+          - button "Subscribe"
+            - StaticText "Subscribe"
+      - list
+        - listitem [level=1]
+          - link "Privacy and Cookie Policy" [url="http://127.0.0.1:7770/privacy-policy-cookie-restriction-mode/"]
+            - StaticText "Privacy and Cookie Policy"
+        - listitem [level=1]
+          - link "Search Terms" [url="http://127.0.0.1:7770/search/term/popular/"]
+            - StaticText "Search Terms"
+        - listitem [level=1]
+          - link "Advanced Search" [url="http://127.0.0.1:7770/catalogsearch/advanced/"]
+            - StaticText "Advanced Search"
+        - listitem [level=1]
+          - link "Orders and Returns" [url="http://127.0.0.1:7770/sales/guest/form/"]
+            - StaticText "Orders and Returns"
+        - listitem [level=1]
+          - link "Contact Us" [url="http://127.0.0.1:7770/contact/"]
+            - StaticText "Contact Us"
+      - generic
+        - StaticText "Copyright © 2013-present Magento, Inc. All rights reserved."
+      - generic
+        - StaticText "Help Us Keep Magento Healthy"
+        - StaticText
+        - link "Report All Bugs" [url="http://www.magentocommerce.com/bug-tracking"]
+          - StaticText "Report All Bugs"
+    - generic

@@ -14,7 +14,7 @@
 
 当前 `common-readonly-coverage.v2.*` 只报告第一项，且按实体、属性、操作入口、关系、页面类型、业务状态分开，不合成总分。
 
-现有 CM 的三层诊断见 `existing-cm-common-g.v1.{json,md}`，运行 `python score_existing_cm.py` 复算。
+现有 CM 的三层诊断见 `existing-cm-common-g.v2.{json,md}`，运行 `python score_existing_cm_v2.py score` 复算。v1 报告已移至 `../archive/`，不再作为当前入口。
 
 ## 复算
 

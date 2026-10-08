@@ -1,0 +1,32 @@
+{
+  "frozen_at": "2026-10-08T07:53:10.049331+00:00",
+  "scope": "Historical v4 core attribute own-citation support; not full semantic precision.",
+  "timing": "Rules reuse historical v4; this parameterized wrapper was frozen during generation.",
+  "source_input_freeze_sha256": "5fac532548f158118b27add0a6977d0895e6fe7d1459c17c2ae4e7a60bc7ff03",
+  "files": [
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\score_b.py",
+      "sha256": "31adcb2bb3aee69c438fd52a2f1f663d9a4b382013f1e74727a4ed9e8bd64e28"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\harness-comparison\\score_citations_v4.py",
+      "sha256": "4bed264c219fa0eb271293edd2a290bfe11c52e5fc7f244eb2986584bbc3f83c"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\extraction\\score_context_models.py",
+      "sha256": "023f83f00612e9644e57f7f5754b5375a0d1fec33e8bcfad3c945bd228f6bde1"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\extraction\\ground-truth\\drive-trace.v1.json",
+      "sha256": "9495a4605d0833cd7f7c8d3f741f8318e0af06e71bfe2a71b8853de17ebb675f"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\extraction\\scoring-contract.v1.json",
+      "sha256": "2ef9bd78edcc228f5ffa9ada9c8a79ed4382c1a1f4793ceebc90332e0f4f1c66"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\audit_b.py",
+      "sha256": "8f78887f7818862f7f7c27b8e817c8b8663b704b24981faccd420c94c643ee10"
+    }
+  ]
+}

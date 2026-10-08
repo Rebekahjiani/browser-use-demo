@@ -1,0 +1,474 @@
+{
+  "nodes": [
+    {
+      "nodeId": "62908",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "RootWebArea"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 144
+      },
+      "name": {
+        "type": "computedString",
+        "value": "Error response",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label",
+            "superseded": true
+          },
+          {
+            "type": "relatedElement",
+            "value": {
+              "type": "computedString",
+              "value": "Error response"
+            },
+            "nativeSource": "title"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "name": "focusable",
+          "value": {
+            "type": "booleanOrUndefined",
+            "value": true
+          }
+        },
+        {
+          "name": "focused",
+          "value": {
+            "type": "booleanOrUndefined",
+            "value": true
+          }
+        },
+        {
+          "name": "url",
+          "value": {
+            "type": "string",
+            "value": "http://127.0.0.1:7770/wishlist/index/add/"
+          }
+        }
+      ],
+      "childIds": [
+        "62917"
+      ],
+      "backendDOMNodeId": 62908,
+      "frameId": "E42C032F4AD866337E63F1AFCB2DA291"
+    },
+    {
+      "nodeId": "62917",
+      "ignored": true,
+      "ignoredReasons": [
+        {
+          "name": "uninteresting",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        }
+      ],
+      "role": {
+        "type": "role",
+        "value": "none"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 0
+      },
+      "parentId": "62908",
+      "childIds": [
+        "62921"
+      ],
+      "backendDOMNodeId": 62917
+    },
+    {
+      "nodeId": "62921",
+      "ignored": true,
+      "ignoredReasons": [
+        {
+          "name": "uninteresting",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        }
+      ],
+      "role": {
+        "type": "role",
+        "value": "none"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 0
+      },
+      "parentId": "62917",
+      "childIds": [
+        "62909",
+        "62910",
+        "62911",
+        "62912"
+      ],
+      "backendDOMNodeId": 62921
+    },
+    {
+      "nodeId": "62909",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "heading"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 96
+      },
+      "name": {
+        "type": "computedString",
+        "value": "Error response",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          },
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "Error response"
+            }
+          },
+          {
+            "type": "attribute",
+            "attribute": "title",
+            "superseded": true
+          }
+        ]
+      },
+      "properties": [
+        {
+          "name": "level",
+          "value": {
+            "type": "integer",
+            "value": 1
+          }
+        }
+      ],
+      "parentId": "62921",
+      "childIds": [
+        "62913"
+      ],
+      "backendDOMNodeId": 62909
+    },
+    {
+      "nodeId": "62910",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "paragraph"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 133
+      },
+      "name": {
+        "type": "computedString",
+        "value": "",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "62921",
+      "childIds": [
+        "62914"
+      ],
+      "backendDOMNodeId": 62910
+    },
+    {
+      "nodeId": "62911",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "paragraph"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 133
+      },
+      "name": {
+        "type": "computedString",
+        "value": "",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "62921",
+      "childIds": [
+        "62915"
+      ],
+      "backendDOMNodeId": 62911
+    },
+    {
+      "nodeId": "62912",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "paragraph"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 133
+      },
+      "name": {
+        "type": "computedString",
+        "value": "",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "62921",
+      "childIds": [
+        "62916"
+      ],
+      "backendDOMNodeId": 62912
+    },
+    {
+      "nodeId": "62913",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "StaticText"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 158
+      },
+      "name": {
+        "type": "computedString",
+        "value": "Error response",
+        "sources": [
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "Error response"
+            }
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "62909",
+      "childIds": [
+        "-1000025984"
+      ],
+      "backendDOMNodeId": 62913
+    },
+    {
+      "nodeId": "62914",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "StaticText"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 158
+      },
+      "name": {
+        "type": "computedString",
+        "value": "Error code: 403",
+        "sources": [
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "Error code: 403"
+            }
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "62910",
+      "childIds": [
+        "-1000025985"
+      ],
+      "backendDOMNodeId": 62914
+    },
+    {
+      "nodeId": "62915",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "StaticText"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 158
+      },
+      "name": {
+        "type": "computedString",
+        "value": "Message: Benchmark read-only route boundary.",
+        "sources": [
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "Message: Benchmark read-only route boundary."
+            }
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "62911",
+      "childIds": [
+        "-1000025986"
+      ],
+      "backendDOMNodeId": 62915
+    },
+    {
+      "nodeId": "62916",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "StaticText"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 158
+      },
+      "name": {
+        "type": "computedString",
+        "value": "Error code explanation: 403 - Request forbidden -- authorization will not help.",
+        "sources": [
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "Error code explanation: 403 - Request forbidden -- authorization will not help."
+            }
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "62912",
+      "childIds": [
+        "-1000025987"
+      ],
+      "backendDOMNodeId": 62916
+    },
+    {
+      "nodeId": "-1000025984",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "InlineTextBox"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 101
+      },
+      "name": {
+        "type": "computedString",
+        "value": "Error response"
+      },
+      "properties": [],
+      "parentId": "62913",
+      "childIds": []
+    },
+    {
+      "nodeId": "-1000025985",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "InlineTextBox"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 101
+      },
+      "name": {
+        "type": "computedString",
+        "value": "Error code: 403"
+      },
+      "properties": [],
+      "parentId": "62914",
+      "childIds": []
+    },
+    {
+      "nodeId": "-1000025986",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "InlineTextBox"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 101
+      },
+      "name": {
+        "type": "computedString",
+        "value": "Message: Benchmark read-only route boundary."
+      },
+      "properties": [],
+      "parentId": "62915",
+      "childIds": []
+    },
+    {
+      "nodeId": "-1000025987",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "InlineTextBox"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 101
+      },
+      "name": {
+        "type": "computedString",
+        "value": "Error code explanation: 403 - Request forbidden -- authorization will not help."
+      },
+      "properties": [],
+      "parentId": "62916",
+      "childIds": []
+    }
+  ]
+}

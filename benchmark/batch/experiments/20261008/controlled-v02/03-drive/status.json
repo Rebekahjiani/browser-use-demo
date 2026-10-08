@@ -1,0 +1,1361 @@
+{
+  "ok": true,
+  "exploreId": "df528793-0c1a-4193-a850-452fbe10e273",
+  "state": "completed",
+  "profileId": "1d7f3521-7e9f-4523-9bb2-1333b28c12ef",
+  "startedAt": "2026-10-08T04:12:09.605Z",
+  "finishedAt": "2026-10-08T04:28:27.315Z",
+  "result": {
+    "run": {
+      "id": "df528793-0c1a-4193-a850-452fbe10e273",
+      "startedAt": "2026-10-08T04:12:09.605Z",
+      "finishedAt": "2026-10-08T04:28:27.315Z",
+      "durationMs": 977710,
+      "target": "http://127.0.0.1:7770/",
+      "complete": true
+    },
+    "config": {
+      "seed": "controlled-20261008-3",
+      "maxActions": 200,
+      "maxDurationMs": 1800000,
+      "allowSubmit": true
+    },
+    "stats": {
+      "actionsTaken": 78,
+      "pagesVisited": 25,
+      "statesDiscovered": 38,
+      "recordsCreated": 4,
+      "findingsBySeverity": {
+        "critical": 0,
+        "high": 15,
+        "medium": 9,
+        "low": 25,
+        "info": 8
+      }
+    },
+    "actions": [
+      {
+        "step": 0,
+        "kind": "scroll",
+        "stateHash": "543756ab",
+        "url": "http://127.0.0.1:7770/",
+        "ts": 1791432733439,
+        "navigated": false
+      },
+      {
+        "step": 1,
+        "kind": "key",
+        "stateHash": "543756ab",
+        "fp": "6c001f5e",
+        "target": "Menu",
+        "selector": "body:nth-child(2) > div:nth-child(8) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1)",
+        "value": "Enter",
+        "url": "http://127.0.0.1:7770/",
+        "ts": 1791432733800,
+        "navigated": false
+      },
+      {
+        "step": 2,
+        "kind": "scroll",
+        "stateHash": "543756ab",
+        "url": "http://127.0.0.1:7770/",
+        "ts": 1791432734048,
+        "navigated": false
+      },
+      {
+        "step": 3,
+        "kind": "click",
+        "stateHash": "543756ab",
+        "fp": "b31e812b",
+        "target": ".product-image-container-104490 { width: 240px; } .product-image-container-10449",
+        "selector": "body:nth-child(2) > div:nth-child(8) > main:nth-child(3) > div:nth-child(4) > div:nth-child(1) > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > ol:nth-child(1) > li:nth-child(10) > div:nth-child(1) > a:nth-child(1)",
+        "url": "http://127.0.0.1:7770/",
+        "ts": 1791432734473,
+        "navigated": false
+      },
+      {
+        "step": 6,
+        "kind": "scroll",
+        "stateHash": "29020f8f",
+        "url": "http://127.0.0.1:7770/tony-chachere-s-more-spice-creole-seasoning-14-oz.html",
+        "ts": 1791432742225,
+        "navigated": false
+      },
+      {
+        "step": 8,
+        "kind": "click",
+        "stateHash": "29020f8f",
+        "fp": "e17edf7b",
+        "target": "12 Reviews",
+        "selector": "body:nth-child(2) > div:nth-child(8) > main:nth-child(4) > div:nth-child(4) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(3) > a:nth-child(1)",
+        "url": "http://127.0.0.1:7770/tony-chachere-s-more-spice-creole-seasoning-14-oz.html",
+        "ts": 1791432742943,
+        "navigated": false
+      },
+      {
+        "step": 9,
+        "kind": "submit-form",
+        "stateHash": "4cbf83fb",
+        "target": "Submit Review",
+        "value": "4 fields → created",
+        "url": "http://127.0.0.1:7770/tony-chachere-s-more-spice-creole-seasoning-14-oz.html",
+        "ts": 1791432743988,
+        "navigated": false,
+        "formKey": "div:3>div:0>div:2>div:0>div:3>div:1>div:1>form:0",
+        "fieldsFilled": 4,
+        "retries": 0,
+        "submitted": true
+      },
+      {
+        "step": 55,
+        "kind": "scroll",
+        "stateHash": "6e0ca411",
+        "url": "http://127.0.0.1:7770/checkout/cart/",
+        "ts": 1791433118759,
+        "navigated": false
+      },
+      {
+        "step": 56,
+        "kind": "back",
+        "stateHash": "6e0ca411",
+        "url": "http://127.0.0.1:7770/checkout/cart/",
+        "ts": 1791433119113,
+        "navigated": true
+      },
+      {
+        "step": 64,
+        "kind": "key",
+        "stateHash": "a4174385",
+        "fp": "abf11dfa",
+        "target": "Health & Household",
+        "selector": "#ui-id-141",
+        "value": "ArrowUp",
+        "url": "http://127.0.0.1:7770/catalogsearch/advanced/",
+        "ts": 1791433180583,
+        "navigated": false
+      },
+      {
+        "step": 65,
+        "kind": "click",
+        "stateHash": "a4174385",
+        "fp": "618c0c1c",
+        "target": "Description",
+        "selector": "body:nth-child(2) > div:nth-child(8) > main:nth-child(4) > div:nth-child(4) > div:nth-child(1) > form:nth-child(4) > fieldset:nth-child(1) > div:nth-child(5) > label:nth-child(1)",
+        "url": "http://127.0.0.1:7770/catalogsearch/advanced/",
+        "ts": 1791433180861,
+        "navigated": false
+      },
+      {
+        "step": 67,
+        "kind": "forward",
+        "stateHash": "a4174385",
+        "url": "http://127.0.0.1:7770/catalogsearch/advanced/",
+        "ts": 1791433184425,
+        "navigated": false
+      },
+      {
+        "step": 68,
+        "kind": "key",
+        "stateHash": "a4174385",
+        "fp": "69fb67c8",
+        "target": "Video Games",
+        "selector": "#ui-id-228",
+        "value": "Tab",
+        "url": "http://127.0.0.1:7770/catalogsearch/advanced/",
+        "ts": 1791433184781,
+        "navigated": false
+      },
+      {
+        "step": 69,
+        "kind": "key",
+        "stateHash": "a4174385",
+        "fp": "c91f5219",
+        "target": "Privacy and Cookie Policy",
+        "selector": "body:nth-child(2) > div:nth-child(8) > footer:nth-child(5) > div:nth-child(1) > ul:nth-child(2) > li:nth-child(1) > a:nth-child(1)",
+        "value": "ArrowLeft",
+        "url": "http://127.0.0.1:7770/catalogsearch/advanced/",
+        "ts": 1791433185044,
+        "navigated": false
+      },
+      {
+        "step": 70,
+        "kind": "click",
+        "stateHash": "a4174385",
+        "fp": "c375bf93",
+        "target": "Go to Home Page",
+        "selector": "body:nth-child(2) > div:nth-child(8) > div:nth-child(3) > ul:nth-child(1) > li:nth-child(1) > a:nth-child(1)",
+        "url": "http://127.0.0.1:7770/catalogsearch/advanced/",
+        "ts": 1791433185333,
+        "navigated": false
+      },
+      {
+        "step": 71,
+        "kind": "click",
+        "stateHash": "543756ab",
+        "fp": "300b9770",
+        "target": "Page 2",
+        "selector": "body:nth-child(2) > div:nth-child(8) > main:nth-child(3) > div:nth-child(4) > div:nth-child(1) > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(2) > ul:nth-child(2) > li:nth-child(2) > a:nth-child(1)",
+        "url": "http://127.0.0.1:7770/",
+        "ts": 1791433188493,
+        "navigated": false
+      },
+      {
+        "step": 73,
+        "kind": "dblclick",
+        "stateHash": "fbf2f6e3",
+        "fp": "33de3056",
+        "target": "Add to Cart",
+        "selector": "body:nth-child(2) > div:nth-child(8) > main:nth-child(3) > div:nth-child(4) > div:nth-child(1) > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > ol:nth-child(1) > li:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(4) > div:nth-child(1) > div:nth-child(1) > form:nth-child(1) > button:nth-child(4)",
+        "url": "http://127.0.0.1:7770/?pbaocw=2",
+        "ts": 1791433195099,
+        "navigated": false
+      },
+      {
+        "step": 74,
+        "kind": "hover",
+        "stateHash": "fbf2f6e3",
+        "fp": "91aa69ec",
+        "target": "Viva Doria Tellicherry Peppercorn, Steam Sterilized Whole Black Pepper, Black Pe",
+        "selector": "body:nth-child(2) > div:nth-child(8) > main:nth-child(3) > div:nth-child(4) > div:nth-child(1) > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > ol:nth-child(1) > li:nth-child(11) > div:nth-child(1) > div:nth-child(2) > strong:nth-child(1) > a:nth-child(1)",
+        "url": "http://127.0.0.1:7770/?pbaocw=2",
+        "ts": 1791433198568,
+        "navigated": false
+      },
+      {
+        "step": 75,
+        "kind": "dblclick",
+        "stateHash": "fbf2f6e3",
+        "fp": "0ecf5dff",
+        "target": "My Cart",
+        "selector": "body:nth-child(2) > div:nth-child(8) > header:nth-child(1) > div:nth-child(2) > div:nth-child(3) > a:nth-child(1)",
+        "url": "http://127.0.0.1:7770/?pbaocw=2",
+        "ts": 1791433199027,
+        "navigated": false
+      },
+      {
+        "step": 76,
+        "kind": "click",
+        "stateHash": "fbf2f6e3",
+        "fp": "d952cba5",
+        "target": "Add to Cart",
+        "selector": "body:nth-child(2) > div:nth-child(8) > main:nth-child(3) > div:nth-child(4) > div:nth-child(1) > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > ol:nth-child(1) > li:nth-child(10) > div:nth-child(1) > div:nth-child(2) > div:nth-child(4) > div:nth-child(1) > div:nth-child(1) > form:nth-child(1) > button:nth-child(4)",
+        "url": "http://127.0.0.1:7770/?pbaocw=2",
+        "ts": 1791433199427,
+        "navigated": false
+      },
+      {
+        "step": 77,
+        "kind": "click",
+        "stateHash": "fbf2f6e3",
+        "fp": "69d828c7",
+        "target": "Add to Cart",
+        "selector": "body:nth-child(2) > div:nth-child(8) > main:nth-child(3) > div:nth-child(4) > div:nth-child(1) > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > ol:nth-child(1) > li:nth-child(11) > div:nth-child(1) > div:nth-child(2) > div:nth-child(4) > div:nth-child(1) > div:nth-child(1) > form:nth-child(1) > button:nth-child(4)",
+        "url": "http://127.0.0.1:7770/?pbaocw=2",
+        "ts": 1791433202081,
+        "navigated": false
+      },
+      {
+        "step": 78,
+        "kind": "key",
+        "stateHash": "fbf2f6e3",
+        "fp": "6fd181ac",
+        "target": "Add to Cart",
+        "selector": "body:nth-child(2) > div:nth-child(8) > main:nth-child(3) > div:nth-child(4) > div:nth-child(1) > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > ol:nth-child(1) > li:nth-child(7) > div:nth-child(1) > div:nth-child(2) > div:nth-child(4) > div:nth-child(1) > div:nth-child(1) > form:nth-child(1) > button:nth-child(4)",
+        "value": "a",
+        "url": "http://127.0.0.1:7770/?pbaocw=2",
+        "ts": 1791433205023,
+        "navigated": false
+      },
+      {
+        "step": 79,
+        "kind": "key",
+        "stateHash": "fbf2f6e3",
+        "fp": "69d828c7",
+        "target": "Add to Cart",
+        "selector": "body:nth-child(2) > div:nth-child(8) > main:nth-child(3) > div:nth-child(4) > div:nth-child(1) > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > ol:nth-child(1) > li:nth-child(11) > div:nth-child(1) > div:nth-child(2) > div:nth-child(4) > div:nth-child(1) > div:nth-child(1) > form:nth-child(1) > button:nth-child(4)",
+        "value": "Backspace",
+        "url": "http://127.0.0.1:7770/?pbaocw=2",
+        "ts": 1791433205335,
+        "navigated": false
+      },
+      {
+        "step": 80,
+        "kind": "type",
+        "stateHash": "fbf2f6e3",
+        "fp": "c0627a5f",
+        "target": "Enter your email address",
+        "selector": "#newsletter",
+        "value": "\t\n",
+        "url": "http://127.0.0.1:7770/?pbaocw=2",
+        "ts": 1791433205752,
+        "navigated": false
+      },
+      {
+        "step": 81,
+        "kind": "key",
+        "stateHash": "fbf2f6e3",
+        "fp": "c132c6a4",
+        "target": "A.C. Legg INC Mesquite Marinade Seasoning",
+        "selector": "body:nth-child(2) > div:nth-child(8) > main:nth-child(3) > div:nth-child(4) > div:nth-child(1) > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > ol:nth-child(1) > li:nth-child(5) > div:nth-child(1) > div:nth-child(2) > strong:nth-child(1) > a:nth-child(1)",
+        "value": "Home",
+        "url": "http://127.0.0.1:7770/?pbaocw=2",
+        "ts": 1791433206023,
+        "navigated": false
+      },
+      {
+        "step": 82,
+        "kind": "submit-form",
+        "stateHash": "4e718433",
+        "target": "Add to Wish List",
+        "value": "0 fields → created",
+        "url": "http://127.0.0.1:7770/beauty-personal-care.html",
+        "ts": 1791433209297,
+        "navigated": false,
+        "formKey": "page",
+        "fieldsFilled": 0,
+        "retries": 0,
+        "submitted": true
+      },
+      {
+        "step": 92,
+        "kind": "scroll",
+        "stateHash": "f460ae98",
+        "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care.html",
+        "ts": 1791433287360,
+        "navigated": false
+      },
+      {
+        "step": 93,
+        "kind": "key",
+        "stateHash": "f460ae98",
+        "fp": "c375bf93",
+        "target": "Go to Home Page",
+        "selector": "body:nth-child(2) > div:nth-child(8) > div:nth-child(3) > ul:nth-child(1) > li:nth-child(1) > a:nth-child(1)",
+        "value": "Delete",
+        "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care.html",
+        "ts": 1791433287718,
+        "navigated": false
+      },
+      {
+        "step": 94,
+        "kind": "click",
+        "stateHash": "f460ae98",
+        "fp": "aa0826d4",
+        "target": "Add to Wish List",
+        "selector": "body:nth-child(2) > div:nth-child(8) > main:nth-child(4) > div:nth-child(4) > div:nth-child(1) > div:nth-child(4) > ol:nth-child(1) > li:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > a:nth-child(1)",
+        "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care.html",
+        "ts": 1791433288001,
+        "navigated": false
+      },
+      {
+        "step": 102,
+        "kind": "click",
+        "stateHash": "8094aa08",
+        "fp": "ad1334b6",
+        "target": "Sort By",
+        "selector": "body:nth-child(2) > div:nth-child(8) > main:nth-child(4) > div:nth-child(4) > div:nth-child(1) > div:nth-child(3) > div:nth-child(3) > label:nth-child(1)",
+        "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/toothbrushes-accessories.html",
+        "ts": 1791433350263,
+        "navigated": false
+      },
+      {
+        "step": 103,
+        "kind": "click",
+        "stateHash": "8094aa08",
+        "fp": "c18b5d16",
+        "target": "Add to Wish List",
+        "selector": "body:nth-child(2) > div:nth-child(8) > main:nth-child(4) > div:nth-child(4) > div:nth-child(1) > div:nth-child(4) > ol:nth-child(1) > li:nth-child(4) > div:nth-child(1) > div:nth-child(2) > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > a:nth-child(1)",
+        "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/toothbrushes-accessories.html",
+        "ts": 1791433350936,
+        "navigated": false
+      },
+      {
+        "step": 112,
+        "kind": "click",
+        "stateHash": "d20f5deb",
+        "fp": "fa00a67f",
+        "target": "Add to Wish List",
+        "selector": "body:nth-child(2) > div:nth-child(8) > main:nth-child(4) > div:nth-child(4) > div:nth-child(1) > div:nth-child(4) > ol:nth-child(1) > li:nth-child(5) > div:nth-child(1) > div:nth-child(2) > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > a:nth-child(1)",
+        "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/dental-floss-picks.html",
+        "ts": 1791433417716,
+        "navigated": false
+      },
+      {
+        "step": 121,
+        "kind": "hover",
+        "stateHash": "b6eaf600",
+        "fp": "207db359",
+        "target": "Oral Care",
+        "selector": "body:nth-child(2) > div:nth-child(8) > div:nth-child(3) > ul:nth-child(1) > li:nth-child(3) > a:nth-child(1)",
+        "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/orthodontic-supplies.html",
+        "ts": 1791433488233,
+        "navigated": false
+      },
+      {
+        "step": 122,
+        "kind": "forward",
+        "stateHash": "b6eaf600",
+        "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/orthodontic-supplies.html",
+        "ts": 1791433488504,
+        "navigated": false
+      },
+      {
+        "step": 123,
+        "kind": "key",
+        "stateHash": "b6eaf600",
+        "fp": "6c001f5e",
+        "target": "Menu",
+        "selector": "body:nth-child(2) > div:nth-child(8) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1)",
+        "value": "Enter",
+        "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/orthodontic-supplies.html",
+        "ts": 1791433488886,
+        "navigated": false
+      },
+      {
+        "step": 124,
+        "kind": "key",
+        "stateHash": "b6eaf600",
+        "fp": "f32c8a41",
+        "target": "Add to Cart",
+        "selector": "body:nth-child(2) > div:nth-child(8) > main:nth-child(4) > div:nth-child(4) > div:nth-child(1) > div:nth-child(4) > ol:nth-child(1) > li:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > form:nth-child(1) > button:nth-child(4)",
+        "value": "ArrowDown",
+        "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/orthodontic-supplies.html",
+        "ts": 1791433489250,
+        "navigated": false
+      },
+      {
+        "step": 125,
+        "kind": "click",
+        "stateHash": "b6eaf600",
+        "fp": "1f92048d",
+        "target": "Add to Cart",
+        "selector": "body:nth-child(2) > div:nth-child(8) > main:nth-child(4) > div:nth-child(4) > div:nth-child(1) > div:nth-child(4) > ol:nth-child(1) > li:nth-child(5) > div:nth-child(1) > div:nth-child(2) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > form:nth-child(1) > button:nth-child(4)",
+        "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/orthodontic-supplies.html",
+        "ts": 1791433489581,
+        "navigated": false
+      },
+      {
+        "step": 127,
+        "kind": "scroll",
+        "stateHash": "b6eaf600",
+        "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/orthodontic-supplies.html",
+        "ts": 1791433496226,
+        "navigated": false
+      },
+      {
+        "step": 128,
+        "kind": "click",
+        "stateHash": "b6eaf600",
+        "fp": "6e716f87",
+        "target": "$0.00 - $99.99 395item",
+        "selector": "body:nth-child(2) > div:nth-child(8) > main:nth-child(4) > div:nth-child(4) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > dl:nth-child(2) > dd:nth-child(2) > ol:nth-child(1) > li:nth-child(1) > a:nth-child(1)",
+        "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/orthodontic-supplies.html",
+        "ts": 1791433496543,
+        "navigated": false
+      },
+      {
+        "step": 131,
+        "kind": "click",
+        "stateHash": "9cbef7b6",
+        "fp": "c7bb83d2",
+        "target": "Advanced Search",
+        "selector": "body:nth-child(2) > div:nth-child(8) > footer:nth-child(5) > div:nth-child(1) > ul:nth-child(2) > li:nth-child(3) > a:nth-child(1)",
+        "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/orthodontic-supplies.html?price=0-100",
+        "ts": 1791433504109,
+        "navigated": false
+      },
+      {
+        "step": 132,
+        "kind": "key",
+        "stateHash": "a4174385",
+        "fp": "a956930e",
+        "target": "Contact Us",
+        "selector": "body:nth-child(2) > div:nth-child(8) > footer:nth-child(5) > div:nth-child(1) > ul:nth-child(2) > li:nth-child(5) > a:nth-child(1)",
+        "value": "Escape",
+        "url": "http://127.0.0.1:7770/catalogsearch/advanced/",
+        "ts": 1791433506759,
+        "navigated": false
+      },
+      {
+        "step": 133,
+        "kind": "dblclick",
+        "stateHash": "a4174385",
+        "fp": "80a39551",
+        "target": "Short Description",
+        "selector": "body:nth-child(2) > div:nth-child(8) > main:nth-child(4) > div:nth-child(4) > div:nth-child(1) > form:nth-child(4) > fieldset:nth-child(1) > div:nth-child(6) > label:nth-child(1)",
+        "url": "http://127.0.0.1:7770/catalogsearch/advanced/",
+        "ts": 1791433507080,
+        "navigated": false
+      },
+      {
+        "step": 135,
+        "kind": "click",
+        "stateHash": "a4174385",
+        "fp": "63f69e6e",
+        "target": "Price",
+        "selector": "#price",
+        "url": "http://127.0.0.1:7770/catalogsearch/advanced/",
+        "ts": 1791433510714,
+        "navigated": false
+      },
+      {
+        "step": 136,
+        "kind": "submit-form",
+        "stateHash": "a4174385",
+        "target": "Search",
+        "value": "6 fields (rejected)",
+        "url": "http://127.0.0.1:7770/catalogsearch/advanced/",
+        "ts": 1791433511983,
+        "navigated": false,
+        "formKey": "html:0>body:1>div:7>main:3>div:3>div:0>form:3",
+        "fieldsFilled": 6,
+        "retries": 2,
+        "submitted": false
+      },
+      {
+        "step": 137,
+        "kind": "scroll",
+        "stateHash": "c41bdb74",
+        "url": "http://127.0.0.1:7770/catalogsearch/advanced/",
+        "ts": 1791433512549,
+        "navigated": false
+      },
+      {
+        "step": 138,
+        "kind": "hover",
+        "stateHash": "c41bdb74",
+        "fp": "2ee3e0e6",
+        "target": "Subscribe",
+        "selector": "body:nth-child(2) > div:nth-child(8) > footer:nth-child(5) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > form:nth-child(1) > div:nth-child(2) > button:nth-child(1)",
+        "url": "http://127.0.0.1:7770/catalogsearch/advanced/",
+        "ts": 1791433512807,
+        "navigated": false
+      },
+      {
+        "step": 139,
+        "kind": "click",
+        "stateHash": "c41bdb74",
+        "fp": "7b75a785",
+        "target": "SKU",
+        "selector": "#sku",
+        "url": "http://127.0.0.1:7770/catalogsearch/advanced/",
+        "ts": 1791433513079,
+        "navigated": false
+      },
+      {
+        "step": 140,
+        "kind": "submit-form",
+        "stateHash": "c41bdb74",
+        "target": "Search",
+        "value": "6 fields (rejected)",
+        "url": "http://127.0.0.1:7770/catalogsearch/advanced/",
+        "ts": 1791433514314,
+        "navigated": false,
+        "formKey": "html:0>body:1>div:7>main:3>div:3>div:0>form:3",
+        "fieldsFilled": 6,
+        "retries": 2,
+        "submitted": false
+      },
+      {
+        "step": 142,
+        "kind": "click",
+        "stateHash": "c41bdb74",
+        "fp": "618c0c1c",
+        "target": "Description",
+        "selector": "body:nth-child(2) > div:nth-child(8) > main:nth-child(4) > div:nth-child(4) > div:nth-child(1) > form:nth-child(4) > fieldset:nth-child(1) > div:nth-child(5) > label:nth-child(1)",
+        "url": "http://127.0.0.1:7770/catalogsearch/advanced/",
+        "ts": 1791433517916,
+        "navigated": false
+      },
+      {
+        "step": 143,
+        "kind": "submit-form",
+        "stateHash": "c41bdb74",
+        "target": "Search",
+        "value": "6 fields (rejected)",
+        "url": "http://127.0.0.1:7770/catalogsearch/advanced/",
+        "ts": 1791433518614,
+        "navigated": false,
+        "formKey": "html:0>body:1>div:7>main:3>div:3>div:0>form:3",
+        "fieldsFilled": 6,
+        "retries": 2,
+        "submitted": false
+      },
+      {
+        "step": 144,
+        "kind": "key",
+        "stateHash": "c41bdb74",
+        "fp": "0cb265ef",
+        "target": "Search entire store here...",
+        "selector": "#search",
+        "value": "Tab",
+        "url": "http://127.0.0.1:7770/catalogsearch/advanced/",
+        "ts": 1791433518882,
+        "navigated": false
+      },
+      {
+        "step": 145,
+        "kind": "back",
+        "stateHash": "c41bdb74",
+        "url": "http://127.0.0.1:7770/catalogsearch/advanced/",
+        "ts": 1791433521197,
+        "navigated": true
+      },
+      {
+        "step": 146,
+        "kind": "click",
+        "stateHash": "90a888c9",
+        "fp": "f24b860d",
+        "target": "Page 2",
+        "selector": "body:nth-child(2) > div:nth-child(8) > main:nth-child(4) > div:nth-child(4) > div:nth-child(1) > div:nth-child(5) > div:nth-child(1) > ul:nth-child(2) > li:nth-child(2) > a:nth-child(1)",
+        "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/children-s-dental-care.html",
+        "ts": 1791433525247,
+        "navigated": false
+      },
+      {
+        "step": 149,
+        "kind": "click",
+        "stateHash": "c382edfd",
+        "fp": "401f7fd1",
+        "target": ".product-image-container-2686 { width: 240px; } .product-image-container-2686 sp",
+        "selector": "body:nth-child(2) > div:nth-child(8) > main:nth-child(4) > div:nth-child(4) > div:nth-child(1) > div:nth-child(4) > ol:nth-child(1) > li:nth-child(1) > div:nth-child(1) > a:nth-child(1)",
+        "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/children-s-dental-care.html?p=2",
+        "ts": 1791433533771,
+        "navigated": false
+      },
+      {
+        "step": 152,
+        "kind": "key",
+        "stateHash": "c50dd60c",
+        "fp": "a27fa23b",
+        "target": "Skip to the beginning of the images gallery",
+        "selector": "body:nth-child(2) > div:nth-child(8) > main:nth-child(4) > div:nth-child(4) > div:nth-child(1) > div:nth-child(2) > div:nth-child(4) > a:nth-child(1)",
+        "value": " ",
+        "url": "http://127.0.0.1:7770/bestyijo-kids-u-shaped-electric-toothbrush-cartoon-cute-ultrasonic-automatic-toothbrushes-with-5-cleaning-modes-waterproof-auto-toothbrush-for-children-toddler-kid.html",
+        "ts": 1791433542860,
+        "navigated": false
+      },
+      {
+        "step": 153,
+        "kind": "submit-form",
+        "stateHash": "c50dd60c",
+        "target": "Add to Cart",
+        "value": "3 fields → created",
+        "url": "http://127.0.0.1:7770/bestyijo-kids-u-shaped-electric-toothbrush-cartoon-cute-ultrasonic-automatic-toothbrushes-with-5-cleaning-modes-waterproof-auto-toothbrush-for-children-toddler-kid.html",
+        "ts": 1791433543209,
+        "navigated": false,
+        "formKey": "body:1>div:7>main:3>div:3>div:0>div:0>div:1>form:0",
+        "fieldsFilled": 3,
+        "retries": 0,
+        "submitted": true
+      },
+      {
+        "step": 154,
+        "kind": "click",
+        "stateHash": "e4f381aa",
+        "fp": "ede0e62a",
+        "target": "Reviews",
+        "selector": "#tab-label-reviews-title",
+        "url": "http://127.0.0.1:7770/bestyijo-kids-u-shaped-electric-toothbrush-cartoon-cute-ultrasonic-automatic-toothbrushes-with-5-cleaning-modes-waterproof-auto-toothbrush-for-children-toddler-kid.html",
+        "ts": 1791433547327,
+        "navigated": false
+      },
+      {
+        "step": 156,
+        "kind": "scroll",
+        "stateHash": "d6fa0906",
+        "url": "http://127.0.0.1:7770/bestyijo-kids-u-shaped-electric-toothbrush-cartoon-cute-ultrasonic-automatic-toothbrushes-with-5-cleaning-modes-waterproof-auto-toothbrush-for-children-toddler-kid.html",
+        "ts": 1791433551218,
+        "navigated": false
+      },
+      {
+        "step": 158,
+        "kind": "hover",
+        "stateHash": "d6fa0906",
+        "fp": "7ab9a787",
+        "target": "require([ 'jquery', ], function($){ //<![CDATA[ $.extend(true, $, { calendarConf",
+        "selector": "body:nth-child(2) > div:nth-child(8) > main:nth-child(4) > div:nth-child(4) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > form:nth-child(1) > div:nth-child(6) > div:nth-child(1)",
+        "url": "http://127.0.0.1:7770/bestyijo-kids-u-shaped-electric-toothbrush-cartoon-cute-ultrasonic-automatic-toothbrushes-with-5-cleaning-modes-waterproof-auto-toothbrush-for-children-toddler-kid.html",
+        "ts": 1791433554803,
+        "navigated": false
+      },
+      {
+        "step": 160,
+        "kind": "forward",
+        "stateHash": "d6fa0906",
+        "url": "http://127.0.0.1:7770/bestyijo-kids-u-shaped-electric-toothbrush-cartoon-cute-ultrasonic-automatic-toothbrushes-with-5-cleaning-modes-waterproof-auto-toothbrush-for-children-toddler-kid.html",
+        "ts": 1791433558292,
+        "navigated": false
+      },
+      {
+        "step": 164,
+        "kind": "forward",
+        "stateHash": "11358a21",
+        "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/oral-pain-relief.html",
+        "ts": 1791433571819,
+        "navigated": false
+      },
+      {
+        "step": 165,
+        "kind": "click",
+        "stateHash": "11358a21",
+        "fp": "335e154f",
+        "target": "Prevest Denpro Platina Hi-Gloss 1X4g, Dental Products",
+        "selector": "body:nth-child(2) > div:nth-child(8) > main:nth-child(4) > div:nth-child(4) > div:nth-child(1) > div:nth-child(4) > ol:nth-child(1) > li:nth-child(8) > div:nth-child(1) > div:nth-child(2) > strong:nth-child(1) > a:nth-child(1)",
+        "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/oral-pain-relief.html",
+        "ts": 1791433572088,
+        "navigated": false
+      },
+      {
+        "step": 167,
+        "kind": "key",
+        "stateHash": "405b017b",
+        "fp": "8dc89b95",
+        "target": "Surveillance Video Equipment",
+        "selector": "body:nth-child(2) > div:nth-child(8) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > nav:nth-child(1) > ul:nth-child(1) > li:nth-child(9) > ul:nth-child(2) > li:nth-child(9) > ul:nth-child(2) > li:nth-child(2) > a:nth-child(1)",
+        "value": "Enter",
+        "url": "http://127.0.0.1:7770/prevest-denpro-platina-hi-gloss-1x4g-dental-products.html",
+        "ts": 1791433576477,
+        "navigated": false
+      },
+      {
+        "step": 168,
+        "kind": "submit-form",
+        "stateHash": "ada07766",
+        "target": "Add to Cart",
+        "value": "1 fields → created",
+        "url": "http://127.0.0.1:7770/prevest-denpro-platina-hi-gloss-1x4g-dental-products.html",
+        "ts": 1791433577478,
+        "navigated": false,
+        "formKey": "body:1>div:7>main:3>div:3>div:0>div:0>div:1>form:0",
+        "fieldsFilled": 1,
+        "retries": 0,
+        "submitted": true
+      },
+      {
+        "step": 169,
+        "kind": "scroll",
+        "stateHash": "7ee17252",
+        "url": "http://127.0.0.1:7770/prevest-denpro-platina-hi-gloss-1x4g-dental-products.html",
+        "ts": 1791433582058,
+        "navigated": false
+      },
+      {
+        "step": 171,
+        "kind": "scroll",
+        "stateHash": "7ee17252",
+        "url": "http://127.0.0.1:7770/prevest-denpro-platina-hi-gloss-1x4g-dental-products.html",
+        "ts": 1791433585530,
+        "navigated": false
+      },
+      {
+        "step": 172,
+        "kind": "hover",
+        "stateHash": "7ee17252",
+        "fp": "c7bb83d2",
+        "target": "Advanced Search",
+        "selector": "body:nth-child(2) > div:nth-child(8) > footer:nth-child(5) > div:nth-child(1) > ul:nth-child(2) > li:nth-child(3) > a:nth-child(1)",
+        "url": "http://127.0.0.1:7770/prevest-denpro-platina-hi-gloss-1x4g-dental-products.html",
+        "ts": 1791433585917,
+        "navigated": false
+      },
+      {
+        "step": 174,
+        "kind": "scroll",
+        "stateHash": "7ee17252",
+        "url": "http://127.0.0.1:7770/prevest-denpro-platina-hi-gloss-1x4g-dental-products.html",
+        "ts": 1791433589390,
+        "navigated": false
+      },
+      {
+        "step": 175,
+        "kind": "click",
+        "stateHash": "7ee17252",
+        "fp": "c91f5219",
+        "target": "Privacy and Cookie Policy",
+        "selector": "body:nth-child(2) > div:nth-child(8) > footer:nth-child(5) > div:nth-child(1) > ul:nth-child(2) > li:nth-child(1) > a:nth-child(1)",
+        "url": "http://127.0.0.1:7770/prevest-denpro-platina-hi-gloss-1x4g-dental-products.html",
+        "ts": 1791433589682,
+        "navigated": false
+      },
+      {
+        "step": 185,
+        "kind": "click",
+        "stateHash": "25f7b572",
+        "fp": "bf359fc1",
+        "target": "Next",
+        "selector": "body:nth-child(2) > div:nth-child(8) > main:nth-child(4) > div:nth-child(4) > div:nth-child(1) > div:nth-child(5) > div:nth-child(1) > ul:nth-child(2) > li:nth-child(6) > a:nth-child(1)",
+        "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/toothpaste.html",
+        "ts": 1791433667798,
+        "navigated": false
+      },
+      {
+        "step": 189,
+        "kind": "scroll",
+        "stateHash": "baf36a8f",
+        "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/toothpaste.html?p=2",
+        "ts": 1791433676625,
+        "navigated": false
+      },
+      {
+        "step": 190,
+        "kind": "click",
+        "stateHash": "baf36a8f",
+        "fp": "27be58ab",
+        "target": "Add to Cart",
+        "selector": "body:nth-child(2) > div:nth-child(8) > main:nth-child(4) > div:nth-child(4) > div:nth-child(1) > div:nth-child(4) > ol:nth-child(1) > li:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > form:nth-child(1) > button:nth-child(4)",
+        "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/toothpaste.html?p=2",
+        "ts": 1791433677033,
+        "navigated": false
+      },
+      {
+        "step": 191,
+        "kind": "scroll",
+        "stateHash": "d962584b",
+        "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/toothpaste.html?p=2",
+        "ts": 1791433680736,
+        "navigated": false
+      },
+      {
+        "step": 193,
+        "kind": "back",
+        "stateHash": "baf36a8f",
+        "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/toothpaste.html?p=2",
+        "ts": 1791433686832,
+        "navigated": true
+      },
+      {
+        "step": 194,
+        "kind": "key",
+        "stateHash": "4ebbd0e1",
+        "fp": "ffad7f8a",
+        "target": "Power Accessories",
+        "selector": "body:nth-child(2) > div:nth-child(8) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > nav:nth-child(1) > ul:nth-child(1) > li:nth-child(9) > ul:nth-child(2) > li:nth-child(10) > a:nth-child(1)",
+        "value": "ArrowRight",
+        "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/toothpaste.html",
+        "ts": 1791433689545,
+        "navigated": false
+      },
+      {
+        "step": 195,
+        "kind": "key",
+        "stateHash": "25f7b572",
+        "fp": "31e27376",
+        "target": "Beauty & Personal Care",
+        "selector": "#ui-id-2",
+        "value": "Tab",
+        "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/toothpaste.html",
+        "ts": 1791433689965,
+        "navigated": false
+      },
+      {
+        "step": 196,
+        "kind": "hover",
+        "stateHash": "25f7b572",
+        "fp": "df94d97f",
+        "target": "WEFR 30ml V34 Colour Corrector Teeth Whitening Sensitive Teeth Toothpaste, Teeth",
+        "selector": "body:nth-child(2) > div:nth-child(8) > main:nth-child(4) > div:nth-child(4) > div:nth-child(1) > div:nth-child(4) > ol:nth-child(1) > li:nth-child(11) > div:nth-child(1) > div:nth-child(2) > strong:nth-child(1) > a:nth-child(1)",
+        "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/toothpaste.html",
+        "ts": 1791433690354,
+        "navigated": false
+      },
+      {
+        "step": 197,
+        "kind": "click",
+        "stateHash": "25f7b572",
+        "fp": "4e7fae9a",
+        "target": "Add to Wish List",
+        "selector": "body:nth-child(2) > div:nth-child(8) > main:nth-child(4) > div:nth-child(4) > div:nth-child(1) > div:nth-child(4) > ol:nth-child(1) > li:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div:nth-child(4) > div:nth-child(1) > div:nth-child(2) > a:nth-child(1)",
+        "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/toothpaste.html",
+        "ts": 1791433690637,
+        "navigated": false
+      }
+    ],
+    "signals": [
+      {
+        "kind": "guardrail",
+        "detail": "skipped form (auth/login form): Subscribe",
+        "url": "http://127.0.0.1:7770/",
+        "at": 1791432733408,
+        "severity": "info"
+      },
+      {
+        "kind": "guardrail",
+        "detail": "skipped form (auth/login form): Subscribe",
+        "url": "http://127.0.0.1:7770/",
+        "at": 1791432734044,
+        "severity": "info"
+      },
+      {
+        "kind": "driver",
+        "detail": "action click failed: locator.click: Timeout 3000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#ui-id-213').first()\u001b[22m\n\u001b[2m    - locator resolved to <a tabindex=\"-1\" id=\"ui-id-213\" role=\"menuitem\" aria-haspopup=\"true\" class=\"level-top ui-menu-item-wrapper\" href=\"http://127.0.0.1:7770/cell-phones-accessories.html\">…</a>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is outside of the viewport\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is outside of the viewport\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    5 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is outside of the viewport\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n",
+        "url": "http://127.0.0.1:7770/tony-chachere-s-more-spice-creole-seasoning-14-oz.html",
+        "at": 1791432741939,
+        "severity": "low"
+      },
+      {
+        "kind": "guardrail",
+        "detail": "skipped form (auth/login form): Subscribe",
+        "url": "http://127.0.0.1:7770/tony-chachere-s-more-spice-creole-seasoning-14-oz.html",
+        "at": 1791432742219,
+        "severity": "info"
+      },
+      {
+        "kind": "driver",
+        "detail": "action hover failed: locator.hover: Element is outside of the viewport\nCall log:\n\u001b[2m  - waiting for locator('body:nth-child(2) > div:nth-child(8) > div:nth-child(2) > div:nth-child(1) > div:nth-child(3)').first()\u001b[22m\n\u001b[2m    - locator resolved to <div role=\"tab\" tabindex=\"0\" aria-selected=\"false\" aria-expanded=\"false\" data-role=\"collapsible\" data-collapsible=\"true\" aria-controls=\"store.links\" class=\"section-item-title nav-sections-item-title\">…</div>\u001b[22m\n\u001b[2m  - attempting hover action\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n",
+        "url": "http://127.0.0.1:7770/tony-chachere-s-more-spice-creole-seasoning-14-oz.html",
+        "at": 1791432742635,
+        "severity": "low"
+      },
+      {
+        "kind": "http.4xx",
+        "detail": "403 http://127.0.0.1:7770/review/product/listAjax/id/104490/",
+        "url": "http://127.0.0.1:7770/review/product/listAjax/id/104490/",
+        "at": 1791432742950,
+        "severity": "medium",
+        "meta": {
+          "status": 403,
+          "resourceType": "xhr"
+        }
+      },
+      {
+        "kind": "http.4xx",
+        "detail": "403 http://127.0.0.1:7770/review/product/post/id/104490/",
+        "url": "http://127.0.0.1:7770/review/product/post/id/104490/",
+        "at": 1791432743936,
+        "severity": "high",
+        "meta": {
+          "status": 403,
+          "resourceType": "document"
+        }
+      },
+      {
+        "kind": "http.4xx",
+        "detail": "403 http://127.0.0.1:7770/customer/account/",
+        "url": "http://127.0.0.1:7770/customer/account/",
+        "at": 1791432818389,
+        "severity": "high",
+        "meta": {
+          "status": 403,
+          "resourceType": "document"
+        }
+      },
+      {
+        "kind": "http.4xx",
+        "detail": "403 http://127.0.0.1:7770/wishlist/",
+        "url": "http://127.0.0.1:7770/wishlist/",
+        "at": 1791432892530,
+        "severity": "high",
+        "meta": {
+          "status": 403,
+          "resourceType": "document"
+        }
+      },
+      {
+        "kind": "http.4xx",
+        "detail": "403 http://127.0.0.1:7770/customer/account/login/",
+        "url": "http://127.0.0.1:7770/customer/account/login/",
+        "at": 1791432966735,
+        "severity": "high",
+        "meta": {
+          "status": 403,
+          "resourceType": "document"
+        }
+      },
+      {
+        "kind": "http.4xx",
+        "detail": "403 http://127.0.0.1:7770/customer/account/create/",
+        "url": "http://127.0.0.1:7770/customer/account/create/",
+        "at": 1791433040938,
+        "severity": "high",
+        "meta": {
+          "status": 403,
+          "resourceType": "document"
+        }
+      },
+      {
+        "kind": "guardrail",
+        "detail": "skipped form (auth/login form): Subscribe",
+        "url": "http://127.0.0.1:7770/checkout/cart/",
+        "at": 1791433118747,
+        "severity": "info"
+      },
+      {
+        "kind": "http.4xx",
+        "detail": "403 http://127.0.0.1:7770/customer/account/create/",
+        "url": "http://127.0.0.1:7770/customer/account/create/",
+        "at": 1791433119092,
+        "severity": "high",
+        "meta": {
+          "status": 403,
+          "resourceType": "document"
+        }
+      },
+      {
+        "kind": "pageerror",
+        "detail": "Cannot read properties of undefined (reading 'closest')\nTypeError: Cannot read properties of undefined (reading 'closest')\n    at $.<computed>.<computed>._keydown (http://127.0.0.1:7770/static/version1681826198/frontend/Magento/blank/en_US/mage/menu.js:249:29)\n    at $.<computed>.<computed>._keydown (http://127.0.0.1:7770/static/version1681826198/frontend/Magento/blank/en_US/jquery/ui-modules/widget.js:132:25)\n    at HTMLUListElement.handlerProxy (http://127.0.0.1:7770/static/version1681826198/frontend/Magento/blank/en_US/jquery/ui-modules/widget.js:615:7)\n    at HTMLUListElement.dispatch (http://127.0.0.1:7770/static/version1681826198/frontend/Magento/blank/en_US/jquery.js:5430:49)\n    at elemData.handle (http://127.0.0.1:7770/static/version1681826198/frontend/Magento/blank/en_US/jquery.js:5234:47)",
+        "url": "http://127.0.0.1:7770/catalogsearch/advanced/",
+        "at": 1791433180575,
+        "severity": "high"
+      },
+      {
+        "kind": "driver",
+        "detail": "action click failed: locator.click: Timeout 3000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('body:nth-child(2) > div:nth-child(8) > div:nth-child(2) > div:nth-child(1) > div:nth-child(3)').first()\u001b[22m\n\u001b[2m    - locator resolved to <div role=\"tab\" tabindex=\"0\" aria-selected=\"false\" aria-expanded=\"false\" data-role=\"collapsible\" data-collapsible=\"true\" aria-controls=\"store.links\" class=\"section-item-title nav-sections-item-title\">…</div>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is outside of the viewport\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is outside of the viewport\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    5 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is outside of the viewport\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n",
+        "url": "http://127.0.0.1:7770/catalogsearch/advanced/",
+        "at": 1791433184108,
+        "severity": "low"
+      },
+      {
+        "kind": "pageerror",
+        "detail": "Cannot read properties of undefined (reading 'closest')\nTypeError: Cannot read properties of undefined (reading 'closest')\n    at $.<computed>.<computed>._keydown (http://127.0.0.1:7770/static/version1681826198/frontend/Magento/blank/en_US/mage/menu.js:249:29)\n    at $.<computed>.<computed>._keydown (http://127.0.0.1:7770/static/version1681826198/frontend/Magento/blank/en_US/jquery/ui-modules/widget.js:132:25)\n    at HTMLUListElement.handlerProxy (http://127.0.0.1:7770/static/version1681826198/frontend/Magento/blank/en_US/jquery/ui-modules/widget.js:615:7)\n    at HTMLUListElement.dispatch (http://127.0.0.1:7770/static/version1681826198/frontend/Magento/blank/en_US/jquery.js:5430:49)\n    at elemData.handle (http://127.0.0.1:7770/static/version1681826198/frontend/Magento/blank/en_US/jquery.js:5234:47)",
+        "url": "http://127.0.0.1:7770/catalogsearch/advanced/",
+        "at": 1791433184765,
+        "severity": "high"
+      },
+      {
+        "kind": "http.4xx",
+        "detail": "403 http://127.0.0.1:7770/20-pcs-balls-cake-topper-mini-balloons-cake-topper-pearl-balls-cake-pick-foam-ball-cupcake-topper-baking-decoration-supplies-toothpick-party-wedding-anniversary-birthday-baby-shower-cake-decoration.html?options=cart",
+        "url": "http://127.0.0.1:7770/20-pcs-balls-cake-topper-mini-balloons-cake-topper-pearl-balls-cake-pick-foam-ball-cupcake-topper-baking-decoration-supplies-toothpick-party-wedding-anniversary-birthday-baby-shower-cake-decoration.html?options=cart",
+        "at": 1791433195056,
+        "severity": "medium",
+        "meta": {
+          "status": 403,
+          "resourceType": "xhr"
+        }
+      },
+      {
+        "kind": "http.4xx",
+        "detail": "403 http://127.0.0.1:7770/checkout/cart/add/uenc/aHR0cDovLzEyNy4wLjAuMTo3NzcwLz9wYmFvY3c9Mg~~/product/104478/",
+        "url": "http://127.0.0.1:7770/checkout/cart/add/uenc/aHR0cDovLzEyNy4wLjAuMTo3NzcwLz9wYmFvY3c9Mg~~/product/104478/",
+        "at": 1791433199431,
+        "severity": "medium",
+        "meta": {
+          "status": 403,
+          "resourceType": "xhr"
+        }
+      },
+      {
+        "kind": "http.4xx",
+        "detail": "403 http://127.0.0.1:7770/checkout/cart/add/uenc/aHR0cDovLzEyNy4wLjAuMTo3NzcwLz9wYmFvY3c9Mg~~/product/104477/",
+        "url": "http://127.0.0.1:7770/checkout/cart/add/uenc/aHR0cDovLzEyNy4wLjAuMTo3NzcwLz9wYmFvY3c9Mg~~/product/104477/",
+        "at": 1791433202099,
+        "severity": "medium",
+        "meta": {
+          "status": 403,
+          "resourceType": "xhr"
+        }
+      },
+      {
+        "kind": "http.4xx",
+        "detail": "403 http://127.0.0.1:7770/wishlist/index/add/",
+        "url": "http://127.0.0.1:7770/wishlist/index/add/",
+        "at": 1791433209292,
+        "severity": "high",
+        "meta": {
+          "status": 403,
+          "resourceType": "document"
+        }
+      },
+      {
+        "kind": "guardrail",
+        "detail": "skipped form (auth/login form): Subscribe",
+        "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care.html",
+        "at": 1791433287349,
+        "severity": "info"
+      },
+      {
+        "kind": "http.4xx",
+        "detail": "403 http://127.0.0.1:7770/wishlist/index/add/",
+        "url": "http://127.0.0.1:7770/wishlist/index/add/",
+        "at": 1791433288027,
+        "severity": "high",
+        "meta": {
+          "status": 403,
+          "resourceType": "document"
+        }
+      },
+      {
+        "kind": "driver",
+        "detail": "action click failed: locator.click: Timeout 3000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('body:nth-child(2) > div:nth-child(8) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > nav:nth-child(1) > ul:nth-child(1) > li:nth-child(9) > ul:nth-child(2) > li:nth-child(4) > ul:nth-child(2) > li:nth-child(1) > a:nth-child(1)').first()\u001b[22m\n\u001b[2m    - locator resolved to <a tabindex=\"-1\" id=\"ui-id-161\" role=\"menuitem\" class=\"ui-menu-item-wrapper\" href=\"http://127.0.0.1:7770/electronics/accessories-supplies/audio-video-accessories.html\">…</a>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    4 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n",
+        "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/toothbrushes-accessories.html",
+        "at": 1791433348985,
+        "severity": "low"
+      },
+      {
+        "kind": "http.4xx",
+        "detail": "403 http://127.0.0.1:7770/wishlist/index/add/",
+        "url": "http://127.0.0.1:7770/wishlist/index/add/",
+        "at": 1791433351025,
+        "severity": "high",
+        "meta": {
+          "status": 403,
+          "resourceType": "document"
+        }
+      },
+      {
+        "kind": "driver",
+        "detail": "action click failed: locator.click: Timeout 3000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('body:nth-child(2) > div:nth-child(8) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > nav:nth-child(1) > ul:nth-child(1) > li:nth-child(9) > ul:nth-child(2) > li:nth-child(7) > a:nth-child(1)').first()\u001b[22m\n\u001b[2m    - locator resolved to <a tabindex=\"-1\" id=\"ui-id-184\" role=\"menuitem\" aria-haspopup=\"true\" class=\"ui-menu-item-wrapper\" href=\"http://127.0.0.1:7770/electronics/computers-accessories.html\">…</a>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    5 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n",
+        "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/dental-floss-picks.html",
+        "at": 1791433416500,
+        "severity": "low"
+      },
+      {
+        "kind": "http.4xx",
+        "detail": "403 http://127.0.0.1:7770/wishlist/index/add/",
+        "url": "http://127.0.0.1:7770/wishlist/index/add/",
+        "at": 1791433417731,
+        "severity": "high",
+        "meta": {
+          "status": 403,
+          "resourceType": "document"
+        }
+      },
+      {
+        "kind": "http.4xx",
+        "detail": "403 http://127.0.0.1:7770/checkout/cart/add/uenc/aHR0cDovLzEyNy4wLjAuMTo3NzcwL2JlYXV0eS1wZXJzb25hbC1jYXJlL29yYWwtY2FyZS9vcnRob2RvbnRpYy1zdXBwbGllcy5odG1s/product/6869/",
+        "url": "http://127.0.0.1:7770/checkout/cart/add/uenc/aHR0cDovLzEyNy4wLjAuMTo3NzcwL2JlYXV0eS1wZXJzb25hbC1jYXJlL29yYWwtY2FyZS9vcnRob2RvbnRpYy1zdXBwbGllcy5odG1s/product/6869/",
+        "at": 1791433489594,
+        "severity": "medium",
+        "meta": {
+          "status": 403,
+          "resourceType": "xhr"
+        }
+      },
+      {
+        "kind": "driver",
+        "detail": "action click failed: locator.click: Timeout 3000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#ui-id-147').first()\u001b[22m\n\u001b[2m    - locator resolved to <a tabindex=\"-1\" id=\"ui-id-147\" role=\"menuitem\" aria-haspopup=\"true\" class=\"level-top ui-menu-item-wrapper\" href=\"http://127.0.0.1:7770/patio-lawn-garden.html\">…</a>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is outside of the viewport\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is outside of the viewport\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    4 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is outside of the viewport\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n",
+        "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/orthodontic-supplies.html",
+        "at": 1791433495932,
+        "severity": "low"
+      },
+      {
+        "kind": "guardrail",
+        "detail": "skipped form (auth/login form): Subscribe",
+        "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/orthodontic-supplies.html",
+        "at": 1791433496173,
+        "severity": "info"
+      },
+      {
+        "kind": "driver",
+        "detail": "action click failed: locator.click: Timeout 3000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('body:nth-child(2) > div:nth-child(8) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > a:nth-child(1)').first()\u001b[22m\n\u001b[2m    - locator resolved to <a href=\"#store.menu\" data-toggle=\"switch\" class=\"nav-sections-item-switch\">↵                        Menu                    </a>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is outside of the viewport\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is outside of the viewport\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    5 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is outside of the viewport\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n",
+        "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/orthodontic-supplies.html?price=0-100",
+        "at": 1791433503819,
+        "severity": "low"
+      },
+      {
+        "kind": "driver",
+        "detail": "action click failed: locator.click: Timeout 3000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#search').first()\u001b[22m\n\u001b[2m    - locator resolved to <input name=\"q\" value=\"\" id=\"search\" type=\"text\" maxlength=\"128\" role=\"combobox\" class=\"input-text\" autocomplete=\"off\" aria-haspopup=\"false\" aria-expanded=\"false\" aria-autocomplete=\"both\" placeholder=\"Search entire store here...\"/>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is outside of the viewport\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is outside of the viewport\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    5 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is outside of the viewport\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n",
+        "url": "http://127.0.0.1:7770/catalogsearch/advanced/",
+        "at": 1791433510425,
+        "severity": "low"
+      },
+      {
+        "kind": "form-validation",
+        "detail": "form not accepted after 3 attempts: Search",
+        "url": "http://127.0.0.1:7770/catalogsearch/advanced/",
+        "at": 1791433511983,
+        "severity": "low"
+      },
+      {
+        "kind": "guardrail",
+        "detail": "skipped destructive control (verb:subscribe): Subscribe",
+        "url": "http://127.0.0.1:7770/catalogsearch/advanced/",
+        "at": 1791433512797,
+        "severity": "info"
+      },
+      {
+        "kind": "form-validation",
+        "detail": "form not accepted after 3 attempts: Search",
+        "url": "http://127.0.0.1:7770/catalogsearch/advanced/",
+        "at": 1791433514314,
+        "severity": "low"
+      },
+      {
+        "kind": "driver",
+        "detail": "action click failed: locator.click: Timeout 3000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#ui-id-67').first()\u001b[22m\n\u001b[2m    - locator resolved to <a id=\"ui-id-67\" tabindex=\"-1\" role=\"menuitem\" aria-haspopup=\"true\" class=\"level-top ui-menu-item-wrapper\" href=\"http://127.0.0.1:7770/sports-outdoors.html\">…</a>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is outside of the viewport\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is outside of the viewport\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    5 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is outside of the viewport\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n",
+        "url": "http://127.0.0.1:7770/catalogsearch/advanced/",
+        "at": 1791433517564,
+        "severity": "low"
+      },
+      {
+        "kind": "form-validation",
+        "detail": "form not accepted after 3 attempts: Search",
+        "url": "http://127.0.0.1:7770/catalogsearch/advanced/",
+        "at": 1791433518614,
+        "severity": "low"
+      },
+      {
+        "kind": "driver",
+        "detail": "action click failed: locator.click: Timeout 3000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('body:nth-child(2) > div:nth-child(8) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > nav:nth-child(1) > ul:nth-child(1) > li:nth-child(4) > ul:nth-child(2) > li:nth-child(4) > a:nth-child(1)').first()\u001b[22m\n\u001b[2m    - locator resolved to <a tabindex=\"-1\" id=\"ui-id-106\" role=\"menuitem\" aria-haspopup=\"true\" class=\"ui-menu-item-wrapper\" href=\"http://127.0.0.1:7770/home-kitchen/storage-organization.html\">…</a>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    5 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n",
+        "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/children-s-dental-care.html?p=2",
+        "at": 1791433532861,
+        "severity": "low"
+      },
+      {
+        "kind": "driver",
+        "detail": "action click failed: locator.click: Timeout 3000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('body:nth-child(2) > div:nth-child(8) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > nav:nth-child(1) > ul:nth-child(1) > li:nth-child(4) > ul:nth-child(2) > li:nth-child(3) > ul:nth-child(2) > li:nth-child(3) > a:nth-child(1)').first()\u001b[22m\n\u001b[2m    - locator resolved to <a tabindex=\"-1\" id=\"ui-id-105\" role=\"menuitem\" class=\"ui-menu-item-wrapper\" href=\"http://127.0.0.1:7770/home-kitchen/bedding/decorative-pillows-inserts-covers.html\">…</a>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    6 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n",
+        "url": "http://127.0.0.1:7770/bestyijo-kids-u-shaped-electric-toothbrush-cartoon-cute-ultrasonic-automatic-toothbrushes-with-5-cleaning-modes-waterproof-auto-toothbrush-for-children-toddler-kid.html",
+        "at": 1791433542084,
+        "severity": "low"
+      },
+      {
+        "kind": "http.4xx",
+        "detail": "403 http://127.0.0.1:7770/checkout/cart/add/uenc/aHR0cDovLzEyNy4wLjAuMTo3NzcwL2Jlc3R5aWpvLWtpZHMtdS1zaGFwZWQtZWxlY3RyaWMtdG9vdGhicnVzaC1jYXJ0b29uLWN1dGUtdWx0cmFzb25pYy1hdXRvbWF0aWMtdG9vdGhicnVzaGVzLXdpdGgtNS1jbGVhbmluZy1tb2Rlcy13YXRlcnByb29mLWF1dG8tdG9vdGhicnVzaC1mb3ItY2hpbGRyZW4tdG9kZGxlci1raWQuaHRtbA~~/product/2686/",
+        "url": "http://127.0.0.1:7770/checkout/cart/add/uenc/aHR0cDovLzEyNy4wLjAuMTo3NzcwL2Jlc3R5aWpvLWtpZHMtdS1zaGFwZWQtZWxlY3RyaWMtdG9vdGhicnVzaC1jYXJ0b29uLWN1dGUtdWx0cmFzb25pYy1hdXRvbWF0aWMtdG9vdGhicnVzaGVzLXdpdGgtNS1jbGVhbmluZy1tb2Rlcy13YXRlcnByb29mLWF1dG8tdG9vdGhicnVzaC1mb3ItY2hpbGRyZW4tdG9kZGxlci1raWQuaHRtbA~~/product/2686/",
+        "at": 1791433543212,
+        "severity": "medium",
+        "meta": {
+          "status": 403,
+          "resourceType": "xhr"
+        }
+      },
+      {
+        "kind": "http.4xx",
+        "detail": "403 http://127.0.0.1:7770/review/product/listAjax/id/2686/",
+        "url": "http://127.0.0.1:7770/review/product/listAjax/id/2686/",
+        "at": 1791433547337,
+        "severity": "medium",
+        "meta": {
+          "status": 403,
+          "resourceType": "xhr"
+        }
+      },
+      {
+        "kind": "driver",
+        "detail": "action click failed: locator.click: Timeout 3000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#ui-id-141').first()\u001b[22m\n\u001b[2m    - locator resolved to <a tabindex=\"-1\" id=\"ui-id-141\" role=\"menuitem\" aria-haspopup=\"true\" class=\"level-top ui-menu-item-wrapper\" href=\"http://127.0.0.1:7770/health-household.html\">…</a>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is outside of the viewport\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is outside of the viewport\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    5 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is outside of the viewport\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n",
+        "url": "http://127.0.0.1:7770/bestyijo-kids-u-shaped-electric-toothbrush-cartoon-cute-ultrasonic-automatic-toothbrushes-with-5-cleaning-modes-waterproof-auto-toothbrush-for-children-toddler-kid.html",
+        "at": 1791433550926,
+        "severity": "low"
+      },
+      {
+        "kind": "driver",
+        "detail": "action click failed: locator.click: Timeout 3000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('body:nth-child(2) > div:nth-child(8) > div:nth-child(2) > div:nth-child(1) > div:nth-child(3)').first()\u001b[22m\n\u001b[2m    - locator resolved to <div role=\"tab\" tabindex=\"0\" aria-selected=\"false\" aria-expanded=\"false\" data-role=\"collapsible\" data-collapsible=\"true\" aria-controls=\"store.links\" class=\"section-item-title nav-sections-item-title\">…</div>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is outside of the viewport\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is outside of the viewport\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    5 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is outside of the viewport\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n",
+        "url": "http://127.0.0.1:7770/bestyijo-kids-u-shaped-electric-toothbrush-cartoon-cute-ultrasonic-automatic-toothbrushes-with-5-cleaning-modes-waterproof-auto-toothbrush-for-children-toddler-kid.html",
+        "at": 1791433554464,
+        "severity": "low"
+      },
+      {
+        "kind": "driver",
+        "detail": "action click failed: locator.click: Timeout 3000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#Rating_5').first()\u001b[22m\n\u001b[2m    - locator resolved to <input value=\"20\" type=\"radio\" id=\"Rating_5\" class=\"radio\" name=\"ratings[4]\" aria-required=\"true\" data-validate=\"{'rating-required':true}\" aria-labelledby=\"Rating_rating_label Rating_5_label\"/>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n\u001b[2m    - <label for=\"Rating_1\" title=\"1 star\" class=\"rating-1\" id=\"Rating_1_label\">…</label> intercepts pointer events\u001b[22m\n\u001b[2m  - retrying click action\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n\u001b[2m    - element is outside of the viewport\u001b[22m\n\u001b[2m  - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <label for=\"Rating_1\" title=\"1 star\" class=\"rating-1\" id=\"Rating_1_label\">…</label> intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n\u001b[2m    - <label for=\"Rating_1\" title=\"1 star\" class=\"rating-1\" id=\"Rating_1_label\">…</label> intercepts pointer events\u001b[22m\n\u001b[2m  - retrying click action\u001b[22m\n\u001b[2m    - waiting 500ms\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n\u001b[2m    - element is outside of the viewport\u001b[22m\n\u001b[2m  3 × retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n\u001b[2m      - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <label for=\"Rating_1\" title=\"1 star\" class=\"rating-1\" id=\"Rating_1_label\">…</label> intercepts pointer events\u001b[22m\n\u001b[2m  - retrying click action\u001b[22m\n\u001b[2m    - waiting 500ms\u001b[22m\n",
+        "url": "http://127.0.0.1:7770/bestyijo-kids-u-shaped-electric-toothbrush-cartoon-cute-ultrasonic-automatic-toothbrushes-with-5-cleaning-modes-waterproof-auto-toothbrush-for-children-toddler-kid.html",
+        "at": 1791433558060,
+        "severity": "low"
+      },
+      {
+        "kind": "driver",
+        "detail": "action click failed: locator.click: Timeout 3000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#ui-id-1').first()\u001b[22m\n\u001b[2m    - locator resolved to <ul role=\"menu\" id=\"ui-id-1\" tabindex=\"0\" class=\"ui-menu ui-widget ui-widget-content\">…</ul>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is outside of the viewport\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is outside of the viewport\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    6 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is outside of the viewport\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n",
+        "url": "http://127.0.0.1:7770/bestyijo-kids-u-shaped-electric-toothbrush-cartoon-cute-ultrasonic-automatic-toothbrushes-with-5-cleaning-modes-waterproof-auto-toothbrush-for-children-toddler-kid.html",
+        "at": 1791433561537,
+        "severity": "low"
+      },
+      {
+        "kind": "driver",
+        "detail": "action click failed: locator.click: Timeout 3000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('body:nth-child(2) > div:nth-child(8) > main:nth-child(4) > div:nth-child(4) > div:nth-child(1) > div:nth-child(2) > div:nth-child(4) > a:nth-child(1)').first()\u001b[22m\n\u001b[2m    - locator resolved to <a href=\"#gallery-prev-area\" class=\"action skip gallery-prev-area\">…</a>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n\u001b[2m    - <div class=\"fotorama__nav fotorama__nav--dots\">…</div> from <div class=\"gallery-placeholder\" data-gallery-role=\"gallery-placeholder\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m  - retrying click action\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n\u001b[2m    - element is outside of the viewport\u001b[22m\n\u001b[2m  - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <div class=\"fotorama__nav fotorama__nav--dots\">…</div> from <div class=\"gallery-placeholder\" data-gallery-role=\"gallery-placeholder\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n\u001b[2m    - <div class=\"fotorama__nav fotorama__nav--dots\">…</div> from <div class=\"gallery-placeholder\" data-gallery-role=\"gallery-placeholder\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m  - retrying click action\u001b[22m\n\u001b[2m    - waiting 500ms\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n\u001b[2m    - element is outside of the viewport\u001b[22m\n\u001b[2m  3 × retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n\u001b[2m      - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <div class=\"fotorama__nav fotorama__nav--dots\">…</div> from <div class=\"gallery-placeholder\" data-gallery-role=\"gallery-placeholder\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m  - retrying click action\u001b[22m\n\u001b[2m    - waiting 500ms\u001b[22m\n",
+        "url": "http://127.0.0.1:7770/bestyijo-kids-u-shaped-electric-toothbrush-cartoon-cute-ultrasonic-automatic-toothbrushes-with-5-cleaning-modes-waterproof-auto-toothbrush-for-children-toddler-kid.html",
+        "at": 1791433564767,
+        "severity": "low"
+      },
+      {
+        "kind": "driver",
+        "detail": "action click failed: locator.click: Timeout 3000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#Rating_4').first()\u001b[22m\n\u001b[2m    - locator resolved to <input value=\"19\" type=\"radio\" id=\"Rating_4\" class=\"radio\" name=\"ratings[4]\" aria-required=\"true\" data-validate=\"{'rating-required':true}\" aria-labelledby=\"Rating_rating_label Rating_4_label\"/>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n\u001b[2m    - <label for=\"Rating_1\" title=\"1 star\" class=\"rating-1\" id=\"Rating_1_label\">…</label> intercepts pointer events\u001b[22m\n\u001b[2m  - retrying click action\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n\u001b[2m    - element is outside of the viewport\u001b[22m\n\u001b[2m  - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <label for=\"Rating_1\" title=\"1 star\" class=\"rating-1\" id=\"Rating_1_label\">…</label> intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n\u001b[2m    - <label for=\"Rating_1\" title=\"1 star\" class=\"rating-1\" id=\"Rating_1_label\">…</label> intercepts pointer events\u001b[22m\n\u001b[2m  - retrying click action\u001b[22m\n\u001b[2m    - waiting 500ms\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n\u001b[2m    - element is outside of the viewport\u001b[22m\n\u001b[2m  3 × retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n\u001b[2m      - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <label for=\"Rating_1\" title=\"1 star\" class=\"rating-1\" id=\"Rating_1_label\">…</label> intercepts pointer events\u001b[22m\n\u001b[2m  - retrying click action\u001b[22m\n\u001b[2m    - waiting 500ms\u001b[22m\n",
+        "url": "http://127.0.0.1:7770/bestyijo-kids-u-shaped-electric-toothbrush-cartoon-cute-ultrasonic-automatic-toothbrushes-with-5-cleaning-modes-waterproof-auto-toothbrush-for-children-toddler-kid.html",
+        "at": 1791433568041,
+        "severity": "low"
+      },
+      {
+        "kind": "http.4xx",
+        "detail": "403 http://127.0.0.1:7770/checkout/cart/add/uenc/aHR0cDovLzEyNy4wLjAuMTo3NzcwL3ByZXZlc3QtZGVucHJvLXBsYXRpbmEtaGktZ2xvc3MtMXg0Zy1kZW50YWwtcHJvZHVjdHMuaHRtbA~~/product/7569/",
+        "url": "http://127.0.0.1:7770/checkout/cart/add/uenc/aHR0cDovLzEyNy4wLjAuMTo3NzcwL3ByZXZlc3QtZGVucHJvLXBsYXRpbmEtaGktZ2xvc3MtMXg0Zy1kZW50YWwtcHJvZHVjdHMuaHRtbA~~/product/7569/",
+        "at": 1791433577266,
+        "severity": "medium",
+        "meta": {
+          "status": 403,
+          "resourceType": "xhr"
+        }
+      },
+      {
+        "kind": "driver",
+        "detail": "action click failed: locator.click: Timeout 3000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#ui-id-141').first()\u001b[22m\n\u001b[2m    - locator resolved to <a tabindex=\"-1\" id=\"ui-id-141\" role=\"menuitem\" aria-haspopup=\"true\" class=\"level-top ui-menu-item-wrapper\" href=\"http://127.0.0.1:7770/health-household.html\">…</a>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is outside of the viewport\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is outside of the viewport\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    5 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is outside of the viewport\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n",
+        "url": "http://127.0.0.1:7770/prevest-denpro-platina-hi-gloss-1x4g-dental-products.html",
+        "at": 1791433585297,
+        "severity": "low"
+      },
+      {
+        "kind": "driver",
+        "detail": "action click failed: locator.click: Timeout 3000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('body:nth-child(2) > div:nth-child(8) > div:nth-child(2) > div:nth-child(1) > div:nth-child(3) > a:nth-child(1)').first()\u001b[22m\n\u001b[2m    - locator resolved to <a href=\"#store.links\" data-toggle=\"switch\" class=\"nav-sections-item-switch\">↵                        Account                 …</a>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is outside of the viewport\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is outside of the viewport\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    5 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is outside of the viewport\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n",
+        "url": "http://127.0.0.1:7770/prevest-denpro-platina-hi-gloss-1x4g-dental-products.html",
+        "at": 1791433589154,
+        "severity": "low"
+      },
+      {
+        "kind": "http.4xx",
+        "detail": "403 http://127.0.0.1:7770/privacy-policy-cookie-restriction-mode/",
+        "url": "http://127.0.0.1:7770/privacy-policy-cookie-restriction-mode/",
+        "at": 1791433589698,
+        "severity": "high",
+        "meta": {
+          "status": 403,
+          "resourceType": "document"
+        }
+      },
+      {
+        "kind": "driver",
+        "detail": "action hover failed: locator.hover: Element is not visible\nCall log:\n\u001b[2m  - waiting for locator('body:nth-child(2) > div:nth-child(8) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > nav:nth-child(1) > ul:nth-child(1) > li:nth-child(12) > ul:nth-child(2) > li:nth-child(2) > ul:nth-child(2) > li:nth-child(2) > a:nth-child(1)').first()\u001b[22m\n\u001b[2m    - locator resolved to <a tabindex=\"-1\" id=\"ui-id-244\" role=\"menuitem\" class=\"ui-menu-item-wrapper\" href=\"http://127.0.0.1:7770/grocery-gourmet-food/food-beverage-gifts/snack-gifts.html\">…</a>\u001b[22m\n\u001b[2m  - attempting hover action\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n",
+        "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/toothpaste.html?p=2",
+        "at": 1791433672458,
+        "severity": "low"
+      },
+      {
+        "kind": "driver",
+        "detail": "action click failed: locator.click: Timeout 3000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#ui-id-241').first()\u001b[22m\n\u001b[2m    - locator resolved to <a tabindex=\"-1\" id=\"ui-id-241\" role=\"menuitem\" aria-haspopup=\"true\" class=\"level-top ui-menu-item-wrapper\" href=\"http://127.0.0.1:7770/grocery-gourmet-food.html\">…</a>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is outside of the viewport\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is outside of the viewport\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    5 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is outside of the viewport\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n",
+        "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/toothpaste.html?p=2",
+        "at": 1791433676272,
+        "severity": "low"
+      },
+      {
+        "kind": "http.4xx",
+        "detail": "403 http://127.0.0.1:7770/checkout/cart/add/uenc/aHR0cDovLzEyNy4wLjAuMTo3NzcwL2JlYXV0eS1wZXJzb25hbC1jYXJlL29yYWwtY2FyZS90b290aHBhc3RlLmh0bWw_cD0y/product/3668/",
+        "url": "http://127.0.0.1:7770/checkout/cart/add/uenc/aHR0cDovLzEyNy4wLjAuMTo3NzcwL2JlYXV0eS1wZXJzb25hbC1jYXJlL29yYWwtY2FyZS90b290aHBhc3RlLmh0bWw_cD0y/product/3668/",
+        "at": 1791433677101,
+        "severity": "medium",
+        "meta": {
+          "status": 403,
+          "resourceType": "xhr"
+        }
+      },
+      {
+        "kind": "guardrail",
+        "detail": "skipped form (auth/login form): Subscribe",
+        "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/toothpaste.html?p=2",
+        "at": 1791433680725,
+        "severity": "info"
+      },
+      {
+        "kind": "driver",
+        "detail": "action click failed: locator.click: Timeout 3000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('body:nth-child(2) > div:nth-child(8) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > a:nth-child(1)').first()\u001b[22m\n\u001b[2m    - locator resolved to <a href=\"#store.menu\" data-toggle=\"switch\" class=\"nav-sections-item-switch\">↵                        Menu                    </a>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is outside of the viewport\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is outside of the viewport\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    5 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is outside of the viewport\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n",
+        "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/toothpaste.html?p=2",
+        "at": 1791433684082,
+        "severity": "low"
+      },
+      {
+        "kind": "pageerror",
+        "detail": "Cannot read properties of undefined (reading 'closest')\nTypeError: Cannot read properties of undefined (reading 'closest')\n    at $.<computed>.<computed>._keydown (http://127.0.0.1:7770/static/version1681826198/frontend/Magento/blank/en_US/mage/menu.js:249:29)\n    at $.<computed>.<computed>._keydown (http://127.0.0.1:7770/static/version1681826198/frontend/Magento/blank/en_US/jquery/ui-modules/widget.js:132:25)\n    at HTMLUListElement.handlerProxy (http://127.0.0.1:7770/static/version1681826198/frontend/Magento/blank/en_US/jquery/ui-modules/widget.js:615:7)\n    at HTMLUListElement.dispatch (http://127.0.0.1:7770/static/version1681826198/frontend/Magento/blank/en_US/jquery.js:5430:49)\n    at elemData.handle (http://127.0.0.1:7770/static/version1681826198/frontend/Magento/blank/en_US/jquery.js:5234:47)",
+        "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/toothpaste.html",
+        "at": 1791433689953,
+        "severity": "high"
+      },
+      {
+        "kind": "http.4xx",
+        "detail": "403 http://127.0.0.1:7770/wishlist/index/add/",
+        "url": "http://127.0.0.1:7770/wishlist/index/add/",
+        "at": 1791433690672,
+        "severity": "high",
+        "meta": {
+          "status": 403,
+          "resourceType": "document"
+        }
+      }
+    ]
+  },
+  "reason": "budget exhausted"
+}

@@ -52,7 +52,7 @@ A初始购物车、权限、时间预算和输入处理不一致；B的81个任�
 | 两份历史trace内抽取诊断 | extraction/ground-truth/*.v1.json；extraction/score_context_models.py | extraction/reports/existing-trace-scoped.v1.json / .md |
 | 同输入阿器/Claude逐页比较 | harness-comparison/evaluate_original_task.py | harness-comparison/paired-original.v1.json / .md |
 | 格式修复模拟与Claude日志核验 | harness-comparison/supplementary_audit.py | harness-comparison/supplementary-audit.v1.json |
-| A/B结论及当前计划 | APPWEAVE_EVAL_PLAN_V4.md | BENCHMARK_A_CONCLUSION_20260929.md；BENCHMARK_B_CONCLUSION_20260930.md |
+| A/B结论及当前计划 | APPWEAVE_EVAL_PLAN_V4.md | coverage-v3/README.md；BENCHMARK_B_CONCLUSION_20260930.md |
 
 每套对应freeze清单与test脚本位于同目录。已有JSON逐项证据比汇总Markdown更细；避免使用被替代的共同CM诊断v1。旧3/4、8/14 vs4/4、12/14仅为事后清单回溯。
 

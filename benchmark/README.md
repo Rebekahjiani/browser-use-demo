@@ -1,5 +1,14 @@
 # 本地 browser-use 预评测
 
+## 文档入口
+
+- [文档总入口](./BENCHMARK_PLAN.md)
+- [当前计划](./APPWEAVE_EVAL_PLAN_V4.md)
+- [当前结果与复算](./CURRENT_RESULTS.md)
+- [下一步](./NEXT_STEPS_20260930.md)
+- [本周周报](./WEEKLY_REPORT_2026-09-30.md)
+- [历史文档](./archive/README.md)
+
 模型初始化、CDP 连接和登录保护最初基于提交 `fa45a5e` 的容器驱动复制，现独立维护在本目录的 `driver.py`、`login_guard.py` 和 `login_state.js`。运行时不导入或修改 `docker_inside`。使用项目现有 `.venv`、`.env`，无须部署容器。入口适配固定的 `browser-use==0.13.10`。
 
 ## 启动前

@@ -1,0 +1,11 @@
+{"args":{"name":"swapper"},"cat":"__metadata","name":"thread_name","ph":"M","pid":0,"tid":0,"ts":0}
+{"args":{"name":"CrRendererMain"},"cat":"__metadata","name":"thread_name","ph":"M","pid":39388,"tid":20720,"ts":0}
+{"args":{"name":"CrBrowserMain"},"cat":"__metadata","name":"thread_name","ph":"M","pid":51324,"tid":48460,"ts":0}
+{"args":{"name":"Renderer"},"cat":"__metadata","name":"process_name","ph":"M","pid":39388,"tid":0,"ts":0}
+{"args":{"name":"Browser"},"cat":"__metadata","name":"process_name","ph":"M","pid":51324,"tid":0,"ts":0}
+{"args":{"uptime":"104"},"cat":"__metadata","name":"process_uptime_seconds","ph":"M","pid":39388,"tid":0,"ts":0}
+{"args":{"uptime":"930"},"cat":"__metadata","name":"process_uptime_seconds","ph":"M","pid":51324,"tid":0,"ts":0}
+{"args":{"custom_user_timings_count":0},"cat":"loading","dur":45,"name":"PageTimingMetricsSender::SendNow","ph":"X","pid":39388,"tdur":25,"tid":20720,"ts":1546953279030,"tts":4631135}
+{"args":{"custom_timings_count":0},"cat":"loading","dur":25,"name":"MetricsWebContentsObserver::UpdateTiming","ph":"X","pid":51324,"tdur":11,"tid":48460,"ts":1546953279200,"tts":8982972}
+{"args":{"custom_user_timings_count":0},"cat":"loading","dur":109,"name":"PageTimingMetricsSender::SendNow","ph":"X","pid":39388,"tdur":69,"tid":20720,"ts":1546960679277,"tts":4638148}
+{"args":{"custom_timings_count":0},"cat":"loading","dur":59,"name":"MetricsWebContentsObserver::UpdateTiming","ph":"X","pid":51324,"tdur":26,"tid":48460,"ts":1546960679640,"tts":8991327}

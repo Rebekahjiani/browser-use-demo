@@ -1,0 +1,309 @@
+- RootWebArea "Mouth Guard Moldable Nightguard for Grinding Teeth at Night, Whitening Tray, 4 Pack Upgraded Night Guards to Keep Calm, Professional Comfortable Mouthguards for Sleep, 2 Sizes" [url="http://127.0.0.1:7770/mouth-guard-moldable-nightguard-for-grinding-teeth-at-night-whitening-tray-4-pack-upgraded-night-guards-to-keep-calm-professional-comfortable-mouthguards-for-sleep-2-sizes.html"]
+  - generic
+    - banner
+      - generic
+        - link "Skip to Content" [url="http://127.0.0.1:7770/mouth-guard-moldable-nightguard-for-grinding-teeth-at-night-whitening-tray-4-pack-upgraded-night-guards-to-keep-calm-professional-comfortable-mouthguards-for-sleep-2-sizes.html#contentarea"]
+          - StaticText "Skip to Content"
+      - generic
+        - generic
+          - generic
+            - StaticText ""
+          - StaticText "Toggle Nav"
+        - link "store logo" [url="http://127.0.0.1:7770/"]
+          - image "one_stop_market_logo" [url="http://127.0.0.1:7770/media/logo/websites/1/image_15__1.png"]
+        - generic
+          - link " My Cart" [url="http://127.0.0.1:7770/checkout/cart/"]
+            - generic
+              - StaticText ""
+            - StaticText "My Cart"
+        - form
+          - LabelText
+            - generic
+              - StaticText ""
+            - StaticText "Search"
+          - generic
+            - combobox " Search" [expanded=false]
+              - generic
+    - generic
+      - tablist
+        - tab "Menu" [selected=false] [expanded=true]
+          - link "Menu" [url="http://127.0.0.1:7770/mouth-guard-moldable-nightguard-for-grinding-teeth-at-night-whitening-tray-4-pack-upgraded-night-guards-to-keep-calm-professional-comfortable-mouthguards-for-sleep-2-sizes.html#store.menu"]
+            - StaticText "Menu"
+        - tabpanel
+          - navigation
+            - menu
+              - menuitem "BEAUTY & PERSONAL CARE "
+                - StaticText "BEAUTY & PERSONAL CARE"
+                - generic
+                  - StaticText ""
+              - menuitem "SPORTS & OUTDOORS "
+                - StaticText "SPORTS & OUTDOORS"
+                - generic
+                  - StaticText ""
+              - menuitem "CLOTHING, SHOES & JEWELRY "
+                - StaticText "CLOTHING, SHOES & JEWELRY"
+                - generic
+                  - StaticText ""
+              - menuitem "HOME & KITCHEN "
+                - StaticText "HOME & KITCHEN"
+                - generic
+                  - StaticText ""
+              - menuitem "OFFICE PRODUCTS "
+                - StaticText "OFFICE PRODUCTS"
+                - generic
+                  - StaticText ""
+              - menuitem "TOOLS & HOME IMPROVEMENT "
+                - StaticText "TOOLS & HOME IMPROVEMENT"
+                - generic
+                  - StaticText ""
+              - menuitem "HEALTH & HOUSEHOLD "
+                - StaticText "HEALTH & HOUSEHOLD"
+                - generic
+                  - StaticText ""
+              - menuitem "PATIO, LAWN & GARDEN "
+                - StaticText "PATIO, LAWN & GARDEN"
+                - generic
+                  - StaticText ""
+              - menuitem "ELECTRONICS "
+                - StaticText "ELECTRONICS"
+                - generic
+                  - StaticText ""
+              - menuitem "CELL PHONES & ACCESSORIES "
+                - StaticText "CELL PHONES & ACCESSORIES"
+                - generic
+                  - StaticText ""
+              - menuitem "VIDEO GAMES "
+                - StaticText "VIDEO GAMES"
+                - generic
+                  - StaticText ""
+              - menuitem "GROCERY & GOURMET FOOD "
+                - StaticText "GROCERY & GOURMET FOOD"
+                - generic
+                  - StaticText ""
+        - tab "Account" [selected=false] [expanded=false]
+          - link "Account" [url="http://127.0.0.1:7770/mouth-guard-moldable-nightguard-for-grinding-teeth-at-night-whitening-tray-4-pack-upgraded-night-guards-to-keep-calm-professional-comfortable-mouthguards-for-sleep-2-sizes.html#store.links"]
+            - StaticText "Account"
+    - list
+      - listitem [level=1]
+        - link "Home" [url="http://127.0.0.1:7770/"]
+          - StaticText "Home"
+        - generic
+          - StaticText ""
+      - listitem [level=1]
+        - link "Beauty & Personal Care" [url="http://127.0.0.1:7770/beauty-personal-care.html"]
+          - StaticText "Beauty & Personal Care"
+        - generic
+          - StaticText ""
+      - listitem [level=1]
+        - link "Oral Care" [url="http://127.0.0.1:7770/beauty-personal-care/oral-care.html"]
+          - StaticText "Oral Care"
+        - generic
+          - StaticText ""
+      - listitem [level=1]
+        - link "Oral Pain Relief" [url="http://127.0.0.1:7770/beauty-personal-care/oral-care/oral-pain-relief.html"]
+          - StaticText "Oral Pain Relief"
+        - generic
+          - StaticText ""
+      - listitem [level=1]
+        - strong
+          - StaticText "Mouth Guard Moldable Nightguard for Grinding Teeth at Night, Whitening Tray, 4 Pack Upgraded Night Guards to Keep Calm, Professional Comfortable Mouthguards for Sleep, 2 Sizes"
+    - main
+      - generic
+      - heading "Mouth Guard Moldable Nightguard for Grinding Teeth at Night, Whitening Tray, 4 Pack Upgraded Night Guards to Keep Calm, Professional Comfortable Mouthguards for Sleep, 2 Sizes" [level=1]
+        - StaticText "Mouth Guard Moldable Nightguard for Grinding Teeth at Night, Whitening Tray, 4 Pack Upgraded Night Guards to Keep Calm, Professional Comfortable Mouthguards for Sleep, 2 Sizes"
+      - generic
+        - generic
+          - StaticText "IN STOCK"
+        - generic
+          - strong
+            - StaticText "SKU"
+          - generic
+            - StaticText "B09NZYST29"
+      - LayoutTable
+        - generic
+          - link "Be the first to review this product" [url="http://127.0.0.1:7770/mouth-guard-moldable-nightguard-for-grinding-teeth-at-night-whitening-tray-4-pack-upgraded-night-guards-to-keep-calm-professional-comfortable-mouthguards-for-sleep-2-sizes.html#review-form"]
+            - StaticText "Be the first to review this product"
+      - generic
+        - generic
+          - StaticText "$10.99"
+      - form
+        - LabelText
+          - StaticText "Qty"
+        - generic
+          - spinbutton "Qty" [value=1]
+            - generic
+              - StaticText "1"
+        - button "Add to Cart"
+          - StaticText "Add to Cart"
+        - generic
+      - generic
+        - link "Add to Wish List" [url="http://127.0.0.1:7770/mouth-guard-moldable-nightguard-for-grinding-teeth-at-night-whitening-tray-4-pack-upgraded-night-guards-to-keep-calm-professional-comfortable-mouthguards-for-sleep-2-sizes.html#"]
+          - StaticText "Add to Wish List"
+      - generic
+      - generic
+        - link "Skip to the end of the images gallery" [url="http://127.0.0.1:7770/mouth-guard-moldable-nightguard-for-grinding-teeth-at-night-whitening-tray-4-pack-upgraded-night-guards-to-keep-calm-professional-comfortable-mouthguards-for-sleep-2-sizes.html#gallery-next-area"]
+          - StaticText "Skip to the end of the images gallery"
+      - generic
+        - generic
+        - generic
+        - generic
+          - generic
+            - button "Previous"
+              - generic
+            - generic
+              - generic
+                - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/829a59e57f886f8cf0598ffca4f8a940/B/0/B09NZYST29.1.jpg"]
+            - button "Next"
+              - generic
+          - generic
+            - generic
+              - button "Image"
+                - generic
+              - button "Image"
+                - generic
+        - generic
+      - generic
+        - link "Skip to the beginning of the images gallery" [url="http://127.0.0.1:7770/mouth-guard-moldable-nightguard-for-grinding-teeth-at-night-whitening-tray-4-pack-upgraded-night-guards-to-keep-calm-professional-comfortable-mouthguards-for-sleep-2-sizes.html#gallery-prev-area"]
+          - StaticText "Skip to the beginning of the images gallery"
+      - generic
+      - tablist
+        - tab "Details" [selected=false] [expanded=true]
+          - link "Details" [url="http://127.0.0.1:7770/mouth-guard-moldable-nightguard-for-grinding-teeth-at-night-whitening-tray-4-pack-upgraded-night-guards-to-keep-calm-professional-comfortable-mouthguards-for-sleep-2-sizes.html#description"]
+            - StaticText "Details"
+        - tabpanel "Details"
+          - generic
+          - generic
+          - generic
+            - generic
+              - separator
+              - heading "Product Description" [level=2]
+                - StaticText "Product Description"
+              - generic
+                - image "mouthguard" [url="https://m.media-amazon.com/images/S/aplus-media-library-service-media/7855e740-c6b3-47ed-8a50-aa970b27d862.__CR0,0,970,600_PT0_SX970_V1___.jpg"]
+              - generic
+                - generic
+                  - generic
+                    - image "mouthguard" [url="https://m.media-amazon.com/images/S/aplus-media-library-service-media/09b622d4-b86f-4972-a1a6-01c8c924af32.__CR0,0,300,300_PT0_SX300_V1___.jpg"]
+                  - generic
+                    - heading "Say goodbye to bruxism" [level=3]
+                      - StaticText "Say goodbye to bruxism"
+                    - paragraph
+                      - StaticText "If you want to protect your teeth from damage, then our individually adjustable mouthguards are the perfect solution. We ensure that our products are made of safe materials, have a reasonable structure, are comfortable to wear, and are suitable for daily use"
+                    - paragraph
+                      - StaticText "The new patented professional mouthguard can relieve the symptoms of insomnia, tension or teeth grinding at night, such as headache, neck pain or jaw pain, and you can finally fall asleep at ease"
+              - generic
+                - generic
+                  - generic
+                    - image "mouthguard" [url="https://m.media-amazon.com/images/S/aplus-media-library-service-media/d4359c91-498e-47d4-97c1-f04d3b51d921.__CR0,0,970,300_PT0_SX970_V1___.jpg"]
+              - generic
+                - generic
+                  - generic
+                    - image "mouthguard" [url="https://m.media-amazon.com/images/S/aplus-media-library-service-media/99a516e1-887c-4894-92d5-faa964ae33b1.__CR0,0,300,300_PT0_SX300_V1___.jpg"]
+                  - generic
+                    - heading "Protect your teeth" [level=3]
+                      - StaticText "Protect your teeth"
+                    - paragraph
+                      - StaticText "Use our mouthguard to reduce the impact of bruxism and snoring on you"
+                    - paragraph
+                      - StaticText "The mouthguard can effectively prevent teeth clenching at night, and significantly reduce the pressure on your jaw, help you stop grinding your teeth and gradually reduce all other consequences of toothache, migraine, insomnia and bruxism, and significantly improve the quality of sleep"
+              - generic
+                - image "mouthguard" [url="https://m.media-amazon.com/images/S/aplus-media-library-service-media/00ec66c4-7dad-472a-b14d-3b317344ad26.__CR0,0,970,600_PT0_SX970_V1___.jpg"]
+          - generic
+          - generic
+            - heading "Product Quick Look" [level=2]
+              - StaticText "Product Quick Look"
+            - generic
+              - list
+                - listitem [level=1]
+                  - ListMarker "•"
+                  - StaticText "Made of high-quality materials - High-quality food-grade resin polymerized, our mouthguards are made of BPA-free resin, with strong ductility, softness and comfort"
+                - listitem [level=1]
+                  - ListMarker "•"
+                  - StaticText "No foreign body sensation - We use super soft silicone, which is much thinner than traditional night guard, so it is more comfortable to wear in the mouth and can fit perfectly. The product contains two different sizes and comes with two braces Box, suitable for various mouth shapes"
+                - listitem [level=1]
+                  - ListMarker "•"
+                  - StaticText "Safe and non-toxic - Does not contain BPA and latex, the mouthguard only contains substances that have been tested for safety and effectiveness"
+                - listitem [level=1]
+                  - ListMarker "•"
+                  - StaticText "Say goodbye to bruxism - Do you want to alleviate various problems caused by teeth grinding? Have you used many methods without improving? Our mouthguard provides you with the perfect solution"
+                - listitem [level=1]
+                  - ListMarker "•"
+                  - StaticText "The product contains - 4 X mouth guard (2 sizes), 2 X Mouth Guard Cases. TIPS：Put the mouthguard in 65-75℃ hot water for about 20 seconds, too high water temperature and long soaking time will cause damage to the mouthguard"
+            - table
+              - row
+                - rowheader "Product Dimensions ‏"
+                  - StaticText "Product Dimensions ‏"
+                - cell "‎ 4.96 x 3.03 x 1.22 inches; 2.93 Ounces"
+                  - StaticText "‎ 4.96 x 3.03 x 1.22 inches; 2.93 Ounces"
+              - row
+                - rowheader "Item model number ‏"
+                  - StaticText "Item model number ‏"
+                - cell "‎ Mouthguard A192"
+                  - StaticText "‎ Mouthguard A192"
+              - row
+                - rowheader "UPC ‏"
+                  - StaticText "UPC ‏"
+                - cell "‎ 612789248872"
+                  - StaticText "‎ 612789248872"
+              - row
+                - rowheader "Manufacturer ‏"
+                  - StaticText "Manufacturer ‏"
+                - cell "‎ SIGMOOR"
+                  - StaticText "‎ SIGMOOR"
+              - row
+                - rowheader "ASIN ‏"
+                  - StaticText "ASIN ‏"
+                - cell "‎ B09NZYST29"
+                  - StaticText "‎ B09NZYST29"
+              - row
+                - rowheader "Country of Origin ‏"
+                  - StaticText "Country of Origin ‏"
+                - cell "‎ China"
+                  - StaticText "‎ China"
+              - row
+                - rowheader "#115 in Anti Grinding Teeth Protectors"
+                  - StaticText "#115 in Anti Grinding Teeth Protectors"
+                - cell
+              - row
+                - rowheader "#281 in Oral Pain Treatments"
+                  - StaticText "#281 in Oral Pain Treatments"
+                - cell
+        - tab "Reviews" [selected=false] [expanded=false]
+          - link "Reviews" [url="http://127.0.0.1:7770/mouth-guard-moldable-nightguard-for-grinding-teeth-at-night-whitening-tray-4-pack-upgraded-night-guards-to-keep-calm-professional-comfortable-mouthguards-for-sleep-2-sizes.html#reviews"]
+            - StaticText "Reviews"
+    - contentinfo
+      - form
+        - generic
+          - generic
+            - StaticText ""
+          - LabelText
+            - StaticText "Sign Up for Our Newsletter:"
+            - textbox "Sign Up for Our Newsletter:"
+              - generic
+        - generic
+          - button "Subscribe"
+            - StaticText "Subscribe"
+      - list
+        - listitem [level=1]
+          - link "Privacy and Cookie Policy" [url="http://127.0.0.1:7770/privacy-policy-cookie-restriction-mode/"]
+            - StaticText "Privacy and Cookie Policy"
+        - listitem [level=1]
+          - link "Search Terms" [url="http://127.0.0.1:7770/search/term/popular/"]
+            - StaticText "Search Terms"
+        - listitem [level=1]
+          - link "Advanced Search" [url="http://127.0.0.1:7770/catalogsearch/advanced/"]
+            - StaticText "Advanced Search"
+        - listitem [level=1]
+          - link "Orders and Returns" [url="http://127.0.0.1:7770/sales/guest/form/"]
+            - StaticText "Orders and Returns"
+        - listitem [level=1]
+          - link "Contact Us" [url="http://127.0.0.1:7770/contact/"]
+            - StaticText "Contact Us"
+      - generic
+        - StaticText "Copyright © 2013-present Magento, Inc. All rights reserved."
+      - generic
+        - StaticText "Help Us Keep Magento Healthy"
+        - StaticText
+        - link "Report All Bugs" [url="http://www.magentocommerce.com/bug-tracking"]
+          - StaticText "Report All Bugs"
+    - generic

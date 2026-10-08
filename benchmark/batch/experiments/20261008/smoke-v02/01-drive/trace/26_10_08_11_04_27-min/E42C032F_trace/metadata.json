@@ -1,0 +1,87 @@
+{
+  "ok": true,
+  "profileId": "467dcf6d-ca4b-409a-aeed-bceed9322206",
+  "traceId": "59709b5b-54b4-4bc0-a6ef-4b78249b39bc",
+  "cdpPort": 9222,
+  "title": "Crunchy Rice Rollers - Gluten Free - Vegan - 3.5 oz Individual Packs (4 Packs of 8 Rollers)",
+  "startedUrl": "http://127.0.0.1:7770/",
+  "stoppedUrl": "http://127.0.0.1:7770/crunchy-rice-rollers-gluten-free-vegan-3-5-oz-individual-packs-4-packs-of-8-rollers.html",
+  "traceProfile": "preset-min",
+  "tracePreset": "min",
+  "traceCategorySelection": {
+    "source": "preset",
+    "tracePreset": "min",
+    "traceProfile": "preset-min",
+    "includedCategories": [
+      "loading"
+    ],
+    "excludedCategories": [],
+    "expectedSignals": [
+      "页面/资源加载",
+      "soft navigation 线索"
+    ],
+    "overhead": "low",
+    "why": "使用 trace preset: min",
+    "catalogVersion": "2026-07-11",
+    "resolvedCategories": [
+      "loading"
+    ]
+  },
+  "traceCategories": [
+    "loading"
+  ],
+  "startedAt": "2026-10-08T03:04:27.922Z",
+  "stoppedAt": "2026-10-08T03:04:37.192Z",
+  "interactionCount": 0,
+  "networkEventCount": 984,
+  "warningCount": 0,
+  "segmentsManifest": {
+    "segments": [
+      {
+        "segmentId": "f8560c70-0d30-4e6f-9dad-b9da4d7c4e80",
+        "segmentIndex": 0,
+        "startedAt": 1791428667924,
+        "stoppedAt": 1791428677193,
+        "durationMs": 9269,
+        "eventCount": 8725,
+        "filePath": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\smoke-v02\\01-drive\\trace\\26_10_08_11_04_27-min\\trace.segment.000001.jsonl",
+        "status": "completed"
+      }
+    ],
+    "totalDurationMs": 9269,
+    "totalEventCount": 8725,
+    "startedAt": 1791428667924,
+    "stoppedAt": 1791428677193,
+    "dataLossOccurred": false,
+    "maxSwitchGapMs": 0
+  },
+  "segmentsSummary": {
+    "totalSegments": 1,
+    "completedSegments": 1,
+    "failedSegments": 0,
+    "totalDurationMs": 9269,
+    "totalEventCount": 8725,
+    "avgSegmentDurationMs": 9269,
+    "maxSegmentDurationMs": 9269,
+    "minSegmentDurationMs": 9269,
+    "avgEventCount": 8725,
+    "maxEventCount": 8725,
+    "minEventCount": 8725,
+    "maxSwitchGapMs": 0,
+    "dataLossOccurred": false,
+    "startedAt": 1791428667924,
+    "stoppedAt": 1791428677193
+  },
+  "outputs": {
+    "traceSegments": [
+      "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\smoke-v02\\01-drive\\trace\\26_10_08_11_04_27-min\\trace.segment.000001.jsonl"
+    ],
+    "traceSegmentsManifest": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\smoke-v02\\01-drive\\trace\\26_10_08_11_04_27-min\\trace.segments.manifest.json",
+    "traceSegmentsSummary": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\smoke-v02\\01-drive\\trace\\26_10_08_11_04_27-min\\trace.segments.summary.json",
+    "traceCategorySelection": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\smoke-v02\\01-drive\\trace\\26_10_08_11_04_27-min\\trace-category-selection.json",
+    "networkJsonl": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\smoke-v02\\01-drive\\trace\\26_10_08_11_04_27-min\\E42C032F_trace\\network.jsonl",
+    "interactionsJsonl": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\smoke-v02\\01-drive\\trace\\26_10_08_11_04_27-min\\E42C032F_trace\\interactions.jsonl",
+    "metadata": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\smoke-v02\\01-drive\\trace\\26_10_08_11_04_27-min\\E42C032F_trace\\metadata.json",
+    "profileRun": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\smoke-v02\\01-drive\\trace\\26_10_08_11_04_27-min\\E42C032F_trace\\profile-run.json"
+  }
+}

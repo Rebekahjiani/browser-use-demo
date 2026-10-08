@@ -1,0 +1,415 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - link "Skip to Content" [ref=e4] [cursor=pointer]:
+      - /url: "#contentarea"
+    - generic [ref=e5]:
+      - generic [ref=e6] [cursor=pointer]:
+        - text: 
+        - generic [ref=e7]: Toggle Nav
+      - link "store logo" [ref=e8] [cursor=pointer]:
+        - /url: http://127.0.0.1:7770/
+        - img "one_stop_market_logo" [ref=e9]
+      - generic [ref=e10]:
+        - link " My Cart" [ref=e11] [cursor=pointer]:
+          - /url: http://127.0.0.1:7770/checkout/cart/
+          - text: 
+          - generic [ref=e12]: My Cart
+        - text: 
+      - generic [ref=e16]:
+        - generic [ref=e17]:
+          - text: 
+          - generic [ref=e18]: Search
+        - combobox " Search" [ref=e20]
+  - tablist [ref=e22]:
+    - tab "Menu" [expanded] [ref=e23]:
+      - link "Menu" [ref=e24] [cursor=pointer]:
+        - /url: "#store.menu"
+    - tabpanel [ref=e25]:
+      - navigation [ref=e26]:
+        - menu [ref=e27]:
+          - listitem [ref=e28]:
+            - menuitem "Beauty & Personal Care " [ref=e29] [cursor=pointer]: Beauty & Personal Care 
+          - listitem [ref=e30]:
+            - menuitem "Sports & Outdoors " [ref=e31] [cursor=pointer]: Sports & Outdoors 
+          - listitem [ref=e32]:
+            - menuitem "Clothing, Shoes & Jewelry " [ref=e33] [cursor=pointer]: Clothing, Shoes & Jewelry 
+          - listitem [ref=e34]:
+            - menuitem "Home & Kitchen " [ref=e35] [cursor=pointer]: Home & Kitchen 
+          - listitem [ref=e36]:
+            - menuitem "Office Products " [ref=e37] [cursor=pointer]: Office Products 
+          - listitem [ref=e38]:
+            - menuitem "Tools & Home Improvement " [ref=e39] [cursor=pointer]: Tools & Home Improvement 
+          - listitem [ref=e40]:
+            - menuitem "Health & Household " [ref=e41] [cursor=pointer]: Health & Household 
+          - listitem [ref=e42]:
+            - menuitem "Patio, Lawn & Garden " [ref=e43] [cursor=pointer]: Patio, Lawn & Garden 
+          - listitem [ref=e44]:
+            - menuitem "Electronics " [ref=e45] [cursor=pointer]: Electronics 
+          - listitem [ref=e46]:
+            - menuitem "Cell Phones & Accessories " [ref=e47] [cursor=pointer]: Cell Phones & Accessories 
+          - listitem [ref=e48]:
+            - menuitem "Video Games " [ref=e49] [cursor=pointer]: Video Games 
+          - listitem [ref=e50]:
+            - menuitem "Grocery & Gourmet Food " [ref=e51] [cursor=pointer]: Grocery & Gourmet Food 
+    - tab "Account" [ref=e52]:
+      - link "Account" [ref=e53] [cursor=pointer]:
+        - /url: "#store.links"
+  - list [ref=e55]:
+    - listitem [ref=e56]:
+      - link "Home" [ref=e57] [cursor=pointer]:
+        - /url: http://127.0.0.1:7770/
+      - text: 
+    - listitem [ref=e58]:
+      - link "Beauty & Personal Care" [ref=e59] [cursor=pointer]:
+        - /url: http://127.0.0.1:7770/beauty-personal-care.html
+      - text: 
+    - listitem [ref=e60]:
+      - link "Oral Care" [ref=e61] [cursor=pointer]:
+        - /url: http://127.0.0.1:7770/beauty-personal-care/oral-care.html
+      - text: 
+    - listitem [ref=e62]:
+      - strong [ref=e63]: Teeth Whitening
+  - main [ref=e64]:
+    - heading "Teeth Whitening Items 1-12 of 128" [level=1] [ref=e66]: Teeth Whitening
+    - generic [ref=e67]:
+      - generic [ref=e68]:
+        - generic [ref=e69]:
+          - paragraph [ref=e70]: Items 1-12 of 128
+          - generic [ref=e71]:
+            - text: Sort By
+            - combobox "Sort By" [ref=e72]:
+              - option "Position" [selected]
+              - option "Product Name"
+              - option "Price"
+            - link " Set Descending Direction" [ref=e73] [cursor=pointer]:
+              - /url: "#"
+              - text: 
+              - generic [ref=e74]: Set Descending Direction
+        - list [ref=e76]:
+          - listitem [ref=e77]:
+            - generic [ref=e78]:
+              - link "Image" [ref=e79] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/ixaer-dental-teeth-whitening-lamp-2-colors-mobile-blue-red-led-teeth-whitener-machine-36w-10-led-bleaching-cold-light-lamp-accelerator-light-oral-care-floor-standing.html
+                - img "Image" [ref=e82]
+              - generic [ref=e83]:
+                - strong [ref=e84]:
+                  - link "ixaer Dental Teeth Whitening Lamp 2 Colors Mobile Blue Red LED Teeth Whitener Machine 36W 10 LED Bleaching Cold Light Lamp Accelerator Light Oral Care Floor Standing" [ref=e85] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/ixaer-dental-teeth-whitening-lamp-2-colors-mobile-blue-red-led-teeth-whitener-machine-36w-10-led-bleaching-cold-light-lamp-accelerator-light-oral-care-floor-standing.html
+                - generic [ref=e88]: $139.99
+                - generic [ref=e90]:
+                  - button "Add to Cart" [ref=e93] [cursor=pointer]
+                  - generic [ref=e94]:
+                    - button "Add to Wish List" [ref=e95] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e96]: Add to Wish List
+                    - text: 
+          - listitem [ref=e97]:
+            - generic [ref=e98]:
+              - link "Image" [ref=e99] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/hhkuize-pap-teeth-whitening-powder-teeth-whitener-powder-organic-tooth-powder-for-sensitive-teeth-natural-and-fluoride-free-oral-care-20g-1pcs.html
+                - img "Image" [ref=e102]
+              - generic [ref=e103]:
+                - strong [ref=e104]:
+                  - link "Hhkuize Pap Teeth Whitening Powder, Teeth Whitener Powder, Organic Tooth Powder for Sensitive Teeth, Natural and Fluoride Free Oral Care, 20g (1pcs)" [ref=e105] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/hhkuize-pap-teeth-whitening-powder-teeth-whitener-powder-organic-tooth-powder-for-sensitive-teeth-natural-and-fluoride-free-oral-care-20g-1pcs.html
+                - generic [ref=e108]: $11.68
+                - generic [ref=e110]:
+                  - button "Add to Cart" [ref=e113] [cursor=pointer]
+                  - generic [ref=e114]:
+                    - button "Add to Wish List" [ref=e115] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e116]: Add to Wish List
+                    - text: 
+          - listitem [ref=e117]:
+            - generic [ref=e118]:
+              - link "Image" [ref=e119] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/mmdent-resin-teeth-dental-acrylic-denture-false-teeth-for-halloween-horror-prop-middle-size-a2-color.html
+                - img "Image" [ref=e122]
+              - generic [ref=e123]:
+                - strong [ref=e124]:
+                  - link "MMDENT Resin Teeth Dental Acrylic Denture False Teeth for Halloween Horror Prop Middle Size A2 Color" [ref=e125] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/mmdent-resin-teeth-dental-acrylic-denture-false-teeth-for-halloween-horror-prop-middle-size-a2-color.html
+                - generic [ref=e128]: $11.95
+                - generic [ref=e130]:
+                  - button "Add to Cart" [ref=e133] [cursor=pointer]
+                  - generic [ref=e134]:
+                    - button "Add to Wish List" [ref=e135] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e136]: Add to Wish List
+                    - text: 
+          - listitem [ref=e137]:
+            - generic [ref=e138]:
+              - link "Image" [ref=e139] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/frau-fowler-mouth-medic-tooth-powder-botanically-clean-teeth-whitening-remineralizing-sensitive-teeth-treatment-2-oz-6-week-supply.html
+                - img "Image" [ref=e142]
+              - generic [ref=e143]:
+                - strong [ref=e144]:
+                  - link "Frau Fowler MOUTH MEDIC Tooth Powder, Botanically Clean, Teeth-Whitening, Remineralizing, Sensitive-Teeth Treatment, (2 oz / 6+ Week Supply)" [ref=e145] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/frau-fowler-mouth-medic-tooth-powder-botanically-clean-teeth-whitening-remineralizing-sensitive-teeth-treatment-2-oz-6-week-supply.html
+                - generic [ref=e148]: $12.97
+                - generic [ref=e150]:
+                  - button "Add to Cart" [ref=e153] [cursor=pointer]
+                  - generic [ref=e154]:
+                    - button "Add to Wish List" [ref=e155] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e156]: Add to Wish List
+                    - text: 
+          - listitem [ref=e157]:
+            - generic [ref=e158]:
+              - link "Image" [ref=e159] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/eucryl-three-packs-of-freshmint-toothpowder.html
+                - img "Image" [ref=e162]
+              - generic [ref=e163]:
+                - strong [ref=e164]:
+                  - link "Eucryl Three Packs Of Freshmint Toothpowder" [ref=e165] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/eucryl-three-packs-of-freshmint-toothpowder.html
+                - generic [ref=e168]: $13.48
+                - generic [ref=e170]:
+                  - button "Add to Cart" [ref=e173] [cursor=pointer]
+                  - generic [ref=e174]:
+                    - button "Add to Wish List" [ref=e175] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e176]: Add to Wish List
+                    - text: 
+          - listitem [ref=e177]:
+            - generic [ref=e178]:
+              - link "Image" [ref=e179] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/igia-micro-foam-toothpaste-teeth-whitening-deep-cleaning-for-ultrasonic-electric-360-toothbrushes-total-white-60-ml-3-count.html
+                - img "Image" [ref=e182]
+              - generic [ref=e183]:
+                - strong [ref=e184]:
+                  - link "Igia Micro Foam Toothpaste, Teeth Whitening Deep Cleaning for Ultrasonic Electric 360° Toothbrushes, Total White, 60 ml, 3 Count" [ref=e185] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/igia-micro-foam-toothpaste-teeth-whitening-deep-cleaning-for-ultrasonic-electric-360-toothbrushes-total-white-60-ml-3-count.html
+                - generic [ref=e186]:
+                  - generic [ref=e187]:
+                    - generic [ref=e188]: "Rating:"
+                    - generic "65%" [ref=e189]:
+                      - text: 
+                      - generic [ref=e190]:
+                        - text: 
+                        - generic [ref=e191]: 65%
+                  - link "4 Reviews" [ref=e193] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/igia-micro-foam-toothpaste-teeth-whitening-deep-cleaning-for-ultrasonic-electric-360-toothbrushes-total-white-60-ml-3-count.html#reviews
+                - generic [ref=e196]: $23.00
+                - generic [ref=e198]:
+                  - button "Add to Cart" [ref=e201] [cursor=pointer]
+                  - generic [ref=e202]:
+                    - button "Add to Wish List" [ref=e203] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e204]: Add to Wish List
+                    - text: 
+          - listitem [ref=e205]:
+            - generic [ref=e206]:
+              - link "Image" [ref=e207] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/mint-flavored-professional-strength-tooth-polish-medium-coarse-or-x-coarse-coarse-grit.html
+                - img "Image" [ref=e210]
+              - generic [ref=e211]:
+                - strong [ref=e212]:
+                  - link "Mint Flavored Professional Strength Tooth Polish - Medium, Coarse, or X-Coarse (Coarse Grit)" [ref=e213] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/mint-flavored-professional-strength-tooth-polish-medium-coarse-or-x-coarse-coarse-grit.html
+                - generic [ref=e216]: $4.99
+                - generic [ref=e218]:
+                  - button "Add to Cart" [ref=e221] [cursor=pointer]
+                  - generic [ref=e222]:
+                    - button "Add to Wish List" [ref=e223] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e224]: Add to Wish List
+                    - text: 
+          - listitem [ref=e225]:
+            - generic [ref=e226]:
+              - link "Image" [ref=e227] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/mouth-opener-t-shape-double-head-mouth-opener-intraoral-opener-dental-orthodontic-tool-intraoral-cheek-lip-retractor-10pcs.html
+                - img "Image" [ref=e230]
+              - generic [ref=e231]:
+                - strong [ref=e232]:
+                  - link "Mouth Opener T-Shape Double Head Mouth Opener Intraoral Opener Dental Orthodontic Tool Intraoral Cheek Lip Retractor 10pcs" [ref=e233] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/mouth-opener-t-shape-double-head-mouth-opener-intraoral-opener-dental-orthodontic-tool-intraoral-cheek-lip-retractor-10pcs.html
+                - generic [ref=e236]: $13.99
+                - generic [ref=e238]:
+                  - button "Add to Cart" [ref=e241] [cursor=pointer]
+                  - generic [ref=e242]:
+                    - button "Add to Wish List" [ref=e243] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e244]: Add to Wish List
+                    - text: 
+          - listitem [ref=e245]:
+            - generic [ref=e246]:
+              - link "Image" [ref=e247] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/exceart-20pcs-finger-teeth-wipes-disposable-finger-toothbrush-oral-care-teeth-cleaning-gauze-brush-portable-travel-teeth-brush-cleaner.html
+                - img "Image" [ref=e250]
+              - generic [ref=e251]:
+                - strong [ref=e252]:
+                  - link "EXCEART 20pcs Finger Teeth Wipes Disposable Finger Toothbrush Oral Care Teeth Cleaning Gauze Brush Portable Travel Teeth Brush Cleaner" [ref=e253] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/exceart-20pcs-finger-teeth-wipes-disposable-finger-toothbrush-oral-care-teeth-cleaning-gauze-brush-portable-travel-teeth-brush-cleaner.html
+                - generic [ref=e256]: $8.49
+                - generic [ref=e258]:
+                  - button "Add to Cart" [ref=e261] [cursor=pointer]
+                  - generic [ref=e262]:
+                    - button "Add to Wish List" [ref=e263] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e264]: Add to Wish List
+                    - text: 
+          - listitem [ref=e265]:
+            - generic [ref=e266]:
+              - link "Image" [ref=e267] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/signal-cavity-protection-toothpaste-75-ml-2-53-fl-oz.html
+                - img "Image" [ref=e270]
+              - generic [ref=e271]:
+                - strong [ref=e272]:
+                  - link "Signal Cavity Protection Toothpaste 75 ml / 2.53 fl oz" [ref=e273] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/signal-cavity-protection-toothpaste-75-ml-2-53-fl-oz.html
+                - generic [ref=e276]: $10.45
+                - generic [ref=e278]:
+                  - button "Add to Cart" [ref=e281] [cursor=pointer]
+                  - generic [ref=e282]:
+                    - button "Add to Wish List" [ref=e283] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e284]: Add to Wish List
+                    - text: 
+          - listitem [ref=e285]:
+            - generic [ref=e286]:
+              - link "Image" [ref=e287] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/vakker-tooth-powder-for-teeth-whitening-natural-toothpaste-powder-teeth-whitener-with-no-mess-tooth-whitening-remove-stains-coffee-wine-alternative-to-toothpaste-strips-kits-gels-mint-flavor.html
+                - img "Image" [ref=e290]
+              - generic [ref=e291]:
+                - strong [ref=e292]:
+                  - link "Vakker Tooth Powder for Teeth Whitening, Natural Toothpaste Powder Teeth Whitener with NO Mess Tooth Whitening Remove Stains Coffee Wine Alternative to Toothpaste, Strips, Kits, Gels,Mint Flavor" [ref=e293] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/vakker-tooth-powder-for-teeth-whitening-natural-toothpaste-powder-teeth-whitener-with-no-mess-tooth-whitening-remove-stains-coffee-wine-alternative-to-toothpaste-strips-kits-gels-mint-flavor.html
+                - generic [ref=e294]:
+                  - generic [ref=e295]:
+                    - generic [ref=e296]: "Rating:"
+                    - generic "87%" [ref=e297]:
+                      - text: 
+                      - generic [ref=e298]:
+                        - text: 
+                        - generic [ref=e299]: 87%
+                  - link "12 Reviews" [ref=e301] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/vakker-tooth-powder-for-teeth-whitening-natural-toothpaste-powder-teeth-whitener-with-no-mess-tooth-whitening-remove-stains-coffee-wine-alternative-to-toothpaste-strips-kits-gels-mint-flavor.html#reviews
+                - generic [ref=e304]: $12.99
+                - generic [ref=e306]:
+                  - button "Add to Cart" [ref=e309] [cursor=pointer]
+                  - generic [ref=e310]:
+                    - button "Add to Wish List" [ref=e311] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e312]: Add to Wish List
+                    - text: 
+          - listitem [ref=e313]:
+            - generic [ref=e314]:
+              - link "Image" [ref=e315] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/oralgen-nupearl-32x-perfect-teeth-whitening-pen-peroxide-free-08-oz.html
+                - img "Image" [ref=e318]
+              - generic [ref=e319]:
+                - strong [ref=e320]:
+                  - link "ORALGEN NuPearl.32x Perfect Teeth Whitening Pen (Peroxide-Free), 08 Oz" [ref=e321] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/oralgen-nupearl-32x-perfect-teeth-whitening-pen-peroxide-free-08-oz.html
+                - generic [ref=e324]: $9.99
+                - generic [ref=e326]:
+                  - button "Add to Cart" [ref=e329] [cursor=pointer]
+                  - generic [ref=e330]:
+                    - button "Add to Wish List" [ref=e331] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e332]: Add to Wish List
+                    - text: 
+        - generic [ref=e334]:
+          - strong [ref=e335]: Page
+          - list "Page" [ref=e336]:
+            - listitem [ref=e337]:
+              - strong [ref=e338]:
+                - generic [ref=e339]: You're currently reading page
+                - text: "1"
+            - listitem [ref=e340]:
+              - link "Page 2" [ref=e341] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/beauty-personal-care/oral-care/teeth-whitening.html?p=2
+                - generic [ref=e342]: Page
+                - text: "2"
+            - listitem [ref=e343]:
+              - link "Page 3" [ref=e344] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/beauty-personal-care/oral-care/teeth-whitening.html?p=3
+                - generic [ref=e345]: Page
+                - text: "3"
+            - listitem [ref=e346]:
+              - link "Page 4" [ref=e347] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/beauty-personal-care/oral-care/teeth-whitening.html?p=4
+                - generic [ref=e348]: Page
+                - text: "4"
+            - listitem [ref=e349]:
+              - link "Page 5" [ref=e350] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/beauty-personal-care/oral-care/teeth-whitening.html?p=5
+                - generic [ref=e351]: Page
+                - text: "5"
+            - listitem [ref=e352]:
+              - link " Page Next" [ref=e353] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/beauty-personal-care/oral-care/teeth-whitening.html?p=2
+                - text: 
+                - generic [ref=e354]: Page
+                - generic [ref=e355]: Next
+      - generic [ref=e357]:
+        - strong [ref=e359]: Shop By
+        - generic [ref=e360]:
+          - heading "Shopping Options" [level=2] [ref=e361]
+          - generic [ref=e362]:
+            - heading "Price" [level=3] [ref=e363]
+            - definition [ref=e364]:
+              - list [ref=e365]:
+                - listitem [ref=e366]:
+                  - link "$0.00 - $99.99( 125 item )" [ref=e367] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/beauty-personal-care/oral-care/teeth-whitening.html?price=0-100
+                    - text: $0.00 - $99.99
+                    - generic [ref=e368]:
+                      - text: ( 125
+                      - generic [ref=e369]: item
+                      - text: )
+                - listitem [ref=e370]:
+                  - link "$100.00 - $199.99( 2 item )" [ref=e371] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/beauty-personal-care/oral-care/teeth-whitening.html?price=100-200
+                    - text: $100.00 - $199.99
+                    - generic [ref=e372]:
+                      - text: ( 2
+                      - generic [ref=e373]: item
+                      - text: )
+                - listitem [ref=e374]:
+                  - link "$300.00 and above( 1 item )" [ref=e375] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/beauty-personal-care/oral-care/teeth-whitening.html?price=300-400
+                    - text: $300.00 and above
+                    - generic [ref=e376]:
+                      - text: ( 1
+                      - generic [ref=e377]: item
+                      - text: )
+      - generic [ref=e378]:
+        - generic [ref=e379]:
+          - heading "Compare Products" [level=2] [ref=e381]
+          - generic [ref=e382]: You have no items to compare.
+        - generic [ref=e383]:
+          - heading "My Wish List" [level=2] [ref=e385]
+          - generic [ref=e387]: You have no items in your wish list.
+  - contentinfo [ref=e388]:
+    - generic [ref=e389]:
+      - generic [ref=e392]:
+        - generic [ref=e394]:
+          - text: 
+          - generic [ref=e395]:
+            - generic [ref=e396]: "Sign Up for Our Newsletter:"
+            - textbox "Sign Up for Our Newsletter:" [ref=e397]:
+              - /placeholder: Enter your email address
+        - button "Subscribe" [ref=e399] [cursor=pointer]
+      - list [ref=e400]:
+        - listitem [ref=e401]:
+          - link "Privacy and Cookie Policy" [ref=e402] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/privacy-policy-cookie-restriction-mode/
+        - listitem [ref=e403]:
+          - link "Search Terms" [ref=e404] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/search/term/popular/
+        - listitem [ref=e405]:
+          - link "Advanced Search" [ref=e406] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/catalogsearch/advanced/
+        - listitem [ref=e407]:
+          - link "Orders and Returns" [ref=e408] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/sales/guest/form/
+        - listitem [ref=e409]:
+          - link "Contact Us" [ref=e410] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/contact/
+      - generic [ref=e411]: Copyright © 2013-present Magento, Inc. All rights reserved.
+      - generic [ref=e412]:
+        - text: Help Us Keep Magento Healthy
+        - link "Report All Bugs" [ref=e413] [cursor=pointer]:
+          - /url: http://www.magentocommerce.com/bug-tracking

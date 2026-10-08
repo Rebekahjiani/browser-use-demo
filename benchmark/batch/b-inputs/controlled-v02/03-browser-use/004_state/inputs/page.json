@@ -1,0 +1,10 @@
+{
+  "url": "http://127.0.0.1:7770/electronics.html",
+  "title": "Electronics",
+  "route": "/electronics.html",
+  "sources": {
+    "accessibility": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-122835-137305\\snapshots\\00008\\accessibility.json",
+    "sha256_AX": "f37e72363568fd1022c3a965a6eabfc3627f13c87657543e7e13903cd5dabb4e"
+  },
+  "material_scope": "recorded UI and conservatively associated JSON responses"
+}

@@ -1,0 +1,3780 @@
+{
+  "scope": "UI snapshot integrity and recorder metadata; not complete action-response fidelity",
+  "runs": {
+    "01-drive": {
+      "snapshot_count": 32,
+      "title_pair_matches": 32,
+      "metadata_url_conflicts": 0,
+      "snapshot_timestamp_missing": 32,
+      "pairs": [
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\01-drive\\trace\\26_10_08_11_08_15-min\\drive\\screenshots\\000_root",
+          "url": "http://127.0.0.1:7770/",
+          "title_pair_matches": true,
+          "metadata_url_matches": null,
+          "captured_at": null,
+          "sha256_AX": "54275e00093470c30f074ee828c0c8d5a52bdbe7c0d13225fc72cd9d106f0e13",
+          "sha256_HTML": "3eb21a216cea035e9251930fc5d367346e2fc39fed93b8d2b9f77f9970dae42c"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\01-drive\\trace\\26_10_08_11_08_15-min\\drive\\screenshots\\001_crunchy-rice-rollers-gluten-free-vegan-3-5-oz-individual-pac",
+          "url": "http://127.0.0.1:7770/crunchy-rice-rollers-gluten-free-vegan-3-5-oz-individual-packs-4-packs-of-8-rollers.html",
+          "title_pair_matches": true,
+          "metadata_url_matches": null,
+          "captured_at": null,
+          "sha256_AX": "6d07d4ad7fc0c81233d5ae15caa74ea84dbcf8d21789f666ee2f251ebd6d6039",
+          "sha256_HTML": "99f567788e11d154c04c1b6e13568910949211affac21313dd958ea2e8abfc14"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\01-drive\\trace\\26_10_08_11_08_15-min\\drive\\screenshots\\002_checkout_cart",
+          "url": "http://127.0.0.1:7770/checkout/cart/",
+          "title_pair_matches": true,
+          "metadata_url_matches": null,
+          "captured_at": null,
+          "sha256_AX": "b66d79bd38bf05d2c094f008f84945415b0320b3e11a5354979f89c238994482",
+          "sha256_HTML": "8bde504e06aeda78561384ee08762a01cbc5cfc2c0a97c7ea9a72e7e07506bf7"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\01-drive\\trace\\26_10_08_11_08_15-min\\drive\\screenshots\\003_catalogsearch_advanced",
+          "url": "http://127.0.0.1:7770/catalogsearch/advanced/",
+          "title_pair_matches": true,
+          "metadata_url_matches": null,
+          "captured_at": null,
+          "sha256_AX": "d86122dfe1ebf285ae73caf6b167c2b5eaf995f124eb9de968a9683fe8a88791",
+          "sha256_HTML": "e732f656d0c444a79e2ae963554e3d2e06106935ccdf4ca7af6dac247643d80d"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\01-drive\\trace\\26_10_08_11_08_15-min\\drive\\screenshots\\004_catalogsearch_advanced_result",
+          "url": "http://127.0.0.1:7770/catalogsearch/advanced/result/?name=&sku=Seed+a26826&description=launch+seed+cnrya1b977edzz&short_description=keynote+seed+cnryca90abd7zz&price%5Bfrom%5D=&price%5Bto%5D=&price%5Bcurrency%5D=USD",
+          "title_pair_matches": true,
+          "metadata_url_matches": null,
+          "captured_at": null,
+          "sha256_AX": "60ce8cf8c70cbbaf29426deb7c1c3fc9586f6f4cd4c242f15c57917cb4c02aeb",
+          "sha256_HTML": "733535a8624fd86a8ef2bbf7643baf1beb7e24041c270fb7df642f1dc2643af0"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\01-drive\\trace\\26_10_08_11_08_15-min\\drive\\screenshots\\005_beauty-personal-care_html",
+          "url": "http://127.0.0.1:7770/beauty-personal-care.html",
+          "title_pair_matches": true,
+          "metadata_url_matches": null,
+          "captured_at": null,
+          "sha256_AX": "a085fda10f1b94af6f53ddad7fed2f10333263efb5b306e02988fdb579d3350e",
+          "sha256_HTML": "698009af77084eff464a9946c9183f86ce62059e011ac131b422d0ead82324d8"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\01-drive\\trace\\26_10_08_11_08_15-min\\drive\\screenshots\\006_beauty-personal-care_oral-care_html",
+          "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care.html",
+          "title_pair_matches": true,
+          "metadata_url_matches": null,
+          "captured_at": null,
+          "sha256_AX": "09e07e8558e518414bc3025a2987de376c0be5c53d34a3a132b6299ffb1e09be",
+          "sha256_HTML": "21218d0f3aaf0e15a5801f6e59c1d3889611c7d7d012509547de96395fdc094d"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\01-drive\\trace\\26_10_08_11_08_15-min\\drive\\screenshots\\007_crest-pro-health-intense-mouthwash-antigingivitis-antiplaque",
+          "url": "http://127.0.0.1:7770/crest-pro-health-intense-mouthwash-antigingivitis-antiplaque-pack-of-4.html",
+          "title_pair_matches": true,
+          "metadata_url_matches": null,
+          "captured_at": null,
+          "sha256_AX": "89ebea3eaa1d71545e3fef2603ff66d9b94283885928ff30ec510668457a1092",
+          "sha256_HTML": "c07b0a7f7befb4125589534f08f9dba5d301a4223bf166b00a530d7777c89c4f"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\01-drive\\trace\\26_10_08_11_08_15-min\\drive\\screenshots\\008_crest-pro-health-intense-mouthwash-antigingivitis-antiplaque",
+          "url": "http://127.0.0.1:7770/crest-pro-health-intense-mouthwash-antigingivitis-antiplaque-pack-of-4.html",
+          "title_pair_matches": true,
+          "metadata_url_matches": null,
+          "captured_at": null,
+          "sha256_AX": "53467e924d2e8d825876422e9dfef9fc741ff0122f2ee8d08c43b25af3b69f78",
+          "sha256_HTML": "b4827c395ee79da00a146f1b85ca3085eb44f3421683d21fe5d6b832d2d0f531"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\01-drive\\trace\\26_10_08_11_08_15-min\\drive\\screenshots\\009_crest-pro-health-intense-mouthwash-antigingivitis-antiplaque",
+          "url": "http://127.0.0.1:7770/crest-pro-health-intense-mouthwash-antigingivitis-antiplaque-pack-of-4.html",
+          "title_pair_matches": true,
+          "metadata_url_matches": null,
+          "captured_at": null,
+          "sha256_AX": "25fe39548b4676bd1de089acd5fee204284c0ec546b5f63de00ab1ed10c1d701",
+          "sha256_HTML": "81d5d6ce8d7726b989458f718052b4509623a54730ae8c2ce542b134687e8fa6"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\01-drive\\trace\\26_10_08_11_08_15-min\\drive\\screenshots\\010_crest-pro-health-intense-mouthwash-antigingivitis-antiplaque",
+          "url": "http://127.0.0.1:7770/crest-pro-health-intense-mouthwash-antigingivitis-antiplaque-pack-of-4.html",
+          "title_pair_matches": true,
+          "metadata_url_matches": null,
+          "captured_at": null,
+          "sha256_AX": "b43c2cb9d5f64a8fa0e49beb6cf23cb61889bf6bc719282e18a5c025c2374f4a",
+          "sha256_HTML": "81d5d6ce8d7726b989458f718052b4509623a54730ae8c2ce542b134687e8fa6"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\01-drive\\trace\\26_10_08_11_08_15-min\\drive\\screenshots\\011_beauty-personal-care_oral-care_toothbrushes-accessories_html",
+          "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/toothbrushes-accessories.html",
+          "title_pair_matches": true,
+          "metadata_url_matches": null,
+          "captured_at": null,
+          "sha256_AX": "f78069ed8568133b94c898509874ee074164a74578ad81e3fd36f25eb6d09e57",
+          "sha256_HTML": "67ed1a7c9bcb2c85c3c84146bef0b843ac380ad41e79d3bcd420be5a10eb0750"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\01-drive\\trace\\26_10_08_11_08_15-min\\drive\\screenshots\\012_beauty-personal-care_oral-care_dental-floss-picks_html",
+          "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/dental-floss-picks.html",
+          "title_pair_matches": true,
+          "metadata_url_matches": null,
+          "captured_at": null,
+          "sha256_AX": "098d37a326e5d90ac55e35e6a087769719d18475b2277cc12b95e79cb19b9fd2",
+          "sha256_HTML": "953155b5808a76dbfe22366df7b9e6b364863e1220a283cc257097807db587b9"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\01-drive\\trace\\26_10_08_11_08_15-min\\drive\\screenshots\\013_beauty-personal-care_oral-care_dental-floss-picks_html",
+          "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/dental-floss-picks.html",
+          "title_pair_matches": true,
+          "metadata_url_matches": null,
+          "captured_at": null,
+          "sha256_AX": "c7423f8ae4aadf005ae6f2b73fc3c871efc8f7550ed768b8ee7ab0718087e5e9",
+          "sha256_HTML": "953155b5808a76dbfe22366df7b9e6b364863e1220a283cc257097807db587b9"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\01-drive\\trace\\26_10_08_11_08_15-min\\drive\\screenshots\\014_beauty-personal-care_oral-care_orthodontic-supplies_html",
+          "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/orthodontic-supplies.html",
+          "title_pair_matches": true,
+          "metadata_url_matches": null,
+          "captured_at": null,
+          "sha256_AX": "70b1000fe7e2c2fc42d6a78fcbf7f0820a37e141a6e1cf86f510217677990615",
+          "sha256_HTML": "d9fa48f5c75bbdaa3014a7a818609f1dce7fb2ab1c6daecab47d6cc75d480123"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\01-drive\\trace\\26_10_08_11_08_15-min\\drive\\screenshots\\015_beauty-personal-care_oral-care_orthodontic-supplies_html",
+          "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/orthodontic-supplies.html",
+          "title_pair_matches": true,
+          "metadata_url_matches": null,
+          "captured_at": null,
+          "sha256_AX": "283ad99c8414cbc7a8c97fd335d80c740c2074b3d83a9448fad9fbde426ba0e4",
+          "sha256_HTML": "d9fa48f5c75bbdaa3014a7a818609f1dce7fb2ab1c6daecab47d6cc75d480123"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\01-drive\\trace\\26_10_08_11_08_15-min\\drive\\screenshots\\016_beauty-personal-care_oral-care_children-s-dental-care_html",
+          "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/children-s-dental-care.html",
+          "title_pair_matches": true,
+          "metadata_url_matches": null,
+          "captured_at": null,
+          "sha256_AX": "102b46692c66c5a8b60d9b308ce6fe48af87d163ab9b9720de8f5fdbe56ceabc",
+          "sha256_HTML": "7ce096df6dc4a7716cc32ca9b65e8fcc909e4b2c3d4e4bc9f78f05f60770892f"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\01-drive\\trace\\26_10_08_11_08_15-min\\drive\\screenshots\\017_beauty-personal-care_oral-care_children-s-dental-care_html",
+          "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/children-s-dental-care.html",
+          "title_pair_matches": true,
+          "metadata_url_matches": null,
+          "captured_at": null,
+          "sha256_AX": "9ef69556059c7b0b09a8c9f69c6abc2da30c8748021162c71486085fe72d57d6",
+          "sha256_HTML": "7ce096df6dc4a7716cc32ca9b65e8fcc909e4b2c3d4e4bc9f78f05f60770892f"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\01-drive\\trace\\26_10_08_11_08_15-min\\drive\\screenshots\\018_beauty-personal-care_oral-care_oral-pain-relief_html",
+          "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/oral-pain-relief.html",
+          "title_pair_matches": true,
+          "metadata_url_matches": null,
+          "captured_at": null,
+          "sha256_AX": "35da1fca30bdf785612576d9490ac96cfd65e112efe4de3d30ce1aa088f0ee40",
+          "sha256_HTML": "7d7a9b351534a89867766b5487328b002cce05325a0831fe2fc4b028ffc59fcd"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\01-drive\\trace\\26_10_08_11_08_15-min\\drive\\screenshots\\019_beauty-personal-care_oral-care_oral-pain-relief_html",
+          "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/oral-pain-relief.html",
+          "title_pair_matches": true,
+          "metadata_url_matches": null,
+          "captured_at": null,
+          "sha256_AX": "ad3c26d98cceedde9b303a8a6f492f046b8102aecabe53edd9990a4585170358",
+          "sha256_HTML": "33ea44ce517d617614ea8bc294c2875a574f71f49e2048679a73896c6d5ac990"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\01-drive\\trace\\26_10_08_11_08_15-min\\drive\\screenshots\\020_beauty-personal-care_oral-care_oral-pain-relief_html",
+          "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/oral-pain-relief.html",
+          "title_pair_matches": true,
+          "metadata_url_matches": null,
+          "captured_at": null,
+          "sha256_AX": "f6a6fb801a02fcff22abbaaeeec1295f6c2c75f03e1c666bc15072c488284a79",
+          "sha256_HTML": "a4796758208507b96eb331796b8906d15c63c058fd6b226b756bc35ad145c147"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\01-drive\\trace\\26_10_08_11_08_15-min\\drive\\screenshots\\021_mouth-guard-moldable-nightguard-for-grinding-teeth-at-night-",
+          "url": "http://127.0.0.1:7770/mouth-guard-moldable-nightguard-for-grinding-teeth-at-night-whitening-tray-4-pack-upgraded-night-guards-to-keep-calm-professional-comfortable-mouthguards-for-sleep-2-sizes.html",
+          "title_pair_matches": true,
+          "metadata_url_matches": null,
+          "captured_at": null,
+          "sha256_AX": "3ab33579775e6793a8a7bc1d4e07cd29f87272457b5b5da8036fe454bca3e1cb",
+          "sha256_HTML": "266a4a4414867f70bfc1e2c1a7dd4116672793361a4d8674dee285ed8d21ca58"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\01-drive\\trace\\26_10_08_11_08_15-min\\drive\\screenshots\\022_mouth-guard-moldable-nightguard-for-grinding-teeth-at-night-",
+          "url": "http://127.0.0.1:7770/mouth-guard-moldable-nightguard-for-grinding-teeth-at-night-whitening-tray-4-pack-upgraded-night-guards-to-keep-calm-professional-comfortable-mouthguards-for-sleep-2-sizes.html",
+          "title_pair_matches": true,
+          "metadata_url_matches": null,
+          "captured_at": null,
+          "sha256_AX": "9f5e3c971bbf18184bd81a623289de9a9bd4d4bc67249f48d570b5faaaa57800",
+          "sha256_HTML": "873c06521b5698b7d0ba4bfc25032691ec22816018205ad6b19bdfded1300087"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\01-drive\\trace\\26_10_08_11_08_15-min\\drive\\screenshots\\023_beauty-personal-care_oral-care_toothpaste_html",
+          "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/toothpaste.html",
+          "title_pair_matches": true,
+          "metadata_url_matches": null,
+          "captured_at": null,
+          "sha256_AX": "2cf695e300f30c4e1b59e06a3544aa1e217ac810b5450105d34776268f111982",
+          "sha256_HTML": "a30d04a600ffd7fbec7368c7cc8445c31721c410693a1c65cb2a3d294fa42e7a"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\01-drive\\trace\\26_10_08_11_08_15-min\\drive\\screenshots\\024_beauty-personal-care_oral-care_toothpaste_html",
+          "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/toothpaste.html",
+          "title_pair_matches": true,
+          "metadata_url_matches": null,
+          "captured_at": null,
+          "sha256_AX": "43503f029fffcdfcf8bf7b13d6cd4c85fb936c768767917c3d0aa2c0c4c75f28",
+          "sha256_HTML": "a30d04a600ffd7fbec7368c7cc8445c31721c410693a1c65cb2a3d294fa42e7a"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\01-drive\\trace\\26_10_08_11_08_15-min\\drive\\screenshots\\025_beauty-personal-care_oral-care_toothpaste_html",
+          "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/toothpaste.html",
+          "title_pair_matches": true,
+          "metadata_url_matches": null,
+          "captured_at": null,
+          "sha256_AX": "26d0eeb956dfccddb428bf01252dc94c544a07a547966a2b2e847d2f2c50bf71",
+          "sha256_HTML": "e6e857e0d172a205d4acf9269bd057ac62a1e93ca72bd28c18c1b1dbf12c0900"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\01-drive\\trace\\26_10_08_11_08_15-min\\drive\\screenshots\\026_beauty-personal-care_oral-care_teeth-whitening_html",
+          "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/teeth-whitening.html",
+          "title_pair_matches": true,
+          "metadata_url_matches": null,
+          "captured_at": null,
+          "sha256_AX": "52dda04f8ce483e2b2ff85db89bc00fbc78f64df5f7fab3fa52b620a2d2e2cb0",
+          "sha256_HTML": "36bb0a6b5afd419581d87bee8bc3ea5db4fb304b743c914b524b220c8733f709"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\01-drive\\trace\\26_10_08_11_08_15-min\\drive\\screenshots\\027_beauty-personal-care_oral-care_breath-fresheners_html",
+          "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/breath-fresheners.html",
+          "title_pair_matches": true,
+          "metadata_url_matches": null,
+          "captured_at": null,
+          "sha256_AX": "24a37ab9b29e4f63c7cbe43bdbc031e757093508115ea64e3fdb3e56f26b1644",
+          "sha256_HTML": "d85845a129f447385d81bf1fae999daa1c44f322016d4cbd33648877bb21c3fc"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\01-drive\\trace\\26_10_08_11_08_15-min\\drive\\screenshots\\028_beauty-personal-care_oral-care_breath-fresheners_html",
+          "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/breath-fresheners.html",
+          "title_pair_matches": true,
+          "metadata_url_matches": null,
+          "captured_at": null,
+          "sha256_AX": "bcb62adf27add795a6c9d81ce7d9728af6ff430dba78261a9806b6aa448fbce6",
+          "sha256_HTML": "d85845a129f447385d81bf1fae999daa1c44f322016d4cbd33648877bb21c3fc"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\01-drive\\trace\\26_10_08_11_08_15-min\\drive\\screenshots\\029_oceansedge11-classic-christmas-theme-disposable-face-masks-f",
+          "url": "http://127.0.0.1:7770/oceansedge11-classic-christmas-theme-disposable-face-masks-for-adult-3-ply-face-protection-for-outdoor-sport-bicycle-mountain-bike.html",
+          "title_pair_matches": true,
+          "metadata_url_matches": null,
+          "captured_at": null,
+          "sha256_AX": "dc4530fd9cf764fee97fd208c1994fa47d5a34b16df72e1988ed8e4d24e989cd",
+          "sha256_HTML": "ea1f952f72b927febc8fbf7d84fcd7d64164c70f72dbaa190528176f491ef88c"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\01-drive\\trace\\26_10_08_11_08_15-min\\drive\\screenshots\\030_oceansedge11-classic-christmas-theme-disposable-face-masks-f",
+          "url": "http://127.0.0.1:7770/oceansedge11-classic-christmas-theme-disposable-face-masks-for-adult-3-ply-face-protection-for-outdoor-sport-bicycle-mountain-bike.html",
+          "title_pair_matches": true,
+          "metadata_url_matches": null,
+          "captured_at": null,
+          "sha256_AX": "ac871d953aa2524d9d020ec88e93656c433b57cbfc176a65c20ce9f6523d3a77",
+          "sha256_HTML": "4727114808a0b82fac946506bf81d3c3108068f98ec7806c079917aa07bb2fed"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\01-drive\\trace\\26_10_08_11_08_15-min\\drive\\screenshots\\031_beauty-personal-care_oral-care_denture-care_html",
+          "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/denture-care.html",
+          "title_pair_matches": true,
+          "metadata_url_matches": null,
+          "captured_at": null,
+          "sha256_AX": "4edcdc10b1df70f0f0b171b86a3f3f3d1929e3683e29bbcbdda7b30cf332a2b2",
+          "sha256_HTML": "86993f1d92aec8e510a9672a8c6e87f06fe935e253fe30524736676c96d34543"
+        }
+      ],
+      "recorder_timelines": [
+        {
+          "source": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\01-drive\\trace\\26_10_08_11_08_15-min\\trace.segments.manifest.json",
+          "sha256": "6d137d375c753a7a83d4245b5795a8dd4463c11cd1302b2d9c3af85dd967fc7e",
+          "invalid_timestamp_segments": [
+            1
+          ],
+          "duplicate_file_paths": {
+            "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\01-drive\\trace\\26_10_08_11_08_15-min\\trace.segment.000001.jsonl": 2
+          },
+          "failed_segments": [
+            {
+              "segmentIndex": 0,
+              "startedAt": 1791428896193,
+              "stoppedAt": 1791428926280,
+              "filePath": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\01-drive\\trace\\26_10_08_11_08_15-min\\trace.segment.000001.jsonl",
+              "error": "cdpSession.send: Protocol error (Tracing.end): Tracing is not started"
+            }
+          ],
+          "provisional_gaps": [
+            {
+              "start": 1791428896193,
+              "stop": 1791428927986,
+              "ms": 31793
+            },
+            {
+              "start": 1791428941304,
+              "stop": 1791428946920,
+              "ms": 5616
+            },
+            {
+              "start": 1791428956294,
+              "stop": 1791428958149,
+              "ms": 1855
+            },
+            {
+              "start": 1791428971309,
+              "stop": 1791428971623,
+              "ms": 314
+            },
+            {
+              "start": 1791428986309,
+              "stop": 1791428988758,
+              "ms": 2449
+            },
+            {
+              "start": 1791429001313,
+              "stop": 1791429001483,
+              "ms": 170
+            },
+            {
+              "start": 1791429016339,
+              "stop": 1791429016513,
+              "ms": 174
+            },
+            {
+              "start": 1791429031352,
+              "stop": 1791429031476,
+              "ms": 124
+            },
+            {
+              "start": 1791429046357,
+              "stop": 1791429046492,
+              "ms": 135
+            },
+            {
+              "start": 1791429061372,
+              "stop": 1791429061590,
+              "ms": 218
+            },
+            {
+              "start": 1791429076380,
+              "stop": 1791429076589,
+              "ms": 209
+            },
+            {
+              "start": 1791429091398,
+              "stop": 1791429091557,
+              "ms": 159
+            },
+            {
+              "start": 1791429106406,
+              "stop": 1791429106721,
+              "ms": 315
+            },
+            {
+              "start": 1791429121425,
+              "stop": 1791429121700,
+              "ms": 275
+            },
+            {
+              "start": 1791429136439,
+              "stop": 1791429136598,
+              "ms": 159
+            },
+            {
+              "start": 1791429151452,
+              "stop": 1791429151596,
+              "ms": 144
+            },
+            {
+              "start": 1791429166479,
+              "stop": 1791429166819,
+              "ms": 340
+            },
+            {
+              "start": 1791429181488,
+              "stop": 1791429181618,
+              "ms": 130
+            },
+            {
+              "start": 1791429196503,
+              "stop": 1791429196703,
+              "ms": 200
+            },
+            {
+              "start": 1791429211505,
+              "stop": 1791429211766,
+              "ms": 261
+            },
+            {
+              "start": 1791429226513,
+              "stop": 1791429226663,
+              "ms": 150
+            },
+            {
+              "start": 1791429241528,
+              "stop": 1791429241654,
+              "ms": 126
+            },
+            {
+              "start": 1791429256531,
+              "stop": 1791429256724,
+              "ms": 193
+            },
+            {
+              "start": 1791429271534,
+              "stop": 1791429271751,
+              "ms": 217
+            },
+            {
+              "start": 1791429286534,
+              "stop": 1791429291864,
+              "ms": 5330
+            },
+            {
+              "start": 1791429301535,
+              "stop": 1791429302060,
+              "ms": 525
+            },
+            {
+              "start": 1791429316539,
+              "stop": 1791429325879,
+              "ms": 9340
+            },
+            {
+              "start": 1791429331547,
+              "stop": 1791429332825,
+              "ms": 1278
+            },
+            {
+              "start": 1791429346561,
+              "stop": 1791429346706,
+              "ms": 145
+            },
+            {
+              "start": 1791429361567,
+              "stop": 1791429361722,
+              "ms": 155
+            },
+            {
+              "start": 1791429376577,
+              "stop": 1791429376726,
+              "ms": 149
+            },
+            {
+              "start": 1791429391580,
+              "stop": 1791429391701,
+              "ms": 121
+            },
+            {
+              "start": 1791429406593,
+              "stop": 1791429406722,
+              "ms": 129
+            },
+            {
+              "start": 1791429421605,
+              "stop": 1791429421973,
+              "ms": 368
+            },
+            {
+              "start": 1791429436639,
+              "stop": 1791429437303,
+              "ms": 664
+            },
+            {
+              "start": 1791429451644,
+              "stop": 1791429451789,
+              "ms": 145
+            },
+            {
+              "start": 1791429466659,
+              "stop": 1791429466784,
+              "ms": 125
+            },
+            {
+              "start": 1791429481667,
+              "stop": 1791429481806,
+              "ms": 139
+            },
+            {
+              "start": 1791429496676,
+              "stop": 1791429496939,
+              "ms": 263
+            },
+            {
+              "start": 1791429511678,
+              "stop": 1791429512176,
+              "ms": 498
+            },
+            {
+              "start": 1791429526690,
+              "stop": 1791429526903,
+              "ms": 213
+            },
+            {
+              "start": 1791429541690,
+              "stop": 1791429541867,
+              "ms": 177
+            },
+            {
+              "start": 1791429556701,
+              "stop": 1791429556832,
+              "ms": 131
+            },
+            {
+              "start": 1791429571712,
+              "stop": 1791429571849,
+              "ms": 137
+            },
+            {
+              "start": 1791429586719,
+              "stop": 1791429587072,
+              "ms": 353
+            },
+            {
+              "start": 1791429601723,
+              "stop": 1791429601866,
+              "ms": 143
+            },
+            {
+              "start": 1791429616741,
+              "stop": 1791429616858,
+              "ms": 117
+            },
+            {
+              "start": 1791429631748,
+              "stop": 1791429631869,
+              "ms": 121
+            },
+            {
+              "start": 1791429646763,
+              "stop": 1791429646951,
+              "ms": 188
+            },
+            {
+              "start": 1791429661776,
+              "stop": 1791429662006,
+              "ms": 230
+            },
+            {
+              "start": 1791429676788,
+              "stop": 1791429676912,
+              "ms": 124
+            },
+            {
+              "start": 1791429691791,
+              "stop": 1791429691916,
+              "ms": 125
+            },
+            {
+              "start": 1791429706800,
+              "stop": 1791429706922,
+              "ms": 122
+            },
+            {
+              "start": 1791429721803,
+              "stop": 1791429721969,
+              "ms": 166
+            },
+            {
+              "start": 1791429736809,
+              "stop": 1791429736948,
+              "ms": 139
+            },
+            {
+              "start": 1791429751820,
+              "stop": 1791429751940,
+              "ms": 120
+            },
+            {
+              "start": 1791429766829,
+              "stop": 1791429766951,
+              "ms": 122
+            },
+            {
+              "start": 1791429781841,
+              "stop": 1791429781969,
+              "ms": 128
+            },
+            {
+              "start": 1791429796846,
+              "stop": 1791429796991,
+              "ms": 145
+            },
+            {
+              "start": 1791429811879,
+              "stop": 1791429812889,
+              "ms": 1010
+            },
+            {
+              "start": 1791429826890,
+              "stop": 1791429828008,
+              "ms": 1118
+            },
+            {
+              "start": 1791429841898,
+              "stop": 1791429842030,
+              "ms": 132
+            },
+            {
+              "start": 1791429856900,
+              "stop": 1791429857129,
+              "ms": 229
+            },
+            {
+              "start": 1791429871909,
+              "stop": 1791429872033,
+              "ms": 124
+            },
+            {
+              "start": 1791429886914,
+              "stop": 1791429887066,
+              "ms": 152
+            },
+            {
+              "start": 1791429901929,
+              "stop": 1791429902091,
+              "ms": 162
+            },
+            {
+              "start": 1791429916929,
+              "stop": 1791429917179,
+              "ms": 250
+            },
+            {
+              "start": 1791429931938,
+              "stop": 1791429932055,
+              "ms": 117
+            },
+            {
+              "start": 1791429946949,
+              "stop": 1791429947068,
+              "ms": 119
+            },
+            {
+              "start": 1791429961952,
+              "stop": 1791429962156,
+              "ms": 204
+            },
+            {
+              "start": 1791429976963,
+              "stop": 1791429977148,
+              "ms": 185
+            },
+            {
+              "start": 1791429991967,
+              "stop": 1791429992095,
+              "ms": 128
+            },
+            {
+              "start": 1791430006973,
+              "stop": 1791430007101,
+              "ms": 128
+            },
+            {
+              "start": 1791430021974,
+              "stop": 1791430022141,
+              "ms": 167
+            },
+            {
+              "start": 1791430036983,
+              "stop": 1791430037542,
+              "ms": 559
+            },
+            {
+              "start": 1791430051996,
+              "stop": 1791430052144,
+              "ms": 148
+            },
+            {
+              "start": 1791430067006,
+              "stop": 1791430067153,
+              "ms": 147
+            },
+            {
+              "start": 1791430082008,
+              "stop": 1791430082136,
+              "ms": 128
+            },
+            {
+              "start": 1791430097023,
+              "stop": 1791430097147,
+              "ms": 124
+            },
+            {
+              "start": 1791430112036,
+              "stop": 1791430112212,
+              "ms": 176
+            },
+            {
+              "start": 1791430127046,
+              "stop": 1791430127191,
+              "ms": 145
+            }
+          ],
+          "timeline_reliable": false,
+          "gap_interpretation": "If timestamps/paths are inconsistent, gaps cannot quantify actual lost events."
+        }
+      ],
+      "UI_use": "Use witnessed AX/HTML facts; mismatches require page-level review.",
+      "trace_fidelity_status": "not_accepted",
+      "limitation": "Matching titles do not prove atomic DOM/AX capture or full action-response causality."
+    },
+    "01-browser-use": {
+      "snapshot_count": 42,
+      "title_pair_matches": 42,
+      "metadata_url_conflicts": 0,
+      "snapshot_timestamp_missing": 0,
+      "pairs": [
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-112904-537744\\snapshots\\00001",
+          "url": "http://127.0.0.1:7770/",
+          "title_pair_matches": true,
+          "metadata_url_matches": true,
+          "captured_at": "2026-10-08T03:29:09.852461+00:00",
+          "sha256_AX": "b571501976fdd5e0ec319adb0acdfe796b0f716beba01b282d5a0f9a20219720",
+          "sha256_HTML": "3a2a52491fa7e2f9293c9a147d6531c5b9cb457179e8d06617f3519f0331076f"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-112904-537744\\snapshots\\00002",
+          "url": "http://127.0.0.1:7770/",
+          "title_pair_matches": true,
+          "metadata_url_matches": true,
+          "captured_at": "2026-10-08T03:29:33.561665+00:00",
+          "sha256_AX": "7926f2041f59a5133fca49428aa96c23120117fd5b34c82734dc7b52b442bab9",
+          "sha256_HTML": "f478cbc2a9c035bb99871ec116263a169cc18a2627675fc19e28e30ca7093e04"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-112904-537744\\snapshots\\00003",
+          "url": "http://127.0.0.1:7770/",
+          "title_pair_matches": true,
+          "metadata_url_matches": true,
+          "captured_at": "2026-10-08T03:29:50.470639+00:00",
+          "sha256_AX": "610dfb3cba8aea9adb3625b902ecb287c8ba6b38475266fc8e3e459164e7e00e",
+          "sha256_HTML": "46661f8cdaf2fab2a22d29e59758858b97063b74e9b4046f5459882875b9d761"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-112904-537744\\snapshots\\00004",
+          "url": "http://127.0.0.1:7770/",
+          "title_pair_matches": true,
+          "metadata_url_matches": true,
+          "captured_at": "2026-10-08T03:30:10.332919+00:00",
+          "sha256_AX": "922d28220904b1f3ff8cdc8b05b78a809d5f5766e6062adf403a600aee966eaf",
+          "sha256_HTML": "7e818629b668e3993d214ce60540d3cc041fcb3cabf1dd32190bd2c14de96be8"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-112904-537744\\snapshots\\00005",
+          "url": "http://127.0.0.1:7770/",
+          "title_pair_matches": true,
+          "metadata_url_matches": true,
+          "captured_at": "2026-10-08T03:30:29.262889+00:00",
+          "sha256_AX": "363f0c656122ccc7d2e9d46e0d352bd55f25aa3055ed639abfc8d68bd0dd95d8",
+          "sha256_HTML": "f2de81f188fad0aa5714866793d88df45b2e758112c4df7e083bab8b6eee2cc1"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-112904-537744\\snapshots\\00006",
+          "url": "http://127.0.0.1:7770/",
+          "title_pair_matches": true,
+          "metadata_url_matches": true,
+          "captured_at": "2026-10-08T03:30:41.712826+00:00",
+          "sha256_AX": "363f0c656122ccc7d2e9d46e0d352bd55f25aa3055ed639abfc8d68bd0dd95d8",
+          "sha256_HTML": "f2de81f188fad0aa5714866793d88df45b2e758112c4df7e083bab8b6eee2cc1"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-112904-537744\\snapshots\\00007",
+          "url": "http://127.0.0.1:7770/",
+          "title_pair_matches": true,
+          "metadata_url_matches": true,
+          "captured_at": "2026-10-08T03:30:55.437942+00:00",
+          "sha256_AX": "363f0c656122ccc7d2e9d46e0d352bd55f25aa3055ed639abfc8d68bd0dd95d8",
+          "sha256_HTML": "f2de81f188fad0aa5714866793d88df45b2e758112c4df7e083bab8b6eee2cc1"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-112904-537744\\snapshots\\00008",
+          "url": "http://127.0.0.1:7770/",
+          "title_pair_matches": true,
+          "metadata_url_matches": true,
+          "captured_at": "2026-10-08T03:31:09.947140+00:00",
+          "sha256_AX": "363f0c656122ccc7d2e9d46e0d352bd55f25aa3055ed639abfc8d68bd0dd95d8",
+          "sha256_HTML": "f2de81f188fad0aa5714866793d88df45b2e758112c4df7e083bab8b6eee2cc1"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-112904-537744\\snapshots\\00009",
+          "url": "http://127.0.0.1:7770/",
+          "title_pair_matches": true,
+          "metadata_url_matches": true,
+          "captured_at": "2026-10-08T03:31:20.860208+00:00",
+          "sha256_AX": "363f0c656122ccc7d2e9d46e0d352bd55f25aa3055ed639abfc8d68bd0dd95d8",
+          "sha256_HTML": "f2de81f188fad0aa5714866793d88df45b2e758112c4df7e083bab8b6eee2cc1"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-112904-537744\\snapshots\\00010",
+          "url": "http://127.0.0.1:7770/",
+          "title_pair_matches": true,
+          "metadata_url_matches": true,
+          "captured_at": "2026-10-08T03:31:31.994606+00:00",
+          "sha256_AX": "363f0c656122ccc7d2e9d46e0d352bd55f25aa3055ed639abfc8d68bd0dd95d8",
+          "sha256_HTML": "f2de81f188fad0aa5714866793d88df45b2e758112c4df7e083bab8b6eee2cc1"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-112904-537744\\snapshots\\00011",
+          "url": "http://127.0.0.1:7770/",
+          "title_pair_matches": true,
+          "metadata_url_matches": true,
+          "captured_at": "2026-10-08T03:31:48.513587+00:00",
+          "sha256_AX": "363f0c656122ccc7d2e9d46e0d352bd55f25aa3055ed639abfc8d68bd0dd95d8",
+          "sha256_HTML": "f2de81f188fad0aa5714866793d88df45b2e758112c4df7e083bab8b6eee2cc1"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-112904-537744\\snapshots\\00012",
+          "url": "http://127.0.0.1:7770/",
+          "title_pair_matches": true,
+          "metadata_url_matches": true,
+          "captured_at": "2026-10-08T03:32:00.514061+00:00",
+          "sha256_AX": "363f0c656122ccc7d2e9d46e0d352bd55f25aa3055ed639abfc8d68bd0dd95d8",
+          "sha256_HTML": "f2de81f188fad0aa5714866793d88df45b2e758112c4df7e083bab8b6eee2cc1"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-112904-537744\\snapshots\\00013",
+          "url": "http://127.0.0.1:7770/electronics.html",
+          "title_pair_matches": true,
+          "metadata_url_matches": true,
+          "captured_at": "2026-10-08T03:32:20.221390+00:00",
+          "sha256_AX": "261a1a81b55eac9a155498e4fa60cbf8e6815505465d0e7ec2f0902cb0d1b465",
+          "sha256_HTML": "2c58fdd75fb99eb0c58343d8385834b708f35826a5e16a43175f0441fde1bebd"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-112904-537744\\snapshots\\00014",
+          "url": "http://127.0.0.1:7770/electronics.html",
+          "title_pair_matches": true,
+          "metadata_url_matches": true,
+          "captured_at": "2026-10-08T03:32:41.266624+00:00",
+          "sha256_AX": "261a1a81b55eac9a155498e4fa60cbf8e6815505465d0e7ec2f0902cb0d1b465",
+          "sha256_HTML": "2c58fdd75fb99eb0c58343d8385834b708f35826a5e16a43175f0441fde1bebd"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-112904-537744\\snapshots\\00015",
+          "url": "http://127.0.0.1:7770/electronics.html",
+          "title_pair_matches": true,
+          "metadata_url_matches": true,
+          "captured_at": "2026-10-08T03:32:54.041807+00:00",
+          "sha256_AX": "261a1a81b55eac9a155498e4fa60cbf8e6815505465d0e7ec2f0902cb0d1b465",
+          "sha256_HTML": "2c58fdd75fb99eb0c58343d8385834b708f35826a5e16a43175f0441fde1bebd"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-112904-537744\\snapshots\\00016",
+          "url": "http://127.0.0.1:7770/electronics.html",
+          "title_pair_matches": true,
+          "metadata_url_matches": true,
+          "captured_at": "2026-10-08T03:33:10.600288+00:00",
+          "sha256_AX": "261a1a81b55eac9a155498e4fa60cbf8e6815505465d0e7ec2f0902cb0d1b465",
+          "sha256_HTML": "2c58fdd75fb99eb0c58343d8385834b708f35826a5e16a43175f0441fde1bebd"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-112904-537744\\snapshots\\00017",
+          "url": "http://127.0.0.1:7770/electronics.html",
+          "title_pair_matches": true,
+          "metadata_url_matches": true,
+          "captured_at": "2026-10-08T03:33:57.027580+00:00",
+          "sha256_AX": "261a1a81b55eac9a155498e4fa60cbf8e6815505465d0e7ec2f0902cb0d1b465",
+          "sha256_HTML": "2c58fdd75fb99eb0c58343d8385834b708f35826a5e16a43175f0441fde1bebd"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-112904-537744\\snapshots\\00018",
+          "url": "http://127.0.0.1:7770/electronics.html",
+          "title_pair_matches": true,
+          "metadata_url_matches": true,
+          "captured_at": "2026-10-08T03:34:21.643847+00:00",
+          "sha256_AX": "261a1a81b55eac9a155498e4fa60cbf8e6815505465d0e7ec2f0902cb0d1b465",
+          "sha256_HTML": "2c58fdd75fb99eb0c58343d8385834b708f35826a5e16a43175f0441fde1bebd"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-112904-537744\\snapshots\\00020",
+          "url": "http://127.0.0.1:7770/electronics.html?product_list_order=price",
+          "title_pair_matches": true,
+          "metadata_url_matches": true,
+          "captured_at": "2026-10-08T03:35:24.698288+00:00",
+          "sha256_AX": "561093296a1f3144050629403aea913d45a001f45bc25a22a113e5526da5f9c4",
+          "sha256_HTML": "2157c4080692b09e6b11b17908bbb56fb0d2515cc043b1d1d7fd04ad89e79b5f"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-112904-537744\\snapshots\\00021",
+          "url": "http://127.0.0.1:7770/electronics.html?cat=60&product_list_order=price",
+          "title_pair_matches": true,
+          "metadata_url_matches": true,
+          "captured_at": "2026-10-08T03:35:45.115565+00:00",
+          "sha256_AX": "9d684c1dbcaa034d55cb9b0aa268d535701dd2e8f4e078b2318322acaba6416e",
+          "sha256_HTML": "0e3fcabf38725cf90f8bcc88e436ce6784774f0ebb015bf3390f028890467339"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-112904-537744\\snapshots\\00022",
+          "url": "http://127.0.0.1:7770/electronics.html?cat=60&product_list_order=price",
+          "title_pair_matches": true,
+          "metadata_url_matches": true,
+          "captured_at": "2026-10-08T03:36:03.230462+00:00",
+          "sha256_AX": "9d684c1dbcaa034d55cb9b0aa268d535701dd2e8f4e078b2318322acaba6416e",
+          "sha256_HTML": "0e3fcabf38725cf90f8bcc88e436ce6784774f0ebb015bf3390f028890467339"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-112904-537744\\snapshots\\00023",
+          "url": "http://127.0.0.1:7770/electronics.html?cat=60&product_list_order=price",
+          "title_pair_matches": true,
+          "metadata_url_matches": true,
+          "captured_at": "2026-10-08T03:36:24.535701+00:00",
+          "sha256_AX": "9d684c1dbcaa034d55cb9b0aa268d535701dd2e8f4e078b2318322acaba6416e",
+          "sha256_HTML": "0e3fcabf38725cf90f8bcc88e436ce6784774f0ebb015bf3390f028890467339"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-112904-537744\\snapshots\\00024",
+          "url": "http://127.0.0.1:7770/wireless-earbuds-mics-call-noise-canceling-wireless-charging-case-bluetooth-5-0-headset-wireless-earphones-mini-earbuds-stereo-headphones-white.html",
+          "title_pair_matches": true,
+          "metadata_url_matches": true,
+          "captured_at": "2026-10-08T03:36:47.801360+00:00",
+          "sha256_AX": "827e380db9d66bf0d9123ff08a5e11efc3055a0d1a2f4dc4a67505f4a945b7e2",
+          "sha256_HTML": "f3f3daf2546975a81b7164268b7e2a2accfe153ef42137cd91d86c082ffa1756"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-112904-537744\\snapshots\\00025",
+          "url": "http://127.0.0.1:7770/wireless-earbuds-mics-call-noise-canceling-wireless-charging-case-bluetooth-5-0-headset-wireless-earphones-mini-earbuds-stereo-headphones-white.html",
+          "title_pair_matches": true,
+          "metadata_url_matches": true,
+          "captured_at": "2026-10-08T03:37:16.180097+00:00",
+          "sha256_AX": "827e380db9d66bf0d9123ff08a5e11efc3055a0d1a2f4dc4a67505f4a945b7e2",
+          "sha256_HTML": "f3f3daf2546975a81b7164268b7e2a2accfe153ef42137cd91d86c082ffa1756"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-112904-537744\\snapshots\\00026",
+          "url": "http://127.0.0.1:7770/wireless-earbuds-mics-call-noise-canceling-wireless-charging-case-bluetooth-5-0-headset-wireless-earphones-mini-earbuds-stereo-headphones-white.html",
+          "title_pair_matches": true,
+          "metadata_url_matches": true,
+          "captured_at": "2026-10-08T03:37:35.945923+00:00",
+          "sha256_AX": "827e380db9d66bf0d9123ff08a5e11efc3055a0d1a2f4dc4a67505f4a945b7e2",
+          "sha256_HTML": "f3f3daf2546975a81b7164268b7e2a2accfe153ef42137cd91d86c082ffa1756"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-112904-537744\\snapshots\\00027",
+          "url": "http://127.0.0.1:7770/wireless-earbuds-mics-call-noise-canceling-wireless-charging-case-bluetooth-5-0-headset-wireless-earphones-mini-earbuds-stereo-headphones-white.html",
+          "title_pair_matches": true,
+          "metadata_url_matches": true,
+          "captured_at": "2026-10-08T03:37:51.012831+00:00",
+          "sha256_AX": "827e380db9d66bf0d9123ff08a5e11efc3055a0d1a2f4dc4a67505f4a945b7e2",
+          "sha256_HTML": "f3f3daf2546975a81b7164268b7e2a2accfe153ef42137cd91d86c082ffa1756"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-112904-537744\\snapshots\\00028",
+          "url": "http://127.0.0.1:7770/wireless-earbuds-mics-call-noise-canceling-wireless-charging-case-bluetooth-5-0-headset-wireless-earphones-mini-earbuds-stereo-headphones-white.html",
+          "title_pair_matches": true,
+          "metadata_url_matches": true,
+          "captured_at": "2026-10-08T03:38:31.649537+00:00",
+          "sha256_AX": "827e380db9d66bf0d9123ff08a5e11efc3055a0d1a2f4dc4a67505f4a945b7e2",
+          "sha256_HTML": "f3f3daf2546975a81b7164268b7e2a2accfe153ef42137cd91d86c082ffa1756"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-112904-537744\\snapshots\\00029",
+          "url": "http://127.0.0.1:7770/wireless-earbuds-mics-call-noise-canceling-wireless-charging-case-bluetooth-5-0-headset-wireless-earphones-mini-earbuds-stereo-headphones-white.html",
+          "title_pair_matches": true,
+          "metadata_url_matches": true,
+          "captured_at": "2026-10-08T03:39:21.528403+00:00",
+          "sha256_AX": "827e380db9d66bf0d9123ff08a5e11efc3055a0d1a2f4dc4a67505f4a945b7e2",
+          "sha256_HTML": "f3f3daf2546975a81b7164268b7e2a2accfe153ef42137cd91d86c082ffa1756"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-112904-537744\\snapshots\\00031",
+          "url": "http://127.0.0.1:7770/catalogsearch/result/?q=headphones",
+          "title_pair_matches": true,
+          "metadata_url_matches": true,
+          "captured_at": "2026-10-08T03:40:33.278382+00:00",
+          "sha256_AX": "65d0a212edc72affa064946387a2720f6c36da40076cdb044798c5cc0ea1e2f2",
+          "sha256_HTML": "52add13f45df04cded5d97df6f49bf856a0d4282a58438ea0d38ab4887c7cf45"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-112904-537744\\snapshots\\00032",
+          "url": "http://127.0.0.1:7770/catalogsearch/result/?q=headphones",
+          "title_pair_matches": true,
+          "metadata_url_matches": true,
+          "captured_at": "2026-10-08T03:40:45.612631+00:00",
+          "sha256_AX": "65d0a212edc72affa064946387a2720f6c36da40076cdb044798c5cc0ea1e2f2",
+          "sha256_HTML": "52add13f45df04cded5d97df6f49bf856a0d4282a58438ea0d38ab4887c7cf45"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-112904-537744\\snapshots\\00033",
+          "url": "http://127.0.0.1:7770/catalogsearch/result/?q=headphones",
+          "title_pair_matches": true,
+          "metadata_url_matches": true,
+          "captured_at": "2026-10-08T03:40:56.463767+00:00",
+          "sha256_AX": "15e21c0c9bc3bf3b72590110fdb6f513b5044450fa12505a0fd8776c8ae94b6d",
+          "sha256_HTML": "0af144e8001e4477ea27ad84c3313dae6b1bfcdd0f9b5e8aac12279832d84d2c"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-112904-537744\\snapshots\\00034",
+          "url": "http://127.0.0.1:7770/catalogsearch/result/?q=headphones",
+          "title_pair_matches": true,
+          "metadata_url_matches": true,
+          "captured_at": "2026-10-08T03:41:13.051629+00:00",
+          "sha256_AX": "daa5aec533eadbc8cf71be2571763a118c2e00b298aa1a58a69cea1795514b5f",
+          "sha256_HTML": "24474011ff0e49708b1f180c3b24ef001a1c18849fb80a8d766ce4a63ea5f495"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-112904-537744\\snapshots\\00035",
+          "url": "http://127.0.0.1:7770/checkout/cart/",
+          "title_pair_matches": true,
+          "metadata_url_matches": true,
+          "captured_at": "2026-10-08T03:41:33.456868+00:00",
+          "sha256_AX": "e5845d8d1235c22887543576bfa088b922cfa4590c0b3920e8d902576d016966",
+          "sha256_HTML": "3bfbbb71f34603ec53e4a83c960b94a43b718c5224c5dfe37bb112e84976d923"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-112904-537744\\snapshots\\00036",
+          "url": "http://127.0.0.1:7770/checkout/cart/",
+          "title_pair_matches": true,
+          "metadata_url_matches": true,
+          "captured_at": "2026-10-08T03:41:51.956369+00:00",
+          "sha256_AX": "e5845d8d1235c22887543576bfa088b922cfa4590c0b3920e8d902576d016966",
+          "sha256_HTML": "3bfbbb71f34603ec53e4a83c960b94a43b718c5224c5dfe37bb112e84976d923"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-112904-537744\\snapshots\\00037",
+          "url": "http://127.0.0.1:7770/checkout/cart/",
+          "title_pair_matches": true,
+          "metadata_url_matches": true,
+          "captured_at": "2026-10-08T03:42:25.744973+00:00",
+          "sha256_AX": "e5845d8d1235c22887543576bfa088b922cfa4590c0b3920e8d902576d016966",
+          "sha256_HTML": "3bfbbb71f34603ec53e4a83c960b94a43b718c5224c5dfe37bb112e84976d923"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-112904-537744\\snapshots\\00038",
+          "url": "http://127.0.0.1:7770/checkout/cart/",
+          "title_pair_matches": true,
+          "metadata_url_matches": true,
+          "captured_at": "2026-10-08T03:42:51.319547+00:00",
+          "sha256_AX": "e5845d8d1235c22887543576bfa088b922cfa4590c0b3920e8d902576d016966",
+          "sha256_HTML": "3bfbbb71f34603ec53e4a83c960b94a43b718c5224c5dfe37bb112e84976d923"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-112904-537744\\snapshots\\00039",
+          "url": "http://127.0.0.1:7770/checkout/cart/",
+          "title_pair_matches": true,
+          "metadata_url_matches": true,
+          "captured_at": "2026-10-08T03:43:36.338071+00:00",
+          "sha256_AX": "e5845d8d1235c22887543576bfa088b922cfa4590c0b3920e8d902576d016966",
+          "sha256_HTML": "3bfbbb71f34603ec53e4a83c960b94a43b718c5224c5dfe37bb112e84976d923"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-112904-537744\\snapshots\\00040",
+          "url": "http://127.0.0.1:7770/checkout/cart/",
+          "title_pair_matches": true,
+          "metadata_url_matches": true,
+          "captured_at": "2026-10-08T03:44:19.541811+00:00",
+          "sha256_AX": "e5845d8d1235c22887543576bfa088b922cfa4590c0b3920e8d902576d016966",
+          "sha256_HTML": "3bfbbb71f34603ec53e4a83c960b94a43b718c5224c5dfe37bb112e84976d923"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-112904-537744\\snapshots\\00041",
+          "url": "http://127.0.0.1:7770/checkout/cart/",
+          "title_pair_matches": true,
+          "metadata_url_matches": true,
+          "captured_at": "2026-10-08T03:44:53.265166+00:00",
+          "sha256_AX": "e5845d8d1235c22887543576bfa088b922cfa4590c0b3920e8d902576d016966",
+          "sha256_HTML": "3bfbbb71f34603ec53e4a83c960b94a43b718c5224c5dfe37bb112e84976d923"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-112904-537744\\snapshots\\00042",
+          "url": "http://127.0.0.1:7770/checkout/cart/",
+          "title_pair_matches": true,
+          "metadata_url_matches": true,
+          "captured_at": "2026-10-08T03:45:08.860297+00:00",
+          "sha256_AX": "e5845d8d1235c22887543576bfa088b922cfa4590c0b3920e8d902576d016966",
+          "sha256_HTML": "3bfbbb71f34603ec53e4a83c960b94a43b718c5224c5dfe37bb112e84976d923"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-112904-537744\\snapshots\\00043",
+          "url": "http://127.0.0.1:7770/checkout/cart/",
+          "title_pair_matches": true,
+          "metadata_url_matches": true,
+          "captured_at": "2026-10-08T03:45:48.628619+00:00",
+          "sha256_AX": "e5845d8d1235c22887543576bfa088b922cfa4590c0b3920e8d902576d016966",
+          "sha256_HTML": "3bfbbb71f34603ec53e4a83c960b94a43b718c5224c5dfe37bb112e84976d923"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-112904-537744\\snapshots\\00044",
+          "url": "http://127.0.0.1:7770/checkout/cart/",
+          "title_pair_matches": true,
+          "metadata_url_matches": true,
+          "captured_at": "2026-10-08T03:46:12.911885+00:00",
+          "sha256_AX": "e5845d8d1235c22887543576bfa088b922cfa4590c0b3920e8d902576d016966",
+          "sha256_HTML": "3bfbbb71f34603ec53e4a83c960b94a43b718c5224c5dfe37bb112e84976d923"
+        }
+      ],
+      "recorder_timelines": [
+        {
+          "source": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-112904-537744\\trace\\26_10_08_11_29_06-min\\trace.segments.manifest.json",
+          "sha256": "b679b19a4abe1e9e75a67cda0ba72f9e491eba5e7016d40f762068419e10683d",
+          "invalid_timestamp_segments": [],
+          "duplicate_file_paths": {},
+          "failed_segments": [],
+          "provisional_gaps": [
+            {
+              "start": 1791430163190,
+              "stop": 1791430163554,
+              "ms": 364
+            },
+            {
+              "start": 1791430178260,
+              "stop": 1791430178776,
+              "ms": 516
+            },
+            {
+              "start": 1791430193283,
+              "stop": 1791430193433,
+              "ms": 150
+            },
+            {
+              "start": 1791430208285,
+              "stop": 1791430208580,
+              "ms": 295
+            },
+            {
+              "start": 1791430223294,
+              "stop": 1791430223473,
+              "ms": 179
+            },
+            {
+              "start": 1791430238308,
+              "stop": 1791430238501,
+              "ms": 193
+            },
+            {
+              "start": 1791430253311,
+              "stop": 1791430253546,
+              "ms": 235
+            },
+            {
+              "start": 1791430268380,
+              "stop": 1791430268558,
+              "ms": 178
+            },
+            {
+              "start": 1791430283403,
+              "stop": 1791430283523,
+              "ms": 120
+            },
+            {
+              "start": 1791430298412,
+              "stop": 1791430298740,
+              "ms": 328
+            },
+            {
+              "start": 1791430313413,
+              "stop": 1791430313555,
+              "ms": 142
+            },
+            {
+              "start": 1791430328428,
+              "stop": 1791430328641,
+              "ms": 213
+            },
+            {
+              "start": 1791430343430,
+              "stop": 1791430349300,
+              "ms": 5870
+            },
+            {
+              "start": 1791430358448,
+              "stop": 1791430358677,
+              "ms": 229
+            },
+            {
+              "start": 1791430373458,
+              "stop": 1791430373638,
+              "ms": 180
+            },
+            {
+              "start": 1791430388471,
+              "stop": 1791430388616,
+              "ms": 145
+            },
+            {
+              "start": 1791430403481,
+              "stop": 1791430403617,
+              "ms": 136
+            },
+            {
+              "start": 1791430418495,
+              "stop": 1791430418724,
+              "ms": 229
+            },
+            {
+              "start": 1791430433502,
+              "stop": 1791430433647,
+              "ms": 145
+            },
+            {
+              "start": 1791430448511,
+              "stop": 1791430448632,
+              "ms": 121
+            },
+            {
+              "start": 1791430463529,
+              "stop": 1791430463716,
+              "ms": 187
+            },
+            {
+              "start": 1791430478541,
+              "stop": 1791430478794,
+              "ms": 253
+            },
+            {
+              "start": 1791430493547,
+              "stop": 1791430497746,
+              "ms": 4199
+            },
+            {
+              "start": 1791430508559,
+              "stop": 1791430508770,
+              "ms": 211
+            },
+            {
+              "start": 1791430523573,
+              "stop": 1791430523714,
+              "ms": 141
+            },
+            {
+              "start": 1791430538596,
+              "stop": 1791430538749,
+              "ms": 153
+            },
+            {
+              "start": 1791430553611,
+              "stop": 1791430553762,
+              "ms": 151
+            },
+            {
+              "start": 1791430568623,
+              "stop": 1791430568812,
+              "ms": 189
+            },
+            {
+              "start": 1791430583630,
+              "stop": 1791430583790,
+              "ms": 160
+            },
+            {
+              "start": 1791430598665,
+              "stop": 1791430598925,
+              "ms": 260
+            },
+            {
+              "start": 1791430613676,
+              "stop": 1791430616447,
+              "ms": 2771
+            },
+            {
+              "start": 1791430628702,
+              "stop": 1791430628846,
+              "ms": 144
+            },
+            {
+              "start": 1791430643708,
+              "stop": 1791430643910,
+              "ms": 202
+            },
+            {
+              "start": 1791430658718,
+              "stop": 1791430658958,
+              "ms": 240
+            },
+            {
+              "start": 1791430673724,
+              "stop": 1791430673843,
+              "ms": 119
+            },
+            {
+              "start": 1791430688736,
+              "stop": 1791430688865,
+              "ms": 129
+            },
+            {
+              "start": 1791430703742,
+              "stop": 1791430703874,
+              "ms": 132
+            },
+            {
+              "start": 1791430718744,
+              "stop": 1791430718872,
+              "ms": 128
+            },
+            {
+              "start": 1791430733758,
+              "stop": 1791430733926,
+              "ms": 168
+            },
+            {
+              "start": 1791430748792,
+              "stop": 1791430748938,
+              "ms": 146
+            },
+            {
+              "start": 1791430763803,
+              "stop": 1791430764048,
+              "ms": 245
+            },
+            {
+              "start": 1791430778817,
+              "stop": 1791430778952,
+              "ms": 135
+            },
+            {
+              "start": 1791430793822,
+              "stop": 1791430793962,
+              "ms": 140
+            },
+            {
+              "start": 1791430808835,
+              "stop": 1791430811883,
+              "ms": 3048
+            },
+            {
+              "start": 1791430823841,
+              "stop": 1791430823978,
+              "ms": 137
+            },
+            {
+              "start": 1791430838848,
+              "stop": 1791430839012,
+              "ms": 164
+            },
+            {
+              "start": 1791430853861,
+              "stop": 1791430853993,
+              "ms": 132
+            },
+            {
+              "start": 1791430868866,
+              "stop": 1791430868998,
+              "ms": 132
+            },
+            {
+              "start": 1791430883868,
+              "stop": 1791430883987,
+              "ms": 119
+            },
+            {
+              "start": 1791430898880,
+              "stop": 1791430899065,
+              "ms": 185
+            },
+            {
+              "start": 1791430913888,
+              "stop": 1791430914014,
+              "ms": 126
+            },
+            {
+              "start": 1791430928898,
+              "stop": 1791430929063,
+              "ms": 165
+            },
+            {
+              "start": 1791430943905,
+              "stop": 1791430944081,
+              "ms": 176
+            },
+            {
+              "start": 1791430958915,
+              "stop": 1791430959046,
+              "ms": 131
+            },
+            {
+              "start": 1791430973926,
+              "stop": 1791430974048,
+              "ms": 122
+            },
+            {
+              "start": 1791430988933,
+              "stop": 1791430989165,
+              "ms": 232
+            },
+            {
+              "start": 1791431003946,
+              "stop": 1791431004233,
+              "ms": 287
+            },
+            {
+              "start": 1791431018946,
+              "stop": 1791431019081,
+              "ms": 135
+            },
+            {
+              "start": 1791431033973,
+              "stop": 1791431034103,
+              "ms": 130
+            },
+            {
+              "start": 1791431048976,
+              "stop": 1791431049088,
+              "ms": 112
+            },
+            {
+              "start": 1791431064000,
+              "stop": 1791431064144,
+              "ms": 144
+            },
+            {
+              "start": 1791431079007,
+              "stop": 1791431079207,
+              "ms": 200
+            },
+            {
+              "start": 1791431094011,
+              "stop": 1791431094201,
+              "ms": 190
+            },
+            {
+              "start": 1791431109024,
+              "stop": 1791431109207,
+              "ms": 183
+            },
+            {
+              "start": 1791431124027,
+              "stop": 1791431124184,
+              "ms": 157
+            },
+            {
+              "start": 1791431139043,
+              "stop": 1791431139172,
+              "ms": 129
+            },
+            {
+              "start": 1791431154051,
+              "stop": 1791431154174,
+              "ms": 123
+            },
+            {
+              "start": 1791431169059,
+              "stop": 1791431169208,
+              "ms": 149
+            }
+          ],
+          "timeline_reliable": true,
+          "gap_interpretation": "If timestamps/paths are inconsistent, gaps cannot quantify actual lost events."
+        }
+      ],
+      "UI_use": "Use witnessed AX/HTML facts; mismatches require page-level review.",
+      "trace_fidelity_status": "not_accepted",
+      "limitation": "Matching titles do not prove atomic DOM/AX capture or full action-response causality."
+    },
+    "02-drive": {
+      "snapshot_count": 40,
+      "title_pair_matches": 40,
+      "metadata_url_conflicts": 0,
+      "snapshot_timestamp_missing": 40,
+      "pairs": [
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\02-drive\\trace\\26_10_08_11_46_19-min\\drive\\screenshots\\000_root",
+          "url": "http://127.0.0.1:7770/",
+          "title_pair_matches": true,
+          "metadata_url_matches": null,
+          "captured_at": null,
+          "sha256_AX": "9e4a2a8356d01fa71c555455f6575943ee3f8e1a399d2730d088b01b88293b0d",
+          "sha256_HTML": "b052c357b05de453e8f76932c5534c38eff79e2f4b44dd38f2509a0b9b90391e"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\02-drive\\trace\\26_10_08_11_46_19-min\\drive\\screenshots\\001_so-delicious-dairy-free-cocowhip-light-vegan-non-gmo-project",
+          "url": "http://127.0.0.1:7770/so-delicious-dairy-free-cocowhip-light-vegan-non-gmo-project-verified-9-oz-tub.html#reviews",
+          "title_pair_matches": true,
+          "metadata_url_matches": null,
+          "captured_at": null,
+          "sha256_AX": "38174d0db75503035701d4358f4361c7e2b08b4c47b6c8191e8420d82d292b8e",
+          "sha256_HTML": "bb71cde64938395bfd2f0f500818e3cb117ba07237127e5d9f0469aa08a30eca"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\02-drive\\trace\\26_10_08_11_46_19-min\\drive\\screenshots\\002_so-delicious-dairy-free-cocowhip-light-vegan-non-gmo-project",
+          "url": "http://127.0.0.1:7770/so-delicious-dairy-free-cocowhip-light-vegan-non-gmo-project-verified-9-oz-tub.html#reviews",
+          "title_pair_matches": true,
+          "metadata_url_matches": null,
+          "captured_at": null,
+          "sha256_AX": "8cdd8c3ed4dc205bb9fc60c757e469e5ecc1bbae46ddd1b2e50bb1d73658d9f3",
+          "sha256_HTML": "0ceb59a176b9a8de11f1f1b207a6d62c72ce95ef56cd099942903036e7d19ad6"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\02-drive\\trace\\26_10_08_11_46_19-min\\drive\\screenshots\\003_so-delicious-dairy-free-cocowhip-light-vegan-non-gmo-project",
+          "url": "http://127.0.0.1:7770/so-delicious-dairy-free-cocowhip-light-vegan-non-gmo-project-verified-9-oz-tub.html#reviews",
+          "title_pair_matches": true,
+          "metadata_url_matches": null,
+          "captured_at": null,
+          "sha256_AX": "f9a078ca2b16114602245cd00469f5c5754e3929787e8744d211a0c416abf4e5",
+          "sha256_HTML": "c3a8b7533069730c19d07f60f796431df3d1139757a1bfefa0e2f1876c8bbe78"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\02-drive\\trace\\26_10_08_11_46_19-min\\drive\\screenshots\\004_checkout_cart",
+          "url": "http://127.0.0.1:7770/checkout/cart/",
+          "title_pair_matches": true,
+          "metadata_url_matches": null,
+          "captured_at": null,
+          "sha256_AX": "185fea2c96cfd4bf092e5bcdde5f7b9f3785a516a809a659083013877252712f",
+          "sha256_HTML": "609f27892f0bfbf2fd559978e5dff1b0a1de74be7a8b1d5881df64a351ba15ac"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\02-drive\\trace\\26_10_08_11_46_19-min\\drive\\screenshots\\005_catalogsearch_advanced",
+          "url": "http://127.0.0.1:7770/catalogsearch/advanced/",
+          "title_pair_matches": true,
+          "metadata_url_matches": null,
+          "captured_at": null,
+          "sha256_AX": "9b68e905f06813960825717708e62f577a2587ae11704eff7e6ba405ea3fb863",
+          "sha256_HTML": "f2d75e3e04577d98cc6d0df17fb384cd241ad055c29faa81c0592e315ffd4149"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\02-drive\\trace\\26_10_08_11_46_19-min\\drive\\screenshots\\006_beauty-personal-care_html",
+          "url": "http://127.0.0.1:7770/beauty-personal-care.html",
+          "title_pair_matches": true,
+          "metadata_url_matches": null,
+          "captured_at": null,
+          "sha256_AX": "c8b5e502e9ba83b98f5c87390fadc80593394d4f1d69fced294750ed549cb2d9",
+          "sha256_HTML": "31d5d905ecb81fa898ce5edabe4d8d242d2e279bcb86b42c9ccf2373c46d71c2"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\02-drive\\trace\\26_10_08_11_46_19-min\\drive\\screenshots\\007_xzp-4-pack-larger-thicker-rapid-hair-wrap-towels-drying-wome",
+          "url": "http://127.0.0.1:7770/xzp-4-pack-larger-thicker-rapid-hair-wrap-towels-drying-women-long-thick-curly-hair-magic-instant-dry-hair-towel-caps-anti-frizz-fast-drying-microfiber-turban-wet-hair-wrap-towels-quick-drying.html",
+          "title_pair_matches": true,
+          "metadata_url_matches": null,
+          "captured_at": null,
+          "sha256_AX": "aae6515113451ce47b11a48268f30efec303aec8972b9e7c1350eb3f1d183acf",
+          "sha256_HTML": "aef2137384ad6bd2aaab89bab0c2410cafa33128591c4e7110f64d53605a1981"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\02-drive\\trace\\26_10_08_11_46_19-min\\drive\\screenshots\\008_xzp-4-pack-larger-thicker-rapid-hair-wrap-towels-drying-wome",
+          "url": "http://127.0.0.1:7770/xzp-4-pack-larger-thicker-rapid-hair-wrap-towels-drying-women-long-thick-curly-hair-magic-instant-dry-hair-towel-caps-anti-frizz-fast-drying-microfiber-turban-wet-hair-wrap-towels-quick-drying.html",
+          "title_pair_matches": true,
+          "metadata_url_matches": null,
+          "captured_at": null,
+          "sha256_AX": "3edfb9e192644a644a59e79a8d65076d1959358f6acbb0976ad77672d41a4b6c",
+          "sha256_HTML": "ab1a1cd909c2313453a9422e01db581538605f5b08d03d9cbccc8853e550599f"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\02-drive\\trace\\26_10_08_11_46_19-min\\drive\\screenshots\\009_xzp-4-pack-larger-thicker-rapid-hair-wrap-towels-drying-wome",
+          "url": "http://127.0.0.1:7770/xzp-4-pack-larger-thicker-rapid-hair-wrap-towels-drying-women-long-thick-curly-hair-magic-instant-dry-hair-towel-caps-anti-frizz-fast-drying-microfiber-turban-wet-hair-wrap-towels-quick-drying.html",
+          "title_pair_matches": true,
+          "metadata_url_matches": null,
+          "captured_at": null,
+          "sha256_AX": "649b166cc3b5f7bf510146877261bbc7a93fc9cdac574ceafbfe1c4e8006b11e",
+          "sha256_HTML": "a400d55cc19853361ed5ca414dac3bed5fa03d8514e1e5ea355950d47ff267c1"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\02-drive\\trace\\26_10_08_11_46_19-min\\drive\\screenshots\\010_xzp-4-pack-larger-thicker-rapid-hair-wrap-towels-drying-wome",
+          "url": "http://127.0.0.1:7770/xzp-4-pack-larger-thicker-rapid-hair-wrap-towels-drying-women-long-thick-curly-hair-magic-instant-dry-hair-towel-caps-anti-frizz-fast-drying-microfiber-turban-wet-hair-wrap-towels-quick-drying.html",
+          "title_pair_matches": true,
+          "metadata_url_matches": null,
+          "captured_at": null,
+          "sha256_AX": "dc125676b7ade0071b8e7d02da66356410d924d82656c0c93823cec863d5a3bc",
+          "sha256_HTML": "9c0eb9e2496ab8aff33046bf058d39c0e6649096fcb3101a1544f37d97a127c3"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\02-drive\\trace\\26_10_08_11_46_19-min\\drive\\screenshots\\011_beauty-personal-care_oral-care_html",
+          "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care.html",
+          "title_pair_matches": true,
+          "metadata_url_matches": null,
+          "captured_at": null,
+          "sha256_AX": "883b300d2ae141d14d86ba955e79999925b66b77a65e0f830d0d3ccbb18bc3a8",
+          "sha256_HTML": "d5ab318d8185cd840f6d85847d6ae1cce9162035cc7839d89b551e6e75241c49"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\02-drive\\trace\\26_10_08_11_46_19-min\\drive\\screenshots\\012_beauty-personal-care_oral-care_html",
+          "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care.html?cat=118",
+          "title_pair_matches": true,
+          "metadata_url_matches": null,
+          "captured_at": null,
+          "sha256_AX": "3cd8663b85f36c22a67b5c980e4d8a9116a260ef4070d3f500b6390595bee92f",
+          "sha256_HTML": "f1d0fcde38b9a43951cd91a2f04c22d780b9571705e2be943796a6c78156c9a2"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\02-drive\\trace\\26_10_08_11_46_19-min\\drive\\screenshots\\013_beauty-personal-care_oral-care_html",
+          "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care.html?cat=118&product_list_dir=desc",
+          "title_pair_matches": true,
+          "metadata_url_matches": null,
+          "captured_at": null,
+          "sha256_AX": "1ab547758f812de4c42c8dd5dcc50ea0dc12f3a7a0b08a025e55cbfe50b99499",
+          "sha256_HTML": "038d8830329ed9a60d149f6edfb02b7c6cce37c8ce102b12e8c323e03120fe38"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\02-drive\\trace\\26_10_08_11_46_19-min\\drive\\screenshots\\014_beauty-personal-care_oral-care_html",
+          "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care.html?cat=118&product_list_dir=desc",
+          "title_pair_matches": true,
+          "metadata_url_matches": null,
+          "captured_at": null,
+          "sha256_AX": "d5af122caca4b1cb2a8240c2155b4c05038f2ec7cb9d4bc3249e28c5fb454ac6",
+          "sha256_HTML": "038d8830329ed9a60d149f6edfb02b7c6cce37c8ce102b12e8c323e03120fe38"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\02-drive\\trace\\26_10_08_11_46_19-min\\drive\\screenshots\\015_beauty-personal-care_oral-care_html",
+          "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care.html?cat=118&product_list_dir=desc&product_list_order=name",
+          "title_pair_matches": true,
+          "metadata_url_matches": null,
+          "captured_at": null,
+          "sha256_AX": "bfaecb9afeb54111e88bd32bb1bbbb1ea906aca251140df16269c9e7503f18f2",
+          "sha256_HTML": "ca9fe728eb5aa3d64269031be3bd838b0145af48ccadafb56415013a34483744"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\02-drive\\trace\\26_10_08_11_46_19-min\\drive\\screenshots\\016_beauty-personal-care_oral-care_html",
+          "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care.html?cat=118&p=5&product_list_dir=desc&product_list_order=name",
+          "title_pair_matches": true,
+          "metadata_url_matches": null,
+          "captured_at": null,
+          "sha256_AX": "0323fb79cd8d26f19ee093b5e4c18d923daf9ad7a0f09ae9fbdc6147b1bd7382",
+          "sha256_HTML": "1b8b0fed380d6c5121e35365b5a8d68ac40a71fcef4da9444ec11f3c5795ca67"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\02-drive\\trace\\26_10_08_11_46_19-min\\drive\\screenshots\\017_foqitoxi-sport-mouth-guard-upper-and-lower-brace-teeth-grind",
+          "url": "http://127.0.0.1:7770/foqitoxi-sport-mouth-guard-upper-and-lower-brace-teeth-grinding-guard-4-pack-with-storage-case.html",
+          "title_pair_matches": true,
+          "metadata_url_matches": null,
+          "captured_at": null,
+          "sha256_AX": "2fe29034363b78261142c1cc42af5199294caea3ff12abdc20a787deb14a510a",
+          "sha256_HTML": "1e5dbda99ff3c69b1c2b3ba560ad7cbe59a8564f057bd101a9b03b89d89561dc"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\02-drive\\trace\\26_10_08_11_46_19-min\\drive\\screenshots\\018_foqitoxi-sport-mouth-guard-upper-and-lower-brace-teeth-grind",
+          "url": "http://127.0.0.1:7770/foqitoxi-sport-mouth-guard-upper-and-lower-brace-teeth-grinding-guard-4-pack-with-storage-case.html",
+          "title_pair_matches": true,
+          "metadata_url_matches": null,
+          "captured_at": null,
+          "sha256_AX": "5d8688c7414cb4d02aa34645d86344161a8189b40fb3fdf51b969de6d7fcb758",
+          "sha256_HTML": "8ae641bbea820555c7f2f53a793e93b5e5542b4f31a1f6f3d3d5d582700c31ae"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\02-drive\\trace\\26_10_08_11_46_19-min\\drive\\screenshots\\019_beauty-personal-care_oral-care_toothbrushes-accessories_html",
+          "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/toothbrushes-accessories.html",
+          "title_pair_matches": true,
+          "metadata_url_matches": null,
+          "captured_at": null,
+          "sha256_AX": "76a9bb672fd5e8be333e7cd8c175df07e896bdea0dfe2efab468a3cfd251ce4a",
+          "sha256_HTML": "cd614dae92d31f2311f37e43976d08304e7d81c1e8032488c45ef0d281fa2163"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\02-drive\\trace\\26_10_08_11_46_19-min\\drive\\screenshots\\020_beauty-personal-care_oral-care_toothbrushes-accessories_html",
+          "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/toothbrushes-accessories.html",
+          "title_pair_matches": true,
+          "metadata_url_matches": null,
+          "captured_at": null,
+          "sha256_AX": "07e08a38e9b094fd979929962d38d3e0165c9a9ae70d5509e63bea31a95cd43a",
+          "sha256_HTML": "322673f44f89855c62e3772fe4d2d339985cd9a99ae1402d8a170a4436fe23cf"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\02-drive\\trace\\26_10_08_11_46_19-min\\drive\\screenshots\\021_beauty-personal-care_oral-care_toothbrushes-accessories_html",
+          "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/toothbrushes-accessories.html",
+          "title_pair_matches": true,
+          "metadata_url_matches": null,
+          "captured_at": null,
+          "sha256_AX": "2ca83113d36eb3742d357de892d2e9af2c4bee116d8634b9a1ecedeaa75f1853",
+          "sha256_HTML": "e4e272be430d889dbcfebe8a17f871b655b5590a17bf72be24b47b3edfcc9bec"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\02-drive\\trace\\26_10_08_11_46_19-min\\drive\\screenshots\\022_colgate-slimsoft-floss-tip-charcoal-toothbrush-pack-of-6_htm",
+          "url": "http://127.0.0.1:7770/colgate-slimsoft-floss-tip-charcoal-toothbrush-pack-of-6.html",
+          "title_pair_matches": true,
+          "metadata_url_matches": null,
+          "captured_at": null,
+          "sha256_AX": "1780654eeed633e05513b89f37b732cad2c41fb5b40c08ee96f069a5ae201d9f",
+          "sha256_HTML": "01910d10df5fece69a7ffa1557ef5c0f2406a93853fb819630482b9514189742"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\02-drive\\trace\\26_10_08_11_46_19-min\\drive\\screenshots\\023_colgate-slimsoft-floss-tip-charcoal-toothbrush-pack-of-6_htm",
+          "url": "http://127.0.0.1:7770/colgate-slimsoft-floss-tip-charcoal-toothbrush-pack-of-6.html",
+          "title_pair_matches": true,
+          "metadata_url_matches": null,
+          "captured_at": null,
+          "sha256_AX": "39f7b46d038ac08f57ec0e792576a9e923e11646b42bd566ec19ed58f2830a29",
+          "sha256_HTML": "01910d10df5fece69a7ffa1557ef5c0f2406a93853fb819630482b9514189742"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\02-drive\\trace\\26_10_08_11_46_19-min\\drive\\screenshots\\024_colgate-slimsoft-floss-tip-charcoal-toothbrush-pack-of-6_htm",
+          "url": "http://127.0.0.1:7770/colgate-slimsoft-floss-tip-charcoal-toothbrush-pack-of-6.html",
+          "title_pair_matches": true,
+          "metadata_url_matches": null,
+          "captured_at": null,
+          "sha256_AX": "ca4805248f2c2513a7a1213c2affbe036ccbb6f446900984635e15f9becc9a70",
+          "sha256_HTML": "b2e1f84881058da69ed078e2b0698644bd860efef392b6de60ac1c6906f53d65"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\02-drive\\trace\\26_10_08_11_46_19-min\\drive\\screenshots\\025_colgate-slimsoft-floss-tip-charcoal-toothbrush-pack-of-6_htm",
+          "url": "http://127.0.0.1:7770/colgate-slimsoft-floss-tip-charcoal-toothbrush-pack-of-6.html",
+          "title_pair_matches": true,
+          "metadata_url_matches": null,
+          "captured_at": null,
+          "sha256_AX": "48f5fb2c7fa9a121d9e3dd863b0ef3d74ffd347dfdbc4dd6a2e5c8de150f4904",
+          "sha256_HTML": "809ffa8a65a770fcc76565f28578330b2936400fcdf5bc46d54129cc14f66b7e"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\02-drive\\trace\\26_10_08_11_46_19-min\\drive\\screenshots\\026_root",
+          "url": "http://127.0.0.1:7770/",
+          "title_pair_matches": true,
+          "metadata_url_matches": null,
+          "captured_at": null,
+          "sha256_AX": "645c4be372c22ea1d4218fd3289f00857441dcdc408ebe577ea27465284bec62",
+          "sha256_HTML": "9e219839a6bca39943b8ba6cba70e643d0e538f0778b7a799c393bc5af8b3f36"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\02-drive\\trace\\26_10_08_11_46_19-min\\drive\\screenshots\\027_beauty-personal-care_oral-care_dental-floss-picks_html",
+          "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/dental-floss-picks.html",
+          "title_pair_matches": true,
+          "metadata_url_matches": null,
+          "captured_at": null,
+          "sha256_AX": "d4ea3b521cc36962257df17640e22bdc89ddbc5ab4835e7d3ee579b984f53ee0",
+          "sha256_HTML": "be710ae6bf517a0b6598850898044e0d924fcd7b9faf0080b62646af26198ab0"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\02-drive\\trace\\26_10_08_11_46_19-min\\drive\\screenshots\\028_beauty-personal-care_oral-care_dental-floss-picks_html",
+          "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/dental-floss-picks.html?p=4",
+          "title_pair_matches": true,
+          "metadata_url_matches": null,
+          "captured_at": null,
+          "sha256_AX": "eba8877aab41445068f35269c430956b2f36f47e2bdbcbfcd19702d0943245ee",
+          "sha256_HTML": "1a4865d0929ecd434c82130335d9dd79ae4b958462933f0467960c2ff35faccf"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\02-drive\\trace\\26_10_08_11_46_19-min\\drive\\screenshots\\029_dental-floss-fresh-up-mint-50-m-per-pack-pack-of-4_html",
+          "url": "http://127.0.0.1:7770/dental-floss-fresh-up-mint-50-m-per-pack-pack-of-4.html",
+          "title_pair_matches": true,
+          "metadata_url_matches": null,
+          "captured_at": null,
+          "sha256_AX": "267b4da129d87c9128d0db4f53bcb12928b5bb133ff75242161c3c9bcea16fe5",
+          "sha256_HTML": "52722485975854fa7d162df0603869f3c271257f192e5b6a1dac60d065daa83c"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\02-drive\\trace\\26_10_08_11_46_19-min\\drive\\screenshots\\030_dental-floss-fresh-up-mint-50-m-per-pack-pack-of-4_html",
+          "url": "http://127.0.0.1:7770/dental-floss-fresh-up-mint-50-m-per-pack-pack-of-4.html",
+          "title_pair_matches": true,
+          "metadata_url_matches": null,
+          "captured_at": null,
+          "sha256_AX": "4e019973d4d77f0744c812558da1c339185948ad74ac2ef031d32f986f956e0e",
+          "sha256_HTML": "03daedbcf6f31563a85a8ee29f34214ff2c8c7cc7265a6d80213b9efe1727da7"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\02-drive\\trace\\26_10_08_11_46_19-min\\drive\\screenshots\\031_beauty-personal-care_oral-care_orthodontic-supplies_html",
+          "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/orthodontic-supplies.html",
+          "title_pair_matches": true,
+          "metadata_url_matches": null,
+          "captured_at": null,
+          "sha256_AX": "825183f632f98feee68179594bb12551df54da9b0f7826cab60b4cc8976b7894",
+          "sha256_HTML": "fee7a5ee841727721e3c5fbfe8a3754236d80632899344f002fa1eb2d6783e16"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\02-drive\\trace\\26_10_08_11_46_19-min\\drive\\screenshots\\032_50pcs-bag-disposable-plastic-elastic-placers-dental-elastic-",
+          "url": "http://127.0.0.1:7770/50pcs-bag-disposable-plastic-elastic-placers-dental-elastic-rubber-band-dental-orthodontic-product-multi-color.html",
+          "title_pair_matches": true,
+          "metadata_url_matches": null,
+          "captured_at": null,
+          "sha256_AX": "b426cf44c312d6a3f65cfcd368b67aab218f12aa669ea69ee7eac4b855c5240a",
+          "sha256_HTML": "a091726204a251d153816831196d3648f33fab501551d2bc82df05029363ac61"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\02-drive\\trace\\26_10_08_11_46_19-min\\drive\\screenshots\\033_beauty-personal-care_oral-care_children-s-dental-care_html",
+          "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/children-s-dental-care.html",
+          "title_pair_matches": true,
+          "metadata_url_matches": null,
+          "captured_at": null,
+          "sha256_AX": "2080a3959d16c8bdac9829becdcec629ee2a4207bb89df4c65e5ac97b3a77d79",
+          "sha256_HTML": "0a6d39d1f1dacbcbc56ac2f609c5da824a58bebfe887c72c4947823642eed881"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\02-drive\\trace\\26_10_08_11_46_19-min\\drive\\screenshots\\034_3-sets-dental-mouth-prop-tongue-guard-right-left-134-bite-bl",
+          "url": "http://127.0.0.1:7770/3-sets-dental-mouth-prop-tongue-guard-right-left-134-bite-block-adult-children-kids.html",
+          "title_pair_matches": true,
+          "metadata_url_matches": null,
+          "captured_at": null,
+          "sha256_AX": "55e0f111872f77f78c2baf62fcbc6741863841fbf2d4e70e646b7a2e0fb4abc1",
+          "sha256_HTML": "4c8a3c0b5d7a770d016f4955977308b8cc3c3259eedb451984ad131230d73200"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\02-drive\\trace\\26_10_08_11_46_19-min\\drive\\screenshots\\035_3-sets-dental-mouth-prop-tongue-guard-right-left-134-bite-bl",
+          "url": "http://127.0.0.1:7770/3-sets-dental-mouth-prop-tongue-guard-right-left-134-bite-block-adult-children-kids.html",
+          "title_pair_matches": true,
+          "metadata_url_matches": null,
+          "captured_at": null,
+          "sha256_AX": "b6a873e3cc31c9082d3312611e7dba3395656773236c374202352e8d629a8516",
+          "sha256_HTML": "95b34496eb56fa812cf41413414864239555a9dc971825356716fa786bce7467"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\02-drive\\trace\\26_10_08_11_46_19-min\\drive\\screenshots\\036_3-sets-dental-mouth-prop-tongue-guard-right-left-134-bite-bl",
+          "url": "http://127.0.0.1:7770/3-sets-dental-mouth-prop-tongue-guard-right-left-134-bite-block-adult-children-kids.html",
+          "title_pair_matches": true,
+          "metadata_url_matches": null,
+          "captured_at": null,
+          "sha256_AX": "a9889f73d2e0c4d09152c9faf204f585f0f774e958b230d182acf6bd6a92fa78",
+          "sha256_HTML": "03f90c7c33decbb335befcd7ba376e5bcd76ed2d3806d8cd32f2bb5f1df8c7b9"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\02-drive\\trace\\26_10_08_11_46_19-min\\drive\\screenshots\\037_beauty-personal-care_oral-care_oral-pain-relief_html",
+          "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/oral-pain-relief.html",
+          "title_pair_matches": true,
+          "metadata_url_matches": null,
+          "captured_at": null,
+          "sha256_AX": "21b47ceee5c7c25e5545a592148eb36064676918ca05985a74c527269d2a0512",
+          "sha256_HTML": "33fe49e4f956c153b43d95fd5554821029abbe0cdae9c5e93fbb8ff6991929fa"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\02-drive\\trace\\26_10_08_11_46_19-min\\drive\\screenshots\\038_beauty-personal-care_oral-care_oral-pain-relief_html",
+          "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/oral-pain-relief.html",
+          "title_pair_matches": true,
+          "metadata_url_matches": null,
+          "captured_at": null,
+          "sha256_AX": "ae62ba701cb9fc660304b96772bc23934f626273584225ff0b5dfbdb0e15da81",
+          "sha256_HTML": "aa3623ebdc381302731de967086b1719046e5ea6825095f0ee652c77c9f11349"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\02-drive\\trace\\26_10_08_11_46_19-min\\drive\\screenshots\\039_beauty-personal-care_oral-care_oral-pain-relief_html",
+          "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/oral-pain-relief.html?price=0-100",
+          "title_pair_matches": true,
+          "metadata_url_matches": null,
+          "captured_at": null,
+          "sha256_AX": "6d6fbfa91a3a6375ba51b5c401411d4ab8c3eb3327fb50ccf06a424fd5e725b8",
+          "sha256_HTML": "22cf45c83a8f5d6bd6a94894ae8e17b39370ecc01038caf91ecabc85fbf9de93"
+        }
+      ],
+      "recorder_timelines": [
+        {
+          "source": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\02-drive\\trace\\26_10_08_11_46_19-min\\trace.segments.manifest.json",
+          "sha256": "ada004792202d0f6dd5e993f31096c72a47f4fe539cae6665924f83915d90b69",
+          "invalid_timestamp_segments": [],
+          "duplicate_file_paths": {},
+          "failed_segments": [],
+          "provisional_gaps": [
+            {
+              "start": 1791431196231,
+              "stop": 1791431196837,
+              "ms": 606
+            },
+            {
+              "start": 1791431211237,
+              "stop": 1791431211388,
+              "ms": 151
+            },
+            {
+              "start": 1791431226250,
+              "stop": 1791431226380,
+              "ms": 130
+            },
+            {
+              "start": 1791431241252,
+              "stop": 1791431241407,
+              "ms": 155
+            },
+            {
+              "start": 1791431256253,
+              "stop": 1791431256403,
+              "ms": 150
+            },
+            {
+              "start": 1791431271258,
+              "stop": 1791431271388,
+              "ms": 130
+            },
+            {
+              "start": 1791431286271,
+              "stop": 1791431286488,
+              "ms": 217
+            },
+            {
+              "start": 1791431301277,
+              "stop": 1791431301400,
+              "ms": 123
+            },
+            {
+              "start": 1791431316291,
+              "stop": 1791431316439,
+              "ms": 148
+            },
+            {
+              "start": 1791431331301,
+              "stop": 1791431331427,
+              "ms": 126
+            },
+            {
+              "start": 1791431346314,
+              "stop": 1791431346457,
+              "ms": 143
+            },
+            {
+              "start": 1791431361320,
+              "stop": 1791431361446,
+              "ms": 126
+            },
+            {
+              "start": 1791431376323,
+              "stop": 1791431376482,
+              "ms": 159
+            },
+            {
+              "start": 1791431391338,
+              "stop": 1791431391493,
+              "ms": 155
+            },
+            {
+              "start": 1791431406346,
+              "stop": 1791431406493,
+              "ms": 147
+            },
+            {
+              "start": 1791431421358,
+              "stop": 1791431421845,
+              "ms": 487
+            },
+            {
+              "start": 1791431436365,
+              "stop": 1791431436511,
+              "ms": 146
+            },
+            {
+              "start": 1791431451381,
+              "stop": 1791431451504,
+              "ms": 123
+            },
+            {
+              "start": 1791431466390,
+              "stop": 1791431466510,
+              "ms": 120
+            },
+            {
+              "start": 1791431481404,
+              "stop": 1791431482015,
+              "ms": 611
+            },
+            {
+              "start": 1791431496418,
+              "stop": 1791431496536,
+              "ms": 118
+            },
+            {
+              "start": 1791431511423,
+              "stop": 1791431511569,
+              "ms": 146
+            },
+            {
+              "start": 1791431526429,
+              "stop": 1791431526568,
+              "ms": 139
+            },
+            {
+              "start": 1791431541441,
+              "stop": 1791431541673,
+              "ms": 232
+            },
+            {
+              "start": 1791431556448,
+              "stop": 1791431556604,
+              "ms": 156
+            },
+            {
+              "start": 1791431571449,
+              "stop": 1791431572725,
+              "ms": 1276
+            },
+            {
+              "start": 1791431586448,
+              "stop": 1791431586608,
+              "ms": 160
+            },
+            {
+              "start": 1791431601460,
+              "stop": 1791431601583,
+              "ms": 123
+            },
+            {
+              "start": 1791431616476,
+              "stop": 1791431616589,
+              "ms": 113
+            },
+            {
+              "start": 1791431631481,
+              "stop": 1791431631614,
+              "ms": 133
+            },
+            {
+              "start": 1791431646486,
+              "stop": 1791431646630,
+              "ms": 144
+            },
+            {
+              "start": 1791431661488,
+              "stop": 1791431661702,
+              "ms": 214
+            },
+            {
+              "start": 1791431676496,
+              "stop": 1791431676643,
+              "ms": 147
+            },
+            {
+              "start": 1791431691506,
+              "stop": 1791431691679,
+              "ms": 173
+            },
+            {
+              "start": 1791431706526,
+              "stop": 1791431706662,
+              "ms": 136
+            },
+            {
+              "start": 1791431721537,
+              "stop": 1791431722150,
+              "ms": 613
+            },
+            {
+              "start": 1791431736550,
+              "stop": 1791431736881,
+              "ms": 331
+            },
+            {
+              "start": 1791431751552,
+              "stop": 1791431753916,
+              "ms": 2364
+            },
+            {
+              "start": 1791431766559,
+              "stop": 1791431766778,
+              "ms": 219
+            },
+            {
+              "start": 1791431781569,
+              "stop": 1791431782056,
+              "ms": 487
+            },
+            {
+              "start": 1791431796583,
+              "stop": 1791431796731,
+              "ms": 148
+            },
+            {
+              "start": 1791431811584,
+              "stop": 1791431811716,
+              "ms": 132
+            },
+            {
+              "start": 1791431826584,
+              "stop": 1791431826839,
+              "ms": 255
+            },
+            {
+              "start": 1791431841584,
+              "stop": 1791431843662,
+              "ms": 2078
+            },
+            {
+              "start": 1791431856583,
+              "stop": 1791431859289,
+              "ms": 2706
+            },
+            {
+              "start": 1791431871588,
+              "stop": 1791431872295,
+              "ms": 707
+            },
+            {
+              "start": 1791431886598,
+              "stop": 1791431886900,
+              "ms": 302
+            },
+            {
+              "start": 1791431901598,
+              "stop": 1791431901752,
+              "ms": 154
+            },
+            {
+              "start": 1791431916609,
+              "stop": 1791431916726,
+              "ms": 117
+            },
+            {
+              "start": 1791431931613,
+              "stop": 1791431931734,
+              "ms": 121
+            },
+            {
+              "start": 1791431946629,
+              "stop": 1791431946749,
+              "ms": 120
+            },
+            {
+              "start": 1791431961635,
+              "stop": 1791431962233,
+              "ms": 598
+            },
+            {
+              "start": 1791431976635,
+              "stop": 1791431977057,
+              "ms": 422
+            },
+            {
+              "start": 1791431991637,
+              "stop": 1791431992075,
+              "ms": 438
+            },
+            {
+              "start": 1791432006641,
+              "stop": 1791432006763,
+              "ms": 122
+            },
+            {
+              "start": 1791432021647,
+              "stop": 1791432021767,
+              "ms": 120
+            },
+            {
+              "start": 1791432036654,
+              "stop": 1791432036830,
+              "ms": 176
+            },
+            {
+              "start": 1791432051666,
+              "stop": 1791432051780,
+              "ms": 114
+            },
+            {
+              "start": 1791432066677,
+              "stop": 1791432066817,
+              "ms": 140
+            },
+            {
+              "start": 1791432081678,
+              "stop": 1791432082761,
+              "ms": 1083
+            },
+            {
+              "start": 1791432096693,
+              "stop": 1791432096828,
+              "ms": 135
+            }
+          ],
+          "timeline_reliable": true,
+          "gap_interpretation": "If timestamps/paths are inconsistent, gaps cannot quantify actual lost events."
+        }
+      ],
+      "UI_use": "Use witnessed AX/HTML facts; mismatches require page-level review.",
+      "trace_fidelity_status": "not_accepted",
+      "limitation": "Matching titles do not prove atomic DOM/AX capture or full action-response causality."
+    },
+    "02-browser-use": {
+      "snapshot_count": 24,
+      "title_pair_matches": 24,
+      "metadata_url_conflicts": 0,
+      "snapshot_timestamp_missing": 0,
+      "pairs": [
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-120157-401286\\snapshots\\00001",
+          "url": "http://127.0.0.1:7770/",
+          "title_pair_matches": true,
+          "metadata_url_matches": true,
+          "captured_at": "2026-10-08T04:02:04.677340+00:00",
+          "sha256_AX": "48668b994c9fa3e94e57b6ec87126c7b27d7eb4ff131d4a246b8a66f94922d22",
+          "sha256_HTML": "254326ab41f85a7d7981f191081a88bece6973ac3bedca6b3c8e067a87ef88aa"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-120157-401286\\snapshots\\00002",
+          "url": "http://127.0.0.1:7770/",
+          "title_pair_matches": true,
+          "metadata_url_matches": true,
+          "captured_at": "2026-10-08T04:02:20.151387+00:00",
+          "sha256_AX": "48668b994c9fa3e94e57b6ec87126c7b27d7eb4ff131d4a246b8a66f94922d22",
+          "sha256_HTML": "3cd51fef9acbd7c15bf0f0f6baf6e4b7b955d51b3600779be04a8bb2d65db66a"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-120157-401286\\snapshots\\00003",
+          "url": "http://127.0.0.1:7770/",
+          "title_pair_matches": true,
+          "metadata_url_matches": true,
+          "captured_at": "2026-10-08T04:02:28.686957+00:00",
+          "sha256_AX": "48668b994c9fa3e94e57b6ec87126c7b27d7eb4ff131d4a246b8a66f94922d22",
+          "sha256_HTML": "3cd51fef9acbd7c15bf0f0f6baf6e4b7b955d51b3600779be04a8bb2d65db66a"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-120157-401286\\snapshots\\00004",
+          "url": "http://127.0.0.1:7770/",
+          "title_pair_matches": true,
+          "metadata_url_matches": true,
+          "captured_at": "2026-10-08T04:02:44.578035+00:00",
+          "sha256_AX": "48668b994c9fa3e94e57b6ec87126c7b27d7eb4ff131d4a246b8a66f94922d22",
+          "sha256_HTML": "3cd51fef9acbd7c15bf0f0f6baf6e4b7b955d51b3600779be04a8bb2d65db66a"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-120157-401286\\snapshots\\00005",
+          "url": "http://127.0.0.1:7770/",
+          "title_pair_matches": true,
+          "metadata_url_matches": true,
+          "captured_at": "2026-10-08T04:03:08.803799+00:00",
+          "sha256_AX": "48668b994c9fa3e94e57b6ec87126c7b27d7eb4ff131d4a246b8a66f94922d22",
+          "sha256_HTML": "3cd51fef9acbd7c15bf0f0f6baf6e4b7b955d51b3600779be04a8bb2d65db66a"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-120157-401286\\snapshots\\00006",
+          "url": "http://127.0.0.1:7770/beauty-personal-care.html",
+          "title_pair_matches": true,
+          "metadata_url_matches": true,
+          "captured_at": "2026-10-08T04:03:26.602132+00:00",
+          "sha256_AX": "8e7e06aca4841ce04e0226172b12fabf0964bb89bc236dc7983c154f5ef6885a",
+          "sha256_HTML": "8d9a7d90810587f2b10b2a12efb0c78d6bc85671c43f79262868207e071dc5c4"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-120157-401286\\snapshots\\00007",
+          "url": "http://127.0.0.1:7770/beauty-personal-care.html",
+          "title_pair_matches": true,
+          "metadata_url_matches": true,
+          "captured_at": "2026-10-08T04:03:48.175324+00:00",
+          "sha256_AX": "8e7e06aca4841ce04e0226172b12fabf0964bb89bc236dc7983c154f5ef6885a",
+          "sha256_HTML": "8d9a7d90810587f2b10b2a12efb0c78d6bc85671c43f79262868207e071dc5c4"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-120157-401286\\snapshots\\00008",
+          "url": "http://127.0.0.1:7770/beauty-personal-care.html",
+          "title_pair_matches": true,
+          "metadata_url_matches": true,
+          "captured_at": "2026-10-08T04:04:01.008523+00:00",
+          "sha256_AX": "8e7e06aca4841ce04e0226172b12fabf0964bb89bc236dc7983c154f5ef6885a",
+          "sha256_HTML": "8d9a7d90810587f2b10b2a12efb0c78d6bc85671c43f79262868207e071dc5c4"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-120157-401286\\snapshots\\00009",
+          "url": "http://127.0.0.1:7770/beauty-personal-care.html",
+          "title_pair_matches": true,
+          "metadata_url_matches": true,
+          "captured_at": "2026-10-08T04:04:30.717262+00:00",
+          "sha256_AX": "8e7e06aca4841ce04e0226172b12fabf0964bb89bc236dc7983c154f5ef6885a",
+          "sha256_HTML": "8d9a7d90810587f2b10b2a12efb0c78d6bc85671c43f79262868207e071dc5c4"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-120157-401286\\snapshots\\00010",
+          "url": "http://127.0.0.1:7770/tweezers-for-succulents-duo.html",
+          "title_pair_matches": true,
+          "metadata_url_matches": true,
+          "captured_at": "2026-10-08T04:04:49.666067+00:00",
+          "sha256_AX": "8a2ca3a4d09e8b87e4fd4607dd1d5813ec4f396668c5302718353be907fc2e92",
+          "sha256_HTML": "8823f12e9a8b2a9656574e63872423d5ffb877dd977fbc0966335c991c0adc3c"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-120157-401286\\snapshots\\00011",
+          "url": "http://127.0.0.1:7770/tweezers-for-succulents-duo.html",
+          "title_pair_matches": true,
+          "metadata_url_matches": true,
+          "captured_at": "2026-10-08T04:05:35.815440+00:00",
+          "sha256_AX": "8a2ca3a4d09e8b87e4fd4607dd1d5813ec4f396668c5302718353be907fc2e92",
+          "sha256_HTML": "8823f12e9a8b2a9656574e63872423d5ffb877dd977fbc0966335c991c0adc3c"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-120157-401286\\snapshots\\00012",
+          "url": "http://127.0.0.1:7770/catalogsearch/result/?q=tea",
+          "title_pair_matches": true,
+          "metadata_url_matches": true,
+          "captured_at": "2026-10-08T04:06:07.812012+00:00",
+          "sha256_AX": "75479ce405c6b9cb4409ef7f0b9dc3a6cc56351d2be5a73c0fd25e384bcd304a",
+          "sha256_HTML": "47d531a5aeb8fcf4afbea5e5114015c0e00143dc9c2c8f5ba98a838df01e76c5"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-120157-401286\\snapshots\\00013",
+          "url": "http://127.0.0.1:7770/catalogsearch/result/?q=tea",
+          "title_pair_matches": true,
+          "metadata_url_matches": true,
+          "captured_at": "2026-10-08T04:06:39.501362+00:00",
+          "sha256_AX": "9c3a75156609b7fbf61486df29990ec2ec5213b6101874b8a37334aac6050ecb",
+          "sha256_HTML": "21530a90cdeb7af83ea6e085c7dc4dee85092482c89cdcf78e4b1f1d89f1993f"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-120157-401286\\snapshots\\00014",
+          "url": "http://127.0.0.1:7770/catalogsearch/result/?q=tea",
+          "title_pair_matches": true,
+          "metadata_url_matches": true,
+          "captured_at": "2026-10-08T04:07:24.855758+00:00",
+          "sha256_AX": "3ef8928a93e549803ad8dc5ba14f070931a5e40d0f9478f262e2ea3547d636c7",
+          "sha256_HTML": "a78617a297f06426ddc48ee12c5fb76ac182c8653de7e9b0d6ae9cd5233fcd96"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-120157-401286\\snapshots\\00015",
+          "url": "http://127.0.0.1:7770/catalogsearch/result/?q=tea",
+          "title_pair_matches": true,
+          "metadata_url_matches": true,
+          "captured_at": "2026-10-08T04:08:03.611874+00:00",
+          "sha256_AX": "3ef8928a93e549803ad8dc5ba14f070931a5e40d0f9478f262e2ea3547d636c7",
+          "sha256_HTML": "a78617a297f06426ddc48ee12c5fb76ac182c8653de7e9b0d6ae9cd5233fcd96"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-120157-401286\\snapshots\\00016",
+          "url": "http://127.0.0.1:7770/checkout/cart/",
+          "title_pair_matches": true,
+          "metadata_url_matches": true,
+          "captured_at": "2026-10-08T04:08:32.565897+00:00",
+          "sha256_AX": "cbd4171c36acfcb54d6135a38b33996b9f2cad449f4dce423db97e375352434d",
+          "sha256_HTML": "dc100074c271c6c55a0f70a78a56f03413d16c203a5a2c58b611e7ab672aadde"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-120157-401286\\snapshots\\00017",
+          "url": "http://127.0.0.1:7770/checkout/cart/",
+          "title_pair_matches": true,
+          "metadata_url_matches": true,
+          "captured_at": "2026-10-08T04:09:08.974674+00:00",
+          "sha256_AX": "cbd4171c36acfcb54d6135a38b33996b9f2cad449f4dce423db97e375352434d",
+          "sha256_HTML": "dc100074c271c6c55a0f70a78a56f03413d16c203a5a2c58b611e7ab672aadde"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-120157-401286\\snapshots\\00018",
+          "url": "http://127.0.0.1:7770/beauty-personal-care.html",
+          "title_pair_matches": true,
+          "metadata_url_matches": true,
+          "captured_at": "2026-10-08T04:09:31.804083+00:00",
+          "sha256_AX": "bcc4b4432c90cb173634bd682130f0830c9fd7b6b6f4f924e14a99094071b470",
+          "sha256_HTML": "df9b115ef47aa4ef2959dd92a6f6b21d6f37385bcdedb103a0ddbeb2b0b6ad7a"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-120157-401286\\snapshots\\00019",
+          "url": "http://127.0.0.1:7770/beauty-personal-care.html?cat=15",
+          "title_pair_matches": true,
+          "metadata_url_matches": true,
+          "captured_at": "2026-10-08T04:09:50.059070+00:00",
+          "sha256_AX": "653f316dec7d473b559cff6a1a8d5e7dc275f01e72c0470096e7b810fcf8453e",
+          "sha256_HTML": "2aa8fa1a559af45d649c95a0a30f9d6ef50ede7b0c494967534c8771b8f85e92"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-120157-401286\\snapshots\\00020",
+          "url": "http://127.0.0.1:7770/beauty-personal-care.html?cat=15",
+          "title_pair_matches": true,
+          "metadata_url_matches": true,
+          "captured_at": "2026-10-08T04:10:31.678399+00:00",
+          "sha256_AX": "653f316dec7d473b559cff6a1a8d5e7dc275f01e72c0470096e7b810fcf8453e",
+          "sha256_HTML": "2aa8fa1a559af45d649c95a0a30f9d6ef50ede7b0c494967534c8771b8f85e92"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-120157-401286\\snapshots\\00021",
+          "url": "http://127.0.0.1:7770/beauty-personal-care.html?cat=15",
+          "title_pair_matches": true,
+          "metadata_url_matches": true,
+          "captured_at": "2026-10-08T04:11:08.861076+00:00",
+          "sha256_AX": "653f316dec7d473b559cff6a1a8d5e7dc275f01e72c0470096e7b810fcf8453e",
+          "sha256_HTML": "2aa8fa1a559af45d649c95a0a30f9d6ef50ede7b0c494967534c8771b8f85e92"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-120157-401286\\snapshots\\00022",
+          "url": "http://127.0.0.1:7770/beauty-personal-care.html?cat=15",
+          "title_pair_matches": true,
+          "metadata_url_matches": true,
+          "captured_at": "2026-10-08T04:11:24.888054+00:00",
+          "sha256_AX": "653f316dec7d473b559cff6a1a8d5e7dc275f01e72c0470096e7b810fcf8453e",
+          "sha256_HTML": "2aa8fa1a559af45d649c95a0a30f9d6ef50ede7b0c494967534c8771b8f85e92"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-120157-401286\\snapshots\\00023",
+          "url": "http://127.0.0.1:7770/beauty-personal-care.html?cat=15",
+          "title_pair_matches": true,
+          "metadata_url_matches": true,
+          "captured_at": "2026-10-08T04:11:36.420168+00:00",
+          "sha256_AX": "653f316dec7d473b559cff6a1a8d5e7dc275f01e72c0470096e7b810fcf8453e",
+          "sha256_HTML": "2aa8fa1a559af45d649c95a0a30f9d6ef50ede7b0c494967534c8771b8f85e92"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-120157-401286\\snapshots\\00024",
+          "url": "http://127.0.0.1:7770/beauty-personal-care.html?cat=15",
+          "title_pair_matches": true,
+          "metadata_url_matches": true,
+          "captured_at": "2026-10-08T04:12:02.433615+00:00",
+          "sha256_AX": "653f316dec7d473b559cff6a1a8d5e7dc275f01e72c0470096e7b810fcf8453e",
+          "sha256_HTML": "2aa8fa1a559af45d649c95a0a30f9d6ef50ede7b0c494967534c8771b8f85e92"
+        }
+      ],
+      "recorder_timelines": [
+        {
+          "source": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-120157-401286\\trace\\26_10_08_12_01_59-min\\trace.segments.manifest.json",
+          "sha256": "3dbd7fd664dfabeda06d72c1e35454bd082f7f440ad347566ca87d9d12937ee6",
+          "invalid_timestamp_segments": [],
+          "duplicate_file_paths": {},
+          "failed_segments": [],
+          "provisional_gaps": [
+            {
+              "start": 1791432135710,
+              "stop": 1791432136096,
+              "ms": 386
+            },
+            {
+              "start": 1791432150717,
+              "stop": 1791432150845,
+              "ms": 128
+            },
+            {
+              "start": 1791432165726,
+              "stop": 1791432165844,
+              "ms": 118
+            },
+            {
+              "start": 1791432180729,
+              "stop": 1791432180889,
+              "ms": 160
+            },
+            {
+              "start": 1791432195733,
+              "stop": 1791432195875,
+              "ms": 142
+            },
+            {
+              "start": 1791432210740,
+              "stop": 1791432210875,
+              "ms": 135
+            },
+            {
+              "start": 1791432225751,
+              "stop": 1791432225872,
+              "ms": 121
+            },
+            {
+              "start": 1791432240762,
+              "stop": 1791432240979,
+              "ms": 217
+            },
+            {
+              "start": 1791432255773,
+              "stop": 1791432255887,
+              "ms": 114
+            },
+            {
+              "start": 1791432270788,
+              "stop": 1791432271045,
+              "ms": 257
+            },
+            {
+              "start": 1791432285788,
+              "stop": 1791432291174,
+              "ms": 5386
+            },
+            {
+              "start": 1791432300789,
+              "stop": 1791432300912,
+              "ms": 123
+            },
+            {
+              "start": 1791432315800,
+              "stop": 1791432315993,
+              "ms": 193
+            },
+            {
+              "start": 1791432330813,
+              "stop": 1791432330932,
+              "ms": 119
+            },
+            {
+              "start": 1791432345817,
+              "stop": 1791432345962,
+              "ms": 145
+            },
+            {
+              "start": 1791432360828,
+              "stop": 1791432360944,
+              "ms": 116
+            },
+            {
+              "start": 1791432375831,
+              "stop": 1791432375979,
+              "ms": 148
+            },
+            {
+              "start": 1791432390845,
+              "stop": 1791432390993,
+              "ms": 148
+            },
+            {
+              "start": 1791432405849,
+              "stop": 1791432405982,
+              "ms": 133
+            },
+            {
+              "start": 1791432420863,
+              "stop": 1791432420981,
+              "ms": 118
+            },
+            {
+              "start": 1791432435873,
+              "stop": 1791432436015,
+              "ms": 142
+            },
+            {
+              "start": 1791432450880,
+              "stop": 1791432451017,
+              "ms": 137
+            },
+            {
+              "start": 1791432465882,
+              "stop": 1791432466008,
+              "ms": 126
+            },
+            {
+              "start": 1791432480892,
+              "stop": 1791432481055,
+              "ms": 163
+            },
+            {
+              "start": 1791432495897,
+              "stop": 1791432496043,
+              "ms": 146
+            },
+            {
+              "start": 1791432510904,
+              "stop": 1791432512431,
+              "ms": 1527
+            },
+            {
+              "start": 1791432525912,
+              "stop": 1791432526088,
+              "ms": 176
+            },
+            {
+              "start": 1791432540921,
+              "stop": 1791432541039,
+              "ms": 118
+            },
+            {
+              "start": 1791432555928,
+              "stop": 1791432556172,
+              "ms": 244
+            },
+            {
+              "start": 1791432570931,
+              "stop": 1791432571741,
+              "ms": 810
+            },
+            {
+              "start": 1791432585930,
+              "stop": 1791432590005,
+              "ms": 4075
+            },
+            {
+              "start": 1791432600943,
+              "stop": 1791432601061,
+              "ms": 118
+            },
+            {
+              "start": 1791432615958,
+              "stop": 1791432616119,
+              "ms": 161
+            },
+            {
+              "start": 1791432630960,
+              "stop": 1791432631076,
+              "ms": 116
+            },
+            {
+              "start": 1791432645965,
+              "stop": 1791432646083,
+              "ms": 118
+            },
+            {
+              "start": 1791432660980,
+              "stop": 1791432661104,
+              "ms": 124
+            },
+            {
+              "start": 1791432675988,
+              "stop": 1791432676239,
+              "ms": 251
+            },
+            {
+              "start": 1791432691002,
+              "stop": 1791432691123,
+              "ms": 121
+            },
+            {
+              "start": 1791432706012,
+              "stop": 1791432706162,
+              "ms": 150
+            },
+            {
+              "start": 1791432721025,
+              "stop": 1791432721176,
+              "ms": 151
+            }
+          ],
+          "timeline_reliable": true,
+          "gap_interpretation": "If timestamps/paths are inconsistent, gaps cannot quantify actual lost events."
+        }
+      ],
+      "UI_use": "Use witnessed AX/HTML facts; mismatches require page-level review.",
+      "trace_fidelity_status": "not_accepted",
+      "limitation": "Matching titles do not prove atomic DOM/AX capture or full action-response causality."
+    },
+    "03-drive": {
+      "snapshot_count": 31,
+      "title_pair_matches": 31,
+      "metadata_url_conflicts": 0,
+      "snapshot_timestamp_missing": 31,
+      "pairs": [
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\03-drive\\trace\\26_10_08_12_12_08-min\\drive\\screenshots\\000_root",
+          "url": "http://127.0.0.1:7770/",
+          "title_pair_matches": true,
+          "metadata_url_matches": null,
+          "captured_at": null,
+          "sha256_AX": "efa3c1451d7863c18c0a3a7addf07e662f3470920613842792dbaf53f9a6c55e",
+          "sha256_HTML": "d1c3cec9212f36e4daae22c80f4b1f77581a34abcb4900641c9e741bf177c3a7"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\03-drive\\trace\\26_10_08_12_12_08-min\\drive\\screenshots\\001_tony-chachere-s-more-spice-creole-seasoning-14-oz_html",
+          "url": "http://127.0.0.1:7770/tony-chachere-s-more-spice-creole-seasoning-14-oz.html",
+          "title_pair_matches": true,
+          "metadata_url_matches": null,
+          "captured_at": null,
+          "sha256_AX": "a2def73b85f77076c3e32e71082543139374b1b6b8b75f069b295c040455bc68",
+          "sha256_HTML": "2f9e332876a1066098376250d2d795a5820ded35e38c5349c29f7932fd0d0704"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\03-drive\\trace\\26_10_08_12_12_08-min\\drive\\screenshots\\002_tony-chachere-s-more-spice-creole-seasoning-14-oz_html",
+          "url": "http://127.0.0.1:7770/tony-chachere-s-more-spice-creole-seasoning-14-oz.html",
+          "title_pair_matches": true,
+          "metadata_url_matches": null,
+          "captured_at": null,
+          "sha256_AX": "1ffc2f330576eaa57f63783fa3ffecfd109444f56cb8965142e69306c7da7b68",
+          "sha256_HTML": "354653170e605c503592aab16c7214e9a6f25b01f7a2f05ce14a6b7b985aa745"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\03-drive\\trace\\26_10_08_12_12_08-min\\drive\\screenshots\\003_checkout_cart",
+          "url": "http://127.0.0.1:7770/checkout/cart/",
+          "title_pair_matches": true,
+          "metadata_url_matches": null,
+          "captured_at": null,
+          "sha256_AX": "14c72eb96b36791fd2c682b5c6d33cc5233ea8e0c6cedf7c5c8ae698de56925b",
+          "sha256_HTML": "1e5aed06fe3b3d16064c36973f76d02bf6d049885f5e202eb0f4c49e0d8a8918"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\03-drive\\trace\\26_10_08_12_12_08-min\\drive\\screenshots\\004_catalogsearch_advanced",
+          "url": "http://127.0.0.1:7770/catalogsearch/advanced/",
+          "title_pair_matches": true,
+          "metadata_url_matches": null,
+          "captured_at": null,
+          "sha256_AX": "9135dbb2db67f1d24ba332ce75af185032db69f718596bfc9afb30b9d3fd44fb",
+          "sha256_HTML": "f3ec783a48e3f2596c7b03b64d8eebb86fb4f028d17297f1a126afa8011f5632"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\03-drive\\trace\\26_10_08_12_12_08-min\\drive\\screenshots\\005_root",
+          "url": "http://127.0.0.1:7770/?pbaocw=2",
+          "title_pair_matches": true,
+          "metadata_url_matches": null,
+          "captured_at": null,
+          "sha256_AX": "253ebbb7abce0baa12b83e91ac7f05f5568f23cd439618b38080ae64656313d2",
+          "sha256_HTML": "d5bba78940b420dc111a5de4264ec867fcbfccd760139e43eb9a1884dec44088"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\03-drive\\trace\\26_10_08_12_12_08-min\\drive\\screenshots\\006_beauty-personal-care_html",
+          "url": "http://127.0.0.1:7770/beauty-personal-care.html",
+          "title_pair_matches": true,
+          "metadata_url_matches": null,
+          "captured_at": null,
+          "sha256_AX": "7c694e71ce0a085a87295b6b9dab5ae1646645608ff7e393cbd2503bdcf801d2",
+          "sha256_HTML": "618942a6b919f3f30b872ca095c65dee5e4c9469c39ec8694dbab495f828000d"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\03-drive\\trace\\26_10_08_12_12_08-min\\drive\\screenshots\\007_beauty-personal-care_oral-care_html",
+          "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care.html",
+          "title_pair_matches": true,
+          "metadata_url_matches": null,
+          "captured_at": null,
+          "sha256_AX": "59a65feb0535ca8eaca5cbabac3db14f52f9d0cc34273c2213aff7535e537c73",
+          "sha256_HTML": "973352dfc1bcd78e2db87f8b528466fcdb8e5a25ea7175345e2addefdfaf0f09"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\03-drive\\trace\\26_10_08_12_12_08-min\\drive\\screenshots\\008_beauty-personal-care_oral-care_toothbrushes-accessories_html",
+          "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/toothbrushes-accessories.html",
+          "title_pair_matches": true,
+          "metadata_url_matches": null,
+          "captured_at": null,
+          "sha256_AX": "7a2aa18dab8828ab393572c1f33a8767faf18007fe3efb1c75cd303c27cb2bcb",
+          "sha256_HTML": "af49c1154deb6413497c0e09553bcdbedb61591b7e754a32e36aff1c748799cb"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\03-drive\\trace\\26_10_08_12_12_08-min\\drive\\screenshots\\009_beauty-personal-care_oral-care_toothbrushes-accessories_html",
+          "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/toothbrushes-accessories.html",
+          "title_pair_matches": true,
+          "metadata_url_matches": null,
+          "captured_at": null,
+          "sha256_AX": "6a69f17fded9e8dcc0d201a61bbeae754253258beb332cb67e5cb03dd2672e8f",
+          "sha256_HTML": "d61094b88491a325528a77d6bfb40346693796d8dd964a4e938c456c15eeac99"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\03-drive\\trace\\26_10_08_12_12_08-min\\drive\\screenshots\\010_beauty-personal-care_oral-care_dental-floss-picks_html",
+          "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/dental-floss-picks.html",
+          "title_pair_matches": true,
+          "metadata_url_matches": null,
+          "captured_at": null,
+          "sha256_AX": "8b23c783ab5f4ce1275e01767c4a78f1cfcf42d9940c3afa355a734b4179321a",
+          "sha256_HTML": "a6dbf723b8cc884c02fbab36b9a6112a2b63c9b73cb25fd23881c98e39d6c343"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\03-drive\\trace\\26_10_08_12_12_08-min\\drive\\screenshots\\011_beauty-personal-care_oral-care_dental-floss-picks_html",
+          "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/dental-floss-picks.html",
+          "title_pair_matches": true,
+          "metadata_url_matches": null,
+          "captured_at": null,
+          "sha256_AX": "f55d37489126ab9e38e164dc81db99d0ef3a972151dc75255ef3df905545a3bf",
+          "sha256_HTML": "293f5e56427aa934f9cd2f40e091f2e8d1fce303a1f5fc7687ed3ee64a707233"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\03-drive\\trace\\26_10_08_12_12_08-min\\drive\\screenshots\\012_beauty-personal-care_oral-care_orthodontic-supplies_html",
+          "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/orthodontic-supplies.html",
+          "title_pair_matches": true,
+          "metadata_url_matches": null,
+          "captured_at": null,
+          "sha256_AX": "82d4adf809cb1c1a09a147fafb222d01d11375952162879ab6a0e67ead05c54a",
+          "sha256_HTML": "240d14bb6aacb1b9ca16029791bbd906c558ad62a487bb258573bebaff9c465a"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\03-drive\\trace\\26_10_08_12_12_08-min\\drive\\screenshots\\013_beauty-personal-care_oral-care_orthodontic-supplies_html",
+          "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/orthodontic-supplies.html?price=0-100",
+          "title_pair_matches": true,
+          "metadata_url_matches": null,
+          "captured_at": null,
+          "sha256_AX": "2b06a91e3ae1e17c4be2e967d7ab732bb4b50663b7edb35c554dbe1155c9724d",
+          "sha256_HTML": "2595977687e036399eeaca5d9a54d09668beb54b2efa6127423db3f1dab740b1"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\03-drive\\trace\\26_10_08_12_12_08-min\\drive\\screenshots\\014_catalogsearch_advanced",
+          "url": "http://127.0.0.1:7770/catalogsearch/advanced/",
+          "title_pair_matches": true,
+          "metadata_url_matches": null,
+          "captured_at": null,
+          "sha256_AX": "c790097963172e3c04c01ca0401d6044134934ef926363b44ae2740b318fd037",
+          "sha256_HTML": "54b287405652cb0a798f56b73ab97f4641e2f444a156b336c0063bcd8d34d45c"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\03-drive\\trace\\26_10_08_12_12_08-min\\drive\\screenshots\\015_beauty-personal-care_oral-care_children-s-dental-care_html",
+          "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/children-s-dental-care.html",
+          "title_pair_matches": true,
+          "metadata_url_matches": null,
+          "captured_at": null,
+          "sha256_AX": "85edfdfd57a368e504749c2678a9f8cd76519e578c4a280589287758690691ce",
+          "sha256_HTML": "f2e3f054d21ac1ab868980bf12198c9b3542fe3a2ec801c2889cb55628735ca1"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\03-drive\\trace\\26_10_08_12_12_08-min\\drive\\screenshots\\016_beauty-personal-care_oral-care_children-s-dental-care_html",
+          "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/children-s-dental-care.html?p=2",
+          "title_pair_matches": true,
+          "metadata_url_matches": null,
+          "captured_at": null,
+          "sha256_AX": "98dfa4ce5c028b29cd1d0cc4ac2b03c58fdb786c9d14eb910cfb722d50a906d8",
+          "sha256_HTML": "277a509b787277f32a438c645bf121a7f08a54d3f2c3b92f87ec234cb9fc9830"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\03-drive\\trace\\26_10_08_12_12_08-min\\drive\\screenshots\\017_beauty-personal-care_oral-care_children-s-dental-care_html",
+          "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/children-s-dental-care.html?p=2",
+          "title_pair_matches": true,
+          "metadata_url_matches": null,
+          "captured_at": null,
+          "sha256_AX": "a58d9dff62e9b1e3c284be64d449912bfee1a5e851a08123ef4ccbd95be404cf",
+          "sha256_HTML": "17222c7a92fd4567dac095db4954204f4fd37b03b01af2163c67cb58d3d71d05"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\03-drive\\trace\\26_10_08_12_12_08-min\\drive\\screenshots\\018_bestyijo-kids-u-shaped-electric-toothbrush-cartoon-cute-ultr",
+          "url": "http://127.0.0.1:7770/bestyijo-kids-u-shaped-electric-toothbrush-cartoon-cute-ultrasonic-automatic-toothbrushes-with-5-cleaning-modes-waterproof-auto-toothbrush-for-children-toddler-kid.html",
+          "title_pair_matches": true,
+          "metadata_url_matches": null,
+          "captured_at": null,
+          "sha256_AX": "88d4fe12cc6044e1d17777d964f6a6790264b7354a343e3029f38540eb72b187",
+          "sha256_HTML": "ae97c4592c590b51a208beacf90ab8adb5592d6251906b86e09aba0ccc8b586b"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\03-drive\\trace\\26_10_08_12_12_08-min\\drive\\screenshots\\019_bestyijo-kids-u-shaped-electric-toothbrush-cartoon-cute-ultr",
+          "url": "http://127.0.0.1:7770/bestyijo-kids-u-shaped-electric-toothbrush-cartoon-cute-ultrasonic-automatic-toothbrushes-with-5-cleaning-modes-waterproof-auto-toothbrush-for-children-toddler-kid.html",
+          "title_pair_matches": true,
+          "metadata_url_matches": null,
+          "captured_at": null,
+          "sha256_AX": "00a240c576a2448f8cf632764b591c4c5c1efbb4fbbebc7549f86a9306ba1e0a",
+          "sha256_HTML": "0e1d99a725b8d55266ee8759df78899bce2ec708c239418b024ac728ac60245e"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\03-drive\\trace\\26_10_08_12_12_08-min\\drive\\screenshots\\020_bestyijo-kids-u-shaped-electric-toothbrush-cartoon-cute-ultr",
+          "url": "http://127.0.0.1:7770/bestyijo-kids-u-shaped-electric-toothbrush-cartoon-cute-ultrasonic-automatic-toothbrushes-with-5-cleaning-modes-waterproof-auto-toothbrush-for-children-toddler-kid.html",
+          "title_pair_matches": true,
+          "metadata_url_matches": null,
+          "captured_at": null,
+          "sha256_AX": "f746f7dec007d0ddc6dc4ec6dcb6b3631aa05d38a3142effe6c7d194312e40a7",
+          "sha256_HTML": "be4d60c9b9c95ee7444c1b6506d5f4049a89cb6abf1d1e7f3de81eb592b7be9f"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\03-drive\\trace\\26_10_08_12_12_08-min\\drive\\screenshots\\021_bestyijo-kids-u-shaped-electric-toothbrush-cartoon-cute-ultr",
+          "url": "http://127.0.0.1:7770/bestyijo-kids-u-shaped-electric-toothbrush-cartoon-cute-ultrasonic-automatic-toothbrushes-with-5-cleaning-modes-waterproof-auto-toothbrush-for-children-toddler-kid.html",
+          "title_pair_matches": true,
+          "metadata_url_matches": null,
+          "captured_at": null,
+          "sha256_AX": "f43971b87b490eb2418349a2e1ada8ea95b76fdb99ba4368b66ab80195245ffa",
+          "sha256_HTML": "6f1871cd58776e4486d2a5d0056b91d9322df181670134b51292798bd4507509"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\03-drive\\trace\\26_10_08_12_12_08-min\\drive\\screenshots\\022_beauty-personal-care_oral-care_oral-pain-relief_html",
+          "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/oral-pain-relief.html",
+          "title_pair_matches": true,
+          "metadata_url_matches": null,
+          "captured_at": null,
+          "sha256_AX": "80bfd7c92878f4f3fab2e0b8969bb1229b8b22e801e742b228eb66402ca0d642",
+          "sha256_HTML": "0741568f1468607604e48ceeb30eb3247f788bfebd0ec5c87d1c72d5860be970"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\03-drive\\trace\\26_10_08_12_12_08-min\\drive\\screenshots\\023_prevest-denpro-platina-hi-gloss-1x4g-dental-products_html",
+          "url": "http://127.0.0.1:7770/prevest-denpro-platina-hi-gloss-1x4g-dental-products.html",
+          "title_pair_matches": true,
+          "metadata_url_matches": null,
+          "captured_at": null,
+          "sha256_AX": "14bd5beb5a75aa434eca40568f6e468a8ccf356d2b04cce7b54a40579739019c",
+          "sha256_HTML": "e0c7369df9b7c791f494ca6173c82d11c3b59d293e617e87521a2d6f4779557f"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\03-drive\\trace\\26_10_08_12_12_08-min\\drive\\screenshots\\024_prevest-denpro-platina-hi-gloss-1x4g-dental-products_html",
+          "url": "http://127.0.0.1:7770/prevest-denpro-platina-hi-gloss-1x4g-dental-products.html",
+          "title_pair_matches": true,
+          "metadata_url_matches": null,
+          "captured_at": null,
+          "sha256_AX": "573018d94ee3db31f18e279270459d25d4424514635a78e74b860d915cf4b5a8",
+          "sha256_HTML": "b9305a83788267a4886574dd47847babfd16375a88addfd6b38ffae20c51ce99"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\03-drive\\trace\\26_10_08_12_12_08-min\\drive\\screenshots\\025_prevest-denpro-platina-hi-gloss-1x4g-dental-products_html",
+          "url": "http://127.0.0.1:7770/prevest-denpro-platina-hi-gloss-1x4g-dental-products.html",
+          "title_pair_matches": true,
+          "metadata_url_matches": null,
+          "captured_at": null,
+          "sha256_AX": "c4b3175cd2322d25566d358168df0885272f9aeb8c2f525e32860495b51eede9",
+          "sha256_HTML": "dc0300f11d9bc38b218d9f53994fb4420c73d21683d6bb5a0b3015f3fe00f159"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\03-drive\\trace\\26_10_08_12_12_08-min\\drive\\screenshots\\026_beauty-personal-care_oral-care_toothpaste_html",
+          "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/toothpaste.html",
+          "title_pair_matches": true,
+          "metadata_url_matches": null,
+          "captured_at": null,
+          "sha256_AX": "bbf4b9e5bcdb19acd1bf22cae48c1f991d35dc092ca863e426b69cb806d2b51a",
+          "sha256_HTML": "8bf3db0569a63c770db822bdd366b9fe2c4bd33c72fa26034ae97d326ad506ee"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\03-drive\\trace\\26_10_08_12_12_08-min\\drive\\screenshots\\027_beauty-personal-care_oral-care_toothpaste_html",
+          "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/toothpaste.html?p=2",
+          "title_pair_matches": true,
+          "metadata_url_matches": null,
+          "captured_at": null,
+          "sha256_AX": "f77aab26cf7cab1934a5ff1b90c4e8eec502a3599a0b160c09c22b98d3e0b6fe",
+          "sha256_HTML": "0f20206b872d506a242863cf251f86cc6af63f4907a823dfcf4aa3c8c1b184c4"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\03-drive\\trace\\26_10_08_12_12_08-min\\drive\\screenshots\\028_beauty-personal-care_oral-care_toothpaste_html",
+          "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/toothpaste.html?p=2",
+          "title_pair_matches": true,
+          "metadata_url_matches": null,
+          "captured_at": null,
+          "sha256_AX": "6595a72719716ca794fd369f987114f4c238c88b4e73b311bc209fa6c5a29edb",
+          "sha256_HTML": "0f20206b872d506a242863cf251f86cc6af63f4907a823dfcf4aa3c8c1b184c4"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\03-drive\\trace\\26_10_08_12_12_08-min\\drive\\screenshots\\029_beauty-personal-care_oral-care_toothpaste_html",
+          "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/toothpaste.html?p=2",
+          "title_pair_matches": true,
+          "metadata_url_matches": null,
+          "captured_at": null,
+          "sha256_AX": "ceefb9a98c2398e83f34bfd34061f3214673214a41656d23592d6877b442fcd9",
+          "sha256_HTML": "bc6faabce489cf5cca7c9e7893b047753be936abe0657e6978e862ae631ac5c0"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\03-drive\\trace\\26_10_08_12_12_08-min\\drive\\screenshots\\030_beauty-personal-care_oral-care_toothpaste_html",
+          "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/toothpaste.html",
+          "title_pair_matches": true,
+          "metadata_url_matches": null,
+          "captured_at": null,
+          "sha256_AX": "10ee32c487dfb3133cc9fdd8c4a3123baaff7e086118d8a9b1f29d17359e7faa",
+          "sha256_HTML": "10e525e9a457628850361cdee521a76054c16f4b14b91ef0c798440c2824fc4d"
+        }
+      ],
+      "recorder_timelines": [
+        {
+          "source": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\03-drive\\trace\\26_10_08_12_12_08-min\\trace.segments.manifest.json",
+          "sha256": "e1152b6a192778cd0512a50ad2e43d01172713e7d3919001d0b6fbe6a42e2bba",
+          "invalid_timestamp_segments": [],
+          "duplicate_file_paths": {},
+          "failed_segments": [],
+          "provisional_gaps": [
+            {
+              "start": 1791432744614,
+              "stop": 1791432745055,
+              "ms": 441
+            },
+            {
+              "start": 1791432759619,
+              "stop": 1791432759746,
+              "ms": 127
+            },
+            {
+              "start": 1791432774636,
+              "stop": 1791432774765,
+              "ms": 129
+            },
+            {
+              "start": 1791432789640,
+              "stop": 1791432789811,
+              "ms": 171
+            },
+            {
+              "start": 1791432804649,
+              "stop": 1791432804771,
+              "ms": 122
+            },
+            {
+              "start": 1791432819653,
+              "stop": 1791432819809,
+              "ms": 156
+            },
+            {
+              "start": 1791432834653,
+              "stop": 1791432834773,
+              "ms": 120
+            },
+            {
+              "start": 1791432849659,
+              "stop": 1791432849816,
+              "ms": 157
+            },
+            {
+              "start": 1791432864663,
+              "stop": 1791432864779,
+              "ms": 116
+            },
+            {
+              "start": 1791432879676,
+              "stop": 1791432879805,
+              "ms": 129
+            },
+            {
+              "start": 1791432894701,
+              "stop": 1791432894848,
+              "ms": 147
+            },
+            {
+              "start": 1791432909705,
+              "stop": 1791432909827,
+              "ms": 122
+            },
+            {
+              "start": 1791432924712,
+              "stop": 1791432924854,
+              "ms": 142
+            },
+            {
+              "start": 1791432939722,
+              "stop": 1791432939874,
+              "ms": 152
+            },
+            {
+              "start": 1791432954736,
+              "stop": 1791432954858,
+              "ms": 122
+            },
+            {
+              "start": 1791432969741,
+              "stop": 1791432969863,
+              "ms": 122
+            },
+            {
+              "start": 1791432984742,
+              "stop": 1791432984881,
+              "ms": 139
+            },
+            {
+              "start": 1791432999749,
+              "stop": 1791432999880,
+              "ms": 131
+            },
+            {
+              "start": 1791433014757,
+              "stop": 1791433014880,
+              "ms": 123
+            },
+            {
+              "start": 1791433029771,
+              "stop": 1791433029889,
+              "ms": 118
+            },
+            {
+              "start": 1791433044776,
+              "stop": 1791433044910,
+              "ms": 134
+            },
+            {
+              "start": 1791433059788,
+              "stop": 1791433059909,
+              "ms": 121
+            },
+            {
+              "start": 1791433074790,
+              "stop": 1791433074919,
+              "ms": 129
+            },
+            {
+              "start": 1791433089803,
+              "stop": 1791433089934,
+              "ms": 131
+            },
+            {
+              "start": 1791433104805,
+              "stop": 1791433104961,
+              "ms": 156
+            },
+            {
+              "start": 1791433119806,
+              "stop": 1791433120017,
+              "ms": 211
+            },
+            {
+              "start": 1791433134820,
+              "stop": 1791433134946,
+              "ms": 126
+            },
+            {
+              "start": 1791433149824,
+              "stop": 1791433149968,
+              "ms": 144
+            },
+            {
+              "start": 1791433164832,
+              "stop": 1791433164951,
+              "ms": 119
+            },
+            {
+              "start": 1791433179838,
+              "stop": 1791433180369,
+              "ms": 531
+            },
+            {
+              "start": 1791433194845,
+              "stop": 1791433195228,
+              "ms": 383
+            },
+            {
+              "start": 1791433209846,
+              "stop": 1791433210183,
+              "ms": 337
+            },
+            {
+              "start": 1791433224859,
+              "stop": 1791433224988,
+              "ms": 129
+            },
+            {
+              "start": 1791433239865,
+              "stop": 1791433240000,
+              "ms": 135
+            },
+            {
+              "start": 1791433254867,
+              "stop": 1791433254982,
+              "ms": 115
+            },
+            {
+              "start": 1791433269870,
+              "stop": 1791433269988,
+              "ms": 118
+            },
+            {
+              "start": 1791433284871,
+              "stop": 1791433286697,
+              "ms": 1826
+            },
+            {
+              "start": 1791433299871,
+              "stop": 1791433300117,
+              "ms": 246
+            },
+            {
+              "start": 1791433314884,
+              "stop": 1791433315052,
+              "ms": 168
+            },
+            {
+              "start": 1791433329898,
+              "stop": 1791433330057,
+              "ms": 159
+            },
+            {
+              "start": 1791433344908,
+              "stop": 1791433346222,
+              "ms": 1314
+            },
+            {
+              "start": 1791433359920,
+              "stop": 1791433360257,
+              "ms": 337
+            },
+            {
+              "start": 1791433374935,
+              "stop": 1791433375054,
+              "ms": 119
+            },
+            {
+              "start": 1791433389938,
+              "stop": 1791433390091,
+              "ms": 153
+            },
+            {
+              "start": 1791433404952,
+              "stop": 1791433405086,
+              "ms": 134
+            },
+            {
+              "start": 1791433419964,
+              "stop": 1791433420384,
+              "ms": 420
+            },
+            {
+              "start": 1791433434975,
+              "stop": 1791433435102,
+              "ms": 127
+            },
+            {
+              "start": 1791433449979,
+              "stop": 1791433450112,
+              "ms": 133
+            },
+            {
+              "start": 1791433464988,
+              "stop": 1791433465183,
+              "ms": 195
+            },
+            {
+              "start": 1791433479989,
+              "stop": 1791433480108,
+              "ms": 119
+            },
+            {
+              "start": 1791433494991,
+              "stop": 1791433496032,
+              "ms": 1041
+            },
+            {
+              "start": 1791433509991,
+              "stop": 1791433510165,
+              "ms": 174
+            },
+            {
+              "start": 1791433524992,
+              "stop": 1791433525629,
+              "ms": 637
+            },
+            {
+              "start": 1791433539996,
+              "stop": 1791433540338,
+              "ms": 342
+            },
+            {
+              "start": 1791433555002,
+              "stop": 1791433555397,
+              "ms": 395
+            },
+            {
+              "start": 1791433570002,
+              "stop": 1791433571311,
+              "ms": 1309
+            },
+            {
+              "start": 1791433585002,
+              "stop": 1791433585205,
+              "ms": 203
+            },
+            {
+              "start": 1791433600007,
+              "stop": 1791433600127,
+              "ms": 120
+            },
+            {
+              "start": 1791433615016,
+              "stop": 1791433615237,
+              "ms": 221
+            },
+            {
+              "start": 1791433630031,
+              "stop": 1791433630178,
+              "ms": 147
+            },
+            {
+              "start": 1791433645044,
+              "stop": 1791433645166,
+              "ms": 122
+            },
+            {
+              "start": 1791433660049,
+              "stop": 1791433660179,
+              "ms": 130
+            },
+            {
+              "start": 1791433675058,
+              "stop": 1791433675740,
+              "ms": 682
+            },
+            {
+              "start": 1791433690073,
+              "stop": 1791433690526,
+              "ms": 453
+            },
+            {
+              "start": 1791433705085,
+              "stop": 1791433705226,
+              "ms": 141
+            }
+          ],
+          "timeline_reliable": true,
+          "gap_interpretation": "If timestamps/paths are inconsistent, gaps cannot quantify actual lost events."
+        }
+      ],
+      "UI_use": "Use witnessed AX/HTML facts; mismatches require page-level review.",
+      "trace_fidelity_status": "not_accepted",
+      "limitation": "Matching titles do not prove atomic DOM/AX capture or full action-response causality."
+    },
+    "03-browser-use": {
+      "snapshot_count": 32,
+      "title_pair_matches": 32,
+      "metadata_url_conflicts": 0,
+      "snapshot_timestamp_missing": 0,
+      "pairs": [
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-122835-137305\\snapshots\\00001",
+          "url": "http://127.0.0.1:7770/",
+          "title_pair_matches": true,
+          "metadata_url_matches": true,
+          "captured_at": "2026-10-08T04:28:41.748749+00:00",
+          "sha256_AX": "43652b4b2e2552a5bcbfbfde4195bbf10a93ed83a54de566784915b24dd6f34d",
+          "sha256_HTML": "75ed5ed406e26d1b7a9b2424505a5493194620de343f0eadbe3d159e9c17d3e3"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-122835-137305\\snapshots\\00002",
+          "url": "http://127.0.0.1:7770/",
+          "title_pair_matches": true,
+          "metadata_url_matches": true,
+          "captured_at": "2026-10-08T04:29:11.668300+00:00",
+          "sha256_AX": "5d5b74f85ede2517b899729c9b058d9db537b4896306223537e0710b273a593e",
+          "sha256_HTML": "ec7d5c927e91b6bfd01ded58aa11fa475af693db604660e0a4752841cb7a5646"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-122835-137305\\snapshots\\00003",
+          "url": "http://127.0.0.1:7770/",
+          "title_pair_matches": true,
+          "metadata_url_matches": true,
+          "captured_at": "2026-10-08T04:29:28.677900+00:00",
+          "sha256_AX": "5d5b74f85ede2517b899729c9b058d9db537b4896306223537e0710b273a593e",
+          "sha256_HTML": "ec7d5c927e91b6bfd01ded58aa11fa475af693db604660e0a4752841cb7a5646"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-122835-137305\\snapshots\\00004",
+          "url": "http://127.0.0.1:7770/",
+          "title_pair_matches": true,
+          "metadata_url_matches": true,
+          "captured_at": "2026-10-08T04:29:39.038380+00:00",
+          "sha256_AX": "5d5b74f85ede2517b899729c9b058d9db537b4896306223537e0710b273a593e",
+          "sha256_HTML": "ec7d5c927e91b6bfd01ded58aa11fa475af693db604660e0a4752841cb7a5646"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-122835-137305\\snapshots\\00005",
+          "url": "http://127.0.0.1:7770/",
+          "title_pair_matches": true,
+          "metadata_url_matches": true,
+          "captured_at": "2026-10-08T04:29:52.018437+00:00",
+          "sha256_AX": "dd785fecd372bcb489b1436c3ef3f3e2aa24d0325da401855f425203a71fb342",
+          "sha256_HTML": "407af804cc1695d95a9df8d354e7dffd61b4e4b0b620f0dfa5ca3ad623e17998"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-122835-137305\\snapshots\\00006",
+          "url": "http://127.0.0.1:7770/",
+          "title_pair_matches": true,
+          "metadata_url_matches": true,
+          "captured_at": "2026-10-08T04:30:05.650451+00:00",
+          "sha256_AX": "c6d42a249e0c94b6be2a90298413d13825f51f7186a7a90a0afb390aebde17b5",
+          "sha256_HTML": "f243be592eb253037ffab8064890e2ec028b73b9779ffae186e6a79a15c1ae02"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-122835-137305\\snapshots\\00007",
+          "url": "http://127.0.0.1:7770/",
+          "title_pair_matches": true,
+          "metadata_url_matches": true,
+          "captured_at": "2026-10-08T04:30:22.540977+00:00",
+          "sha256_AX": "87d8cfe31b5c0adf992a26b5b5e0cfdab87156de6f8bbfcc5b9e0126110c8faa",
+          "sha256_HTML": "ce4854f5d203f1b1b5668bf60ad018143cadc623c3cb9e685a3dd466546289fb"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-122835-137305\\snapshots\\00008",
+          "url": "http://127.0.0.1:7770/electronics.html",
+          "title_pair_matches": true,
+          "metadata_url_matches": true,
+          "captured_at": "2026-10-08T04:30:37.268068+00:00",
+          "sha256_AX": "f37e72363568fd1022c3a965a6eabfc3627f13c87657543e7e13903cd5dabb4e",
+          "sha256_HTML": "6bb6855a4f23f055e6da8fdf46286310bfc13fe0ab37e716fc0f70ccf0834eba"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-122835-137305\\snapshots\\00009",
+          "url": "http://127.0.0.1:7770/electronics.html?product_list_order=price",
+          "title_pair_matches": true,
+          "metadata_url_matches": true,
+          "captured_at": "2026-10-08T04:31:01.737757+00:00",
+          "sha256_AX": "1b43223607d75d81e318d0e7e0f0b686d06359270206b1650065544f9c631330",
+          "sha256_HTML": "cadb17cd74bffe5ffdbf88b3a4b46bbad17db10fa582f9a49f6a54d3dbd62836"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-122835-137305\\snapshots\\00010",
+          "url": "http://127.0.0.1:7770/electronics.html?price=0-10000&product_list_order=price",
+          "title_pair_matches": true,
+          "metadata_url_matches": true,
+          "captured_at": "2026-10-08T04:31:26.952710+00:00",
+          "sha256_AX": "de056fc24860b63b874a7b0a3ced5ba51d162d892a3bfad808c86f40bf0467e6",
+          "sha256_HTML": "d255d772d89b9f3c8a4f0e997c295919c5a9e259279d0571b37ecdcd200e5b11"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-122835-137305\\snapshots\\00011",
+          "url": "http://127.0.0.1:7770/sugoi-80x100-mini-portable-monocular-handheld-telescope-bak4-prism-fmc-waterproof-shockproof-scope-for-birds-animals-watching-hunting-camping-travelling-scenery.html",
+          "title_pair_matches": true,
+          "metadata_url_matches": true,
+          "captured_at": "2026-10-08T04:31:50.989748+00:00",
+          "sha256_AX": "93e2c927db18ee4fddb51245be538e494e1b65bc384f0796c60cc867dbfd175a",
+          "sha256_HTML": "0a0b030ec0bbdce8658611bbb5a2d6accfdc2f01e2a7653c44fcbdba263bad16"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-122835-137305\\snapshots\\00012",
+          "url": "http://127.0.0.1:7770/sugoi-80x100-mini-portable-monocular-handheld-telescope-bak4-prism-fmc-waterproof-shockproof-scope-for-birds-animals-watching-hunting-camping-travelling-scenery.html",
+          "title_pair_matches": true,
+          "metadata_url_matches": true,
+          "captured_at": "2026-10-08T04:32:10.460038+00:00",
+          "sha256_AX": "93e2c927db18ee4fddb51245be538e494e1b65bc384f0796c60cc867dbfd175a",
+          "sha256_HTML": "0a0b030ec0bbdce8658611bbb5a2d6accfdc2f01e2a7653c44fcbdba263bad16"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-122835-137305\\snapshots\\00013",
+          "url": "http://127.0.0.1:7770/sugoi-80x100-mini-portable-monocular-handheld-telescope-bak4-prism-fmc-waterproof-shockproof-scope-for-birds-animals-watching-hunting-camping-travelling-scenery.html",
+          "title_pair_matches": true,
+          "metadata_url_matches": true,
+          "captured_at": "2026-10-08T04:32:20.983863+00:00",
+          "sha256_AX": "93e2c927db18ee4fddb51245be538e494e1b65bc384f0796c60cc867dbfd175a",
+          "sha256_HTML": "0a0b030ec0bbdce8658611bbb5a2d6accfdc2f01e2a7653c44fcbdba263bad16"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-122835-137305\\snapshots\\00014",
+          "url": "http://127.0.0.1:7770/sugoi-80x100-mini-portable-monocular-handheld-telescope-bak4-prism-fmc-waterproof-shockproof-scope-for-birds-animals-watching-hunting-camping-travelling-scenery.html",
+          "title_pair_matches": true,
+          "metadata_url_matches": true,
+          "captured_at": "2026-10-08T04:32:43.453139+00:00",
+          "sha256_AX": "93e2c927db18ee4fddb51245be538e494e1b65bc384f0796c60cc867dbfd175a",
+          "sha256_HTML": "0a0b030ec0bbdce8658611bbb5a2d6accfdc2f01e2a7653c44fcbdba263bad16"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-122835-137305\\snapshots\\00015",
+          "url": "http://127.0.0.1:7770/sugoi-80x100-mini-portable-monocular-handheld-telescope-bak4-prism-fmc-waterproof-shockproof-scope-for-birds-animals-watching-hunting-camping-travelling-scenery.html",
+          "title_pair_matches": true,
+          "metadata_url_matches": true,
+          "captured_at": "2026-10-08T04:33:09.521142+00:00",
+          "sha256_AX": "93e2c927db18ee4fddb51245be538e494e1b65bc384f0796c60cc867dbfd175a",
+          "sha256_HTML": "0a0b030ec0bbdce8658611bbb5a2d6accfdc2f01e2a7653c44fcbdba263bad16"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-122835-137305\\snapshots\\00016",
+          "url": "http://127.0.0.1:7770/electronics.html?product_list_order=price&price=0-10000",
+          "title_pair_matches": true,
+          "metadata_url_matches": true,
+          "captured_at": "2026-10-08T04:33:31.520588+00:00",
+          "sha256_AX": "f697476c1aaf9fd6e66ace314ad7176f30e441e4329e8756d38a6a77f93b00ed",
+          "sha256_HTML": "16b72d50fd932b89e2e8f6d388cb3c59969e5f54da92b4a7dc0a9e60d1b43781"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-122835-137305\\snapshots\\00017",
+          "url": "http://127.0.0.1:7770/electronics.html?cat=55&price=0-10000&product_list_order=price",
+          "title_pair_matches": true,
+          "metadata_url_matches": true,
+          "captured_at": "2026-10-08T04:33:49.705280+00:00",
+          "sha256_AX": "56d840dfe36acc773344561ad3506edc50e0bfdf48e9a7bdb66a31e9f75e2979",
+          "sha256_HTML": "7abdd8ba7765e1720cc36e17cccd129b8eaac2d5e37c48cdd3868393e479d69b"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-122835-137305\\snapshots\\00018",
+          "url": "http://127.0.0.1:7770/electronics.html?cat=55&price=0-10000&product_list_order=price",
+          "title_pair_matches": true,
+          "metadata_url_matches": true,
+          "captured_at": "2026-10-08T04:34:32.234551+00:00",
+          "sha256_AX": "56d840dfe36acc773344561ad3506edc50e0bfdf48e9a7bdb66a31e9f75e2979",
+          "sha256_HTML": "7abdd8ba7765e1720cc36e17cccd129b8eaac2d5e37c48cdd3868393e479d69b"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-122835-137305\\snapshots\\00019",
+          "url": "http://127.0.0.1:7770/electronics.html?cat=55&price=0-10000&product_list_order=price",
+          "title_pair_matches": true,
+          "metadata_url_matches": true,
+          "captured_at": "2026-10-08T04:34:57.065991+00:00",
+          "sha256_AX": "56d840dfe36acc773344561ad3506edc50e0bfdf48e9a7bdb66a31e9f75e2979",
+          "sha256_HTML": "7abdd8ba7765e1720cc36e17cccd129b8eaac2d5e37c48cdd3868393e479d69b"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-122835-137305\\snapshots\\00020",
+          "url": "http://127.0.0.1:7770/electronics.html?cat=55&price=0-10000&product_list_order=price",
+          "title_pair_matches": true,
+          "metadata_url_matches": true,
+          "captured_at": "2026-10-08T04:35:10.511005+00:00",
+          "sha256_AX": "56d840dfe36acc773344561ad3506edc50e0bfdf48e9a7bdb66a31e9f75e2979",
+          "sha256_HTML": "7abdd8ba7765e1720cc36e17cccd129b8eaac2d5e37c48cdd3868393e479d69b"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-122835-137305\\snapshots\\00021",
+          "url": "http://127.0.0.1:7770/electronics.html?cat=55&price=0-10000&product_list_order=price",
+          "title_pair_matches": true,
+          "metadata_url_matches": true,
+          "captured_at": "2026-10-08T04:35:26.055196+00:00",
+          "sha256_AX": "56d840dfe36acc773344561ad3506edc50e0bfdf48e9a7bdb66a31e9f75e2979",
+          "sha256_HTML": "7abdd8ba7765e1720cc36e17cccd129b8eaac2d5e37c48cdd3868393e479d69b"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-122835-137305\\snapshots\\00022",
+          "url": "http://127.0.0.1:7770/electronics.html?cat=55&p=2&price=0-10000&product_list_order=price",
+          "title_pair_matches": true,
+          "metadata_url_matches": true,
+          "captured_at": "2026-10-08T04:35:45.295207+00:00",
+          "sha256_AX": "22934ff32fbdb0dbcf67697d4f39e234fc13b8480e75de3972de0dde0701f950",
+          "sha256_HTML": "b291b40fd684bfe445f55cfe04700985861c917a6f028e65477116951456fca6"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-122835-137305\\snapshots\\00023",
+          "url": "http://127.0.0.1:7770/electronics.html?cat=55&p=2&price=0-10000&product_list_order=price",
+          "title_pair_matches": true,
+          "metadata_url_matches": true,
+          "captured_at": "2026-10-08T04:36:26.594652+00:00",
+          "sha256_AX": "22934ff32fbdb0dbcf67697d4f39e234fc13b8480e75de3972de0dde0701f950",
+          "sha256_HTML": "b291b40fd684bfe445f55cfe04700985861c917a6f028e65477116951456fca6"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-122835-137305\\snapshots\\00024",
+          "url": "http://127.0.0.1:7770/catalogsearch/result/?q=camera",
+          "title_pair_matches": true,
+          "metadata_url_matches": true,
+          "captured_at": "2026-10-08T04:36:50.392761+00:00",
+          "sha256_AX": "4771950c747960aca44184edcb35ed1b8d2c40026cfbe08511c0b69e6a611f31",
+          "sha256_HTML": "0a5c674a78cc3a96be82273d26308e89365ba25971db3f0001e17942e2cfef57"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-122835-137305\\snapshots\\00025",
+          "url": "http://127.0.0.1:7770/catalogsearch/result/?q=camera",
+          "title_pair_matches": true,
+          "metadata_url_matches": true,
+          "captured_at": "2026-10-08T04:37:03.574971+00:00",
+          "sha256_AX": "4771950c747960aca44184edcb35ed1b8d2c40026cfbe08511c0b69e6a611f31",
+          "sha256_HTML": "0a5c674a78cc3a96be82273d26308e89365ba25971db3f0001e17942e2cfef57"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-122835-137305\\snapshots\\00026",
+          "url": "http://127.0.0.1:7770/catalogsearch/result/?q=camera",
+          "title_pair_matches": true,
+          "metadata_url_matches": true,
+          "captured_at": "2026-10-08T04:37:14.892720+00:00",
+          "sha256_AX": "0b52357a6be2aceba5cfd7c54ae2a0ca72da141be025861a3ed3de075ec64b68",
+          "sha256_HTML": "bc941bd595f54e12fe59f01955f859366d1d4df1025c39da99fd373afaf382c2"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-122835-137305\\snapshots\\00027",
+          "url": "http://127.0.0.1:7770/checkout/cart/",
+          "title_pair_matches": true,
+          "metadata_url_matches": true,
+          "captured_at": "2026-10-08T04:37:42.173809+00:00",
+          "sha256_AX": "13d4f967a8d973595863e2f9f324f76196b1cff21f08ce5cc19711a077956d8f",
+          "sha256_HTML": "10a90ab8c2f7a7c275ad4a18177f0c363bc22363d5a54a7bd42641e0062d4b67"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-122835-137305\\snapshots\\00028",
+          "url": "http://127.0.0.1:7770/checkout/cart/",
+          "title_pair_matches": true,
+          "metadata_url_matches": true,
+          "captured_at": "2026-10-08T04:38:11.955246+00:00",
+          "sha256_AX": "13d4f967a8d973595863e2f9f324f76196b1cff21f08ce5cc19711a077956d8f",
+          "sha256_HTML": "10a90ab8c2f7a7c275ad4a18177f0c363bc22363d5a54a7bd42641e0062d4b67"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-122835-137305\\snapshots\\00029",
+          "url": "http://127.0.0.1:7770/checkout/cart/",
+          "title_pair_matches": true,
+          "metadata_url_matches": true,
+          "captured_at": "2026-10-08T04:38:49.514430+00:00",
+          "sha256_AX": "13d4f967a8d973595863e2f9f324f76196b1cff21f08ce5cc19711a077956d8f",
+          "sha256_HTML": "10a90ab8c2f7a7c275ad4a18177f0c363bc22363d5a54a7bd42641e0062d4b67"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-122835-137305\\snapshots\\00030",
+          "url": "http://127.0.0.1:7770/checkout/cart/",
+          "title_pair_matches": true,
+          "metadata_url_matches": true,
+          "captured_at": "2026-10-08T04:39:21.515249+00:00",
+          "sha256_AX": "13d4f967a8d973595863e2f9f324f76196b1cff21f08ce5cc19711a077956d8f",
+          "sha256_HTML": "10a90ab8c2f7a7c275ad4a18177f0c363bc22363d5a54a7bd42641e0062d4b67"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-122835-137305\\snapshots\\00031",
+          "url": "http://127.0.0.1:7770/checkout/cart/",
+          "title_pair_matches": true,
+          "metadata_url_matches": true,
+          "captured_at": "2026-10-08T04:39:59.739823+00:00",
+          "sha256_AX": "13d4f967a8d973595863e2f9f324f76196b1cff21f08ce5cc19711a077956d8f",
+          "sha256_HTML": "10a90ab8c2f7a7c275ad4a18177f0c363bc22363d5a54a7bd42641e0062d4b67"
+        },
+        {
+          "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-122835-137305\\snapshots\\00032",
+          "url": "http://127.0.0.1:7770/checkout/cart/",
+          "title_pair_matches": true,
+          "metadata_url_matches": true,
+          "captured_at": "2026-10-08T04:40:32.841888+00:00",
+          "sha256_AX": "13d4f967a8d973595863e2f9f324f76196b1cff21f08ce5cc19711a077956d8f",
+          "sha256_HTML": "10a90ab8c2f7a7c275ad4a18177f0c363bc22363d5a54a7bd42641e0062d4b67"
+        }
+      ],
+      "recorder_timelines": [
+        {
+          "source": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-122835-137305\\trace\\26_10_08_12_28_36-min\\trace.segments.manifest.json",
+          "sha256": "13da5fb1c610afd8b5adb879b22358fca76f2be8a1ef207a1cfa1a01a76e22f2",
+          "invalid_timestamp_segments": [],
+          "duplicate_file_paths": {},
+          "failed_segments": [],
+          "provisional_gaps": [
+            {
+              "start": 1791433732925,
+              "stop": 1791433733099,
+              "ms": 174
+            },
+            {
+              "start": 1791433747940,
+              "stop": 1791433748060,
+              "ms": 120
+            },
+            {
+              "start": 1791433762951,
+              "stop": 1791433763214,
+              "ms": 263
+            },
+            {
+              "start": 1791433777953,
+              "stop": 1791433778070,
+              "ms": 117
+            },
+            {
+              "start": 1791433792968,
+              "stop": 1791433793106,
+              "ms": 138
+            },
+            {
+              "start": 1791433807968,
+              "stop": 1791433808220,
+              "ms": 252
+            },
+            {
+              "start": 1791433822980,
+              "stop": 1791433823114,
+              "ms": 134
+            },
+            {
+              "start": 1791433837982,
+              "stop": 1791433838227,
+              "ms": 245
+            },
+            {
+              "start": 1791433852986,
+              "stop": 1791433853113,
+              "ms": 127
+            },
+            {
+              "start": 1791433867989,
+              "stop": 1791433868565,
+              "ms": 576
+            },
+            {
+              "start": 1791433882989,
+              "stop": 1791433886729,
+              "ms": 3740
+            },
+            {
+              "start": 1791433897990,
+              "stop": 1791433898162,
+              "ms": 172
+            },
+            {
+              "start": 1791433912995,
+              "stop": 1791433913247,
+              "ms": 252
+            },
+            {
+              "start": 1791433928002,
+              "stop": 1791433928158,
+              "ms": 156
+            },
+            {
+              "start": 1791433943012,
+              "stop": 1791433943131,
+              "ms": 119
+            },
+            {
+              "start": 1791433958031,
+              "stop": 1791433958145,
+              "ms": 114
+            },
+            {
+              "start": 1791433973038,
+              "stop": 1791433973170,
+              "ms": 132
+            },
+            {
+              "start": 1791433988043,
+              "stop": 1791433988158,
+              "ms": 115
+            },
+            {
+              "start": 1791434003049,
+              "stop": 1791434003387,
+              "ms": 338
+            },
+            {
+              "start": 1791434018054,
+              "stop": 1791434018359,
+              "ms": 305
+            },
+            {
+              "start": 1791434033068,
+              "stop": 1791434033216,
+              "ms": 148
+            },
+            {
+              "start": 1791434048082,
+              "stop": 1791434048264,
+              "ms": 182
+            },
+            {
+              "start": 1791434063088,
+              "stop": 1791434063214,
+              "ms": 126
+            },
+            {
+              "start": 1791434078093,
+              "stop": 1791434078213,
+              "ms": 120
+            },
+            {
+              "start": 1791434093099,
+              "stop": 1791434093247,
+              "ms": 148
+            },
+            {
+              "start": 1791434108101,
+              "stop": 1791434108237,
+              "ms": 136
+            },
+            {
+              "start": 1791434123109,
+              "stop": 1791434123323,
+              "ms": 214
+            },
+            {
+              "start": 1791434138122,
+              "stop": 1791434138260,
+              "ms": 138
+            },
+            {
+              "start": 1791434153129,
+              "stop": 1791434153250,
+              "ms": 121
+            },
+            {
+              "start": 1791434168150,
+              "stop": 1791434168416,
+              "ms": 266
+            },
+            {
+              "start": 1791434183156,
+              "stop": 1791434183276,
+              "ms": 120
+            },
+            {
+              "start": 1791434198164,
+              "stop": 1791434198381,
+              "ms": 217
+            },
+            {
+              "start": 1791434213180,
+              "stop": 1791434213442,
+              "ms": 262
+            },
+            {
+              "start": 1791434228180,
+              "stop": 1791434228304,
+              "ms": 124
+            },
+            {
+              "start": 1791434243181,
+              "stop": 1791434243305,
+              "ms": 124
+            },
+            {
+              "start": 1791434258182,
+              "stop": 1791434261961,
+              "ms": 3779
+            },
+            {
+              "start": 1791434273198,
+              "stop": 1791434273322,
+              "ms": 124
+            },
+            {
+              "start": 1791434288202,
+              "stop": 1791434288333,
+              "ms": 131
+            },
+            {
+              "start": 1791434303208,
+              "stop": 1791434303325,
+              "ms": 117
+            },
+            {
+              "start": 1791434318215,
+              "stop": 1791434318368,
+              "ms": 153
+            },
+            {
+              "start": 1791434333217,
+              "stop": 1791434333365,
+              "ms": 148
+            },
+            {
+              "start": 1791434348230,
+              "stop": 1791434348360,
+              "ms": 130
+            },
+            {
+              "start": 1791434363242,
+              "stop": 1791434363487,
+              "ms": 245
+            },
+            {
+              "start": 1791434378248,
+              "stop": 1791434378365,
+              "ms": 117
+            },
+            {
+              "start": 1791434393255,
+              "stop": 1791434393382,
+              "ms": 127
+            },
+            {
+              "start": 1791434408266,
+              "stop": 1791434408452,
+              "ms": 186
+            },
+            {
+              "start": 1791434423267,
+              "stop": 1791434423398,
+              "ms": 131
+            }
+          ],
+          "timeline_reliable": true,
+          "gap_interpretation": "If timestamps/paths are inconsistent, gaps cannot quantify actual lost events."
+        }
+      ],
+      "UI_use": "Use witnessed AX/HTML facts; mismatches require page-level review.",
+      "trace_fidelity_status": "not_accepted",
+      "limitation": "Matching titles do not prove atomic DOM/AX capture or full action-response causality."
+    }
+  }
+}

@@ -1,0 +1,229 @@
+{
+  "pages": [
+    {
+      "dir": "000_state",
+      "url": "http://127.0.0.1:7770/",
+      "title": "One Stop Market",
+      "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\01-drive\\trace\\26_10_08_11_08_15-min\\drive\\screenshots\\000_root",
+      "duplicate_snapshots": [],
+      "signature": "ad1dc6dbe8cde81040f86a316d08f6bf98d613bac2ba4b9fb803a13735bba092",
+      "endpoint_count": 0
+    },
+    {
+      "dir": "001_state",
+      "url": "http://127.0.0.1:7770/crunchy-rice-rollers-gluten-free-vegan-3-5-oz-individual-packs-4-packs-of-8-rollers.html",
+      "title": "Crunchy Rice Rollers - Gluten Free - Vegan - 3.5 oz Individual Packs (4 Packs of 8 Rollers)",
+      "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\01-drive\\trace\\26_10_08_11_08_15-min\\drive\\screenshots\\001_crunchy-rice-rollers-gluten-free-vegan-3-5-oz-individual-pac",
+      "duplicate_snapshots": [],
+      "signature": "2f1f2bc3ff443353168f45c4447bb3951a3811b8ba6c4eebc2e4436c79c363b3",
+      "endpoint_count": 1
+    },
+    {
+      "dir": "002_state",
+      "url": "http://127.0.0.1:7770/checkout/cart/",
+      "title": "Shopping Cart",
+      "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\01-drive\\trace\\26_10_08_11_08_15-min\\drive\\screenshots\\002_checkout_cart",
+      "duplicate_snapshots": [],
+      "signature": "594334f1220f69e98147b7f16ad953471a041d23a497f49296cffd951fb121eb",
+      "endpoint_count": 0
+    },
+    {
+      "dir": "003_state",
+      "url": "http://127.0.0.1:7770/catalogsearch/advanced/",
+      "title": "Advanced Search",
+      "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\01-drive\\trace\\26_10_08_11_08_15-min\\drive\\screenshots\\003_catalogsearch_advanced",
+      "duplicate_snapshots": [],
+      "signature": "8a2316b304be59f3d3f7af26928e051a5e79df42d129d83c8c11881f942eb853",
+      "endpoint_count": 0
+    },
+    {
+      "dir": "004_state",
+      "url": "http://127.0.0.1:7770/catalogsearch/advanced/result/?name=&sku=Seed+a26826&description=launch+seed+cnrya1b977edzz&short_description=keynote+seed+cnryca90abd7zz&price%5Bfrom%5D=&price%5Bto%5D=&price%5Bcurrency%5D=USD",
+      "title": "Advanced Search Results",
+      "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\01-drive\\trace\\26_10_08_11_08_15-min\\drive\\screenshots\\004_catalogsearch_advanced_result",
+      "duplicate_snapshots": [],
+      "signature": "109519870bd58a96cf4ed131f266dd626ecc270be484707587970333884813b9",
+      "endpoint_count": 0
+    },
+    {
+      "dir": "005_state",
+      "url": "http://127.0.0.1:7770/beauty-personal-care.html",
+      "title": "Beauty & Personal Care",
+      "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\01-drive\\trace\\26_10_08_11_08_15-min\\drive\\screenshots\\005_beauty-personal-care_html",
+      "duplicate_snapshots": [],
+      "signature": "07cb14c733a5aa33a70a3d1b2aed191a815a1435fef05af2f2c3051214444020",
+      "endpoint_count": 0
+    },
+    {
+      "dir": "006_state",
+      "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care.html",
+      "title": "Oral Care - Beauty & Personal Care",
+      "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\01-drive\\trace\\26_10_08_11_08_15-min\\drive\\screenshots\\006_beauty-personal-care_oral-care_html",
+      "duplicate_snapshots": [],
+      "signature": "a4dda729047691b2b1a7da7b7e19aad1d9ae9faf054021b35ef850d6db891492",
+      "endpoint_count": 1
+    },
+    {
+      "dir": "007_state",
+      "url": "http://127.0.0.1:7770/crest-pro-health-intense-mouthwash-antigingivitis-antiplaque-pack-of-4.html",
+      "title": "Crest Pro-Health Intense Mouthwash Antigingivitis Antiplaque (Pack of 4)",
+      "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\01-drive\\trace\\26_10_08_11_08_15-min\\drive\\screenshots\\007_crest-pro-health-intense-mouthwash-antigingivitis-antiplaque",
+      "duplicate_snapshots": [],
+      "signature": "917d9b0a504fd7f7fd1e68be4bda698f97e71bc18679f1179b40c79b1de4c76f",
+      "endpoint_count": 0
+    },
+    {
+      "dir": "008_state",
+      "url": "http://127.0.0.1:7770/crest-pro-health-intense-mouthwash-antigingivitis-antiplaque-pack-of-4.html",
+      "title": "Crest Pro-Health Intense Mouthwash Antigingivitis Antiplaque (Pack of 4)",
+      "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\01-drive\\trace\\26_10_08_11_08_15-min\\drive\\screenshots\\008_crest-pro-health-intense-mouthwash-antigingivitis-antiplaque",
+      "duplicate_snapshots": [],
+      "signature": "f1d73fe5e747fb1e6b55959e01508cc663b823b7b5f6ed0ede7d054e4730e09f",
+      "endpoint_count": 0
+    },
+    {
+      "dir": "009_state",
+      "url": "http://127.0.0.1:7770/crest-pro-health-intense-mouthwash-antigingivitis-antiplaque-pack-of-4.html",
+      "title": "Crest Pro-Health Intense Mouthwash Antigingivitis Antiplaque (Pack of 4)",
+      "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\01-drive\\trace\\26_10_08_11_08_15-min\\drive\\screenshots\\009_crest-pro-health-intense-mouthwash-antigingivitis-antiplaque",
+      "duplicate_snapshots": [
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\01-drive\\trace\\26_10_08_11_08_15-min\\drive\\screenshots\\010_crest-pro-health-intense-mouthwash-antigingivitis-antiplaque"
+      ],
+      "signature": "6a65e350f1bc36816715dcf6b1a64eebecad7318b320ac3cce799c9feae51973",
+      "endpoint_count": 0
+    },
+    {
+      "dir": "010_state",
+      "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/toothbrushes-accessories.html",
+      "title": "Toothbrushes & Accessories - Oral Care - Beauty & Personal Care",
+      "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\01-drive\\trace\\26_10_08_11_08_15-min\\drive\\screenshots\\011_beauty-personal-care_oral-care_toothbrushes-accessories_html",
+      "duplicate_snapshots": [],
+      "signature": "93da322fcae87dd56e1c1b3d5f1df68bf9c46e2968759296119d45f5eeee798e",
+      "endpoint_count": 0
+    },
+    {
+      "dir": "011_state",
+      "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/dental-floss-picks.html",
+      "title": "Dental Floss & Picks - Oral Care - Beauty & Personal Care",
+      "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\01-drive\\trace\\26_10_08_11_08_15-min\\drive\\screenshots\\012_beauty-personal-care_oral-care_dental-floss-picks_html",
+      "duplicate_snapshots": [
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\01-drive\\trace\\26_10_08_11_08_15-min\\drive\\screenshots\\013_beauty-personal-care_oral-care_dental-floss-picks_html"
+      ],
+      "signature": "d18886484e483cba4d32ec1d7c6ac58a6d2f708b40dee05b44aaf89732ccbc6d",
+      "endpoint_count": 0
+    },
+    {
+      "dir": "012_state",
+      "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/orthodontic-supplies.html",
+      "title": "Orthodontic Supplies - Oral Care - Beauty & Personal Care",
+      "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\01-drive\\trace\\26_10_08_11_08_15-min\\drive\\screenshots\\014_beauty-personal-care_oral-care_orthodontic-supplies_html",
+      "duplicate_snapshots": [
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\01-drive\\trace\\26_10_08_11_08_15-min\\drive\\screenshots\\015_beauty-personal-care_oral-care_orthodontic-supplies_html"
+      ],
+      "signature": "0cadfece3740c6e8c442fccfc6ec158ecd3fc1254d1d2091973280f220e0197f",
+      "endpoint_count": 1
+    },
+    {
+      "dir": "013_state",
+      "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/children-s-dental-care.html",
+      "title": "Children's Dental Care - Oral Care - Beauty & Personal Care",
+      "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\01-drive\\trace\\26_10_08_11_08_15-min\\drive\\screenshots\\016_beauty-personal-care_oral-care_children-s-dental-care_html",
+      "duplicate_snapshots": [
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\01-drive\\trace\\26_10_08_11_08_15-min\\drive\\screenshots\\017_beauty-personal-care_oral-care_children-s-dental-care_html"
+      ],
+      "signature": "7e2564ea20c62774576bff19d61f358277cf0dd8dc0c7f0344a23cda306dda65",
+      "endpoint_count": 1
+    },
+    {
+      "dir": "014_state",
+      "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/oral-pain-relief.html",
+      "title": "Oral Pain Relief - Oral Care - Beauty & Personal Care",
+      "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\01-drive\\trace\\26_10_08_11_08_15-min\\drive\\screenshots\\018_beauty-personal-care_oral-care_oral-pain-relief_html",
+      "duplicate_snapshots": [
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\01-drive\\trace\\26_10_08_11_08_15-min\\drive\\screenshots\\019_beauty-personal-care_oral-care_oral-pain-relief_html",
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\01-drive\\trace\\26_10_08_11_08_15-min\\drive\\screenshots\\020_beauty-personal-care_oral-care_oral-pain-relief_html"
+      ],
+      "signature": "cdddc40e2fe704878f015b9257de794612b9137ba33d3bd70dab71e81cbd6656",
+      "endpoint_count": 1
+    },
+    {
+      "dir": "015_state",
+      "url": "http://127.0.0.1:7770/mouth-guard-moldable-nightguard-for-grinding-teeth-at-night-whitening-tray-4-pack-upgraded-night-guards-to-keep-calm-professional-comfortable-mouthguards-for-sleep-2-sizes.html",
+      "title": "Mouth Guard Moldable Nightguard for Grinding Teeth at Night, Whitening Tray, 4 Pack Upgraded Night Guards to Keep Calm, Professional Comfortable Mouthguards for Sleep, 2 Sizes",
+      "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\01-drive\\trace\\26_10_08_11_08_15-min\\drive\\screenshots\\021_mouth-guard-moldable-nightguard-for-grinding-teeth-at-night-",
+      "duplicate_snapshots": [],
+      "signature": "6b5861e50157ff370b5b8ff44157f5cfac07600df7f0eb5d7828830ddc4dc27b",
+      "endpoint_count": 0
+    },
+    {
+      "dir": "016_state",
+      "url": "http://127.0.0.1:7770/mouth-guard-moldable-nightguard-for-grinding-teeth-at-night-whitening-tray-4-pack-upgraded-night-guards-to-keep-calm-professional-comfortable-mouthguards-for-sleep-2-sizes.html",
+      "title": "Mouth Guard Moldable Nightguard for Grinding Teeth at Night, Whitening Tray, 4 Pack Upgraded Night Guards to Keep Calm, Professional Comfortable Mouthguards for Sleep, 2 Sizes",
+      "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\01-drive\\trace\\26_10_08_11_08_15-min\\drive\\screenshots\\022_mouth-guard-moldable-nightguard-for-grinding-teeth-at-night-",
+      "duplicate_snapshots": [],
+      "signature": "5c233867e0b88de0dd3843b15b32e7168e5d7b3d379ac54562e5e234e7b7303a",
+      "endpoint_count": 0
+    },
+    {
+      "dir": "017_state",
+      "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/toothpaste.html",
+      "title": "Toothpaste - Oral Care - Beauty & Personal Care",
+      "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\01-drive\\trace\\26_10_08_11_08_15-min\\drive\\screenshots\\023_beauty-personal-care_oral-care_toothpaste_html",
+      "duplicate_snapshots": [
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\01-drive\\trace\\26_10_08_11_08_15-min\\drive\\screenshots\\024_beauty-personal-care_oral-care_toothpaste_html"
+      ],
+      "signature": "52dce385c08ce28783968b2cbc9f7f8f4d9ef7996b42c09e836a9fd9d7f40793",
+      "endpoint_count": 1
+    },
+    {
+      "dir": "018_state",
+      "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/toothpaste.html",
+      "title": "Toothpaste - Oral Care - Beauty & Personal Care",
+      "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\01-drive\\trace\\26_10_08_11_08_15-min\\drive\\screenshots\\025_beauty-personal-care_oral-care_toothpaste_html",
+      "duplicate_snapshots": [],
+      "signature": "f26fe3a16164a3ef250f3b9490b7452479c97f1976c9562efe19ca17af342d21",
+      "endpoint_count": 1
+    },
+    {
+      "dir": "019_state",
+      "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/teeth-whitening.html",
+      "title": "Teeth Whitening - Oral Care - Beauty & Personal Care",
+      "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\01-drive\\trace\\26_10_08_11_08_15-min\\drive\\screenshots\\026_beauty-personal-care_oral-care_teeth-whitening_html",
+      "duplicate_snapshots": [],
+      "signature": "aef6a06d313f054ea7e63ec98f6ceb09d74c60248aaf4676f7b76596f714adfa",
+      "endpoint_count": 1
+    },
+    {
+      "dir": "020_state",
+      "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/breath-fresheners.html",
+      "title": "Breath Fresheners - Oral Care - Beauty & Personal Care",
+      "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\01-drive\\trace\\26_10_08_11_08_15-min\\drive\\screenshots\\027_beauty-personal-care_oral-care_breath-fresheners_html",
+      "duplicate_snapshots": [
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\01-drive\\trace\\26_10_08_11_08_15-min\\drive\\screenshots\\028_beauty-personal-care_oral-care_breath-fresheners_html"
+      ],
+      "signature": "17c83929d78e03396d2002809d208db92d7831a74cdaeca90b8ffb0649ba93f4",
+      "endpoint_count": 0
+    },
+    {
+      "dir": "021_state",
+      "url": "http://127.0.0.1:7770/oceansedge11-classic-christmas-theme-disposable-face-masks-for-adult-3-ply-face-protection-for-outdoor-sport-bicycle-mountain-bike.html",
+      "title": "oceansEdge11 Classic Christmas Theme Disposable_Face_Mäsks for Adult,3-ply Face Protection for Outdoor Sport Bicycle Mountain Bike",
+      "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\01-drive\\trace\\26_10_08_11_08_15-min\\drive\\screenshots\\029_oceansedge11-classic-christmas-theme-disposable-face-masks-f",
+      "duplicate_snapshots": [
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\01-drive\\trace\\26_10_08_11_08_15-min\\drive\\screenshots\\030_oceansedge11-classic-christmas-theme-disposable-face-masks-f"
+      ],
+      "signature": "93d99569259e4a16f488e976a6825fb17df09739e8c30c37bc81b8b8201ca276",
+      "endpoint_count": 0
+    },
+    {
+      "dir": "022_state",
+      "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/denture-care.html",
+      "title": "Denture Care - Oral Care - Beauty & Personal Care",
+      "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\01-drive\\trace\\26_10_08_11_08_15-min\\drive\\screenshots\\031_beauty-personal-care_oral-care_denture-care_html",
+      "duplicate_snapshots": [],
+      "signature": "dd6eda7ff6bfcb2b9d3f2307017deecf2cc5827ed8cc3ff306c462ca3fd6711d",
+      "endpoint_count": 1
+    }
+  ],
+  "deduplication": "exact prepared input signature within run; no URL-only merging"
+}

@@ -1,0 +1,21 @@
+{
+  "experiment": {
+    "role": "Independent reference validation; not explorer performance",
+    "permissions": "read-only query submission; no writes"
+  },
+  "engine": "../coverage-v4/score.py",
+  "gold": "../coverage-v4/gold.v1.json",
+  "mapping": "../ground-truth-vnext/db-ui-mapping.v3.json",
+  "runs": [
+    {
+      "id": "reference-20261008",
+      "strategy": "reference-only",
+      "snapshots": "../ground-truth-vnext/site-verification-20261008",
+      "artifacts": [
+        "../coverage-v4/prepare.py",
+        "../coverage-v4/test_relation.py",
+        "../ground-truth-vnext/site-verification-20261008/capture.json"
+      ]
+    }
+  ]
+}

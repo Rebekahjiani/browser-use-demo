@@ -1,0 +1,156 @@
+{
+  "pages": [
+    {
+      "dir": "000_state",
+      "url": "http://127.0.0.1:7770/",
+      "title": "One Stop Market",
+      "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-122835-137305\\snapshots\\00001",
+      "duplicate_snapshots": [],
+      "signature": "251b9f81e0dae3f5023c2442ea1e47f37001d0bd32deb0dbb01ac7605e92fef2",
+      "endpoint_count": 0
+    },
+    {
+      "dir": "001_state",
+      "url": "http://127.0.0.1:7770/",
+      "title": "One Stop Market",
+      "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-122835-137305\\snapshots\\00002",
+      "duplicate_snapshots": [
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-122835-137305\\snapshots\\00003",
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-122835-137305\\snapshots\\00004"
+      ],
+      "signature": "ad1dc6dbe8cde81040f86a316d08f6bf98d613bac2ba4b9fb803a13735bba092",
+      "endpoint_count": 0
+    },
+    {
+      "dir": "002_state",
+      "url": "http://127.0.0.1:7770/",
+      "title": "One Stop Market",
+      "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-122835-137305\\snapshots\\00005",
+      "duplicate_snapshots": [
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-122835-137305\\snapshots\\00006"
+      ],
+      "signature": "7fe582035f46afe853f23c2e39b05accb7416432298cd307a51de61adb926e8c",
+      "endpoint_count": 0
+    },
+    {
+      "dir": "003_state",
+      "url": "http://127.0.0.1:7770/",
+      "title": "One Stop Market",
+      "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-122835-137305\\snapshots\\00007",
+      "duplicate_snapshots": [],
+      "signature": "4943146a86753f90e41493a9cc31941fdb7d9038d09de1779cad2bda79231a44",
+      "endpoint_count": 0
+    },
+    {
+      "dir": "004_state",
+      "url": "http://127.0.0.1:7770/electronics.html",
+      "title": "Electronics",
+      "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-122835-137305\\snapshots\\00008",
+      "duplicate_snapshots": [],
+      "signature": "bfbc4216631f5e48947852f46395a58137a165f27ffeee5bf533bcac6a7da417",
+      "endpoint_count": 0
+    },
+    {
+      "dir": "005_state",
+      "url": "http://127.0.0.1:7770/electronics.html?product_list_order=price",
+      "title": "Electronics",
+      "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-122835-137305\\snapshots\\00009",
+      "duplicate_snapshots": [],
+      "signature": "66caa05c64579d68e835a3ba521d9d540c9bfcfc5efc7c351e2471bbd2207812",
+      "endpoint_count": 0
+    },
+    {
+      "dir": "006_state",
+      "url": "http://127.0.0.1:7770/electronics.html?price=0-10000&product_list_order=price",
+      "title": "Electronics",
+      "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-122835-137305\\snapshots\\00010",
+      "duplicate_snapshots": [],
+      "signature": "ae56cc5e1cd1adc87ae5d7f67dc80e91e133f93c391f2c9cd1c510143c29d9b3",
+      "endpoint_count": 0
+    },
+    {
+      "dir": "007_state",
+      "url": "http://127.0.0.1:7770/sugoi-80x100-mini-portable-monocular-handheld-telescope-bak4-prism-fmc-waterproof-shockproof-scope-for-birds-animals-watching-hunting-camping-travelling-scenery.html",
+      "title": "Sugoi 80X100 Mini Portable Monocular Handheld Telescope BAK4 Prism FMC, Waterproof Shockproof Scope for Birds Animals Watching Hunting Camping Travelling Scenery",
+      "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-122835-137305\\snapshots\\00011",
+      "duplicate_snapshots": [
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-122835-137305\\snapshots\\00012",
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-122835-137305\\snapshots\\00013",
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-122835-137305\\snapshots\\00014",
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-122835-137305\\snapshots\\00015"
+      ],
+      "signature": "c170a7d5561c722b4d939289a65452c4d5eef8858d6c6ee00887aaaf81dfeb37",
+      "endpoint_count": 0
+    },
+    {
+      "dir": "008_state",
+      "url": "http://127.0.0.1:7770/electronics.html?product_list_order=price&price=0-10000",
+      "title": "Electronics",
+      "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-122835-137305\\snapshots\\00016",
+      "duplicate_snapshots": [],
+      "signature": "dcf55e34fd83d7ac8fcfc010a2dea542b5e4ce2f4bba8354265a918c6eade7c2",
+      "endpoint_count": 0
+    },
+    {
+      "dir": "009_state",
+      "url": "http://127.0.0.1:7770/electronics.html?cat=55&price=0-10000&product_list_order=price",
+      "title": "Electronics",
+      "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-122835-137305\\snapshots\\00017",
+      "duplicate_snapshots": [
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-122835-137305\\snapshots\\00018",
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-122835-137305\\snapshots\\00019",
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-122835-137305\\snapshots\\00020",
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-122835-137305\\snapshots\\00021"
+      ],
+      "signature": "188fa117cc4ae0a42ae8b16b39bceb66caca306199e97ef5aeca290a075172d0",
+      "endpoint_count": 0
+    },
+    {
+      "dir": "010_state",
+      "url": "http://127.0.0.1:7770/electronics.html?cat=55&p=2&price=0-10000&product_list_order=price",
+      "title": "Electronics",
+      "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-122835-137305\\snapshots\\00022",
+      "duplicate_snapshots": [
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-122835-137305\\snapshots\\00023"
+      ],
+      "signature": "12becf5c4681146a72db1af6b8406bd99223ec9327ba7a5162beea1ef616442b",
+      "endpoint_count": 0
+    },
+    {
+      "dir": "011_state",
+      "url": "http://127.0.0.1:7770/catalogsearch/result/?q=camera",
+      "title": "Search results for: 'camera'",
+      "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-122835-137305\\snapshots\\00024",
+      "duplicate_snapshots": [
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-122835-137305\\snapshots\\00025"
+      ],
+      "signature": "cd72a287993a5eae04dbeb589ded4454a9d9d57ffe87d81fbf9cfb0f498fd37f",
+      "endpoint_count": 0
+    },
+    {
+      "dir": "012_state",
+      "url": "http://127.0.0.1:7770/catalogsearch/result/?q=camera",
+      "title": "Search results for: 'camera'",
+      "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-122835-137305\\snapshots\\00026",
+      "duplicate_snapshots": [],
+      "signature": "04b0a5a5f54404d45ab1cb585253ba0b5f126127ee38c267dfaef29394c051ec",
+      "endpoint_count": 0
+    },
+    {
+      "dir": "013_state",
+      "url": "http://127.0.0.1:7770/checkout/cart/",
+      "title": "Shopping Cart",
+      "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-122835-137305\\snapshots\\00027",
+      "duplicate_snapshots": [
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-122835-137305\\snapshots\\00028",
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-122835-137305\\snapshots\\00029",
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-122835-137305\\snapshots\\00030",
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-122835-137305\\snapshots\\00031",
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-122835-137305\\snapshots\\00032"
+      ],
+      "signature": "594334f1220f69e98147b7f16ad953471a041d23a497f49296cffd951fb121eb",
+      "endpoint_count": 0
+    }
+  ],
+  "deduplication": "exact prepared input signature within run; no URL-only merging"
+}

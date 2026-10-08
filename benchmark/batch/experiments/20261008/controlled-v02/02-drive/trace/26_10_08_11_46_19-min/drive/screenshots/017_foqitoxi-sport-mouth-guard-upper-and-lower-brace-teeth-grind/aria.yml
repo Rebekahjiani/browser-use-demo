@@ -1,0 +1,173 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - link "Skip to Content" [ref=e4] [cursor=pointer]:
+      - /url: "#contentarea"
+    - generic [ref=e5]:
+      - generic [ref=e6] [cursor=pointer]:
+        - text: 
+        - generic [ref=e7]: Toggle Nav
+      - link "store logo" [ref=e8] [cursor=pointer]:
+        - /url: http://127.0.0.1:7770/
+        - img "one_stop_market_logo" [ref=e9]
+      - generic [ref=e10]:
+        - link " My Cart" [ref=e11] [cursor=pointer]:
+          - /url: http://127.0.0.1:7770/checkout/cart/
+          - text: 
+          - generic [ref=e12]: My Cart
+        - text: 
+      - generic [ref=e16]:
+        - generic [ref=e17]:
+          - text: 
+          - generic [ref=e18]: Search
+        - combobox " Search" [ref=e20]
+  - tablist [ref=e22]:
+    - tab "Menu" [expanded] [ref=e23]:
+      - link "Menu" [ref=e24] [cursor=pointer]:
+        - /url: "#store.menu"
+    - tabpanel [ref=e25]:
+      - navigation [ref=e26]:
+        - menu [ref=e27]:
+          - listitem [ref=e28]:
+            - menuitem "Beauty & Personal Care " [ref=e29] [cursor=pointer]: Beauty & Personal Care 
+          - listitem [ref=e30]:
+            - menuitem "Sports & Outdoors " [ref=e31] [cursor=pointer]: Sports & Outdoors 
+          - listitem [ref=e32]:
+            - menuitem "Clothing, Shoes & Jewelry " [ref=e33] [cursor=pointer]: Clothing, Shoes & Jewelry 
+          - listitem [ref=e34]:
+            - menuitem "Home & Kitchen " [ref=e35] [cursor=pointer]: Home & Kitchen 
+          - listitem [ref=e36]:
+            - menuitem "Office Products " [ref=e37] [cursor=pointer]: Office Products 
+          - listitem [ref=e38]:
+            - menuitem "Tools & Home Improvement " [ref=e39] [cursor=pointer]: Tools & Home Improvement 
+          - listitem [ref=e40]:
+            - menuitem "Health & Household " [ref=e41] [cursor=pointer]: Health & Household 
+          - listitem [ref=e42]:
+            - menuitem "Patio, Lawn & Garden " [ref=e43] [cursor=pointer]: Patio, Lawn & Garden 
+          - listitem [ref=e44]:
+            - menuitem "Electronics " [ref=e45] [cursor=pointer]: Electronics 
+          - listitem [ref=e46]:
+            - menuitem "Cell Phones & Accessories " [ref=e47] [cursor=pointer]: Cell Phones & Accessories 
+          - listitem [ref=e48]:
+            - menuitem "Video Games " [ref=e49] [cursor=pointer]: Video Games 
+          - listitem [ref=e50]:
+            - menuitem "Grocery & Gourmet Food " [ref=e51] [cursor=pointer]: Grocery & Gourmet Food 
+    - tab "Account" [ref=e52]:
+      - link "Account" [ref=e53] [cursor=pointer]:
+        - /url: "#store.links"
+  - list [ref=e55]:
+    - listitem [ref=e56]:
+      - link "Home" [ref=e57] [cursor=pointer]:
+        - /url: http://127.0.0.1:7770/
+      - text: 
+    - listitem [ref=e58]:
+      - link "Beauty & Personal Care" [ref=e59] [cursor=pointer]:
+        - /url: http://127.0.0.1:7770/beauty-personal-care.html
+      - text: 
+    - listitem [ref=e60]:
+      - link "Oral Care" [ref=e61] [cursor=pointer]:
+        - /url: http://127.0.0.1:7770/beauty-personal-care/oral-care.html
+      - text: 
+    - listitem [ref=e62]:
+      - strong [ref=e63]: foqitoxi Sport Mouth Guard Upper and Lower Brace - Teeth Grinding Guard - 4 Pack - with Storage Case
+  - main [ref=e64]:
+    - heading "foqitoxi Sport Mouth Guard Upper and Lower Brace - Teeth Grinding Guard - 4 Pack - with Storage Case" [level=1] [ref=e66]
+    - generic [ref=e68]:
+      - generic [ref=e69]:
+        - generic [ref=e70]:
+          - generic [ref=e71]:
+            - generic "Availability" [ref=e72]: In stock
+            - generic [ref=e73]:
+              - strong [ref=e74]: SKU
+              - generic [ref=e75]: B098WZCSVJ
+          - link "Be the first to review this product" [ref=e78] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/foqitoxi-sport-mouth-guard-upper-and-lower-brace-teeth-grinding-guard-4-pack-with-storage-case.html#review-form
+          - generic [ref=e81]: $12.90
+        - generic [ref=e85]:
+          - generic [ref=e86]:
+            - generic [ref=e87]: Qty
+            - spinbutton "Qty" [ref=e89]: "1"
+          - button "Add to Cart" [ref=e91] [cursor=pointer]
+        - link "Add to Wish List" [ref=e94] [cursor=pointer]:
+          - /url: "#"
+      - generic [ref=e95]:
+        - link "Skip to the end of the images gallery" [ref=e96] [cursor=pointer]:
+          - /url: "#gallery-next-area"
+        - generic [ref=e99]:
+          - generic [ref=e100]:
+            - button "Previous" [ref=e101] [cursor=pointer]
+            - generic [ref=e103]:
+              - img "Image" [ref=e105]
+              - img [ref=e107]
+            - button "Next"
+          - generic [ref=e110]:
+            - button "Image" [ref=e111]
+            - button "Image" [ref=e113]
+        - link "Skip to the beginning of the images gallery" [ref=e115] [cursor=pointer]:
+          - /url: "#gallery-prev-area"
+      - tablist [ref=e117]:
+        - tab "Details" [expanded] [ref=e118]:
+          - link "Details" [ref=e119] [cursor=pointer]:
+            - /url: "#description"
+        - tabpanel "Details" [ref=e120]:
+          - generic [ref=e123]:
+            - heading "Product Quick Look" [level=2] [ref=e124]
+            - generic [ref=e125]:
+              - list [ref=e127]:
+                - listitem [ref=e128]: "High-Quality Dentist Made Dental ProductsWe are committed to delivering professional-quality dental products and mouth guards. We ensure that our products are made of safe materials, well-constructed, and comfortable to use every single day. Our night guard is the best solution for grinders and teeth whitening.Soft and ComfortableIn addition to their primary use as a mouth guard for teeth grinding, the guards can also serve as athletic mouth guards and teeth whitening traysDeeply SleepingReach for Plackers Grind No More Night Guards before you hit the pillow every night. They feel good and help curb bruxism, more commonly referred to as teeth grinding or clenching.Dentist RecommendationDeveloped professional dentists team, sold in dental clinics more than 120 countries and recommended by dentists.HOW TO USEEasy to shape and more comfortable to use:"
+                - listitem [ref=e129]: ENJOY QUIET & PEACEFUL REST AT NIGHT - Our professional dental guards are the ideal solution for nighttime teeth-grinding, clenching , allowing you to sleep continuously through the night!
+                - listitem [ref=e130]: ALL NIGHT ANTI-TEETH GRINDING - Healva provides excellent & professional relief for both people who grind their teeth and their loved ones by eliminating the habit and improving sleep quality so that everyone in the family can have a good night¡¯s rest.
+                - listitem [ref=e131]: RECOMMENDED SPORTS - Suitable for all contact sports where a mouth guard is required or recommended including football, wrestling, boxing, and more!
+                - listitem [ref=e132]: "100% SAFE MEDICAL GRADE SILICONE: Healva mouth guard is made with premium medical grade silicone that is completely nontoxic and safe. In fact, our durable mouth guards are BPA-free and dentist approved, so you can have some peace of mount and wear them without fear. You can also use these tooth grinding mouth guards as teeth whitening trays or as safeguard for athletes."
+                - listitem [ref=e133]: "TAKE THE MOUTH GUARD WITH YOU WHEN YOU TRAVEL: The item come with a free hight quality case."
+              - table [ref=e135]:
+                - rowgroup [ref=e136]:
+                  - row "Brand Name ‎Foqitoxi" [ref=e137]:
+                    - rowheader "Brand Name" [ref=e138]
+                    - cell "‎Foqitoxi" [ref=e139]
+                  - row "Model Name ‎MTHGRD" [ref=e140]:
+                    - rowheader "Model Name" [ref=e141]
+                    - cell "‎MTHGRD" [ref=e142]
+                  - row "Manufacturer ‎foqitoxi" [ref=e143]:
+                    - rowheader "Manufacturer" [ref=e144]
+                    - cell "‎foqitoxi" [ref=e145]
+                  - row "Part Number ‎MTHGRD" [ref=e146]:
+                    - rowheader "Part Number" [ref=e147]
+                    - cell "‎MTHGRD" [ref=e148]
+                  - row "Date First Available July 8, 2021" [ref=e149]:
+                    - rowheader "Date First Available" [ref=e150]
+                    - cell "July 8, 2021" [ref=e151]
+        - tab "Reviews" [ref=e152]:
+          - link "Reviews" [ref=e153] [cursor=pointer]:
+            - /url: "#reviews"
+        - text: "*       * * *"
+  - contentinfo [ref=e154]:
+    - generic [ref=e155]:
+      - generic [ref=e158]:
+        - generic [ref=e160]:
+          - text: 
+          - generic [ref=e161]:
+            - generic [ref=e162]: "Sign Up for Our Newsletter:"
+            - textbox "Sign Up for Our Newsletter:" [ref=e163]:
+              - /placeholder: Enter your email address
+        - button "Subscribe" [ref=e165] [cursor=pointer]
+      - list [ref=e166]:
+        - listitem [ref=e167]:
+          - link "Privacy and Cookie Policy" [ref=e168] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/privacy-policy-cookie-restriction-mode/
+        - listitem [ref=e169]:
+          - link "Search Terms" [ref=e170] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/search/term/popular/
+        - listitem [ref=e171]:
+          - link "Advanced Search" [ref=e172] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/catalogsearch/advanced/
+        - listitem [ref=e173]:
+          - link "Orders and Returns" [ref=e174] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/sales/guest/form/
+        - listitem [ref=e175]:
+          - link "Contact Us" [ref=e176] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/contact/
+      - generic [ref=e177]: Copyright © 2013-present Magento, Inc. All rights reserved.
+      - generic [ref=e178]:
+        - text: Help Us Keep Magento Healthy
+        - link "Report All Bugs" [ref=e179] [cursor=pointer]:
+          - /url: http://www.magentocommerce.com/bug-tracking

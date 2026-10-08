@@ -1,0 +1,10 @@
+{
+  "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/breath-fresheners.html",
+  "title": "Breath Fresheners - Oral Care - Beauty & Personal Care",
+  "route": "/beauty-personal-care/oral-care/breath-fresheners.html",
+  "sources": {
+    "accessibility": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\01-drive\\trace\\26_10_08_11_08_15-min\\drive\\screenshots\\027_beauty-personal-care_oral-care_breath-fresheners_html\\accessibility.json",
+    "sha256_AX": "24a37ab9b29e4f63c7cbe43bdbc031e757093508115ea64e3fdb3e56f26b1644"
+  },
+  "material_scope": "recorded UI and conservatively associated JSON responses"
+}

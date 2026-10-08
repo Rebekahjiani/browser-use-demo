@@ -1,0 +1,278 @@
+{
+  "captured_at": "2026-10-08T03:00:17.154411+00:00",
+  "method": "Read-only catalog relation and image sources; no user/cart/order data",
+  "queries": {
+    "category_membership": "SELECT cp.category_id,cp.product_id,cp.position,u.request_path FROM catalog_category_product cp JOIN url_rewrite u ON u.entity_type='product' AND u.entity_id=cp.product_id AND u.store_id=1 WHERE cp.category_id=3 ORDER BY cp.position,cp.product_id LIMIT 30",
+    "image_renderer": "SELECT entity_id,attribute_id,store_id,value FROM catalog_product_entity_varchar WHERE entity_id IN (16,6516) AND attribute_id IN (SELECT attribute_id FROM eav_attribute WHERE attribute_code IN ('image','small_image','thumbnail','image_label','small_image_label','thumbnail_label','swatch_image')) ORDER BY entity_id,attribute_id,store_id"
+  },
+  "data": {
+    "category_membership": [
+      {
+        "category_id": 3,
+        "product_id": 16,
+        "position": 1,
+        "request_path": "toothbrush-head-cover-toothbrush-protective-case-toothbrush-head-cap-for-home-travel-camping-lightweight-safe-protecting-toothbrush-head-light-blue.html"
+      },
+      {
+        "category_id": 3,
+        "product_id": 17,
+        "position": 1,
+        "request_path": "body-drench-quick-tan-sunless-tanning-self-tan-dry-oil-for-bronze-glowing-skin-in-just-hours-7-2-oz.html"
+      },
+      {
+        "category_id": 3,
+        "product_id": 18,
+        "position": 1,
+        "request_path": "dalin-64-sheets-temporary-tattoos-warrior-elephant-dead-skull-koi-fish-eagle-hawks-40-small-tattoo-sheets.html"
+      },
+      {
+        "category_id": 3,
+        "product_id": 19,
+        "position": 1,
+        "request_path": "toolworx-precision-cut-pro-toenail-nipper.html"
+      },
+      {
+        "category_id": 3,
+        "product_id": 20,
+        "position": 1,
+        "request_path": "cwhaircare-growth-set-the-cw-hair-care-2-piece-starter-kit-prevents-breakage-by-96-helps-to-grow-your-edges-crown-back-and-helps-hair-to-grow-13x-longer-after-just-1-use-you-ll-have-stronger-healthier-hair.html"
+      },
+      {
+        "category_id": 3,
+        "product_id": 21,
+        "position": 1,
+        "request_path": "lydztion-2pcs-waterproof-travel-toiletry-bag-cosmetic-make-up-organizer-large-travel-toiletry-bag-for-women-and-girls-pink.html"
+      },
+      {
+        "category_id": 3,
+        "product_id": 22,
+        "position": 1,
+        "request_path": "face-body-paint-12-color-flash-palette-face-body-sfx-makeup-palette-special-effects-face-painting-palette-for-art-theater-halloween-parties-and-cosplay-style-a.html"
+      },
+      {
+        "category_id": 3,
+        "product_id": 23,
+        "position": 1,
+        "request_path": "sheamoisture-hair-masque-for-dry-curls-coconut-hibiscus-hair-mask-with-shea-butter-2-oz.html"
+      },
+      {
+        "category_id": 3,
+        "product_id": 24,
+        "position": 1,
+        "request_path": "6-pcs-professional-extra-long-hair-cutting-cape-with-neck-duster-brush-55-x-63-inches-salon-haircut-apron-kits-hair-comb-and-clips-barber-cape-water-and-stain-resistant.html"
+      },
+      {
+        "category_id": 3,
+        "product_id": 25,
+        "position": 1,
+        "request_path": "jamhoodirect-essential-oil-bottles-10ml-premium-quality-glass-refillable-roll-on-roller-bottles-with-lid-opener-pry-tool-set-of-6-for-aromatherapy-essential-oils.html"
+      },
+      {
+        "category_id": 3,
+        "product_id": 26,
+        "position": 1,
+        "request_path": "tommy-bahama-st-barts-women-s-gift-set-3-4-fl-oz.html"
+      },
+      {
+        "category_id": 3,
+        "product_id": 27,
+        "position": 1,
+        "request_path": "kabuki-makeup-brush-set-best-for-bare-natural-look-used-for-foundation-makeup-mineral-powders-blushes-includes-flat-round-and-angled-brushes-protective-case-professional-quality.html"
+      },
+      {
+        "category_id": 3,
+        "product_id": 28,
+        "position": 1,
+        "request_path": "shower-cap-reusable-waterproof-shower-bonnet-cap-adjustable-extra-large-capacity-shower-caps-suitable-for-most-people-white-leopard.html"
+      },
+      {
+        "category_id": 3,
+        "product_id": 29,
+        "position": 1,
+        "request_path": "afuower-nail-polish-organizer-bag-with-handles-holds-30-bottles-15ml-0-5-fl-oz-travel-case-portable-storage-bag-for-manicure-set-pink.html"
+      },
+      {
+        "category_id": 3,
+        "product_id": 30,
+        "position": 1,
+        "request_path": "2-boxes-holographic-nail-powder-rainbow-holographic-mirror-laser-effect-multi-chrome-manicure-pigment-glitter-dust-for-salon-home-nail-art-diy-deco-with-sponge-tool-2pcs.html"
+      },
+      {
+        "category_id": 3,
+        "product_id": 31,
+        "position": 1,
+        "request_path": "nfegsiya-eyebrow-razor-3-4-10pcs-eyebrow-trimmer-blade-shaver-portable-face-razor-eye-brow-epilation-hair-removal-cutters-safety-razor-woman-makeup-color-3pcs-blue.html"
+      },
+      {
+        "category_id": 3,
+        "product_id": 32,
+        "position": 1,
+        "request_path": "leonor-greyl-paris-masque-a-l-orchidee-deep-conditioning-mask-for-dry-thick-or-frizzy-hair-travel-tube-1-7-oz.html"
+      },
+      {
+        "category_id": 3,
+        "product_id": 33,
+        "position": 1,
+        "request_path": "newzoll-8pcs-glass-roll-on-bottles-10ml-1-3oz-pearl-purple-essential-oil-roller-bottles-vials-rolling-bottles-container-for-skincare-cosmetics-aromatherapy-perfume-gold-cap.html"
+      },
+      {
+        "category_id": 3,
+        "product_id": 34,
+        "position": 1,
+        "request_path": "8-packs-spray-bottles-2oz-60ml-empty-bottle-eipogp-mini-travel-size-spray-bottle-accessories-refillable-container-mist-bottles-clear-travel-bottles-for-essential-oil-perfume-cleaning-black.html"
+      },
+      {
+        "category_id": 3,
+        "product_id": 35,
+        "position": 1,
+        "request_path": "xubiaodian-portable-professional-cordless-dental-oral-irrigator-2cleaning-modes-5-jet-tips-ipx7-waterproof-for-travel-and-home-use.html"
+      },
+      {
+        "category_id": 3,
+        "product_id": 36,
+        "position": 1,
+        "request_path": "la-roche-posay-effaclar-clarifying-solution-acne-toner-with-salicylic-acid-and-glycolic-acid-gentle-exfoliant-to-unclog-pores-and-remove-dead-skin-cells-6-76-fl-oz-pack-of-1.html"
+      },
+      {
+        "category_id": 3,
+        "product_id": 37,
+        "position": 1,
+        "request_path": "eyeliner-stencil-for-perfect-smokey-eyes-or-winged-tip-look-created-by-celebrity-makeup-artist-reusable-easy-to-clean-flexible-cruelty-free-vegan-made-in-usa-cat-eyeliner-smoky-eyeliner.html"
+      },
+      {
+        "category_id": 3,
+        "product_id": 38,
+        "position": 1,
+        "request_path": "penhaligon-s-iris-prima-eau-de-parfum-spray-1-7-fl-oz.html"
+      },
+      {
+        "category_id": 3,
+        "product_id": 39,
+        "position": 1,
+        "request_path": "mancera-black-eau-de-parfum-spray-gold-4-fl-oz.html"
+      },
+      {
+        "category_id": 3,
+        "product_id": 40,
+        "position": 1,
+        "request_path": "liese-creamy-bubble-color-dark-navy-1-s-making-the-hair-colouring-process-effortless-with-it-s-easy-to-use-bubble-foam.html"
+      },
+      {
+        "category_id": 3,
+        "product_id": 41,
+        "position": 1,
+        "request_path": "shower-cap-cute-dogs-isolated-on-pink-double-waterproof-layers-bathing-shower-hat-hair-protection-peva-shower-caps-reusable.html"
+      },
+      {
+        "category_id": 3,
+        "product_id": 42,
+        "position": 1,
+        "request_path": "hollywood-beauty-jamaican-black-castor-hair-oil-2-oz.html"
+      },
+      {
+        "category_id": 3,
+        "product_id": 43,
+        "position": 1,
+        "request_path": "girls-can-say-anything-perfume-eau-de-parfum-spray-general-to-dating-or-work-1-6-oz-eau-de-parfum-spray-perfume-for-womenquality-guarantee.html"
+      },
+      {
+        "category_id": 3,
+        "product_id": 44,
+        "position": 1,
+        "request_path": "upgraded-exfoliating-loofah-sponge-pads-with-adhesive-wall-hooks-natural-luffa-body-scrubber-shower-body-glove-close-skin-for-men-and-women-bath-spa-oval-3-piece-beige.html"
+      },
+      {
+        "category_id": 3,
+        "product_id": 45,
+        "position": 1,
+        "request_path": "organic-castor-oil-for-eyelashes-and-eyebrows-16-fl-oz-traditionally-used-for-hair-growth-natural-hair-eyelash-serum-with-beauty-kit-included-usda-organic-cold-pressed-castor-oil.html"
+      }
+    ],
+    "image_renderer": [
+      {
+        "entity_id": 16,
+        "attribute_id": 87,
+        "store_id": 0,
+        "value": "/B/0/B091BB3B86.1.jpg"
+      },
+      {
+        "entity_id": 16,
+        "attribute_id": 88,
+        "store_id": 0,
+        "value": "/B/0/B091BB3B86.0_1.jpg"
+      },
+      {
+        "entity_id": 16,
+        "attribute_id": 89,
+        "store_id": 0,
+        "value": "/B/0/B091BB3B86.0_1.jpg"
+      },
+      {
+        "entity_id": 16,
+        "attribute_id": 109,
+        "store_id": 0,
+        "value": "Image"
+      },
+      {
+        "entity_id": 16,
+        "attribute_id": 110,
+        "store_id": 0,
+        "value": "Image"
+      },
+      {
+        "entity_id": 16,
+        "attribute_id": 111,
+        "store_id": 0,
+        "value": "Image"
+      },
+      {
+        "entity_id": 16,
+        "attribute_id": 135,
+        "store_id": 0,
+        "value": "/B/0/B091BB3B86.0_1.jpg"
+      },
+      {
+        "entity_id": 6516,
+        "attribute_id": 87,
+        "store_id": 0,
+        "value": "/B/0/B0912T6WWG.1.jpg"
+      },
+      {
+        "entity_id": 6516,
+        "attribute_id": 88,
+        "store_id": 0,
+        "value": "/B/0/B0912T6WWG.0.jpg"
+      },
+      {
+        "entity_id": 6516,
+        "attribute_id": 89,
+        "store_id": 0,
+        "value": "/B/0/B0912T6WWG.0.jpg"
+      },
+      {
+        "entity_id": 6516,
+        "attribute_id": 109,
+        "store_id": 0,
+        "value": "Image"
+      },
+      {
+        "entity_id": 6516,
+        "attribute_id": 110,
+        "store_id": 0,
+        "value": "Image"
+      },
+      {
+        "entity_id": 6516,
+        "attribute_id": 111,
+        "store_id": 0,
+        "value": "Image"
+      },
+      {
+        "entity_id": 6516,
+        "attribute_id": 135,
+        "store_id": 0,
+        "value": "/B/0/B0912T6WWG.0.jpg"
+      }
+    ]
+  }
+}

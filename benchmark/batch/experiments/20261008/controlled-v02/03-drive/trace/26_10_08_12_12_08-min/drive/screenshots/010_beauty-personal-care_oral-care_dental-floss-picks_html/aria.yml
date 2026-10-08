@@ -1,0 +1,442 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - link "Skip to Content" [ref=e4] [cursor=pointer]:
+      - /url: "#contentarea"
+    - generic [ref=e5]:
+      - generic [ref=e6] [cursor=pointer]:
+        - text: 
+        - generic [ref=e7]: Toggle Nav
+      - link "store logo" [ref=e8] [cursor=pointer]:
+        - /url: http://127.0.0.1:7770/
+        - img "one_stop_market_logo" [ref=e9]
+      - generic [ref=e10]:
+        - link " My Cart" [ref=e11] [cursor=pointer]:
+          - /url: http://127.0.0.1:7770/checkout/cart/
+          - text: 
+          - generic [ref=e12]: My Cart
+        - text: 
+      - generic [ref=e16]:
+        - generic [ref=e17]:
+          - text: 
+          - generic [ref=e18]: Search
+        - combobox " Search" [ref=e20]
+  - tablist [ref=e22]:
+    - tab "Menu" [expanded] [ref=e23]:
+      - link "Menu" [ref=e24] [cursor=pointer]:
+        - /url: "#store.menu"
+    - tabpanel [ref=e25]:
+      - navigation [ref=e26]:
+        - menu [ref=e27]:
+          - listitem [ref=e28]:
+            - menuitem "Beauty & Personal Care " [ref=e29] [cursor=pointer]: Beauty & Personal Care 
+          - listitem [ref=e30]:
+            - menuitem "Sports & Outdoors " [ref=e31] [cursor=pointer]: Sports & Outdoors 
+          - listitem [ref=e32]:
+            - menuitem "Clothing, Shoes & Jewelry " [ref=e33] [cursor=pointer]: Clothing, Shoes & Jewelry 
+          - listitem [ref=e34]:
+            - menuitem "Home & Kitchen " [ref=e35] [cursor=pointer]: Home & Kitchen 
+          - listitem [ref=e36]:
+            - menuitem "Office Products " [ref=e37] [cursor=pointer]: Office Products 
+          - listitem [ref=e38]:
+            - menuitem "Tools & Home Improvement " [ref=e39] [cursor=pointer]: Tools & Home Improvement 
+          - listitem [ref=e40]:
+            - menuitem "Health & Household " [ref=e41] [cursor=pointer]: Health & Household 
+          - listitem [ref=e42]:
+            - menuitem "Patio, Lawn & Garden " [ref=e43] [cursor=pointer]: Patio, Lawn & Garden 
+          - listitem [ref=e44]:
+            - menuitem "Electronics " [ref=e45] [cursor=pointer]: Electronics 
+          - listitem [ref=e46]:
+            - menuitem "Cell Phones & Accessories " [ref=e47] [cursor=pointer]: Cell Phones & Accessories 
+          - listitem [ref=e48]:
+            - menuitem "Video Games " [ref=e49] [cursor=pointer]: Video Games 
+          - listitem [ref=e50]:
+            - menuitem "Grocery & Gourmet Food " [ref=e51] [cursor=pointer]: Grocery & Gourmet Food 
+    - tab "Account" [ref=e52]:
+      - link "Account" [ref=e53] [cursor=pointer]:
+        - /url: "#store.links"
+  - list [ref=e55]:
+    - listitem [ref=e56]:
+      - link "Home" [ref=e57] [cursor=pointer]:
+        - /url: http://127.0.0.1:7770/
+      - text: 
+    - listitem [ref=e58]:
+      - link "Beauty & Personal Care" [ref=e59] [cursor=pointer]:
+        - /url: http://127.0.0.1:7770/beauty-personal-care.html
+      - text: 
+    - listitem [ref=e60]:
+      - link "Oral Care" [ref=e61] [cursor=pointer]:
+        - /url: http://127.0.0.1:7770/beauty-personal-care/oral-care.html
+      - text: 
+    - listitem [ref=e62]:
+      - strong [ref=e63]: Dental Floss & Picks
+  - main [ref=e64]:
+    - heading "Dental Floss & Picks Items 1-12 of 441" [level=1] [ref=e66]: Dental Floss & Picks
+    - generic [ref=e67]:
+      - generic [ref=e68]:
+        - generic [ref=e69]:
+          - paragraph [ref=e70]: Items 1-12 of 441
+          - generic [ref=e71]:
+            - text: Sort By
+            - combobox "Sort By" [ref=e72]:
+              - option "Position" [selected]
+              - option "Product Name"
+              - option "Price"
+            - link " Set Descending Direction" [ref=e73] [cursor=pointer]:
+              - /url: "#"
+              - text: 
+              - generic [ref=e74]: Set Descending Direction
+        - list [ref=e76]:
+          - listitem [ref=e77]:
+            - generic [ref=e78]:
+              - link "Image" [ref=e79] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/soft-clean-between-interdental-floss-brushes-random-color-oral-care-tool-20-pcs-2-pack-elastic-massage-gums-toothpick-2-box.html
+                - img "Image" [ref=e82]
+              - generic [ref=e83]:
+                - strong [ref=e84]:
+                  - link "Soft Clean Between Interdental Floss Brushes Random Color Oral Care Tool 20 PCS/ 2 Pack Elastic Massage Gums Toothpick (2 box)" [ref=e85] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/soft-clean-between-interdental-floss-brushes-random-color-oral-care-tool-20-pcs-2-pack-elastic-massage-gums-toothpick-2-box.html
+                - generic [ref=e88]: $8.90
+                - generic [ref=e90]:
+                  - button "Add to Cart" [ref=e93] [cursor=pointer]
+                  - generic [ref=e94]:
+                    - button "Add to Wish List" [ref=e95] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e96]: Add to Wish List
+                    - text: 
+          - listitem [ref=e97]:
+            - generic [ref=e98]:
+              - link "Image" [ref=e99] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/huixinliang-tooth-cleaner-water-floss-4-modes-usb-rechargeable-portable-water-dental-flosser-cordless-tooth-cleaner-with-8-levels-water-teeth-cleaner-picks-for-home-travel.html
+                - img "Image" [ref=e102]
+              - generic [ref=e103]:
+                - strong [ref=e104]:
+                  - link "HUIXINLIANG Tooth Cleaner Water Floss,4 Modes USB Rechargeable Portable Water Dental Flosser Cordless,Tooth Cleaner with 8 Levels,Water Teeth Cleaner Picks for Home Travel" [ref=e105] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/huixinliang-tooth-cleaner-water-floss-4-modes-usb-rechargeable-portable-water-dental-flosser-cordless-tooth-cleaner-with-8-levels-water-teeth-cleaner-picks-for-home-travel.html
+                - generic [ref=e108]: $224.76
+                - generic [ref=e110]:
+                  - button "Add to Cart" [ref=e113] [cursor=pointer]
+                  - generic [ref=e114]:
+                    - button "Add to Wish List" [ref=e115] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e116]: Add to Wish List
+                    - text: 
+          - listitem [ref=e117]:
+            - generic [ref=e118]:
+              - link "Image" [ref=e119] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/my-stuff-dental-floss-picks-strong-waxed-ribbon-for-oral-care-hygiene-maintenance-non-slip-handle-fresh-mint-flavor-150-count-pack-of-4.html
+                - img "Image" [ref=e122]
+              - generic [ref=e123]:
+                - strong [ref=e124]:
+                  - link "My Stuff Dental Floss Picks, Strong Waxed Ribbon for Oral Care, Hygiene Maintenance, Non-Slip Handle, Fresh Mint Flavor, 150 Count, Pack of 4" [ref=e125] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/my-stuff-dental-floss-picks-strong-waxed-ribbon-for-oral-care-hygiene-maintenance-non-slip-handle-fresh-mint-flavor-150-count-pack-of-4.html
+                - generic [ref=e128]: $9.99
+                - generic [ref=e130]:
+                  - button "Add to Cart" [ref=e133] [cursor=pointer]
+                  - generic [ref=e134]:
+                    - button "Add to Wish List" [ref=e135] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e136]: Add to Wish List
+                    - text: 
+          - listitem [ref=e137]:
+            - generic [ref=e138]:
+              - link "Image" [ref=e139] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/water-flosser-cordless-dental-water-picks-for-teeth-cleaning-3-modes-7-jet-tips-ipx7-waterproof-usb-charged-5-hrs-for-50-days-use-portable-oral-irrigator-for-home-travel-braces-bridges-care.html
+                - img "Image" [ref=e142]
+              - generic [ref=e143]:
+                - strong [ref=e144]:
+                  - link "Water Flosser Cordless,Dental Water Picks for Teeth Cleaning :3 Modes 7 Jet Tips,IPX7 Waterproof,USB Charged 5 Hrs for 50-Days Use,Portable Oral Irrigator for Home,Travel,Braces,Bridges,Care" [ref=e145] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/water-flosser-cordless-dental-water-picks-for-teeth-cleaning-3-modes-7-jet-tips-ipx7-waterproof-usb-charged-5-hrs-for-50-days-use-portable-oral-irrigator-for-home-travel-braces-bridges-care.html
+                - generic [ref=e148]: $39.99
+                - generic [ref=e150]:
+                  - button "Add to Cart" [ref=e153] [cursor=pointer]
+                  - generic [ref=e154]:
+                    - button "Add to Wish List" [ref=e155] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e156]: Add to Wish List
+                    - text: 
+          - listitem [ref=e157]:
+            - generic [ref=e158]:
+              - link "Image" [ref=e159] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/supvox-200pcs-interdental-picks-dental-brush-picks-double-head-dental-floss-interdental-cleaners-white.html
+                - img "Image" [ref=e162]
+              - generic [ref=e163]:
+                - strong [ref=e164]:
+                  - link "SUPVOX 200pcs Interdental Picks Dental Brush Picks Double Head Dental Floss Interdental Cleaners (White)" [ref=e165] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/supvox-200pcs-interdental-picks-dental-brush-picks-double-head-dental-floss-interdental-cleaners-white.html
+                - generic [ref=e168]: $7.31
+                - generic [ref=e170]:
+                  - button "Add to Cart" [ref=e173] [cursor=pointer]
+                  - generic [ref=e174]:
+                    - button "Add to Wish List" [ref=e175] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e176]: Add to Wish List
+                    - text: 
+          - listitem [ref=e177]:
+            - generic [ref=e178]:
+              - link "Image" [ref=e179] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/floss-picks-disposable-dental-flossers-the-perfect-pick-for-adults-and-kids-pack-of-270-tooth-flossing-tools.html
+                - img "Image" [ref=e182]
+              - generic [ref=e183]:
+                - strong [ref=e184]:
+                  - link "Floss Picks Disposable Dental Flossers - The Perfect Pick for Adults and Kids - Pack of 270 Tooth Flossing Tools" [ref=e185] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/floss-picks-disposable-dental-flossers-the-perfect-pick-for-adults-and-kids-pack-of-270-tooth-flossing-tools.html
+                - generic [ref=e188]: $9.99
+                - generic [ref=e190]:
+                  - button "Add to Cart" [ref=e193] [cursor=pointer]
+                  - generic [ref=e194]:
+                    - button "Add to Wish List" [ref=e195] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e196]: Add to Wish List
+                    - text: 
+          - listitem [ref=e197]:
+            - generic [ref=e198]:
+              - link "Image" [ref=e199] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/czepa-replacement-classic-jet-tips-compatible-with-waterpik-wp-560-wp-562-wp-563-wp-567-wp-569-cordless-advanced-water-flosser-tips-storage-case.html
+                - img "Image" [ref=e202]
+              - generic [ref=e203]:
+                - strong [ref=e204]:
+                  - link "Czepa Replacement Classic Jet Tips Compatible with Waterpik WP-560 WP-562 WP-563 WP-567 WP-569 Cordless Advanced Water Flosser Tips & Storage Case" [ref=e205] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/czepa-replacement-classic-jet-tips-compatible-with-waterpik-wp-560-wp-562-wp-563-wp-567-wp-569-cordless-advanced-water-flosser-tips-storage-case.html
+                - generic [ref=e208]: $8.99
+                - generic [ref=e210]:
+                  - button "Add to Cart" [ref=e213] [cursor=pointer]
+                  - generic [ref=e214]:
+                    - button "Add to Wish List" [ref=e215] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e216]: Add to Wish List
+                    - text: 
+          - listitem [ref=e217]:
+            - generic [ref=e218]:
+              - link "Image" [ref=e219] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/jubinren-complete-micro-mint-dental-floss-picks-100-count-50-floss-sticks-white.html
+                - generic [ref=e221]:
+                  - img "Image"
+              - generic [ref=e222]:
+                - strong [ref=e223]:
+                  - link "JUBINREN Complete Micro Mint Dental Floss Picks, 100 Count (50 floss sticks, white)" [ref=e224] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/jubinren-complete-micro-mint-dental-floss-picks-100-count-50-floss-sticks-white.html
+                - generic [ref=e227]: $7.99
+                - generic [ref=e229]:
+                  - button "Add to Cart" [ref=e232] [cursor=pointer]
+                  - generic [ref=e233]:
+                    - button "Add to Wish List" [ref=e234] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e235]: Add to Wish List
+                    - text: 
+          - listitem [ref=e236]:
+            - generic [ref=e237]:
+              - link "Image" [ref=e238] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/g-s-31-pcs-oral-dental-extraction-extracting-forceps-elevators-mirrors-with-scalpel-blades-21.html
+                - generic [ref=e240]:
+                  - img "Image"
+              - generic [ref=e241]:
+                - strong [ref=e242]:
+                  - 'link "G.S 31 PCS Oral Dental Extraction EXTRACTING Forceps Elevators Mirrors with Scalpel Blades #21" [ref=e243] [cursor=pointer]':
+                    - /url: http://127.0.0.1:7770/g-s-31-pcs-oral-dental-extraction-extracting-forceps-elevators-mirrors-with-scalpel-blades-21.html
+                - generic [ref=e246]: $99.97
+                - generic [ref=e248]:
+                  - button "Add to Cart" [ref=e251] [cursor=pointer]
+                  - generic [ref=e252]:
+                    - button "Add to Wish List" [ref=e253] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e254]: Add to Wish List
+                    - text: 
+          - listitem [ref=e255]:
+            - generic [ref=e256]:
+              - link "Image" [ref=e257] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/doitool-15pcs-interdental-brushes-toothpicks-tooth-brush-cleaners-dental-tooth-flossing-head-oral-dental-hygiene-angle-cleaner.html
+                - generic [ref=e259]:
+                  - img "Image"
+              - generic [ref=e260]:
+                - strong [ref=e261]:
+                  - link "DOITOOL 15Pcs Interdental Brushes Toothpicks Tooth Brush Cleaners Dental Tooth Flossing Head Oral Dental Hygiene Angle Cleaner" [ref=e262] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/doitool-15pcs-interdental-brushes-toothpicks-tooth-brush-cleaners-dental-tooth-flossing-head-oral-dental-hygiene-angle-cleaner.html
+                - generic [ref=e265]: $12.89
+                - generic [ref=e267]:
+                  - button "Add to Cart" [ref=e270] [cursor=pointer]
+                  - generic [ref=e271]:
+                    - button "Add to Wish List" [ref=e272] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e273]: Add to Wish List
+                    - text: 
+          - listitem [ref=e274]:
+            - generic [ref=e275]:
+              - link "Image" [ref=e276] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/healifty-dental-interdental-brush-cleaners-interdental-floss-brush-toothpick-600pcs.html
+                - generic [ref=e278]:
+                  - img "Image"
+              - generic [ref=e279]:
+                - strong [ref=e280]:
+                  - link "HEALIFTY Dental Interdental Brush Cleaners Interdental Floss Brush Toothpick 600pcs" [ref=e281] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/healifty-dental-interdental-brush-cleaners-interdental-floss-brush-toothpick-600pcs.html
+                - generic [ref=e284]: $9.59
+                - generic [ref=e286]:
+                  - button "Add to Cart" [ref=e289] [cursor=pointer]
+                  - generic [ref=e290]:
+                    - button "Add to Wish List" [ref=e291] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e292]: Add to Wish List
+                    - text: 
+          - listitem [ref=e293]:
+            - generic [ref=e294]:
+              - link "Image" [ref=e295] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/replacement-orthodontic-tips-compatible-with-waterpik-water-flossers-and-other-brand-oral-irrigators-4-pack.html
+                - generic [ref=e297]:
+                  - img "Image"
+              - generic [ref=e298]:
+                - strong [ref=e299]:
+                  - link "Replacement Orthodontic Tips Compatible with Waterpik Water Flossers and Other Brand Oral Irrigators (4-pack)" [ref=e300] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/replacement-orthodontic-tips-compatible-with-waterpik-water-flossers-and-other-brand-oral-irrigators-4-pack.html
+                - generic [ref=e301]:
+                  - generic [ref=e302]:
+                    - generic [ref=e303]: "Rating:"
+                    - generic "60%" [ref=e304]:
+                      - text: 
+                      - generic [ref=e305]:
+                        - text: 
+                        - generic [ref=e306]: 60%
+                  - link "12 Reviews" [ref=e308] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/replacement-orthodontic-tips-compatible-with-waterpik-water-flossers-and-other-brand-oral-irrigators-4-pack.html#reviews
+                - generic [ref=e311]: $12.99
+                - generic [ref=e313]:
+                  - button "Add to Cart" [ref=e316] [cursor=pointer]
+                  - generic [ref=e317]:
+                    - button "Add to Wish List" [ref=e318] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e319]: Add to Wish List
+                    - text: 
+        - generic [ref=e321]:
+          - strong [ref=e322]: Page
+          - list "Page" [ref=e323]:
+            - listitem [ref=e324]:
+              - strong [ref=e325]:
+                - generic [ref=e326]: You're currently reading page
+                - text: "1"
+            - listitem [ref=e327]:
+              - link "Page 2" [ref=e328] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/beauty-personal-care/oral-care/dental-floss-picks.html?p=2
+                - generic [ref=e329]: Page
+                - text: "2"
+            - listitem [ref=e330]:
+              - link "Page 3" [ref=e331] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/beauty-personal-care/oral-care/dental-floss-picks.html?p=3
+                - generic [ref=e332]: Page
+                - text: "3"
+            - listitem [ref=e333]:
+              - link "Page 4" [ref=e334] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/beauty-personal-care/oral-care/dental-floss-picks.html?p=4
+                - generic [ref=e335]: Page
+                - text: "4"
+            - listitem [ref=e336]:
+              - link "Page 5" [ref=e337] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/beauty-personal-care/oral-care/dental-floss-picks.html?p=5
+                - generic [ref=e338]: Page
+                - text: "5"
+            - listitem [ref=e339]:
+              - link " Page Next" [ref=e340] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/beauty-personal-care/oral-care/dental-floss-picks.html?p=2
+                - text: 
+                - generic [ref=e341]: Page
+                - generic [ref=e342]: Next
+      - generic [ref=e344]:
+        - strong [ref=e346]: Shop By
+        - generic [ref=e347]:
+          - heading "Shopping Options" [level=2] [ref=e348]
+          - generic [ref=e349]:
+            - heading "Price" [level=3] [ref=e350]
+            - definition [ref=e351]:
+              - list [ref=e352]:
+                - listitem [ref=e353]:
+                  - link "$0.00 - $99.99( 384 item )" [ref=e354] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/beauty-personal-care/oral-care/dental-floss-picks.html?price=0-100
+                    - text: $0.00 - $99.99
+                    - generic [ref=e355]:
+                      - text: ( 384
+                      - generic [ref=e356]: item
+                      - text: )
+                - listitem [ref=e357]:
+                  - link "$100.00 - $199.99( 34 item )" [ref=e358] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/beauty-personal-care/oral-care/dental-floss-picks.html?price=100-200
+                    - text: $100.00 - $199.99
+                    - generic [ref=e359]:
+                      - text: ( 34
+                      - generic [ref=e360]: item
+                      - text: )
+                - listitem [ref=e361]:
+                  - link "$200.00 - $299.99( 11 item )" [ref=e362] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/beauty-personal-care/oral-care/dental-floss-picks.html?price=200-300
+                    - text: $200.00 - $299.99
+                    - generic [ref=e363]:
+                      - text: ( 11
+                      - generic [ref=e364]: item
+                      - text: )
+                - listitem [ref=e365]:
+                  - link "$300.00 - $399.99( 6 item )" [ref=e366] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/beauty-personal-care/oral-care/dental-floss-picks.html?price=300-400
+                    - text: $300.00 - $399.99
+                    - generic [ref=e367]:
+                      - text: ( 6
+                      - generic [ref=e368]: item
+                      - text: )
+                - listitem [ref=e369]:
+                  - link "$400.00 - $499.99( 4 item )" [ref=e370] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/beauty-personal-care/oral-care/dental-floss-picks.html?price=400-500
+                    - text: $400.00 - $499.99
+                    - generic [ref=e371]:
+                      - text: ( 4
+                      - generic [ref=e372]: item
+                      - text: )
+                - listitem [ref=e373]:
+                  - link "$600.00 - $699.99( 1 item )" [ref=e374] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/beauty-personal-care/oral-care/dental-floss-picks.html?price=600-700
+                    - text: $600.00 - $699.99
+                    - generic [ref=e375]:
+                      - text: ( 1
+                      - generic [ref=e376]: item
+                      - text: )
+                - listitem [ref=e377]:
+                  - link "$700.00 and above( 1 item )" [ref=e378] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/beauty-personal-care/oral-care/dental-floss-picks.html?price=700-800
+                    - text: $700.00 and above
+                    - generic [ref=e379]:
+                      - text: ( 1
+                      - generic [ref=e380]: item
+                      - text: )
+      - generic [ref=e381]:
+        - generic [ref=e382]:
+          - heading "Compare Products" [level=2] [ref=e384]
+          - generic [ref=e385]: You have no items to compare.
+        - generic [ref=e386]:
+          - heading "My Wish List" [level=2] [ref=e388]
+          - generic [ref=e390]: You have no items in your wish list.
+  - contentinfo [ref=e391]:
+    - generic [ref=e392]:
+      - generic [ref=e395]:
+        - generic [ref=e397]:
+          - text: 
+          - generic [ref=e398]:
+            - generic [ref=e399]: "Sign Up for Our Newsletter:"
+            - textbox "Sign Up for Our Newsletter:" [ref=e400]:
+              - /placeholder: Enter your email address
+        - button "Subscribe" [ref=e402] [cursor=pointer]
+      - list [ref=e403]:
+        - listitem [ref=e404]:
+          - link "Privacy and Cookie Policy" [ref=e405] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/privacy-policy-cookie-restriction-mode/
+        - listitem [ref=e406]:
+          - link "Search Terms" [ref=e407] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/search/term/popular/
+        - listitem [ref=e408]:
+          - link "Advanced Search" [ref=e409] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/catalogsearch/advanced/
+        - listitem [ref=e410]:
+          - link "Orders and Returns" [ref=e411] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/sales/guest/form/
+        - listitem [ref=e412]:
+          - link "Contact Us" [ref=e413] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/contact/
+      - generic [ref=e414]: Copyright © 2013-present Magento, Inc. All rights reserved.
+      - generic [ref=e415]:
+        - text: Help Us Keep Magento Healthy
+        - link "Report All Bugs" [ref=e416] [cursor=pointer]:
+          - /url: http://www.magentocommerce.com/bug-tracking

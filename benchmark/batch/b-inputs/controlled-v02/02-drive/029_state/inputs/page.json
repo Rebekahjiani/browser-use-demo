@@ -1,0 +1,10 @@
+{
+  "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/oral-pain-relief.html",
+  "title": "Oral Pain Relief - Oral Care - Beauty & Personal Care",
+  "route": "/beauty-personal-care/oral-care/oral-pain-relief.html",
+  "sources": {
+    "accessibility": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\02-drive\\trace\\26_10_08_11_46_19-min\\drive\\screenshots\\037_beauty-personal-care_oral-care_oral-pain-relief_html\\accessibility.json",
+    "sha256_AX": "21b47ceee5c7c25e5545a592148eb36064676918ca05985a74c527269d2a0512"
+  },
+  "material_scope": "recorded UI and conservatively associated JSON responses"
+}

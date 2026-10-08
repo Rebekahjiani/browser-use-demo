@@ -1,0 +1,17 @@
+{"args":{"name":"swapper"},"cat":"__metadata","name":"thread_name","ph":"M","pid":0,"tid":0,"ts":0}
+{"args":{"name":"CrRendererMain"},"cat":"__metadata","name":"thread_name","ph":"M","pid":29548,"tid":40800,"ts":0}
+{"args":{"name":"Renderer"},"cat":"__metadata","name":"process_name","ph":"M","pid":29548,"tid":0,"ts":0}
+{"args":{"uptime":"664"},"cat":"__metadata","name":"process_uptime_seconds","ph":"M","pid":29548,"tid":0,"ts":0}
+{"args":{"args":{"had_user_input_before_interactive":true,"total_blocking_time_ms":54.858},"frame":""},"cat":"loading,rail","name":"InteractiveTime","ph":"R","pid":29548,"s":"t","tid":40800,"ts":1551173621445}
+{"args":{"args":{"had_user_input_before_interactive":false,"total_blocking_time_ms":54.858},"frame":""},"cat":"loading,rail","name":"InteractiveTime","ph":"R","pid":29548,"s":"t","tid":40800,"ts":1551173621445}
+{"args":{"snapshot":{"documentLoaderURL":"http://127.0.0.1:7770/?pbaocw=2","frame":{"id_ref":"E42C032F4AD866337E63F1AFCB2DA291"},"isLoadingMainFrame":true,"isOutermostMainFrame":true}},"cat":"loading","name":"FrameLoader:state_snapshot","ph":"I","pid":29548,"s":"t","tid":40800,"ts":1551350843572,"tts":9094211}
+{"args":{},"cat":"loading","name":"FrameLoader:deleted","ph":"I","pid":29548,"s":"t","tid":40800,"ts":1551350843617,"tts":9094238}
+{"args":{"substracted_bytes":0,"total_bytes_buffered":0},"cat":"loading","dur":1,"name":"BackForwardCacheBufferLimitTracker::DidRemoveFrameOrWorkerFromBackForwardCache","ph":"X","pid":29548,"tdur":1,"tid":40800,"ts":1551350843619,"tts":9094239}
+{"args":{"snapshot":{"documentLoaderURL":"http://127.0.0.1:7770/beauty-personal-care.html","frame":{"id_ref":"E42C032F4AD866337E63F1AFCB2DA291"},"isLoadingMainFrame":true,"isOutermostMainFrame":true}},"cat":"loading","name":"FrameLoader:state_snapshot","ph":"I","pid":29548,"s":"t","tid":40800,"ts":1551353785422,"tts":9098945}
+{"args":{},"cat":"loading","name":"FrameLoader:deleted","ph":"I","pid":29548,"s":"t","tid":40800,"ts":1551353785467,"tts":9098975}
+{"args":{"substracted_bytes":0,"total_bytes_buffered":0},"cat":"loading","dur":5,"name":"BackForwardCacheBufferLimitTracker::DidRemoveFrameOrWorkerFromBackForwardCache","ph":"X","pid":29548,"tdur":3,"tid":40800,"ts":1551353785530,"tts":9098991}
+{"args":{},"cat":"loading","id":0,"name":"FrameLoader:state_snapshot","ph":"s","pid":29548,"tid":40800,"ts":1551350843572}
+{"args":{},"bp":"e","cat":"loading","id":0,"name":"FrameLoader:state_snapshot","ph":"f","pid":29548,"tid":40800,"ts":1551350843617}
+{"args":{},"cat":"loading","id":1,"name":"FrameLoader:state_snapshot","ph":"s","pid":29548,"tid":40800,"ts":1551353785422}
+{"args":{},"bp":"e","cat":"loading","id":1,"name":"FrameLoader:state_snapshot","ph":"f","pid":29548,"tid":40800,"ts":1551353785467}
+{"args":{"context":{"URL":"","domModifications":1,"firstContentfulPaint":0,"paintedArea":0,"performanceTimelineNavigationId":0,"processingEnd":1551173719956,"softNavContextId":26,"timeOrigin":1551173718322,"urlChangeTime":0}},"cat":"loading","id2":{"local":"0x4"},"name":"SoftNavigationHeuristics::SoftNavigationContextWasExhausted","ph":"n","pid":29548,"tid":40800,"ts":1551353786806}

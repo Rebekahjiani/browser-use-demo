@@ -1,5 +1,9 @@
 # 维度 B：阿器与 Claude Code 的 Context Model 抽取比较
 
+正式对照名称：**织语 / 阿器 + DeepSeek V4 Flash** 与 **织语 / Claude Code + DeepSeek V4 Flash**，两边都是同一份织语trace的26页任务材料。browser-use仅是A的采集策略对照，不是B的输入来源。
+
+当前脚本：[score_citations_v4.py](C:/Users/bulin/browser-use-demo/benchmark/harness-comparison/score_citations_v4.py)（自身引用支持）；[evaluate_original_task.py](C:/Users/bulin/browser-use-demo/benchmark/harness-comparison/evaluate_original_task.py)（声明/schema）；[build_cost_ledger.py](C:/Users/bulin/browser-use-demo/benchmark/harness-comparison/build_cost_ledger.py)（成本日志）。当前结果入口：[CURRENT_RESULTS.md](C:/Users/bulin/browser-use-demo/benchmark/CURRENT_RESULTS.md)。
+
 状态（2026-09-30）：用户已执行 Claude Code，26页输出齐全。相同原始任务的历史产物比较已完成，结论见 `../BENCHMARK_B_CONCLUSION_20260930.md`。下文预检与预注册设计保留为历史；它们没有全部按原设计执行，不宣称严格受控实验。无需继续解决之前独立CLI入口问题。
 
 ## 比较问题

@@ -1,0 +1,6 @@
+{
+  "reason": "No logs or page outputs for over ten minutes; gateway smoke passed in 4.6 seconds; interrupted for recorded retry with stdin closed and idle watchdog",
+  "interrupted_at": "2026-10-08T15:37:05.1433776+08:00",
+  "pid": 19356,
+  "runner_pid": 33512
+}

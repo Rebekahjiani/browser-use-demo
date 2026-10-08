@@ -1,0 +1,415 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - link "Skip to Content" [ref=e4] [cursor=pointer]:
+      - /url: "#contentarea"
+    - generic [ref=e5]:
+      - generic [ref=e6] [cursor=pointer]:
+        - text: 
+        - generic [ref=e7]: Toggle Nav
+      - link "store logo" [ref=e8] [cursor=pointer]:
+        - /url: http://127.0.0.1:7770/
+        - img "one_stop_market_logo" [ref=e9]
+      - generic [ref=e10]:
+        - link " My Cart" [ref=e11] [cursor=pointer]:
+          - /url: http://127.0.0.1:7770/checkout/cart/
+          - text: 
+          - generic [ref=e12]: My Cart
+        - text: 
+      - generic [ref=e16]:
+        - generic [ref=e17]:
+          - text: 
+          - generic [ref=e18]: Search
+        - combobox " Search" [ref=e20]
+  - tablist [ref=e22]:
+    - tab "Menu" [expanded] [ref=e23]:
+      - link "Menu" [ref=e24] [cursor=pointer]:
+        - /url: "#store.menu"
+    - tabpanel [ref=e25]:
+      - navigation [ref=e26]:
+        - menu [ref=e27]:
+          - listitem [ref=e28]:
+            - menuitem "Beauty & Personal Care " [ref=e29] [cursor=pointer]: Beauty & Personal Care 
+          - listitem [ref=e30]:
+            - menuitem "Sports & Outdoors " [ref=e31] [cursor=pointer]: Sports & Outdoors 
+          - listitem [ref=e32]:
+            - menuitem "Clothing, Shoes & Jewelry " [ref=e33] [cursor=pointer]: Clothing, Shoes & Jewelry 
+          - listitem [ref=e34]:
+            - menuitem "Home & Kitchen " [ref=e35] [cursor=pointer]: Home & Kitchen 
+          - listitem [ref=e36]:
+            - menuitem "Office Products " [ref=e37] [cursor=pointer]: Office Products 
+          - listitem [ref=e38]:
+            - menuitem "Tools & Home Improvement " [ref=e39] [cursor=pointer]: Tools & Home Improvement 
+          - listitem [ref=e40]:
+            - menuitem "Health & Household " [ref=e41] [cursor=pointer]: Health & Household 
+          - listitem [ref=e42]:
+            - menuitem "Patio, Lawn & Garden " [ref=e43] [cursor=pointer]: Patio, Lawn & Garden 
+          - listitem [ref=e44]:
+            - menuitem "Electronics " [ref=e45] [cursor=pointer]: Electronics 
+          - listitem [ref=e46]:
+            - menuitem "Cell Phones & Accessories " [ref=e47] [cursor=pointer]: Cell Phones & Accessories 
+          - listitem [ref=e48]:
+            - menuitem "Video Games " [ref=e49] [cursor=pointer]: Video Games 
+          - listitem [ref=e50]:
+            - menuitem "Grocery & Gourmet Food " [ref=e51] [cursor=pointer]: Grocery & Gourmet Food 
+    - tab "Account" [ref=e52]:
+      - link "Account" [ref=e53] [cursor=pointer]:
+        - /url: "#store.links"
+  - list [ref=e55]:
+    - listitem [ref=e56]:
+      - link "Home" [ref=e57] [cursor=pointer]:
+        - /url: http://127.0.0.1:7770/
+      - text: 
+    - listitem [ref=e58]:
+      - link "Beauty & Personal Care" [ref=e59] [cursor=pointer]:
+        - /url: http://127.0.0.1:7770/beauty-personal-care.html
+      - text: 
+    - listitem [ref=e60]:
+      - strong [ref=e61]: Oral Care
+  - main [ref=e62]:
+    - heading "Oral Care Items 1-12 of 88" [level=1] [ref=e64]: Oral Care
+    - generic [ref=e65]:
+      - generic [ref=e66]:
+        - generic [ref=e67]:
+          - paragraph [ref=e68]: Items 1-12 of 88
+          - generic [ref=e69]:
+            - text: Sort By
+            - combobox "Sort By" [ref=e70]:
+              - option "Position"
+              - option "Product Name" [selected]
+              - option "Price"
+            - link " Set Ascending Direction" [ref=e71] [cursor=pointer]:
+              - /url: "#"
+              - text: 
+              - generic [ref=e72]: Set Ascending Direction
+        - list [ref=e74]:
+          - listitem [ref=e75]:
+            - generic [ref=e76]:
+              - link "Image" [ref=e77] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/zimba-teeth-whitening-strips-professional-grade-whitener-formulated-for-sensitive-teeth-natural-enamel-safe-ingredients-1x-mint-1x-spearmint-1x-wintergreen-pack-84-strips-42-treatments.html
+                - img "Image" [ref=e80]
+              - generic [ref=e81]:
+                - strong [ref=e82]:
+                  - link "Zimba Teeth Whitening Strips - Professional-Grade Whitener, Formulated for Sensitive Teeth, Natural & Enamel-Safe Ingredients, 1x Mint + 1x Spearmint + 1x Wintergreen Pack, 84 Strips (42 Treatments)" [ref=e83] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/zimba-teeth-whitening-strips-professional-grade-whitener-formulated-for-sensitive-teeth-natural-enamel-safe-ingredients-1x-mint-1x-spearmint-1x-wintergreen-pack-84-strips-42-treatments.html
+                - generic [ref=e86]: $22.56
+                - generic [ref=e88]:
+                  - button "Add to Cart" [ref=e91] [cursor=pointer]
+                  - generic [ref=e92]:
+                    - button "Add to Wish List" [ref=e93] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e94]: Add to Wish List
+                    - text: 
+          - listitem [ref=e95]:
+            - generic [ref=e96]:
+              - link "Image" [ref=e97] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/zimba-teeth-whitening-strips-professional-grade-whitener-formulated-for-sensitive-teeth-natural-enamel-safe-ingredients-1x-coconut-1x-mint-1x-peach-pack-84-strips-42-treatments.html
+                - img "Image" [ref=e100]
+              - generic [ref=e101]:
+                - strong [ref=e102]:
+                  - link "Zimba Teeth Whitening Strips - Professional-Grade Whitener, Formulated for Sensitive Teeth, Natural & Enamel-Safe Ingredients, 1x Coconut + 1x Mint + 1x Peach Pack, 84 Strips (42 Treatments)" [ref=e103] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/zimba-teeth-whitening-strips-professional-grade-whitener-formulated-for-sensitive-teeth-natural-enamel-safe-ingredients-1x-coconut-1x-mint-1x-peach-pack-84-strips-42-treatments.html
+                - generic [ref=e106]: $54.99
+                - generic [ref=e108]:
+                  - button "Add to Cart" [ref=e111] [cursor=pointer]
+                  - generic [ref=e112]:
+                    - button "Add to Wish List" [ref=e113] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e114]: Add to Wish List
+                    - text: 
+          - listitem [ref=e115]:
+            - generic [ref=e116]:
+              - link "Image" [ref=e117] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/wdl-set-of-6-dental-extracting-forceps-44-dental-extraction-instruments.html
+                - img "Image" [ref=e120]
+              - generic [ref=e121]:
+                - strong [ref=e122]:
+                  - 'link "WDL SET OF 6 DENTAL EXTRACTING FORCEPS #44 DENTAL EXTRACTION INSTRUMENTS" [ref=e123] [cursor=pointer]':
+                    - /url: http://127.0.0.1:7770/wdl-set-of-6-dental-extracting-forceps-44-dental-extraction-instruments.html
+                - generic [ref=e126]: $50.29
+                - generic [ref=e128]:
+                  - button "Add to Cart" [ref=e131] [cursor=pointer]
+                  - generic [ref=e132]:
+                    - button "Add to Wish List" [ref=e133] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e134]: Add to Wish List
+                    - text: 
+          - listitem [ref=e135]:
+            - generic [ref=e136]:
+              - link "Image" [ref=e137] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/vosarea-dental-mouth-guard-night-teeth-anti-grinding-protector-for-sleeping-sports-2-pcs-transparent.html
+                - img "Image" [ref=e140]
+              - generic [ref=e141]:
+                - strong [ref=e142]:
+                  - link "VOSAREA Dental Mouth Guard Night Teeth Anti Grinding Protector for Sleeping Sports 2 Pcs (Transparent)" [ref=e143] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/vosarea-dental-mouth-guard-night-teeth-anti-grinding-protector-for-sleeping-sports-2-pcs-transparent.html
+                - generic [ref=e146]: $8.99
+                - generic [ref=e148]:
+                  - button "Add to Cart" [ref=e151] [cursor=pointer]
+                  - generic [ref=e152]:
+                    - button "Add to Wish List" [ref=e153] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e154]: Add to Wish List
+                    - text: 
+          - listitem [ref=e155]:
+            - generic [ref=e156]:
+              - link "Image" [ref=e157] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/unisex-single-hip-hop-false-tooth-removable-mouth-teeth-halloween-festival-teeth-decoration-brace-costume-accessory-for-men-women-silver.html
+                - img "Image" [ref=e160]
+              - generic [ref=e161]:
+                - strong [ref=e162]:
+                  - link "Unisex Single Hip Hop False Tooth, Removable Mouth Teeth, Halloween Festival Teeth Decoration Brace Costume Accessory for Men Women(Silver)" [ref=e163] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/unisex-single-hip-hop-false-tooth-removable-mouth-teeth-halloween-festival-teeth-decoration-brace-costume-accessory-for-men-women-silver.html
+                - generic [ref=e166]: $5.78
+                - generic [ref=e168]:
+                  - button "Add to Cart" [ref=e171] [cursor=pointer]
+                  - generic [ref=e172]:
+                    - button "Add to Wish List" [ref=e173] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e174]: Add to Wish List
+                    - text: 
+          - listitem [ref=e175]:
+            - generic [ref=e176]:
+              - link "Image" [ref=e177] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/tru-repair-standard-kit-092160-by-bnd-000kt-harry-j-bosworth-company.html
+                - img "Image" [ref=e180]
+              - generic [ref=e181]:
+                - strong [ref=e182]:
+                  - link "TRU REPAIR STANDARD KIT 092160 by BND 000KT HARRY J. BOSWORTH COMPANY" [ref=e183] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/tru-repair-standard-kit-092160-by-bnd-000kt-harry-j-bosworth-company.html
+                - generic [ref=e186]: $79.90
+                - generic [ref=e188]:
+                  - button "Add to Cart" [ref=e191] [cursor=pointer]
+                  - generic [ref=e192]:
+                    - button "Add to Wish List" [ref=e193] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e194]: Add to Wish List
+                    - text: 
+          - listitem [ref=e195]:
+            - generic [ref=e196]:
+              - link "Image" [ref=e197] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/toothspace-slim-mouth-guard-for-teeth-grinding-when-sleeping-custom-night-guard-that-relieves-tmj-pain-moldable-dental-guard-to-prevent-bruxism-and-teeth-clenching-pack-of-4-guards-in-2-sizes.html
+                - generic [ref=e199]:
+                  - img "Image"
+              - generic [ref=e200]:
+                - strong [ref=e201]:
+                  - link "Toothspace Slim Mouth Guard for Teeth Grinding When Sleeping | Custom Night Guard that relieves TMJ pain | Moldable Dental Guard to prevent Bruxism and Teeth Clenching - Pack of 4 Guards in 2 Sizes" [ref=e202] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/toothspace-slim-mouth-guard-for-teeth-grinding-when-sleeping-custom-night-guard-that-relieves-tmj-pain-moldable-dental-guard-to-prevent-bruxism-and-teeth-clenching-pack-of-4-guards-in-2-sizes.html
+                - generic [ref=e205]: $17.95
+                - generic [ref=e207]:
+                  - button "Add to Cart" [ref=e210] [cursor=pointer]
+                  - generic [ref=e211]:
+                    - button "Add to Wish List" [ref=e212] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e213]: Add to Wish List
+                    - text: 
+          - listitem [ref=e214]:
+            - generic [ref=e215]:
+              - link "Image" [ref=e216] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/tooth-repair-kit-fake-teeth-for-temporary-fixing-the-missing-and-broken-tooth-replacements-fix-confident-smile.html
+                - generic [ref=e218]:
+                  - img "Image"
+              - generic [ref=e219]:
+                - strong [ref=e220]:
+                  - link "Tooth Repair Kit,Fake Teeth for Temporary Fixing The Missing and Broken Tooth Replacements, Fix Confident Smile" [ref=e221] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/tooth-repair-kit-fake-teeth-for-temporary-fixing-the-missing-and-broken-tooth-replacements-fix-confident-smile.html
+                - generic [ref=e224]: $19.97
+                - generic [ref=e226]:
+                  - button "Add to Cart" [ref=e229] [cursor=pointer]
+                  - generic [ref=e230]:
+                    - button "Add to Wish List" [ref=e231] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e232]: Add to Wish List
+                    - text: 
+          - listitem [ref=e233]:
+            - generic [ref=e234]:
+              - link "Image" [ref=e235] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/tooth-repair-kit-temporary-tooth-repair-kit-temporary-tooth-repair-beads-for-missing-broken-teeth-dental-tooth-filling-material-20g.html
+                - generic [ref=e237]:
+                  - img "Image"
+              - generic [ref=e238]:
+                - strong [ref=e239]:
+                  - link "Tooth Repair Kit, Temporary Tooth Repair Kit, Temporary Tooth Repair Beads for Missing Broken Teeth Dental Tooth Filling Material(20g)" [ref=e240] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/tooth-repair-kit-temporary-tooth-repair-kit-temporary-tooth-repair-beads-for-missing-broken-teeth-dental-tooth-filling-material-20g.html
+                - generic [ref=e243]: $7.79
+                - generic [ref=e245]:
+                  - button "Add to Cart" [ref=e248] [cursor=pointer]
+                  - generic [ref=e249]:
+                    - button "Add to Wish List" [ref=e250] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e251]: Add to Wish List
+                    - text: 
+          - listitem [ref=e252]:
+            - generic [ref=e253]:
+              - link "Image" [ref=e254] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/tooth-repair-bead-compact-portable-tooth-filling-bead-for-halloween-party-for-men-women-for-film-makeup.html
+                - generic [ref=e256]:
+                  - img "Image"
+              - generic [ref=e257]:
+                - strong [ref=e258]:
+                  - link "Tooth Repair Bead, Compact Portable Tooth Filling Bead for Halloween Party for Men Women for Film Makeup" [ref=e259] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/tooth-repair-bead-compact-portable-tooth-filling-bead-for-halloween-party-for-men-women-for-film-makeup.html
+                - generic [ref=e262]: $7.79
+                - generic [ref=e264]:
+                  - button "Add to Cart" [ref=e267] [cursor=pointer]
+                  - generic [ref=e268]:
+                    - button "Add to Wish List" [ref=e269] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e270]: Add to Wish List
+                    - text: 
+          - listitem [ref=e271]:
+            - generic [ref=e272]:
+              - link "Image" [ref=e273] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/tomanbery-silicone-teeth-protector-safe-gum-shield-2set-softened-braces-mouthguard-non-toxic-transparent-two-sided-for-sanda-boxing.html
+                - generic [ref=e275]:
+                  - img "Image"
+              - generic [ref=e276]:
+                - strong [ref=e277]:
+                  - link "Tomanbery Silicone Teeth Protector Safe Gum Shield 2Set Softened Braces Mouthguard Non‑Toxic Transparent Two‑Sided for Sanda Boxing" [ref=e278] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/tomanbery-silicone-teeth-protector-safe-gum-shield-2set-softened-braces-mouthguard-non-toxic-transparent-two-sided-for-sanda-boxing.html
+                - generic [ref=e281]: $9.69
+                - generic [ref=e283]:
+                  - button "Add to Cart" [ref=e286] [cursor=pointer]
+                  - generic [ref=e287]:
+                    - button "Add to Wish List" [ref=e288] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e289]: Add to Wish List
+                    - text: 
+          - listitem [ref=e290]:
+            - generic [ref=e291]:
+              - link "Image" [ref=e292] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/temporary-tooth-repair-beads-cosmetic-temporary-tooth-repair-kit-for-repairing-missing-broken-teeth-tooth-filling-material-filling-material-with-broken-teeth-50g.html
+                - generic [ref=e294]:
+                  - img "Image"
+              - generic [ref=e295]:
+                - strong [ref=e296]:
+                  - link "Temporary Tooth Repair Beads, Cosmetic Temporary Tooth Repair Kit for Repairing Missing Broken Teeth Tooth Filling Material Filling Material with Broken Teeth(50g)" [ref=e297] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/temporary-tooth-repair-beads-cosmetic-temporary-tooth-repair-kit-for-repairing-missing-broken-teeth-tooth-filling-material-filling-material-with-broken-teeth-50g.html
+                - generic [ref=e300]: $10.79
+                - generic [ref=e302]:
+                  - button "Add to Cart" [ref=e305] [cursor=pointer]
+                  - generic [ref=e306]:
+                    - button "Add to Wish List" [ref=e307] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e308]: Add to Wish List
+                    - text: 
+        - generic [ref=e310]:
+          - strong [ref=e311]: Page
+          - list "Page" [ref=e312]:
+            - listitem [ref=e313]:
+              - strong [ref=e314]:
+                - generic [ref=e315]: You're currently reading page
+                - text: "1"
+            - listitem [ref=e316]:
+              - link "Page 2" [ref=e317] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/beauty-personal-care/oral-care.html?cat=118&p=2&product_list_dir=desc&product_list_order=name
+                - generic [ref=e318]: Page
+                - text: "2"
+            - listitem [ref=e319]:
+              - link "Page 3" [ref=e320] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/beauty-personal-care/oral-care.html?cat=118&p=3&product_list_dir=desc&product_list_order=name
+                - generic [ref=e321]: Page
+                - text: "3"
+            - listitem [ref=e322]:
+              - link "Page 4" [ref=e323] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/beauty-personal-care/oral-care.html?cat=118&p=4&product_list_dir=desc&product_list_order=name
+                - generic [ref=e324]: Page
+                - text: "4"
+            - listitem [ref=e325]:
+              - link "Page 5" [ref=e326] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/beauty-personal-care/oral-care.html?cat=118&p=5&product_list_dir=desc&product_list_order=name
+                - generic [ref=e327]: Page
+                - text: "5"
+            - listitem [ref=e328]:
+              - link " Page Next" [ref=e329] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/beauty-personal-care/oral-care.html?cat=118&p=2&product_list_dir=desc&product_list_order=name
+                - text: 
+                - generic [ref=e330]: Page
+                - generic [ref=e331]: Next
+      - generic [ref=e333]:
+        - strong [ref=e335]: Shop By
+        - generic [ref=e336]:
+          - generic [ref=e337]:
+            - heading "Now Shopping by" [level=2] [ref=e338]
+            - list [ref=e339]:
+              - listitem [ref=e340]:
+                - generic [ref=e341]: "Category:"
+                - text: Oral Pain Relief
+                - link "Remove This Item" [ref=e342] [cursor=pointer]:
+                  - /url: http://127.0.0.1:7770/beauty-personal-care/oral-care.html?product_list_dir=desc&product_list_order=name
+          - link "Clear All" [ref=e344] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/beauty-personal-care/oral-care.html?product_list_dir=desc&product_list_order=name
+          - heading "Shopping Options" [level=2] [ref=e345]
+          - generic [ref=e346]:
+            - heading "Price" [level=3] [ref=e347]
+            - definition [ref=e348]:
+              - list [ref=e349]:
+                - listitem [ref=e350]:
+                  - link "$0.00 - $99.99( 83 item )" [ref=e351] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/beauty-personal-care/oral-care.html?cat=118&price=0-100&product_list_dir=desc&product_list_order=name
+                    - text: $0.00 - $99.99
+                    - generic [ref=e352]:
+                      - text: ( 83
+                      - generic [ref=e353]: item
+                      - text: )
+                - listitem [ref=e354]:
+                  - link "$100.00 - $199.99( 3 item )" [ref=e355] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/beauty-personal-care/oral-care.html?cat=118&price=100-200&product_list_dir=desc&product_list_order=name
+                    - text: $100.00 - $199.99
+                    - generic [ref=e356]:
+                      - text: ( 3
+                      - generic [ref=e357]: item
+                      - text: )
+                - listitem [ref=e358]:
+                  - link "$200.00 - $299.99( 1 item )" [ref=e359] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/beauty-personal-care/oral-care.html?cat=118&price=200-300&product_list_dir=desc&product_list_order=name
+                    - text: $200.00 - $299.99
+                    - generic [ref=e360]:
+                      - text: ( 1
+                      - generic [ref=e361]: item
+                      - text: )
+                - listitem [ref=e362]:
+                  - link "$600.00 and above( 1 item )" [ref=e363] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/beauty-personal-care/oral-care.html?cat=118&price=600-700&product_list_dir=desc&product_list_order=name
+                    - text: $600.00 and above
+                    - generic [ref=e364]:
+                      - text: ( 1
+                      - generic [ref=e365]: item
+                      - text: )
+      - generic [ref=e366]:
+        - generic [ref=e367]:
+          - heading "Compare Products" [level=2] [ref=e369]
+          - generic [ref=e370]: You have no items to compare.
+        - generic [ref=e371]:
+          - heading "My Wish List" [level=2] [ref=e373]
+          - generic [ref=e375]: You have no items in your wish list.
+  - contentinfo [ref=e376]:
+    - generic [ref=e377]:
+      - generic [ref=e380]:
+        - generic [ref=e382]:
+          - text: 
+          - generic [ref=e383]:
+            - generic [ref=e384]: "Sign Up for Our Newsletter:"
+            - textbox "Sign Up for Our Newsletter:" [ref=e385]:
+              - /placeholder: Enter your email address
+        - button "Subscribe" [ref=e387] [cursor=pointer]
+      - list [ref=e388]:
+        - listitem [ref=e389]:
+          - link "Privacy and Cookie Policy" [ref=e390] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/privacy-policy-cookie-restriction-mode/
+        - listitem [ref=e391]:
+          - link "Search Terms" [ref=e392] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/search/term/popular/
+        - listitem [ref=e393]:
+          - link "Advanced Search" [ref=e394] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/catalogsearch/advanced/
+        - listitem [ref=e395]:
+          - link "Orders and Returns" [ref=e396] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/sales/guest/form/
+        - listitem [ref=e397]:
+          - link "Contact Us" [ref=e398] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/contact/
+      - generic [ref=e399]: Copyright © 2013-present Magento, Inc. All rights reserved.
+      - generic [ref=e400]:
+        - text: Help Us Keep Magento Healthy
+        - link "Report All Bugs" [ref=e401] [cursor=pointer]:
+          - /url: http://www.magentocommerce.com/bug-tracking

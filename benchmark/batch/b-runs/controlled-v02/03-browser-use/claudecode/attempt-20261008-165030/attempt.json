@@ -1,0 +1,26 @@
+{
+  "trace": "03-browser-use",
+  "combination": "claudecode",
+  "directory": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\b-runs\\controlled-v02\\03-browser-use\\claudecode\\attempt-20261008-165030",
+  "selected_pages": [
+    "000_state",
+    "001_state",
+    "002_state",
+    "003_state",
+    "004_state",
+    "005_state",
+    "006_state",
+    "007_state",
+    "008_state",
+    "009_state",
+    "010_state",
+    "011_state",
+    "012_state",
+    "013_state"
+  ],
+  "previous_outputs": {},
+  "started_at": "2026-10-08T08:50:30.982238+00:00",
+  "status": "completed",
+  "remaining_pages": [],
+  "ended_at": "2026-10-08T08:58:42.914397+00:00"
+}

@@ -1,0 +1,1766 @@
+{
+  "freeze_sha256": "2d85ee714566078c187ff32f2607a985f38bb4e3fb9df76f98e1ede1d639a5cf",
+  "scope": "Shopping finite public read-only contract v0.2: 54 facts; not whole website or complete DB",
+  "experiment": {
+    "version": "controlled-shopping-v02",
+    "role": "smoke-test; not official repeat",
+    "model": "sophnet/DeepSeek-V4-Flash-0731",
+    "permissions": "query submission only; shared request boundary",
+    "repeats": 1,
+    "max_actions": 5,
+    "max_pages": 10,
+    "max_minutes": 5,
+    "gold": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\coverage-v4\\gold.v1.json",
+    "gold_sha256": "c502eaf02ca56971fb80d5960391c218ecb2e78b4eb52f85b0adbfd75f0c2974",
+    "mapping": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\db-ui-mapping.v3.json",
+    "engine": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\coverage-v4\\score.py",
+    "contract_bundle": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\bundles\\contract-v02"
+  },
+  "results": {
+    "01-drive": {
+      "strategy": "drive",
+      "conditions": {
+        "model": "sophnet/DeepSeek-V4-Flash-0731",
+        "max_actions": 5,
+        "max_pages": 10,
+        "max_minutes": 5
+      },
+      "snapshots": 2,
+      "unknown_page_types": 0,
+      "metrics": {
+        "affordance": {
+          "hit": 3,
+          "denominator": 7
+        },
+        "attribute": {
+          "hit": 14,
+          "denominator": 29
+        },
+        "business_state": {
+          "hit": 0,
+          "denominator": 6
+        },
+        "entity": {
+          "hit": 1,
+          "denominator": 3
+        },
+        "form_field": {
+          "hit": 0,
+          "denominator": 1
+        },
+        "input_control": {
+          "hit": 1,
+          "denominator": 1
+        },
+        "page_type": {
+          "hit": 2,
+          "denominator": 6
+        },
+        "relation": {
+          "hit": 0,
+          "denominator": 1
+        },
+        "DB_verified_subset": {
+          "hit": 6,
+          "denominator": 7
+        }
+      },
+      "facts": [
+        {
+          "id": "product",
+          "kind": "entity",
+          "supported": true,
+          "status": "supported",
+          "evidence": [
+            {
+              "url": "http://127.0.0.1:7770/crunchy-rice-rollers-gluten-free-vegan-3-5-oz-individual-packs-4-packs-of-8-rollers.html",
+              "snapshot_index": 1,
+              "refs": [
+                {
+                  "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\smoke-v02\\01-drive\\trace\\26_10_08_11_04_27-min\\drive\\screenshots\\001_crunchy-rice-rollers-gluten-free-vegan-3-5-oz-individual-pac\\accessibility.json",
+                  "pointer": "/nodes/19/name/value",
+                  "quote": "Crunchy Rice Rollers - Gluten Free - Vegan - 3.5 oz Individual Packs (4 Packs of 8 Rollers)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "category",
+          "kind": "entity",
+          "supported": false,
+          "status": "not_demonstrated",
+          "evidence": []
+        },
+        {
+          "id": "cart",
+          "kind": "entity",
+          "supported": false,
+          "status": "not_demonstrated",
+          "evidence": []
+        },
+        {
+          "id": "product.name",
+          "kind": "attribute",
+          "supported": true,
+          "status": "supported",
+          "evidence": [
+            {
+              "url": "http://127.0.0.1:7770/crunchy-rice-rollers-gluten-free-vegan-3-5-oz-individual-packs-4-packs-of-8-rollers.html",
+              "snapshot_index": 1,
+              "refs": [
+                {
+                  "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\smoke-v02\\01-drive\\trace\\26_10_08_11_04_27-min\\drive\\screenshots\\001_crunchy-rice-rollers-gluten-free-vegan-3-5-oz-individual-pac\\accessibility.json",
+                  "pointer": "/nodes/19/name/value",
+                  "quote": "Crunchy Rice Rollers - Gluten Free - Vegan - 3.5 oz Individual Packs (4 Packs of 8 Rollers)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "product.sku",
+          "kind": "attribute",
+          "supported": true,
+          "status": "supported",
+          "evidence": [
+            {
+              "url": "http://127.0.0.1:7770/crunchy-rice-rollers-gluten-free-vegan-3-5-oz-individual-packs-4-packs-of-8-rollers.html",
+              "snapshot_index": 1,
+              "refs": [
+                {
+                  "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\smoke-v02\\01-drive\\trace\\26_10_08_11_04_27-min\\drive\\screenshots\\001_crunchy-rice-rollers-gluten-free-vegan-3-5-oz-individual-pac\\accessibility.json",
+                  "pointer": "/nodes/283/name/value",
+                  "quote": "SKU"
+                },
+                {
+                  "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\smoke-v02\\01-drive\\trace\\26_10_08_11_04_27-min\\drive\\screenshots\\001_crunchy-rice-rollers-gluten-free-vegan-3-5-oz-individual-pac\\accessibility.json",
+                  "pointer": "/nodes/284/name/value",
+                  "quote": "B00J7HXXGA"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "product.price",
+          "kind": "attribute",
+          "supported": true,
+          "status": "supported",
+          "evidence": [
+            {
+              "url": "http://127.0.0.1:7770/crunchy-rice-rollers-gluten-free-vegan-3-5-oz-individual-packs-4-packs-of-8-rollers.html",
+              "snapshot_index": 1,
+              "refs": [
+                {
+                  "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\smoke-v02\\01-drive\\trace\\26_10_08_11_04_27-min\\drive\\screenshots\\001_crunchy-rice-rollers-gluten-free-vegan-3-5-oz-individual-pac\\accessibility.json",
+                  "pointer": "/nodes/231/name/value",
+                  "quote": "$11.50"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "product.rating",
+          "kind": "attribute",
+          "supported": true,
+          "status": "supported",
+          "evidence": [
+            {
+              "url": "http://127.0.0.1:7770/",
+              "snapshot_index": 0,
+              "refs": [
+                {
+                  "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\smoke-v02\\01-drive\\trace\\26_10_08_11_04_27-min\\drive\\screenshots\\000_root\\accessibility.json",
+                  "pointer": "/nodes/489/name/value",
+                  "quote": "Rating:"
+                },
+                {
+                  "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\smoke-v02\\01-drive\\trace\\26_10_08_11_04_27-min\\drive\\screenshots\\000_root\\accessibility.json",
+                  "pointer": "/nodes/652/name/value",
+                  "quote": "20%"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "product.review_count",
+          "kind": "attribute",
+          "supported": true,
+          "status": "supported",
+          "evidence": [
+            {
+              "url": "http://127.0.0.1:7770/",
+              "snapshot_index": 0,
+              "refs": [
+                {
+                  "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\smoke-v02\\01-drive\\trace\\26_10_08_11_04_27-min\\drive\\screenshots\\000_root\\accessibility.json",
+                  "pointer": "/nodes/491/name/value",
+                  "quote": "1  Review"
+                }
+              ]
+            },
+            {
+              "url": "http://127.0.0.1:7770/crunchy-rice-rollers-gluten-free-vegan-3-5-oz-individual-packs-4-packs-of-8-rollers.html",
+              "snapshot_index": 1,
+              "refs": [
+                {
+                  "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\smoke-v02\\01-drive\\trace\\26_10_08_11_04_27-min\\drive\\screenshots\\001_crunchy-rice-rollers-gluten-free-vegan-3-5-oz-individual-pac\\accessibility.json",
+                  "pointer": "/nodes/229/name/value",
+                  "quote": "12  Reviews "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "product.availability",
+          "kind": "attribute",
+          "supported": true,
+          "status": "supported",
+          "evidence": [
+            {
+              "url": "http://127.0.0.1:7770/crunchy-rice-rollers-gluten-free-vegan-3-5-oz-individual-packs-4-packs-of-8-rollers.html",
+              "snapshot_index": 1,
+              "refs": [
+                {
+                  "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\smoke-v02\\01-drive\\trace\\26_10_08_11_04_27-min\\drive\\screenshots\\001_crunchy-rice-rollers-gluten-free-vegan-3-5-oz-individual-pac\\accessibility.json",
+                  "pointer": "/nodes/223/name/value",
+                  "quote": "IN STOCK"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "product.image",
+          "kind": "attribute",
+          "supported": true,
+          "status": "supported",
+          "evidence": [
+            {
+              "url": "http://127.0.0.1:7770/crunchy-rice-rollers-gluten-free-vegan-3-5-oz-individual-packs-4-packs-of-8-rollers.html",
+              "snapshot_index": 1,
+              "refs": [
+                {
+                  "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\smoke-v02\\01-drive\\trace\\26_10_08_11_04_27-min\\drive\\screenshots\\001_crunchy-rice-rollers-gluten-free-vegan-3-5-oz-individual-pac\\accessibility.json",
+                  "pointer": "/nodes/554/name/value",
+                  "quote": "Image"
+                },
+                {
+                  "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\smoke-v02\\01-drive\\trace\\26_10_08_11_04_27-min\\drive\\screenshots\\001_crunchy-rice-rollers-gluten-free-vegan-3-5-oz-individual-pac\\accessibility.json",
+                  "pointer": "/nodes/554/properties/0/value/value",
+                  "quote": "http://127.0.0.1:7770/media/catalog/product/cache/829a59e57f886f8cf0598ffca4f8a940/B/0/B00J7HXXGA.1.jpg"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "control.product.quantity",
+          "kind": "input_control",
+          "supported": true,
+          "status": "supported",
+          "evidence": [
+            {
+              "url": "http://127.0.0.1:7770/crunchy-rice-rollers-gluten-free-vegan-3-5-oz-individual-packs-4-packs-of-8-rollers.html",
+              "snapshot_index": 1,
+              "refs": [
+                {
+                  "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\smoke-v02\\01-drive\\trace\\26_10_08_11_04_27-min\\drive\\screenshots\\001_crunchy-rice-rollers-gluten-free-vegan-3-5-oz-individual-pac\\accessibility.json",
+                  "pointer": "/nodes/234/name/value",
+                  "quote": "Qty"
+                },
+                {
+                  "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\smoke-v02\\01-drive\\trace\\26_10_08_11_04_27-min\\drive\\screenshots\\001_crunchy-rice-rollers-gluten-free-vegan-3-5-oz-individual-pac\\accessibility.json",
+                  "pointer": "/nodes/234/value/value",
+                  "quote": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "product.size",
+          "kind": "attribute",
+          "supported": false,
+          "status": "not_demonstrated",
+          "evidence": []
+        },
+        {
+          "id": "product.color",
+          "kind": "attribute",
+          "supported": false,
+          "status": "not_demonstrated",
+          "evidence": []
+        },
+        {
+          "id": "product.style",
+          "kind": "attribute",
+          "supported": false,
+          "status": "not_demonstrated",
+          "evidence": []
+        },
+        {
+          "id": "product.description",
+          "kind": "attribute",
+          "supported": true,
+          "status": "supported",
+          "evidence": [
+            {
+              "url": "http://127.0.0.1:7770/crunchy-rice-rollers-gluten-free-vegan-3-5-oz-individual-packs-4-packs-of-8-rollers.html",
+              "snapshot_index": 1,
+              "refs": [
+                {
+                  "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\smoke-v02\\01-drive\\trace\\26_10_08_11_04_27-min\\drive\\screenshots\\001_crunchy-rice-rollers-gluten-free-vegan-3-5-oz-individual-pac\\accessibility.json",
+                  "pointer": "/nodes/146/name/value",
+                  "quote": "Details"
+                },
+                {
+                  "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\smoke-v02\\01-drive\\trace\\26_10_08_11_04_27-min\\drive\\screenshots\\001_crunchy-rice-rollers-gluten-free-vegan-3-5-oz-individual-pac\\accessibility.json",
+                  "pointer": "/nodes/632/name/value",
+                  "quote": "‎ 11.42 x 8.62 x 5.24 inches; 14.4 Ounces"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "form.search.short_description",
+          "kind": "form_field",
+          "supported": false,
+          "status": "not_demonstrated",
+          "evidence": []
+        },
+        {
+          "id": "product.asin",
+          "kind": "attribute",
+          "supported": true,
+          "status": "supported",
+          "evidence": [
+            {
+              "url": "http://127.0.0.1:7770/crunchy-rice-rollers-gluten-free-vegan-3-5-oz-individual-packs-4-packs-of-8-rollers.html",
+              "snapshot_index": 1,
+              "refs": [
+                {
+                  "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\smoke-v02\\01-drive\\trace\\26_10_08_11_04_27-min\\drive\\screenshots\\001_crunchy-rice-rollers-gluten-free-vegan-3-5-oz-individual-pac\\accessibility.json",
+                  "pointer": "/nodes/573/name/value",
+                  "quote": "ASIN ‏"
+                },
+                {
+                  "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\smoke-v02\\01-drive\\trace\\26_10_08_11_04_27-min\\drive\\screenshots\\001_crunchy-rice-rollers-gluten-free-vegan-3-5-oz-individual-pac\\accessibility.json",
+                  "pointer": "/nodes/574/name/value",
+                  "quote": "‎ B00J7HXXGA"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "product.dimensions",
+          "kind": "attribute",
+          "supported": false,
+          "status": "not_demonstrated",
+          "evidence": []
+        },
+        {
+          "id": "product.upc",
+          "kind": "attribute",
+          "supported": true,
+          "status": "supported",
+          "evidence": [
+            {
+              "url": "http://127.0.0.1:7770/crunchy-rice-rollers-gluten-free-vegan-3-5-oz-individual-packs-4-packs-of-8-rollers.html",
+              "snapshot_index": 1,
+              "refs": [
+                {
+                  "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\smoke-v02\\01-drive\\trace\\26_10_08_11_04_27-min\\drive\\screenshots\\001_crunchy-rice-rollers-gluten-free-vegan-3-5-oz-individual-pac\\accessibility.json",
+                  "pointer": "/nodes/569/name/value",
+                  "quote": "UPC ‏"
+                },
+                {
+                  "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\smoke-v02\\01-drive\\trace\\26_10_08_11_04_27-min\\drive\\screenshots\\001_crunchy-rice-rollers-gluten-free-vegan-3-5-oz-individual-pac\\accessibility.json",
+                  "pointer": "/nodes/570/name/value",
+                  "quote": "‎ 825625700049"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "product.manufacturer",
+          "kind": "attribute",
+          "supported": true,
+          "status": "supported",
+          "evidence": [
+            {
+              "url": "http://127.0.0.1:7770/crunchy-rice-rollers-gluten-free-vegan-3-5-oz-individual-packs-4-packs-of-8-rollers.html",
+              "snapshot_index": 1,
+              "refs": [
+                {
+                  "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\smoke-v02\\01-drive\\trace\\26_10_08_11_04_27-min\\drive\\screenshots\\001_crunchy-rice-rollers-gluten-free-vegan-3-5-oz-individual-pac\\accessibility.json",
+                  "pointer": "/nodes/571/name/value",
+                  "quote": "Manufacturer ‏"
+                },
+                {
+                  "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\smoke-v02\\01-drive\\trace\\26_10_08_11_04_27-min\\drive\\screenshots\\001_crunchy-rice-rollers-gluten-free-vegan-3-5-oz-individual-pac\\accessibility.json",
+                  "pointer": "/nodes/572/name/value",
+                  "quote": "‎ Bamboo Lane"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "product.country_of_origin",
+          "kind": "attribute",
+          "supported": false,
+          "status": "not_demonstrated",
+          "evidence": []
+        },
+        {
+          "id": "product.package_dimensions",
+          "kind": "attribute",
+          "supported": true,
+          "status": "supported",
+          "evidence": [
+            {
+              "url": "http://127.0.0.1:7770/crunchy-rice-rollers-gluten-free-vegan-3-5-oz-individual-packs-4-packs-of-8-rollers.html",
+              "snapshot_index": 1,
+              "refs": [
+                {
+                  "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\smoke-v02\\01-drive\\trace\\26_10_08_11_04_27-min\\drive\\screenshots\\001_crunchy-rice-rollers-gluten-free-vegan-3-5-oz-individual-pac\\accessibility.json",
+                  "pointer": "/nodes/565/name/value",
+                  "quote": "Package Dimensions ‏"
+                },
+                {
+                  "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\smoke-v02\\01-drive\\trace\\26_10_08_11_04_27-min\\drive\\screenshots\\001_crunchy-rice-rollers-gluten-free-vegan-3-5-oz-individual-pac\\accessibility.json",
+                  "pointer": "/nodes/566/name/value",
+                  "quote": "‎ 11.42 x 8.62 x 5.24 inches; 14.4 Ounces"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "product.item_weight",
+          "kind": "attribute",
+          "supported": false,
+          "status": "not_demonstrated",
+          "evidence": []
+        },
+        {
+          "id": "product.model_number",
+          "kind": "attribute",
+          "supported": true,
+          "status": "supported",
+          "evidence": [
+            {
+              "url": "http://127.0.0.1:7770/crunchy-rice-rollers-gluten-free-vegan-3-5-oz-individual-packs-4-packs-of-8-rollers.html",
+              "snapshot_index": 1,
+              "refs": [
+                {
+                  "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\smoke-v02\\01-drive\\trace\\26_10_08_11_04_27-min\\drive\\screenshots\\001_crunchy-rice-rollers-gluten-free-vegan-3-5-oz-individual-pac\\accessibility.json",
+                  "pointer": "/nodes/567/name/value",
+                  "quote": "Item model number ‏"
+                },
+                {
+                  "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\smoke-v02\\01-drive\\trace\\26_10_08_11_04_27-min\\drive\\screenshots\\001_crunchy-rice-rollers-gluten-free-vegan-3-5-oz-individual-pac\\accessibility.json",
+                  "pointer": "/nodes/568/name/value",
+                  "quote": "‎ 00268403"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "product.date_first_available",
+          "kind": "attribute",
+          "supported": false,
+          "status": "not_demonstrated",
+          "evidence": []
+        },
+        {
+          "id": "product.batteries",
+          "kind": "attribute",
+          "supported": false,
+          "status": "not_demonstrated",
+          "evidence": []
+        },
+        {
+          "id": "product.discontinued_status",
+          "kind": "attribute",
+          "supported": true,
+          "status": "supported",
+          "evidence": [
+            {
+              "url": "http://127.0.0.1:7770/crunchy-rice-rollers-gluten-free-vegan-3-5-oz-individual-packs-4-packs-of-8-rollers.html",
+              "snapshot_index": 1,
+              "refs": [
+                {
+                  "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\smoke-v02\\01-drive\\trace\\26_10_08_11_04_27-min\\drive\\screenshots\\001_crunchy-rice-rollers-gluten-free-vegan-3-5-oz-individual-pac\\accessibility.json",
+                  "pointer": "/nodes/563/name/value",
+                  "quote": "Is Discontinued By Manufacturer ‏"
+                },
+                {
+                  "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\smoke-v02\\01-drive\\trace\\26_10_08_11_04_27-min\\drive\\screenshots\\001_crunchy-rice-rollers-gluten-free-vegan-3-5-oz-individual-pac\\accessibility.json",
+                  "pointer": "/nodes/564/name/value",
+                  "quote": "‎ No"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "product.domestic_shipping",
+          "kind": "attribute",
+          "supported": false,
+          "status": "not_demonstrated",
+          "evidence": []
+        },
+        {
+          "id": "product.international_shipping",
+          "kind": "attribute",
+          "supported": false,
+          "status": "not_demonstrated",
+          "evidence": []
+        },
+        {
+          "id": "product.department",
+          "kind": "attribute",
+          "supported": false,
+          "status": "not_demonstrated",
+          "evidence": []
+        },
+        {
+          "id": "category.name",
+          "kind": "attribute",
+          "supported": false,
+          "status": "not_demonstrated",
+          "evidence": []
+        },
+        {
+          "id": "category.item_count",
+          "kind": "attribute",
+          "supported": false,
+          "status": "not_demonstrated",
+          "evidence": []
+        },
+        {
+          "id": "category.subcategories",
+          "kind": "attribute",
+          "supported": false,
+          "status": "not_demonstrated",
+          "evidence": []
+        },
+        {
+          "id": "category.price_range",
+          "kind": "attribute",
+          "supported": false,
+          "status": "not_demonstrated",
+          "evidence": []
+        },
+        {
+          "id": "search.basic",
+          "kind": "affordance",
+          "supported": true,
+          "status": "supported",
+          "evidence": [
+            {
+              "url": "http://127.0.0.1:7770/",
+              "snapshot_index": 0,
+              "refs": [
+                {
+                  "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\smoke-v02\\01-drive\\trace\\26_10_08_11_04_27-min\\drive\\screenshots\\000_root\\accessibility.json",
+                  "pointer": "/nodes/286/name/value",
+                  "quote": " Search"
+                }
+              ]
+            },
+            {
+              "url": "http://127.0.0.1:7770/crunchy-rice-rollers-gluten-free-vegan-3-5-oz-individual-packs-4-packs-of-8-rollers.html",
+              "snapshot_index": 1,
+              "refs": [
+                {
+                  "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\smoke-v02\\01-drive\\trace\\26_10_08_11_04_27-min\\drive\\screenshots\\001_crunchy-rice-rollers-gluten-free-vegan-3-5-oz-individual-pac\\accessibility.json",
+                  "pointer": "/nodes/275/name/value",
+                  "quote": " Search"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "search.advanced",
+          "kind": "affordance",
+          "supported": false,
+          "status": "not_demonstrated",
+          "evidence": []
+        },
+        {
+          "id": "catalog.filter",
+          "kind": "affordance",
+          "supported": false,
+          "status": "not_demonstrated",
+          "evidence": []
+        },
+        {
+          "id": "catalog.sort",
+          "kind": "affordance",
+          "supported": false,
+          "status": "not_demonstrated",
+          "evidence": []
+        },
+        {
+          "id": "catalog.paginate",
+          "kind": "affordance",
+          "supported": false,
+          "status": "not_demonstrated",
+          "evidence": []
+        },
+        {
+          "id": "cart.add",
+          "kind": "affordance",
+          "supported": true,
+          "status": "supported",
+          "evidence": [
+            {
+              "url": "http://127.0.0.1:7770/",
+              "snapshot_index": 0,
+              "refs": [
+                {
+                  "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\smoke-v02\\01-drive\\trace\\26_10_08_11_04_27-min\\drive\\screenshots\\000_root\\accessibility.json",
+                  "pointer": "/nodes/656/name/value",
+                  "quote": "Add to Cart"
+                }
+              ]
+            },
+            {
+              "url": "http://127.0.0.1:7770/crunchy-rice-rollers-gluten-free-vegan-3-5-oz-individual-packs-4-packs-of-8-rollers.html",
+              "snapshot_index": 1,
+              "refs": [
+                {
+                  "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\smoke-v02\\01-drive\\trace\\26_10_08_11_04_27-min\\drive\\screenshots\\001_crunchy-rice-rollers-gluten-free-vegan-3-5-oz-individual-pac\\accessibility.json",
+                  "pointer": "/nodes/135/name/value",
+                  "quote": "Add to Cart"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "cart.view",
+          "kind": "affordance",
+          "supported": true,
+          "status": "supported",
+          "evidence": [
+            {
+              "url": "http://127.0.0.1:7770/",
+              "snapshot_index": 0,
+              "refs": [
+                {
+                  "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\smoke-v02\\01-drive\\trace\\26_10_08_11_04_27-min\\drive\\screenshots\\000_root\\accessibility.json",
+                  "pointer": "/nodes/140/name/value",
+                  "quote": " My Cart"
+                }
+              ]
+            },
+            {
+              "url": "http://127.0.0.1:7770/crunchy-rice-rollers-gluten-free-vegan-3-5-oz-individual-packs-4-packs-of-8-rollers.html",
+              "snapshot_index": 1,
+              "refs": [
+                {
+                  "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\smoke-v02\\01-drive\\trace\\26_10_08_11_04_27-min\\drive\\screenshots\\001_crunchy-rice-rollers-gluten-free-vegan-3-5-oz-individual-pac\\accessibility.json",
+                  "pointer": "/nodes/195/name/value",
+                  "quote": " My Cart"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "cart.empty",
+          "kind": "business_state",
+          "supported": false,
+          "status": "not_demonstrated",
+          "evidence": []
+        },
+        {
+          "id": "search.results_nonempty",
+          "kind": "business_state",
+          "supported": false,
+          "status": "not_demonstrated",
+          "evidence": []
+        },
+        {
+          "id": "search.results_empty",
+          "kind": "business_state",
+          "supported": false,
+          "status": "not_demonstrated",
+          "evidence": []
+        },
+        {
+          "id": "catalog.filtered_result",
+          "kind": "business_state",
+          "supported": false,
+          "status": "not_demonstrated",
+          "evidence": []
+        },
+        {
+          "id": "catalog.price_sort_selected",
+          "kind": "business_state",
+          "supported": false,
+          "status": "not_demonstrated",
+          "evidence": []
+        },
+        {
+          "id": "catalog.next_page",
+          "kind": "business_state",
+          "supported": false,
+          "status": "not_demonstrated",
+          "evidence": []
+        },
+        {
+          "id": "page.home",
+          "kind": "page_type",
+          "supported": true,
+          "status": "supported",
+          "evidence": [
+            {
+              "url": "http://127.0.0.1:7770/",
+              "snapshot_index": 0,
+              "refs": [
+                {
+                  "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\smoke-v02\\01-drive\\trace\\26_10_08_11_04_27-min\\drive\\screenshots\\000_root\\accessibility.json",
+                  "pointer": "/nodes/0/name/value",
+                  "quote": "One Stop Market"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "page.category_list",
+          "kind": "page_type",
+          "supported": false,
+          "status": "not_demonstrated",
+          "evidence": []
+        },
+        {
+          "id": "page.product_detail",
+          "kind": "page_type",
+          "supported": true,
+          "status": "supported",
+          "evidence": [
+            {
+              "url": "http://127.0.0.1:7770/crunchy-rice-rollers-gluten-free-vegan-3-5-oz-individual-packs-4-packs-of-8-rollers.html",
+              "snapshot_index": 1,
+              "refs": [
+                {
+                  "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\smoke-v02\\01-drive\\trace\\26_10_08_11_04_27-min\\drive\\screenshots\\001_crunchy-rice-rollers-gluten-free-vegan-3-5-oz-individual-pac\\accessibility.json",
+                  "pointer": "/nodes/0/name/value",
+                  "quote": "Crunchy Rice Rollers - Gluten Free - Vegan - 3.5 oz Individual Packs (4 Packs of 8 Rollers)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "page.advanced_search",
+          "kind": "page_type",
+          "supported": false,
+          "status": "not_demonstrated",
+          "evidence": []
+        },
+        {
+          "id": "page.search_results",
+          "kind": "page_type",
+          "supported": false,
+          "status": "not_demonstrated",
+          "evidence": []
+        },
+        {
+          "id": "page.cart",
+          "kind": "page_type",
+          "supported": false,
+          "status": "not_demonstrated",
+          "evidence": []
+        },
+        {
+          "id": "category_lists_product",
+          "kind": "relation",
+          "supported": false,
+          "status": "not_demonstrated",
+          "evidence": []
+        }
+      ],
+      "coverage_curve": [
+        {
+          "snapshot_index": 0,
+          "url": "http://127.0.0.1:7770/",
+          "captured_at": null,
+          "attributes_supported": 2
+        },
+        {
+          "snapshot_index": 1,
+          "url": "http://127.0.0.1:7770/crunchy-rice-rollers-gluten-free-vegan-3-5-oz-individual-packs-4-packs-of-8-rollers.html",
+          "captured_at": null,
+          "attributes_supported": 14
+        }
+      ],
+      "curve_order": "sorted snapshot paths; no claim of action-normalized elapsed time"
+    },
+    "01-browser-use": {
+      "strategy": "browser-use",
+      "conditions": {
+        "model": "sophnet/DeepSeek-V4-Flash-0731",
+        "max_actions": 5,
+        "max_pages": 10,
+        "max_minutes": 5
+      },
+      "snapshots": 5,
+      "unknown_page_types": 0,
+      "metrics": {
+        "affordance": {
+          "hit": 3,
+          "denominator": 7
+        },
+        "attribute": {
+          "hit": 2,
+          "denominator": 29
+        },
+        "business_state": {
+          "hit": 0,
+          "denominator": 6
+        },
+        "entity": {
+          "hit": 0,
+          "denominator": 3
+        },
+        "form_field": {
+          "hit": 0,
+          "denominator": 1
+        },
+        "input_control": {
+          "hit": 0,
+          "denominator": 1
+        },
+        "page_type": {
+          "hit": 1,
+          "denominator": 6
+        },
+        "relation": {
+          "hit": 0,
+          "denominator": 1
+        },
+        "DB_verified_subset": {
+          "hit": 0,
+          "denominator": 7
+        }
+      },
+      "facts": [
+        {
+          "id": "product",
+          "kind": "entity",
+          "supported": false,
+          "status": "not_demonstrated",
+          "evidence": []
+        },
+        {
+          "id": "category",
+          "kind": "entity",
+          "supported": false,
+          "status": "not_demonstrated",
+          "evidence": []
+        },
+        {
+          "id": "cart",
+          "kind": "entity",
+          "supported": false,
+          "status": "not_demonstrated",
+          "evidence": []
+        },
+        {
+          "id": "product.name",
+          "kind": "attribute",
+          "supported": false,
+          "status": "not_demonstrated",
+          "evidence": []
+        },
+        {
+          "id": "product.sku",
+          "kind": "attribute",
+          "supported": false,
+          "status": "not_demonstrated",
+          "evidence": []
+        },
+        {
+          "id": "product.price",
+          "kind": "attribute",
+          "supported": false,
+          "status": "not_demonstrated",
+          "evidence": []
+        },
+        {
+          "id": "product.rating",
+          "kind": "attribute",
+          "supported": true,
+          "status": "supported",
+          "evidence": [
+            {
+              "url": "http://127.0.0.1:7770/",
+              "snapshot_index": 0,
+              "refs": [
+                {
+                  "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-110444-803919\\snapshots\\00001\\accessibility.json",
+                  "pointer": "/nodes/349/name/value",
+                  "quote": "Rating:"
+                },
+                {
+                  "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-110444-803919\\snapshots\\00001\\accessibility.json",
+                  "pointer": "/nodes/512/name/value",
+                  "quote": "20%"
+                }
+              ]
+            },
+            {
+              "url": "http://127.0.0.1:7770/",
+              "snapshot_index": 1,
+              "refs": [
+                {
+                  "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-110444-803919\\snapshots\\00002\\accessibility.json",
+                  "pointer": "/nodes/489/name/value",
+                  "quote": "Rating:"
+                },
+                {
+                  "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-110444-803919\\snapshots\\00002\\accessibility.json",
+                  "pointer": "/nodes/652/name/value",
+                  "quote": "20%"
+                }
+              ]
+            },
+            {
+              "url": "http://127.0.0.1:7770/",
+              "snapshot_index": 2,
+              "refs": [
+                {
+                  "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-110444-803919\\snapshots\\00003\\accessibility.json",
+                  "pointer": "/nodes/489/name/value",
+                  "quote": "Rating:"
+                },
+                {
+                  "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-110444-803919\\snapshots\\00003\\accessibility.json",
+                  "pointer": "/nodes/652/name/value",
+                  "quote": "20%"
+                }
+              ]
+            },
+            {
+              "url": "http://127.0.0.1:7770/",
+              "snapshot_index": 3,
+              "refs": [
+                {
+                  "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-110444-803919\\snapshots\\00004\\accessibility.json",
+                  "pointer": "/nodes/489/name/value",
+                  "quote": "Rating:"
+                },
+                {
+                  "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-110444-803919\\snapshots\\00004\\accessibility.json",
+                  "pointer": "/nodes/652/name/value",
+                  "quote": "20%"
+                }
+              ]
+            },
+            {
+              "url": "http://127.0.0.1:7770/",
+              "snapshot_index": 4,
+              "refs": [
+                {
+                  "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-110444-803919\\snapshots\\00005\\accessibility.json",
+                  "pointer": "/nodes/489/name/value",
+                  "quote": "Rating:"
+                },
+                {
+                  "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-110444-803919\\snapshots\\00005\\accessibility.json",
+                  "pointer": "/nodes/652/name/value",
+                  "quote": "20%"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "product.review_count",
+          "kind": "attribute",
+          "supported": true,
+          "status": "supported",
+          "evidence": [
+            {
+              "url": "http://127.0.0.1:7770/",
+              "snapshot_index": 0,
+              "refs": [
+                {
+                  "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-110444-803919\\snapshots\\00001\\accessibility.json",
+                  "pointer": "/nodes/351/name/value",
+                  "quote": "1  Review"
+                }
+              ]
+            },
+            {
+              "url": "http://127.0.0.1:7770/",
+              "snapshot_index": 1,
+              "refs": [
+                {
+                  "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-110444-803919\\snapshots\\00002\\accessibility.json",
+                  "pointer": "/nodes/491/name/value",
+                  "quote": "1  Review"
+                }
+              ]
+            },
+            {
+              "url": "http://127.0.0.1:7770/",
+              "snapshot_index": 2,
+              "refs": [
+                {
+                  "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-110444-803919\\snapshots\\00003\\accessibility.json",
+                  "pointer": "/nodes/491/name/value",
+                  "quote": "1  Review"
+                }
+              ]
+            },
+            {
+              "url": "http://127.0.0.1:7770/",
+              "snapshot_index": 3,
+              "refs": [
+                {
+                  "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-110444-803919\\snapshots\\00004\\accessibility.json",
+                  "pointer": "/nodes/491/name/value",
+                  "quote": "1  Review"
+                }
+              ]
+            },
+            {
+              "url": "http://127.0.0.1:7770/",
+              "snapshot_index": 4,
+              "refs": [
+                {
+                  "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-110444-803919\\snapshots\\00005\\accessibility.json",
+                  "pointer": "/nodes/491/name/value",
+                  "quote": "1  Review"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "product.availability",
+          "kind": "attribute",
+          "supported": false,
+          "status": "not_demonstrated",
+          "evidence": []
+        },
+        {
+          "id": "product.image",
+          "kind": "attribute",
+          "supported": false,
+          "status": "not_demonstrated",
+          "evidence": []
+        },
+        {
+          "id": "control.product.quantity",
+          "kind": "input_control",
+          "supported": false,
+          "status": "not_demonstrated",
+          "evidence": []
+        },
+        {
+          "id": "product.size",
+          "kind": "attribute",
+          "supported": false,
+          "status": "not_demonstrated",
+          "evidence": []
+        },
+        {
+          "id": "product.color",
+          "kind": "attribute",
+          "supported": false,
+          "status": "not_demonstrated",
+          "evidence": []
+        },
+        {
+          "id": "product.style",
+          "kind": "attribute",
+          "supported": false,
+          "status": "not_demonstrated",
+          "evidence": []
+        },
+        {
+          "id": "product.description",
+          "kind": "attribute",
+          "supported": false,
+          "status": "not_demonstrated",
+          "evidence": []
+        },
+        {
+          "id": "form.search.short_description",
+          "kind": "form_field",
+          "supported": false,
+          "status": "not_demonstrated",
+          "evidence": []
+        },
+        {
+          "id": "product.asin",
+          "kind": "attribute",
+          "supported": false,
+          "status": "not_demonstrated",
+          "evidence": []
+        },
+        {
+          "id": "product.dimensions",
+          "kind": "attribute",
+          "supported": false,
+          "status": "not_demonstrated",
+          "evidence": []
+        },
+        {
+          "id": "product.upc",
+          "kind": "attribute",
+          "supported": false,
+          "status": "not_demonstrated",
+          "evidence": []
+        },
+        {
+          "id": "product.manufacturer",
+          "kind": "attribute",
+          "supported": false,
+          "status": "not_demonstrated",
+          "evidence": []
+        },
+        {
+          "id": "product.country_of_origin",
+          "kind": "attribute",
+          "supported": false,
+          "status": "not_demonstrated",
+          "evidence": []
+        },
+        {
+          "id": "product.package_dimensions",
+          "kind": "attribute",
+          "supported": false,
+          "status": "not_demonstrated",
+          "evidence": []
+        },
+        {
+          "id": "product.item_weight",
+          "kind": "attribute",
+          "supported": false,
+          "status": "not_demonstrated",
+          "evidence": []
+        },
+        {
+          "id": "product.model_number",
+          "kind": "attribute",
+          "supported": false,
+          "status": "not_demonstrated",
+          "evidence": []
+        },
+        {
+          "id": "product.date_first_available",
+          "kind": "attribute",
+          "supported": false,
+          "status": "not_demonstrated",
+          "evidence": []
+        },
+        {
+          "id": "product.batteries",
+          "kind": "attribute",
+          "supported": false,
+          "status": "not_demonstrated",
+          "evidence": []
+        },
+        {
+          "id": "product.discontinued_status",
+          "kind": "attribute",
+          "supported": false,
+          "status": "not_demonstrated",
+          "evidence": []
+        },
+        {
+          "id": "product.domestic_shipping",
+          "kind": "attribute",
+          "supported": false,
+          "status": "not_demonstrated",
+          "evidence": []
+        },
+        {
+          "id": "product.international_shipping",
+          "kind": "attribute",
+          "supported": false,
+          "status": "not_demonstrated",
+          "evidence": []
+        },
+        {
+          "id": "product.department",
+          "kind": "attribute",
+          "supported": false,
+          "status": "not_demonstrated",
+          "evidence": []
+        },
+        {
+          "id": "category.name",
+          "kind": "attribute",
+          "supported": false,
+          "status": "not_demonstrated",
+          "evidence": []
+        },
+        {
+          "id": "category.item_count",
+          "kind": "attribute",
+          "supported": false,
+          "status": "not_demonstrated",
+          "evidence": []
+        },
+        {
+          "id": "category.subcategories",
+          "kind": "attribute",
+          "supported": false,
+          "status": "not_demonstrated",
+          "evidence": []
+        },
+        {
+          "id": "category.price_range",
+          "kind": "attribute",
+          "supported": false,
+          "status": "not_demonstrated",
+          "evidence": []
+        },
+        {
+          "id": "search.basic",
+          "kind": "affordance",
+          "supported": true,
+          "status": "supported",
+          "evidence": [
+            {
+              "url": "http://127.0.0.1:7770/",
+              "snapshot_index": 0,
+              "refs": [
+                {
+                  "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-110444-803919\\snapshots\\00001\\accessibility.json",
+                  "pointer": "/nodes/221/name/value",
+                  "quote": " Search"
+                }
+              ]
+            },
+            {
+              "url": "http://127.0.0.1:7770/",
+              "snapshot_index": 1,
+              "refs": [
+                {
+                  "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-110444-803919\\snapshots\\00002\\accessibility.json",
+                  "pointer": "/nodes/286/name/value",
+                  "quote": " Search"
+                }
+              ]
+            },
+            {
+              "url": "http://127.0.0.1:7770/",
+              "snapshot_index": 2,
+              "refs": [
+                {
+                  "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-110444-803919\\snapshots\\00003\\accessibility.json",
+                  "pointer": "/nodes/286/name/value",
+                  "quote": " Search"
+                }
+              ]
+            },
+            {
+              "url": "http://127.0.0.1:7770/",
+              "snapshot_index": 3,
+              "refs": [
+                {
+                  "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-110444-803919\\snapshots\\00004\\accessibility.json",
+                  "pointer": "/nodes/286/name/value",
+                  "quote": " Search"
+                }
+              ]
+            },
+            {
+              "url": "http://127.0.0.1:7770/",
+              "snapshot_index": 4,
+              "refs": [
+                {
+                  "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-110444-803919\\snapshots\\00005\\accessibility.json",
+                  "pointer": "/nodes/286/name/value",
+                  "quote": " Search"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "search.advanced",
+          "kind": "affordance",
+          "supported": false,
+          "status": "not_demonstrated",
+          "evidence": []
+        },
+        {
+          "id": "catalog.filter",
+          "kind": "affordance",
+          "supported": false,
+          "status": "not_demonstrated",
+          "evidence": []
+        },
+        {
+          "id": "catalog.sort",
+          "kind": "affordance",
+          "supported": false,
+          "status": "not_demonstrated",
+          "evidence": []
+        },
+        {
+          "id": "catalog.paginate",
+          "kind": "affordance",
+          "supported": false,
+          "status": "not_demonstrated",
+          "evidence": []
+        },
+        {
+          "id": "cart.add",
+          "kind": "affordance",
+          "supported": true,
+          "status": "supported",
+          "evidence": [
+            {
+              "url": "http://127.0.0.1:7770/",
+              "snapshot_index": 0,
+              "refs": [
+                {
+                  "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-110444-803919\\snapshots\\00001\\accessibility.json",
+                  "pointer": "/nodes/516/name/value",
+                  "quote": "Add to Cart"
+                }
+              ]
+            },
+            {
+              "url": "http://127.0.0.1:7770/",
+              "snapshot_index": 1,
+              "refs": [
+                {
+                  "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-110444-803919\\snapshots\\00002\\accessibility.json",
+                  "pointer": "/nodes/656/name/value",
+                  "quote": "Add to Cart"
+                }
+              ]
+            },
+            {
+              "url": "http://127.0.0.1:7770/",
+              "snapshot_index": 2,
+              "refs": [
+                {
+                  "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-110444-803919\\snapshots\\00003\\accessibility.json",
+                  "pointer": "/nodes/656/name/value",
+                  "quote": "Add to Cart"
+                }
+              ]
+            },
+            {
+              "url": "http://127.0.0.1:7770/",
+              "snapshot_index": 3,
+              "refs": [
+                {
+                  "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-110444-803919\\snapshots\\00004\\accessibility.json",
+                  "pointer": "/nodes/656/name/value",
+                  "quote": "Add to Cart"
+                }
+              ]
+            },
+            {
+              "url": "http://127.0.0.1:7770/",
+              "snapshot_index": 4,
+              "refs": [
+                {
+                  "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-110444-803919\\snapshots\\00005\\accessibility.json",
+                  "pointer": "/nodes/656/name/value",
+                  "quote": "Add to Cart"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "cart.view",
+          "kind": "affordance",
+          "supported": true,
+          "status": "supported",
+          "evidence": [
+            {
+              "url": "http://127.0.0.1:7770/",
+              "snapshot_index": 0,
+              "refs": [
+                {
+                  "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-110444-803919\\snapshots\\00001\\accessibility.json",
+                  "pointer": "/nodes/91/name/value",
+                  "quote": " My Cart"
+                }
+              ]
+            },
+            {
+              "url": "http://127.0.0.1:7770/",
+              "snapshot_index": 1,
+              "refs": [
+                {
+                  "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-110444-803919\\snapshots\\00002\\accessibility.json",
+                  "pointer": "/nodes/140/name/value",
+                  "quote": " My Cart"
+                }
+              ]
+            },
+            {
+              "url": "http://127.0.0.1:7770/",
+              "snapshot_index": 2,
+              "refs": [
+                {
+                  "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-110444-803919\\snapshots\\00003\\accessibility.json",
+                  "pointer": "/nodes/140/name/value",
+                  "quote": " My Cart"
+                }
+              ]
+            },
+            {
+              "url": "http://127.0.0.1:7770/",
+              "snapshot_index": 3,
+              "refs": [
+                {
+                  "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-110444-803919\\snapshots\\00004\\accessibility.json",
+                  "pointer": "/nodes/140/name/value",
+                  "quote": " My Cart"
+                }
+              ]
+            },
+            {
+              "url": "http://127.0.0.1:7770/",
+              "snapshot_index": 4,
+              "refs": [
+                {
+                  "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-110444-803919\\snapshots\\00005\\accessibility.json",
+                  "pointer": "/nodes/140/name/value",
+                  "quote": " My Cart"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "cart.empty",
+          "kind": "business_state",
+          "supported": false,
+          "status": "not_demonstrated",
+          "evidence": []
+        },
+        {
+          "id": "search.results_nonempty",
+          "kind": "business_state",
+          "supported": false,
+          "status": "not_demonstrated",
+          "evidence": []
+        },
+        {
+          "id": "search.results_empty",
+          "kind": "business_state",
+          "supported": false,
+          "status": "not_demonstrated",
+          "evidence": []
+        },
+        {
+          "id": "catalog.filtered_result",
+          "kind": "business_state",
+          "supported": false,
+          "status": "not_demonstrated",
+          "evidence": []
+        },
+        {
+          "id": "catalog.price_sort_selected",
+          "kind": "business_state",
+          "supported": false,
+          "status": "not_demonstrated",
+          "evidence": []
+        },
+        {
+          "id": "catalog.next_page",
+          "kind": "business_state",
+          "supported": false,
+          "status": "not_demonstrated",
+          "evidence": []
+        },
+        {
+          "id": "page.home",
+          "kind": "page_type",
+          "supported": true,
+          "status": "supported",
+          "evidence": [
+            {
+              "url": "http://127.0.0.1:7770/",
+              "snapshot_index": 0,
+              "refs": [
+                {
+                  "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-110444-803919\\snapshots\\00001\\accessibility.json",
+                  "pointer": "/nodes/0/name/value",
+                  "quote": "One Stop Market"
+                }
+              ]
+            },
+            {
+              "url": "http://127.0.0.1:7770/",
+              "snapshot_index": 1,
+              "refs": [
+                {
+                  "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-110444-803919\\snapshots\\00002\\accessibility.json",
+                  "pointer": "/nodes/0/name/value",
+                  "quote": "One Stop Market"
+                }
+              ]
+            },
+            {
+              "url": "http://127.0.0.1:7770/",
+              "snapshot_index": 2,
+              "refs": [
+                {
+                  "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-110444-803919\\snapshots\\00003\\accessibility.json",
+                  "pointer": "/nodes/0/name/value",
+                  "quote": "One Stop Market"
+                }
+              ]
+            },
+            {
+              "url": "http://127.0.0.1:7770/",
+              "snapshot_index": 3,
+              "refs": [
+                {
+                  "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-110444-803919\\snapshots\\00004\\accessibility.json",
+                  "pointer": "/nodes/0/name/value",
+                  "quote": "One Stop Market"
+                }
+              ]
+            },
+            {
+              "url": "http://127.0.0.1:7770/",
+              "snapshot_index": 4,
+              "refs": [
+                {
+                  "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-110444-803919\\snapshots\\00005\\accessibility.json",
+                  "pointer": "/nodes/0/name/value",
+                  "quote": "One Stop Market"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "page.category_list",
+          "kind": "page_type",
+          "supported": false,
+          "status": "not_demonstrated",
+          "evidence": []
+        },
+        {
+          "id": "page.product_detail",
+          "kind": "page_type",
+          "supported": false,
+          "status": "not_demonstrated",
+          "evidence": []
+        },
+        {
+          "id": "page.advanced_search",
+          "kind": "page_type",
+          "supported": false,
+          "status": "not_demonstrated",
+          "evidence": []
+        },
+        {
+          "id": "page.search_results",
+          "kind": "page_type",
+          "supported": false,
+          "status": "not_demonstrated",
+          "evidence": []
+        },
+        {
+          "id": "page.cart",
+          "kind": "page_type",
+          "supported": false,
+          "status": "not_demonstrated",
+          "evidence": []
+        },
+        {
+          "id": "category_lists_product",
+          "kind": "relation",
+          "supported": false,
+          "status": "not_demonstrated",
+          "evidence": []
+        }
+      ],
+      "coverage_curve": [
+        {
+          "snapshot_index": 0,
+          "url": "http://127.0.0.1:7770/",
+          "captured_at": "2026-10-08T03:04:48.339785+00:00",
+          "attributes_supported": 2
+        },
+        {
+          "snapshot_index": 1,
+          "url": "http://127.0.0.1:7770/",
+          "captured_at": "2026-10-08T03:05:33.924198+00:00",
+          "attributes_supported": 2
+        },
+        {
+          "snapshot_index": 2,
+          "url": "http://127.0.0.1:7770/",
+          "captured_at": "2026-10-08T03:06:09.540422+00:00",
+          "attributes_supported": 2
+        },
+        {
+          "snapshot_index": 3,
+          "url": "http://127.0.0.1:7770/",
+          "captured_at": "2026-10-08T03:06:32.814919+00:00",
+          "attributes_supported": 2
+        },
+        {
+          "snapshot_index": 4,
+          "url": "http://127.0.0.1:7770/",
+          "captured_at": "2026-10-08T03:07:06.369914+00:00",
+          "attributes_supported": 2
+        }
+      ],
+      "curve_order": "sorted snapshot paths; no claim of action-normalized elapsed time"
+    }
+  },
+  "summary": {
+    "drive": {
+      "runs": 1,
+      "metrics": {
+        "affordance": {
+          "mean": 0.42857142857142855,
+          "sample_stdev": null,
+          "min": 0.42857142857142855,
+          "max": 0.42857142857142855
+        },
+        "attribute": {
+          "mean": 0.4827586206896552,
+          "sample_stdev": null,
+          "min": 0.4827586206896552,
+          "max": 0.4827586206896552
+        },
+        "business_state": {
+          "mean": 0.0,
+          "sample_stdev": null,
+          "min": 0.0,
+          "max": 0.0
+        },
+        "entity": {
+          "mean": 0.3333333333333333,
+          "sample_stdev": null,
+          "min": 0.3333333333333333,
+          "max": 0.3333333333333333
+        },
+        "form_field": {
+          "mean": 0.0,
+          "sample_stdev": null,
+          "min": 0.0,
+          "max": 0.0
+        },
+        "input_control": {
+          "mean": 1.0,
+          "sample_stdev": null,
+          "min": 1.0,
+          "max": 1.0
+        },
+        "page_type": {
+          "mean": 0.3333333333333333,
+          "sample_stdev": null,
+          "min": 0.3333333333333333,
+          "max": 0.3333333333333333
+        },
+        "relation": {
+          "mean": 0.0,
+          "sample_stdev": null,
+          "min": 0.0,
+          "max": 0.0
+        },
+        "DB_verified_subset": {
+          "mean": 0.8571428571428571,
+          "sample_stdev": null,
+          "min": 0.8571428571428571,
+          "max": 0.8571428571428571
+        }
+      }
+    },
+    "browser-use": {
+      "runs": 1,
+      "metrics": {
+        "affordance": {
+          "mean": 0.42857142857142855,
+          "sample_stdev": null,
+          "min": 0.42857142857142855,
+          "max": 0.42857142857142855
+        },
+        "attribute": {
+          "mean": 0.06896551724137931,
+          "sample_stdev": null,
+          "min": 0.06896551724137931,
+          "max": 0.06896551724137931
+        },
+        "business_state": {
+          "mean": 0.0,
+          "sample_stdev": null,
+          "min": 0.0,
+          "max": 0.0
+        },
+        "entity": {
+          "mean": 0.0,
+          "sample_stdev": null,
+          "min": 0.0,
+          "max": 0.0
+        },
+        "form_field": {
+          "mean": 0.0,
+          "sample_stdev": null,
+          "min": 0.0,
+          "max": 0.0
+        },
+        "input_control": {
+          "mean": 0.0,
+          "sample_stdev": null,
+          "min": 0.0,
+          "max": 0.0
+        },
+        "page_type": {
+          "mean": 0.16666666666666666,
+          "sample_stdev": null,
+          "min": 0.16666666666666666,
+          "max": 0.16666666666666666
+        },
+        "relation": {
+          "mean": 0.0,
+          "sample_stdev": null,
+          "min": 0.0,
+          "max": 0.0
+        },
+        "DB_verified_subset": {
+          "mean": 0.0,
+          "sample_stdev": null,
+          "min": 0.0,
+          "max": 0.0
+        }
+      }
+    }
+  },
+  "limitations": [
+    "No complete DB denominator, CM precision, or trace fidelity claim.",
+    "Not demonstrated is not false; missing evidence is not website absence.",
+    "Declared conditions do not prove environment reset or budget equivalence.",
+    "Repeated snapshot paths are observations, not independent business states.",
+    "No composite ranking. Historical/post-hoc gold remains diagnostic."
+  ]
+}

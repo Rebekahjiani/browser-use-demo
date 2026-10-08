@@ -1,0 +1,11 @@
+{"args":{"name":"swapper"},"cat":"__metadata","name":"thread_name","ph":"M","pid":0,"tid":0,"ts":0}
+{"args":{"name":"CrRendererMain"},"cat":"__metadata","name":"thread_name","ph":"M","pid":29548,"tid":40800,"ts":0}
+{"args":{"name":"Renderer"},"cat":"__metadata","name":"process_name","ph":"M","pid":29548,"tid":0,"ts":0}
+{"args":{"uptime":"181"},"cat":"__metadata","name":"process_uptime_seconds","ph":"M","pid":29548,"tid":0,"ts":0}
+{"args":{"args":{"had_user_input_before_interactive":false,"total_blocking_time_ms":50.605},"frame":""},"cat":"loading,rail","name":"InteractiveTime","ph":"R","pid":29548,"s":"t","tid":40800,"ts":1550699971485}
+{"args":{"args":{"had_user_input_before_interactive":false,"total_blocking_time_ms":0},"frame":"E42C032F4AD866337E63F1AFCB2DA291"},"cat":"loading,rail","name":"InteractiveTime","ph":"R","pid":29548,"s":"t","tid":40800,"ts":1550856999178}
+{"args":{"snapshot":{"documentLoaderURL":"http://127.0.0.1:7770/checkout/cart/","frame":{"id_ref":"E42C032F4AD866337E63F1AFCB2DA291"},"isLoadingMainFrame":true,"isOutermostMainFrame":true}},"cat":"loading","name":"FrameLoader:state_snapshot","ph":"I","pid":29548,"s":"t","tid":40800,"ts":1550871282803,"tts":2505902}
+{"args":{},"cat":"loading","name":"FrameLoader:deleted","ph":"I","pid":29548,"s":"t","tid":40800,"ts":1550871282928,"tts":2505947}
+{"args":{"substracted_bytes":0,"total_bytes_buffered":0},"cat":"loading","dur":2,"name":"BackForwardCacheBufferLimitTracker::DidRemoveFrameOrWorkerFromBackForwardCache","ph":"X","pid":29548,"tdur":2,"tid":40800,"ts":1550871282932,"tts":2505949}
+{"args":{},"cat":"loading","id":0,"name":"FrameLoader:state_snapshot","ph":"s","pid":29548,"tid":40800,"ts":1550871282803}
+{"args":{},"bp":"e","cat":"loading","id":0,"name":"FrameLoader:state_snapshot","ph":"f","pid":29548,"tid":40800,"ts":1550871282928}

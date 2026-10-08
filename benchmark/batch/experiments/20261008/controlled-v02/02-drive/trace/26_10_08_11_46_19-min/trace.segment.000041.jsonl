@@ -1,0 +1,11 @@
+{"args":{"name":"swapper"},"cat":"__metadata","name":"thread_name","ph":"M","pid":0,"tid":0,"ts":0}
+{"args":{"name":"CrRendererMain"},"cat":"__metadata","name":"thread_name","ph":"M","pid":35296,"tid":45316,"ts":0}
+{"args":{"name":"Renderer"},"cat":"__metadata","name":"process_name","ph":"M","pid":35296,"tid":0,"ts":0}
+{"args":{"uptime":"613"},"cat":"__metadata","name":"process_uptime_seconds","ph":"M","pid":35296,"tid":0,"ts":0}
+{"args":{"args":{"had_user_input_before_interactive":false,"total_blocking_time_ms":632.786},"frame":""},"cat":"loading,rail","name":"InteractiveTime","ph":"R","pid":35296,"s":"t","tid":45316,"ts":1549741614355}
+{"args":{"args":{"had_user_input_before_interactive":false,"total_blocking_time_ms":0},"frame":"E42C032F4AD866337E63F1AFCB2DA291"},"cat":"loading,rail","name":"InteractiveTime","ph":"R","pid":35296,"s":"t","tid":45316,"ts":1549742921053}
+{"args":{"substracted_bytes":0,"total_bytes_buffered":0},"cat":"loading","dur":18,"name":"BackForwardCacheBufferLimitTracker::DidRemoveFrameOrWorkerFromBackForwardCache","ph":"X","pid":35296,"tdur":5,"tid":45316,"ts":1549753153647,"tts":12919275}
+{"args":{"substracted_bytes":0,"total_bytes_buffered":0},"cat":"loading","dur":1,"name":"BackForwardCacheBufferLimitTracker::DidRemoveFrameOrWorkerFromBackForwardCache","ph":"X","pid":35296,"tid":45316,"ts":1549753153796}
+{"args":{},"cat":"loading","dur":6,"name":"DocumentLoader::~DocumentLoader","ph":"X","pid":35296,"tdur":3,"tid":45316,"ts":1549753213733,"tts":12971108}
+{"args":{},"cat":"loading","dur":4,"name":"DocumentLoader::~DocumentLoader","ph":"X","pid":35296,"tdur":2,"tid":45316,"ts":1549753233303,"tts":12985755}
+{"args":{"context":{"URL":"","domModifications":0,"firstContentfulPaint":0,"paintedArea":0,"performanceTimelineNavigationId":0,"processingEnd":1549742835246,"softNavContextId":42,"timeOrigin":1549742832991,"urlChangeTime":0}},"cat":"loading","id2":{"local":"0x4"},"name":"SoftNavigationHeuristics::SoftNavigationContextWasExhausted","ph":"n","pid":35296,"tid":45316,"ts":1549753153683}

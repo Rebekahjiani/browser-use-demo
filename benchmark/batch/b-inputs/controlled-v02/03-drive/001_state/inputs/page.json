@@ -1,0 +1,10 @@
+{
+  "url": "http://127.0.0.1:7770/tony-chachere-s-more-spice-creole-seasoning-14-oz.html",
+  "title": "Tony Chachere's More Spice Creole Seasoning - 14 oz",
+  "route": "/tony-chachere-s-more-spice-creole-seasoning-14-oz.html",
+  "sources": {
+    "accessibility": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\03-drive\\trace\\26_10_08_12_12_08-min\\drive\\screenshots\\001_tony-chachere-s-more-spice-creole-seasoning-14-oz_html\\accessibility.json",
+    "sha256_AX": "a2def73b85f77076c3e32e71082543139374b1b6b8b75f069b295c040455bc68"
+  },
+  "material_scope": "recorded UI and conservatively associated JSON responses"
+}

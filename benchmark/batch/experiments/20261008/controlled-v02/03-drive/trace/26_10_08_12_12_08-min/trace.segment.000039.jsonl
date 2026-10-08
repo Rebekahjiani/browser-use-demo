@@ -1,0 +1,8 @@
+{"args":{"name":"swapper"},"cat":"__metadata","name":"thread_name","ph":"M","pid":0,"tid":0,"ts":0}
+{"args":{"name":"CrRendererMain"},"cat":"__metadata","name":"thread_name","ph":"M","pid":29548,"tid":40800,"ts":0}
+{"args":{"name":"Renderer"},"cat":"__metadata","name":"process_name","ph":"M","pid":29548,"tid":0,"ts":0}
+{"args":{"uptime":"589"},"cat":"__metadata","name":"process_uptime_seconds","ph":"M","pid":29548,"tid":0,"ts":0}
+{"args":{"substracted_bytes":0,"total_bytes_buffered":0},"cat":"loading","dur":21,"name":"BackForwardCacheBufferLimitTracker::DidRemoveFrameOrWorkerFromBackForwardCache","ph":"X","pid":29548,"tdur":5,"tid":40800,"ts":1551278396591,"tts":7639849}
+{"args":{"substracted_bytes":0,"total_bytes_buffered":0},"cat":"loading","dur":1,"name":"BackForwardCacheBufferLimitTracker::DidRemoveFrameOrWorkerFromBackForwardCache","ph":"X","pid":29548,"tid":40800,"ts":1551278396748}
+{"args":{},"cat":"loading","dur":5,"name":"DocumentLoader::~DocumentLoader","ph":"X","pid":29548,"tdur":2,"tid":40800,"ts":1551278414634,"tts":7655172}
+{"args":{},"cat":"loading","dur":3,"name":"DocumentLoader::~DocumentLoader","ph":"X","pid":29548,"tdur":1,"tid":40800,"ts":1551278419251,"tts":7659527}

@@ -1,0 +1,12 @@
+{
+  "capturedAt": "2026-10-08T03:46:20.335Z",
+  "url": "http://127.0.0.1:7770/",
+  "title": "One Stop Market",
+  "cdpPort": 9222,
+  "basename": "E42C032F",
+  "outputs": {
+    "screenshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\02-drive\\trace\\26_10_08_11_46_19-min\\E42C032F_pre\\E42C032F.png",
+    "html": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\02-drive\\trace\\26_10_08_11_46_19-min\\E42C032F_pre\\E42C032F.html",
+    "accessibilitySnapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\02-drive\\trace\\26_10_08_11_46_19-min\\E42C032F_pre\\E42C032F.accessibility.json"
+  }
+}

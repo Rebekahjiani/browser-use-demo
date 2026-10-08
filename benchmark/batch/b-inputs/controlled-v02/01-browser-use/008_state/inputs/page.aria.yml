@@ -1,0 +1,665 @@
+- RootWebArea "Search results for: 'headphones'" [url="http://127.0.0.1:7770/catalogsearch/result/?q=headphones"]
+  - generic
+    - banner
+      - generic
+        - link "Skip to Content" [url="http://127.0.0.1:7770/catalogsearch/result/?q=headphones#contentarea"]
+          - StaticText "Skip to Content"
+      - generic
+        - generic
+          - generic
+            - StaticText ""
+          - StaticText "Toggle Nav"
+        - link "store logo" [url="http://127.0.0.1:7770/"]
+          - image "one_stop_market_logo" [url="http://127.0.0.1:7770/media/logo/websites/1/image_15__1.png"]
+        - generic
+          - link " My Cart" [url="http://127.0.0.1:7770/checkout/cart/"]
+            - generic
+              - StaticText ""
+            - StaticText "My Cart"
+        - form
+          - LabelText
+            - generic
+              - StaticText ""
+            - StaticText "Search"
+          - generic
+            - combobox " Search" [expanded=false] [value="headphones"]
+              - generic
+                - StaticText "headphones"
+    - generic
+      - tablist
+        - tab "Menu" [selected=false] [expanded=true]
+          - link "Menu" [url="http://127.0.0.1:7770/catalogsearch/result/?q=headphones#store.menu"]
+            - StaticText "Menu"
+        - tabpanel
+          - navigation
+            - menu
+              - menuitem "BEAUTY & PERSONAL CARE "
+                - StaticText "BEAUTY & PERSONAL CARE"
+                - generic
+                  - StaticText ""
+              - menuitem "SPORTS & OUTDOORS "
+                - StaticText "SPORTS & OUTDOORS"
+                - generic
+                  - StaticText ""
+              - menuitem "CLOTHING, SHOES & JEWELRY "
+                - StaticText "CLOTHING, SHOES & JEWELRY"
+                - generic
+                  - StaticText ""
+              - menuitem "HOME & KITCHEN "
+                - StaticText "HOME & KITCHEN"
+                - generic
+                  - StaticText ""
+              - menuitem "OFFICE PRODUCTS "
+                - StaticText "OFFICE PRODUCTS"
+                - generic
+                  - StaticText ""
+              - menuitem "TOOLS & HOME IMPROVEMENT "
+                - StaticText "TOOLS & HOME IMPROVEMENT"
+                - generic
+                  - StaticText ""
+              - menuitem "HEALTH & HOUSEHOLD "
+                - StaticText "HEALTH & HOUSEHOLD"
+                - generic
+                  - StaticText ""
+              - menuitem "PATIO, LAWN & GARDEN "
+                - StaticText "PATIO, LAWN & GARDEN"
+                - generic
+                  - StaticText ""
+              - menuitem "ELECTRONICS "
+                - StaticText "ELECTRONICS"
+                - generic
+                  - StaticText ""
+              - menuitem "CELL PHONES & ACCESSORIES "
+                - StaticText "CELL PHONES & ACCESSORIES"
+                - generic
+                  - StaticText ""
+              - menuitem "VIDEO GAMES "
+                - StaticText "VIDEO GAMES"
+                - generic
+                  - StaticText ""
+              - menuitem "GROCERY & GOURMET FOOD "
+                - StaticText "GROCERY & GOURMET FOOD"
+                - generic
+                  - StaticText ""
+        - tab "Account" [selected=false] [expanded=false]
+          - link "Account" [url="http://127.0.0.1:7770/catalogsearch/result/?q=headphones#store.links"]
+            - StaticText "Account"
+    - list
+      - listitem [level=1]
+        - link "Home" [url="http://127.0.0.1:7770/"]
+          - StaticText "Home"
+        - generic
+          - StaticText ""
+      - listitem [level=1]
+        - strong
+          - StaticText "Search results for: 'headphones'"
+    - main
+      - generic
+      - heading "Search results for: 'headphones'" [level=1]
+        - StaticText "Search results for: 'headphones'"
+      - generic
+        - paragraph
+          - StaticText "Items"
+          - StaticText "1"
+          - StaticText "-"
+          - StaticText "12"
+          - StaticText "of"
+          - StaticText "1865"
+        - generic
+          - LabelText
+            - StaticText "Sort By"
+          - combobox "Sort By" [expanded=false] [value="Relevance"]
+            - MenuListPopup
+              - option "Product Name" [selected=false]
+              - option "Price" [selected=false]
+              - option "Relevance" [selected=true]
+          - link " Set Ascending Direction" [url="http://127.0.0.1:7770/catalogsearch/result/?q=headphones#"]
+            - generic
+              - StaticText ""
+            - StaticText "Set Ascending Direction"
+        - list
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/new-black-earhook-headphones-headphones.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B000FQJMAI.0.jpg"]
+              - strong
+                - link "NEW Black Earhook Headphones (HEADPHONES)" [url="http://127.0.0.1:7770/new-black-earhook-headphones-headphones.html"]
+                  - StaticText "NEW Black Earhook Headphones (HEADPHONES)"
+              - generic
+                - generic
+                  - StaticText "$41.88"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/bulk-headphones-kids-headphones-5pack-ymj-headphones-for-kids-girls-boys-earbuds-for-kids-colorful-mixed-color-headphones-for-grils-boys-students-libraries-classroom.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B08DMW9VJ6.0.jpg"]
+              - strong
+                - link "Bulk Headphones Kids Headphones 5pack,YMJ Headphones for Kids,Girls Boys- Earbuds for Kids Colorful (Mixed Color) Headphones for Grils, Boys,Students, Libraries, Classroom" [url="http://127.0.0.1:7770/bulk-headphones-kids-headphones-5pack-ymj-headphones-for-kids-girls-boys-earbuds-for-kids-colorful-mixed-color-headphones-for-grils-boys-students-libraries-classroom.html"]
+                  - StaticText "Bulk Headphones Kids Headphones 5pack,YMJ Headphones for Kids,Girls Boys- Earbuds for Kids Colorful (Mixed Color) Headphones for Grils, Boys,Students, Libraries, Classroom"
+              - LayoutTable
+                - generic
+                  - StaticText "Rating:"
+                  - generic
+                    - generic
+                      - StaticText ""
+                    - generic
+                      - StaticText ""
+                    - StaticText "70%"
+                - generic
+                  - link "2 Reviews" [url="http://127.0.0.1:7770/bulk-headphones-kids-headphones-5pack-ymj-headphones-for-kids-girls-boys-earbuds-for-kids-colorful-mixed-color-headphones-for-grils-boys-students-libraries-classroom.html#reviews"]
+                    - StaticText "2"
+                    - StaticText "Reviews"
+              - generic
+                - generic
+                  - StaticText "$21.99"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/munskt-color-headphones-heavy-bass-earphone-in-ear-headphones-headphones-with-microphone-mobile-phone-earphone-wired-earphone-3-5mm-headphones-pink-4pack.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B088PZHLGG.0.jpg"]
+              - strong
+                - link "MUNSKT Color Headphones Heavy bass Earphone in Ear Headphones Headphones with Microphone Mobile Phone Earphone Wired Earphone 3.5mm Headphones (Pink 4pack)" [url="http://127.0.0.1:7770/munskt-color-headphones-heavy-bass-earphone-in-ear-headphones-headphones-with-microphone-mobile-phone-earphone-wired-earphone-3-5mm-headphones-pink-4pack.html"]
+                  - StaticText "MUNSKT Color Headphones Heavy bass Earphone in Ear Headphones Headphones with Microphone Mobile Phone Earphone Wired Earphone 3.5mm Headphones (Pink 4pack)"
+              - LayoutTable
+                - generic
+                  - StaticText "Rating:"
+                  - generic
+                    - generic
+                      - StaticText ""
+                    - generic
+                      - StaticText ""
+                    - StaticText "75%"
+                - generic
+                  - link "12 Reviews" [url="http://127.0.0.1:7770/munskt-color-headphones-heavy-bass-earphone-in-ear-headphones-headphones-with-microphone-mobile-phone-earphone-wired-earphone-3-5mm-headphones-pink-4pack.html#reviews"]
+                    - StaticText "12"
+                    - StaticText "Reviews"
+              - generic
+                - generic
+                  - StaticText "$7.99"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/ear-headphones-cat-ear-led-light-up-foldable-headphones-hifi-3-5mm-noise-reduction-headphones-computer-gaming-headset-cat-ear-headphone-with-microphone-and-volume-control.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B091KB7GX3.0.jpg"]
+              - strong
+                - link "Ear Headphones, Cat Ear LED Light Up Foldable Headphones HiFi 3.5MM Noise Reduction Headphones Computer Gaming Headset Cat Ear Headphone with Microphone and Volume Control" [url="http://127.0.0.1:7770/ear-headphones-cat-ear-led-light-up-foldable-headphones-hifi-3-5mm-noise-reduction-headphones-computer-gaming-headset-cat-ear-headphone-with-microphone-and-volume-control.html"]
+                  - StaticText "Ear Headphones, Cat Ear LED Light Up Foldable Headphones HiFi 3.5MM Noise Reduction Headphones Computer Gaming Headset Cat Ear Headphone with Microphone and Volume Control"
+              - LayoutTable
+                - generic
+                  - StaticText "Rating:"
+                  - generic
+                    - generic
+                      - StaticText ""
+                    - generic
+                      - StaticText ""
+                    - StaticText "20%"
+                - generic
+                  - link "1 Review" [url="http://127.0.0.1:7770/ear-headphones-cat-ear-led-light-up-foldable-headphones-hifi-3-5mm-noise-reduction-headphones-computer-gaming-headset-cat-ear-headphone-with-microphone-and-volume-control.html#reviews"]
+                    - StaticText "1"
+                    - StaticText "Review"
+              - generic
+                - generic
+                  - StaticText "$14.69"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/pokemon-kids-bluetooth-headphones-wireless-headphones-with-microphone-includes-aux-cord-volume-reduced-kids-foldable-headphones-for-school-home-or-travel.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B08GN8VD6R.0.jpg"]
+              - strong
+                - link "Pokemon Kids Bluetooth Headphones, Wireless Headphones with Microphone Includes Aux Cord, Volume Reduced Kids Foldable Headphones for School, Home, or Travel" [url="http://127.0.0.1:7770/pokemon-kids-bluetooth-headphones-wireless-headphones-with-microphone-includes-aux-cord-volume-reduced-kids-foldable-headphones-for-school-home-or-travel.html"]
+                  - StaticText "Pokemon Kids Bluetooth Headphones, Wireless Headphones with Microphone Includes Aux Cord, Volume Reduced Kids Foldable Headphones for School, Home, or Travel"
+              - LayoutTable
+                - generic
+                  - StaticText "Rating:"
+                  - generic
+                    - generic
+                      - StaticText ""
+                    - generic
+                      - StaticText ""
+                    - StaticText "68%"
+                - generic
+                  - link "12 Reviews" [url="http://127.0.0.1:7770/pokemon-kids-bluetooth-headphones-wireless-headphones-with-microphone-includes-aux-cord-volume-reduced-kids-foldable-headphones-for-school-home-or-travel.html#reviews"]
+                    - StaticText "12"
+                    - StaticText "Reviews"
+              - generic
+                - generic
+                  - StaticText "$29.99"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/kids-headphones-on-ear-comfortable-foldable-headphones-for-kids-lightweight-stereo-headset-for-kids-childrens-toddler-girls-boys-kid-headphones-for-cellphone-pc-laptop-tablet-yellow.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B07G1VGH9F.0.jpg"]
+              - strong
+                - link "Kids Headphones,On-Ear Comfortable Foldable Headphones for Kids,Lightweight Stereo Headset for Kids Childrens Toddler Girls Boys,Kid Headphones for Cellphone PC Laptop Tablet (Yellow)" [url="http://127.0.0.1:7770/kids-headphones-on-ear-comfortable-foldable-headphones-for-kids-lightweight-stereo-headset-for-kids-childrens-toddler-girls-boys-kid-headphones-for-cellphone-pc-laptop-tablet-yellow.html"]
+                  - StaticText "Kids Headphones,On-Ear Comfortable Foldable Headphones for Kids,Lightweight Stereo Headset for Kids Childrens Toddler Girls Boys,Kid Headphones for Cellphone PC Laptop Tablet (Yellow)"
+              - generic
+                - generic
+                  - StaticText "$13.99"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/iahg39b-gaming-headphones.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B07RKCSZL9.0.jpg"]
+              - strong
+                - link "IAHG39B Gaming Headphones" [url="http://127.0.0.1:7770/iahg39b-gaming-headphones.html"]
+                  - StaticText "IAHG39B Gaming Headphones"
+              - LayoutTable
+                - generic
+                  - StaticText "Rating:"
+                  - generic
+                    - generic
+                      - StaticText ""
+                    - generic
+                      - StaticText ""
+                    - StaticText "60%"
+                - generic
+                  - link "1 Review" [url="http://127.0.0.1:7770/iahg39b-gaming-headphones.html#reviews"]
+                    - StaticText "1"
+                    - StaticText "Review"
+              - generic
+                - generic
+                  - StaticText "$23.95"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/harphonic-e7-active-noise-cancelling-headphones-bluetooth-headphones-wireless-headphones-over-ear-with-microphone-deep-bass-comfortable-protein-earpads-30-hours-playtime-for-travel-work-black.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B098NVF3HJ.0.jpg"]
+              - strong
+                - link "Harphonic E7 Active Noise Cancelling Headphones Bluetooth Headphones Wireless Headphones Over Ear with Microphone Deep Bass, Comfortable Protein Earpads, 30 Hours Playtime for Travel/Work, Black" [url="http://127.0.0.1:7770/harphonic-e7-active-noise-cancelling-headphones-bluetooth-headphones-wireless-headphones-over-ear-with-microphone-deep-bass-comfortable-protein-earpads-30-hours-playtime-for-travel-work-black.html"]
+                  - StaticText "Harphonic E7 Active Noise Cancelling Headphones Bluetooth Headphones Wireless Headphones Over Ear with Microphone Deep Bass, Comfortable Protein Earpads, 30 Hours Playtime for Travel/Work, Black"
+              - LayoutTable
+                - generic
+                  - StaticText "Rating:"
+                  - generic
+                    - generic
+                      - StaticText ""
+                    - generic
+                      - StaticText ""
+                    - StaticText "85%"
+                - generic
+                  - link "12 Reviews" [url="http://127.0.0.1:7770/harphonic-e7-active-noise-cancelling-headphones-bluetooth-headphones-wireless-headphones-over-ear-with-microphone-deep-bass-comfortable-protein-earpads-30-hours-playtime-for-travel-work-black.html#reviews"]
+                    - StaticText "12"
+                    - StaticText "Reviews"
+              - generic
+                - generic
+                  - StaticText "$34.99"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/tapvos-e7-pro-active-noise-cancelling-headphones-over-ear-bluetooth-headphones-deep-bass-built-in-microphone-comfortable-fit-30-hours-wireless-headphones-for-cellphone-pc-tablet-dull-black.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B09C1RGB4S.0.jpg"]
+              - strong
+                - link "Tapvos E7 Pro Active Noise Cancelling Headphones Over Ear Bluetooth Headphones, Deep Bass, Built-in Microphone, Comfortable Fit, 30 Hours Wireless Headphones for Cellphone/PC/Tablet, Dull Black" [url="http://127.0.0.1:7770/tapvos-e7-pro-active-noise-cancelling-headphones-over-ear-bluetooth-headphones-deep-bass-built-in-microphone-comfortable-fit-30-hours-wireless-headphones-for-cellphone-pc-tablet-dull-black.html"]
+                  - StaticText "Tapvos E7 Pro Active Noise Cancelling Headphones Over Ear Bluetooth Headphones, Deep Bass, Built-in Microphone, Comfortable Fit, 30 Hours Wireless Headphones for Cellphone/PC/Tablet, Dull Black"
+              - LayoutTable
+                - generic
+                  - StaticText "Rating:"
+                  - generic
+                    - generic
+                      - StaticText ""
+                    - generic
+                      - StaticText ""
+                    - StaticText "73%"
+                - generic
+                  - link "12 Reviews" [url="http://127.0.0.1:7770/tapvos-e7-pro-active-noise-cancelling-headphones-over-ear-bluetooth-headphones-deep-bass-built-in-microphone-comfortable-fit-30-hours-wireless-headphones-for-cellphone-pc-tablet-dull-black.html#reviews"]
+                    - StaticText "12"
+                    - StaticText "Reviews"
+              - generic
+                - generic
+                  - StaticText "$39.99"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/reverbix-e7-active-noise-canceling-headphones-overhead-bluetooth-headphones-with-mic-for-phone-call-comfortable-wireless-headphones-light-weight-deep-bass-35-hour-battery-life-bronze-black.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B09CYFPTLC.0.jpg"]
+              - strong
+                - link "Reverbix E7 Active Noise Canceling Headphones Overhead Bluetooth Headphones with Mic for Phone-Call, Comfortable Wireless Headphones & Light Weight, Deep Bass, 35-Hour Battery Life, Bronze Black" [url="http://127.0.0.1:7770/reverbix-e7-active-noise-canceling-headphones-overhead-bluetooth-headphones-with-mic-for-phone-call-comfortable-wireless-headphones-light-weight-deep-bass-35-hour-battery-life-bronze-black.html"]
+                  - StaticText "Reverbix E7 Active Noise Canceling Headphones Overhead Bluetooth Headphones with Mic for Phone-Call, Comfortable Wireless Headphones & Light Weight, Deep Bass, 35-Hour Battery Life, Bronze Black"
+              - LayoutTable
+                - generic
+                  - StaticText "Rating:"
+                  - generic
+                    - generic
+                      - StaticText ""
+                    - generic
+                      - StaticText ""
+                    - StaticText "85%"
+                - generic
+                  - link "12 Reviews" [url="http://127.0.0.1:7770/reverbix-e7-active-noise-canceling-headphones-overhead-bluetooth-headphones-with-mic-for-phone-call-comfortable-wireless-headphones-light-weight-deep-bass-35-hour-battery-life-bronze-black.html#reviews"]
+                    - StaticText "12"
+                    - StaticText "Reviews"
+              - generic
+                - generic
+                  - StaticText "$54.99"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/school-headphones-12-pack-multi-colors-keewonda-bulk-wired-disposable-kids-headphones-for-classroom-students-individual-package.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B09GN2MRVW.0.jpg"]
+              - strong
+                - link "School Headphones 12 Pack Multi Colors, Keewonda Bulk Wired Disposable Kids Headphones for Classroom Students Individual Package" [url="http://127.0.0.1:7770/school-headphones-12-pack-multi-colors-keewonda-bulk-wired-disposable-kids-headphones-for-classroom-students-individual-package.html"]
+                  - StaticText "School Headphones 12 Pack Multi Colors, Keewonda Bulk Wired Disposable Kids Headphones for Classroom Students Individual Package"
+              - LayoutTable
+                - generic
+                  - StaticText "Rating:"
+                  - generic
+                    - generic
+                      - StaticText ""
+                    - generic
+                      - StaticText ""
+                    - StaticText "50%"
+                - generic
+                  - link "2 Reviews" [url="http://127.0.0.1:7770/school-headphones-12-pack-multi-colors-keewonda-bulk-wired-disposable-kids-headphones-for-classroom-students-individual-package.html#reviews"]
+                    - StaticText "2"
+                    - StaticText "Reviews"
+              - generic
+                - generic
+                  - StaticText "$35.65"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/bone-conduction-headphones-mojawa-wireless-earphones-bluetooth-headphones-w-reflective-strips-open-ear-headphones-ip67-waterproof-noise-cancellation-prevent-sound-leakage-for-sport-running-meeting.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B09G6WWP1D.0.jpg"]
+              - strong
+                - link "Bone Conduction Headphones - Mojawa Wireless Earphones Bluetooth Headphones w/Reflective Strips, Open Ear Headphones IP67 Waterproof Noise-Cancellation Prevent Sound Leakage for Sport Running Meeting" [url="http://127.0.0.1:7770/bone-conduction-headphones-mojawa-wireless-earphones-bluetooth-headphones-w-reflective-strips-open-ear-headphones-ip67-waterproof-noise-cancellation-prevent-sound-leakage-for-sport-running-meeting.html"]
+                  - StaticText "Bone Conduction Headphones - Mojawa Wireless Earphones Bluetooth Headphones w/Reflective Strips, Open Ear Headphones IP67 Waterproof Noise-Cancellation Prevent Sound Leakage for Sport Running Meeting"
+              - LayoutTable
+                - generic
+                  - StaticText "Rating:"
+                  - generic
+                    - generic
+                      - StaticText ""
+                    - generic
+                      - StaticText ""
+                    - StaticText "82%"
+                - generic
+                  - link "12 Reviews" [url="http://127.0.0.1:7770/bone-conduction-headphones-mojawa-wireless-earphones-bluetooth-headphones-w-reflective-strips-open-ear-headphones-ip67-waterproof-noise-cancellation-prevent-sound-leakage-for-sport-running-meeting.html#reviews"]
+                    - StaticText "12"
+                    - StaticText "Reviews"
+              - generic
+                - generic
+                  - StaticText "$99.99"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+        - generic
+          - strong
+            - StaticText "Page"
+          - list "Page"
+            - listitem [level=1]
+              - strong
+                - StaticText "You're currently reading page"
+                - StaticText "1"
+            - listitem [level=1]
+              - link "Page 2" [url="http://127.0.0.1:7770/catalogsearch/result/index/?p=2&q=headphones"]
+                - StaticText "Page"
+                - StaticText "2"
+            - listitem [level=1]
+              - link "Page 3" [url="http://127.0.0.1:7770/catalogsearch/result/index/?p=3&q=headphones"]
+                - StaticText "Page"
+                - StaticText "3"
+            - listitem [level=1]
+              - link "Page 4" [url="http://127.0.0.1:7770/catalogsearch/result/index/?p=4&q=headphones"]
+                - StaticText "Page"
+                - StaticText "4"
+            - listitem [level=1]
+              - link "Page 5" [url="http://127.0.0.1:7770/catalogsearch/result/index/?p=5&q=headphones"]
+                - StaticText "Page"
+                - StaticText "5"
+            - listitem [level=1]
+              - link " Page Next" [url="http://127.0.0.1:7770/catalogsearch/result/index/?p=2&q=headphones"]
+                - generic
+                  - StaticText ""
+                - StaticText "Page"
+                - StaticText "Next"
+        - generic
+          - strong
+            - StaticText "Shop By"
+        - heading "Shopping Options" [level=2]
+          - StaticText "Shopping Options"
+        - DescriptionList
+          - heading "Category" [level=3]
+            - StaticText "Category"
+          - definition
+            - list
+              - listitem [level=1]
+                - link "Beauty & Personal Care( 12 item )" [url="http://127.0.0.1:7770/catalogsearch/result/index/?cat=3&q=headphones"]
+                  - StaticText "Beauty & Personal Care"
+                  - StaticText "("
+                  - StaticText "12"
+                  - StaticText "item"
+                  - StaticText ")"
+              - listitem [level=1]
+                - link "Sports & Outdoors( 1 item )" [url="http://127.0.0.1:7770/catalogsearch/result/index/?cat=4&q=headphones"]
+                  - StaticText "Sports & Outdoors"
+                  - StaticText "("
+                  - StaticText "1"
+                  - StaticText "item"
+                  - StaticText ")"
+              - listitem [level=1]
+                - link "Clothing, Shoes & Jewelry( 15 item )" [url="http://127.0.0.1:7770/catalogsearch/result/index/?cat=5&q=headphones"]
+                  - StaticText "Clothing, Shoes & Jewelry"
+                  - StaticText "("
+                  - StaticText "15"
+                  - StaticText "item"
+                  - StaticText ")"
+              - listitem [level=1]
+                - link "Home & Kitchen( 81 item )" [url="http://127.0.0.1:7770/catalogsearch/result/index/?cat=6&q=headphones"]
+                  - StaticText "Home & Kitchen"
+                  - StaticText "("
+                  - StaticText "81"
+                  - StaticText "item"
+                  - StaticText ")"
+              - listitem [level=1]
+                - link "Office Products( 3 item )" [url="http://127.0.0.1:7770/catalogsearch/result/index/?cat=7&q=headphones"]
+                  - StaticText "Office Products"
+                  - StaticText "("
+                  - StaticText "3"
+                  - StaticText "item"
+                  - StaticText ")"
+              - listitem [level=1]
+                - link "Tools & Home Improvement( 6 item )" [url="http://127.0.0.1:7770/catalogsearch/result/index/?cat=8&q=headphones"]
+                  - StaticText "Tools & Home Improvement"
+                  - StaticText "("
+                  - StaticText "6"
+                  - StaticText "item"
+                  - StaticText ")"
+              - listitem [level=1]
+                - link "Health & Household( 1 item )" [url="http://127.0.0.1:7770/catalogsearch/result/index/?cat=9&q=headphones"]
+                  - StaticText "Health & Household"
+                  - StaticText "("
+                  - StaticText "1"
+                  - StaticText "item"
+                  - StaticText ")"
+              - listitem [level=1]
+                - link "Electronics( 1409 item )" [url="http://127.0.0.1:7770/catalogsearch/result/index/?cat=11&q=headphones"]
+                  - StaticText "Electronics"
+                  - StaticText "("
+                  - StaticText "1409"
+                  - StaticText "item"
+                  - StaticText ")"
+              - listitem [level=1]
+                - link "Cell Phones & Accessories( 200 item )" [url="http://127.0.0.1:7770/catalogsearch/result/index/?cat=12&q=headphones"]
+                  - StaticText "Cell Phones & Accessories"
+                  - StaticText "("
+                  - StaticText "200"
+                  - StaticText "item"
+                  - StaticText ")"
+              - listitem [level=1]
+                - link "Video Games( 136 item )" [url="http://127.0.0.1:7770/catalogsearch/result/index/?cat=13&q=headphones"]
+                  - StaticText "Video Games"
+                  - StaticText "("
+                  - StaticText "136"
+                  - StaticText "item"
+                  - StaticText ")"
+              - listitem [level=1]
+                - link "Grocery & Gourmet Food( 1 item )" [url="http://127.0.0.1:7770/catalogsearch/result/index/?cat=14&q=headphones"]
+                  - StaticText "Grocery & Gourmet Food"
+                  - StaticText "("
+                  - StaticText "1"
+                  - StaticText "item"
+                  - StaticText ")"
+        - generic
+          - heading "Compare Products" [level=2]
+            - StaticText "Compare Products"
+        - generic
+          - StaticText "You have no items to compare."
+        - generic
+          - heading "My Wish List" [level=2]
+            - StaticText "My Wish List"
+        - generic
+          - StaticText "You have no items in your wish list."
+    - contentinfo
+      - form
+        - generic
+          - generic
+            - StaticText ""
+          - LabelText
+            - StaticText "Sign Up for Our Newsletter:"
+            - textbox "Sign Up for Our Newsletter:"
+              - generic
+        - generic
+          - button "Subscribe"
+            - StaticText "Subscribe"
+      - list
+        - listitem [level=1]
+          - link "Privacy and Cookie Policy" [url="http://127.0.0.1:7770/privacy-policy-cookie-restriction-mode/"]
+            - StaticText "Privacy and Cookie Policy"
+        - listitem [level=1]
+          - link "Search Terms" [url="http://127.0.0.1:7770/search/term/popular/"]
+            - StaticText "Search Terms"
+        - listitem [level=1]
+          - link "Advanced Search" [url="http://127.0.0.1:7770/catalogsearch/advanced/"]
+            - StaticText "Advanced Search"
+        - listitem [level=1]
+          - link "Orders and Returns" [url="http://127.0.0.1:7770/sales/guest/form/"]
+            - StaticText "Orders and Returns"
+        - listitem [level=1]
+          - link "Contact Us" [url="http://127.0.0.1:7770/contact/"]
+            - StaticText "Contact Us"
+      - generic
+        - StaticText "Copyright © 2013-present Magento, Inc. All rights reserved."
+      - generic
+        - StaticText "Help Us Keep Magento Healthy"
+        - StaticText
+        - link "Report All Bugs" [url="http://www.magentocommerce.com/bug-tracking"]
+          - StaticText "Report All Bugs"
+    - generic

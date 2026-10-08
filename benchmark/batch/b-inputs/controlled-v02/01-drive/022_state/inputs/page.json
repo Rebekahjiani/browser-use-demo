@@ -1,0 +1,10 @@
+{
+  "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/denture-care.html",
+  "title": "Denture Care - Oral Care - Beauty & Personal Care",
+  "route": "/beauty-personal-care/oral-care/denture-care.html",
+  "sources": {
+    "accessibility": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\01-drive\\trace\\26_10_08_11_08_15-min\\drive\\screenshots\\031_beauty-personal-care_oral-care_denture-care_html\\accessibility.json",
+    "sha256_AX": "4edcdc10b1df70f0f0b171b86a3f3f3d1929e3683e29bbcbdda7b30cf332a2b2"
+  },
+  "material_scope": "recorded UI and conservatively associated JSON responses"
+}

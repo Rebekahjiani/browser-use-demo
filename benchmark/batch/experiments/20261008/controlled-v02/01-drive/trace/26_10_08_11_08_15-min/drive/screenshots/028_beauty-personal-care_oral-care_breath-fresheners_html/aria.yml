@@ -1,0 +1,435 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - link "Skip to Content" [ref=e4] [cursor=pointer]:
+      - /url: "#contentarea"
+    - generic [ref=e5]:
+      - generic [ref=e6] [cursor=pointer]:
+        - text: 
+        - generic [ref=e7]: Toggle Nav
+      - link "store logo" [ref=e8] [cursor=pointer]:
+        - /url: http://127.0.0.1:7770/
+        - img "one_stop_market_logo" [ref=e9]
+      - generic [ref=e10]:
+        - link " My Cart" [ref=e11] [cursor=pointer]:
+          - /url: http://127.0.0.1:7770/checkout/cart/
+          - text: 
+          - generic [ref=e12]: My Cart
+        - text: 
+      - generic [ref=e16]:
+        - generic [ref=e17]:
+          - text: 
+          - generic [ref=e18]: Search
+        - combobox " Search" [ref=e20]
+  - tablist [ref=e22]:
+    - tab "Menu" [expanded] [ref=e23]:
+      - link "Menu" [ref=e24] [cursor=pointer]:
+        - /url: "#store.menu"
+    - tabpanel [ref=e25]:
+      - navigation [ref=e26]:
+        - menu [ref=e27]:
+          - listitem [ref=e28]:
+            - menuitem "Beauty & Personal Care " [ref=e29] [cursor=pointer]: Beauty & Personal Care 
+          - listitem [ref=e30]:
+            - menuitem "Sports & Outdoors " [ref=e31] [cursor=pointer]: Sports & Outdoors 
+          - listitem [ref=e32]:
+            - menuitem "Clothing, Shoes & Jewelry " [ref=e33] [cursor=pointer]: Clothing, Shoes & Jewelry 
+          - listitem [ref=e34]:
+            - menuitem "Home & Kitchen " [ref=e35] [cursor=pointer]: Home & Kitchen 
+          - listitem [ref=e36]:
+            - menuitem "Office Products " [ref=e37] [cursor=pointer]: Office Products 
+          - listitem [ref=e38]:
+            - menuitem "Tools & Home Improvement " [ref=e39] [cursor=pointer]: Tools & Home Improvement 
+          - listitem [ref=e40]:
+            - menuitem "Health & Household " [ref=e41] [cursor=pointer]: Health & Household 
+          - listitem [ref=e42]:
+            - menuitem "Patio, Lawn & Garden " [ref=e43] [cursor=pointer]: Patio, Lawn & Garden 
+          - listitem [ref=e44]:
+            - menuitem "Electronics " [ref=e45] [cursor=pointer]: Electronics 
+          - listitem [ref=e46]:
+            - menuitem "Cell Phones & Accessories " [ref=e47] [cursor=pointer]: Cell Phones & Accessories 
+          - listitem [ref=e48]:
+            - menuitem "Video Games " [ref=e49] [cursor=pointer]: Video Games 
+          - listitem [ref=e50]:
+            - menuitem "Grocery & Gourmet Food " [ref=e51] [cursor=pointer]: Grocery & Gourmet Food 
+    - tab "Account" [ref=e52]:
+      - link "Account" [ref=e53] [cursor=pointer]:
+        - /url: "#store.links"
+  - list [ref=e55]:
+    - listitem [ref=e56]:
+      - link "Home" [ref=e57] [cursor=pointer]:
+        - /url: http://127.0.0.1:7770/
+      - text: 
+    - listitem [ref=e58]:
+      - link "Beauty & Personal Care" [ref=e59] [cursor=pointer]:
+        - /url: http://127.0.0.1:7770/beauty-personal-care.html
+      - text: 
+    - listitem [ref=e60]:
+      - link "Oral Care" [ref=e61] [cursor=pointer]:
+        - /url: http://127.0.0.1:7770/beauty-personal-care/oral-care.html
+      - text: 
+    - listitem [ref=e62]:
+      - strong [ref=e63]: Breath Fresheners
+  - main [ref=e64]:
+    - heading "Breath Fresheners Items 1-12 of 68" [level=1] [ref=e66]: Breath Fresheners
+    - generic [ref=e67]:
+      - generic [ref=e68]:
+        - generic [ref=e69]:
+          - paragraph [ref=e70]: Items 1-12 of 68
+          - generic [ref=e71]:
+            - text: Sort By
+            - combobox "Sort By" [active] [ref=e72]:
+              - option "Position" [selected]
+              - option "Product Name"
+              - option "Price"
+            - link " Set Descending Direction" [ref=e73] [cursor=pointer]:
+              - /url: "#"
+              - text: 
+              - generic [ref=e74]: Set Descending Direction
+        - list [ref=e76]:
+          - listitem [ref=e77]:
+            - generic [ref=e78]:
+              - link "Image" [ref=e79] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/disposable-colorful-m-a-s-k-for-boys-and-girls-soft-on-skin-children-s-size-kids-disposable-t40-50-pcs.html
+                - img "Image" [ref=e82]
+              - generic [ref=e83]:
+                - strong [ref=e84]:
+                  - link "Disposable Colorful M.a.s-k for Boys and Girls-Soft on Skin, Children's Size Kids Disposable T40-50 PCS" [ref=e85] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/disposable-colorful-m-a-s-k-for-boys-and-girls-soft-on-skin-children-s-size-kids-disposable-t40-50-pcs.html
+                - generic [ref=e88]: $9.89
+                - generic [ref=e90]:
+                  - button "Add to Cart" [ref=e93] [cursor=pointer]
+                  - generic [ref=e94]:
+                    - button "Add to Wish List" [ref=e95] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e96]: Add to Wish List
+                    - text: 
+          - listitem [ref=e97]:
+            - generic [ref=e98]:
+              - link "Image" [ref=e99] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/plaqclnz-pre-treatment-oral-spray-2-oz-2-units.html
+                - img "Image" [ref=e102]
+              - generic [ref=e103]:
+                - strong [ref=e104]:
+                  - link "PlaqClnz Pre-Treatment Oral Spray - 2 oz - (2 Units)" [ref=e105] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/plaqclnz-pre-treatment-oral-spray-2-oz-2-units.html
+                - generic [ref=e108]: $49.95
+                - generic [ref=e110]:
+                  - button "Add to Cart" [ref=e113] [cursor=pointer]
+                  - generic [ref=e114]:
+                    - button "Add to Wish List" [ref=e115] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e116]: Add to Wish List
+                    - text: 
+          - listitem [ref=e117]:
+            - generic [ref=e118]:
+              - link "Image" [ref=e119] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/herbal-dentisttm-tooth-gum-oil-regular-strength-100-pure-natural-complete-oral-health-care-5-pack.html
+                - img "Image" [ref=e122]
+              - generic [ref=e123]:
+                - strong [ref=e124]:
+                  - 'link "Herbal Dentist™ Tooth & Gum Oil {Regular Strength} • 100% Pure & Natural • Complete Oral Health Care (5 Pack)" [ref=e125] [cursor=pointer]':
+                    - /url: http://127.0.0.1:7770/herbal-dentisttm-tooth-gum-oil-regular-strength-100-pure-natural-complete-oral-health-care-5-pack.html
+                - generic [ref=e128]: $68.91
+                - generic [ref=e130]:
+                  - button "Add to Cart" [ref=e133] [cursor=pointer]
+                  - generic [ref=e134]:
+                    - button "Add to Wish List" [ref=e135] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e136]: Add to Wish List
+                    - text: 
+          - listitem [ref=e137]:
+            - generic [ref=e138]:
+              - link "Image" [ref=e139] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/neotea-mouth-freshener-export-mix-200g.html
+                - img "Image" [ref=e142]
+              - generic [ref=e143]:
+                - strong [ref=e144]:
+                  - link "Neotea Mouth Freshener, Export Mix - 200g" [ref=e145] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/neotea-mouth-freshener-export-mix-200g.html
+                - generic [ref=e148]: $16.42
+                - generic [ref=e150]:
+                  - button "Add to Cart" [ref=e153] [cursor=pointer]
+                  - generic [ref=e154]:
+                    - button "Add to Wish List" [ref=e155] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e156]: Add to Wish List
+                    - text: 
+          - listitem [ref=e157]:
+            - generic [ref=e158]:
+              - link "Image" [ref=e159] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/us-stock-foldable-laundry-basket-toy-basket-storage-baskets-for-kids-dog-toys-clothes-room-decor-cute-animal-laundry-hamper-b.html
+                - img "Image" [ref=e162]
+              - generic [ref=e163]:
+                - strong [ref=e164]:
+                  - link "US Stock Foldable Laundry Basket, Toy Basket Storage Baskets for Kids, Dog, Toys, Clothes, Room Décor Cute Animal Laundry Hamper (B)" [ref=e165] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/us-stock-foldable-laundry-basket-toy-basket-storage-baskets-for-kids-dog-toys-clothes-room-decor-cute-animal-laundry-hamper-b.html
+                - generic [ref=e168]: $18.99
+                - generic [ref=e170]:
+                  - button "Add to Cart" [ref=e173] [cursor=pointer]
+                  - generic [ref=e174]:
+                    - button "Add to Wish List" [ref=e175] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e176]: Add to Wish List
+                    - text: 
+          - listitem [ref=e177]:
+            - generic [ref=e178]:
+              - link "Image" [ref=e179] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/oceansedge11-classic-christmas-theme-disposable-face-masks-for-adult-3-ply-face-protection-for-outdoor-sport-bicycle-mountain-bike.html
+                - img "Image" [ref=e182]
+              - generic [ref=e183]:
+                - strong [ref=e184]:
+                  - link "oceansEdge11 Classic Christmas Theme Disposable_Face_Mäsks for Adult,3-ply Face Protection for Outdoor Sport Bicycle Mountain Bike" [ref=e185] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/oceansedge11-classic-christmas-theme-disposable-face-masks-for-adult-3-ply-face-protection-for-outdoor-sport-bicycle-mountain-bike.html
+                - generic [ref=e188]: $10.88
+                - generic [ref=e190]:
+                  - button "Add to Cart" [ref=e193] [cursor=pointer]
+                  - generic [ref=e194]:
+                    - button "Add to Wish List" [ref=e195] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e196]: Add to Wish List
+                    - text: 
+          - listitem [ref=e197]:
+            - generic [ref=e198]:
+              - link "Image" [ref=e199] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/inforin-kids-disposable-face-m-a-s-ks-boys-girls-cute-design-size-for-kids-breathable-soft-face-covering-t170-30-pcs.html
+                - img "Image" [ref=e412]
+              - generic [ref=e202]:
+                - strong [ref=e203]:
+                  - link "Inforin Kids Disposable Face M.a-s.ks Boys Girls, Cute Design Size for Kids, Breathable Soft Face Covering T170-30 PCS" [ref=e204] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/inforin-kids-disposable-face-m-a-s-ks-boys-girls-cute-design-size-for-kids-breathable-soft-face-covering-t170-30-pcs.html
+                - generic [ref=e207]: $7.04
+                - generic [ref=e209]:
+                  - button "Add to Cart" [ref=e212] [cursor=pointer]
+                  - generic [ref=e213]:
+                    - button "Add to Wish List" [ref=e214] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e215]: Add to Wish List
+                    - text: 
+          - listitem [ref=e216]:
+            - generic [ref=e217]:
+              - link "Image" [ref=e218] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/nude-breath-mints-for-bad-breath-berry-kiss-2-in-1-keto-friendly-sugar-free-mints-gluten-free-bad-breath-treatment-for-adults-carbs-calorie-instant-breath-freshener-for-people-cleanse-gut-raspberry-5-pack-150-mint-capsules.html
+                - img "Image" [ref=e413]
+              - generic [ref=e221]:
+                - strong [ref=e222]:
+                  - link "NUDE Breath Mints for Bad Breath - Berry Kiss | 2 in 1 Keto Friendly Sugar Free Mints | Gluten Free Bad Breath Treatment for Adults | Carbs | Calorie | Instant Breath Freshener for People | Cleanse Gut | RASPBERRY | 5 Pack | 150 Mint Capsules" [ref=e223] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/nude-breath-mints-for-bad-breath-berry-kiss-2-in-1-keto-friendly-sugar-free-mints-gluten-free-bad-breath-treatment-for-adults-carbs-calorie-instant-breath-freshener-for-people-cleanse-gut-raspberry-5-pack-150-mint-capsules.html
+                - generic [ref=e226]: $27.99
+                - generic [ref=e228]:
+                  - button "Add to Cart" [ref=e231] [cursor=pointer]
+                  - generic [ref=e232]:
+                    - button "Add to Wish List" [ref=e233] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e234]: Add to Wish List
+                    - text: 
+          - listitem [ref=e235]:
+            - generic [ref=e236]:
+              - link "Image" [ref=e237] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/fluocaril-green-tea-double-guava-leaf-breath-expert-toothpaste-160-g-3pack-made-in-thailand.html
+                - img "Image" [ref=e414]
+              - generic [ref=e240]:
+                - strong [ref=e241]:
+                  - link "Fluocaril Green Tea Double Guava Leaf Breath Expert Toothpaste 160 G 3pack Made in Thailand" [ref=e242] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/fluocaril-green-tea-double-guava-leaf-breath-expert-toothpaste-160-g-3pack-made-in-thailand.html
+                - generic [ref=e245]: $19.99
+                - generic [ref=e247]:
+                  - button "Add to Cart" [ref=e250] [cursor=pointer]
+                  - generic [ref=e251]:
+                    - button "Add to Wish List" [ref=e252] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e253]: Add to Wish List
+                    - text: 
+          - listitem [ref=e254]:
+            - generic [ref=e255]:
+              - link "Image" [ref=e256] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/cheap-oral-surgeon-gifts-retired-oral-surgeon-figure-it-out-yourself-best-from-coworkers.html
+                - img "Image" [ref=e415]
+              - generic [ref=e259]:
+                - strong [ref=e260]:
+                  - link "Cheap Oral Surgeon Gifts, Retired Oral Surgeon. Figure It Out Yourself, Best from Coworkers" [ref=e261] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/cheap-oral-surgeon-gifts-retired-oral-surgeon-figure-it-out-yourself-best-from-coworkers.html
+                - generic [ref=e264]: $19.95
+                - generic [ref=e266]:
+                  - button "Add to Cart" [ref=e269] [cursor=pointer]
+                  - generic [ref=e270]:
+                    - button "Add to Wish List" [ref=e271] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e272]: Add to Wish List
+                    - text: 
+          - listitem [ref=e273]:
+            - generic [ref=e274]:
+              - link "Image" [ref=e275] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/scandinavian-formulas-good-breath-60-softgels-from-by-scandinavian-formulas.html
+                - img "Image" [ref=e416]
+              - generic [ref=e278]:
+                - strong [ref=e279]:
+                  - link "Scandinavian Formulas Good Breath, 60 Softgels, From by Scandinavian Formulas" [ref=e280] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/scandinavian-formulas-good-breath-60-softgels-from-by-scandinavian-formulas.html
+                - generic [ref=e283]: $12.63
+                - generic [ref=e285]:
+                  - button "Add to Cart" [ref=e288] [cursor=pointer]
+                  - generic [ref=e289]:
+                    - button "Add to Wish List" [ref=e290] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e291]: Add to Wish List
+                    - text: 
+          - listitem [ref=e292]:
+            - generic [ref=e293]:
+              - link "Image" [ref=e294] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/pfizer-listerine-coolmint-pocket-paks-oral-strips-43365.html
+                - img "Image" [ref=e417]
+              - generic [ref=e297]:
+                - strong [ref=e298]:
+                  - link "Pfizer Listerine CoolMint Pocket Paks Oral Strips (43365)" [ref=e299] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/pfizer-listerine-coolmint-pocket-paks-oral-strips-43365.html
+                - generic [ref=e302]: $6.43
+                - generic [ref=e304]:
+                  - button "Add to Cart" [ref=e307] [cursor=pointer]
+                  - generic [ref=e308]:
+                    - button "Add to Wish List" [ref=e309] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e310]: Add to Wish List
+                    - text: 
+        - generic [ref=e312]:
+          - strong [ref=e313]: Page
+          - list "Page" [ref=e314]:
+            - listitem [ref=e315]:
+              - strong [ref=e316]:
+                - generic [ref=e317]: You're currently reading page
+                - text: "1"
+            - listitem [ref=e318]:
+              - link "Page 2" [ref=e319] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/beauty-personal-care/oral-care/breath-fresheners.html?p=2
+                - generic [ref=e320]: Page
+                - text: "2"
+            - listitem [ref=e321]:
+              - link "Page 3" [ref=e322] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/beauty-personal-care/oral-care/breath-fresheners.html?p=3
+                - generic [ref=e323]: Page
+                - text: "3"
+            - listitem [ref=e324]:
+              - link "Page 4" [ref=e325] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/beauty-personal-care/oral-care/breath-fresheners.html?p=4
+                - generic [ref=e326]: Page
+                - text: "4"
+            - listitem [ref=e327]:
+              - link "Page 5" [ref=e328] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/beauty-personal-care/oral-care/breath-fresheners.html?p=5
+                - generic [ref=e329]: Page
+                - text: "5"
+            - listitem [ref=e330]:
+              - link " Page Next" [ref=e331] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/beauty-personal-care/oral-care/breath-fresheners.html?p=2
+                - text: 
+                - generic [ref=e332]: Page
+                - generic [ref=e333]: Next
+      - generic [ref=e335]:
+        - strong [ref=e337]: Shop By
+        - generic [ref=e338]:
+          - heading "Shopping Options" [level=2] [ref=e339]
+          - generic [ref=e340]:
+            - heading "Price" [level=3] [ref=e341]
+            - definition [ref=e342]:
+              - list [ref=e343]:
+                - listitem [ref=e344]:
+                  - link "$0.00 - $9.99( 16 item )" [ref=e345] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/beauty-personal-care/oral-care/breath-fresheners.html?price=0-10
+                    - text: $0.00 - $9.99
+                    - generic [ref=e346]:
+                      - text: ( 16
+                      - generic [ref=e347]: item
+                      - text: )
+                - listitem [ref=e348]:
+                  - link "$10.00 - $19.99( 23 item )" [ref=e349] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/beauty-personal-care/oral-care/breath-fresheners.html?price=10-20
+                    - text: $10.00 - $19.99
+                    - generic [ref=e350]:
+                      - text: ( 23
+                      - generic [ref=e351]: item
+                      - text: )
+                - listitem [ref=e352]:
+                  - link "$20.00 - $29.99( 11 item )" [ref=e353] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/beauty-personal-care/oral-care/breath-fresheners.html?price=20-30
+                    - text: $20.00 - $29.99
+                    - generic [ref=e354]:
+                      - text: ( 11
+                      - generic [ref=e355]: item
+                      - text: )
+                - listitem [ref=e356]:
+                  - link "$30.00 - $39.99( 7 item )" [ref=e357] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/beauty-personal-care/oral-care/breath-fresheners.html?price=30-40
+                    - text: $30.00 - $39.99
+                    - generic [ref=e358]:
+                      - text: ( 7
+                      - generic [ref=e359]: item
+                      - text: )
+                - listitem [ref=e360]:
+                  - link "$40.00 - $49.99( 4 item )" [ref=e361] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/beauty-personal-care/oral-care/breath-fresheners.html?price=40-50
+                    - text: $40.00 - $49.99
+                    - generic [ref=e362]:
+                      - text: ( 4
+                      - generic [ref=e363]: item
+                      - text: )
+                - listitem [ref=e364]:
+                  - link "$50.00 - $59.99( 4 item )" [ref=e365] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/beauty-personal-care/oral-care/breath-fresheners.html?price=50-60
+                    - text: $50.00 - $59.99
+                    - generic [ref=e366]:
+                      - text: ( 4
+                      - generic [ref=e367]: item
+                      - text: )
+                - listitem [ref=e368]:
+                  - link "$60.00 - $69.99( 2 item )" [ref=e369] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/beauty-personal-care/oral-care/breath-fresheners.html?price=60-70
+                    - text: $60.00 - $69.99
+                    - generic [ref=e370]:
+                      - text: ( 2
+                      - generic [ref=e371]: item
+                      - text: )
+                - listitem [ref=e372]:
+                  - link "$70.00 and above( 1 item )" [ref=e373] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/beauty-personal-care/oral-care/breath-fresheners.html?price=70-80
+                    - text: $70.00 and above
+                    - generic [ref=e374]:
+                      - text: ( 1
+                      - generic [ref=e375]: item
+                      - text: )
+      - generic [ref=e376]:
+        - generic [ref=e377]:
+          - heading "Compare Products" [level=2] [ref=e379]
+          - generic [ref=e380]: You have no items to compare.
+        - generic [ref=e381]:
+          - heading "My Wish List" [level=2] [ref=e383]
+          - generic [ref=e385]: You have no items in your wish list.
+  - contentinfo [ref=e386]:
+    - generic [ref=e387]:
+      - generic [ref=e390]:
+        - generic [ref=e392]:
+          - text: 
+          - generic [ref=e393]:
+            - generic [ref=e394]: "Sign Up for Our Newsletter:"
+            - textbox "Sign Up for Our Newsletter:" [ref=e395]:
+              - /placeholder: Enter your email address
+        - button "Subscribe" [ref=e397] [cursor=pointer]
+      - list [ref=e398]:
+        - listitem [ref=e399]:
+          - link "Privacy and Cookie Policy" [ref=e400] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/privacy-policy-cookie-restriction-mode/
+        - listitem [ref=e401]:
+          - link "Search Terms" [ref=e402] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/search/term/popular/
+        - listitem [ref=e403]:
+          - link "Advanced Search" [ref=e404] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/catalogsearch/advanced/
+        - listitem [ref=e405]:
+          - link "Orders and Returns" [ref=e406] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/sales/guest/form/
+        - listitem [ref=e407]:
+          - link "Contact Us" [ref=e408] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/contact/
+      - generic [ref=e409]: Copyright © 2013-present Magento, Inc. All rights reserved.
+      - generic [ref=e410]:
+        - text: Help Us Keep Magento Healthy
+        - link "Report All Bugs" [ref=e411] [cursor=pointer]:
+          - /url: http://www.magentocommerce.com/bug-tracking

@@ -1,0 +1,26 @@
+{
+  "profileId": "1d7f3521-7e9f-4523-9bb2-1333b28c12ef",
+  "entryUrl": "http://127.0.0.1:7770/",
+  "seed": "controlled-20261008-3",
+  "maxActions": 200,
+  "maxDurationMs": 1800000,
+  "maxPages": 100,
+  "maxDepth": 5,
+  "saturationLimit": 8,
+  "allowSubmit": true,
+  "capturePages": true,
+  "autoStop": false,
+  "allowedOrigins": [
+    "http://127.0.0.1:7770"
+  ],
+  "blockedPathPatterns": [
+    "/checkout/(?!cart/?(?:$|\\?))",
+    "/customer/(?!section/load)",
+    "/wishlist/",
+    "/newsletter/",
+    "/review/product/post"
+  ],
+  "forms": {
+    "submitAuthForms": false
+  }
+}

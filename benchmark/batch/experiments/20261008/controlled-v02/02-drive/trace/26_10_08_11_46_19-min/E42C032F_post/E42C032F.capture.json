@@ -1,0 +1,12 @@
+{
+  "capturedAt": "2026-10-08T04:01:50.123Z",
+  "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/oral-pain-relief.html?price=0-100",
+  "title": "Oral Pain Relief - Oral Care - Beauty & Personal Care",
+  "cdpPort": 9222,
+  "basename": "E42C032F",
+  "outputs": {
+    "screenshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\02-drive\\trace\\26_10_08_11_46_19-min\\E42C032F_post\\E42C032F.png",
+    "html": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\02-drive\\trace\\26_10_08_11_46_19-min\\E42C032F_post\\E42C032F.html",
+    "accessibilitySnapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\02-drive\\trace\\26_10_08_11_46_19-min\\E42C032F_post\\E42C032F.accessibility.json"
+  }
+}

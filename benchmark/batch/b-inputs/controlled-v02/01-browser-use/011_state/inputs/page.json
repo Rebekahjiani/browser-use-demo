@@ -1,0 +1,10 @@
+{
+  "url": "http://127.0.0.1:7770/checkout/cart/",
+  "title": "Shopping Cart",
+  "route": "/checkout/cart/",
+  "sources": {
+    "accessibility": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-112904-537744\\snapshots\\00035\\accessibility.json",
+    "sha256_AX": "e5845d8d1235c22887543576bfa088b922cfa4590c0b3920e8d902576d016966"
+  },
+  "material_scope": "recorded UI and conservatively associated JSON responses"
+}

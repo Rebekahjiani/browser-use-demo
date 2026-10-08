@@ -1,0 +1,126 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - link "Skip to Content" [ref=e4] [cursor=pointer]:
+      - /url: "#contentarea"
+    - generic [ref=e5]:
+      - generic [ref=e6] [cursor=pointer]:
+        - text: 
+        - generic [ref=e7]: Toggle Nav
+      - link "store logo" [ref=e8] [cursor=pointer]:
+        - /url: http://127.0.0.1:7770/
+        - img "one_stop_market_logo" [ref=e9]
+      - generic [ref=e10]:
+        - link " My Cart" [ref=e11] [cursor=pointer]:
+          - /url: http://127.0.0.1:7770/checkout/cart/
+          - text: 
+          - generic [ref=e12]: My Cart
+        - text: 
+      - generic [ref=e16]:
+        - generic [ref=e17]:
+          - text: 
+          - generic [ref=e18]: Search
+        - combobox " Search" [ref=e20]
+  - tablist [ref=e22]:
+    - tab "Menu" [expanded] [ref=e23]:
+      - link "Menu" [ref=e24] [cursor=pointer]:
+        - /url: "#store.menu"
+    - tabpanel [ref=e25]:
+      - navigation [ref=e26]:
+        - menu [ref=e27]:
+          - listitem [ref=e28]:
+            - menuitem "Beauty & Personal Care " [ref=e29] [cursor=pointer]: Beauty & Personal Care 
+          - listitem [ref=e30]:
+            - menuitem "Sports & Outdoors " [ref=e31] [cursor=pointer]: Sports & Outdoors 
+          - listitem [ref=e32]:
+            - menuitem "Clothing, Shoes & Jewelry " [ref=e33] [cursor=pointer]: Clothing, Shoes & Jewelry 
+          - listitem [ref=e34]:
+            - menuitem "Home & Kitchen " [ref=e35] [cursor=pointer]: Home & Kitchen 
+          - listitem [ref=e36]:
+            - menuitem "Office Products " [ref=e37] [cursor=pointer]: Office Products 
+          - listitem [ref=e38]:
+            - menuitem "Tools & Home Improvement " [ref=e39] [cursor=pointer]: Tools & Home Improvement 
+          - listitem [ref=e40]:
+            - menuitem "Health & Household " [ref=e41] [cursor=pointer]: Health & Household 
+          - listitem [ref=e42]:
+            - menuitem "Patio, Lawn & Garden " [ref=e43] [cursor=pointer]: Patio, Lawn & Garden 
+          - listitem [ref=e44]:
+            - menuitem "Electronics " [ref=e45] [cursor=pointer]: Electronics 
+          - listitem [ref=e46]:
+            - menuitem "Cell Phones & Accessories " [ref=e47] [cursor=pointer]: Cell Phones & Accessories 
+          - listitem [ref=e48]:
+            - menuitem "Video Games " [ref=e49] [cursor=pointer]: Video Games 
+          - listitem [ref=e50]:
+            - menuitem "Grocery & Gourmet Food " [ref=e51] [cursor=pointer]: Grocery & Gourmet Food 
+    - tab "Account" [ref=e52]:
+      - link "Account" [ref=e53] [cursor=pointer]:
+        - /url: "#store.links"
+  - list [ref=e55]:
+    - listitem [ref=e56]:
+      - link "Home" [ref=e57] [cursor=pointer]:
+        - /url: http://127.0.0.1:7770/
+      - text: 
+    - listitem [ref=e58]:
+      - link "Catalog Advanced Search" [ref=e59] [cursor=pointer]:
+        - /url: http://127.0.0.1:7770/catalogsearch/advanced/
+      - text: 
+    - listitem [ref=e60]:
+      - strong [ref=e61]: Results
+  - main [ref=e62]:
+    - heading "Catalog Advanced Search" [level=1] [ref=e64]
+    - generic [ref=e65]:
+      - generic [ref=e66]:
+        - alert [ref=e67]:
+          - generic [ref=e68]:
+            - text:  We can't find any items matching these search criteria.
+            - link "Modify your search." [ref=e69] [cursor=pointer]:
+              - /url: http://127.0.0.1:7770/catalogsearch/advanced/?description=launch+seed+cnrya1b977edzz&name=&price%5Bfrom%5D=&price%5Bto%5D=&price%5Bcurrency%5D=USD&short_description=keynote+seed+cnryca90abd7zz&sku=Seed+a26826
+        - generic [ref=e70]:
+          - list [ref=e71]:
+            - listitem [ref=e72]:
+              - strong [ref=e73]: "SKU:"
+              - text: Seed a26826
+            - listitem [ref=e74]:
+              - strong [ref=e75]: "Description:"
+              - text: launch seed cnrya1b977edzz
+          - list [ref=e76]:
+            - listitem [ref=e77]:
+              - strong [ref=e78]: "Short Description:"
+              - text: keynote seed cnryca90abd7zz
+      - generic [ref=e79]:
+        - generic [ref=e80]:
+          - heading "Compare Products" [level=2] [ref=e82]
+          - generic [ref=e83]: You have no items to compare.
+        - generic [ref=e84]:
+          - heading "My Wish List" [level=2] [ref=e86]
+          - generic [ref=e88]: You have no items in your wish list.
+  - contentinfo [ref=e89]:
+    - generic [ref=e90]:
+      - generic [ref=e93]:
+        - generic [ref=e95]:
+          - text: 
+          - generic [ref=e96]:
+            - generic [ref=e97]: "Sign Up for Our Newsletter:"
+            - textbox "Sign Up for Our Newsletter:" [ref=e98]:
+              - /placeholder: Enter your email address
+        - button "Subscribe" [ref=e100] [cursor=pointer]
+      - list [ref=e101]:
+        - listitem [ref=e102]:
+          - link "Privacy and Cookie Policy" [ref=e103] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/privacy-policy-cookie-restriction-mode/
+        - listitem [ref=e104]:
+          - link "Search Terms" [ref=e105] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/search/term/popular/
+        - listitem [ref=e106]:
+          - link "Advanced Search" [ref=e107] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/catalogsearch/advanced/
+        - listitem [ref=e108]:
+          - link "Orders and Returns" [ref=e109] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/sales/guest/form/
+        - listitem [ref=e110]:
+          - link "Contact Us" [ref=e111] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/contact/
+      - generic [ref=e112]: Copyright © 2013-present Magento, Inc. All rights reserved.
+      - generic [ref=e113]:
+        - text: Help Us Keep Magento Healthy
+        - link "Report All Bugs" [ref=e114] [cursor=pointer]:
+          - /url: http://www.magentocommerce.com/bug-tracking

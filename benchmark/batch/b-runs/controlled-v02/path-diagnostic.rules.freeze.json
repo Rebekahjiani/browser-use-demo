@@ -1,0 +1,18 @@
+{
+  "frozen_at": "2026-10-08T08:46:42.103801+00:00",
+  "timing": "Post-hoc diagnostic motivated by observed chained references; not preregistered.",
+  "files": [
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\b_path_diagnostic.py",
+      "sha256": "36a68df4d08a1342860330c5295dbd370ce479db1c46acd25c09db51cc746d7a"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\test_b_path.py",
+      "sha256": "3ab5d52b8ede5d40a32a8e9fa0d7facf55f62f8849b22e811e1c29a226fc7c96"
+    },
+    {
+      "file": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\harness-comparison\\score_citations_v4.py",
+      "sha256": "4bed264c219fa0eb271293edd2a290bfe11c52e5fc7f244eb2986584bbc3f83c"
+    }
+  ]
+}

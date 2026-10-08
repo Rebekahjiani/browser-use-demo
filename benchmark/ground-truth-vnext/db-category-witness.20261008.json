@@ -1,0 +1,13 @@
+{
+  "captured_at": "2026-10-08T03:02:24.308253+00:00",
+  "query": "SELECT cp.category_id,cp.product_id,cp.position,u.request_path FROM catalog_category_product cp JOIN url_rewrite u ON u.entity_type='product' AND u.entity_id=cp.product_id AND u.store_id=1 WHERE cp.category_id=3 AND u.request_path='tweezers-for-succulents-duo.html'",
+  "rows": [
+    {
+      "category_id": 3,
+      "product_id": 6516,
+      "position": 1,
+      "request_path": "tweezers-for-succulents-duo.html"
+    }
+  ],
+  "scope": "public catalog only, read-only transaction"
+}

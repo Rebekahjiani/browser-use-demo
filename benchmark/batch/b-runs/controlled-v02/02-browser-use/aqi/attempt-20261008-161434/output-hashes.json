@@ -1,0 +1,36 @@
+{
+  "files": [
+    {
+      "file": "C:\\Users\\bulin\\artifacttrace\\templates\\at-template\\tasks\\benchmark-20261008-b-02-browser-use\\aqi\\entity-extract\\000_state\\output\\concepts.json",
+      "sha256": "b231ea0b7e77fc6cb7165d2e9fff5c6f3050935170ab3ff3a1daa839debd0ba8"
+    },
+    {
+      "file": "C:\\Users\\bulin\\artifacttrace\\templates\\at-template\\tasks\\benchmark-20261008-b-02-browser-use\\aqi\\entity-extract\\001_state\\output\\concepts.json",
+      "sha256": "aaf9c7343c870cdb4870511748616c4a8027b6f25d3cffa6ba56b0d1f5de15e1"
+    },
+    {
+      "file": "C:\\Users\\bulin\\artifacttrace\\templates\\at-template\\tasks\\benchmark-20261008-b-02-browser-use\\aqi\\entity-extract\\002_state\\output\\concepts.json",
+      "sha256": "4cc1fc971aa8b936d58b5d969568d6d16bb8c908ef94996e2f64eedc5da8ccc8"
+    },
+    {
+      "file": "C:\\Users\\bulin\\artifacttrace\\templates\\at-template\\tasks\\benchmark-20261008-b-02-browser-use\\aqi\\entity-extract\\003_state\\output\\concepts.json",
+      "sha256": "52ad8684cf85d08b557771ab71a8ed65a16817e8f88c0f56d8ff010d7631857b"
+    },
+    {
+      "file": "C:\\Users\\bulin\\artifacttrace\\templates\\at-template\\tasks\\benchmark-20261008-b-02-browser-use\\aqi\\entity-extract\\004_state\\output\\concepts.json",
+      "sha256": "fc5669de71f6d3741460492adb41bbd40a74be68d7ecd96a7f257cd1470db5f9"
+    },
+    {
+      "file": "C:\\Users\\bulin\\artifacttrace\\templates\\at-template\\tasks\\benchmark-20261008-b-02-browser-use\\aqi\\entity-extract\\005_state\\output\\concepts.json",
+      "sha256": "783456d5767320802c2803cb6d5cc125775e17ec494dfb1bfdf9a94d8201dd66"
+    },
+    {
+      "file": "C:\\Users\\bulin\\artifacttrace\\templates\\at-template\\tasks\\benchmark-20261008-b-02-browser-use\\aqi\\entity-extract\\006_state\\output\\concepts.json",
+      "sha256": "c5e66f8767529200c4c85ce68004ef95bbc63117cd600e028ca3acdf1a78fad5"
+    },
+    {
+      "file": "C:\\Users\\bulin\\artifacttrace\\templates\\at-template\\tasks\\benchmark-20261008-b-02-browser-use\\aqi\\entity-extract\\007_state\\output\\concepts.json",
+      "sha256": "965093bd1f8f4bab8b49b9ada247e3edc3783bd0b9c6225ec59e61763883b644"
+    }
+  ]
+}

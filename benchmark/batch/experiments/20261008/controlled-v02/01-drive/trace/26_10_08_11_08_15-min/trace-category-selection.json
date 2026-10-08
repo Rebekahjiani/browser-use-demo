@@ -1,0 +1,19 @@
+{
+  "source": "preset",
+  "tracePreset": "min",
+  "traceProfile": "preset-min",
+  "includedCategories": [
+    "loading"
+  ],
+  "excludedCategories": [],
+  "expectedSignals": [
+    "页面/资源加载",
+    "soft navigation 线索"
+  ],
+  "overhead": "low",
+  "why": "使用 trace preset: min",
+  "catalogVersion": "2026-07-11",
+  "resolvedCategories": [
+    "loading"
+  ]
+}

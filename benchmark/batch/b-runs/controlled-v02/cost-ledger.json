@@ -1,0 +1,610 @@
+{
+  "rows": [
+    {
+      "trace": "01-drive",
+      "combination": "aqi",
+      "attempt": "aqi",
+      "directory": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\b-runs\\controlled-v02\\01-drive\\aqi",
+      "billing_cost": null,
+      "process": {
+        "elapsed_s": 601.8458421230316,
+        "model": "sophnet/DeepSeek-V4-Flash-0731",
+        "run_id": "run_20261008_060205_9374",
+        "outputs": 23,
+        "pages": 23
+      },
+      "status": "completed",
+      "model_calls_completed": 86,
+      "model_call_failures_recorded": 0,
+      "completed_call_token_usage": {
+        "input": 4108016,
+        "output": 45463
+      },
+      "usage_basis": "Sum of completed AT model-call events; failed-call billing is unavailable."
+    },
+    {
+      "trace": "01-drive",
+      "combination": "claudecode",
+      "attempt": "claudecode",
+      "directory": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\b-runs\\controlled-v02\\01-drive\\claudecode",
+      "billing_cost": null,
+      "process": {
+        "exit_code": 0,
+        "elapsed_s": 2112.0320053100586,
+        "model": "sophnet/DeepSeek-V4-Flash-0731",
+        "outputs": 23,
+        "pages": 23
+      },
+      "stream_event_types": {
+        "system": 112572,
+        "assistant": 328,
+        "user": 261,
+        "result": 1
+      },
+      "incomplete_json_lines": 0,
+      "cli_result": {
+        "subtype": "success",
+        "is_error": false,
+        "num_turns": 262,
+        "duration_ms": 2102738,
+        "usage": {
+          "input_tokens": 5741648,
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 4813056,
+          "output_tokens": 155398,
+          "output_tokens_details": {
+            "thinking_tokens": 0
+          },
+          "server_tool_use": {
+            "web_search_requests": 0,
+            "web_fetch_requests": 0
+          },
+          "service_tier": "standard",
+          "cache_creation": {
+            "ephemeral_1h_input_tokens": 0,
+            "ephemeral_5m_input_tokens": 0
+          },
+          "inference_geo": "",
+          "iterations": [],
+          "speed": "standard"
+        },
+        "modelUsage": {
+          "sophnet/DeepSeek-V4-Flash-0731": {
+            "inputTokens": 6447848,
+            "outputTokens": 208944,
+            "cacheReadInputTokens": 5506304,
+            "cacheCreationInputTokens": 0,
+            "webSearchRequests": 0,
+            "costUSD": 40.21599199999999,
+            "contextWindow": 200000,
+            "maxOutputTokens": 32000,
+            "thinkingTokens": 0,
+            "canonicalModel": "sophnet/deepseek-v4-flash-0731",
+            "provider": "firstParty",
+            "costBasis": "unknown"
+          }
+        },
+        "terminal_reason": "completed"
+      },
+      "cli_estimated_cost_usd": 40.21599199999999,
+      "usage_basis": "Final CLI result counters; pricing costBasis may be unknown and estimate is not a bill."
+    },
+    {
+      "trace": "01-browser-use",
+      "combination": "aqi",
+      "attempt": "aqi",
+      "directory": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\b-runs\\controlled-v02\\01-browser-use\\aqi",
+      "billing_cost": null,
+      "process": {
+        "elapsed_s": 376.6945900917053,
+        "model": "sophnet/DeepSeek-V4-Flash-0731",
+        "run_id": "run_20261008_064722_1ba5",
+        "outputs": 10,
+        "pages": 12
+      },
+      "status": "failed",
+      "model_calls_completed": 21,
+      "model_call_failures_recorded": 1,
+      "completed_call_token_usage": {
+        "input": 652385,
+        "output": 29806
+      },
+      "usage_basis": "Sum of completed AT model-call events; failed-call billing is unavailable."
+    },
+    {
+      "trace": "01-browser-use",
+      "combination": "aqi",
+      "attempt": "attempt-20261008-154322",
+      "directory": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\b-runs\\controlled-v02\\01-browser-use\\aqi\\attempt-20261008-154322",
+      "billing_cost": null,
+      "process": {
+        "elapsed_s": 101.8835666179657,
+        "model": "sophnet/DeepSeek-V4-Flash-0731",
+        "run_id": "run_20261008_074323_7511",
+        "status": "completed",
+        "outputs": 12,
+        "pages": 12
+      },
+      "status": "completed",
+      "model_calls_completed": 10,
+      "model_call_failures_recorded": 0,
+      "completed_call_token_usage": {
+        "input": 178148,
+        "output": 7631
+      },
+      "usage_basis": "Sum of completed AT model-call events; failed-call billing is unavailable."
+    },
+    {
+      "trace": "01-browser-use",
+      "combination": "claudecode",
+      "attempt": "claudecode",
+      "directory": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\b-runs\\controlled-v02\\01-browser-use\\claudecode",
+      "billing_cost": null,
+      "process": {
+        "exit_code": 0,
+        "elapsed_s": 1020.5322473049164,
+        "model": "sophnet/DeepSeek-V4-Flash-0731",
+        "outputs": 12,
+        "pages": 12
+      },
+      "stream_event_types": {
+        "system": 24985,
+        "assistant": 180,
+        "user": 134,
+        "result": 1
+      },
+      "incomplete_json_lines": 0,
+      "cli_result": {
+        "subtype": "success",
+        "is_error": false,
+        "num_turns": 135,
+        "duration_ms": 1013608,
+        "usage": {
+          "input_tokens": 2688771,
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 2179840,
+          "output_tokens": 52148,
+          "output_tokens_details": {
+            "thinking_tokens": 0
+          },
+          "server_tool_use": {
+            "web_search_requests": 0,
+            "web_fetch_requests": 0
+          },
+          "service_tier": "standard",
+          "cache_creation": {
+            "ephemeral_1h_input_tokens": 0,
+            "ephemeral_5m_input_tokens": 0
+          },
+          "inference_geo": "",
+          "iterations": [],
+          "speed": "standard"
+        },
+        "modelUsage": {
+          "sophnet/DeepSeek-V4-Flash-0731": {
+            "inputTokens": 3063823,
+            "outputTokens": 101632,
+            "cacheReadInputTokens": 2547968,
+            "cacheCreationInputTokens": 0,
+            "webSearchRequests": 0,
+            "costUSD": 19.133898999999996,
+            "contextWindow": 200000,
+            "maxOutputTokens": 32000,
+            "thinkingTokens": 0,
+            "canonicalModel": "sophnet/deepseek-v4-flash-0731",
+            "provider": "firstParty",
+            "costBasis": "unknown"
+          }
+        },
+        "terminal_reason": "completed"
+      },
+      "cli_estimated_cost_usd": 19.133898999999996,
+      "usage_basis": "Final CLI result counters; pricing costBasis may be unknown and estimate is not a bill."
+    },
+    {
+      "trace": "02-drive",
+      "combination": "aqi",
+      "attempt": "aqi",
+      "directory": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\b-runs\\controlled-v02\\02-drive\\aqi",
+      "billing_cost": null,
+      "process": {
+        "elapsed_s": 756.3360342979431,
+        "model": "sophnet/DeepSeek-V4-Flash-0731",
+        "run_id": "run_20261008_071040_5151",
+        "outputs": 31,
+        "pages": 31
+      },
+      "status": "completed",
+      "model_calls_completed": 89,
+      "model_call_failures_recorded": 0,
+      "completed_call_token_usage": {
+        "input": 3825621,
+        "output": 56330
+      },
+      "usage_basis": "Sum of completed AT model-call events; failed-call billing is unavailable."
+    },
+    {
+      "trace": "02-drive",
+      "combination": "claudecode",
+      "attempt": "claudecode",
+      "directory": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\b-runs\\controlled-v02\\02-drive\\claudecode",
+      "billing_cost": null,
+      "interruption": {
+        "reason": "No logs or page outputs for over ten minutes; gateway smoke passed in 4.6 seconds; interrupted for recorded retry with stdin closed and idle watchdog",
+        "interrupted_at": "2026-10-08T15:37:05.1433776+08:00",
+        "pid": 19356,
+        "runner_pid": 33512
+      },
+      "stream_event_types": {
+        "system": 26492,
+        "assistant": 162,
+        "user": 135
+      },
+      "incomplete_json_lines": 0,
+      "usage_basis": "No terminal CLI result; input/output token totals are unavailable, not zero."
+    },
+    {
+      "trace": "02-drive",
+      "combination": "claudecode",
+      "attempt": "attempt-20261008-154504",
+      "directory": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\b-runs\\controlled-v02\\02-drive\\claudecode\\attempt-20261008-154504",
+      "billing_cost": null,
+      "interruption": {
+        "reason": "Repeated bulk preloading and context compaction without any page output; restart with explicit write-before-next-page protocol",
+        "runner_pid": 888,
+        "pid": 8844,
+        "interrupted_at": "2026-10-08T15:59:18.4387201+08:00"
+      },
+      "stream_event_types": {
+        "system": 19095,
+        "assistant": 180,
+        "user": 148
+      },
+      "incomplete_json_lines": 0,
+      "usage_basis": "No terminal CLI result; input/output token totals are unavailable, not zero."
+    },
+    {
+      "trace": "02-drive",
+      "combination": "claudecode",
+      "attempt": "attempt-20261008-155919",
+      "directory": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\b-runs\\controlled-v02\\02-drive\\claudecode\\attempt-20261008-155919",
+      "billing_cost": null,
+      "process": {
+        "exit_code": 0,
+        "elapsed_s": 914.5025341510773,
+        "model": "sophnet/DeepSeek-V4-Flash-0731",
+        "outputs": 31,
+        "pages": 31
+      },
+      "stream_event_types": {
+        "system": 17193,
+        "assistant": 222,
+        "user": 165,
+        "result": 1
+      },
+      "incomplete_json_lines": 0,
+      "cli_result": {
+        "subtype": "success",
+        "is_error": false,
+        "num_turns": 166,
+        "duration_ms": 909963,
+        "usage": {
+          "input_tokens": 4211355,
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 3683072,
+          "output_tokens": 62872,
+          "output_tokens_details": {
+            "thinking_tokens": 0
+          },
+          "server_tool_use": {
+            "web_search_requests": 0,
+            "web_fetch_requests": 0
+          },
+          "service_tier": "standard",
+          "cache_creation": {
+            "ephemeral_1h_input_tokens": 0,
+            "ephemeral_5m_input_tokens": 0
+          },
+          "inference_geo": "",
+          "iterations": [],
+          "speed": "standard"
+        },
+        "modelUsage": {
+          "sophnet/DeepSeek-V4-Flash-0731": {
+            "inputTokens": 4654519,
+            "outputTokens": 89525,
+            "cacheReadInputTokens": 4116480,
+            "cacheCreationInputTokens": 0,
+            "webSearchRequests": 0,
+            "costUSD": 27.568959999999993,
+            "contextWindow": 200000,
+            "maxOutputTokens": 32000,
+            "thinkingTokens": 0,
+            "canonicalModel": "sophnet/deepseek-v4-flash-0731",
+            "provider": "firstParty",
+            "costBasis": "unknown"
+          }
+        },
+        "terminal_reason": "completed"
+      },
+      "cli_estimated_cost_usd": 27.568959999999993,
+      "usage_basis": "Final CLI result counters; pricing costBasis may be unknown and estimate is not a bill."
+    },
+    {
+      "trace": "02-browser-use",
+      "combination": "aqi",
+      "attempt": "attempt-20261008-161434",
+      "directory": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\b-runs\\controlled-v02\\02-browser-use\\aqi\\attempt-20261008-161434",
+      "billing_cost": null,
+      "process": {
+        "elapsed_s": 167.03052234649658,
+        "model": "sophnet/DeepSeek-V4-Flash-0731",
+        "run_id": "run_20261008_081434_f298",
+        "status": "completed",
+        "outputs": 8,
+        "pages": 8
+      },
+      "status": "completed",
+      "model_calls_completed": 29,
+      "model_call_failures_recorded": 0,
+      "completed_call_token_usage": {
+        "input": 1227795,
+        "output": 11894
+      },
+      "usage_basis": "Sum of completed AT model-call events; failed-call billing is unavailable."
+    },
+    {
+      "trace": "02-browser-use",
+      "combination": "claudecode",
+      "attempt": "attempt-20261008-161721",
+      "directory": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\b-runs\\controlled-v02\\02-browser-use\\claudecode\\attempt-20261008-161721",
+      "billing_cost": null,
+      "process": {
+        "exit_code": 0,
+        "elapsed_s": 351.85515880584717,
+        "model": "sophnet/DeepSeek-V4-Flash-0731",
+        "outputs": 8,
+        "pages": 8
+      },
+      "stream_event_types": {
+        "system": 13474,
+        "assistant": 67,
+        "user": 48,
+        "result": 1
+      },
+      "incomplete_json_lines": 0,
+      "cli_result": {
+        "subtype": "success",
+        "is_error": false,
+        "num_turns": 49,
+        "duration_ms": 340331,
+        "usage": {
+          "input_tokens": 1199892,
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 1078272,
+          "output_tokens": 28030,
+          "output_tokens_details": {
+            "thinking_tokens": 0
+          },
+          "server_tool_use": {
+            "web_search_requests": 0,
+            "web_fetch_requests": 0
+          },
+          "service_tier": "standard",
+          "cache_creation": {
+            "ephemeral_1h_input_tokens": 0,
+            "ephemeral_5m_input_tokens": 0
+          },
+          "inference_geo": "",
+          "iterations": [],
+          "speed": "standard"
+        },
+        "modelUsage": {
+          "sophnet/DeepSeek-V4-Flash-0731": {
+            "inputTokens": 1284038,
+            "outputTokens": 32986,
+            "cacheReadInputTokens": 1159936,
+            "cacheCreationInputTokens": 0,
+            "webSearchRequests": 0,
+            "costUSD": 7.824808,
+            "contextWindow": 200000,
+            "maxOutputTokens": 32000,
+            "thinkingTokens": 0,
+            "canonicalModel": "sophnet/deepseek-v4-flash-0731",
+            "provider": "firstParty",
+            "costBasis": "unknown"
+          }
+        },
+        "terminal_reason": "completed"
+      },
+      "cli_estimated_cost_usd": 7.824808,
+      "usage_basis": "Final CLI result counters; pricing costBasis may be unknown and estimate is not a bill."
+    },
+    {
+      "trace": "03-drive",
+      "combination": "aqi",
+      "attempt": "attempt-20261008-162313",
+      "directory": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\b-runs\\controlled-v02\\03-drive\\aqi\\attempt-20261008-162313",
+      "billing_cost": null,
+      "process": {
+        "elapsed_s": 579.8484272956848,
+        "model": "sophnet/DeepSeek-V4-Flash-0731",
+        "run_id": "run_20261008_082313_6b0e",
+        "status": "completed",
+        "outputs": 23,
+        "pages": 23
+      },
+      "status": "completed",
+      "model_calls_completed": 90,
+      "model_call_failures_recorded": 0,
+      "completed_call_token_usage": {
+        "input": 3820661,
+        "output": 39613
+      },
+      "usage_basis": "Sum of completed AT model-call events; failed-call billing is unavailable."
+    },
+    {
+      "trace": "03-drive",
+      "combination": "claudecode",
+      "attempt": "attempt-20261008-163253",
+      "directory": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\b-runs\\controlled-v02\\03-drive\\claudecode\\attempt-20261008-163253",
+      "billing_cost": null,
+      "process": {
+        "exit_code": 0,
+        "elapsed_s": 703.2018554210663,
+        "model": "sophnet/DeepSeek-V4-Flash-0731",
+        "outputs": 23,
+        "pages": 23
+      },
+      "stream_event_types": {
+        "system": 18289,
+        "assistant": 164,
+        "user": 111,
+        "result": 1
+      },
+      "incomplete_json_lines": 0,
+      "cli_result": {
+        "subtype": "success",
+        "is_error": false,
+        "num_turns": 112,
+        "duration_ms": 698372,
+        "usage": {
+          "input_tokens": 3363134,
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 2926080,
+          "output_tokens": 49589,
+          "output_tokens_details": {
+            "thinking_tokens": 0
+          },
+          "server_tool_use": {
+            "web_search_requests": 0,
+            "web_fetch_requests": 0
+          },
+          "service_tier": "standard",
+          "cache_creation": {
+            "ephemeral_1h_input_tokens": 0,
+            "ephemeral_5m_input_tokens": 0
+          },
+          "inference_geo": "",
+          "iterations": [],
+          "speed": "standard"
+        },
+        "modelUsage": {
+          "sophnet/DeepSeek-V4-Flash-0731": {
+            "inputTokens": 3716234,
+            "outputTokens": 66943,
+            "cacheReadInputTokens": 3271424,
+            "cacheCreationInputTokens": 0,
+            "webSearchRequests": 0,
+            "costUSD": 21.890457,
+            "contextWindow": 200000,
+            "maxOutputTokens": 32000,
+            "thinkingTokens": 0,
+            "canonicalModel": "sophnet/deepseek-v4-flash-0731",
+            "provider": "firstParty",
+            "costBasis": "unknown"
+          }
+        },
+        "terminal_reason": "completed"
+      },
+      "cli_estimated_cost_usd": 21.890457,
+      "usage_basis": "Final CLI result counters; pricing costBasis may be unknown and estimate is not a bill."
+    },
+    {
+      "trace": "03-browser-use",
+      "combination": "aqi",
+      "attempt": "attempt-20261008-164436",
+      "directory": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\b-runs\\controlled-v02\\03-browser-use\\aqi\\attempt-20261008-164436",
+      "billing_cost": null,
+      "process": {
+        "elapsed_s": 354.5039346218109,
+        "model": "sophnet/DeepSeek-V4-Flash-0731",
+        "run_id": "run_20261008_084436_5cb7",
+        "status": "completed",
+        "outputs": 14,
+        "pages": 14
+      },
+      "status": "completed",
+      "model_calls_completed": 49,
+      "model_call_failures_recorded": 0,
+      "completed_call_token_usage": {
+        "input": 2395256,
+        "output": 17959
+      },
+      "usage_basis": "Sum of completed AT model-call events; failed-call billing is unavailable."
+    },
+    {
+      "trace": "03-browser-use",
+      "combination": "claudecode",
+      "attempt": "attempt-20261008-165030",
+      "directory": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\b-runs\\controlled-v02\\03-browser-use\\claudecode\\attempt-20261008-165030",
+      "billing_cost": null,
+      "process": {
+        "exit_code": 0,
+        "elapsed_s": 491.9023051261902,
+        "model": "sophnet/DeepSeek-V4-Flash-0731",
+        "outputs": 14,
+        "pages": 14
+      },
+      "stream_event_types": {
+        "system": 6469,
+        "assistant": 108,
+        "user": 74,
+        "result": 1
+      },
+      "incomplete_json_lines": 0,
+      "cli_result": {
+        "subtype": "success",
+        "is_error": false,
+        "num_turns": 75,
+        "duration_ms": 486195,
+        "usage": {
+          "input_tokens": 2585337,
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 2275840,
+          "output_tokens": 25964,
+          "output_tokens_details": {
+            "thinking_tokens": 0
+          },
+          "server_tool_use": {
+            "web_search_requests": 0,
+            "web_fetch_requests": 0
+          },
+          "service_tier": "standard",
+          "cache_creation": {
+            "ephemeral_1h_input_tokens": 0,
+            "ephemeral_5m_input_tokens": 0
+          },
+          "inference_geo": "",
+          "iterations": [],
+          "speed": "standard"
+        },
+        "modelUsage": {
+          "sophnet/DeepSeek-V4-Flash-0731": {
+            "inputTokens": 2765530,
+            "outputTokens": 37340,
+            "cacheReadInputTokens": 2363136,
+            "cacheCreationInputTokens": 0,
+            "webSearchRequests": 0,
+            "costUSD": 15.942718000000006,
+            "contextWindow": 200000,
+            "maxOutputTokens": 32000,
+            "thinkingTokens": 0,
+            "canonicalModel": "sophnet/deepseek-v4-flash-0731",
+            "provider": "firstParty",
+            "costBasis": "unknown"
+          }
+        },
+        "terminal_reason": "completed"
+      },
+      "cli_estimated_cost_usd": 15.942718000000006,
+      "usage_basis": "Final CLI result counters; pricing costBasis may be unknown and estimate is not a bill."
+    }
+  ],
+  "limitations": [
+    "All original and recovery attempts are included; do not compare successful attempts alone.",
+    "AT completed-call usage and final CLI usage have different accounting formats.",
+    "Claude estimated USD is not provider billing; unknown pricing is not resolved by assumptions.",
+    "Interrupted or failed calls can have unreported usage."
+  ]
+}

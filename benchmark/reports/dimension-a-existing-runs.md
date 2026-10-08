@@ -43,5 +43,5 @@
 
 - 织语原始运行：`C:\Users\bulin\appweave\outputs\01-evidence\26_09_28_10_40_34-min`
 - browser-use 原始运行：`C:\Users\bulin\browser-use-demo\benchmark\outputs\20260928-160723-422670`
-- 统一统计：`reports\pilot-comparison.md`、`reports\drive-pilot.json`、`reports\browser-use-pilot.json`
+- 统一统计：`archive/pilot-comparison.md`、`reports/drive-pilot.json`、`reports/browser-use-pilot.json`
 - 未访问候选链接审计：`reports\frontier-audit.json`

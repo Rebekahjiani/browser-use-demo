@@ -1,0 +1,524 @@
+- RootWebArea "Electronics" [url="http://127.0.0.1:7770/electronics.html?cat=60&product_list_order=price"]
+  - generic
+    - banner
+      - generic
+        - link "Skip to Content" [url="http://127.0.0.1:7770/electronics.html?cat=60&product_list_order=price#contentarea"]
+          - StaticText "Skip to Content"
+      - generic
+        - generic
+          - generic
+            - StaticText ""
+          - StaticText "Toggle Nav"
+        - link "store logo" [url="http://127.0.0.1:7770/"]
+          - image "one_stop_market_logo" [url="http://127.0.0.1:7770/media/logo/websites/1/image_15__1.png"]
+        - generic
+          - link " My Cart" [url="http://127.0.0.1:7770/checkout/cart/"]
+            - generic
+              - StaticText ""
+            - StaticText "My Cart"
+        - form
+          - LabelText
+            - generic
+              - StaticText ""
+            - StaticText "Search"
+          - generic
+            - combobox " Search" [expanded=false]
+              - generic
+    - generic
+      - tablist
+        - tab "Menu" [selected=false] [expanded=true]
+          - link "Menu" [url="http://127.0.0.1:7770/electronics.html?cat=60&product_list_order=price#store.menu"]
+            - StaticText "Menu"
+        - tabpanel
+          - navigation
+            - menu
+              - menuitem "BEAUTY & PERSONAL CARE "
+                - StaticText "BEAUTY & PERSONAL CARE"
+                - generic
+                  - StaticText ""
+              - menuitem "SPORTS & OUTDOORS "
+                - StaticText "SPORTS & OUTDOORS"
+                - generic
+                  - StaticText ""
+              - menuitem "CLOTHING, SHOES & JEWELRY "
+                - StaticText "CLOTHING, SHOES & JEWELRY"
+                - generic
+                  - StaticText ""
+              - menuitem "HOME & KITCHEN "
+                - StaticText "HOME & KITCHEN"
+                - generic
+                  - StaticText ""
+              - menuitem "OFFICE PRODUCTS "
+                - StaticText "OFFICE PRODUCTS"
+                - generic
+                  - StaticText ""
+              - menuitem "TOOLS & HOME IMPROVEMENT "
+                - StaticText "TOOLS & HOME IMPROVEMENT"
+                - generic
+                  - StaticText ""
+              - menuitem "HEALTH & HOUSEHOLD "
+                - StaticText "HEALTH & HOUSEHOLD"
+                - generic
+                  - StaticText ""
+              - menuitem "PATIO, LAWN & GARDEN "
+                - StaticText "PATIO, LAWN & GARDEN"
+                - generic
+                  - StaticText ""
+              - menuitem "ELECTRONICS "
+                - StaticText "ELECTRONICS"
+                - generic
+                  - StaticText ""
+              - menuitem "CELL PHONES & ACCESSORIES "
+                - StaticText "CELL PHONES & ACCESSORIES"
+                - generic
+                  - StaticText ""
+              - menuitem "VIDEO GAMES "
+                - StaticText "VIDEO GAMES"
+                - generic
+                  - StaticText ""
+              - menuitem "GROCERY & GOURMET FOOD "
+                - StaticText "GROCERY & GOURMET FOOD"
+                - generic
+                  - StaticText ""
+        - tab "Account" [selected=false] [expanded=false]
+          - link "Account" [url="http://127.0.0.1:7770/electronics.html?cat=60&product_list_order=price#store.links"]
+            - StaticText "Account"
+    - list
+      - listitem [level=1]
+        - link "Home" [url="http://127.0.0.1:7770/"]
+          - StaticText "Home"
+        - generic
+          - StaticText ""
+      - listitem [level=1]
+        - strong
+          - StaticText "Electronics"
+    - main
+      - generic
+      - heading "Electronics Items 1-12 of 631" [level=1]
+        - StaticText "Electronics"
+      - generic
+        - paragraph
+          - StaticText "Items"
+          - StaticText "1"
+          - StaticText "-"
+          - StaticText "12"
+          - StaticText "of"
+          - StaticText "631"
+        - generic
+          - LabelText
+            - StaticText "Sort By"
+          - combobox "Sort By" [expanded=false] [value="Price"]
+            - MenuListPopup
+              - option "Position" [selected=false]
+              - option "Product Name" [selected=false]
+              - option "Price" [selected=true]
+          - link " Set Descending Direction" [url="http://127.0.0.1:7770/electronics.html?cat=60&product_list_order=price#"]
+            - generic
+              - StaticText ""
+            - StaticText "Set Descending Direction"
+        - list
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/wireless-earbuds-mics-call-noise-canceling-wireless-charging-case-bluetooth-5-0-headset-wireless-earphones-mini-earbuds-stereo-headphones-white.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B09RB14X4D.0.jpg"]
+              - strong
+                - link "Wireless Earbuds Mics Call Noise Canceling & Wireless Charging Case,Bluetooth 5.0 Headset Wireless Earphones Mini Earbuds Stereo Headphones (White)" [url="http://127.0.0.1:7770/wireless-earbuds-mics-call-noise-canceling-wireless-charging-case-bluetooth-5-0-headset-wireless-earphones-mini-earbuds-stereo-headphones-white.html"]
+                  - StaticText "Wireless Earbuds Mics Call Noise Canceling & Wireless Charging Case,Bluetooth 5.0 Headset Wireless Earphones Mini Earbuds Stereo Headphones (White)"
+              - generic
+                - generic
+                  - StaticText "$0.01"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/luyanhapy9-bluetooth-5-0-wireless-earphone-1pc-xt-5-mini-hifi-sound-in-ear-earbuds-headset-with-mic-for-noise-cancelling-comfortable-premium-sound-with-deep-bass-for-sport-black-one-size.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B0963936TH.0.jpg"]
+              - strong
+                - link "LUYANhapy9 Bluetooth 5.0 Wireless Earphone,1Pc XT-5 Mini HiFi Sound in-Ear Earbuds Headset with Mic for Noise Cancelling Comfortable Premium Sound with Deep Bass for Sport Black One Size" [url="http://127.0.0.1:7770/luyanhapy9-bluetooth-5-0-wireless-earphone-1pc-xt-5-mini-hifi-sound-in-ear-earbuds-headset-with-mic-for-noise-cancelling-comfortable-premium-sound-with-deep-bass-for-sport-black-one-size.html"]
+                  - StaticText "LUYANhapy9 Bluetooth 5.0 Wireless Earphone,1Pc XT-5 Mini HiFi Sound in-Ear Earbuds Headset with Mic for Noise Cancelling Comfortable Premium Sound with Deep Bass for Sport Black One Size"
+              - generic
+                - generic
+                  - StaticText "$0.14"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/bluetooth-single-ear-ultra-long-standby-fast-charge-anti-noise-5-0-bluetooth-over-ear-headphones-a1-red.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B09NLML6YZ.0.jpg"]
+              - strong
+                - link "Bluetooth Single Ear Ultra-Long Standby Fast Charge Anti-Noise 5.0 Bluetooth Over-Ear Headphones,A1 (Red)" [url="http://127.0.0.1:7770/bluetooth-single-ear-ultra-long-standby-fast-charge-anti-noise-5-0-bluetooth-over-ear-headphones-a1-red.html"]
+                  - StaticText "Bluetooth Single Ear Ultra-Long Standby Fast Charge Anti-Noise 5.0 Bluetooth Over-Ear Headphones,A1 (Red)"
+              - generic
+                - generic
+                  - StaticText "$1.14"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/move-on-earphone-sports-headphones-ear-hook-running-headphones-surround-sound-effect-with-microphone-suitable-for-running-office-meeting-etc-green.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B09BNPCF1D.0.jpg"]
+              - strong
+                - link "Move on Earphone Sports Headphones Ear Hook Running Headphones Surround Sound Effect with Microphone Suitable for Running, Office, Meeting, Etc. Green" [url="http://127.0.0.1:7770/move-on-earphone-sports-headphones-ear-hook-running-headphones-surround-sound-effect-with-microphone-suitable-for-running-office-meeting-etc-green.html"]
+                  - StaticText "Move on Earphone Sports Headphones Ear Hook Running Headphones Surround Sound Effect with Microphone Suitable for Running, Office, Meeting, Etc. Green"
+              - generic
+                - generic
+                  - StaticText "$1.33"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/audio-technica-ath-clr100isbl-sonicfuel-in-ear-headphones-with-in-line-microphone-control-blue.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B01DZSWNAS.0.jpg"]
+              - strong
+                - link "Audio-Technica ATH-CLR100iSBL SonicFuel In-Ear Headphones with In-Line Microphone & Control, Blue" [url="http://127.0.0.1:7770/audio-technica-ath-clr100isbl-sonicfuel-in-ear-headphones-with-in-line-microphone-control-blue.html"]
+                  - StaticText "Audio-Technica ATH-CLR100iSBL SonicFuel In-Ear Headphones with In-Line Microphone & Control, Blue"
+              - LayoutTable
+                - generic
+                  - StaticText "Rating:"
+                  - generic
+                    - generic
+                      - StaticText ""
+                    - generic
+                      - StaticText ""
+                    - StaticText "72%"
+                - generic
+                  - link "12 Reviews" [url="http://127.0.0.1:7770/audio-technica-ath-clr100isbl-sonicfuel-in-ear-headphones-with-in-line-microphone-control-blue.html#reviews"]
+                    - StaticText "12"
+                    - StaticText "Reviews"
+              - generic
+                - generic
+                  - StaticText "$1.55"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/headphones-wireless-bluetooth-headset-earphones-for-kids-women-men-gaming-headset-in-ear-bass-hifi-metal-cool-sports-wire-controlled-headset-ideal-christmas-gift.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B09JSY82L9.0.jpg"]
+              - strong
+                - link "Headphones Wireless Bluetooth Headset Earphones for Kids Women Men,Gaming Headset,In-ear Bass,HIFI Metal,Cool Sports,Wire-controlled Headset,Ideal Christmas Gift" [url="http://127.0.0.1:7770/headphones-wireless-bluetooth-headset-earphones-for-kids-women-men-gaming-headset-in-ear-bass-hifi-metal-cool-sports-wire-controlled-headset-ideal-christmas-gift.html"]
+                  - StaticText "Headphones Wireless Bluetooth Headset Earphones for Kids Women Men,Gaming Headset,In-ear Bass,HIFI Metal,Cool Sports,Wire-controlled Headset,Ideal Christmas Gift"
+              - generic
+                - generic
+                  - StaticText "$1.69"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/sdoveb-wireless-bluetooth-neckband-headphones-anti-sweat-sports-stereo-headset-with-smart-noise-reduction-microphone-hifi-bass-running-fitness-headset-wireless-neckband-earphones-black.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B09N6YVCRM.0.jpg"]
+              - strong
+                - link "Sdoveb Wireless Bluetooth Neckband Headphones Anti-Sweat Sports Stereo Headset with Smart Noise Reduction Microphone, HiFi Bass Running Fitness Headset Wireless Neckband Earphones (Black)" [url="http://127.0.0.1:7770/sdoveb-wireless-bluetooth-neckband-headphones-anti-sweat-sports-stereo-headset-with-smart-noise-reduction-microphone-hifi-bass-running-fitness-headset-wireless-neckband-earphones-black.html"]
+                  - StaticText "Sdoveb Wireless Bluetooth Neckband Headphones Anti-Sweat Sports Stereo Headset with Smart Noise Reduction Microphone, HiFi Bass Running Fitness Headset Wireless Neckband Earphones (Black)"
+              - generic
+                - generic
+                  - StaticText "$1.98"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/original-type-c-earphone-digital-usb-headphone-accessory-wired-control-in-ear-headset-digital-earphone-for-smartphone.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B09RB36K72.0.jpg"]
+              - strong
+                - link "Original Type-C Earphone Digital USB Headphone Accessory Wired Control in Ear Headset Digital Earphone for Smartphone" [url="http://127.0.0.1:7770/original-type-c-earphone-digital-usb-headphone-accessory-wired-control-in-ear-headset-digital-earphone-for-smartphone.html"]
+                  - StaticText "Original Type-C Earphone Digital USB Headphone Accessory Wired Control in Ear Headset Digital Earphone for Smartphone"
+              - generic
+                - generic
+                  - StaticText "$2.23"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/prymeblu-bt-ptt2-hy-industrial-military-spec-certified-durable-enterprise-bluetooth-headset-for-hytera-black.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B06XCKGCH4.0.jpg"]
+              - strong
+                - link "PRYMEBLU BT-PTT2-HY Industrial, Military Spec Certified, Durable, Enterprise Bluetooth Headset for Hytera - Black" [url="http://127.0.0.1:7770/prymeblu-bt-ptt2-hy-industrial-military-spec-certified-durable-enterprise-bluetooth-headset-for-hytera-black.html"]
+                  - StaticText "PRYMEBLU BT-PTT2-HY Industrial, Military Spec Certified, Durable, Enterprise Bluetooth Headset for Hytera - Black"
+              - generic
+                - generic
+                  - StaticText "$3.14"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/panasonic-bluetooth-earbud-headphones-with-microphone-call-volume-controller-and-quick-charge-function-rp-hje120b-r-in-ear-headphones-red.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B071XNVKBM.0.jpg"]
+              - strong
+                - link "PANASONIC Bluetooth Earbud Headphones with Microphone, Call/Volume Controller and Quick Charge Function - RP-HJE120B-R - in-Ear Headphones (Red)" [url="http://127.0.0.1:7770/panasonic-bluetooth-earbud-headphones-with-microphone-call-volume-controller-and-quick-charge-function-rp-hje120b-r-in-ear-headphones-red.html"]
+                  - StaticText "PANASONIC Bluetooth Earbud Headphones with Microphone, Call/Volume Controller and Quick Charge Function - RP-HJE120B-R - in-Ear Headphones (Red)"
+              - generic
+                - generic
+                  - StaticText "$3.39"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/heave-bluetooth-v5-0-headphones-wireless-magnetic-neckband-sport-noise-cancelling-earbuds-wireless-headset-with-stereo-bass-sound-for-sports-work-red.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B095HPMYYH.0.jpg"]
+              - strong
+                - link "Heave Bluetooth V5.0 Headphones Wireless Magnetic Neckband,Sport Noise Cancelling Earbuds Wireless Headset with Stereo Bass Sound for Sports Work Red" [url="http://127.0.0.1:7770/heave-bluetooth-v5-0-headphones-wireless-magnetic-neckband-sport-noise-cancelling-earbuds-wireless-headset-with-stereo-bass-sound-for-sports-work-red.html"]
+                  - StaticText "Heave Bluetooth V5.0 Headphones Wireless Magnetic Neckband,Sport Noise Cancelling Earbuds Wireless Headset with Stereo Bass Sound for Sports Work Red"
+              - generic
+                - generic
+                  - StaticText "$3.90"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/new-stereo-in-ear-earphones-earbuds-handsfree-bluetooth-earphones-sport-wireless-headset-waterproof-headphones-gold.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B09N3GFZG1.0.jpg"]
+              - strong
+                - link "New Stereo in-Ear Earphones Earbuds Handsfree Bluetooth Earphones Sport Wireless Headset Waterproof Headphones (Gold)" [url="http://127.0.0.1:7770/new-stereo-in-ear-earphones-earbuds-handsfree-bluetooth-earphones-sport-wireless-headset-waterproof-headphones-gold.html"]
+                  - StaticText "New Stereo in-Ear Earphones Earbuds Handsfree Bluetooth Earphones Sport Wireless Headset Waterproof Headphones (Gold)"
+              - generic
+                - generic
+                  - StaticText "$4.29"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+        - generic
+          - strong
+            - StaticText "Page"
+          - list "Page"
+            - listitem [level=1]
+              - strong
+                - StaticText "You're currently reading page"
+                - StaticText "1"
+            - listitem [level=1]
+              - link "Page 2" [url="http://127.0.0.1:7770/electronics.html?cat=60&p=2&product_list_order=price"]
+                - StaticText "Page"
+                - StaticText "2"
+            - listitem [level=1]
+              - link "Page 3" [url="http://127.0.0.1:7770/electronics.html?cat=60&p=3&product_list_order=price"]
+                - StaticText "Page"
+                - StaticText "3"
+            - listitem [level=1]
+              - link "Page 4" [url="http://127.0.0.1:7770/electronics.html?cat=60&p=4&product_list_order=price"]
+                - StaticText "Page"
+                - StaticText "4"
+            - listitem [level=1]
+              - link "Page 5" [url="http://127.0.0.1:7770/electronics.html?cat=60&p=5&product_list_order=price"]
+                - StaticText "Page"
+                - StaticText "5"
+            - listitem [level=1]
+              - link " Page Next" [url="http://127.0.0.1:7770/electronics.html?cat=60&p=2&product_list_order=price"]
+                - generic
+                  - StaticText ""
+                - StaticText "Page"
+                - StaticText "Next"
+        - generic
+          - strong
+            - StaticText "Shop By"
+        - heading "Now Shopping by" [level=2]
+          - StaticText "Now Shopping by"
+        - list
+          - listitem [level=1]
+            - StaticText "Category"
+            - StaticText ":"
+            - StaticText "Headphones"
+            - link "Remove This Item" [url="http://127.0.0.1:7770/electronics.html?product_list_order=price"]
+              - StaticText "Remove This Item"
+        - generic
+          - link "Clear All" [url="http://127.0.0.1:7770/electronics.html?product_list_order=price"]
+            - StaticText "Clear All"
+        - heading "Shopping Options" [level=2]
+          - StaticText "Shopping Options"
+        - DescriptionList
+          - heading "Category" [level=3]
+            - StaticText "Category"
+          - definition
+            - list
+              - listitem [level=1]
+                - link "Over-Ear Headphones( 148 item )" [url="http://127.0.0.1:7770/electronics.html?cat=210&product_list_order=price"]
+                  - StaticText "Over-Ear Headphones"
+                  - StaticText "("
+                  - StaticText "148"
+                  - StaticText "item"
+                  - StaticText ")"
+              - listitem [level=1]
+                - link "Earbud Headphones( 420 item )" [url="http://127.0.0.1:7770/electronics.html?cat=222&product_list_order=price"]
+                  - StaticText "Earbud Headphones"
+                  - StaticText "("
+                  - StaticText "420"
+                  - StaticText "item"
+                  - StaticText ")"
+              - listitem [level=1]
+                - link "On-Ear Headphones( 44 item )" [url="http://127.0.0.1:7770/electronics.html?cat=242&product_list_order=price"]
+                  - StaticText "On-Ear Headphones"
+                  - StaticText "("
+                  - StaticText "44"
+                  - StaticText "item"
+                  - StaticText ")"
+          - heading "Price" [level=3]
+            - StaticText "Price"
+          - definition
+            - list
+              - listitem [level=1]
+                - link "$0.00 - $999.99( 628 item )" [url="http://127.0.0.1:7770/electronics.html?cat=60&price=0-1000&product_list_order=price"]
+                  - StaticText "$0.00"
+                  - StaticText "-"
+                  - StaticText "$999.99"
+                  - StaticText "("
+                  - StaticText "628"
+                  - StaticText "item"
+                  - StaticText ")"
+              - listitem [level=1]
+                - link "$1,000.00 and above( 3 item )" [url="http://127.0.0.1:7770/electronics.html?cat=60&price=1000-2000&product_list_order=price"]
+                  - StaticText "$1,000.00"
+                  - StaticText "and above"
+                  - StaticText "("
+                  - StaticText "3"
+                  - StaticText "item"
+                  - StaticText ")"
+        - generic
+          - heading "Compare Products" [level=2]
+            - StaticText "Compare Products"
+        - generic
+          - StaticText "You have no items to compare."
+        - generic
+          - heading "My Wish List" [level=2]
+            - StaticText "My Wish List"
+        - generic
+          - StaticText "You have no items in your wish list."
+    - contentinfo
+      - form
+        - generic
+          - generic
+            - StaticText ""
+          - LabelText
+            - StaticText "Sign Up for Our Newsletter:"
+            - textbox "Sign Up for Our Newsletter:"
+              - generic
+        - generic
+          - button "Subscribe"
+            - StaticText "Subscribe"
+      - list
+        - listitem [level=1]
+          - link "Privacy and Cookie Policy" [url="http://127.0.0.1:7770/privacy-policy-cookie-restriction-mode/"]
+            - StaticText "Privacy and Cookie Policy"
+        - listitem [level=1]
+          - link "Search Terms" [url="http://127.0.0.1:7770/search/term/popular/"]
+            - StaticText "Search Terms"
+        - listitem [level=1]
+          - link "Advanced Search" [url="http://127.0.0.1:7770/catalogsearch/advanced/"]
+            - StaticText "Advanced Search"
+        - listitem [level=1]
+          - link "Orders and Returns" [url="http://127.0.0.1:7770/sales/guest/form/"]
+            - StaticText "Orders and Returns"
+        - listitem [level=1]
+          - link "Contact Us" [url="http://127.0.0.1:7770/contact/"]
+            - StaticText "Contact Us"
+      - generic
+        - StaticText "Copyright © 2013-present Magento, Inc. All rights reserved."
+      - generic
+        - StaticText "Help Us Keep Magento Healthy"
+        - StaticText
+        - link "Report All Bugs" [url="http://www.magentocommerce.com/bug-tracking"]
+          - StaticText "Report All Bugs"
+    - generic

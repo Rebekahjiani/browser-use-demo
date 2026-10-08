@@ -1,0 +1,156 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - link "Skip to Content" [ref=e4] [cursor=pointer]:
+      - /url: "#contentarea"
+    - generic [ref=e5]:
+      - generic [ref=e6] [cursor=pointer]:
+        - text: 
+        - generic [ref=e7]: Toggle Nav
+      - link "store logo" [ref=e8] [cursor=pointer]:
+        - /url: http://127.0.0.1:7770/
+        - img "one_stop_market_logo" [ref=e9]
+      - generic [ref=e10]:
+        - link " My Cart" [ref=e11] [cursor=pointer]:
+          - /url: http://127.0.0.1:7770/checkout/cart/
+          - text: 
+          - generic [ref=e12]: My Cart
+        - dialog:
+          - generic [ref=e154]:
+            - button " Close" [active] [ref=e155] [cursor=pointer]:
+              - text: 
+              - generic [ref=e156]: Close
+            - strong [ref=e157]: You have no items in your shopping cart.
+      - generic [ref=e16]:
+        - generic [ref=e17]:
+          - text: 
+          - generic [ref=e18]: Search
+        - combobox " Search" [ref=e20]
+  - tablist [ref=e22]:
+    - tab "Menu" [expanded] [ref=e23]:
+      - link "Menu" [ref=e24] [cursor=pointer]:
+        - /url: "#store.menu"
+    - tabpanel [ref=e25]:
+      - navigation [ref=e26]:
+        - menu [ref=e27]:
+          - listitem [ref=e28]:
+            - menuitem "Beauty & Personal Care " [ref=e29] [cursor=pointer]: Beauty & Personal Care 
+          - listitem [ref=e30]:
+            - menuitem "Sports & Outdoors " [ref=e31] [cursor=pointer]: Sports & Outdoors 
+          - listitem [ref=e32]:
+            - menuitem "Clothing, Shoes & Jewelry " [ref=e33] [cursor=pointer]: Clothing, Shoes & Jewelry 
+          - listitem [ref=e34]:
+            - menuitem "Home & Kitchen " [ref=e35] [cursor=pointer]: Home & Kitchen 
+          - listitem [ref=e36]:
+            - menuitem "Office Products " [ref=e37] [cursor=pointer]: Office Products 
+          - listitem [ref=e38]:
+            - menuitem "Tools & Home Improvement " [ref=e39] [cursor=pointer]: Tools & Home Improvement 
+          - listitem [ref=e40]:
+            - menuitem "Health & Household " [ref=e41] [cursor=pointer]: Health & Household 
+          - listitem [ref=e42]:
+            - menuitem "Patio, Lawn & Garden " [ref=e43] [cursor=pointer]: Patio, Lawn & Garden 
+          - listitem [ref=e44]:
+            - menuitem "Electronics " [ref=e45] [cursor=pointer]: Electronics 
+          - listitem [ref=e46]:
+            - menuitem "Cell Phones & Accessories " [ref=e47] [cursor=pointer]: Cell Phones & Accessories 
+          - listitem [ref=e48]:
+            - menuitem "Video Games " [ref=e49] [cursor=pointer]: Video Games 
+          - listitem [ref=e50]:
+            - menuitem "Grocery & Gourmet Food " [ref=e51] [cursor=pointer]: Grocery & Gourmet Food 
+    - tab "Account" [ref=e52]:
+      - link "Account" [ref=e53] [cursor=pointer]:
+        - /url: "#store.links"
+  - list [ref=e55]:
+    - listitem [ref=e56]:
+      - link "Home" [ref=e57] [cursor=pointer]:
+        - /url: http://127.0.0.1:7770/
+      - text: 
+    - listitem [ref=e58]:
+      - strong [ref=e59]: So Delicious Dairy Free CocoWhip Light, Vegan, Non-GMO Project Verified, 9 oz. Tub
+  - main [ref=e60]:
+    - heading "So Delicious Dairy Free CocoWhip Light, Vegan, Non-GMO Project Verified, 9 oz. Tub" [level=1] [ref=e62]
+    - generic [ref=e64]:
+      - generic [ref=e65]:
+        - generic [ref=e66]:
+          - generic [ref=e67]:
+            - generic "Availability" [ref=e68]: In stock
+            - generic [ref=e69]:
+              - strong [ref=e70]: SKU
+              - generic [ref=e71]: B01N1QRJNG
+          - generic [ref=e72]:
+            - generic [ref=e73]:
+              - generic [ref=e74]: "Rating:"
+              - generic "78%" [ref=e75]:
+                - text: 
+                - generic [ref=e76]:
+                  - text: 
+                  - generic [ref=e77]:
+                    - generic [ref=e78]: "78"
+                    - text: "% of"
+                    - generic [ref=e79]: "100"
+            - generic [ref=e80]:
+              - link "12 Reviews" [ref=e81] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/so-delicious-dairy-free-cocowhip-light-vegan-non-gmo-project-verified-9-oz-tub.html#reviews
+              - link "Add Your Review" [ref=e82] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/so-delicious-dairy-free-cocowhip-light-vegan-non-gmo-project-verified-9-oz-tub.html#review-form
+          - generic [ref=e85]: $15.62
+        - generic [ref=e89]:
+          - generic [ref=e90]:
+            - generic [ref=e91]: Qty
+            - spinbutton "Qty" [ref=e93]: "1"
+          - button "Add to Cart" [ref=e95] [cursor=pointer]
+        - link "Add to Wish List" [ref=e98] [cursor=pointer]:
+          - /url: "#"
+      - generic [ref=e99]:
+        - link "Skip to the end of the images gallery" [ref=e100] [cursor=pointer]:
+          - /url: "#gallery-next-area"
+        - generic [ref=e103]:
+          - generic [ref=e104]:
+            - button "Previous" [ref=e105] [cursor=pointer]
+            - generic [ref=e107]:
+              - img "Image" [ref=e109]
+              - img [ref=e111]
+            - button "Next"
+          - generic [ref=e114]:
+            - button "Image" [ref=e115]
+            - button "Image" [ref=e117]
+        - link "Skip to the beginning of the images gallery" [ref=e119] [cursor=pointer]:
+          - /url: "#gallery-prev-area"
+      - tablist [ref=e121]:
+        - tab "Details" [ref=e122]:
+          - link "Details" [ref=e123] [cursor=pointer]:
+            - /url: "#description"
+        - tab "Reviews (12)" [ref=e124]:
+          - link "Reviews (12)" [ref=e125] [cursor=pointer]:
+            - /url: "#reviews"
+        - text: "*       * * *"
+  - contentinfo [ref=e126]:
+    - generic [ref=e127]:
+      - generic [ref=e130]:
+        - generic [ref=e132]:
+          - text: 
+          - generic [ref=e133]:
+            - generic [ref=e134]: "Sign Up for Our Newsletter:"
+            - textbox "Sign Up for Our Newsletter:" [ref=e135]:
+              - /placeholder: Enter your email address
+        - button "Subscribe" [ref=e137] [cursor=pointer]
+      - list [ref=e138]:
+        - listitem [ref=e139]:
+          - link "Privacy and Cookie Policy" [ref=e140] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/privacy-policy-cookie-restriction-mode/
+        - listitem [ref=e141]:
+          - link "Search Terms" [ref=e142] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/search/term/popular/
+        - listitem [ref=e143]:
+          - link "Advanced Search" [ref=e144] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/catalogsearch/advanced/
+        - listitem [ref=e145]:
+          - link "Orders and Returns" [ref=e146] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/sales/guest/form/
+        - listitem [ref=e147]:
+          - link "Contact Us" [ref=e148] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/contact/
+      - generic [ref=e149]: Copyright © 2013-present Magento, Inc. All rights reserved.
+      - generic [ref=e150]:
+        - text: Help Us Keep Magento Healthy
+        - link "Report All Bugs" [ref=e151] [cursor=pointer]:
+          - /url: http://www.magentocommerce.com/bug-tracking

@@ -1,0 +1,635 @@
+- RootWebArea "Search results for: 'tea'" [url="http://127.0.0.1:7770/catalogsearch/result/?q=tea"]
+  - generic
+    - banner
+      - generic
+        - link "Skip to Content" [url="http://127.0.0.1:7770/catalogsearch/result/?q=tea#contentarea"]
+          - StaticText "Skip to Content"
+      - generic
+        - generic
+          - generic
+            - StaticText ""
+          - StaticText "Toggle Nav"
+        - link "store logo" [url="http://127.0.0.1:7770/"]
+          - image "one_stop_market_logo" [url="http://127.0.0.1:7770/media/logo/websites/1/image_15__1.png"]
+        - generic
+          - link " My Cart" [url="http://127.0.0.1:7770/checkout/cart/"]
+            - generic
+              - StaticText ""
+            - StaticText "My Cart"
+          - dialog
+            - generic
+              - generic
+                - button " Close"
+                  - generic
+                    - StaticText ""
+                  - StaticText "Close"
+                - strong
+                  - StaticText "You have no items in your shopping cart."
+                - generic
+        - form
+          - LabelText
+            - generic
+              - StaticText ""
+            - StaticText "Search"
+          - generic
+            - combobox " Search" [expanded=false] [value="tea"]
+              - generic
+                - StaticText "tea"
+    - generic
+      - tablist
+        - tab "Menu" [selected=false] [expanded=true]
+          - link "Menu" [url="http://127.0.0.1:7770/catalogsearch/result/?q=tea#store.menu"]
+            - StaticText "Menu"
+        - tabpanel
+          - navigation
+            - menu
+              - menuitem "BEAUTY & PERSONAL CARE "
+                - StaticText "BEAUTY & PERSONAL CARE"
+                - generic
+                  - StaticText ""
+              - menuitem "SPORTS & OUTDOORS "
+                - StaticText "SPORTS & OUTDOORS"
+                - generic
+                  - StaticText ""
+              - menuitem "CLOTHING, SHOES & JEWELRY "
+                - StaticText "CLOTHING, SHOES & JEWELRY"
+                - generic
+                  - StaticText ""
+              - menuitem "HOME & KITCHEN "
+                - StaticText "HOME & KITCHEN"
+                - generic
+                  - StaticText ""
+              - menuitem "OFFICE PRODUCTS "
+                - StaticText "OFFICE PRODUCTS"
+                - generic
+                  - StaticText ""
+              - menuitem "TOOLS & HOME IMPROVEMENT "
+                - StaticText "TOOLS & HOME IMPROVEMENT"
+                - generic
+                  - StaticText ""
+              - menuitem "HEALTH & HOUSEHOLD "
+                - StaticText "HEALTH & HOUSEHOLD"
+                - generic
+                  - StaticText ""
+              - menuitem "PATIO, LAWN & GARDEN "
+                - StaticText "PATIO, LAWN & GARDEN"
+                - generic
+                  - StaticText ""
+              - menuitem "ELECTRONICS "
+                - StaticText "ELECTRONICS"
+                - generic
+                  - StaticText ""
+              - menuitem "CELL PHONES & ACCESSORIES "
+                - StaticText "CELL PHONES & ACCESSORIES"
+                - generic
+                  - StaticText ""
+              - menuitem "VIDEO GAMES "
+                - StaticText "VIDEO GAMES"
+                - generic
+                  - StaticText ""
+              - menuitem "GROCERY & GOURMET FOOD "
+                - StaticText "GROCERY & GOURMET FOOD"
+                - generic
+                  - StaticText ""
+        - tab "Account" [selected=false] [expanded=false]
+          - link "Account" [url="http://127.0.0.1:7770/catalogsearch/result/?q=tea#store.links"]
+            - StaticText "Account"
+    - list
+      - listitem [level=1]
+        - link "Home" [url="http://127.0.0.1:7770/"]
+          - StaticText "Home"
+        - generic
+          - StaticText ""
+      - listitem [level=1]
+        - strong
+          - StaticText "Search results for: 'tea'"
+    - main
+      - generic
+      - heading "Search results for: 'tea'" [level=1]
+        - StaticText "Search results for: 'tea'"
+      - generic
+        - paragraph
+          - StaticText "Items"
+          - StaticText "1"
+          - StaticText "-"
+          - StaticText "12"
+          - StaticText "of"
+          - StaticText "3101"
+        - generic
+          - LabelText
+            - StaticText "Sort By"
+          - combobox "Sort By" [expanded=false] [value="Relevance"]
+            - MenuListPopup
+              - option "Product Name" [selected=false]
+              - option "Price" [selected=false]
+              - option "Relevance" [selected=true]
+          - link " Set Ascending Direction" [url="http://127.0.0.1:7770/catalogsearch/result/?q=tea#"]
+            - generic
+              - StaticText ""
+            - StaticText "Set Ascending Direction"
+        - list
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/ding-ji-loose-leaf-tea-black-tea-organic-oolong-tea-tea-bags-100-natural-high-mountain-tea-from-taiwan-chinese-teabags-oolong-teabags-4-packs.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B07QMBM5BS.0.jpg"]
+              - strong
+                - link "【鼎季 DING JI】Loose Leaf Tea Black tea ,Organic Oolong Tea , Tea Bags, 100% Natural High Mountain Tea From Taiwan. Chinese Teabags (Oolong Teabags-4 Packs)" [url="http://127.0.0.1:7770/ding-ji-loose-leaf-tea-black-tea-organic-oolong-tea-tea-bags-100-natural-high-mountain-tea-from-taiwan-chinese-teabags-oolong-teabags-4-packs.html"]
+                  - StaticText "【鼎季 DING JI】Loose Leaf Tea Black tea ,Organic Oolong Tea , Tea Bags, 100% Natural High Mountain Tea From Taiwan. Chinese Teabags (Oolong Teabags-4 Packs)"
+              - generic
+                - generic
+                  - StaticText "$69.00"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/new-english-teas-vintage-tea-rooms-tea-tin-with-40-english-afternoon-teabags.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B079MBXJ2S.0.jpg"]
+              - strong
+                - link "New English Teas Vintage Tea Rooms Tea Tin with 40 English Afternoon Teabags" [url="http://127.0.0.1:7770/new-english-teas-vintage-tea-rooms-tea-tin-with-40-english-afternoon-teabags.html"]
+                  - StaticText "New English Teas Vintage Tea Rooms Tea Tin with 40 English Afternoon Teabags"
+              - LayoutTable
+                - generic
+                  - StaticText "Rating:"
+                  - generic
+                    - generic
+                      - StaticText ""
+                    - generic
+                      - StaticText ""
+                    - StaticText "90%"
+                - generic
+                  - link "5 Reviews" [url="http://127.0.0.1:7770/new-english-teas-vintage-tea-rooms-tea-tin-with-40-english-afternoon-teabags.html#reviews"]
+                    - StaticText "5"
+                    - StaticText "Reviews"
+              - generic
+                - generic
+                  - StaticText "$11.80"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/alishan-taiwan-high-mountain-tea-taiwan-alishan-oolong-tea-alishan-green-tea-tea-box-taiwan-chiayi-county-dalingshan-oolong-tea.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B07NL9L6KJ.0.jpg"]
+              - strong
+                - link "Alishan Taiwan High Mountain Tea.Taiwan Alishan Oolong Tea.Alishan Green Tea.Tea Box | Taiwan Chiayi County Dalingshan | 台湾阿里山高山茶.乌龙茶.Oolong Tea" [url="http://127.0.0.1:7770/alishan-taiwan-high-mountain-tea-taiwan-alishan-oolong-tea-alishan-green-tea-tea-box-taiwan-chiayi-county-dalingshan-oolong-tea.html"]
+                  - StaticText "Alishan Taiwan High Mountain Tea.Taiwan Alishan Oolong Tea.Alishan Green Tea.Tea Box | Taiwan Chiayi County Dalingshan | 台湾阿里山高山茶.乌龙茶.Oolong Tea"
+              - LayoutTable
+                - generic
+                  - StaticText "Rating:"
+                  - generic
+                    - generic
+                      - StaticText ""
+                    - generic
+                      - StaticText ""
+                    - StaticText "20%"
+                - generic
+                  - link "1 Review" [url="http://127.0.0.1:7770/alishan-taiwan-high-mountain-tea-taiwan-alishan-oolong-tea-alishan-green-tea-tea-box-taiwan-chiayi-county-dalingshan-oolong-tea.html#reviews"]
+                    - StaticText "1"
+                    - StaticText "Review"
+              - generic
+                - generic
+                  - StaticText "$32.98"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/ahmad-tea-herbalist-variety-gift-box-60-foil-enveloped-teabags.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B00FDWLL6M.0.jpg"]
+              - strong
+                - link "Ahmad Tea Herbalist Variety Gift Box, 60 Foil Enveloped Teabags" [url="http://127.0.0.1:7770/ahmad-tea-herbalist-variety-gift-box-60-foil-enveloped-teabags.html"]
+                  - StaticText "Ahmad Tea Herbalist Variety Gift Box, 60 Foil Enveloped Teabags"
+              - LayoutTable
+                - generic
+                  - StaticText "Rating:"
+                  - generic
+                    - generic
+                      - StaticText ""
+                    - generic
+                      - StaticText ""
+                    - StaticText "73%"
+                - generic
+                  - link "3 Reviews" [url="http://127.0.0.1:7770/ahmad-tea-herbalist-variety-gift-box-60-foil-enveloped-teabags.html#reviews"]
+                    - StaticText "3"
+                    - StaticText "Reviews"
+              - generic
+                - generic
+                  - StaticText "$11.55"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/taylors-of-harrogate-organic-peppermint-herbal-tea-20-teabags.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B000VXFRLI.0.jpg"]
+              - strong
+                - link "Taylors of Harrogate Organic Peppermint Herbal Tea, 20 Teabags" [url="http://127.0.0.1:7770/taylors-of-harrogate-organic-peppermint-herbal-tea-20-teabags.html"]
+                  - StaticText "Taylors of Harrogate Organic Peppermint Herbal Tea, 20 Teabags"
+              - generic
+                - generic
+                  - StaticText "$8.50"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/ahmad-tea-dessert-loose-leaf-pyramid-teabags-mango-lychee-souffle-15-count.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B071XYQHRL.0.jpg"]
+              - strong
+                - link "Ahmad Tea Dessert Loose Leaf Pyramid Teabags, Mango & Lychee Souffle, 15 Count" [url="http://127.0.0.1:7770/ahmad-tea-dessert-loose-leaf-pyramid-teabags-mango-lychee-souffle-15-count.html"]
+                  - StaticText "Ahmad Tea Dessert Loose Leaf Pyramid Teabags, Mango & Lychee Souffle, 15 Count"
+              - generic
+                - generic
+                  - StaticText "$7.20"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/dr-teal-s-bath-tea-soothing-lavender-bath-soaks-3oz-pack-of-1.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B07MGJF41R.0.jpg"]
+              - strong
+                - link "Dr Teal's Bath tea soothing Lavender Bath Soaks - 3oz, pack of 1" [url="http://127.0.0.1:7770/dr-teal-s-bath-tea-soothing-lavender-bath-soaks-3oz-pack-of-1.html"]
+                  - StaticText "Dr Teal's Bath tea soothing Lavender Bath Soaks - 3oz, pack of 1"
+              - generic
+                - generic
+                  - StaticText "$23.78"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/new-english-teas-vintage-selection-english-afternoon-teabags-pack-of-1-tota.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B00BMZU0AW.0.jpg"]
+              - strong
+                - link "New English Teas Vintage Selection English Afternoon Teabags (Pack of 1, Tota..." [url="http://127.0.0.1:7770/new-english-teas-vintage-selection-english-afternoon-teabags-pack-of-1-tota.html"]
+                  - StaticText "New English Teas Vintage Selection English Afternoon Teabags (Pack of 1, Tota..."
+              - LayoutTable
+                - generic
+                  - StaticText "Rating:"
+                  - generic
+                    - generic
+                      - StaticText ""
+                    - generic
+                      - StaticText ""
+                    - StaticText "100%"
+                - generic
+                  - link "5 Reviews" [url="http://127.0.0.1:7770/new-english-teas-vintage-selection-english-afternoon-teabags-pack-of-1-tota.html#reviews"]
+                    - StaticText "5"
+                    - StaticText "Reviews"
+              - generic
+                - generic
+                  - StaticText "$7.99"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/teabloom-flowering-tea-chest-curated-collection-of-12-gourmet-flowering-teas-packaged-in-beautiful-gift-ready-tea-box.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B07DN435KY.0.jpg"]
+              - strong
+                - link "Teabloom Flowering Tea Chest - Curated Collection of 12 Gourmet Flowering Teas - Packaged in Beautiful Gift-Ready Tea Box" [url="http://127.0.0.1:7770/teabloom-flowering-tea-chest-curated-collection-of-12-gourmet-flowering-teas-packaged-in-beautiful-gift-ready-tea-box.html"]
+                  - StaticText "Teabloom Flowering Tea Chest - Curated Collection of 12 Gourmet Flowering Teas - Packaged in Beautiful Gift-Ready Tea Box"
+              - generic
+                - generic
+                  - StaticText "$29.95"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/btat-tea-cups-pack-of-2-glass-tea-cup-tea-cup-fancy-tea-cups-gifts-for-women-tea-mugs-for-women-flower-tea-cup-blown-glass-tea-cup-gift-teacup-tea-sets-for-women-gift-ideas-for-women.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B08128LL98.0.jpg"]
+              - strong
+                - link "BTaT- Tea Cups, Pack of 2, Glass Tea Cup, Tea Cup, Fancy Tea Cups, Gifts for Women, Tea Mugs for Women, Flower Tea Cup, Blown Glass, Tea Cup Gift, TeaCup, Tea Sets for Women, Gift Ideas for Women" [url="http://127.0.0.1:7770/btat-tea-cups-pack-of-2-glass-tea-cup-tea-cup-fancy-tea-cups-gifts-for-women-tea-mugs-for-women-flower-tea-cup-blown-glass-tea-cup-gift-teacup-tea-sets-for-women-gift-ideas-for-women.html"]
+                  - StaticText "BTaT- Tea Cups, Pack of 2, Glass Tea Cup, Tea Cup, Fancy Tea Cups, Gifts for Women, Tea Mugs for Women, Flower Tea Cup, Blown Glass, Tea Cup Gift, TeaCup, Tea Sets for Women, Gift Ideas for Women"
+              - generic
+                - generic
+                  - StaticText "$32.98"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/the-12-coffees-teas-or-cocoas-of-christmas-your-choice-gourmet-gift-box-set-best-xmas-present-for-friends-family-coworkers-or-teachers-tea.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B01M7MW852.0.jpg"]
+              - strong
+                - link "The 12 Coffees, Teas or Cocoas of Christmas (Your Choice) Gourmet Gift Box Set - Best Xmas Present For Friends, Family, Coworkers, or Teachers (Tea)" [url="http://127.0.0.1:7770/the-12-coffees-teas-or-cocoas-of-christmas-your-choice-gourmet-gift-box-set-best-xmas-present-for-friends-family-coworkers-or-teachers-tea.html"]
+                  - StaticText "The 12 Coffees, Teas or Cocoas of Christmas (Your Choice) Gourmet Gift Box Set - Best Xmas Present For Friends, Family, Coworkers, or Teachers (Tea)"
+              - LayoutTable
+                - generic
+                  - StaticText "Rating:"
+                  - generic
+                    - generic
+                      - StaticText ""
+                    - generic
+                      - StaticText ""
+                    - StaticText "80%"
+                - generic
+                  - link "12 Reviews" [url="http://127.0.0.1:7770/the-12-coffees-teas-or-cocoas-of-christmas-your-choice-gourmet-gift-box-set-best-xmas-present-for-friends-family-coworkers-or-teachers-tea.html#reviews"]
+                    - StaticText "12"
+                    - StaticText "Reviews"
+              - generic
+                - generic
+                  - StaticText "$19.99"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/tealyra-blood-cleanser-tea-wellness-detox-health-tonic-dandelion-ginger-loose-leaf-herbal-tea-natural-cleanse-diuretic-tea-caffeine-free-112g-4-ounce.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B075H4G4T6.0.jpg"]
+              - strong
+                - link "Tealyra - Blood Cleanser Tea - Wellness Detox - Health Tonic - Dandelion - Ginger - Loose Leaf Herbal Tea - Natural Cleanse - Diuretic Tea - Caffeine-Free - 112g (4-ounce)" [url="http://127.0.0.1:7770/tealyra-blood-cleanser-tea-wellness-detox-health-tonic-dandelion-ginger-loose-leaf-herbal-tea-natural-cleanse-diuretic-tea-caffeine-free-112g-4-ounce.html"]
+                  - StaticText "Tealyra - Blood Cleanser Tea - Wellness Detox - Health Tonic - Dandelion - Ginger - Loose Leaf Herbal Tea - Natural Cleanse - Diuretic Tea - Caffeine-Free - 112g (4-ounce)"
+              - LayoutTable
+                - generic
+                  - StaticText "Rating:"
+                  - generic
+                    - generic
+                      - StaticText ""
+                    - generic
+                      - StaticText ""
+                    - StaticText "98%"
+                - generic
+                  - link "10 Reviews" [url="http://127.0.0.1:7770/tealyra-blood-cleanser-tea-wellness-detox-health-tonic-dandelion-ginger-loose-leaf-herbal-tea-natural-cleanse-diuretic-tea-caffeine-free-112g-4-ounce.html#reviews"]
+                    - StaticText "10"
+                    - StaticText "Reviews"
+              - generic
+                - generic
+                  - StaticText "$13.97"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+        - generic
+          - strong
+            - StaticText "Page"
+          - list "Page"
+            - listitem [level=1]
+              - strong
+                - StaticText "You're currently reading page"
+                - StaticText "1"
+            - listitem [level=1]
+              - link "Page 2" [url="http://127.0.0.1:7770/catalogsearch/result/index/?p=2&q=tea"]
+                - StaticText "Page"
+                - StaticText "2"
+            - listitem [level=1]
+              - link "Page 3" [url="http://127.0.0.1:7770/catalogsearch/result/index/?p=3&q=tea"]
+                - StaticText "Page"
+                - StaticText "3"
+            - listitem [level=1]
+              - link "Page 4" [url="http://127.0.0.1:7770/catalogsearch/result/index/?p=4&q=tea"]
+                - StaticText "Page"
+                - StaticText "4"
+            - listitem [level=1]
+              - link "Page 5" [url="http://127.0.0.1:7770/catalogsearch/result/index/?p=5&q=tea"]
+                - StaticText "Page"
+                - StaticText "5"
+            - listitem [level=1]
+              - link " Page Next" [url="http://127.0.0.1:7770/catalogsearch/result/index/?p=2&q=tea"]
+                - generic
+                  - StaticText ""
+                - StaticText "Page"
+                - StaticText "Next"
+        - generic
+          - strong
+            - StaticText "Shop By"
+        - heading "Shopping Options" [level=2]
+          - StaticText "Shopping Options"
+        - DescriptionList
+          - heading "Category" [level=3]
+            - StaticText "Category"
+          - definition
+            - list
+              - listitem [level=1]
+                - link "Beauty & Personal Care( 867 item )" [url="http://127.0.0.1:7770/catalogsearch/result/index/?cat=3&q=tea"]
+                  - StaticText "Beauty & Personal Care"
+                  - StaticText "("
+                  - StaticText "867"
+                  - StaticText "item"
+                  - StaticText ")"
+              - listitem [level=1]
+                - link "Sports & Outdoors( 10 item )" [url="http://127.0.0.1:7770/catalogsearch/result/index/?cat=4&q=tea"]
+                  - StaticText "Sports & Outdoors"
+                  - StaticText "("
+                  - StaticText "10"
+                  - StaticText "item"
+                  - StaticText ")"
+              - listitem [level=1]
+                - link "Clothing, Shoes & Jewelry( 203 item )" [url="http://127.0.0.1:7770/catalogsearch/result/index/?cat=5&q=tea"]
+                  - StaticText "Clothing, Shoes & Jewelry"
+                  - StaticText "("
+                  - StaticText "203"
+                  - StaticText "item"
+                  - StaticText ")"
+              - listitem [level=1]
+                - link "Home & Kitchen( 660 item )" [url="http://127.0.0.1:7770/catalogsearch/result/index/?cat=6&q=tea"]
+                  - StaticText "Home & Kitchen"
+                  - StaticText "("
+                  - StaticText "660"
+                  - StaticText "item"
+                  - StaticText ")"
+              - listitem [level=1]
+                - link "Office Products( 8 item )" [url="http://127.0.0.1:7770/catalogsearch/result/index/?cat=7&q=tea"]
+                  - StaticText "Office Products"
+                  - StaticText "("
+                  - StaticText "8"
+                  - StaticText "item"
+                  - StaticText ")"
+              - listitem [level=1]
+                - link "Tools & Home Improvement( 18 item )" [url="http://127.0.0.1:7770/catalogsearch/result/index/?cat=8&q=tea"]
+                  - StaticText "Tools & Home Improvement"
+                  - StaticText "("
+                  - StaticText "18"
+                  - StaticText "item"
+                  - StaticText ")"
+              - listitem [level=1]
+                - link "Health & Household( 15 item )" [url="http://127.0.0.1:7770/catalogsearch/result/index/?cat=9&q=tea"]
+                  - StaticText "Health & Household"
+                  - StaticText "("
+                  - StaticText "15"
+                  - StaticText "item"
+                  - StaticText ")"
+              - listitem [level=1]
+                - link "Patio, Lawn & Garden( 20 item )" [url="http://127.0.0.1:7770/catalogsearch/result/index/?cat=10&q=tea"]
+                  - StaticText "Patio, Lawn & Garden"
+                  - StaticText "("
+                  - StaticText "20"
+                  - StaticText "item"
+                  - StaticText ")"
+              - listitem [level=1]
+                - link "Electronics( 56 item )" [url="http://127.0.0.1:7770/catalogsearch/result/index/?cat=11&q=tea"]
+                  - StaticText "Electronics"
+                  - StaticText "("
+                  - StaticText "56"
+                  - StaticText "item"
+                  - StaticText ")"
+              - listitem [level=1]
+                - link "Cell Phones & Accessories( 5 item )" [url="http://127.0.0.1:7770/catalogsearch/result/index/?cat=12&q=tea"]
+                  - StaticText "Cell Phones & Accessories"
+                  - StaticText "("
+                  - StaticText "5"
+                  - StaticText "item"
+                  - StaticText ")"
+              - listitem [level=1]
+                - link "Video Games( 4 item )" [url="http://127.0.0.1:7770/catalogsearch/result/index/?cat=13&q=tea"]
+                  - StaticText "Video Games"
+                  - StaticText "("
+                  - StaticText "4"
+                  - StaticText "item"
+                  - StaticText ")"
+              - listitem [level=1]
+                - link "Grocery & Gourmet Food( 1235 item )" [url="http://127.0.0.1:7770/catalogsearch/result/index/?cat=14&q=tea"]
+                  - StaticText "Grocery & Gourmet Food"
+                  - StaticText "("
+                  - StaticText "1235"
+                  - StaticText "item"
+                  - StaticText ")"
+        - generic
+          - heading "Compare Products" [level=2]
+            - StaticText "Compare Products"
+        - generic
+          - StaticText "You have no items to compare."
+        - generic
+          - heading "My Wish List" [level=2]
+            - StaticText "My Wish List"
+        - generic
+          - StaticText "You have no items in your wish list."
+    - contentinfo
+      - form
+        - generic
+          - generic
+            - StaticText ""
+          - LabelText
+            - StaticText "Sign Up for Our Newsletter:"
+            - textbox "Sign Up for Our Newsletter:"
+              - generic
+        - generic
+          - button "Subscribe"
+            - StaticText "Subscribe"
+      - list
+        - listitem [level=1]
+          - link "Privacy and Cookie Policy" [url="http://127.0.0.1:7770/privacy-policy-cookie-restriction-mode/"]
+            - StaticText "Privacy and Cookie Policy"
+        - listitem [level=1]
+          - link "Search Terms" [url="http://127.0.0.1:7770/search/term/popular/"]
+            - StaticText "Search Terms"
+        - listitem [level=1]
+          - link "Advanced Search" [url="http://127.0.0.1:7770/catalogsearch/advanced/"]
+            - StaticText "Advanced Search"
+        - listitem [level=1]
+          - link "Orders and Returns" [url="http://127.0.0.1:7770/sales/guest/form/"]
+            - StaticText "Orders and Returns"
+        - listitem [level=1]
+          - link "Contact Us" [url="http://127.0.0.1:7770/contact/"]
+            - StaticText "Contact Us"
+      - generic
+        - StaticText "Copyright © 2013-present Magento, Inc. All rights reserved."
+      - generic
+        - StaticText "Help Us Keep Magento Healthy"
+        - StaticText
+        - link "Report All Bugs" [url="http://www.magentocommerce.com/bug-tracking"]
+          - StaticText "Report All Bugs"
+    - generic
+    - generic
+      - generic
+      - generic
+      - generic
+      - generic

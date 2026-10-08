@@ -1,0 +1,44 @@
+{
+  "drive": {
+    "matched_distinct_DB_keys": [
+      "category.name",
+      "product.description",
+      "product.name",
+      "product.price",
+      "product.sku",
+      "stock.is_in_stock"
+    ],
+    "denominator_keys": [
+      "category.name",
+      "product.description",
+      "product.name",
+      "product.price",
+      "product.sku",
+      "stock.is_in_stock"
+    ],
+    "hits": 6,
+    "denominator": 6,
+    "warning": "Only the verified mapped subset; not complete DB coverage. Many UI fields collapse to description."
+  },
+  "browser-use": {
+    "matched_distinct_DB_keys": [
+      "category.name",
+      "product.description",
+      "product.name",
+      "product.price",
+      "product.sku",
+      "stock.is_in_stock"
+    ],
+    "denominator_keys": [
+      "category.name",
+      "product.description",
+      "product.name",
+      "product.price",
+      "product.sku",
+      "stock.is_in_stock"
+    ],
+    "hits": 6,
+    "denominator": 6,
+    "warning": "Only the verified mapped subset; not complete DB coverage. Many UI fields collapse to description."
+  }
+}

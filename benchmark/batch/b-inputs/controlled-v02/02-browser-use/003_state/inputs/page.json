@@ -1,0 +1,10 @@
+{
+  "url": "http://127.0.0.1:7770/catalogsearch/result/?q=tea",
+  "title": "Search results for: 'tea'",
+  "route": "/catalogsearch/result/",
+  "sources": {
+    "accessibility": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-120157-401286\\snapshots\\00012\\accessibility.json",
+    "sha256_AX": "75479ce405c6b9cb4409ef7f0b9dc3a6cc56351d2be5a73c0fd25e384bcd304a"
+  },
+  "material_scope": "recorded UI and conservatively associated JSON responses"
+}

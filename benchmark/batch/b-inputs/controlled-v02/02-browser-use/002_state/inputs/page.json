@@ -1,0 +1,10 @@
+{
+  "url": "http://127.0.0.1:7770/tweezers-for-succulents-duo.html",
+  "title": "Tweezers For Succulents Duo",
+  "route": "/tweezers-for-succulents-duo.html",
+  "sources": {
+    "accessibility": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-120157-401286\\snapshots\\00010\\accessibility.json",
+    "sha256_AX": "8a2ca3a4d09e8b87e4fd4607dd1d5813ec4f396668c5302718353be907fc2e92"
+  },
+  "material_scope": "recorded UI and conservatively associated JSON responses"
+}

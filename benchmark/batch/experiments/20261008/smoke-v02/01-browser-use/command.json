@@ -1,0 +1,19 @@
+{
+  "command": [
+    "C:\\Users\\bulin\\browser-use-demo\\.venv\\Scripts\\python.exe",
+    "C:\\Users\\bulin\\browser-use-demo\\benchmark\\run.py",
+    "--max-steps",
+    "5",
+    "--max-actions",
+    "5",
+    "--max-pages",
+    "10",
+    "--max-minutes",
+    "5",
+    "--prompt-file",
+    "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\shopping-readonly.txt",
+    "--initial-state",
+    "verified fresh guest; empty cart; shared read-only query proxy"
+  ],
+  "model": "sophnet/DeepSeek-V4-Flash-0731"
+}

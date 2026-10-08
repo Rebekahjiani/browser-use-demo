@@ -1,0 +1,269 @@
+- RootWebArea "BestYiJo Kids U Shaped Electric Toothbrush, Cartoon Cute Ultrasonic Automatic Toothbrushes with 5 Cleaning Modes, Waterproof Auto Toothbrush for Children Toddler (Kid)" [url="http://127.0.0.1:7770/bestyijo-kids-u-shaped-electric-toothbrush-cartoon-cute-ultrasonic-automatic-toothbrushes-with-5-cleaning-modes-waterproof-auto-toothbrush-for-children-toddler-kid.html"]
+  - generic
+    - banner
+      - generic
+        - link "Skip to Content" [url="http://127.0.0.1:7770/bestyijo-kids-u-shaped-electric-toothbrush-cartoon-cute-ultrasonic-automatic-toothbrushes-with-5-cleaning-modes-waterproof-auto-toothbrush-for-children-toddler-kid.html#contentarea"]
+          - StaticText "Skip to Content"
+      - generic
+        - generic
+          - generic
+            - StaticText ""
+          - StaticText "Toggle Nav"
+        - link "store logo" [url="http://127.0.0.1:7770/"]
+          - image "one_stop_market_logo" [url="http://127.0.0.1:7770/media/logo/websites/1/image_15__1.png"]
+        - generic
+          - link " My Cart" [url="http://127.0.0.1:7770/checkout/cart/"]
+            - generic
+              - StaticText ""
+            - StaticText "My Cart"
+        - form
+          - LabelText
+            - generic
+              - StaticText ""
+            - StaticText "Search"
+          - generic
+            - combobox " Search" [expanded=false]
+              - generic
+    - generic
+      - tablist
+        - tab "Menu" [selected=false] [expanded=true]
+          - link "Menu" [url="http://127.0.0.1:7770/bestyijo-kids-u-shaped-electric-toothbrush-cartoon-cute-ultrasonic-automatic-toothbrushes-with-5-cleaning-modes-waterproof-auto-toothbrush-for-children-toddler-kid.html#store.menu"]
+            - StaticText "Menu"
+        - tabpanel
+          - navigation
+            - menu
+              - menuitem "BEAUTY & PERSONAL CARE "
+                - StaticText "BEAUTY & PERSONAL CARE"
+                - generic
+                  - StaticText ""
+              - menuitem "SPORTS & OUTDOORS "
+                - StaticText "SPORTS & OUTDOORS"
+                - generic
+                  - StaticText ""
+              - menuitem "CLOTHING, SHOES & JEWELRY "
+                - StaticText "CLOTHING, SHOES & JEWELRY"
+                - generic
+                  - StaticText ""
+              - menuitem "HOME & KITCHEN "
+                - StaticText "HOME & KITCHEN"
+                - generic
+                  - StaticText ""
+              - menuitem "OFFICE PRODUCTS "
+                - StaticText "OFFICE PRODUCTS"
+                - generic
+                  - StaticText ""
+              - menuitem "TOOLS & HOME IMPROVEMENT "
+                - StaticText "TOOLS & HOME IMPROVEMENT"
+                - generic
+                  - StaticText ""
+              - menuitem "HEALTH & HOUSEHOLD "
+                - StaticText "HEALTH & HOUSEHOLD"
+                - generic
+                  - StaticText ""
+              - menuitem "PATIO, LAWN & GARDEN "
+                - StaticText "PATIO, LAWN & GARDEN"
+                - generic
+                  - StaticText ""
+              - menuitem "ELECTRONICS "
+                - StaticText "ELECTRONICS"
+                - generic
+                  - StaticText ""
+              - menuitem "CELL PHONES & ACCESSORIES "
+                - StaticText "CELL PHONES & ACCESSORIES"
+                - generic
+                  - StaticText ""
+              - menuitem "VIDEO GAMES "
+                - StaticText "VIDEO GAMES"
+                - generic
+                  - StaticText ""
+              - menuitem "GROCERY & GOURMET FOOD "
+                - StaticText "GROCERY & GOURMET FOOD"
+                - generic
+                  - StaticText ""
+        - tab "Account" [selected=false] [expanded=false]
+          - link "Account" [url="http://127.0.0.1:7770/bestyijo-kids-u-shaped-electric-toothbrush-cartoon-cute-ultrasonic-automatic-toothbrushes-with-5-cleaning-modes-waterproof-auto-toothbrush-for-children-toddler-kid.html#store.links"]
+            - StaticText "Account"
+    - list
+      - listitem [level=1]
+        - link "Home" [url="http://127.0.0.1:7770/"]
+          - StaticText "Home"
+        - generic
+          - StaticText ""
+      - listitem [level=1]
+        - link "Beauty & Personal Care" [url="http://127.0.0.1:7770/beauty-personal-care.html"]
+          - StaticText "Beauty & Personal Care"
+        - generic
+          - StaticText ""
+      - listitem [level=1]
+        - link "Oral Care" [url="http://127.0.0.1:7770/beauty-personal-care/oral-care.html"]
+          - StaticText "Oral Care"
+        - generic
+          - StaticText ""
+      - listitem [level=1]
+        - link "Children's Dental Care" [url="http://127.0.0.1:7770/beauty-personal-care/oral-care/children-s-dental-care.html"]
+          - StaticText "Children's Dental Care"
+        - generic
+          - StaticText ""
+      - listitem [level=1]
+        - strong
+          - StaticText "BestYiJo Kids U Shaped Electric Toothbrush, Cartoon Cute Ultrasonic Automatic Toothbrushes with 5 Cleaning Modes, Waterproof Auto Toothbrush for Children Toddler (Kid)"
+    - main
+      - generic
+      - heading "BestYiJo Kids U Shaped Electric Toothbrush, Cartoon Cute Ultrasonic Automatic Toothbrushes with 5 Cleaning Modes, Waterproof Auto Toothbrush for Children Toddler (Kid)" [level=1]
+        - StaticText "BestYiJo Kids U Shaped Electric Toothbrush, Cartoon Cute Ultrasonic Automatic Toothbrushes with 5 Cleaning Modes, Waterproof Auto Toothbrush for Children Toddler (Kid)"
+      - generic
+        - generic
+          - StaticText "IN STOCK"
+        - generic
+          - strong
+            - StaticText "SKU"
+          - generic
+            - StaticText "B09MJ75D97"
+      - LayoutTable
+        - generic
+          - link "Be the first to review this product" [url="http://127.0.0.1:7770/bestyijo-kids-u-shaped-electric-toothbrush-cartoon-cute-ultrasonic-automatic-toothbrushes-with-5-cleaning-modes-waterproof-auto-toothbrush-for-children-toddler-kid.html#review-form"]
+            - StaticText "Be the first to review this product"
+      - generic
+        - generic
+          - StaticText "$18.99"
+      - form
+        - generic
+          - generic
+            - LabelText
+              - StaticText "Size"
+              - StaticText
+              - StaticText "*"
+            - generic
+              - generic
+                - radio "Kid" [checked="false"]
+                - LabelText
+                  - StaticText "Kid"
+              - generic
+                - radio "Older children" [checked="false"]
+                - LabelText
+                  - StaticText "Older children"
+            - generic
+        - LabelText
+          - StaticText "Qty"
+        - generic
+          - spinbutton "Qty" [value=1]
+            - generic
+              - StaticText "1"
+        - button "Add to Cart"
+          - StaticText "Add to Cart"
+        - generic
+      - generic
+        - link "Add to Wish List" [url="http://127.0.0.1:7770/bestyijo-kids-u-shaped-electric-toothbrush-cartoon-cute-ultrasonic-automatic-toothbrushes-with-5-cleaning-modes-waterproof-auto-toothbrush-for-children-toddler-kid.html#"]
+          - StaticText "Add to Wish List"
+      - generic
+      - generic
+        - link "Skip to the end of the images gallery" [url="http://127.0.0.1:7770/bestyijo-kids-u-shaped-electric-toothbrush-cartoon-cute-ultrasonic-automatic-toothbrushes-with-5-cleaning-modes-waterproof-auto-toothbrush-for-children-toddler-kid.html#gallery-next-area"]
+          - StaticText "Skip to the end of the images gallery"
+      - generic
+        - generic
+        - generic
+        - generic
+          - generic
+            - button "Previous"
+              - generic
+            - generic
+              - generic
+                - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/829a59e57f886f8cf0598ffca4f8a940/B/0/B09MJ75D97.1.jpg"]
+            - button "Next"
+              - generic
+          - generic
+            - generic
+              - button "Image"
+                - generic
+              - button "Image"
+                - generic
+        - generic
+      - generic
+        - link "Skip to the beginning of the images gallery" [url="http://127.0.0.1:7770/bestyijo-kids-u-shaped-electric-toothbrush-cartoon-cute-ultrasonic-automatic-toothbrushes-with-5-cleaning-modes-waterproof-auto-toothbrush-for-children-toddler-kid.html#gallery-prev-area"]
+          - StaticText "Skip to the beginning of the images gallery"
+      - generic
+      - tablist
+        - tab "Details" [selected=false] [expanded=true]
+          - link "Details" [url="http://127.0.0.1:7770/bestyijo-kids-u-shaped-electric-toothbrush-cartoon-cute-ultrasonic-automatic-toothbrushes-with-5-cleaning-modes-waterproof-auto-toothbrush-for-children-toddler-kid.html#description"]
+            - StaticText "Details"
+        - tabpanel "Details"
+          - generic
+          - generic
+          - generic
+          - generic
+          - generic
+            - heading "Product Quick Look" [level=2]
+              - StaticText "Product Quick Look"
+            - generic
+              - list
+                - listitem [level=1]
+                  - ListMarker "•"
+                  - StaticText "Kids U Shaped Electric Toothbrush, Cartoon Cute Ultrasonic Automatic Toothbrushes with 5 Cleaning Modes, Waterproof Auto Toothbrush for Children Toddler Specification: Item Type: U Shaped Toothbrush Material: Silicone Oscillation Frequency: 15000/min Maximum Rated Voltage: 3.7V Rated Power: <1.5W Working Current: <1.6A Charging Time: <90 Minutes Battery Type: Built in Lithium Battery Battery Model: 18650 Battery Capacity: 500mAh Weight: Approx. 111g / 3.9oz Package List: 1 x U Shaped Toothbrush Head 1x Data Cable Note:"
+                - listitem [level=1]
+                  - ListMarker "•"
+                  - StaticText "【Waterproof Design】Adopting a waterproof design, the waterproof grade is IPX7, which can be easily cleaned and used safely."
+                - listitem [level=1]
+                  - ListMarker "•"
+                  - StaticText "【360 Degree Oral Cleaning】This toothbrush is U shaped, which can clean the mouth in 360 degrees, and all the teeth can be brushed at the same time."
+                - listitem [level=1]
+                  - ListMarker "•"
+                  - StaticText "【5 Brushing Modes】The electric toothbrush has automatic tooth brushing and 5 different modes, making it easy for children to brush their teeth."
+                - listitem [level=1]
+                  - ListMarker "•"
+                  - StaticText "【Automatic Memory Function】With automatic memory function, it can store the user's habits intelligently, which is efficient and convenient."
+                - listitem [level=1]
+                  - ListMarker "•"
+                  - StaticText "【Fast Convenient】It only takes 60 seconds to work after the switch is activated, intelligent brushing, fast and convenient."
+            - table
+              - row
+                - rowheader "Manufacturer ‏"
+                  - StaticText "Manufacturer ‏"
+                - cell "‎ BestYiJo"
+                  - StaticText "‎ BestYiJo"
+              - row
+                - rowheader "ASIN ‏"
+                  - StaticText "ASIN ‏"
+                - cell "‎ B09MJ75D97"
+                  - StaticText "‎ B09MJ75D97"
+              - row
+                - rowheader
+                - cell
+        - tab "Reviews" [selected=false] [expanded=false]
+          - link "Reviews" [url="http://127.0.0.1:7770/bestyijo-kids-u-shaped-electric-toothbrush-cartoon-cute-ultrasonic-automatic-toothbrushes-with-5-cleaning-modes-waterproof-auto-toothbrush-for-children-toddler-kid.html#reviews"]
+            - StaticText "Reviews"
+    - contentinfo
+      - form
+        - generic
+          - generic
+            - StaticText ""
+          - LabelText
+            - StaticText "Sign Up for Our Newsletter:"
+            - textbox "Sign Up for Our Newsletter:"
+              - generic
+        - generic
+          - button "Subscribe"
+            - StaticText "Subscribe"
+      - list
+        - listitem [level=1]
+          - link "Privacy and Cookie Policy" [url="http://127.0.0.1:7770/privacy-policy-cookie-restriction-mode/"]
+            - StaticText "Privacy and Cookie Policy"
+        - listitem [level=1]
+          - link "Search Terms" [url="http://127.0.0.1:7770/search/term/popular/"]
+            - StaticText "Search Terms"
+        - listitem [level=1]
+          - link "Advanced Search" [url="http://127.0.0.1:7770/catalogsearch/advanced/"]
+            - StaticText "Advanced Search"
+        - listitem [level=1]
+          - link "Orders and Returns" [url="http://127.0.0.1:7770/sales/guest/form/"]
+            - StaticText "Orders and Returns"
+        - listitem [level=1]
+          - link "Contact Us" [url="http://127.0.0.1:7770/contact/"]
+            - StaticText "Contact Us"
+      - generic
+        - StaticText "Copyright © 2013-present Magento, Inc. All rights reserved."
+      - generic
+        - StaticText "Help Us Keep Magento Healthy"
+        - StaticText
+        - link "Report All Bugs" [url="http://www.magentocommerce.com/bug-tracking"]
+          - StaticText "Report All Bugs"
+    - generic

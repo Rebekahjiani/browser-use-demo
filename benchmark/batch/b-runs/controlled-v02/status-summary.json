@@ -1,0 +1,116 @@
+{
+  "checked_at": "2026-10-08T07:20:29.430971+00:00",
+  "generated_outputs": 94,
+  "expected_outputs": 222,
+  "jobs": [
+    {
+      "trace": "01-drive",
+      "combination": "aqi",
+      "outputs": 23,
+      "expected": 23,
+      "status": "completed",
+      "elapsed_s": 601.8458421230316,
+      "error": null
+    },
+    {
+      "trace": "01-drive",
+      "combination": "claudecode",
+      "outputs": 23,
+      "expected": 23,
+      "status": "completed",
+      "elapsed_s": 2112.0320053100586,
+      "error": null
+    },
+    {
+      "trace": "01-browser-use",
+      "combination": "aqi",
+      "outputs": 10,
+      "expected": 12,
+      "status": "failed",
+      "elapsed_s": 376.6945900917053,
+      "error": null
+    },
+    {
+      "trace": "01-browser-use",
+      "combination": "claudecode",
+      "outputs": 12,
+      "expected": 12,
+      "status": "completed",
+      "elapsed_s": 1020.5322473049164,
+      "error": null
+    },
+    {
+      "trace": "02-drive",
+      "combination": "aqi",
+      "outputs": 26,
+      "expected": 31,
+      "status": "running",
+      "elapsed_s": 583.3821995258331,
+      "error": null
+    },
+    {
+      "trace": "02-drive",
+      "combination": "claudecode",
+      "outputs": 0,
+      "expected": 31,
+      "status": "not_started",
+      "elapsed_s": null,
+      "error": null
+    },
+    {
+      "trace": "02-browser-use",
+      "combination": "aqi",
+      "outputs": 0,
+      "expected": 8,
+      "status": "not_started",
+      "elapsed_s": null,
+      "error": null
+    },
+    {
+      "trace": "02-browser-use",
+      "combination": "claudecode",
+      "outputs": 0,
+      "expected": 8,
+      "status": "not_started",
+      "elapsed_s": null,
+      "error": null
+    },
+    {
+      "trace": "03-drive",
+      "combination": "aqi",
+      "outputs": 0,
+      "expected": 23,
+      "status": "not_started",
+      "elapsed_s": null,
+      "error": null
+    },
+    {
+      "trace": "03-drive",
+      "combination": "claudecode",
+      "outputs": 0,
+      "expected": 23,
+      "status": "not_started",
+      "elapsed_s": null,
+      "error": null
+    },
+    {
+      "trace": "03-browser-use",
+      "combination": "aqi",
+      "outputs": 0,
+      "expected": 14,
+      "status": "not_started",
+      "elapsed_s": null,
+      "error": null
+    },
+    {
+      "trace": "03-browser-use",
+      "combination": "claudecode",
+      "outputs": 0,
+      "expected": 14,
+      "status": "not_started",
+      "elapsed_s": null,
+      "error": null
+    }
+  ],
+  "note": "File generation is not semantic validation; failed tasks remain failed even when completed_at exists."
+}

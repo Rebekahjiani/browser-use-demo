@@ -1,0 +1,156 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - link "Skip to Content" [ref=e4] [cursor=pointer]:
+      - /url: "#contentarea"
+    - generic [ref=e5]:
+      - generic [ref=e6] [cursor=pointer]:
+        - text: 
+        - generic [ref=e7]: Toggle Nav
+      - link "store logo" [ref=e8] [cursor=pointer]:
+        - /url: http://127.0.0.1:7770/
+        - img "one_stop_market_logo" [ref=e9]
+      - generic [ref=e10]:
+        - link " My Cart" [ref=e11] [cursor=pointer]:
+          - /url: http://127.0.0.1:7770/checkout/cart/
+          - text: 
+          - generic [ref=e12]: My Cart
+        - text: 
+      - generic [ref=e16]:
+        - generic [ref=e17]:
+          - text: 
+          - generic [ref=e18]: Search
+        - combobox " Search" [ref=e20]
+  - tablist [ref=e22]:
+    - tab "Menu" [expanded] [ref=e23]:
+      - link "Menu" [ref=e24] [cursor=pointer]:
+        - /url: "#store.menu"
+    - tabpanel [ref=e25]:
+      - navigation [ref=e26]:
+        - menu [ref=e27]:
+          - listitem [ref=e28]:
+            - menuitem "Beauty & Personal Care " [ref=e29] [cursor=pointer]: Beauty & Personal Care 
+          - listitem [ref=e30]:
+            - menuitem "Sports & Outdoors " [ref=e31] [cursor=pointer]: Sports & Outdoors 
+          - listitem [ref=e32]:
+            - menuitem "Clothing, Shoes & Jewelry " [ref=e33] [cursor=pointer]: Clothing, Shoes & Jewelry 
+          - listitem [ref=e34]:
+            - menuitem "Home & Kitchen " [ref=e35] [cursor=pointer]: Home & Kitchen 
+          - listitem [ref=e36]:
+            - menuitem "Office Products " [ref=e37] [cursor=pointer]: Office Products 
+          - listitem [ref=e38]:
+            - menuitem "Tools & Home Improvement " [ref=e39] [cursor=pointer]: Tools & Home Improvement 
+          - listitem [ref=e40]:
+            - menuitem "Health & Household " [ref=e41] [cursor=pointer]: Health & Household 
+          - listitem [ref=e42]:
+            - menuitem "Patio, Lawn & Garden " [ref=e43] [cursor=pointer]: Patio, Lawn & Garden 
+          - listitem [ref=e44]:
+            - menuitem "Electronics " [ref=e45] [cursor=pointer]: Electronics 
+          - listitem [ref=e46]:
+            - menuitem "Cell Phones & Accessories " [ref=e47] [cursor=pointer]: Cell Phones & Accessories 
+          - listitem [ref=e48]:
+            - menuitem "Video Games " [ref=e49] [cursor=pointer]: Video Games 
+          - listitem [ref=e50]:
+            - menuitem "Grocery & Gourmet Food " [ref=e51] [cursor=pointer]: Grocery & Gourmet Food 
+    - tab "Account" [ref=e52]:
+      - link "Account" [ref=e53] [cursor=pointer]:
+        - /url: "#store.links"
+  - list [ref=e55]:
+    - listitem [ref=e56]:
+      - link "Home" [ref=e57] [cursor=pointer]:
+        - /url: http://127.0.0.1:7770/
+      - text: 
+    - listitem [ref=e58]:
+      - link "Beauty & Personal Care" [ref=e59] [cursor=pointer]:
+        - /url: http://127.0.0.1:7770/beauty-personal-care.html
+      - text: 
+    - listitem [ref=e60]:
+      - link "Oral Care" [ref=e61] [cursor=pointer]:
+        - /url: http://127.0.0.1:7770/beauty-personal-care/oral-care.html
+      - text: 
+    - listitem [ref=e62]:
+      - strong [ref=e63]: Crest Pro-Health Intense Mouthwash Antigingivitis Antiplaque (Pack of 4)
+  - main [ref=e64]:
+    - heading "Crest Pro-Health Intense Mouthwash Antigingivitis Antiplaque (Pack of 4)" [level=1] [ref=e66]
+    - generic [ref=e68]:
+      - generic [ref=e69]:
+        - generic [ref=e70]:
+          - generic [ref=e71]:
+            - generic "Availability" [ref=e72]: In stock
+            - generic [ref=e73]:
+              - strong [ref=e74]: SKU
+              - generic [ref=e75]: B081HZK22G
+          - link "Be the first to review this product" [ref=e78] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/crest-pro-health-intense-mouthwash-antigingivitis-antiplaque-pack-of-4.html#review-form
+          - generic [ref=e81]: $44.48
+        - generic [ref=e85]:
+          - generic [ref=e86]:
+            - generic [ref=e87]: Qty
+            - spinbutton "Qty" [ref=e89]: "1"
+          - button "Add to Cart" [ref=e91] [cursor=pointer]
+        - link "Add to Wish List" [ref=e94] [cursor=pointer]:
+          - /url: "#"
+      - generic [ref=e95]:
+        - link "Skip to the end of the images gallery" [ref=e96] [cursor=pointer]:
+          - /url: "#gallery-next-area"
+        - img "Image" [ref=e103]
+        - link "Skip to the beginning of the images gallery" [ref=e104] [cursor=pointer]:
+          - /url: "#gallery-prev-area"
+      - tablist [ref=e106]:
+        - tab "Details" [expanded] [ref=e107]:
+          - link "Details" [ref=e108] [cursor=pointer]:
+            - /url: "#description"
+        - tabpanel "Details" [ref=e109]:
+          - generic [ref=e112]:
+            - heading "Product Quick Look" [level=2] [ref=e113]
+            - generic [ref=e114]:
+              - list [ref=e116]:
+                - listitem [ref=e117]: "Crest Pro-Health Intense Clean Mint Mouthwash kills 99 percent of germs without a strong medicinal taste. Crest mouthwash provides an intense feeling to help you know it's working, keep your teeth clean longer, fight plaque and gingivitis, and leave you a cooling sensation with fresh breath. Works with Crest Toothpaste, Crest Whitestrips, Oral-B Floss, and Oral-B Electric Toothbrushes. Age Group: Adult."
+              - table [ref=e119]:
+                - rowgroup [ref=e120]:
+                  - row "UPC ‏ ‎ 037000747895" [ref=e121]:
+                    - rowheader "UPC ‏" [ref=e122]
+                    - cell "‎ 037000747895" [ref=e123]
+                  - row "Manufacturer ‏ ‎ Crest" [ref=e124]:
+                    - rowheader "Manufacturer ‏" [ref=e125]
+                    - cell "‎ Crest" [ref=e126]
+                  - row "ASIN ‏ ‎ B081HZK22G" [ref=e127]:
+                    - rowheader "ASIN ‏" [ref=e128]
+                    - cell "‎ B081HZK22G" [ref=e129]
+                  - row "#1,584 in Mouthwashes" [ref=e130]:
+                    - columnheader "#1,584 in Mouthwashes" [ref=e131]
+                    - cell [ref=e132]
+        - tab "Reviews" [ref=e133]:
+          - link "Reviews" [ref=e134] [cursor=pointer]:
+            - /url: "#reviews"
+        - text: "*       * * *"
+  - contentinfo [ref=e135]:
+    - generic [ref=e136]:
+      - generic [ref=e139]:
+        - generic [ref=e141]:
+          - text: 
+          - generic [ref=e142]:
+            - generic [ref=e143]: "Sign Up for Our Newsletter:"
+            - textbox "Sign Up for Our Newsletter:" [ref=e144]:
+              - /placeholder: Enter your email address
+        - button "Subscribe" [ref=e146] [cursor=pointer]
+      - list [ref=e147]:
+        - listitem [ref=e148]:
+          - link "Privacy and Cookie Policy" [ref=e149] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/privacy-policy-cookie-restriction-mode/
+        - listitem [ref=e150]:
+          - link "Search Terms" [ref=e151] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/search/term/popular/
+        - listitem [ref=e152]:
+          - link "Advanced Search" [ref=e153] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/catalogsearch/advanced/
+        - listitem [ref=e154]:
+          - link "Orders and Returns" [ref=e155] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/sales/guest/form/
+        - listitem [ref=e156]:
+          - link "Contact Us" [ref=e157] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/contact/
+      - generic [ref=e158]: Copyright © 2013-present Magento, Inc. All rights reserved.
+      - generic [ref=e159]:
+        - text: Help Us Keep Magento Healthy
+        - link "Report All Bugs" [ref=e160] [cursor=pointer]:
+          - /url: http://www.magentocommerce.com/bug-tracking

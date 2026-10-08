@@ -1,0 +1,541 @@
+- RootWebArea "Toothpaste - Oral Care - Beauty & Personal Care" [url="http://127.0.0.1:7770/beauty-personal-care/oral-care/toothpaste.html"]
+  - generic
+    - banner
+      - generic
+        - link "Skip to Content" [url="http://127.0.0.1:7770/beauty-personal-care/oral-care/toothpaste.html#contentarea"]
+          - StaticText "Skip to Content"
+      - generic
+        - generic
+          - generic
+            - StaticText ""
+          - StaticText "Toggle Nav"
+        - link "store logo" [url="http://127.0.0.1:7770/"]
+          - image "one_stop_market_logo" [url="http://127.0.0.1:7770/media/logo/websites/1/image_15__1.png"]
+        - generic
+          - link " My Cart" [url="http://127.0.0.1:7770/checkout/cart/"]
+            - generic
+              - StaticText ""
+            - StaticText "My Cart"
+        - form
+          - LabelText
+            - generic
+              - StaticText ""
+            - StaticText "Search"
+          - generic
+            - combobox " Search" [expanded=false]
+              - generic
+    - generic
+      - tablist
+        - tab "Menu" [selected=false] [expanded=true]
+          - link "Menu" [url="http://127.0.0.1:7770/beauty-personal-care/oral-care/toothpaste.html#store.menu"]
+            - StaticText "Menu"
+        - tabpanel
+          - navigation
+            - menu
+              - menuitem "BEAUTY & PERSONAL CARE "
+                - StaticText "BEAUTY & PERSONAL CARE"
+                - generic
+                  - StaticText ""
+              - menuitem "SPORTS & OUTDOORS "
+                - StaticText "SPORTS & OUTDOORS"
+                - generic
+                  - StaticText ""
+              - menuitem "CLOTHING, SHOES & JEWELRY "
+                - StaticText "CLOTHING, SHOES & JEWELRY"
+                - generic
+                  - StaticText ""
+              - menuitem "HOME & KITCHEN "
+                - StaticText "HOME & KITCHEN"
+                - generic
+                  - StaticText ""
+              - menuitem "OFFICE PRODUCTS "
+                - StaticText "OFFICE PRODUCTS"
+                - generic
+                  - StaticText ""
+              - menuitem "TOOLS & HOME IMPROVEMENT "
+                - StaticText "TOOLS & HOME IMPROVEMENT"
+                - generic
+                  - StaticText ""
+              - menuitem "HEALTH & HOUSEHOLD "
+                - StaticText "HEALTH & HOUSEHOLD"
+                - generic
+                  - StaticText ""
+              - menuitem "PATIO, LAWN & GARDEN "
+                - StaticText "PATIO, LAWN & GARDEN"
+                - generic
+                  - StaticText ""
+              - menuitem "ELECTRONICS "
+                - StaticText "ELECTRONICS"
+                - generic
+                  - StaticText ""
+              - menuitem "CELL PHONES & ACCESSORIES "
+                - StaticText "CELL PHONES & ACCESSORIES"
+                - generic
+                  - StaticText ""
+              - menuitem "VIDEO GAMES "
+                - StaticText "VIDEO GAMES"
+                - generic
+                  - StaticText ""
+              - menuitem "GROCERY & GOURMET FOOD "
+                - StaticText "GROCERY & GOURMET FOOD"
+                - generic
+                  - StaticText ""
+        - tab "Account" [selected=false] [expanded=false]
+          - link "Account" [url="http://127.0.0.1:7770/beauty-personal-care/oral-care/toothpaste.html#store.links"]
+            - StaticText "Account"
+    - list
+      - listitem [level=1]
+        - link "Home" [url="http://127.0.0.1:7770/"]
+          - StaticText "Home"
+        - generic
+          - StaticText ""
+      - listitem [level=1]
+        - link "Beauty & Personal Care" [url="http://127.0.0.1:7770/beauty-personal-care.html"]
+          - StaticText "Beauty & Personal Care"
+        - generic
+          - StaticText ""
+      - listitem [level=1]
+        - link "Oral Care" [url="http://127.0.0.1:7770/beauty-personal-care/oral-care.html"]
+          - StaticText "Oral Care"
+        - generic
+          - StaticText ""
+      - listitem [level=1]
+        - strong
+          - StaticText "Toothpaste"
+    - main
+      - generic
+      - heading "Toothpaste Items 1-12 of 562" [level=1]
+        - StaticText "Toothpaste"
+      - generic
+        - paragraph
+          - StaticText "Items"
+          - StaticText "1"
+          - StaticText "-"
+          - StaticText "12"
+          - StaticText "of"
+          - StaticText "562"
+        - generic
+          - LabelText
+            - StaticText "Sort By"
+          - combobox "Sort By" [expanded=false] [value="Position"]
+            - MenuListPopup
+              - option "Position" [selected=true]
+              - option "Product Name" [selected=false]
+              - option "Price" [selected=false]
+          - link " Set Descending Direction" [url="http://127.0.0.1:7770/beauty-personal-care/oral-care/toothpaste.html#"]
+            - generic
+              - StaticText ""
+            - StaticText "Set Descending Direction"
+        - list
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/rembrandt-intense-stain-whitening-toothpaste-with-fluoride3-oz-3-packs.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B00757A9B6.0.jpg"]
+              - strong
+                - link "Rembrandt Intense Stain Whitening Toothpaste With Fluoride3 oz(3 Packs)" [url="http://127.0.0.1:7770/rembrandt-intense-stain-whitening-toothpaste-with-fluoride3-oz-3-packs.html"]
+                  - StaticText "Rembrandt Intense Stain Whitening Toothpaste With Fluoride3 oz(3 Packs)"
+              - generic
+                - generic
+                  - StaticText "$30.73"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/median-dental-iq-tartar-care-93-toothpaste-120g-white-korean-oral-care-nib.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B08N4BXJTK.0.jpg"]
+              - strong
+                - link "MEDIAN Dental IQ Tartar Care 93% Toothpaste 120g #White Korean Oral Care Nib" [url="http://127.0.0.1:7770/median-dental-iq-tartar-care-93-toothpaste-120g-white-korean-oral-care-nib.html"]
+                  - StaticText "MEDIAN Dental IQ Tartar Care 93% Toothpaste 120g #White Korean Oral Care Nib"
+              - generic
+                - generic
+                  - StaticText "$14.99"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/sensodyne-repair-protect-whitening-toothpaste-with-fluoride-3-4-oz-pack-of-3.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B01488F40K.0.jpg"]
+              - strong
+                - link "Sensodyne Repair & Protect Whitening Toothpaste with Fluoride 3.4 oz (Pack of 3)" [url="http://127.0.0.1:7770/sensodyne-repair-protect-whitening-toothpaste-with-fluoride-3-4-oz-pack-of-3.html"]
+                  - StaticText "Sensodyne Repair & Protect Whitening Toothpaste with Fluoride 3.4 oz (Pack of 3)"
+              - LayoutTable
+                - generic
+                  - StaticText "Rating:"
+                  - generic
+                    - generic
+                      - StaticText ""
+                    - generic
+                      - StaticText ""
+                    - StaticText "85%"
+                - generic
+                  - link "4 Reviews" [url="http://127.0.0.1:7770/sensodyne-repair-protect-whitening-toothpaste-with-fluoride-3-4-oz-pack-of-3.html#reviews"]
+                    - StaticText "4"
+                    - StaticText "Reviews"
+              - generic
+                - generic
+                  - StaticText "$28.96"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/perioscience-sensitive-toothpaste-soothing-oral-care-hydroxyapatite-anti-cavity-whitening-enamel-defense-for-mouth-sensitivity-ao-pro-dentist-recommended-clean-teeth-plaque-removal.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B077H6PVN1.0.jpg"]
+              - strong
+                - link "Perioscience Sensitive Toothpaste - Soothing Oral Care Hydroxyapatite Anti Cavity Whitening Enamel Defense for Mouth Sensitivity - AO Pro Dentist Recommended Clean Teeth Plaque Removal" [url="http://127.0.0.1:7770/perioscience-sensitive-toothpaste-soothing-oral-care-hydroxyapatite-anti-cavity-whitening-enamel-defense-for-mouth-sensitivity-ao-pro-dentist-recommended-clean-teeth-plaque-removal.html"]
+                  - StaticText "Perioscience Sensitive Toothpaste - Soothing Oral Care Hydroxyapatite Anti Cavity Whitening Enamel Defense for Mouth Sensitivity - AO Pro Dentist Recommended Clean Teeth Plaque Removal"
+              - LayoutTable
+                - generic
+                  - StaticText "Rating:"
+                  - generic
+                    - generic
+                      - StaticText ""
+                    - generic
+                      - StaticText ""
+                    - StaticText "80%"
+                - generic
+                  - link "12 Reviews" [url="http://127.0.0.1:7770/perioscience-sensitive-toothpaste-soothing-oral-care-hydroxyapatite-anti-cavity-whitening-enamel-defense-for-mouth-sensitivity-ao-pro-dentist-recommended-clean-teeth-plaque-removal.html#reviews"]
+                    - StaticText "12"
+                    - StaticText "Reviews"
+              - generic
+                - generic
+                  - StaticText "$19.00"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/aim-tartar-control-anticavity-fluoride-toothpaste-gel-5-5-oz-pack-of-6.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B0792M4NQL.0.jpg"]
+              - strong
+                - link "Aim Tartar Control Anticavity Fluoride Toothpaste Gel - 5.5 oz, Pack of 6" [url="http://127.0.0.1:7770/aim-tartar-control-anticavity-fluoride-toothpaste-gel-5-5-oz-pack-of-6.html"]
+                  - StaticText "Aim Tartar Control Anticavity Fluoride Toothpaste Gel - 5.5 oz, Pack of 6"
+              - generic
+                - generic
+                  - StaticText "$19.24"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/charcoal-toothpaste-xtra-whitening-toothpaste-zero-waste-compostable-4-5-oz-glass-bottle-by-lucky-teeth-all-natural-organic-remineralizes-and-fortifies-teeth-and-gums-1-bottle.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B0184ZBLPK.0.jpg"]
+              - strong
+                - link "Charcoal Toothpaste Xtra Whitening Toothpaste - Zero Waste & Compostable 4.5 oz Glass Bottle by Lucky Teeth - All Natural, Organic, Remineralizes and Fortifies Teeth and Gums. (1 Bottle)" [url="http://127.0.0.1:7770/charcoal-toothpaste-xtra-whitening-toothpaste-zero-waste-compostable-4-5-oz-glass-bottle-by-lucky-teeth-all-natural-organic-remineralizes-and-fortifies-teeth-and-gums-1-bottle.html"]
+                  - StaticText "Charcoal Toothpaste Xtra Whitening Toothpaste - Zero Waste & Compostable 4.5 oz Glass Bottle by Lucky Teeth - All Natural, Organic, Remineralizes and Fortifies Teeth and Gums. (1 Bottle)"
+              - LayoutTable
+                - generic
+                  - StaticText "Rating:"
+                  - generic
+                    - generic
+                      - StaticText ""
+                    - generic
+                      - StaticText ""
+                    - StaticText "96%"
+                - generic
+                  - link "10 Reviews" [url="http://127.0.0.1:7770/charcoal-toothpaste-xtra-whitening-toothpaste-zero-waste-compostable-4-5-oz-glass-bottle-by-lucky-teeth-all-natural-organic-remineralizes-and-fortifies-teeth-and-gums-1-bottle.html#reviews"]
+                    - StaticText "10"
+                    - StaticText "Reviews"
+              - generic
+                - generic
+                  - StaticText "$29.00"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/kids-foam-toothpaste-fruit-flavor-freshen-breath-foam-toothpaste-kids-stain-removal-rich-calcium-for-hotel-for-home-for-travel-orange-flavor.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B09QP3TYXJ.0.jpg"]
+              - strong
+                - link "Kids Foam Toothpaste, Fruit Flavor Freshen Breath Foam Toothpaste Kids Stain Removal Rich Calcium for Hotel for Home for Travel(Orange flavor)" [url="http://127.0.0.1:7770/kids-foam-toothpaste-fruit-flavor-freshen-breath-foam-toothpaste-kids-stain-removal-rich-calcium-for-hotel-for-home-for-travel-orange-flavor.html"]
+                  - StaticText "Kids Foam Toothpaste, Fruit Flavor Freshen Breath Foam Toothpaste Kids Stain Removal Rich Calcium for Hotel for Home for Travel(Orange flavor)"
+              - generic
+                - generic
+                  - StaticText "$10.09"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/fullyday-vegetation-toothpaste-fight-bleeding-gums-fresh-toothpaste-baking-soda-whiten-teeth-by-removing-surface-stains-food-particles-toothpaste-blueberry-flavor-2-set-pink.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B07TX37WW2.0.jpg"]
+              - strong
+                - link "Fullyday Vegetation Toothpaste, Fight Bleeding Gums Fresh Toothpaste Baking Soda, Whiten Teeth by Removing Surface Stains/Food Particles Toothpaste, Blueberry Flavor, 2 Set Pink" [url="http://127.0.0.1:7770/fullyday-vegetation-toothpaste-fight-bleeding-gums-fresh-toothpaste-baking-soda-whiten-teeth-by-removing-surface-stains-food-particles-toothpaste-blueberry-flavor-2-set-pink.html"]
+                  - StaticText "Fullyday Vegetation Toothpaste, Fight Bleeding Gums Fresh Toothpaste Baking Soda, Whiten Teeth by Removing Surface Stains/Food Particles Toothpaste, Blueberry Flavor, 2 Set Pink"
+              - generic
+                - generic
+                  - StaticText "$11.49"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/2pcs-teeth-cleansing-toothpaste-tooth-whitening-enamel-care-v34-colour-corrector-teeth-whitening-sensitive-teeth-toothpaste-intensive-stain-removal-teeth-reduce-yellowing-purple-orange.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B09QJ7C3XX.0.jpg"]
+              - strong
+                - link "2PCS Teeth Cleansing Toothpaste Tooth Whitening Enamel Care, V34 Colour Corrector Teeth Whitening Sensitive Teeth Toothpaste, Intensive Stain Removal Teeth Reduce Yellowing (Purple+Orange)" [url="http://127.0.0.1:7770/2pcs-teeth-cleansing-toothpaste-tooth-whitening-enamel-care-v34-colour-corrector-teeth-whitening-sensitive-teeth-toothpaste-intensive-stain-removal-teeth-reduce-yellowing-purple-orange.html"]
+                  - StaticText "2PCS Teeth Cleansing Toothpaste Tooth Whitening Enamel Care, V34 Colour Corrector Teeth Whitening Sensitive Teeth Toothpaste, Intensive Stain Removal Teeth Reduce Yellowing (Purple+Orange)"
+              - generic
+                - generic
+                  - StaticText "$16.99"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/elementa-silver-pepermint-tooth-gel-2-pack.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B095XDTTCK.0.jpg"]
+              - strong
+                - link "Elementa Silver - Pepermint Tooth Gel (2 Pack)" [url="http://127.0.0.1:7770/elementa-silver-pepermint-tooth-gel-2-pack.html"]
+                  - StaticText "Elementa Silver - Pepermint Tooth Gel (2 Pack)"
+              - generic
+                - generic
+                  - StaticText "$24.97"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/wefr-30ml-v34-colour-corrector-teeth-whitening-sensitive-teeth-toothpaste-teeth-cleansing-toothpaste-intensive-stain-removal-teeth-reduce-yellowing-2-pcs-purple.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B09Q8XWKHX.0.jpg"]
+              - strong
+                - link "WEFR 30ml V34 Colour Corrector Teeth Whitening Sensitive Teeth Toothpaste, Teeth Cleansing Toothpaste Intensive Stain Removal Teeth Reduce Yellowing (2 PCS Purple)" [url="http://127.0.0.1:7770/wefr-30ml-v34-colour-corrector-teeth-whitening-sensitive-teeth-toothpaste-teeth-cleansing-toothpaste-intensive-stain-removal-teeth-reduce-yellowing-2-pcs-purple.html"]
+                  - StaticText "WEFR 30ml V34 Colour Corrector Teeth Whitening Sensitive Teeth Toothpaste, Teeth Cleansing Toothpaste Intensive Stain Removal Teeth Reduce Yellowing (2 PCS Purple)"
+              - generic
+                - generic
+                  - StaticText "$15.99"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/crest-extra-white-plus-scope-outlast-toothpaste-long-lasting-mint-4-oz-pack-of-7.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B01IA9BJ4I.0.jpg"]
+              - strong
+                - link "Crest Extra White Plus Scope Outlast Toothpaste, Long Lasting Mint 4 oz (Pack of 7)" [url="http://127.0.0.1:7770/crest-extra-white-plus-scope-outlast-toothpaste-long-lasting-mint-4-oz-pack-of-7.html"]
+                  - StaticText "Crest Extra White Plus Scope Outlast Toothpaste, Long Lasting Mint 4 oz (Pack of 7)"
+              - generic
+                - generic
+                  - StaticText "$26.78"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+        - generic
+          - strong
+            - StaticText "Page"
+          - list "Page"
+            - listitem [level=1]
+              - strong
+                - StaticText "You're currently reading page"
+                - StaticText "1"
+            - listitem [level=1]
+              - link "Page 2" [url="http://127.0.0.1:7770/beauty-personal-care/oral-care/toothpaste.html?p=2"]
+                - StaticText "Page"
+                - StaticText "2"
+            - listitem [level=1]
+              - link "Page 3" [url="http://127.0.0.1:7770/beauty-personal-care/oral-care/toothpaste.html?p=3"]
+                - StaticText "Page"
+                - StaticText "3"
+            - listitem [level=1]
+              - link "Page 4" [url="http://127.0.0.1:7770/beauty-personal-care/oral-care/toothpaste.html?p=4"]
+                - StaticText "Page"
+                - StaticText "4"
+            - listitem [level=1]
+              - link "Page 5" [url="http://127.0.0.1:7770/beauty-personal-care/oral-care/toothpaste.html?p=5"]
+                - StaticText "Page"
+                - StaticText "5"
+            - listitem [level=1]
+              - link " Page Next" [url="http://127.0.0.1:7770/beauty-personal-care/oral-care/toothpaste.html?p=2"]
+                - generic
+                  - StaticText ""
+                - StaticText "Page"
+                - StaticText "Next"
+        - generic
+          - strong
+            - StaticText "Shop By"
+        - heading "Shopping Options" [level=2]
+          - StaticText "Shopping Options"
+        - DescriptionList
+          - heading "Price" [level=3]
+            - StaticText "Price"
+          - definition
+            - list
+              - listitem [level=1]
+                - link "$0.00 - $99.99( 553 item )" [url="http://127.0.0.1:7770/beauty-personal-care/oral-care/toothpaste.html?price=0-100"]
+                  - StaticText "$0.00"
+                  - StaticText "-"
+                  - StaticText "$99.99"
+                  - StaticText "("
+                  - StaticText "553"
+                  - StaticText "item"
+                  - StaticText ")"
+              - listitem [level=1]
+                - link "$100.00 - $199.99( 4 item )" [url="http://127.0.0.1:7770/beauty-personal-care/oral-care/toothpaste.html?price=100-200"]
+                  - StaticText "$100.00"
+                  - StaticText "-"
+                  - StaticText "$199.99"
+                  - StaticText "("
+                  - StaticText "4"
+                  - StaticText "item"
+                  - StaticText ")"
+              - listitem [level=1]
+                - link "$200.00 - $299.99( 4 item )" [url="http://127.0.0.1:7770/beauty-personal-care/oral-care/toothpaste.html?price=200-300"]
+                  - StaticText "$200.00"
+                  - StaticText "-"
+                  - StaticText "$299.99"
+                  - StaticText "("
+                  - StaticText "4"
+                  - StaticText "item"
+                  - StaticText ")"
+              - listitem [level=1]
+                - link "$600.00 and above( 1 item )" [url="http://127.0.0.1:7770/beauty-personal-care/oral-care/toothpaste.html?price=600-700"]
+                  - StaticText "$600.00"
+                  - StaticText "and above"
+                  - StaticText "("
+                  - StaticText "1"
+                  - StaticText "item"
+                  - StaticText ")"
+        - generic
+          - heading "Compare Products" [level=2]
+            - StaticText "Compare Products"
+        - generic
+          - StaticText "You have no items to compare."
+        - generic
+          - heading "My Wish List" [level=2]
+            - StaticText "My Wish List"
+        - generic
+          - StaticText "You have no items in your wish list."
+    - contentinfo
+      - form
+        - generic
+          - generic
+            - StaticText ""
+          - LabelText
+            - StaticText "Sign Up for Our Newsletter:"
+            - textbox "Sign Up for Our Newsletter:"
+              - generic
+        - generic
+          - button "Subscribe"
+            - StaticText "Subscribe"
+      - list
+        - listitem [level=1]
+          - link "Privacy and Cookie Policy" [url="http://127.0.0.1:7770/privacy-policy-cookie-restriction-mode/"]
+            - StaticText "Privacy and Cookie Policy"
+        - listitem [level=1]
+          - link "Search Terms" [url="http://127.0.0.1:7770/search/term/popular/"]
+            - StaticText "Search Terms"
+        - listitem [level=1]
+          - link "Advanced Search" [url="http://127.0.0.1:7770/catalogsearch/advanced/"]
+            - StaticText "Advanced Search"
+        - listitem [level=1]
+          - link "Orders and Returns" [url="http://127.0.0.1:7770/sales/guest/form/"]
+            - StaticText "Orders and Returns"
+        - listitem [level=1]
+          - link "Contact Us" [url="http://127.0.0.1:7770/contact/"]
+            - StaticText "Contact Us"
+      - generic
+        - StaticText "Copyright © 2013-present Magento, Inc. All rights reserved."
+      - generic
+        - StaticText "Help Us Keep Magento Healthy"
+        - StaticText
+        - link "Report All Bugs" [url="http://www.magentocommerce.com/bug-tracking"]
+          - StaticText "Report All Bugs"
+    - generic

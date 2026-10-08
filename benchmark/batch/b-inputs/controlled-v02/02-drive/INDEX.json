@@ -1,0 +1,301 @@
+{
+  "pages": [
+    {
+      "dir": "000_state",
+      "url": "http://127.0.0.1:7770/",
+      "title": "One Stop Market",
+      "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\02-drive\\trace\\26_10_08_11_46_19-min\\drive\\screenshots\\000_root",
+      "duplicate_snapshots": [
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\02-drive\\trace\\26_10_08_11_46_19-min\\drive\\screenshots\\026_root"
+      ],
+      "signature": "ad1dc6dbe8cde81040f86a316d08f6bf98d613bac2ba4b9fb803a13735bba092",
+      "endpoint_count": 0
+    },
+    {
+      "dir": "001_state",
+      "url": "http://127.0.0.1:7770/so-delicious-dairy-free-cocowhip-light-vegan-non-gmo-project-verified-9-oz-tub.html#reviews",
+      "title": "So Delicious Dairy Free CocoWhip Light, Vegan, Non-GMO Project Verified, 9 oz. Tub",
+      "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\02-drive\\trace\\26_10_08_11_46_19-min\\drive\\screenshots\\001_so-delicious-dairy-free-cocowhip-light-vegan-non-gmo-project",
+      "duplicate_snapshots": [],
+      "signature": "e3b0ad9a3f5deab42d72a650eb97b36010086319b442ae48e2bca038300a3920",
+      "endpoint_count": 0
+    },
+    {
+      "dir": "002_state",
+      "url": "http://127.0.0.1:7770/so-delicious-dairy-free-cocowhip-light-vegan-non-gmo-project-verified-9-oz-tub.html#reviews",
+      "title": "So Delicious Dairy Free CocoWhip Light, Vegan, Non-GMO Project Verified, 9 oz. Tub",
+      "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\02-drive\\trace\\26_10_08_11_46_19-min\\drive\\screenshots\\002_so-delicious-dairy-free-cocowhip-light-vegan-non-gmo-project",
+      "duplicate_snapshots": [],
+      "signature": "eba2a5c4c76a179ca644b8b5327835b1f9e60aa820af8da8be0ed0eab6b7a3e3",
+      "endpoint_count": 0
+    },
+    {
+      "dir": "003_state",
+      "url": "http://127.0.0.1:7770/so-delicious-dairy-free-cocowhip-light-vegan-non-gmo-project-verified-9-oz-tub.html#reviews",
+      "title": "So Delicious Dairy Free CocoWhip Light, Vegan, Non-GMO Project Verified, 9 oz. Tub",
+      "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\02-drive\\trace\\26_10_08_11_46_19-min\\drive\\screenshots\\003_so-delicious-dairy-free-cocowhip-light-vegan-non-gmo-project",
+      "duplicate_snapshots": [],
+      "signature": "81d32624de2fdfbe13f58dae6ff16da8ab729e8dbcce77e76445f32edc1a43d1",
+      "endpoint_count": 0
+    },
+    {
+      "dir": "004_state",
+      "url": "http://127.0.0.1:7770/checkout/cart/",
+      "title": "Shopping Cart",
+      "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\02-drive\\trace\\26_10_08_11_46_19-min\\drive\\screenshots\\004_checkout_cart",
+      "duplicate_snapshots": [],
+      "signature": "143e477fbcfb0f813bed2fd987babe9d51e5fdffd28c0277fe7bca3166fec51b",
+      "endpoint_count": 1
+    },
+    {
+      "dir": "005_state",
+      "url": "http://127.0.0.1:7770/catalogsearch/advanced/",
+      "title": "Advanced Search",
+      "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\02-drive\\trace\\26_10_08_11_46_19-min\\drive\\screenshots\\005_catalogsearch_advanced",
+      "duplicate_snapshots": [],
+      "signature": "8a2316b304be59f3d3f7af26928e051a5e79df42d129d83c8c11881f942eb853",
+      "endpoint_count": 0
+    },
+    {
+      "dir": "006_state",
+      "url": "http://127.0.0.1:7770/beauty-personal-care.html",
+      "title": "Beauty & Personal Care",
+      "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\02-drive\\trace\\26_10_08_11_46_19-min\\drive\\screenshots\\006_beauty-personal-care_html",
+      "duplicate_snapshots": [],
+      "signature": "07cb14c733a5aa33a70a3d1b2aed191a815a1435fef05af2f2c3051214444020",
+      "endpoint_count": 0
+    },
+    {
+      "dir": "007_state",
+      "url": "http://127.0.0.1:7770/xzp-4-pack-larger-thicker-rapid-hair-wrap-towels-drying-women-long-thick-curly-hair-magic-instant-dry-hair-towel-caps-anti-frizz-fast-drying-microfiber-turban-wet-hair-wrap-towels-quick-drying.html",
+      "title": "XZP 4 Pack Larger Thicker Rapid Hair Wrap Towels Drying Women Long Thick Curly Hair Magic Instant Dry Hair Towel Caps Anti Frizz Fast Drying Microfiber Turban Wet Hair Wrap Towels Quick Drying",
+      "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\02-drive\\trace\\26_10_08_11_46_19-min\\drive\\screenshots\\007_xzp-4-pack-larger-thicker-rapid-hair-wrap-towels-drying-wome",
+      "duplicate_snapshots": [
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\02-drive\\trace\\26_10_08_11_46_19-min\\drive\\screenshots\\008_xzp-4-pack-larger-thicker-rapid-hair-wrap-towels-drying-wome"
+      ],
+      "signature": "71c4e9f05bef1be03a4442927e1ddbb694529d51c14444ad672d2b03738690d8",
+      "endpoint_count": 1
+    },
+    {
+      "dir": "008_state",
+      "url": "http://127.0.0.1:7770/xzp-4-pack-larger-thicker-rapid-hair-wrap-towels-drying-women-long-thick-curly-hair-magic-instant-dry-hair-towel-caps-anti-frizz-fast-drying-microfiber-turban-wet-hair-wrap-towels-quick-drying.html",
+      "title": "XZP 4 Pack Larger Thicker Rapid Hair Wrap Towels Drying Women Long Thick Curly Hair Magic Instant Dry Hair Towel Caps Anti Frizz Fast Drying Microfiber Turban Wet Hair Wrap Towels Quick Drying",
+      "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\02-drive\\trace\\26_10_08_11_46_19-min\\drive\\screenshots\\009_xzp-4-pack-larger-thicker-rapid-hair-wrap-towels-drying-wome",
+      "duplicate_snapshots": [],
+      "signature": "5386db60e0ad755e1d6d79ff8a37a22b0c569610ad9b40341b37a800cedc1baf",
+      "endpoint_count": 1
+    },
+    {
+      "dir": "009_state",
+      "url": "http://127.0.0.1:7770/xzp-4-pack-larger-thicker-rapid-hair-wrap-towels-drying-women-long-thick-curly-hair-magic-instant-dry-hair-towel-caps-anti-frizz-fast-drying-microfiber-turban-wet-hair-wrap-towels-quick-drying.html",
+      "title": "XZP 4 Pack Larger Thicker Rapid Hair Wrap Towels Drying Women Long Thick Curly Hair Magic Instant Dry Hair Towel Caps Anti Frizz Fast Drying Microfiber Turban Wet Hair Wrap Towels Quick Drying",
+      "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\02-drive\\trace\\26_10_08_11_46_19-min\\drive\\screenshots\\010_xzp-4-pack-larger-thicker-rapid-hair-wrap-towels-drying-wome",
+      "duplicate_snapshots": [],
+      "signature": "21a19ec90d85d8655a7e850ed082ebbafdefa2641f3c4639662ddf2aa617b92b",
+      "endpoint_count": 1
+    },
+    {
+      "dir": "010_state",
+      "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care.html",
+      "title": "Oral Care - Beauty & Personal Care",
+      "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\02-drive\\trace\\26_10_08_11_46_19-min\\drive\\screenshots\\011_beauty-personal-care_oral-care_html",
+      "duplicate_snapshots": [],
+      "signature": "d407e254f579a963e24e5b4876d337d30e9a59aa7849446f0d70390aa50952f6",
+      "endpoint_count": 0
+    },
+    {
+      "dir": "011_state",
+      "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care.html?cat=118",
+      "title": "Oral Care - Beauty & Personal Care",
+      "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\02-drive\\trace\\26_10_08_11_46_19-min\\drive\\screenshots\\012_beauty-personal-care_oral-care_html",
+      "duplicate_snapshots": [],
+      "signature": "d26a5833cd7860507367b013a18fb657453c8a0ce07c69f9305a1e18b2befe27",
+      "endpoint_count": 0
+    },
+    {
+      "dir": "012_state",
+      "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care.html?cat=118&product_list_dir=desc",
+      "title": "Oral Care - Beauty & Personal Care",
+      "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\02-drive\\trace\\26_10_08_11_46_19-min\\drive\\screenshots\\013_beauty-personal-care_oral-care_html",
+      "duplicate_snapshots": [
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\02-drive\\trace\\26_10_08_11_46_19-min\\drive\\screenshots\\014_beauty-personal-care_oral-care_html"
+      ],
+      "signature": "a0a5389a7484f9eb6d8c47389d529a7922f30ab65bdaf08f7bfd5787f7b38d90",
+      "endpoint_count": 0
+    },
+    {
+      "dir": "013_state",
+      "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care.html?cat=118&product_list_dir=desc&product_list_order=name",
+      "title": "Oral Care - Beauty & Personal Care",
+      "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\02-drive\\trace\\26_10_08_11_46_19-min\\drive\\screenshots\\015_beauty-personal-care_oral-care_html",
+      "duplicate_snapshots": [],
+      "signature": "c144459acab667a66548db229352ccd6a508f524d694b7737ea05a05b39b2189",
+      "endpoint_count": 0
+    },
+    {
+      "dir": "014_state",
+      "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care.html?cat=118&p=5&product_list_dir=desc&product_list_order=name",
+      "title": "Oral Care - Beauty & Personal Care",
+      "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\02-drive\\trace\\26_10_08_11_46_19-min\\drive\\screenshots\\016_beauty-personal-care_oral-care_html",
+      "duplicate_snapshots": [],
+      "signature": "0e449cbaefd2456805694b0f21aae7bb44ae97ab1c50130029bfb97cfc27f867",
+      "endpoint_count": 0
+    },
+    {
+      "dir": "015_state",
+      "url": "http://127.0.0.1:7770/foqitoxi-sport-mouth-guard-upper-and-lower-brace-teeth-grinding-guard-4-pack-with-storage-case.html",
+      "title": "foqitoxi Sport Mouth Guard Upper and Lower Brace - Teeth Grinding Guard - 4 Pack - with Storage Case",
+      "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\02-drive\\trace\\26_10_08_11_46_19-min\\drive\\screenshots\\017_foqitoxi-sport-mouth-guard-upper-and-lower-brace-teeth-grind",
+      "duplicate_snapshots": [
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\02-drive\\trace\\26_10_08_11_46_19-min\\drive\\screenshots\\018_foqitoxi-sport-mouth-guard-upper-and-lower-brace-teeth-grind"
+      ],
+      "signature": "8b019155cd5676cf1e4db3efe20e5f4af7d90e4f9c541688a1d39c4afc9c9f7a",
+      "endpoint_count": 0
+    },
+    {
+      "dir": "016_state",
+      "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/toothbrushes-accessories.html",
+      "title": "Toothbrushes & Accessories - Oral Care - Beauty & Personal Care",
+      "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\02-drive\\trace\\26_10_08_11_46_19-min\\drive\\screenshots\\019_beauty-personal-care_oral-care_toothbrushes-accessories_html",
+      "duplicate_snapshots": [
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\02-drive\\trace\\26_10_08_11_46_19-min\\drive\\screenshots\\020_beauty-personal-care_oral-care_toothbrushes-accessories_html",
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\02-drive\\trace\\26_10_08_11_46_19-min\\drive\\screenshots\\021_beauty-personal-care_oral-care_toothbrushes-accessories_html"
+      ],
+      "signature": "93da322fcae87dd56e1c1b3d5f1df68bf9c46e2968759296119d45f5eeee798e",
+      "endpoint_count": 0
+    },
+    {
+      "dir": "017_state",
+      "url": "http://127.0.0.1:7770/colgate-slimsoft-floss-tip-charcoal-toothbrush-pack-of-6.html",
+      "title": "Colgate Slimsoft Floss-Tip Charcoal Toothbrush (Pack of 6)",
+      "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\02-drive\\trace\\26_10_08_11_46_19-min\\drive\\screenshots\\022_colgate-slimsoft-floss-tip-charcoal-toothbrush-pack-of-6_htm",
+      "duplicate_snapshots": [
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\02-drive\\trace\\26_10_08_11_46_19-min\\drive\\screenshots\\023_colgate-slimsoft-floss-tip-charcoal-toothbrush-pack-of-6_htm"
+      ],
+      "signature": "903b94bf3b873de11806fcd4fce3a07d7f36cb280540cd990e3ec54d2abe9390",
+      "endpoint_count": 1
+    },
+    {
+      "dir": "018_state",
+      "url": "http://127.0.0.1:7770/colgate-slimsoft-floss-tip-charcoal-toothbrush-pack-of-6.html",
+      "title": "Colgate Slimsoft Floss-Tip Charcoal Toothbrush (Pack of 6)",
+      "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\02-drive\\trace\\26_10_08_11_46_19-min\\drive\\screenshots\\024_colgate-slimsoft-floss-tip-charcoal-toothbrush-pack-of-6_htm",
+      "duplicate_snapshots": [],
+      "signature": "be5cb5bada3fc7220772d90b41ee68e63a7bf070a5168f373a1e91dc6b8bc63b",
+      "endpoint_count": 1
+    },
+    {
+      "dir": "019_state",
+      "url": "http://127.0.0.1:7770/colgate-slimsoft-floss-tip-charcoal-toothbrush-pack-of-6.html",
+      "title": "Colgate Slimsoft Floss-Tip Charcoal Toothbrush (Pack of 6)",
+      "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\02-drive\\trace\\26_10_08_11_46_19-min\\drive\\screenshots\\025_colgate-slimsoft-floss-tip-charcoal-toothbrush-pack-of-6_htm",
+      "duplicate_snapshots": [],
+      "signature": "8f2a0a044fcaacb6a8522443fa2319d8ddb0375dd2ae5b57572d8388e265d3e2",
+      "endpoint_count": 1
+    },
+    {
+      "dir": "020_state",
+      "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/dental-floss-picks.html",
+      "title": "Dental Floss & Picks - Oral Care - Beauty & Personal Care",
+      "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\02-drive\\trace\\26_10_08_11_46_19-min\\drive\\screenshots\\027_beauty-personal-care_oral-care_dental-floss-picks_html",
+      "duplicate_snapshots": [],
+      "signature": "481db784899bb95b0f4d7698d8a2a4af56ea475ef5f8030850967d6372922f24",
+      "endpoint_count": 2
+    },
+    {
+      "dir": "021_state",
+      "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/dental-floss-picks.html?p=4",
+      "title": "Dental Floss & Picks - Oral Care - Beauty & Personal Care",
+      "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\02-drive\\trace\\26_10_08_11_46_19-min\\drive\\screenshots\\028_beauty-personal-care_oral-care_dental-floss-picks_html",
+      "duplicate_snapshots": [],
+      "signature": "6d87a3ffc6deabddbe0fa21779a85b17ce76dda4973ce2251822179171cc6f5d",
+      "endpoint_count": 0
+    },
+    {
+      "dir": "022_state",
+      "url": "http://127.0.0.1:7770/dental-floss-fresh-up-mint-50-m-per-pack-pack-of-4.html",
+      "title": "Dental Floss Fresh up Mint 50 M Per Pack (Pack of 4)",
+      "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\02-drive\\trace\\26_10_08_11_46_19-min\\drive\\screenshots\\029_dental-floss-fresh-up-mint-50-m-per-pack-pack-of-4_html",
+      "duplicate_snapshots": [
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\02-drive\\trace\\26_10_08_11_46_19-min\\drive\\screenshots\\030_dental-floss-fresh-up-mint-50-m-per-pack-pack-of-4_html"
+      ],
+      "signature": "c6e2582a5f3bd6af42a5d689fa718745ce66f76fe8f24b63f2f8105e59018c24",
+      "endpoint_count": 0
+    },
+    {
+      "dir": "023_state",
+      "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/orthodontic-supplies.html",
+      "title": "Orthodontic Supplies - Oral Care - Beauty & Personal Care",
+      "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\02-drive\\trace\\26_10_08_11_46_19-min\\drive\\screenshots\\031_beauty-personal-care_oral-care_orthodontic-supplies_html",
+      "duplicate_snapshots": [],
+      "signature": "7d368bd25dae5ab354f3050fc4c8b479e50becc891dc7538316bee49c79bd8d7",
+      "endpoint_count": 0
+    },
+    {
+      "dir": "024_state",
+      "url": "http://127.0.0.1:7770/50pcs-bag-disposable-plastic-elastic-placers-dental-elastic-rubber-band-dental-orthodontic-product-multi-color.html",
+      "title": "50Pcs/Bag Disposable Plastic Elastic Placers Dental Elastic Rubber Band Dental Orthodontic Product Multi Color",
+      "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\02-drive\\trace\\26_10_08_11_46_19-min\\drive\\screenshots\\032_50pcs-bag-disposable-plastic-elastic-placers-dental-elastic-",
+      "duplicate_snapshots": [],
+      "signature": "9c61be0ded5d27e9e1cc9079c2a5957b04d69f3e5edc0b22346e5cd2bdf490d9",
+      "endpoint_count": 0
+    },
+    {
+      "dir": "025_state",
+      "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/children-s-dental-care.html",
+      "title": "Children's Dental Care - Oral Care - Beauty & Personal Care",
+      "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\02-drive\\trace\\26_10_08_11_46_19-min\\drive\\screenshots\\033_beauty-personal-care_oral-care_children-s-dental-care_html",
+      "duplicate_snapshots": [],
+      "signature": "be92ba69b857732dfde43ea842d4bd25389f3c936514455a113990e754cc8bde",
+      "endpoint_count": 0
+    },
+    {
+      "dir": "026_state",
+      "url": "http://127.0.0.1:7770/3-sets-dental-mouth-prop-tongue-guard-right-left-134-bite-block-adult-children-kids.html",
+      "title": "3 Sets Dental Mouth Prop Tongue Guard Right Left 134℃ Bite Block Adult Children Kids",
+      "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\02-drive\\trace\\26_10_08_11_46_19-min\\drive\\screenshots\\034_3-sets-dental-mouth-prop-tongue-guard-right-left-134-bite-bl",
+      "duplicate_snapshots": [],
+      "signature": "e8df530faf32ac4c7f61ef1b8f1f0deadfdba5c26c2b3d8326c0d9f42cc2d4b3",
+      "endpoint_count": 0
+    },
+    {
+      "dir": "027_state",
+      "url": "http://127.0.0.1:7770/3-sets-dental-mouth-prop-tongue-guard-right-left-134-bite-block-adult-children-kids.html",
+      "title": "3 Sets Dental Mouth Prop Tongue Guard Right Left 134℃ Bite Block Adult Children Kids",
+      "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\02-drive\\trace\\26_10_08_11_46_19-min\\drive\\screenshots\\035_3-sets-dental-mouth-prop-tongue-guard-right-left-134-bite-bl",
+      "duplicate_snapshots": [],
+      "signature": "733e74a1f0b7ac472a626af55a4095dee4a90a608d0160604c75afa034d4bff5",
+      "endpoint_count": 0
+    },
+    {
+      "dir": "028_state",
+      "url": "http://127.0.0.1:7770/3-sets-dental-mouth-prop-tongue-guard-right-left-134-bite-block-adult-children-kids.html",
+      "title": "3 Sets Dental Mouth Prop Tongue Guard Right Left 134℃ Bite Block Adult Children Kids",
+      "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\02-drive\\trace\\26_10_08_11_46_19-min\\drive\\screenshots\\036_3-sets-dental-mouth-prop-tongue-guard-right-left-134-bite-bl",
+      "duplicate_snapshots": [],
+      "signature": "504ef67bea2b0e40f0f3876b0e248ca81c821f267c12fa8834e7679868d407cb",
+      "endpoint_count": 0
+    },
+    {
+      "dir": "029_state",
+      "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/oral-pain-relief.html",
+      "title": "Oral Pain Relief - Oral Care - Beauty & Personal Care",
+      "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\02-drive\\trace\\26_10_08_11_46_19-min\\drive\\screenshots\\037_beauty-personal-care_oral-care_oral-pain-relief_html",
+      "duplicate_snapshots": [
+        "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\02-drive\\trace\\26_10_08_11_46_19-min\\drive\\screenshots\\038_beauty-personal-care_oral-care_oral-pain-relief_html"
+      ],
+      "signature": "79f1d1653dd71d1cbcbb76efc07261b6962b9eaeb23ea207541a88e88f345c06",
+      "endpoint_count": 0
+    },
+    {
+      "dir": "030_state",
+      "url": "http://127.0.0.1:7770/beauty-personal-care/oral-care/oral-pain-relief.html?price=0-100",
+      "title": "Oral Pain Relief - Oral Care - Beauty & Personal Care",
+      "snapshot": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\experiments\\20261008\\controlled-v02\\02-drive\\trace\\26_10_08_11_46_19-min\\drive\\screenshots\\039_beauty-personal-care_oral-care_oral-pain-relief_html",
+      "duplicate_snapshots": [],
+      "signature": "1746e48a703b333ab3d9944a8a34fb46a49c789b7d3c7229cfce572d46778793",
+      "endpoint_count": 0
+    }
+  ],
+  "deduplication": "exact prepared input signature within run; no URL-only merging"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "http://127.0.0.1:7770/electronics.html?product_list_order=price",
+  "title": "Electronics",
+  "route": "/electronics.html",
+  "sources": {
+    "accessibility": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-112904-537744\\snapshots\\00020\\accessibility.json",
+    "sha256_AX": "561093296a1f3144050629403aea913d45a001f45bc25a22a113e5526da5f9c4"
+  },
+  "material_scope": "recorded UI and conservatively associated JSON responses"
+}

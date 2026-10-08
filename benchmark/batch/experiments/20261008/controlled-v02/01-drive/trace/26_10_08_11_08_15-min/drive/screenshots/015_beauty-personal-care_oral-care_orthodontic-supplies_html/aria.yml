@@ -1,0 +1,403 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - link "Skip to Content" [ref=e4] [cursor=pointer]:
+      - /url: "#contentarea"
+    - generic [ref=e5]:
+      - generic [ref=e6] [cursor=pointer]:
+        - text: 
+        - generic [ref=e7]: Toggle Nav
+      - link "store logo" [ref=e8] [cursor=pointer]:
+        - /url: http://127.0.0.1:7770/
+        - img "one_stop_market_logo" [ref=e9]
+      - generic [ref=e10]:
+        - link " My Cart" [ref=e11] [cursor=pointer]:
+          - /url: http://127.0.0.1:7770/checkout/cart/
+          - text: 
+          - generic [ref=e12]: My Cart
+        - text: 
+      - generic [ref=e16]:
+        - generic [ref=e17]:
+          - text: 
+          - generic [ref=e18]: Search
+        - combobox " Search" [ref=e20]
+  - tablist [ref=e22]:
+    - tab "Menu" [expanded] [ref=e23]:
+      - link "Menu" [ref=e24] [cursor=pointer]:
+        - /url: "#store.menu"
+    - tabpanel [ref=e25]:
+      - navigation [ref=e26]:
+        - menu [ref=e27]:
+          - listitem [ref=e28]:
+            - menuitem "Beauty & Personal Care " [ref=e29] [cursor=pointer]: Beauty & Personal Care 
+          - listitem [ref=e30]:
+            - menuitem "Sports & Outdoors " [ref=e31] [cursor=pointer]: Sports & Outdoors 
+          - listitem [ref=e32]:
+            - menuitem "Clothing, Shoes & Jewelry " [ref=e33] [cursor=pointer]: Clothing, Shoes & Jewelry 
+          - listitem [ref=e34]:
+            - menuitem "Home & Kitchen " [ref=e35] [cursor=pointer]: Home & Kitchen 
+          - listitem [ref=e36]:
+            - menuitem "Office Products " [ref=e37] [cursor=pointer]: Office Products 
+          - listitem [ref=e38]:
+            - menuitem "Tools & Home Improvement " [ref=e39] [cursor=pointer]: Tools & Home Improvement 
+          - listitem [ref=e40]:
+            - menuitem "Health & Household " [ref=e41] [cursor=pointer]: Health & Household 
+          - listitem [ref=e42]:
+            - menuitem "Patio, Lawn & Garden " [ref=e43] [cursor=pointer]: Patio, Lawn & Garden 
+          - listitem [ref=e44]:
+            - menuitem "Electronics " [ref=e45] [cursor=pointer]: Electronics 
+          - listitem [ref=e46]:
+            - menuitem "Cell Phones & Accessories " [ref=e47] [cursor=pointer]: Cell Phones & Accessories 
+          - listitem [ref=e48]:
+            - menuitem "Video Games " [ref=e49] [cursor=pointer]: Video Games 
+          - listitem [ref=e50]:
+            - menuitem "Grocery & Gourmet Food " [ref=e51] [cursor=pointer]: Grocery & Gourmet Food 
+    - tab "Account" [ref=e52]:
+      - link "Account" [ref=e53] [cursor=pointer]:
+        - /url: "#store.links"
+  - list [ref=e55]:
+    - listitem [ref=e56]:
+      - link "Home" [ref=e57] [cursor=pointer]:
+        - /url: http://127.0.0.1:7770/
+      - text: 
+    - listitem [ref=e58]:
+      - link "Beauty & Personal Care" [ref=e59] [cursor=pointer]:
+        - /url: http://127.0.0.1:7770/beauty-personal-care.html
+      - text: 
+    - listitem [ref=e60]:
+      - link "Oral Care" [ref=e61] [cursor=pointer]:
+        - /url: http://127.0.0.1:7770/beauty-personal-care/oral-care.html
+      - text: 
+    - listitem [ref=e62]:
+      - strong [ref=e63]: Orthodontic Supplies
+  - main [ref=e64]:
+    - heading "Orthodontic Supplies Items 1-12 of 407" [level=1] [ref=e66]: Orthodontic Supplies
+    - generic [ref=e67]:
+      - generic [ref=e68]:
+        - generic [ref=e69]:
+          - paragraph [ref=e70]: Items 1-12 of 407
+          - generic [ref=e71]:
+            - text: Sort By
+            - combobox "Sort By" [ref=e72]:
+              - option "Position" [selected]
+              - option "Product Name"
+              - option "Price"
+            - link " Set Descending Direction" [ref=e73] [cursor=pointer]:
+              - /url: "#"
+              - text: 
+              - generic [ref=e74]: Set Descending Direction
+        - list [ref=e76]:
+          - listitem [ref=e77]:
+            - generic [ref=e78]:
+              - link "Image" [ref=e79] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/elastic-ligature-threader-orthodontic-elastic-instruments-ortho-twirl-on-new-by-g-s-online-store.html
+                - img "Image" [ref=e82]
+              - generic [ref=e83]:
+                - strong [ref=e84]:
+                  - link "Elastic Ligature Threader Orthodontic Elastic Instruments Ortho Twirl ON New by G.S Online Store" [ref=e85] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/elastic-ligature-threader-orthodontic-elastic-instruments-ortho-twirl-on-new-by-g-s-online-store.html
+                - generic [ref=e88]: $8.09
+                - generic [ref=e90]:
+                  - button "Add to Cart" [ref=e93] [cursor=pointer]
+                  - generic [ref=e94]:
+                    - button "Add to Wish List" [ref=e95] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e96]: Add to Wish List
+                    - text: 
+          - listitem [ref=e97]:
+            - generic [ref=e98]:
+              - link "Image" [ref=e99] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/orthodontic-dental-retainers-dental-guard-grinding-clenching-guard-retainer-3pcs-with-storage-box.html
+                - img "Image" [ref=e102]
+              - generic [ref=e103]:
+                - strong [ref=e104]:
+                  - link "Orthodontic Dental Retainers, Dental Guard, Grinding, Clenching Guard, Retainer 3pcs with Storage Box" [ref=e105] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/orthodontic-dental-retainers-dental-guard-grinding-clenching-guard-retainer-3pcs-with-storage-box.html
+                - generic [ref=e108]: $21.99
+                - generic [ref=e110]:
+                  - button "Add to Cart" [ref=e113] [cursor=pointer]
+                  - generic [ref=e114]:
+                    - button "Add to Wish List" [ref=e115] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e116]: Add to Wish List
+                    - text: 
+          - listitem [ref=e117]:
+            - generic [ref=e118]:
+              - link "Image" [ref=e119] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/50pcs-bag-disposable-plastic-elastic-placers-dental-elastic-rubber-band-dental-orthodontic-product-multi-color.html
+                - img "Image" [ref=e122]
+              - generic [ref=e123]:
+                - strong [ref=e124]:
+                  - link "50Pcs/Bag Disposable Plastic Elastic Placers Dental Elastic Rubber Band Dental Orthodontic Product Multi Color" [ref=e125] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/50pcs-bag-disposable-plastic-elastic-placers-dental-elastic-rubber-band-dental-orthodontic-product-multi-color.html
+                - generic [ref=e128]: $15.85
+                - generic [ref=e130]:
+                  - button "Add to Cart" [ref=e133] [cursor=pointer]
+                  - generic [ref=e134]:
+                    - button "Add to Wish List" [ref=e135] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e136]: Add to Wish List
+                    - text: 
+          - listitem [ref=e137]:
+            - generic [ref=e138]:
+              - link "Image" [ref=e139] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/ddp-6-kidney-tray-stainless-steel-dental-holloware-instrument.html
+                - img "Image" [ref=e142]
+              - generic [ref=e143]:
+                - strong [ref=e144]:
+                  - link "DDP 6\" Kidney Tray Stainless Steel Dental HOLLOWARE Instrument" [ref=e145] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/ddp-6-kidney-tray-stainless-steel-dental-holloware-instrument.html
+                - generic [ref=e148]: $8.69
+                - generic [ref=e150]:
+                  - button "Add to Cart" [ref=e153] [cursor=pointer]
+                  - generic [ref=e154]:
+                    - button "Add to Wish List" [ref=e155] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e156]: Add to Wish List
+                    - text: 
+          - listitem [ref=e157]:
+            - generic [ref=e158]:
+              - link "Image" [ref=e159] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/5-bag-50-pcs-dental-orthodontic-bite-turbos-opener-tongue-tamers-bondable-hinge.html
+                - img "Image" [ref=e162]
+              - generic [ref=e163]:
+                - strong [ref=e164]:
+                  - link "5 bag/ 50 pcs Dental Orthodontic Bite Turbos Opener Tongue Tamers Bondable Hinge" [ref=e165] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/5-bag-50-pcs-dental-orthodontic-bite-turbos-opener-tongue-tamers-bondable-hinge.html
+                - generic [ref=e168]: $39.99
+                - generic [ref=e170]:
+                  - button "Add to Cart" [ref=e173] [cursor=pointer]
+                  - generic [ref=e174]:
+                    - button "Add to Wish List" [ref=e175] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e176]: Add to Wish List
+                    - text: 
+          - listitem [ref=e177]:
+            - generic [ref=e178]:
+              - link "Image" [ref=e179] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/dental-gutta-percha-endodontics-system-endodontic-heated-pen-with-2-tips-oral-care-tools-with-charging-base.html
+                - img "Image" [ref=e182]
+              - generic [ref=e183]:
+                - strong [ref=e184]:
+                  - link "Dental Gutta Percha Endodontics System Endodontic Heated Pen with 2 Tips Oral Care Tools with Charging Base" [ref=e185] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/dental-gutta-percha-endodontics-system-endodontic-heated-pen-with-2-tips-oral-care-tools-with-charging-base.html
+                - generic [ref=e188]: $55.99
+                - generic [ref=e190]:
+                  - button "Add to Cart" [ref=e193] [cursor=pointer]
+                  - generic [ref=e194]:
+                    - button "Add to Wish List" [ref=e195] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e196]: Add to Wish List
+                    - text: 
+          - listitem [ref=e197]:
+            - generic [ref=e198]:
+              - link "Image" [ref=e199] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/laja-imports-orringer-cheek-retractor-dental-orthodontic-stainless-steel.html
+                - img "Image" [ref=e202]
+              - generic [ref=e203]:
+                - strong [ref=e204]:
+                  - link "LAJA IMPORTS ORRINGER Cheek Retractor Dental Orthodontic Stainless Steel" [ref=e205] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/laja-imports-orringer-cheek-retractor-dental-orthodontic-stainless-steel.html
+                - generic [ref=e208]: $8.29
+                - generic [ref=e210]:
+                  - button "Add to Cart" [ref=e213] [cursor=pointer]
+                  - generic [ref=e214]:
+                    - button "Add to Wish List" [ref=e215] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e216]: Add to Wish List
+                    - text: 
+          - listitem [ref=e217]:
+            - generic [ref=e218]:
+              - link "Image" [ref=e219] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/orthodontic-retainer-case-orthodontic-retainer-container-dustproof-and-waterproof-denture-storage-box-for-orthodontic-retainer-case-blue.html
+                - img "Image" [ref=e222]
+              - generic [ref=e223]:
+                - strong [ref=e224]:
+                  - link "Orthodontic Retainer Case, Orthodontic Retainer Container Dustproof and Waterproof Denture Storage Box for Orthodontic Retainer Case(blue)" [ref=e225] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/orthodontic-retainer-case-orthodontic-retainer-container-dustproof-and-waterproof-denture-storage-box-for-orthodontic-retainer-case-blue.html
+                - generic [ref=e228]: $6.79
+                - generic [ref=e230]:
+                  - button "Add to Cart" [ref=e233] [cursor=pointer]
+                  - generic [ref=e234]:
+                    - button "Add to Wish List" [ref=e235] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e236]: Add to Wish List
+                    - text: 
+          - listitem [ref=e237]:
+            - generic [ref=e238]:
+              - link "Image" [ref=e239] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/10-pieces-aligner-chewies-trays-white-aligner-chompers-aligner-trays-seater-chewies-original-scent-dental-chewies.html
+                - img "Image" [ref=e242]
+              - generic [ref=e243]:
+                - strong [ref=e244]:
+                  - link "10 Pieces Aligner Chewies Trays White Aligner Chompers Aligner Trays Seater Chewies Original Scent Dental Chewies" [ref=e245] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/10-pieces-aligner-chewies-trays-white-aligner-chompers-aligner-trays-seater-chewies-original-scent-dental-chewies.html
+                - generic [ref=e248]: $7.49
+                - generic [ref=e250]:
+                  - button "Add to Cart" [ref=e253] [cursor=pointer]
+                  - generic [ref=e254]:
+                    - button "Add to Wish List" [ref=e255] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e256]: Add to Wish List
+                    - text: 
+          - listitem [ref=e257]:
+            - generic [ref=e258]:
+              - link "Image" [ref=e259] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/german-dental-elevator-straight-4pc-blue-1-5-2-0-3-0-4-0-orthodontic-instruments-cynamed.html
+                - img "Image" [ref=e399]
+              - generic [ref=e262]:
+                - strong [ref=e263]:
+                  - link "German Dental Elevator Straight 4PC Blue 1.5, 2.0,3.0,4.0 Orthodontic Instruments (CYNAMED)" [ref=e264] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/german-dental-elevator-straight-4pc-blue-1-5-2-0-3-0-4-0-orthodontic-instruments-cynamed.html
+                - generic [ref=e267]: $18.10
+                - generic [ref=e269]:
+                  - button "Add to Cart" [ref=e272] [cursor=pointer]
+                  - generic [ref=e273]:
+                    - button "Add to Wish List" [ref=e274] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e275]: Add to Wish List
+                    - text: 
+          - listitem [ref=e276]:
+            - generic [ref=e277]:
+              - link "Image" [ref=e278] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/boromed-orthodontic-flush-cut-and-hold-distal-end-cutter-germany-tc-insert-long-handle.html
+                - img "Image" [ref=e400]
+              - generic [ref=e281]:
+                - strong [ref=e282]:
+                  - link "BOROMED Orthodontic Flush cut and Hold Distal End cutter-Germany TC insert Long Handle" [ref=e283] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/boromed-orthodontic-flush-cut-and-hold-distal-end-cutter-germany-tc-insert-long-handle.html
+                - generic [ref=e286]: $49.00
+                - generic [ref=e288]:
+                  - button "Add to Cart" [ref=e291] [cursor=pointer]
+                  - generic [ref=e292]:
+                    - button "Add to Wish List" [ref=e293] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e294]: Add to Wish List
+                    - text: 
+          - listitem [ref=e295]:
+            - generic [ref=e296]:
+              - link "Image" [ref=e297] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/gugxiom-dental-orthodontic-treatment-malocclusion-study-teeth-model-with-wire-chain.html
+                - img "Image" [ref=e401]
+              - generic [ref=e300]:
+                - strong [ref=e301]:
+                  - link "Gugxiom Dental Orthodontic Treatment Malocclusion Study Teeth Model with Wire Chain" [ref=e302] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/gugxiom-dental-orthodontic-treatment-malocclusion-study-teeth-model-with-wire-chain.html
+                - generic [ref=e305]: $32.29
+                - generic [ref=e307]:
+                  - button "Add to Cart" [ref=e310] [cursor=pointer]
+                  - generic [ref=e311]:
+                    - button "Add to Wish List" [ref=e312] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e313]: Add to Wish List
+                    - text: 
+        - generic [ref=e315]:
+          - strong [ref=e316]: Page
+          - list "Page" [ref=e317]:
+            - listitem [ref=e318]:
+              - strong [ref=e319]:
+                - generic [ref=e320]: You're currently reading page
+                - text: "1"
+            - listitem [ref=e321]:
+              - link "Page 2" [ref=e322] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/beauty-personal-care/oral-care/orthodontic-supplies.html?p=2
+                - generic [ref=e323]: Page
+                - text: "2"
+            - listitem [ref=e324]:
+              - link "Page 3" [ref=e325] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/beauty-personal-care/oral-care/orthodontic-supplies.html?p=3
+                - generic [ref=e326]: Page
+                - text: "3"
+            - listitem [ref=e327]:
+              - link "Page 4" [ref=e328] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/beauty-personal-care/oral-care/orthodontic-supplies.html?p=4
+                - generic [ref=e329]: Page
+                - text: "4"
+            - listitem [ref=e330]:
+              - link "Page 5" [ref=e331] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/beauty-personal-care/oral-care/orthodontic-supplies.html?p=5
+                - generic [ref=e332]: Page
+                - text: "5"
+            - listitem [ref=e333]:
+              - link " Page Next" [ref=e334] [cursor=pointer]:
+                - /url: http://127.0.0.1:7770/beauty-personal-care/oral-care/orthodontic-supplies.html?p=2
+                - text: 
+                - generic [ref=e335]: Page
+                - generic [ref=e336]: Next
+      - generic [ref=e338]:
+        - strong [ref=e340]: Shop By
+        - generic [ref=e341]:
+          - heading "Shopping Options" [level=2] [ref=e342]
+          - generic [ref=e343]:
+            - heading "Price" [level=3] [ref=e344]
+            - definition [ref=e345]:
+              - list [ref=e346]:
+                - listitem [ref=e347]:
+                  - link "$0.00 - $99.99( 395 item )" [ref=e348] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/beauty-personal-care/oral-care/orthodontic-supplies.html?price=0-100
+                    - text: $0.00 - $99.99
+                    - generic [ref=e349]:
+                      - text: ( 395
+                      - generic [ref=e350]: item
+                      - text: )
+                - listitem [ref=e351]:
+                  - link "$100.00 - $199.99( 9 item )" [ref=e352] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/beauty-personal-care/oral-care/orthodontic-supplies.html?price=100-200
+                    - text: $100.00 - $199.99
+                    - generic [ref=e353]:
+                      - text: ( 9
+                      - generic [ref=e354]: item
+                      - text: )
+                - listitem [ref=e355]:
+                  - link "$200.00 - $299.99( 2 item )" [ref=e356] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/beauty-personal-care/oral-care/orthodontic-supplies.html?price=200-300
+                    - text: $200.00 - $299.99
+                    - generic [ref=e357]:
+                      - text: ( 2
+                      - generic [ref=e358]: item
+                      - text: )
+                - listitem [ref=e359]:
+                  - link "$400.00 and above( 1 item )" [ref=e360] [cursor=pointer]:
+                    - /url: http://127.0.0.1:7770/beauty-personal-care/oral-care/orthodontic-supplies.html?price=400-500
+                    - text: $400.00 and above
+                    - generic [ref=e361]:
+                      - text: ( 1
+                      - generic [ref=e362]: item
+                      - text: )
+      - generic [ref=e363]:
+        - generic [ref=e364]:
+          - heading "Compare Products" [level=2] [ref=e366]
+          - generic [ref=e367]: You have no items to compare.
+        - generic [ref=e368]:
+          - heading "My Wish List" [level=2] [ref=e370]
+          - generic [ref=e372]: You have no items in your wish list.
+  - contentinfo [ref=e373]:
+    - generic [ref=e374]:
+      - generic [ref=e377]:
+        - generic [ref=e379]:
+          - text: 
+          - generic [ref=e380]:
+            - generic [ref=e381]: "Sign Up for Our Newsletter:"
+            - textbox "Sign Up for Our Newsletter:" [ref=e382]:
+              - /placeholder: Enter your email address
+        - button "Subscribe" [ref=e384] [cursor=pointer]
+      - list [ref=e385]:
+        - listitem [ref=e386]:
+          - link "Privacy and Cookie Policy" [ref=e387] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/privacy-policy-cookie-restriction-mode/
+        - listitem [ref=e388]:
+          - link "Search Terms" [ref=e389] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/search/term/popular/
+        - listitem [ref=e390]:
+          - link "Advanced Search" [ref=e391] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/catalogsearch/advanced/
+        - listitem [ref=e392]:
+          - link "Orders and Returns" [ref=e393] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/sales/guest/form/
+        - listitem [ref=e394]:
+          - link "Contact Us" [ref=e395] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/contact/
+      - generic [ref=e396]: Copyright © 2013-present Magento, Inc. All rights reserved.
+      - generic [ref=e397]:
+        - text: Help Us Keep Magento Healthy
+        - link "Report All Bugs" [ref=e398] [cursor=pointer]:
+          - /url: http://www.magentocommerce.com/bug-tracking

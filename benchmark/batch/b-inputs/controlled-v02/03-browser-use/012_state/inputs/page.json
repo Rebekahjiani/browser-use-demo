@@ -1,0 +1,10 @@
+{
+  "url": "http://127.0.0.1:7770/catalogsearch/result/?q=camera",
+  "title": "Search results for: 'camera'",
+  "route": "/catalogsearch/result/",
+  "sources": {
+    "accessibility": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\outputs\\20261008-122835-137305\\snapshots\\00026\\accessibility.json",
+    "sha256_AX": "0b52357a6be2aceba5cfd7c54ae2a0ca72da141be025861a3ed3de075ec64b68"
+  },
+  "material_scope": "recorded UI and conservatively associated JSON responses"
+}

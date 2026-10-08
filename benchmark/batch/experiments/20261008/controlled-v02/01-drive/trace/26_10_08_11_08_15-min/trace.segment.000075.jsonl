@@ -1,0 +1,12 @@
+{"args":{"name":"swapper"},"cat":"__metadata","name":"thread_name","ph":"M","pid":0,"tid":0,"ts":0}
+{"args":{"name":"CrRendererMain"},"cat":"__metadata","name":"thread_name","ph":"M","pid":39388,"tid":20720,"ts":0}
+{"args":{"name":"Renderer"},"cat":"__metadata","name":"process_name","ph":"M","pid":39388,"tid":0,"ts":0}
+{"args":{"uptime":"1117"},"cat":"__metadata","name":"process_uptime_seconds","ph":"M","pid":39388,"tid":0,"ts":0}
+{"args":{"args":{"had_user_input_before_interactive":true,"total_blocking_time_ms":142.498},"frame":""},"cat":"loading,rail","name":"InteractiveTime","ph":"R","pid":39388,"s":"t","tid":20720,"ts":1547793193899}
+{"args":{"snapshot":{"documentLoaderURL":"http://127.0.0.1:7770/mouth-guard-moldable-nightguard-for-grinding-teeth-at-night-whitening-tray-4-pack-upgraded-night-guards-to-keep-calm-professional-comfortable-mouthguards-for-sleep-2-sizes.html","frame":{"id_ref":"E42C032F4AD866337E63F1AFCB2DA291"},"isLoadingMainFrame":true,"isOutermostMainFrame":true}},"cat":"loading","name":"FrameLoader:state_snapshot","ph":"I","pid":39388,"s":"t","tid":20720,"ts":1547973646147,"tts":20063578}
+{"args":{},"cat":"loading","name":"FrameLoader:deleted","ph":"I","pid":39388,"s":"t","tid":20720,"ts":1547973646193,"tts":20063611}
+{"args":{"substracted_bytes":0,"total_bytes_buffered":0},"cat":"loading","dur":3,"name":"BackForwardCacheBufferLimitTracker::DidRemoveFrameOrWorkerFromBackForwardCache","ph":"X","pid":39388,"tdur":3,"tid":20720,"ts":1547973646195,"tts":20063613}
+{"args":{},"cat":"loading","id":0,"name":"FrameLoader:state_snapshot","ph":"s","pid":39388,"tid":20720,"ts":1547973646147}
+{"args":{},"bp":"e","cat":"loading","id":0,"name":"FrameLoader:state_snapshot","ph":"f","pid":39388,"tid":20720,"ts":1547973646193}
+{"args":{"context":{"URL":"","domModifications":5,"firstContentfulPaint":1547792440838,"paintedArea":262687,"performanceTimelineNavigationId":0,"processingEnd":1547792422920,"softNavContextId":35,"timeOrigin":1547792420471,"urlChangeTime":0}},"cat":"loading","id2":{"local":"0x4"},"name":"SoftNavigationHeuristics::SoftNavigationContextWasExhausted","ph":"n","pid":39388,"tid":20720,"ts":1547973647437}
+{"args":{"context":{"URL":"","domModifications":8,"firstContentfulPaint":0,"paintedArea":5168,"performanceTimelineNavigationId":0,"processingEnd":1547793577787,"softNavContextId":40,"timeOrigin":1547793575265,"urlChangeTime":0}},"cat":"loading","id2":{"local":"0x4"},"name":"SoftNavigationHeuristics::SoftNavigationContextWasExhausted","ph":"n","pid":39388,"tid":20720,"ts":1547973647462}

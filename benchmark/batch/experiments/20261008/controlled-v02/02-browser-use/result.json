@@ -1,0 +1,39 @@
+{
+  "stop_reason": "agent_done",
+  "errors": [
+    "1 validation error for AgentOutput\n  Invalid JSON: expected ident at line 1 column 2 [type=json_invalid, input_value='I\\'m on the Beauty & Per...n      }\\n    }\\n  ]\\n}', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid",
+    "Model output was truncated at max_completion_tokens=4096; the structured output is incomplete. Increase max_completion_tokens or request shorter output.",
+    "Model output was truncated at max_completion_tokens=4096; the structured output is incomplete. Increase max_completion_tokens or request shorter output.",
+    "Model output was truncated at max_completion_tokens=4096; the structured output is incomplete. Increase max_completion_tokens or request shorter output."
+  ],
+  "profile_ids": [
+    "49292171-3319-4f7b-abc2-4e2e940e106b"
+  ],
+  "steps": 23,
+  "tool_attempts": 18,
+  "pages_visited": 6,
+  "visited_urls": [
+    "http://127.0.0.1:7770/",
+    "http://127.0.0.1:7770/beauty-personal-care.html",
+    "http://127.0.0.1:7770/beauty-personal-care.html?cat=15",
+    "http://127.0.0.1:7770/catalogsearch/result/?q=tea",
+    "http://127.0.0.1:7770/checkout/cart/",
+    "http://127.0.0.1:7770/tweezers-for-succulents-duo.html"
+  ],
+  "elapsed_including_cleanup_s": 603.188000000082,
+  "exploration_s": 602.0160000000615,
+  "capture_errors": 0,
+  "unattached_targets": [],
+  "trace_quality": [
+    {
+      "path": "trace\\26_10_08_12_01_59-min\\trace.segments.summary.json",
+      "totalSegments": 41,
+      "failedSegments": 0,
+      "maxSwitchGapMs": 5386,
+      "dataLossOccurred": true
+    }
+  ],
+  "evidence_needs_review": true,
+  "agent_claimed_success": true,
+  "finished_at": "2026-10-08T04:12:03.879030+00:00"
+}

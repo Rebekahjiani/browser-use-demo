@@ -1,0 +1,273 @@
+- RootWebArea "oceansEdge11 Classic Christmas Theme Disposable_Face_Mäsks for Adult,3-ply Face Protection for Outdoor Sport Bicycle Mountain Bike" [url="http://127.0.0.1:7770/oceansedge11-classic-christmas-theme-disposable-face-masks-for-adult-3-ply-face-protection-for-outdoor-sport-bicycle-mountain-bike.html"]
+  - generic
+    - banner
+      - generic
+        - link "Skip to Content" [url="http://127.0.0.1:7770/oceansedge11-classic-christmas-theme-disposable-face-masks-for-adult-3-ply-face-protection-for-outdoor-sport-bicycle-mountain-bike.html#contentarea"]
+          - StaticText "Skip to Content"
+      - generic
+        - generic
+          - generic
+            - StaticText ""
+          - StaticText "Toggle Nav"
+        - link "store logo" [url="http://127.0.0.1:7770/"]
+          - image "one_stop_market_logo" [url="http://127.0.0.1:7770/media/logo/websites/1/image_15__1.png"]
+        - generic
+          - link " My Cart" [url="http://127.0.0.1:7770/checkout/cart/"]
+            - generic
+              - StaticText ""
+            - StaticText "My Cart"
+        - form
+          - LabelText
+            - generic
+              - StaticText ""
+            - StaticText "Search"
+          - generic
+            - combobox " Search" [expanded=false]
+              - generic
+    - generic
+      - tablist
+        - tab "Menu" [selected=false] [expanded=true]
+          - link "Menu" [url="http://127.0.0.1:7770/oceansedge11-classic-christmas-theme-disposable-face-masks-for-adult-3-ply-face-protection-for-outdoor-sport-bicycle-mountain-bike.html#store.menu"]
+            - StaticText "Menu"
+        - tabpanel
+          - navigation
+            - menu
+              - menuitem "BEAUTY & PERSONAL CARE "
+                - StaticText "BEAUTY & PERSONAL CARE"
+                - generic
+                  - StaticText ""
+              - menuitem "SPORTS & OUTDOORS "
+                - StaticText "SPORTS & OUTDOORS"
+                - generic
+                  - StaticText ""
+              - menuitem "CLOTHING, SHOES & JEWELRY "
+                - StaticText "CLOTHING, SHOES & JEWELRY"
+                - generic
+                  - StaticText ""
+              - menuitem "HOME & KITCHEN "
+                - StaticText "HOME & KITCHEN"
+                - generic
+                  - StaticText ""
+              - menuitem "OFFICE PRODUCTS "
+                - StaticText "OFFICE PRODUCTS"
+                - generic
+                  - StaticText ""
+              - menuitem "TOOLS & HOME IMPROVEMENT "
+                - StaticText "TOOLS & HOME IMPROVEMENT"
+                - generic
+                  - StaticText ""
+              - menuitem "HEALTH & HOUSEHOLD "
+                - StaticText "HEALTH & HOUSEHOLD"
+                - generic
+                  - StaticText ""
+              - menuitem "PATIO, LAWN & GARDEN "
+                - StaticText "PATIO, LAWN & GARDEN"
+                - generic
+                  - StaticText ""
+              - menuitem "ELECTRONICS "
+                - StaticText "ELECTRONICS"
+                - generic
+                  - StaticText ""
+              - menuitem "CELL PHONES & ACCESSORIES "
+                - StaticText "CELL PHONES & ACCESSORIES"
+                - generic
+                  - StaticText ""
+              - menuitem "VIDEO GAMES "
+                - StaticText "VIDEO GAMES"
+                - generic
+                  - StaticText ""
+              - menuitem "GROCERY & GOURMET FOOD "
+                - StaticText "GROCERY & GOURMET FOOD"
+                - generic
+                  - StaticText ""
+        - tab "Account" [selected=false] [expanded=false]
+          - link "Account" [url="http://127.0.0.1:7770/oceansedge11-classic-christmas-theme-disposable-face-masks-for-adult-3-ply-face-protection-for-outdoor-sport-bicycle-mountain-bike.html#store.links"]
+            - StaticText "Account"
+    - list
+      - listitem [level=1]
+        - link "Home" [url="http://127.0.0.1:7770/"]
+          - StaticText "Home"
+        - generic
+          - StaticText ""
+      - listitem [level=1]
+        - link "Beauty & Personal Care" [url="http://127.0.0.1:7770/beauty-personal-care.html"]
+          - StaticText "Beauty & Personal Care"
+        - generic
+          - StaticText ""
+      - listitem [level=1]
+        - link "Oral Care" [url="http://127.0.0.1:7770/beauty-personal-care/oral-care.html"]
+          - StaticText "Oral Care"
+        - generic
+          - StaticText ""
+      - listitem [level=1]
+        - link "Breath Fresheners" [url="http://127.0.0.1:7770/beauty-personal-care/oral-care/breath-fresheners.html"]
+          - StaticText "Breath Fresheners"
+        - generic
+          - StaticText ""
+      - listitem [level=1]
+        - strong
+          - StaticText "oceansEdge11 Classic Christmas Theme Disposable_Face_Mäsks for Adult,3-ply Face Protection for Outdoor Sport Bicycle Mountain Bike"
+    - main
+      - generic
+      - heading "oceansEdge11 Classic Christmas Theme Disposable_Face_Mäsks for Adult,3-ply Face Protection for Outdoor Sport Bicycle Mountain Bike" [level=1]
+        - StaticText "oceansEdge11 Classic Christmas Theme Disposable_Face_Mäsks for Adult,3-ply Face Protection for Outdoor Sport Bicycle Mountain Bike"
+      - generic
+        - generic
+          - StaticText "IN STOCK"
+        - generic
+          - strong
+            - StaticText "SKU"
+          - generic
+            - StaticText "B08NJWH76S"
+      - LayoutTable
+        - generic
+          - link "Be the first to review this product" [url="http://127.0.0.1:7770/oceansedge11-classic-christmas-theme-disposable-face-masks-for-adult-3-ply-face-protection-for-outdoor-sport-bicycle-mountain-bike.html#review-form"]
+            - StaticText "Be the first to review this product"
+      - generic
+        - generic
+          - StaticText "$10.88"
+      - form
+        - LabelText
+          - StaticText "Qty"
+        - generic
+          - spinbutton "Qty" [value=1]
+            - generic
+              - StaticText "1"
+        - button "Add to Cart"
+          - StaticText "Add to Cart"
+        - generic
+      - generic
+        - link "Add to Wish List" [url="http://127.0.0.1:7770/oceansedge11-classic-christmas-theme-disposable-face-masks-for-adult-3-ply-face-protection-for-outdoor-sport-bicycle-mountain-bike.html#"]
+          - StaticText "Add to Wish List"
+      - generic
+      - generic
+        - link "Skip to the end of the images gallery" [url="http://127.0.0.1:7770/oceansedge11-classic-christmas-theme-disposable-face-masks-for-adult-3-ply-face-protection-for-outdoor-sport-bicycle-mountain-bike.html#gallery-next-area"]
+          - StaticText "Skip to the end of the images gallery"
+      - generic
+        - generic
+        - generic
+        - generic
+          - generic
+            - button "Previous"
+              - generic
+            - generic
+              - generic
+                - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/829a59e57f886f8cf0598ffca4f8a940/B/0/B08NJWH76S.1.jpg"]
+            - button "Next"
+              - generic
+          - generic
+            - generic
+              - button "Image"
+                - generic
+              - button "Image"
+                - generic
+        - generic
+      - generic
+        - link "Skip to the beginning of the images gallery" [url="http://127.0.0.1:7770/oceansedge11-classic-christmas-theme-disposable-face-masks-for-adult-3-ply-face-protection-for-outdoor-sport-bicycle-mountain-bike.html#gallery-prev-area"]
+          - StaticText "Skip to the beginning of the images gallery"
+      - generic
+      - tablist
+        - tab "Details" [selected=false] [expanded=true]
+          - link "Details" [url="http://127.0.0.1:7770/oceansedge11-classic-christmas-theme-disposable-face-masks-for-adult-3-ply-face-protection-for-outdoor-sport-bicycle-mountain-bike.html#description"]
+            - StaticText "Details"
+        - tabpanel "Details"
+          - generic
+          - generic
+          - generic
+            - heading "Product Quick Look" [level=2]
+              - StaticText "Product Quick Look"
+            - generic
+              - list
+                - listitem [level=1]
+                  - ListMarker "•"
+                  - StaticText "✔????✅Disposable Women Face_Mask ----【Lightweight and Protection 】 ✔????✅Disposable Adults Face_Mask ----【Breathable & Comfortable】 ✔????✅Disposable Breathable Face_Masks for Women Men ---- ????✅【Made in USA Or Imported】 ✔????✅Lightweight Face_Masks for Adults ----【Wide Application】 ✔????✅pcs Pack Face_Mask for Women Face_Masks For Teachers face_mask_shields protective Safety_Face Protection Face_Mask Cotton Face_Mask Reusable Breathable Face_Mask For Women men Breathable Face_Mask For Working Out Cotton Face_Mask with nose wire Cotton Face_Mask Reusable adult pack cotton face_mask reusable with filter pocket cotton face_mask for teen girls adjustable large Face Bandanas Disposable Face_Mask Face_Masks Disposable for Protection Disposable_masks for kids disposable face_mask disposable Adult Disposable Face_Masks with designs Christmas_Disposable_Face_Macks Adult Printed Disposable_Masks With Elastic Ear Loop Breathable Face_mask for womens mens Pink Disposable Face_Mask Lightweight Breathable Disposable Face_Mask Disposable 3 Ply Earloop Face_Masks Breathable_Mask for Face Anti Dust Pollen face visor_shields face_coverings for women face_covers with filters 30 50 10 20 30 100 150 200 500 ✔✔Fast Shipping 6-12 Days✔✔ ✔✔Shipping & Handling✔✔ ★ All Items Will Be Checked And Packed Well Before Shipping ★ Item Will Be Shipped Within 24 Hours After Payment Received ✔✔100% Money-Back Guarantee：Enjoy Yourself,any Dissatisfaction Can Be Refunded Or Replacement,Totally Risk Free. So Why Not Give It A Try ? So Just Buy With Confidence Now"
+                - listitem [level=1]
+                  - ListMarker "•"
+                  - StaticText "✔[7-15 days delivery!!! ] ✅Perfect Protection With Comfort:It's breathable and lightweight that increases comfort in use. Our neck gaiter keeps you cool in the sun and warm in cold weather. And it can help protect you from harmful UV and guards you against wind and dust."
+                - listitem [level=1]
+                  - ListMarker "•"
+                  - StaticText "✔[7-15 days delivery!!! ] ✅Versatile Design : There is A Wide Variety Of Ways To Configure .Wear It As A Neck Warmer , Headband , Face_Cover , Hair-Band , Balaclava , Face Scarf , Bandana , Ear Warmer , Head_Cover,Mouth_Cover , Pirate, Neckerchief, Beanie Cap, Do-Rag, Hood And Wristband."
+                - listitem [level=1]
+                  - ListMarker "•"
+                  - StaticText "✔[7-15 days delivery!!! ] ✅Wearing It As A Face Or Neck Gaiter Can Protect Your Face, Head, Neck And Ears From Being Over Exposed To The Harmful Rays Of The Sun And Keep Your Nose, Mouth Clean From Breathing Dust.And Its Length Can Be Changed At Will According To Its Contours To Prevent Leaving On The Body After Taking Off. Protects Your Mouth And Face From Dust, Cold, Dust, Pollen, Allergies, Fog And Haze, Exhaust Emissions, Passive Smoking, And More."
+                - listitem [level=1]
+                  - ListMarker "•"
+                  - StaticText "✔[7-15 days delivery!!! ] ✅Lightweight&Breathable:The moisture wicking fabric transfers heat and humidity away from your body and outside of the seamless bandana, keeping you cool. The quick dry fabric technology lets your bandana dry in minutes, instead of hours. Wear it as a face bandana to protect your face from getting burned from the sun!"
+                - listitem [level=1]
+                  - ListMarker "•"
+                  - StaticText "✔[7-15 days delivery!!! ] ✅The Protective Bandanas is made of non-woven fabric to keep your face soft and comfortable and keep your face warm in cold weather.The Protective Bandanas can be folded for easy carrying."
+            - table
+              - row
+                - rowheader "Manufacturer"
+                  - StaticText "Manufacturer"
+                - cell "‎Sagton"
+                  - StaticText "‎Sagton"
+              - row
+                - rowheader "Brand"
+                  - StaticText "Brand"
+                - cell "‎OceansEdge11"
+                  - StaticText "‎OceansEdge11"
+              - row
+                - rowheader "Color"
+                  - StaticText "Color"
+                - cell "‎D:40pcs"
+                  - StaticText "‎D:40pcs"
+              - row
+                - rowheader "Material Type"
+                  - StaticText "Material Type"
+                - cell "‎Christmas Decorations"
+                  - StaticText "‎Christmas Decorations"
+              - row
+                - rowheader "Size"
+                  - StaticText "Size"
+                - cell "‎Free"
+                  - StaticText "‎Free"
+              - row
+                - rowheader "Manufacturer Part Number"
+                  - StaticText "Manufacturer Part Number"
+                - cell "‎Sagton"
+                  - StaticText "‎Sagton"
+              - row
+                - rowheader "Date First Available"
+                  - StaticText "Date First Available"
+                - cell "November 17, 2020"
+                  - StaticText "November 17, 2020"
+        - tab "Reviews" [selected=false] [expanded=false]
+          - link "Reviews" [url="http://127.0.0.1:7770/oceansedge11-classic-christmas-theme-disposable-face-masks-for-adult-3-ply-face-protection-for-outdoor-sport-bicycle-mountain-bike.html#reviews"]
+            - StaticText "Reviews"
+    - contentinfo
+      - form
+        - generic
+          - generic
+            - StaticText ""
+          - LabelText
+            - StaticText "Sign Up for Our Newsletter:"
+            - textbox "Sign Up for Our Newsletter:"
+              - generic
+        - generic
+          - button "Subscribe"
+            - StaticText "Subscribe"
+      - list
+        - listitem [level=1]
+          - link "Privacy and Cookie Policy" [url="http://127.0.0.1:7770/privacy-policy-cookie-restriction-mode/"]
+            - StaticText "Privacy and Cookie Policy"
+        - listitem [level=1]
+          - link "Search Terms" [url="http://127.0.0.1:7770/search/term/popular/"]
+            - StaticText "Search Terms"
+        - listitem [level=1]
+          - link "Advanced Search" [url="http://127.0.0.1:7770/catalogsearch/advanced/"]
+            - StaticText "Advanced Search"
+        - listitem [level=1]
+          - link "Orders and Returns" [url="http://127.0.0.1:7770/sales/guest/form/"]
+            - StaticText "Orders and Returns"
+        - listitem [level=1]
+          - link "Contact Us" [url="http://127.0.0.1:7770/contact/"]
+            - StaticText "Contact Us"
+      - generic
+        - StaticText "Copyright © 2013-present Magento, Inc. All rights reserved."
+      - generic
+        - StaticText "Help Us Keep Magento Healthy"
+        - StaticText
+        - link "Report All Bugs" [url="http://www.magentocommerce.com/bug-tracking"]
+          - StaticText "Report All Bugs"
+    - generic

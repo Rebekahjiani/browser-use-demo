@@ -1,0 +1,8 @@
+{"args":{"name":"swapper"},"cat":"__metadata","name":"thread_name","ph":"M","pid":0,"tid":0,"ts":0}
+{"args":{"name":"CrRendererMain"},"cat":"__metadata","name":"thread_name","ph":"M","pid":35296,"tid":45316,"ts":0}
+{"args":{"name":"Renderer"},"cat":"__metadata","name":"process_name","ph":"M","pid":35296,"tid":0,"ts":0}
+{"args":{"uptime":"503"},"cat":"__metadata","name":"process_uptime_seconds","ph":"M","pid":35296,"tid":0,"ts":0}
+{"args":{"substracted_bytes":0,"total_bytes_buffered":0},"cat":"loading","dur":25,"name":"BackForwardCacheBufferLimitTracker::DidRemoveFrameOrWorkerFromBackForwardCache","ph":"X","pid":35296,"tdur":6,"tid":45316,"ts":1549642675900,"tts":4501320}
+{"args":{},"cat":"loading","dur":5,"name":"DocumentLoader::~DocumentLoader","ph":"X","pid":35296,"tdur":3,"tid":45316,"ts":1549642679977,"tts":4505050}
+{"args":{"context":{"URL":"","domModifications":0,"firstContentfulPaint":0,"paintedArea":0,"performanceTimelineNavigationId":0,"processingEnd":1549615997136,"softNavContextId":14,"timeOrigin":1549615992243,"urlChangeTime":0}},"cat":"loading","id2":{"local":"0x3"},"name":"SoftNavigationHeuristics::SoftNavigationContextWasExhausted","ph":"n","pid":35296,"tid":45316,"ts":1549642675942}
+{"args":{"context":{"URL":"","domModifications":0,"firstContentfulPaint":0,"paintedArea":0,"performanceTimelineNavigationId":0,"processingEnd":1549615994961,"softNavContextId":13,"timeOrigin":1549615992162,"urlChangeTime":0}},"cat":"loading","id2":{"local":"0x3"},"name":"SoftNavigationHeuristics::SoftNavigationContextWasExhausted","ph":"n","pid":35296,"tid":45316,"ts":1549642675955}

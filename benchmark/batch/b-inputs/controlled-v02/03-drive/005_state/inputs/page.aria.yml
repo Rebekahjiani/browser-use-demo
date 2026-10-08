@@ -1,0 +1,493 @@
+- RootWebArea "One Stop Market" [url="http://127.0.0.1:7770/?pbaocw=2"]
+  - generic
+    - banner
+      - generic
+        - link "Skip to Content" [url="http://127.0.0.1:7770/?pbaocw=2#contentarea"]
+          - StaticText "Skip to Content"
+      - generic
+        - generic
+          - generic
+            - StaticText ""
+          - StaticText "Toggle Nav"
+        - link "store logo" [url="http://127.0.0.1:7770/"]
+          - image "one_stop_market_logo" [url="http://127.0.0.1:7770/media/logo/websites/1/image_15__1.png"]
+        - generic
+          - link " My Cart" [url="http://127.0.0.1:7770/checkout/cart/"]
+            - generic
+              - StaticText ""
+            - StaticText "My Cart"
+        - form
+          - LabelText
+            - generic
+              - StaticText ""
+            - StaticText "Search"
+          - generic
+            - combobox " Search" [expanded=false]
+              - generic
+    - generic
+      - tablist
+        - tab "Menu" [selected=false] [expanded=true]
+          - link "Menu" [url="http://127.0.0.1:7770/?pbaocw=2#store.menu"]
+            - StaticText "Menu"
+        - tabpanel
+          - navigation
+            - menu
+              - menuitem "BEAUTY & PERSONAL CARE "
+                - StaticText "BEAUTY & PERSONAL CARE"
+                - generic
+                  - StaticText ""
+              - menuitem "SPORTS & OUTDOORS "
+                - StaticText "SPORTS & OUTDOORS"
+                - generic
+                  - StaticText ""
+              - menuitem "CLOTHING, SHOES & JEWELRY "
+                - StaticText "CLOTHING, SHOES & JEWELRY"
+                - generic
+                  - StaticText ""
+              - menuitem "HOME & KITCHEN "
+                - StaticText "HOME & KITCHEN"
+                - generic
+                  - StaticText ""
+              - menuitem "OFFICE PRODUCTS "
+                - StaticText "OFFICE PRODUCTS"
+                - generic
+                  - StaticText ""
+              - menuitem "TOOLS & HOME IMPROVEMENT "
+                - StaticText "TOOLS & HOME IMPROVEMENT"
+                - generic
+                  - StaticText ""
+              - menuitem "HEALTH & HOUSEHOLD "
+                - StaticText "HEALTH & HOUSEHOLD"
+                - generic
+                  - StaticText ""
+              - menuitem "PATIO, LAWN & GARDEN "
+                - StaticText "PATIO, LAWN & GARDEN"
+                - generic
+                  - StaticText ""
+              - menuitem "ELECTRONICS "
+                - StaticText "ELECTRONICS"
+                - generic
+                  - StaticText ""
+              - menuitem "CELL PHONES & ACCESSORIES "
+                - StaticText "CELL PHONES & ACCESSORIES"
+                - generic
+                  - StaticText ""
+              - menuitem "VIDEO GAMES "
+                - StaticText "VIDEO GAMES"
+                - generic
+                  - StaticText ""
+              - menuitem "GROCERY & GOURMET FOOD "
+                - StaticText "GROCERY & GOURMET FOOD"
+                - generic
+                  - StaticText ""
+        - tab "Account" [selected=false] [expanded=false]
+          - link "Account" [url="http://127.0.0.1:7770/?pbaocw=2#store.links"]
+            - StaticText "Account"
+    - main
+      - generic
+      - heading "One Stop Market" [level=1]
+        - StaticText "One Stop Market"
+      - generic
+        - strong
+          - StaticText "Product Showcases"
+      - list
+        - listitem [level=1]
+          - link "Image" [url="http://127.0.0.1:7770/20-pcs-balls-cake-topper-mini-balloons-cake-topper-pearl-balls-cake-pick-foam-ball-cupcake-topper-baking-decoration-supplies-toothpick-party-wedding-anniversary-birthday-baby-shower-cake-decoration.html"]
+            - generic
+              - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B09GFC1D5R.0.jpg"]
+          - strong
+            - link "20 PCS Balls Cake Topper Mini Balloons Cake Topper Pearl Balls Cake Pick Foam Ball Cupcake Topper Baking Decoration Supplies Toothpick Party Wedding Anniversary Birthday Baby Shower Cake Decoration" [url="http://127.0.0.1:7770/20-pcs-balls-cake-topper-mini-balloons-cake-topper-pearl-balls-cake-pick-foam-ball-cupcake-topper-baking-decoration-supplies-toothpick-party-wedding-anniversary-birthday-baby-shower-cake-decoration.html"]
+              - StaticText "20 PCS Balls Cake Topper Mini Balloons Cake Topper Pearl Balls Cake Pick Foam Ball Cupcake Topper Baking Decoration Supplies Toothpick Party Wedding Anniversary Birthday Baby Shower Cake Decoration"
+          - LayoutTable
+            - generic
+              - StaticText "Rating:"
+              - generic
+                - generic
+                  - StaticText ""
+                - generic
+                  - StaticText ""
+                - StaticText "62%"
+            - generic
+              - link "11 Reviews" [url="http://127.0.0.1:7770/20-pcs-balls-cake-topper-mini-balloons-cake-topper-pearl-balls-cake-pick-foam-ball-cupcake-topper-baking-decoration-supplies-toothpick-party-wedding-anniversary-birthday-baby-shower-cake-decoration.html#reviews"]
+                - StaticText "11"
+                - StaticText "Reviews"
+          - generic
+            - generic
+              - StaticText "$9.49"
+          - generic
+            - generic
+              - form
+                - button "Add to Cart"
+                  - StaticText "Add to Cart"
+            - generic
+              - link " Add to Wish List" [url="http://127.0.0.1:7770/?pbaocw=2#"]
+                - generic
+                  - StaticText ""
+                - StaticText "Add to Wish List"
+        - listitem [level=1]
+          - link "Image" [url="http://127.0.0.1:7770/amosfun-100pcs-cupcake-toppers-flag-cake-flags-picks-cake-decoration-toothpick-for-party-cake-food-cheeseplate-appetizers-welsh.html"]
+            - generic
+              - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B07ZKR1S6W.0.jpg"]
+          - strong
+            - link "Amosfun 100pcs Cupcake Toppers Flag Cake Flags Picks Cake Decoration Toothpick for Party Cake Food Cheeseplate Appetizers (Welsh)" [url="http://127.0.0.1:7770/amosfun-100pcs-cupcake-toppers-flag-cake-flags-picks-cake-decoration-toothpick-for-party-cake-food-cheeseplate-appetizers-welsh.html"]
+              - StaticText "Amosfun 100pcs Cupcake Toppers Flag Cake Flags Picks Cake Decoration Toothpick for Party Cake Food Cheeseplate Appetizers (Welsh)"
+          - generic
+            - generic
+              - StaticText "$7.39"
+          - generic
+            - generic
+              - form
+                - button "Add to Cart"
+                  - StaticText "Add to Cart"
+            - generic
+              - link " Add to Wish List" [url="http://127.0.0.1:7770/?pbaocw=2#"]
+                - generic
+                  - StaticText ""
+                - StaticText "Add to Wish List"
+        - listitem [level=1]
+          - link "Image" [url="http://127.0.0.1:7770/lolo-collagen-creamer-vanilla-creme-for-coffee-or-tea-grass-fed-pasture-raised-collagen-keto-paleo-friendly-non-dairy.html"]
+            - generic
+              - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B088871V7W.0.jpg"]
+          - strong
+            - link "LoLo Collagen Creamer | Vanilla Creme | For Coffee or Tea | Grass-Fed, Pasture-Raised Collagen | Keto + Paleo Friendly | Non-Dairy" [url="http://127.0.0.1:7770/lolo-collagen-creamer-vanilla-creme-for-coffee-or-tea-grass-fed-pasture-raised-collagen-keto-paleo-friendly-non-dairy.html"]
+              - StaticText "LoLo Collagen Creamer | Vanilla Creme | For Coffee or Tea | Grass-Fed, Pasture-Raised Collagen | Keto + Paleo Friendly | Non-Dairy"
+          - LayoutTable
+            - generic
+              - StaticText "Rating:"
+              - generic
+                - generic
+                  - StaticText ""
+                - generic
+                  - StaticText ""
+                - StaticText "100%"
+            - generic
+              - link "1 Review" [url="http://127.0.0.1:7770/lolo-collagen-creamer-vanilla-creme-for-coffee-or-tea-grass-fed-pasture-raised-collagen-keto-paleo-friendly-non-dairy.html#reviews"]
+                - StaticText "1"
+                - StaticText "Review"
+          - generic
+            - generic
+              - StaticText "$34.99"
+          - generic
+            - generic
+              - form
+                - button "Add to Cart"
+                  - StaticText "Add to Cart"
+            - generic
+              - link " Add to Wish List" [url="http://127.0.0.1:7770/?pbaocw=2#"]
+                - generic
+                  - StaticText ""
+                - StaticText "Add to Wish List"
+        - listitem [level=1]
+          - link "Image" [url="http://127.0.0.1:7770/campbell-s-family-size-cream-of-chicken-soup-23oz-pack-of-3.html"]
+            - generic
+              - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B00N9I9B3C.0.jpg"]
+          - strong
+            - link "Campbell's FAMILY SIZE CREAM OF CHICKEN SOUP 23oz. (Pack of 3)" [url="http://127.0.0.1:7770/campbell-s-family-size-cream-of-chicken-soup-23oz-pack-of-3.html"]
+              - StaticText "Campbell's FAMILY SIZE CREAM OF CHICKEN SOUP 23oz. (Pack of 3)"
+          - generic
+            - generic
+              - StaticText "$19.99"
+          - generic
+            - generic
+              - form
+                - button "Add to Cart"
+                  - StaticText "Add to Cart"
+            - generic
+              - link " Add to Wish List" [url="http://127.0.0.1:7770/?pbaocw=2#"]
+                - generic
+                  - StaticText ""
+                - StaticText "Add to Wish List"
+        - listitem [level=1]
+          - link "Image" [url="http://127.0.0.1:7770/a-c-legg-inc-mesquite-marinade-seasoning.html"]
+            - generic
+              - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B00658AHFY.0.jpg"]
+          - strong
+            - link "A.C. Legg INC Mesquite Marinade Seasoning" [url="http://127.0.0.1:7770/a-c-legg-inc-mesquite-marinade-seasoning.html"]
+              - StaticText "A.C. Legg INC Mesquite Marinade Seasoning"
+          - LayoutTable
+            - generic
+              - StaticText "Rating:"
+              - generic
+                - generic
+                  - StaticText ""
+                - generic
+                  - StaticText ""
+                - StaticText "93%"
+            - generic
+              - link "3 Reviews" [url="http://127.0.0.1:7770/a-c-legg-inc-mesquite-marinade-seasoning.html#reviews"]
+                - StaticText "3"
+                - StaticText "Reviews"
+          - generic
+            - generic
+              - StaticText "$7.95"
+          - generic
+            - generic
+              - form
+                - button "Add to Cart"
+                  - StaticText "Add to Cart"
+            - generic
+              - link " Add to Wish List" [url="http://127.0.0.1:7770/?pbaocw=2#"]
+                - generic
+                  - StaticText ""
+                - StaticText "Add to Wish List"
+        - listitem [level=1]
+          - link "Image" [url="http://127.0.0.1:7770/evaxo-angostura-bitters-aromatic-4oz.html"]
+            - generic
+              - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B08GNG4ZW9.0.jpg"]
+          - strong
+            - link "Evaxo ANGOSTURA BITTERS AROMATIC 4OZ" [url="http://127.0.0.1:7770/evaxo-angostura-bitters-aromatic-4oz.html"]
+              - StaticText "Evaxo ANGOSTURA BITTERS AROMATIC 4OZ"
+          - generic
+            - generic
+              - StaticText "$51.47"
+          - generic
+            - generic
+              - form
+                - button "Add to Cart"
+                  - StaticText "Add to Cart"
+            - generic
+              - link " Add to Wish List" [url="http://127.0.0.1:7770/?pbaocw=2#"]
+                - generic
+                  - StaticText ""
+                - StaticText "Add to Wish List"
+        - listitem [level=1]
+          - link "Image" [url="http://127.0.0.1:7770/nunature-cocodate-dates-and-cacao-spread-100-natural-chocolate-date-spread-vegan-paleo-friendly-gluten-dairy-free-snack-non-gmo-sugar-free.html"]
+            - generic
+              - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B089P4DNJ6.0.jpg"]
+          - strong
+            - link "NUNATURE Cocodate Dates And Cacao Spread - 100% Natural Chocolate Date Spread, Vegan, Paleo Friendly, Gluten & Dairy Free Snack, Non-GMO, Sugar-free" [url="http://127.0.0.1:7770/nunature-cocodate-dates-and-cacao-spread-100-natural-chocolate-date-spread-vegan-paleo-friendly-gluten-dairy-free-snack-non-gmo-sugar-free.html"]
+              - StaticText "NUNATURE Cocodate Dates And Cacao Spread - 100% Natural Chocolate Date Spread, Vegan, Paleo Friendly, Gluten & Dairy Free Snack, Non-GMO, Sugar-free"
+          - LayoutTable
+            - generic
+              - StaticText "Rating:"
+              - generic
+                - generic
+                  - StaticText ""
+                - generic
+                  - StaticText ""
+                - StaticText "75%"
+            - generic
+              - link "12 Reviews" [url="http://127.0.0.1:7770/nunature-cocodate-dates-and-cacao-spread-100-natural-chocolate-date-spread-vegan-paleo-friendly-gluten-dairy-free-snack-non-gmo-sugar-free.html#reviews"]
+                - StaticText "12"
+                - StaticText "Reviews"
+          - generic
+            - generic
+              - StaticText "$12.99"
+          - generic
+            - generic
+              - form
+                - button "Add to Cart"
+                  - StaticText "Add to Cart"
+            - generic
+              - link " Add to Wish List" [url="http://127.0.0.1:7770/?pbaocw=2#"]
+                - generic
+                  - StaticText ""
+                - StaticText "Add to Wish List"
+        - listitem [level=1]
+          - link "Image" [url="http://127.0.0.1:7770/bon-appetit-apple-danish-5-ounce-pack-of-8.html"]
+            - generic
+              - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B07HP9GL79.0.jpg"]
+          - strong
+            - link "Bon Appetit Apple Danish, 5 Ounce (Pack of 8)" [url="http://127.0.0.1:7770/bon-appetit-apple-danish-5-ounce-pack-of-8.html"]
+              - StaticText "Bon Appetit Apple Danish, 5 Ounce (Pack of 8)"
+          - LayoutTable
+            - generic
+              - StaticText "Rating:"
+              - generic
+                - generic
+                  - StaticText ""
+                - generic
+                  - StaticText ""
+                - StaticText "78%"
+            - generic
+              - link "12 Reviews" [url="http://127.0.0.1:7770/bon-appetit-apple-danish-5-ounce-pack-of-8.html#reviews"]
+                - StaticText "12"
+                - StaticText "Reviews"
+          - generic
+            - generic
+              - StaticText "$19.12"
+          - generic
+            - generic
+              - form
+                - button "Add to Cart"
+                  - StaticText "Add to Cart"
+            - generic
+              - link " Add to Wish List" [url="http://127.0.0.1:7770/?pbaocw=2#"]
+                - generic
+                  - StaticText ""
+                - StaticText "Add to Wish List"
+        - listitem [level=1]
+          - link "Image" [url="http://127.0.0.1:7770/not-a-case-original-concentrated-hot-curry-paste-tomato-cumin-and-chile.html"]
+            - generic
+              - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B07M8VBYM2.0.jpg"]
+          - strong
+            - link "(NOT A CASE) Original Concentrated Hot Curry Paste Tomato Cumin and Chile" [url="http://127.0.0.1:7770/not-a-case-original-concentrated-hot-curry-paste-tomato-cumin-and-chile.html"]
+              - StaticText "(NOT A CASE) Original Concentrated Hot Curry Paste Tomato Cumin and Chile"
+          - generic
+            - generic
+              - StaticText "$34.05"
+          - generic
+            - generic
+              - form
+                - button "Add to Cart"
+                  - StaticText "Add to Cart"
+            - generic
+              - link " Add to Wish List" [url="http://127.0.0.1:7770/?pbaocw=2#"]
+                - generic
+                  - StaticText ""
+                - StaticText "Add to Wish List"
+        - listitem [level=1]
+          - link "Image" [url="http://127.0.0.1:7770/chao-thai-coconut-powder-large-13-ounce.html"]
+            - generic
+              - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B008BFYXDG.0.jpg"]
+          - strong
+            - link "Chao Thai Coconut Powder, Large, 13 Ounce" [url="http://127.0.0.1:7770/chao-thai-coconut-powder-large-13-ounce.html"]
+              - StaticText "Chao Thai Coconut Powder, Large, 13 Ounce"
+          - LayoutTable
+            - generic
+              - StaticText "Rating:"
+              - generic
+                - generic
+                  - StaticText ""
+                - generic
+                  - StaticText ""
+                - StaticText "88%"
+            - generic
+              - link "12 Reviews" [url="http://127.0.0.1:7770/chao-thai-coconut-powder-large-13-ounce.html#reviews"]
+                - StaticText "12"
+                - StaticText "Reviews"
+          - generic
+            - generic
+              - StaticText "$10.99"
+          - generic
+            - generic
+              - form
+                - button "Add to Cart"
+                  - StaticText "Add to Cart"
+            - generic
+              - link " Add to Wish List" [url="http://127.0.0.1:7770/?pbaocw=2#"]
+                - generic
+                  - StaticText ""
+                - StaticText "Add to Wish List"
+        - listitem [level=1]
+          - link "Image" [url="http://127.0.0.1:7770/viva-doria-tellicherry-peppercorn-steam-sterilized-whole-black-pepper-black-peppercorns-12-oz-pepper-grinder.html"]
+            - generic
+              - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B07D5LJTJJ.0.jpg"]
+          - strong
+            - link "Viva Doria Tellicherry Peppercorn, Steam Sterilized Whole Black Pepper, Black Peppercorns, 12 Oz (Pepper+Grinder)" [url="http://127.0.0.1:7770/viva-doria-tellicherry-peppercorn-steam-sterilized-whole-black-pepper-black-peppercorns-12-oz-pepper-grinder.html"]
+              - StaticText "Viva Doria Tellicherry Peppercorn, Steam Sterilized Whole Black Pepper, Black Peppercorns, 12 Oz (Pepper+Grinder)"
+          - LayoutTable
+            - generic
+              - StaticText "Rating:"
+              - generic
+                - generic
+                  - StaticText ""
+                - generic
+                  - StaticText ""
+                - StaticText "93%"
+            - generic
+              - link "12 Reviews" [url="http://127.0.0.1:7770/viva-doria-tellicherry-peppercorn-steam-sterilized-whole-black-pepper-black-peppercorns-12-oz-pepper-grinder.html#reviews"]
+                - StaticText "12"
+                - StaticText "Reviews"
+          - generic
+            - generic
+              - StaticText "$12.99"
+          - generic
+            - generic
+              - form
+                - button "Add to Cart"
+                  - StaticText "Add to Cart"
+            - generic
+              - link " Add to Wish List" [url="http://127.0.0.1:7770/?pbaocw=2#"]
+                - generic
+                  - StaticText ""
+                - StaticText "Add to Wish List"
+        - listitem [level=1]
+          - link "Image" [url="http://127.0.0.1:7770/krusteaz-buttermilk-pancake-mix-10-lb.html"]
+            - generic
+              - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B073P44XTH.0.jpg"]
+          - strong
+            - link "Krusteaz Buttermilk Pancake Mix (10 lb.)" [url="http://127.0.0.1:7770/krusteaz-buttermilk-pancake-mix-10-lb.html"]
+              - StaticText "Krusteaz Buttermilk Pancake Mix (10 lb.)"
+          - LayoutTable
+            - generic
+              - StaticText "Rating:"
+              - generic
+                - generic
+                  - StaticText ""
+                - generic
+                  - StaticText ""
+                - StaticText "93%"
+            - generic
+              - link "12 Reviews" [url="http://127.0.0.1:7770/krusteaz-buttermilk-pancake-mix-10-lb.html#reviews"]
+                - StaticText "12"
+                - StaticText "Reviews"
+          - generic
+            - generic
+              - StaticText "$37.91"
+          - generic
+            - generic
+              - form
+                - button "Add to Cart"
+                  - StaticText "Add to Cart"
+            - generic
+              - link " Add to Wish List" [url="http://127.0.0.1:7770/?pbaocw=2#"]
+                - generic
+                  - StaticText ""
+                - StaticText "Add to Wish List"
+      - paragraph
+        - StaticText "Items 13 to 24 of 24 total"
+      - generic
+        - strong
+          - StaticText "Page"
+        - list "Page"
+          - listitem [level=1]
+            - link " Page Previous" [url="http://127.0.0.1:7770/"]
+              - generic
+                - StaticText ""
+              - StaticText "Page"
+              - StaticText "Previous"
+          - listitem [level=1]
+            - link "Page 1" [url="http://127.0.0.1:7770/"]
+              - StaticText "Page"
+              - StaticText "1"
+          - listitem [level=1]
+            - strong
+              - StaticText "You're currently reading page"
+              - StaticText "2"
+    - contentinfo
+      - form
+        - generic
+          - generic
+            - StaticText ""
+          - LabelText
+            - StaticText "Sign Up for Our Newsletter:"
+            - textbox "Sign Up for Our Newsletter:"
+              - generic
+        - generic
+          - button "Subscribe"
+            - StaticText "Subscribe"
+      - list
+        - listitem [level=1]
+          - link "Privacy and Cookie Policy" [url="http://127.0.0.1:7770/privacy-policy-cookie-restriction-mode/"]
+            - StaticText "Privacy and Cookie Policy"
+        - listitem [level=1]
+          - link "Search Terms" [url="http://127.0.0.1:7770/search/term/popular/"]
+            - StaticText "Search Terms"
+        - listitem [level=1]
+          - link "Advanced Search" [url="http://127.0.0.1:7770/catalogsearch/advanced/"]
+            - StaticText "Advanced Search"
+        - listitem [level=1]
+          - link "Orders and Returns" [url="http://127.0.0.1:7770/sales/guest/form/"]
+            - StaticText "Orders and Returns"
+        - listitem [level=1]
+          - link "Contact Us" [url="http://127.0.0.1:7770/contact/"]
+            - StaticText "Contact Us"
+      - generic
+        - StaticText "Copyright © 2013-present Magento, Inc. All rights reserved."
+      - generic
+        - StaticText "Help Us Keep Magento Healthy"
+        - StaticText
+        - link "Report All Bugs" [url="http://www.magentocommerce.com/bug-tracking"]
+          - StaticText "Report All Bugs"
+    - generic

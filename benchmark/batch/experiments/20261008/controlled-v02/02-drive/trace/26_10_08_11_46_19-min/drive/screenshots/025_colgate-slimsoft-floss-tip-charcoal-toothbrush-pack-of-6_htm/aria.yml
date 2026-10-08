@@ -1,0 +1,178 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - link "Skip to Content" [ref=e4] [cursor=pointer]:
+      - /url: "#contentarea"
+    - generic [ref=e5]:
+      - generic [ref=e6] [cursor=pointer]:
+        - text: 
+        - generic [ref=e7]: Toggle Nav
+      - link "store logo" [ref=e8] [cursor=pointer]:
+        - /url: http://127.0.0.1:7770/
+        - img "one_stop_market_logo" [ref=e9]
+      - generic [ref=e10]:
+        - link " My Cart" [ref=e11] [cursor=pointer]:
+          - /url: http://127.0.0.1:7770/checkout/cart/
+          - text: 
+          - generic [ref=e12]: My Cart
+        - text: 
+      - generic [ref=e16]:
+        - generic [ref=e17]:
+          - text: 
+          - generic [ref=e18]: Search
+        - combobox " Search" [ref=e20]
+  - tablist [ref=e22]:
+    - tab "Menu" [expanded] [ref=e23]:
+      - link "Menu" [ref=e24] [cursor=pointer]:
+        - /url: "#store.menu"
+    - tabpanel [ref=e25]:
+      - navigation [ref=e26]:
+        - menu [ref=e27]:
+          - listitem [ref=e28]:
+            - menuitem "Beauty & Personal Care " [ref=e29] [cursor=pointer]: Beauty & Personal Care 
+          - listitem [ref=e30]:
+            - menuitem "Sports & Outdoors " [ref=e31] [cursor=pointer]: Sports & Outdoors 
+          - listitem [ref=e32]:
+            - menuitem "Clothing, Shoes & Jewelry " [ref=e33] [cursor=pointer]: Clothing, Shoes & Jewelry 
+          - listitem [ref=e34]:
+            - menuitem "Home & Kitchen " [ref=e35] [cursor=pointer]: Home & Kitchen 
+          - listitem [ref=e36]:
+            - menuitem "Office Products " [ref=e37] [cursor=pointer]: Office Products 
+          - listitem [ref=e38]:
+            - menuitem "Tools & Home Improvement " [ref=e39] [cursor=pointer]: Tools & Home Improvement 
+          - listitem [ref=e40]:
+            - menuitem "Health & Household " [ref=e41] [cursor=pointer]: Health & Household 
+          - listitem [ref=e42]:
+            - menuitem "Patio, Lawn & Garden " [ref=e43] [cursor=pointer]: Patio, Lawn & Garden 
+          - listitem [ref=e44]:
+            - menuitem "Electronics " [ref=e45] [cursor=pointer]: Electronics 
+          - listitem [ref=e46]:
+            - menuitem "Cell Phones & Accessories " [ref=e47] [cursor=pointer]: Cell Phones & Accessories 
+          - listitem [ref=e48]:
+            - menuitem "Video Games " [ref=e49] [cursor=pointer]: Video Games 
+          - listitem [ref=e50]:
+            - menuitem "Grocery & Gourmet Food " [ref=e51] [cursor=pointer]: Grocery & Gourmet Food 
+    - tab "Account" [ref=e52]:
+      - link "Account" [ref=e53] [cursor=pointer]:
+        - /url: "#store.links"
+  - list [ref=e55]:
+    - listitem [ref=e56]:
+      - link "Home" [ref=e57] [cursor=pointer]:
+        - /url: http://127.0.0.1:7770/
+      - text: 
+    - listitem [ref=e58]:
+      - strong [ref=e59]: Colgate Slimsoft Floss-Tip Charcoal Toothbrush (Pack of 6)
+  - main [ref=e60]:
+    - heading "Colgate Slimsoft Floss-Tip Charcoal Toothbrush (Pack of 6)" [level=1] [ref=e62]
+    - generic [ref=e64]:
+      - generic [ref=e65]:
+        - generic [ref=e66]:
+          - generic [ref=e67]:
+            - generic "Availability" [ref=e68]: In stock
+            - generic [ref=e69]:
+              - strong [ref=e70]: SKU
+              - generic [ref=e71]: B086LJX6TL
+          - link "Be the first to review this product" [ref=e74] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/colgate-slimsoft-floss-tip-charcoal-toothbrush-pack-of-6.html#review-form
+          - generic [ref=e77]: $10.72
+        - generic [ref=e81]:
+          - generic [ref=e82]:
+            - generic [ref=e83]: Qty
+            - spinbutton "Qty" [ref=e85]: "1"
+          - button "Add to Cart" [ref=e87] [cursor=pointer]
+        - link "Add to Wish List" [ref=e90] [cursor=pointer]:
+          - /url: "#"
+      - generic [ref=e91]:
+        - link "Skip to the end of the images gallery" [ref=e92] [cursor=pointer]:
+          - /url: "#gallery-next-area"
+        - generic [ref=e95]:
+          - generic [ref=e96]:
+            - button "Previous" [ref=e97] [cursor=pointer]
+            - generic [ref=e99]:
+              - img "Image" [ref=e101]
+              - img [ref=e103]
+            - button "Next"
+          - generic [ref=e106]:
+            - button "Image" [ref=e107]
+            - button "Image" [ref=e109]
+        - link "Skip to the beginning of the images gallery" [ref=e111] [cursor=pointer]:
+          - /url: "#gallery-prev-area"
+      - tablist [ref=e113]:
+        - tab "Details" [ref=e114]:
+          - link "Details" [ref=e115] [cursor=pointer]:
+            - /url: "#description"
+        - tab "Reviews" [expanded] [selected] [ref=e151]:
+          - link "Reviews" [active] [ref=e152] [cursor=pointer]:
+            - /url: "#reviews"
+        - tabpanel "Reviews" [ref=e179]:
+          - generic [ref=e182]:
+            - 'group "You''re reviewing: Colgate Slimsoft Floss-Tip Charcoal Toothbrush (Pack of 6)" [ref=e183]':
+              - generic [ref=e184]:
+                - text: "You're reviewing:"
+                - strong [ref=e185]: Colgate Slimsoft Floss-Tip Charcoal Toothbrush (Pack of 6)
+              - group "Your Rating*" [ref=e186]:
+                - generic [ref=e187]: Your Rating*
+                - generic [ref=e190]:
+                  - generic [ref=e191]: Rating
+                  - generic:
+                    - text: 
+                    - radio "Rating  1 star" [ref=e192]
+                    - generic "1 star" [ref=e193] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e194]: 1 star
+                    - radio "Rating  2 stars" [ref=e195]
+                    - generic "2 stars" [ref=e196] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e197]: 2 stars
+                    - radio "Rating  3 stars" [ref=e198]
+                    - generic "3 stars" [ref=e199] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e200]: 3 stars
+                    - radio "Rating  4 stars" [ref=e201]
+                    - generic "4 stars" [ref=e202] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e203]: 4 stars
+                    - radio "Rating  5 stars" [ref=e204]
+                    - generic "5 stars" [ref=e205] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e206]: 5 stars
+              - generic [ref=e207]:
+                - generic [ref=e208]: Nickname*
+                - textbox "Nickname*" [ref=e210]
+              - generic [ref=e211]:
+                - generic [ref=e212]: Summary*
+                - textbox "Summary*" [ref=e214]
+              - generic [ref=e215]:
+                - generic [ref=e216]: Review*
+                - textbox "Review*" [ref=e218]
+            - button "Submit Review" [ref=e221] [cursor=pointer]
+  - contentinfo [ref=e153]:
+    - generic [ref=e154]:
+      - generic [ref=e157]:
+        - generic [ref=e159]:
+          - text: 
+          - generic [ref=e160]:
+            - generic [ref=e161]: "Sign Up for Our Newsletter:"
+            - textbox "Sign Up for Our Newsletter:" [ref=e162]:
+              - /placeholder: Enter your email address
+        - button "Subscribe" [ref=e164] [cursor=pointer]
+      - list [ref=e165]:
+        - listitem [ref=e166]:
+          - link "Privacy and Cookie Policy" [ref=e167] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/privacy-policy-cookie-restriction-mode/
+        - listitem [ref=e168]:
+          - link "Search Terms" [ref=e169] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/search/term/popular/
+        - listitem [ref=e170]:
+          - link "Advanced Search" [ref=e171] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/catalogsearch/advanced/
+        - listitem [ref=e172]:
+          - link "Orders and Returns" [ref=e173] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/sales/guest/form/
+        - listitem [ref=e174]:
+          - link "Contact Us" [ref=e175] [cursor=pointer]:
+            - /url: http://127.0.0.1:7770/contact/
+      - generic [ref=e176]: Copyright © 2013-present Magento, Inc. All rights reserved.
+      - generic [ref=e177]:
+        - text: Help Us Keep Magento Healthy
+        - link "Report All Bugs" [ref=e178] [cursor=pointer]:
+          - /url: http://www.magentocommerce.com/bug-tracking

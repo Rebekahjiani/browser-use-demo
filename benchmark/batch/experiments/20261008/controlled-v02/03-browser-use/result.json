@@ -1,0 +1,41 @@
+{
+  "stop_reason": "agent_done",
+  "errors": [
+    "Model output was truncated at max_completion_tokens=4096; the structured output is incomplete. Increase max_completion_tokens or request shorter output.",
+    "Model output was truncated at max_completion_tokens=4096; the structured output is incomplete. Increase max_completion_tokens or request shorter output.",
+    "Model output was truncated at max_completion_tokens=4096; the structured output is incomplete. Increase max_completion_tokens or request shorter output."
+  ],
+  "profile_ids": [
+    "995f9c8a-2701-4347-aed0-b1aeeac97351"
+  ],
+  "steps": 31,
+  "tool_attempts": 27,
+  "pages_visited": 9,
+  "visited_urls": [
+    "http://127.0.0.1:7770/",
+    "http://127.0.0.1:7770/catalogsearch/result/?q=camera",
+    "http://127.0.0.1:7770/checkout/cart/",
+    "http://127.0.0.1:7770/electronics.html",
+    "http://127.0.0.1:7770/electronics.html?cat=55&p=2&price=0-10000&product_list_order=price",
+    "http://127.0.0.1:7770/electronics.html?cat=55&price=0-10000&product_list_order=price",
+    "http://127.0.0.1:7770/electronics.html?price=0-10000&product_list_order=price",
+    "http://127.0.0.1:7770/electronics.html?product_list_order=price",
+    "http://127.0.0.1:7770/sugoi-80x100-mini-portable-monocular-handheld-telescope-bak4-prism-fmc-waterproof-shockproof-scope-for-birds-animals-watching-hunting-camping-travelling-scenery.html"
+  ],
+  "elapsed_including_cleanup_s": 715.6410000000615,
+  "exploration_s": 715.155999999959,
+  "capture_errors": 0,
+  "unattached_targets": [],
+  "trace_quality": [
+    {
+      "path": "trace\\26_10_08_12_28_36-min\\trace.segments.summary.json",
+      "totalSegments": 48,
+      "failedSegments": 0,
+      "maxSwitchGapMs": 3779,
+      "dataLossOccurred": true
+    }
+  ],
+  "evidence_needs_review": true,
+  "agent_claimed_success": true,
+  "finished_at": "2026-10-08T04:40:33.561441+00:00"
+}

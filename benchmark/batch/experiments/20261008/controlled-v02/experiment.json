@@ -1,0 +1,15 @@
+{
+  "version": "controlled-shopping-v02",
+  "role": "controlled exploration; three independent repeats per strategy",
+  "model": "sophnet/DeepSeek-V4-Flash-0731",
+  "permissions": "query submission only; shared request boundary",
+  "repeats": 3,
+  "max_actions": 200,
+  "max_pages": 100,
+  "max_minutes": 30,
+  "gold": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\coverage-v4\\gold.v1.json",
+  "gold_sha256": "c502eaf02ca56971fb80d5960391c218ecb2e78b4eb52f85b0adbfd75f0c2974",
+  "mapping": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\ground-truth-vnext\\db-ui-mapping.v3.json",
+  "engine": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\coverage-v4\\score.py",
+  "contract_bundle": "C:\\Users\\bulin\\browser-use-demo\\benchmark\\batch\\bundles\\contract-v02"
+}

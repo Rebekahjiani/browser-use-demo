@@ -1,0 +1,610 @@
+- RootWebArea "Beauty & Personal Care" [url="http://127.0.0.1:7770/beauty-personal-care.html"]
+  - generic
+    - banner
+      - generic
+        - link "Skip to Content" [url="http://127.0.0.1:7770/beauty-personal-care.html#contentarea"]
+          - StaticText "Skip to Content"
+      - generic
+        - generic
+          - generic
+            - StaticText ""
+          - StaticText "Toggle Nav"
+        - link "store logo" [url="http://127.0.0.1:7770/"]
+          - image "one_stop_market_logo" [url="http://127.0.0.1:7770/media/logo/websites/1/image_15__1.png"]
+        - generic
+          - link " My Cart" [url="http://127.0.0.1:7770/checkout/cart/"]
+            - generic
+              - StaticText ""
+            - StaticText "My Cart"
+        - form
+          - LabelText
+            - generic
+              - StaticText ""
+            - StaticText "Search"
+          - generic
+            - combobox " Search" [expanded=false]
+              - generic
+    - generic
+      - tablist
+        - tab "Menu" [selected=false] [expanded=true]
+          - link "Menu" [url="http://127.0.0.1:7770/beauty-personal-care.html#store.menu"]
+            - StaticText "Menu"
+        - tabpanel
+          - navigation
+            - menu
+              - menuitem "BEAUTY & PERSONAL CARE "
+                - StaticText "BEAUTY & PERSONAL CARE"
+                - generic
+                  - StaticText ""
+              - menuitem "SPORTS & OUTDOORS "
+                - StaticText "SPORTS & OUTDOORS"
+                - generic
+                  - StaticText ""
+              - menuitem "CLOTHING, SHOES & JEWELRY "
+                - StaticText "CLOTHING, SHOES & JEWELRY"
+                - generic
+                  - StaticText ""
+              - menuitem "HOME & KITCHEN "
+                - StaticText "HOME & KITCHEN"
+                - generic
+                  - StaticText ""
+              - menuitem "OFFICE PRODUCTS "
+                - StaticText "OFFICE PRODUCTS"
+                - generic
+                  - StaticText ""
+              - menuitem "TOOLS & HOME IMPROVEMENT "
+                - StaticText "TOOLS & HOME IMPROVEMENT"
+                - generic
+                  - StaticText ""
+              - menuitem "HEALTH & HOUSEHOLD "
+                - StaticText "HEALTH & HOUSEHOLD"
+                - generic
+                  - StaticText ""
+              - menuitem "PATIO, LAWN & GARDEN "
+                - StaticText "PATIO, LAWN & GARDEN"
+                - generic
+                  - StaticText ""
+              - menuitem "ELECTRONICS "
+                - StaticText "ELECTRONICS"
+                - generic
+                  - StaticText ""
+              - menuitem "CELL PHONES & ACCESSORIES "
+                - StaticText "CELL PHONES & ACCESSORIES"
+                - generic
+                  - StaticText ""
+              - menuitem "VIDEO GAMES "
+                - StaticText "VIDEO GAMES"
+                - generic
+                  - StaticText ""
+              - menuitem "GROCERY & GOURMET FOOD "
+                - StaticText "GROCERY & GOURMET FOOD"
+                - generic
+                  - StaticText ""
+        - tab "Account" [selected=false] [expanded=false]
+          - link "Account" [url="http://127.0.0.1:7770/beauty-personal-care.html#store.links"]
+            - StaticText "Account"
+    - list
+      - listitem [level=1]
+        - link "Home" [url="http://127.0.0.1:7770/"]
+          - StaticText "Home"
+        - generic
+          - StaticText ""
+      - listitem [level=1]
+        - strong
+          - StaticText "Beauty & Personal Care"
+    - main
+      - generic
+      - heading "Beauty & Personal Care Items 1-12 of 21796" [level=1]
+        - StaticText "Beauty & Personal Care"
+      - generic
+        - paragraph
+          - StaticText "Items"
+          - StaticText "1"
+          - StaticText "-"
+          - StaticText "12"
+          - StaticText "of"
+          - StaticText "21796"
+        - generic
+          - LabelText
+            - StaticText "Sort By"
+          - combobox "Sort By" [expanded=false] [value="Position"]
+            - MenuListPopup
+              - option "Position" [selected=true]
+              - option "Product Name" [selected=false]
+              - option "Price" [selected=false]
+          - link " Set Descending Direction" [url="http://127.0.0.1:7770/beauty-personal-care.html#"]
+            - generic
+              - StaticText ""
+            - StaticText "Set Descending Direction"
+        - list
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/tweezers-for-succulents-duo.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B0912T6WWG.0.jpg"]
+              - strong
+                - link "Tweezers For Succulents Duo" [url="http://127.0.0.1:7770/tweezers-for-succulents-duo.html"]
+                  - StaticText "Tweezers For Succulents Duo"
+              - generic
+                - generic
+                  - StaticText "$19.99"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/jsy-foldable-bath-body-brush-portable-massager-brush-with-long-handle-for-wet-dry-brush-bath-body-brushes-color-green.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B099P8KYD6.0.jpg"]
+              - strong
+                - link "JSY Foldable Bath Body Brush Portable Massager Brush with Long Handle for Wet Dry Brush Bath & Body Brushes (Color : Green)" [url="http://127.0.0.1:7770/jsy-foldable-bath-body-brush-portable-massager-brush-with-long-handle-for-wet-dry-brush-bath-body-brushes-color-green.html"]
+                  - StaticText "JSY Foldable Bath Body Brush Portable Massager Brush with Long Handle for Wet Dry Brush Bath & Body Brushes (Color : Green)"
+              - generic
+                - generic
+                  - StaticText "$17.19"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/body-exfoliating-washcloth-mitt-soft-dual-sided-wet-dry-face-body-exfoliator-body-scrubber-exfoliating-cloth-pad.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B07WWVL6S3.0.jpg"]
+              - strong
+                - link "BODY Exfoliating Washcloth Mitt, Soft Dual-Sided Wet & Dry Face & Body Exfoliator - Body Scrubber Exfoliating Cloth Pad" [url="http://127.0.0.1:7770/body-exfoliating-washcloth-mitt-soft-dual-sided-wet-dry-face-body-exfoliator-body-scrubber-exfoliating-cloth-pad.html"]
+                  - StaticText "BODY Exfoliating Washcloth Mitt, Soft Dual-Sided Wet & Dry Face & Body Exfoliator - Body Scrubber Exfoliating Cloth Pad"
+              - generic
+                - generic
+                  - StaticText "$22.00"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/lip-balm-containers-refillable-transparent-cosmetic-containers-empty-with-lids-for-earrings-for-travel-use-for-cosmetics.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B09HMK42K8.0.jpg"]
+              - strong
+                - link "Lip Balm Containers, Refillable Transparent Cosmetic Containers Empty with Lids for Earrings for Travel Use for Cosmetics" [url="http://127.0.0.1:7770/lip-balm-containers-refillable-transparent-cosmetic-containers-empty-with-lids-for-earrings-for-travel-use-for-cosmetics.html"]
+                  - StaticText "Lip Balm Containers, Refillable Transparent Cosmetic Containers Empty with Lids for Earrings for Travel Use for Cosmetics"
+              - generic
+                - generic
+                  - StaticText "$14.59"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/surethik-15g-hair-thickening-fiber-black-and-holding-spray-3oz-bundle.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B09C6L71YS.0.jpg"]
+              - strong
+                - link "SureThik 15g Hair Thickening Fiber (Black) and Holding Spray (3oz) Bundle" [url="http://127.0.0.1:7770/surethik-15g-hair-thickening-fiber-black-and-holding-spray-3oz-bundle.html"]
+                  - StaticText "SureThik 15g Hair Thickening Fiber (Black) and Holding Spray (3oz) Bundle"
+              - generic
+                - generic
+                  - StaticText "$32.00"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/vesunny-tape-in-hair-extensions-ombre-blonde-silky-straight-tape-on-hair-extensions-brown-to-blonde-ombre-double-sided-tape-in-human-hair-extensions-platinum-blonde-ombre-16inch-20pcs-50g.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B07PYZDGRG.0.jpg"]
+              - strong
+                - link "VeSunny Tape in Hair Extensions Ombre Blonde Silky Straight Tape on Hair Extensions Brown to Blonde Ombre Double Sided Tape in Human Hair Extensions Platinum Blonde Ombre 16inch 20pcs 50g" [url="http://127.0.0.1:7770/vesunny-tape-in-hair-extensions-ombre-blonde-silky-straight-tape-on-hair-extensions-brown-to-blonde-ombre-double-sided-tape-in-human-hair-extensions-platinum-blonde-ombre-16inch-20pcs-50g.html"]
+                  - StaticText "VeSunny Tape in Hair Extensions Ombre Blonde Silky Straight Tape on Hair Extensions Brown to Blonde Ombre Double Sided Tape in Human Hair Extensions Platinum Blonde Ombre 16inch 20pcs 50g"
+              - generic
+                - generic
+                  - StaticText "$51.99"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/mineralogie-all-natural-lip-gloss-ruby-rose.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B0848QB12J.0.jpg"]
+              - strong
+                - link "Mineralogie All Natural Lip Gloss, Ruby Rose" [url="http://127.0.0.1:7770/mineralogie-all-natural-lip-gloss-ruby-rose.html"]
+                  - StaticText "Mineralogie All Natural Lip Gloss, Ruby Rose"
+              - LayoutTable
+                - generic
+                  - StaticText "Rating:"
+                  - generic
+                    - generic
+                      - StaticText ""
+                    - generic
+                      - StaticText ""
+                    - StaticText "73%"
+                - generic
+                  - link "3 Reviews" [url="http://127.0.0.1:7770/mineralogie-all-natural-lip-gloss-ruby-rose.html#reviews"]
+                    - StaticText "3"
+                    - StaticText "Reviews"
+              - generic
+                - generic
+                  - StaticText "$20.00"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/srurllug-tabletop-vanity-mirror-brightness-adjustable-portable-mirrors-for-travel-with-3-color-lighting-modes-and-usb-rechargeable-makeup-mirror-smart-touch-control-360-rotation-white.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B09P54Y7SS.0.jpg"]
+              - strong
+                - link "SRURLLUG Tabletop Vanity Mirror Brightness Adjustable Portable Mirrors for Travel with 3 Color Lighting Modes and USB Rechargeable Makeup Mirror Smart Touch Control 360°Rotation,White" [url="http://127.0.0.1:7770/srurllug-tabletop-vanity-mirror-brightness-adjustable-portable-mirrors-for-travel-with-3-color-lighting-modes-and-usb-rechargeable-makeup-mirror-smart-touch-control-360-rotation-white.html"]
+                  - StaticText "SRURLLUG Tabletop Vanity Mirror Brightness Adjustable Portable Mirrors for Travel with 3 Color Lighting Modes and USB Rechargeable Makeup Mirror Smart Touch Control 360°Rotation,White"
+              - generic
+                - generic
+                  - StaticText "$61.18"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/petansy-3-packs-aloe-vera-lipstick-lips-moisturizer-long-lasting-nutritious-lip-balm-magic-temperature-color-change-lip-gloss-set-a.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B08GHD7MWP.0.jpg"]
+              - strong
+                - link "Petansy 3 Packs Aloe Vera Lipstick , Lips Moisturizer Long Lasting Nutritious Lip Balm Magic Temperature Color Change Lip Gloss-Set(A)" [url="http://127.0.0.1:7770/petansy-3-packs-aloe-vera-lipstick-lips-moisturizer-long-lasting-nutritious-lip-balm-magic-temperature-color-change-lip-gloss-set-a.html"]
+                  - StaticText "Petansy 3 Packs Aloe Vera Lipstick , Lips Moisturizer Long Lasting Nutritious Lip Balm Magic Temperature Color Change Lip Gloss-Set(A)"
+              - LayoutTable
+                - generic
+                  - StaticText "Rating:"
+                  - generic
+                    - generic
+                      - StaticText ""
+                    - generic
+                      - StaticText ""
+                    - StaticText "68%"
+                - generic
+                  - link "12 Reviews" [url="http://127.0.0.1:7770/petansy-3-packs-aloe-vera-lipstick-lips-moisturizer-long-lasting-nutritious-lip-balm-magic-temperature-color-change-lip-gloss-set-a.html#reviews"]
+                    - StaticText "12"
+                    - StaticText "Reviews"
+              - generic
+                - generic
+                  - StaticText "$13.89"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/soft-clean-between-interdental-floss-brushes-random-color-oral-care-tool-20-pcs-2-pack-elastic-massage-gums-toothpick-2-box.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B073QTWJ2Y.0.jpg"]
+              - strong
+                - link "Soft Clean Between Interdental Floss Brushes Random Color Oral Care Tool 20 PCS/ 2 Pack Elastic Massage Gums Toothpick (2 box)" [url="http://127.0.0.1:7770/soft-clean-between-interdental-floss-brushes-random-color-oral-care-tool-20-pcs-2-pack-elastic-massage-gums-toothpick-2-box.html"]
+                  - StaticText "Soft Clean Between Interdental Floss Brushes Random Color Oral Care Tool 20 PCS/ 2 Pack Elastic Massage Gums Toothpick (2 box)"
+              - generic
+                - generic
+                  - StaticText "$8.90"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/xzp-4-pack-larger-thicker-rapid-hair-wrap-towels-drying-women-long-thick-curly-hair-magic-instant-dry-hair-towel-caps-anti-frizz-fast-drying-microfiber-turban-wet-hair-wrap-towels-quick-drying.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B08LV1LR8C.0.jpg"]
+              - strong
+                - link "XZP 4 Pack Larger Thicker Rapid Hair Wrap Towels Drying Women Long Thick Curly Hair Magic Instant Dry Hair Towel Caps Anti Frizz Fast Drying Microfiber Turban Wet Hair Wrap Towels Quick Drying" [url="http://127.0.0.1:7770/xzp-4-pack-larger-thicker-rapid-hair-wrap-towels-drying-women-long-thick-curly-hair-magic-instant-dry-hair-towel-caps-anti-frizz-fast-drying-microfiber-turban-wet-hair-wrap-towels-quick-drying.html"]
+                  - StaticText "XZP 4 Pack Larger Thicker Rapid Hair Wrap Towels Drying Women Long Thick Curly Hair Magic Instant Dry Hair Towel Caps Anti Frizz Fast Drying Microfiber Turban Wet Hair Wrap Towels Quick Drying"
+              - generic
+                - generic
+                  - StaticText "$19.99"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+          - listitem [level=1]
+            - generic
+              - link "Image" [url="http://127.0.0.1:7770/the-super-dentists-electric-toothbrush-electric-toothbrush-with-rotating-head-for-children-tweens-teens-dr-haveonesupersmile.html"]
+                - generic
+                  - image "Image" [url="http://127.0.0.1:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B08TVYFH3X.0.jpg"]
+              - strong
+                - link "The Super Dentists Electric Toothbrush, Electric Toothbrush with Rotating Head for Children, Tweens, & Teens (Dr. HaveOneSuperSmile)" [url="http://127.0.0.1:7770/the-super-dentists-electric-toothbrush-electric-toothbrush-with-rotating-head-for-children-tweens-teens-dr-haveonesupersmile.html"]
+                  - StaticText "The Super Dentists Electric Toothbrush, Electric Toothbrush with Rotating Head for Children, Tweens, & Teens (Dr. HaveOneSuperSmile)"
+              - generic
+                - generic
+                  - StaticText "$16.99"
+              - generic
+                - generic
+                  - form
+                    - button "Add to Cart"
+                      - StaticText "Add to Cart"
+                - generic
+                  - button "Add to Wish List"
+                    - generic
+                      - StaticText ""
+                    - StaticText "Add to Wish List"
+        - generic
+          - strong
+            - StaticText "Page"
+          - list "Page"
+            - listitem [level=1]
+              - strong
+                - StaticText "You're currently reading page"
+                - StaticText "1"
+            - listitem [level=1]
+              - link "Page 2" [url="http://127.0.0.1:7770/beauty-personal-care.html?p=2"]
+                - StaticText "Page"
+                - StaticText "2"
+            - listitem [level=1]
+              - link "Page 3" [url="http://127.0.0.1:7770/beauty-personal-care.html?p=3"]
+                - StaticText "Page"
+                - StaticText "3"
+            - listitem [level=1]
+              - link "Page 4" [url="http://127.0.0.1:7770/beauty-personal-care.html?p=4"]
+                - StaticText "Page"
+                - StaticText "4"
+            - listitem [level=1]
+              - link "Page 5" [url="http://127.0.0.1:7770/beauty-personal-care.html?p=5"]
+                - StaticText "Page"
+                - StaticText "5"
+            - listitem [level=1]
+              - link " Page Next" [url="http://127.0.0.1:7770/beauty-personal-care.html?p=2"]
+                - generic
+                  - StaticText ""
+                - StaticText "Page"
+                - StaticText "Next"
+        - generic
+          - strong
+            - StaticText "Shop By"
+        - heading "Shopping Options" [level=2]
+          - StaticText "Shopping Options"
+        - DescriptionList
+          - heading "Category" [level=3]
+            - StaticText "Category"
+          - definition
+            - list
+              - listitem [level=1]
+                - link "Oral Care( 3125 item )" [url="http://127.0.0.1:7770/beauty-personal-care.html?cat=15"]
+                  - StaticText "Oral Care"
+                  - StaticText "("
+                  - StaticText "3125"
+                  - StaticText "item"
+                  - StaticText ")"
+              - listitem [level=1]
+                - link "Skin Care( 3074 item )" [url="http://127.0.0.1:7770/beauty-personal-care.html?cat=16"]
+                  - StaticText "Skin Care"
+                  - StaticText "("
+                  - StaticText "3074"
+                  - StaticText "item"
+                  - StaticText ")"
+              - listitem [level=1]
+                - link "Makeup( 1883 item )" [url="http://127.0.0.1:7770/beauty-personal-care.html?cat=17"]
+                  - StaticText "Makeup"
+                  - StaticText "("
+                  - StaticText "1883"
+                  - StaticText "item"
+                  - StaticText ")"
+              - listitem [level=1]
+                - link "Foot, Hand & Nail Care( 794 item )" [url="http://127.0.0.1:7770/beauty-personal-care.html?cat=18"]
+                  - StaticText "Foot, Hand & Nail Care"
+                  - StaticText "("
+                  - StaticText "794"
+                  - StaticText "item"
+                  - StaticText ")"
+              - listitem [level=1]
+                - link "Hair Care( 4912 item )" [url="http://127.0.0.1:7770/beauty-personal-care.html?cat=19"]
+                  - StaticText "Hair Care"
+                  - StaticText "("
+                  - StaticText "4912"
+                  - StaticText "item"
+                  - StaticText ")"
+              - listitem [level=1]
+                - link "Tools & Accessories( 3451 item )" [url="http://127.0.0.1:7770/beauty-personal-care.html?cat=20"]
+                  - StaticText "Tools & Accessories"
+                  - StaticText "("
+                  - StaticText "3451"
+                  - StaticText "item"
+                  - StaticText ")"
+              - listitem [level=1]
+                - link "Fragrance( 1311 item )" [url="http://127.0.0.1:7770/beauty-personal-care.html?cat=21"]
+                  - StaticText "Fragrance"
+                  - StaticText "("
+                  - StaticText "1311"
+                  - StaticText "item"
+                  - StaticText ")"
+              - listitem [level=1]
+                - link "Personal Care( 1838 item )" [url="http://127.0.0.1:7770/beauty-personal-care.html?cat=22"]
+                  - StaticText "Personal Care"
+                  - StaticText "("
+                  - StaticText "1838"
+                  - StaticText "item"
+                  - StaticText ")"
+              - listitem [level=1]
+                - link "Shave & Hair Removal( 799 item )" [url="http://127.0.0.1:7770/beauty-personal-care.html?cat=23"]
+                  - StaticText "Shave & Hair Removal"
+                  - StaticText "("
+                  - StaticText "799"
+                  - StaticText "item"
+                  - StaticText ")"
+              - listitem [level=1]
+                - link "Salon & Spa Equipment( 609 item )" [url="http://127.0.0.1:7770/beauty-personal-care.html?cat=24"]
+                  - StaticText "Salon & Spa Equipment"
+                  - StaticText "("
+                  - StaticText "609"
+                  - StaticText "item"
+                  - StaticText ")"
+          - heading "Price" [level=3]
+            - StaticText "Price"
+          - definition
+            - list
+              - listitem [level=1]
+                - link "$0.00 - $999.99( 21743 item )" [url="http://127.0.0.1:7770/beauty-personal-care.html?price=0-1000"]
+                  - StaticText "$0.00"
+                  - StaticText "-"
+                  - StaticText "$999.99"
+                  - StaticText "("
+                  - StaticText "21743"
+                  - StaticText "item"
+                  - StaticText ")"
+              - listitem [level=1]
+                - link "$1,000.00 - $1,999.99( 41 item )" [url="http://127.0.0.1:7770/beauty-personal-care.html?price=1000-2000"]
+                  - StaticText "$1,000.00"
+                  - StaticText "-"
+                  - StaticText "$1,999.99"
+                  - StaticText "("
+                  - StaticText "41"
+                  - StaticText "item"
+                  - StaticText ")"
+              - listitem [level=1]
+                - link "$2,000.00 - $2,999.99( 8 item )" [url="http://127.0.0.1:7770/beauty-personal-care.html?price=2000-3000"]
+                  - StaticText "$2,000.00"
+                  - StaticText "-"
+                  - StaticText "$2,999.99"
+                  - StaticText "("
+                  - StaticText "8"
+                  - StaticText "item"
+                  - StaticText ")"
+              - listitem [level=1]
+                - link "$3,000.00 - $3,999.99( 2 item )" [url="http://127.0.0.1:7770/beauty-personal-care.html?price=3000-4000"]
+                  - StaticText "$3,000.00"
+                  - StaticText "-"
+                  - StaticText "$3,999.99"
+                  - StaticText "("
+                  - StaticText "2"
+                  - StaticText "item"
+                  - StaticText ")"
+              - listitem [level=1]
+                - link "$4,000.00 - $4,999.99( 1 item )" [url="http://127.0.0.1:7770/beauty-personal-care.html?price=4000-5000"]
+                  - StaticText "$4,000.00"
+                  - StaticText "-"
+                  - StaticText "$4,999.99"
+                  - StaticText "("
+                  - StaticText "1"
+                  - StaticText "item"
+                  - StaticText ")"
+              - listitem [level=1]
+                - link "$9,000.00 and above( 1 item )" [url="http://127.0.0.1:7770/beauty-personal-care.html?price=9000-10000"]
+                  - StaticText "$9,000.00"
+                  - StaticText "and above"
+                  - StaticText "("
+                  - StaticText "1"
+                  - StaticText "item"
+                  - StaticText ")"
+        - generic
+          - heading "Compare Products" [level=2]
+            - StaticText "Compare Products"
+        - generic
+          - StaticText "You have no items to compare."
+        - generic
+          - heading "My Wish List" [level=2]
+            - StaticText "My Wish List"
+        - generic
+          - StaticText "You have no items in your wish list."
+    - contentinfo
+      - form
+        - generic
+          - generic
+            - StaticText ""
+          - LabelText
+            - StaticText "Sign Up for Our Newsletter:"
+            - textbox "Sign Up for Our Newsletter:"
+              - generic
+        - generic
+          - button "Subscribe"
+            - StaticText "Subscribe"
+      - list
+        - listitem [level=1]
+          - link "Privacy and Cookie Policy" [url="http://127.0.0.1:7770/privacy-policy-cookie-restriction-mode/"]
+            - StaticText "Privacy and Cookie Policy"
+        - listitem [level=1]
+          - link "Search Terms" [url="http://127.0.0.1:7770/search/term/popular/"]
+            - StaticText "Search Terms"
+        - listitem [level=1]
+          - link "Advanced Search" [url="http://127.0.0.1:7770/catalogsearch/advanced/"]
+            - StaticText "Advanced Search"
+        - listitem [level=1]
+          - link "Orders and Returns" [url="http://127.0.0.1:7770/sales/guest/form/"]
+            - StaticText "Orders and Returns"
+        - listitem [level=1]
+          - link "Contact Us" [url="http://127.0.0.1:7770/contact/"]
+            - StaticText "Contact Us"
+      - generic
+        - StaticText "Copyright © 2013-present Magento, Inc. All rights reserved."
+      - generic
+        - StaticText "Help Us Keep Magento Healthy"
+        - StaticText
+        - link "Report All Bugs" [url="http://www.magentocommerce.com/bug-tracking"]
+          - StaticText "Report All Bugs"
+    - generic
